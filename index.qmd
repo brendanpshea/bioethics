@@ -1,0 +1,38 @@
+---
+title: "Bioethics: An Open Educational Resource"
+subtitle: "Course Notes and Lecture Slides"
+author: "Brendan Shea, PhD"
+date: last-modified
+---
+
+## About This Course
+
+This is an open educational resource (OER) for a course in **bioethics** — the study of ethical issues arising from advances in biology, medicine, and healthcare.
+
+All materials are freely available for non-commercial educational use under a [Creative Commons BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/).
+
+---
+
+## Course Materials
+
+| Chapter | Topic | Slides | Notes |
+|---------|-------|--------|-------|
+| 1 | Introduction to Bioethics | [Slides](chapters/01-introduction-slides.html) | [Notes](chapters/01-introduction.html) |
+
+---
+
+## How to Use These Materials
+
+- **Slides** are built with [reveal.js](https://revealjs.com/) — press `F` for fullscreen, `S` for speaker notes, `?` for all shortcuts.
+- **Notes** are the full HTML version with a table of contents.
+- All source files (`.qmd`) are available on [GitHub](https://github.com/brendanpshea/bioethics-oer).
+
+---
+
+## License
+
+[![CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+
+You are free to share and adapt these materials for non-commercial purposes, provided you give appropriate credit.

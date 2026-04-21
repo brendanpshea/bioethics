@@ -1,0 +1,103 @@
+---
+title: "Introduction to Bioethics"
+subtitle: "What Is Bioethics and Why Does It Matter?"
+author: "Brendan Shea, PhD"
+date: last-modified
+format:
+  html:
+    toc: true
+    number-sections: true
+  revealjs:
+    output-file: 01-introduction-slides.html
+---
+
+## What Is Bioethics? {.slide}
+
+**Bioethics** is the systematic study of ethical questions arising from:
+
+- Advances in medicine and medical technology
+- Biological research and biotechnology
+- Healthcare policy and resource allocation
+- The human relationship with living organisms and the environment
+
+::: {.notes}
+Speaker notes: Introduce the field and why it has grown in importance since the mid-20th century. Mention the Nuremberg Code and Tuskegee as historical catalysts.
+:::
+
+---
+
+## Core Ethical Frameworks {.slide}
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Consequentialism**
+
+- Judges actions by outcomes
+- "The greatest good for the greatest number"
+- Key figure: John Stuart Mill
+:::
+
+::: {.column width="50%"}
+**Deontology**
+
+- Judges actions by duties and rules
+- Rights are inviolable regardless of outcomes
+- Key figure: Immanuel Kant
+:::
+
+::::
+
+---
+
+## The Four Principles of Bioethics {.slide}
+
+Proposed by Beauchamp & Childress (1979):
+
+1. **Autonomy** — respect for the patient's right to make informed decisions
+2. **Beneficence** — act in the patient's best interest
+3. **Non-maleficence** — "first, do no harm"
+4. **Justice** — fair distribution of benefits and burdens
+
+::: {.callout-note}
+These four principles form the foundation of most clinical ethics reasoning in the United States and much of the world.
+:::
+
+---
+
+## Historical Milestones {.slide}
+
+| Year | Event |
+|------|-------|
+| 1947 | Nuremberg Code — informed consent in research |
+| 1964 | Declaration of Helsinki — research ethics standards |
+| 1972 | Tuskegee syphilis study exposed |
+| 1979 | Belmont Report published |
+| 1990 | Human Genome Project begins |
+
+---
+
+## Key Themes in This Course {.slide}
+
+- Informed consent and patient autonomy
+- End-of-life ethics
+- Genetic ethics and emerging biotechnology
+- Research ethics
+- Healthcare justice and access
+- Animal ethics and environmental bioethics
+
+---
+
+## Discussion Questions {.slide}
+
+1. What makes a bioethical problem different from a purely medical or purely ethical problem?
+2. Can the four principles ever conflict? Give an example.
+3. Why might ethical frameworks from different cultures reach different conclusions about the same clinical case?
+
+---
+
+## Further Reading
+
+- Beauchamp, T. L., & Childress, J. F. (2019). *Principles of Biomedical Ethics* (8th ed.). Oxford University Press.
+- Jonsen, A. R. (1998). *The Birth of Bioethics*. Oxford University Press.
+- National Commission for the Protection of Human Subjects. (1979). [*The Belmont Report*](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html).

@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Bioethics: An Open Educational Resource"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: chapters/01-introduction.qmd
+        text: "1. Introduction"
+    right:
+      - icon: github
+        href: https://github.com/brendanpshea/bioethics-oer
+
+  page-footer:
+    left: |
+      [![CC BY-NC 4.0](https://licensebuttons.net/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
+      Licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)
+    right: "Brendan Shea"
+
+format:
+  html:
+    theme: cosmo
+    css: styles/custom.css
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    link-external-icon: true
+    link-external-newwindow: true
+
+  revealjs:
+    theme: moon
+    css: styles/custom.css
+    slide-number: true
+    chalkboard: true
+    preview-links: auto
+    transition: slide
+    scrollable: true
+    footer: "Bioethics OER | CC BY-NC 4.0 | Brendan Shea"
+    logo: ""
+    controls: true
+    progress: true
+    history: true

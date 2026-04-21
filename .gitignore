@@ -1,0 +1,7 @@
+.quarto/
+_site/
+site_libs/
+docs/
+*.~lock.*
+**/*.quarto_ipynb
+chapters/*.html
