@@ -1,0 +1,172 @@
+---
+title: "Course Outline & Learning Outcomes"
+subtitle: "Bioethics: An Open Educational Resource"
+author: "Brendan Shea, PhD"
+date: last-modified
+format:
+  html:
+    toc: true
+---
+
+## Course Structure
+
+This course consists of **12 lectures, each delivered in two parts** (designed for a twice-weekly schedule). Online students watch both parts as a single unit. Alongside the lectures, students read and discuss **12 case study documents** drawn from historical and contemporary bioethics.
+
+The course is organized around the **four principles of biomedical ethics** — autonomy, beneficence, non-maleficence, and justice. Major ethical theories (utilitarianism, Kantian ethics, virtue ethics, care ethics, principlism) are introduced as lenses that ground and sometimes conflict over these principles.
+
+## Course-Level Learning Outcomes
+
+By the end of the course, students will be able to:
+
+1. **Identify and apply** the four principles of biomedical ethics (autonomy, beneficence, non-maleficence, justice) to clinical and research scenarios.
+2. **Analyze** moral arguments — identifying premises, conclusions, hidden assumptions, and common fallacies.
+3. **Compare** how major ethical frameworks (utilitarian, Kantian, virtue, care, principlist) approach the same dilemma and yield different conclusions.
+4. **Evaluate** real and contemporary bioethics cases using appropriate legal, historical, and empirical context.
+5. **Articulate their own reasoned position** on a contested bioethical issue, engaging fairly with opposing views.
+
+## Lecture Topics at a Glance
+
+| # | Lecture | Part A | Part B |
+|---|---------|--------|--------|
+| 1 | Principles, Theories & Moral Reasoning | Four principles; moral arguments | Theories as lenses on the principles |
+| 2 | History & the Clinical Relationship | Hippocratic → Nuremberg → Belmont | Autonomy, consent, truth-telling, confidentiality |
+| 3 | Research Ethics | RCT primer; historical abuses | Placebos, vulnerable populations, Global South |
+| 4 | Abortion | Moral status arguments | Post-*Dobbs* landscape; feminist perspectives |
+| 5 | Reproductive Technology | IVF, surrogacy, commodification | Savior siblings; posthumous reproduction |
+| 6 | Genetics & Enhancement | Genetics primer; testing | CRISPR; therapy vs. enhancement |
+| 7 | End of Life | Brain death, advance directives | Euthanasia, MAID, disability critiques |
+| 8 | Justice & Health Care Allocation | Theories of justice; right to care | Disparities, implicit bias, rationing |
+| 9 | Public Health Ethics | Vaccination, liberty vs. welfare | Pandemic triage; COVID lessons |
+| 10 | AI in Medicine | Diagnostic AI; algorithmic bias | AI in mental health; liability, privacy |
+| 11 | Gender, Identity & Disability | Gender-affirming care; Cass Review | Disability ethics; body integrity |
+| 12 | Animal Ethics | Moral status; animal research | Factory farming; xenotransplantation |
+
+## Lecture-Level Learning Outcomes
+
+### L1. Principles, Theories & Moral Reasoning
+
+- Define the four principles of biomedical ethics and give a clinical example of each.
+- Distinguish ethical claims from legal, religious, or personal-preference claims.
+- Identify the premises and conclusion of a moral argument written in ordinary prose.
+- Recognize common fallacies in bioethical reasoning (ad hominem, appeal to nature, slippery slope, naturalistic fallacy).
+- Summarize the core commitments of utilitarianism, Kantian ethics, virtue ethics, and care ethics.
+- Explain how each theory grounds or prioritizes the four principles differently.
+
+### L2. History & the Clinical Relationship
+
+- Trace key events in the development of modern bioethics (Hippocratic oath, Nazi experiments, Nuremberg Code, Tuskegee, Belmont Report).
+- Compare the four Emanuel & Emanuel models of the clinician-patient relationship (paternalistic, informative, interpretive, deliberative).
+- Explain the four elements of valid informed consent: disclosure, understanding, voluntariness, and decision-making capacity.
+- Analyze conflicts between patient autonomy and clinician beneficence.
+- Identify legal and ethical limits of confidentiality, including *Tarasoff* duty-to-warn and mandatory reporting.
+- Discuss how cultural context complicates truth-telling norms.
+
+### L3. Research Ethics
+
+- Explain the basic structure of a randomized controlled trial (randomization, blinding, placebo, control group, intention-to-treat).
+- Distinguish research from clinical care and describe the "therapeutic misconception."
+- Summarize lessons from Tuskegee, Willowbrook, and Nazi medical experiments.
+- Apply the Belmont principles (respect for persons, beneficence, justice) to IRB review.
+- Evaluate the ethics of placebo-controlled trials when effective treatment exists.
+- Identify vulnerable populations and the heightened protections they require.
+- Analyze ethical tensions in conducting trials in low-resource settings (e.g., short-course AZT trials).
+
+### L4. Abortion
+
+- Describe the post-*Dobbs* legal landscape and variation across US states.
+- Explain Thomson's violinist argument and Marquis's future-like-ours argument.
+- Evaluate criteria for moral status (biological humanity, personhood, sentience, viability).
+- Analyze reproductive justice and feminist perspectives on bodily autonomy.
+- Apply the four principles to specific cases (rape, fetal anomaly, maternal life, gestational age).
+- Assess how real-world clinical implementation of exceptions succeeds or fails.
+
+### L5. Reproductive Technology
+
+- Describe IVF, ICSI, PGD/PGT, and gestational surrogacy at a functional level.
+- Evaluate arguments for and against commercial surrogacy and egg donation.
+- Analyze the commodification critique (Anderson) and the procreative liberty response (Robertson).
+- Discuss "savior siblings," posthumous reproduction, and synthetic gametes.
+- Apply the four principles to embryo selection cases (sex selection, tissue matching, disability).
+
+### L6. Genetics & Enhancement
+
+- Explain core genetics concepts: gene, genome, allele, germline vs. somatic cells, inheritance patterns.
+- Describe CRISPR-Cas9 gene editing in accessible terms.
+- Distinguish gene therapy from genetic enhancement and assess whether the line is morally meaningful.
+- Analyze the He Jiankui (2018) case and the global response to germline editing.
+- Explain the non-identity problem and the "child's right to an open future" argument.
+- Evaluate arguments for and against enhancement (Savulescu, Sandel, Glannon).
+
+### L7. End of Life
+
+- Distinguish brain death, coma, persistent vegetative state, and minimally conscious state.
+- Explain advance directives, living wills, durable power of attorney, and POLST/MOLST forms.
+- Compare active euthanasia, passive euthanasia, withdrawal of treatment, and physician-assisted death.
+- Evaluate Rachels' argument that active and passive euthanasia are morally equivalent.
+- Analyze surrogate decision-making standards (substituted judgment vs. best interest).
+- Discuss disability community critiques of MAID and the controversy over psychiatric MAID.
+
+### L8. Justice & Health Care Allocation
+
+- Compare utilitarian, Rawlsian, libertarian, and capabilities theories of justice.
+- Evaluate arguments for and against a moral right to health care.
+- Compare US, Canadian, German, and UK health systems on key features (coverage, financing, outcomes).
+- Explain documented racial and socioeconomic health disparities and their mechanisms.
+- Analyze implicit bias in clinical encounters and its effects on care.
+- Discuss ethical frameworks for organ allocation and rationing.
+
+### L9. Public Health Ethics
+
+- Distinguish clinical ethics from public health ethics (different unit of concern, different trade-offs).
+- Analyze tensions between individual liberty and collective welfare in quarantine and vaccine mandates.
+- Evaluate arguments for mandatory vaccination and conscientious exemptions.
+- Apply crisis standards of care to pandemic triage scenarios.
+- Discuss what COVID-19 revealed about existing inequities and governance failures.
+
+### L10. AI in Medicine
+
+- Explain at a basic level how machine learning diagnostic and predictive tools are built and deployed.
+- Identify sources of algorithmic bias (training data, proxy variables, deployment drift).
+- Analyze the Optum care-management algorithm case and the Epic Sepsis Model controversy.
+- Evaluate informed consent when clinicians rely on black-box AI recommendations.
+- Discuss AI mental-health chatbots and their ethical risks.
+- Consider liability and professional responsibility when AI is in the clinical loop.
+- Examine data-privacy and consent issues specific to health AI.
+
+### L11. Gender, Identity & Disability
+
+- Describe current gender-affirming care pathways for adults and for adolescents.
+- Summarize the Cass Review and the contested reception of its evidentiary standards.
+- Analyze parental authority, adolescent assent, and clinical gatekeeping in pediatric gender care.
+- Distinguish "mere difference" and "bad difference" views of disability (Barnes vs. Bognar).
+- Evaluate the disability-rights critique of selective abortion (Asch).
+- Discuss body integrity identity disorder and the limits of patient autonomy.
+- Apply the four principles to cases at the intersection of identity and medicine.
+
+### L12. Animal Ethics
+
+- Compare major views on animal moral status (Kantian, Singer's utilitarian, Regan's rights view).
+- Evaluate the 3 Rs (replacement, reduction, refinement) as an ethical framework for animal research.
+- Discuss primate research and the use of animal models for neurological and psychiatric disorders.
+- Analyze the public-health and welfare ethics of industrial animal agriculture.
+- Evaluate xenotransplantation in light of recent pig-heart and pig-kidney clinical trials.
+- Apply moral-status arguments developed in earlier units (abortion, genetics, end-of-life) to animal cases.
+
+## Case Studies
+
+A companion set of 12 case study documents accompanies the lectures, ordered to follow the course sequence.
+
+| # | Case | Paired Lecture |
+|---|------|----------------|
+| 1 | Dax Cowart — refusing burn treatment | L2 Clinical relationship |
+| 2 | Tuskegee Syphilis Study | L3 Research ethics |
+| 3 | Henrietta Lacks & HeLa cells | L3 Research ethics (bridges to L8) |
+| 4 | Kate Cox — post-*Dobbs* medical exception | L4 Abortion |
+| 5 | Baby M — surrogacy | L5 Reproductive tech |
+| 6 | He Jiankui CRISPR twins (2018) | L6 Genetics |
+| 7 | Terri Schiavo | L7 End of life |
+| 8 | Organ allocation: Sarah Murnaghan & UNOS | L8 Justice |
+| 9 | COVID-19 ventilator triage (NY / Italy) | L9 Public health |
+| 10 | Optum care-management algorithm | L10 AI in medicine |
+| 11 | Bell v. Tavistock | L11 Gender, identity & disability |
+| 12 | David Bennett — first pig-heart xenotransplant | L12 Animal ethics |

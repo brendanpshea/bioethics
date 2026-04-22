@@ -2,12 +2,22 @@ project:
   type: website
   output-dir: _site
 
+# ----- Citations (Chicago author-date) -----
+# CSL fetched once from https://www.zotero.org/styles/chicago-author-date
+# and stored locally for offline-stable rendering. To refresh, re-download.
+bibliography: refs.bib
+csl: chicago-author-date.csl
+link-citations: true
+citations-hover: true
+
 website:
   title: "Bioethics: An Open Educational Resource"
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - href: chapters/00-course-outline.qmd
+        text: "Outline"
       - href: chapters/01-introduction.qmd
         text: "1. Introduction"
     right:
@@ -31,15 +41,16 @@ format:
     link-external-newwindow: true
 
   revealjs:
-    theme: moon
+    theme: [white, styles/slides.scss]
     css: styles/custom.css
     slide-number: true
     chalkboard: true
     preview-links: auto
-    transition: slide
+    transition: fade
+    transition-speed: fast
     scrollable: true
-    footer: "Bioethics OER | CC BY-NC 4.0 | Brendan Shea"
-    logo: ""
+    footer: "Bioethics OER · CC BY-NC 4.0 · Brendan Shea"
     controls: true
     progress: true
     history: true
+    highlight-style: github

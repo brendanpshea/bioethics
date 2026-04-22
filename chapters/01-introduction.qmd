@@ -1,6 +1,6 @@
 ---
-title: "Introduction to Bioethics"
-subtitle: "What Is Bioethics and Why Does It Matter?"
+title: "Principles, Theories & Moral Reasoning"
+subtitle: "Lecture 1 · Part A — The Four Principles and How to Read an Argument"
 author: "Brendan Shea, PhD"
 date: last-modified
 format:
@@ -11,93 +11,458 @@ format:
     output-file: 01-introduction-slides.html
 ---
 
-## What Is Bioethics? {.slide}
+# A Case to Open With {.section-divider}
 
-**Bioethics** is the systematic study of ethical questions arising from:
+## A Quiet Tuesday on the Floor
 
-- Advances in medicine and medical technology
-- Biological research and biotechnology
-- Healthcare policy and resource allocation
-- The human relationship with living organisms and the environment
+::: {.thought-question}
+A 34-year-old patient, alert and competent, is admitted with severe internal bleeding after a car accident. She has a signed advance directive: as a Jehovah's Witness, she refuses all blood transfusions, even to save her life. The trauma surgeon believes a transfusion would almost certainly save her. Her parents arrive and beg the team to "just do it."
+
+*Brief context.* Jehovah's Witnesses interpret several biblical passages as forbidding the consumption or transfusion of blood. The position is sincerely held, well-known to clinicians, and has been the subject of dozens of court cases — most have upheld the right of competent adults to refuse.
+
+Pause for a moment. What would you, as the nurse at the bedside, do — and *why*?
+:::
 
 ::: {.notes}
-Speaker notes: Introduce the field and why it has grown in importance since the mid-20th century. Mention the Nuremberg Code and Tuskegee as historical catalysts.
+Let students sit with this. We'll come back to it after we have vocabulary. The whole rest of the lecture is, in a sense, equipping us to answer this question more carefully than "follow your gut."
 :::
 
----
+## Today
 
-## Core Ethical Frameworks {.slide}
+::: {.learning-outcomes}
+By the end of Part A, you will be able to:
 
-:::: {.columns}
-
-::: {.column width="50%"}
-**Consequentialism**
-
-- Judges actions by outcomes
-- "The greatest good for the greatest number"
-- Key figure: John Stuart Mill
+- Define [bioethics]{.key-term} and explain why it emerged as a distinct field
+- Distinguish ethical claims from [legal]{.key-term}, [religious]{.key-term}, and [personal-preference]{.key-term} claims
+- Name and apply the [four principles]{.key-term} of biomedical ethics
+- Identify the premises and conclusion of a moral argument written in ordinary prose
+- Recognize a few common fallacies in bioethical reasoning
 :::
 
-::: {.column width="50%"}
-**Deontology**
+# What Is Bioethics? {.section-divider}
 
-- Judges actions by duties and rules
-- Rights are inviolable regardless of outcomes
-- Key figure: Immanuel Kant
+## A Working Definition
+
+**Bioethics** is the systematic study of ethical questions arising in:
+
+- The care of patients (clinical ethics)
+- Biomedical research on humans and animals (research ethics)
+- Public health policy and the allocation of scarce resources
+- New biotechnologies — genetics, AI, reproductive technology
+
+::: {.notes}
+"Systematic" matters. Bioethics isn't just having opinions — it's *reasoning* about them in a way others can examine, challenge, and refine.
+:::
+
+## Why a Distinct Field?
+
+A short list of mid-20th-century shocks:
+
+- The **Nazi medical experiments** exposed at Nuremberg (1945–1947)
+- The **Tuskegee** syphilis study (1932–1972), in which Black men were left untreated for decades
+- New technology that *outran* old norms: ventilators, dialysis, organ transplants, IVF
+- Patients and families demanding a voice the old paternalistic model didn't give them
+
+Bioethics is what grew up to answer the question: **how should we govern this?**
+
+## Three Sample Questions
+
+::: {.incremental}
+- *Clinical:* Can a 16-year-old refuse chemotherapy her parents want her to have?
+- *Research:* Is it ethical to give half the participants a placebo when an effective drug already exists?
+- *Policy:* When ICU beds run out in a pandemic, who gets one?
+:::
+
+::: {.notes}
+Each of these is a recurring exam case. Same field, very different scales — bedside, study, society.
+:::
+
+# Ethics, Law, Religion, Preference {.section-divider}
+
+## Why the Distinctions Matter
+
+Students often collapse these. They are not the same — and confusing them is one of the most common mistakes in bioethical reasoning.
+
+| Type of claim | Source of authority | Question it answers |
+|---|---|---|
+| **Ethical** | Reasons we can examine and share | What *ought* we to do? |
+| **Legal** | Statutes, courts, regulators | What *may* or *must* we do under law? |
+| **Religious** | Sacred texts, traditions, communities | What does this faith require? |
+| **Preference** | Personal taste | What do *I* happen to want? |
+
+## Ethics vs. Law
+
+The law is not a reliable guide to what is ethical.
+
+- **Slavery** in the United States was *legal* until 1865 — and was monstrously unethical the entire time.
+- The Tuskegee study was *legal* in 1932. It was wrong in 1932.
+- Conversely, **jaywalking** is illegal in most cities; almost no one thinks it is a moral failing.
+
+::: {.callout-tip}
+A useful test for nurses: "Is it legal?" and "Is it the right thing for this patient?" are two different questions. Sometimes the law lags behind ethics; sometimes it overreaches.
+:::
+
+## Ethics vs. Religion
+
+Many of our patients — and many of you — draw moral guidance from religious tradition. That is appropriate. But:
+
+- A religious tradition can give *its members* reasons to act, but cannot, on its own, give *non-members* reasons to act.
+- Bioethical arguments need to work in a pluralistic society where patients, families, and clinicians come from many traditions and none.
+
+We will treat religious commitments as **important data** about what patients value — not as conversation-stoppers in clinical reasoning.
+
+## Ethics vs. Personal Preference
+
+> "I just don't think it's right."
+
+That is a feeling, not yet an argument. Ethical reasoning asks the next question: **why?** What reason, that another reasonable person could weigh, supports the conclusion?
+
+::: {.notes}
+This is the moment to flag that "I feel" / "I believe" are perfectly fine *starting points* — but bioethics asks us to take the next step.
+:::
+
+## Thought Question
+
+::: {.thought-question}
+A nurse refuses to assist with a legal procedure — say, an elective abortion or medical aid in dying — because of her religious convictions. Her hospital has a **conscience-clause** policy that protects her right to opt out without losing her job.
+
+*Brief context.* Conscience clauses are laws or workplace policies that allow clinicians to decline participation in specific procedures on moral or religious grounds. They exist in most U.S. states and at the federal level. They typically require the institution (not the individual nurse) to ensure the patient is still cared for.
+
+- Is what she is doing *legal*? *Ethical*? *Religiously required*? *A personal preference*? It may be more than one of these — or none.
+- Could the answers come apart? Imagine the same refusal in a small rural hospital with no other nurse on shift. Does that change anything?
+:::
+
+# The Four Principles {.section-divider}
+
+Beauchamp & Childress, 1979 — the working framework of clinical ethics for almost fifty years.
+
+## A Brief Origin Story
+
+In the wake of Tuskegee, a U.S. national commission produced the *Belmont Report* (1979) [@belmont1979]. That same year, philosophers **Tom Beauchamp** and **James Childress** published *Principles of Biomedical Ethics* [@beauchamp2019], proposing four principles meant to be:
+
+- **Shared** across ethical traditions
+- **Specific enough** to guide clinical decisions
+- **General enough** to apply to new technologies
+
+The result is what's often called **principlism** — and it remains the lingua franca of hospital ethics consults [@jonsen1998].
+
+## 1. Autonomy
+
+[Autonomy]{.key-term} — *self-rule.* Respect the patient's right to make informed decisions about her own body and care.
+
+In practice, autonomy underwrites:
+
+- Informed consent
+- The right to refuse treatment (even life-saving treatment)
+- Truth-telling and honest disclosure
+- Confidentiality
+
+::: {.notes}
+The Jehovah's Witness case from the start of class is, at its core, an autonomy case. Hold that thought.
+:::
+
+## Autonomy in Practice
+
+::: {.principle-row}
+::: {.principle-id .autonomy}
+[1]{.num}
+[Autonomy]{.label}
+[self-rule]{.tag}
+:::
+::: {.context-box}
+A 28-year-old woman with poorly controlled type-1 diabetes (A1c 11.2) repeatedly declines an insulin pump. She tells you, plainly, that she is tired of being told what to do.
+
+Respecting autonomy here is not "agreeing she is right." It is:
+
+- making sure she understands the medical risks (**disclosure**)
+- assessing her decision-making capacity — which, here, she has
+- documenting clearly
+- continuing to support her without coercion or punishment
+
+Autonomy is the *floor* — it does not require us to abandon her. It requires us not to override her.
+:::
+:::
+
+## 2. Beneficence
+
+[Beneficence]{.key-term} — *do good.* Act in the patient's best interest; promote welfare.
+
+This sounds obvious until you ask: **whose** account of the patient's good?
+
+- The clinician's professional judgment?
+- The patient's own values?
+- The family's hopes?
+
+Beneficence and autonomy can pull in opposite directions.
+
+## Beneficence in Practice
+
+::: {.principle-row}
+::: {.principle-id .beneficence}
+[2]{.num}
+[Beneficence]{.label}
+[do good]{.tag}
+:::
+::: {.context-box}
+An 82-year-old man with end-stage heart failure is admitted for the fifth time this year. The team recommends a comfort-focused plan; he says he wants "everything done." His daughter pulls you aside and asks the team to "talk him out of it."
+
+Beneficence here forces a question that paternalism quietly skips: *whose* idea of his good?
+
+- The team's clinical judgment about prognosis?
+- His own stated wishes, formed over a long life?
+- His daughter's fear of losing him?
+
+Beneficence is not the same as overriding the patient. It is the discipline of finding out what *this person* counts as a life worth living, and acting in service of *that*.
+:::
+:::
+
+## 3. Non-Maleficence
+
+[Non-maleficence]{.key-term} — *first, do no harm* (*primum non nocere*).
+
+::: {.columns}
+
+::: {.column width="60%"}
+The oldest principle in Western medicine, traceable to the Hippocratic tradition (5th c. BCE). It does *not* mean "never do anything risky." It means: weigh the harms, and don't expose patients to harm without proportionate benefit.
+
+Every chemotherapy regimen, every surgery, every medication is a deliberate small harm in service of a larger good.
+:::
+
+::: {.column width="40%"}
+![](../images/hippocrates.jpg){width="80%" fig-alt="Engraved portrait of Hippocrates by Peter Paul Rubens"}
+
+::: {.attribution}
+Hippocrates, engraving by Peter Paul Rubens. Public domain (Wikimedia Commons).
+:::
 :::
 
 ::::
 
----
+## Non-Maleficence in Practice
 
-## The Four Principles of Bioethics {.slide}
+::: {.principle-row}
+::: {.principle-id .nonmal}
+[3]{.num}
+[Non-Maleficence]{.label}
+[do no harm]{.tag}
+:::
+::: {.context-box}
+A new chemotherapy regimen offers a 30% chance of remission and a 5% chance of fatal cardiotoxicity. Standard care offers neither.
 
-Proposed by Beauchamp & Childress (1979):
+Non-maleficence does not say *never harm.* It asks two questions:
 
-1. **Autonomy** — respect for the patient's right to make informed decisions
-2. **Beneficence** — act in the patient's best interest
-3. **Non-maleficence** — "first, do no harm"
-4. **Justice** — fair distribution of benefits and burdens
+- Is the expected harm **proportionate** to the expected benefit?
+- Does the patient understand both sides clearly enough to choose?
 
-::: {.callout-note}
-These four principles form the foundation of most clinical ethics reasoning in the United States and much of the world.
+Every IV start is a small puncture wound. Every medication has side effects. The principle's job is to keep that ledger open and visible — not to forbid risk, but to forbid hidden, gratuitous, or disproportionate risk.
+:::
 :::
 
----
+## 4. Justice
 
-## Historical Milestones {.slide}
+[Justice]{.key-term} — *fair distribution of benefits and burdens.*
 
-| Year | Event |
-|------|-------|
-| 1947 | Nuremberg Code — informed consent in research |
-| 1964 | Declaration of Helsinki — research ethics standards |
-| 1972 | Tuskegee syphilis study exposed |
-| 1979 | Belmont Report published |
-| 1990 | Human Genome Project begins |
+In bioethics, justice shows up in three main forms:
 
----
+- **Distributive justice** — who gets the kidney, the ICU bed, the new drug?
+- **Procedural justice** — was the *process* fair, even if the outcome is hard?
+- **Social justice** — are we honest about the historical and structural causes of health disparities?
 
-## Key Themes in This Course {.slide}
+::: {.notes}
+We'll spend an entire lecture (L8) on justice. For now, just plant the flag: bioethics is not only about individual encounters.
+:::
 
-- Informed consent and patient autonomy
-- End-of-life ethics
-- Genetic ethics and emerging biotechnology
-- Research ethics
-- Healthcare justice and access
-- Animal ethics and environmental bioethics
+## Justice in Practice
 
----
+::: {.principle-row}
+::: {.principle-id .justice}
+[4]{.num}
+[Justice]{.label}
+[treat fairly]{.tag}
+:::
+::: {.context-box}
+Two patients arrive at the emergency department with the same complaint: 55-year-old, chest pain, no obvious red flags. One is on Medicaid; the other has private insurance. Decades of research show that, on average, they will not get the same workup.
 
-## Discussion Questions {.slide}
+Justice at the bedside is rarely as dramatic as a kidney allocation decision. It looks like:
 
-1. What makes a bioethical problem different from a purely medical or purely ethical problem?
-2. Can the four principles ever conflict? Give an example.
-3. Why might ethical frameworks from different cultures reach different conclusions about the same clinical case?
+- Are we ordering tests because of clinical findings, or because of who the patient appears to be?
+- Are our floors and ICUs staffed and supplied equitably across units?
+- Where do *we* — as nurses — contribute to or push back against disparate care?
 
----
+Justice asks us to look up from the individual patient and notice the pattern.
+:::
+:::
 
-## Further Reading
+## The Four Together
 
-- Beauchamp, T. L., & Childress, J. F. (2019). *Principles of Biomedical Ethics* (8th ed.). Oxford University Press.
-- Jonsen, A. R. (1998). *The Birth of Bioethics*. Oxford University Press.
-- National Commission for the Protection of Human Subjects. (1979). [*The Belmont Report*](https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html).
+```{mermaid}
+flowchart LR
+  A[Autonomy<br/>respect choices] --- B[Beneficence<br/>do good]
+  B --- N[Non-maleficence<br/>do no harm]
+  N --- J[Justice<br/>treat fairly]
+  J --- A
+  style A fill:#cfe9ec,stroke:#0e7c86,stroke-width:2px
+  style B fill:#fce9d6,stroke:#b07d1a,stroke-width:2px
+  style N fill:#fad7d2,stroke:#c0392b,stroke-width:2px
+  style J fill:#dfe6ee,stroke:#0f172a,stroke-width:2px
+```
+
+A *framework*, not an algorithm. The principles tell you what to weigh — not, by themselves, how to weigh it.
+
+## When Principles Conflict
+
+Most interesting bioethics cases are conflicts *between* principles, not conflicts between good and evil.
+
+- [Autonomy]{.pill .pill-autonomy} vs. [Beneficence]{.pill .pill-beneficence} — the Jehovah's Witness refusing transfusion
+- [Beneficence]{.pill .pill-beneficence} vs. [Non-Maleficence]{.pill .pill-nonmal} — risky surgery with a small chance of cure
+- [Autonomy]{.pill .pill-autonomy} vs. [Justice]{.pill .pill-justice} — vaccine refusal during a pandemic
+- [Beneficence]{.pill .pill-beneficence} vs. [Justice]{.pill .pill-justice} — spending heroic resources on one patient when others wait
+
+The four principles do not resolve these tensions. They make them **visible** so we can argue about them carefully.
+
+## Thought Question
+
+::: {.thought-question}
+Return to our Jehovah's Witness patient. Recall the clinical picture: she is **34, alert, oriented, with full decision-making capacity**, and she has a **specific written advance directive** refusing transfusion. The surgeon believes a transfusion would almost certainly save her life.
+
+Sort the principles into two columns:
+
+- Which support transfusing her against her wishes? Think about [Beneficence]{.pill .pill-beneficence} and [Non-Maleficence]{.pill .pill-nonmal} — but be careful: which counts as the "harm" here?
+- Which support honoring her refusal? Think about [Autonomy]{.pill .pill-autonomy} — and notice that respecting her choice may itself be the most beneficent act available.
+- If you had to pick *one principle* to weight most heavily, which — and why? What would change your answer?
+:::
+
+# Reading a Moral Argument {.section-divider}
+
+A skill we will use in every remaining lecture.
+
+## What Is an Argument?
+
+An **argument**, in philosophy, is not a quarrel. It is a structured piece of reasoning:
+
+- One or more **premises** (claims offered as support)
+- A **conclusion** (the claim the premises are meant to support)
+
+The job of the careful reader: **find the conclusion first, then the premises, then ask whether the premises are true and whether they actually support the conclusion.**
+
+## Worked Example
+
+Here is a short argument you might hear on the floor:
+
+> *"We have to transfuse her — she'll die otherwise, and our job is to save lives."*
+
+Pull it apart into its anatomy:
+
+```{dot}
+//| fig-width: 6
+//| fig-height: 3.2
+digraph argument {
+  rankdir=TB;
+  bgcolor="transparent";
+  node [shape=box, style="rounded,filled", fontname="Inter", fontsize=12, color="#94a3b8", fillcolor="#f8fafc", fontcolor="#0f172a", margin="0.18,0.12"];
+  edge [color="#64748b", arrowsize=0.7];
+  P1 [label="Premise 1\nWithout a transfusion,\nthe patient will die."];
+  P2 [label="Premise 2\nOur job is\nto save lives."];
+  C  [label="∴  Conclusion\nWe should transfuse her.", fillcolor="#e6f1f2", color="#0e7c86", fontcolor="#0e7c86"];
+  P1 -> C;
+  P2 -> C;
+}
+```
+
+::: {.callout-note}
+Sounds airtight — until you notice what's *missing.*
+:::
+
+## Hidden Assumptions
+
+That argument quietly assumes:
+
+- "Saving lives" *always* outweighs the patient's other wishes.
+- The patient's refusal can be set aside because it's "irrational."
+- A nurse's professional duty is identical to "extending biological life."
+
+Each of those is contestable. **Surfacing hidden assumptions** is half the work of bioethics.
+
+## What Is a Fallacy?
+
+A **fallacy** is an error in reasoning — an argument that *looks* like good support but isn't. Two important things to keep in mind:
+
+- A fallacy is not the same as a *lie.* The person making it may sincerely believe what they're saying. The defect is in the **logical structure**, not the speaker's honesty.
+- A fallacious argument can still have a **true conclusion**. "The sky is blue, therefore vaccines work" has a true conclusion and is still a terrible argument.
+
+Two big families:
+
+- **Formal fallacies** — the *form* of the argument is invalid (you'll meet these in a formal logic course).
+- **Informal fallacies** — the form looks fine, but the *content* misleads us through irrelevance, ambiguity, or hidden assumption. **Bioethics is mostly informal.**
+
+The five on the next slide are the ones you will see most often in patient-care debates, op-eds, and your own first drafts.
+
+## Common Fallacies in Bioethics
+
+::: {.fallacy-grid}
+
+::: {.fallacy-card}
+[Appeal to Nature]{.name}
+[Inferring that something is good (or bad) merely because it is natural (or unnatural).]{.defn}
+[*"IVF lets older women conceive — but it's unnatural, so it must be wrong."*]{.ex}
+:::
+
+::: {.fallacy-card}
+[Slippery Slope]{.name}
+[Predicting that allowing X will inevitably lead to a much worse Y, without showing how the slide actually happens.]{.defn}
+[*"If we permit medical aid in dying for the terminally ill, we'll end up euthanizing the disabled."*]{.ex}
+:::
+
+::: {.fallacy-card}
+[Ad Hominem]{.name}
+[Attacking the person making the argument rather than the argument itself.]{.defn}
+[*"You can't take Peter Singer seriously on animal ethics — he holds a lot of unpopular views."*]{.ex}
+:::
+
+::: {.fallacy-card}
+[Naturalistic Fallacy]{.name}
+[Inferring an *ought* directly from an *is* — that what happens in nature shows what should happen morally.]{.defn}
+[*"Humans evolved as omnivores, therefore eating meat is morally permissible."*]{.ex}
+:::
+
+::: {.fallacy-card}
+[False Dichotomy]{.name}
+[Framing a complex issue as if there were only two options, when others exist.]{.defn}
+[*"Either we let the market ration health care, or the system will collapse."*]{.ex}
+:::
+
+::: {.fallacy-card}
+[Appeal to Authority]{.name}
+[Treating the testimony of an authority as decisive even when they are speaking outside their expertise — or when other experts disagree.]{.defn}
+[*"My favorite podcaster says vaccines cause autism, and he has done a lot of research."*]{.ex}
+:::
+
+:::
+
+## Practice — Spot the Fallacy
+
+::: {.thought-question}
+Identify the fallacy in each:
+
+1. "Gene editing is wrong — it's playing God."
+2. "If we let doctors help patients die, we'll end up euthanizing the disabled."
+3. "You can't trust her opinion on vaccines — she's not even a real scientist."
+4. "Either we ration care by ability to pay, or the system collapses."
+:::
+
+::: {.notes}
+Answers (in order): appeal to nature, slippery slope, ad hominem, false dichotomy.
+:::
+
+## Wrapping Up Part A
+
+::: {.recap}
+Bioethics is the systematic study of moral questions in medicine, research, and policy. It is not the same as law, religion, or personal preference. The **four principles** — autonomy, beneficence, non-maleficence, justice — give us a shared vocabulary for the conflicts we'll see all semester. And every claim in this course will be evaluated as an *argument*: premises, conclusion, hidden assumptions, possible fallacies.
+
+In **Part B**, we ask the next question: *where do these principles come from?* We meet the major ethical theories — utilitarian, Kantian, virtue, and care — that ground and sometimes contest the four principles.
+:::
+
+## References
+
+::: {#refs}
+:::

@@ -1,0 +1,101 @@
+---
+title: "Case 1 — Dax Cowart: 'Please Let Me Die'"
+subtitle: "Autonomy, Paternalism, and the Limits of Beneficence"
+author: "Brendan Shea, PhD"
+date: last-modified
+---
+
+::: {.case-at-a-glance}
+- **Who:** Donald "Dax" Cowart (1947–2019), a 25-year-old Air Force pilot from Texas
+- **What:** Severely burned in a propane explosion in 1973; demanded treatment be stopped throughout two years of intensely painful care; was overruled and treated against his wishes
+- **Where / When:** Parkland Hospital (Dallas) and the University of Texas Medical Branch (Galveston), 1973–1975
+- **Why it matters:** Cowart's case became the most-discussed example in American bioethics of the conflict between patient [autonomy]{.key-term} (the right to refuse treatment) and clinical [beneficence]{.key-term} (the duty to save a life). Even after he recovered and built a successful career, Cowart insisted his rights had been violated.
+- **Pair with:** Lecture 2 — History & the Clinical Relationship
+:::
+
+## The Case
+
+In July 1973, Dax Cowart and his father, Ray, drove to a piece of rural land in east Texas that Ray was thinking of buying. A propane line under the property had ruptured, and the gas had pooled invisibly in a low area near where they parked. When Ray turned the car's ignition to leave, the spark detonated the gas. Ray died three months later from his injuries. Dax, then 25, survived — but burns covered roughly 65% of his body, including deep (third-degree) burns to his face, hands, and upper body. He was blinded in both eyes, lost most of his fingers, and lost both ears.
+
+He was conscious throughout. According to multiple accounts, the first words he spoke to a passing farmer at the scene were a request to be shot.
+
+He was admitted first to Parkland Memorial Hospital in Dallas, then transferred to the burn unit at the University of Texas Medical Branch in Galveston, where he would spend most of the next 14 months. The standard treatment for burns of this severity at that time — and largely still today — required daily **debridement**: the removal of dead and infected tissue to allow new skin to grow and to prevent fatal sepsis. At UTMB, debridement was performed in a **Hubbard tank**, a stainless-steel pool of warm chlorinated water in which the patient's burned tissue was scrubbed away. Patients commonly described the procedure as the worst pain of their lives.
+
+From very early in his treatment, Cowart asked that the tankings be stopped, that no further skin grafts be performed, and that he be allowed to die. He asked his physicians, his nurses, and his mother. He asked repeatedly, persistently, and — psychiatrists who evaluated him concluded — competently. He understood his prognosis. He understood that refusing treatment would mean a death from infection within weeks. He preferred that to continuing.
+
+His treating physicians — most prominently Dr. Charles Baxter, a pioneering burn specialist — refused. Cowart's mother, Ada, a devout Baptist, served as his legal surrogate and authorized the continuation of treatment. The team accepted her authorization. For two years, he was forcibly medicated, restrained when necessary, and treated against his stated wishes.
+
+He survived. He returned home blind, severely disabled, and dependent on others for many basic tasks. He attempted suicide twice. He eventually went to law school, earned his J.D. from Texas Tech in 1986, married, divorced, and built a career as a practicing attorney and public speaker.
+
+For the rest of his life, Cowart said two things that puzzled many listeners. First: he was glad to be alive. Second: his physicians had been wrong to keep him alive against his will. The two statements, he insisted, did not contradict each other. The question, for him, was never whether the outcome was good — it was whether the choice had been his to make.
+
+He died in 2019.
+
+## Context Students Need
+
+::: {.context-box}
+**Burn injury severity.** Burns are classified by depth. *First-degree* burns affect only the outer skin layer (sunburn). *Second-degree* burns reach into deeper layers and blister. *Third-degree* (full-thickness) burns destroy all skin layers and the nerve endings underneath. Counterintuitively, the deepest burns are often *not* the most painful — but the surrounding partial-thickness burns are. Cowart's burns covered roughly 65% of his "total body surface area" (TBSA), with much of it third-degree. In 1973, mortality at that severity exceeded 50%; survival required months of grafting and debridement.
+:::
+
+::: {.context-box}
+**Debridement and the Hubbard tank.** New skin will not grow over dead tissue, and dead tissue invites infection that can kill within days. [Debridement]{.key-term} — physically removing that tissue — is essential. The Hubbard tank used at UTMB allowed warm water and saline to soften the eschar (dead skin) so that nurses could scrub it off. The procedure is shorter and less brutal today, with better anesthesia and surgical alternatives, but the underlying necessity remains.
+:::
+
+::: {.context-box}
+**Informed consent in 1973.** The legal doctrine of [informed consent]{.key-term} was very new. *Canterbury v. Spence*, the federal case that established the modern "reasonable patient" standard for disclosure, had been decided just one year earlier (1972). Most physicians of Dr. Baxter's generation had been trained in a model where the doctor decided what was best and the patient cooperated. Patient *refusal* of life-saving treatment was treated, by default, as evidence that the patient was not thinking clearly. (For the long arc by which informed consent emerged as a doctrine, see @faden1986.)
+:::
+
+::: {.context-box}
+**Decision-making capacity.** "[Capacity]{.key-term}" is a clinical term distinct from "competence" (a legal term). A patient has capacity to make a specific decision if they can (1) understand the relevant information, (2) appreciate how it applies to their situation, (3) reason about treatment options, and (4) communicate a choice. Capacity is **decision-specific** and **time-specific** — a patient may have capacity to refuse one treatment but not another, or capacity today but not tomorrow. Multiple psychiatrists evaluated Cowart and found that he had capacity.
+:::
+
+::: {.context-box}
+**Surrogate decision-making.** When a patient lacks capacity, a [surrogate]{.key-term} (often a family member) decides on their behalf. The American standard hierarchy is *substituted judgment* (decide what the patient would have wanted) followed by *best interest* (decide what serves the patient's welfare). Critically: surrogates have no authority to override a patient who *does* have capacity. In Cowart's case, his mother's religious convictions were given controlling weight even though Cowart himself was found capable of deciding.
+:::
+
+## Ethical Issues
+
+The case is usually framed as a collision between two of the four principles of biomedical ethics:
+
+**Autonomy.** Cowart was a competent adult. He understood his condition and his prognosis. He chose, repeatedly and consistently, to refuse treatment. The standard view in modern bioethics is that competent patients have an essentially unconditional right to refuse any medical intervention, including life-saving care. On this view, his treatment team violated his rights, full stop.
+
+**Beneficence and non-maleficence.** Cowart's physicians believed — correctly, as it turned out — that he could survive and eventually rebuild a meaningful life. They saw their refusal to stop treatment as an act of mercy and skill, not coercion. From their perspective, allowing a patient in extremis to make an irreversible decision that he might later regret was a *failure* of medical responsibility, not a respect for it.
+
+**Justice and the role of family.** The team's deference to Cowart's mother raises a different question: under what circumstances should family preferences override a competent patient's expressed wishes? The case shows how easily institutional power can route around a patient's voice when family and medical authority align.
+
+A subtler issue runs underneath all of this: **the problem of retrospective endorsement.** Cowart's later statement that he was glad to be alive is sometimes invoked as a justification for what was done to him. ("See? He thanks us now.") Cowart himself rejected this argument. The fact that an outcome turned out well does not, he argued, retroactively legitimize a decision that was not the patient's to make. A surgeon who operates on the wrong leg cannot defend the act by pointing out that the patient walked again.
+
+## Multiple Perspectives
+
+**Dax Cowart himself** insisted throughout his life that the question was about *control over his own body*, not about *outcome*. "I do not want to die because the quality of life is too low," he told an interviewer in 1989. "I want to die because the quality of life is too low *and* I am the one who has to live it." His position was libertarian about autonomy in the strong sense: a competent person's right to refuse extends even to refusals others find tragic or mistaken.
+
+**The treating physicians**, particularly Dr. Charles Baxter, defended their decisions in interviews and in the films made about the case. Baxter argued that severely burned patients in acute pain frequently ask to die early in treatment and almost universally change their minds once they have recovered. To honor the early refusal, on this view, would be to mistake an episode of suffering for a settled preference.
+
+**Ada Cowart**, Dax's mother, was a religious woman who believed life was a gift from God that her son had no right to refuse. She authorized continued treatment as both a parent and a Christian. She lived to see her son recover; her authorization is, in her own framework, vindicated.
+
+**Philosophers and legal scholars** have used the case to develop competing accounts. Robert Burt, in a well-known dialogue with Cowart [@cowart1998], argued that the relationship between physician and suffering patient cannot be modeled as a simple consent transaction — that the demand to die was, in part, a demand to be heard, and that the right response was not always to comply with the literal request. Cowart pushed back hard.
+
+**Disability rights advocates** have noted that Cowart's case prefigures contemporary debates about medical assistance in dying. They observe a recurring asymmetry: when an able-bodied person refuses care, clinicians often comply; when a newly disabled person refuses care, clinicians often resist. The implicit assumption — that life with disability is intolerable, but that this assumption can be overridden by treatment — is, they argue, exactly backwards.
+
+## Discussion Questions
+
+1. Was Dax Cowart's refusal of treatment a refusal that his physicians should have honored? Defend your answer using at least one of the four principles.
+2. Cowart later said he was glad to be alive *and* that his rights had been violated. Are these two claims consistent? What does your answer imply about how we should evaluate paternalistic decisions in retrospect?
+3. Cowart's mother authorized continued treatment as his legal surrogate. Under modern standards of decision-making capacity, was her authorization valid? Should it have been given any weight at all if Cowart was competent?
+4. Dr. Baxter argued that severely burned patients almost always change their minds about wanting to die after they recover. Suppose this is statistically true. Does it justify overriding any individual patient's refusal? Why or why not?
+5. Compare Cowart's case to a contemporary patient who requests medical aid in dying (MAID) for a terminal illness. What features of the cases are similar, and what features are different?
+6. Imagine you are a nurse in the burn unit assigned to perform the daily tankings. Cowart has just told you, again, that he wants to stop and be allowed to die. What do you do, and what do you say? What do you owe him in this moment that the institution does not owe him?
+7. Some disability rights scholars argue that clinicians systematically underestimate the future quality of life of newly disabled patients. If true, how should that empirical fact change the ethical analysis of Cowart's case?
+
+## Further Reading
+
+- *Please Let Me Die* (1974) — documentary film featuring Cowart during his treatment.
+- *Dax's Case* (1985) — follow-up documentary, widely used in bioethics courses.
+- Lonnie D. Kliever, ed., *Dax's Case: Essays in Medical Ethics and Human Meaning* (Southern Methodist University Press, 1989).
+- Keith Burton, "A Chronicle: Dax's Case as It Happened," *Hastings Center Report* 19, no. 1 (1989): 5–10.
+- Obituary: "Donald 'Dax' Cowart, Subject of Landmark Bioethics Case, Dies at 71," *Texas Monthly*, 2019.
+
+## References
+
+::: {#refs}
+:::

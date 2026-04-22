@@ -1,0 +1,5 @@
+# Case studies render as HTML reading material only — never slides.
+format:
+  html:
+    toc: true
+    number-sections: false

@@ -1,0 +1,263 @@
+/*-- scss:defaults --*/
+
+// ============================================================
+// Bioethics OER — custom reveal.js theme
+// Extends Quarto's "white" theme. Loaded via _quarto.yml as:
+//   theme: [white, styles/slides.scss]
+// ============================================================
+
+// Brand palette
+$primary:        #0e7c86;   // deep teal — main brand
+$primary-dark:   #095058;
+$primary-tint:   #e6f1f2;
+$accent:         #c0392b;   // warm red — emphasis, important
+$warm:           #b07d1a;   // amber — discussion prompts
+$ink:            #0f172a;   // near-black body text
+$muted:          #64748b;   // slate gray secondary
+$rule:           #e5e7eb;   // hairline borders
+$soft:           #f8fafc;   // subtle card surfaces
+
+// Typography
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", "Helvetica Neue", sans-serif;
+$font-family-monospace:  "JetBrains Mono", "Cascadia Code", "Consolas", monospace;
+
+// Reveal / Quarto variables
+$body-bg:        white;
+$body-color:     $ink;
+
+$presentation-font-size-root:    32px;
+$presentation-h1-font-size:      2.4em;
+$presentation-h2-font-size:      1.5em;
+$presentation-h3-font-size:      1.15em;
+$presentation-heading-color:     $primary;
+$presentation-heading-font:      $font-family-sans-serif;
+$presentation-heading-font-weight: 700;
+$presentation-heading-line-height: 1.15;
+$presentation-block-margin:      0.65em;
+
+$link-color:        $primary;
+$link-color-hover:  $accent;
+
+$code-block-bg:     #f1f5f9;
+$code-block-border-color: $rule;
+
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+.reveal {
+  font-weight: 400;
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+  letter-spacing: -0.015em;
+  font-weight: 700;
+}
+
+// Accent bar under H2 on regular content slides
+.reveal section:not(.title-slide):not(.section-divider) > h2:first-child::after {
+  content: "";
+  display: block;
+  width: 2.5em;
+  height: 4px;
+  background: $accent;
+  margin-top: 0.4em;
+  border-radius: 2px;
+}
+
+.reveal h3 {
+  color: $muted;
+  font-weight: 600;
+}
+
+// ----- Title slide -----
+.reveal .title-slide {
+  text-align: left;
+
+  h1.title {
+    font-size: 2.4em;
+    font-weight: 800;
+    color: $ink;
+    margin-bottom: 0.2em;
+    border-left: 8px solid $primary;
+    padding-left: 0.5em;
+    line-height: 1.1;
+
+    &::after { display: none; }
+  }
+
+  p.subtitle, .subtitle {
+    font-size: 1.15em;
+    font-weight: 500;
+    color: $primary;
+    padding-left: 0.65em;
+    margin-bottom: 1.5em;
+  }
+
+  .quarto-title-author-name,
+  .quarto-title-authors,
+  .author {
+    font-size: 0.65em;
+    color: $muted;
+    padding-left: 0.7em;
+    font-weight: 500;
+  }
+
+  .date {
+    font-size: 0.55em;
+    color: $muted;
+    padding-left: 0.7em;
+  }
+}
+
+// ----- Section divider — apply with {.section-divider} or background-color -----
+.reveal section.section-divider {
+  background: linear-gradient(135deg, $primary 0%, $primary-dark 100%);
+  color: white;
+  text-align: left;
+
+  h1, h2 {
+    color: white !important;
+    font-size: 2.6em;
+    font-weight: 800;
+
+    &::after { display: none; }
+  }
+
+  p {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 1.1em;
+  }
+}
+
+// ----- Blockquote -----
+.reveal blockquote {
+  border-left: 4px solid $accent;
+  padding: 0.6em 1.1em;
+  background: $soft;
+  border-radius: 0 8px 8px 0;
+  font-style: normal;
+  font-size: 0.92em;
+  color: $ink;
+}
+
+// ----- Tables -----
+.reveal table {
+  border-collapse: collapse;
+  font-size: 0.7em;
+  margin: 0.5em 0;
+
+  thead th {
+    background: $primary;
+    color: white;
+    padding: 0.55em 0.8em;
+    border: none;
+    font-weight: 600;
+    text-align: left;
+  }
+
+  td {
+    padding: 0.45em 0.8em;
+    border-bottom: 1px solid $rule;
+  }
+
+  tr:nth-child(even) td { background: $soft; }
+}
+
+// ----- Links -----
+.reveal a {
+  text-decoration: none;
+  border-bottom: 1px solid rgba($primary, 0.35);
+  transition: color 0.15s, border-color 0.15s;
+}
+.reveal a:hover {
+  color: $accent;
+  border-bottom-color: $accent;
+}
+
+// ----- Code -----
+.reveal pre code {
+  font-family: $font-family-monospace;
+  border-radius: 8px;
+  padding: 1em;
+  font-size: 0.78em;
+  line-height: 1.5;
+}
+
+.reveal :not(pre) > code {
+  background: #f1f5f9;
+  color: $accent;
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+
+// ----- Footer / progress -----
+.reveal .footer, .reveal .slide-footer {
+  font-size: 0.55em;
+  color: $muted;
+  font-weight: 500;
+}
+
+.reveal .progress {
+  height: 4px;
+  color: $primary;
+}
+
+// ----- Card-style callouts on slides (overrides custom.css) -----
+.reveal .learning-outcomes,
+.reveal .thought-question,
+.reveal .case-at-a-glance,
+.reveal .context-box,
+.reveal .recap {
+  background: white;
+  border: 1px solid $rule;
+  border-radius: 10px;
+  padding: 1.6em 1.25em 1em;
+  margin: 1em 0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05),
+              0 2px 4px -1px rgba(0, 0, 0, 0.04);
+  position: relative;
+  font-size: 0.78em;
+  text-align: left;
+}
+
+.reveal .learning-outcomes::before,
+.reveal .thought-question::before,
+.reveal .case-at-a-glance::before,
+.reveal .context-box::before,
+.reveal .recap::before {
+  position: absolute;
+  top: -0.7em;
+  left: 1em;
+  padding: 0.25em 0.85em;
+  border-radius: 999px;
+  font-size: 0.7em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: white;
+  font-variant: normal;
+  margin-bottom: 0;
+}
+
+.reveal .learning-outcomes::before { content: "Learning Outcomes"; background: $primary; }
+.reveal .thought-question::before  { content: "Discuss";           background: $warm; }
+.reveal .case-at-a-glance::before  { content: "At a Glance";       background: $accent; }
+.reveal .context-box::before       { content: "Background";        background: $muted; }
+.reveal .recap::before             { content: "Recap";             background: $primary; }
+
+// Inline key term on slides
+.reveal .key-term {
+  color: $primary;
+  font-weight: 600;
+  border-bottom: 1px dotted $primary;
+}
+
+// Speaker notes (already styled by reveal, but tighten)
+.reveal aside.notes {
+  font-family: $font-family-sans-serif;
+}

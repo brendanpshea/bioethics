@@ -5,3 +5,5 @@ docs/
 *.~lock.*
 **/*.quarto_ipynb
 chapters/*.html
+
+/.quarto/

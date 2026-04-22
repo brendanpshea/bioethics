@@ -1,0 +1,142 @@
+---
+# ============================================================
+# LECTURE TEMPLATE — copy this file when starting a new lecture.
+# Filename convention: NN-short-slug.qmd  (e.g., 02-history-clinical-relationship.qmd)
+# Files prefixed with "_" are skipped by Quarto, so this template
+# itself is not rendered.
+# ============================================================
+title: "Lecture N — [Lecture Title]"
+subtitle: "Part A: [Subtitle] · Part B: [Subtitle]"
+author: "Brendan Shea, PhD"
+date: last-modified
+format:
+  html:
+    toc: true
+    number-sections: true
+  revealjs:
+    output-file: NN-slug-slides.html
+---
+
+# Part A — [Subtitle]
+
+## Opening: A Case to Sit With
+
+Open with a brief, concrete scenario — one paragraph or a short quote — that frames the lecture's central tension. This is the hook, not the lesson.
+
+## What We're Doing Today
+
+::: {.learning-outcomes}
+By the end of Part A, you will be able to:
+
+- [Outcome 1: action verb + specific content + condition if relevant]
+- [Outcome 2]
+- [Outcome 3]
+:::
+
+## [Section 1 Title]
+
+Body text. Introduce a [key term]{.key-term} the first time it appears so the styling cues students that it's a concept they should be able to define.
+
+In-text citations follow Chicago author-date and use the standard Pandoc syntax: @beauchamp2019 argued that the four principles function as *prima facie* duties. A parenthetical reference looks like this [@emanuel1992]. You can cite multiple works at once [@beauchamp2019; @faden1986].
+
+::: {.context-box}
+**[Concept students may not know]**
+
+Brief background — one to three short paragraphs — for any concept that wouldn't be familiar to a 12th grader. Keep this scaffolding tight. Examples: what an RCT is, what germline vs. somatic means, how brain death is determined.
+:::
+
+## [Section 2 Title]
+
+When a diagram clarifies the structure of an argument or relationship, prefer Mermaid over a static image — it stays editable.
+
+```{mermaid}
+flowchart LR
+  A[Patient autonomy] --> D{Conflict?}
+  B[Clinical beneficence] --> D
+  D -->|No| E[Proceed with care plan]
+  D -->|Yes| F[Ethics consultation]
+```
+
+Use Graphviz when the layout requires it (decision trees, larger graphs):
+
+```{dot}
+digraph G {
+  rankdir=LR;
+  node [shape=box, style=rounded];
+  "Refuses treatment" -> "Has capacity?";
+  "Has capacity?" -> "Honor refusal" [label="yes"];
+  "Has capacity?" -> "Surrogate decides" [label="no"];
+}
+```
+
+When you need a photograph or historical image, download from Wikimedia Commons (CC-licensed) into `images/` and attribute with a Quarto figure caption. Example:
+
+![Hippocrates of Kos. Engraving by Peter Paul Rubens, 1638. *Wikimedia Commons*, public domain.](../images/hippocrates.jpg){#fig-hippocrates width="40%"}
+
+Then refer to the figure in text: see @fig-hippocrates.
+
+::: {.thought-question}
+A question for the class to discuss in the moment — short, opinion-eliciting, no obvious right answer. Aim for one or two per part.
+
+*Example:* If a competent patient refuses a life-saving transfusion on religious grounds, and their adult child begs you to override the refusal, what do you owe to each of them?
+:::
+
+## Mini-Recap
+
+::: {.recap}
+Two or three sentences synthesizing what Part A established. This bridges into Part B.
+:::
+
+# Part B — [Subtitle]
+
+## Where We Left Off
+
+One short paragraph reorienting students who arrive having read or watched Part A separately. Online students will see Parts A and B back to back, so don't repeat too much.
+
+## What We're Doing in Part B
+
+::: {.learning-outcomes}
+By the end of Part B, you will be able to:
+
+- [Outcome 1]
+- [Outcome 2]
+:::
+
+## [Section 3 Title]
+
+Body content. Build on Part A. Introduce additional [key terms]{.key-term} as needed.
+
+::: {.thought-question}
+[A second discussion prompt — ideally one that revisits a tension introduced in Part A from a new angle.]
+:::
+
+## [Section 4 Title]
+
+Application section. Either work through a brief illustrative case in the text *or* point students to the paired case study document:
+
+> **Read for next class:** [Case N — Title](cases/NN-slug.qmd)
+
+## Wrap-Up
+
+::: {.recap}
+Three to four sentences summarizing the whole lecture's arc — the question, the main moves, the unresolved tension that opens onto the next lecture or the assigned case study.
+:::
+
+## Key Terms
+
+Used in this lecture and worth being able to define on an exam:
+
+- **[Term 1]** — short gloss
+- **[Term 2]** — short gloss
+- **[Term 3]** — short gloss
+
+## Further Reading
+
+Curated list of accessible follow-up sources. Distinct from the references below (which are works *cited* in the lecture).
+
+- Author. *Title*. Publisher, Year.
+
+## References
+
+::: {#refs}
+:::

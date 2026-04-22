@@ -3,6 +3,9 @@ title: "Bioethics: An Open Educational Resource"
 subtitle: "Course Notes and Lecture Slides"
 author: "Brendan Shea, PhD"
 date: last-modified
+format:
+  html:
+    toc: false
 ---
 
 ## About This Course
