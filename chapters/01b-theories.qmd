@@ -1,0 +1,331 @@
+---
+title: "Principles, Theories & Moral Reasoning"
+subtitle: "Lecture 1 · Part B — Ethical Theories as Lenses"
+author: "Brendan Shea, PhD"
+date: last-modified
+format:
+  html:
+    toc: true
+    number-sections: true
+  revealjs:
+    output-file: 01b-theories-slides.html
+---
+
+## Bridge from Part A
+
+In Part A we asked: *what* are the four principles, and how do you read a moral argument?
+
+Part B asks the next question:
+
+> **Where do the principles come from — and how do we weigh them when they conflict?**
+
+That is where ethical **theory** comes in.
+
+::: {.learning-outcomes}
+By the end of Part B, you will be able to:
+
+- State the core commitment of utilitarianism, Kantian ethics, virtue ethics, and care ethics
+- Explain how each theory grounds or prioritizes the four principles differently
+- Apply at least two theories to the same clinical case and show they yield different answers
+:::
+
+# Why Theory? {.section-divider}
+
+The four principles tell you *what* to weigh. Theories tell you *how.*
+
+## What Theories Do
+
+The four principles — autonomy, beneficence, non-maleficence, justice — give us a shared vocabulary. But they do not, by themselves, tell us which principle to prioritize when they conflict [@beauchamp2019].
+
+Ethical theories fill that gap. Think of them as **lenses**:
+
+- Each focuses on something real
+- Each has blind spots
+- No single lens sees everything
+
+We will use all four throughout the course — not to pick a winner, but to see more of the problem.
+
+## A Roadmap
+
+| Theory | Core question | Key figure |
+|---|---|---|
+| **Utilitarianism** | What produces the best outcomes? | Mill, Bentham |
+| **Kantian ethics** | What are my duties, regardless of outcome? | Kant |
+| **Virtue ethics** | What would a person of good character do? | Aristotle |
+| **Care ethics** | What do my relationships and context require? | Gilligan, Held |
+
+::: {.notes}
+Remind students: these will appear in almost every subsequent lecture. Abortion, end of life, justice — each one sees these theories pulling differently.
+:::
+
+# Utilitarianism {.section-divider}
+
+*The right action produces the greatest good for the greatest number.*
+
+## Mill and Bentham
+
+:::: {.columns}
+
+::: {.column width="48%"}
+![](../images/mill.jpg){width="72%" fig-alt="Photograph of John Stuart Mill, c.1870"}
+
+::: {.attribution}
+J. S. Mill, c. 1870. London Stereoscopic Co. Public domain.
+:::
+:::
+
+::: {.column width="48%"}
+![](../images/bentham.jpg){width="72%" fig-alt="Portrait of Jeremy Bentham by Henry William Pickersgill"}
+
+::: {.attribution}
+Jeremy Bentham, by H. W. Pickersgill. Public domain.
+:::
+:::
+
+::::
+
+> "Actions are right in proportion as they tend to promote happiness; wrong as they tend to produce the reverse of happiness." — Mill [@mill1863]
+
+## The Greatest Happiness Principle
+
+Utilitarianism judges actions entirely by their **consequences**:
+
+- What matters is **welfare** — happiness, well-being, the absence of suffering
+- All individuals count equally; no one gets extra weight
+- The morally required action is the one that **maximizes** total welfare
+
+Bentham called this the **hedonic calculus** — weigh the pleasures and pains produced, add them up, choose the highest score [@bentham1789].
+
+## Utilitarianism and the Four Principles
+
+[Beneficence]{.pill .pill-beneficence} is central — acting to maximize welfare just *is* acting beneficently.
+
+[Justice]{.pill .pill-justice} emerges from **impartiality**: each person counts as one, so unfair distributions that reduce total welfare are wrong.
+
+[Autonomy]{.pill .pill-autonomy} is valued **instrumentally** — respecting autonomy usually maximizes welfare — but can be overridden when it doesn't.
+
+[Non-Maleficence]{.pill .pill-nonmal} is captured under the harm side of the ledger.
+
+::: {.callout-note}
+**The tension.** A strict utilitarian could justify deceiving a patient if the deception produces better outcomes. Most clinicians resist this — which is why other theories matter.
+:::
+
+## Thought Question
+
+::: {.thought-question}
+A city has 10 ventilators and 15 patients who need one to survive. Five of the fifteen have a much higher probability of surviving with ventilator support.
+
+A utilitarian protocol would allocate ventilators to maximize lives saved — which likely means the five highest-probability patients get priority.
+
+- Is that fair to the other ten patients?
+- Does it matter *why* some patients have lower survival odds — age, disability, underlying illness?
+- What would the principle of justice say that utilitarianism might miss?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+**The utilitarian reply.** A sophisticated utilitarian can say: the protocol maximizes welfare across the *group*, which is what justice requires. **The critique** is that it treats some lives as worth less, and that the reasons behind lower survival odds (disability, chronic illness) are often tied to existing inequities. We will return to this in L9 (Public Health Ethics) and L8 (Justice).
+:::
+
+# Kantian Ethics {.section-divider}
+
+*Act from duty — treat persons always as ends, never merely as means.*
+
+## Kant
+
+::: {.columns}
+
+::: {.column width="42%"}
+![](../images/kant.jpg){width="80%" fig-alt="Painted portrait of Immanuel Kant"}
+
+::: {.attribution}
+Immanuel Kant, painted portrait. Public domain (Wikimedia Commons).
+:::
+:::
+
+::: {.column width="55%"}
+**Immanuel Kant (1724–1804)** argued that morality is grounded in **reason**, not consequences.
+
+The key test is his [Categorical Imperative]{.key-term} — a rule for whether an action is morally permissible, applied *before* you look at outcomes.
+:::
+
+::::
+
+## The Humanity Formulation
+
+The most clinically relevant form of the Categorical Imperative [@kant1785]:
+
+> *"Act so that you treat humanity, whether in your own person or in that of another, always as an end and never as a means only."*
+
+In practice, this means:
+
+- Persons have **dignity** — an unconditional worth that cannot be traded off
+- Deceiving, manipulating, or coercing a patient uses them as a *mere means*
+- Informed consent is not just policy — it is a **moral requirement**
+
+## Kantian Ethics and the Four Principles
+
+[Autonomy]{.pill .pill-autonomy} is Kant's **central** principle — respecting autonomy is what it means to treat persons as ends.
+
+[Non-Maleficence]{.pill .pill-nonmal} reflects the duty not to harm persons who have inherent dignity.
+
+[Beneficence]{.pill .pill-beneficence} is a genuine duty, but cannot override autonomy — benefiting someone by deceiving them is still wrong.
+
+[Justice]{.pill .pill-justice} flows from treating persons equally as ends — no one's dignity is worth more than another's.
+
+::: {.callout-note}
+**Contrast with utilitarianism.** Kant would say: you must never lie to the Jehovah's Witness patient about her prognosis to get her to consent, *even if* lying would save her life.
+:::
+
+## Thought Question
+
+::: {.thought-question}
+A patient with severe depression has been refusing an antidepressant. His psychiatrist suspects the refusal is itself a symptom of the illness — that his depression is preventing him from appreciating how treatment could help him.
+
+- Does the Kantian view help here — or complicate it?
+- When, if ever, does treating the illness require overriding the patient's expressed wishes?
+- How is this different from the Jehovah's Witness case?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+**The Kantian tension.** Kant's framework requires that the patient be capable of rational self-governance for autonomy to apply fully. If the illness itself impairs that capacity, overriding expressed wishes *may* be consistent with treating him as an end — but this reasoning can also be abused to justify paternalism. **Decision-making capacity assessment** (L2) is how clinical ethics tries to hold this line carefully.
+:::
+
+# Virtue Ethics {.section-divider}
+
+*Character before rules — what kind of person should I be?*
+
+## Aristotle and Eudaimonia
+
+::: {.columns}
+
+::: {.column width="42%"}
+![](../images/aristotle.jpg){width="80%" fig-alt="Marble bust of Aristotle, Altemps Collection"}
+
+::: {.attribution}
+Aristotle (copy of Lysippos bust). Palazzo Altemps. Public domain.
+:::
+:::
+
+::: {.column width="55%"}
+Aristotle asked not "what should I do?" but "what kind of person should I be?" [@aristotle_ne]
+
+[Eudaimonia]{.key-term} — often translated *flourishing* — is the goal of human life: living and acting in accordance with the virtues of a fully developed human being.
+
+A virtue is a **stable character trait** — developed through practice — that reliably disposes a person to act and feel well.
+:::
+
+::::
+
+## The Virtues of the Good Nurse
+
+Virtue ethics is especially useful in professional ethics, because professions define **role-specific excellences**.
+
+The ANA Code of Ethics [@ana2015] describes the good nurse as someone who embodies:
+
+- **Compassion** — genuine concern for the patient's suffering
+- **Integrity** — consistency between values and actions, even under pressure
+- **Fidelity** — keeping commitments made to patients and profession
+- **Practical wisdom** (*phronesis*) — knowing how to apply general principles to particular situations
+
+These are not policies. They are traits you develop by practicing them.
+
+## Virtue Ethics and the Four Principles
+
+Virtue ethics asks: what would a *person of good character* do in this situation?
+
+[Beneficence]{.pill .pill-beneficence} — the virtuous clinician genuinely *cares* about the patient's good, not just follows protocols.
+
+[Non-Maleficence]{.pill .pill-nonmal} — integrity means honesty about what you can and cannot do.
+
+[Autonomy]{.pill .pill-autonomy} — respect for persons flows from compassion and fidelity, not just rules.
+
+[Justice]{.pill .pill-justice} — fairness requires the virtue of impartiality even toward patients you find difficult.
+
+# Care Ethics {.section-divider}
+
+*Relationships, not rules, are the starting point of moral life.*
+
+## Gilligan and the Ethics of Care
+
+Carol Gilligan [@gilligan1982] argued that dominant moral theories — utilitarian and Kantian — were built around **abstract rules** applied to strangers. They missed what actually structures most moral life: **relationships, dependency, and the responsibility that comes with them**.
+
+> "The moral problem arises from conflicting responsibilities rather than competing rights and requires for its resolution a mode of thinking that is contextual and narrative rather than formal and abstract."
+> — Gilligan, *In a Different Voice* (1982)
+
+## Relationships, Context, Vulnerability
+
+Care ethics, developed by Gilligan and later Virginia Held [@held2006], asks:
+
+- Who is *this* patient, in *this* situation, with *this* set of relationships?
+- What do I owe them given the relationship I have with them?
+- Whose needs are being made invisible by abstract rule-following?
+
+In nursing practice, care ethics is not a soft add-on. It describes what nurses already know: the moral weight of the bedside relationship cannot be reduced to a checklist.
+
+## Care Ethics and the Four Principles
+
+[Autonomy]{.pill .pill-autonomy} is reframed: rather than the isolated individual making a formal choice, it is the **relational** self — embedded in family, community, culture.
+
+[Beneficence]{.pill .pill-beneficence} is particularized: it matters what *this person* needs, not what the average patient needs.
+
+[Non-Maleficence]{.pill .pill-nonmal} includes attending to emotional harm and the harm of not being *seen* or *heard*.
+
+[Justice]{.pill .pill-justice} requires attending to who is made vulnerable by social structures — and who gets left out of abstract policy.
+
+## Thought Question
+
+::: {.thought-question}
+A 78-year-old woman with mild cognitive impairment makes decisions that worry her adult children. She insists on living alone; she sometimes forgets meals; she declines the assisted living facility they have arranged.
+
+- A utilitarian might look at her risk profile and long-term welfare. A Kantian might ask about her decision-making capacity. A virtue ethicist might ask what a caring daughter or a virtuous clinician would do.
+- What does the *care ethics* lens add that the others miss?
+- Is there anything it might obscure?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+**What care ethics adds.** It centers the *relationship* and the patient's embeddedness in family and community — her story, not just her risk score. **What it can obscure:** the caring family can also be a controlling one; care ethics needs to ask whether the relationships are themselves just. This is one reason the four principles framework is used alongside the theories rather than replaced by any single one.
+:::
+
+# Putting It Together {.section-divider}
+
+Four lenses. One case. Different things come into view.
+
+## The Theories as Lenses
+
+| Theory | Foundational commitment | Role of the four principles |
+|---|---|---|
+| Utilitarianism | Maximize welfare | Principles are *derived* — follow them because doing so usually produces the best outcomes |
+| Kantian ethics | Respect persons as ends | Principles are *duties* grounded in rational dignity — especially autonomy |
+| Virtue ethics | Cultivate good character | Principles are *expressions* of virtue — practical wisdom tells you how to apply them |
+| Care ethics | Honor relationships | Principles are *contextualized* by relationship and dependency — not applied abstractly |
+
+
+## Which Theory Is Right?
+
+Probably none of them — completely. Each illuminates something the others miss:
+
+- Utilitarianism sees the **population** and the aggregate.
+- Kantian ethics sees the **dignity** of the individual that cannot be traded away.
+- Virtue ethics sees the **character** of the clinician and the quality of the relationship.
+- Care ethics sees the **context and dependency** that abstract rules can erase.
+
+The four principles work in part because they are *theory-agnostic*: a Kantian and a utilitarian can both endorse autonomy, beneficence, non-maleficence, and justice — they just disagree about why and how to weight them.
+
+## Wrapping Up Lecture 1
+
+::: {.recap}
+Bioethics uses a **four-principle framework** as its shared vocabulary, supported by four major ethical theories that offer different answers to the question of *how to weigh* those principles. Utilitarianism focuses on outcomes and aggregate welfare. Kantian ethics focuses on duties and the dignity of persons. Virtue ethics focuses on character. Care ethics focuses on relationships and context. No single theory is correct; used as lenses, they let us see more of what is morally at stake in any clinical situation.
+
+**Lecture 2** turns to the history that gave these principles their urgency, and the clinical relationship where they are daily tested.
+:::
+
+## References
+
+::: {#refs}
+:::

@@ -18,8 +18,12 @@ website:
         text: Home
       - href: chapters/00-course-outline.qmd
         text: "Outline"
-      - href: chapters/01-introduction.qmd
-        text: "1. Introduction"
+      - text: "1. Principles & Reasoning"
+        menu:
+          - href: chapters/01-introduction.qmd
+            text: "Part A — The Four Principles"
+          - href: chapters/01b-theories.qmd
+            text: "Part B — Ethical Theories"
     right:
       - icon: github
         href: https://github.com/brendanpshea/bioethics-oer

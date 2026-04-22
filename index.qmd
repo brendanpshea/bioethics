@@ -18,9 +18,10 @@ All materials are freely available for non-commercial educational use under a [C
 
 ## Course Materials
 
-| Chapter | Topic | Slides | Notes |
-|---------|-------|--------|-------|
-| 1 | Introduction to Bioethics | [Slides](chapters/01-introduction-slides.html) | [Notes](chapters/01-introduction.html) |
+| # | Part | Topic | Slides | Notes |
+|---|------|-------|--------|-------|
+| 1A | Principles & Reasoning | The Four Principles; Reading a Moral Argument | [Slides](chapters/01-introduction-slides.html) | [Notes](chapters/01-introduction.html) |
+| 1B | Principles & Reasoning | Ethical Theories as Lenses | [Slides](chapters/01b-theories-slides.html) | [Notes](chapters/01b-theories.html) |
 
 ---
 

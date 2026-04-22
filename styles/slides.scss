@@ -25,7 +25,7 @@ $font-family-monospace:  "JetBrains Mono", "Cascadia Code", "Consolas", monospac
 $body-bg:        white;
 $body-color:     $ink;
 
-$presentation-font-size-root:    32px;
+$presentation-font-size-root:    30px;
 $presentation-h1-font-size:      2.4em;
 $presentation-h2-font-size:      1.5em;
 $presentation-h3-font-size:      1.15em;
@@ -260,4 +260,24 @@ $code-block-border-color: $rule;
 // Speaker notes (already styled by reveal, but tighten)
 .reveal aside.notes {
   font-family: $font-family-sans-serif;
+}
+
+// ----- Image height caps — prevent portraits and figures from overflowing -----
+// Images in multi-column layouts (portraits alongside text)
+.reveal .columns img {
+  max-height: 42vh;
+  width: auto;
+  object-fit: contain;
+}
+
+// Standalone images on a slide
+.reveal .slides section > p > img,
+.reveal .slides section > figure > img {
+  max-height: 55vh;
+  width: auto;
+}
+
+// Clip any content that still overflows rather than pushing the footer off screen
+.reveal .slides section {
+  overflow: hidden;
 }

@@ -16,11 +16,19 @@ format:
 ## A Quiet Tuesday on the Floor
 
 ::: {.thought-question}
-A 34-year-old patient, alert and competent, is admitted with severe internal bleeding after a car accident. She has a signed advance directive: as a Jehovah's Witness, she refuses all blood transfusions, even to save her life. The trauma surgeon believes a transfusion would almost certainly save her. Her parents arrive and beg the team to "just do it."
+A 34-year-old woman is in the trauma bay after a high-speed crash. Alert, oriented, full capacity. CT shows a grade IV splenic laceration; her hemoglobin has fallen from 13 to 7 in the last hour. The surgeon wants her in the OR, with pre-emptive transfusion. Tucked in her wallet is a signed, dated card declaring her a Jehovah's Witness and refusing all blood products. Her parents have just arrived and are pleading with the team to "do whatever it takes."
 
-*Brief context.* Jehovah's Witnesses interpret several biblical passages as forbidding the consumption or transfusion of blood. The position is sincerely held, well-known to clinicians, and has been the subject of dozens of court cases — most have upheld the right of competent adults to refuse.
+You are the nurse at her bedside.
 
-Pause for a moment. What would you, as the nurse at the bedside, do — and *why*?
+- What questions would you want answered before doing anything?
+- Who exactly is asking you to do what?
+- What do you think the right move is — and why?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+**The legal frame.** U.S. courts have, in nearly every case involving a competent adult, upheld the patient's right to refuse blood — even when refusal is fatal. The harder cases involve **minors**, **pregnancy**, and **unclear capacity**. We will come back to all three later in the course.
 :::
 
 ::: {.notes}
@@ -124,12 +132,17 @@ This is the moment to flag that "I feel" / "I believe" are perfectly fine *start
 ## Thought Question
 
 ::: {.thought-question}
-A nurse refuses to assist with a legal procedure — say, an elective abortion or medical aid in dying — because of her religious convictions. Her hospital has a **conscience-clause** policy that protects her right to opt out without losing her job.
+A nurse on the L&D floor is asked to assist with a second-trimester abortion for a patient whose fetus has a lethal anomaly. The procedure is legal; her own physician is performing it. The nurse declines on religious grounds and asks to be reassigned. Her hospital has a **conscience clause** — a policy permitting clinicians to opt out of specific procedures — and she has invoked it formally.
 
-*Brief context.* Conscience clauses are laws or workplace policies that allow clinicians to decline participation in specific procedures on moral or religious grounds. They exist in most U.S. states and at the federal level. They typically require the institution (not the individual nurse) to ensure the patient is still cared for.
+- Is what she is doing *legal*? *Ethical*? *Religiously required*? *A personal preference*?
+- Could the answers come apart? In what scenario?
+- Now imagine the same refusal at 3 a.m. at a small rural hospital with no other nurse on shift. Anything change?
+:::
 
-- Is what she is doing *legal*? *Ethical*? *Religiously required*? *A personal preference*? It may be more than one of these — or none.
-- Could the answers come apart? Imagine the same refusal in a small rural hospital with no other nurse on shift. Does that change anything?
+## After You've Discussed
+
+::: {.callout-note}
+**Where the duty actually lands.** Most U.S. conscience-clause laws place the duty to *still care for the patient* on the **institution**, not on the individual clinician. That shifts the question from "can she refuse?" to "what does the institution owe the patient when she does?"
 :::
 
 # The Four Principles {.section-divider}
@@ -163,24 +176,20 @@ The Jehovah's Witness case from the start of class is, at its core, an autonomy 
 
 ## Autonomy in Practice
 
-::: {.principle-row}
-::: {.principle-id .autonomy}
-[1]{.num}
-[Autonomy]{.label}
-[self-rule]{.tag}
+::: {.principle-marker}
+[Autonomy]{.pill .pill-autonomy}  [self-rule]{.tag}
 :::
+
 ::: {.context-box}
-A 28-year-old woman with poorly controlled type-1 diabetes (A1c 11.2) repeatedly declines an insulin pump. She tells you, plainly, that she is tired of being told what to do.
+**The case.** A 28-year-old with type-1 diabetes (A1c 11.2) declines an insulin pump for the third time. She is tired of being told what to do.
 
-Respecting autonomy here is not "agreeing she is right." It is:
+**What respecting autonomy looks like here:**
 
-- making sure she understands the medical risks (**disclosure**)
-- assessing her decision-making capacity — which, here, she has
-- documenting clearly
-- continuing to support her without coercion or punishment
+- Make sure she understands the risks — *disclosure*
+- Assess decision-making capacity (she has it)
+- Document clearly; continue to offer support without coercion
 
-Autonomy is the *floor* — it does not require us to abandon her. It requires us not to override her.
-:::
+Autonomy is the *floor.* It does not require us to abandon her — only not to override her.
 :::
 
 ## 2. Beneficence
@@ -197,23 +206,20 @@ Beneficence and autonomy can pull in opposite directions.
 
 ## Beneficence in Practice
 
-::: {.principle-row}
-::: {.principle-id .beneficence}
-[2]{.num}
-[Beneficence]{.label}
-[do good]{.tag}
+::: {.principle-marker}
+[Beneficence]{.pill .pill-beneficence}  [do good]{.tag}
 :::
-::: {.context-box}
-An 82-year-old man with end-stage heart failure is admitted for the fifth time this year. The team recommends a comfort-focused plan; he says he wants "everything done." His daughter pulls you aside and asks the team to "talk him out of it."
 
-Beneficence here forces a question that paternalism quietly skips: *whose* idea of his good?
+::: {.context-box}
+**The case.** An 82-year-old with end-stage heart failure, fifth admission this year. The team recommends comfort-focused care; he wants "everything done." His daughter asks the team to "talk him out of it."
+
+**Whose idea of his good?**
 
 - The team's clinical judgment about prognosis?
 - His own stated wishes, formed over a long life?
 - His daughter's fear of losing him?
 
-Beneficence is not the same as overriding the patient. It is the discipline of finding out what *this person* counts as a life worth living, and acting in service of *that*.
-:::
+Beneficence is not the same as paternalism. It is the discipline of finding out what *this person* counts as a life worth living — and acting in service of *that.*
 :::
 
 ## 3. Non-Maleficence
@@ -240,22 +246,19 @@ Hippocrates, engraving by Peter Paul Rubens. Public domain (Wikimedia Commons).
 
 ## Non-Maleficence in Practice
 
-::: {.principle-row}
-::: {.principle-id .nonmal}
-[3]{.num}
-[Non-Maleficence]{.label}
-[do no harm]{.tag}
+::: {.principle-marker}
+[Non-Maleficence]{.pill .pill-nonmal}  [do no harm]{.tag}
 :::
-::: {.context-box}
-A new chemotherapy regimen offers a 30% chance of remission and a 5% chance of fatal cardiotoxicity. Standard care offers neither.
 
-Non-maleficence does not say *never harm.* It asks two questions:
+::: {.context-box}
+**The case.** A new chemotherapy regimen offers a 30% chance of remission and a 5% chance of fatal cardiotoxicity. Standard care offers neither.
+
+**The principle does not say "never harm." It asks:**
 
 - Is the expected harm **proportionate** to the expected benefit?
 - Does the patient understand both sides clearly enough to choose?
 
-Every IV start is a small puncture wound. Every medication has side effects. The principle's job is to keep that ledger open and visible — not to forbid risk, but to forbid hidden, gratuitous, or disproportionate risk.
-:::
+Every IV start is a small puncture wound. Every medication has side effects. The principle's job is to forbid *hidden, gratuitous, or disproportionate* risk — not all risk.
 :::
 
 ## 4. Justice
@@ -274,23 +277,20 @@ We'll spend an entire lecture (L8) on justice. For now, just plant the flag: bio
 
 ## Justice in Practice
 
-::: {.principle-row}
-::: {.principle-id .justice}
-[4]{.num}
-[Justice]{.label}
-[treat fairly]{.tag}
+::: {.principle-marker}
+[Justice]{.pill .pill-justice}  [treat fairly]{.tag}
 :::
+
 ::: {.context-box}
-Two patients arrive at the emergency department with the same complaint: 55-year-old, chest pain, no obvious red flags. One is on Medicaid; the other has private insurance. Decades of research show that, on average, they will not get the same workup.
+**The case.** Two 55-year-olds arrive in the ED with chest pain and no obvious red flags. One is on Medicaid; the other has private insurance. Decades of research show that, on average, they will not get the same workup.
 
-Justice at the bedside is rarely as dramatic as a kidney allocation decision. It looks like:
+**Justice at the bedside is rarely a kidney allocation decision. It looks like:**
 
-- Are we ordering tests because of clinical findings, or because of who the patient appears to be?
-- Are our floors and ICUs staffed and supplied equitably across units?
-- Where do *we* — as nurses — contribute to or push back against disparate care?
+- Are we ordering tests for clinical reasons — or for who the patient appears to be?
+- Are our floors and ICUs staffed and supplied equitably?
+- Where do *we*, as nurses, push back against disparate care?
 
 Justice asks us to look up from the individual patient and notice the pattern.
-:::
 :::
 
 ## The Four Together
@@ -323,13 +323,22 @@ The four principles do not resolve these tensions. They make them **visible** so
 ## Thought Question
 
 ::: {.thought-question}
-Return to our Jehovah's Witness patient. Recall the clinical picture: she is **34, alert, oriented, with full decision-making capacity**, and she has a **specific written advance directive** refusing transfusion. The surgeon believes a transfusion would almost certainly save her life.
+Return to our trauma-bay patient — full capacity, signed refusal, parents at the door. Now you have vocabulary for what was hard.
 
-Sort the principles into two columns:
+- Which principles point *toward* transfusing her? Which point *away*?
+- Which counts as the "harm" — letting her die, or doing something to her body she has explicitly refused?
+- Which principle would you weight most heavily, and why?
+- What single fact, if changed, would change your answer?
+:::
 
-- Which support transfusing her against her wishes? Think about [Beneficence]{.pill .pill-beneficence} and [Non-Maleficence]{.pill .pill-nonmal} — but be careful: which counts as the "harm" here?
-- Which support honoring her refusal? Think about [Autonomy]{.pill .pill-autonomy} — and notice that respecting her choice may itself be the most beneficent act available.
-- If you had to pick *one principle* to weight most heavily, which — and why? What would change your answer?
+## After You've Discussed
+
+::: {.callout-note}
+**How the principles typically map.**
+
+- The case is often framed as [Beneficence]{.pill .pill-beneficence} and [Non-Maleficence]{.pill .pill-nonmal} pulling **toward** transfusion, [Autonomy]{.pill .pill-autonomy} pulling **against**.
+- But notice the twist: respecting her refusal may itself be the most *beneficent* act, and transfusing a competent patient against her will is itself a form of *harm*.
+- The principles do not decide the case. They give us shared language to *argue* about it.
 :::
 
 # Reading a Moral Argument {.section-divider}
@@ -347,19 +356,17 @@ The job of the careful reader: **find the conclusion first, then the premises, t
 
 ## Worked Example
 
-Here is a short argument you might hear on the floor:
+A short argument you might hear on the floor:
 
 > *"We have to transfuse her — she'll die otherwise, and our job is to save lives."*
 
-Pull it apart into its anatomy:
-
 ```{dot}
 //| fig-width: 6
-//| fig-height: 3.2
+//| fig-height: 2.4
 digraph argument {
   rankdir=TB;
   bgcolor="transparent";
-  node [shape=box, style="rounded,filled", fontname="Inter", fontsize=12, color="#94a3b8", fillcolor="#f8fafc", fontcolor="#0f172a", margin="0.18,0.12"];
+  node [shape=box, style="rounded,filled", fontname="Inter", fontsize=11, color="#94a3b8", fillcolor="#f8fafc", fontcolor="#0f172a", margin="0.15,0.08"];
   edge [color="#64748b", arrowsize=0.7];
   P1 [label="Premise 1\nWithout a transfusion,\nthe patient will die."];
   P2 [label="Premise 2\nOur job is\nto save lives."];
@@ -369,13 +376,9 @@ digraph argument {
 }
 ```
 
-::: {.callout-note}
-Sounds airtight — until you notice what's *missing.*
-:::
-
 ## Hidden Assumptions
 
-That argument quietly assumes:
+Sounds airtight — until you notice what's *missing.* That argument quietly assumes:
 
 - "Saving lives" *always* outweighs the patient's other wishes.
 - The patient's refusal can be set aside because it's "irrational."
@@ -385,19 +388,15 @@ Each of those is contestable. **Surfacing hidden assumptions** is half the work 
 
 ## What Is a Fallacy?
 
-A **fallacy** is an error in reasoning — an argument that *looks* like good support but isn't. Two important things to keep in mind:
+A **fallacy** is an error in *reasoning* — an argument that looks like good support but isn't.
 
-- A fallacy is not the same as a *lie.* The person making it may sincerely believe what they're saying. The defect is in the **logical structure**, not the speaker's honesty.
-- A fallacious argument can still have a **true conclusion**. "The sky is blue, therefore vaccines work" has a true conclusion and is still a terrible argument.
+- Not the same as a lie. The speaker may sincerely believe it.
+- A fallacious argument can still have a **true conclusion** — the defect is in the *structure*, not the conclusion.
+- Most bioethics fallacies are **informal**: the form looks fine, but the content misleads through irrelevance, ambiguity, or hidden assumption.
 
-Two big families:
+The next two slides cover the six you will see most often.
 
-- **Formal fallacies** — the *form* of the argument is invalid (you'll meet these in a formal logic course).
-- **Informal fallacies** — the form looks fine, but the *content* misleads us through irrelevance, ambiguity, or hidden assumption. **Bioethics is mostly informal.**
-
-The five on the next slide are the ones you will see most often in patient-care debates, op-eds, and your own first drafts.
-
-## Common Fallacies in Bioethics
+## Common Fallacies in Bioethics (1/2)
 
 ::: {.fallacy-grid}
 
@@ -419,6 +418,12 @@ The five on the next slide are the ones you will see most often in patient-care 
 [*"You can't take Peter Singer seriously on animal ethics — he holds a lot of unpopular views."*]{.ex}
 :::
 
+:::
+
+## Common Fallacies in Bioethics (2/2)
+
+::: {.fallacy-grid}
+
 ::: {.fallacy-card}
 [Naturalistic Fallacy]{.name}
 [Inferring an *ought* directly from an *is* — that what happens in nature shows what should happen morally.]{.defn}
@@ -433,7 +438,7 @@ The five on the next slide are the ones you will see most often in patient-care 
 
 ::: {.fallacy-card}
 [Appeal to Authority]{.name}
-[Treating the testimony of an authority as decisive even when they are speaking outside their expertise — or when other experts disagree.]{.defn}
+[Treating the testimony of an authority as decisive even when they speak outside their expertise — or when other experts disagree.]{.defn}
 [*"My favorite podcaster says vaccines cause autism, and he has done a lot of research."*]{.ex}
 :::
 

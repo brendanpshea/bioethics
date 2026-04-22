@@ -195,57 +195,24 @@ figure figcaption {
 .pill-nonmal      { background: #fad7d2; color: #9d2f23; }
 .pill-justice     { background: #dfe6ee; color: #334155; }
 
-/* ===== Principle "icon + vignette" companion slide layout ===== */
-.principle-row {
-  display: grid;
-  grid-template-columns: 1fr 1.6fr;
-  gap: 1.25rem;
-  align-items: start;
-  margin-top: 0.5em;
-}
-.principle-id {
+/* ===== Principle marker row (pill + tag) at top of "in practice" slides ===== */
+.principle-marker {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  padding-top: 0.5rem;
-}
-.principle-id .num {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 4.5rem;
-  height: 4.5rem;
-  border-radius: 50%;
+  align-items: baseline;
+  gap: 0.5rem;
+  margin: 0.25em 0 0.5em;
   font-family: "Inter", sans-serif;
-  font-weight: 800;
-  font-size: 2rem;
-  color: white;
-  margin-bottom: 0.5rem;
-  box-shadow: 0 4px 8px -2px rgba(0,0,0,0.15);
 }
-.principle-id .label {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 1.05em;
-  color: var(--ink);
-}
-.principle-id .tag {
-  font-family: "Inter", sans-serif;
-  font-size: 0.78em;
+.principle-marker .tag {
+  font-size: 0.85em;
   color: var(--muted);
   font-style: italic;
-  margin-top: 0.15em;
 }
-.principle-id.autonomy    .num { background: #0e7c86; }
-.principle-id.beneficence .num { background: #b07d1a; }
-.principle-id.nonmal      .num { background: #c0392b; }
-.principle-id.justice     .num { background: #475569; }
 
 /* ===== Fallacy card grid ===== */
 .fallacy-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 0.75rem;
   margin: 0.75em 0;
 }
