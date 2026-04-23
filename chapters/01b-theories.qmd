@@ -110,6 +110,46 @@ Bentham called this the **hedonic calculus** — weigh the pleasures and pains p
 **The tension.** A strict utilitarian could justify deceiving a patient if the deception produces better outcomes. Most clinicians resist this — which is why other theories matter.
 :::
 
+## Utilitarianism: Weighing Harms and Benefits
+
+```{dot}
+//| fig-width: 8.5
+//| fig-height: 2.5
+//| fig-cap: "Utilitarian decision procedure: for each option, estimate the probability and magnitude of every likely outcome (benefits and harms), sum the weighted results, and choose the option with the highest overall expected benefit."
+digraph util {
+  rankdir=LR;
+  bgcolor="transparent";
+  graph [nodesep=0.35, ranksep=0.65];
+  node [fontname="Inter", fontsize=11, style="rounded,filled", color="#94a3b8",
+        fillcolor="#f8fafc", margin="0.14,0.10", shape=box];
+  edge [color="#64748b", fontname="Inter", fontsize=10, arrowsize=0.65];
+
+  Q  [label="Which option produces\nbetter expected outcomes?",
+      fillcolor="#e6f1f2", color="#0e7c86"];
+
+  A  [label="Drug A\n(aggressive)", fillcolor="#fce9d6", color="#b07d1a"];
+  B  [label="Drug B\n(conservative)", fillcolor="#dfe6ee", color="#475569"];
+
+  EA [label="Recovery: likely, benefit large\nSide effects: unlikely, harm serious\n→ Weighted benefit: HIGH",
+      fillcolor="#e6f1f2", color="#0e7c86", fontcolor="#0e7c86"];
+  EB [label="Recovery: possible, benefit moderate\nSide effects: likely, harm minor\n→ Weighted benefit: MODERATE",
+      fillcolor="#f8fafc", color="#94a3b8"];
+
+  R  [label="Prescribe Drug A\n(higher weighted benefit)",
+      fillcolor="#cfe9ec", color="#0e7c86", fontcolor="#0e7c86", penwidth=2];
+
+  Q -> A;
+  Q -> B;
+  A -> EA;
+  B -> EB;
+  EA -> R [color="#0e7c86", penwidth=1.5];
+  EB -> R;
+
+  {rank=same; A; B}
+  {rank=same; EA; EB}
+}
+```
+
 ## Thought Question
 
 ::: {.thought-question}
@@ -178,6 +218,56 @@ In practice, this means:
 **Contrast with utilitarianism.** Kant would say: you must never lie to the Jehovah's Witness patient about her prognosis to get her to consent, *even if* lying would save her life.
 :::
 
+## Kantian Ethics: Duty as Constraint and Guide
+
+```{dot}
+//| fig-width: 9
+//| fig-height: 2.8
+//| fig-cap: "Kantian decision procedure. Amber diamonds are perfect duties — hard stops that hold regardless of outcome. The slate diamond is an imperfect duty, which allows latitude in how and when to act."
+digraph kant {
+  rankdir=LR;
+  bgcolor="transparent";
+  graph [nodesep=0.45, ranksep=0.6];
+  node [fontname="Inter", fontsize=11, margin="0.13,0.10"];
+  edge [color="#64748b", fontname="Inter", fontsize=10, arrowsize=0.65];
+
+  A  [label="Proposed Action\n(e.g., withhold diagnosis)",
+      shape=box, style="rounded,filled", fillcolor="#e6f1f2", color="#0e7c86"];
+
+  Q1 [label="Treats patient as\nmere means?",
+      shape=diamond, style=filled, fillcolor="#fff3cd", color="#b07d1a"];
+  W1 [label="IMPERMISSIBLE\n(perfect duty)",
+      shape=box, style="rounded,filled", fillcolor="#fad7d2",
+      color="#c0392b", fontcolor="#9d2f23", penwidth=2];
+
+  Q2 [label="Other perfect\nduty violated?",
+      shape=diamond, style=filled, fillcolor="#fff3cd", color="#b07d1a"];
+  W2 [label="IMPERMISSIBLE\n(perfect duty)",
+      shape=box, style="rounded,filled", fillcolor="#fad7d2",
+      color="#c0392b", fontcolor="#9d2f23", penwidth=2];
+
+  Q3 [label="Imperfect duty\nto act?",
+      shape=diamond, style=filled, fillcolor="#dfe6ee", color="#475569"];
+  Act  [label="ACT\n(with latitude)",
+        shape=box, style="rounded,filled",
+        fillcolor="#e6f1f2", color="#0e7c86", fontcolor="#0e7c86", penwidth=2];
+  Omit [label="May omit",
+        shape=box, style="rounded,filled", fillcolor="#f8fafc", color="#94a3b8"];
+
+  A  -> Q1;
+  Q1 -> W1  [label="Yes", color="#c0392b", fontcolor="#c0392b"];
+  Q1 -> Q2  [label="No"];
+  Q2 -> W2  [label="Yes", color="#c0392b", fontcolor="#c0392b"];
+  Q2 -> Q3  [label="No"];
+  Q3 -> Act  [label="Yes"];
+  Q3 -> Omit [label="No"];
+
+  {rank=same; Q1; W1}
+  {rank=same; Q2; W2}
+  {rank=same; Act; Omit}
+}
+```
+
 ## Thought Question
 
 ::: {.thought-question}
@@ -245,6 +335,38 @@ Virtue ethics asks: what would a *person of good character* do in this situation
 
 [Justice]{.pill .pill-justice} — fairness requires the virtue of impartiality even toward patients you find difficult.
 
+## Virtue Ethics: The Cycle of Character Development
+
+```{dot}
+//| fig-width: 9
+//| fig-height: 2.4
+//| fig-cap: "Virtue ethics is developmental — good character is built through repeated intentional action, not rule-following. The dashed return edge marks the cycle: over time, virtuous action becomes more natural and less effortful."
+digraph virtue {
+  rankdir=LR;
+  bgcolor="transparent";
+  graph [nodesep=0.4, ranksep=0.55];
+  node [fontname="Inter", fontsize=11, style="rounded,filled",
+        color="#94a3b8", fillcolor="#f8fafc", margin="0.14,0.10", shape=box];
+  edge [color="#64748b", fontname="Inter", fontsize=9, arrowsize=0.7];
+
+  A [label="Ask: what would a\nvirtuous nurse do?",
+     fillcolor="#e6f1f2", color="#0e7c86"];
+  B [label="Deliberate:\nwhat does this\npatient need?",
+     fillcolor="#fce9d6", color="#b07d1a"];
+  C [label="Act with compassion,\nintegrity, fidelity",
+     fillcolor="#e6f1f2", color="#0e7c86"];
+  D [label="Reflect on outcomes\nand relationships",
+     fillcolor="#dfe6ee", color="#475569"];
+  E [label="Character deepens;\nphronesis grows",
+     fillcolor="#fce9d6", color="#b07d1a"];
+
+  A -> B -> C -> D -> E;
+  E -> A [style=dashed, label="more natural\nover time",
+          fontsize=9, color="#94a3b8", fontcolor="#64748b",
+          constraint=false];
+}
+```
+
 # Care Ethics {.section-divider}
 
 *Relationships, not rules, are the starting point of moral life.*
@@ -275,6 +397,47 @@ In nursing practice, care ethics is not a soft add-on. It describes what nurses 
 [Non-Maleficence]{.pill .pill-nonmal} includes attending to emotional harm and the harm of not being *seen* or *heard*.
 
 [Justice]{.pill .pill-justice} requires attending to who is made vulnerable by social structures — and who gets left out of abstract policy.
+
+## Care Ethics: The Web of Relationships
+
+```{dot}
+//| fig-width: 7.5
+//| fig-height: 2.8
+//| fig-cap: "Care ethics centers the patient within a web of concrete relationships. Moral obligations arise from these particular connections — not from abstract rules applied to strangers. The nurse–patient relationship (bold edge) is the immediate site of care."
+digraph care {
+  rankdir=LR;
+  bgcolor="transparent";
+  graph [nodesep=0.3, ranksep=0.65];
+  node [fontname="Inter", fontsize=9, style="rounded,filled",
+        color="#94a3b8", fillcolor="#f8fafc", margin="0.12,0.09", shape=box];
+  edge [arrowhead=none, color="#94a3b8"];
+
+  // Clinical / professional context (left)
+  N  [label="Nurse /\nClinician",    fillcolor="#fce9d6", color="#b07d1a", penwidth=2];
+  T  [label="Healthcare\nteam",      fillcolor="#fce9d6", color="#b07d1a"];
+  Pr [label="Professional\nobligations", fillcolor="#f8fafc", color="#94a3b8"];
+
+  // Center
+  C  [label="Patient\n(clinical situation)",
+      fillcolor="#e6f1f2", color="#0e7c86", fontcolor="#0e7c86",
+      penwidth=3, fontsize=10];
+
+  // Personal / social context (right)
+  F  [label="Family &\nloved ones",  fillcolor="#dfe6ee", color="#475569"];
+  Cm [label="Community\n& culture",  fillcolor="#dfe6ee", color="#475569"];
+  H  [label="Personal history\n& values", fillcolor="#f8fafc", color="#94a3b8"];
+
+  {rank=same; N; T; Pr}
+  {rank=same; F; Cm; H}
+
+  N  -> C [penwidth=2.5, color="#b07d1a"];
+  T  -> C;
+  Pr -> C;
+  C  -> F;
+  C  -> Cm;
+  C  -> H;
+}
+```
 
 ## Thought Question
 

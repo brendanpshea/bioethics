@@ -262,6 +262,18 @@ $code-block-border-color: $rule;
   font-family: $font-family-sans-serif;
 }
 
+// ----- Figure captions on slides — small and muted -----
+.reveal figure figcaption,
+.reveal .figure-caption,
+.reveal p.caption {
+  font-size: 0.48em;
+  color: $muted;
+  font-style: italic;
+  text-align: center;
+  margin-top: 0.2em;
+  line-height: 1.3;
+}
+
 // ----- Image height caps — prevent portraits and figures from overflowing -----
 // Images in multi-column layouts (portraits alongside text)
 .reveal .columns img {
