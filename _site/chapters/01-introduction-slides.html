@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-acf12a64177840b8d86f2d4f01b2e9fb.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.37">
+
+  <meta name="author" content="Brendan Shea, PhD">
+  <meta name="dcterms.date" content="2026-05-11">
+  <title>Bioethics: An Open Educational Resource – Principles, Theories &amp; Moral Reasoning</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-a370ce622855cb25c5b89ff3f7b4b90f.css">
+  <link rel="stylesheet" href="../styles/custom.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+  <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Principles, Theories &amp; Moral Reasoning</h1>
+  <p class="subtitle">Lecture 1 · Part A — The Four Principles and How to Read an Argument</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Brendan Shea, PhD 
+</div>
+</div>
+</div>
+
+  <p class="date">2026-05-11</p>
+</section>
+<section>
+<section id="a-case-to-open-with" class="title-slide slide level1 section-divider center">
+<h1>A Case to Open With</h1>
+
+</section>
+<section id="a-quiet-tuesday-on-the-floor" class="slide level2">
+<h2>A Quiet Tuesday on the Floor</h2>
+<div class="thought-question">
+<p>A 34-year-old woman is in the trauma bay after a high-speed crash. Alert, oriented, full capacity. CT shows a grade IV splenic laceration; her hemoglobin has fallen from 13 to 7 in the last hour. The surgeon wants her in the OR, with pre-emptive transfusion. Tucked in her wallet is a signed, dated card declaring her a Jehovah’s Witness and refusing all blood products. Her parents have just arrived and are pleading with the team to “do whatever it takes.”</p>
+<p>You are the nurse at her bedside.</p>
+<ul>
+<li>What questions would you want answered before doing anything?</li>
+<li>Who exactly is asking you to do what?</li>
+<li>What do you think the right move is — and why?</li>
+</ul>
+</div>
+</section>
+<section id="after-youve-discussed" class="slide level2">
+<h2>After You’ve Discussed</h2>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>The legal frame.</strong> U.S. courts have, in nearly every case involving a competent adult, upheld the patient’s right to refuse blood — even when refusal is fatal. The harder cases involve <strong>minors</strong>, <strong>pregnancy</strong>, and <strong>unclear capacity</strong>. We will come back to all three later in the course.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Let students sit with this. We’ll come back to it after we have vocabulary. The whole rest of the lecture is, in a sense, equipping us to answer this question more carefully than “follow your gut.”</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="today" class="slide level2">
+<h2>Today</h2>
+<div class="learning-outcomes">
+<p>By the end of Part A, you will be able to:</p>
+<ul>
+<li>Define <span class="key-term">bioethics</span> and explain why it emerged as a distinct field</li>
+<li>Distinguish ethical claims from <span class="key-term">legal</span>, <span class="key-term">religious</span>, and <span class="key-term">personal-preference</span> claims</li>
+<li>Name and apply the <span class="key-term">four principles</span> of biomedical ethics</li>
+<li>Identify the premises and conclusion of a moral argument written in ordinary prose</li>
+<li>Recognize a few common fallacies in bioethical reasoning</li>
+</ul>
+</div>
+</section></section>
+<section>
+<section id="what-is-bioethics" class="title-slide slide level1 section-divider center">
+<h1>What Is Bioethics?</h1>
+
+</section>
+<section id="a-working-definition" class="slide level2">
+<h2>A Working Definition</h2>
+<p><strong>Bioethics</strong> is the systematic study of ethical questions arising in:</p>
+<ul>
+<li>The care of patients (clinical ethics)</li>
+<li>Biomedical research on humans and animals (research ethics)</li>
+<li>Public health policy and the allocation of scarce resources</li>
+<li>New biotechnologies — genetics, AI, reproductive technology</li>
+</ul>
+<aside class="notes">
+<p>“Systematic” matters. Bioethics isn’t just having opinions — it’s <em>reasoning</em> about them in a way others can examine, challenge, and refine.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="why-a-distinct-field" class="slide level2">
+<h2>Why a Distinct Field?</h2>
+<p>A short list of mid-20th-century shocks:</p>
+<ul>
+<li>The <strong>Nazi medical experiments</strong> exposed at Nuremberg (1945–1947)</li>
+<li>The <strong>Tuskegee</strong> syphilis study (1932–1972), in which Black men were left untreated for decades</li>
+<li>New technology that <em>outran</em> old norms: ventilators, dialysis, organ transplants, IVF</li>
+<li>Patients and families demanding a voice the old paternalistic model didn’t give them</li>
+</ul>
+<p>Bioethics is what grew up to answer the question: <strong>how should we govern this?</strong></p>
+</section>
+<section id="three-sample-questions" class="slide level2">
+<h2>Three Sample Questions</h2>
+<ul>
+<li class="fragment"><em>Clinical:</em> Can a 16-year-old refuse chemotherapy her parents want her to have?</li>
+<li class="fragment"><em>Research:</em> Is it ethical to give half the participants a placebo when an effective drug already exists?</li>
+<li class="fragment"><em>Policy:</em> When ICU beds run out in a pandemic, who gets one?</li>
+</ul>
+<aside class="notes">
+<p>Each of these is a recurring exam case. Same field, very different scales — bedside, study, society.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="ethics-law-religion-preference" class="title-slide slide level1 section-divider center">
+<h1>Ethics, Law, Religion, Preference</h1>
+
+</section>
+<section id="why-the-distinctions-matter" class="slide level2">
+<h2>Why the Distinctions Matter</h2>
+<p>Students often collapse these. They are not the same — and confusing them is one of the most common mistakes in bioethical reasoning.</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type of claim</th>
+<th>Source of authority</th>
+<th>Question it answers</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Ethical</strong></td>
+<td>Reasons we can examine and share</td>
+<td>What <em>ought</em> we to do?</td>
+</tr>
+<tr class="even">
+<td><strong>Legal</strong></td>
+<td>Statutes, courts, regulators</td>
+<td>What <em>may</em> or <em>must</em> we do under law?</td>
+</tr>
+<tr class="odd">
+<td><strong>Religious</strong></td>
+<td>Sacred texts, traditions, communities</td>
+<td>What does this faith require?</td>
+</tr>
+<tr class="even">
+<td><strong>Preference</strong></td>
+<td>Personal taste</td>
+<td>What do <em>I</em> happen to want?</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="ethics-vs.-law" class="slide level2">
+<h2>Ethics vs.&nbsp;Law</h2>
+<p>The law is not a reliable guide to what is ethical.</p>
+<ul>
+<li><strong>Slavery</strong> in the United States was <em>legal</em> until 1865 — and was monstrously unethical the entire time.</li>
+<li>The Tuskegee study was <em>legal</em> in 1932. It was wrong in 1932.</li>
+<li>Conversely, <strong>jaywalking</strong> is illegal in most cities; almost no one thinks it is a moral failing.</li>
+</ul>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p>A useful test for nurses: “Is it legal?” and “Is it the right thing for this patient?” are two different questions. Sometimes the law lags behind ethics; sometimes it overreaches.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="ethics-vs.-religion" class="slide level2">
+<h2>Ethics vs.&nbsp;Religion</h2>
+<p>Many of our patients — and many of you — draw moral guidance from religious tradition. That is appropriate. But:</p>
+<ul>
+<li>A religious tradition can give <em>its members</em> reasons to act, but cannot, on its own, give <em>non-members</em> reasons to act.</li>
+<li>Bioethical arguments need to work in a pluralistic society where patients, families, and clinicians come from many traditions and none.</li>
+</ul>
+<p>We will treat religious commitments as <strong>important data</strong> about what patients value — not as conversation-stoppers in clinical reasoning.</p>
+</section>
+<section id="ethics-vs.-personal-preference" class="slide level2">
+<h2>Ethics vs.&nbsp;Personal Preference</h2>
+<blockquote>
+<p>“I just don’t think it’s right.”</p>
+</blockquote>
+<p>That is a feeling, not yet an argument. Ethical reasoning asks the next question: <strong>why?</strong> What reason, that another reasonable person could weigh, supports the conclusion?</p>
+<aside class="notes">
+<p>This is the moment to flag that “I feel” / “I believe” are perfectly fine <em>starting points</em> — but bioethics asks us to take the next step.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="thought-question" class="slide level2">
+<h2>Thought Question</h2>
+<div class="thought-question">
+<p>A nurse on the L&amp;D floor is asked to assist with a second-trimester abortion for a patient whose fetus has a lethal anomaly. The procedure is legal; her own physician is performing it. The nurse declines on religious grounds and asks to be reassigned. Her hospital has a <strong>conscience clause</strong> — a policy permitting clinicians to opt out of specific procedures — and she has invoked it formally.</p>
+<ul>
+<li>Is what she is doing <em>legal</em>? <em>Ethical</em>? <em>Religiously required</em>? <em>A personal preference</em>?</li>
+<li>Could the answers come apart? In what scenario?</li>
+<li>Now imagine the same refusal at 3 a.m. at a small rural hospital with no other nurse on shift. Anything change?</li>
+</ul>
+</div>
+</section>
+<section id="after-youve-discussed-1" class="slide level2">
+<h2>After You’ve Discussed</h2>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Where the duty actually lands.</strong> Most U.S. conscience-clause laws place the duty to <em>still care for the patient</em> on the <strong>institution</strong>, not on the individual clinician. That shifts the question from “can she refuse?” to “what does the institution owe the patient when she does?”</p>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="the-four-principles" class="title-slide slide level1 section-divider center">
+<h1>The Four Principles</h1>
+<p>Beauchamp &amp; Childress, 1979 — the working framework of clinical ethics for almost fifty years.</p>
+</section>
+<section id="a-brief-origin-story" class="slide level2">
+<h2>A Brief Origin Story</h2>
+<p>In the wake of Tuskegee, a U.S. national commission produced the <em>Belmont Report</em> (1979) <span class="citation" data-cites="belmont1979">(<a href="#/references" role="doc-biblioref" onclick="">National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research 1979</a>)</span>. That same year, philosophers <strong>Tom Beauchamp</strong> and <strong>James Childress</strong> published <em>Principles of Biomedical Ethics</em> <span class="citation" data-cites="beauchamp2019">(<a href="#/references" role="doc-biblioref" onclick="">Beauchamp and Childress 2019</a>)</span>, proposing four principles meant to be:</p>
+<ul>
+<li><strong>Shared</strong> across ethical traditions</li>
+<li><strong>Specific enough</strong> to guide clinical decisions</li>
+<li><strong>General enough</strong> to apply to new technologies</li>
+</ul>
+<p>The result is what’s often called <strong>principlism</strong> — and it remains the lingua franca of hospital ethics consults <span class="citation" data-cites="jonsen1998">(<a href="#/references" role="doc-biblioref" onclick="">Jonsen 1998</a>)</span>.</p>
+</section>
+<section id="autonomy" class="slide level2">
+<h2>1. Autonomy</h2>
+<p><span class="key-term">Autonomy</span> — <em>self-rule.</em> Respect the patient’s right to make informed decisions about her own body and care.</p>
+<p>In practice, autonomy underwrites:</p>
+<ul>
+<li>Informed consent</li>
+<li>The right to refuse treatment (even life-saving treatment)</li>
+<li>Truth-telling and honest disclosure</li>
+<li>Confidentiality</li>
+</ul>
+<aside class="notes">
+<p>The Jehovah’s Witness case from the start of class is, at its core, an autonomy case. Hold that thought.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="autonomy-in-practice" class="slide level2">
+<h2>Autonomy in Practice</h2>
+<div class="principle-marker">
+<p><span class="pill pill-autonomy">Autonomy</span> <span class="tag">self-rule</span></p>
+</div>
+<div class="context-box">
+<p><strong>The case.</strong> A 28-year-old with type-1 diabetes (A1c 11.2) declines an insulin pump for the third time. She is tired of being told what to do.</p>
+<p><strong>What respecting autonomy looks like here:</strong></p>
+<ul>
+<li>Make sure she understands the risks — <em>disclosure</em></li>
+<li>Assess decision-making capacity (she has it)</li>
+<li>Document clearly; continue to offer support without coercion</li>
+</ul>
+<p>Autonomy is the <em>floor.</em> It does not require us to abandon her — only not to override her.</p>
+</div>
+</section>
+<section id="beneficence" class="slide level2">
+<h2>2. Beneficence</h2>
+<p><span class="key-term">Beneficence</span> — <em>do good.</em> Act in the patient’s best interest; promote welfare.</p>
+<p>This sounds obvious until you ask: <strong>whose</strong> account of the patient’s good?</p>
+<ul>
+<li>The clinician’s professional judgment?</li>
+<li>The patient’s own values?</li>
+<li>The family’s hopes?</li>
+</ul>
+<p>Beneficence and autonomy can pull in opposite directions.</p>
+</section>
+<section id="beneficence-in-practice" class="slide level2">
+<h2>Beneficence in Practice</h2>
+<div class="principle-marker">
+<p><span class="pill pill-beneficence">Beneficence</span> <span class="tag">do good</span></p>
+</div>
+<div class="context-box">
+<p><strong>The case.</strong> An 82-year-old with end-stage heart failure, fifth admission this year. The team recommends comfort-focused care; he wants “everything done.” His daughter asks the team to “talk him out of it.”</p>
+<p><strong>Whose idea of his good?</strong></p>
+<ul>
+<li>The team’s clinical judgment about prognosis?</li>
+<li>His own stated wishes, formed over a long life?</li>
+<li>His daughter’s fear of losing him?</li>
+</ul>
+<p>Beneficence is not the same as paternalism. It is the discipline of finding out what <em>this person</em> counts as a life worth living — and acting in service of <em>that.</em></p>
+</div>
+</section>
+<section id="non-maleficence" class="slide level2">
+<h2>3. Non-Maleficence</h2>
+<p><span class="key-term">Non-maleficence</span> — <em>first, do no harm</em> (<em>primum non nocere</em>).</p>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p>The oldest principle in Western medicine, traceable to the Hippocratic tradition (5th c.&nbsp;BCE). It does <em>not</em> mean “never do anything risky.” It means: weigh the harms, and don’t expose patients to harm without proportionate benefit.</p>
+<p>Every chemotherapy regimen, every surgery, every medication is a deliberate small harm in service of a larger good.</p>
+</div><div class="column" style="width:40%;">
+<p><img data-src="../images/hippocrates.jpg" style="width:80.0%" alt="Engraved portrait of Hippocrates by Peter Paul Rubens"></p>
+<div class="attribution">
+<p>Hippocrates, engraving by Peter Paul Rubens. Public domain (Wikimedia Commons).</p>
+</div>
+</div></div>
+</section>
+<section id="non-maleficence-in-practice" class="slide level2">
+<h2>Non-Maleficence in Practice</h2>
+<div class="principle-marker">
+<p><span class="pill pill-nonmal">Non-Maleficence</span> <span class="tag">do no harm</span></p>
+</div>
+<div class="context-box">
+<p><strong>The case.</strong> A new chemotherapy regimen offers a 30% chance of remission and a 5% chance of fatal cardiotoxicity. Standard care offers neither.</p>
+<p><strong>The principle does not say “never harm.” It asks:</strong></p>
+<ul>
+<li>Is the expected harm <strong>proportionate</strong> to the expected benefit?</li>
+<li>Does the patient understand both sides clearly enough to choose?</li>
+</ul>
+<p>Every IV start is a small puncture wound. Every medication has side effects. The principle’s job is to forbid <em>hidden, gratuitous, or disproportionate</em> risk — not all risk.</p>
+</div>
+</section>
+<section id="justice" class="slide level2">
+<h2>4. Justice</h2>
+<p><span class="key-term">Justice</span> — <em>fair distribution of benefits and burdens.</em></p>
+<p>In bioethics, justice shows up in three main forms:</p>
+<ul>
+<li><strong>Distributive justice</strong> — who gets the kidney, the ICU bed, the new drug?</li>
+<li><strong>Procedural justice</strong> — was the <em>process</em> fair, even if the outcome is hard?</li>
+<li><strong>Social justice</strong> — are we honest about the historical and structural causes of health disparities?</li>
+</ul>
+<aside class="notes">
+<p>We’ll spend an entire lecture (L8) on justice. For now, just plant the flag: bioethics is not only about individual encounters.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="justice-in-practice" class="slide level2">
+<h2>Justice in Practice</h2>
+<div class="principle-marker">
+<p><span class="pill pill-justice">Justice</span> <span class="tag">treat fairly</span></p>
+</div>
+<div class="context-box">
+<p><strong>The case.</strong> Two 55-year-olds arrive in the ED with chest pain and no obvious red flags. One is on Medicaid; the other has private insurance. Decades of research show that, on average, they will not get the same workup.</p>
+<p><strong>Justice at the bedside is rarely a kidney allocation decision. It looks like:</strong></p>
+<ul>
+<li>Are we ordering tests for clinical reasons — or for who the patient appears to be?</li>
+<li>Are our floors and ICUs staffed and supplied equitably?</li>
+<li>Where do <em>we</em>, as nurses, push back against disparate care?</li>
+</ul>
+<p>Justice asks us to look up from the individual patient and notice the pattern.</p>
+</div>
+</section>
+<section id="the-four-together" class="slide level2">
+<h2>The Four Together</h2>
+<div class="cell" data-reveal="true" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A[Autonomy&lt;br/&gt;respect choices] --- B[Beneficence&lt;br/&gt;do good]
+  B --- N[Non-maleficence&lt;br/&gt;do no harm]
+  N --- J[Justice&lt;br/&gt;treat fairly]
+  J --- A
+  style A fill:#cfe9ec,stroke:#0e7c86,stroke-width:2px
+  style B fill:#fce9d6,stroke:#b07d1a,stroke-width:2px
+  style N fill:#fad7d2,stroke:#c0392b,stroke-width:2px
+  style J fill:#dfe6ee,stroke:#0f172a,stroke-width:2px
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>A <em>framework</em>, not an algorithm. The principles tell you what to weigh — not, by themselves, how to weigh it.</p>
+</section>
+<section id="when-principles-conflict" class="slide level2">
+<h2>When Principles Conflict</h2>
+<p>Most interesting bioethics cases are conflicts <em>between</em> principles, not conflicts between good and evil.</p>
+<ul>
+<li><span class="pill pill-autonomy">Autonomy</span> vs.&nbsp;<span class="pill pill-beneficence">Beneficence</span> — the Jehovah’s Witness refusing transfusion</li>
+<li><span class="pill pill-beneficence">Beneficence</span> vs.&nbsp;<span class="pill pill-nonmal">Non-Maleficence</span> — risky surgery with a small chance of cure</li>
+<li><span class="pill pill-autonomy">Autonomy</span> vs.&nbsp;<span class="pill pill-justice">Justice</span> — vaccine refusal during a pandemic</li>
+<li><span class="pill pill-beneficence">Beneficence</span> vs.&nbsp;<span class="pill pill-justice">Justice</span> — spending heroic resources on one patient when others wait</li>
+</ul>
+<p>The four principles do not resolve these tensions. They make them <strong>visible</strong> so we can argue about them carefully.</p>
+</section>
+<section id="thought-question-1" class="slide level2">
+<h2>Thought Question</h2>
+<div class="thought-question">
+<p>Return to our trauma-bay patient — full capacity, signed refusal, parents at the door. Now you have vocabulary for what was hard.</p>
+<ul>
+<li>Which principles point <em>toward</em> transfusing her? Which point <em>away</em>?</li>
+<li>Which counts as the “harm” — letting her die, or doing something to her body she has explicitly refused?</li>
+<li>Which principle would you weight most heavily, and why?</li>
+<li>What single fact, if changed, would change your answer?</li>
+</ul>
+</div>
+</section>
+<section id="after-youve-discussed-2" class="slide level2">
+<h2>After You’ve Discussed</h2>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>How the principles typically map.</strong></p>
+<ul>
+<li>The case is often framed as <span class="pill pill-beneficence">Beneficence</span> and <span class="pill pill-nonmal">Non-Maleficence</span> pulling <strong>toward</strong> transfusion, <span class="pill pill-autonomy">Autonomy</span> pulling <strong>against</strong>.</li>
+<li>But notice the twist: respecting her refusal may itself be the most <em>beneficent</em> act, and transfusing a competent patient against her will is itself a form of <em>harm</em>.</li>
+<li>The principles do not decide the case. They give us shared language to <em>argue</em> about it.</li>
+</ul>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="reading-a-moral-argument" class="title-slide slide level1 section-divider center">
+<h1>Reading a Moral Argument</h1>
+<p>A skill we will use in every remaining lecture.</p>
+</section>
+<section id="what-is-an-argument" class="slide level2">
+<h2>What Is an Argument?</h2>
+<p>An <strong>argument</strong>, in philosophy, is not a quarrel. It is a structured piece of reasoning:</p>
+<ul>
+<li>One or more <strong>premises</strong> (claims offered as support)</li>
+<li>A <strong>conclusion</strong> (the claim the premises are meant to support)</li>
+</ul>
+<p>The job of the careful reader: <strong>find the conclusion first, then the premises, then ask whether the premises are true and whether they actually support the conclusion.</strong></p>
+</section>
+<section id="worked-example" class="slide level2">
+<h2>Worked Example</h2>
+<p>A short argument you might hear on the floor:</p>
+<blockquote>
+<p><em>“We have to transfuse her — she’ll die otherwise, and our job is to save lives.”</em></p>
+</blockquote>
+<div class="cell" data-fig-width="6" data-fig-height="2.4" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="576" height="230" viewbox="0.00 0.00 225.60 134.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 130)">
+<title>argument</title>
+<!-- P1 -->
+<g id="node1" class="node">
+<title>P1</title>
+<path fill="#f8fafc" stroke="#94a3b8" d="M108.1,-125.8C108.1,-125.8 11.97,-125.8 11.97,-125.8 5.97,-125.8 -0.03,-119.8 -0.03,-113.8 -0.03,-113.8 -0.03,-86.6 -0.03,-86.6 -0.03,-80.6 5.97,-74.6 11.97,-74.6 11.97,-74.6 108.1,-74.6 108.1,-74.6 114.1,-74.6 120.1,-80.6 120.1,-86.6 120.1,-86.6 120.1,-113.8 120.1,-113.8 120.1,-119.8 114.1,-125.8 108.1,-125.8"></path>
+<text text-anchor="middle" x="60.03" y="-110.1" font-family="Inter" font-size="11.00" fill="#0f172a">Premise 1</text>
+<text text-anchor="middle" x="60.03" y="-96.9" font-family="Inter" font-size="11.00" fill="#0f172a">Without a transfusion,</text>
+<text text-anchor="middle" x="60.03" y="-83.7" font-family="Inter" font-size="11.00" fill="#0f172a">the patient will die.</text>
+</g>
+<!-- C -->
+<g id="node3" class="node">
+<title>C</title>
+<path fill="#e6f1f2" stroke="#0e7c86" d="M172.89,-38.6C172.89,-38.6 65.18,-38.6 65.18,-38.6 59.18,-38.6 53.18,-32.6 53.18,-26.6 53.18,-26.6 53.18,-11.8 53.18,-11.8 53.18,-5.8 59.18,0.2 65.18,0.2 65.18,0.2 172.89,0.2 172.89,0.2 178.89,0.2 184.89,-5.8 184.89,-11.8 184.89,-11.8 184.89,-26.6 184.89,-26.6 184.89,-32.6 178.89,-38.6 172.89,-38.6"></path>
+<text text-anchor="middle" x="119.03" y="-22.5" font-family="Inter" font-size="11.00" fill="#0e7c86">∴ &nbsp;Conclusion</text>
+<text text-anchor="middle" x="119.03" y="-9.3" font-family="Inter" font-size="11.00" fill="#0e7c86">We should transfuse her.</text>
+</g>
+<!-- P1&#45;&gt;C -->
+<g id="edge1" class="edge">
+<title>P1-&gt;C</title>
+<path fill="none" stroke="#64748b" d="M78.7,-74.2C85.86,-64.62 94,-53.71 101.09,-44.22"></path>
+<polygon fill="#64748b" stroke="#64748b" points="103.12,-45.6 105.35,-38.52 99.2,-42.67 103.12,-45.6"></polygon>
+</g>
+<!-- P2 -->
+<g id="node2" class="node">
+<title>P2</title>
+<path fill="#f8fafc" stroke="#94a3b8" d="M205.66,-125.8C205.66,-125.8 150.41,-125.8 150.41,-125.8 144.41,-125.8 138.41,-119.8 138.41,-113.8 138.41,-113.8 138.41,-86.6 138.41,-86.6 138.41,-80.6 144.41,-74.6 150.41,-74.6 150.41,-74.6 205.66,-74.6 205.66,-74.6 211.66,-74.6 217.66,-80.6 217.66,-86.6 217.66,-86.6 217.66,-113.8 217.66,-113.8 217.66,-119.8 211.66,-125.8 205.66,-125.8"></path>
+<text text-anchor="middle" x="178.03" y="-110.1" font-family="Inter" font-size="11.00" fill="#0f172a">Premise 2</text>
+<text text-anchor="middle" x="178.03" y="-96.9" font-family="Inter" font-size="11.00" fill="#0f172a">Our job is</text>
+<text text-anchor="middle" x="178.03" y="-83.7" font-family="Inter" font-size="11.00" fill="#0f172a">to save lives.</text>
+</g>
+<!-- P2&#45;&gt;C -->
+<g id="edge2" class="edge">
+<title>P2-&gt;C</title>
+<path fill="none" stroke="#64748b" d="M159.36,-74.2C152.21,-64.62 144.06,-53.71 136.97,-44.22"></path>
+<polygon fill="#64748b" stroke="#64748b" points="138.87,-42.67 132.72,-38.52 134.94,-45.6 138.87,-42.67"></polygon>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="hidden-assumptions" class="slide level2">
+<h2>Hidden Assumptions</h2>
+<p>Sounds airtight — until you notice what’s <em>missing.</em> That argument quietly assumes:</p>
+<ul>
+<li>“Saving lives” <em>always</em> outweighs the patient’s other wishes.</li>
+<li>The patient’s refusal can be set aside because it’s “irrational.”</li>
+<li>A nurse’s professional duty is identical to “extending biological life.”</li>
+</ul>
+<p>Each of those is contestable. <strong>Surfacing hidden assumptions</strong> is half the work of bioethics.</p>
+</section>
+<section id="what-is-a-fallacy" class="slide level2">
+<h2>What Is a Fallacy?</h2>
+<p>A <strong>fallacy</strong> is an error in <em>reasoning</em> — an argument that looks like good support but isn’t.</p>
+<ul>
+<li>Not the same as a lie. The speaker may sincerely believe it.</li>
+<li>A fallacious argument can still have a <strong>true conclusion</strong> — the defect is in the <em>structure</em>, not the conclusion.</li>
+<li>Most bioethics fallacies are <strong>informal</strong>: the form looks fine, but the content misleads through irrelevance, ambiguity, or hidden assumption.</li>
+</ul>
+<p>The next two slides cover the six you will see most often.</p>
+</section>
+<section id="common-fallacies-in-bioethics-12" class="slide level2">
+<h2>Common Fallacies in Bioethics (1/2)</h2>
+<div class="fallacy-grid">
+<div class="fallacy-card">
+<p><span class="name">Appeal to Nature</span> <span class="defn">Inferring that something is good (or bad) merely because it is natural (or unnatural).</span> <span class="ex"><em>“IVF lets older women conceive — but it’s unnatural, so it must be wrong.”</em></span></p>
+</div>
+<div class="fallacy-card">
+<p><span class="name">Slippery Slope</span> <span class="defn">Predicting that allowing X will inevitably lead to a much worse Y, without showing how the slide actually happens.</span> <span class="ex"><em>“If we permit medical aid in dying for the terminally ill, we’ll end up euthanizing the disabled.”</em></span></p>
+</div>
+<div class="fallacy-card">
+<p><span class="name">Ad Hominem</span> <span class="defn">Attacking the person making the argument rather than the argument itself.</span> <span class="ex"><em>“You can’t take Peter Singer seriously on animal ethics — he holds a lot of unpopular views.”</em></span></p>
+</div>
+</div>
+</section>
+<section id="common-fallacies-in-bioethics-22" class="slide level2">
+<h2>Common Fallacies in Bioethics (2/2)</h2>
+<div class="fallacy-grid">
+<div class="fallacy-card">
+<p><span class="name">Naturalistic Fallacy</span> <span class="defn">Inferring an <em>ought</em> directly from an <em>is</em> — that what happens in nature shows what should happen morally.</span> <span class="ex"><em>“Humans evolved as omnivores, therefore eating meat is morally permissible.”</em></span></p>
+</div>
+<div class="fallacy-card">
+<p><span class="name">False Dichotomy</span> <span class="defn">Framing a complex issue as if there were only two options, when others exist.</span> <span class="ex"><em>“Either we let the market ration health care, or the system will collapse.”</em></span></p>
+</div>
+<div class="fallacy-card">
+<p><span class="name">Appeal to Authority</span> <span class="defn">Treating the testimony of an authority as decisive even when they speak outside their expertise — or when other experts disagree.</span> <span class="ex"><em>“My favorite podcaster says vaccines cause autism, and he has done a lot of research.”</em></span></p>
+</div>
+</div>
+</section>
+<section id="practice-spot-the-fallacy" class="slide level2 scrollable">
+<h2>Practice — Spot the Fallacy</h2>
+<div class="thought-question">
+<p>Identify the fallacy in each:</p>
+<ol type="1">
+<li>“Gene editing is wrong — it’s playing God.”</li>
+<li>“If we let doctors help patients die, we’ll end up euthanizing the disabled.”</li>
+<li>“You can’t trust her opinion on vaccines — she’s not even a real scientist.”</li>
+<li>“Either we ration care by ability to pay, or the system collapses.”</li>
+</ol>
+</div>
+<aside class="notes">
+<p>Answers (in order): appeal to nature, slippery slope, ad hominem, false dichotomy.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="wrapping-up-part-a" class="slide level2">
+<h2>Wrapping Up Part A</h2>
+<div class="recap">
+<p>Bioethics is the systematic study of moral questions in medicine, research, and policy. It is not the same as law, religion, or personal preference. The <strong>four principles</strong> — autonomy, beneficence, non-maleficence, justice — give us a shared vocabulary for the conflicts we’ll see all semester. And every claim in this course will be evaluated as an <em>argument</em>: premises, conclusion, hidden assumptions, possible fallacies.</p>
+<p>In <strong>Part B</strong>, we ask the next question: <em>where do these principles come from?</em> We meet the major ethical theories — utilitarian, Kantian, virtue, and care — that ground and sometimes contest the four principles.</p>
+</div>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-beauchamp2019" class="csl-entry" role="listitem">
+Beauchamp, Tom L., and James F. Childress. 2019. <em>Principles of Biomedical Ethics</em>. 8th ed. Oxford University Press.
+</div>
+<div id="ref-jonsen1998" class="csl-entry" role="listitem">
+Jonsen, Albert R. 1998. <em>The Birth of Bioethics</em>. Oxford University Press.
+</div>
+<div id="ref-belmont1979" class="csl-entry" role="listitem">
+National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. 1979. <em>The <span>Belmont</span> Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research</em>. U.S. Department of Health, Education, and Welfare. <a href="https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html">https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html</a>.
+</div>
+</div>
+
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+<p>Bioethics OER · CC BY-NC 4.0 · Brendan Shea</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': false,
+'previewLinksAuto': true,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'fast',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

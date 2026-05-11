@@ -1,9 +1,16 @@
+# Build caches and temporary files
 .quarto/
-_site/
-site_libs/
-docs/
+/.quarto/
 *.~lock.*
 **/*.quarto_ipynb
-chapters/*.html
 
-/.quarto/
+# Editor and OS files
+.DS_Store
+.vscode/
+*.swp
+*.swo
+
+# Dependencies (if using Python/R)
+venv/
+env/
+.env
