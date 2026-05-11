@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: _site
+  output-dir: docs
 
 # ----- Citations (Chicago author-date) -----
 # CSL fetched once from https://www.zotero.org/styles/chicago-author-date
@@ -24,6 +24,10 @@ website:
             text: "Part A — The Four Principles"
           - href: chapters/01b-theories.qmd
             text: "Part B — Ethical Theories"
+      - text: "2. History & Relationship"
+        menu:
+          - href: chapters/02a-history.qmd
+            text: "Part A — History"
     right:
       - icon: github
         href: https://github.com/brendanpshea/bioethics-oer

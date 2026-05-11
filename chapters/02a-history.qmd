@@ -1,0 +1,239 @@
+---
+title: "Lecture 2 — History & the Clinical Relationship"
+subtitle: "Part A: From Hippocrates to the Belmont Report: A History"
+author: "Brendan Shea, PhD"
+date: last-modified
+format:
+  html:
+    toc: true
+    number-sections: true
+  revealjs:
+    output-file: 02a-history-slides.html
+---
+
+# Part A — From Hippocrates to the Belmont Report: A History
+
+## Opening: A Case to Sit With
+
+Imagine you are a physician in the mid-20th century, asked to participate in a study monitoring a known, potentially fatal disease without offering the patients treatment, even after an effective cure is discovered. The rationale provided to you is that science needs to observe the natural progression of the illness to better understand it for future generations. The patients, largely from marginalized communities, are told only that they are receiving "special free care." At the time, your profession operates largely on a culture of paternalism—"doctor knows best"—with very few formal guidelines on human experimentation. How do you respond? Where do you look for moral guidance when the law and standard practices of your day seem insufficient?
+
+## What We're Doing Today
+
+::: {.learning-outcomes}
+By the end of Part A, you will be able to:
+
+- **Analyze** the historical shift from paternalistic medical models to autonomy-based models.
+- **Identify** the core principles introduced by the Nuremberg Code and how they revolutionized medical research.
+- **Explain** the ethical failings of the Tuskegee Syphilis Study and its impact on modern bioethics.
+- **Compare** foundational bioethics documents, including the Declaration of Helsinki and the Belmont Report.
+- **Understand** the origin and role of Institutional Review Boards (IRBs) and ethics committees.
+:::
+
+## The Hippocratic Tradition
+
+When people think of medical ethics, they often start with ancient Greece. The Hippocratic tradition is often summarized in the public imagination by a single phrase: *"first, do no harm"* (often cited in Latin as *primum non nocere*). However, this specific phrase does not actually appear in the original Hippocratic Oath, but rather in another Hippocratic text called *Of the Epidemics*. 
+
+What the original oath *did* say was quite profound for its time. It established a covenant between the physician and their teachers, as well as a commitment to act for the benefit of the sick and keep them from harm or injustice. It also laid foundational rules for **confidentiality**, a principle that remains a cornerstone of the medical profession today. 
+
+![Hippocrates of Kos. Engraving by Peter Paul Rubens, 1638. *Wikimedia Commons*, public domain.](../images/hippocrates.jpg){#fig-hippocrates width="40%"}
+
+### Principles in the Oath
+
+The Hippocratic Oath was revolutionary because it separated medicine from strict religious or mystical practices, framing it instead as a moral profession governed by defined duties. The core duties outlined included:
+
+1. **Beneficence:** Acting in the patient's best interest.
+2. **Non-maleficence:** Avoiding harm or injustice.
+3. **Confidentiality:** Keeping patient information private.
+4. **Professionalism:** Maintaining the integrity of the teaching and the profession.
+
+### The Problem of Paternalism
+
+However, the Hippocratic tradition also carried distinct limitations. It was fundamentally a [paternalistic]{.key-term} document. It assumed that the physician possessed the knowledge and authority to decide what was best for the patient, with little to no emphasis placed on the patient's own consent or autonomy. For centuries, "doctor knows best" was not just a colloquialism; it was the prevailing ethical standard. In this view, a patient was more like a child needing guidance, and the doctor was the wise parent.
+
+::: {.context-box}
+**Medical Paternalism**
+
+Paternalism in medicine refers to the practice of physicians making decisions for adult patients without their consent, ostensibly for the patients' own good. Similar to how a parent might make decisions for a child, paternalistic medicine assumes the patient lacks the expertise to choose wisely. While often well-intentioned, this model severely limits personal autonomy.
+:::
+
+## Pre-WWII Medical Ethics
+
+Leading up to the 20th century, the paternalistic model remained the dominant ethical framework. Medicine was advancing rapidly—the discovery of germs, the advent of reliable anesthesia, and structural changes to medical education meant that doctors were becoming increasingly effective, and increasingly powerful.
+
+However, as medicine and biology advanced, new and dangerous ideologies began to emerge, often cloaked in the language of science and public health. Because the existing ethical framework heavily favored the authority of the physician and the "greater good" over individual patient autonomy, it left patients highly vulnerable to abuse in the name of scientific progress.
+
+### The Rise of Eugenics
+
+One of the most significant and tragic developments was the rise of the **eugenics movement**, which gained substantial traction in both the United States and Europe during the late 19th and early 20th centuries. Proponents of eugenics believed that the human race could be "improved" by encouraging the reproduction of those deemed "fit" and actively preventing the reproduction of those labeled "unfit" (often marginalized populations, the poor, and people with disabilities). 
+
+This ideology led to widespread human rights violations, including forced sterilization laws enacted in numerous US states, which disproportionately affected women of color and individuals in state institutions. 
+
+::: {.thought-question}
+If the stated goal of public health is to improve the well-being of the population as a whole, what happens when that goal directly conflicts with the reproductive rights and bodily autonomy of individuals? E.g., the infamous *Buck v. Bell* (1927) Supreme Court decision.
+:::
+
+## Nazi Medical Experiments (1939–1945)
+
+The darkest consequences of eugenics and unchecked medical authority culminated in the atrocities committed by Nazi doctors during World War II. Under the guise of medical research, horrific and fatal experiments were conducted on concentration camp prisoners without their consent. 
+
+These included:
+- **Freezing experiments:** To simulate the conditions of pilots transferring over cold water, prisoners were submerged in ice water and observed until death.
+- **High-altitude tests:** Prisoners were placed in decompression chambers to test the limits of human endurance, often resulting in agonizing deaths.
+- **Infection studies:** Healthy individuals were intentionally infected with malaria, typhus, and tuberculosis to test experimental drugs.
+
+The medical establishment in Nazi Germany largely capitulated to, and actively participated in, the regime's ideology. Doctors became agents of the state rather than advocates for the patient.
+
+## The Doctors' Trial (1946–1947)
+
+Following the defeat of Nazi Germany, the world was forced to confront these medical atrocities during the "Doctors' Trial" in Nuremberg. Twenty-three medical professionals and administrators stood trial for war crimes and crimes against humanity. 
+
+![The Nuremberg Doctors' Trial. US National Archives. *Wikimedia Commons*, public domain.](../images/nuremberg_trial.jpg){#fig-nuremberg width="50%"}
+
+The court was faced with a significant problem: there was no internationally accepted standard or code of ethics governing human experimentation that they could definitively point to as having been violated. The Nazi doctors defended themselves by pointing out that prior to the war, there was no international law explicitly forbidding their actions, and they argued that their experiments were for the greater good of their nation's war effort.
+
+## The Nuremberg Code (1947)
+
+To address this gap and provide a legal and ethical framework for their judgments, the judges formulated the **Nuremberg Code** [@nuremberg1947]. This groundbreaking document established ten rules for permissible medical experiments. 
+
+### The First Principle
+
+The most revolutionary aspect of the Code was its absolute first principle: 
+
+> *"The voluntary consent of the human subject is absolutely essential. This means that the person involved should have legal capacity to give consent; should be so situated as to be able to exercise free power of choice..."*
+
+This marked a seismic shift in medical ethics. It explicitly stated that the individual's right to choose—their autonomy—superseded the interests of science or society.
+
+### Other Key Principles of the Code
+
+In addition to voluntary consent, the Code mandated:
+- The experiment should yield fruitful results for the good of society, unprocurable by other methods.
+- The experiment should be based on prior animal knowledge.
+- Avoid unnecessary physical and mental suffering and injury.
+- No experiment should be conducted where there is an *a priori* reason to believe death or disabling injury will occur.
+- The degree of risk should never exceed the humanitarian importance of the problem.
+- Proper preparations must be made to protect the experimental subject against even remote possibilities of injury.
+- The experiment should be conducted only by scientifically qualified persons.
+- The subject should be at liberty to bring the experiment to an end at any time.
+- The scientist must be prepared to terminate the experiment at any stage if they believe it is likely to result in injury or death.
+
+::: {.thought-question}
+The Nuremberg Code was drafted specifically in response to wartime atrocities. If you were a physician in a peaceful democracy in 1950, might you feel that these stringent guidelines didn't apply to "normal" medical research?
+:::
+
+## The Tuskegee Syphilis Study (1932–1972)
+
+While the Nuremberg Code set an international standard, abuses in research were not confined to wartime or totalitarian regimes. One of the most infamous ethical breaches in American medical history occurred during peacetime, overlapping with and extending decades past the Nuremberg trials: the **Tuskegee Study of Untreated Syphilis in the Negro Male** [@brandt1978].
+
+Initiated in 1932 by the U.S. Public Health Service, the study enrolled 600 Black men from impoverished rural areas in Alabama, 399 of whom had latent syphilis. The researchers wanted to observe the natural progression of the disease. 
+
+### Deception and Coercion
+
+The men were not told they had syphilis. Instead, they were told they were being treated for "bad blood," a local colloquialism for various ailments. In exchange for participating, they received free medical exams, meals, and burial insurance. Because these men were extremely poor and largely lacked access to regular medical care, these incentives were highly coercive.
+
+![Doctor drawing blood from a participant in the Tuskegee Syphilis Study. CDC Archives. *Wikimedia Commons*, public domain.](../images/tuskegee.jpg){#fig-tuskegee width="50%"}
+
+### The Fundamental Ethical Breach
+
+The most egregious ethical failure occurred in the 1940s when penicillin became the recognized, widely available, and highly effective cure for syphilis. 
+
+Instead of treating the men and ending the study, the researchers deliberately withheld this information and the treatment. They wanted to see the study through to autopsy. They actively intervened to prevent the men from getting care elsewhere, even contacting local draft boards to prevent the men from receiving standard medical treatments when drafted for WWII.
+
+The study continued for **40 years**, only stopping in 1972 after a whistleblower, Peter Buxtun, leaked the story to the press, sparking public outrage. Dozens of men died from untreated syphilis, wives were infected, and children were born with congenital syphilis.
+
+### The Aftermath
+
+The revelation of Tuskegee sent shockwaves through the American public. It completely destroyed trust in medical institutions among many minority communities—a legacy of mistrust that persists and impacts public health efforts today. It made it undeniably clear that the US needed strict, legally enforced regulations to protect human research subjects. Reliance on the good intentions of professional researchers was no longer acceptable.
+
+## The Rise of Bioethics
+
+::: {.context-box}
+**Where does the word 'bioethics' come from?**
+
+The term was coined in 1970 by Van Rensselaer Potter, a biochemist and oncology researcher. He envisioned bioethics as a "science of survival," a bridge between the biological sciences and humanistic values, necessary to navigate the complexities of a rapidly advancing technological world [@potter1970]. Around the same time, the Kennedy Institute of Ethics and the Hastings Center were founded.
+:::
+
+The public outcry following the Tuskegee revelations sparked a demand for formal mechanisms of accountability. It led directly to the National Research Act of 1974. 
+
+This act created the National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. Their task was immense: to identify the basic ethical principles that should definitively underlie the conduct of biomedical research involving human subjects.
+
+## The Belmont Report (1979)
+
+The result of the Commission's work was the publication of the **Belmont Report** in 1979 [@belmont1979]. The report was not a set of strict rules, but rather a framework of foundational principles intended to help resolve ethical problems.
+
+The report identified three core principles:
+
+### 1. Respect for Persons
+This principle requires acknowledging the autonomy of individuals. People should be treated as autonomous agents, and persons with diminished autonomy (e.g., children, prisoners) are entitled to protection. This principle is the ethical foundation for the requirement of **informed consent** in both research and clinical care.
+
+### 2. Beneficence
+Following the Hippocratic tradition, this requires making efforts to secure the well-being of the patient or subject. In the Belmont context, it is formalized as two general rules:
+a. Do no harm.
+b. Maximize possible benefits and minimize possible harms.
+
+### 3. Justice
+This principle demands fairness in the distribution of the burdens and benefits of research. The Tuskegee study was a profound violation of justice—a vulnerable population carried the massive burden of the research, while they were intentionally excluded from any benefits (the cure). 
+
+The Belmont Report, along with Beauchamp and Childress's influential textbook *Principles of Biomedical Ethics* (published in the same year) [@beauchamp2019], solidified the framework of "principlism" that dominates Western bioethics today.
+
+## Milestones in Bioethics
+
+The transition from unquestioned medical paternalism to modern, regulated bioethics did not happen overnight. It was catalyzed by crisis and tragedy.
+
+```{mermaid}
+timeline
+    title Bioethics Milestones (1900-2000)
+    section Early 20th C.
+        1932 : Tuskegee Syphilis Study begins
+    section Mid 20th C.
+        1945 : Nuremberg Doctors' Trial
+        1947 : The Nuremberg Code established
+        1954 : First successful kidney transplant
+        1964 : Declaration of Helsinki adopted
+    section Late 20th C.
+        1970 : The term 'Bioethics' is coined
+        1972 : Tuskegee Study exposed & ended
+        1974 : National Research Act passed
+        1979 : The Belmont Report published
+        1990 : Human Genome Project begins
+```
+
+## Governing Documents: A Comparison
+
+While they share common historical momentum, the major documents that shaped modern bioethics have slightly different focuses, intended audiences, and origins. We can compare the three most influential pieces.
+
+| Feature | The Nuremberg Code (1947) | Declaration of Helsinki (1964) | The Belmont Report (1979) |
+| :--- | :--- | :--- | :--- |
+| **Origin / Context** | War Crimes Tribunal, post-WWII. Created by judges. | World Medical Association. Created by physicians. | US National Commission, post-Tuskegee. Created by an ethics panel. |
+| **Primary Audience** | Legal and international bodies, the broader world. | Physicians and the global medical community. | US Researchers, IRBs, and policymakers. |
+| **Core Focus** | Absolute necessity of voluntary, informed consent. | Ethical principles for medical research specifically by physicians. | Foundational principles: Respect for Persons, Beneficence, Justice. |
+| **Enduring Legacy** | The first, uncompromising international standard for human subjects. | A living document, regularly updated (latest 2013) that guides global physician-researchers [@world1964]. | Exists as the primary theoretical basis for US federal research regulations (The Common Rule). |
+
+## Ethics Committees and IRBs Today
+
+The legacy of these historical events is embedded directly in how medical research and clinical care are governed today. The abuses of the past demonstrated that individual researchers or doctors cannot always be trusted to objectively balance scientific goals with human rights due to conflicting interests. 
+
+This realization mandated structural oversight, leading to the creation of **Institutional Review Boards (IRBs)** for research and **Clinical Ethics Committees** in hospitals. 
+
+### Institutional Review Boards (IRBs)
+
+In the United States, an IRB is a specialized committee empowered to approve, monitor, and review biomedical and behavioral research involving humans. 
+
+- **Purpose:** Their primary purpose is to ensure the rights and welfare of human subjects are protected, largely utilizing the Belmont Report's framework.
+- **Requirement:** Any research institution (university, hospital) receiving federal funding must maintain an IRB, and all human subject research must be approved prior to starting.
+- **Composition:** They must be diverse, including scientists, non-scientists, and members of the community unaffiliated with the institution.
+
+### Clinical Ethics Committees
+
+While IRBs govern *research*, clinical ethics committees operate within hospitals to assist with difficult situations in *active patient care*.
+
+- **Function:** They serve as an advisory body when clinicians, patients, and families disagree or face moral dilemmas regarding a treatment plan.
+- **Focus:** They often deliberate on issues of life-sustaining treatment, decision-making capacity, surrogate decision-making, and resource allocation.
+- **Goal:** To facilitate communication and provide a structured, multidisciplinary perspective (involving doctors, nurses, social workers, chaplains, and ethicists) to resolve complex moral disagreements.
+
+These bodies exist because history taught us that ethical oversight must be formal, interdisciplinary, independent, and completely transparent. 
+
+## Mini-Recap
+
+::: {.recap}
+Medical ethics evolved dramatically from the paternalistic Hippocratic tradition to a modern framework centered on patient autonomy and human rights. This monumental shift was catalyzed by horrific abuses—from the Nazi medical experiments to the Tuskegee Syphilis Study here in the US. These tragedies necessitated the creation of foundational texts like the Nuremberg Code and the Belmont Report, and the establishment of formal oversight bodies like IRBs, to ensure that the advancement of science never again supersedes the rights of the individual.
+:::
