@@ -218,53 +218,46 @@ In practice, this means:
 **Contrast with utilitarianism.** Kant would say: you must never lie to the Jehovah's Witness patient about her prognosis to get her to consent, *even if* lying would save her life.
 :::
 
-## Kantian Ethics: Duty as Constraint and Guide
+## Kantian Ethics: Perfect and Imperfect Duties
 
 ```{dot}
-//| fig-width: 9
+//| fig-width: 9.5
 //| fig-height: 2.8
-//| fig-cap: "Kantian decision procedure. Amber diamonds are perfect duties — hard stops that hold regardless of outcome. The slate diamond is an imperfect duty, which allows latitude in how and when to act."
+//| fig-cap: "Perfect duties (amber, from the humanity principle) are absolute constraints checked first — any violation makes the action impermissible. The imperfect duty to benefit the patient comes after: it must be fulfilled in some form, but the clinician has latitude in how."
 digraph kant {
   rankdir=LR;
   bgcolor="transparent";
-  graph [nodesep=0.45, ranksep=0.6];
+  graph [nodesep=0.5, ranksep=0.65];
   node [fontname="Inter", fontsize=11, margin="0.13,0.10"];
   edge [color="#64748b", fontname="Inter", fontsize=10, arrowsize=0.65];
 
-  A  [label="Proposed Action\n(e.g., withhold diagnosis)",
+  A  [label="Proposed clinical action\n(e.g., withhold\nbad news to spare distress)",
       shape=box, style="rounded,filled", fillcolor="#e6f1f2", color="#0e7c86"];
 
-  Q1 [label="Treats patient as\nmere means?",
-      shape=diamond, style=filled, fillcolor="#fff3cd", color="#b07d1a"];
-  W1 [label="IMPERMISSIBLE\n(perfect duty)",
+  Q  [label="Perfect duties\n(humanity principle):\nRespect autonomy?\nAvoid harm?\nTreat justly?",
+      shape=diamond, style=filled, fillcolor="#fff3cd", color="#b07d1a", fontsize=10];
+
+  W  [label="IMPERMISSIBLE\nPatient treated as\nmere means",
       shape=box, style="rounded,filled", fillcolor="#fad7d2",
       color="#c0392b", fontcolor="#9d2f23", penwidth=2];
 
-  Q2 [label="Other perfect\nduty violated?",
-      shape=diamond, style=filled, fillcolor="#fff3cd", color="#b07d1a"];
-  W2 [label="IMPERMISSIBLE\n(perfect duty)",
-      shape=box, style="rounded,filled", fillcolor="#fad7d2",
-      color="#c0392b", fontcolor="#9d2f23", penwidth=2];
+  Imp [label="Imperfect duty:\nbenefit / aid the patient\n(must be fulfilled;\nhow is flexible)",
+       shape=box, style="rounded,filled", fillcolor="#fce9d6", color="#b07d1a"];
 
-  Q3 [label="Imperfect duty\nto act?",
-      shape=diamond, style=filled, fillcolor="#dfe6ee", color="#475569"];
-  Act  [label="ACT\n(with latitude)",
-        shape=box, style="rounded,filled",
-        fillcolor="#e6f1f2", color="#0e7c86", fontcolor="#0e7c86", penwidth=2];
-  Omit [label="May omit",
-        shape=box, style="rounded,filled", fillcolor="#f8fafc", color="#94a3b8"];
+  How [label="Deliberate:\nhow to best fulfill\nthis duty here",
+       shape=box, style="rounded,filled", fillcolor="#dfe6ee", color="#475569"];
 
-  A  -> Q1;
-  Q1 -> W1  [label="Yes", color="#c0392b", fontcolor="#c0392b"];
-  Q1 -> Q2  [label="No"];
-  Q2 -> W2  [label="Yes", color="#c0392b", fontcolor="#c0392b"];
-  Q2 -> Q3  [label="No"];
-  Q3 -> Act  [label="Yes"];
-  Q3 -> Omit [label="No"];
+  Act [label="ACT\n(latitude in method,\ntiming, approach)",
+       shape=box, style="rounded,filled",
+       fillcolor="#e6f1f2", color="#0e7c86", fontcolor="#0e7c86", penwidth=2];
 
-  {rank=same; Q1; W1}
-  {rank=same; Q2; W2}
-  {rank=same; Act; Omit}
+  A   -> Q;
+  Q   -> W   [label="Any violated", color="#c0392b", fontcolor="#c0392b"];
+  Q   -> Imp [label="All pass"];
+  Imp -> How;
+  How -> Act;
+
+  {rank=same; Q; W}
 }
 ```
 

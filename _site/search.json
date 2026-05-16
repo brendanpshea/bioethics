@@ -1,0 +1,1199 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bioethics: An Open Educational Resource",
+    "section": "",
+    "text": "This is an open educational resource (OER) for a course in bioethics — the study of ethical issues arising from advances in biology, medicine, and healthcare.\nAll materials are freely available for non-commercial educational use under a Creative Commons BY-NC 4.0 license."
+  },
+  {
+    "objectID": "index.html#about-this-course",
+    "href": "index.html#about-this-course",
+    "title": "Bioethics: An Open Educational Resource",
+    "section": "",
+    "text": "This is an open educational resource (OER) for a course in bioethics — the study of ethical issues arising from advances in biology, medicine, and healthcare.\nAll materials are freely available for non-commercial educational use under a Creative Commons BY-NC 4.0 license."
+  },
+  {
+    "objectID": "index.html#course-materials",
+    "href": "index.html#course-materials",
+    "title": "Bioethics: An Open Educational Resource",
+    "section": "2 Course Materials",
+    "text": "2 Course Materials\n\n\n\n#\nPart\nTopic\nSlides\nNotes\n\n\n\n\n1A\nPrinciples & Reasoning\nThe Four Principles; Reading a Moral Argument\nSlides\nNotes\n\n\n1B\nPrinciples & Reasoning\nEthical Theories as Lenses\nSlides\nNotes"
+  },
+  {
+    "objectID": "index.html#how-to-use-these-materials",
+    "href": "index.html#how-to-use-these-materials",
+    "title": "Bioethics: An Open Educational Resource",
+    "section": "3 How to Use These Materials",
+    "text": "3 How to Use These Materials\n\nSlides are built with reveal.js — press F for fullscreen, S for speaker notes, ? for all shortcuts.\nNotes are the full HTML version with a table of contents.\nAll source files (.qmd) are available on GitHub."
+  },
+  {
+    "objectID": "index.html#license",
+    "href": "index.html#license",
+    "title": "Bioethics: An Open Educational Resource",
+    "section": "4 License",
+    "text": "4 License\n\n\n\nCC BY-NC 4.0\n\n\nThis work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.\nYou are free to share and adapt these materials for non-commercial purposes, provided you give appropriate credit."
+  },
+  {
+    "objectID": "chapters/01-introduction.html",
+    "href": "chapters/01-introduction.html",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "",
+    "text": "A 34-year-old woman is in the trauma bay after a high-speed crash. Alert, oriented, full capacity. CT shows a grade IV splenic laceration; her hemoglobin has fallen from 13 to 7 in the last hour. The surgeon wants her in the OR, with pre-emptive transfusion. Tucked in her wallet is a signed, dated card declaring her a Jehovah’s Witness and refusing all blood products. Her parents have just arrived and are pleading with the team to “do whatever it takes.”\nYou are the nurse at her bedside.\n\nWhat questions would you want answered before doing anything?\nWho exactly is asking you to do what?\nWhat do you think the right move is — and why?\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe legal frame. U.S. courts have, in nearly every case involving a competent adult, upheld the patient’s right to refuse blood — even when refusal is fatal. The harder cases involve minors, pregnancy, and unclear capacity. We will come back to all three later in the course.\n\n\n\nLet students sit with this. We’ll come back to it after we have vocabulary. The whole rest of the lecture is, in a sense, equipping us to answer this question more carefully than “follow your gut.”\n\n\n\n\n\nBy the end of Part A, you will be able to:\n\nDefine bioethics and explain why it emerged as a distinct field\nDistinguish ethical claims from legal, religious, and personal-preference claims\nName and apply the four principles of biomedical ethics\nIdentify the premises and conclusion of a moral argument written in ordinary prose\nRecognize a few common fallacies in bioethical reasoning"
+  },
+  {
+    "objectID": "chapters/01-introduction.html#today",
+    "href": "chapters/01-introduction.html#today",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "",
+    "text": "By the end of Part A, you will be able to:\n\nDefine bioethics and explain why it emerged as a distinct field\nDistinguish ethical claims from legal, religious, and personal-preference claims\nName and apply the four principles of biomedical ethics\nIdentify the premises and conclusion of a moral argument written in ordinary prose\nRecognize a few common fallacies in bioethical reasoning"
+  },
+  {
+    "objectID": "chapters/01-introduction.html#what-is-bioethics",
+    "href": "chapters/01-introduction.html#what-is-bioethics",
+    "title": "Introduction to Bioethics",
+    "section": "0.2 What Is Bioethics?",
+    "text": "0.2 What Is Bioethics?\nBioethics is the systematic study of ethical questions arising from:\n\nAdvances in medicine and medical technology\nBiological research and biotechnology\nHealthcare policy and resource allocation\nThe human relationship with living organisms and the environment\n\n\nSpeaker notes: Introduce the field and why it has grown in importance since the mid-20th century. Mention the Nuremberg Code and Tuskegee as historical catalysts."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#core-ethical-frameworks",
+    "href": "chapters/01-introduction.html#core-ethical-frameworks",
+    "title": "Introduction to Bioethics",
+    "section": "0.3 Core Ethical Frameworks",
+    "text": "0.3 Core Ethical Frameworks\n\n\nConsequentialism\n\nJudges actions by outcomes\n“The greatest good for the greatest number”\nKey figure: John Stuart Mill\n\n\nDeontology\n\nJudges actions by duties and rules\nRights are inviolable regardless of outcomes\nKey figure: Immanuel Kant"
+  },
+  {
+    "objectID": "chapters/01-introduction.html#the-four-principles-of-bioethics",
+    "href": "chapters/01-introduction.html#the-four-principles-of-bioethics",
+    "title": "Introduction to Bioethics",
+    "section": "1.1 The Four Principles of Bioethics",
+    "text": "1.1 The Four Principles of Bioethics\n\nAutonomy — respect for the patient’s right to make informed decisions\nBeneficence — act in the patient’s best interest\nNon-maleficence — “first, do no harm”\nJustice — fair distribution of benefits and burdens\n\n\n\n\n\n\n\nNote\n\n\n\nThese four principles form the foundation of most clinical ethics reasoning in the United States and much of the world (Beauchamp and Childress 2019)."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#historical-milestones",
+    "href": "chapters/01-introduction.html#historical-milestones",
+    "title": "Introduction to Bioethics",
+    "section": "1.2 Historical Milestones",
+    "text": "1.2 Historical Milestones\n\n\n\nYear\nEvent\n\n\n\n\n1947\nNuremberg Code — informed consent in research\n\n\n1964\nDeclaration of Helsinki — research ethics standards\n\n\n1972\nTuskegee syphilis study exposed\n\n\n1979\nBelmont Report published (National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research 1979)\n\n\n1990\nHuman Genome Project begins"
+  },
+  {
+    "objectID": "chapters/01-introduction.html#key-themes-in-this-course",
+    "href": "chapters/01-introduction.html#key-themes-in-this-course",
+    "title": "Introduction to Bioethics",
+    "section": "1.3 Key Themes in This Course",
+    "text": "1.3 Key Themes in This Course\n\nInformed consent and patient autonomy\nEnd-of-life ethics\nGenetic ethics and emerging biotechnology\nResearch ethics\nHealthcare justice and access\nAI in medicine and gender-affirming care\nAnimal ethics"
+  },
+  {
+    "objectID": "chapters/01-introduction.html#a-first-question",
+    "href": "chapters/01-introduction.html#a-first-question",
+    "title": "Introduction to Bioethics",
+    "section": "1.4 A First Question",
+    "text": "1.4 A First Question\n\nA 70-year-old patient with advanced cancer refuses chemotherapy that her oncologist believes could extend her life by a year. Her adult children beg the team to convince her otherwise.\nWhich of the four principles are in tension here, and how would you weigh them?"
+  },
+  {
+    "objectID": "chapters/01-introduction.html#wrapping-up",
+    "href": "chapters/01-introduction.html#wrapping-up",
+    "title": "Introduction to Bioethics",
+    "section": "1.5 Wrapping Up",
+    "text": "1.5 Wrapping Up\n\nBioethics asks how moral principles apply to medicine, research, and the life sciences. We use a four-principle framework as our common vocabulary, and we’ll see how consequentialist and deontological reasoning illuminate (and sometimes conflict over) that framework throughout the course."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#further-reading",
+    "href": "chapters/01-introduction.html#further-reading",
+    "title": "Introduction to Bioethics",
+    "section": "1.6 Further Reading",
+    "text": "1.6 Further Reading\n\nJonsen, A. R. (1998). The Birth of Bioethics. Oxford University Press.\nNational Commission for the Protection of Human Subjects. (1979). The Belmont Report."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#references",
+    "href": "chapters/01-introduction.html#references",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "5.9 References",
+    "text": "5.9 References\n\n\nBeauchamp, Tom L., and James F. Childress. 2019. Principles of Biomedical Ethics. 8th ed. Oxford University Press.\n\n\nJonsen, Albert R. 1998. The Birth of Bioethics. Oxford University Press.\n\n\nNational Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. 1979. The Belmont Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research. U.S. Department of Health, Education, and Welfare. https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#today",
+    "href": "chapters/01-introduction-slides.html#today",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Today",
+    "text": "Today\n\nBy the end of Part A, you will be able to:\n\nDefine bioethics and explain why it emerged as a distinct field\nDistinguish ethical claims from legal, religious, and personal-preference claims\nName and apply the four principles of biomedical ethics\nIdentify the premises and conclusion of a moral argument written in ordinary prose\nRecognize a few common fallacies in bioethical reasoning"
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#what-is-bioethics",
+    "href": "chapters/01-introduction-slides.html#what-is-bioethics",
+    "title": "Introduction to Bioethics",
+    "section": "What Is Bioethics?",
+    "text": "What Is Bioethics?\nBioethics is the systematic study of ethical questions arising from:\n\nAdvances in medicine and medical technology\nBiological research and biotechnology\nHealthcare policy and resource allocation\nThe human relationship with living organisms and the environment\n\n\nSpeaker notes: Introduce the field and why it has grown in importance since the mid-20th century. Mention the Nuremberg Code and Tuskegee as historical catalysts."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#core-ethical-frameworks",
+    "href": "chapters/01-introduction-slides.html#core-ethical-frameworks",
+    "title": "Introduction to Bioethics",
+    "section": "Core Ethical Frameworks",
+    "text": "Core Ethical Frameworks\n\n\nConsequentialism\n\nJudges actions by outcomes\n“The greatest good for the greatest number”\nKey figure: John Stuart Mill\n\n\nDeontology\n\nJudges actions by duties and rules\nRights are inviolable regardless of outcomes\nKey figure: Immanuel Kant"
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#the-four-principles-of-bioethics",
+    "href": "chapters/01-introduction-slides.html#the-four-principles-of-bioethics",
+    "title": "Introduction to Bioethics",
+    "section": "The Four Principles of Bioethics",
+    "text": "The Four Principles of Bioethics\n\nAutonomy — respect for the patient’s right to make informed decisions\nBeneficence — act in the patient’s best interest\nNon-maleficence — “first, do no harm”\nJustice — fair distribution of benefits and burdens\n\n\n\n\n\n\n\nNote\n\n\nThese four principles form the foundation of most clinical ethics reasoning in the United States and much of the world (Beauchamp and Childress 2019)."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#historical-milestones",
+    "href": "chapters/01-introduction-slides.html#historical-milestones",
+    "title": "Introduction to Bioethics",
+    "section": "Historical Milestones",
+    "text": "Historical Milestones\n\n\n\nYear\nEvent\n\n\n\n\n1947\nNuremberg Code — informed consent in research\n\n\n1964\nDeclaration of Helsinki — research ethics standards\n\n\n1972\nTuskegee syphilis study exposed\n\n\n1979\nBelmont Report published (National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research 1979)\n\n\n1990\nHuman Genome Project begins"
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#key-themes-in-this-course",
+    "href": "chapters/01-introduction-slides.html#key-themes-in-this-course",
+    "title": "Introduction to Bioethics",
+    "section": "Key Themes in This Course",
+    "text": "Key Themes in This Course\n\nInformed consent and patient autonomy\nEnd-of-life ethics\nGenetic ethics and emerging biotechnology\nResearch ethics\nHealthcare justice and access\nAI in medicine and gender-affirming care\nAnimal ethics"
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#a-first-question",
+    "href": "chapters/01-introduction-slides.html#a-first-question",
+    "title": "Introduction to Bioethics",
+    "section": "A First Question",
+    "text": "A First Question\n\nA 70-year-old patient with advanced cancer refuses chemotherapy that her oncologist believes could extend her life by a year. Her adult children beg the team to convince her otherwise.\nWhich of the four principles are in tension here, and how would you weigh them?"
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#wrapping-up",
+    "href": "chapters/01-introduction-slides.html#wrapping-up",
+    "title": "Introduction to Bioethics",
+    "section": "Wrapping Up",
+    "text": "Wrapping Up\n\nBioethics asks how moral principles apply to medicine, research, and the life sciences. We use a four-principle framework as our common vocabulary, and we’ll see how consequentialist and deontological reasoning illuminate (and sometimes conflict over) that framework throughout the course."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#further-reading",
+    "href": "chapters/01-introduction-slides.html#further-reading",
+    "title": "Introduction to Bioethics",
+    "section": "Further Reading",
+    "text": "Further Reading\n\nJonsen, A. R. (1998). The Birth of Bioethics. Oxford University Press.\nNational Commission for the Protection of Human Subjects. (1979). The Belmont Report."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#references",
+    "href": "chapters/01-introduction-slides.html#references",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "References",
+    "text": "References\n\n\nBeauchamp, Tom L., and James F. Childress. 2019. Principles of Biomedical Ethics. 8th ed. Oxford University Press.\n\n\nJonsen, Albert R. 1998. The Birth of Bioethics. Oxford University Press.\n\n\nNational Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. 1979. The Belmont Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research. U.S. Department of Health, Education, and Welfare. https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html."
+  },
+  {
+    "objectID": "chapters/00-course-outline.html",
+    "href": "chapters/00-course-outline.html",
+    "title": "Course Outline & Learning Outcomes",
+    "section": "",
+    "text": "This course consists of 12 lectures, each delivered in two parts (designed for a twice-weekly schedule). Online students watch both parts as a single unit. Alongside the lectures, students read and discuss 12 case study documents drawn from historical and contemporary bioethics.\nThe course is organized around the four principles of biomedical ethics — autonomy, beneficence, non-maleficence, and justice. Major ethical theories (utilitarianism, Kantian ethics, virtue ethics, care ethics, principlism) are introduced as lenses that ground and sometimes conflict over these principles."
+  },
+  {
+    "objectID": "chapters/00-course-outline.html#course-structure",
+    "href": "chapters/00-course-outline.html#course-structure",
+    "title": "Course Outline & Learning Outcomes",
+    "section": "",
+    "text": "This course consists of 12 lectures, each delivered in two parts (designed for a twice-weekly schedule). Online students watch both parts as a single unit. Alongside the lectures, students read and discuss 12 case study documents drawn from historical and contemporary bioethics.\nThe course is organized around the four principles of biomedical ethics — autonomy, beneficence, non-maleficence, and justice. Major ethical theories (utilitarianism, Kantian ethics, virtue ethics, care ethics, principlism) are introduced as lenses that ground and sometimes conflict over these principles."
+  },
+  {
+    "objectID": "chapters/00-course-outline.html#course-level-learning-outcomes",
+    "href": "chapters/00-course-outline.html#course-level-learning-outcomes",
+    "title": "Course Outline & Learning Outcomes",
+    "section": "2 Course-Level Learning Outcomes",
+    "text": "2 Course-Level Learning Outcomes\nBy the end of the course, students will be able to:\n\nIdentify and apply the four principles of biomedical ethics (autonomy, beneficence, non-maleficence, justice) to clinical and research scenarios.\nAnalyze moral arguments — identifying premises, conclusions, hidden assumptions, and common fallacies.\nCompare how major ethical frameworks (utilitarian, Kantian, virtue, care, principlist) approach the same dilemma and yield different conclusions.\nEvaluate real and contemporary bioethics cases using appropriate legal, historical, and empirical context.\nArticulate their own reasoned position on a contested bioethical issue, engaging fairly with opposing views."
+  },
+  {
+    "objectID": "chapters/00-course-outline.html#lecture-topics-at-a-glance",
+    "href": "chapters/00-course-outline.html#lecture-topics-at-a-glance",
+    "title": "Course Outline & Learning Outcomes",
+    "section": "3 Lecture Topics at a Glance",
+    "text": "3 Lecture Topics at a Glance\n\n\n\n\n\n\n\n\n\n#\nLecture\nPart A\nPart B\n\n\n\n\n1\nPrinciples, Theories & Moral Reasoning\nFour principles; moral arguments\nTheories as lenses on the principles\n\n\n2\nHistory & the Clinical Relationship\nHippocratic → Nuremberg → Belmont\nAutonomy, consent, truth-telling, confidentiality\n\n\n3\nResearch Ethics\nRCT primer; historical abuses\nPlacebos, vulnerable populations, Global South\n\n\n4\nAbortion\nMoral status arguments\nPost-Dobbs landscape; feminist perspectives\n\n\n5\nReproductive Technology\nIVF, surrogacy, commodification\nSavior siblings; posthumous reproduction\n\n\n6\nGenetics & Enhancement\nGenetics primer; testing\nCRISPR; therapy vs. enhancement\n\n\n7\nEnd of Life\nBrain death, advance directives\nEuthanasia, MAID, disability critiques\n\n\n8\nJustice & Health Care Allocation\nTheories of justice; right to care\nDisparities, implicit bias, rationing\n\n\n9\nPublic Health Ethics\nVaccination, liberty vs. welfare\nPandemic triage; COVID lessons\n\n\n10\nAI in Medicine\nDiagnostic AI; algorithmic bias\nAI in mental health; liability, privacy\n\n\n11\nGender, Identity & Disability\nGender-affirming care; Cass Review\nDisability ethics; body integrity\n\n\n12\nAnimal Ethics\nMoral status; animal research\nFactory farming; xenotransplantation"
+  },
+  {
+    "objectID": "chapters/00-course-outline.html#lecture-level-learning-outcomes",
+    "href": "chapters/00-course-outline.html#lecture-level-learning-outcomes",
+    "title": "Course Outline & Learning Outcomes",
+    "section": "4 Lecture-Level Learning Outcomes",
+    "text": "4 Lecture-Level Learning Outcomes\n\n4.1 L1. Principles, Theories & Moral Reasoning\n\nDefine the four principles of biomedical ethics and give a clinical example of each.\nDistinguish ethical claims from legal, religious, or personal-preference claims.\nIdentify the premises and conclusion of a moral argument written in ordinary prose.\nRecognize common fallacies in bioethical reasoning (ad hominem, appeal to nature, slippery slope, naturalistic fallacy).\nSummarize the core commitments of utilitarianism, Kantian ethics, virtue ethics, and care ethics.\nExplain how each theory grounds or prioritizes the four principles differently.\n\n\n\n4.2 L2. History & the Clinical Relationship\n\nTrace key events in the development of modern bioethics (Hippocratic oath, Nazi experiments, Nuremberg Code, Tuskegee, Belmont Report).\nCompare the four Emanuel & Emanuel models of the clinician-patient relationship (paternalistic, informative, interpretive, deliberative).\nExplain the four elements of valid informed consent: disclosure, understanding, voluntariness, and decision-making capacity.\nAnalyze conflicts between patient autonomy and clinician beneficence.\nIdentify legal and ethical limits of confidentiality, including Tarasoff duty-to-warn and mandatory reporting.\nDiscuss how cultural context complicates truth-telling norms.\n\n\n\n4.3 L3. Research Ethics\n\nExplain the basic structure of a randomized controlled trial (randomization, blinding, placebo, control group, intention-to-treat).\nDistinguish research from clinical care and describe the “therapeutic misconception.”\nSummarize lessons from Tuskegee, Willowbrook, and Nazi medical experiments.\nApply the Belmont principles (respect for persons, beneficence, justice) to IRB review.\nEvaluate the ethics of placebo-controlled trials when effective treatment exists.\nIdentify vulnerable populations and the heightened protections they require.\nAnalyze ethical tensions in conducting trials in low-resource settings (e.g., short-course AZT trials).\n\n\n\n4.4 L4. Abortion\n\nDescribe the post-Dobbs legal landscape and variation across US states.\nExplain Thomson’s violinist argument and Marquis’s future-like-ours argument.\nEvaluate criteria for moral status (biological humanity, personhood, sentience, viability).\nAnalyze reproductive justice and feminist perspectives on bodily autonomy.\nApply the four principles to specific cases (rape, fetal anomaly, maternal life, gestational age).\nAssess how real-world clinical implementation of exceptions succeeds or fails.\n\n\n\n4.5 L5. Reproductive Technology\n\nDescribe IVF, ICSI, PGD/PGT, and gestational surrogacy at a functional level.\nEvaluate arguments for and against commercial surrogacy and egg donation.\nAnalyze the commodification critique (Anderson) and the procreative liberty response (Robertson).\nDiscuss “savior siblings,” posthumous reproduction, and synthetic gametes.\nApply the four principles to embryo selection cases (sex selection, tissue matching, disability).\n\n\n\n4.6 L6. Genetics & Enhancement\n\nExplain core genetics concepts: gene, genome, allele, germline vs. somatic cells, inheritance patterns.\nDescribe CRISPR-Cas9 gene editing in accessible terms.\nDistinguish gene therapy from genetic enhancement and assess whether the line is morally meaningful.\nAnalyze the He Jiankui (2018) case and the global response to germline editing.\nExplain the non-identity problem and the “child’s right to an open future” argument.\nEvaluate arguments for and against enhancement (Savulescu, Sandel, Glannon).\n\n\n\n4.7 L7. End of Life\n\nDistinguish brain death, coma, persistent vegetative state, and minimally conscious state.\nExplain advance directives, living wills, durable power of attorney, and POLST/MOLST forms.\nCompare active euthanasia, passive euthanasia, withdrawal of treatment, and physician-assisted death.\nEvaluate Rachels’ argument that active and passive euthanasia are morally equivalent.\nAnalyze surrogate decision-making standards (substituted judgment vs. best interest).\nDiscuss disability community critiques of MAID and the controversy over psychiatric MAID.\n\n\n\n4.8 L8. Justice & Health Care Allocation\n\nCompare utilitarian, Rawlsian, libertarian, and capabilities theories of justice.\nEvaluate arguments for and against a moral right to health care.\nCompare US, Canadian, German, and UK health systems on key features (coverage, financing, outcomes).\nExplain documented racial and socioeconomic health disparities and their mechanisms.\nAnalyze implicit bias in clinical encounters and its effects on care.\nDiscuss ethical frameworks for organ allocation and rationing.\n\n\n\n4.9 L9. Public Health Ethics\n\nDistinguish clinical ethics from public health ethics (different unit of concern, different trade-offs).\nAnalyze tensions between individual liberty and collective welfare in quarantine and vaccine mandates.\nEvaluate arguments for mandatory vaccination and conscientious exemptions.\nApply crisis standards of care to pandemic triage scenarios.\nDiscuss what COVID-19 revealed about existing inequities and governance failures.\n\n\n\n4.10 L10. AI in Medicine\n\nExplain at a basic level how machine learning diagnostic and predictive tools are built and deployed.\nIdentify sources of algorithmic bias (training data, proxy variables, deployment drift).\nAnalyze the Optum care-management algorithm case and the Epic Sepsis Model controversy.\nEvaluate informed consent when clinicians rely on black-box AI recommendations.\nDiscuss AI mental-health chatbots and their ethical risks.\nConsider liability and professional responsibility when AI is in the clinical loop.\nExamine data-privacy and consent issues specific to health AI.\n\n\n\n4.11 L11. Gender, Identity & Disability\n\nDescribe current gender-affirming care pathways for adults and for adolescents.\nSummarize the Cass Review and the contested reception of its evidentiary standards.\nAnalyze parental authority, adolescent assent, and clinical gatekeeping in pediatric gender care.\nDistinguish “mere difference” and “bad difference” views of disability (Barnes vs. Bognar).\nEvaluate the disability-rights critique of selective abortion (Asch).\nDiscuss body integrity identity disorder and the limits of patient autonomy.\nApply the four principles to cases at the intersection of identity and medicine.\n\n\n\n4.12 L12. Animal Ethics\n\nCompare major views on animal moral status (Kantian, Singer’s utilitarian, Regan’s rights view).\nEvaluate the 3 Rs (replacement, reduction, refinement) as an ethical framework for animal research.\nDiscuss primate research and the use of animal models for neurological and psychiatric disorders.\nAnalyze the public-health and welfare ethics of industrial animal agriculture.\nEvaluate xenotransplantation in light of recent pig-heart and pig-kidney clinical trials.\nApply moral-status arguments developed in earlier units (abortion, genetics, end-of-life) to animal cases."
+  },
+  {
+    "objectID": "chapters/00-course-outline.html#case-studies",
+    "href": "chapters/00-course-outline.html#case-studies",
+    "title": "Course Outline & Learning Outcomes",
+    "section": "5 Case Studies",
+    "text": "5 Case Studies\nA companion set of 12 case study documents accompanies the lectures, ordered to follow the course sequence.\n\n\n\n\n\n\n\n\n#\nCase\nPaired Lecture\n\n\n\n\n1\nDax Cowart — refusing burn treatment\nL2 Clinical relationship\n\n\n2\nTuskegee Syphilis Study\nL3 Research ethics\n\n\n3\nHenrietta Lacks & HeLa cells\nL3 Research ethics (bridges to L8)\n\n\n4\nKate Cox — post-Dobbs medical exception\nL4 Abortion\n\n\n5\nBaby M — surrogacy\nL5 Reproductive tech\n\n\n6\nHe Jiankui CRISPR twins (2018)\nL6 Genetics\n\n\n7\nTerri Schiavo\nL7 End of life\n\n\n8\nOrgan allocation: Sarah Murnaghan & UNOS\nL8 Justice\n\n\n9\nCOVID-19 ventilator triage (NY / Italy)\nL9 Public health\n\n\n10\nOptum care-management algorithm\nL10 AI in medicine\n\n\n11\nBell v. Tavistock\nL11 Gender, identity & disability\n\n\n12\nDavid Bennett — first pig-heart xenotransplant\nL12 Animal ethics"
+  },
+  {
+    "objectID": "chapters/cases/01-dax-cowart.html",
+    "href": "chapters/cases/01-dax-cowart.html",
+    "title": "Case 1 — Dax Cowart: ‘Please Let Me Die’",
+    "section": "",
+    "text": "Who: Donald “Dax” Cowart (1947–2019), a 25-year-old Air Force pilot from Texas\nWhat: Severely burned in a propane explosion in 1973; demanded treatment be stopped throughout two years of intensely painful care; was overruled and treated against his wishes\nWhere / When: Parkland Hospital (Dallas) and the University of Texas Medical Branch (Galveston), 1973–1975\nWhy it matters: Cowart’s case became the most-discussed example in American bioethics of the conflict between patient autonomy (the right to refuse treatment) and clinical beneficence (the duty to save a life). Even after he recovered and built a successful career, Cowart insisted his rights had been violated.\nPair with: Lecture 2 — History & the Clinical Relationship"
+  },
+  {
+    "objectID": "chapters/cases/01-dax-cowart.html#the-case",
+    "href": "chapters/cases/01-dax-cowart.html#the-case",
+    "title": "Case 1 — Dax Cowart: ‘Please Let Me Die’",
+    "section": "The Case",
+    "text": "The Case\nIn July 1973, Dax Cowart and his father, Ray, drove to a piece of rural land in east Texas that Ray was thinking of buying. A propane line under the property had ruptured, and the gas had pooled invisibly in a low area near where they parked. When Ray turned the car’s ignition to leave, the spark detonated the gas. Ray died three months later from his injuries. Dax, then 25, survived — but burns covered roughly 65% of his body, including deep (third-degree) burns to his face, hands, and upper body. He was blinded in both eyes, lost most of his fingers, and lost both ears.\nHe was conscious throughout. According to multiple accounts, the first words he spoke to a passing farmer at the scene were a request to be shot.\nHe was admitted first to Parkland Memorial Hospital in Dallas, then transferred to the burn unit at the University of Texas Medical Branch in Galveston, where he would spend most of the next 14 months. The standard treatment for burns of this severity at that time — and largely still today — required daily debridement: the removal of dead and infected tissue to allow new skin to grow and to prevent fatal sepsis. At UTMB, debridement was performed in a Hubbard tank, a stainless-steel pool of warm chlorinated water in which the patient’s burned tissue was scrubbed away. Patients commonly described the procedure as the worst pain of their lives.\nFrom very early in his treatment, Cowart asked that the tankings be stopped, that no further skin grafts be performed, and that he be allowed to die. He asked his physicians, his nurses, and his mother. He asked repeatedly, persistently, and — psychiatrists who evaluated him concluded — competently. He understood his prognosis. He understood that refusing treatment would mean a death from infection within weeks. He preferred that to continuing.\nHis treating physicians — most prominently Dr. Charles Baxter, a pioneering burn specialist — refused. Cowart’s mother, Ada, a devout Baptist, served as his legal surrogate and authorized the continuation of treatment. The team accepted her authorization. For two years, he was forcibly medicated, restrained when necessary, and treated against his stated wishes.\nHe survived. He returned home blind, severely disabled, and dependent on others for many basic tasks. He attempted suicide twice. He eventually went to law school, earned his J.D. from Texas Tech in 1986, married, divorced, and built a career as a practicing attorney and public speaker.\nFor the rest of his life, Cowart said two things that puzzled many listeners. First: he was glad to be alive. Second: his physicians had been wrong to keep him alive against his will. The two statements, he insisted, did not contradict each other. The question, for him, was never whether the outcome was good — it was whether the choice had been his to make.\nHe died in 2019."
+  },
+  {
+    "objectID": "chapters/cases/01-dax-cowart.html#context-students-need",
+    "href": "chapters/cases/01-dax-cowart.html#context-students-need",
+    "title": "Case 1 — Dax Cowart: ‘Please Let Me Die’",
+    "section": "Context Students Need",
+    "text": "Context Students Need\n\nBurn injury severity. Burns are classified by depth. First-degree burns affect only the outer skin layer (sunburn). Second-degree burns reach into deeper layers and blister. Third-degree (full-thickness) burns destroy all skin layers and the nerve endings underneath. Counterintuitively, the deepest burns are often not the most painful — but the surrounding partial-thickness burns are. Cowart’s burns covered roughly 65% of his “total body surface area” (TBSA), with much of it third-degree. In 1973, mortality at that severity exceeded 50%; survival required months of grafting and debridement.\n\n\nDebridement and the Hubbard tank. New skin will not grow over dead tissue, and dead tissue invites infection that can kill within days. Debridement — physically removing that tissue — is essential. The Hubbard tank used at UTMB allowed warm water and saline to soften the eschar (dead skin) so that nurses could scrub it off. The procedure is shorter and less brutal today, with better anesthesia and surgical alternatives, but the underlying necessity remains.\n\n\nInformed consent in 1973. The legal doctrine of informed consent was very new. Canterbury v. Spence, the federal case that established the modern “reasonable patient” standard for disclosure, had been decided just one year earlier (1972). Most physicians of Dr. Baxter’s generation had been trained in a model where the doctor decided what was best and the patient cooperated. Patient refusal of life-saving treatment was treated, by default, as evidence that the patient was not thinking clearly. (For the long arc by which informed consent emerged as a doctrine, see Faden and Beauchamp (1986).)\n\n\nDecision-making capacity. “Capacity” is a clinical term distinct from “competence” (a legal term). A patient has capacity to make a specific decision if they can (1) understand the relevant information, (2) appreciate how it applies to their situation, (3) reason about treatment options, and (4) communicate a choice. Capacity is decision-specific and time-specific — a patient may have capacity to refuse one treatment but not another, or capacity today but not tomorrow. Multiple psychiatrists evaluated Cowart and found that he had capacity.\n\n\nSurrogate decision-making. When a patient lacks capacity, a surrogate (often a family member) decides on their behalf. The American standard hierarchy is substituted judgment (decide what the patient would have wanted) followed by best interest (decide what serves the patient’s welfare). Critically: surrogates have no authority to override a patient who does have capacity. In Cowart’s case, his mother’s religious convictions were given controlling weight even though Cowart himself was found capable of deciding."
+  },
+  {
+    "objectID": "chapters/cases/01-dax-cowart.html#ethical-issues",
+    "href": "chapters/cases/01-dax-cowart.html#ethical-issues",
+    "title": "Case 1 — Dax Cowart: ‘Please Let Me Die’",
+    "section": "Ethical Issues",
+    "text": "Ethical Issues\nThe case is usually framed as a collision between two of the four principles of biomedical ethics:\nAutonomy. Cowart was a competent adult. He understood his condition and his prognosis. He chose, repeatedly and consistently, to refuse treatment. The standard view in modern bioethics is that competent patients have an essentially unconditional right to refuse any medical intervention, including life-saving care. On this view, his treatment team violated his rights, full stop.\nBeneficence and non-maleficence. Cowart’s physicians believed — correctly, as it turned out — that he could survive and eventually rebuild a meaningful life. They saw their refusal to stop treatment as an act of mercy and skill, not coercion. From their perspective, allowing a patient in extremis to make an irreversible decision that he might later regret was a failure of medical responsibility, not a respect for it.\nJustice and the role of family. The team’s deference to Cowart’s mother raises a different question: under what circumstances should family preferences override a competent patient’s expressed wishes? The case shows how easily institutional power can route around a patient’s voice when family and medical authority align.\nA subtler issue runs underneath all of this: the problem of retrospective endorsement. Cowart’s later statement that he was glad to be alive is sometimes invoked as a justification for what was done to him. (“See? He thanks us now.”) Cowart himself rejected this argument. The fact that an outcome turned out well does not, he argued, retroactively legitimize a decision that was not the patient’s to make. A surgeon who operates on the wrong leg cannot defend the act by pointing out that the patient walked again."
+  },
+  {
+    "objectID": "chapters/cases/01-dax-cowart.html#multiple-perspectives",
+    "href": "chapters/cases/01-dax-cowart.html#multiple-perspectives",
+    "title": "Case 1 — Dax Cowart: ‘Please Let Me Die’",
+    "section": "Multiple Perspectives",
+    "text": "Multiple Perspectives\nDax Cowart himself insisted throughout his life that the question was about control over his own body, not about outcome. “I do not want to die because the quality of life is too low,” he told an interviewer in 1989. “I want to die because the quality of life is too low and I am the one who has to live it.” His position was libertarian about autonomy in the strong sense: a competent person’s right to refuse extends even to refusals others find tragic or mistaken.\nThe treating physicians, particularly Dr. Charles Baxter, defended their decisions in interviews and in the films made about the case. Baxter argued that severely burned patients in acute pain frequently ask to die early in treatment and almost universally change their minds once they have recovered. To honor the early refusal, on this view, would be to mistake an episode of suffering for a settled preference.\nAda Cowart, Dax’s mother, was a religious woman who believed life was a gift from God that her son had no right to refuse. She authorized continued treatment as both a parent and a Christian. She lived to see her son recover; her authorization is, in her own framework, vindicated.\nPhilosophers and legal scholars have used the case to develop competing accounts. Robert Burt, in a well-known dialogue with Cowart (Cowart and Burt 1998), argued that the relationship between physician and suffering patient cannot be modeled as a simple consent transaction — that the demand to die was, in part, a demand to be heard, and that the right response was not always to comply with the literal request. Cowart pushed back hard.\nDisability rights advocates have noted that Cowart’s case prefigures contemporary debates about medical assistance in dying. They observe a recurring asymmetry: when an able-bodied person refuses care, clinicians often comply; when a newly disabled person refuses care, clinicians often resist. The implicit assumption — that life with disability is intolerable, but that this assumption can be overridden by treatment — is, they argue, exactly backwards."
+  },
+  {
+    "objectID": "chapters/cases/01-dax-cowart.html#discussion-questions",
+    "href": "chapters/cases/01-dax-cowart.html#discussion-questions",
+    "title": "Case 1 — Dax Cowart: ‘Please Let Me Die’",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\n\nWas Dax Cowart’s refusal of treatment a refusal that his physicians should have honored? Defend your answer using at least one of the four principles.\nCowart later said he was glad to be alive and that his rights had been violated. Are these two claims consistent? What does your answer imply about how we should evaluate paternalistic decisions in retrospect?\nCowart’s mother authorized continued treatment as his legal surrogate. Under modern standards of decision-making capacity, was her authorization valid? Should it have been given any weight at all if Cowart was competent?\nDr. Baxter argued that severely burned patients almost always change their minds about wanting to die after they recover. Suppose this is statistically true. Does it justify overriding any individual patient’s refusal? Why or why not?\nCompare Cowart’s case to a contemporary patient who requests medical aid in dying (MAID) for a terminal illness. What features of the cases are similar, and what features are different?\nImagine you are a nurse in the burn unit assigned to perform the daily tankings. Cowart has just told you, again, that he wants to stop and be allowed to die. What do you do, and what do you say? What do you owe him in this moment that the institution does not owe him?\nSome disability rights scholars argue that clinicians systematically underestimate the future quality of life of newly disabled patients. If true, how should that empirical fact change the ethical analysis of Cowart’s case?"
+  },
+  {
+    "objectID": "chapters/cases/01-dax-cowart.html#further-reading",
+    "href": "chapters/cases/01-dax-cowart.html#further-reading",
+    "title": "Case 1 — Dax Cowart: ‘Please Let Me Die’",
+    "section": "Further Reading",
+    "text": "Further Reading\n\nPlease Let Me Die (1974) — documentary film featuring Cowart during his treatment.\nDax’s Case (1985) — follow-up documentary, widely used in bioethics courses.\nLonnie D. Kliever, ed., Dax’s Case: Essays in Medical Ethics and Human Meaning (Southern Methodist University Press, 1989).\nKeith Burton, “A Chronicle: Dax’s Case as It Happened,” Hastings Center Report 19, no. 1 (1989): 5–10.\nObituary: “Donald ‘Dax’ Cowart, Subject of Landmark Bioethics Case, Dies at 71,” Texas Monthly, 2019."
+  },
+  {
+    "objectID": "chapters/cases/01-dax-cowart.html#references",
+    "href": "chapters/cases/01-dax-cowart.html#references",
+    "title": "Case 1 — Dax Cowart: ‘Please Let Me Die’",
+    "section": "References",
+    "text": "References\n\n\nCowart, Dax, and Robert Burt. 1998. “Confronting Death: Who Chooses, Who Controls?” Hastings Center Report 28 (1): 14–24. https://doi.org/10.2307/3528337.\n\n\nFaden, Ruth R., and Tom L. Beauchamp. 1986. A History and Theory of Informed Consent. Oxford University Press."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#a-quiet-tuesday-on-the-floor",
+    "href": "chapters/01-introduction.html#a-quiet-tuesday-on-the-floor",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "",
+    "text": "A 34-year-old woman is in the trauma bay after a high-speed crash. Alert, oriented, full capacity. CT shows a grade IV splenic laceration; her hemoglobin has fallen from 13 to 7 in the last hour. The surgeon wants her in the OR, with pre-emptive transfusion. Tucked in her wallet is a signed, dated card declaring her a Jehovah’s Witness and refusing all blood products. Her parents have just arrived and are pleading with the team to “do whatever it takes.”\nYou are the nurse at her bedside.\n\nWhat questions would you want answered before doing anything?\nWho exactly is asking you to do what?\nWhat do you think the right move is — and why?"
+  },
+  {
+    "objectID": "chapters/01-introduction.html#a-working-definition",
+    "href": "chapters/01-introduction.html#a-working-definition",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "2.1 A Working Definition",
+    "text": "2.1 A Working Definition\nBioethics is the systematic study of ethical questions arising in:\n\nThe care of patients (clinical ethics)\nBiomedical research on humans and animals (research ethics)\nPublic health policy and the allocation of scarce resources\nNew biotechnologies — genetics, AI, reproductive technology\n\n\n“Systematic” matters. Bioethics isn’t just having opinions — it’s reasoning about them in a way others can examine, challenge, and refine."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#why-a-distinct-field",
+    "href": "chapters/01-introduction.html#why-a-distinct-field",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "2.2 Why a Distinct Field?",
+    "text": "2.2 Why a Distinct Field?\nA short list of mid-20th-century shocks:\n\nThe Nazi medical experiments exposed at Nuremberg (1945–1947)\nThe Tuskegee syphilis study (1932–1972), in which Black men were left untreated for decades\nNew technology that outran old norms: ventilators, dialysis, organ transplants, IVF\nPatients and families demanding a voice the old paternalistic model didn’t give them\n\nBioethics is what grew up to answer the question: how should we govern this?"
+  },
+  {
+    "objectID": "chapters/01-introduction.html#three-sample-questions",
+    "href": "chapters/01-introduction.html#three-sample-questions",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "2.3 Three Sample Questions",
+    "text": "2.3 Three Sample Questions\n\n\nClinical: Can a 16-year-old refuse chemotherapy her parents want her to have?\nResearch: Is it ethical to give half the participants a placebo when an effective drug already exists?\nPolicy: When ICU beds run out in a pandemic, who gets one?\n\n\n\nEach of these is a recurring exam case. Same field, very different scales — bedside, study, society."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#why-the-distinctions-matter",
+    "href": "chapters/01-introduction.html#why-the-distinctions-matter",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "3.1 Why the Distinctions Matter",
+    "text": "3.1 Why the Distinctions Matter\nStudents often collapse these. They are not the same — and confusing them is one of the most common mistakes in bioethical reasoning.\n\n\n\n\n\n\n\n\nType of claim\nSource of authority\nQuestion it answers\n\n\n\n\nEthical\nReasons we can examine and share\nWhat ought we to do?\n\n\nLegal\nStatutes, courts, regulators\nWhat may or must we do under law?\n\n\nReligious\nSacred texts, traditions, communities\nWhat does this faith require?\n\n\nPreference\nPersonal taste\nWhat do I happen to want?"
+  },
+  {
+    "objectID": "chapters/01-introduction.html#ethics-vs.-law",
+    "href": "chapters/01-introduction.html#ethics-vs.-law",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "3.2 Ethics vs. Law",
+    "text": "3.2 Ethics vs. Law\nThe law is not a reliable guide to what is ethical.\n\nSlavery in the United States was legal until 1865 — and was monstrously unethical the entire time.\nThe Tuskegee study was legal in 1932. It was wrong in 1932.\nConversely, jaywalking is illegal in most cities; almost no one thinks it is a moral failing.\n\n\n\n\n\n\n\nTip\n\n\n\nA useful test for nurses: “Is it legal?” and “Is it the right thing for this patient?” are two different questions. Sometimes the law lags behind ethics; sometimes it overreaches."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#ethics-vs.-religion",
+    "href": "chapters/01-introduction.html#ethics-vs.-religion",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "3.3 Ethics vs. Religion",
+    "text": "3.3 Ethics vs. Religion\nMany of our patients — and many of you — draw moral guidance from religious tradition. That is appropriate. But:\n\nA religious tradition can give its members reasons to act, but cannot, on its own, give non-members reasons to act.\nBioethical arguments need to work in a pluralistic society where patients, families, and clinicians come from many traditions and none.\n\nWe will treat religious commitments as important data about what patients value — not as conversation-stoppers in clinical reasoning."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#ethics-vs.-personal-preference",
+    "href": "chapters/01-introduction.html#ethics-vs.-personal-preference",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "3.4 Ethics vs. Personal Preference",
+    "text": "3.4 Ethics vs. Personal Preference\n\n“I just don’t think it’s right.”\n\nThat is a feeling, not yet an argument. Ethical reasoning asks the next question: why? What reason, that another reasonable person could weigh, supports the conclusion?\n\nThis is the moment to flag that “I feel” / “I believe” are perfectly fine starting points — but bioethics asks us to take the next step."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#thought-question",
+    "href": "chapters/01-introduction.html#thought-question",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "3.5 Thought Question",
+    "text": "3.5 Thought Question\n\nA nurse on the L&D floor is asked to assist with a second-trimester abortion for a patient whose fetus has a lethal anomaly. The procedure is legal; her own physician is performing it. The nurse declines on religious grounds and asks to be reassigned. Her hospital has a conscience clause — a policy permitting clinicians to opt out of specific procedures — and she has invoked it formally.\n\nIs what she is doing legal? Ethical? Religiously required? A personal preference?\nCould the answers come apart? In what scenario?\nNow imagine the same refusal at 3 a.m. at a small rural hospital with no other nurse on shift. Anything change?"
+  },
+  {
+    "objectID": "chapters/01-introduction.html#a-brief-origin-story",
+    "href": "chapters/01-introduction.html#a-brief-origin-story",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "4.1 A Brief Origin Story",
+    "text": "4.1 A Brief Origin Story\nIn the wake of Tuskegee, a U.S. national commission produced the Belmont Report (1979) (National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research 1979). That same year, philosophers Tom Beauchamp and James Childress published Principles of Biomedical Ethics (Beauchamp and Childress 2019), proposing four principles meant to be:\n\nShared across ethical traditions\nSpecific enough to guide clinical decisions\nGeneral enough to apply to new technologies\n\nThe result is what’s often called principlism — and it remains the lingua franca of hospital ethics consults (Jonsen 1998)."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#autonomy",
+    "href": "chapters/01-introduction.html#autonomy",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "4.2 1. Autonomy",
+    "text": "4.2 1. Autonomy\nAutonomy — self-rule. Respect the patient’s right to make informed decisions about her own body and care.\nIn practice, autonomy underwrites:\n\nInformed consent\nThe right to refuse treatment (even life-saving treatment)\nTruth-telling and honest disclosure\nConfidentiality\n\n\nThe Jehovah’s Witness case from the start of class is, at its core, an autonomy case. Hold that thought."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#beneficence",
+    "href": "chapters/01-introduction.html#beneficence",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "4.4 2. Beneficence",
+    "text": "4.4 2. Beneficence\nBeneficence — do good. Act in the patient’s best interest; promote welfare.\nThis sounds obvious until you ask: whose account of the patient’s good?\n\nThe clinician’s professional judgment?\nThe patient’s own values?\nThe family’s hopes?\n\nBeneficence and autonomy can pull in opposite directions."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#non-maleficence",
+    "href": "chapters/01-introduction.html#non-maleficence",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "4.6 3. Non-Maleficence",
+    "text": "4.6 3. Non-Maleficence\nNon-maleficence — first, do no harm (primum non nocere).\n\n\nThe oldest principle in Western medicine, traceable to the Hippocratic tradition (5th c. BCE). It does not mean “never do anything risky.” It means: weigh the harms, and don’t expose patients to harm without proportionate benefit.\nEvery chemotherapy regimen, every surgery, every medication is a deliberate small harm in service of a larger good.\n\n\n\nHippocrates, engraving by Peter Paul Rubens. Public domain (Wikimedia Commons)."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#justice",
+    "href": "chapters/01-introduction.html#justice",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "4.8 4. Justice",
+    "text": "4.8 4. Justice\nJustice — fair distribution of benefits and burdens.\nIn bioethics, justice shows up in three main forms:\n\nDistributive justice — who gets the kidney, the ICU bed, the new drug?\nProcedural justice — was the process fair, even if the outcome is hard?\nSocial justice — are we honest about the historical and structural causes of health disparities?\n\n\nWe’ll spend an entire lecture (L8) on justice. For now, just plant the flag: bioethics is not only about individual encounters."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#the-four-together",
+    "href": "chapters/01-introduction.html#the-four-together",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "4.10 The Four Together",
+    "text": "4.10 The Four Together\n\n\n\n\n\nflowchart LR\n  A[Autonomy&lt;br/&gt;respect choices] --- B[Beneficence&lt;br/&gt;do good]\n  B --- N[Non-maleficence&lt;br/&gt;do no harm]\n  N --- J[Justice&lt;br/&gt;treat fairly]\n  J --- A\n  style A fill:#cfe9ec,stroke:#0e7c86,stroke-width:2px\n  style B fill:#fce9d6,stroke:#b07d1a,stroke-width:2px\n  style N fill:#fad7d2,stroke:#c0392b,stroke-width:2px\n  style J fill:#dfe6ee,stroke:#0f172a,stroke-width:2px\n\n\n\n\n\n\nA framework, not an algorithm. The principles tell you what to weigh — not, by themselves, how to weigh it."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#when-principles-conflict",
+    "href": "chapters/01-introduction.html#when-principles-conflict",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "4.11 When Principles Conflict",
+    "text": "4.11 When Principles Conflict\nMost interesting bioethics cases are conflicts between principles, not conflicts between good and evil.\n\nAutonomy vs. Beneficence — the Jehovah’s Witness refusing transfusion\nBeneficence vs. Non-Maleficence — risky surgery with a small chance of cure\nAutonomy vs. Justice — vaccine refusal during a pandemic\nBeneficence vs. Justice — spending heroic resources on one patient when others wait\n\nThe four principles do not resolve these tensions. They make them visible so we can argue about them carefully."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#thought-question-1",
+    "href": "chapters/01-introduction.html#thought-question-1",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "4.12 Thought Question",
+    "text": "4.12 Thought Question\n\nReturn to our trauma-bay patient — full capacity, signed refusal, parents at the door. Now you have vocabulary for what was hard.\n\nWhich principles point toward transfusing her? Which point away?\nWhich counts as the “harm” — letting her die, or doing something to her body she has explicitly refused?\nWhich principle would you weight most heavily, and why?\nWhat single fact, if changed, would change your answer?"
+  },
+  {
+    "objectID": "chapters/01-introduction.html#what-is-an-argument",
+    "href": "chapters/01-introduction.html#what-is-an-argument",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "5.1 What Is an Argument?",
+    "text": "5.1 What Is an Argument?\nAn argument, in philosophy, is not a quarrel. It is a structured piece of reasoning:\n\nOne or more premises (claims offered as support)\nA conclusion (the claim the premises are meant to support)\n\nThe job of the careful reader: find the conclusion first, then the premises, then ask whether the premises are true and whether they actually support the conclusion."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#worked-example",
+    "href": "chapters/01-introduction.html#worked-example",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "5.2 Worked Example",
+    "text": "5.2 Worked Example\nA short argument you might hear on the floor:\n\n“We have to transfuse her — she’ll die otherwise, and our job is to save lives.”\n\n\n\n\n\n\n\n\nargument\n\n\nP1\n\nPremise 1\nWithout a transfusion,\nthe patient will die.\n\n\n\nC\n\n∴  Conclusion\nWe should transfuse her.\n\n\n\nP1-&gt;C\n\n\n\n\n\nP2\n\nPremise 2\nOur job is\nto save lives.\n\n\n\nP2-&gt;C"
+  },
+  {
+    "objectID": "chapters/01-introduction.html#hidden-assumptions",
+    "href": "chapters/01-introduction.html#hidden-assumptions",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "5.3 Hidden Assumptions",
+    "text": "5.3 Hidden Assumptions\nSounds airtight — until you notice what’s missing. That argument quietly assumes:\n\n“Saving lives” always outweighs the patient’s other wishes.\nThe patient’s refusal can be set aside because it’s “irrational.”\nA nurse’s professional duty is identical to “extending biological life.”\n\nEach of those is contestable. Surfacing hidden assumptions is half the work of bioethics."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#a-few-common-fallacies",
+    "href": "chapters/01-introduction.html#a-few-common-fallacies",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "5.4 A Few Common Fallacies",
+    "text": "5.4 A Few Common Fallacies\n\n\n\n\n\n\n\nFallacy\nWhat it does\n\n\n\n\nAppeal to nature\n“It’s natural, so it’s good” — or “unnatural, so bad”\n\n\nSlippery slope\n“If we allow X, eventually Y horrible thing will follow” — without showing the slide\n\n\nAd hominem\nAttacking the person rather than the argument\n\n\nNaturalistic fallacy\nInferring ought directly from is\n\n\nFalse dichotomy\n“Either X or Y” — when other options exist"
+  },
+  {
+    "objectID": "chapters/01-introduction.html#practice-spot-the-fallacy",
+    "href": "chapters/01-introduction.html#practice-spot-the-fallacy",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "5.7 Practice — Spot the Fallacy",
+    "text": "5.7 Practice — Spot the Fallacy\n\nIdentify the fallacy in each:\n\n“Gene editing is wrong — it’s playing God.”\n“If we let doctors help patients die, we’ll end up euthanizing the disabled.”\n“You can’t trust her opinion on vaccines — she’s not even a real scientist.”\n“Either we ration care by ability to pay, or the system collapses.”\n\n\n\nAnswers (in order): appeal to nature, slippery slope, ad hominem, false dichotomy."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#wrapping-up-part-a",
+    "href": "chapters/01-introduction.html#wrapping-up-part-a",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "5.8 Wrapping Up Part A",
+    "text": "5.8 Wrapping Up Part A\n\nBioethics is the systematic study of moral questions in medicine, research, and policy. It is not the same as law, religion, or personal preference. The four principles — autonomy, beneficence, non-maleficence, justice — give us a shared vocabulary for the conflicts we’ll see all semester. And every claim in this course will be evaluated as an argument: premises, conclusion, hidden assumptions, possible fallacies.\nIn Part B, we ask the next question: where do these principles come from? We meet the major ethical theories — utilitarian, Kantian, virtue, and care — that ground and sometimes contest the four principles."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#a-quiet-tuesday-on-the-floor",
+    "href": "chapters/01-introduction-slides.html#a-quiet-tuesday-on-the-floor",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "A Quiet Tuesday on the Floor",
+    "text": "A Quiet Tuesday on the Floor\n\nA 34-year-old woman is in the trauma bay after a high-speed crash. Alert, oriented, full capacity. CT shows a grade IV splenic laceration; her hemoglobin has fallen from 13 to 7 in the last hour. The surgeon wants her in the OR, with pre-emptive transfusion. Tucked in her wallet is a signed, dated card declaring her a Jehovah’s Witness and refusing all blood products. Her parents have just arrived and are pleading with the team to “do whatever it takes.”\nYou are the nurse at her bedside.\n\nWhat questions would you want answered before doing anything?\nWho exactly is asking you to do what?\nWhat do you think the right move is — and why?"
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#a-working-definition",
+    "href": "chapters/01-introduction-slides.html#a-working-definition",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "A Working Definition",
+    "text": "A Working Definition\nBioethics is the systematic study of ethical questions arising in:\n\nThe care of patients (clinical ethics)\nBiomedical research on humans and animals (research ethics)\nPublic health policy and the allocation of scarce resources\nNew biotechnologies — genetics, AI, reproductive technology\n\n\n“Systematic” matters. Bioethics isn’t just having opinions — it’s reasoning about them in a way others can examine, challenge, and refine."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#why-a-distinct-field",
+    "href": "chapters/01-introduction-slides.html#why-a-distinct-field",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Why a Distinct Field?",
+    "text": "Why a Distinct Field?\nA short list of mid-20th-century shocks:\n\nThe Nazi medical experiments exposed at Nuremberg (1945–1947)\nThe Tuskegee syphilis study (1932–1972), in which Black men were left untreated for decades\nNew technology that outran old norms: ventilators, dialysis, organ transplants, IVF\nPatients and families demanding a voice the old paternalistic model didn’t give them\n\nBioethics is what grew up to answer the question: how should we govern this?"
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#three-sample-questions",
+    "href": "chapters/01-introduction-slides.html#three-sample-questions",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Three Sample Questions",
+    "text": "Three Sample Questions\n\nClinical: Can a 16-year-old refuse chemotherapy her parents want her to have?\nResearch: Is it ethical to give half the participants a placebo when an effective drug already exists?\nPolicy: When ICU beds run out in a pandemic, who gets one?\n\n\nEach of these is a recurring exam case. Same field, very different scales — bedside, study, society."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#why-the-distinctions-matter",
+    "href": "chapters/01-introduction-slides.html#why-the-distinctions-matter",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Why the Distinctions Matter",
+    "text": "Why the Distinctions Matter\nStudents often collapse these. They are not the same — and confusing them is one of the most common mistakes in bioethical reasoning.\n\n\n\n\n\n\n\n\nType of claim\nSource of authority\nQuestion it answers\n\n\n\n\nEthical\nReasons we can examine and share\nWhat ought we to do?\n\n\nLegal\nStatutes, courts, regulators\nWhat may or must we do under law?\n\n\nReligious\nSacred texts, traditions, communities\nWhat does this faith require?\n\n\nPreference\nPersonal taste\nWhat do I happen to want?"
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#ethics-vs.-law",
+    "href": "chapters/01-introduction-slides.html#ethics-vs.-law",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Ethics vs. Law",
+    "text": "Ethics vs. Law\nThe law is not a reliable guide to what is ethical.\n\nSlavery in the United States was legal until 1865 — and was monstrously unethical the entire time.\nThe Tuskegee study was legal in 1932. It was wrong in 1932.\nConversely, jaywalking is illegal in most cities; almost no one thinks it is a moral failing.\n\n\n\n\n\n\n\nTip\n\n\nA useful test for nurses: “Is it legal?” and “Is it the right thing for this patient?” are two different questions. Sometimes the law lags behind ethics; sometimes it overreaches."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#ethics-vs.-religion",
+    "href": "chapters/01-introduction-slides.html#ethics-vs.-religion",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Ethics vs. Religion",
+    "text": "Ethics vs. Religion\nMany of our patients — and many of you — draw moral guidance from religious tradition. That is appropriate. But:\n\nA religious tradition can give its members reasons to act, but cannot, on its own, give non-members reasons to act.\nBioethical arguments need to work in a pluralistic society where patients, families, and clinicians come from many traditions and none.\n\nWe will treat religious commitments as important data about what patients value — not as conversation-stoppers in clinical reasoning."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#ethics-vs.-personal-preference",
+    "href": "chapters/01-introduction-slides.html#ethics-vs.-personal-preference",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Ethics vs. Personal Preference",
+    "text": "Ethics vs. Personal Preference\n\n“I just don’t think it’s right.”\n\nThat is a feeling, not yet an argument. Ethical reasoning asks the next question: why? What reason, that another reasonable person could weigh, supports the conclusion?\n\nThis is the moment to flag that “I feel” / “I believe” are perfectly fine starting points — but bioethics asks us to take the next step."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#thought-question",
+    "href": "chapters/01-introduction-slides.html#thought-question",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Thought Question",
+    "text": "Thought Question\n\nA nurse on the L&D floor is asked to assist with a second-trimester abortion for a patient whose fetus has a lethal anomaly. The procedure is legal; her own physician is performing it. The nurse declines on religious grounds and asks to be reassigned. Her hospital has a conscience clause — a policy permitting clinicians to opt out of specific procedures — and she has invoked it formally.\n\nIs what she is doing legal? Ethical? Religiously required? A personal preference?\nCould the answers come apart? In what scenario?\nNow imagine the same refusal at 3 a.m. at a small rural hospital with no other nurse on shift. Anything change?"
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#a-brief-origin-story",
+    "href": "chapters/01-introduction-slides.html#a-brief-origin-story",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "A Brief Origin Story",
+    "text": "A Brief Origin Story\nIn the wake of Tuskegee, a U.S. national commission produced the Belmont Report (1979) (National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research 1979). That same year, philosophers Tom Beauchamp and James Childress published Principles of Biomedical Ethics (Beauchamp and Childress 2019), proposing four principles meant to be:\n\nShared across ethical traditions\nSpecific enough to guide clinical decisions\nGeneral enough to apply to new technologies\n\nThe result is what’s often called principlism — and it remains the lingua franca of hospital ethics consults (Jonsen 1998)."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#autonomy",
+    "href": "chapters/01-introduction-slides.html#autonomy",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "1. Autonomy",
+    "text": "1. Autonomy\nAutonomy — self-rule. Respect the patient’s right to make informed decisions about her own body and care.\nIn practice, autonomy underwrites:\n\nInformed consent\nThe right to refuse treatment (even life-saving treatment)\nTruth-telling and honest disclosure\nConfidentiality\n\n\nThe Jehovah’s Witness case from the start of class is, at its core, an autonomy case. Hold that thought."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#beneficence",
+    "href": "chapters/01-introduction-slides.html#beneficence",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "2. Beneficence",
+    "text": "2. Beneficence\nBeneficence — do good. Act in the patient’s best interest; promote welfare.\nThis sounds obvious until you ask: whose account of the patient’s good?\n\nThe clinician’s professional judgment?\nThe patient’s own values?\nThe family’s hopes?\n\nBeneficence and autonomy can pull in opposite directions."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#non-maleficence",
+    "href": "chapters/01-introduction-slides.html#non-maleficence",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "3. Non-Maleficence",
+    "text": "3. Non-Maleficence\nNon-maleficence — first, do no harm (primum non nocere).\n\n\nThe oldest principle in Western medicine, traceable to the Hippocratic tradition (5th c. BCE). It does not mean “never do anything risky.” It means: weigh the harms, and don’t expose patients to harm without proportionate benefit.\nEvery chemotherapy regimen, every surgery, every medication is a deliberate small harm in service of a larger good.\n\n\n\nHippocrates, engraving by Peter Paul Rubens. Public domain (Wikimedia Commons)."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#justice",
+    "href": "chapters/01-introduction-slides.html#justice",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "4. Justice",
+    "text": "4. Justice\nJustice — fair distribution of benefits and burdens.\nIn bioethics, justice shows up in three main forms:\n\nDistributive justice — who gets the kidney, the ICU bed, the new drug?\nProcedural justice — was the process fair, even if the outcome is hard?\nSocial justice — are we honest about the historical and structural causes of health disparities?\n\n\nWe’ll spend an entire lecture (L8) on justice. For now, just plant the flag: bioethics is not only about individual encounters."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#the-four-together",
+    "href": "chapters/01-introduction-slides.html#the-four-together",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "The Four Together",
+    "text": "The Four Together\n\n\n\n\n\nflowchart LR\n  A[Autonomy&lt;br/&gt;respect choices] --- B[Beneficence&lt;br/&gt;do good]\n  B --- N[Non-maleficence&lt;br/&gt;do no harm]\n  N --- J[Justice&lt;br/&gt;treat fairly]\n  J --- A\n  style A fill:#cfe9ec,stroke:#0e7c86,stroke-width:2px\n  style B fill:#fce9d6,stroke:#b07d1a,stroke-width:2px\n  style N fill:#fad7d2,stroke:#c0392b,stroke-width:2px\n  style J fill:#dfe6ee,stroke:#0f172a,stroke-width:2px\n\n\n\n\n\n\nA framework, not an algorithm. The principles tell you what to weigh — not, by themselves, how to weigh it."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#when-principles-conflict",
+    "href": "chapters/01-introduction-slides.html#when-principles-conflict",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "When Principles Conflict",
+    "text": "When Principles Conflict\nMost interesting bioethics cases are conflicts between principles, not conflicts between good and evil.\n\nAutonomy vs. Beneficence — the Jehovah’s Witness refusing transfusion\nBeneficence vs. Non-Maleficence — risky surgery with a small chance of cure\nAutonomy vs. Justice — vaccine refusal during a pandemic\nBeneficence vs. Justice — spending heroic resources on one patient when others wait\n\nThe four principles do not resolve these tensions. They make them visible so we can argue about them carefully."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#thought-question-1",
+    "href": "chapters/01-introduction-slides.html#thought-question-1",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Thought Question",
+    "text": "Thought Question\n\nReturn to our trauma-bay patient — full capacity, signed refusal, parents at the door. Now you have vocabulary for what was hard.\n\nWhich principles point toward transfusing her? Which point away?\nWhich counts as the “harm” — letting her die, or doing something to her body she has explicitly refused?\nWhich principle would you weight most heavily, and why?\nWhat single fact, if changed, would change your answer?"
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#what-is-an-argument",
+    "href": "chapters/01-introduction-slides.html#what-is-an-argument",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "What Is an Argument?",
+    "text": "What Is an Argument?\nAn argument, in philosophy, is not a quarrel. It is a structured piece of reasoning:\n\nOne or more premises (claims offered as support)\nA conclusion (the claim the premises are meant to support)\n\nThe job of the careful reader: find the conclusion first, then the premises, then ask whether the premises are true and whether they actually support the conclusion."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#worked-example",
+    "href": "chapters/01-introduction-slides.html#worked-example",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Worked Example",
+    "text": "Worked Example\nA short argument you might hear on the floor:\n\n“We have to transfuse her — she’ll die otherwise, and our job is to save lives.”\n\n\n\n\n\n\n\n\nargument\n\n\nP1\n\nPremise 1\nWithout a transfusion,\nthe patient will die.\n\n\n\nC\n\n∴  Conclusion\nWe should transfuse her.\n\n\n\nP1-&gt;C\n\n\n\n\n\nP2\n\nPremise 2\nOur job is\nto save lives.\n\n\n\nP2-&gt;C"
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#hidden-assumptions",
+    "href": "chapters/01-introduction-slides.html#hidden-assumptions",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Hidden Assumptions",
+    "text": "Hidden Assumptions\nSounds airtight — until you notice what’s missing. That argument quietly assumes:\n\n“Saving lives” always outweighs the patient’s other wishes.\nThe patient’s refusal can be set aside because it’s “irrational.”\nA nurse’s professional duty is identical to “extending biological life.”\n\nEach of those is contestable. Surfacing hidden assumptions is half the work of bioethics."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#a-few-common-fallacies",
+    "href": "chapters/01-introduction-slides.html#a-few-common-fallacies",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "A Few Common Fallacies",
+    "text": "A Few Common Fallacies\n\n\n\n\n\n\n\nFallacy\nWhat it does\n\n\n\n\nAppeal to nature\n“It’s natural, so it’s good” — or “unnatural, so bad”\n\n\nSlippery slope\n“If we allow X, eventually Y horrible thing will follow” — without showing the slide\n\n\nAd hominem\nAttacking the person rather than the argument\n\n\nNaturalistic fallacy\nInferring ought directly from is\n\n\nFalse dichotomy\n“Either X or Y” — when other options exist"
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#practice-spot-the-fallacy",
+    "href": "chapters/01-introduction-slides.html#practice-spot-the-fallacy",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Practice — Spot the Fallacy",
+    "text": "Practice — Spot the Fallacy\n\nIdentify the fallacy in each:\n\n“Gene editing is wrong — it’s playing God.”\n“If we let doctors help patients die, we’ll end up euthanizing the disabled.”\n“You can’t trust her opinion on vaccines — she’s not even a real scientist.”\n“Either we ration care by ability to pay, or the system collapses.”\n\n\n\nAnswers (in order): appeal to nature, slippery slope, ad hominem, false dichotomy."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#wrapping-up-part-a",
+    "href": "chapters/01-introduction-slides.html#wrapping-up-part-a",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Wrapping Up Part A",
+    "text": "Wrapping Up Part A\n\nBioethics is the systematic study of moral questions in medicine, research, and policy. It is not the same as law, religion, or personal preference. The four principles — autonomy, beneficence, non-maleficence, justice — give us a shared vocabulary for the conflicts we’ll see all semester. And every claim in this course will be evaluated as an argument: premises, conclusion, hidden assumptions, possible fallacies.\nIn Part B, we ask the next question: where do these principles come from? We meet the major ethical theories — utilitarian, Kantian, virtue, and care — that ground and sometimes contest the four principles."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#autonomy-in-practice",
+    "href": "chapters/01-introduction.html#autonomy-in-practice",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "4.3 Autonomy in Practice",
+    "text": "4.3 Autonomy in Practice\n\nAutonomy self-rule\n\n\nThe case. A 28-year-old with type-1 diabetes (A1c 11.2) declines an insulin pump for the third time. She is tired of being told what to do.\nWhat respecting autonomy looks like here:\n\nMake sure she understands the risks — disclosure\nAssess decision-making capacity (she has it)\nDocument clearly; continue to offer support without coercion\n\nAutonomy is the floor. It does not require us to abandon her — only not to override her."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#beneficence-in-practice",
+    "href": "chapters/01-introduction.html#beneficence-in-practice",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "4.5 Beneficence in Practice",
+    "text": "4.5 Beneficence in Practice\n\nBeneficence do good\n\n\nThe case. An 82-year-old with end-stage heart failure, fifth admission this year. The team recommends comfort-focused care; he wants “everything done.” His daughter asks the team to “talk him out of it.”\nWhose idea of his good?\n\nThe team’s clinical judgment about prognosis?\nHis own stated wishes, formed over a long life?\nHis daughter’s fear of losing him?\n\nBeneficence is not the same as paternalism. It is the discipline of finding out what this person counts as a life worth living — and acting in service of that."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#non-maleficence-in-practice",
+    "href": "chapters/01-introduction.html#non-maleficence-in-practice",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "4.7 Non-Maleficence in Practice",
+    "text": "4.7 Non-Maleficence in Practice\n\nNon-Maleficence do no harm\n\n\nThe case. A new chemotherapy regimen offers a 30% chance of remission and a 5% chance of fatal cardiotoxicity. Standard care offers neither.\nThe principle does not say “never harm.” It asks:\n\nIs the expected harm proportionate to the expected benefit?\nDoes the patient understand both sides clearly enough to choose?\n\nEvery IV start is a small puncture wound. Every medication has side effects. The principle’s job is to forbid hidden, gratuitous, or disproportionate risk — not all risk."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#justice-in-practice",
+    "href": "chapters/01-introduction.html#justice-in-practice",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "4.9 Justice in Practice",
+    "text": "4.9 Justice in Practice\n\nJustice treat fairly\n\n\nThe case. Two 55-year-olds arrive in the ED with chest pain and no obvious red flags. One is on Medicaid; the other has private insurance. Decades of research show that, on average, they will not get the same workup.\nJustice at the bedside is rarely a kidney allocation decision. It looks like:\n\nAre we ordering tests for clinical reasons — or for who the patient appears to be?\nAre our floors and ICUs staffed and supplied equitably?\nWhere do we, as nurses, push back against disparate care?\n\nJustice asks us to look up from the individual patient and notice the pattern."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#what-is-a-fallacy",
+    "href": "chapters/01-introduction.html#what-is-a-fallacy",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "5.4 What Is a Fallacy?",
+    "text": "5.4 What Is a Fallacy?\nA fallacy is an error in reasoning — an argument that looks like good support but isn’t.\n\nNot the same as a lie. The speaker may sincerely believe it.\nA fallacious argument can still have a true conclusion — the defect is in the structure, not the conclusion.\nMost bioethics fallacies are informal: the form looks fine, but the content misleads through irrelevance, ambiguity, or hidden assumption.\n\nThe next two slides cover the six you will see most often."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#common-fallacies-in-bioethics",
+    "href": "chapters/01-introduction.html#common-fallacies-in-bioethics",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "5.5 Common Fallacies in Bioethics",
+    "text": "5.5 Common Fallacies in Bioethics\n\n\nAppeal to Nature Inferring that something is good (or bad) merely because it is natural (or unnatural). “IVF lets older women conceive — but it’s unnatural, so it must be wrong.”\n\n\nSlippery Slope Predicting that allowing X will inevitably lead to a much worse Y, without showing how the slide actually happens. “If we permit medical aid in dying for the terminally ill, we’ll end up euthanizing the disabled.”\n\n\nAd Hominem Attacking the person making the argument rather than the argument itself. “You can’t take Peter Singer seriously on animal ethics — he holds a lot of unpopular views.”\n\n\nNaturalistic Fallacy Inferring an ought directly from an is — that what happens in nature shows what should happen morally. “Humans evolved as omnivores, therefore eating meat is morally permissible.”\n\n\nFalse Dichotomy Framing a complex issue as if there were only two options, when others exist. “Either we let the market ration health care, or the system will collapse.”\n\n\nAppeal to Authority Treating the testimony of an authority as decisive even when they are speaking outside their expertise — or when other experts disagree. “My favorite podcaster says vaccines cause autism, and he has done a lot of research.”"
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#autonomy-in-practice",
+    "href": "chapters/01-introduction-slides.html#autonomy-in-practice",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Autonomy in Practice",
+    "text": "Autonomy in Practice\n\nAutonomy self-rule\n\n\nThe case. A 28-year-old with type-1 diabetes (A1c 11.2) declines an insulin pump for the third time. She is tired of being told what to do.\nWhat respecting autonomy looks like here:\n\nMake sure she understands the risks — disclosure\nAssess decision-making capacity (she has it)\nDocument clearly; continue to offer support without coercion\n\nAutonomy is the floor. It does not require us to abandon her — only not to override her."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#beneficence-in-practice",
+    "href": "chapters/01-introduction-slides.html#beneficence-in-practice",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Beneficence in Practice",
+    "text": "Beneficence in Practice\n\nBeneficence do good\n\n\nThe case. An 82-year-old with end-stage heart failure, fifth admission this year. The team recommends comfort-focused care; he wants “everything done.” His daughter asks the team to “talk him out of it.”\nWhose idea of his good?\n\nThe team’s clinical judgment about prognosis?\nHis own stated wishes, formed over a long life?\nHis daughter’s fear of losing him?\n\nBeneficence is not the same as paternalism. It is the discipline of finding out what this person counts as a life worth living — and acting in service of that."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#non-maleficence-in-practice",
+    "href": "chapters/01-introduction-slides.html#non-maleficence-in-practice",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Non-Maleficence in Practice",
+    "text": "Non-Maleficence in Practice\n\nNon-Maleficence do no harm\n\n\nThe case. A new chemotherapy regimen offers a 30% chance of remission and a 5% chance of fatal cardiotoxicity. Standard care offers neither.\nThe principle does not say “never harm.” It asks:\n\nIs the expected harm proportionate to the expected benefit?\nDoes the patient understand both sides clearly enough to choose?\n\nEvery IV start is a small puncture wound. Every medication has side effects. The principle’s job is to forbid hidden, gratuitous, or disproportionate risk — not all risk."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#justice-in-practice",
+    "href": "chapters/01-introduction-slides.html#justice-in-practice",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Justice in Practice",
+    "text": "Justice in Practice\n\nJustice treat fairly\n\n\nThe case. Two 55-year-olds arrive in the ED with chest pain and no obvious red flags. One is on Medicaid; the other has private insurance. Decades of research show that, on average, they will not get the same workup.\nJustice at the bedside is rarely a kidney allocation decision. It looks like:\n\nAre we ordering tests for clinical reasons — or for who the patient appears to be?\nAre our floors and ICUs staffed and supplied equitably?\nWhere do we, as nurses, push back against disparate care?\n\nJustice asks us to look up from the individual patient and notice the pattern."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#what-is-a-fallacy",
+    "href": "chapters/01-introduction-slides.html#what-is-a-fallacy",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "What Is a Fallacy?",
+    "text": "What Is a Fallacy?\nA fallacy is an error in reasoning — an argument that looks like good support but isn’t.\n\nNot the same as a lie. The speaker may sincerely believe it.\nA fallacious argument can still have a true conclusion — the defect is in the structure, not the conclusion.\nMost bioethics fallacies are informal: the form looks fine, but the content misleads through irrelevance, ambiguity, or hidden assumption.\n\nThe next two slides cover the six you will see most often."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#common-fallacies-in-bioethics",
+    "href": "chapters/01-introduction-slides.html#common-fallacies-in-bioethics",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Common Fallacies in Bioethics",
+    "text": "Common Fallacies in Bioethics\n\n\nAppeal to Nature Inferring that something is good (or bad) merely because it is natural (or unnatural). “IVF lets older women conceive — but it’s unnatural, so it must be wrong.”\n\n\nSlippery Slope Predicting that allowing X will inevitably lead to a much worse Y, without showing how the slide actually happens. “If we permit medical aid in dying for the terminally ill, we’ll end up euthanizing the disabled.”\n\n\nAd Hominem Attacking the person making the argument rather than the argument itself. “You can’t take Peter Singer seriously on animal ethics — he holds a lot of unpopular views.”\n\n\nNaturalistic Fallacy Inferring an ought directly from an is — that what happens in nature shows what should happen morally. “Humans evolved as omnivores, therefore eating meat is morally permissible.”\n\n\nFalse Dichotomy Framing a complex issue as if there were only two options, when others exist. “Either we let the market ration health care, or the system will collapse.”\n\n\nAppeal to Authority Treating the testimony of an authority as decisive even when they are speaking outside their expertise — or when other experts disagree. “My favorite podcaster says vaccines cause autism, and he has done a lot of research.”"
+  },
+  {
+    "objectID": "chapters/01-introduction.html#common-fallacies-in-bioethics-12",
+    "href": "chapters/01-introduction.html#common-fallacies-in-bioethics-12",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "5.5 Common Fallacies in Bioethics (1/2)",
+    "text": "5.5 Common Fallacies in Bioethics (1/2)\n\n\nAppeal to Nature Inferring that something is good (or bad) merely because it is natural (or unnatural). “IVF lets older women conceive — but it’s unnatural, so it must be wrong.”\n\n\nSlippery Slope Predicting that allowing X will inevitably lead to a much worse Y, without showing how the slide actually happens. “If we permit medical aid in dying for the terminally ill, we’ll end up euthanizing the disabled.”\n\n\nAd Hominem Attacking the person making the argument rather than the argument itself. “You can’t take Peter Singer seriously on animal ethics — he holds a lot of unpopular views.”"
+  },
+  {
+    "objectID": "chapters/01-introduction.html#common-fallacies-in-bioethics-22",
+    "href": "chapters/01-introduction.html#common-fallacies-in-bioethics-22",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "5.6 Common Fallacies in Bioethics (2/2)",
+    "text": "5.6 Common Fallacies in Bioethics (2/2)\n\n\nNaturalistic Fallacy Inferring an ought directly from an is — that what happens in nature shows what should happen morally. “Humans evolved as omnivores, therefore eating meat is morally permissible.”\n\n\nFalse Dichotomy Framing a complex issue as if there were only two options, when others exist. “Either we let the market ration health care, or the system will collapse.”\n\n\nAppeal to Authority Treating the testimony of an authority as decisive even when they speak outside their expertise — or when other experts disagree. “My favorite podcaster says vaccines cause autism, and he has done a lot of research.”"
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#common-fallacies-in-bioethics-12",
+    "href": "chapters/01-introduction-slides.html#common-fallacies-in-bioethics-12",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Common Fallacies in Bioethics (1/2)",
+    "text": "Common Fallacies in Bioethics (1/2)\n\n\nAppeal to Nature Inferring that something is good (or bad) merely because it is natural (or unnatural). “IVF lets older women conceive — but it’s unnatural, so it must be wrong.”\n\n\nSlippery Slope Predicting that allowing X will inevitably lead to a much worse Y, without showing how the slide actually happens. “If we permit medical aid in dying for the terminally ill, we’ll end up euthanizing the disabled.”\n\n\nAd Hominem Attacking the person making the argument rather than the argument itself. “You can’t take Peter Singer seriously on animal ethics — he holds a lot of unpopular views.”"
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#common-fallacies-in-bioethics-22",
+    "href": "chapters/01-introduction-slides.html#common-fallacies-in-bioethics-22",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Common Fallacies in Bioethics (2/2)",
+    "text": "Common Fallacies in Bioethics (2/2)\n\n\nNaturalistic Fallacy Inferring an ought directly from an is — that what happens in nature shows what should happen morally. “Humans evolved as omnivores, therefore eating meat is morally permissible.”\n\n\nFalse Dichotomy Framing a complex issue as if there were only two options, when others exist. “Either we let the market ration health care, or the system will collapse.”\n\n\nAppeal to Authority Treating the testimony of an authority as decisive even when they speak outside their expertise — or when other experts disagree. “My favorite podcaster says vaccines cause autism, and he has done a lot of research.”"
+  },
+  {
+    "objectID": "chapters/01-introduction.html#after-youve-discussed",
+    "href": "chapters/01-introduction.html#after-youve-discussed",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "",
+    "text": "Note\n\n\n\nThe legal frame. U.S. courts have, in nearly every case involving a competent adult, upheld the patient’s right to refuse blood — even when refusal is fatal. The harder cases involve minors, pregnancy, and unclear capacity. We will come back to all three later in the course.\n\n\n\nLet students sit with this. We’ll come back to it after we have vocabulary. The whole rest of the lecture is, in a sense, equipping us to answer this question more carefully than “follow your gut.”"
+  },
+  {
+    "objectID": "chapters/01-introduction.html#after-youve-discussed-1",
+    "href": "chapters/01-introduction.html#after-youve-discussed-1",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "3.6 After You’ve Discussed",
+    "text": "3.6 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nWhere the duty actually lands. Most U.S. conscience-clause laws place the duty to still care for the patient on the institution, not on the individual clinician. That shifts the question from “can she refuse?” to “what does the institution owe the patient when she does?”"
+  },
+  {
+    "objectID": "chapters/01-introduction.html#after-youve-discussed-2",
+    "href": "chapters/01-introduction.html#after-youve-discussed-2",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "4.13 After You’ve Discussed",
+    "text": "4.13 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nHow the principles typically map.\n\nThe case is often framed as Beneficence and Non-Maleficence pulling toward transfusion, Autonomy pulling against.\nBut notice the twist: respecting her refusal may itself be the most beneficent act, and transfusing a competent patient against her will is itself a form of harm.\nThe principles do not decide the case. They give us shared language to argue about it."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#after-youve-discussed",
+    "href": "chapters/01-introduction-slides.html#after-youve-discussed",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nThe legal frame. U.S. courts have, in nearly every case involving a competent adult, upheld the patient’s right to refuse blood — even when refusal is fatal. The harder cases involve minors, pregnancy, and unclear capacity. We will come back to all three later in the course.\n\n\n\n\nLet students sit with this. We’ll come back to it after we have vocabulary. The whole rest of the lecture is, in a sense, equipping us to answer this question more carefully than “follow your gut.”"
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#after-youve-discussed-1",
+    "href": "chapters/01-introduction-slides.html#after-youve-discussed-1",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nWhere the duty actually lands. Most U.S. conscience-clause laws place the duty to still care for the patient on the institution, not on the individual clinician. That shifts the question from “can she refuse?” to “what does the institution owe the patient when she does?”"
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#after-youve-discussed-2",
+    "href": "chapters/01-introduction-slides.html#after-youve-discussed-2",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nHow the principles typically map.\n\nThe case is often framed as Beneficence and Non-Maleficence pulling toward transfusion, Autonomy pulling against.\nBut notice the twist: respecting her refusal may itself be the most beneficent act, and transfusing a competent patient against her will is itself a form of harm.\nThe principles do not decide the case. They give us shared language to argue about it."
+  },
+  {
+    "objectID": "chapters/01b-theories.html",
+    "href": "chapters/01b-theories.html",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "",
+    "text": "In Part A we asked: what are the four principles, and how do you read a moral argument?\nPart B asks the next question:\n\nWhere do the principles come from — and how do we weigh them when they conflict?\n\nThat is where ethical theory comes in.\n\nBy the end of Part B, you will be able to:\n\nState the core commitment of utilitarianism, Kantian ethics, virtue ethics, and care ethics\nExplain how each theory grounds or prioritizes the four principles differently\nApply at least two theories to the same clinical case and show they yield different answers"
+  },
+  {
+    "objectID": "chapters/01b-theories.html#bridge-from-part-a",
+    "href": "chapters/01b-theories.html#bridge-from-part-a",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "",
+    "text": "In Part A we asked: what are the four principles, and how do you read a moral argument?\nPart B asks the next question:\n\nWhere do the principles come from — and how do we weigh them when they conflict?\n\nThat is where ethical theory comes in.\n\nBy the end of Part B, you will be able to:\n\nState the core commitment of utilitarianism, Kantian ethics, virtue ethics, and care ethics\nExplain how each theory grounds or prioritizes the four principles differently\nApply at least two theories to the same clinical case and show they yield different answers"
+  },
+  {
+    "objectID": "chapters/01b-theories.html#what-theories-do",
+    "href": "chapters/01b-theories.html#what-theories-do",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "1.1 What Theories Do",
+    "text": "1.1 What Theories Do\nThe four principles — autonomy, beneficence, non-maleficence, justice — give us a shared vocabulary. But they do not, by themselves, tell us which principle to prioritize when they conflict (Beauchamp and Childress 2019).\nEthical theories fill that gap. Think of them as lenses:\n\nEach focuses on something real\nEach has blind spots\nNo single lens sees everything\n\nWe will use all four throughout the course — not to pick a winner, but to see more of the problem."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#a-roadmap",
+    "href": "chapters/01b-theories.html#a-roadmap",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "1.2 A Roadmap",
+    "text": "1.2 A Roadmap\n\n\n\n\n\n\n\n\nTheory\nCore question\nKey figure\n\n\n\n\nUtilitarianism\nWhat produces the best outcomes?\nMill, Bentham\n\n\nKantian ethics\nWhat are my duties, regardless of outcome?\nKant\n\n\nVirtue ethics\nWhat would a person of good character do?\nAristotle\n\n\nCare ethics\nWhat do my relationships and context require?\nGilligan, Held\n\n\n\n\nRemind students: these will appear in almost every subsequent lecture. Abortion, end of life, justice — each one sees these theories pulling differently."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#mill-and-bentham",
+    "href": "chapters/01b-theories.html#mill-and-bentham",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "2.1 Mill and Bentham",
+    "text": "2.1 Mill and Bentham\n\n\n\n\nJ. S. Mill, c. 1870. London Stereoscopic Co. Public domain.\n\n\n\n\nJeremy Bentham, by H. W. Pickersgill. Public domain.\n\n\n\n\n“Actions are right in proportion as they tend to promote happiness; wrong as they tend to produce the reverse of happiness.” — Mill (Mill 1863)"
+  },
+  {
+    "objectID": "chapters/01b-theories.html#the-greatest-happiness-principle",
+    "href": "chapters/01b-theories.html#the-greatest-happiness-principle",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "2.2 The Greatest Happiness Principle",
+    "text": "2.2 The Greatest Happiness Principle\nUtilitarianism judges actions entirely by their consequences:\n\nWhat matters is welfare — happiness, well-being, the absence of suffering\nAll individuals count equally; no one gets extra weight\nThe morally required action is the one that maximizes total welfare\n\nBentham called this the hedonic calculus — weigh the pleasures and pains produced, add them up, choose the highest score (Bentham 1789)."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#utilitarianism-and-the-four-principles",
+    "href": "chapters/01b-theories.html#utilitarianism-and-the-four-principles",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "2.3 Utilitarianism and the Four Principles",
+    "text": "2.3 Utilitarianism and the Four Principles\nBeneficence is central — acting to maximize welfare just is acting beneficently.\nJustice emerges from impartiality: each person counts as one, so unfair distributions that reduce total welfare are wrong.\nAutonomy is valued instrumentally — respecting autonomy usually maximizes welfare — but can be overridden when it doesn’t.\nNon-Maleficence is captured under the harm side of the ledger.\n\n\n\n\n\n\nNote\n\n\n\nThe tension. A strict utilitarian could justify deceiving a patient if the deception produces better outcomes. Most clinicians resist this — which is why other theories matter."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#thought-question",
+    "href": "chapters/01b-theories.html#thought-question",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "2.5 Thought Question",
+    "text": "2.5 Thought Question\n\nA city has 10 ventilators and 15 patients who need one to survive. Five of the fifteen have a much higher probability of surviving with ventilator support.\nA utilitarian protocol would allocate ventilators to maximize lives saved — which likely means the five highest-probability patients get priority.\n\nIs that fair to the other ten patients?\nDoes it matter why some patients have lower survival odds — age, disability, underlying illness?\nWhat would the principle of justice say that utilitarianism might miss?"
+  },
+  {
+    "objectID": "chapters/01b-theories.html#after-youve-discussed",
+    "href": "chapters/01b-theories.html#after-youve-discussed",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "2.6 After You’ve Discussed",
+    "text": "2.6 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nThe utilitarian reply. A sophisticated utilitarian can say: the protocol maximizes welfare across the group, which is what justice requires. The critique is that it treats some lives as worth less, and that the reasons behind lower survival odds (disability, chronic illness) are often tied to existing inequities. We will return to this in L9 (Public Health Ethics) and L8 (Justice)."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#kant",
+    "href": "chapters/01b-theories.html#kant",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "3.1 Kant",
+    "text": "3.1 Kant\n\n\n\n\nImmanuel Kant, painted portrait. Public domain (Wikimedia Commons).\n\n\nImmanuel Kant (1724–1804) argued that morality is grounded in reason, not consequences.\nThe key test is his Categorical Imperative — a rule for whether an action is morally permissible, applied before you look at outcomes."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#the-humanity-formulation",
+    "href": "chapters/01b-theories.html#the-humanity-formulation",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "3.2 The Humanity Formulation",
+    "text": "3.2 The Humanity Formulation\nThe most clinically relevant form of the Categorical Imperative (Kant 1785):\n\n“Act so that you treat humanity, whether in your own person or in that of another, always as an end and never as a means only.”\n\nIn practice, this means:\n\nPersons have dignity — an unconditional worth that cannot be traded off\nDeceiving, manipulating, or coercing a patient uses them as a mere means\nInformed consent is not just policy — it is a moral requirement"
+  },
+  {
+    "objectID": "chapters/01b-theories.html#kantian-ethics-and-the-four-principles",
+    "href": "chapters/01b-theories.html#kantian-ethics-and-the-four-principles",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "3.3 Kantian Ethics and the Four Principles",
+    "text": "3.3 Kantian Ethics and the Four Principles\nAutonomy is Kant’s central principle — respecting autonomy is what it means to treat persons as ends.\nNon-Maleficence reflects the duty not to harm persons who have inherent dignity.\nBeneficence is a genuine duty, but cannot override autonomy — benefiting someone by deceiving them is still wrong.\nJustice flows from treating persons equally as ends — no one’s dignity is worth more than another’s.\n\n\n\n\n\n\nNote\n\n\n\nContrast with utilitarianism. Kant would say: you must never lie to the Jehovah’s Witness patient about her prognosis to get her to consent, even if lying would save her life."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#thought-question-1",
+    "href": "chapters/01b-theories.html#thought-question-1",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "3.5 Thought Question",
+    "text": "3.5 Thought Question\n\nA patient with severe depression has been refusing an antidepressant. His psychiatrist suspects the refusal is itself a symptom of the illness — that his depression is preventing him from appreciating how treatment could help him.\n\nDoes the Kantian view help here — or complicate it?\nWhen, if ever, does treating the illness require overriding the patient’s expressed wishes?\nHow is this different from the Jehovah’s Witness case?"
+  },
+  {
+    "objectID": "chapters/01b-theories.html#after-youve-discussed-1",
+    "href": "chapters/01b-theories.html#after-youve-discussed-1",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "3.6 After You’ve Discussed",
+    "text": "3.6 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nThe Kantian tension. Kant’s framework requires that the patient be capable of rational self-governance for autonomy to apply fully. If the illness itself impairs that capacity, overriding expressed wishes may be consistent with treating him as an end — but this reasoning can also be abused to justify paternalism. Decision-making capacity assessment (L2) is how clinical ethics tries to hold this line carefully."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#aristotle-and-eudaimonia",
+    "href": "chapters/01b-theories.html#aristotle-and-eudaimonia",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "4.1 Aristotle and Eudaimonia",
+    "text": "4.1 Aristotle and Eudaimonia\n\n\n\n\nAristotle (copy of Lysippos bust). Palazzo Altemps. Public domain.\n\n\nAristotle asked not “what should I do?” but “what kind of person should I be?” (Aristotle 340 BC)\nEudaimonia — often translated flourishing — is the goal of human life: living and acting in accordance with the virtues of a fully developed human being.\nA virtue is a stable character trait — developed through practice — that reliably disposes a person to act and feel well."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#the-virtues-of-the-good-nurse",
+    "href": "chapters/01b-theories.html#the-virtues-of-the-good-nurse",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "4.2 The Virtues of the Good Nurse",
+    "text": "4.2 The Virtues of the Good Nurse\nVirtue ethics is especially useful in professional ethics, because professions define role-specific excellences.\nThe ANA Code of Ethics (American Nurses Association 2015) describes the good nurse as someone who embodies:\n\nCompassion — genuine concern for the patient’s suffering\nIntegrity — consistency between values and actions, even under pressure\nFidelity — keeping commitments made to patients and profession\nPractical wisdom (phronesis) — knowing how to apply general principles to particular situations\n\nThese are not policies. They are traits you develop by practicing them."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#virtue-ethics-and-the-four-principles",
+    "href": "chapters/01b-theories.html#virtue-ethics-and-the-four-principles",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "4.3 Virtue Ethics and the Four Principles",
+    "text": "4.3 Virtue Ethics and the Four Principles\nVirtue ethics asks: what would a person of good character do in this situation?\nBeneficence — the virtuous clinician genuinely cares about the patient’s good, not just follows protocols.\nNon-Maleficence — integrity means honesty about what you can and cannot do.\nAutonomy — respect for persons flows from compassion and fidelity, not just rules.\nJustice — fairness requires the virtue of impartiality even toward patients you find difficult."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#gilligan-and-the-ethics-of-care",
+    "href": "chapters/01b-theories.html#gilligan-and-the-ethics-of-care",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "5.1 Gilligan and the Ethics of Care",
+    "text": "5.1 Gilligan and the Ethics of Care\nCarol Gilligan (Gilligan 1982) argued that dominant moral theories — utilitarian and Kantian — were built around abstract rules applied to strangers. They missed what actually structures most moral life: relationships, dependency, and the responsibility that comes with them.\n\n“The moral problem arises from conflicting responsibilities rather than competing rights and requires for its resolution a mode of thinking that is contextual and narrative rather than formal and abstract.” — Gilligan, In a Different Voice (1982)"
+  },
+  {
+    "objectID": "chapters/01b-theories.html#relationships-context-vulnerability",
+    "href": "chapters/01b-theories.html#relationships-context-vulnerability",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "5.2 Relationships, Context, Vulnerability",
+    "text": "5.2 Relationships, Context, Vulnerability\nCare ethics, developed by Gilligan and later Virginia Held (Held 2006), asks:\n\nWho is this patient, in this situation, with this set of relationships?\nWhat do I owe them given the relationship I have with them?\nWhose needs are being made invisible by abstract rule-following?\n\nIn nursing practice, care ethics is not a soft add-on. It describes what nurses already know: the moral weight of the bedside relationship cannot be reduced to a checklist."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#care-ethics-and-the-four-principles",
+    "href": "chapters/01b-theories.html#care-ethics-and-the-four-principles",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "5.3 Care Ethics and the Four Principles",
+    "text": "5.3 Care Ethics and the Four Principles\nAutonomy is reframed: rather than the isolated individual making a formal choice, it is the relational self — embedded in family, community, culture.\nBeneficence is particularized: it matters what this person needs, not what the average patient needs.\nNon-Maleficence includes attending to emotional harm and the harm of not being seen or heard.\nJustice requires attending to who is made vulnerable by social structures — and who gets left out of abstract policy."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#thought-question-2",
+    "href": "chapters/01b-theories.html#thought-question-2",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "5.5 Thought Question",
+    "text": "5.5 Thought Question\n\nA 78-year-old woman with mild cognitive impairment makes decisions that worry her adult children. She insists on living alone; she sometimes forgets meals; she declines the assisted living facility they have arranged.\n\nA utilitarian might look at her risk profile and long-term welfare. A Kantian might ask about her decision-making capacity. A virtue ethicist might ask what a caring daughter or a virtuous clinician would do.\nWhat does the care ethics lens add that the others miss?\nIs there anything it might obscure?"
+  },
+  {
+    "objectID": "chapters/01b-theories.html#after-youve-discussed-2",
+    "href": "chapters/01b-theories.html#after-youve-discussed-2",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "5.6 After You’ve Discussed",
+    "text": "5.6 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nWhat care ethics adds. It centers the relationship and the patient’s embeddedness in family and community — her story, not just her risk score. What it can obscure: the caring family can also be a controlling one; care ethics needs to ask whether the relationships are themselves just. This is one reason the four principles framework is used alongside the theories rather than replaced by any single one."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#the-theories-as-lenses",
+    "href": "chapters/01b-theories.html#the-theories-as-lenses",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "6.1 The Theories as Lenses",
+    "text": "6.1 The Theories as Lenses\n\n\n\n\n\n\n\n\nTheory\nFoundational commitment\nRole of the four principles\n\n\n\n\nUtilitarianism\nMaximize welfare\nPrinciples are derived — follow them because doing so usually produces the best outcomes\n\n\nKantian ethics\nRespect persons as ends\nPrinciples are duties grounded in rational dignity — especially autonomy\n\n\nVirtue ethics\nCultivate good character\nPrinciples are expressions of virtue — practical wisdom tells you how to apply them\n\n\nCare ethics\nHonor relationships\nPrinciples are contextualized by relationship and dependency — not applied abstractly"
+  },
+  {
+    "objectID": "chapters/01b-theories.html#which-theory-is-right",
+    "href": "chapters/01b-theories.html#which-theory-is-right",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "6.2 Which Theory Is Right?",
+    "text": "6.2 Which Theory Is Right?\nProbably none of them — completely. Each illuminates something the others miss:\n\nUtilitarianism sees the population and the aggregate.\nKantian ethics sees the dignity of the individual that cannot be traded away.\nVirtue ethics sees the character of the clinician and the quality of the relationship.\nCare ethics sees the context and dependency that abstract rules can erase.\n\nThe four principles work in part because they are theory-agnostic: a Kantian and a utilitarian can both endorse autonomy, beneficence, non-maleficence, and justice — they just disagree about why and how to weight them."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#wrapping-up-lecture-1",
+    "href": "chapters/01b-theories.html#wrapping-up-lecture-1",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "6.3 Wrapping Up Lecture 1",
+    "text": "6.3 Wrapping Up Lecture 1\n\nBioethics uses a four-principle framework as its shared vocabulary, supported by four major ethical theories that offer different answers to the question of how to weigh those principles. Utilitarianism focuses on outcomes and aggregate welfare. Kantian ethics focuses on duties and the dignity of persons. Virtue ethics focuses on character. Care ethics focuses on relationships and context. No single theory is correct; used as lenses, they let us see more of what is morally at stake in any clinical situation.\nLecture 2 turns to the history that gave these principles their urgency, and the clinical relationship where they are daily tested."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#references",
+    "href": "chapters/01b-theories.html#references",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "6.4 References",
+    "text": "6.4 References\n\n\nAmerican Nurses Association. 2015. Code of Ethics for Nurses with Interpretive Statements. American Nurses Association. https://www.nursingworld.org/coe-view-only.\n\n\nAristotle. 340 BC. Nicomachean Ethics.\n\n\nBeauchamp, Tom L., and James F. Childress. 2019. Principles of Biomedical Ethics. 8th ed. Oxford University Press.\n\n\nBentham, Jeremy. 1789. An Introduction to the Principles of Morals and Legislation. T. Payne; Son.\n\n\nGilligan, Carol. 1982. In a Different Voice: Psychological Theory and Women’s Development. Harvard University Press.\n\n\nHeld, Virginia. 2006. The Ethics of Care: Personal, Political, and Global. Oxford University Press.\n\n\nKant, Immanuel. 1785. Groundwork of the Metaphysics of Morals.\n\n\nMill, John Stuart. 1863. Utilitarianism. Parker, Son,; Bourn."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#bridge-from-part-a",
+    "href": "chapters/01b-theories-slides.html#bridge-from-part-a",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Bridge from Part A",
+    "text": "Bridge from Part A\nIn Part A we asked: what are the four principles, and how do you read a moral argument?\nPart B asks the next question:\n\nWhere do the principles come from — and how do we weigh them when they conflict?\n\nThat is where ethical theory comes in.\n\nBy the end of Part B, you will be able to:\n\nState the core commitment of utilitarianism, Kantian ethics, virtue ethics, and care ethics\nExplain how each theory grounds or prioritizes the four principles differently\nApply at least two theories to the same clinical case and show they yield different answers"
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#what-theories-do",
+    "href": "chapters/01b-theories-slides.html#what-theories-do",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "What Theories Do",
+    "text": "What Theories Do\nThe four principles — autonomy, beneficence, non-maleficence, justice — give us a shared vocabulary. But they do not, by themselves, tell us which principle to prioritize when they conflict (Beauchamp and Childress 2019).\nEthical theories fill that gap. Think of them as lenses:\n\nEach focuses on something real\nEach has blind spots\nNo single lens sees everything\n\nWe will use all four throughout the course — not to pick a winner, but to see more of the problem."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#a-roadmap",
+    "href": "chapters/01b-theories-slides.html#a-roadmap",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "A Roadmap",
+    "text": "A Roadmap\n\n\n\n\n\n\n\n\nTheory\nCore question\nKey figure\n\n\n\n\nUtilitarianism\nWhat produces the best outcomes?\nMill, Bentham\n\n\nKantian ethics\nWhat are my duties, regardless of outcome?\nKant\n\n\nVirtue ethics\nWhat would a person of good character do?\nAristotle\n\n\nCare ethics\nWhat do my relationships and context require?\nGilligan, Held\n\n\n\n\nRemind students: these will appear in almost every subsequent lecture. Abortion, end of life, justice — each one sees these theories pulling differently."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#mill-and-bentham",
+    "href": "chapters/01b-theories-slides.html#mill-and-bentham",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Mill and Bentham",
+    "text": "Mill and Bentham\n\n\n\n\nJ. S. Mill, c. 1870. London Stereoscopic Co. Public domain.\n\n\n\n\nJeremy Bentham, by H. W. Pickersgill. Public domain.\n\n\n\n“Actions are right in proportion as they tend to promote happiness; wrong as they tend to produce the reverse of happiness.” — Mill (Mill 1863)"
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#the-greatest-happiness-principle",
+    "href": "chapters/01b-theories-slides.html#the-greatest-happiness-principle",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "The Greatest Happiness Principle",
+    "text": "The Greatest Happiness Principle\nUtilitarianism judges actions entirely by their consequences:\n\nWhat matters is welfare — happiness, well-being, the absence of suffering\nAll individuals count equally; no one gets extra weight\nThe morally required action is the one that maximizes total welfare\n\nBentham called this the hedonic calculus — weigh the pleasures and pains produced, add them up, choose the highest score (Bentham 1789)."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#utilitarianism-and-the-four-principles",
+    "href": "chapters/01b-theories-slides.html#utilitarianism-and-the-four-principles",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Utilitarianism and the Four Principles",
+    "text": "Utilitarianism and the Four Principles\nBeneficence is central — acting to maximize welfare just is acting beneficently.\nJustice emerges from impartiality: each person counts as one, so unfair distributions that reduce total welfare are wrong.\nAutonomy is valued instrumentally — respecting autonomy usually maximizes welfare — but can be overridden when it doesn’t.\nNon-Maleficence is captured under the harm side of the ledger.\n\n\n\n\n\n\nNote\n\n\nThe tension. A strict utilitarian could justify deceiving a patient if the deception produces better outcomes. Most clinicians resist this — which is why other theories matter."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#thought-question",
+    "href": "chapters/01b-theories-slides.html#thought-question",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Thought Question",
+    "text": "Thought Question\n\nA city has 10 ventilators and 15 patients who need one to survive. Five of the fifteen have a much higher probability of surviving with ventilator support.\nA utilitarian protocol would allocate ventilators to maximize lives saved — which likely means the five highest-probability patients get priority.\n\nIs that fair to the other ten patients?\nDoes it matter why some patients have lower survival odds — age, disability, underlying illness?\nWhat would the principle of justice say that utilitarianism might miss?"
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#after-youve-discussed",
+    "href": "chapters/01b-theories-slides.html#after-youve-discussed",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nThe utilitarian reply. A sophisticated utilitarian can say: the protocol maximizes welfare across the group, which is what justice requires. The critique is that it treats some lives as worth less, and that the reasons behind lower survival odds (disability, chronic illness) are often tied to existing inequities. We will return to this in L9 (Public Health Ethics) and L8 (Justice)."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#kant",
+    "href": "chapters/01b-theories-slides.html#kant",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Kant",
+    "text": "Kant\n\n\n\n\nImmanuel Kant, painted portrait. Public domain (Wikimedia Commons).\n\n\nImmanuel Kant (1724–1804) argued that morality is grounded in reason, not consequences.\nThe key test is his Categorical Imperative — a rule for whether an action is morally permissible, applied before you look at outcomes."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#the-humanity-formulation",
+    "href": "chapters/01b-theories-slides.html#the-humanity-formulation",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "The Humanity Formulation",
+    "text": "The Humanity Formulation\nThe most clinically relevant form of the Categorical Imperative (Kant 1785):\n\n“Act so that you treat humanity, whether in your own person or in that of another, always as an end and never as a means only.”\n\nIn practice, this means:\n\nPersons have dignity — an unconditional worth that cannot be traded off\nDeceiving, manipulating, or coercing a patient uses them as a mere means\nInformed consent is not just policy — it is a moral requirement"
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#kantian-ethics-and-the-four-principles",
+    "href": "chapters/01b-theories-slides.html#kantian-ethics-and-the-four-principles",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Kantian Ethics and the Four Principles",
+    "text": "Kantian Ethics and the Four Principles\nAutonomy is Kant’s central principle — respecting autonomy is what it means to treat persons as ends.\nNon-Maleficence reflects the duty not to harm persons who have inherent dignity.\nBeneficence is a genuine duty, but cannot override autonomy — benefiting someone by deceiving them is still wrong.\nJustice flows from treating persons equally as ends — no one’s dignity is worth more than another’s.\n\n\n\n\n\n\nNote\n\n\nContrast with utilitarianism. Kant would say: you must never lie to the Jehovah’s Witness patient about her prognosis to get her to consent, even if lying would save her life."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#thought-question-1",
+    "href": "chapters/01b-theories-slides.html#thought-question-1",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Thought Question",
+    "text": "Thought Question\n\nA patient with severe depression has been refusing an antidepressant. His psychiatrist suspects the refusal is itself a symptom of the illness — that his depression is preventing him from appreciating how treatment could help him.\n\nDoes the Kantian view help here — or complicate it?\nWhen, if ever, does treating the illness require overriding the patient’s expressed wishes?\nHow is this different from the Jehovah’s Witness case?"
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#after-youve-discussed-1",
+    "href": "chapters/01b-theories-slides.html#after-youve-discussed-1",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nThe Kantian tension. Kant’s framework requires that the patient be capable of rational self-governance for autonomy to apply fully. If the illness itself impairs that capacity, overriding expressed wishes may be consistent with treating him as an end — but this reasoning can also be abused to justify paternalism. Decision-making capacity assessment (L2) is how clinical ethics tries to hold this line carefully."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#aristotle-and-eudaimonia",
+    "href": "chapters/01b-theories-slides.html#aristotle-and-eudaimonia",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Aristotle and Eudaimonia",
+    "text": "Aristotle and Eudaimonia\n\n\n\n\nAristotle (copy of Lysippos bust). Palazzo Altemps. Public domain.\n\n\nAristotle asked not “what should I do?” but “what kind of person should I be?” (Aristotle 340 BC)\nEudaimonia — often translated flourishing — is the goal of human life: living and acting in accordance with the virtues of a fully developed human being.\nA virtue is a stable character trait — developed through practice — that reliably disposes a person to act and feel well."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#the-virtues-of-the-good-nurse",
+    "href": "chapters/01b-theories-slides.html#the-virtues-of-the-good-nurse",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "The Virtues of the Good Nurse",
+    "text": "The Virtues of the Good Nurse\nVirtue ethics is especially useful in professional ethics, because professions define role-specific excellences.\nThe ANA Code of Ethics (American Nurses Association 2015) describes the good nurse as someone who embodies:\n\nCompassion — genuine concern for the patient’s suffering\nIntegrity — consistency between values and actions, even under pressure\nFidelity — keeping commitments made to patients and profession\nPractical wisdom (phronesis) — knowing how to apply general principles to particular situations\n\nThese are not policies. They are traits you develop by practicing them."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#virtue-ethics-and-the-four-principles",
+    "href": "chapters/01b-theories-slides.html#virtue-ethics-and-the-four-principles",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Virtue Ethics and the Four Principles",
+    "text": "Virtue Ethics and the Four Principles\nVirtue ethics asks: what would a person of good character do in this situation?\nBeneficence — the virtuous clinician genuinely cares about the patient’s good, not just follows protocols.\nNon-Maleficence — integrity means honesty about what you can and cannot do.\nAutonomy — respect for persons flows from compassion and fidelity, not just rules.\nJustice — fairness requires the virtue of impartiality even toward patients you find difficult."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#gilligan-and-the-ethics-of-care",
+    "href": "chapters/01b-theories-slides.html#gilligan-and-the-ethics-of-care",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Gilligan and the Ethics of Care",
+    "text": "Gilligan and the Ethics of Care\nCarol Gilligan (Gilligan 1982) argued that dominant moral theories — utilitarian and Kantian — were built around abstract rules applied to strangers. They missed what actually structures most moral life: relationships, dependency, and the responsibility that comes with them.\n\n“The moral problem arises from conflicting responsibilities rather than competing rights and requires for its resolution a mode of thinking that is contextual and narrative rather than formal and abstract.” — Gilligan, In a Different Voice (1982)"
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#relationships-context-vulnerability",
+    "href": "chapters/01b-theories-slides.html#relationships-context-vulnerability",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Relationships, Context, Vulnerability",
+    "text": "Relationships, Context, Vulnerability\nCare ethics, developed by Gilligan and later Virginia Held (Held 2006), asks:\n\nWho is this patient, in this situation, with this set of relationships?\nWhat do I owe them given the relationship I have with them?\nWhose needs are being made invisible by abstract rule-following?\n\nIn nursing practice, care ethics is not a soft add-on. It describes what nurses already know: the moral weight of the bedside relationship cannot be reduced to a checklist."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#care-ethics-and-the-four-principles",
+    "href": "chapters/01b-theories-slides.html#care-ethics-and-the-four-principles",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Care Ethics and the Four Principles",
+    "text": "Care Ethics and the Four Principles\nAutonomy is reframed: rather than the isolated individual making a formal choice, it is the relational self — embedded in family, community, culture.\nBeneficence is particularized: it matters what this person needs, not what the average patient needs.\nNon-Maleficence includes attending to emotional harm and the harm of not being seen or heard.\nJustice requires attending to who is made vulnerable by social structures — and who gets left out of abstract policy."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#thought-question-2",
+    "href": "chapters/01b-theories-slides.html#thought-question-2",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Thought Question",
+    "text": "Thought Question\n\nA 78-year-old woman with mild cognitive impairment makes decisions that worry her adult children. She insists on living alone; she sometimes forgets meals; she declines the assisted living facility they have arranged.\n\nA utilitarian might look at her risk profile and long-term welfare. A Kantian might ask about her decision-making capacity. A virtue ethicist might ask what a caring daughter or a virtuous clinician would do.\nWhat does the care ethics lens add that the others miss?\nIs there anything it might obscure?"
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#after-youve-discussed-2",
+    "href": "chapters/01b-theories-slides.html#after-youve-discussed-2",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nWhat care ethics adds. It centers the relationship and the patient’s embeddedness in family and community — her story, not just her risk score. What it can obscure: the caring family can also be a controlling one; care ethics needs to ask whether the relationships are themselves just. This is one reason the four principles framework is used alongside the theories rather than replaced by any single one."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#the-theories-as-lenses",
+    "href": "chapters/01b-theories-slides.html#the-theories-as-lenses",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "The Theories as Lenses",
+    "text": "The Theories as Lenses\n\n\n\n\n\n\n\n\nTheory\nFoundational commitment\nRole of the four principles\n\n\n\n\nUtilitarianism\nMaximize welfare\nPrinciples are derived — follow them because doing so usually produces the best outcomes\n\n\nKantian ethics\nRespect persons as ends\nPrinciples are duties grounded in rational dignity — especially autonomy\n\n\nVirtue ethics\nCultivate good character\nPrinciples are expressions of virtue — practical wisdom tells you how to apply them\n\n\nCare ethics\nHonor relationships\nPrinciples are contextualized by relationship and dependency — not applied abstractly"
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#which-theory-is-right",
+    "href": "chapters/01b-theories-slides.html#which-theory-is-right",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Which Theory Is Right?",
+    "text": "Which Theory Is Right?\nProbably none of them — completely. Each illuminates something the others miss:\n\nUtilitarianism sees the population and the aggregate.\nKantian ethics sees the dignity of the individual that cannot be traded away.\nVirtue ethics sees the character of the clinician and the quality of the relationship.\nCare ethics sees the context and dependency that abstract rules can erase.\n\nThe four principles work in part because they are theory-agnostic: a Kantian and a utilitarian can both endorse autonomy, beneficence, non-maleficence, and justice — they just disagree about why and how to weight them."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#wrapping-up-lecture-1",
+    "href": "chapters/01b-theories-slides.html#wrapping-up-lecture-1",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Wrapping Up Lecture 1",
+    "text": "Wrapping Up Lecture 1\n\nBioethics uses a four-principle framework as its shared vocabulary, supported by four major ethical theories that offer different answers to the question of how to weigh those principles. Utilitarianism focuses on outcomes and aggregate welfare. Kantian ethics focuses on duties and the dignity of persons. Virtue ethics focuses on character. Care ethics focuses on relationships and context. No single theory is correct; used as lenses, they let us see more of what is morally at stake in any clinical situation.\nLecture 2 turns to the history that gave these principles their urgency, and the clinical relationship where they are daily tested."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#references",
+    "href": "chapters/01b-theories-slides.html#references",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "References",
+    "text": "References\n\n\nAmerican Nurses Association. 2015. Code of Ethics for Nurses with Interpretive Statements. American Nurses Association. https://www.nursingworld.org/coe-view-only.\n\n\nAristotle. 340 BC. Nicomachean Ethics.\n\n\nBeauchamp, Tom L., and James F. Childress. 2019. Principles of Biomedical Ethics. 8th ed. Oxford University Press.\n\n\nBentham, Jeremy. 1789. An Introduction to the Principles of Morals and Legislation. T. Payne; Son.\n\n\nGilligan, Carol. 1982. In a Different Voice: Psychological Theory and Women’s Development. Harvard University Press.\n\n\nHeld, Virginia. 2006. The Ethics of Care: Personal, Political, and Global. Oxford University Press.\n\n\nKant, Immanuel. 1785. Groundwork of the Metaphysics of Morals.\n\n\nMill, John Stuart. 1863. Utilitarianism. Parker, Son,; Bourn."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#utilitarianism-calculating-expected-utility",
+    "href": "chapters/01b-theories.html#utilitarianism-calculating-expected-utility",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "2.4 Utilitarianism: Calculating Expected Utility",
+    "text": "2.4 Utilitarianism: Calculating Expected Utility\n\n\n\n\n\n\n\nutil\n\n\nQ\n\nPrescribe\nDrug A or Drug B?\n\n\n\nA\n\nDrug A\n(aggressive)\n\n\n\nQ-&gt;A\n\n\n\n\n\nB\n\nDrug B\n(conservative)\n\n\n\nQ-&gt;B\n\n\n\n\n\nEA\n\n0.70 × (+80) = +56\n0.30 × (-40) = -12\nEU = +44\n\n\n\nA-&gt;EA\n\n\n\n\n\nEB\n\n0.50 × (+55) = +28\n0.50 × (-8) = -4\nEU = +24\n\n\n\nB-&gt;EB\n\n\n\n\n\nR\n\nPrescribe Drug A\n(EU 44 &gt; EU 24)\n\n\n\nEA-&gt;R\n\n\nhigher EU\n\n\n\nEB-&gt;R\n\n\n\n\n\n\n Utilitarianism selects the action with the highest expected utility (EU = Σ probability × value). Drug A is preferred because its EU (+44) exceeds Drug B’s (+24)."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#kantian-ethics-duty-as-constraint-and-guide",
+    "href": "chapters/01b-theories.html#kantian-ethics-duty-as-constraint-and-guide",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "3.4 Kantian Ethics: Duty as Constraint and Guide",
+    "text": "3.4 Kantian Ethics: Duty as Constraint and Guide\n\n\n\n\n\n\n\nkant\n\n\nA\n\nProposed Action\n(e.g., withhold diagnosis)\n\n\n\nQ1\n\nTreats patient as\nmere means?\n\n\n\nA-&gt;Q1\n\n\n\n\n\nW1\n\nIMPERMISSIBLE\n(perfect duty)\n\n\n\nQ1-&gt;W1\n\n\nYes\n\n\n\nQ2\n\nOther perfect\nduty violated?\n\n\n\nQ1-&gt;Q2\n\n\nNo\n\n\n\nW2\n\nIMPERMISSIBLE\n(perfect duty)\n\n\n\nQ2-&gt;W2\n\n\nYes\n\n\n\nQ3\n\nImperfect duty\nto act?\n\n\n\nQ2-&gt;Q3\n\n\nNo\n\n\n\nAct\n\nACT\n(with latitude)\n\n\n\nQ3-&gt;Act\n\n\nYes\n\n\n\nOmit\n\nMay omit\n\n\n\nQ3-&gt;Omit\n\n\nNo\n\n\n\n\n Kantian decision procedure. Amber diamonds are perfect duties — hard stops that hold regardless of outcome. The slate diamond is an imperfect duty, which allows latitude in how and when to act."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#virtue-ethics-the-cycle-of-character-development",
+    "href": "chapters/01b-theories.html#virtue-ethics-the-cycle-of-character-development",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "4.4 Virtue Ethics: The Cycle of Character Development",
+    "text": "4.4 Virtue Ethics: The Cycle of Character Development\n\n\n\n\n\n\n\nvirtue\n\n\nA\n\nAsk: what would a\nvirtuous nurse do?\n\n\n\nB\n\nDeliberate:\nwhat does this\npatient need?\n\n\n\nA-&gt;B\n\n\n\n\n\nC\n\nAct with compassion,\nintegrity, fidelity\n\n\n\nB-&gt;C\n\n\n\n\n\nD\n\nReflect on outcomes\nand relationships\n\n\n\nC-&gt;D\n\n\n\n\n\nE\n\nCharacter deepens;\nphronesis grows\n\n\n\nD-&gt;E\n\n\n\n\n\nE-&gt;A\n\n\nmore natural\nover time\n\n\n\n\n Virtue ethics is developmental — good character is built through repeated intentional action, not rule-following. The dashed return edge marks the cycle: over time, virtuous action becomes more natural and less effortful."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#care-ethics-the-web-of-relationships",
+    "href": "chapters/01b-theories.html#care-ethics-the-web-of-relationships",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "5.4 Care Ethics: The Web of Relationships",
+    "text": "5.4 Care Ethics: The Web of Relationships\n\n\n\n\n\n\n\ncare\n\n\nN\n\nNurse /\nClinician\n\n\n\nC\n\nPatient\n(clinical situation)\n\n\n\nN-&gt;C\n\n\n\n\nT\n\nHealthcare\nteam\n\n\n\nT-&gt;C\n\n\n\n\nPr\n\nProfessional\nobligations\n\n\n\nPr-&gt;C\n\n\n\n\nF\n\nFamily &\nloved ones\n\n\n\nC-&gt;F\n\n\n\n\nCm\n\nCommunity\n& culture\n\n\n\nC-&gt;Cm\n\n\n\n\nH\n\nPersonal history\n& values\n\n\n\nC-&gt;H\n\n\n\n\n\n Care ethics centers the patient within a web of concrete relationships. Moral obligations arise from these particular connections — not from abstract rules applied to strangers. The nurse–patient relationship (bold edge) is the immediate site of care."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#utilitarianism-calculating-expected-utility",
+    "href": "chapters/01b-theories-slides.html#utilitarianism-calculating-expected-utility",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Utilitarianism: Calculating Expected Utility",
+    "text": "Utilitarianism: Calculating Expected Utility\n\n\n\n\n\n\n\nutil\n\n\nQ\n\nPrescribe\nDrug A or Drug B?\n\n\n\nA\n\nDrug A\n(aggressive)\n\n\n\nQ-&gt;A\n\n\n\n\n\nB\n\nDrug B\n(conservative)\n\n\n\nQ-&gt;B\n\n\n\n\n\nEA\n\n0.70 × (+80) = +56\n0.30 × (-40) = -12\nEU = +44\n\n\n\nA-&gt;EA\n\n\n\n\n\nEB\n\n0.50 × (+55) = +28\n0.50 × (-8) = -4\nEU = +24\n\n\n\nB-&gt;EB\n\n\n\n\n\nR\n\nPrescribe Drug A\n(EU 44 &gt; EU 24)\n\n\n\nEA-&gt;R\n\n\nhigher EU\n\n\n\nEB-&gt;R\n\n\n\n\n\n\n Utilitarianism selects the action with the highest expected utility (EU = Σ probability × value). Drug A is preferred because its EU (+44) exceeds Drug B’s (+24)."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#kantian-ethics-duty-as-constraint-and-guide",
+    "href": "chapters/01b-theories-slides.html#kantian-ethics-duty-as-constraint-and-guide",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Kantian Ethics: Duty as Constraint and Guide",
+    "text": "Kantian Ethics: Duty as Constraint and Guide\n\n\n\n\n\n\n\nkant\n\n\nA\n\nProposed Action\n(e.g., withhold diagnosis)\n\n\n\nQ1\n\nTreats patient as\nmere means?\n\n\n\nA-&gt;Q1\n\n\n\n\n\nW1\n\nIMPERMISSIBLE\n(perfect duty)\n\n\n\nQ1-&gt;W1\n\n\nYes\n\n\n\nQ2\n\nOther perfect\nduty violated?\n\n\n\nQ1-&gt;Q2\n\n\nNo\n\n\n\nW2\n\nIMPERMISSIBLE\n(perfect duty)\n\n\n\nQ2-&gt;W2\n\n\nYes\n\n\n\nQ3\n\nImperfect duty\nto act?\n\n\n\nQ2-&gt;Q3\n\n\nNo\n\n\n\nAct\n\nACT\n(with latitude)\n\n\n\nQ3-&gt;Act\n\n\nYes\n\n\n\nOmit\n\nMay omit\n\n\n\nQ3-&gt;Omit\n\n\nNo\n\n\n\n\n Kantian decision procedure. Amber diamonds are perfect duties — hard stops that hold regardless of outcome. The slate diamond is an imperfect duty, which allows latitude in how and when to act."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#virtue-ethics-the-cycle-of-character-development",
+    "href": "chapters/01b-theories-slides.html#virtue-ethics-the-cycle-of-character-development",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Virtue Ethics: The Cycle of Character Development",
+    "text": "Virtue Ethics: The Cycle of Character Development\n\n\n\n\n\n\n\nvirtue\n\n\nA\n\nAsk: what would a\nvirtuous nurse do?\n\n\n\nB\n\nDeliberate:\nwhat does this\npatient need?\n\n\n\nA-&gt;B\n\n\n\n\n\nC\n\nAct with compassion,\nintegrity, fidelity\n\n\n\nB-&gt;C\n\n\n\n\n\nD\n\nReflect on outcomes\nand relationships\n\n\n\nC-&gt;D\n\n\n\n\n\nE\n\nCharacter deepens;\nphronesis grows\n\n\n\nD-&gt;E\n\n\n\n\n\nE-&gt;A\n\n\nmore natural\nover time\n\n\n\n\n Virtue ethics is developmental — good character is built through repeated intentional action, not rule-following. The dashed return edge marks the cycle: over time, virtuous action becomes more natural and less effortful."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#care-ethics-the-web-of-relationships",
+    "href": "chapters/01b-theories-slides.html#care-ethics-the-web-of-relationships",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Care Ethics: The Web of Relationships",
+    "text": "Care Ethics: The Web of Relationships\n\n\n\n\n\n\n\ncare\n\n\nN\n\nNurse /\nClinician\n\n\n\nC\n\nPatient\n(clinical situation)\n\n\n\nN-&gt;C\n\n\n\n\nT\n\nHealthcare\nteam\n\n\n\nT-&gt;C\n\n\n\n\nPr\n\nProfessional\nobligations\n\n\n\nPr-&gt;C\n\n\n\n\nF\n\nFamily &\nloved ones\n\n\n\nC-&gt;F\n\n\n\n\nCm\n\nCommunity\n& culture\n\n\n\nC-&gt;Cm\n\n\n\n\nH\n\nPersonal history\n& values\n\n\n\nC-&gt;H\n\n\n\n\n\n Care ethics centers the patient within a web of concrete relationships. Moral obligations arise from these particular connections — not from abstract rules applied to strangers. The nurse–patient relationship (bold edge) is the immediate site of care."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#utilitarianism-weighing-harms-and-benefits",
+    "href": "chapters/01b-theories.html#utilitarianism-weighing-harms-and-benefits",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "2.4 Utilitarianism: Weighing Harms and Benefits",
+    "text": "2.4 Utilitarianism: Weighing Harms and Benefits\n\n\n\n\n\n\n\nutil\n\n\nQ\n\nWhich option produces\nbetter expected outcomes?\n\n\n\nA\n\nDrug A\n(aggressive)\n\n\n\nQ-&gt;A\n\n\n\n\n\nB\n\nDrug B\n(conservative)\n\n\n\nQ-&gt;B\n\n\n\n\n\nEA\n\nRecovery: likely, benefit large\nSide effects: unlikely, harm serious\n→ Weighted benefit: HIGH\n\n\n\nA-&gt;EA\n\n\n\n\n\nEB\n\nRecovery: possible, benefit moderate\nSide effects: likely, harm minor\n→ Weighted benefit: MODERATE\n\n\n\nB-&gt;EB\n\n\n\n\n\nR\n\nPrescribe Drug A\n(higher weighted benefit)\n\n\n\nEA-&gt;R\n\n\n\n\n\nEB-&gt;R\n\n\n\n\n\n\n Utilitarian decision procedure: for each option, estimate the probability and magnitude of every likely outcome (benefits and harms), sum the weighted results, and choose the option with the highest overall expected benefit."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#utilitarianism-weighing-harms-and-benefits",
+    "href": "chapters/01b-theories-slides.html#utilitarianism-weighing-harms-and-benefits",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Utilitarianism: Weighing Harms and Benefits",
+    "text": "Utilitarianism: Weighing Harms and Benefits\n\n\n\n\n\n\n\nutil\n\n\nQ\n\nWhich option produces\nbetter expected outcomes?\n\n\n\nA\n\nDrug A\n(aggressive)\n\n\n\nQ-&gt;A\n\n\n\n\n\nB\n\nDrug B\n(conservative)\n\n\n\nQ-&gt;B\n\n\n\n\n\nEA\n\nRecovery: likely, benefit large\nSide effects: unlikely, harm serious\n→ Weighted benefit: HIGH\n\n\n\nA-&gt;EA\n\n\n\n\n\nEB\n\nRecovery: possible, benefit moderate\nSide effects: likely, harm minor\n→ Weighted benefit: MODERATE\n\n\n\nB-&gt;EB\n\n\n\n\n\nR\n\nPrescribe Drug A\n(higher weighted benefit)\n\n\n\nEA-&gt;R\n\n\n\n\n\nEB-&gt;R\n\n\n\n\n\n\n Utilitarian decision procedure: for each option, estimate the probability and magnitude of every likely outcome (benefits and harms), sum the weighted results, and choose the option with the highest overall expected benefit."
+  },
+  {
+    "objectID": "chapters/01b-theories.html#kantian-ethics-perfect-and-imperfect-duties",
+    "href": "chapters/01b-theories.html#kantian-ethics-perfect-and-imperfect-duties",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "3.4 Kantian Ethics: Perfect and Imperfect Duties",
+    "text": "3.4 Kantian Ethics: Perfect and Imperfect Duties\n\n\n\n\n\n\n\nkant\n\n\nA\n\nProposed clinical action\n(e.g., withhold\nbad news to spare distress)\n\n\n\nQ\n\nPerfect duties\n(humanity principle):\nRespect autonomy?\nAvoid harm?\nTreat justly?\n\n\n\nA-&gt;Q\n\n\n\n\n\nW\n\nIMPERMISSIBLE\nPatient treated as\nmere means\n\n\n\nQ-&gt;W\n\n\nAny violated\n\n\n\nImp\n\nImperfect duty:\nbenefit / aid the patient\n(must be fulfilled;\nhow is flexible)\n\n\n\nQ-&gt;Imp\n\n\nAll pass\n\n\n\nHow\n\nDeliberate:\nhow to best fulfill\nthis duty here\n\n\n\nImp-&gt;How\n\n\n\n\n\nAct\n\nACT\n(latitude in method,\ntiming, approach)\n\n\n\nHow-&gt;Act\n\n\n\n\n\n\n Perfect duties (amber, from the humanity principle) are absolute constraints checked first — any violation makes the action impermissible. The imperfect duty to benefit the patient comes after: it must be fulfilled in some form, but the clinician has latitude in how."
+  },
+  {
+    "objectID": "chapters/01b-theories-slides.html#kantian-ethics-perfect-and-imperfect-duties",
+    "href": "chapters/01b-theories-slides.html#kantian-ethics-perfect-and-imperfect-duties",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Kantian Ethics: Perfect and Imperfect Duties",
+    "text": "Kantian Ethics: Perfect and Imperfect Duties\n\n\n\n\n\n\n\nkant\n\n\nA\n\nProposed clinical action\n(e.g., withhold\nbad news to spare distress)\n\n\n\nQ\n\nPerfect duties\n(humanity principle):\nRespect autonomy?\nAvoid harm?\nTreat justly?\n\n\n\nA-&gt;Q\n\n\n\n\n\nW\n\nIMPERMISSIBLE\nPatient treated as\nmere means\n\n\n\nQ-&gt;W\n\n\nAny violated\n\n\n\nImp\n\nImperfect duty:\nbenefit / aid the patient\n(must be fulfilled;\nhow is flexible)\n\n\n\nQ-&gt;Imp\n\n\nAll pass\n\n\n\nHow\n\nDeliberate:\nhow to best fulfill\nthis duty here\n\n\n\nImp-&gt;How\n\n\n\n\n\nAct\n\nACT\n(latitude in method,\ntiming, approach)\n\n\n\nHow-&gt;Act\n\n\n\n\n\n\n Perfect duties (amber, from the humanity principle) are absolute constraints checked first — any violation makes the action impermissible. The imperfect duty to benefit the patient comes after: it must be fulfilled in some form, but the clinician has latitude in how."
+  }
+]
