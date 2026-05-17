@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.9.37">
 
   <meta name="author" content="Brendan Shea, PhD">
-  <meta name="dcterms.date" content="2026-05-11">
+  <meta name="dcterms.date" content="2026-05-17">
   <title>Bioethics: An Open Educational Resource – Lecture 2 — History &amp; the Clinical Relationship</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -52,7 +52,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-a370ce622855cb25c5b89ff3f7b4b90f.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-36e9e42a5ea81014cf1a5e4295da0642.css">
   <link rel="stylesheet" href="../styles/custom.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -148,9 +148,6 @@
       margin-right: 0; 
     }
   </style>
-  <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
-  <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
-  <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -168,162 +165,652 @@ Brendan Shea, PhD
 </div>
 </div>
 
-  <p class="date">2026-05-11</p>
+  <p class="date">2026-05-17</p>
 </section>
 <section>
-<section id="part-a-from-hippocrates-to-the-belmont-report-a-history" class="title-slide slide level1 center">
-<h1>Part A — From Hippocrates to the Belmont Report: A History</h1>
+<section id="a-case-to-open-with" class="title-slide slide level1 section-divider center">
+<h1>A Case to Open With</h1>
 
 </section>
-<section id="opening-a-case-to-sit-with" class="slide level2">
-<h2>Opening: A Case to Sit With</h2>
-<p>Imagine you are a physician in the mid-20th century, asked to participate in a study monitoring a known, potentially fatal disease without offering the patients treatment, even after an effective cure is discovered. The rationale provided to you is that science needs to observe the natural progression of the illness to better understand it for future generations. The patients, largely from marginalized communities, are told only that they are receiving “special free care.” At the time, your profession operates largely on a culture of paternalism—“doctor knows best”—with very few formal guidelines on human experimentation. How do you respond? Where do you look for moral guidance when the law and standard practices of your day seem insufficient?</p>
+<section id="a-study-you-should-refuse" class="slide level2">
+<h2>A Study You Should Refuse</h2>
+<div class="thought-question">
+<p>You are a physician asked to help run a syphilis study.</p>
+<ul>
+<li>The subjects are poor Black men in Alabama.</li>
+<li>They are told they have “bad blood,” not syphilis.</li>
+<li>Penicillin now works, but the study keeps going.</li>
+<li>Your supervisors say the knowledge will help future patients.</li>
+</ul>
+<p>Do you stay in the study? If not, what principle tells you to walk away?</p>
+</div>
 </section>
-<section id="what-were-doing-today" class="slide level2">
-<h2>What We’re Doing Today</h2>
+<section id="after-youve-discussed" class="slide level2">
+<h2>After You’ve Discussed</h2>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Hold onto your answer.</strong> Several of the reasons you gave for walking away were not obvious to physicians at the time. They had to be learned case by case, and eventually written down. Part A traces how that happened.</p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Start with moral discomfort before giving students the vocabulary. The point is to make the historical material feel like an answer to a real problem they already feel.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="today" class="slide level2">
+<h2>Today</h2>
 <div class="learning-outcomes">
 <p>By the end of Part A, you will be able to:</p>
 <ul>
-<li><strong>Analyze</strong> the historical shift from paternalistic medical models to autonomy-based models.</li>
-<li><strong>Identify</strong> the core principles introduced by the Nuremberg Code and how they revolutionized medical research.</li>
-<li><strong>Explain</strong> the ethical failings of the Tuskegee Syphilis Study and its impact on modern bioethics.</li>
-<li><strong>Compare</strong> foundational bioethics documents, including the Declaration of Helsinki and the Belmont Report.</li>
-<li><strong>Understand</strong> the origin and role of Institutional Review Boards (IRBs) and ethics committees.</li>
+<li>Trace the move from “doctor knows best” to patient consent</li>
+<li>Tell what actually happened in the Carrie Buck, Nuremberg, Willowbrook, and Tuskegee cases</li>
+<li>Explain which protection each scandal forced into existence</li>
+<li>Compare the Nuremberg Code, Helsinki, and the Belmont Report</li>
+<li>Explain why IRBs and ethics committees exist today</li>
 </ul>
 </div>
-</section>
-<section id="the-hippocratic-tradition" class="slide level2 scrollable">
-<h2>The Hippocratic Tradition</h2>
-<p>When people think of medical ethics, they often start with ancient Greece. The Hippocratic tradition is often summarized in the public imagination by a single phrase: <em>“first, do no harm”</em> (often cited in Latin as <em>primum non nocere</em>). However, this specific phrase does not actually appear in the original Hippocratic Oath, but rather in another Hippocratic text called <em>Of the Epidemics</em>.</p>
-<p>What the original oath <em>did</em> say was quite profound for its time. It established a covenant between the physician and their teachers, as well as a commitment to act for the benefit of the sick and keep them from harm or injustice. It also laid foundational rules for <strong>confidentiality</strong>, a principle that remains a cornerstone of the medical profession today.</p>
+</section></section>
+<section>
+<section id="the-old-deal-doctor-knows-best" class="title-slide slide level1 section-divider center">
+<h1>The Old Deal: Doctor Knows Best</h1>
 
-<img data-src="../images/hippocrates.jpg" style="width:40.0%" class="r-stretch quarto-figure-center" id="fig-hippocrates"><p class="caption">
-Figure&nbsp;1: Hippocrates of Kos. Engraving by Peter Paul Rubens, 1638. <em>Wikimedia Commons</em>, public domain.
-</p><h3 id="principles-in-the-oath">Principles in the Oath</h3>
-<p>The Hippocratic Oath was revolutionary because it separated medicine from strict religious or mystical practices, framing it instead as a moral profession governed by defined duties. The core duties outlined included:</p>
-<ol type="1">
-<li><strong>Beneficence:</strong> Acting in the patient’s best interest.</li>
-<li><strong>Non-maleficence:</strong> Avoiding harm or injustice.</li>
-<li><strong>Confidentiality:</strong> Keeping patient information private.</li>
-<li><strong>Professionalism:</strong> Maintaining the integrity of the teaching and the profession.</li>
-</ol>
-<h3 id="the-problem-of-paternalism">The Problem of Paternalism</h3>
-<p>However, the Hippocratic tradition also carried distinct limitations. It was fundamentally a <span class="key-term">paternalistic</span> document. It assumed that the physician possessed the knowledge and authority to decide what was best for the patient, with little to no emphasis placed on the patient’s own consent or autonomy. For centuries, “doctor knows best” was not just a colloquialism; it was the prevailing ethical standard. In this view, a patient was more like a child needing guidance, and the doctor was the wise parent.</p>
+</section>
+<section id="the-deal-in-one-sentence" class="slide level2">
+<h2>The Deal in One Sentence</h2>
+<div class="columns">
+<div class="column" style="width:58%;">
+<ul>
+<li><strong>The doctor decides. The patient trusts. No one else asks.</strong></li>
+<li>Western medicine’s oldest model, traced to the Hippocratic tradition</li>
+<li>Built on real duties: help the sick, “do no harm,” keep confidences</li>
+<li>One name for it: <span class="key-term">paternalism</span> — caring <em>for</em> you by deciding <em>for</em> you</li>
+</ul>
+</div><div class="column" style="width:42%;">
+<p><img data-src="../images/hippocrates.jpg" style="width:78.0%" alt="Engraving of Hippocrates"></p>
+<div class="attribution">
+<p>Hippocrates of Kos. Public domain. <span class="citation" data-cites="hippocraticoath_nlm">(<a href="#/references" role="doc-biblioref" onclick="">U.S. National Library of Medicine 2002</a>)</span></p>
+</div>
+</div></div>
+</section>
+<section id="its-bright-side-and-its-dark-side" class="slide level2">
+<h2>Its Bright Side and Its Dark Side</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><strong>The bright side</strong></p>
+<ul>
+<li>Clinicians really do know more</li>
+<li>Emergencies need fast judgment</li>
+<li>Patients often want guidance, not a menu</li>
+<li>Medicine cannot work without professional judgment</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<p><strong>The dark side</strong></p>
+<ul>
+<li>Expertise slides into domination</li>
+<li>Good intentions can hide coercion</li>
+<li>The patient becomes an object of care</li>
+<li>The profession can protect itself first</li>
+</ul>
+</div></div>
+</section>
+<section id="a-bedside-moment" class="slide level2">
+<h2>A Bedside Moment</h2>
 <div class="context-box">
-<p><strong>Medical Paternalism</strong></p>
-<p>Paternalism in medicine refers to the practice of physicians making decisions for adult patients without their consent, ostensibly for the patients’ own good. Similar to how a parent might make decisions for a child, paternalistic medicine assumes the patient lacks the expertise to choose wisely. While often well-intentioned, this model severely limits personal autonomy.</p>
+<p><strong>Protective lying</strong></p>
+<p>A physician tells a family, “Don’t tell him it is cancer yet. He will give up.”</p>
+<ul>
+<li>Kindness or control?</li>
+<li>Beneficence or disrespect?</li>
+<li>What is missing from this encounter?</li>
+</ul>
 </div>
+<aside class="notes">
+<p>Paternalism was usually defended as expertise plus benevolence, not cruelty. That is exactly why it lasted so long — and why the abuses ahead were so hard to see from the inside.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="when-medicine-serves-the-state" class="title-slide slide level1 section-divider center">
+<h1>When Medicine Serves the State</h1>
+
 </section>
-<section id="pre-wwii-medical-ethics" class="slide level2">
-<h2>Pre-WWII Medical Ethics</h2>
-<p>Leading up to the 20th century, the paternalistic model remained the dominant ethical framework. Medicine was advancing rapidly—the discovery of germs, the advent of reliable anesthesia, and structural changes to medical education meant that doctors were becoming increasingly effective, and increasingly powerful.</p>
-<p>However, as medicine and biology advanced, new and dangerous ideologies began to emerge, often cloaked in the language of science and public health. Because the existing ethical framework heavily favored the authority of the physician and the “greater good” over individual patient autonomy, it left patients highly vulnerable to abuse in the name of scientific progress.</p>
-<h3 id="the-rise-of-eugenics">The Rise of Eugenics</h3>
-<p>One of the most significant and tragic developments was the rise of the <strong>eugenics movement</strong>, which gained substantial traction in both the United States and Europe during the late 19th and early 20th centuries. Proponents of eugenics believed that the human race could be “improved” by encouraging the reproduction of those deemed “fit” and actively preventing the reproduction of those labeled “unfit” (often marginalized populations, the poor, and people with disabilities).</p>
-<p>This ideology led to widespread human rights violations, including forced sterilization laws enacted in numerous US states, which disproportionately affected women of color and individuals in state institutions.</p>
+<section id="the-idea-called-eugenics" class="slide level2">
+<h2>The Idea Called Eugenics</h2>
+<ul>
+<li><span class="key-term">Eugenics</span>: the belief that society can be improved by controlling who is allowed to have children</li>
+<li>“Good” traits encouraged; “bad” traits — disability, poverty, the “wrong” ancestry — bred out</li>
+<li>It was not fringe: it was backed by respected scientists</li>
+<li>In the United States, it was backed by law</li>
+</ul>
+</section>
+<section id="carrie-buck-age-17" class="slide level2">
+<h2>Carrie Buck, Age 17</h2>
+<ul>
+<li>Virginia, 1924. Carrie is poor and a foster child.</li>
+<li>She becomes pregnant after being raped by a relative of her foster family.</li>
+<li>To hide it, she is labeled “feebleminded” and committed to a state institution.</li>
+<li>Her infant daughter, Vivian, is judged “defective” after a few minutes’ observation.</li>
+</ul>
+</section>
+<section id="three-generations-buck-v.-bell-1927" class="slide level2">
+<h2>“Three Generations” — Buck v. Bell (1927)</h2>
+<ul>
+<li>Virginia wants Carrie sterilized so she can have no more children</li>
+<li>The U.S. Supreme Court agrees, 8 to 1 <span class="citation" data-cites="buck1927">(<a href="#/references" role="doc-biblioref" onclick="">Supreme Court of the United States 1927</a>)</span></li>
+<li>Justice Holmes writes: <em>“Three generations of imbeciles are enough.”</em></li>
+<li>Carrie is sterilized at 17. Vivian later makes her school’s honor roll.</li>
+<li>The law did not stop the harm — the law <strong>ordered</strong> it</li>
+</ul>
+</section>
+<section id="the-scoreboard-so-far" class="slide level2">
+<h2>The Scoreboard So Far</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Scandal</th>
+<th>What was missing</th>
+<th>The rule we got</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Eugenics &amp; Carrie Buck (1927)</strong></td>
+<td>Your body is yours; the state cannot breed people</td>
+<td><strong>Nothing yet — the courts called this legal</strong></td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<p>The scoreboard is our running spine. Each disaster leaves a gap; later, a code fills it. Right now the gap is wide open.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="thought-question" class="slide level2 scrollable">
+<h2>Thought Question</h2>
 <div class="thought-question">
-<p>If the stated goal of public health is to improve the well-being of the population as a whole, what happens when that goal directly conflicts with the reproductive rights and bodily autonomy of individuals? E.g., the infamous <em>Buck v. Bell</em> (1927) Supreme Court decision.</p>
+<p>You are the physician at the Virginia institution in 1927. The court order to sterilize Carrie has arrived.</p>
+<ul>
+<li>Your supervisor calls it legal, routine, and “kind to society.”</li>
+<li>You suspect Carrie’s “feeblemindedness” is really poverty and a pregnancy from rape.</li>
+</ul>
+<ol type="1">
+<li>Do you perform the operation? If you refuse, what are you appealing to — the law says <em>you</em> are the one in the wrong.</li>
+<li>Would it change anything if Carrie herself said yes? Could she give real consent in this situation?</li>
+<li>The state’s reasoning is “fewer ‘unfit’ children means a better society.” What is wrong with that argument even when it is sincere?</li>
+</ol>
 </div>
 </section>
-<section id="nazi-medical-experiments-19391945" class="slide level2">
-<h2>Nazi Medical Experiments (1939–1945)</h2>
-<p>The darkest consequences of eugenics and unchecked medical authority culminated in the atrocities committed by Nazi doctors during World War II. Under the guise of medical research, horrific and fatal experiments were conducted on concentration camp prisoners without their consent.</p>
-<p>These included: - <strong>Freezing experiments:</strong> To simulate the conditions of pilots transferring over cold water, prisoners were submerged in ice water and observed until death. - <strong>High-altitude tests:</strong> Prisoners were placed in decompression chambers to test the limits of human endurance, often resulting in agonizing deaths. - <strong>Infection studies:</strong> Healthy individuals were intentionally infected with malaria, typhus, and tuberculosis to test experimental drugs.</p>
-<p>The medical establishment in Nazi Germany largely capitulated to, and actively participated in, the regime’s ideology. Doctors became agents of the state rather than advocates for the patient.</p>
+<section id="make-it-contemporary" class="slide level2">
+<h2>Make It Contemporary</h2>
+<div class="thought-question">
+<p>This is not safely in the past:</p>
+<ul>
+<li>2006–2010: about 150 women in California prisons were sterilized, many under pressure and without proper approval.</li>
+<li>2017: a Tennessee judge offered reduced jail time to inmates who agreed to a vasectomy or a long-acting contraceptive.</li>
+</ul>
+<p>Same question: where is the line between an <em>offer</em>, <em>pressure</em>, and <em>coercion</em> — and who is too constrained to truly say yes?</p>
+</div>
+</section>
+<section id="after-youve-discussed-1" class="slide level2">
+<h2>After You’ve Discussed</h2>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>Three things to draw out:</p>
+<ul>
+<li><strong>“Legal” did not mean “right.”</strong> <em>Buck v. Bell</em> has never been formally overturned — law can lag ethics by decades.</li>
+<li><strong>Consent does not erase coercion.</strong> A “yes” from a confined, dependent person may not be free. Ask <em>who is asking</em> and <em>what saying no would cost</em>.</li>
+<li><strong>“For the good of society” is the move to watch.</strong> Trading one person’s body for a population-level gain treats her as a means — exactly the reasoning the later codes were written to block.</li>
+</ul>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="atrocity-and-the-first-rule" class="title-slide slide level1 section-divider center">
+<h1>Atrocity and the First Rule</h1>
+
+</section>
+<section id="medicine-inside-the-camps" class="slide level2">
+<h2>Medicine Inside the Camps</h2>
+<ul>
+<li>In Nazi concentration camps, prisoners were used as research material</li>
+<li>Refusal was not an option a prisoner had</li>
+<li>One example: prisoners were immersed in ice water for hours to time how long downed pilots might survive</li>
+<li>Many were injured, disabled, or killed — “science” was the excuse</li>
+</ul>
 </section>
 <section id="the-doctors-trial-19461947" class="slide level2">
 <h2>The Doctors’ Trial (1946–1947)</h2>
-<p>Following the defeat of Nazi Germany, the world was forced to confront these medical atrocities during the “Doctors’ Trial” in Nuremberg. Twenty-three medical professionals and administrators stood trial for war crimes and crimes against humanity.</p>
+<ul>
+<li>23 defendants from the Nazi medical system</li>
+<li>Charges: war crimes and crimes against humanity</li>
+<li>The judges had outrage but no written standard to point to</li>
+<li>So they wrote one</li>
+</ul>
 
-<img data-src="../images/nuremberg_trial.jpg" style="width:50.0%" class="r-stretch quarto-figure-center" id="fig-nuremberg"><p class="caption">
-Figure&nbsp;2: The Nuremberg Doctors’ Trial. US National Archives. <em>Wikimedia Commons</em>, public domain.
-</p><p>The court was faced with a significant problem: there was no internationally accepted standard or code of ethics governing human experimentation that they could definitively point to as having been violated. The Nazi doctors defended themselves by pointing out that prior to the war, there was no international law explicitly forbidding their actions, and they argued that their experiments were for the greater good of their nation’s war effort.</p>
-</section>
-<section id="the-nuremberg-code-1947" class="slide level2">
-<h2>The Nuremberg Code (1947)</h2>
-<p>To address this gap and provide a legal and ethical framework for their judgments, the judges formulated the <strong>Nuremberg Code</strong> <span class="citation" data-cites="nuremberg1947">(<a href="#/mini-recap" role="doc-biblioref" onclick="">Nuremberg Military Tribunals 1947</a>)</span>. This groundbreaking document established ten rules for permissible medical experiments.</p>
-<h3 id="the-first-principle">The First Principle</h3>
-<p>The most revolutionary aspect of the Code was its absolute first principle:</p>
+<img data-src="../images/nuremberg_trial.jpg" style="width:52.0%" alt="Nuremberg Doctors' Trial photograph" class="r-stretch"></section>
+<section id="nuremberg-code-the-first-principle" class="slide level2">
+<h2>Nuremberg Code: The First Principle</h2>
+<div class="quote-card">
 <blockquote>
-<p><em>“The voluntary consent of the human subject is absolutely essential. This means that the person involved should have legal capacity to give consent; should be so situated as to be able to exercise free power of choice…”</em></p>
+<p>“The voluntary consent of the human subject is absolutely essential. This means that the person involved should have legal capacity to give consent; should be so situated as to be able to exercise free power of choice, without the intervention of any element of force, fraud, deceit, duress, over-reaching, or other ulterior form of constraint or coercion; and should have sufficient knowledge and comprehension of the elements of the subject matter involved, as to enable him to make an understanding and enlightened decision.”</p>
 </blockquote>
-<p>This marked a seismic shift in medical ethics. It explicitly stated that the individual’s right to choose—their autonomy—superseded the interests of science or society.</p>
-<h3 id="other-key-principles-of-the-code">Other Key Principles of the Code</h3>
-<p>In addition to voluntary consent, the Code mandated: - The experiment should yield fruitful results for the good of society, unprocurable by other methods. - The experiment should be based on prior animal knowledge. - Avoid unnecessary physical and mental suffering and injury. - No experiment should be conducted where there is an <em>a priori</em> reason to believe death or disabling injury will occur. - The degree of risk should never exceed the humanitarian importance of the problem. - Proper preparations must be made to protect the experimental subject against even remote possibilities of injury. - The experiment should be conducted only by scientifically qualified persons. - The subject should be at liberty to bring the experiment to an end at any time. - The scientist must be prepared to terminate the experiment at any stage if they believe it is likely to result in injury or death.</p>
-<div class="thought-question">
-<p>The Nuremberg Code was drafted specifically in response to wartime atrocities. If you were a physician in a peaceful democracy in 1950, might you feel that these stringent guidelines didn’t apply to “normal” medical research?</p>
+<div class="attribution">
+<p>The Nuremberg Code, Principle 1 (1947) <span class="citation" data-cites="nuremberg1947">(<a href="#/references" role="doc-biblioref" onclick="">Nuremberg Military Tribunals 1947</a>)</span></p>
+</div>
 </div>
 </section>
-<section id="the-tuskegee-syphilis-study-19321972" class="slide level2">
-<h2>The Tuskegee Syphilis Study (1932–1972)</h2>
-<p>While the Nuremberg Code set an international standard, abuses in research were not confined to wartime or totalitarian regimes. One of the most infamous ethical breaches in American medical history occurred during peacetime, overlapping with and extending decades past the Nuremberg trials: the <strong>Tuskegee Study of Untreated Syphilis in the Negro Male</strong> <span class="citation" data-cites="brandt1978">(<a href="#/mini-recap" role="doc-biblioref" onclick="">Brandt 1978</a>)</span>.</p>
-<p>Initiated in 1932 by the U.S. Public Health Service, the study enrolled 600 Black men from impoverished rural areas in Alabama, 399 of whom had latent syphilis. The researchers wanted to observe the natural progression of the disease.</p>
-<h3 id="deception-and-coercion">Deception and Coercion</h3>
-<p>The men were not told they had syphilis. Instead, they were told they were being treated for “bad blood,” a local colloquialism for various ailments. In exchange for participating, they received free medical exams, meals, and burial insurance. Because these men were extremely poor and largely lacked access to regular medical care, these incentives were highly coercive.</p>
+<section id="the-codes-other-plain-rules" class="slide level2">
+<h2>The Code’s Other Plain Rules</h2>
+<ul>
+<li class="fragment">The study must have a real purpose, not just curiosity</li>
+<li class="fragment">Risks must be cut to the minimum, and be worth it</li>
+<li class="fragment">The subject can quit at any time, for any reason</li>
+<li class="fragment">The researcher must stop if it turns dangerous</li>
+</ul>
+</section>
+<section id="the-scoreboard-so-far-1" class="slide level2">
+<h2>The Scoreboard So Far</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Scandal</th>
+<th>What was missing</th>
+<th>The rule we got</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Eugenics &amp; Carrie Buck (1927)</td>
+<td>Your body is yours</td>
+<td><em>(gap still open)</em></td>
+</tr>
+<tr class="even">
+<td><strong>Nazi experiments → Nuremberg Code (1947)</strong></td>
+<td>The subject’s free “yes”</td>
+<td><strong>Voluntary consent is absolutely essential</strong></td>
+</tr>
+</tbody>
+</table>
+</section></section>
+<section>
+<section id="it-cant-happen-here" class="title-slide slide level1 section-divider center">
+<h1>“It Can’t Happen Here”</h1>
 
-<img data-src="../images/tuskegee.jpg" style="width:50.0%" class="r-stretch quarto-figure-center" id="fig-tuskegee"><p class="caption">
-Figure&nbsp;3: Doctor drawing blood from a participant in the Tuskegee Syphilis Study. CDC Archives. <em>Wikimedia Commons</em>, public domain.
-</p><h3 id="the-fundamental-ethical-breach">The Fundamental Ethical Breach</h3>
-<p>The most egregious ethical failure occurred in the 1940s when penicillin became the recognized, widely available, and highly effective cure for syphilis.</p>
-<p>Instead of treating the men and ending the study, the researchers deliberately withheld this information and the treatment. They wanted to see the study through to autopsy. They actively intervened to prevent the men from getting care elsewhere, even contacting local draft boards to prevent the men from receiving standard medical treatments when drafted for WWII.</p>
-<p>The study continued for <strong>40 years</strong>, only stopping in 1972 after a whistleblower, Peter Buxtun, leaked the story to the press, sparking public outrage. Dozens of men died from untreated syphilis, wives were infected, and children were born with congenital syphilis.</p>
-<h3 id="the-aftermath">The Aftermath</h3>
-<p>The revelation of Tuskegee sent shockwaves through the American public. It completely destroyed trust in medical institutions among many minority communities—a legacy of mistrust that persists and impacts public health efforts today. It made it undeniably clear that the US needed strict, legally enforced regulations to protect human research subjects. Reliance on the good intentions of professional researchers was no longer acceptable.</p>
 </section>
-<section id="the-rise-of-bioethics" class="slide level2">
-<h2>The Rise of Bioethics</h2>
-<div class="context-box">
-<p><strong>Where does the word ‘bioethics’ come from?</strong></p>
-<p>The term was coined in 1970 by Van Rensselaer Potter, a biochemist and oncology researcher. He envisioned bioethics as a “science of survival,” a bridge between the biological sciences and humanistic values, necessary to navigate the complexities of a rapidly advancing technological world <span class="citation" data-cites="potter1970">(<a href="#/mini-recap" role="doc-biblioref" onclick="">Potter 1970</a>)</span>. Around the same time, the Kennedy Institute of Ethics and the Hastings Center were founded.</p>
-</div>
-<p>The public outcry following the Tuskegee revelations sparked a demand for formal mechanisms of accountability. It led directly to the National Research Act of 1974.</p>
-<p>This act created the National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. Their task was immense: to identify the basic ethical principles that should definitively underlie the conduct of biomedical research involving human subjects.</p>
+<section id="why-one-code-was-not-enough" class="slide level2">
+<h2>Why One Code Was Not Enough</h2>
+<ul>
+<li>Nuremberg came from judges, about Nazis — many U.S. doctors thought “not us”</li>
+<li>The World Medical Association wrote the <span class="key-term">Declaration of Helsinki</span> (1964) to make research ethics medicine’s own job <span class="citation" data-cites="world1964">(<a href="#/references" role="doc-biblioref" onclick="">World Medical Association 1964</a>)</span></li>
+<li>But rules on paper do not help if no one <em>outside</em> the lab ever checks</li>
+<li>Two American cases proved it</li>
+</ul>
 </section>
-<section id="the-belmont-report-1979" class="slide level2">
-<h2>The Belmont Report (1979)</h2>
-<p>The result of the Commission’s work was the publication of the <strong>Belmont Report</strong> in 1979 <span class="citation" data-cites="belmont1979">(<a href="#/mini-recap" role="doc-biblioref" onclick="">National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research 1979</a>)</span>. The report was not a set of strict rules, but rather a framework of foundational principles intended to help resolve ethical problems.</p>
-<p>The report identified three core principles:</p>
-<h3 id="respect-for-persons">1. Respect for Persons</h3>
-<p>This principle requires acknowledging the autonomy of individuals. People should be treated as autonomous agents, and persons with diminished autonomy (e.g., children, prisoners) are entitled to protection. This principle is the ethical foundation for the requirement of <strong>informed consent</strong> in both research and clinical care.</p>
-<h3 id="beneficence">2. Beneficence</h3>
-<p>Following the Hippocratic tradition, this requires making efforts to secure the well-being of the patient or subject. In the Belmont context, it is formalized as two general rules: a. Do no harm. b. Maximize possible benefits and minimize possible harms.</p>
-<h3 id="justice">3. Justice</h3>
-<p>This principle demands fairness in the distribution of the burdens and benefits of research. The Tuskegee study was a profound violation of justice—a vulnerable population carried the massive burden of the research, while they were intentionally excluded from any benefits (the cure).</p>
-<p>The Belmont Report, along with Beauchamp and Childress’s influential textbook <em>Principles of Biomedical Ethics</em> (published in the same year) <span class="citation" data-cites="beauchamp2019">(<a href="#/mini-recap" role="doc-biblioref" onclick="">Beauchamp and Childress 2019</a>)</span>, solidified the framework of “principlism” that dominates Western bioethics today.</p>
+<section id="willowbrook" class="slide level2">
+<h2>Willowbrook</h2>
+<div class="columns">
+<div class="column" style="width:56%;">
+<ul>
+<li>Willowbrook was a vastly overcrowded New York institution for children with intellectual disabilities</li>
+<li>Hepatitis spread constantly through its wards</li>
+<li>Researchers deliberately gave the virus to children to study it and test a treatment</li>
+<li>The defense offered: “they would have caught it here anyway”</li>
+</ul>
+</div><div class="column" style="width:44%;">
+<p><img data-src="../images/willowbrook.jpg" style="width:96.0%" alt="Postcard of Willowbrook State School administration building"></p>
+<div class="attribution">
+<p>Willowbrook State School administration building postcard, via Wikimedia Commons and the New York Public Library, public domain.</p>
+</div>
+</div></div>
 </section>
-<section id="milestones-in-bioethics" class="slide level2">
-<h2>Milestones in Bioethics</h2>
-<p>The transition from unquestioned medical paternalism to modern, regulated bioethics did not happen overnight. It was catalyzed by crisis and tragedy.</p>
-<div class="cell" data-reveal="true" data-layout-align="default">
-<div class="cell-output-display">
-<div>
-<p></p><figure class=""><p></p>
-<div>
-<pre class="mermaid mermaid-js">timeline
-    title Bioethics Milestones (1900-2000)
-    section Early 20th C.
-        1932 : Tuskegee Syphilis Study begins
-    section Mid 20th C.
-        1945 : Nuremberg Doctors' Trial
-        1947 : The Nuremberg Code established
-        1954 : First successful kidney transplant
-        1964 : Declaration of Helsinki adopted
-    section Late 20th C.
-        1970 : The term 'Bioethics' is coined
-        1972 : Tuskegee Study exposed &amp; ended
-        1974 : National Research Act passed
-        1979 : The Belmont Report published
-        1990 : Human Genome Project begins
-</pre>
-</div>
-<p></p></figure><p></p>
-</div>
-</div>
+<section id="was-the-consent-real" class="slide level2">
+<h2>Was the Consent Real?</h2>
+<ul>
+<li>The institution was full</li>
+<li>For a time, the one open door was the research ward</li>
+<li>So parents were told, in effect: <em>enroll your child, or wait years for a bed</em></li>
+<li>A signature was collected. Was it a free choice?</li>
+</ul>
+</section>
+<section id="beechers-warning-1966" class="slide level2">
+<h2>Beecher’s Warning (1966)</h2>
+<ul>
+<li>Henry Beecher was a respected Harvard anesthesiologist — an insider, not a critic</li>
+<li>In a leading medical journal he laid out <strong>22 unethical studies already published in respected journals</strong> <span class="citation" data-cites="beecher1966">(<a href="#/references" role="doc-biblioref" onclick="">Beecher 1966</a>)</span></li>
+<li>Examples: penicillin withheld from soldiers to study rheumatic fever; live cancer cells injected into chronically ill patients without their knowledge; the Willowbrook hepatitis studies themselves</li>
+<li>These were funded, published, and praised — done by ordinary, successful researchers</li>
+</ul>
+</section>
+<section id="what-beecher-actually-argued" class="slide level2">
+<h2>What Beecher Actually Argued</h2>
+<ul>
+<li>His sharpest point: a signed form is <em>not</em> the real safeguard — consent can be an empty ritual</li>
+<li>He noted the journals were complicit by publishing the work at all</li>
+<li>He put more trust in a <em>conscientious investigator</em> than in paperwork</li>
+<li>History drew a different lesson: character is not enough — review has to be <strong>structural</strong> (the coming IRB)</li>
+</ul>
+<aside class="notes">
+<p>The tension is the teaching point: Beecher bet on individual virtue; the system that followed bet on structure. A good aside: do we actually need both, and does either work without the other?</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-scoreboard-so-far-2" class="slide level2">
+<h2>The Scoreboard So Far</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Scandal</th>
+<th>What was missing</th>
+<th>The rule we got</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Eugenics &amp; Carrie Buck (1927)</td>
+<td>Your body is yours</td>
+<td><em>(gap still open)</em></td>
+</tr>
+<tr class="even">
+<td>Nazi experiments → Nuremberg (1947)</td>
+<td>The subject’s free “yes”</td>
+<td>Voluntary consent</td>
+</tr>
+<tr class="odd">
+<td><strong>Willowbrook &amp; Beecher (1956–66)</strong></td>
+<td>Someone <em>outside</em> the team must say yes</td>
+<td><strong>Independent review — the future IRB</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="thought-question-1" class="slide level2 scrollable">
+<h2>Thought Question</h2>
+<div class="thought-question">
+<p>Your child has a severe intellectual disability and you cannot care for him at home.</p>
+<ul>
+<li>The only institution with an open bed will admit him — but only into the hepatitis research ward.</li>
+<li>The wait for a non-research bed is years.</li>
+</ul>
+<ol type="1">
+<li>You sign the form. Was your consent <em>voluntary</em>? What would have to be true for it to count?</li>
+<li>Researchers said the children “would have caught hepatitis here anyway.” Is that a good reason to deliberately give it to them?</li>
+<li>Suppose instead the research ward simply had better staffing and nicer conditions. Is <em>that</em> offer fine, or still a problem?</li>
+</ol>
 </div>
 </section>
-<section id="governing-documents-a-comparison" class="slide level2">
-<h2>Governing Documents: A Comparison</h2>
-<p>While they share common historical momentum, the major documents that shaped modern bioethics have slightly different focuses, intended audiences, and origins. We can compare the three most influential pieces.</p>
+<section id="make-it-contemporary-1" class="slide level2">
+<h2>Make It Contemporary</h2>
+<div class="thought-question">
+<p>The same shape recurs today:</p>
+<ul>
+<li>A patient enrolls in a drug trial because it is the only way to afford a medication they need.</li>
+<li>A Phase I study offers $5,000 to healthy volunteers; the people who sign up are mostly those who most need the money.</li>
+</ul>
+<p>No one lied; everyone signed. Is the trial still <em>taking advantage</em> of these people?</p>
+</div>
+</section>
+<section id="after-youve-discussed-2" class="slide level2">
+<h2>After You’ve Discussed</h2>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>Three different failures hide in this one case — keep them apart:</p>
+<ul>
+<li><strong>Coercion</strong> — a <em>threat</em> (“no bed unless you enroll”). The choice is not free.</li>
+<li><strong>Undue inducement</strong> — an <em>offer</em> so strong it clouds judgment ($5,000; the better ward).</li>
+<li><strong>Exploitation</strong> — taking unfair advantage of someone’s bad situation, <em>even with</em> honest consent and no deception.</li>
+</ul>
+<p>And the “they’d get it anyway” defense fails: a background risk does not license <em>deliberately</em> imposing harm <span class="citation" data-cites="jonsen1998">(<a href="#/references" role="doc-biblioref" onclick="">Jonsen 1998</a>)</span>.</p>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="forty-years-tuskegee" class="title-slide slide level1 section-divider center">
+<h1>Forty Years: Tuskegee</h1>
+
+</section>
+<section id="tuskegee-the-setup" class="slide level2">
+<h2>Tuskegee: The Setup</h2>
+<div class="columns">
+<div class="column" style="width:58%;">
+<ul>
+<li>Began in 1932 under the U.S. Public Health Service <span class="citation" data-cites="brandt1978">(<a href="#/references" role="doc-biblioref" onclick="">Brandt 1978</a>)</span></li>
+<li>600 Black men were enrolled in Alabama</li>
+<li>399 had syphilis</li>
+<li>Researchers wanted to observe the untreated disease</li>
+<li>The men were poor and medically underserved</li>
+</ul>
+</div><div class="column" style="width:42%;">
+<p><img data-src="../images/tuskegee.jpg" style="width:88.0%" alt="Tuskegee study blood draw"></p>
+<div class="attribution">
+<p>CDC Archives. Public domain.</p>
+</div>
+</div></div>
+</section>
+<section id="tuskegee-the-deception" class="slide level2">
+<h2>Tuskegee: The Deception</h2>
+<ul>
+<li>Men were not told they had syphilis</li>
+<li>They were told they had “bad blood”</li>
+<li>Free meals, exams, and burial insurance encouraged participation</li>
+<li>The study presented itself as care</li>
+<li>In reality, observation mattered more than the patients’ welfare</li>
+</ul>
+</section>
+<section id="tuskegee-penicillin-withheld" class="slide level2">
+<h2>Tuskegee: Penicillin Withheld</h2>
+<ul>
+<li>Penicillin became standard therapy in the 1940s</li>
+<li>Researchers still did not treat the men</li>
+<li>They even interfered with outside access to care</li>
+<li>The study continued toward autopsy, not cure</li>
+<li>The subjects were being used as means, not ends</li>
+</ul>
+</section>
+<section id="tuskegee-why-it-lasted" class="slide level2">
+<h2>Tuskegee: Why It Lasted</h2>
+<ul>
+<li>Subjects were poor and politically weak</li>
+<li>Racism made their suffering easier to ignore</li>
+<li>The study was bureaucratically routine</li>
+<li>Professional deference discouraged whistleblowing</li>
+<li>There was no external review strong enough to stop it</li>
+</ul>
+</section>
+<section id="tuskegee-public-reaction" class="slide level2">
+<h2>Tuskegee: Public Reaction</h2>
+<ul>
+<li>Exposed by the press in 1972</li>
+<li>Public outrage was immediate</li>
+<li>Trust in medical institutions was deeply damaged</li>
+<li>The damage was especially severe in Black communities</li>
+<li>The U.S. could no longer rely on professional self-policing alone</li>
+</ul>
+</section>
+<section id="thought-question-2" class="slide level2">
+<h2>Thought Question</h2>
+<div class="thought-question">
+<p>What was the deepest wrong in Tuskegee?</p>
+<ul>
+<li>The deception?</li>
+<li>The withholding of treatment?</li>
+<li>The racist choice of subjects?</li>
+<li>The 40 years of institutional indifference?</li>
+</ul>
+<p>You can argue for more than one answer, but which wrong seems most central?</p>
+</div>
+</section>
+<section id="make-it-contemporary-2" class="slide level2">
+<h2>Make It Contemporary</h2>
+<div class="thought-question">
+<ul>
+<li>In 1997 the U.S. government formally apologized for Tuskegee — 25 years after it ended.</li>
+<li>The justice worry has partly <em>flipped</em>: women and minority groups have often been <strong>left out</strong> of trials, so treatments are less well tested on them.</li>
+</ul>
+<p>Is excluding a group from research a justice failure of the same family as Tuskegee, or a different kind of wrong?</p>
+</div>
+</section>
+<section id="after-youve-discussed-3" class="slide level2">
+<h2>After You’ve Discussed</h2>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>Two payoffs worth the time:</p>
+<ul>
+<li><strong>Map each wrong to a principle.</strong> Deception → respect for persons; withheld penicillin → beneficence; choosing poor Black men → justice. The <strong>40 years of silence</strong> maps to none of them cleanly — codes do not legislate moral courage.</li>
+<li><strong>Justice runs both ways.</strong> Tuskegee was wrongful <em>inclusion under exploitation</em>. Modern ethics also worries about wrongful <em>exclusion</em> — fair selection means neither dumping risk on the vulnerable nor denying them benefit.</li>
+</ul>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="belmont-and-the-rise-of-bioethics" class="title-slide slide level1 section-divider center">
+<h1>Belmont and the Rise of Bioethics</h1>
+
+</section>
+<section id="the-word-bioethics" class="slide level2">
+<h2>The Word “Bioethics”</h2>
+<ul>
+<li>Van Rensselaer Potter popularized the term <span class="key-term">bioethics</span> in 1970 <span class="citation" data-cites="potter1970">(<a href="#/references" role="doc-biblioref" onclick="">Potter 1970</a>)</span></li>
+<li>He imagined a bridge between science and human values</li>
+<li>The field grew quickly in the 1970s</li>
+<li>New centers formed at Hastings and Georgetown</li>
+<li>Medicine needed public moral language, not just internal rules</li>
+</ul>
+</section>
+<section id="national-research-act-1974" class="slide level2">
+<h2>National Research Act (1974)</h2>
+<ul>
+<li>Congress responded directly to the research ethics crisis</li>
+<li>The Act created a national commission</li>
+<li>The commission studied how to protect human subjects</li>
+<li>The goal was not only punishment</li>
+<li>The goal was a durable ethical framework</li>
+</ul>
+</section>
+<section id="belmont-report-1979" class="slide level2">
+<h2>Belmont Report (1979)</h2>
+<ul>
+<li>The <span class="key-term">Belmont Report</span> was published in 1979 <span class="citation" data-cites="belmont1979">(<a href="#/references" role="doc-biblioref" onclick="">National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research 1979</a>)</span></li>
+<li>Short, influential, and still central</li>
+<li>Not a checklist</li>
+<li>Not a criminal code</li>
+<li>A framework for thinking about research ethics</li>
+</ul>
+</section>
+<section id="respect-for-persons" class="slide level2">
+<h2>Respect for Persons</h2>
+<ul>
+<li><span class="key-term">Respect for Persons</span> starts from the idea that individuals are agents</li>
+<li>Consent matters because persons are not tools</li>
+<li>Those with diminished autonomy need added protection</li>
+<li>This principle anchors informed consent</li>
+<li>It carries the strongest anti-paternalist force</li>
+</ul>
+</section>
+<section id="beneficence" class="slide level2">
+<h2>Beneficence</h2>
+<ul>
+<li><span class="key-term">Beneficence</span> means more than avoiding catastrophe</li>
+<li>Also try to secure subjects’ welfare</li>
+<li>Minimize likely harms</li>
+<li>Maximize likely benefits</li>
+<li>Make risk-benefit judgment explicit rather than casual</li>
+</ul>
+</section>
+<section id="justice" class="slide level2">
+<h2>Justice</h2>
+<ul>
+<li><span class="key-term">Justice</span> asks who bears the burdens</li>
+<li>Ask who receives the benefits</li>
+<li>Ask whether easy-to-exploit groups are being targeted</li>
+<li>Tuskegee is a classic failure of justice</li>
+<li>Fair subject selection becomes an ethical requirement</li>
+</ul>
+</section>
+<section id="three-foundational-documents-compared" class="slide level2">
+<h2>Three Foundational Documents Compared</h2>
 <table class="caption-top">
 <colgroup>
 <col style="width: 25%">
@@ -333,87 +820,400 @@ Figure&nbsp;3: Doctor drawing blood from a participant in the Tuskegee Syphilis 
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Feature</th>
-<th style="text-align: left;">The Nuremberg Code (1947)</th>
-<th style="text-align: left;">Declaration of Helsinki (1964)</th>
-<th style="text-align: left;">The Belmont Report (1979)</th>
+<th>Document</th>
+<th>Origin</th>
+<th>Main emphasis</th>
+<th>Best one-line summary</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;"><strong>Origin / Context</strong></td>
-<td style="text-align: left;">War Crimes Tribunal, post-WWII. Created by judges.</td>
-<td style="text-align: left;">World Medical Association. Created by physicians.</td>
-<td style="text-align: left;">US National Commission, post-Tuskegee. Created by an ethics panel.</td>
+<td><strong>Nuremberg Code</strong></td>
+<td>War-crimes tribunal</td>
+<td>Voluntary consent</td>
+<td>Persons are not raw material</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><strong>Primary Audience</strong></td>
-<td style="text-align: left;">Legal and international bodies, the broader world.</td>
-<td style="text-align: left;">Physicians and the global medical community.</td>
-<td style="text-align: left;">US Researchers, IRBs, and policymakers.</td>
+<td><strong>Helsinki</strong></td>
+<td>Medical profession</td>
+<td>Research governance by physicians</td>
+<td>Research needs disciplined review</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><strong>Core Focus</strong></td>
-<td style="text-align: left;">Absolute necessity of voluntary, informed consent.</td>
-<td style="text-align: left;">Ethical principles for medical research specifically by physicians.</td>
-<td style="text-align: left;">Foundational principles: Respect for Persons, Beneficence, Justice.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Enduring Legacy</strong></td>
-<td style="text-align: left;">The first, uncompromising international standard for human subjects.</td>
-<td style="text-align: left;">A living document, regularly updated (latest 2013) that guides global physician-researchers <span class="citation" data-cites="world1964">(<a href="#/mini-recap" role="doc-biblioref" onclick="">World Medical Association 1964</a>)</span>.</td>
-<td style="text-align: left;">Exists as the primary theoretical basis for US federal research regulations (The Common Rule).</td>
+<td><strong>Belmont</strong></td>
+<td>U.S. national commission</td>
+<td>Respect, beneficence, justice</td>
+<td>Turn principles into oversight</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="ethics-committees-and-irbs-today" class="slide level2">
-<h2>Ethics Committees and IRBs Today</h2>
-<p>The legacy of these historical events is embedded directly in how medical research and clinical care are governed today. The abuses of the past demonstrated that individual researchers or doctors cannot always be trusted to objectively balance scientific goals with human rights due to conflicting interests.</p>
-<p>This realization mandated structural oversight, leading to the creation of <strong>Institutional Review Boards (IRBs)</strong> for research and <strong>Clinical Ethics Committees</strong> in hospitals.</p>
-<h3 id="institutional-review-boards-irbs">Institutional Review Boards (IRBs)</h3>
-<p>In the United States, an IRB is a specialized committee empowered to approve, monitor, and review biomedical and behavioral research involving humans.</p>
-<ul>
-<li><strong>Purpose:</strong> Their primary purpose is to ensure the rights and welfare of human subjects are protected, largely utilizing the Belmont Report’s framework.</li>
-<li><strong>Requirement:</strong> Any research institution (university, hospital) receiving federal funding must maintain an IRB, and all human subject research must be approved prior to starting.</li>
-<li><strong>Composition:</strong> They must be diverse, including scientists, non-scientists, and members of the community unaffiliated with the institution.</li>
-</ul>
-<h3 id="clinical-ethics-committees">Clinical Ethics Committees</h3>
-<p>While IRBs govern <em>research</em>, clinical ethics committees operate within hospitals to assist with difficult situations in <em>active patient care</em>.</p>
-<ul>
-<li><strong>Function:</strong> They serve as an advisory body when clinicians, patients, and families disagree or face moral dilemmas regarding a treatment plan.</li>
-<li><strong>Focus:</strong> They often deliberate on issues of life-sustaining treatment, decision-making capacity, surrogate decision-making, and resource allocation.</li>
-<li><strong>Goal:</strong> To facilitate communication and provide a structured, multidisciplinary perspective (involving doctors, nurses, social workers, chaplains, and ethicists) to resolve complex moral disagreements.</li>
-</ul>
-<p>These bodies exist because history taught us that ethical oversight must be formal, interdisciplinary, independent, and completely transparent.</p>
-</section>
-<section id="mini-recap" class="slide level2 smaller scrollable">
-<h2>Mini-Recap</h2>
-<div class="recap">
-<p>Medical ethics evolved dramatically from the paternalistic Hippocratic tradition to a modern framework centered on patient autonomy and human rights. This monumental shift was catalyzed by horrific abuses—from the Nazi medical experiments to the Tuskegee Syphilis Study here in the US. These tragedies necessitated the creation of foundational texts like the Nuremberg Code and the Belmont Report, and the establishment of formal oversight bodies like IRBs, to ensure that the advancement of science never again supersedes the rights of the individual.</p>
+<section id="bioethics-timeline" class="slide level2">
+<h2>Bioethics Timeline</h2>
+<div class="cell" data-fig-width="10.5" data-fig-height="2.7" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="1008" height="259" viewbox="0.00 0.00 857.03 58.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 54)">
+<title>timeline</title>
+<!-- A -->
+<g id="node1" class="node">
+<title>A</title>
+<path fill="#fad7d2" stroke="#c0392b" d="M48.47,-50C48.47,-50 11.84,-50 11.84,-50 5.84,-50 -0.16,-44 -0.16,-38 -0.16,-38 -0.16,-12 -0.16,-12 -0.16,-6 5.84,0 11.84,0 11.84,0 48.47,0 48.47,0 54.47,0 60.47,-6 60.47,-12 60.47,-12 60.47,-38 60.47,-38 60.47,-44 54.47,-50 48.47,-50"></path>
+<text text-anchor="middle" x="30.16" y="-34" font-family="Inter" font-size="10.00">1932</text>
+<text text-anchor="middle" x="30.16" y="-22" font-family="Inter" font-size="10.00">Tuskegee</text>
+<text text-anchor="middle" x="30.16" y="-10" font-family="Inter" font-size="10.00">begins</text>
+</g>
+<!-- B -->
+<g id="node2" class="node">
+<title>B</title>
+<path fill="#e6f1f2" stroke="#0e7c86" d="M162.62,-50C162.62,-50 119.55,-50 119.55,-50 113.55,-50 107.55,-44 107.55,-38 107.55,-38 107.55,-12 107.55,-12 107.55,-6 113.55,0 119.55,0 119.55,0 162.62,0 162.62,0 168.62,0 174.62,-6 174.62,-12 174.62,-12 174.62,-38 174.62,-38 174.62,-44 168.62,-50 162.62,-50"></path>
+<text text-anchor="middle" x="141.08" y="-34" font-family="Inter" font-size="10.00">1947</text>
+<text text-anchor="middle" x="141.08" y="-22" font-family="Inter" font-size="10.00">Nuremberg</text>
+<text text-anchor="middle" x="141.08" y="-10" font-family="Inter" font-size="10.00">Code</text>
+</g>
+<!-- A&#45;&gt;B -->
+<g id="edge1" class="edge">
+<title>A-&gt;B</title>
+<path fill="none" stroke="#64748b" stroke-width="1.1" d="M60.35,-25C72.58,-25 86.99,-25 100.18,-25"></path>
+<polygon fill="#64748b" stroke="#64748b" stroke-width="1.1" points="100.35,-27.45 107.35,-25 100.35,-22.55 100.35,-27.45"></polygon>
+</g>
+<!-- C -->
+<g id="node3" class="node">
+<title>C</title>
+<path fill="#dfe6ee" stroke="#475569" d="M265.68,-44C265.68,-44 233.91,-44 233.91,-44 227.91,-44 221.91,-38 221.91,-32 221.91,-32 221.91,-18 221.91,-18 221.91,-12 227.91,-6 233.91,-6 233.91,-6 265.68,-6 265.68,-6 271.68,-6 277.68,-12 277.68,-18 277.68,-18 277.68,-32 277.68,-32 277.68,-38 271.68,-44 265.68,-44"></path>
+<text text-anchor="middle" x="249.8" y="-28" font-family="Inter" font-size="10.00">1964</text>
+<text text-anchor="middle" x="249.8" y="-16" font-family="Inter" font-size="10.00">Helsinki</text>
+</g>
+<!-- B&#45;&gt;C -->
+<g id="edge2" class="edge">
+<title>B-&gt;C</title>
+<path fill="none" stroke="#64748b" stroke-width="1.1" d="M174.68,-25C187.29,-25 201.72,-25 214.48,-25"></path>
+<polygon fill="#64748b" stroke="#64748b" stroke-width="1.1" points="214.78,-27.45 221.78,-25 214.78,-22.55 214.78,-27.45"></polygon>
+</g>
+<!-- D -->
+<g id="node4" class="node">
+<title>D</title>
+<path fill="#fce9d6" stroke="#b07d1a" d="M367.37,-50C367.37,-50 336.86,-50 336.86,-50 330.86,-50 324.86,-44 324.86,-38 324.86,-38 324.86,-12 324.86,-12 324.86,-6 330.86,0 336.86,0 336.86,0 367.37,0 367.37,0 373.37,0 379.37,-6 379.37,-12 379.37,-12 379.37,-38 379.37,-38 379.37,-44 373.37,-50 367.37,-50"></path>
+<text text-anchor="middle" x="352.12" y="-34" font-family="Inter" font-size="10.00">1966</text>
+<text text-anchor="middle" x="352.12" y="-22" font-family="Inter" font-size="10.00">Beecher</text>
+<text text-anchor="middle" x="352.12" y="-10" font-family="Inter" font-size="10.00">article</text>
+</g>
+<!-- C&#45;&gt;D -->
+<g id="edge3" class="edge">
+<title>C-&gt;D</title>
+<path fill="none" stroke="#64748b" stroke-width="1.1" d="M277.94,-25C290.07,-25 304.49,-25 317.31,-25"></path>
+<polygon fill="#64748b" stroke="#64748b" stroke-width="1.1" points="317.64,-27.45 324.64,-25 317.64,-22.55 317.64,-27.45"></polygon>
+</g>
+<!-- E -->
+<g id="node5" class="node">
+<title>E</title>
+<path fill="#e6f1f2" stroke="#0e7c86" d="M483.8,-50C483.8,-50 438.39,-50 438.39,-50 432.39,-50 426.39,-44 426.39,-38 426.39,-38 426.39,-12 426.39,-12 426.39,-6 432.39,0 438.39,0 438.39,0 483.8,0 483.8,0 489.8,0 495.8,-6 495.8,-12 495.8,-12 495.8,-38 495.8,-38 495.8,-44 489.8,-50 483.8,-50"></path>
+<text text-anchor="middle" x="461.09" y="-34" font-family="Inter" font-size="10.00">1970</text>
+<text text-anchor="middle" x="461.09" y="-22" font-family="Inter" font-size="10.00">'Bioethics'</text>
+<text text-anchor="middle" x="461.09" y="-10" font-family="Inter" font-size="10.00">popularized</text>
+</g>
+<!-- D&#45;&gt;E -->
+<g id="edge4" class="edge">
+<title>D-&gt;E</title>
+<path fill="none" stroke="#64748b" stroke-width="1.1" d="M379.56,-25C391.46,-25 405.79,-25 419.04,-25"></path>
+<polygon fill="#64748b" stroke="#64748b" stroke-width="1.1" points="419.27,-27.45 426.27,-25 419.27,-22.55 419.27,-27.45"></polygon>
+</g>
+<!-- F -->
+<g id="node6" class="node">
+<title>F</title>
+<path fill="#fad7d2" stroke="#c0392b" d="M591.17,-50C591.17,-50 554.54,-50 554.54,-50 548.54,-50 542.54,-44 542.54,-38 542.54,-38 542.54,-12 542.54,-12 542.54,-6 548.54,0 554.54,0 554.54,0 591.17,0 591.17,0 597.17,0 603.17,-6 603.17,-12 603.17,-12 603.17,-38 603.17,-38 603.17,-44 597.17,-50 591.17,-50"></path>
+<text text-anchor="middle" x="572.85" y="-34" font-family="Inter" font-size="10.00">1972</text>
+<text text-anchor="middle" x="572.85" y="-22" font-family="Inter" font-size="10.00">Tuskegee</text>
+<text text-anchor="middle" x="572.85" y="-10" font-family="Inter" font-size="10.00">exposed</text>
+</g>
+<!-- E&#45;&gt;F -->
+<g id="edge5" class="edge">
+<title>E-&gt;F</title>
+<path fill="none" stroke="#64748b" stroke-width="1.1" d="M495.92,-25C508.35,-25 522.47,-25 535.14,-25"></path>
+<polygon fill="#64748b" stroke="#64748b" stroke-width="1.1" points="535.41,-27.45 542.41,-25 535.41,-22.55 535.41,-27.45"></polygon>
+</g>
+<!-- G -->
+<g id="node7" class="node">
+<title>G</title>
+<path fill="#dfe6ee" stroke="#475569" d="M733.38,-50C733.38,-50 662.22,-50 662.22,-50 656.22,-50 650.22,-44 650.22,-38 650.22,-38 650.22,-12 650.22,-12 650.22,-6 656.22,0 662.22,0 662.22,0 733.38,0 733.38,0 739.38,0 745.38,-6 745.38,-12 745.38,-12 745.38,-38 745.38,-38 745.38,-44 739.38,-50 733.38,-50"></path>
+<text text-anchor="middle" x="697.8" y="-34" font-family="Inter" font-size="10.00">1974</text>
+<text text-anchor="middle" x="697.8" y="-22" font-family="Inter" font-size="10.00">National Research</text>
+<text text-anchor="middle" x="697.8" y="-10" font-family="Inter" font-size="10.00">Act</text>
+</g>
+<!-- F&#45;&gt;G -->
+<g id="edge6" class="edge">
+<title>F-&gt;G</title>
+<path fill="none" stroke="#64748b" stroke-width="1.1" d="M603.3,-25C615.16,-25 629.22,-25 642.79,-25"></path>
+<polygon fill="#64748b" stroke="#64748b" stroke-width="1.1" points="642.83,-27.45 649.83,-25 642.83,-22.55 642.83,-27.45"></polygon>
+</g>
+<!-- H -->
+<g id="node8" class="node">
+<title>H</title>
+<path fill="#e6f1f2" stroke="#0e7c86" stroke-width="2" d="M837.26,-50C837.26,-50 804.37,-50 804.37,-50 798.37,-50 792.37,-44 792.37,-38 792.37,-38 792.37,-12 792.37,-12 792.37,-6 798.37,0 804.37,0 804.37,0 837.26,0 837.26,0 843.26,0 849.26,-6 849.26,-12 849.26,-12 849.26,-38 849.26,-38 849.26,-44 843.26,-50 837.26,-50"></path>
+<text text-anchor="middle" x="820.81" y="-34" font-family="Inter" font-size="10.00">1979</text>
+<text text-anchor="middle" x="820.81" y="-22" font-family="Inter" font-size="10.00">Belmont</text>
+<text text-anchor="middle" x="820.81" y="-10" font-family="Inter" font-size="10.00">Report</text>
+</g>
+<!-- G&#45;&gt;H -->
+<g id="edge7" class="edge">
+<title>G-&gt;H</title>
+<path fill="none" stroke="#64748b" stroke-width="1.1" d="M745.59,-25C758.82,-25 772.97,-25 785.34,-25"></path>
+<polygon fill="#64748b" stroke="#64748b" stroke-width="1.1" points="785.39,-27.45 792.39,-25 785.39,-22.55 785.39,-27.45"></polygon>
+</g>
+</g>
+</svg>
 </div>
+<p></p><figcaption> A slide-sized timeline of the key Lecture 2A milestones. The sequence matters: atrocity produces a code, ordinary abuses expose deeper problems, and oversight emerges only after repeated failure.</figcaption> </figure><p></p>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="oversight-today" class="title-slide slide level1 section-divider center">
+<h1>Oversight Today</h1>
 
-
+</section>
+<section id="what-irbs-do" class="slide level2">
+<h2>What IRBs Do</h2>
+<ul>
+<li><span class="key-term">IRBs</span> review proposed human-subject research</li>
+<li>Ask whether risks are minimized</li>
+<li>Ask whether risks are justified</li>
+<li>Ask whether subjects are selected fairly</li>
+<li>Ask whether consent protections are adequate</li>
+</ul>
+</section>
+<section id="how-an-irb-thinks" class="slide level2">
+<h2>How an IRB Thinks</h2>
+<div class="cell" data-fig-width="10" data-fig-height="2.8" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="960" height="269" viewbox="0.00 0.00 956.59 287.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 283)">
+<title>irb</title>
+<!-- A -->
+<g id="node1" class="node">
+<title>A</title>
+<path fill="#e6f1f2" stroke="#0e7c86" d="M47.67,-57C47.67,-57 11.78,-57 11.78,-57 5.78,-57 -0.22,-51 -0.22,-45 -0.22,-45 -0.22,-31 -0.22,-31 -0.22,-25 5.78,-19 11.78,-19 11.78,-19 47.67,-19 47.67,-19 53.67,-19 59.67,-25 59.67,-31 59.67,-31 59.67,-45 59.67,-45 59.67,-51 53.67,-57 47.67,-57"></path>
+<text text-anchor="middle" x="29.72" y="-41" font-family="Inter" font-size="10.00">Protocol</text>
+<text text-anchor="middle" x="29.72" y="-29" font-family="Inter" font-size="10.00">submitted</text>
+</g>
+<!-- B -->
+<g id="node2" class="node">
+<title>B</title>
+<polygon fill="#f8fafc" stroke="#94a3b8" points="166.76,-76 108.62,-38 166.76,0 224.9,-38 166.76,-76"></polygon>
+<text text-anchor="middle" x="166.76" y="-41" font-family="Inter" font-size="10.00">Scientific</text>
+<text text-anchor="middle" x="166.76" y="-29" font-family="Inter" font-size="10.00">value?</text>
+</g>
+<!-- A&#45;&gt;B -->
+<g id="edge1" class="edge">
+<title>A-&gt;B</title>
+<path fill="none" stroke="#64748b" d="M59.69,-38C71.95,-38 86.75,-38 101.36,-38"></path>
+<polygon fill="#64748b" stroke="#64748b" points="101.5,-40.45 108.5,-38 101.5,-35.55 101.5,-40.45"></polygon>
+</g>
+<!-- C -->
+<g id="node3" class="node">
+<title>C</title>
+<polygon fill="#f8fafc" stroke="#94a3b8" points="352.29,-136 284.87,-98 352.29,-60 419.7,-98 352.29,-136"></polygon>
+<text text-anchor="middle" x="352.29" y="-101" font-family="Inter" font-size="10.00">Risks</text>
+<text text-anchor="middle" x="352.29" y="-89" font-family="Inter" font-size="10.00">minimized?</text>
+</g>
+<!-- B&#45;&gt;C -->
+<g id="edge3" class="edge">
+<title>B-&gt;C</title>
+<path fill="none" stroke="#64748b" d="M206.24,-50.58C234.18,-59.71 272.22,-72.15 302.34,-82"></path>
+<polygon fill="#64748b" stroke="#64748b" points="301.61,-84.34 309.02,-84.18 303.13,-79.68 301.61,-84.34"></polygon>
+<text text-anchor="middle" x="255.08" y="-70.7" font-family="Inter" font-size="9.00">yes</text>
+</g>
+<!-- R -->
+<g id="node6" class="node">
+<title>R</title>
+<path fill="#fad7d2" stroke="#c0392b" d="M929.68,-137C929.68,-137 895.58,-137 895.58,-137 889.58,-137 883.58,-131 883.58,-125 883.58,-125 883.58,-111 883.58,-111 883.58,-105 889.58,-99 895.58,-99 895.58,-99 929.68,-99 929.68,-99 935.68,-99 941.68,-105 941.68,-111 941.68,-111 941.68,-125 941.68,-125 941.68,-131 935.68,-137 929.68,-137"></path>
+<text text-anchor="middle" x="912.63" y="-121" font-family="Inter" font-size="10.00" fill="#9d2f23">Revise or</text>
+<text text-anchor="middle" x="912.63" y="-109" font-family="Inter" font-size="10.00" fill="#9d2f23">reject</text>
+</g>
+<!-- B&#45;&gt;R -->
+<g id="edge2" class="edge">
+<title>B-&gt;R</title>
+<path fill="none" stroke="#c0392b" d="M210.15,-28.18C247.18,-20.46 302.5,-11 351.29,-11 351.29,-11 351.29,-11 736.29,-11 799.33,-11 858.91,-62.02 889.76,-93.6"></path>
+<polygon fill="#c0392b" stroke="#c0392b" points="888.2,-95.52 894.82,-98.87 891.74,-92.12 888.2,-95.52"></polygon>
+<text text-anchor="middle" x="536.7" y="-13.7" font-family="Inter" font-size="9.00" fill="#c0392b">no</text>
+</g>
+<!-- D -->
+<g id="node4" class="node">
+<title>D</title>
+<polygon fill="#f8fafc" stroke="#94a3b8" points="536.7,-202 479.28,-164 536.7,-126 594.13,-164 536.7,-202"></polygon>
+<text text-anchor="middle" x="536.7" y="-167" font-family="Inter" font-size="10.00">Selection</text>
+<text text-anchor="middle" x="536.7" y="-155" font-family="Inter" font-size="10.00">fair?</text>
+</g>
+<!-- C&#45;&gt;D -->
+<g id="edge5" class="edge">
+<title>C-&gt;D</title>
+<path fill="none" stroke="#64748b" d="M393.77,-112.65C423.05,-123.24 462.54,-137.53 492.44,-148.35"></path>
+<polygon fill="#64748b" stroke="#64748b" points="491.63,-150.66 499.05,-150.74 493.3,-146.05 491.63,-150.66"></polygon>
+<text text-anchor="middle" x="449.49" y="-137.7" font-family="Inter" font-size="9.00">yes</text>
+</g>
+<!-- C&#45;&gt;R -->
+<g id="edge4" class="edge">
+<title>C-&gt;R</title>
+<path fill="none" stroke="#c0392b" d="M415.98,-100.25C533.59,-104.46 783.77,-113.42 876.28,-116.73"></path>
+<polygon fill="#c0392b" stroke="#c0392b" points="876.36,-119.19 883.44,-116.99 876.53,-114.29 876.36,-119.19"></polygon>
+<text text-anchor="middle" x="623.91" y="-110.7" font-family="Inter" font-size="9.00" fill="#c0392b">no</text>
+</g>
+<!-- E -->
+<g id="node5" class="node">
+<title>E</title>
+<polygon fill="#f8fafc" stroke="#94a3b8" points="735.29,-277 654.04,-239 735.29,-201 816.54,-239 735.29,-277"></polygon>
+<text text-anchor="middle" x="735.29" y="-242" font-family="Inter" font-size="10.00">Consent</text>
+<text text-anchor="middle" x="735.29" y="-230" font-family="Inter" font-size="10.00">strong enough?</text>
+</g>
+<!-- D&#45;&gt;E -->
+<g id="edge7" class="edge">
+<title>D-&gt;E</title>
+<path fill="none" stroke="#64748b" d="M573.76,-177.76C604.42,-189.45 648.79,-206.38 683.12,-219.48"></path>
+<polygon fill="#64748b" stroke="#64748b" points="682.43,-221.84 689.85,-222.04 684.18,-217.26 682.43,-221.84"></polygon>
+<text text-anchor="middle" x="623.91" y="-200.7" font-family="Inter" font-size="9.00">yes</text>
+</g>
+<!-- D&#45;&gt;R -->
+<g id="edge6" class="edge">
+<title>D-&gt;R</title>
+<path fill="none" stroke="#c0392b" d="M585.44,-158.13C661.62,-148.76 808.93,-130.63 876.37,-122.34"></path>
+<polygon fill="#c0392b" stroke="#c0392b" points="876.77,-124.76 883.41,-121.47 876.17,-119.89 876.77,-124.76"></polygon>
+<text text-anchor="middle" x="735.29" y="-152.7" font-family="Inter" font-size="9.00" fill="#c0392b">no</text>
+</g>
+<!-- E&#45;&gt;R -->
+<g id="edge8" class="edge">
+<title>E-&gt;R</title>
+<path fill="none" stroke="#c0392b" d="M777.01,-220.48C800.15,-209.11 829.11,-193.41 852.66,-176 865.96,-166.17 879.23,-153.45 889.8,-142.42"></path>
+<polygon fill="#c0392b" stroke="#c0392b" points="891.73,-143.94 894.76,-137.17 888.17,-140.58 891.73,-143.94"></polygon>
+<text text-anchor="middle" x="846.67" y="-187.7" font-family="Inter" font-size="9.00" fill="#c0392b">no</text>
+</g>
+<!-- F -->
+<g id="node7" class="node">
+<title>F</title>
+<path fill="#cfe9ec" stroke="#0e7c86" stroke-width="2" d="M936.56,-279C936.56,-279 888.7,-279 888.7,-279 882.7,-279 876.7,-273 876.7,-267 876.7,-267 876.7,-253 876.7,-253 876.7,-247 882.7,-241 888.7,-241 888.7,-241 936.56,-241 936.56,-241 942.56,-241 948.56,-247 948.56,-253 948.56,-253 948.56,-267 948.56,-267 948.56,-273 942.56,-279 936.56,-279"></path>
+<text text-anchor="middle" x="912.63" y="-263" font-family="Inter" font-size="10.00" fill="#0e7c86">Approve and</text>
+<text text-anchor="middle" x="912.63" y="-251" font-family="Inter" font-size="10.00" fill="#0e7c86">monitor</text>
+</g>
+<!-- E&#45;&gt;F -->
+<g id="edge9" class="edge">
+<title>E-&gt;F</title>
+<path fill="none" stroke="#0e7c86" d="M800.58,-246.7C823.49,-249.44 848.69,-252.46 869.29,-254.93"></path>
+<polygon fill="#0e7c86" stroke="#0e7c86" points="869.13,-257.38 876.37,-255.78 869.71,-252.51 869.13,-257.38"></polygon>
+<text text-anchor="middle" x="846.67" y="-255.7" font-family="Inter" font-size="9.00" fill="#0e7c86">yes</text>
+</g>
+</g>
+</svg>
+</div>
+<p></p><figcaption> An IRB turns Belmont-style principles into review questions. Each gate reflects a lesson learned from earlier research abuses.</figcaption> </figure><p></p>
+</div>
+</div>
+</div>
+</section>
+<section id="clinical-ethics-committees" class="slide level2">
+<h2>Clinical Ethics Committees</h2>
+<ul>
+<li>IRBs govern research</li>
+<li>Clinical ethics committees help with bedside conflict</li>
+<li>They advise on capacity, surrogates, end-of-life decisions, and conflict</li>
+<li>They are multidisciplinary by design</li>
+<li>Their existence reflects distrust of one-person moral authority</li>
+</ul>
+</section>
+<section id="why-this-still-matters-at-the-bedside" class="slide level2">
+<h2>Why This Still Matters at the Bedside</h2>
+<ul>
+<li>Research ethics changed clinical ethics too</li>
+<li>Patients came to be seen as agents, not passive recipients</li>
+<li>Consent, refusal, truth-telling, and confidentiality moved to the center</li>
+<li>The old question was “What should the doctor do?”</li>
+<li>The new question is “How should clinicians decide with patients?”</li>
+</ul>
+</section>
+<section id="the-rulebook-you-just-built" class="slide level2">
+<h2>The Rulebook You Just Built</h2>
+<table class="caption-top">
+<caption>Together, these are why research today requires documented consent and independent review.</caption>
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Scandal</th>
+<th>What was missing</th>
+<th>What it became</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Carrie Buck (1927)</td>
+<td>Your body is yours</td>
+<td>The body-autonomy idea the law had skipped</td>
+</tr>
+<tr class="even">
+<td>Nuremberg (1947)</td>
+<td>The subject’s free “yes”</td>
+<td><strong>Voluntary consent</strong></td>
+</tr>
+<tr class="odd">
+<td>Willowbrook &amp; Beecher (1956–66)</td>
+<td>An outside check</td>
+<td><strong>Independent review (IRBs)</strong></td>
+</tr>
+<tr class="even">
+<td>Tuskegee (1932–72)</td>
+<td>Honesty, treatment, fair selection</td>
+<td><strong>Belmont: respect, beneficence, justice</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="wrapping-up-part-a" class="slide level2">
+<h2>Wrapping Up Part A</h2>
+<div class="recap">
+<p>Medical ethics moved from professional paternalism toward explicit respect for persons because abuse made the older model impossible to defend. Nuremberg named consent. Willowbrook and Beecher showed abuse can look respectable. Tuskegee exposed racism, deception, and 40 years of institutional failure. Belmont turned these lessons into a framework that still governs research and echoes through bedside care.</p>
+</div>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-beauchamp2019" class="csl-entry" role="listitem">
-Beauchamp, Tom L., and James F. Childress. 2019. <em>Principles of Biomedical Ethics</em>. 8th ed. Oxford University Press.
+<div id="ref-beecher1966" class="csl-entry" role="listitem">
+Beecher, Henry K. 1966. <span>“Ethics and Clinical Research.”</span> <em>New England Journal of Medicine</em> 274 (24): 1354–60. <a href="https://doi.org/10.1056/NEJM196606162742405">https://doi.org/10.1056/NEJM196606162742405</a>.
 </div>
 <div id="ref-brandt1978" class="csl-entry" role="listitem">
-Brandt, Allan M. 1978. <em>Racism and Research: The Case of the Tuskegee Syphilis Study</em>. Vol. 8. Hastings Center Report.
+Brandt, Allan M. 1978. <span>“Racism and Research: The Case of the <span>Tuskegee</span> Syphilis Study.”</span> <em>Hastings Center Report</em> 8 (6): 21–29. <a href="https://doi.org/10.2307/3561468">https://doi.org/10.2307/3561468</a>.
+</div>
+<div id="ref-jonsen1998" class="csl-entry" role="listitem">
+Jonsen, Albert R. 1998. <em>The Birth of Bioethics</em>. Oxford University Press.
 </div>
 <div id="ref-belmont1979" class="csl-entry" role="listitem">
-National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. 1979. <em>The Belmont Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research</em>. Department of Health, Education,; Welfare.
+National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. 1979. <em>The <span>Belmont</span> Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research</em>. U.S. Department of Health, Education, and Welfare. <a href="https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html">https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html</a>.
 </div>
 <div id="ref-nuremberg1947" class="csl-entry" role="listitem">
 Nuremberg Military Tribunals. 1947. <em>The Nuremberg Code</em>. Trials of War Criminals before the Nuremberg Military Tribunals under Control Council Law No. 10.
 </div>
 <div id="ref-potter1970" class="csl-entry" role="listitem">
-Potter, Van Rensselaer. 1970. <em>Bioethics, the Science of Survival</em>. Vol. 14. Perspectives in Biology; Medicine.
+Potter, Van Rensselaer. 1970. <span>“Bioethics, the Science of Survival.”</span> <em>Perspectives in Biology and Medicine</em> 14 (1): 127–53.
+</div>
+<div id="ref-buck1927" class="csl-entry" role="listitem">
+Supreme Court of the United States. 1927. <em><span class="nocase">Buck v. Bell, 274 U.S. 200 (1927)</span></em>. U.S. Supreme Court decision.
+</div>
+<div id="ref-hippocraticoath_nlm" class="csl-entry" role="listitem">
+U.S. National Library of Medicine. 2002. <em>Greek Medicine: The <span>Hippocratic</span> Oath</em>. History of Medicine Division. <a href="https://www.nlm.nih.gov/hmd/greek/greek_oath.html">https://www.nlm.nih.gov/hmd/greek/greek_oath.html</a>.
 </div>
 <div id="ref-world1964" class="csl-entry" role="listitem">
 World Medical Association. 1964. <span>“Declaration of Helsinki: Ethical Principles for Medical Research Involving Human Subjects.”</span> <em>JAMA</em>.
 </div>
 </div>
+
+
 </section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">

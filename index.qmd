@@ -22,6 +22,8 @@ All materials are freely available for non-commercial educational use under a [C
 |---|------|-------|--------|-------|
 | 1A | Principles & Reasoning | The Four Principles; Reading a Moral Argument | [Slides](chapters/01-introduction-slides.html) | [Notes](chapters/01-introduction.html) |
 | 1B | Principles & Reasoning | Ethical Theories as Lenses | [Slides](chapters/01b-theories-slides.html) | [Notes](chapters/01b-theories.html) |
+| 2A | History & Relationship | From Hippocrates to the Belmont Report | [Slides](chapters/02a-history-slides.html) | [Notes](chapters/02a-history.html) |
+| 2B | History & Relationship | The Clinical Relationship: Consent, Autonomy, and Confidentiality | [Slides](chapters/02b-clinical-relationship-slides.html) | [Notes](chapters/02b-clinical-relationship.html) |
 
 ---
 

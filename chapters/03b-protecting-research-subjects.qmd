@@ -1,0 +1,439 @@
+---
+title: "Lecture 3 — Research Ethics"
+subtitle: "Part B: From Tuskegee to Today: Protecting Research Subjects"
+author: "Brendan Shea, PhD"
+date: last-modified
+format:
+  html:
+    toc: true
+    number-sections: true
+  revealjs:
+    output-file: 03b-protecting-research-subjects-slides.html
+---
+
+# Where We Left Off {.section-divider}
+
+## The New Question
+
+- Part A explained how trials work
+- The rules that protect participants were written after real abuses
+- This part puts those rules to work on hard, current cases
+- The hard question: when does reviewed, legal, well-funded research still wrong people?
+
+## Today
+
+::: {.learning-outcomes}
+By the end of Part B, you will be able to:
+
+- Apply the Belmont principles as concrete IRB review questions
+- Identify vulnerable populations and the protections they require
+- Judge when placebo controls are and are not ethically defensible
+- Analyze the short-course AZT trials as a justice debate
+- Explain why research on tissue and data (HeLa) needs its own consent rules
+- Describe recent developments: the rewritten Common Rule, trial-diversity law, and research misconduct
+:::
+
+# Building on Lecture 2 {.section-divider}
+
+## Three Abuses, Three Protections
+
+Modern research protections were built one scandal at a time.
+
+| Case | The wrong | What it forced into place |
+|---|---|---|
+| **Nazi experiments** | No real consent; extreme harm | Voluntary consent; Nuremberg [@nuremberg1947] |
+| **Willowbrook** | Dependent children, coercive setting | Vulnerable-population protection; independent review [@jonsen1998] |
+| **Tuskegee** | Deception, withheld treatment, racist selection | Belmont: respect, beneficence, justice [@brandt1978; @belmont1979] |
+
+Each row is a failure on the left and the safeguard it forced on the right.
+
+## Thought Question
+
+::: {.thought-question}
+What was the deepest wrong shared by these cases?
+
+- People were used as means to an end
+- People could not refuse freely
+- Powerful institutions targeted the vulnerable
+- Researchers treated knowledge as more important than persons
+
+1. Which answer seems most central to you, and why?
+2. Are these really different wrongs, or just different ways of naming the same one?
+3. If you had to design one protection first, which wrong would you aim it at?
+:::
+
+## Make It Contemporary
+
+::: {.thought-question}
+Today the abuse is less likely to look like camps or segregated wards.
+
+- It may look like a confusing consent form.
+- It may look like recruiting the people least able to say no.
+- It may look like calling exploitation "access."
+
+If a study is legal, reviewed, and well funded, what warning signs would still make you uneasy?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+Three distinctions are worth keeping sharp:
+
+- **Consent failures, harm failures, and justice failures are not identical.** Tuskegee had all three.
+- **These cases are not only about cruelty.** They are also about institutions finding reassuring language for doing the wrong thing.
+- **Modern oversight exists because good intentions are not enough.** The whole point is to distrust self-justification before the damage is done.
+:::
+
+# Belmont, Put to Work {.section-divider}
+
+## Belmont in One Slide
+
+- The [Belmont Report]{.key-term} (1979) named three principles [@belmont1979]
+- **Respect for persons** → real consent; extra care where autonomy is reduced
+- **Beneficence** → minimize harm; justify risk against benefit
+- **Justice** → who bears the burdens, who gets the benefits
+- Each becomes a concrete question an IRB must ask of every study
+
+## One Map from Principle to Protection
+
+```{dot}
+//| fig-width: 10.4
+//| fig-height: 3.1
+//| fig-cap: "Belmont principles become protections only when institutions translate them into review questions and protocol requirements."
+digraph belmont {
+  rankdir=LR;
+  bgcolor="transparent";
+  graph [nodesep=0.5, ranksep=0.75];
+  node [fontname="Inter", fontsize=10, margin="0.16,0.10"];
+  edge [color="#64748b", fontname="Inter", fontsize=9, arrowsize=0.7];
+
+  A [label="Respect for persons", shape=box, style="rounded,filled",
+     fillcolor="#e6f1f2", color="#0e7c86", penwidth=2];
+  B [label="Beneficence", shape=box, style="rounded,filled",
+     fillcolor="#fce9d6", color="#b07d1a"];
+  C [label="Justice", shape=box, style="rounded,filled",
+     fillcolor="#dfe6ee", color="#475569"];
+
+  D [label="Strong consent\nand refusal rights", shape=box, style="rounded,filled",
+     fillcolor="#f8fafc", color="#94a3b8"];
+  E [label="Risk-benefit review\nand monitoring", shape=box, style="rounded,filled",
+     fillcolor="#f8fafc", color="#94a3b8"];
+  F [label="Fair subject\nselection", shape=box, style="rounded,filled",
+     fillcolor="#f8fafc", color="#94a3b8"];
+
+  A -> D;
+  B -> E;
+  C -> F;
+}
+```
+
+## You Are the IRB
+
+::: {.thought-question}
+This protocol lands on your desk:
+
+> A 12-month placebo-controlled trial of a new Alzheimer's drug. Participants: residents of one memory-care facility. Consent: signed by adult children as surrogates. Site chosen because "follow-up is easy — they don't move."
+
+1. Score it on each Belmont principle. Where is it weakest?
+2. What single change would you require before approving it?
+3. Is "easy follow-up" ever a legitimate reason to pick a population?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+- **Respect for persons:** surrogate consent is allowed, but the residents' own assent — and dissent — still count. A child's signature is not the whole story.
+- **Beneficence:** a 12-month placebo arm in a progressive disease needs serious justification [@commonrule_hhs].
+- **Justice:** "they don't move" is convenience. Convenience is exactly what fair selection forbids.
+:::
+
+# Vulnerability and Fair Selection {.section-divider}
+
+## Who Counts as Vulnerable?
+
+- Some groups face special pressure, dependence, or limited freedom in research settings
+- In U.S. regulation, children, prisoners, and pregnant people receive additional protections under specific subparts of 45 CFR 46 [@commonrule_hhs]
+- Cognitive impairment, economic hardship, and dependent relationships can also create vulnerability [@helsinki2024]
+- Vulnerability is not a personality type
+- It is usually about power, context, and what saying no would cost
+- Justice cuts both ways: wrongful *exclusion* from research is also a failure
+
+## Vulnerable Populations and Typical Protections
+
+| Group | Main worry | Typical protection |
+|---|---|---|
+| **Children** | Limited legal and developmental capacity | Parent/guardian permission plus child assent when possible |
+| **Prisoners** | Constrained freedom and risk of coercion | Narrower allowable research categories and extra scrutiny |
+| **Pregnant people / fetuses** | Risk to more than one party and historical exclusion | Additional risk justification and review |
+| **People with cognitive impairment** | Difficulty understanding or sustaining choice | Capacity assessment, surrogate consent, respect for assent or dissent |
+| **Economically disadvantaged participants** | Undue inducement and convenience recruitment | Careful payment review and fair selection |
+
+## Who Gets Studied Is Now Law
+
+- For decades, trial participants were disproportionately white, male, and young — even for diseases that hit other groups hardest
+- Drugs then reach the market with weaker evidence for the people who will actually take them
+- The US **FDORA law (2022)** now requires sponsors of many trials to file a **Diversity Action Plan**: enrollment goals by age, sex, race, and ethnicity, and a plan to meet them
+- The bet: fair selection means not only "don't exploit the vulnerable" but "don't leave them out"
+- Open question: do enrollment targets change recruitment, or just paperwork?
+
+## Thought Question
+
+::: {.thought-question}
+You are on an IRB reviewing a vaccine study.
+
+- The disease burden is high in prisons.
+- Researchers want to recruit incarcerated people because follow-up will be easy.
+- They plan a modest payment and better clinic access for participants.
+
+1. Is this fair inclusion, opportunistic targeting, or both?
+2. What extra protections would you demand before approving it?
+3. Would excluding prisoners entirely also create a justice problem?
+:::
+
+## Make It Contemporary
+
+::: {.thought-question}
+A company launches a drug trial but excludes pregnant people, many disabled adults, and people with low literacy because follow-up will be "messier."
+
+- The drug will still be marketed broadly if approved.
+
+Is this caution, convenience, or injustice?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+Three points to keep in play:
+
+- **Vulnerability is about power, not just fragility.** Ask who depends on whom, who can walk away, and who cannot.
+- **Extra protections should not become automatic exclusion.** Protecting people is not the same as making them invisible.
+- **Convenience is the enemy.** Easy to recruit is never enough reason by itself.
+:::
+
+# Research Without a Trial {.section-divider}
+
+## Henrietta Lacks
+
+- In 1951, Henrietta Lacks, a Black woman, was treated for cervical cancer
+- Without her knowledge, cells from her tumor were taken and grown
+- They became **HeLa** — the first immortal human cell line, used in countless studies and products
+- She was never asked; her family was not told for decades and shared in none of the benefit
+- No drug, no placebo, no "arm" — and still a major research-ethics failure
+
+## Make It Contemporary
+
+::: {.thought-question}
+You give a blood sample for a routine test. A leftover vial is stored.
+
+- Years later it is used — deidentified — in genetic research and a profitable diagnostic.
+- You were never specifically asked. A broad form at intake said "samples may be used for research."
+
+1. Was that consent meaningful?
+2. Do you have a claim to a say — or a share — in what was discovered?
+3. Is "deidentified" enough, when the sample is DNA?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+- **Consent for *this study* is not consent for *all future research*.** Tissue and data banks rely on broad consent — useful, but ethically thinner than specific consent.
+- **Benefit-sharing is part of justice.** If people make a discovery possible, who profits from it is an ethical question, not an afterthought.
+- **"Deidentified" weakens but does not erase the stake** — genomic data can re-identify, and can implicate relatives who never agreed.
+:::
+
+## What the Rules Now Require
+
+- US human-subjects research follows the [Common Rule]{.key-term}, rewritten in 2018 [@commonrule_hhs]
+- Consent forms must now open with a short **"key information"** summary in plain language
+- **Broad consent**: a person can agree once to future, unspecified research on their stored samples and data
+- Most multi-site studies now use a **single IRB** instead of one per site
+- Broad consent is more honest than silence — but thinner than asking each time
+
+# Placebo, Poverty, and Global Research {.section-divider}
+
+## Helsinki's Placebo Rule
+
+- The modern [Declaration of Helsinki]{.key-term} says new interventions should usually be tested against the best proven intervention [@helsinki2024]
+- Placebo is acceptable if no proven intervention exists
+- It may also be acceptable for compelling methodological reasons
+- But not if participants face additional risk of serious or irreversible harm by going without the proven treatment [@helsinki2024]
+- That last condition is the one people fight about
+
+## Why This Rule Is Hard
+
+- Sometimes the best global treatment is unavailable in the place where the study is being done
+- A shorter, cheaper, or simpler regimen might still save many lives
+- Researchers then ask whether the ethically relevant comparison is the **best global care** or the **best locally available care**
+- That is not a purely technical question
+- It is a question about whether poverty changes what researchers may permissibly offer
+
+## The AZT Trials in Five Lines
+
+- In 1994, a long-course zidovudine regimen reduced perinatal HIV transmission
+- That regimen was expensive and logistically difficult in many low-resource settings
+- Later trials tested shorter, cheaper regimens, often against placebo
+- Critics argued this withheld a known effective intervention [@lurie1997]
+- Defenders argued the real question was what feasible strategy could work where the long regimen was not realistically available [@varmus1997]
+
+## Two Famous Positions
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Lurie and Wolfe** [@lurie1997]
+
+- A proven regimen already existed
+- Placebo meant withholding known benefit
+- Poverty should not lower the ethical standard
+- Participants in poorer countries should not get weaker protections
+:::
+
+::: {.column width="50%"}
+**Varmus and Satcher** [@varmus1997]
+
+- The long regimen was not realistically implementable in many settings
+- A shorter regimen might still save lives at scale
+- The ethically relevant comparison had to include feasibility
+- Rejecting the trials might preserve principle while blocking practical benefit
+:::
+
+::::
+
+## What Is Owed After the Study?
+
+- A trial can be clean *during* the study and still abandon people *after* it
+- [Post-trial access]{.key-term}: do participants keep the intervention that worked for them?
+- Ancillary care: what about conditions the study uncovers but did not set out to treat?
+- For the AZT debate this is decisive — proving a regimen works, then withdrawing it, uses the host community
+- "What happens to them afterward?" is part of the design, not cleanup
+
+## A Placebo Decision Tree
+
+```{dot}
+//| fig-width: 10.6
+//| fig-height: 3.5
+//| fig-cap: "A simplified placebo decision tree. Real IRB review is more detailed, but these are the core questions students should learn to ask."
+digraph placebo {
+  rankdir=LR;
+  bgcolor="transparent";
+  graph [nodesep=0.45, ranksep=0.7];
+  node [fontname="Inter", fontsize=10, margin="0.14,0.10"];
+  edge [color="#64748b", fontname="Inter", fontsize=9, arrowsize=0.7];
+
+  A [label="Does a best proven\nintervention exist?", shape=diamond, style=filled,
+     fillcolor="#f8fafc", color="#94a3b8"];
+  B [label="Placebo may be\nethically easier to justify", shape=box, style="rounded,filled",
+     fillcolor="#cfe9ec", color="#0e7c86", fontcolor="#0e7c86", penwidth=2];
+  C [label="Would withholding it risk\nserious or irreversible harm?", shape=diamond, style=filled,
+     fillcolor="#f8fafc", color="#94a3b8"];
+  D [label="Placebo is a major\nethical red flag", shape=box, style="rounded,filled",
+     fillcolor="#fad7d2", color="#c0392b", fontcolor="#9d2f23"];
+  E [label="Is placebo genuinely\nmethodologically necessary?", shape=diamond, style=filled,
+     fillcolor="#f8fafc", color="#94a3b8"];
+  F [label="Use active-control\ndesign instead", shape=box, style="rounded,filled",
+     fillcolor="#fce9d6", color="#b07d1a"];
+  G [label="Approve only with\nstrong justification and protections", shape=box, style="rounded,filled",
+     fillcolor="#dfe6ee", color="#475569"];
+
+  A -> B [label="no", color="#0e7c86", fontcolor="#0e7c86"];
+  A -> C [label="yes"];
+  C -> D [label="yes", color="#c0392b", fontcolor="#c0392b"];
+  C -> E [label="no"];
+  E -> F [label="no", color="#b07d1a", fontcolor="#b07d1a"];
+  E -> G [label="yes"];
+}
+```
+
+## Thought Question
+
+::: {.thought-question}
+You are on an ethics committee in 1997 reviewing a short-course AZT trial in Uganda.
+
+- In the sponsor country, the long-course regimen is already known to work.
+- In the host country, that regimen is too expensive and too complex for ordinary use.
+- The proposed study compares a shorter regimen to placebo.
+
+1. What is the right comparison group?
+2. Does local unavailability change what researchers ethically owe participants?
+3. If the shorter regimen could save many more babies in practice, does that justify the placebo arm?
+:::
+
+## Make It Contemporary
+
+::: {.thought-question}
+The same shape keeps returning:
+
+- A sponsor wants to test a simpler treatment in a low-resource setting.
+- The best global therapy exists, but the local system cannot reliably provide it.
+- The study might produce a realistic improvement, but only by starting from a lower baseline.
+
+Is that ethically responsive to local reality, or is it using local injustice as part of the study design?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+Three hard truths belong together here:
+
+- **"Local standard" describes the world; it does not settle what is ethically owed.**
+- **Feasibility matters, but poverty should not become a discount on human protections.** A study can be practical and still exploitative.
+- **Post-trial access is part of the ethics, not cleanup afterward.** If participants help create useful knowledge, researchers must ask who will actually benefit from it [@emanuel2004benchmarks; @helsinki2024].
+:::
+
+# When the Knowledge Is the Problem {.section-divider}
+
+## Fabrication, Falsification, Plagiarism
+
+- Protecting participants is not the only duty — the knowledge itself must be trustworthy
+- The US Office of Research Integrity names three core wrongs:
+  - **Fabrication** — making up data
+  - **Falsification** — manipulating data, images, or results
+  - **Plagiarism** — passing off others' work or ideas as your own
+- A faked study can change treatment for millions before anyone notices
+
+## The Reproducibility Problem
+
+- Many published findings fail when other scientists try to repeat them
+- Drivers: pressure to publish, selective reporting, weak methods, and how rarely studies are replicated
+- Recent high-profile cases include alleged image manipulation in an influential 2006 Alzheimer's paper and a university president's 2023 resignation over lab-paper integrity
+- Responses being tried: data sharing, preregistration, replication studies, faster retractions
+- For a clinician: "published" and "peer-reviewed" are a floor, not a guarantee
+
+## Thought Question
+
+::: {.thought-question}
+A landmark drug trial is later found to contain manipulated data. Thousands of patients were treated based on it.
+
+1. Who was wronged — the study's participants, future patients, or both?
+2. Is faking data a worse research-ethics violation than a consent failure, or just a different one?
+3. What would have caught this sooner, and why usually doesn't it?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+- **Integrity is a subject-protection issue too.** Bad knowledge harms the patients later treated by it, not only the people in the study.
+- **The safeguards are thin by design.** Science runs on trust and infrequent replication; misconduct exploits exactly that.
+- **Self-correction is real but slow.** Retractions and failed replications are how the system fixes itself — often years later.
+:::
+
+# Wrapping Up Part B {.section-divider}
+
+## The Point of Protection
+
+- Research needs volunteers
+- Volunteers are not raw material
+- That is why consent, independent review, fair selection, and post-trial duties belong together
+- The rulebook exists to keep learning answerable to persons
+- When it works, research becomes both scientifically stronger and morally clearer
+
+## Wrapping Up Part B
+
+::: {.recap}
+Research-ethics rules are only as good as their use: Belmont as live IRB questions, real protections for vulnerable groups, hard limits on placebo when effective treatment exists, the AZT debate over justice across borders, the tissue-and-data problems Henrietta Lacks still poses, and today's evolving rules — the rewritten Common Rule, diversity requirements, and the fight against research misconduct. The central lesson is demanding: ethical research is not research with a signature, but research designed — during and after — so that the people who make knowledge possible are treated as persons first.
+:::
+
+## References
+
+::: {#refs}
+:::

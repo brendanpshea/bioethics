@@ -28,6 +28,14 @@ website:
         menu:
           - href: chapters/02a-history.qmd
             text: "Part A — History"
+          - href: chapters/02b-clinical-relationship.qmd
+            text: "Part B — Clinical Relationship"
+      - text: "3. Research Ethics"
+        menu:
+          - href: chapters/03a-clinical-research.qmd
+            text: "Part A — How Clinical Research Works"
+          - href: chapters/03b-protecting-research-subjects.qmd
+            text: "Part B — Protecting Research Subjects"
     right:
       - icon: github
         href: https://github.com/brendanpshea/bioethics-oer

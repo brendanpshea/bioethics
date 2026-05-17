@@ -84,7 +84,15 @@ Jeremy Bentham, by H. W. Pickersgill. Public domain.
 
 ::::
 
-> "Actions are right in proportion as they tend to promote happiness; wrong as they tend to produce the reverse of happiness." — Mill [@mill1863]
+## Mill States the Principle
+
+::: {.quote-card}
+> "The creed which accepts as the foundation of morals, Utility, or the Greatest Happiness Principle, holds that actions are right in proportion as they tend to promote happiness, wrong as they tend to produce the reverse of happiness. By happiness is intended pleasure, and the absence of pain; by unhappiness, pain, and the privation of pleasure."
+
+::: {.attribution}
+J. S. Mill, *Utilitarianism* (1863) [@mill1863]
+:::
+:::
 
 ## The Greatest Happiness Principle
 
@@ -196,7 +204,15 @@ The key test is his [Categorical Imperative]{.key-term} — a rule for whether a
 
 The most clinically relevant form of the Categorical Imperative [@kant1785]:
 
-> *"Act so that you treat humanity, whether in your own person or in that of another, always as an end and never as a means only."*
+::: {.quote-card}
+> "Now I say: man and generally any rational being exists as an end in himself, not merely as a means to be arbitrarily used by this or that will.… So act as to treat humanity, whether in thine own person or in that of any other, in every case as an end withal, never as means only."
+
+::: {.attribution}
+Kant, *Groundwork of the Metaphysic of Morals* (1785), trans. T. K. Abbott [@kant1785]
+:::
+:::
+
+## What the Formula Demands
 
 In practice, this means:
 
@@ -368,7 +384,7 @@ digraph virtue {
 
 Carol Gilligan [@gilligan1982] argued that dominant moral theories — utilitarian and Kantian — were built around **abstract rules** applied to strangers. They missed what actually structures most moral life: **relationships, dependency, and the responsibility that comes with them**.
 
-> "The moral problem arises from conflicting responsibilities rather than competing rights and requires for its resolution a mode of thinking that is contextual and narrative rather than formal and abstract."
+> "[T]he moral problem arises from conflicting responsibilities rather than from competing rights and requires for its resolution a mode of thinking that is contextual and narrative rather than formal and abstract."
 > — Gilligan, *In a Different Voice* (1982)
 
 ## Relationships, Context, Vulnerability

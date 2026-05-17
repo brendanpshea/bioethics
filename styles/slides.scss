@@ -144,6 +144,34 @@ $code-block-border-color: $rule;
   color: $ink;
 }
 
+.reveal .quote-card {
+  background: linear-gradient(135deg, white 0%, $soft 100%);
+  border: 1px solid $rule;
+  border-left: 6px solid $accent;
+  border-radius: 12px;
+  padding: 0.7em 1em 0.8em;
+  margin: 0.8em 0;
+  box-shadow: 0 8px 14px -8px rgba(0, 0, 0, 0.18);
+  text-align: left;
+}
+
+.reveal .quote-card blockquote {
+  width: 100%;
+  margin: 0;
+  border-left: none;
+  background: transparent;
+  padding: 0;
+  font-size: 0.98em;
+}
+
+.reveal .quote-card .attribution {
+  margin-top: 0.8em;
+  font-size: 0.5em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $muted;
+}
+
 // ----- Tables -----
 .reveal table {
   border-collapse: collapse;
@@ -252,9 +280,12 @@ $code-block-border-color: $rule;
 
 // Inline key term on slides
 .reveal .key-term {
-  color: $primary;
-  font-weight: 600;
-  border-bottom: 1px dotted $primary;
+  color: $primary-dark;
+  font-weight: 700;
+  border-bottom: none;
+  background: linear-gradient(180deg, rgba($primary, 0) 60%, rgba($primary, 0.16) 60%);
+  padding: 0 0.08em;
+  border-radius: 0.16em;
 }
 
 // Speaker notes (already styled by reveal, but tighten)

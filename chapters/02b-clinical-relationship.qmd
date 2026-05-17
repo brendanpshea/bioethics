@@ -1,0 +1,547 @@
+---
+title: "Lecture 2 — History & the Clinical Relationship"
+subtitle: "Part B: The Clinical Relationship: Consent, Autonomy, and Confidentiality"
+author: "Brendan Shea, PhD"
+date: last-modified
+format:
+  html:
+    toc: true
+    number-sections: true
+  revealjs:
+    output-file: 02b-clinical-relationship-slides.html
+---
+
+# Where We Left Off {.section-divider}
+
+## The New Question
+
+- Part A showed why unchecked professional authority is dangerous
+- But clinicians still have expertise, duties, and time pressure
+- Patients still come to medicine for guidance, not just facts
+- So what should replace "doctor knows best"? That is Part B.
+
+## Today
+
+::: {.learning-outcomes}
+By the end of Part B, you will be able to:
+
+- Distinguish the four Emanuel and Emanuel models
+- Explain the four elements of valid informed consent
+- Tell an unwise decision apart from an incapacitated one
+- Identify the main limits on confidentiality
+- Work through a truth-telling conflict involving family and culture
+:::
+
+# Meet Mrs. R {.section-divider}
+
+## Meet Mrs. R
+
+- Mrs. R is 61. She came in for fatigue and weight loss.
+- The colonoscopy found colon cancer — serious, but treatable.
+- She is frightened. Her daughter, Dana, drives her to every appointment and does most of the talking.
+- We will follow Mrs. R through the whole class. Every idea today will land on her.
+
+## What's Missing From This Picture?
+
+:::: {.columns}
+
+::: {.column width="50%"}
+![](../images/the_doctor_fildes.jpg){width="96%" fig-alt="Luke Fildes, The Doctor"}
+
+::: {.attribution}
+Sir Luke Fildes, *The Doctor* (1891), via Wikimedia Commons, public domain.
+:::
+:::
+
+::: {.column width="50%"}
+- The iconic image of medicine: the doctor watches, interprets, decides
+- The patient is silent
+- The family waits in the background
+- One thing is missing that we now think is central: **the patient's voice**
+:::
+
+::::
+
+## Why the Clinical Relationship Is Hard
+
+- Patients are sick, frightened, and often in pain
+- Information is unequal from the very first minute
+- Values are at stake, not just technical facts
+- Patients often want guidance — but guidance can quietly become control
+
+## Three Sources of Asymmetry
+
+```{dot}
+//| fig-width: 7.6
+//| fig-height: 3.2
+//| fig-cap: "A compact map of the clinical asymmetry: the patient sits at the center, but expertise, institutions, and family pressures all shape the decision space."
+digraph asym {
+  layout=neato;
+  splines=true;
+  overlap=false;
+  bgcolor="transparent";
+  node [fontname="Inter", fontsize=10, style="rounded,filled", shape=box,
+      margin="0.16,0.10", color="#94a3b8", fillcolor="#f8fafc"];
+  edge [color="#94a3b8", arrowsize=0.7];
+
+  P [label="Patient\nill, vulnerable,\ntime-pressured",
+    pos="2.2,1.65!", fillcolor="#e6f1f2", color="#0e7c86", penwidth=2];
+  C [label="Clinician\nexpertise, options,\ninterpretation",
+    pos="0.45,3.15!", fillcolor="#fce9d6", color="#b07d1a"];
+  I [label="Institution\npolicy, cost,\nworkflow",
+    pos="3.95,3.15!", fillcolor="#dfe6ee", color="#475569"];
+  F [label="Family / others\nexpectations, pressure,\ncare roles",
+    pos="2.2,0.1!", fillcolor="#fad7d2", color="#c0392b"];
+
+  C -> P [dir=both];
+  I -> P [dir=both];
+  F -> P [dir=both];
+}
+```
+
+- Ethical care does not erase this asymmetry — it manages it openly
+
+## The Core Tension
+
+::: {.principle-marker}
+[Autonomy]{.pill .pill-autonomy} versus [Beneficence]{.pill .pill-beneficence}
+:::
+
+- [Autonomy]{.key-term}: the patient's right to make informed choices
+- [Beneficence]{.key-term}: the clinician's duty to protect welfare
+- Most of the time these agree
+- The hard cases are when they pull apart — and Mrs. R is about to give us one
+
+# Four Ways to Be in the Room {.section-divider}
+
+## Four Models at a Glance
+
+| Model | Main clinician role | Main risk |
+|---|---|---|
+| **Paternalistic** | Decide what is best | Patient becomes passive |
+| **Informative** | Provide facts and options | Clinician becomes a vending machine |
+| **Interpretive** | Help clarify the patient's values | Clinician may over-read the patient |
+| **Deliberative** | Recommend and reason about values | Persuasion can slide into pressure |
+
+## One Map of the Models
+
+```{dot}
+//| fig-width: 10.2
+//| fig-height: 3.0
+//| fig-cap: "The Emanuel models differ mainly in what the clinician does with professional authority once a patient's values are more or less clear."
+digraph models {
+  rankdir=LR;
+  bgcolor="transparent";
+  graph [nodesep=0.5, ranksep=0.7];
+  node [fontname="Inter", fontsize=10, margin="0.15,0.10"];
+  edge [color="#64748b", fontname="Inter", fontsize=9, arrowsize=0.7];
+
+  A [label="How should a clinician\nuse authority?", shape=box, style="rounded,filled",
+    fillcolor="#e6f1f2", color="#0e7c86"];
+  B [label="Patient values\nalready clear?", shape=diamond, style=filled,
+    fillcolor="#f8fafc", color="#94a3b8"];
+  C [label="If yes, what should\nthe clinician do?", shape=diamond, style=filled,
+    fillcolor="#f8fafc", color="#94a3b8"];
+  P [label="Paternalistic\nclinician chooses\nthe end", shape=box, style="rounded,filled",
+    fillcolor="#fad7d2", color="#c0392b", fontcolor="#9d2f23"];
+  I [label="Informative\nprovide facts", shape=box, style="rounded,filled",
+    fillcolor="#dfe6ee", color="#475569"];
+  R [label="Interpretive\nclarify the\npatient's values", shape=box, style="rounded,filled",
+    fillcolor="#fce9d6", color="#b07d1a"];
+  D [label="Deliberative\nrecommend and\ngive reasons", shape=box, style="rounded,filled",
+    fillcolor="#cfe9ec", color="#0e7c86", fontcolor="#0e7c86", penwidth=2];
+
+  A -> B;
+  B -> P [label="no", color="#c0392b", fontcolor="#c0392b"];
+  B -> C [label="yes"];
+  C -> I [label="facts only"];
+  C -> R [label="clarify values"];
+  C -> D [label="recommend values"];
+}
+```
+
+## The Same News, Four Ways (1)
+
+Mrs. R asks: *"So what happens now?"* Same clinician, same facts, four models:
+
+- **[Paternalistic]{.key-term}** — "The right move is surgery. We'll get you scheduled."
+  - *Risk:* Mrs. R becomes a passenger in her own care
+- **[Informative]{.key-term}** — "Here are three options with their survival numbers. Which do you want?"
+  - *Risk:* the facts get dumped; she's left to interpret them alone
+
+## The Same News, Four Ways (2)
+
+- **[Interpretive]{.key-term}** — "Before we choose: what matters most to you — more time, or fewer side effects?"
+  - *Risk:* the clinician may over-read what she "really" wants
+- **[Deliberative]{.key-term}** — "Here's what I'd weigh in your situation, and why. What do you think?"
+  - *Risk:* good persuasion can tip into pressure
+
+::: {.notes}
+Read these aloud in four different voices. The point students should feel: the *facts* never changed — only what the clinician did with authority.
+:::
+
+## Which Model Fits?
+
+::: {.thought-question}
+Match a model to each case — and say *why*:
+
+- An unconscious trauma patient in the ED
+- A patient choosing between two cancer regimens with similar odds
+- An older adult unsure whether dialysis still fits her goals
+- A patient who asks you, "What would you do if it were your mom?"
+
+And: should Mrs. R get the *same* model at every visit?
+:::
+
+## Make It Contemporary
+
+::: {.thought-question}
+Mrs. R arrives at the next visit having read everything online. She is convinced she needs a specific drug she saw in an ad, and an AI chatbot agreed with her.
+
+- Does the "informative" model still work when a patient can't judge their own information?
+- Is telling her the source is wrong *paternalistic*, or just honest?
+- What does respecting her autonomy actually require here?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+- **No model wins everywhere.** Emergencies push left toward paternalism; chronic illness usually works best in the interpretive/deliberative middle.
+- **Choosing the model is itself a shared decision.** The deepest move is to *ask the patient how much steering they want* — and to revisit it as the illness, and the patient, change. "Advice" with the steering hidden is the move to watch for.
+:::
+
+# Mrs. R Signs a Form {.section-divider}
+
+## Consent Is a Process, Not a Signature
+
+- [Informed consent]{.key-term} makes "respect for persons" concrete [@faden1986]
+- A signed form can *document* the process — it cannot *replace* it
+- A refusal can be just as valid as a yes
+- Outside emergencies, consent comes *before* the intervention
+
+## The Four Elements of Valid Consent
+
+| Element | The practical question |
+|---|---|
+| **Disclosure** | Was the relevant information provided? |
+| **Understanding** | Does the patient actually grasp it? |
+| **Voluntariness** | Is the choice free from controlling pressure? |
+| **Capacity** | Can the patient make this decision now? |
+
+## Disclosure & Understanding, with Mrs. R
+
+- **Disclosure** — you explain the cancer, the surgery, the major risks, the alternatives, and what happens if she does *nothing*
+- **Understanding** — you ask her to say it back: *"What did you hear?"*
+  - She says: "You're removing part of my colon, and I might need a bag for a while."
+  - That is understanding. Hearing the words is not the same thing.
+- Plain language, an interpreter when needed, and slow down when fear or pain narrows her focus
+
+## Voluntariness, with Mrs. R
+
+- Dana answers every question before her mother can
+- Asked what she wants, Mrs. R says quietly: *"Whatever my daughter thinks is best."*
+- Is that a free choice — or pressure dressed up as family love?
+- A formally signed choice can still be a non-voluntary one
+
+## Capacity Is Not What People Think
+
+- [Capacity]{.key-term} is decision-specific [@appelbaum2007]
+- Capacity is time-specific
+- Capacity is **not** the same as intelligence
+- Capacity is **not** the same as having a mental illness
+- Capacity is **not** the same as agreeing with the clinician
+
+## A Practical Capacity Check
+
+::: {.context-box}
+Ask whether the patient can [@appelbaum2007]:
+
+- communicate a stable choice
+- understand the relevant information
+- appreciate how it applies to them
+- reason about the options coherently
+:::
+
+## The Consent Checklist
+
+```{dot}
+//| fig-width: 10.8
+//| fig-height: 3.0
+//| fig-cap: "A slide-sized informed-consent checklist. Each gate asks a different question, so a signed form alone is never enough."
+digraph consent {
+  rankdir=LR;
+  bgcolor="transparent";
+  graph [nodesep=0.45, ranksep=0.65];
+  node [fontname="Inter", fontsize=10, margin="0.14,0.10"];
+  edge [color="#64748b", fontname="Inter", fontsize=9, arrowsize=0.7];
+
+  A [label="Intervention\nproposed", shape=box, style="rounded,filled",
+    fillcolor="#e6f1f2", color="#0e7c86"];
+  B [label="Disclosure\nadequate?", shape=diamond, style=filled,
+    fillcolor="#f8fafc", color="#94a3b8"];
+  C [label="Understanding\nadequate?", shape=diamond, style=filled,
+    fillcolor="#f8fafc", color="#94a3b8"];
+  D [label="Voluntary\nchoice?", shape=diamond, style=filled,
+    fillcolor="#f8fafc", color="#94a3b8"];
+  E [label="Capacity for\nthis decision?", shape=diamond, style=filled,
+    fillcolor="#f8fafc", color="#94a3b8"];
+  B1 [label="Explain diagnosis,\noptions, risks,\nbenefits, alternatives", shape=box, style="rounded,filled",
+    fillcolor="#fad7d2", color="#c0392b", fontcolor="#9d2f23"];
+  C1 [label="Use teach-back,\nplain language,\ninterpreter, visuals", shape=box, style="rounded,filled",
+    fillcolor="#fad7d2", color="#c0392b", fontcolor="#9d2f23"];
+  D1 [label="Address coercion\nor pressure", shape=box, style="rounded,filled",
+    fillcolor="#fad7d2", color="#c0392b", fontcolor="#9d2f23"];
+  E1 [label="Seek surrogate or\nfurther assessment", shape=box, style="rounded,filled",
+    fillcolor="#fad7d2", color="#c0392b", fontcolor="#9d2f23"];
+  F [label="Consent or refusal\nis valid", shape=box, style="rounded,filled",
+    fillcolor="#cfe9ec", color="#0e7c86", fontcolor="#0e7c86", penwidth=2];
+
+  A -> B;
+  B -> B1 [label="no", color="#c0392b", fontcolor="#c0392b"];
+  B -> C [label="yes"];
+  C -> C1 [label="no", color="#c0392b", fontcolor="#c0392b"];
+  C -> D [label="yes"];
+  D -> D1 [label="no", color="#c0392b", fontcolor="#c0392b"];
+  D -> E [label="yes"];
+  E -> E1 [label="no", color="#c0392b", fontcolor="#c0392b"];
+  E -> F [label="yes", color="#0e7c86", fontcolor="#0e7c86"];
+}
+```
+
+## Refusal Is the Real Test
+
+- Easy cases are usually consent cases
+- The hard cases are *refusals*: the Jehovah's Witness patient, leaving against medical advice
+- The course's hardest refusal case is Dax Cowart
+
+## Dax Cowart
+
+- Dax Cowart suffered catastrophic burns in 1973
+- He repeatedly asked that treatment stop
+- Clinicians kept treating him, for years, against his stated wishes
+- He later argued that his autonomy had been denied [@cowart1998]
+- The clearest collision of autonomy and beneficence in the course
+
+::: {.notes}
+This is the paired case study. Students don't need the full facts now — only enough to feel the autonomy/beneficence collision before they read it.
+:::
+
+## Thought Question
+
+::: {.thought-question}
+A competent adult refuses a blood transfusion that would almost certainly save their life.
+
+1. Is honoring the refusal *respect* — or *abandonment*?
+2. What is the clinician still obligated to keep doing after the refusal?
+3. Mrs. R, in tears, says "I can't even think about this right now." Is that a refusal, indecision, or lost capacity — and how would you tell?
+:::
+
+## Make It Contemporary
+
+::: {.thought-question}
+Change one fact: the refusal isn't religious. The patient read online that transfusions are dangerous and won't budge.
+
+- Same legal right. Does the *reason* change what you owe them?
+- Does correcting the misinformation respect her autonomy — or undermine it?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+- **Respecting a decision is not endorsing the reasoning.** You can believe she is wrong and still be bound by her refusal.
+- **The capacity bar is applied unevenly.** We rarely test capacity when patients say *yes*; we scrutinize it when they say *no*. If every risky refusal counted as incapacity, informed consent collapses back into paternalism. The honest question is what danger is enough to *re-assess* — not to *override*.
+:::
+
+# Confidentiality and Hard Conversations {.section-divider}
+
+## Why Confidentiality Matters
+
+- Patients tell the truth because they expect privacy
+- [Confidentiality]{.key-term} is ethical before it is legal
+- It protects dignity, not just data
+- Without it, clinical honesty breaks down
+
+## HIPAA Is Not a Gag Order
+
+- [HIPAA]{.key-term} is the federal health-privacy rule [@hipaa_hhs]
+- It is **not** a vow of total silence
+- It permits sharing for treatment, payment, and operations — and to warn of serious danger
+- Concretely: if Mrs. R's sister calls for an update, without Mrs. R's OK you generally can't even confirm she's a patient
+- The ethical question is when disclosure is *justified*, not merely *legal*
+
+## HHS on the Privacy Rule
+
+::: {.quote-card}
+> "A major goal of the Privacy Rule is to assure that individuals' health information is properly protected while allowing the flow of health information needed to provide and promote high quality health care and to protect the public's health and well being. The Rule strikes a balance that permits important uses of information, while protecting the privacy of people who seek care and healing."
+
+::: {.attribution}
+U.S. Department of Health and Human Services, *Summary of the HIPAA Privacy Rule* [@hipaa_hhs]
+:::
+:::
+
+## May Disclose vs. Must Disclose
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**You *may* disclose when**
+
+- The patient authorizes it
+- It is necessary for treatment
+- Law permits limited operational use
+- A serious threat may justify a warning
+- Legal process requires a response
+:::
+
+::: {.column width="50%"}
+**You *must* disclose**
+
+- Suspected child abuse or neglect
+- Certain infectious diseases
+- Some court-ordered disclosures
+- Some state-mandated reporting
+- (The exact list varies by state)
+:::
+
+::::
+
+## Confidentiality: Default and Exceptions
+
+```{dot}
+//| fig-width: 9.6
+//| fig-height: 2.8
+//| fig-cap: "Confidentiality starts from privacy, not disclosure. The legal and ethical question is which exceptions are strong enough to override that default."
+digraph conf {
+  rankdir=LR;
+  bgcolor="transparent";
+  graph [nodesep=0.45, ranksep=0.65];
+  node [fontname="Inter", fontsize=10, style="rounded,filled", shape=box,
+        margin="0.15,0.10", color="#94a3b8", fillcolor="#f8fafc"];
+  edge [color="#64748b", fontname="Inter", fontsize=9, arrowsize=0.7];
+
+  A [label="Protected health\ninformation", fillcolor="#dfe6ee", color="#475569"];
+  B [label="Default:\nkeep private", fillcolor="#e6f1f2", color="#0e7c86", penwidth=2];
+  C [label="Patient authorizes\nsharing", fillcolor="#fce9d6", color="#b07d1a"];
+  D [label="Law requires\nreporting", fillcolor="#fad7d2", color="#c0392b"];
+  E [label="Serious threat\nmay justify warning", fillcolor="#fce9d6", color="#b07d1a"];
+
+  A -> B;
+  B -> C [label="exception"];
+  B -> D [label="exception"];
+  B -> E [label="exception"];
+}
+```
+
+## Tarasoff in Five Beats
+
+- In [Tarasoff]{.key-term}, Prosenjit Poddar told a therapist he planned to kill Tatiana Tarasoff [@tarasoff1976]
+- Police briefly detained him and then released him
+- Tarasoff was not effectively warned
+- Poddar later killed her
+- The case became the classic limit on absolute confidentiality
+
+## In the Court's Words
+
+::: {.quote-card}
+> "We conclude that the public policy favoring protection of the confidential character of patient-psychotherapist communications must yield to the extent to which disclosure is essential to avert danger to others. The protective privilege ends where the public peril begins."
+
+::: {.attribution}
+*Tarasoff v. Regents of the University of California* (1976) [@tarasoff1976]
+:::
+:::
+
+## The Case Nobody Warns You About
+
+::: {.context-box}
+You are a nursing student on a med-surg unit. Your old roommate is admitted two doors down — and you have chart access.
+
+You're genuinely worried about her. You open her chart "just to see if she's okay." You tell no one. No one is harmed.
+:::
+
+## Thought Question
+
+::: {.thought-question}
+Start with the roommate's chart, then turn the privacy default on its head:
+
+1. You looked "just to check she's okay." What exactly is the wrong, if no one ever finds out?
+2. Does it change if she *were* your patient? If she'd *want* you to know? If you tell no one?
+3. Now a patient tells you: *"Sometimes I think about killing my ex — I know where she works."* What would you need to know before warning anyone?
+:::
+
+## Make It Contemporary
+
+::: {.thought-question}
+- Hospitals run automated access audits; every year nurses are fired for snooping on relatives, exes, and celebrities
+- A patient posts a specific threat on Instagram, not in your office
+
+Does "do I need this to care for this patient?" still draw the line in the digital version — both for the snooping and for the threat?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+- **Access is not authorization.** Being *able* to open a chart is not permission. The test is "do I need this to care for *this* patient?" Curiosity, worry, and good intentions are not exceptions.
+- **The default flips, but the question doesn't.** Snooping *over*-discloses; Tarasoff *under*-discloses. Both are answered the same way — by asking what is genuinely *necessary*: to provide care, or to prevent serious, specific harm.
+:::
+
+## Back to Mrs. R: "Please Don't Tell Her"
+
+::: {.context-box}
+The biopsy is worse than expected. Before you go in, Dana stops you in the hallway:
+
+> "In our family, we don't tell elders news like this. It will crush her. Please talk to me, not her."
+
+The team wants to respect the family's culture. The team also wants to respect Mrs. R.
+:::
+
+## Thought Question
+
+::: {.thought-question}
+1. Whose decision is this — Mrs. R's, Dana's, or the team's?
+2. What is the *first* thing you should find out, and who do you ask?
+3. What if you ask Mrs. R and she says, "I don't want the details — talk to Dana"?
+:::
+
+## Make It Contemporary
+
+::: {.thought-question}
+A genetic test shows Mrs. R carries a mutation her adult siblings may also carry.
+
+- She does not want them told. They may be making medical decisions without information that could protect them.
+- Does her privacy outweigh their need to know? Is this the *same* problem as the family request, or a different one?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+- **Only Mrs. R can waive her own right to know.** A competent patient may *autonomously choose* not to receive information ("just talk to my daughter") — that is respected autonomy. The family *withholding* it from her, unasked, is not their call.
+- So it isn't "autonomy vs. culture." The move is to ask Mrs. R — *before* the bad news — how much she wants to know and whom she wants involved. Culturally informed, and still hers.
+- The genetic case is **different in kind**: a third party's welfare is now at stake. That is closer to Tarasoff than to truth-telling.
+:::
+
+# Pulling It Together {.section-divider}
+
+## Mrs. R, Start to Finish
+
+- You met her as a frightened patient with a daughter who spoke for her
+- You chose a model *with* her, not *for* her
+- You made consent a conversation — and took her tears seriously without calling them incapacity
+- You kept her information private by default — and asked *her*, not Dana, how she wanted the truth handled
+
+## Two Mistakes to Avoid
+
+- Reducing autonomy to "the customer picks from a menu"
+- Treating every bad or emotional decision as proof of incapacity
+- Treating HIPAA as a gag order
+- Assuming one cultural script fits every patient
+
+## Wrapping Up Part B
+
+::: {.recap}
+Part A explained why modern medicine rejects unchecked paternalism. Part B asked what replaces it: guided, transparent, autonomy-respecting care. Following Mrs. R, we saw the four clinician-patient models, the four elements of valid consent, the difference between an unwise choice and an incapacitated one, and confidentiality and truth-telling as defaults with disciplined exceptions.
+:::
+
+## References
+
+::: {#refs}
+:::

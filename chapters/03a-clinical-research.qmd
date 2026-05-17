@@ -1,0 +1,387 @@
+---
+title: "Lecture 3 — Research Ethics"
+subtitle: "Part A: How Clinical Research Works (and Why It's Different from Care)"
+author: "Brendan Shea, PhD"
+date: last-modified
+format:
+  html:
+    toc: true
+    number-sections: true
+  revealjs:
+    output-file: 03a-clinical-research-slides.html
+---
+
+# A Case to Open With {.section-divider}
+
+## A Trial Offer at the Worst Time
+
+::: {.thought-question}
+You have metastatic cancer. Your oncologist says:
+
+- "The standard drug has stopped working."
+- "There is a study you could join, but I need to be clear: it is a randomized trial."
+- "One group gets the current standard treatment. The other gets the new drug."
+- "I do not get to choose your group, and neither do you."
+- "I hope it helps you, but the study is designed to answer a question, not to tailor a plan just for you."
+
+1. Does this sound like care, research, or both?
+2. What would you still want to know before saying yes?
+3. If your doctor is the one recruiting you, what confusion is most likely?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+Three starting points matter here:
+
+- **Research can happen inside ordinary care settings without becoming ordinary care.** Same clinic, different goal.
+- **Randomization is the clue.** Once assignment is by chance, the clinician is no longer choosing only on the basis of what seems best for *this* patient.
+- **Hope is not the same as a promise.** Ethical recruitment does not kill hope, but it cannot quietly market the study as personalized treatment.
+:::
+
+::: {.notes}
+The opening move should make students feel how easily research can sound like an ordinary treatment recommendation. The point is not to make them anti-research; it is to make them notice the difference in purpose.
+:::
+
+## Today
+
+::: {.learning-outcomes}
+By the end of Part A, you will be able to:
+
+- Explain the basic structure of a randomized controlled trial
+- Distinguish clinical care from clinical research
+- Describe randomization, control groups, placebo, and blinding in plain language
+- Summarize what phases I, II, III, and IV are for
+- Explain the therapeutic misconception and why it matters ethically
+:::
+
+# Research and Care Are Not the Same {.section-divider}
+
+## One Crucial Difference
+
+- [Clinical care]{.key-term} aims to help the patient in front of you
+- [Clinical research]{.key-term} aims to produce generalizable knowledge [@emanuel2000research]
+- Both may benefit a patient
+- But direct patient benefit is not what makes an activity research
+- That difference changes consent, oversight, and acceptable risk
+
+## The Same Room Can Hide the Difference
+
+:::: {.columns}
+
+::: {.column width="50%"}
+**Why it feels like care**
+
+- Same hospital
+- Same white coats
+- Same lab draws and imaging
+- Same reassuring language of "options"
+- Often the same physician
+:::
+
+::: {.column width="50%"}
+**Why it is not the same**
+
+- The protocol fixes what can happen
+- Randomization may assign the arm
+- The main goal is learning, not tailoring
+- The results are meant to guide future care
+- Independent review is required before it begins
+:::
+
+::::
+
+## Why Research Exists
+
+- Without research, medicine would freeze in place
+- New drugs, devices, and procedures need to be tested before they become standard
+- Even old treatments need comparison, follow-up, and correction
+- Ethical research is not the enemy of patient care
+- Ethical research is one reason patient care can improve at all
+
+## Research vs. Clinical Care at a Glance
+
+| Question | Clinical care | Clinical research |
+|---|---|---|
+| **Main goal** | Help this patient now | Produce reliable knowledge |
+| **Who should benefit first?** | The individual patient | Future patients, and sometimes current participants |
+| **Who sets the plan?** | Clinician and patient | Protocol, eligibility rules, and study design |
+| **What governs it?** | Professional standards, licensure, ordinary consent | IRB review, protocol rules, research consent [@commonrule_hhs] |
+| **What counts as success?** | Good care for this person | Valid evidence that answers the research question |
+
+## The Physician-Investigator Tension
+
+- A clinician may also be a [physician-investigator]{.key-term}
+- That can be efficient and even helpful
+- It can also blur whether advice is being given as a doctor or as a researcher
+- Modern research ethics assumes this tension is real, not rare [@helsinki2024]
+- That is one reason independent review matters
+
+# Inside a Randomized Trial {.section-divider}
+
+## Why Randomize?
+
+- If doctors chose the groups, healthier and sicker patients could cluster without anyone meaning to [@nci_trials2024]
+- Randomization assigns people by chance
+- That helps keep the comparison scientifically fair
+- But it also means the clinician is no longer hand-picking the treatment for this patient
+- So randomization is ethically important, not just statistically useful
+
+## When Is It OK to Randomize a Sick Person?
+
+- The honest answer needs a concept: [clinical equipoise]{.key-term}
+- It means the expert community is *genuinely unsure* which arm is better
+- If we already knew, randomizing would be wrong — we'd be assigning some patients to the worse option on purpose
+- Equipoise is the moral license for a trial
+- This is why "I'd just give everyone the new drug" misses the point: we do not yet know it is better
+
+## One Map of a Parallel-Group Trial
+
+```{dot}
+//| fig-width: 10.6
+//| fig-height: 3.1
+//| fig-cap: "A plain-language map of a parallel-group randomized trial. The key ethical moment is the middle: once participants consent and are randomized, no one chooses the arm just for that patient's benefit."
+digraph rct {
+  rankdir=LR;
+  bgcolor="transparent";
+  graph [nodesep=0.45, ranksep=0.7];
+  node [fontname="Inter", fontsize=10, margin="0.14,0.10"];
+  edge [color="#64748b", fontname="Inter", fontsize=9, arrowsize=0.7];
+
+  A [label="People with the\ncondition", shape=box, style="rounded,filled",
+     fillcolor="#dfe6ee", color="#475569"];
+  B [label="Eligibility check\nand consent", shape=box, style="rounded,filled",
+     fillcolor="#e6f1f2", color="#0e7c86"];
+  C [label="Randomize", shape=diamond, style=filled,
+     fillcolor="#f8fafc", color="#94a3b8"];
+  D [label="Arm 1\nnew treatment", shape=box, style="rounded,filled",
+     fillcolor="#cfe9ec", color="#0e7c86", fontcolor="#0e7c86", penwidth=2];
+  E [label="Arm 2\nstandard care or\ncontrol", shape=box, style="rounded,filled",
+     fillcolor="#fce9d6", color="#b07d1a"];
+  F [label="Follow-up\nand outcome data", shape=box, style="rounded,filled",
+     fillcolor="#dfe6ee", color="#475569"];
+  G [label="Compare results", shape=box, style="rounded,filled",
+     fillcolor="#fad7d2", color="#c0392b", fontcolor="#9d2f23"];
+
+  A -> B -> C;
+  C -> D;
+  C -> E;
+  D -> F;
+  E -> F;
+  F -> G;
+}
+```
+
+## What the Control Group Gets
+
+- Sometimes the control group gets current standard care
+- Sometimes it gets standard care plus a placebo
+- Sometimes, if no proven treatment exists, it may get placebo or no active treatment [@nci_trials2024; @helsinki2024]
+- Control does not mean "ignored"
+- Everyone in the study is still monitored under a protocol
+
+## Placebo Does Not Always Mean "Nothing"
+
+::: {.context-box}
+**A placebo can do different jobs.**
+
+- If no proven treatment exists, placebo may stand in for no active treatment.
+- If a proven treatment already exists, placebo is often added *on top of* standard care so no one is denied basic treatment.
+- The ethical question is not just "placebo or no placebo?" It is **what participants are missing by being in that arm** [@nci_trials2024; @helsinki2024].
+:::
+
+## What Blinding Actually Does
+
+- [Blinding]{.key-term} means some people in the trial do not know which arm a participant is in
+- Single-blind usually means the participant does not know
+- Double-blind usually means the participant and the treating team or evaluators do not know
+- The point is to reduce expectation effects and biased judgment
+- "Double-blind" is about cleaner evidence, not secrecy for its own sake
+
+## A Tiny Example
+
+::: {.context-box}
+If patients know they are receiving the new drug, they may report feeling better partly because they expect it to work. If clinicians know who got the new drug, they may judge borderline improvements more generously. Blinding tries to reduce that problem.
+:::
+
+## Who Watches the Trial While It Runs?
+
+- A trial is not left alone until it ends
+- An independent [data safety monitoring board]{.key-term} (DSMB) reviews the data as it accumulates
+- It can **stop a trial early for harm** — one arm is clearly hurting people
+- It can also **stop early for benefit** — one arm is so clearly better that continuing the other is no longer fair
+- Equipoise has a deadline: once the evidence is in, the trial must end
+
+# Trial Phases {.section-divider}
+
+## Four Phases, Four Questions
+
+| Phase | The main question | Typical scale |
+|---|---|---|
+| **I** | Is it safe? What dose can people tolerate? | Small |
+| **II** | Does it seem to work? | Larger |
+| **III** | Is it better than the current standard? | Large, often randomized |
+| **IV** | What happens after approval in the real world? | Very large, longer-term |
+
+## One Simple Phase Map
+
+```{dot}
+//| fig-width: 8.6
+//| fig-height: 4.2
+//| fig-cap: "A plain-language phase map. The main ethical point is that 'clinical trial' covers activities with very different goals, risks, and likely benefits."
+digraph phases {
+  rankdir=TB;
+  bgcolor="transparent";
+  graph [nodesep=0.25, ranksep=0.42];
+  node [fontname="Inter", fontsize=10, shape=box, style="rounded,filled",
+        margin="0.18,0.12", color="#94a3b8", fillcolor="#f8fafc"];
+  edge [color="#64748b", arrowsize=0.7];
+
+  A [label="Phase I\nsmall group\nsafety and dose", width=3.8, fillcolor="#fad7d2", color="#c0392b"];
+  B [label="Phase II\nmore participants\nearly evidence of effect", width=3.2, fillcolor="#fce9d6", color="#b07d1a"];
+  C [label="Phase III\nlarge comparison\nagainst standard care", width=2.8, fillcolor="#e6f1f2", color="#0e7c86"];
+  D [label="Phase IV\nafter approval\nlong-term follow-up", width=2.4, fillcolor="#dfe6ee", color="#475569"];
+
+  A -> B -> C -> D;
+}
+```
+
+## Phase I: Start with Safety
+
+- In cancer research, Phase I often involves about 15 to 30 people [@nci_trials2024]
+- Researchers ask what dose is tolerable and what harms appear
+- They also look for signs the intervention is doing anything biologically
+- But direct benefit is not the main point
+- This is why Phase I can be ethically difficult: risk may be significant while personal upside is limited
+
+## Phase II: Does It Look Promising?
+
+- More people are enrolled than in Phase I
+- The question shifts toward whether the treatment seems to work
+- Safety is still being watched closely
+- A positive Phase II result is encouraging, not conclusive
+- Many interventions fail here or later
+
+## Phase III: Against the Current Standard
+
+- Phase III asks whether a new treatment outperforms the best existing option or changes the balance of harms and benefits
+- Randomization is common here [@nci_trials2024]
+- Sample sizes are much larger
+- This is where placebo and control-group debates become most visible
+- The outcome matters not just for one patient but for what becomes the new standard
+
+## Phase IV: After Approval
+
+- Approval is not the end of learning
+- Phase IV tracks long-term safety and effectiveness in broader populations [@nci_trials2024]
+- Rare side effects may appear only after many people use a drug
+- Real-world use is messier than tightly controlled trials
+- So ethics does not stop once a treatment reaches the market
+
+## Why Phases Matter Ethically
+
+- Students often hear "clinical trial" and imagine one thing
+- But Phase I and Phase IV do not ask the same question or offer the same likely benefits
+- Consent should match the phase, not rely on a generic script
+- Risks, hopes, and expectations shift from phase to phase
+- So the ethical explanation has to be specific
+
+# The Participant's Problem {.section-divider}
+
+## The Therapeutic Misconception
+
+- [Therapeutic misconception]{.key-term} happens when participants think the study intervention is being chosen mainly for their personal medical benefit [@appelbaum1982tm]
+- The misunderstanding is not just "I hope this helps"
+- It is more like "my doctor is selecting this because it is best for me"
+- That is often false once protocol rules and randomization control the options
+- A person can sign a form and still misunderstand the basic situation
+
+## Why It Happens So Easily
+
+- Recruitment often comes from a trusted clinician
+- Serious illness makes hope urgent
+- Research visits look like treatment visits
+- Words like "option" and "opportunity" blur categories
+- Many people hear "new" and assume "better"
+
+## A Research Consent Is Not a Treatment Consent
+
+- Valid consent has four elements; research adds requirements on top of them
+- It must say, in plain words, **"this is research"** — not treatment chosen for you
+- It must disclose **randomization**: a chance process, not your clinician, may pick your arm
+- It must state the goal is **knowledge**, and that direct benefit is uncertain or unlikely
+- It must make **withdrawal at any time, without penalty,** explicit
+- The nurse is often the one who notices a form was signed but not understood
+
+## The Dangerous Sentence
+
+::: {.quote-card}
+> "This study may help you" can be true.  
+> "This study is being chosen because it is the best treatment for you" is often false.
+
+::: {.attribution}
+The distinction is what the therapeutic misconception tries to protect [@appelbaum1982tm; @emanuel2000research].
+:::
+:::
+
+## Early-Phase Trials and Thin Personal Benefit
+
+- Healthy volunteers and desperate patients join studies for very different reasons
+- In Phase I, researchers mainly ask what dose is tolerable and what harms appear
+- Some participants may benefit, but many will not
+- Payment, hope, and lack of alternatives can all cloud judgment
+- Ethical recruitment has to say this plainly
+
+## Thought Question
+
+::: {.thought-question}
+You are a research nurse enrolling patients in a first-in-human oncology trial.
+
+- A patient says, "If you are offering this, you must think it gives me the best chance."
+- The oncologist who is also the principal investigator is standing beside you.
+
+1. What is the most important misunderstanding to correct?
+2. How blunt should you be about the low chance of direct benefit?
+3. If the patient says, "I know the odds are low, but I want to try anyway," has the misconception been fixed?
+:::
+
+## Make It Contemporary
+
+::: {.thought-question}
+The same structure appears outside oncology too:
+
+- A family enrolls a child in a gene-therapy study because no approved treatment exists.
+- A healthy adult joins a Phase I trial mainly because the payment covers two months of rent.
+
+Both may be voluntary. But are both *equally* informed and equally free?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+Three payoffs to insist on:
+
+- **Hope is allowed.** The goal is not to turn participants cynical; it is to keep hope from masquerading as evidence.
+- **Misunderstanding is not the same as irrationality.** A person may fully understand that a study is not personalized care and still choose it.
+- **The hardest part is relational.** When a trusted clinician recruits for a study, the burden to separate care from research falls more heavily on the professional, not less [@helsinki2024].
+:::
+
+# Wrapping Up Part A {.section-divider}
+
+## The Main Distinction
+
+- Trials are ethically hard because they borrow the setting of care but not its single-minded goal
+- Randomization, blinding, control groups, and phases are scientific tools
+- Those same tools also explain why research needs its own ethics
+- Part B turns from the structure of trials to the rulebook meant to protect the people inside them
+
+## Wrapping Up Part A
+
+::: {.recap}
+Clinical research is not ordinary care with extra paperwork. Its purpose is to produce reliable knowledge, which is why it uses randomization, control groups, blinding, and staged phases. Those tools make better evidence, but they also create new risks of misunderstanding and exploitation. The key ethical task in Part A is learning to say, clearly and without panic: this is research, not just treatment by another name.
+:::
+
+## References
+
+::: {#refs}
+:::
