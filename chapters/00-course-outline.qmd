@@ -145,11 +145,12 @@ The systematic ethics of clinical trials, organized around one spine — **vulne
 
 ### L4a. Moral Status and the Major Philosophical Arguments
 
-- A short biology primer: zygote → embryo → fetus → viability → term.
+- A short biology primer: zygote → embryo → fetus → viability → term. 
 - Four candidate criteria for **moral status**: biological humanity, personhood, sentience, viability — what each implies.
 - **Thomson's violinist** argument (1971): bodily autonomy even granting fetal personhood.
 - **Marquis's future-like-ours** argument (1989): why killing a fetus is wrong for the same reason killing an adult is.
-- Feminist and **reproductive justice** perspectives (Roberts, Ross): why "choice" framing is incomplete without access, economics, and race.
+- **Hurthouse** (1991) on virtue theory and abortion, and on what traditional accounts miss
+
 
 **Visual elements:**
 - *Figure (code-generated):* timeline of fetal development with markers at key developmental milestones (heartbeat detectable, neural development, viability) — neutrally labeled.
@@ -161,6 +162,7 @@ The systematic ethics of clinical trials, organized around one spine — **vulne
 
 - **Roe v. Wade** (1973), **Planned Parenthood v. Casey** (1992), and **Dobbs v. Jackson** (2022): a brief legal arc. (Explain legal arguments, but also social-political climate and environment)
 - The post-Dobbs landscape: state-by-state variation in 2024–26, including trigger laws, gestational limits, and exceptions. Current arguments about abortion.
+- Brief survey of abortion policies in other countries (North America ex-US, EU, East Asia, Global South)
 - Applying the **four principles** (autonomy, beneficence, non-maleficence, justice) to specific cases. Goal is not to "solve" this, but to undestand why/how liberals and conservatives disagree, and why being "moderate" can be be perfectly coherent.
   - Pregnancy from rape
   - Severe fetal anomaly incompatible with life
