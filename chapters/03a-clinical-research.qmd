@@ -48,11 +48,12 @@ The opening move should make students feel how easily research can sound like an
 ::: {.learning-outcomes}
 By the end of Part A, you will be able to:
 
-- Explain the basic structure of a randomized controlled trial
-- Distinguish clinical care from clinical research
-- Describe randomization, control groups, placebo, and blinding in plain language
-- Summarize what phases I, II, III, and IV are for
-- Explain the therapeutic misconception and why it matters ethically
+- Distinguish clinical care from clinical research, and say why the difference changes consent and oversight
+- Explain randomization, control, placebo, and blinding by walking through the 1954 polio trial
+- Tell a clinical endpoint from a surrogate, and judge whether a result could be chance
+- Summarize what trial phases I–IV are for
+- Explain the therapeutic misconception and why it matters at the bedside
+- Use the opioid-evidence story to say what a given study can and cannot support
 :::
 
 # Research and Care Are Not the Same {.section-divider}
@@ -172,6 +173,27 @@ digraph rct {
 }
 ```
 
+## A Real Trial: Polio, 1954
+
+- In 1952 the United States recorded roughly 58,000 polio cases, most of them children — it was the most feared childhood disease in the country.
+- Jonas Salk's killed-virus injected vaccine looked promising, but "promising" vaccines had failed and even harmed children before.
+- So the country ran the largest medical experiment in history: about 1.8 million schoolchildren, the "Polio Pioneers," organized by the March of Dimes and directed by Thomas Francis Jr.
+- The trial's job was not to *deliver* a cure but to *prove* whether there was one.
+- Every mechanic from the last few slides — randomize, control, blind, compare — was used on these children, and the design choices decided whether anyone could believe the result [@francis1955].
+
+## Two Designs, One Trial
+
+The 1954 trial actually ran **two designs at once** — and that is the lesson:
+
+| | Placebo-controlled areas | Observed-control areas |
+|---|---|---|
+| **Who got vaccine** | Grades 1–3 **randomized** to vaccine or saline | Only 2nd-grade **volunteers** vaccinated |
+| **The controls** | Randomized peers given a saline shot | Grades 1 and 3, simply observed |
+| **Blinding** | **Double-blind** — no one knew who got what | Not blinded |
+| **How trustworthy** | High — groups comparable, judgment unbiased | Weaker — volunteers differ; diagnosis can be swayed |
+
+Same disease, same year, same vaccine: the **design**, not the vaccine, is what made one half of the trial believable.
+
 ## What the Control Group Gets
 
 - Sometimes the control group gets current standard care
@@ -198,10 +220,12 @@ digraph rct {
 - The point is to reduce expectation effects and biased judgment
 - "Double-blind" is about cleaner evidence, not secrecy for its own sake
 
-## A Tiny Example
+## Why Blinding Mattered in 1954
 
 ::: {.context-box}
-If patients know they are receiving the new drug, they may report feeling better partly because they expect it to work. If clinicians know who got the new drug, they may judge borderline improvements more generously. Blinding tries to reduce that problem.
+Diagnosing mild polio is partly a judgment call — a borderline weak limb can be read either way. In the 1954 trial's observed-control areas, the examining doctors knew which children had been vaccinated. A doctor who *hoped* the vaccine worked could, without any dishonesty, lean toward "not polio" in a vaccinated child.
+
+That is exactly why the placebo-controlled areas were **double-blind**: no one at the bedside knew, so hope could not tip the count.
 :::
 
 ## Who Watches the Trial While It Runs?
@@ -211,6 +235,83 @@ If patients know they are receiving the new drug, they may report feeling better
 - It can **stop a trial early for harm** — one arm is clearly hurting people
 - It can also **stop early for benefit** — one arm is so clearly better that continuing the other is no longer fair
 - Equipoise has a deadline: once the evidence is in, the trial must end
+
+## The Same Machinery, Today
+
+- The 2020 COVID-19 vaccine trials used exactly the 1954 logic at modern scale: tens of thousands of volunteers, randomized, double-blind, placebo-controlled.
+- The primary endpoint was a **clinical** one — laboratory-confirmed symptomatic COVID-19 — not just an antibody level in the blood.
+- An independent data safety monitoring board reviewed the accumulating results at planned interim points.
+- When the effect was large and the safety data adequate, the FDA granted Emergency Use Authorization, with full approval following after more follow-up.
+- Seventy years apart, the polio and COVID trials are recognizably the same instrument, used carefully because the stakes were enormous.
+
+# Reading a Trial's Result {.section-divider}
+
+## What Are We Even Measuring? Endpoints
+
+- A **clinical endpoint** is something a patient can feel or would obviously care about: living longer, avoiding a stroke, walking without pain.
+- A **surrogate endpoint** is a stand-in measured because it is faster or cheaper — a lab number, a scan finding, a blood pressure reading.
+- Surrogates speed research up, but a treatment can move the surrogate and still not help patients — or even harm them.
+- The classic warning is the CAST trial: drugs that "fixed" an abnormal heart rhythm on the monitor actually *increased* deaths.
+- So the first question to ask of any trial is: did patients actually do better, or did a number just move?
+
+## Could It Just Be Chance?
+
+- Any two groups of people differ a little by luck, even if the treatment does nothing at all.
+- Statistics ask one question: how likely is a difference *this big* if the treatment really had no effect?
+- "Statistically significant" roughly means "probably not just luck" — it does **not** mean large, important, or certain.
+- Small trials are easily fooled by chance, which is why large samples and **independent replication** matter so much.
+- A single significant result is a lead worth following, not a verdict to act on alone.
+
+## Honest Trials Can Still Mislead
+
+- A result can mislead even when no one lied or faked anything.
+- **Who got into the trial** limits who the answer applies to: narrow eligibility rules can exclude the very patients you treat.
+- People who **drop out** are usually different from those who finish, so analyzing only the "completers" quietly flatters the treatment.
+- **Intention-to-treat** analysis — count everyone in the group they were randomized to, even if they quit — is the standard guard against that.
+- The disciplined question is always: who is missing from this result, and which way would that bias it?
+
+## When a Letter Becomes "Evidence"
+
+- In 1980 a five-sentence *letter to the editor* reported that, among **hospitalized** patients given opioids, addiction was rare [@porter1980].
+- It was not a trial: no randomization, no control, no long-term or outpatient follow-up.
+- Over the next two decades it was cited hundreds of times as if it had proven that long-term outpatient opioids rarely cause addiction.
+- The reading-evidence lesson is exact: the *type* of study and *who was in it* cap what any result can support.
+- How that misreading was promoted is a research-integrity story we return to later — here the point is simply that a letter is not an RCT.
+
+## Thought Question
+
+::: {.thought-question}
+A new drug's Phase III trial is reported as "positive."
+
+- It significantly improved a **surrogate** marker on a scan.
+- The trial was **small**, and about **25%** of participants dropped out.
+- The analysis included only those who completed.
+
+1. Name the three weaknesses you can already see.
+2. What would you want to know before telling a patient this drug "works"?
+3. Is "the FDA might approve it" the same as "it helps patients"?
+:::
+
+## Make It Contemporary
+
+::: {.thought-question}
+Regulators sometimes grant **accelerated approval** based on a surrogate endpoint, with a confirmatory trial promised later.
+
+- Patients with no other option get the drug years sooner.
+- Some confirmatory trials later show no real benefit — and a few are never finished.
+
+Is faster access worth weaker evidence? Who should decide, and what should happen if the confirmatory trial fails?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+Three distinctions to carry forward:
+
+- **Statistically significant ≠ clinically meaningful.** A real but tiny effect on a surrogate can be true and still not worth having.
+- **Regulatory approval ≠ proven patient benefit.** Approval is a decision under uncertainty, not a guarantee.
+- **The standing questions are always the same:** what was measured, in whom, and who is missing from the result?
+:::
 
 # Trial Phases {.section-divider}
 
@@ -246,37 +347,13 @@ digraph phases {
 }
 ```
 
-## Phase I: Start with Safety
+## What Each Phase Is Really Asking
 
-- In cancer research, Phase I often involves about 15 to 30 people [@nci_trials2024]
-- Researchers ask what dose is tolerable and what harms appear
-- They also look for signs the intervention is doing anything biologically
-- But direct benefit is not the main point
-- This is why Phase I can be ethically difficult: risk may be significant while personal upside is limited
-
-## Phase II: Does It Look Promising?
-
-- More people are enrolled than in Phase I
-- The question shifts toward whether the treatment seems to work
-- Safety is still being watched closely
-- A positive Phase II result is encouraging, not conclusive
-- Many interventions fail here or later
-
-## Phase III: Against the Current Standard
-
-- Phase III asks whether a new treatment outperforms the best existing option or changes the balance of harms and benefits
-- Randomization is common here [@nci_trials2024]
-- Sample sizes are much larger
-- This is where placebo and control-group debates become most visible
-- The outcome matters not just for one patient but for what becomes the new standard
-
-## Phase IV: After Approval
-
-- Approval is not the end of learning
-- Phase IV tracks long-term safety and effectiveness in broader populations [@nci_trials2024]
-- Rare side effects may appear only after many people use a drug
-- Real-world use is messier than tightly controlled trials
-- So ethics does not stop once a treatment reaches the market
+- **Phase I** is small (often 15–30 people in cancer) and asks what dose is tolerable and what harms appear; direct benefit is not the point, which is what makes it ethically hard [@nci_trials2024].
+- **Phase II** enrolls more people and asks whether the treatment *seems* to work, while safety is still watched closely; many promising drugs fail right here.
+- **Phase III** is the large, usually randomized comparison against the best existing option, and it is where placebo and control debates bite hardest because its result becomes the new standard.
+- **Phase IV** runs after approval and catches rare harms and real-world performance that tightly controlled trials miss.
+- "Clinical trial" is therefore not one thing — the same words cover wildly different risks, hopes, and likely benefits.
 
 ## Why Phases Matter Ethically
 
@@ -316,7 +393,7 @@ digraph phases {
 ## The Dangerous Sentence
 
 ::: {.quote-card}
-> "This study may help you" can be true.  
+> "This study may help you" can be true.
 > "This study is being chosen because it is the best treatment for you" is often false.
 
 ::: {.attribution}
@@ -372,13 +449,14 @@ Three payoffs to insist on:
 
 - Trials are ethically hard because they borrow the setting of care but not its single-minded goal
 - Randomization, blinding, control groups, and phases are scientific tools
-- Those same tools also explain why research needs its own ethics
+- The same tools also let you *read* a result: what was measured, could it be chance, who is missing
+- Those tools are exactly why research needs its own ethics
 - Part B turns from the structure of trials to the rulebook meant to protect the people inside them
 
 ## Wrapping Up Part A
 
 ::: {.recap}
-Clinical research is not ordinary care with extra paperwork. Its purpose is to produce reliable knowledge, which is why it uses randomization, control groups, blinding, and staged phases. Those tools make better evidence, but they also create new risks of misunderstanding and exploitation. The key ethical task in Part A is learning to say, clearly and without panic: this is research, not just treatment by another name.
+Clinical research is not ordinary care with extra paperwork. Its purpose is to produce reliable knowledge, which is why it uses randomization, control groups, blinding, and staged phases — visible in one real instrument, the 1954 polio trial, and again in the COVID-19 vaccine trials. Those same tools also teach you to *read* a study: clinical versus surrogate endpoints, whether a result could be chance, and who dropped out or was left out. The key task in Part A is learning to say, clearly and without panic: this is research, not just treatment by another name — and here is how good its evidence actually is.
 :::
 
 ## References

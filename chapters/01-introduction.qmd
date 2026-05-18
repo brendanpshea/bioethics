@@ -35,16 +35,25 @@ You are the nurse at her bedside.
 Let students sit with this. We'll come back to it after we have vocabulary. The whole rest of the lecture is, in a sense, equipping us to answer this question more carefully than "follow your gut."
 :::
 
-## Today
+## Today — Foundations
 
 ::: {.learning-outcomes}
 By the end of Part A, you will be able to:
 
 - Define [bioethics]{.key-term} and explain why it emerged as a distinct field
+- Place bioethics on the map of ethics: **descriptive**, **metaethical**, and **normative** (theoretical vs. practical)
 - Distinguish ethical claims from [legal]{.key-term}, [religious]{.key-term}, and [personal-preference]{.key-term} claims
-- Name and apply the [four principles]{.key-term} of biomedical ethics
-- Identify the premises and conclusion of a moral argument written in ordinary prose
-- Recognize a few common fallacies in bioethical reasoning
+:::
+
+## Today — The Toolkit
+
+::: {.learning-outcomes}
+You will also be able to:
+
+- Explain the [four principles]{.key-term} as an *explication of common morality*
+- **Balance** and **specify** principles — and say when one may override another
+- Diagnose the *source* of a moral conflict, and tell a [moral conflict]{.key-term} from a [moral dilemma]{.key-term}
+- Identify premises, conclusions, hidden assumptions, and common fallacies
 :::
 
 # What Is Bioethics? {.section-divider}
@@ -84,6 +93,47 @@ Bioethics is what grew up to answer the question: **how should we govern this?**
 ::: {.notes}
 Each of these is a recurring exam case. Same field, very different scales — bedside, study, society.
 :::
+
+# Three Kinds of Ethical Inquiry {.section-divider}
+
+## Where Bioethics Sits
+
+"Ethics" names three different activities, not one:
+
+| Branch | The question it asks | How it works |
+|---|---|---|
+| **Descriptive ethics** | What do people *actually* believe and do? | Surveys, history, sociology, psychology |
+| **Metaethics** | What *are* moral claims — true? objective? just feelings? | Conceptual and logical analysis |
+| **Normative ethics** | What *ought* we to do, and why? | Reasoned argument, principles, theory |
+
+Bioethics draws on all three — but its central job is **normative**.
+
+## Descriptive and Metaethical Questions
+
+[Descriptive ethics]{.key-term} — the *empirical* study of moral belief and behavior. It **reports**; it does not prescribe.
+
+- *Example:* "In one survey, most ICU nurses reported moral distress about treatment they considered futile." A fact about attitudes — not yet a claim about what is right.
+
+[Metaethics]{.key-term} — steps back to ask about morality *itself*.
+
+- *Example:* "When we say 'this is wrong,' are we stating a fact, expressing a feeling, or applying a shared standard?"
+
+::: {.callout-note}
+Bioethics **uses** descriptive facts (you cannot weigh a harm you have not measured) and usually **brackets** metaethics — clinicians must act before philosophy settles whether morality is "objective."
+:::
+
+## Normative Ethics: Theory and Practice
+
+[Normative ethics]{.key-term} asks which actions, policies, and characters are right — **and what reasons support that**. It works at two levels:
+
+| Level | What it does | Examples |
+|---|---|---|
+| **Theoretical** | Builds general accounts of rightness | Utilitarianism, Kantian ethics *(Part B)* |
+| **Practical / applied** | Brings moral norms into a real domain | **Bioethics**, business ethics, environmental ethics |
+
+- Bioethics is **applied normative ethics**: real cases, real decisions
+- It still leans on descriptive facts beneath it and moral theory behind it
+- Most of this course lives here: *what should we do for this patient, this study, this policy — and why?*
 
 # Ethics, Law, Religion, Preference {.section-divider}
 
@@ -158,6 +208,41 @@ In the wake of Tuskegee, a U.S. national commission produced the *Belmont Report
 - **General enough** to apply to new technologies
 
 The result is what's often called **principlism** — and it remains the lingua franca of hospital ethics consults [@jonsen1998].
+
+## What the Principles Are Made Of
+
+Beauchamp and Childress did not invent a new morality. They drew the four principles out of the [common morality]{.key-term}.
+
+- **Common morality** — the basic moral norms that essentially *all* morally serious people already accept, across cultures and eras
+- It is **pre-theoretical**: you do not need a philosophy course to know it
+- It is **shared ground**: a Kantian, a utilitarian, and a religious believer mostly agree on it
+
+I call it **"fourth-grade morality"** — the rules a thoughtful ten-year-old already follows.
+
+## "Fourth-Grade Morality," Made Precise
+
+Norms almost no one seriously rejects — and what each becomes in medicine:
+
+| Rule a child already knows | In the clinic it becomes… |
+|---|---|
+| "Ask first; don't push people around" | **Autonomy** |
+| "Help people who are hurt" | **Beneficence** |
+| "Don't hurt people" | **Non-maleficence** |
+| "Share fairly; no favorites" | **Justice** |
+| "Don't lie; keep your promises" | Truth-telling, consent, fidelity |
+
+- The principles are an **explication** of this shared morality
+- *Explication* = take a rough concept we already use and make it precise and usable — *without replacing it*
+
+## Why "Common Morality" Matters
+
+- **Authority** — the principles are not two philosophers' opinions; they restate what we *already* believe
+- **Reach** — people who disagree about religion, politics, or theory can still share them
+- **Limits** — common morality is *general*: "do no harm" does not tell you whether *this* risky surgery is a harm worth taking
+
+::: {.callout-note}
+This is why the four principles are a **starting point, not an answer key**. The real work — coming next — is turning shared general norms into a decision in one specific case.
+:::
 
 ## 1. Autonomy
 
@@ -272,7 +357,7 @@ In bioethics, justice shows up in three main forms:
 - **Social justice** — are we honest about the historical and structural causes of health disparities?
 
 ::: {.notes}
-We'll spend an entire lecture (L8) on justice. For now, just plant the flag: bioethics is not only about individual encounters.
+We'll spend an entire later lecture on justice. For now, just plant the flag: bioethics is not only about individual encounters.
 :::
 
 ## Justice in Practice
@@ -308,6 +393,64 @@ flowchart LR
 ```
 
 A *framework*, not an algorithm. The principles tell you what to weigh — not, by themselves, how to weigh it.
+
+## Principles Are *Prima Facie*, Not Absolute
+
+[Prima facie]{.key-term} ("at first sight") — a principle is **binding unless, in this case, it is outweighed** by a stronger competing principle. None of the four is absolute.
+
+[Balancing]{.key-term} — the deliberate **weighing** of competing principles *in the situation in front of you*.
+
+- There is **no fixed ranking**: autonomy does not always beat beneficence, or vice versa
+- Balancing is judgment — but not whim: you must give reasons another reasonable person could weigh
+- *Example:* a competent patient refuses a feeding tube. Autonomy and non-maleficence pull one way, beneficence the other. Balancing usually favors the refusal — *if the reasons are stated, not just felt*
+
+## When May One Principle Override Another?
+
+Disciplined balancing. Before letting principle **X** override principle **Y**, you should be able to say:
+
+- **Effective** — overriding Y will realistically achieve the aim
+- **Necessary** — no weaker option would work
+- **Least infringement** — you intrude on Y as little as possible
+- **Proportionate** — the good gained outweighs the norm set aside
+- **Consistent** — you would judge any relevantly similar case the same way
+
+*Example:* warning one named, seriously threatened person can meet these conditions; announcing a patient's diagnosis "just to be safe" cannot.
+
+## Specification: From General Norm to Working Rule
+
+[Specification]{.key-term} — narrowing a broad principle into concrete, action-guiding rules for particular contexts.
+
+| Specified through… | "Respect autonomy" becomes… |
+|---|---|
+| **Law** | The right to refuse treatment; informed-consent statutes |
+| **Institutional policy** | The hospital's consent form and capacity workflow |
+| **Professional codes** | Nursing confidentiality and scope-of-practice duties |
+| **Clinical protocol** | When a second clinician must confirm capacity |
+
+- **Balancing** decides *this case*; **specification** builds *standing rules* so we do not re-argue every case from zero
+
+## Why Do Careful People Still Disagree?
+
+Most — though not all — people accept the common morality. So deep disagreement in bioethics is usually **not** good vs. evil. It has four main sources:
+
+| Source | What is really in dispute | Example |
+|---|---|---|
+| **Facts** | The empirical situation | "*How likely* is this harm?" |
+| **Balancing** | How to weigh shared norms here | Autonomy vs. beneficence in a refusal |
+| **Specification** | Which concrete rule the norm becomes | What counts as *informed* consent |
+| **Deep value clash** | A real disagreement at the margins | The moral status of an embryo |
+
+Naming the source is the first move: a factual dispute is resolved very differently from a values dispute.
+
+## Moral Conflict vs. Moral Dilemma
+
+- [Moral conflict]{.key-term} — moral reasons pull both ways, but one course is, on balance, **better justified**. Most hard cases are like this.
+- [Moral dilemma]{.key-term} — there are strong moral reasons for **incompatible** actions and **no clean option**: the better choice still breaks a real obligation.
+- [Moral residue]{.key-term} — the regret or duty-to-repair that remains *even when you choose well*. Its presence signals a true dilemma, not just a tough call.
+
+::: {.context-box}
+**Example.** Two patients, one ICU bed, equal need. Choosing is not "solving" it — the patient not chosen was still owed care. The residue you feel is *appropriate*, not irrational.
+:::
 
 ## When Principles Conflict
 
@@ -462,9 +605,35 @@ Answers (in order): appeal to nature, slippery slope, ad hominem, false dichotom
 ## Wrapping Up Part A
 
 ::: {.recap}
-Bioethics is the systematic study of moral questions in medicine, research, and policy. It is not the same as law, religion, or personal preference. The **four principles** — autonomy, beneficence, non-maleficence, justice — give us a shared vocabulary for the conflicts we'll see all semester. And every claim in this course will be evaluated as an *argument*: premises, conclusion, hidden assumptions, possible fallacies.
+Bioethics is the systematic study of moral questions in medicine, research, and policy. It is mostly *applied normative* ethics — distinct from descriptive and metaethical inquiry, and not the same as law, religion, or personal preference. The **four principles** — autonomy, beneficence, non-maleficence, justice — are an explication of the common morality we already share, made usable through **balancing** and **specification**, and they give us a shared vocabulary for the conflicts we'll see all semester. And every claim in this course will be evaluated as an *argument*: premises, conclusion, hidden assumptions, possible fallacies.
 
 In **Part B**, we ask the next question: *where do these principles come from?* We meet the major ethical theories — utilitarian, Kantian, virtue, and care — that ground and sometimes contest the four principles.
+:::
+
+## Review Questions
+
+Write a brief answer to each, or use them as discussion prompts.
+
+::: {.review-questions}
+
+::: {.review-item .review-recall}
+#### Recall
+
+What is the difference between descriptive ethics, normative ethics, and metaethics, and why is bioethics usually classified as applied normative ethics?
+:::
+
+::: {.review-item .review-apply}
+#### Apply
+
+A patient with newly diagnosed diabetes says insulin is "unnatural" and wants to rely only on an herbal regimen she found online. Identify the conclusion of her argument, one hidden assumption or fallacy in it, and the main principles a clinician should weigh in responding.
+:::
+
+::: {.review-item .review-debate}
+#### Debate
+
+In a pluralistic hospital, should policy be justified only with publicly shareable reasons that people across worldviews can assess, or is it legitimate to defend policy openly with religious reasons that not everyone accepts?
+:::
+
 :::
 
 ## References

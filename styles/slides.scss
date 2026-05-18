@@ -324,3 +324,70 @@ $code-block-border-color: $rule;
 .reveal .slides section {
   overflow: hidden;
 }
+
+// ----- Closing review questions -----
+.reveal .review-questions {
+  display: grid;
+  gap: 0.55em;
+  margin: 0.8em 0;
+  font-size: 0.7em;
+  text-align: left;
+}
+
+.reveal .review-item {
+  background: white;
+  border: 1px solid $rule;
+  border-left: 6px solid $primary;
+  border-radius: 10px;
+  padding: 0.75em 0.9em;
+  box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.08);
+}
+
+.reveal .review-item > :first-child {
+  margin-top: 0;
+}
+
+.reveal .review-item > :last-child {
+  margin-bottom: 0;
+}
+
+.reveal .review-item h4 {
+  margin: 0 0 0.3em;
+  font-size: 0.82em;
+  font-family: $font-family-sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.reveal .review-item p {
+  margin: 0;
+  line-height: 1.38;
+}
+
+.reveal .review-recall {
+  border-left-color: $primary;
+  background: linear-gradient(135deg, white 0%, #f4fbfb 100%);
+}
+
+.reveal .review-recall h4 {
+  color: $primary;
+}
+
+.reveal .review-apply {
+  border-left-color: $warm;
+  background: linear-gradient(135deg, white 0%, #fff9ef 100%);
+}
+
+.reveal .review-apply h4 {
+  color: $warm;
+}
+
+.reveal .review-debate {
+  border-left-color: $accent;
+  background: linear-gradient(135deg, white 0%, #fff5f4 100%);
+}
+
+.reveal .review-debate h4 {
+  color: $accent;
+}

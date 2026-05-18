@@ -24,6 +24,8 @@ All materials are freely available for non-commercial educational use under a [C
 | 1B | Principles & Reasoning | Ethical Theories as Lenses | [Slides](chapters/01b-theories-slides.html) | [Notes](chapters/01b-theories.html) |
 | 2A | History & Relationship | From Hippocrates to the Belmont Report | [Slides](chapters/02a-history-slides.html) | [Notes](chapters/02a-history.html) |
 | 2B | History & Relationship | The Clinical Relationship: Consent, Autonomy, and Confidentiality | [Slides](chapters/02b-clinical-relationship-slides.html) | [Notes](chapters/02b-clinical-relationship.html) |
+| 3A | Research Ethics | How Clinical Research Works (and Why It's Different from Care) | [Slides](chapters/03a-clinical-research-slides.html) | [Notes](chapters/03a-clinical-research.html) |
+| 3B | Research Ethics | From Tuskegee to Today: Protecting Research Subjects | [Slides](chapters/03b-protecting-research-subjects-slides.html) | [Notes](chapters/03b-protecting-research-subjects.html) |
 
 ---
 

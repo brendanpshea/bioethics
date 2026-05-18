@@ -1,8 +1,10 @@
 ---
 # ============================================================
-# LECTURE TEMPLATE — copy this file when starting a new lecture.
-# Filename convention: NN-short-slug.qmd  (e.g., 02-history-clinical-relationship.qmd)
-# Files prefixed with "_" are skipped by Quarto, so this template
+# LECTURE TEMPLATE & SLIDE WRITING GUIDELINES
+# Copy this file when starting a new lecture, then delete the
+# "SLIDE WRITING GUIDELINES" section before writing content.
+# Filename convention: NN-short-slug.qmd  (e.g., 02a-history.qmd)
+# Files prefixed with "_" are skipped by Quarto, so this file
 # itself is not rendered.
 # ============================================================
 title: "Lecture N — [Lecture Title]"
@@ -17,47 +19,121 @@ format:
     output-file: NN-slug-slides.html
 ---
 
-# Part A — [Subtitle]
+# SLIDE WRITING GUIDELINES {.section-divider}
+
+*Delete this whole section when you copy the template. It is the agreed standard for every lecture, derived from review of L1–L3.*
+
+## Audience and Level
+
+- The audience is mostly **nursing students**, plus PSEO (high-schoolers), gen-ed, and some pre-meds. Write for a **capable 12th grader**.
+- Anything a 12th grader wouldn't know (an RCT, germline vs. somatic, brain death, a legal standard) gets a tight plain-language explanation the first time — usually in a `.context-box`.
+- **Show, don't just name.** Don't write "Willowbrook exposed institutional failure"; tell what concretely happened to real, named people. Conclusions land only after the story.
+- Distressing history (Nazi experiments, Tuskegee, sterilization): **concrete but restrained** — name what was done plainly, no graphic detail.
+
+## Slide Density (hard rule)
+
+Every reveal.js slide must fit **one 1050×700 screen** with no scrolling. Prefer splitting over cramming. A content slide carries **about five sentences' worth of material**, broken up as:
+
+- **5 bullets, no header sentence**, OR
+- **4 bullets with one header sentence above**, OR
+- **3 bullets with a header sentence above and a closing line below**, OR
+- a table / quote-card / two-column / context-box that carries equivalent density.
+
+Prefer **full sentences** to fragments. Fragment "lecture cues" ("Not a checklist", "Free meals encouraged participation") are banned — a student must be able to **study from the slide alone**.
+
+A "thought question + reveal" is **two slides**, never one slide with a fragment.
+
+## Study-Worthiness
+
+- Each content slide must teach on its own: real **names, dates, numbers, mechanisms, and outcomes**, not gestures.
+- Cut navigational filler ("the next slides will trace…", "as mentioned earlier"). It wastes the ~5-sentence budget.
+- If a slide is only a slogan, it is not done.
+
+## Layout Variety
+
+Monotony is a defect. **Never run more than two plain bullet-list slides in a row.** Rotate among these shapes:
+
+| Shape | Use for |
+|---|---|
+| Prose (5 full sentences) | Narrative, argument, synthesis |
+| Two-column **text + image** | Any slide with a photo — the image is a *column*, never dumped under bullets |
+| Contrast table | "myth vs. fact", "told vs. true", "I vs. II", competing standards |
+| Comparison table | Parallel concepts collapsed into one study table (e.g., Belmont principles) |
+| Quote-card | Primary-source quotation (see Quotes) |
+| `.context-box` | A mini-case or a concept a 12th grader needs |
+| Timeline / flow `{dot}` | Sequences and decision procedures |
+| Recurring "scoreboard" table | An intentional running motif — repetition here is *good* |
+
+Collapse repetitive parallel runs (three near-identical principle slides → one rich table). Consolidating and *then* enriching beats leaving thin parallel slides.
+
+## Discussion Units (the 3-slide pattern)
+
+Each major theme gets a discussion **unit**, aiming for ~10 minutes:
+
+1. **`## Thought Question`** — a concrete scenario with **2–3 stacked sub-questions** (put the student in a role).
+2. **`## Make It Contemporary`** — a **documented present-day analogue** (real law, case, study, or practice).
+3. **`## After You've Discussed`** — a `.callout-note` debrief that introduces a **new distinction the body never stated** (e.g., coercion vs. undue inducement vs. exploitation). It must *advance* the analysis, never merely restate the lecture.
+
+## Quotes
+
+- A stand-alone quote slide uses a **longer, verbatim** passage, not a clipped phrase.
+- **Verbatim accuracy is non-negotiable.** Verify against a primary or authoritative source; reproduce punctuation exactly; mark editorial changes with `[brackets]` and cuts with an ellipsis.
+- Attribute fully, including **translator/edition** for translated works (e.g., Kant, Abbott trans.).
+
+## Cross-References and Metacommentary
+
+- **Never use `L#` codes** ("L7", "see L2") — students don't know them and numbering changes.
+- **No inter-lecture metacommentary** in slides ("as we saw in Lecture 2", "Part B will not re-tell this"). Use plain phrasing: *"later, when we turn to end-of-life care."*
+- Treat earlier lectures as **prior knowledge**: recap in one line, then apply — don't re-teach. Minimize overlap between lectures by design.
+
+## Citations
+
+- Use real `refs.bib` keys only. **Never invent a key.** If a source should be cited, add a correct entry to `refs.bib` first.
+- Contemporary facts (recent laws, cases, figures) may be stated in prose **without** a citation, consistently — but get them factually right.
+
+## Banned Patterns
+
+- "Read for next class" / reading-assignment slides.
+- Slides whose whole body is 3–4 terse fragments.
+- Long parallel runs of "X is not Y" / one-word bullets.
+- Re-narrating a case already told in full in an earlier lecture.
+
+## Recurring Devices (encouraged)
+
+- A **running spine** (a scoreboard table that accumulates; a single patient followed across the lecture) gives the deck momentum and is worth building deliberately.
+- Reusing the *same* motif slide repeatedly is intentional repetition, not monotony — it is exempt from the layout-rotation rule.
+
+# Part A — [Subtitle] {.section-divider}
 
 ## Opening: A Case to Sit With
 
-Open with a brief, concrete scenario — one paragraph or a short quote — that frames the lecture's central tension. This is the hook, not the lesson.
+Open with a concrete scenario that frames the lecture's central tension — usually a `.thought-question` (the hook, not the lesson), followed by a short `.callout-note` "After You've Discussed". Make students feel the problem before they get vocabulary.
 
 ## What We're Doing Today
 
 ::: {.learning-outcomes}
 By the end of Part A, you will be able to:
 
-- [Outcome 1: action verb + specific content + condition if relevant]
-- [Outcome 2]
-- [Outcome 3]
+- [Outcome: action verb + specific content; tell what *happened* in named cases, not just "discuss themes"]
+- [Outcome]
+- [Outcome]
 :::
 
-## [Section 1 Title]
+## [Section Title]
 
-Body text. Introduce a [key term]{.key-term} the first time it appears so the styling cues students that it's a concept they should be able to define.
+Body in **full sentences**. Introduce a [key term]{.key-term} the first time it appears. Keep to the density rule above.
 
-In-text citations follow Chicago author-date and use the standard Pandoc syntax: @beauchamp2019 argued that the four principles function as *prima facie* duties. A parenthetical reference looks like this [@emanuel1992]. You can cite multiple works at once [@beauchamp2019; @faden1986].
+In-text citations use Pandoc/Chicago author-date: @beauchamp2019 argued X; a parenthetical looks like this [@emanuel1992]; multiple at once [@beauchamp2019; @faden1986].
 
 ::: {.context-box}
-**[Concept students may not know]**
+**[Concept a 12th grader may not know]**
 
-Brief background — one to three short paragraphs — for any concept that wouldn't be familiar to a 12th grader. Keep this scaffolding tight. Examples: what an RCT is, what germline vs. somatic means, how brain death is determined.
+Two or three tight sentences of plain-language background. Scaffolding only.
 :::
 
-## [Section 2 Title]
+## [Section Title] — varied layout
 
-When a diagram clarifies the structure of an argument or relationship, prefer Mermaid over a static image — it stays editable.
-
-```{mermaid}
-flowchart LR
-  A[Patient autonomy] --> D{Conflict?}
-  B[Clinical beneficence] --> D
-  D -->|No| E[Proceed with care plan]
-  D -->|Yes| F[Ethics consultation]
-```
-
-Use Graphviz when the layout requires it (decision trees, larger graphs):
+Rotate the shape (table / two-column+image / quote-card / `dot`). For a diagram, prefer Graphviz `{dot}` or Mermaid (editable) over a static picture:
 
 ```{dot}
 digraph G {
@@ -69,70 +145,84 @@ digraph G {
 }
 ```
 
-When you need a photograph or historical image, download from Wikimedia Commons (CC-licensed) into `images/` and attribute with a Quarto figure caption. Example:
+Photographs are columns, with attribution:
 
-![Hippocrates of Kos. Engraving by Peter Paul Rubens, 1638. *Wikimedia Commons*, public domain.](../images/hippocrates.jpg){#fig-hippocrates width="40%"}
+:::: {.columns}
+::: {.column width="58%"}
+Four full sentences of substance here.
+:::
+::: {.column width="42%"}
+![](../images/example.jpg){width="90%" fig-alt="describe"}
 
-Then refer to the figure in text: see @fig-hippocrates.
+::: {.attribution}
+Source. Public domain. [@key]
+:::
+:::
+::::
+
+## Thought Question
 
 ::: {.thought-question}
-A question for the class to discuss in the moment — short, opinion-eliciting, no obvious right answer. Aim for one or two per part.
+A concrete scenario in which the student has a role, with 2–3 stacked sub-questions, no obvious right answer.
+:::
 
-*Example:* If a competent patient refuses a life-saving transfusion on religious grounds, and their adult child begs you to override the refusal, what do you owe to each of them?
+## Make It Contemporary
+
+::: {.thought-question}
+A documented present-day analogue (real law/case/study) that re-poses the same tension.
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+A debrief that introduces a **new distinction** — never a restatement of the slides above.
 :::
 
 ## Mini-Recap
 
 ::: {.recap}
-Two or three sentences synthesizing what Part A established. This bridges into Part B.
+Two or three sentences synthesizing Part A and bridging into Part B.
 :::
 
-# Part B — [Subtitle]
+# Part B — [Subtitle] {.section-divider}
 
 ## Where We Left Off
 
-One short paragraph reorienting students who arrive having read or watched Part A separately. Online students will see Parts A and B back to back, so don't repeat too much.
+One short paragraph reorienting a student who watched Part A separately. Online students see A then B back-to-back, so don't over-repeat.
 
 ## What We're Doing in Part B
 
 ::: {.learning-outcomes}
 By the end of Part B, you will be able to:
 
-- [Outcome 1]
-- [Outcome 2]
+- [Outcome]
+- [Outcome]
 :::
 
-## [Section 3 Title]
+## [Section Title]
 
-Body content. Build on Part A. Introduce additional [key terms]{.key-term} as needed.
+Build on Part A as prior knowledge (recap in a line, then apply). Same density and layout-variety rules. Run at least one full discussion unit.
 
-::: {.thought-question}
-[A second discussion prompt — ideally one that revisits a tension introduced in Part A from a new angle.]
-:::
+## [Application Section]
 
-## [Section 4 Title]
+Work a brief illustrative case in the text, or point to the paired case study **by topic name, not lecture number**:
 
-Application section. Either work through a brief illustrative case in the text *or* point students to the paired case study document:
-
-> **Read for next class:** [Case N — Title](cases/NN-slug.qmd)
+> **Paired case:** [Case N — Title](cases/NN-slug.qmd)
 
 ## Wrap-Up
 
 ::: {.recap}
-Three to four sentences summarizing the whole lecture's arc — the question, the main moves, the unresolved tension that opens onto the next lecture or the assigned case study.
+Three or four sentences summarizing the whole arc — the question, the main moves, the unresolved tension. No `L#`.
 :::
 
 ## Key Terms
 
-Used in this lecture and worth being able to define on an exam:
-
-- **[Term 1]** — short gloss
-- **[Term 2]** — short gloss
-- **[Term 3]** — short gloss
+- **[Term]** — short gloss
+- **[Term]** — short gloss
 
 ## Further Reading
 
-Curated list of accessible follow-up sources. Distinct from the references below (which are works *cited* in the lecture).
+Accessible follow-up sources (distinct from works cited).
 
 - Author. *Title*. Publisher, Year.
 

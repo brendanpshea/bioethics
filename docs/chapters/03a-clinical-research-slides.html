@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.9.37">
 
   <meta name="author" content="Brendan Shea, PhD">
-  <meta name="dcterms.date" content="2026-05-17">
+  <meta name="dcterms.date" content="2026-05-18">
   <title>Bioethics: An Open Educational Resource – Lecture 3 — Research Ethics</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -52,7 +52,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-36e9e42a5ea81014cf1a5e4295da0642.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-5d6969d19d7165d23437cfc22dfe9fa3.css">
   <link rel="stylesheet" href="../styles/custom.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -165,7 +165,7 @@ Brendan Shea, PhD
 </div>
 </div>
 
-  <p class="date">2026-05-17</p>
+  <p class="date">2026-05-18</p>
 </section>
 <section>
 <section id="a-case-to-open-with" class="title-slide slide level1 section-divider center">
@@ -229,11 +229,12 @@ Brendan Shea, PhD
 <div class="learning-outcomes">
 <p>By the end of Part A, you will be able to:</p>
 <ul>
-<li>Explain the basic structure of a randomized controlled trial</li>
-<li>Distinguish clinical care from clinical research</li>
-<li>Describe randomization, control groups, placebo, and blinding in plain language</li>
-<li>Summarize what phases I, II, III, and IV are for</li>
-<li>Explain the therapeutic misconception and why it matters ethically</li>
+<li>Distinguish clinical care from clinical research, and say why the difference changes consent and oversight</li>
+<li>Explain randomization, control, placebo, and blinding by walking through the 1954 polio trial</li>
+<li>Tell a clinical endpoint from a surrogate, and judge whether a result could be chance</li>
+<li>Summarize what trial phases I–IV are for</li>
+<li>Explain the therapeutic misconception and why it matters at the bedside</li>
+<li>Use the opioid-evidence story to say what a given study can and cannot support</li>
 </ul>
 </div>
 </section></section>
@@ -472,6 +473,57 @@ Brendan Shea, PhD
 </div>
 </div>
 </section>
+<section id="a-real-trial-polio-1954" class="slide level2">
+<h2>A Real Trial: Polio, 1954</h2>
+<ul>
+<li>In 1952 the United States recorded roughly 58,000 polio cases, most of them children — it was the most feared childhood disease in the country.</li>
+<li>Jonas Salk’s killed-virus injected vaccine looked promising, but “promising” vaccines had failed and even harmed children before.</li>
+<li>So the country ran the largest medical experiment in history: about 1.8 million schoolchildren, the “Polio Pioneers,” organized by the March of Dimes and directed by Thomas Francis Jr.</li>
+<li>The trial’s job was not to <em>deliver</em> a cure but to <em>prove</em> whether there was one.</li>
+<li>Every mechanic from the last few slides — randomize, control, blind, compare — was used on these children, and the design choices decided whether anyone could believe the result <span class="citation" data-cites="francis1955">(<a href="#/references" role="doc-biblioref" onclick=""><span class="nocase">Francis et al.</span> 1955</a>)</span>.</li>
+</ul>
+</section>
+<section id="two-designs-one-trial" class="slide level2">
+<h2>Two Designs, One Trial</h2>
+<p>The 1954 trial actually ran <strong>two designs at once</strong> — and that is the lesson:</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Placebo-controlled areas</th>
+<th>Observed-control areas</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Who got vaccine</strong></td>
+<td>Grades 1–3 <strong>randomized</strong> to vaccine or saline</td>
+<td>Only 2nd-grade <strong>volunteers</strong> vaccinated</td>
+</tr>
+<tr class="even">
+<td><strong>The controls</strong></td>
+<td>Randomized peers given a saline shot</td>
+<td>Grades 1 and 3, simply observed</td>
+</tr>
+<tr class="odd">
+<td><strong>Blinding</strong></td>
+<td><strong>Double-blind</strong> — no one knew who got what</td>
+<td>Not blinded</td>
+</tr>
+<tr class="even">
+<td><strong>How trustworthy</strong></td>
+<td>High — groups comparable, judgment unbiased</td>
+<td>Weaker — volunteers differ; diagnosis can be swayed</td>
+</tr>
+</tbody>
+</table>
+<p>Same disease, same year, same vaccine: the <strong>design</strong>, not the vaccine, is what made one half of the trial believable.</p>
+</section>
 <section id="what-the-control-group-gets" class="slide level2">
 <h2>What the Control Group Gets</h2>
 <ul>
@@ -503,10 +555,11 @@ Brendan Shea, PhD
 <li>“Double-blind” is about cleaner evidence, not secrecy for its own sake</li>
 </ul>
 </section>
-<section id="a-tiny-example" class="slide level2">
-<h2>A Tiny Example</h2>
+<section id="why-blinding-mattered-in-1954" class="slide level2">
+<h2>Why Blinding Mattered in 1954</h2>
 <div class="context-box">
-<p>If patients know they are receiving the new drug, they may report feeling better partly because they expect it to work. If clinicians know who got the new drug, they may judge borderline improvements more generously. Blinding tries to reduce that problem.</p>
+<p>Diagnosing mild polio is partly a judgment call — a borderline weak limb can be read either way. In the 1954 trial’s observed-control areas, the examining doctors knew which children had been vaccinated. A doctor who <em>hoped</em> the vaccine worked could, without any dishonesty, lean toward “not polio” in a vaccinated child.</p>
+<p>That is exactly why the placebo-controlled areas were <strong>double-blind</strong>: no one at the bedside knew, so hope could not tip the count.</p>
 </div>
 </section>
 <section id="who-watches-the-trial-while-it-runs" class="slide level2">
@@ -518,6 +571,109 @@ Brendan Shea, PhD
 <li>It can also <strong>stop early for benefit</strong> — one arm is so clearly better that continuing the other is no longer fair</li>
 <li>Equipoise has a deadline: once the evidence is in, the trial must end</li>
 </ul>
+</section>
+<section id="the-same-machinery-today" class="slide level2">
+<h2>The Same Machinery, Today</h2>
+<ul>
+<li>The 2020 COVID-19 vaccine trials used exactly the 1954 logic at modern scale: tens of thousands of volunteers, randomized, double-blind, placebo-controlled.</li>
+<li>The primary endpoint was a <strong>clinical</strong> one — laboratory-confirmed symptomatic COVID-19 — not just an antibody level in the blood.</li>
+<li>An independent data safety monitoring board reviewed the accumulating results at planned interim points.</li>
+<li>When the effect was large and the safety data adequate, the FDA granted Emergency Use Authorization, with full approval following after more follow-up.</li>
+<li>Seventy years apart, the polio and COVID trials are recognizably the same instrument, used carefully because the stakes were enormous.</li>
+</ul>
+</section></section>
+<section>
+<section id="reading-a-trials-result" class="title-slide slide level1 section-divider center">
+<h1>Reading a Trial’s Result</h1>
+
+</section>
+<section id="what-are-we-even-measuring-endpoints" class="slide level2">
+<h2>What Are We Even Measuring? Endpoints</h2>
+<ul>
+<li>A <strong>clinical endpoint</strong> is something a patient can feel or would obviously care about: living longer, avoiding a stroke, walking without pain.</li>
+<li>A <strong>surrogate endpoint</strong> is a stand-in measured because it is faster or cheaper — a lab number, a scan finding, a blood pressure reading.</li>
+<li>Surrogates speed research up, but a treatment can move the surrogate and still not help patients — or even harm them.</li>
+<li>The classic warning is the CAST trial: drugs that “fixed” an abnormal heart rhythm on the monitor actually <em>increased</em> deaths.</li>
+<li>So the first question to ask of any trial is: did patients actually do better, or did a number just move?</li>
+</ul>
+</section>
+<section id="could-it-just-be-chance" class="slide level2">
+<h2>Could It Just Be Chance?</h2>
+<ul>
+<li>Any two groups of people differ a little by luck, even if the treatment does nothing at all.</li>
+<li>Statistics ask one question: how likely is a difference <em>this big</em> if the treatment really had no effect?</li>
+<li>“Statistically significant” roughly means “probably not just luck” — it does <strong>not</strong> mean large, important, or certain.</li>
+<li>Small trials are easily fooled by chance, which is why large samples and <strong>independent replication</strong> matter so much.</li>
+<li>A single significant result is a lead worth following, not a verdict to act on alone.</li>
+</ul>
+</section>
+<section id="honest-trials-can-still-mislead" class="slide level2">
+<h2>Honest Trials Can Still Mislead</h2>
+<ul>
+<li>A result can mislead even when no one lied or faked anything.</li>
+<li><strong>Who got into the trial</strong> limits who the answer applies to: narrow eligibility rules can exclude the very patients you treat.</li>
+<li>People who <strong>drop out</strong> are usually different from those who finish, so analyzing only the “completers” quietly flatters the treatment.</li>
+<li><strong>Intention-to-treat</strong> analysis — count everyone in the group they were randomized to, even if they quit — is the standard guard against that.</li>
+<li>The disciplined question is always: who is missing from this result, and which way would that bias it?</li>
+</ul>
+</section>
+<section id="when-a-letter-becomes-evidence" class="slide level2">
+<h2>When a Letter Becomes “Evidence”</h2>
+<ul>
+<li>In 1980 a five-sentence <em>letter to the editor</em> reported that, among <strong>hospitalized</strong> patients given opioids, addiction was rare <span class="citation" data-cites="porter1980">(<a href="#/references" role="doc-biblioref" onclick="">Porter and Jick 1980</a>)</span>.</li>
+<li>It was not a trial: no randomization, no control, no long-term or outpatient follow-up.</li>
+<li>Over the next two decades it was cited hundreds of times as if it had proven that long-term outpatient opioids rarely cause addiction.</li>
+<li>The reading-evidence lesson is exact: the <em>type</em> of study and <em>who was in it</em> cap what any result can support.</li>
+<li>How that misreading was promoted is a research-integrity story we return to later — here the point is simply that a letter is not an RCT.</li>
+</ul>
+</section>
+<section id="thought-question" class="slide level2 scrollable">
+<h2>Thought Question</h2>
+<div class="thought-question">
+<p>A new drug’s Phase III trial is reported as “positive.”</p>
+<ul>
+<li>It significantly improved a <strong>surrogate</strong> marker on a scan.</li>
+<li>The trial was <strong>small</strong>, and about <strong>25%</strong> of participants dropped out.</li>
+<li>The analysis included only those who completed.</li>
+</ul>
+<ol type="1">
+<li>Name the three weaknesses you can already see.</li>
+<li>What would you want to know before telling a patient this drug “works”?</li>
+<li>Is “the FDA might approve it” the same as “it helps patients”?</li>
+</ol>
+</div>
+</section>
+<section id="make-it-contemporary" class="slide level2">
+<h2>Make It Contemporary</h2>
+<div class="thought-question">
+<p>Regulators sometimes grant <strong>accelerated approval</strong> based on a surrogate endpoint, with a confirmatory trial promised later.</p>
+<ul>
+<li>Patients with no other option get the drug years sooner.</li>
+<li>Some confirmatory trials later show no real benefit — and a few are never finished.</li>
+</ul>
+<p>Is faster access worth weaker evidence? Who should decide, and what should happen if the confirmatory trial fails?</p>
+</div>
+</section>
+<section id="after-youve-discussed-1" class="slide level2">
+<h2>After You’ve Discussed</h2>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>Three distinctions to carry forward:</p>
+<ul>
+<li><strong>Statistically significant ≠ clinically meaningful.</strong> A real but tiny effect on a surrogate can be true and still not worth having.</li>
+<li><strong>Regulatory approval ≠ proven patient benefit.</strong> Approval is a decision under uncertainty, not a guarantee.</li>
+<li><strong>The standing questions are always the same:</strong> what was measured, in whom, and who is missing from the result?</li>
+</ul>
+</div>
+</div>
+</div>
 </section></section>
 <section>
 <section id="trial-phases" class="title-slide slide level1 section-divider center">
@@ -631,44 +787,14 @@ Brendan Shea, PhD
 </div>
 </div>
 </section>
-<section id="phase-i-start-with-safety" class="slide level2">
-<h2>Phase I: Start with Safety</h2>
+<section id="what-each-phase-is-really-asking" class="slide level2">
+<h2>What Each Phase Is Really Asking</h2>
 <ul>
-<li>In cancer research, Phase I often involves about 15 to 30 people <span class="citation" data-cites="nci_trials2024">(<a href="#/references" role="doc-biblioref" onclick="">National Cancer Institute 2024</a>)</span></li>
-<li>Researchers ask what dose is tolerable and what harms appear</li>
-<li>They also look for signs the intervention is doing anything biologically</li>
-<li>But direct benefit is not the main point</li>
-<li>This is why Phase I can be ethically difficult: risk may be significant while personal upside is limited</li>
-</ul>
-</section>
-<section id="phase-ii-does-it-look-promising" class="slide level2">
-<h2>Phase II: Does It Look Promising?</h2>
-<ul>
-<li>More people are enrolled than in Phase I</li>
-<li>The question shifts toward whether the treatment seems to work</li>
-<li>Safety is still being watched closely</li>
-<li>A positive Phase II result is encouraging, not conclusive</li>
-<li>Many interventions fail here or later</li>
-</ul>
-</section>
-<section id="phase-iii-against-the-current-standard" class="slide level2">
-<h2>Phase III: Against the Current Standard</h2>
-<ul>
-<li>Phase III asks whether a new treatment outperforms the best existing option or changes the balance of harms and benefits</li>
-<li>Randomization is common here <span class="citation" data-cites="nci_trials2024">(<a href="#/references" role="doc-biblioref" onclick="">National Cancer Institute 2024</a>)</span></li>
-<li>Sample sizes are much larger</li>
-<li>This is where placebo and control-group debates become most visible</li>
-<li>The outcome matters not just for one patient but for what becomes the new standard</li>
-</ul>
-</section>
-<section id="phase-iv-after-approval" class="slide level2">
-<h2>Phase IV: After Approval</h2>
-<ul>
-<li>Approval is not the end of learning</li>
-<li>Phase IV tracks long-term safety and effectiveness in broader populations <span class="citation" data-cites="nci_trials2024">(<a href="#/references" role="doc-biblioref" onclick="">National Cancer Institute 2024</a>)</span></li>
-<li>Rare side effects may appear only after many people use a drug</li>
-<li>Real-world use is messier than tightly controlled trials</li>
-<li>So ethics does not stop once a treatment reaches the market</li>
+<li><strong>Phase I</strong> is small (often 15–30 people in cancer) and asks what dose is tolerable and what harms appear; direct benefit is not the point, which is what makes it ethically hard <span class="citation" data-cites="nci_trials2024">(<a href="#/references" role="doc-biblioref" onclick="">National Cancer Institute 2024</a>)</span>.</li>
+<li><strong>Phase II</strong> enrolls more people and asks whether the treatment <em>seems</em> to work, while safety is still watched closely; many promising drugs fail right here.</li>
+<li><strong>Phase III</strong> is the large, usually randomized comparison against the best existing option, and it is where placebo and control debates bite hardest because its result becomes the new standard.</li>
+<li><strong>Phase IV</strong> runs after approval and catches rare harms and real-world performance that tightly controlled trials miss.</li>
+<li>“Clinical trial” is therefore not one thing — the same words cover wildly different risks, hopes, and likely benefits.</li>
 </ul>
 </section>
 <section id="why-phases-matter-ethically" class="slide level2">
@@ -721,8 +847,7 @@ Brendan Shea, PhD
 <h2>The Dangerous Sentence</h2>
 <div class="quote-card">
 <blockquote>
-<p>“This study may help you” can be true.<br>
-“This study is being chosen because it is the best treatment for you” is often false.</p>
+<p>“This study may help you” can be true. “This study is being chosen because it is the best treatment for you” is often false.</p>
 </blockquote>
 <div class="attribution">
 <p>The distinction is what the therapeutic misconception tries to protect <span class="citation" data-cites="appelbaum1982tm emanuel2000research">(<a href="#/references" role="doc-biblioref" onclick="">Appelbaum et al. 1982</a>; <a href="#/references" role="doc-biblioref" onclick="">Emanuel et al. 2000</a>)</span>.</p>
@@ -739,7 +864,7 @@ Brendan Shea, PhD
 <li>Ethical recruitment has to say this plainly</li>
 </ul>
 </section>
-<section id="thought-question" class="slide level2 scrollable">
+<section id="thought-question-1" class="slide level2 scrollable">
 <h2>Thought Question</h2>
 <div class="thought-question">
 <p>You are a research nurse enrolling patients in a first-in-human oncology trial.</p>
@@ -754,7 +879,7 @@ Brendan Shea, PhD
 </ol>
 </div>
 </section>
-<section id="make-it-contemporary" class="slide level2">
+<section id="make-it-contemporary-1" class="slide level2">
 <h2>Make It Contemporary</h2>
 <div class="thought-question">
 <p>The same structure appears outside oncology too:</p>
@@ -765,7 +890,7 @@ Brendan Shea, PhD
 <p>Both may be voluntary. But are both <em>equally</em> informed and equally free?</p>
 </div>
 </section>
-<section id="after-youve-discussed-1" class="slide level2">
+<section id="after-youve-discussed-2" class="slide level2">
 <h2>After You’ve Discussed</h2>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
@@ -796,14 +921,15 @@ Brendan Shea, PhD
 <ul>
 <li>Trials are ethically hard because they borrow the setting of care but not its single-minded goal</li>
 <li>Randomization, blinding, control groups, and phases are scientific tools</li>
-<li>Those same tools also explain why research needs its own ethics</li>
+<li>The same tools also let you <em>read</em> a result: what was measured, could it be chance, who is missing</li>
+<li>Those tools are exactly why research needs its own ethics</li>
 <li>Part B turns from the structure of trials to the rulebook meant to protect the people inside them</li>
 </ul>
 </section>
 <section id="wrapping-up-part-a-1" class="slide level2">
 <h2>Wrapping Up Part A</h2>
 <div class="recap">
-<p>Clinical research is not ordinary care with extra paperwork. Its purpose is to produce reliable knowledge, which is why it uses randomization, control groups, blinding, and staged phases. Those tools make better evidence, but they also create new risks of misunderstanding and exploitation. The key ethical task in Part A is learning to say, clearly and without panic: this is research, not just treatment by another name.</p>
+<p>Clinical research is not ordinary care with extra paperwork. Its purpose is to produce reliable knowledge, which is why it uses randomization, control groups, blinding, and staged phases — visible in one real instrument, the 1954 polio trial, and again in the COVID-19 vaccine trials. Those same tools also teach you to <em>read</em> a study: clinical versus surrogate endpoints, whether a result could be chance, and who dropped out or was left out. The key task in Part A is learning to say, clearly and without panic: this is research, not just treatment by another name — and here is how good its evidence actually is.</p>
 </div>
 </section>
 <section id="references" class="slide level2 smaller scrollable">
@@ -815,8 +941,14 @@ Appelbaum, Paul S., Loren H. Roth, and Charles Lidz. 1982. <span>“The Therapeu
 <div id="ref-emanuel2000research" class="csl-entry" role="listitem">
 Emanuel, Ezekiel J., David Wendler, and Christine Grady. 2000. <span>“What Makes Clinical Research Ethical?”</span> <em>JAMA</em> 283 (20): 2701–11. <a href="https://doi.org/10.1001/jama.283.20.2701">https://doi.org/10.1001/jama.283.20.2701</a>.
 </div>
+<div id="ref-francis1955" class="csl-entry" role="listitem">
+<span class="nocase">Francis, Thomas et al.</span> 1955. <span>“An Evaluation of the 1954 Poliomyelitis Vaccine Trials: Summary Report.”</span> <em>American Journal of Public Health</em> 45 (5): 1–63.
+</div>
 <div id="ref-nci_trials2024" class="csl-entry" role="listitem">
 National Cancer Institute. 2024. <em>How Do Clinical Trials Work?</em> National Cancer Institute. <a href="https://www.cancer.gov/research/participate/clinical-trials/how-trials-work">https://www.cancer.gov/research/participate/clinical-trials/how-trials-work</a>.
+</div>
+<div id="ref-porter1980" class="csl-entry" role="listitem">
+Porter, Jane, and Hershel Jick. 1980. <span>“Addiction Rare in Patients Treated with Narcotics.”</span> <em>New England Journal of Medicine</em> 302 (2): 123. <a href="https://doi.org/10.1056/NEJM198001103020221">https://doi.org/10.1056/NEJM198001103020221</a>.
 </div>
 <div id="ref-commonrule_hhs" class="csl-entry" role="listitem">
 U.S. Department of Health and Human Services, Office for Human Research Protections. 2026. <em>Federal Policy for the Protection of Human Subjects (<span>Common Rule</span>)</em>. HHS OHRP. <a href="https://www.hhs.gov/ohrp/regulations-and-policy/regulations/common-rule/index.html">https://www.hhs.gov/ohrp/regulations-and-policy/regulations/common-rule/index.html</a>.

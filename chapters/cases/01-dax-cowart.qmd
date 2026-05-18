@@ -10,7 +10,7 @@ date: last-modified
 - **What:** Severely burned in a propane explosion in 1973; demanded treatment be stopped throughout two years of intensely painful care; was overruled and treated against his wishes
 - **Where / When:** Parkland Hospital (Dallas) and the University of Texas Medical Branch (Galveston), 1973–1975
 - **Why it matters:** Cowart's case became the most-discussed example in American bioethics of the conflict between patient [autonomy]{.key-term} (the right to refuse treatment) and clinical [beneficence]{.key-term} (the duty to save a life). Even after he recovered and built a successful career, Cowart insisted his rights had been violated.
-- **Pair with:** Lecture 2 — History & the Clinical Relationship
+- **Pair with:** History & the Clinical Relationship
 :::
 
 ## The Case

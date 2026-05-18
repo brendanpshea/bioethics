@@ -24,9 +24,10 @@ That is where ethical **theory** comes in.
 ::: {.learning-outcomes}
 By the end of Part B, you will be able to:
 
-- State the core commitment of utilitarianism, Kantian ethics, virtue ethics, and care ethics
-- Explain how each theory grounds or prioritizes the four principles differently
-- Apply at least two theories to the same clinical case and show they yield different answers
+- State the core commitment of utilitarian, Kantian, and character/tradition ethics (virtue, care, Confucian, natural law)
+- Explain how each grounds or prioritizes the four principles differently
+- Trace one contemporary debate — Singer versus O'Neill and Kamm — across global obligation, animals, and the end of life
+- Apply at least two lenses to one clinical case and show they diverge
 :::
 
 # Why Theory? {.section-divider}
@@ -43,16 +44,17 @@ Ethical theories fill that gap. Think of them as **lenses**:
 - Each has blind spots
 - No single lens sees everything
 
-We will use all four throughout the course — not to pick a winner, but to see more of the problem.
+We will use these lenses throughout the course — not to pick a winner, but to see more of the problem.
 
 ## A Roadmap
 
-| Theory | Core question | Key figure |
+| Lens | Core question | Key figures |
 |---|---|---|
-| **Utilitarianism** | What produces the best outcomes? | Mill, Bentham |
-| **Kantian ethics** | What are my duties, regardless of outcome? | Kant |
-| **Virtue ethics** | What would a person of good character do? | Aristotle |
-| **Care ethics** | What do my relationships and context require? | Gilligan, Held |
+| **Utilitarianism** | What produces the best outcomes for all affected? | Bentham, Mill; Singer |
+| **Kantian ethics** | What do we owe persons, regardless of outcome? | Kant; O'Neill, Kamm |
+| **Character & traditions** | What kind of person, relationship, and community is good? | Aristotle; Gilligan/Held, Confucius, Aquinas |
+
+The four principles are the shared backdrop all three lenses interpret — differently.
 
 ::: {.notes}
 Remind students: these will appear in almost every subsequent lecture. Abortion, end of life, justice — each one sees these theories pulling differently.
@@ -173,7 +175,47 @@ A utilitarian protocol would allocate ventilators to maximize lives saved — wh
 ## After You've Discussed
 
 ::: {.callout-note}
-**The utilitarian reply.** A sophisticated utilitarian can say: the protocol maximizes welfare across the *group*, which is what justice requires. **The critique** is that it treats some lives as worth less, and that the reasons behind lower survival odds (disability, chronic illness) are often tied to existing inequities. We will return to this in L9 (Public Health Ethics) and L8 (Justice).
+**The utilitarian reply.** A sophisticated utilitarian can say: the protocol maximizes welfare across the *group*, which is what justice requires. **The critique** is that it treats some lives as worth less, and that the reasons behind lower survival odds (disability, chronic illness) are often tied to existing inequities. We will return to this when we take up public health ethics and the just allocation of care.
+:::
+
+# Utilitarianism in Practice: Peter Singer {.section-divider}
+
+## Utilitarianism, Followed All the Way
+
+- Peter Singer is the most influential living utilitarian, known for following the theory's logic wherever it leads [@singer_practical].
+- He defends [preference utilitarianism]{.key-term}: an act is right if it best satisfies the preferences of everyone affected, counted impartially.
+- His master rule is the [principle of equal consideration of interests]{.key-term}: like interests get equal weight no matter whose they are.
+- Impartiality is literal — your interests get no extra weight for being *yours*, your family's, your country's, or your species'.
+- This makes the theory powerful *and* uncomfortable: it generates strong, sometimes radical, real-world obligations.
+
+## Singer on Global Obligations
+
+::: {.context-box}
+**The drowning child.** You pass a shallow pond where a small child is drowning. Wading in ruins your expensive shoes — obviously you must save her. Singer asks: why is a child dying of a preventable disease overseas any different? [@singer_famine]
+:::
+
+- His principle: if we can prevent something very bad **without sacrificing anything of comparable importance**, we must — and distance does not change that.
+- It launched the **effective altruism** movement: give substantially, where each dollar does the most good.
+- The standard pushback is the **demandingness objection** — strictly applied, it seems to require giving until you are nearly as badly off as those you help.
+
+## Singer on Animals
+
+- In *Animal Liberation* (1975), Singer extended equal consideration beyond our own species [@singer_animal].
+- The morally relevant feature is **sentience** — the capacity to suffer — not intelligence, language, or species.
+- Giving humans' interests automatic priority over animals' like interests is [speciesism]{.key-term}, which he argues is, in form, like racism or sexism.
+- This is *not* the claim that animals and humans are equal in all respects — only that comparable suffering deserves comparable weight.
+- On these grounds he judges factory farming and much animal research to be vast, unjustified harm.
+
+## Singer at the Edges of Life
+
+- Singer separates being **biologically human** from being a [person]{.key-term} — a self-aware being with preferences about its own future.
+- The wrongness of killing then tracks personhood and preferences, not species membership by itself.
+- So he holds **abortion** permissible (an early fetus is not yet a person) and defends **voluntary euthanasia**.
+- Most controversially, he argues that for some severely impaired newborns, ending life may be permissible.
+- The **disability-rights objection** is sharp — this rates disabled lives as lower-value, a challenge we return to later.
+
+::: {.notes}
+Why teach the hardest case: Singer matters precisely because he refuses to stop where intuition gets uncomfortable. This slide is the hinge — the next section asks whether "follow the calculation wherever it leads" is the right method at all.
 :::
 
 # Kantian Ethics {.section-divider}
@@ -214,11 +256,11 @@ Kant, *Groundwork of the Metaphysic of Morals* (1785), trans. T. K. Abbott [@kan
 
 ## What the Formula Demands
 
-In practice, this means:
-
-- Persons have **dignity** — an unconditional worth that cannot be traded off
-- Deceiving, manipulating, or coercing a patient uses them as a *mere means*
-- Informed consent is not just policy — it is a **moral requirement**
+- Every person has **dignity** — an unconditional worth that cannot be weighed against anyone else's benefit.
+- To deceive, manipulate, or coerce a patient is to use them as a *mere means*, even when the outcome is good.
+- **Informed consent** is therefore not mere policy or paperwork; it is a direct moral requirement.
+- A competent patient may decline what is medically best, because respect does not depend on agreeing with the choice.
+- The duty has a limit: where rational agency is genuinely impaired, treating someone as an end can require *protecting* them, not only deferring to them.
 
 ## Kantian Ethics and the Four Principles
 
@@ -290,12 +332,58 @@ A patient with severe depression has been refusing an antidepressant. His psychi
 ## After You've Discussed
 
 ::: {.callout-note}
-**The Kantian tension.** Kant's framework requires that the patient be capable of rational self-governance for autonomy to apply fully. If the illness itself impairs that capacity, overriding expressed wishes *may* be consistent with treating him as an end — but this reasoning can also be abused to justify paternalism. **Decision-making capacity assessment** (L2) is how clinical ethics tries to hold this line carefully.
+**The Kantian tension.** Kant's framework requires that the patient be capable of rational self-governance for autonomy to apply fully. If the illness itself impairs that capacity, overriding expressed wishes *may* be consistent with treating him as an end — but this reasoning can also be abused to justify paternalism. **Decision-making capacity assessment** is how clinical ethics tries to hold this line carefully.
 :::
 
-# Virtue Ethics {.section-divider}
+# The Nonconsequentialist Reply {.section-divider}
 
-*Character before rules — what kind of person should I be?*
+## Answering Singer
+
+- If Singer is utilitarianism with the gloves off, the Kantian tradition is the main reply.
+- The **separateness of persons**: people are not interchangeable vessels of welfare, so a serious harm to one is not cancelled by benefits to others.
+- Morality includes **constraints**: using, deceiving, or killing an innocent person can be wrong *even when* it would maximize good.
+- **Doing vs. allowing**: actively harming someone differs from failing to benefit a stranger — so the "distance and numbers don't matter" move is contested.
+- The reply is not "ignore consequences"; it is "consequences are not the *only* moral currency."
+
+## Kantian Ethics and "Just Sign Here"
+
+- A utilitarian can accept a rushed or spun consent if the outcome is good; a Kantian cannot.
+- Treating a patient as an *end* means the consent process must be one a reasonable person could actually trust [@oneill_autonomy].
+- That rules out manipulation, euphemism, and "technically true" disclosure — even when they would steer the patient toward the better outcome.
+- It shifts the question from "did they sign?" to "did we give them what they would need to decide for themselves?"
+- Practical upshot: honest disclosure and trustworthy institutions are obligations, not customer service.
+
+## Why You Can't Harvest One to Save Five
+
+- Five patients will die without organs; one healthy person in the waiting room is a match — the arithmetic says harvest.
+- Kantian ethics says no, flatly: a person is not a resource, even when the numbers are overwhelming [@kamm_bioethical].
+- *How* a harm comes about matters — **intending** a death differs from **foreseeing** it, which is why pain relief that may shorten life can still be permissible.
+- You also have **prerogatives**: you need not sacrifice everything to maximize good, so Singer's unlimited demand is rejected.
+- The bedside payoff: some lines — deceiving, using, or killing a patient — hold even when crossing them would help more people.
+
+## Singer vs. Kantian Ethics, Side by Side
+
+| Issue | Singer (preference utilitarian) | Kantian ethics (constraints, dignity) |
+|---|---|---|
+| **Global poverty** | Strong duty to give; distance irrelevant; very demanding | A real but bounded duty to aid; owed first to particular others |
+| **Animals** | Equal consideration of like interests; speciesism is a bias | Treatment is still constrained, but duties often track rational agency |
+| **End of life** | Personhood and preferences decide; voluntary euthanasia permissible | Persons have dignity; you may not use or kill a person for net benefit |
+| **Method** | Sum the interests, choose the maximum | Apply constraints first; numbers do not settle everything |
+
+Same cases, different moral currency — which is why we keep both lenses on the table.
+
+# Character & Traditions {.section-divider}
+
+*The third lens: not "what rule?" or "what calculation?" but "what kind of person, relationship, and community is good?"*
+
+## One Family, Four Traditions
+
+These traditions judge the *agent and the relationship*, not only the isolated act — but they differ sharply:
+
+- **Aristotelian virtue ethics** — flourishing through stable, cultivated traits of character.
+- **Care ethics** — morality begins in concrete, dependent relationships; even Beauchamp and Childress list *care* among the focal virtues [@beauchamp2019].
+- **Confucian ethics** — the self is constituted by roles and relationships, refined through lifelong practice [@fan_confucian].
+- **Natural law** — reason discerns the basic human goods every life needs, and the duty to pursue them [@gomezlobo_naturallaw].
 
 ## Aristotle and Eudaimonia
 
@@ -376,9 +464,13 @@ digraph virtue {
 }
 ```
 
-# Care Ethics {.section-divider}
+## Care as a Virtue
 
-*Relationships, not rules, are the starting point of moral life.*
+- Care ethics treats responsiveness to others as a cultivated disposition, not a rule to apply.
+- It grew from Carol Gilligan's claim that mainstream theory missed a whole moral "voice" [@gilligan1982].
+- Virginia Held built it into a full account in which **relationship and dependency** are morally basic [@held2006].
+- The good clinician's *care* is itself a trait — attentiveness, responsiveness, responsibility — like an Aristotelian virtue.
+- Its risk mirrors its strength: relationships can be unequal or controlling, so care still needs justice.
 
 ## Gilligan and the Ethics of Care
 
@@ -387,25 +479,6 @@ Carol Gilligan [@gilligan1982] argued that dominant moral theories — utilitari
 > "[T]he moral problem arises from conflicting responsibilities rather than from competing rights and requires for its resolution a mode of thinking that is contextual and narrative rather than formal and abstract."
 > — Gilligan, *In a Different Voice* (1982)
 
-## Relationships, Context, Vulnerability
-
-Care ethics, developed by Gilligan and later Virginia Held [@held2006], asks:
-
-- Who is *this* patient, in *this* situation, with *this* set of relationships?
-- What do I owe them given the relationship I have with them?
-- Whose needs are being made invisible by abstract rule-following?
-
-In nursing practice, care ethics is not a soft add-on. It describes what nurses already know: the moral weight of the bedside relationship cannot be reduced to a checklist.
-
-## Care Ethics and the Four Principles
-
-[Autonomy]{.pill .pill-autonomy} is reframed: rather than the isolated individual making a formal choice, it is the **relational** self — embedded in family, community, culture.
-
-[Beneficence]{.pill .pill-beneficence} is particularized: it matters what *this person* needs, not what the average patient needs.
-
-[Non-Maleficence]{.pill .pill-nonmal} includes attending to emotional harm and the harm of not being *seen* or *heard*.
-
-[Justice]{.pill .pill-justice} requires attending to who is made vulnerable by social structures — and who gets left out of abstract policy.
 
 ## Care Ethics: The Web of Relationships
 
@@ -448,20 +521,61 @@ digraph care {
 }
 ```
 
+## Confucian Virtue Ethics
+
+- One of the world's oldest virtue traditions, increasingly important as care globalizes [@fan_confucian].
+- **Ren** (benevolence, humaneness) is the central virtue: wholehearted concern for others.
+- **Li** (ritual propriety) governs how that concern is expressed appropriately within each relationship.
+- **Xiao** (filial piety) makes obligations to parents and family morally fundamental, not optional sentiment.
+- The self is **relational and role-constituted** — always someone's child, parent, or clinician — and the exemplar (**junzi**) is formed over a lifetime of practice.
+
+## Confucian Ethics in the Clinic
+
+- The Confucian frame changes what "respecting the patient" looks like in practice.
+- Decisions are often **family-determined**: the family, not the solitary patient, is the natural decision unit.
+- This collides with Western informed consent — e.g., a family asking that a grave diagnosis not be told directly to an elder.
+- It is not simply paternalism: it expresses *xiao* and a duty to shield a loved one from a crushing burden.
+- So it reframes autonomy as **relational** rather than individual — a theme that returns when we discuss cross-cultural truth-telling.
+
+## Natural Law
+
+- Rooted in Aristotle and developed by the Catholic theologian Aquinas: reason can read how we ought to live from the goods proper to human nature [@gomezlobo_naturallaw].
+- Its first principle is to **do good and avoid evil**: pursue, and never act directly against, the basic human goods.
+- Those **basic goods** include life and health, knowledge, friendship, and reasonable practical judgment.
+- Right action respects *every* basic good — you may not destroy one good simply to promote another.
+- It is **secular in form** (argued from reason and human nature) yet underlies the **sanctity-of-life** language especially common in Catholic bioethics.
+
+## Natural Law in Bioethics
+
+- Natural law gives bioethics one of its most-used tools: the **Doctrine of Double Effect (DDE)**.
+- DDE permits an act with a grave bad side effect *if* the harm is foreseen but not intended and the good is proportionate.
+- Classic case: opioid doses that relieve pain (intended) while possibly hastening death (foreseen) — permissible.
+- The same logic shapes Catholic health systems on end-of-life and reproductive care.
+- It draws a line utilitarianism rejects and Kant/Kamm rebuild differently — *intending* harm vs. *allowing* it; applied later to palliative sedation in end-of-life care.
+
+## Four Strands of Character Ethics
+
+| Strand | Central idea | Key figure(s) | Bioethics payoff |
+|---|---|---|---|
+| **Aristotelian** | Flourishing through virtuous character | Aristotle | The virtues of the good clinician |
+| **Care** | Morality begins in relationship | Gilligan, Held | The bedside relationship is not a checklist |
+| **Confucian** | The self is role- and family-constituted | Confucius; Fan | Family-centered decisions; relational autonomy |
+| **Natural law** | Reason discerns basic human goods | Aquinas | Double effect; sanctity-of-life arguments |
+
 ## Thought Question
 
 ::: {.thought-question}
 A 78-year-old woman with mild cognitive impairment makes decisions that worry her adult children. She insists on living alone; she sometimes forgets meals; she declines the assisted living facility they have arranged.
 
-- A utilitarian might look at her risk profile and long-term welfare. A Kantian might ask about her decision-making capacity. A virtue ethicist might ask what a caring daughter or a virtuous clinician would do.
-- What does the *care ethics* lens add that the others miss?
-- Is there anything it might obscure?
+- A utilitarian weighs her risk profile and long-term welfare; a Kantian asks about her decision-making capacity; the character lenses ask what a caring daughter, a virtuous clinician, or a filial family would do.
+- What do the **relationship-centered** traditions (care, Confucian) add that the act-focused theories miss?
+- Is there anything they might **obscure**?
 :::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-**What care ethics adds.** It centers the *relationship* and the patient's embeddedness in family and community — her story, not just her risk score. **What it can obscure:** the caring family can also be a controlling one; care ethics needs to ask whether the relationships are themselves just. This is one reason the four principles framework is used alongside the theories rather than replaced by any single one.
+**What the relational lenses add.** They center the *relationship* and her embeddedness in family and community — her story, not just her risk score; the Confucian frame even treats the family as a proper decision-maker. **What they can obscure:** a caring family can also be a controlling one, so these lenses still need *justice* to ask whether the relationships are themselves fair. This is why the four principles are used alongside the theories, not replaced by any single one.
 :::
 
 # Putting It Together {.section-divider}
@@ -470,31 +584,55 @@ Four lenses. One case. Different things come into view.
 
 ## The Theories as Lenses
 
-| Theory | Foundational commitment | Role of the four principles |
+| Lens | Foundational commitment | Role of the four principles |
 |---|---|---|
-| Utilitarianism | Maximize welfare | Principles are *derived* — follow them because doing so usually produces the best outcomes |
+| Utilitarianism | Maximize welfare for all affected | Principles are *derived* — follow them because doing so usually produces the best outcomes |
 | Kantian ethics | Respect persons as ends | Principles are *duties* grounded in rational dignity — especially autonomy |
-| Virtue ethics | Cultivate good character | Principles are *expressions* of virtue — practical wisdom tells you how to apply them |
-| Care ethics | Honor relationships | Principles are *contextualized* by relationship and dependency — not applied abstractly |
+| Character & traditions | Cultivate good character and right relationship | Principles are *expressions* of virtue and relationship — wisdom and context tell you how to apply them |
 
 
 ## Which Theory Is Right?
 
 Probably none of them — completely. Each illuminates something the others miss:
 
-- Utilitarianism sees the **population** and the aggregate.
-- Kantian ethics sees the **dignity** of the individual that cannot be traded away.
-- Virtue ethics sees the **character** of the clinician and the quality of the relationship.
-- Care ethics sees the **context and dependency** that abstract rules can erase.
+- Utilitarianism sees the **population** and the aggregate — Singer shows how far that reaches.
+- Kantian ethics sees the **dignity** of the individual that cannot be traded away — O'Neill and Kamm rebuild the constraints.
+- The **character and tradition** lenses see the clinician's virtue, the bedside relationship, and the family and community that abstract rules erase.
 
 The four principles work in part because they are *theory-agnostic*: a Kantian and a utilitarian can both endorse autonomy, beneficence, non-maleficence, and justice — they just disagree about why and how to weight them.
 
-## Wrapping Up Lecture 1
+## Wrapping Up
 
 ::: {.recap}
-Bioethics uses a **four-principle framework** as its shared vocabulary, supported by four major ethical theories that offer different answers to the question of *how to weigh* those principles. Utilitarianism focuses on outcomes and aggregate welfare. Kantian ethics focuses on duties and the dignity of persons. Virtue ethics focuses on character. Care ethics focuses on relationships and context. No single theory is correct; used as lenses, they let us see more of what is morally at stake in any clinical situation.
+Bioethics uses a **four-principle framework** as its shared vocabulary, supported by major ethical theories that answer *how to weigh* those principles differently. Utilitarianism focuses on outcomes and aggregate welfare — Singer pushes that logic to its hardest conclusions. Kantian ethics focuses on duties and the dignity of persons — O'Neill and Kamm answer Singer by rebuilding moral constraints. The character traditions — virtue, care, Confucian, and natural law — focus on the kind of person, relationship, and community we should sustain. No single theory is correct; used as lenses, they let us see more of what is morally at stake in any clinical situation.
 
-**Lecture 2** turns to the history that gave these principles their urgency, and the clinical relationship where they are daily tested.
+**Next**, we turn to the history that gave these principles their urgency, and the clinical relationship where they are daily tested.
+:::
+
+## Review Questions
+
+Write a brief answer to each, or use them as discussion prompts.
+
+::: {.review-questions}
+
+::: {.review-item .review-recall}
+#### Recall
+
+What makes an action right for a utilitarian, for a Kantian, and for a virtue or care ethicist?
+:::
+
+::: {.review-item .review-apply}
+#### Apply
+
+A clinician considers giving a placebo pill without disclosing it to a patient with chronic pain because it may relieve symptoms and seems harmless. How would a utilitarian, a Kantian, and a care or virtue ethicist evaluate that choice?
+:::
+
+::: {.review-item .review-debate}
+#### Debate
+
+Should global-health funding be directed mainly by cost-effectiveness calculations that maximize total benefit, or should relationship-based duties, local priorities, and historical injustice sometimes override that math?
+:::
+
 :::
 
 ## References
