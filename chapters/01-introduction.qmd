@@ -2,7 +2,9 @@
 title: "Principles, Theories & Moral Reasoning"
 subtitle: "Lecture 1 · Part A — The Four Principles and How to Read an Argument"
 author: "Brendan Shea, PhD"
-date: "An Introduction to Bioethics."
+date: ""
+date-meta: last-modified
+institute: "An Introduction to Bioethics."
 format:
   html:
     toc: true

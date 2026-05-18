@@ -2,7 +2,9 @@
 title: "Lecture 3 — Research Ethics"
 subtitle: "Part B: Vulnerability, Equipoise, Money, and Trustworthy Knowledge"
 author: "Brendan Shea, PhD"
-date: "An Introduction to Bioethics."
+date: ""
+date-meta: last-modified
+institute: "An Introduction to Bioethics."
 format:
   html:
     toc: true

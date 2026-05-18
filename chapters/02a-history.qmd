@@ -2,7 +2,9 @@
 title: "Lecture 2 — History & the Clinical Relationship"
 subtitle: "Part A: From Hippocrates to the Belmont Report: A History"
 author: "Brendan Shea, PhD"
-date: "An Introduction to Bioethics."
+date: ""
+date-meta: last-modified
+institute: "An Introduction to Bioethics."
 format:
   html:
     toc: true

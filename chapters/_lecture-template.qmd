@@ -10,7 +10,9 @@
 title: "Lecture N — [Lecture Title]"
 subtitle: "Part A: [Subtitle] · Part B: [Subtitle]"
 author: "Brendan Shea, PhD"
-date: "An Introduction to Bioethics."
+date: ""
+date-meta: last-modified
+institute: "An Introduction to Bioethics."
 format:
   html:
     toc: true
