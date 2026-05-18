@@ -71,19 +71,11 @@ Remind students: these will appear in almost every subsequent lecture. Abortion,
 :::: {.columns}
 
 ::: {.column width="48%"}
-![](../images/mill.jpg){width="72%" fig-alt="Photograph of John Stuart Mill, c.1870"}
-
-::: {.attribution}
-J. S. Mill, c. 1870. London Stereoscopic Co. Public domain.
-:::
+![John Stuart Mill](../images/mill.jpg){width="72%" fig-alt="Photograph of John Stuart Mill"}
 :::
 
 ::: {.column width="48%"}
-![](../images/bentham.jpg){width="72%" fig-alt="Portrait of Jeremy Bentham by Henry William Pickersgill"}
-
-::: {.attribution}
-Jeremy Bentham, by H. W. Pickersgill. Public domain.
-:::
+![Jeremy Bentham](../images/bentham.jpg){width="72%" fig-alt="Portrait of Jeremy Bentham"}
 :::
 
 ::::
@@ -229,11 +221,7 @@ Why teach the hardest case: Singer matters precisely because he refuses to stop 
 ::: {.columns}
 
 ::: {.column width="42%"}
-![](../images/kant.jpg){width="80%" fig-alt="Painted portrait of Immanuel Kant"}
-
-::: {.attribution}
-Immanuel Kant, painted portrait. Public domain (Wikimedia Commons).
-:::
+![Immanuel Kant](../images/kant.jpg){width="80%" fig-alt="Painted portrait of Immanuel Kant"}
 :::
 
 ::: {.column width="55%"}
@@ -392,11 +380,7 @@ These traditions judge the *agent and the relationship*, not only the isolated a
 ::: {.columns}
 
 ::: {.column width="42%"}
-![](../images/aristotle.jpg){width="80%" fig-alt="Marble bust of Aristotle, Altemps Collection"}
-
-::: {.attribution}
-Aristotle (copy of Lysippos bust). Palazzo Altemps. Public domain.
-:::
+![Aristotle](../images/aristotle.jpg){width="80%" fig-alt="Marble bust of Aristotle"}
 :::
 
 ::: {.column width="55%"}
@@ -476,10 +460,23 @@ digraph virtue {
 
 ## Gilligan and the Ethics of Care
 
+::: {.columns}
+
+::: {.column width="55%"}
 Carol Gilligan [@gilligan1982] argued that dominant moral theories — utilitarian and Kantian — were built around **abstract rules** applied to strangers. They missed what actually structures most moral life: **relationships, dependency, and the responsibility that comes with them**.
 
+::: {.quote-card}
 > "[T]he moral problem arises from conflicting responsibilities rather than from competing rights and requires for its resolution a mode of thinking that is contextual and narrative rather than formal and abstract."
+>
 > — Gilligan, *In a Different Voice* (1982)
+:::
+:::
+
+::: {.column width="42%"}
+![Carol Gilligan](../images/gilligan.jpg){width="80%" fig-alt="Photograph of Carol Gilligan"}
+:::
+
+:::
 
 
 ## Care Ethics: The Web of Relationships
@@ -525,11 +522,21 @@ digraph care {
 
 ## Confucian Virtue Ethics
 
+::: {.columns}
+
+::: {.column width="55%"}
 - One of the world's oldest virtue traditions, increasingly important as care globalizes [@fan_confucian].
 - **Ren** (benevolence, humaneness) is the central virtue: wholehearted concern for others.
 - **Li** (ritual propriety) governs how that concern is expressed appropriately within each relationship.
 - **Xiao** (filial piety) makes obligations to parents and family morally fundamental, not optional sentiment.
 - The self is **relational and role-constituted** — always someone's child, parent, or clinician — and the exemplar (**junzi**) is formed over a lifetime of practice.
+:::
+
+::: {.column width="42%"}
+![Confucius](../images/confucius.jpg){width="80%" fig-alt="Tang Dynasty drawing of Confucius"}
+:::
+
+:::
 
 ## Confucian Ethics in the Clinic
 
@@ -609,6 +616,9 @@ The four principles work in part because they are *theory-agnostic*: a Kantian a
 Bioethics uses a **four-principle framework** as its shared vocabulary, supported by major ethical theories that answer *how to weigh* those principles differently. Utilitarianism focuses on outcomes and aggregate welfare — Singer pushes that logic to its hardest conclusions. Kantian ethics focuses on duties and the dignity of persons — O'Neill and Kamm answer Singer by rebuilding moral constraints. The character traditions — virtue, care, Confucian, and natural law — focus on the kind of person, relationship, and community we should sustain. No single theory is correct; used as lenses, they let us see more of what is morally at stake in any clinical situation.
 
 **Next**, we turn to the history that gave these principles their urgency, and the clinical relationship where they are daily tested.
+
+<br/>
+*All uncredited slide illustrations and scenario visualizations were generated using Gemini.*
 :::
 
 ## Review Questions

@@ -17,6 +17,8 @@ format:
 
 ## A Quiet Tuesday on the Floor
 
+::: {.columns}
+::: {.column width="60%"}
 ::: {.thought-question}
 A 34-year-old woman is in the trauma bay after a high-speed crash. Alert, oriented, full capacity. CT shows a grade IV splenic laceration; her hemoglobin has fallen from 13 to 7 in the last hour. The surgeon wants her in the OR, with pre-emptive transfusion. Tucked in her wallet is a signed, dated card declaring her a Jehovah's Witness and refusing all blood products. Her parents have just arrived and are pleading with the team to "do whatever it takes."
 
@@ -25,6 +27,11 @@ You are the nurse at her bedside.
 - What questions would you want answered before doing anything?
 - Who exactly is asking you to do what?
 - What do you think the right move is — and why?
+:::
+:::
+::: {.column width="40%"}
+![](../assets/images/clinical_dilemma.png){width="100%" fig-alt="Silhouetted nurse at a desk in a quiet hospital at night"}
+:::
 :::
 
 ## After You've Discussed
@@ -248,6 +255,8 @@ This is why the four principles are a **starting point, not an answer key**. The
 
 ## 1. Autonomy
 
+::: {.columns}
+::: {.column width="60%"}
 [Autonomy]{.key-term} — *self-rule.* Respect the patient's right to make informed decisions about her own body and care.
 
 In practice, autonomy underwrites:
@@ -256,6 +265,11 @@ In practice, autonomy underwrites:
 - The right to refuse treatment (even life-saving treatment)
 - Truth-telling and honest disclosure
 - Confidentiality
+:::
+::: {.column width="40%"}
+![](../assets/images/autonomy.png){width="90%" fig-alt="3D branching pathway representing choices and autonomy"}
+:::
+:::
 
 ::: {.notes}
 The Jehovah's Witness case from the start of class is, at its core, an autonomy case. Hold that thought.
@@ -281,6 +295,8 @@ Autonomy is the *floor.* It does not require us to abandon her — only not to o
 
 ## 2. Beneficence
 
+::: {.columns}
+::: {.column width="60%"}
 [Beneficence]{.key-term} — *do good.* Act in the patient's best interest; promote welfare.
 
 This sounds obvious until you ask: **whose** account of the patient's good?
@@ -290,6 +306,11 @@ This sounds obvious until you ask: **whose** account of the patient's good?
 - The family's hopes?
 
 Beneficence and autonomy can pull in opposite directions.
+:::
+::: {.column width="40%"}
+![](../assets/images/beneficence.png){width="90%" fig-alt="3D abstract helping hand and a flower representing beneficence"}
+:::
+:::
 
 ## Beneficence in Practice
 
@@ -337,6 +358,8 @@ Hippocrates, engraving by Peter Paul Rubens. Public domain (Wikimedia Commons).
 [Non-Maleficence]{.pill .pill-nonmal}  [do no harm]{.tag}
 :::
 
+::: {.columns}
+::: {.column width="60%"}
 ::: {.context-box}
 **The case.** A new chemotherapy regimen offers a 30% chance of remission and a 5% chance of fatal cardiotoxicity. Standard care offers neither.
 
@@ -347,9 +370,16 @@ Hippocrates, engraving by Peter Paul Rubens. Public domain (Wikimedia Commons).
 
 Every IV start is a small puncture wound. Every medication has side effects. The principle's job is to forbid *hidden, gratuitous, or disproportionate* risk — not all risk.
 :::
+:::
+::: {.column width="40%"}
+![](../assets/images/nonmaleficence.png){width="90%" fig-alt="3D protective shield representing non-maleficence"}
+:::
+:::
 
 ## 4. Justice
 
+::: {.columns}
+::: {.column width="60%"}
 [Justice]{.key-term} — *fair distribution of benefits and burdens.*
 
 In bioethics, justice shows up in three main forms:
@@ -357,6 +387,11 @@ In bioethics, justice shows up in three main forms:
 - **Distributive justice** — who gets the kidney, the ICU bed, the new drug?
 - **Procedural justice** — was the *process* fair, even if the outcome is hard?
 - **Social justice** — are we honest about the historical and structural causes of health disparities?
+:::
+::: {.column width="40%"}
+![](../assets/images/justice.png){width="90%" fig-alt="3D balanced scale of justice representing fairness"}
+:::
+:::
 
 ::: {.notes}
 We'll spend an entire later lecture on justice. For now, just plant the flag: bioethics is not only about individual encounters.
@@ -610,6 +645,9 @@ Answers (in order): appeal to nature, slippery slope, ad hominem, false dichotom
 Bioethics is the systematic study of moral questions in medicine, research, and policy. It is mostly *applied normative* ethics — distinct from descriptive and metaethical inquiry, and not the same as law, religion, or personal preference. The **four principles** — autonomy, beneficence, non-maleficence, justice — are an explication of the common morality we already share, made usable through **balancing** and **specification**, and they give us a shared vocabulary for the conflicts we'll see all semester. And every claim in this course will be evaluated as an *argument*: premises, conclusion, hidden assumptions, possible fallacies.
 
 In **Part B**, we ask the next question: *where do these principles come from?* We meet the major ethical theories — utilitarian, Kantian, virtue, and care — that ground and sometimes contest the four principles.
+
+<br/>
+*All uncredited slide illustrations and scenario visualizations were generated using Gemini.*
 :::
 
 ## Review Questions
