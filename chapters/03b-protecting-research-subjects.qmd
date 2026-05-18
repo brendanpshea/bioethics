@@ -1,6 +1,6 @@
 ---
 title: "Lecture 3 — Research Ethics"
-subtitle: "Part B: From Tuskegee to Today: Protecting Research Subjects"
+subtitle: "Part B: Vulnerability, Equipoise, Money, and Trustworthy Knowledge"
 author: "Brendan Shea, PhD"
 date: last-modified
 format:
@@ -15,22 +15,22 @@ format:
 
 ## The New Question
 
-- Part A explained how trials work
-- The rules that protect participants were written after real abuses
-- This part puts those rules to work on hard, current cases
-- The hard question: when does reviewed, legal, well-funded research still wrong people?
+- Part A explained how trials work and how to read their results
+- The rules that protect participants were written *after* real abuses
+- Part B asks a harder question: when does reviewed, legal, well-funded research still wrong people?
+- One idea organizes the whole lecture: **vulnerability** — who can be pressured, and who pays the price when knowledge is the goal
 
 ## Today
 
 ::: {.learning-outcomes}
 By the end of Part B, you will be able to:
 
+- Define [vulnerability]{.key-term} as a matter of power and pressure, not personality, using a working taxonomy
 - Apply the Belmont principles as concrete IRB review questions
-- Identify vulnerable populations and the protections they require
-- Judge when placebo controls are and are not ethically defensible
-- Analyze the short-course AZT trials as a justice debate
-- Explain why research on tissue and data (HeLa) needs its own consent rules
-- Describe recent developments: the rewritten Common Rule, trial-diversity law, and research misconduct
+- Explain [clinical equipoise]{.key-term} as the moral license that both starts and ends a trial
+- Judge when placebo controls are and are not defensible, including across rich and poor settings
+- Analyze how commercial funding distorts research, using the Markingson case
+- Explain why so many published findings fail to replicate — and how AI sharpens the threat
 :::
 
 # The Cases That Built the Rules {.section-divider}
@@ -58,20 +58,8 @@ What was the deepest wrong shared by these cases?
 - Researchers treated knowledge as more important than persons
 
 1. Which answer seems most central to you, and why?
-2. Are these really different wrongs, or just different ways of naming the same one?
-3. If you had to design one protection first, which wrong would you aim it at?
-:::
-
-## Make It Contemporary
-
-::: {.thought-question}
-Today the abuse is less likely to look like camps or segregated wards.
-
-- It may look like a confusing consent form.
-- It may look like recruiting the people least able to say no.
-- It may look like calling exploitation "access."
-
-If a study is legal, reviewed, and well funded, what warning signs would still make you uneasy?
+2. Are these really different wrongs, or different names for one wrong?
+3. Today the abuse rarely looks like camps or segregated wards — it may look like a confusing consent form, or recruiting the people least able to say no. What warning signs would still make you uneasy in a study that is legal, reviewed, and well funded?
 :::
 
 ## After You've Discussed
@@ -81,7 +69,58 @@ Three distinctions are worth keeping sharp:
 
 - **Consent failures, harm failures, and justice failures are not identical.** Tuskegee had all three.
 - **These cases are not only about cruelty.** They are also about institutions finding reassuring language for doing the wrong thing.
-- **Modern oversight exists because good intentions are not enough.** The whole point is to distrust self-justification before the damage is done.
+- **Modern oversight exists because good intentions are not enough.** The point is to distrust self-justification *before* the damage is done.
+:::
+
+# What Makes a Subject Vulnerable? {.section-divider}
+
+## Vulnerability Is Pressure, Not Personality
+
+- Every case above shares one feature: the people studied could not freely say no
+- [Vulnerability]{.key-term} is not a kind of person — it is a kind of situation
+- The questions that matter: who depends on whom? Who can walk away? What would refusing cost?
+- Justice cuts both ways: wrongful **exploitation** of the vulnerable *and* wrongful **exclusion** from research are both failures
+
+## A Working Taxonomy of Vulnerability
+
+Kipnis's types name *what kind of pressure* a participant is under — a more useful tool than a list of "vulnerable groups."
+
+| Type | The pressure | Example |
+|---|---|---|
+| **Cognitive** | Cannot fully understand or weigh the choice | Dementia; acute psychosis |
+| **Juridic** | Under the authority of someone who wants enrollment | Prisoners; committed patients |
+| **Deferential** | Socially unable to refuse a trusted figure | Patient recruited by own physician |
+| **Medical** | Desperate; no good alternative | Terminal illness, "nothing left to try" |
+| **Allocational** | Poor; the study is a path to care or money | Payment covers rent; trial is the only clinic |
+| **Infrastructural** | The setting cannot deliver on promises | Weak health system; no post-trial supply |
+
+## Why This Frame Matters
+
+- The regulated groups — children, prisoners, pregnant people — map onto these *types*, but the types travel further
+- A wealthy, educated patient recruited by her own oncologist is **deferentially** and **medically** vulnerable, though she is on no protected list
+- The rest of this lecture is a tour of these pressures: placebo and global trials (**allocational, infrastructural**), commercial funding (**deferential, medical**), and bad knowledge (the wronged party becomes the *future patient*)
+- Extra protection should not collapse into automatic exclusion — protecting people is not the same as making them invisible
+
+## Thought Question
+
+::: {.thought-question}
+You are on an IRB reviewing a vaccine study.
+
+- Disease burden is high in prisons.
+- Researchers want to recruit incarcerated people because follow-up will be easy.
+- They plan a modest payment and better clinic access for participants.
+
+1. Which *types* of vulnerability are in play here at once?
+2. Is this fair inclusion, opportunistic targeting, or both?
+3. Would excluding prisoners entirely also create a justice problem?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+- **Name the pressures, then design against them.** This study mixes juridic (incarceration), allocational (payment, clinic access), and infrastructural (will the vaccine reach them after?) vulnerability.
+- **Convenience is the enemy.** "Easy follow-up" is never, by itself, a reason to pick a population.
+- **Inclusion and protection can conflict.** Banning prison research protects against coercion but can also deny prisoners the benefits of studies aimed at their own disease burden.
 :::
 
 # Belmont, Put to Work {.section-divider}
@@ -89,7 +128,7 @@ Three distinctions are worth keeping sharp:
 ## Belmont in One Slide
 
 - The [Belmont Report]{.key-term} (1979) named three principles [@belmont1979]
-- **Respect for persons** → real consent; extra care where autonomy is reduced
+- **Respect for persons** → real consent; extra care exactly where vulnerability is highest
 - **Beneficence** → minimize harm; justify risk against benefit
 - **Justice** → who bears the burdens, who gets the benefits
 - Each becomes a concrete question an IRB must ask of every study
@@ -134,7 +173,7 @@ This protocol lands on your desk:
 
 > A 12-month placebo-controlled trial of a new Alzheimer's drug. Participants: residents of one memory-care facility. Consent: signed by adult children as surrogates. Site chosen because "follow-up is easy — they don't move."
 
-1. Score it on each Belmont principle. Where is it weakest?
+1. Which vulnerability types apply? Score the protocol on each Belmont principle — where is it weakest?
 2. What single change would you require before approving it?
 3. Is "easy follow-up" ever a legitimate reason to pick a population?
 :::
@@ -142,138 +181,65 @@ This protocol lands on your desk:
 ## After You've Discussed
 
 ::: {.callout-note}
-- **Respect for persons:** surrogate consent is allowed, but the residents' own assent — and dissent — still count. A child's signature is not the whole story.
+- **Respect for persons:** these residents are *cognitively* vulnerable; surrogate consent is allowed, but the residents' own assent — and dissent — still count. A child's signature is not the whole story.
 - **Beneficence:** a 12-month placebo arm in a progressive disease needs serious justification [@commonrule_hhs].
-- **Justice:** "they don't move" is convenience. Convenience is exactly what fair selection forbids.
+- **Justice:** "they don't move" is convenience recruitment — exactly what fair selection forbids.
 :::
 
-# Vulnerability and Fair Selection {.section-divider}
+# Equipoise: The Moral Clock on a Trial {.section-divider}
 
-## Who Counts as Vulnerable?
+## The License to Randomize
 
-- Some groups face special pressure, dependence, or limited freedom in research settings
-- In U.S. regulation, children, prisoners, and pregnant people receive additional protections under specific subparts of 45 CFR 46 [@commonrule_hhs]
-- Cognitive impairment, economic hardship, and dependent relationships can also create vulnerability [@helsinki2024]
-- Vulnerability is not a personality type
-- It is usually about power, context, and what saying no would cost
-- Justice cuts both ways: wrongful *exclusion* from research is also a failure
+- Randomizing a sick person is only acceptable under [clinical equipoise]{.key-term} [@freedman1987]
+- Equipoise means the **expert community is genuinely uncertain** which arm is better
+- It is not one doctor's hunch — it is honest, collective "we do not yet know"
+- If the community already knows, randomizing assigns some patients to the worse arm on purpose
+- Equipoise is the moral license a trial needs to begin
 
-## Vulnerable Populations and Typical Protections
+## The Clock Runs Out
 
-| Group | Main worry | Typical protection |
+- Equipoise is not permanent — evidence accumulates while the trial runs
+- An independent monitoring board can **stop a trial early** for three reasons:
+
+| Trigger | What it means | Why stopping is required |
 |---|---|---|
-| **Children** | Limited legal and developmental capacity | Parent/guardian permission plus child assent when possible |
-| **Prisoners** | Constrained freedom and risk of coercion | Narrower allowable research categories and extra scrutiny |
-| **Pregnant people / fetuses** | Risk to more than one party and historical exclusion | Additional risk justification and review |
-| **People with cognitive impairment** | Difficulty understanding or sustaining choice | Capacity assessment, surrogate consent, respect for assent or dissent |
-| **Economically disadvantaged participants** | Undue inducement and convenience recruitment | Careful payment review and fair selection |
+| **Harm** | One arm is clearly hurting people | Continuing knowingly harms participants |
+| **Benefit** | One arm is clearly better | Keeping the other arm is no longer fair |
+| **Futility** | The question cannot be answered | Continued risk buys no knowledge |
 
-## Who Gets Studied Is Now Law
+- When uncertainty resolves, the moral license expires — the trial must end
 
-- For decades, trial participants were disproportionately white, male, and young — even for diseases that hit other groups hardest
-- Drugs then reach the market with weaker evidence for the people who will actually take them
-- The US **FDORA law (2022)** now requires sponsors of many trials to file a **Diversity Action Plan**: enrollment goals by age, sex, race, and ethnicity, and a plan to meet them
-- The bet: fair selection means not only "don't exploit the vulnerable" but "don't leave them out"
-- Open question: do enrollment targets change recruitment, or just paperwork?
+## Stopping Early Is Not Free
 
-## Thought Question
+::: {.context-box}
+**A counterintuitive fact.** Trials stopped early *for benefit* tend to **overestimate** how well the treatment works.
 
-::: {.thought-question}
-You are on an IRB reviewing a vaccine study.
-
-- The disease burden is high in prisons.
-- Researchers want to recruit incarcerated people because follow-up will be easy.
-- They plan a modest payment and better clinic access for participants.
-
-1. Is this fair inclusion, opportunistic targeting, or both?
-2. What extra protections would you demand before approving it?
-3. Would excluding prisoners entirely also create a justice problem?
+Random luck swings hardest in small samples. A trial that stops the moment results look great may have stopped on a lucky high point. This is why monitoring boards use strict statistical rules, not "it looks good enough." Stopping early is itself an ethical *and* a scientific judgment.
 :::
 
-## Make It Contemporary
+## Placebo Disputes Are Equipoise Disputes
 
-::: {.thought-question}
-A company launches a drug trial but excludes pregnant people, many disabled adults, and people with low literacy because follow-up will be "messier."
-
-- The drug will still be marketed broadly if approved.
-
-Is this caution, convenience, or injustice?
-:::
-
-## After You've Discussed
-
-::: {.callout-note}
-Three points to keep in play:
-
-- **Vulnerability is about power, not just fragility.** Ask who depends on whom, who can walk away, and who cannot.
-- **Extra protections should not become automatic exclusion.** Protecting people is not the same as making them invisible.
-- **Convenience is the enemy.** Easy to recruit is never enough reason by itself.
-:::
-
-# Research Without a Trial {.section-divider}
-
-## Henrietta Lacks
-
-- In 1951, Henrietta Lacks, a Black woman, was treated for cervical cancer
-- Without her knowledge, cells from her tumor were taken and grown
-- They became **HeLa** — the first immortal human cell line, used in countless studies and products
-- She was never asked; her family was not told for decades and shared in none of the benefit
-- No drug, no placebo, no "arm" — and still a major research-ethics failure
-
-## Make It Contemporary
-
-::: {.thought-question}
-You give a blood sample for a routine test. A leftover vial is stored.
-
-- Years later it is used — deidentified — in genetic research and a profitable diagnostic.
-- You were never specifically asked. A broad form at intake said "samples may be used for research."
-
-1. Was that consent meaningful?
-2. Do you have a claim to a say — or a share — in what was discovered?
-3. Is "deidentified" enough, when the sample is DNA?
-:::
-
-## After You've Discussed
-
-::: {.callout-note}
-- **Consent for *this study* is not consent for *all future research*.** Tissue and data banks rely on broad consent — useful, but ethically thinner than specific consent.
-- **Benefit-sharing is part of justice.** If people make a discovery possible, who profits from it is an ethical question, not an afterthought.
-- **"Deidentified" weakens but does not erase the stake** — genomic data can re-identify, and can implicate relatives who never agreed.
-:::
-
-## What the Rules Now Require
-
-- US human-subjects research follows the [Common Rule]{.key-term}, rewritten in 2018 [@commonrule_hhs]
-- Consent forms must now open with a short **"key information"** summary in plain language
-- **Broad consent**: a person can agree once to future, unspecified research on their stored samples and data
-- Most multi-site studies now use a **single IRB** instead of one per site
-- Broad consent is more honest than silence — but thinner than asking each time
+- Most fights about placebo controls are really fights about whether equipoise exists
+- "There is already a proven treatment" = "there is no real uncertainty — so a placebo arm assigns people to a known-worse option"
+- "The proven treatment cannot actually be delivered here" = "uncertainty about *feasible* options still exists"
+- Holding the concept of equipoise lets you see the next debate clearly
 
 # Placebo, Poverty, and Global Research {.section-divider}
 
 ## Helsinki's Placebo Rule
 
-- The modern [Declaration of Helsinki]{.key-term} says new interventions should usually be tested against the best proven intervention [@helsinki2024]
-- Placebo is acceptable if no proven intervention exists
-- It may also be acceptable for compelling methodological reasons
-- But not if participants face additional risk of serious or irreversible harm by going without the proven treatment [@helsinki2024]
-- That last condition is the one people fight about
-
-## Why This Rule Is Hard
-
-- Sometimes the best global treatment is unavailable in the place where the study is being done
-- A shorter, cheaper, or simpler regimen might still save many lives
-- Researchers then ask whether the ethically relevant comparison is the **best global care** or the **best locally available care**
-- That is not a purely technical question
-- It is a question about whether poverty changes what researchers may permissibly offer
+- The [Declaration of Helsinki]{.key-term} says new interventions should usually be tested against the **best proven** intervention [@helsinki2024]
+- Placebo is acceptable if no proven intervention exists, or for compelling methodological reasons
+- But **not** if participants risk serious or irreversible harm by going without proven treatment [@helsinki2024]
+- That last condition is the one people fight about — and it is an equipoise fight
 
 ## The AZT Trials in Five Lines
 
 - In 1994, a long-course zidovudine regimen reduced perinatal HIV transmission
-- That regimen was expensive and logistically difficult in many low-resource settings
+- That regimen was expensive and logistically hard in many low-resource settings
 - Later trials tested shorter, cheaper regimens, often against placebo
-- Critics argued this withheld a known effective intervention [@lurie1997]
-- Defenders argued the real question was what feasible strategy could work where the long regimen was not realistically available [@varmus1997]
+- Critics: this withheld a known effective intervention [@lurie1997]
+- Defenders: the real question was what feasible strategy could work where the long regimen was unavailable [@varmus1997]
 
 ## Two Famous Positions
 
@@ -284,35 +250,27 @@ You give a blood sample for a routine test. A leftover vial is stored.
 
 - A proven regimen already existed
 - Placebo meant withholding known benefit
-- Poverty should not lower the ethical standard
-- Participants in poorer countries should not get weaker protections
+- Poverty must not lower the ethical standard
+- Poorer countries should not get weaker protections
 :::
 
 ::: {.column width="50%"}
 **Varmus and Satcher** [@varmus1997]
 
-- The long regimen was not realistically implementable in many settings
+- The long regimen was not realistically implementable
 - A shorter regimen might still save lives at scale
-- The ethically relevant comparison had to include feasibility
-- Rejecting the trials might preserve principle while blocking practical benefit
+- The relevant comparison had to include feasibility
+- Blocking the trial preserves principle but blocks benefit
 :::
 
 ::::
-
-## What Is Owed After the Study?
-
-- A trial can be clean *during* the study and still abandon people *after* it
-- [Post-trial access]{.key-term}: do participants keep the intervention that worked for them?
-- Ancillary care: what about conditions the study uncovers but did not set out to treat?
-- For the AZT debate this is decisive — proving a regimen works, then withdrawing it, uses the host community
-- "What happens to them afterward?" is part of the design, not cleanup
 
 ## A Placebo Decision Tree
 
 ```{dot}
 //| fig-width: 10.6
 //| fig-height: 3.5
-//| fig-cap: "A simplified placebo decision tree. Real IRB review is more detailed, but these are the core questions students should learn to ask."
+//| fig-cap: "A simplified placebo decision tree. Each diamond is, in effect, a question about whether genuine equipoise exists. Real IRB review is more detailed."
 digraph placebo {
   rankdir=LR;
   bgcolor="transparent";
@@ -349,88 +307,226 @@ digraph placebo {
 ::: {.thought-question}
 You are on an ethics committee in 1997 reviewing a short-course AZT trial in Uganda.
 
-- In the sponsor country, the long-course regimen is already known to work.
-- In the host country, that regimen is too expensive and too complex for ordinary use.
+- In the sponsor country, the long-course regimen already works.
+- In the host country, that regimen is too expensive and complex for ordinary use.
 - The proposed study compares a shorter regimen to placebo.
 
-1. What is the right comparison group?
+1. Is there genuine equipoise here — and equipoise about *what*?
 2. Does local unavailability change what researchers ethically owe participants?
-3. If the shorter regimen could save many more babies in practice, does that justify the placebo arm?
-:::
-
-## Make It Contemporary
-
-::: {.thought-question}
-The same shape keeps returning:
-
-- A sponsor wants to test a simpler treatment in a low-resource setting.
-- The best global therapy exists, but the local system cannot reliably provide it.
-- The study might produce a realistic improvement, but only by starting from a lower baseline.
-
-Is that ethically responsive to local reality, or is it using local injustice as part of the study design?
+3. What is owed *after* the study — do participants keep what worked?
 :::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-Three hard truths belong together here:
+Three hard truths belong together here — this is **allocational** and **infrastructural** vulnerability by design:
 
 - **"Local standard" describes the world; it does not settle what is ethically owed.**
-- **Feasibility matters, but poverty should not become a discount on human protections.** A study can be practical and still exploitative.
-- **Post-trial access is part of the ethics, not cleanup afterward.** If participants help create useful knowledge, researchers must ask who will actually benefit from it [@emanuel2004benchmarks; @helsinki2024].
+- **Feasibility matters, but poverty must not become a discount on human protections.** A study can be practical and still exploitative.
+- **Post-trial access is part of the ethics, not cleanup.** Proving a regimen works and then withdrawing it uses the host community [@emanuel2004benchmarks; @helsinki2024].
 :::
 
-# When the Knowledge Is the Problem {.section-divider}
+# Research Without a Trial: Tissue and Data {.section-divider}
 
-## Fabrication, Falsification, Plagiarism
+## Henrietta Lacks
 
-- Protecting participants is not the only duty — the knowledge itself must be trustworthy
-- The US Office of Research Integrity names three core wrongs:
-  - **Fabrication** — making up data
-  - **Falsification** — manipulating data, images, or results
-  - **Plagiarism** — passing off others' work or ideas as your own
-- A faked study can change treatment for millions before anyone notices
+- In 1951, Henrietta Lacks, a Black woman, was treated for cervical cancer
+- Without her knowledge, cells from her tumor were taken and grown
+- They became **HeLa** — the first immortal human cell line, used in countless studies and products
+- She was never asked; her family was not told for decades and shared in none of the benefit
+- No drug, no placebo, no "arm" — and still a major research-ethics failure: a vulnerability of *never being asked at all*
 
-## The Reproducibility Problem
+## What the Rules Now Require
 
-- Many published findings fail when other scientists try to repeat them
-- Drivers: pressure to publish, selective reporting, weak methods, and how rarely studies are replicated
-- Recent high-profile cases include alleged image manipulation in an influential 2006 Alzheimer's paper and a university president's 2023 resignation over lab-paper integrity
-- Responses being tried: data sharing, preregistration, replication studies, faster retractions
-- For a clinician: "published" and "peer-reviewed" are a floor, not a guarantee
+- US human-subjects research follows the [Common Rule]{.key-term}, rewritten in 2018 [@commonrule_hhs]
+- Consent forms must open with a short **"key information"** summary in plain language
+- **Broad consent**: a person can agree once to future, unspecified research on stored samples and data
+- Most multi-site studies now use a **single IRB** instead of one per site
+- Broad consent is more honest than silence — but ethically thinner than asking each time
 
 ## Thought Question
 
 ::: {.thought-question}
-A landmark drug trial is later found to contain manipulated data. Thousands of patients were treated based on it.
+You give a blood sample for a routine test. A leftover vial is stored. Years later it is used — deidentified — in genetic research and a profitable diagnostic. You were never specifically asked; a broad intake form said "samples may be used for research."
 
-1. Who was wronged — the study's participants, future patients, or both?
-2. Is faking data a worse research-ethics violation than a consent failure, or just a different one?
-3. What would have caught this sooner, and why usually doesn't it?
+1. Was that consent meaningful?
+2. Do you have a claim to a say — or a share — in what was discovered?
+3. Is "deidentified" enough, when the sample is DNA that can re-identify you and implicate relatives?
 :::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-- **Integrity is a subject-protection issue too.** Bad knowledge harms the patients later treated by it, not only the people in the study.
-- **The safeguards are thin by design.** Science runs on trust and infrequent replication; misconduct exploits exactly that.
-- **Self-correction is real but slow.** Retractions and failed replications are how the system fixes itself — often years later.
+- **Consent for *this study* is not consent for *all future research*.** Tissue and data banks rely on broad consent — useful, but ethically thinner than specific consent.
+- **Benefit-sharing is part of justice.** If people make a discovery possible, who profits is an ethical question, not an afterthought.
+- **"Deidentified" weakens but does not erase the stake** — genomic data can re-identify, and can implicate relatives who never agreed.
+:::
+
+# When Money Recruits: Commercial Funding {.section-divider}
+
+## The Structural Conflict
+
+- Most clinical trials are now funded by the companies that profit if the drug succeeds
+- Industry funding is not wrong by itself — but it builds in a conflict of interest
+- Watch three roles: **who funds**, **who recruits**, and **who reviews**
+- Danger peaks when the same people, paid by the sponsor, also treat and enroll the patient
+- This is **deferential** and **medical** vulnerability meeting a financial incentive
+
+## The Markingson Case
+
+::: {.context-box}
+**Dan Markingson, University of Minnesota, 2003–2004.** A young man with acute psychosis was placed under an involuntary commitment order. He was enrolled by his **treating psychiatrist** into the industry-funded CAFÉ antipsychotic trial — while facing commitment to a state hospital if he did not cooperate with his treatment team. His mother repeatedly warned that he was deteriorating. He died by suicide during the study.
+:::
+
+## What the 2015 Review Found
+
+- Markingson was, in the state auditor's words, **"extraordinarily vulnerable"** — committed, psychotic, with no real freedom to refuse [@mn_legaudit2015]
+- Investigators and the IRB chair had **financial ties** to the sponsor, creating an incentive to enroll and retain subjects [@mn_legaudit2015]
+- The University's review of his death was **superficial** — it did not examine medical records or seek outside information
+- Bioethicist **Carl Elliott** spent years pressing for accountability against institutional resistance [@elliott2010]
+- Every vulnerability type from earlier is here at once: cognitive, juridic, deferential, medical
+
+## Disclosure Is Not a Firewall
+
+A well-designed system does not rely on good intentions. It builds **structure**:
+
+| Weak safeguard | Stronger safeguard |
+|---|---|
+| Investigator discloses COI on a form | Recruitment done by someone with **no stake** in enrollment |
+| Sponsor analyzes its own data | **Independent** monitoring board and statisticians |
+| Treating doctor also enrolls the patient | Separation of the **care role** from the **research role** |
+| Institution investigates itself | **External**, empowered review when harm occurs |
+
+## Thought Question
+
+::: {.thought-question}
+A patient newly diagnosed with a serious illness is offered a trial by the physician she trusts most — her own specialist. The specialist receives per-patient payments from the sponsor for each enrollee.
+
+1. Which vulnerability types is she under, before any form is signed?
+2. Is disclosure of the payment enough to fix the problem? Why or why not?
+3. What single structural change would most reduce the conflict?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+- **Conflict of interest is structural, not just moral.** Honest people in a bad structure still produce biased enrollment.
+- **Disclosure is the floor, not the fix.** Telling someone about a conflict does not neutralize it; separating the roles does.
+- **The treating clinician is the highest-pressure recruiter.** That is exactly why independent recruitment and review exist.
+:::
+
+# When the Knowledge Is the Problem {.section-divider}
+
+## Protecting Participants Is Not Enough
+
+- A clean consent process does not guarantee **trustworthy knowledge**
+- The US Office of Research Integrity names three core wrongs:
+  - **Fabrication** — making up data
+  - **Falsification** — manipulating data, images, or results
+  - **Plagiarism** — passing off others' work as your own
+- A faked study can change treatment for millions before anyone notices — the wronged party is now the **future patient**
+
+## Why So Many Findings Are False
+
+A landmark argument: under realistic conditions, *most* published findings can be wrong [@ioannidis2005]. Four ingredients:
+
+- **Low base rate** — most hypotheses tested are false to begin with
+- **Small studies** — easily swung by chance (recall: small samples are fragile)
+- **Researcher flexibility** — many small choices, each nudging toward "significant"
+- **Publication bias** — positive results get published; null results vanish
+
+## How Flexibility Becomes a False Result
+
+::: {.context-box}
+**A worked example.** Test one hypothesis at *p* < 0.05 and a false positive is unlikely. Now test **20** subgroups and report only the one that "worked": a positive result is now *likely* by pure chance.
+
+- **p-hacking** — trying analyses until one crosses the line
+- **HARKing** — Hypothesizing After the Results are Known, then writing it up as if predicted
+
+Neither requires lying. Both manufacture false findings [@simmons2011].
+:::
+
+## It Is Systemic, Not Rare
+
+- **Psychology:** a large replication project reproduced only about **39%** of published findings [@osc2015]
+- **Preclinical cancer:** one team could confirm just **6 of 53** landmark studies [@begley2012]
+- These are not fringe journals — they are the literature clinicians rely on
+- "Published" and "peer-reviewed" are a **floor, not a guarantee**
+
+## The Alzheimer's Case, in Full
+
+::: {.context-box}
+In **2006**, a *Nature* paper named a specific amyloid protein, **Aβ*56**, as a cause of memory loss — it became one of the most-cited Alzheimer's papers of its era and helped lock in the "amyloid hypothesis" that steered roughly **16 years** of funding and drug development.
+
+In **2022**, a six-month *Science* investigation found that key images in that paper, and in many related ones, appear to have been **manipulated** [@piller2022].
+:::
+
+- Through those years, amyloid-targeting drugs **failed trial after trial**
+- Participants in those trials received infusions with real risks — brain swelling and microbleeds
+- A possibly fabricated result may have redirected a field while patients volunteered for drugs built on it
+
+## Psychology: Famous Results That Didn't Hold
+
+The replication project that reproduced only ~39% of findings [@osc2015] swept up results students may already know:
+
+- **Power posing** — holding a "confident" stance was said to change hormones and risk-taking; large replications found no reliable effect
+- **Ego depletion** — willpower as a fuel that "runs out"; a 23-lab preregistered test found the effect near zero
+- **Social priming** — reading "elderly" words said to make people walk slower; did not replicate
+
+These were not fringe claims. They were TED talks, textbooks, and bestsellers.
+
+## Medicine: Treatments Patients Received That Didn't Work
+
+One review found about **40%** of established practices tested over a decade were later **contradicted** [@prasad2013].
+
+| Treatment | What patients went through | What rigorous trials showed |
+|---|---|---|
+| Knee arthroscopy for arthritis | Real surgery, anesthesia, recovery | No better than **sham surgery** [@moseley2002] |
+| Hormone therapy "for the heart" | Years of daily medication | **Raised** heart disease, stroke, breast cancer [@whi2002] |
+| Vertebroplasty (spinal fracture) | Cement injected into the spine | No better than a sham procedure |
+| Stents for stable chest pain | An invasive cardiac procedure | No better than medication for symptoms |
+
+Each was standard, reimbursed, and sincerely recommended. **Bad evidence is not abstract — it is surgery and side effects that did nothing.**
+
+## The AI Turn
+
+- **Surgisphere, 2020:** *The Lancet* and *NEJM* retracted COVID papers built on a huge hospital database that **no one could audit** and that likely never existed — fabricated big data, accepted because it looked authoritative
+- AI now lowers the cost of exactly this: fabricated images, synthetic "data," and fluent **paper-mill** manuscripts at scale
+- It also makes p-hacking faster — automated search across thousands of model variants
+- Counter-tools exist (image forensics, statistical screening), but **detection lags creation**
+- For a clinician: provenance and replication matter more than polish; a confident, well-written result is not a true one
+
+## Thought Question
+
+::: {.thought-question}
+A landmark drug trial is later found to contain manipulated data. Thousands of patients were treated based on it. (Recall the opioid story from Part A: a single misread letter, heavily promoted, helped launch a crisis.)
+
+1. Who was wronged — the study's participants, future patients, or both?
+2. Is faking data a worse research-ethics violation than a consent failure, or just a different one?
+3. Why does the system usually catch this slowly — and what would catch it sooner?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+- **Integrity is a subject-protection issue too.** A false result is not just an academic error — it is the knee surgery, the hormone pill, the amyloid infusion that thousands of real people endured for nothing.
+- **The safeguards are thin by design.** Science runs on trust and infrequent replication; misconduct — and now AI — exploits exactly that.
+- **Fixes are structural:** preregistration, registered reports, data sharing, independent replication, faster retractions.
 :::
 
 # Wrapping Up Part B {.section-divider}
 
-## The Point of Protection
+## The Through-Line
 
-- Research needs volunteers
-- Volunteers are not raw material
-- That is why consent, independent review, fair selection, and post-trial duties belong together
-- The rulebook exists to keep learning answerable to persons
-- When it works, research becomes both scientifically stronger and morally clearer
+- One question ran through everything: who could be **pressured**, and who pays when knowledge is the goal?
+- Vulnerability is a kind of situation, not a kind of person
+- Consent, equipoise, fair selection, conflict-of-interest firewalls, and research integrity are all answers to that one question
+- The rulebook exists to keep learning answerable to persons — during the study, after it, and in what the study is allowed to claim
 
 ## Wrapping Up Part B
 
 ::: {.recap}
-Research-ethics rules are only as good as their use: Belmont as live IRB questions, real protections for vulnerable groups, hard limits on placebo when effective treatment exists, the AZT debate over justice across borders, the tissue-and-data problems Henrietta Lacks still poses, and today's evolving rules — the rewritten Common Rule, diversity requirements, and the fight against research misconduct. The central lesson is demanding: ethical research is not research with a signature, but research designed — during and after — so that the people who make knowledge possible are treated as persons first.
+Research ethics is the systematic study of how the pursuit of knowledge can wrong people — and how to design against it. Vulnerability, understood as power and pressure rather than personality, is the spine: it explains why consent must be real, why equipoise both licenses and ends a trial, why placebo and global trials turn on feasibility and post-trial duties, why commercial funding needs structural firewalls rather than mere disclosure, and why a replication crisis sharpened by AI is itself a subject-protection problem. Ethical research is not research with a signature. It is research designed so that the people who make knowledge possible — and the future patients who will rely on it — are treated as persons first.
 :::
 
 ## References

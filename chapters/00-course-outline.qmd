@@ -30,7 +30,7 @@ By the end of the course, students will be able to:
 |---|---------|--------|--------|
 | 1 | Principles, Theories & Moral Reasoning | Four principles; moral arguments | Theories as lenses on the principles |
 | 2 | History & the Clinical Relationship | Hippocratic → Nuremberg → Belmont | Autonomy, consent, truth-telling, confidentiality |
-| 3 | Research Ethics | RCT primer; historical abuses | Placebos, vulnerable populations, Global South |
+| 3 | Research Ethics | RCT primer; historical abuses | Vulnerability, equipoise, commercial funding, the replication crisis |
 | 4 | Abortion | Moral status arguments | Post-*Dobbs* landscape; feminist perspectives |
 | 5 | Reproductive Technology | IVF, surrogacy, commodification | Savior siblings; posthumous reproduction |
 | 6 | Genetics & Enhancement | Genetics primer; testing | CRISPR; therapy vs. enhancement |
@@ -115,23 +115,29 @@ By the end of the course, students will be able to:
 - *Table:* Research vs. clinical care — goals, who benefits, who pays, what governs it (IRB vs. medical license).
 - *Sidebar:* "What does 'double-blind' actually mean?" with a small example.
 
-### L3b. From Tuskegee to Today: Protecting Research Subjects
+### L3b. Vulnerability, Equipoise, Money, and Trustworthy Knowledge
 
-- Three case studies and what each taught us:
-  - **Tuskegee** — race, deception, withholding treatment.
-  - **Willowbrook** (1956–70) — hepatitis studies on children with intellectual disabilities.
-  - **Nazi experiments** — coerced participation in concentration camps.
-- The three **Belmont principles**: respect for persons, beneficence, justice — and how each maps to a real IRB protection (consent, risk-benefit, fair subject selection).
-- **Vulnerable populations**: children, prisoners, pregnant people, those with cognitive impairment, economically disadvantaged groups — and what extra protections apply.
-- Placebo controls when an effective treatment already exists: is it ever ethical?
-- Research in low-resource settings: the **short-course AZT trials** in sub-Saharan Africa (1990s) as a case study.
+The systematic ethics of clinical trials, organized around one spine — **vulnerability as power and pressure, not personality**.
+
+- The three founding scandals (**Nazi experiments, Willowbrook, Tuskegee**) and the consent / harm / justice failures each forced into oversight.
+- A working **taxonomy of vulnerability** (cognitive, juridic, deferential, medical, allocational, infrastructural) — used as the analytic lens for the rest of the lecture; the two-sided justice point (wrongful exploitation *and* wrongful exclusion; FDORA diversity law).
+- The three **Belmont principles** as concrete IRB review questions; the "You Are the IRB" protocol simulation.
+- **Clinical equipoise** as the moral clock: it both *licenses* a trial (genuine community uncertainty) and *ends* it (early stopping for harm, benefit, or futility); why trials stopped early for benefit overestimate effects; placebo disputes reframed as equipoise disputes.
+- Placebo, poverty, and global research: the **short-course AZT trials** (Lurie & Wolfe vs. Varmus & Satcher) as allocational/infrastructural vulnerability; post-trial access.
+- Research without a trial: **Henrietta Lacks**, broad consent, the rewritten Common Rule, and DNA re-identification.
+- **Commercial funding and conflict of interest**: the **Dan Markingson** case (University of Minnesota, 2003–04) as a worst-case convergence of every vulnerability type; why disclosure is a floor and structural firewalls are the fix.
+- The **replication crisis** as a subject-protection problem: why most findings can be false (Ioannidis), p-hacking and HARKing in plain language, systemic evidence (psychology ≈39%; preclinical cancer 6/53), the Aβ*56 Alzheimer's and Surgisphere cases, and how **AI sharpens the threat** (synthetic data, paper mills, faster p-hacking).
+- Research misconduct (fabrication, falsification, plagiarism) and the structural fixes: preregistration, registered reports, data sharing, replication.
 
 **Visual elements:**
-- *Image (public domain):* Willowbrook State School exterior photograph (NY State Archives / Wikimedia Commons, public domain).
+- *Table:* Kipnis-style taxonomy of vulnerability — type, the pressure, a clinical example.
 - *Figure (code-generated):* mapping of Belmont principles → IRB protections (three-column diagram).
-- *Table:* Vulnerable populations and the specific protections required for each.
-- *Case box:* The AZT trials debate — Lurie & Wolfe vs. Varmus & Satcher, with discussion prompts.
-- *Discussion prompt:* "Would you join a Phase I trial for $5,000? For a friend? For your child?"
+- *Table:* equipoise "clock runs out" — harm / benefit / futility stopping triggers.
+- *Figure (code-generated):* placebo decision tree, framed as nested equipoise questions.
+- *Case box:* the AZT debate (Lurie & Wolfe vs. Varmus & Satcher); the Markingson case context box and the 2015 Minnesota Legislative Auditor findings.
+- *Table:* weak vs. strong COI safeguards (disclosure vs. structural firewall).
+- *Worked example:* how testing 20 subgroups manufactures a false positive (p-hacking / HARKing).
+- *Discussion prompts:* IRB vaccine-in-prisons; trusted specialist paid per enrollee; a manipulated landmark trial (paying off the Part A opioid-letter thread).
 
 ---
 
@@ -153,9 +159,9 @@ By the end of the course, students will be able to:
 
 ### L4b. Law, Cases, and the Four Principles
 
-- **Roe v. Wade** (1973), **Planned Parenthood v. Casey** (1992), and **Dobbs v. Jackson** (2022): a brief legal arc.
-- The post-Dobbs landscape: state-by-state variation in 2024–25, including trigger laws, gestational limits, and exceptions.
-- Applying the **four principles** (autonomy, beneficence, non-maleficence, justice) to specific cases:
+- **Roe v. Wade** (1973), **Planned Parenthood v. Casey** (1992), and **Dobbs v. Jackson** (2022): a brief legal arc. (Explain legal arguments, but also social-political climate and environment)
+- The post-Dobbs landscape: state-by-state variation in 2024–26, including trigger laws, gestational limits, and exceptions. Current arguments about abortion.
+- Applying the **four principles** (autonomy, beneficence, non-maleficence, justice) to specific cases. Goal is not to "solve" this, but to undestand why/how liberals and conservatives disagree, and why being "moderate" can be be perfectly coherent.
   - Pregnancy from rape
   - Severe fetal anomaly incompatible with life
   - Maternal life endangered (e.g., ectopic pregnancy, severe preeclampsia)
