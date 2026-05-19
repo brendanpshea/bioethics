@@ -329,9 +329,10 @@ $code-block-border-color: $rule;
   width: auto;
 }
 
-// Clip any content that still overflows rather than pushing the footer off screen
+// Clip horizontal overflow; allow vertical scroll when content is taller than the frame
 .reveal .slides section {
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 // ----- Closing review questions -----
@@ -360,7 +361,8 @@ $code-block-border-color: $rule;
   margin-bottom: 0;
 }
 
-.reveal .review-item h4 {
+.reveal .review-item .review-label {
+  display: block;
   margin: 0 0 0.3em;
   font-size: 0.82em;
   font-family: $font-family-sans-serif;
@@ -379,7 +381,7 @@ $code-block-border-color: $rule;
   background: linear-gradient(135deg, white 0%, #f4fbfb 100%);
 }
 
-.reveal .review-recall h4 {
+.reveal .review-recall .review-label {
   color: $primary;
 }
 
@@ -388,7 +390,7 @@ $code-block-border-color: $rule;
   background: linear-gradient(135deg, white 0%, #fff9ef 100%);
 }
 
-.reveal .review-apply h4 {
+.reveal .review-apply .review-label {
   color: $warm;
 }
 
@@ -397,6 +399,6 @@ $code-block-border-color: $rule;
   background: linear-gradient(135deg, white 0%, #fff5f4 100%);
 }
 
-.reveal .review-debate h4 {
+.reveal .review-debate .review-label {
   color: $accent;
 }

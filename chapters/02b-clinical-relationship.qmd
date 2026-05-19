@@ -630,19 +630,19 @@ Write a brief answer to each, or use them as discussion prompts.
 ::: {.review-questions}
 
 ::: {.review-item .review-recall}
-#### Recall
+[Recall]{.review-label}
 
 What are the four elements of valid informed consent, and why is a signature by itself not enough?
 :::
 
 ::: {.review-item .review-apply}
-#### Apply
+[Apply]{.review-label}
 
 A patient with kidney failure clearly explains the risks of refusing dialysis, but her son insists that no "reasonable" mother would refuse treatment and asks the team to override her. How should the team assess capacity and respond to the son's demand?
 :::
 
 ::: {.review-item .review-debate}
-#### Debate
+[Debate]{.review-label}
 
 Should patients usually get near-immediate electronic access to clinicians' notes, test interpretations, and differential diagnoses, even when that may increase anxiety, misunderstanding, or conflict?
 :::

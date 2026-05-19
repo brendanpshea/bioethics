@@ -657,19 +657,19 @@ Write a brief answer to each, or use them as discussion prompts.
 ::: {.review-questions}
 
 ::: {.review-item .review-recall}
-#### Recall
+[Recall]{.review-label}
 
 What is the difference between descriptive ethics, normative ethics, and metaethics, and why is bioethics usually classified as applied normative ethics?
 :::
 
 ::: {.review-item .review-apply}
-#### Apply
+[Apply]{.review-label}
 
 A patient with newly diagnosed diabetes says insulin is "unnatural" and wants to rely only on an herbal regimen she found online. Identify the conclusion of her argument, one hidden assumption or fallacy in it, and the main principles a clinician should weigh in responding.
 :::
 
 ::: {.review-item .review-debate}
-#### Debate
+[Debate]{.review-label}
 
 In a pluralistic hospital, should policy be justified only with publicly shareable reasons that people across worldviews can assess, or is it legitimate to defend policy openly with religious reasons that not everyone accepts?
 :::

@@ -115,6 +115,7 @@ tr:nth-child(even) td { background: var(--soft); }
 .thought-question,
 .case-at-a-glance,
 .context-box,
+.argument,
 .recap {
   background: white;
   border: 1px solid var(--rule);
@@ -130,6 +131,7 @@ tr:nth-child(even) td { background: var(--soft); }
 .thought-question > :first-child,
 .case-at-a-glance > :first-child,
 .context-box > :first-child,
+.argument > :first-child,
 .recap > :first-child {
   margin-top: 0;
 }
@@ -137,6 +139,7 @@ tr:nth-child(even) td { background: var(--soft); }
 .thought-question > :last-child,
 .case-at-a-glance > :last-child,
 .context-box > :last-child,
+.argument > :last-child,
 .recap > :last-child {
   margin-bottom: 0;
 }
@@ -146,6 +149,7 @@ tr:nth-child(even) td { background: var(--soft); }
 .thought-question::before,
 .case-at-a-glance::before,
 .context-box::before,
+.argument::before,
 .recap::before {
   position: absolute;
   top: -0.7em;
@@ -165,6 +169,7 @@ tr:nth-child(even) td { background: var(--soft); }
 .thought-question::before  { content: "Discuss";           background: var(--warm); }
 .case-at-a-glance::before  { content: "At a Glance";       background: var(--accent); }
 .context-box::before       { content: "Background";        background: var(--muted); }
+.argument::before          { content: "Argument";          background: var(--primary-dark); }
 .recap::before             { content: "Recap";             background: var(--primary); }
 
 /* Subtle accent edge on each card type */
@@ -172,7 +177,20 @@ tr:nth-child(even) td { background: var(--soft); }
 .thought-question  { border-top: 3px solid var(--warm); }
 .case-at-a-glance  { border-top: 3px solid var(--accent); }
 .context-box       { border-top: 3px solid var(--muted); }
+.argument          { border-top: 3px solid var(--primary-dark); }
 .recap             { border-top: 3px solid var(--primary); }
+
+/* Argument reconstruction: tighten the premise list, set off the conclusion */
+.argument ol { margin: 0.4em 0 0; padding-left: 1.4em; }
+.argument ol li { margin: 0.35em 0; }
+.argument ol li:last-child {
+  list-style: none;
+  margin-left: -1.4em;
+  padding-top: 0.5em;
+  border-top: 1px solid var(--rule);
+  font-weight: 600;
+}
+.argument ol li:last-child::before { content: "\2234\00a0"; font-weight: 700; }
 
 /* ===== Inline key term ===== */
 .key-term {

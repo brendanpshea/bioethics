@@ -1,5 +1,22 @@
-# Case studies render as HTML reading material only — never slides.
+# Case studies are reading material, never slides. A standard
+# `quarto render` produces TWO outputs per case:
+#   1. HTML  — for the website (inherits the site theme/nav)
+#   2. DOCX  — a self-contained file for printing or submission
+#      (Word embeds images, including rendered diagrams, inline)
+#
+# google-scholar emits Highwire citation_* meta tags (citation_title,
+# citation_author, citation_publication_date) so Google Scholar can
+# index each case as a scholarly document. This is why the `title:`
+# field must be descriptive and keyword-rich (it becomes
+# citation_title and the HTML <title>); the evocative phrase lives in
+# `subtitle:`, which Scholar/`<title>` ignore.
+google-scholar: true
+
 format:
   html:
     toc: true
     number-sections: false
+  docx:
+    toc: true
+    number-sections: false
+    highlight-style: github

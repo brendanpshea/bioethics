@@ -15,13 +15,10 @@ format:
 
 ## Bridge from Part A
 
-In Part A we asked: *what* are the four principles, and how do you read a moral argument?
-
-Part B asks the next question:
+In Part A we asked: *what* are the four principles, and how do you read a moral argument?  Part B asks:
 
 > **Where do the principles come from — and how do we weigh them when they conflict?**
 
-That is where ethical **theory** comes in.
 
 ::: {.learning-outcomes}
 By the end of Part B, you will be able to:
@@ -169,7 +166,9 @@ A utilitarian protocol would allocate ventilators to maximize lives saved — wh
 ## After You've Discussed
 
 ::: {.callout-note}
-**The utilitarian reply.** A sophisticated utilitarian can say: the protocol maximizes welfare across the *group*, which is what justice requires. **The critique** is that it treats some lives as worth less, and that the reasons behind lower survival odds (disability, chronic illness) are often tied to existing inequities. We will return to this when we take up public health ethics and the just allocation of care.
+**The utilitarian reply.** A sophisticated utilitarian can say: the protocol maximizes welfare across the *group*, which is what justice requires. 
+
+**The critique** is that it treats some lives as worth less, and that the reasons behind lower survival odds (disability, chronic illness) are often tied to existing inequities. We will return to this when we take up public health ethics and the just allocation of care.
 :::
 
 # Utilitarianism in Practice: Peter Singer {.section-divider}
@@ -205,8 +204,7 @@ A utilitarian protocol would allocate ventilators to maximize lives saved — wh
 - Singer separates being **biologically human** from being a [person]{.key-term} — a self-aware being with preferences about its own future.
 - The wrongness of killing then tracks personhood and preferences, not species membership by itself.
 - So he holds **abortion** permissible (an early fetus is not yet a person) and defends **voluntary euthanasia**.
-- Most controversially, he argues that for some severely impaired newborns, ending life may be permissible.
-- The **disability-rights objection** is sharp — this rates disabled lives as lower-value, a challenge we return to later.
+- Most controversially, he argues that for some severely impaired newborns, ending life may be permissible, given the suffering that is likely to characterize these lives.
 
 ::: {.notes}
 Why teach the hardest case: Singer matters precisely because he refuses to stop where intuition gets uncomfortable. This slide is the hinge — the next section asks whether "follow the calculation wherever it leads" is the right method at all.
@@ -322,7 +320,10 @@ A patient with severe depression has been refusing an antidepressant. His psychi
 ## After You've Discussed
 
 ::: {.callout-note}
-**The Kantian tension.** Kant's framework requires that the patient be capable of rational self-governance for autonomy to apply fully. If the illness itself impairs that capacity, overriding expressed wishes *may* be consistent with treating him as an end — but this reasoning can also be abused to justify paternalism. **Decision-making capacity assessment** is how clinical ethics tries to hold this line carefully.
+**The Kantian tension.** Kant's framework requires that the patient be capable of rational self-governance for autonomy to apply fully. If the illness itself impairs that capacity, overriding expressed wishes *may* be consistent with treating him as an end — but this reasoning can also be abused to justify paternalism. 
+
+**Decision-making capacity assessment** is how clinical ethics tries to hold this line carefully. 
+
 :::
 
 # The Nonconsequentialist Reply {.section-divider}
@@ -463,17 +464,18 @@ digraph virtue {
 ::: {.columns}
 
 ::: {.column width="55%"}
-Carol Gilligan [@gilligan1982] argued that dominant moral theories — utilitarian and Kantian — were built around **abstract rules** applied to strangers. They missed what actually structures most moral life: **relationships, dependency, and the responsibility that comes with them**.
+- Gilligan [@gilligan1982]: dominant moral theories prioritize **abstract rules** for strangers.
+- Care ethics centers **relationships, dependency, and responsibility**.
 
 ::: {.quote-card}
-> "[T]he moral problem arises from conflicting responsibilities rather than from competing rights and requires for its resolution a mode of thinking that is contextual and narrative rather than formal and abstract."
+> "[T]he moral problem arises from conflicting responsibilities rather than from competing rights."
 >
 > — Gilligan, *In a Different Voice* (1982)
 :::
 :::
 
 ::: {.column width="42%"}
-![Carol Gilligan](../images/gilligan.jpg){width="80%" fig-alt="Photograph of Carol Gilligan"}
+![Carol Gilligan](../images/gilligan.jpg){width="65%" fig-alt="Photograph of Carol Gilligan"}
 :::
 
 :::
@@ -524,7 +526,7 @@ digraph care {
 
 ::: {.columns}
 
-::: {.column width="55%"}
+::: {.column width="65%"}
 - One of the world's oldest virtue traditions, increasingly important as care globalizes [@fan_confucian].
 - **Ren** (benevolence, humaneness) is the central virtue: wholehearted concern for others.
 - **Li** (ritual propriety) governs how that concern is expressed appropriately within each relationship.
@@ -532,7 +534,7 @@ digraph care {
 - The self is **relational and role-constituted** — always someone's child, parent, or clinician — and the exemplar (**junzi**) is formed over a lifetime of practice.
 :::
 
-::: {.column width="42%"}
+::: {.column width="22%"}
 ![Confucius](../images/confucius.jpg){width="80%" fig-alt="Tang Dynasty drawing of Confucius"}
 :::
 
@@ -542,7 +544,7 @@ digraph care {
 
 - The Confucian frame changes what "respecting the patient" looks like in practice.
 - Decisions are often **family-determined**: the family, not the solitary patient, is the natural decision unit.
-- This collides with Western informed consent — e.g., a family asking that a grave diagnosis not be told directly to an elder.
+- This can collide with Western informed consent — e.g., a family asking that a grave diagnosis not be told directly to an elder.
 - It is not simply paternalism: it expresses *xiao* and a duty to shield a loved one from a crushing burden.
 - So it reframes autonomy as **relational** rather than individual — a theme that returns when we discuss cross-cultural truth-telling.
 
@@ -584,7 +586,9 @@ A 78-year-old woman with mild cognitive impairment makes decisions that worry he
 ## After You've Discussed
 
 ::: {.callout-note}
-**What the relational lenses add.** They center the *relationship* and her embeddedness in family and community — her story, not just her risk score; the Confucian frame even treats the family as a proper decision-maker. **What they can obscure:** a caring family can also be a controlling one, so these lenses still need *justice* to ask whether the relationships are themselves fair. This is why the four principles are used alongside the theories, not replaced by any single one.
+**What the relational lenses add.** They center the *relationship* and her embeddedness in family and community — her story, not just her risk score; the Confucian frame even treats the family as a proper decision-maker. 
+
+**What they can obscure:** a caring family can also be a controlling one, so these lenses still need *justice* to ask whether the relationships are themselves fair. This is why the four principles are used alongside the theories, not replaced by any single one.
 :::
 
 # Putting It Together {.section-divider}
@@ -617,30 +621,26 @@ Bioethics uses a **four-principle framework** as its shared vocabulary, supporte
 
 **Next**, we turn to the history that gave these principles their urgency, and the clinical relationship where they are daily tested.
 
-<br/>
-*All uncredited slide illustrations and scenario visualizations were generated using Gemini.*
 :::
 
 ## Review Questions
 
-Write a brief answer to each, or use them as discussion prompts.
-
 ::: {.review-questions}
 
 ::: {.review-item .review-recall}
-#### Recall
+[Recall]{.review-label}
 
 What makes an action right for a utilitarian, for a Kantian, and for a virtue or care ethicist?
 :::
 
 ::: {.review-item .review-apply}
-#### Apply
+[Apply]{.review-label}
 
 A clinician considers giving a placebo pill without disclosing it to a patient with chronic pain because it may relieve symptoms and seems harmless. How would a utilitarian, a Kantian, and a care or virtue ethicist evaluate that choice?
 :::
 
 ::: {.review-item .review-debate}
-#### Debate
+[Debate]{.review-label}
 
 Should global-health funding be directed mainly by cost-effectiveness calculations that maximize total benefit, or should relationship-based duties, local priorities, and historical injustice sometimes override that math?
 :::

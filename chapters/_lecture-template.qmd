@@ -207,9 +207,9 @@ Build on Part A as prior knowledge (recap in a line, then apply). Same density a
 
 ## [Application Section]
 
-Work a brief illustrative case in the text, or point to the paired case study **by topic name, not lecture number**:
+Work a brief illustrative case in the text, or point to the paired case study **by its descriptive title, not a case number** (case titles carry no numbers):
 
-> **Paired case:** [Case N — Title](cases/NN-slug.qmd)
+> **Paired case:** [Descriptive Case Title](cases/NN-slug.qmd)
 
 ## Wrap-Up
 

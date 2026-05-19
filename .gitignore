@@ -15,3 +15,6 @@ venv/
 env/
 .env
 chapters/quotes.md
+
+# Primary-source PDFs (kept local, not redistributed)
+sources/

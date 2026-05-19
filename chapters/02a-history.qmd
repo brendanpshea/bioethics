@@ -589,19 +589,19 @@ Write a brief answer to each, or use them as discussion prompts.
 ::: {.review-questions}
 
 ::: {.review-item .review-recall}
-#### Recall
+[Recall]{.review-label}
 
 How did Nuremberg, Willowbrook and Beecher, and Tuskegee each add a different safeguard to the modern research-ethics rulebook?
 :::
 
 ::: {.review-item .review-apply}
-#### Apply
+[Apply]{.review-label}
 
 A hospital wants its IRB for a new drug study to be made up entirely of physicians from the sponsoring department because "they understand the science best." Using the history in this lecture, explain why self-policing is not enough and what safeguards an adequate review process needs.
 :::
 
 ::: {.review-item .review-debate}
-#### Debate
+[Debate]{.review-label}
 
 Do health systems and governments owe material repair for past medical abuses such as forced sterilization and Tuskegee, or are apology, memorialization, and better oversight enough?
 :::
