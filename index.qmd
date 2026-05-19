@@ -26,6 +26,21 @@ All materials are freely available for non-commercial educational use under a [C
 | 2B | History & Relationship | The Clinical Relationship: Consent, Autonomy, and Confidentiality | [Slides](chapters/02b-clinical-relationship-slides.html) | [Notes](chapters/02b-clinical-relationship.html) |
 | 3A | Research Ethics | How Clinical Research Works (and Why It's Different from Care) | [Slides](chapters/03a-clinical-research-slides.html) | [Notes](chapters/03a-clinical-research.html) |
 | 3B | Research Ethics | From Tuskegee to Today: Protecting Research Subjects | [Slides](chapters/03b-protecting-research-subjects-slides.html) | [Notes](chapters/03b-protecting-research-subjects.html) |
+| 4A | Reproductive Ethics | Abortion: Moral Status & Major Philosophical Arguments | [Slides](chapters/04a-abortion-slides.html) | [Notes](chapters/04a-abortion.html) |
+| 4B | Reproductive Ethics | Abortion: Law, Cases, and the Four Principles | [Slides](chapters/04b-abortion-law-slides.html) | [Notes](chapters/04b-abortion-law.html) |
+
+---
+
+## Case Studies
+
+We offer comprehensive historical and clinical case studies to pair with specific lecture topics. Each case is available as a web page or a downloadable Word document for offline reading, annotating, or printing.
+
+| # | Case Study Title | Primary Paired Lecture | Formats |
+|---|---|---|---|
+| 1 | **Dax Cowart:** Refusing Burn Treatment and the Limits of Patient Autonomy | [L2B: Consent & Autonomy](chapters/02b-clinical-relationship.html) | [HTML](cases/01-dax-cowart.html) / [DOCX](cases/01-dax-cowart.docx) |
+| 2 | **Tuskegee & Guatemala:** Deception, Racism, and Vulnerability in Research | [L3B: Protecting Subjects](chapters/03b-protecting-research-subjects.html) | [HTML](cases/02-tuskegee-guatemala.html) / [DOCX](cases/02-tuskegee-guatemala.docx) |
+| 3 | **Henrietta Lacks:** Biospecimens, Informed Consent, and Genomic Privacy | [L3B: Protecting Subjects](chapters/03b-protecting-research-subjects.html) | [HTML](cases/03-henrietta-lacks.html) / [DOCX](cases/03-henrietta-lacks.docx) |
+
 
 ---
 

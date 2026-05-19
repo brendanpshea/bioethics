@@ -531,6 +531,32 @@ A landmark drug trial is later found to contain manipulated data. Thousands of p
 Research ethics is the systematic study of how the pursuit of knowledge can wrong people — and how to design against it. Vulnerability, understood as power and pressure rather than personality, is the spine: it explains why consent must be real, why equipoise both licenses and ends a trial, why placebo and global trials turn on feasibility and post-trial duties, why commercial funding needs structural firewalls rather than mere disclosure, and why a replication crisis sharpened by AI is itself a subject-protection problem. Ethical research is not research with a signature. It is research designed so that the people who make knowledge possible — and the future patients who will rely on it — are treated as persons first.
 :::
 
+## Review Questions
+
+Write a brief answer to each, or use them as discussion prompts.
+
+::: {.review-questions}
+
+::: {.review-item .review-recall}
+[Recall]{.review-label}
+
+How does the Belmont principle of *Justice* translate into the concrete IRB requirement of *Fair Subject Selection*, and what is the difference between cognitive and allocational vulnerability in Kipnis's taxonomy?
+:::
+
+::: {.review-item .review-apply}
+[Apply]{.review-label}
+
+A biotech company wants to compile a large registry of genomic data from children in foster care to study rare pediatric neurological conditions. Consent will be obtained from state caseworkers, and the children's data will be fully de-identified. Based on Kipnis's types of vulnerability and the Belmont principles, identify two distinct ethical concerns that an IRB should address before approving this protocol.
+:::
+
+::: {.review-item .review-debate}
+[Debate]{.review-label}
+
+In global clinical research, does the local unavailability of a proven treatment justify using a placebo-controlled design in a low-resource host country, or does this practice represent a double standard that exploits structural global inequalities?
+:::
+
+:::
+
 ## References
 
 ::: {#refs}

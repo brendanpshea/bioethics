@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - index.qmd
+    - chapters/*.qmd
+    - cases/*.qmd
 
 # ----- Citations (Chicago author-date) -----
 # CSL fetched once from https://www.zotero.org/styles/chicago-author-date
@@ -36,6 +40,12 @@ website:
             text: "Part A — How Clinical Research Works"
           - href: chapters/03b-protecting-research-subjects.qmd
             text: "Part B — Protecting Research Subjects"
+      - text: "4. Abortion"
+        menu:
+          - href: chapters/04a-abortion.qmd
+            text: "Part A — Moral Status"
+          - href: chapters/04b-abortion-law.qmd
+            text: "Part B — Law & Cases"
     right:
       - icon: github
         href: https://github.com/brendanpshea/bioethics-oer

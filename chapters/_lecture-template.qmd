@@ -34,16 +34,10 @@ format:
 
 ## Slide Density (hard rule)
 
-Every reveal.js slide must fit **one 1050×700 screen** with no scrolling. Prefer splitting over cramming. A content slide carries **about five sentences' worth of material**, broken up as:
-
-- **5 bullets, no header sentence**, OR
-- **4 bullets with one header sentence above**, OR
-- **3 bullets with a header sentence above and a closing line below**, OR
-- a table / quote-card / two-column / context-box that carries equivalent density.
-
-Prefer **full sentences** to fragments. Fragment "lecture cues" ("Not a checklist", "Free meals encouraged participation") are banned — a student must be able to **study from the slide alone**.
-
-A "thought question + reveal" is **two slides**, never one slide with a fragment.
+Every Reveal.js slide must fit **one 1050×700 screen** with no scrolling. Prefer splitting or grid-based structuring over cramming.
+- **Single-Column Lists:** Limit to 3-4 bullets maximum if they are full sentences. Never use 6 detailed single-column bullets, as they will cause a vertical overflow on standard viewports.
+- **Content Budget:** A typical content slide carries about five sentences' worth of material. Prefer full sentences to fragments so that students can study from the slide alone.
+- **Multi-Column Splits:** Use two-column grids (`::: {.columns}`) to split longer lists, compare concepts, or place a `.callout` next to text. This doubles the usable screen width and keeps heights low.
 
 ## Study-Worthiness
 
@@ -51,22 +45,26 @@ A "thought question + reveal" is **two slides**, never one slide with a fragment
 - Cut navigational filler ("the next slides will trace…", "as mentioned earlier"). It wastes the ~5-sentence budget.
 - If a slide is only a slogan, it is not done.
 
-## Layout Variety
+## Layout Variety & Slide Design
 
-Monotony is a defect. **Never run more than two plain bullet-list slides in a row.** Rotate among these shapes:
+Monotony is a defect. **Never run more than two plain bullet-list slides in a row.** Leverage reveal.js columns and custom layouts to create a premium, designed look:
+
+- **Two-Column comparative layout:** Use side-by-side columns (`::: {.columns}`) of equal width (e.g. `width="48%"` with a central spacer `width="4%"`). Perfect for comparing "The Distinction vs. The Application" or two opposing views.
+- **Card and Callout Integrations:** Place a case study or a crucial definition inside a `.callout-note` or `.callout-important` box in one column, while keeping key analytical points as clean bullets in the opposite column. This prevents slides from feeling "sparse" while keeping vertical height tight.
+- **2x2 Grid Layouts:** For list structures like definitions or candidate criteria, use two columns with short bold headers. This creates a clean quadrant grid that is highly legible.
+- **Tables and Cards:** Use comparative tables or `.quote-card` blocks to collapse parallel details into single, high-contrast slides.
 
 | Shape | Use for |
 |---|---|
-| Prose (5 full sentences) | Narrative, argument, synthesis |
+| Two-column **split grid** | Splitting long lists, comparisons, concept grids, and card combinations |
 | Two-column **text + image** | Any slide with a photo — the image is a *column*, never dumped under bullets |
-| Contrast table | "myth vs. fact", "told vs. true", "I vs. II", competing standards |
-| Comparison table | Parallel concepts collapsed into one study table (e.g., Belmont principles) |
+| Contrast / comparison table | Competing standards or collapsed parallel concepts (e.g., Belmont principles) |
 | Quote-card | Primary-source quotation (see Quotes) |
 | `.context-box` | A mini-case or a concept a 12th grader needs |
 | Timeline / flow `{dot}` | Sequences and decision procedures |
 | Recurring "scoreboard" table | An intentional running motif — repetition here is *good* |
 
-Collapse repetitive parallel runs (three near-identical principle slides → one rich table). Consolidating and *then* enriching beats leaving thin parallel slides.
+Collapse repetitive parallel runs (three near-identical principle slides → one rich table or one beautiful comparison grid). Consolidating and *then* enriching beats leaving thin, parallel slides.
 
 ## Discussion Units (the 3-slide pattern)
 
@@ -209,7 +207,7 @@ Build on Part A as prior knowledge (recap in a line, then apply). Same density a
 
 Work a brief illustrative case in the text, or point to the paired case study **by its descriptive title, not a case number** (case titles carry no numbers):
 
-> **Paired case:** [Descriptive Case Title](cases/NN-slug.qmd)
+> **Paired case:** [Descriptive Case Title](../cases/NN-slug.qmd)
 
 ## Wrap-Up
 
@@ -227,6 +225,32 @@ Three or four sentences summarizing the whole arc — the question, the main mov
 Accessible follow-up sources (distinct from works cited).
 
 - Author. *Title*. Publisher, Year.
+
+## Review Questions
+
+Write a brief answer to each, or use them as discussion prompts.
+
+::: {.review-questions}
+
+::: {.review-item .review-recall}
+[Recall]{.review-label}
+
+[Question text: retrieve definitions, distinctions, mechanisms, or framework maps from that lesson-part only]
+:::
+
+::: {.review-item .review-apply}
+[Apply]{.review-label}
+
+[Question text: use a new scenario, not the lesson's opening hook, running patient, paired case study, or existing Thought Question stem]
+:::
+
+::: {.review-item .review-debate}
+[Debate]{.review-label}
+
+[Question text: reserve one current controversy lane per lesson-part so later lessons do not reuse the same topic]
+:::
+
+:::
 
 ## References
 

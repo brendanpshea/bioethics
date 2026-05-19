@@ -1,0 +1,569 @@
+---
+title: "Lecture 4 — Abortion"
+subtitle: "Part B: The Law and Reproductive Rights"
+author: "Brendan Shea, PhD"
+date: ""
+date-meta: last-modified
+institute: "An Introduction to Bioethics."
+format:
+  html:
+    toc: true
+    number-sections: true
+  revealjs:
+    output-file: 04b-abortion-law-slides.html
+---
+
+# A Sovereign Interest? {.section-divider}
+
+## Where We Left Off
+
+- Part A explored the biological development of the fetus alongside major candidate criteria for establishing [moral status]{.key-term} in clinical ethics.
+- We examined foundational moral frameworks including Judith Jarvis Thomson's violinist analogy, Don Marquis's future-like-ours (FLO) account, and Rosalind Hursthouse's virtue ethics framework.
+- Part B transitions from pure moral theory to investigate the concrete legal, historical, and global policies that govern reproduction.
+- Our primary inquiry centers on how governments regulate individual reproduction, and where these state interests clash with individual [bodily autonomy]{.key-term}.
+
+## Today's Learning Outcomes
+
+::: {.learning-outcomes}
+By the end of Part B, you will be able to:
+
+- Tracing the legal trajectory of reproduction from ancient exposure practices and English Common Law quickening standards to the U.S. post-*Dobbs* landscape.
+- Analyze the foundational legal concepts of Common Law, precedent, and *stare decisis* as they apply to healthcare.
+- Compare coercive and non-coercive demographic state policies (China's One-Child Policy vs. Romania's Decree 770 and Singapore's incentive package).
+- Apply the four principles (autonomy, beneficence, non-maleficence, justice) to post-*Dobbs* clinical exceptions and moral distress.
+:::
+
+## Opening Thought Experiment: The Sovereign's Cradle
+
+::: {.columns}
+::: {.column width="48%"}
+![](../images/sovereigns_cradle.png){width="100%" fig-alt="A wooden baby cradle wrapped in official red ribbons and secured with a golden state wax seal"}
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+::: {.thought-question}
+**Who owns the cradle?**
+
+Imagine a state facing severe demographic collapse that passes a law making pregnancy and childbirth a mandatory public service for all compatible citizens.
+
+1. If a country is facing severe population collapse, does the government have a right to encourage or push citizens to have more children, or is family size a purely private choice?
+2. Where is the boundary between a helpful public health incentive (like child care funding) and an unfair level of state control over reproduction?
+3. How would you weigh a state's concern for its future survival against an individual's right to control their own body?
+:::
+:::
+:::
+
+::: {.notes}
+Use this thought experiment to set the theme: reproductive rights are not just about personal moral choices, but about the historical boundary lines between individual liberty and state authority.
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+Three starting points are crucial for our analysis today:
+
+- State reproductive interests are historically fluid and have shifted between demanding more births or fewer births based on economic utility.
+- The law functions as an ethical instrument that institutionalizes specific balances of autonomy, paternalism, and justice.
+- Vague statutory codes often fracture when they collide with the rapid, continuous clinical realities of emergency medicine.
+:::
+
+# 1. A History of Legal Boundaries {.section-divider}
+
+## Exposure & Infanticide in Antiquity
+
+::: {.columns}
+::: {.column width="48%"}
+### The Historical Reality
+- In ancient Roman and Greek societies, the abandonment or exposure of unwanted newborn infants was widely tolerated and legally practiced.
+- This practice served as the primary mechanism for family planning, population control, and managing congenital anomalies.
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+### The *Patria Potestas* Model
+- Under Roman law, the male head of the household held absolute legal authority over all family members, which included the power of life and death.
+- A newborn did not possess inherent legal status at birth; protection was granted only when the father formally accepted the child into the household.
+:::
+:::
+
+::: {.notes}
+Point out that in antiquity, the boundary of legal and moral protection did not sit at fertilization, neural activity, or birth. It sat at paternal acceptance.
+:::
+
+## The Shift to Moral Status
+
+- The rise of Judeo-Christian ethics in the late Roman Empire led to the gradual outlawing of infant exposure and infanticide.
+- These moral shifts pushed the threshold of legal protection backward from paternal acceptance to the moment of birth.
+- The newborn was recognized for the first time as an independent legal subject owed protection against the household's immediate utility.
+- This historical transition established the precedent that the state holds a fundamental duty to protect vulnerable nascent life.
+
+## English Common Law & "Quickening"
+
+- Under English Common Law, abortion was not treated as a crime or misdemeanor prior to the biological boundary of [quickening]{.key-term} [@mohr1978].
+- Quickening is defined as the moment when a pregnant person first feels the fetus move in the womb, typically occurring between 16 and 20 weeks.
+- Before quickening occurred, there was no objective evidence of independent life under common law understanding, meaning early termination was legally neutral.
+- Once quickening was documented, performing an abortion was treated as a misdemeanor rather than a capital offense.
+
+::: {.notes}
+Emphasize that the quickening standard represents a subjective, patient-centered boundary of legal status rather than an abstract biological marker.
+:::
+
+## Early American Law & Advertised Midwifery
+
+- Early American jurisdictions inherited and fully adopted the English Common Law quickening standard.
+- Prior to the mid-19th century, early-term abortifacient medications and services were openly advertised and sold in U.S. newspapers.
+- Reproductive healthcare was largely managed within the home by patients, midwives, and herbalists without formal state interference.
+- Before 1840, no state in the union had enacted statutory bans on early-term abortion.
+
+## The 19th-Century Professionalization Shift
+
+- The newly formed American Medical Association (AMA) launched a aggressive national campaign in 1847 to criminalize abortion at all stages [@mohr1978].
+- Elite physicians utilized this campaign to establish monopoly control over medical practice, successfully squeezing out midwives and homeopaths.
+- Physicians argued that biological life was continuous from fertilization, making the common law quickening threshold scientifically arbitrary.
+- By 1880, every U.S. state had enacted statutes criminalizing abortion at all stages, shifting reproductive control from the home to state-licensed doctors.
+
+::: {.notes}
+Detail the dual motives of the AMA campaign: genuine scientific conviction about embryonic continuity alongside professional self-preservation and market control.
+:::
+
+## History Debrief: Lessons from the Past
+
+::: {.thought-question}
+**How does history complicate modern debates?**
+
+1. Knowing that early-stage abortion was widely accepted in early American history, does this change how we should view modern laws, or should we focus strictly on our current moral values?
+2. How should we balance the AMA's historical professional medical arguments against the traditional, patient-controlled care managed by midwives?
+3. When a society decides to expand legal protection to new groups (like moving from historical infanticide to protecting newborns and fetuses), what factors usually drive that change?
+:::
+
+# 2. Legal Literacy Primer {.section-divider}
+
+## Statutes vs. Common Law
+
+::: {.columns}
+::: {.column width="48%"}
+### Statutory Law
+- Written laws are enacted directly by legislative bodies such as Congress or state legislatures.
+- These codes are precise, prospective, and codify specific rules, prohibitions, and penalties.
+- An example is a state legislature passing a statutory code banning abortion after six weeks.
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+### Common Law
+- Case law is developed dynamically by judges through written decisions of courts.
+- Rulings are iterative, retrospective, and based on the historical accumulation of decisions.
+- An example is the court-developed duty-to-warn standard in modern psychiatry (*Tarasoff*).
+:::
+:::
+
+::: {.notes}
+Intro students often confuse these two. Emphasize that the U.S. healthcare system sits at the intersection of both statutory codes and judicial common law rulings.
+:::
+
+## Precedent Defined
+
+::: {.context-box}
+**Legal Precedent**
+
+A **precedent** is a principle or rule established in a previous legal case that is either binding on or persuasive for a court when deciding subsequent cases with similar facts.
+:::
+
+- Lower courts must follow the binding precedents set by higher courts within their specific jurisdiction.
+- Higher courts generally follow their own prior precedents to maintain horizontal consistency and legal integrity.
+- Precedents allow individuals, hospitals, and clinicians to predict the legal consequences of their professional clinical actions.
+
+## The Principle of *Stare Decisis*
+
+- The legal principle of [stare decisis]{.key-term} translates literally to "stand by things decided."
+- Under this rule, courts must adhere to prior precedents and not lightly overrule established rulings.
+- This conservative standard prevents the law from changing rapidly with every political shift or judicial appointment.
+- Adhering to prior rulings ensures that citizens can rely on the law as a stable and predictable framework over decades.
+
+::: {.notes}
+Explain that *stare decisis* is not an absolute rule, but a powerful judicial presumption in favor of consistency over individual correction.
+:::
+
+## The Moral Weight of Reliance Interests
+
+- Citizens develop legitimate expectations and structure their lives, educations, and careers relying on established precedents.
+- Over decades, individuals made long-term decisions about families and careers relying on the availability of reproductive autonomy.
+- Rulings that overrule long-standing precedents directly disrupt these reliance interests, particularly impacting women's participation in public life.
+- To overrule a precedent, a court must justify why correcting a perceived error is worth disrupting massive reliance interests.
+
+## Overturning Precedent: The High Bar
+
+- High courts can and do overturn prior precedents if a ruling is judged fundamentally unworkable or unjust.
+- The court examines whether the precedent is clear enough for lower courts to apply consistently, or if it generates endless confusion.
+- Judges consider whether medical science, technology, or societal understanding have evolved to make the old rule obsolete.
+- A famous historical example is the Supreme Court overturning the segregationist precedent of *Plessy v. Ferguson* in *Brown v. Board of Education*.
+
+::: {.notes}
+Use *Brown v. Board* to show that overturning precedent is sometimes morally mandatory, but requires meeting a heavy burden of justification.
+:::
+
+## Precedent in Action: *Casey*'s Defense of *Roe*
+
+- In *Planned Parenthood v. Casey*, a newly appointed conservative-leaning court was widely expected to overrule *Roe v. Wade* [@casey1992].
+- Justices O'Connor, Kennedy, and Souter refused to overrule *Roe*, basing their entire decision on *stare decisis* and reliance interests.
+- The court ruled that overruling under pressure would subvert the judiciary's legitimacy and disrupt societal reliance on reproductive liberty.
+- The compromise preserved the essential holding of *Roe* (pre-viability access) while permitting more pre-viability regulations.
+
+## Precedent Overturned: *Dobbs*' Reasoning
+
+- In *Dobbs v. Jackson*, the Supreme Court overruled both *Roe* and *Casey* entirely, ending fifty years of federal constitutional protection [@dobbs2022].
+- Justice Alito argued that *Roe* was egregiously wrong from the day it was decided, violating originalist constitutional limits.
+- The majority claimed that *Roe*'s trimester framework was unworkable and had failed to produce a stable societal settlement.
+- Alito argued that because *Roe* withdrew protection from what many citizens consider a human person, reliance interests could not protect a wrongful precedent.
+
+::: {.notes}
+Highlight Alito's point: *stare decisis* cannot be used to protect a precedent that the current court judges to involve the unjust termination of potential human life.
+:::
+
+## Legal Literacy Review
+
+::: {.thought-question}
+**Predictability vs. Correction**
+
+1. In your own life, how important is it that rules remain stable and predictable over time? Why might a court choose to stand by an old decision even if it thinks the original reasoning was flawed?
+2. How do people rely on long-standing legal rights when making major plans like choosing a career, getting married, or deciding when to start a family?
+3. If key laws can be reversed whenever new judges are appointed, does that make the court look like a neutral legal referee or a political body? How can a legal system protect its credibility?
+:::
+
+# 3. The U.S. Constitutional Arc {.section-divider}
+
+## Three Visions of Liberty
+
+- *Roe v. Wade* (1973) defined liberty as **privacy and autonomy** under the Due Process Clause, protected by a biological trimester grid [@roevwade1973].
+- *Planned Parenthood v. Casey* (1992) defined liberty as **relational reliance** and self-definition, protected by the "undue burden" standard [@casey1992].
+- *Dobbs v. Jackson* (2022) defined liberty as strictly bounded by **history and democratic federalism**, returning reproductive control to local state legislatures [@dobbs2022].
+
+::: {.notes}
+Use this slide to group these three cases conceptually. Frame them as three completely distinct philosophical definitions of what "liberty" means under the constitution.
+:::
+
+## Model 1: The Trimester Model & Biological Grid (*Roe*)
+
+::: {.columns}
+::: {.column width="48%"}
+### The Core Holding
+- The 14th Amendment's liberty guarantee includes a fundamental right to privacy that covers reproductive decisions [@roevwade1973].
+- Any state law restricting this right must meet the highest bar of constitutional review, known as strict scrutiny.
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+### The Biological Grid
+- During Trimester 1, the state cannot restrict abortion; decisions rest solely with the patient and doctor.
+- During Trimester 2, the state may regulate abortion only to protect maternal health.
+- During Trimester 3 (Viability), the state's interest in potential life becomes compelling, allowing full bans except to save maternal life.
+:::
+:::
+
+## Model 2: The Viability / Undue Burden Model (*Casey*)
+
+- *Casey* abandoned the trimester grid, establishing **viability** as the single moral and legal threshold [@casey1992].
+- Before viability, the state may regulate abortion to protect potential life, provided the regulation does not create an **undue burden**.
+- An [undue burden]{.key-term} is defined as a regulation that has the purpose or effect of placing a *substantial obstacle* in the path of a patient seeking an abortion.
+- After viability, the state's interest is compelling, and it may ban abortion entirely, provided it has exceptions for maternal life and health.
+
+::: {.notes}
+Point out that *Casey* lowered the level of constitutional protection from "strict scrutiny" to "undue burden," paving the way for targeted restrictions (TRAP laws).
+:::
+
+## The Reliance Focus in *Casey*
+
+- The *Casey* majority emphasized that a generation of women had structured their lives and careers around reproductive autonomy.
+- The court argued that reproductive control is essential for women's equal participation in the economic and social life of the nation.
+- Rejecting *Roe* under political pressure would cause deep harm by undermining the reliance interests of millions of citizens.
+- This focus highlights how reproductive laws directly impact structural justice and gender equality.
+
+## Model 3: The Democratic / History Model (*Dobbs*)
+
+- *Dobbs* declared that the U.S. Constitution does not confer a right to abortion, overruling *Roe* and *Casey* entirely [@dobbs2022].
+- Justice Alito held that any constitutional right not explicitly named in the text must be "deeply rooted in this Nation's history and tradition."
+- Because 19th-century common law and state statutes criminalized abortion, Alito concluded it lacks any constitutional basis.
+- The authority to regulate, ban, or protect abortion is returned entirely to the elected representatives of each individual state.
+
+::: {.notes}
+Highlight that *Dobbs* changes the ethical forum: abortion is no longer a question of constitutional rights managed by federal courts, but a political question settled by state-by-state elections.
+:::
+
+## Comparative Grid: U.S. Constitutional Arc
+
+| Legal Model / Case | Constitutional Basis | Core Legal Threshold | State Regulatory Power |
+|---|---|---|---|
+| **Roe v. Wade (1973)** | 14th Amendment Privacy | **Trimesters** (1st, 2nd, 3rd) | Banned in Trimester 1; regulated in 2 for health; bans allowed in 3 |
+| **Planned Parenthood v. Casey (1992)** | 14th Amendment Liberty & Reliance | **Viability** (approx. 24 weeks) | Allowed pre-viability unless it poses an **undue burden** |
+| **Dobbs v. Jackson (2022)** | Democratic Federalism / State Interest | **None** (Returned to States) | Unrestricted power to ban from conception with no federal right |
+
+## Constitutional Arc Debate
+
+::: {.thought-question}
+**Where should moral questions be settled?**
+
+1. When a society is deeply divided on a moral issue, is it better to let the voters in each state decide through local elections, or should a national court declare a single standard that protects everyone?
+2. If the law only protects rights that are "deeply rooted in history," what does that mean for modern issues that our ancestors never envisioned, like modern technology or changing family structures?
+3. How does a state-by-state legal patchwork affect fairness? Is it fair that a person's legal rights and healthcare options change completely just by crossing a state line?
+:::
+
+# 4. The Bedside-Law Collision {.section-divider}
+
+## The U.S. Post-*Dobbs* Patchwork & 2x2 Grid
+
+::: {.columns}
+::: {.column width="48%"}
+### The State Landscape
+- The U.S. instantly fractured into highly restrictive and highly protected zones following the *Dobbs* decision.
+- Pre-existing trigger laws designed to automatically ban abortion the moment *Roe* was overturned took effect immediately in several states.
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+### The 2x2 Legal Matrix
+- **Total Bans:** Abortion banned from conception with minimal exceptions (e.g., Texas, Idaho).
+- **Gestational Limits:** Restrictions at 6, 12, or 15 weeks (e.g., Florida, North Carolina).
+- **Protected Access:** Access explicitly codified in state constitutions (e.g., California, Michigan).
+- **Shield States:** Laws protecting local clinicians from out-of-state subpoenas (e.g., Massachusetts).
+:::
+:::
+
+::: {.notes}
+Explain how this patchwork creates extreme legal complexity for patients who must cross state lines to access care, and clinicians operating near borders.
+:::
+
+## The "Chilling Effect" in Clinical Practice
+
+- The [chilling effect]{.key-term} represents the inhibition or discouragement of legitimate professional clinical judgment due to fear of severe legal sanctions.
+- Post-*Dobbs* statutes in restrictive states carry severe felony penalties, including up to 99 years in prison, massive personal fines, and mandatory loss of medical license.
+- When faced with severe criminal prosecution, clinician attention inevitably shifts from patient welfare to personal legal defense.
+- Fear of prosecution forces clinicians to delay or withhold standard-of-care treatments until a patient’s condition becomes undeniably life-threatening [@harris2022].
+
+## Clinical Autonomy Under Threat
+
+- Clinicians are historically treated as autonomous moral agents responsible for patient welfare under the principle of beneficence.
+- Post-*Dobbs* laws strip clinicians of this professional autonomy, replacing standard clinical guidelines with statutory mandates.
+- Physicians in emergency departments must frequently consult hospital lawyers before performing routine medical procedures for miscarriages.
+- This creates a direct moral conflict between clinical duty (beneficence) and personal self-preservation (avoiding a felony).
+
+::: {.notes}
+Stress the deep moral distress this creates: doctors are trained to act early to prevent sepsis or hemorrhage, but laws force them to wait until these disasters occur.
+:::
+
+## The Ambiguity of Medical Exceptions
+
+- Most restrictive state laws include exceptions only for a "medical emergency" or "to save the life of the mother."
+- Clinical deterioration is a continuous, unpredictable spectrum rather than a binary switch between healthy and dead.
+- Statutes do not define how close to death a patient must be—or what percentage chance of mortality they must face—to license medical intervention.
+- Clinicians are forced to watch patients deteriorate because intervening too early could be prosecuted as a felony.
+
+## Bedside Case 1: Ectopic Pregnancy
+
+::: {.context-box}
+**Ectopic Pregnancy & Delayed Care**
+
+An **ectopic pregnancy** occurs when a fertilized egg implants outside the uterus (usually in a fallopian tube). It is biologically incapable of surviving, and as it grows, it will inevitably rupture the tube, causing life-threatening internal hemorrhage.
+:::
+
+- The clinical standard of care demands the immediate termination of the pregnancy via surgery or medication to protect the patient's life and fertility.
+- Because some state laws ban all abortions from fertilization, physicians have reportedly delayed treating ectopic pregnancies until they can document a rupture or a failing heart rate.
+- Forcing a patient to wait until a fallopian tube ruptures violates the principle of **non-maleficence**, subjecting them to avoidable trauma and risking permanent infertility.
+
+::: {.notes}
+Highlight that ectopic pregnancy has a 100% fetal mortality rate anyway, making delayed care a pure harm to the patient with zero benefit to potential life.
+:::
+
+## Bedside Case 2: Previable Preeclampsia
+
+- A patient at 20 weeks gestation develops severe preeclampsia, risking maternal stroke, kidney failure, or seizures.
+- At 20 weeks, the fetus is completely previable (cannot survive outside the womb), and the only medical cure is delivery.
+- The fetus still has a heartbeat, meaning delivery represents an abortion under restrictive state statutes.
+- Hospital legal teams in restrictive states have advised doctors to wait until the patient develops active organ failure or seizures before delivering, to prove they met the emergency exception.
+- The medical team is forced to violate beneficence, actively watching a patient under their care slide into a preventable medical catastrophe.
+
+## Clinician Moral Distress
+
+- [Moral distress]{.key-term} represents the psychological suffering experienced when a clinician knows the ethically correct action to take but is blocked from acting by legal or systemic constraints.
+- Pediatricians, OB-GYNs, and emergency physicians in restrictive states report unprecedented levels of anxiety, moral distress, and burnout.
+- Restrictive states have seen significant drops in residency applications and a flight of maternal-fetal medicine specialists, creating OB-GYN deserts.
+- When specialists leave, the justice burden falls heaviest on low-income patients who cannot afford to travel out of state for basic prenatal care.
+
+::: {.notes}
+Connect this slide back to the principle of Justice: the downstream effect of clinical moral distress is a structural reduction in healthcare access for the most vulnerable.
+:::
+
+## Bedside Policy Debrief
+
+::: {.thought-question}
+**How should hospital boards respond?**
+
+1. Imagine you are running a hospital in a state with a strict abortion ban. How do you help doctors decide when a patient is "sick enough" to qualify for a life-saving exception without risking prison time?
+2. If a doctor believes that waiting for legal clearance will cause permanent harm to a patient, what should they do? Does their duty of beneficence to the patient override their duty to follow the state law?
+3. How does the threat of severe criminal penalties change the relationship between a patient and their doctor? What happens to trust when a doctor has to worry about legal liability?
+:::
+
+# 5. Global Policy and State Coercion {.section-divider}
+
+## Placing the U.S. in Global Context
+
+- Global abortion laws range from total prohibition to unrestricted elective access, reflecting highly diverse cultural and political balances.
+- The U.S. is one of the very few developed nations to actively restrict reproductive rights in the 21st century, contrasting with a global trend toward liberalization.
+- Most European nations balance fetal and maternal interests through early gestational limits combined with complete universal healthcare integration.
+- Canada treats abortion entirely as a standard medical procedure with zero criminal statutes, relying solely on professional medical guidelines.
+
+::: {.notes}
+Use this section to broaden the debate, showing students that the U.S. culture-war framing is not the only way modern democracies organize reproductive policy.
+:::
+
+## Model A: The European Compromise
+
+- Countries like France, Germany, and Italy generally restrict elective abortion after 12 to 14 weeks.
+- These limits are paired with comprehensive state support: mandated impartial counseling, short waiting periods, and universal public funding.
+- Because abortion is fully covered by national health insurance and provided in standard clinics, it remains highly accessible, safe, and free of social stigma.
+- While Europe has earlier gestational limits than pre-*Dobbs* America, its lack of financial barriers and systemic stigma means actual access is often smoother and more equitable.
+
+## Model B: The Canadian Medical Model
+
+- In 1988, the Supreme Court of Canada (*R. v. Morgentaler*) struck down the country's abortion law as a violation of a woman's security of the person.
+- Since 1988, Canada has had no federal or provincial criminal law governing abortion whatsoever.
+- Abortion is regulated like any other surgical or medical procedure under provincial medical licensing boards and professional standard guidelines.
+- Fully funded by provincial healthcare plans, ensuring that access is distributed based on medical need rather than individual ability to pay.
+
+::: {.notes}
+Explain that Canada’s model has not led to skyrocketing late-term abortions; professional standards and clinical guidelines naturally govern the practice responsibly without criminal codes.
+:::
+
+## China's One-Child Policy & Coercive Anti-Natalism (1979–2015)
+
+- Fearing that rapid population growth would paralyze economic development, the Chinese government turned to extreme state coercion in the 1970s.
+- China's One-Child Policy restricted urban couples to a single child, representing the most radical experiment in reproductive engineering in human history [@fong2016].
+- The policy was enforced through massive financial penalties, mandatory IUD insertions, forced abortions, and state-sanctioned sterilizations.
+- The state treated female fertility as a collective national resource, overriding individual bodily self-determination to achieve state utility goals.
+
+## The Mechanisms of Coercion
+
+::: {.columns}
+::: {.column width="48%"}
+### State Surveillance
+- A vast network of state officials monitored women’s menstrual cycles, contraception use, and pregnancies.
+- Factory managers, neighborhood committees, and local informants monitored compliance, making reproductive privacy impossible [@fong2016].
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+### The Consequences
+- Women pregnant with unauthorized second children were routinely forced into clinics for terminations up to the third trimester.
+- The policy created a massive gender imbalance due to sex-selective abortion, alongside a rapidly shrinking labor force.
+:::
+:::
+
+::: {.notes}
+Highlight Fong's research: the policy left China with a rapidly shrinking workforce and millions of "surplus men" who will never find partners.
+:::
+
+## China's Sudden Demography Pivot
+
+- Facing a rapidly shrinking labor force and an aging demographic crisis, the Chinese state abruptly ended the One-Child Policy in 2015.
+- The government rapidly pivoted to a Two-Child Policy in 2016, and then a Three-Child Policy in 2021.
+- While the rules changed, the core bioethical issue remained: individual reproduction remains treated as a tool of state economic planning.
+- Utilitarian calculations that treat individual lives solely as means to national economic utility inevitably violate the Kantian duty to respect persons as ends in themselves.
+
+# 6. Coercion, Paternalism, and Population {.section-divider}
+
+## The Birth Dearth & Demographic Panic
+
+- Across the developed world, fertility rates have collapsed well below the replacement rate of 2.1.
+- Falling birth rates lead to shrinking workforces, collapsing tax bases, and underfunded social safety nets for the elderly.
+- Governments are increasingly shifting their focus from population control to active state interventions designed to increase birth rates.
+- These pro-natalist interventions range from supportive, voluntary incentives to extreme, coercive paternalism.
+
+::: {.notes}
+Use this slide to introduce the pro-natalist side of state intervention, showing that coercion can occur in both directions: forcing people *not* to have children, or forcing them *to* have them.
+:::
+
+## Non-Coercive Pro-Natalism (Support Models)
+
+- Countries like Singapore and France use non-coercive, voluntary incentives to make childbearing more attractive [@singapore2023].
+- State support includes cash baby bonuses paid directly to parents, subsidized IVF treatments, and priority access to public housing.
+- Governments also provide highly subsidized childcare and paid parental leave for both mothers and fathers.
+- These policies respect autonomy, aiming to reduce the economic and structural barriers that prevent people from having children they already desire.
+
+## Coercive Pro-Natalism: Romania's Decree 770
+
+- Fearing economic stagnation, dictator Nicolae Ceaușescu issued Decree 770 in 1966, totally banning all abortion and contraception for women under 45 with fewer than four children [@kligman1998].
+- The state treated the womb as national property, declaring that the fetus was the property of the entire society.
+- Secret police agents monitored hospitals; women underwent mandatory monthly gynecological exams at work to detect early pregnancies and prevent secret abortions.
+- The policy spurred a massive black market of unsafe illegal abortions, leading to over 10,000 maternal deaths and a massive wave of abandoned children in state orphanages.
+
+::: {.notes}
+Detail the tragic legacy of Romania's Decree 770: it remains the most extreme modern warning of what happens when a state uses coercive pro-natalism to treat citizens as breeding stock.
+:::
+
+## Case Debrief: The Scope of State Interest
+
+::: {.thought-question}
+**Does the state own the future?**
+
+1. Is there a difference between a government offering positive incentives (like tax breaks or housing priorities) to encourage childbearing and a government actively banning reproductive healthcare? Where is the ethical boundary?
+2. If a state provides massive financial help to new parents, is that a supportive public health policy, or does it create subtle pressure that overrides personal choice?
+3. How should a society balance its need for future generations with an individual's right to choose a life path that does not include children?
+:::
+
+# 7. Conceptual Integration & Conclusion {.section-divider}
+
+## The Four Principles Conflict Grid
+
+| Principle | Pro-Choice / Liberal Interpretation | Pro-Life / Conservative Interpretation |
+|---|---|---|
+| **Autonomy** | The pregnant person holds absolute self-ownership and the right to make irreversible physical decisions about their body. | The fetus has a nascent, developing capacity for autonomy that must be protected against external termination. |
+| **Beneficence** | Preserving the health, life-plans, physical safety, and socioeconomic flourishing of the pregnant person. | Preserving the primary, fundamental benefit of life itself for the developing child. |
+| **Non-Maleficence** | Avoiding the severe physical, psychological, and systemic harms of forced pregnancy and delayed clinical care. | Avoiding the ultimate, irreversible harm of ending a human life (killing). |
+| **Justice** | Ensuring that reproductive burdens do not fall disproportionately on low-income, marginalized, and minority patients. | Protecting the most vulnerable, defenseless, and voiceless human subject (the fetus) under the law. |
+
+::: {.notes}
+Keep this slide visible for a long time. It shows that the abortion debate is not a simple battle between "morality" and "immorality," but a clash of two internally coherent, competing interpretations of the four core principles.
+:::
+
+## The Coherence of Moderation
+
+- Public debates often present the choice as an absolute binary between total protection from conception vs. total access up to birth.
+- Many bioethicists defend a gradualist model, where moral status and the right to protection grow continuously as the fetus develops.
+- A gradualist position protecting elective access early, but restricting it after viability with robust health exceptions is not a weak compromise.
+- It represents a coherent, principled attempt to balance patient autonomy (which dominates early) with state interest in potential life (which becomes compelling later as biological capacity develops).
+
+## Bridge to Case Study 4: Kate Cox
+
+- In 2023, a Texas mother named Kate Cox learned at 20 weeks gestation that her fetus had Trisomy 18—a severe chromosomal anomaly that is almost always fatal at or shortly after birth.
+- Continuing the pregnancy threatened Cox’s health and future fertility, requiring a risky third C-section.
+- Because Texas's total abortion ban had extremely narrow exceptions, Cox's physician petitioned the courts for permission to perform the termination.
+- The Texas Supreme Court denied the request, ruling that her condition was not yet life-threatening enough to meet the statutory exception.
+- In Case Study 4, we will analyze this landmark case, exploring the direct collision of bedside clinical reality and restrictive state policy.
+
+::: {.notes}
+Use this bridge to prime students for the upcoming case study. It connects the abstract legal theories of *Dobbs* directly to a real, highly publicized clinical emergency.
+:::
+
+## References & Reading List
+
+- **Legal Cases:**
+  - *Roe v. Wade*, 410 U.S. 113 (1973) [@roevwade1973]
+  - *Planned Parenthood v. Casey*, 505 U.S. 833 (1992) [@casey1992]
+  - *Dobbs v. Jackson Women's Health Organization*, 597 U.S. 215 (2022) [@dobbs2022]
+- **Books & Articles:**
+  - *Abortion in America: The Origins and Evolution of National Policy* by James C. Mohr (1978) [@mohr1978]
+  - *The Politics of Duplicity: Controlling Reproduction in Ceausescu's Romania* by Gail Kligman (1998) [@kligman1998]
+  - *One Child: The Story of China's Most Radical Experiment* by Mei Fong (2016) [@fong2016]
+  - *Navigating Loss of Abortion Access — A Clinician's Perspective* by Lisa H. Harris (2022) in *NEJM* [@harris2022]

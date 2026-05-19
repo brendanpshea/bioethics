@@ -1,0 +1,169 @@
+---
+title: "Dax Cowart and the Right to Refuse Life-Saving Treatment: Autonomy, Beneficence, and Paternalism"
+subtitle: "“Please Let Me Die” — a bioethics case study"
+author: "Brendan Shea, PhD"
+date: last-modified
+---
+
+::: {.case-at-a-glance}
+- **Who:** Donald Herbert "Dax" Cowart (1947–2019), a 25-year-old former Air Force pilot from Henderson, Texas
+- **What:** Burned over roughly two-thirds of his body in a 1973 propane explosion; he repeatedly, and competently, demanded that treatment stop and was overruled for more than a year
+- **Where / When:** Parkland Memorial Hospital (Dallas), a rehabilitation hospital in Houston, and John Sealy Hospital at the University of Texas Medical Branch (Galveston), 1973–1974
+- **Why it matters:** Cowart's case became the most-discussed American example of a collision between patient [autonomy]{.key-term} (a competent person's right to refuse treatment) and clinical [beneficence]{.key-term} (the duty to act for the patient's good). Even after a full recovery and a successful career, he insisted his refusal should have been honored. The argument he started has run for fifty years and is not over.
+- **Pair with:** History & the Clinical Relationship
+:::
+
+## The Case
+
+On the afternoon of July 25, 1973, Dax Cowart and his father, Ray, drove out to look at a piece of rural land in east Texas. Dax — then christened Donald, a name he would later change — was twenty-five, a former high-school football captain, a rodeo rider, and an Air Force pilot recently back from service. He was, by every account including his own, a young man who took his strong, fast, capable body for granted.
+
+They did not know that an underground propane pipeline near where they parked had been leaking, and that the gas had pooled, invisible and odorless to them, in the low ground around the car. When Ray turned the ignition to leave, a spark from the engine ignited it. The explosion threw Dax clear of a wall of fire. He ran through pine woods until he could not run anymore, beating at flames with hands that were already destroyed.
+
+A farmer reached him first. Cowart's first recorded words, to that stranger, were a request for a weapon: *"Get me a gun. Can't you see I'm a dead man. I'm going to die anyway."* Both men were taken to a small hospital in Kilgore, then transferred together — 140 miles, in the same ambulance — to the burn unit at Parkland Memorial Hospital in Dallas. Ray Cowart died on the way. Dax survived. Burns covered about 65% of his body; the deepest, third-degree burns destroyed the skin of his face, ears, and hands. He was blinded in both eyes. Most of his fingers were later amputated. He was conscious, and he stayed conscious.
+
+What followed was fourteen months of treatment that Cowart would describe, decades later and without exaggeration, as "pure hell." The medical necessity was real.
+
+::: {.context-box}
+**Why the treatment was unavoidable.** Burn depth is graded: *first-degree* burns affect only the outer skin (an ordinary sunburn); *second-degree* burns blister and are intensely painful; *third-degree* (full-thickness) burns destroy all skin layers. The amount burned is reported as percent of [total body surface area]{.key-term} (TBSA). At ~65% TBSA, much of it third-degree, Cowart was at the edge of what was survivable in 1973, and survival required [debridement]{.key-term} — the physical removal of dead tissue, because new skin cannot grow over it and dead tissue breeds lethal infection. This was often done in a *Hubbard tank*, a steel pool of warm antiseptic water that softened the dead skin so it could be scrubbed and cut away. The procedure works. Before modern pain control, it was also one of the most agonizing routine treatments in medicine.
+:::
+
+From very early on — at Parkland, and at every stage afterward — he asked the people treating him to stop. Not in passing, and not only when the pain was worst. He asked his doctors, his nurses, and his mother, repeatedly and consistently, to discontinue treatment and let him die. He understood what he was asking for. He understood that without the tankings and skin grafts he would die of infection within weeks. He wanted that outcome over the one being forced on him. He felt, he said, that he was "being skinned alive."
+
+A psychiatrist, Dr. Robert B. White, was brought in to evaluate him at Galveston. The implied hope was that White would find Cowart too depressed or too overwhelmed to be making a real decision — which would have authorized treating him against his will with a clear conscience. White concluded the opposite. Cowart, he found, was "not in the least incompetent or mentally ill." It was during this period that White recorded the interview that became the 1974 film *Please Let Me Die* — a competent man, on camera, lucidly asking to be allowed to die, and being treated anyway [@white1974].
+
+The most revealing turn in the story is one the standard retellings often skip. After about eight months at Parkland, Cowart was moved to a rehabilitation hospital in Houston. There he again refused further treatment — and the rehabilitation physician *accepted the refusal*. For a moment, the system did what Cowart asked. Then his mother, Ada, his legal next of kin, and his attorney intervened and had him transferred to the burn unit at John Sealy Hospital in Galveston, where treatment — and the tankings — resumed under the unit's director, Dr. Duane Larson. The decisive fact of the case is not that no one would listen. Someone did. He was moved away from the person who listened.
+
+He survived, was discharged blind and severely disabled, and was, by his own description, deeply depressed for years; he attempted suicide more than once. Then his life changed. He earned a law degree from Texas Tech University in 1986, married, practiced law, and became one of the most articulate patient-rights advocates in the country. He died on April 28, 2019, at seventy-one, of complications from leukemia and liver cancer.
+
+For the rest of that life he said two things that many listeners could not hold together. He was glad to be alive. And his physicians had been wrong to keep him alive against his will. He did not think these statements contradicted each other. The good outcome, he insisted, was never the question. The question was whose decision it had been — and that question became one of the longest-running arguments in modern bioethics.
+
+## The Argument Dax Started
+
+What makes Cowart's case central to bioethics is not the horror of the burns but the *quality of the disagreement* it produced. Over fifty years, Cowart, his physicians, and a series of philosophers and lawyers built an argument, attacked it, repaired it, and attacked the repair. The pieces below trace that exchange as a connected dialogue — each move answering the one before.
+
+### The argument from autonomy
+
+Cowart's own position is the cleanest. He insisted the issue was control over his body, not the value of the result: "the right to control your own body is a right you're born with, not something that you have to ask anyone else for, not the government, not your treating physician, not your next-of-kin" [@cowart1998].
+
+::: {.argument}
+**The Autonomy Argument**
+
+1. A competent adult has a moral right to refuse any medical treatment.
+2. Dax Cowart was a competent adult who refused treatment.
+3. Therefore, treating Cowart over his objection violated his moral rights.
+:::
+
+Premise 1 is now close to settled doctrine; courts and ethicists broadly accept that bodily self-determination includes the right to decline care. So the argument's whole weight falls on **premise 2** — and that is exactly where his physicians attacked it.
+
+::: {.context-box}
+**Capacity, competence, and the surrogate.** [Decision-making capacity]{.key-term} is a clinical judgment that a patient can (1) understand the relevant information, (2) appreciate how it applies to them, (3) reason about the options, and (4) communicate a choice. It is *decision-specific* and *time-specific*. "Competence" is the parallel legal term. When a patient lacks capacity, a [surrogate]{.key-term} (often next of kin) decides for them — but a surrogate has **no authority to override a patient who still has capacity**. Two psychiatrists found Cowart had capacity; his mother's authorization was nonetheless treated as controlling. That is the legal pressure point premise 2 exposes.
+:::
+
+### The beneficence reply: pain, shock, and "they almost always change their minds"
+
+The physicians did not deny premise 1. They denied premise 2 — not that Cowart could *talk* coherently, but that a person in catastrophic pain, in shock, facing a future he could not yet imagine, is making a *settled, autonomous* choice rather than crying out from an unbearable present. Dr. Larson, on the film *Dax's Case*, put both the conviction and its limit in one breath: "No other burn patient has made it so clear … that they really do desire to die. … This is an ongoing battle that we have to individualize."
+
+::: {.argument}
+**The Beneficence / Temporary-Incapacity Reply**
+
+1. If a patient is in extreme pain and shock, their capacity to refuse treatment is undermined.
+2. Dax Cowart was in extreme pain and shock.
+3. Therefore, Dax Cowart lacked the capacity to refuse treatment.
+:::
+
+This is essentially the position the philosopher H. Tristram Engelhardt later defended in the *Dax's Case* essays as a genuine conflict "at the roots of health care" between freedom and best interest [@kliever1989]. It also has empirical backing that did not exist when commentators first took Cowart's side. A 1978 NIH consensus statement held that shock makes early decision-making nearly impossible for burn victims, and in a later study burn survivors interviewed years afterward said almost uniformly that informed consent was unrealistic at the moment of injury, that the capacity to consent *developed over time*, and that none thought withdrawing support would have been right for them [@brewster2006].
+
+::: {.context-box}
+**Informed consent vs. informed refusal — and how new it was.** [Informed consent]{.key-term} — disclosure plus free agreement before treatment — was barely a decade old in law in 1973; *Canterbury v. Spence*, which set the modern "reasonable patient" disclosure standard, had been decided only the year before [@canterbury1972]. The harder idea, [informed refusal]{.key-term} (a competent patient's right to *decline* life-saving care), was almost unrecognized. Many physicians trained in an older [paternalistic]{.key-term} model treated refusal of life-saving treatment as itself evidence of impaired judgment — which is precisely the reasoning premise 1 of the reply formalizes (see @faden1986).
+:::
+
+But the reply has a soft spot. Premise 2 is a *statistical generalization* — most patients are glad later — used to override *this* patient. Applying an average to the individual in front of you is a recognizably [utilitarian]{.key-term} move (maximize good outcomes across the class of burn patients), and it invites the objection Cowart spent his life pressing.
+
+### Cowart's counter: a good outcome doesn't make the choice yours
+
+Cowart's reply is not "you were wrong about the outcome." He concedes the outcome. His reply is that a good result does not retroactively transfer the decision to the people who made it.
+
+::: {.argument}
+**The Retrospective-Endorsement Objection**
+
+1. The right to make a decision does not depend on the outcome of that decision.
+2. Pointing to a patient's later gladness is an appeal to the outcome.
+3. Therefore, a patient's later gladness does not prove that the decision belonged to the medical team.
+:::
+
+He sharpened it with an analogy: a surgeon who operates on the wrong patient is not vindicated because the patient happens to recover. And this is where a concept from ethical theory does real work. Cowart's two claims — *I am glad to be alive* and *I was wronged* — are not a contradiction; they are a textbook case of [moral residue]{.key-term}: even when overriding a duty is, on balance, defensible, the overridden duty does not vanish, and something wrongful remains to be acknowledged. As he said: "I do not feel grateful to anyone for fighting my request to die … no, I'm not glad they forcibly treated me because the pain that I went through was pure hell" [@cowart1998]. From a [Kantian]{.key-term} angle the same point is that treating a competent person merely as a means to a future *others* judge worthwhile fails to respect him as a person who may author his own life — even badly.
+
+### Burt's relational counter: "I won't abandon you"
+
+The legal scholar Robert Burt, who debated Cowart publicly for years, accepted almost all of this and still resisted the conclusion that the team should simply have complied. His move changes the frame from a transaction (consent given or withheld) to a relationship.
+
+::: {.argument}
+**The Relational Counter**
+
+1. Desperate demands to die are often cries for sustained relationship rather than pure refusals.
+2. If a demand is a cry for relationship, then immediately complying with it is a form of abandonment.
+3. Therefore, immediately honoring a patient's refusal to live can be a form of abandonment.
+:::
+
+This is recognizably an [ethics of care]{.key-term} position: obligations grow out of relationship and dependency, not only out of rights. It is also where the dialogue gets its most famous phrase. Burt kept asking *when comes the end of the day?* — conceding that staying cannot be indefinite, because a relationship that never lets the patient's "no" be final has quietly become the old paternalism in kinder language. Cowart's answer was blunt: "an hour was an eternity, with the burns and the pain I was going through." Burt's honest reply was that he did not always know. That unresolved gap is what the next move tries to close.
+
+### The Arnold–Menzel procedure: turning principles into a process
+
+Denis Arnold and Paul Menzel took the Burt–Cowart standoff seriously as an *unanswered question* — when, exactly, does resistance to a competent refusal have to yield? — and proposed a step-by-step procedure to answer it without smuggling paternalism back in. Their guiding question reframes the whole debate away from absolute rights: not "who holds the trump card?" but **"Whose pain is it, anyway?"** — a question, they write, about who may decide that agonizing pain *now* is worth a possible good life *later* [@arnoldMenzel1998].
+
+The procedure is, in the vocabulary of principlism, an exercise in [specification]{.key-term} and [balancing]{.key-term}: it takes two abstract principles that conflict in the abstract — respect for autonomy and beneficence — and turns them into a concrete sequence a real clinical team can follow at the bedside. The decisive split is whether the patient's pain is being adequately controlled, because uncontrolled pain both clouds judgment *and* is itself a harm the patient is being forced to endure. Read the diagram as a single question that forks: *first fix the pain or honor a short waiting period; either way, the patient — not the team and not the family — ends up holding the decision.*
+
+```{dot}
+//| label: fig-end-of-day
+//| fig-cap: "The Arnold–Menzel \"end of the day\" procedure. Burt asked when a care team must finally stop resisting a competent patient's refusal; Arnold and Menzel answer with a process rather than a fixed deadline. The pivotal question (gold diamond) is whether severe pain is controlled. If it is, the team owes the patient an honest prognosis, an agreed decision date, and an advocate, and may decline the refusal only for a short period (about a week). If pain is *not* controlled, the team may hold only long enough to set and pursue an explicit pain-control deadline. On both paths the endpoint (green) is the same: the competent patient controls the decision. Adapted from Arnold & Menzel (1998)."
+digraph G {
+  rankdir=TB;
+  node [shape=box, style="rounded,filled", fillcolor="#eef3f8",
+        fontname="Helvetica", fontsize=11, margin="0.18,0.10"];
+  edge [fontname="Helvetica", fontsize=10];
+
+  start  [label="Competent patient refuses\nlife-sustaining treatment", fillcolor="#dde8f0"];
+  pain   [label="Is severe pain being\nadequately managed?", shape=diamond, fillcolor="#f3e9d8"];
+  prog   [label="Give an honest (not inflated)\nprognosis; acknowledge how hard\nit is to believe in recovery"];
+  date   [label="Patient and team set an\nagreed decision date;\nappoint a patient advocate"];
+  manage [label="Set an explicit maximum time\nto get pain under control;\ndefer more to the patient"];
+  hold   [label="Refusal may be reasonably\ndeclined for a short period\n(about a week)"];
+  honor  [label="The competent patient\ncontrols the decision;\nthe refusal is honored", fillcolor="#e3efe1"];
+
+  start -> pain;
+  pain  -> prog   [label="  yes"];
+  prog  -> date;
+  date  -> hold;
+  hold  -> honor  [label="  insistence continues\l  & advocate concurs"];
+  pain  -> manage [label="  no"];
+  manage-> honor  [label="  time elapses,\l  pain still uncontrolled"];
+}
+```
+
+### The argument that hasn't ended: the empirical turn
+
+Cowart's case itself never produced a court ruling; the legal architecture grew up around it. *In re Quinlan* (1976) recognized that life-sustaining treatment could be withdrawn through a surrogate [@quinlan1976], and *Cruzan v. Director* (1990) treated the refusal of such treatment as a protected liberty while letting states demand clear evidence of the patient's wishes [@cruzan1990]; out of that lineage came living wills, durable powers of attorney, and the federal Patient Self-Determination Act. The law moved Cowart's way. The bedside did not always follow: in a 2019 remembrance, the bioethicist Greg Pence reported a burn physician saying, of patients who ask to die, "They all want to die, and I just ignore them. I don't let them give up on themselves" [@parsi2019]. Advance directives, when they exist, are quietly overridden a large share of the time. The doctrine settled; the disagreement did not.
+
+If the story stopped with Arnold and Menzel, the lesson would still look tidy: respect autonomy, control pain, hand the patient the decision. The most important recent move complicates exactly that lesson — and it comes not from law but from data. The bioethicist Monica Gerrek argues that building burn ethics almost entirely on Cowart has spread a belief — that burn units are inherently paternalistic — that the wider evidence does not support [@gerrek2018]. She sets beside Dax the case of Andrea Rubin, severely burned in 2014 with comparable injuries. Rubin's friends, like Dax, pleaded that she would not want to live this way; her father, like Dax's mother, consented; she was sedated for weeks and could not decide. After recovery, Rubin did *not* feel betrayed. She believes she genuinely lacked capacity early on, that the team acted in her interest, and that honoring her friends' pleas would have been a fatal mistake.
+
+Rubin's case does not refute Cowart — two psychiatrists found *he* had capacity, and hers is also just one story. What it does is reopen premise 2 of the original autonomy argument as a genuinely empirical question that cannot be settled from a single famous case: capacity in catastrophic injury is harder to read, and more variable across people, than either "burn units are tyrannical" or "patients always come around" allows. Cowart himself, asked how a physician could ever be *sure* a patient truly wants to die, conceded: "I doubt that there is any way a physician can be absolutely sure." Fifty years on, that is roughly where the argument rests — not at an answer, but at a sharper question, with Cowart's autonomy claim intact and the certainty once used against it gone on both sides.
+
+## Discussion Questions
+
+1. Reconstruct **The Autonomy Argument** and **The Beneficence / Temporary-Incapacity Reply** in your own words. They share no disputed premise except one — identify it, and say what kind of evidence (clinical, philosophical, statistical) could actually settle it.
+2. Cowart said he was glad to be alive *and* that his rights had been violated. Using the idea of **moral residue**, explain why this is not a contradiction — and say what it implies for how we should judge paternalistic decisions that "turned out fine."
+3. The Beneficence Reply uses a statistical generalization ("most such patients are later glad") to override one individual. When, if ever, is it legitimate to apply a true generalization about a group to the particular person in front of you? What principle are you relying on?
+4. You are the nurse assigned to Cowart's daily tank treatment. He has just told you, again, that he wants it to stop and wants to die. Drawing on the **virtues of a good nurse** and **Burt's relational counter**, what do you owe him in that moment that the institution does not — and what, concretely, do you do?
+5. Apply the Arnold–Menzel procedure to Andrea Rubin's case. Does the procedure yield the outcome Rubin endorses? If it does not, is that a flaw in the procedure, a difference between the two patients, or evidence that the argument Dax started is still unresolved?
+
+## Further Reading
+
+- *Please Let Me Die* (1974) and *Dax's Case* (1984) — the two documentaries; the second includes interviews with Cowart, his physicians, his nurse, and his mother.
+- Lonnie D. Kliever, ed., *Dax's Case: Essays in Medical Ethics and Human Meaning* (Southern Methodist University Press, 1989) [@kliever1989].
+- Keith Burton, "A Chronicle: Dax's Case as It Happened," in Kliever, ed. (1989) [@burton1989].
+- Daniel E. Slotnik, "Dax Cowart, Who Fought for Patients' Rights, Dies at 71," *The New York Times*, May 15, 2019 [@slotnik2019].
+
+## References
+
+::: {#refs}
+:::

@@ -1,0 +1,231 @@
+---
+# ============================================================
+# CASE STUDY TEMPLATE & WRITING GUIDELINES
+# Copy this file when starting a new case study, then delete the
+# "CASE WRITING GUIDELINES" section before writing content.
+# Filename convention: NN-short-slug.qmd  (e.g., 01-dax-cowart.qmd)
+# Keep the NUMBER in the FILENAME (for ordering) but NEVER in the
+# title. Build/format settings + google-scholar metadata are
+# inherited from cases/_metadata.yml — do NOT add a format: block.
+# Files prefixed with "_" are skipped by Quarto.
+#
+# TITLE = the discoverability surface. It becomes the HTML <title>
+# and Google Scholar's citation_title (the subtitle does NOT).
+# So the title must be descriptive and keyword-rich: lead with the
+# proper-noun subject, then a colon, then the ethical concepts a
+# searcher would actually type. No "Case N", no number, no bare
+# evocative quote in the title. Put the evocative phrase in the
+# subtitle, which is display-only.
+# ============================================================
+title: "[Subject / named case]: [Key Ethical Concepts a Searcher Would Type]"
+subtitle: "[“Evocative phrase”] — a bioethics case study"
+author: "Brendan Shea, PhD"
+date: last-modified
+---
+
+# CASE WRITING GUIDELINES {.section-divider}
+
+*Delete this whole section when you copy the template. It is the agreed standard for every case study. The Dax Cowart case (01-dax-cowart.qmd) is the working exemplar — read it before drafting a new one.*
+
+## What a Case Study Is (and Is Not)
+
+A case study is the **main publishable artifact** of this course: a stand-alone, magazine-quality essay a reader could encounter outside the class and still find gripping and informative. It is **not** a lecture in prose, not a bullet outline, and not a worksheet. A standard `quarto render` produces **two outputs** from the one source file (settings live in `cases/_metadata.yml`): the website **HTML**, and a **self-contained DOCX** for printing or submission. Write so it reads well in both — long-form prose, no reliance on hover or interactivity.
+
+Because these are meant to be **citable, discoverable artifacts**, `cases/_metadata.yml` sets `google-scholar: true`, which emits Highwire `citation_*` tags from the title, author, and date. Consequence for the writer: the `title:` field *is* the discoverability surface — it becomes both the HTML `<title>` and `citation_title`, while `subtitle:` is display-only and indexed by neither. Make the title descriptive and keyword-rich (proper-noun subject + the ethical concepts a searcher would type), never "Case N" or a bare evocative quote. (Discoverability also requires the page to be crawlable — linked from a lecture or index — which is a publishing step, not a writing one.)
+
+## Audience and Level
+
+- Same audience as the lectures: mostly **nursing students**, plus PSEO high-schoolers, gen-ed, and some pre-meds. Write for a **capable, curious 12th grader** who is not a clinician.
+- Any clinical, legal, or scientific term a 12th grader wouldn't know gets explained the **first** time it appears (see *Key Terms*, below).
+- Distressing history (severe injury, abuse, coercive research): **concrete but restrained** — say plainly what was done; no gratuitous detail.
+
+## Length
+
+- Target **~3,000 words** of body text (roughly 2,700–3,300). Excludes front-matter, discussion questions, and references.
+- This is long enough for narrative texture and counter-argument, short enough to assign as one reading. If a draft runs long, cut exposition, not the story or the dissent.
+
+## Writing Style
+
+- Model the prose on ***Harper's*, *The Atlantic*, and *The New Yorker***: narrative-led, scene-setting, confident but unshowy. Specific people, places, times, and numbers — never abstraction where a detail will do.
+- **Show, then name.** Tell what concretely happened to real, named people *before* you label it ("this is a conflict between autonomy and beneficence"). The concept should feel earned by the story.
+- Full paragraphs, not bullets, in the body. Vary sentence length. No subheading-and-fragment outlining inside the narrative.
+- Take the **opposing view seriously**. A case where one side is obviously right is not worth 3,000 words. Give the strongest version of each position, in the voice of someone who holds it.
+- Restrained authorial presence: the essay can have a point of view but should not moralize or hand the reader the answer the discussion questions are meant to open.
+
+## Structure (the section spine)
+
+Use these sections, in this order. The top-level headings are fixed; the prose and the H3 subsections inside them are yours.
+
+1. **`::: {.case-at-a-glance}` block** — the orienting card (see below). First thing on the page.
+2. **`## The Case`** — the central narrative. Usually a **classic, canonical case** told as a story: scene, people, the decision, what happened. The bulk of the narrative word budget lives here. **There is no separate "Context Students Need" section** — clinical/legal/scientific scaffolding goes in `::: {.context-box}` blocks placed *inside whatever section first needs them* (often here, often in an argument subsection).
+3. **`## The Argument <Subject> Started`** — the analytic heart of the case, and where most of the intellectual work happens. This **replaces** the old "Ethical Issues / From Then to Now / Multiple Perspectives" trio. It must be a **connected dialogue**, not a list of views: a sequence of H3 subsections, each a *move* answering the one before. Roughly five moves (see "The Argument Dialogue", below). The contemporary/empirical material is the **final move of the dialogue**, not a detached section — it is what keeps the argument live.
+4. **`## Discussion Questions`** — **exactly 5** (see below).
+5. **`## Further Reading`** — accessible follow-ups (films, book chapters, obituaries), distinct from works cited.
+6. **`## References`** — the `::: {#refs}` block.
+
+## The "At a Glance" Card
+
+Open with this block so a reader knows the stakes in fifteen seconds:
+
+::: {.case-at-a-glance}
+- **Who:** Name (life dates), one identifying phrase
+- **What:** The decision/event in one or two sentences
+- **Where / When:** Institution(s), location, years
+- **Why it matters:** The bioethical significance in 2–3 sentences, naming the [key terms]{.key-term} in tension
+- **Pair with:** The lecture topic **by name, not number** (e.g., "History & the Clinical Relationship")
+:::
+
+## Key Terms: Bolded *and* Defined
+
+Every term of art (clinical, legal, philosophical) is, on **first use**:
+
+1. wrapped in `[term]{.key-term}` so it renders distinctively, **and**
+2. defined for the reader — either inline in the same sentence, or in a dedicated `::: {.context-box}` if it needs 2+ sentences.
+
+A reader must never meet a bolded term they cannot define from the page. Do not re-mark later uses. A `::: {.context-box}` carrying a definition goes **wherever the term first does work** — inside `## The Case` for clinical facts the narrative needs, inside an argument subsection for a concept a premise turns on. Place each box next to the contested point it supports, not in a glossary dump.
+
+## The Argument Dialogue (the analytic core)
+
+The single biggest requirement: the back half of the case must read as **one connected argument unfolding over time**, not three disconnected sections (the old "Ethical Issues / From Then to Now / Multiple Perspectives" failure mode). Structure `## The Argument <Subject> Started` as ~5 H3 *moves*, each answering the previous one:
+
+1. **The central argument** — usually the protagonist's own position, in standard form.
+2. **The principal reply** — the strongest objection, typically attacking the one disputed premise of move 1 (name which premise, explicitly).
+3. **The counter-reply** — how the protagonist or their defenders answer the reply; this is where an ethical-theory concept (moral residue, treating persons as ends, etc.) usually earns its place.
+4. **A reframing move** — a thinker who accepts much of the exchange but shifts the frame (relational, procedural, institutional).
+5. **The move that hasn't ended** — the **contemporary/empirical turn**: a documented present-day analogue (a named law, ruling, study, or practice) and **≥2 recent sources** (ideally within ~10 years, real `refs.bib` keys) that *reopen* rather than close the argument. This is the required contemporary bridge, delivered as the live edge of the dialogue.
+
+Every move needs **connective tissue**: open each subsection by stating what the previous move forced, and close it by stating what it now invites. A reader should be able to say, after each subsection, "so the next question is ___." Avoid false equivalence in the final move: name what is genuinely parallel *and* what has changed. End on a sharpened open question, not a verdict (balanced tension).
+
+## Arguments in Standard Form (required)
+
+Each major move's argument is reconstructed in a `::: {.argument}` block: a **bold title**, then an **ordered list** whose items are the premises and whose **last item is the conclusion** (write it as a "Therefore, …" sentence so it reads as the conclusion even where CSS is absent, e.g. in DOCX). The CSS marks the last item with `∴` and a rule.
+
+::: {.argument}
+**The <Name> Argument**
+
+1. First premise, stated so a 12th-grader can assess it.
+2. Second premise.
+3. Therefore, the conclusion.
+:::
+
+The surrounding prose must (a) explain each premise in plain language, (b) identify **which single premise is actually in dispute**, and (c) hand off to the next move by attacking exactly that premise. Reconstruct 4–5 arguments across the dialogue — enough to trace the exchange, not so many it becomes a logic worksheet. Keep boxes short (2–4 premises); the nuance lives in the prose, not in twelve sub-premises.
+
+## Citations
+
+- Pandoc/Chicago author-date, same as lectures: `@author2020` in text, `[@author2020]` parenthetical, `[@a2019; @b2021]` for multiple.
+- **Use real `refs.bib` keys only. Never invent a key.** If a needed source isn't in `refs.bib`, add a correct entry first.
+- Contemporary facts (a recent law, a figure) may be stated in prose without a citation if correct, but empirical claims in *From Then to Now* should be sourced.
+
+## Discussion Questions (exactly 5)
+
+A numbered list of **5** questions. Each must:
+
+- be answerable only by taking and defending a position (no fact-recall);
+- be tied to *this* case's specifics, not generic ("Was the doctor right?");
+- include at least **one** that puts the student in a clinical role ("You are the nurse assigned to…"), at least **one** that asks the student to reconstruct or pressure-test one of the standard-form arguments, and at least **one** that applies the case to the contemporary/empirical move of the dialogue.
+- avoid `L#` lecture codes.
+
+## Images (optional)
+
+- Images are welcome where they add evidence or atmosphere — a portrait, a primary document, a diagram of a procedure. They are not decoration.
+- Store local files in `../images/`; reference relatively. Use **only files that exist in-repo** (download or create them first — `download_images.py` is the helper) so the DOCX embeds them correctly.
+- Always include `fig-alt` text and an `::: {.attribution}` line with source and license. Public-domain or CC sources only.
+- For procedures/decision flows, prefer a Graphviz `{dot}` or Mermaid diagram over a stock photo — it renders to a static image that embeds cleanly in both HTML and DOCX.
+
+## Banned Patterns
+
+- A standalone "Context Students Need" section, or a glossary dump of context-boxes detached from the points they support.
+- The back half written as disconnected sections ("Ethical Issues", "Multiple Perspectives", a detached "From Then to Now") instead of one connected dialogue with hand-offs between moves.
+- An argument box with no surrounding prose, or prose that never says which premise is in dispute.
+- Bulleted "notes" in place of narrative prose.
+- A bolded key term with no definition on the page.
+- A one-sided case with a strawman opponent; resolving the dialogue with a verdict instead of a sharpened open question.
+- "Read for next class" / assignment framing.
+- More or fewer than 5 discussion questions.
+- Invented citation keys or unsourced empirical claims in the contemporary move.
+- `L#` cross-references; inter-lecture metacommentary.
+
+# ============================================================
+# TEMPLATE STARTS HERE (delete everything above this line)
+# ============================================================
+
+::: {.case-at-a-glance}
+- **Who:** [Name (dates) — one identifying phrase]
+- **What:** [The decision or event, 1–2 sentences]
+- **Where / When:** [Institution(s), place, years]
+- **Why it matters:** [2–3 sentences naming the [key terms]{.key-term} in tension]
+- **Pair with:** [Lecture topic by name]
+:::
+
+## The Case
+
+[The central, classic narrative — magazine prose, real names/dates/numbers, ~1,300–1,600 words. Show before you name. Introduce each [key term]{.key-term} with its definition on first use. Drop a `::: {.context-box}` in right where the narrative first needs that clinical/legal fact:]
+
+::: {.context-box}
+**[Concept the narrative needs here]**
+
+Two to four plain-language sentences. Scaffolding only — no ethics yet.
+:::
+
+[End the narrative by stating the *question* the case raises — the one the dialogue below will argue about.]
+
+## The Argument [Subject] Started
+
+[One short framing paragraph: this case matters because of the *quality of the disagreement* it produced; what follows is a connected exchange, each move answering the last.]
+
+### [The central argument — usually the protagonist's position]
+
+[Prose setting up the position in their own words/quote.]
+
+::: {.argument}
+**The [Name] Argument**
+
+1. [Premise a 12th-grader can assess.]
+2. [Premise.]
+3. Therefore, [conclusion].
+:::
+
+[State which single premise is actually in dispute, and hand off to the reply that attacks it. Put the `::: {.context-box}` for any concept *that premise* turns on right here.]
+
+### [The principal reply — attacks the disputed premise]
+
+[Prose, in the objector's voice. Then the reconstructed reply:]
+
+::: {.argument}
+**The [Name] Reply**
+
+1. [Premise.]
+2. [Premise.]
+3. Therefore, [conclusion].
+:::
+
+[Name the soft spot in the reply; hand off to the counter-reply.]
+
+### [The counter-reply — where an ethical-theory concept earns its place]
+
+[Reconstruct it; connect to moral residue / persons-as-ends / etc.]
+
+### [A reframing move — relational, procedural, or institutional]
+
+[A thinker who accepts much of the exchange but shifts the frame. If procedural, this is the natural home for a Graphviz `{dot}` decision diagram — give it an expanded plain-language intro paragraph and a caption that walks a non-specialist through it.]
+
+### [The move that hasn't ended — the contemporary/empirical turn]
+
+[A documented present-day analogue + ≥2 recent sources [@key2020; @key2022] that *reopen* the argument. Name what is parallel and what has changed. End on a sharpened open question, not a verdict.]
+
+## Discussion Questions
+
+1. [Reconstruct two of the standard-form arguments and identify their one shared point of dispute.]
+2. [Tests the retrospective/contrary intuition; ties to an ethical-theory concept the dialogue used.]
+3. [Pressure-tests a premise — e.g., applying a generalization to an individual.]
+4. [Puts the student in a clinical role: "You are the nurse assigned to…".]
+5. [Applies the case to the contemporary/empirical move of the dialogue.]
+
+## Further Reading
+
+- [Accessible follow-up: film, book chapter, long-form article, obituary. Distinct from works cited.]
+
+## References
+
+::: {#refs}
+:::

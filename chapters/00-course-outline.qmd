@@ -31,7 +31,7 @@ By the end of the course, students will be able to:
 | 1 | Principles, Theories & Moral Reasoning | Four principles; moral arguments | Theories as lenses on the principles |
 | 2 | History & the Clinical Relationship | Hippocratic → Nuremberg → Belmont | Autonomy, consent, truth-telling, confidentiality |
 | 3 | Research Ethics | RCT primer; historical abuses | Vulnerability, equipoise, commercial funding, the replication crisis |
-| 4 | Abortion | Moral status arguments | Post-*Dobbs* landscape; feminist perspectives |
+| 4 | Abortion | Moral status arguments | The Law and Reproductive Rights (US and global) |
 | 5 | Reproductive Technology | IVF, surrogacy, commodification | Savior siblings; posthumous reproduction |
 | 6 | Genetics & Enhancement | Genetics primer; testing | CRISPR; therapy vs. enhancement |
 | 7 | End of Life | Brain death, advance directives | Euthanasia, MAID, disability critiques |
@@ -158,23 +158,21 @@ The systematic ethics of clinical trials, organized around one spine — **vulne
 - *Table:* Thomson's violinist vs. Marquis's future-like-ours — what each argues, what it concedes, common objections.
 - *Discussion prompt:* "Is the violinist analogy a fair comparison? Where does it break down?"
 
-### L4b. Law, Cases, and the Four Principles
+### L4b. The Law and Reproductive Rights
 
-- **Roe v. Wade** (1973), **Planned Parenthood v. Casey** (1992), and **Dobbs v. Jackson** (2022): a brief legal arc. (Explain legal arguments, but also social-political climate and environment)
-- The post-Dobbs landscape: state-by-state variation in 2024–26, including trigger laws, gestational limits, and exceptions. Current arguments about abortion.
-- Brief survey of abortion policies in other countries (North America ex-US, EU, East Asia, Global South)
-- Applying the **four principles** (autonomy, beneficence, non-maleficence, justice) to specific cases. Goal is not to "solve" this, but to undestand why/how liberals and conservatives disagree, and why being "moderate" can be be perfectly coherent.
-  - Pregnancy from rape
-  - Severe fetal anomaly incompatible with life
-  - Maternal life endangered (e.g., ectopic pregnancy, severe preeclampsia)
-  - Early vs. late gestation
-- How exceptions function (or fail) in practice: documented cases of clinicians unwilling to act under legal ambiguity.
+- **The Deep History of Reproductive Law:** Ancient Roman and Greek exposure and infanticide practices; English Common Law's "quickening" standard (16–20 weeks); early American midwife-controlled healthcare; the late-19th-century AMA professionalization and criminalization campaign.
+- **Legal Literacy Primer:** Statutory vs. Common Law; how case precedents develop; the principle of *stare decisis* and the moral weight of reliance interests; the high bar and criteria for overturning judicial precedents.
+- **The U.S. Constitutional Arc:** *Roe v. Wade* (1973) and the trimester privacy framework; *Planned Parenthood v. Casey* (1992) and the viability/undue burden standard; *Dobbs v. Jackson* (2022) and the history/democratic federalism model.
+- **The Bedside-Law Collision:** Post-*Dobbs* state-by-state 2x2 patchwork (total bans, limits, trigger laws, shield laws); the "chilling effect" under severe criminal threats; clinical exceptions ambiguity in ectopic pregnancies and previable preeclampsia; clinician moral distress and OB-GYN deserts.
+- **Global Perspectives & Coercive Anti-Natalism:** The European compromises (early gestational limits with universal funding/counseling); Canada's decriminalized medical model; China's One-Child Policy (1979–2015) forced sterilizations/abortions and its sudden demographic Three-Child pivot.
+- **Coercive Pro-Natalism & Paternalism:** Demographic collapse and falling fertility rates; Singapore's supportive pro-natal incentives; Romania's Decree 770 (1966) total bans, gynecological monthly audits, and the resulting illegal abortion and orphanage crises.
+- **Conceptual Integration:** The Four Principles Grid comparing pro-choice and pro-life interpretations of Autonomy, Beneficence, Non-Maleficence, and Justice; the logical coherence of gradualist/moderate moral frameworks.
 
 **Visual elements:**
-- *Figure (code-generated):* US map showing state abortion laws as of the most recent data the textbook can cite (with footnote that this changes).
-- *Table:* Four principles applied across four sample cases (rape, anomaly, maternal life, elective).
-- *Case box:* A real reported case of delayed care under restrictive law (e.g., the documented Texas cases from 2023–24).
-- *Sidebar:* "What does 'exception for the life of the mother' actually mean in a hospital?"
+- *Image (premium generated asset):* "The Sovereign's Cradle" (wooden cradle wrapped in legal ribbons and a state seal) on the opening thought experiment.
+- *Table:* Side-by-side comparative grid of Roe vs. Casey vs. Dobbs (constitutional basis, legal threshold, and regulatory power).
+- *Table:* The Four Principles Grid comparing liberal and conservative interpretations of Autonomy, Beneficence, Non-Maleficence, and Justice across reproductive choices.
+- *2x2 Grid:* The post-Dobbs U.S. legal patchwork matrix.
 
 ---
 
