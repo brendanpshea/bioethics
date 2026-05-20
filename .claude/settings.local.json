@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -oE '.{0,20}I propose[^.]{20,400}\\\\.' thomson_text.txt)",
+      "Bash(grep -oE 'having a right to life does not[^.]{20,400}\\\\.' thomson_text.txt)",
+      "Bash(grep -oE 'right to use[^.]{20,400}\\\\.' thomson_text.txt)",
+      "Bash(python -c ' *)",
+      "Bash(pdftotext \"sources/abortion/Warren.pdf\" warren.txt)",
+      "Bash(pdftotext \"sources/abortion/Hursthouse Rosalind, Virtue theory and abortion.pdf\" hursthouse.txt)",
+      "Bash(grep -oE 'loss of[^.]{20,300}\\\\.|future of value[^.]{20,300}\\\\.|future like ours[^.]{20,300}\\\\.|deprive[ds][^.]{20,300}\\\\.' sep_text.txt)",
+      "Bash(grep -oE '\"[^\"]{60,400}\"' sep_text.txt)",
+      "Bash(grep -oE '.{0,30}deprives the fetus of a valuable future.{0,300}' sep_text.txt)"
+    ]
+  }
+}

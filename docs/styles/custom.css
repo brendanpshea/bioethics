@@ -116,6 +116,7 @@ tr:nth-child(even) td { background: var(--soft); }
 .case-at-a-glance,
 .context-box,
 .argument,
+.objection,
 .recap {
   background: white;
   border: 1px solid var(--rule);
@@ -132,6 +133,7 @@ tr:nth-child(even) td { background: var(--soft); }
 .case-at-a-glance > :first-child,
 .context-box > :first-child,
 .argument > :first-child,
+.objection > :first-child,
 .recap > :first-child {
   margin-top: 0;
 }
@@ -140,6 +142,7 @@ tr:nth-child(even) td { background: var(--soft); }
 .case-at-a-glance > :last-child,
 .context-box > :last-child,
 .argument > :last-child,
+.objection > :last-child,
 .recap > :last-child {
   margin-bottom: 0;
 }
@@ -150,6 +153,7 @@ tr:nth-child(even) td { background: var(--soft); }
 .case-at-a-glance::before,
 .context-box::before,
 .argument::before,
+.objection::before,
 .recap::before {
   position: absolute;
   top: -0.7em;
@@ -170,6 +174,7 @@ tr:nth-child(even) td { background: var(--soft); }
 .case-at-a-glance::before  { content: "At a Glance";       background: var(--accent); }
 .context-box::before       { content: "Background";        background: var(--muted); }
 .argument::before          { content: "Argument";          background: var(--primary-dark); }
+.objection::before         { content: "Objection";         background: var(--accent); }
 .recap::before             { content: "Recap";             background: var(--primary); }
 
 /* Subtle accent edge on each card type */
@@ -178,19 +183,43 @@ tr:nth-child(even) td { background: var(--soft); }
 .case-at-a-glance  { border-top: 3px solid var(--accent); }
 .context-box       { border-top: 3px solid var(--muted); }
 .argument          { border-top: 3px solid var(--primary-dark); }
+.objection         { border-top: 3px solid var(--accent); }
 .recap             { border-top: 3px solid var(--primary); }
 
-/* Argument reconstruction: tighten the premise list, set off the conclusion */
-.argument ol { margin: 0.4em 0 0; padding-left: 1.4em; }
-.argument ol li { margin: 0.35em 0; }
-.argument ol li:last-child {
+/* Argument & objection cards: tighten the premise list, set off the conclusion */
+.argument ol,
+.objection ol { margin: 0.4em 0 0; padding-left: 1.4em; }
+.argument ol li,
+.objection ol li { margin: 0.35em 0; }
+.argument ol li:last-child,
+.objection ol li:last-child {
   list-style: none;
   margin-left: -1.4em;
   padding-top: 0.5em;
   border-top: 1px solid var(--rule);
   font-weight: 600;
 }
-.argument ol li:last-child::before { content: "\2234\00a0"; font-weight: 700; }
+.argument ol li:last-child::before,
+.objection ol li:last-child::before { content: "\2234\00a0"; font-weight: 700; }
+
+/* Argument-card header: name of the argument + source line */
+.argument .arg-source,
+.objection .arg-source {
+  font-family: "Inter", sans-serif;
+  font-size: 0.78em;
+  color: var(--muted);
+  font-style: italic;
+  margin: -0.4em 0 0.6em;
+}
+.argument .arg-name,
+.objection .arg-name {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: var(--primary-dark);
+  font-size: 1.02em;
+  margin: 0 0 0.1em;
+}
+.objection .arg-name { color: var(--accent); }
 
 /* ===== Inline key term ===== */
 .key-term {

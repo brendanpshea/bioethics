@@ -249,6 +249,8 @@ $code-block-border-color: $rule;
 .reveal .thought-question,
 .reveal .case-at-a-glance,
 .reveal .context-box,
+.reveal .argument,
+.reveal .objection,
 .reveal .recap {
   background: white;
   border: 1px solid $rule;
@@ -266,6 +268,8 @@ $code-block-border-color: $rule;
 .reveal .thought-question::before,
 .reveal .case-at-a-glance::before,
 .reveal .context-box::before,
+.reveal .argument::before,
+.reveal .objection::before,
 .reveal .recap::before {
   position: absolute;
   top: -0.7em;
@@ -285,7 +289,54 @@ $code-block-border-color: $rule;
 .reveal .thought-question::before  { content: "Discuss";           background: $warm; }
 .reveal .case-at-a-glance::before  { content: "At a Glance";       background: $accent; }
 .reveal .context-box::before       { content: "Background";        background: $muted; }
+.reveal .argument::before          { content: "Argument";          background: $primary-dark; }
+.reveal .objection::before         { content: "Objection";         background: $accent; }
 .reveal .recap::before             { content: "Recap";             background: $primary; }
+
+// Argument-card accent edge + premise list styling
+.reveal .argument  { border-top: 3px solid $primary-dark; }
+.reveal .objection { border-top: 3px solid $accent; }
+
+.reveal .argument ol,
+.reveal .objection ol {
+  margin: 0.3em 0 0;
+  padding-left: 1.4em;
+  list-style-position: outside;
+}
+.reveal .argument ol li,
+.reveal .objection ol li { margin: 0.3em 0; }
+.reveal .argument ol li:last-child,
+.reveal .objection ol li:last-child {
+  list-style: none;
+  margin-left: -1.4em;
+  padding-top: 0.45em;
+  border-top: 1px solid $rule;
+  font-weight: 600;
+}
+.reveal .argument ol li:last-child::before,
+.reveal .objection ol li:last-child::before {
+  content: "\2234\00a0";
+  font-weight: 700;
+}
+
+.reveal .argument .arg-name,
+.reveal .objection .arg-name {
+  font-family: $font-family-sans-serif;
+  font-weight: 700;
+  font-size: 1.05em;
+  margin: 0 0 0.05em;
+  color: $primary-dark;
+}
+.reveal .objection .arg-name { color: $accent; }
+
+.reveal .argument .arg-source,
+.reveal .objection .arg-source {
+  font-family: $font-family-sans-serif;
+  font-size: 0.82em;
+  color: $muted;
+  font-style: italic;
+  margin: 0 0 0.45em;
+}
 
 // Inline key term on slides
 .reveal .key-term {
@@ -295,6 +346,71 @@ $code-block-border-color: $rule;
   background: linear-gradient(180deg, rgba($primary, 0) 60%, rgba($primary, 0.16) 60%);
   padding: 0 0.08em;
   border-radius: 0.16em;
+}
+
+// Numbered lists run slightly smaller than body — they pile up vertically
+.reveal ol {
+  font-size: 0.92em;
+  line-height: 1.35;
+}
+.reveal ol li { margin: 0.2em 0; }
+
+// Inside card components the ol is already scaled by the card; keep it tight but don't double-shrink
+.reveal .argument ol,
+.reveal .objection ol,
+.reveal .thought-question ol,
+.reveal .learning-outcomes ol {
+  font-size: 1em;
+}
+
+// Per-slide escape hatch: apply {.shrink} or {.shrink-more} to a heading to
+// scale down its slide's font-size and card padding without touching content.
+.reveal section.shrink,
+.reveal .slides section.shrink {
+  font-size: 0.92em;
+}
+.reveal section.shrink .argument,
+.reveal section.shrink .objection,
+.reveal section.shrink .thought-question,
+.reveal section.shrink .context-box,
+.reveal section.shrink .learning-outcomes,
+.reveal section.shrink .case-at-a-glance,
+.reveal section.shrink .recap,
+.reveal section.shrink table {
+  font-size: 0.72em;
+}
+.reveal section.shrink .argument,
+.reveal section.shrink .objection,
+.reveal section.shrink .thought-question,
+.reveal section.shrink .context-box,
+.reveal section.shrink .learning-outcomes,
+.reveal section.shrink .case-at-a-glance,
+.reveal section.shrink .recap {
+  padding: 1.1em 1em 0.75em;
+}
+
+.reveal section.shrink-more,
+.reveal .slides section.shrink-more {
+  font-size: 0.84em;
+}
+.reveal section.shrink-more .argument,
+.reveal section.shrink-more .objection,
+.reveal section.shrink-more .thought-question,
+.reveal section.shrink-more .context-box,
+.reveal section.shrink-more .learning-outcomes,
+.reveal section.shrink-more .case-at-a-glance,
+.reveal section.shrink-more .recap,
+.reveal section.shrink-more table {
+  font-size: 0.66em;
+}
+.reveal section.shrink-more .argument,
+.reveal section.shrink-more .objection,
+.reveal section.shrink-more .thought-question,
+.reveal section.shrink-more .context-box,
+.reveal section.shrink-more .learning-outcomes,
+.reveal section.shrink-more .case-at-a-glance,
+.reveal section.shrink-more .recap {
+  padding: 0.95em 0.9em 0.65em;
 }
 
 // Speaker notes (already styled by reveal, but tighten)

@@ -1,0 +1,148 @@
+---
+title: "Sylvain Lesné and the Aβ*56 Affair: Research Misconduct, Replication, and the Amyloid Hypothesis"
+subtitle: "\"Blots on a field\" — a bioethics case study"
+author: "Brendan Shea, PhD"
+date: last-modified
+---
+
+::: {.case-at-a-glance}
+- **Who:** Sylvain Lesné (b. 1974), University of Minnesota neuroscientist; Matthew Schrag (b. ~1984), Vanderbilt neurologist and image sleuth; Karen Ashe, Lesné's senior collaborator and a founding figure in mouse models of Alzheimer's disease.
+- **What:** A landmark 2006 *Nature* paper claimed to have isolated a specific form of amyloid-beta — "Aβ*56" — that caused memory loss in rats, anchoring the dominant theory of Alzheimer's for sixteen years. In 2022 a whistleblower published evidence that dozens of Western blot images in Lesné's papers appear to have been digitally fabricated; the *Nature* paper was retracted in 2024.
+- **Where / When:** University of Minnesota; Vanderbilt University; published in *Science* July 2022; retraction June 2024; Lesné resigned February 2025.
+- **Why it matters:** The case sits at the intersection of [research misconduct]{.key-term}, the [replication crisis]{.key-term}, and [subject protection]{.key-term}: if a foundational preclinical result is fabricated, every downstream trial enrolls human volunteers under false [clinical equipoise]{.key-term}, and the field's allocation of billions of public research dollars is built on a mirage.
+- **Pair with:** Research Ethics (Protecting Research Subjects)
+:::
+
+## The Case
+
+In August 2021, Matthew Schrag — a junior neurologist at Vanderbilt University, thirty-seven years old, soft-spoken, with a small sign on his desk reading "Everything is figureoutable" — got a phone call that pulled him into one of the strangest episodes in the recent history of biomedical science. A colleague wanted to connect him with an attorney. The attorney represented two short-sellers who were betting that the stock of a small biotech called Cassava Sciences would fall. Cassava was developing an experimental Alzheimer's drug, Simufilam, and the short-sellers believed the underlying research was fraudulent. Would Schrag, who had already publicly criticized the FDA's approval of another anti-amyloid drug, Aduhelm, be willing to examine the published images? He agreed, and over the following months the attorney paid him about $18,000 [@piller2022].
+
+What started as a paid consultation became something larger. Schrag's technique was unglamorous: he downloaded published figures, zoomed in, looked for patterns of repeated pixels, identical bands, and impossibly clean edges that suggested an image had been pieced together in Photoshop rather than captured from a working experiment. The targets were [Western blots]{.key-term} — a workhorse laboratory technique that uses electricity to drag protein samples through a gel, separating them by size into stacked bands that are then stained and photographed. Two blots from the same true experiment can never look pixel-identical; if they do, someone has copied and pasted.
+
+::: {.context-box}
+**Western blot.** A Western blot is a method for detecting a specific protein in a tissue or fluid sample. The sample is run through a gel that separates proteins by size, then transferred to a membrane and tagged with antibodies that bind only to the protein of interest. The result is a photograph of dark bands at characteristic positions — a visual fingerprint. Because the exact pattern of background noise and band shape is random, two genuine blots from two different experiments should never be identical.
+:::
+
+While investigating Cassava, Schrag noticed something far more consequential. The same patterns of apparent image manipulation appeared in a much older and more famous paper: a 2006 article in *Nature*, first-authored by Sylvain Lesné, then a postdoctoral researcher at the University of Minnesota working with the eminent Alzheimer's scientist Karen Ashe [@lesne2006]. The paper reported the isolation of a specific form of amyloid-beta protein, which the authors called Aβ*56 (pronounced "A-beta star fifty-six"), and claimed that injecting purified Aβ*56 into young rats caused them to fail memory tests they had previously passed. It was, in the language of biomedical research, a smoking gun — a direct demonstration that a particular amyloid species *causes* dementia, not merely correlates with it.
+
+::: {.context-box}
+**The amyloid hypothesis.** Since the early 1990s, the dominant theory of Alzheimer's disease has held that the accumulation of sticky protein deposits called amyloid-beta plaques in the brain is a primary cause of the cognitive decline characteristic of the disease. The hypothesis has driven the field's drug-development strategy for thirty years: hundreds of clinical trials have tested antibodies and small molecules designed to prevent, dissolve, or clear amyloid. Most have failed. The few approved drugs — aducanumab (Aduhelm), lecanemab, donanemab — produce small, contested benefits and can cause brain swelling or bleeding.
+:::
+
+The 2006 paper was cited more than 2,300 times. It launched a generation of follow-on studies. It helped Lesné secure his own NIH-funded laboratory at Minnesota in 2009. And, according to Schrag's analysis, dozens of the Western blots in it and in Lesné's subsequent papers showed signs of digital manipulation: bands repeated where they should be unique, backgrounds spliced together, edges that looked drawn rather than photographed [@piller2022].
+
+Schrag was careful. He refused to use the word "fraud" in his public critiques. He could not prove intent; he could not see the original, unedited image files. "I focus on what we can see in the published images, and describe them as red flags, not final conclusions," he told the journalist Charles Piller. "The data should speak for itself." But when *Science* sent his findings to leading independent image analysts and senior Alzheimer's researchers — among them Elisabeth Bik, a microbiologist and the world's most prominent forensic image consultant; Donna Wilcock of the University of Kentucky; and the Nobel laureate Thomas Südhof of Stanford — they concurred. Some of the images, Wilcock said, were "shockingly blatant." Bik concluded that the authors "appeared to have composed figures by piecing together parts of photos from different experiments… The obtained experimental results might not have been the desired results, and that data might have been changed to better fit a hypothesis" [@piller2022].
+
+Piller's investigation, published in *Science* in July 2022 under the title "Blots on a Field?", named Schrag publicly for the first time. *Nature* issued an expression of concern within days. In June 2024 the editors and most of the original authors agreed to retract the 2006 paper. In February 2025 the University of Minnesota announced the conclusion of its internal investigation: Lesné had engaged in research misconduct, and he resigned his faculty position.
+
+The deeper damage is harder to quantify. The U.S. National Institutes of Health spent roughly $1.6 billion on amyloid-related Alzheimer's research in fiscal year 2022 alone — about half the federal Alzheimer's budget. Südhof's verdict was blunt: "The immediate, obvious damage is wasted NIH funding and wasted thinking in the field because people are using these results as a starting point for their own experiments" [@piller2022]. And the Aβ*56 affair turned out not to be isolated. Over the following three years Piller and his collaborators documented apparent image manipulation in the work of Eliezer Masliah, the neuroscientist who in 2016 had been hired to lead the National Institute on Aging's expanded Alzheimer's program; Berislav Zlokovic, a stroke researcher at USC whose work supported a federally funded clinical trial that was subsequently suspended; and Marc Tessier-Lavigne, the president of Stanford University, who resigned in 2023 after a student journalist documented altered images in papers from his lab. Across forty-six leading Alzheimer's researchers, a team of imaging experts identified nearly six hundred dubious papers that had collectively been cited some 80,000 times [@piller2025].
+
+The question the Aβ*56 affair raises is not only whether Sylvain Lesné fabricated data — that question is now largely settled. The harder question is what it means for a field, and for the human volunteers downstream of it, when a foundational result turns out to have been an "elaborate mirage."
+
+## The Argument Aβ*56 Started
+
+The Lesné affair is interesting less for the misconduct itself than for the quality of the disagreement it produced about what counts as harm, what counts as evidence, and what a medical research enterprise owes the people who enroll in its trials. What follows is a connected exchange — each move answers the last.
+
+### Schrag's argument: fraud in preclinical research is a research-ethics violation
+
+Schrag's public framing, careful as it is, contains a sharper ethical claim than his prose makes obvious. He worried, from the start, that volunteers in Cassava's Simufilam trials "faced risks of side effects with no chance of benefit." That worry generalizes. If the preclinical foundation of a drug-development program is fabricated, the trials built on it cannot satisfy [clinical equipoise]{.key-term} — the requirement that a community of competent clinicians be in genuine, good-faith uncertainty about whether the experimental treatment is better than the alternative. Equipoise is what licenses the exposure of trial subjects to risk; without it, the trial is not research, it is human experimentation in the older, condemned sense.
+
+::: {.argument}
+**Schrag's Argument**
+
+1. A clinical trial is ethically permissible only if there is genuine community equipoise about whether the experimental intervention will benefit participants.
+2. Equipoise requires that the preclinical evidence supporting the intervention be honestly produced.
+3. Several anti-amyloid drug programs rely, directly or by citation chain, on preclinical results that appear to have been fabricated.
+4. Therefore, those trials enroll participants under a false equipoise and violate the conditions for ethically permissible research.
+:::
+
+The disputed premise here is the second one — that equipoise depends on the honesty of preclinical evidence in particular, rather than the honesty of the overall scientific community at any given moment. If the field still has, for other reasons, good grounds to believe amyloid matters, perhaps a single fabricated study does not poison the well. That is where the principal reply starts.
+
+### The principal reply: science is robust to individual fraud
+
+A defender of the amyloid hypothesis — and there are many — could grant most of Schrag's facts and still resist his conclusion. The amyloid hypothesis does not stand or fall with Aβ*56. The connection between amyloid and Alzheimer's was established long before 2006: amyloid plaques were identified in Alois Alzheimer's original 1906 case, the amyloid-precursor-protein gene was linked to familial Alzheimer's in 1991, and people with Down syndrome (who carry an extra copy of that gene) develop early Alzheimer's pathology with striking reliability. Aβ*56 was one proposed mechanism among many; its loss does not collapse the hypothesis.
+
+::: {.argument}
+**The "Robustness" Reply**
+
+1. The ethics of a clinical trial depends on the *overall* state of evidence supporting the intervention, not the integrity of any single paper.
+2. The amyloid hypothesis is supported by multiple independent lines of evidence (genetics, pathology, imaging) that do not depend on Lesné's work.
+3. Therefore, even if Lesné's specific findings are fabricated, current anti-amyloid trials need not violate equipoise.
+:::
+
+The reply's soft spot is empirical: how much of the field's confidence in amyloid actually traveled, by citation and by influence on grant decisions, through the Aβ*56 result and the broader network of suspect papers? If the answer is "most of it," the reply is weak. If "very little," it is strong. Piller's team estimates that roughly six hundred questionable Alzheimer's papers have collectively been cited around 80,000 times [@piller2025]. That is not noise. It also does not, by itself, prove that the field has been bent.
+
+### The counter-reply: structural harm and the therapeutic misconception
+
+The counter-reply does not argue that the field has been bent; it argues that the *participants* have been wronged regardless. Trial volunteers — especially in early-stage Alzheimer's, where cognitive decline is the very condition being treated — are paradigmatically vulnerable subjects. They suffer from what the bioethicist Paul Appelbaum named the [therapeutic misconception]{.key-term}: the tendency of seriously ill research participants to believe that what is being done to them is being chosen primarily for their personal benefit, the way a doctor's prescription would be.
+
+::: {.context-box}
+**Therapeutic misconception.** The therapeutic misconception is the false but psychologically natural belief that a research protocol is a form of personalized medical care. Patients enrolled in trials commonly underestimate the probability of being randomized to placebo, overestimate the likelihood of personal benefit, and fail to register that the trial's primary purpose is generalizable knowledge, not their own treatment. The misconception is strongest in conditions like Alzheimer's, where standard care offers little hope.
+:::
+
+The structural harm, in this telling, is not that the trials produced bad medical outcomes — many anti-amyloid trials are honestly run by investigators who had no idea anything was wrong with the preclinical literature. It is that the *consent* the participants gave was undermined upstream. They were told, in effect, that competent independent researchers had reason to believe the drug might help. That representation turned out, in part, to be false. The wrong is a wrong of disclosure and of respect for persons, and it is not erased by the fact that the trialists were themselves deceived. Here is where Kant's idea of treating persons as ends, never merely as means, earns its keep: a research subject used to validate a drug whose preclinical justification was fabricated has been used.
+
+### A reframing move: Stegenga and medical nihilism
+
+A different kind of critic accepts most of the exchange and then shifts the frame. The philosopher of medicine Jacob Stegenga argues, in his book *Medical Nihilism*, that we should "have low confidence in the effectiveness of medical interventions" in general — not because researchers cheat, but because of structural features of how clinical evidence is produced even in the *absence* of cheating: small effect sizes, selective publication, p-hacking, surrogate endpoints, conflicts of interest, and the relentless pressure to find positive results [@stegenga2018]. On Stegenga's view, the Lesné case is not an outlier corruption of an otherwise healthy science; it is a dramatic version of the field's normal pathology.
+
+::: {.argument}
+**The Medical Nihilism Argument**
+
+1. The honest evidence base for most medical interventions is distorted by small effect sizes, surrogate endpoints, selective publication, industry funding, and pressure to find positive results.
+2. Once those distortions are properly discounted, the residual evidence shows that most medical interventions deliver small benefits relative to their harms and costs.
+3. Therefore, we should have low confidence in the effectiveness of most medical interventions.
+:::
+
+The disputed premise is the second: skeptics of Stegenga grant that the distortions are real but deny that discounting for them leaves most interventions looking marginal. The two anti-amyloid drugs to reach the U.S. market are a test case. In June 2021 the FDA approved Biogen's aducanumab (brand name Aduhelm) over the near-unanimous objection of its own advisory committee, three of whose members resigned in protest. The approval used the [accelerated approval]{.key-term} pathway, which permits a drug to reach patients based on a [surrogate endpoint]{.key-term} — here, the demonstrated clearance of amyloid plaques from PET scans — rather than direct evidence that patients live longer or think more clearly. The two pivotal trials had been stopped early for futility; a post hoc re-analysis of a subset of patients given the highest dose produced a slim signal that the FDA accepted. Biogen priced the drug at $56,000 per patient per year, an outlay so large that the Medicare program raised Part B premiums for every beneficiary in the country to absorb the projected cost. By early 2024 Biogen had withdrawn Aduhelm from the market for commercial failure.
+
+::: {.context-box}
+**Accelerated approval and surrogate endpoints.** Accelerated approval is an FDA pathway that lets a drug treating a serious illness reach patients based on a *surrogate endpoint* — a measurable proxy (a blood test, a scan finding, a biomarker) "reasonably likely" to predict real clinical benefit. The manufacturer must complete confirmatory trials after approval. The pathway speeds access in conditions like cancer and HIV; its risk is that the surrogate sometimes fails to track what patients actually care about — surviving longer, thinking more clearly, walking without help.
+:::
+
+Lecanemab (brand name Leqembi), approved in January 2023, and donanemab (Kisunla), approved in July 2024, are the successors. Their trials were not stopped early. Their data are real. They show, in patients with early Alzheimer's, an average slowing of cognitive decline of roughly half a point on the eighteen-point Clinical Dementia Rating Sum of Boxes scale over eighteen months — a difference whose clinical meaningfulness many neurologists openly doubt. They also produce [amyloid-related imaging abnormalities]{.key-term} (ARIA) — brain swelling or microhemorrhages visible on MRI — in roughly one in five treated patients, with rare but documented deaths. Annual cost runs to about $26,000 per patient before infusion, monitoring MRI, and clinic fees, all of which Medicare now covers.
+
+If Stegenga is right, the bioethical question is not only "how do we catch the next Lesné?" but "what should we do when even our non-fraudulent medicine routinely overpromises?" The amyloid program looks, on this view, like a field that absorbed fabricated data so smoothly because the rest of its evidence base was, even at its best, weaker than its advocates claimed. Aduhelm did not require fraud; it required an honest field willing to count amyloid clearance as good enough.
+
+Stegenga's prescription is what he calls **gentle medicine** — a default presumption toward less intervention, reserving aggressive treatment for cases where the evidence base is strong enough to clear a high bar:
+
+::: {.argument}
+**The Gentle Medicine Argument**
+
+1. When confidence in an intervention's benefit is low and its harms are non-trivial, prescribing it does more to violate non-maleficence than withholding it does to violate beneficence.
+2. For most medical interventions in their current evidence base, confidence in benefit is low and harms are non-trivial.
+3. Therefore, medicine should default to less intervention, reserving aggressive treatment for cases where the evidence is unusually strong.
+:::
+
+A defender of standard practice will press on the second premise: "most" is doing a great deal of work, and the alternative to prescribing a marginal drug is sometimes prescribing nothing, which is itself a choice with costs — to patients who would have benefited, and to the family caregivers whose burden the drug was meant, however slightly, to ease. The argument does not by itself tell a memory-clinic nurse what to say to a frightened sixty-eight-year-old. It does suggest the conversation should start somewhere other than the brochure.
+
+This is not a comforting frame. It implies that improved misconduct policing — better image-forensics software, mandatory raw-data deposition, stronger journal retraction procedures — addresses a real problem but not the deepest one. The deepest problem is the gap between what biomedical research is reliably able to deliver and what patients, regulators, and journalists are induced to expect from it.
+
+### The move that hasn't ended
+
+In June 2024, the original authors of the Aβ*56 paper agreed to retract it. In September 2024, the NIH found that Eliezer Masliah — until that month the leader of the agency's Alzheimer's program — had committed research misconduct, and he was removed from his post [@piller2025]. In February 2025, the University of Minnesota concluded its inquiry and Lesné resigned. None of these institutional moves answers the live question.
+
+The live question is what biomedical research should do now that the tools of image fabrication and the tools of image forensics are both becoming dramatically more powerful. Generative AI can produce Western blots indistinguishable, to the eye, from real ones. Forensic AI can scan an entire journal's back catalog for duplications in minutes — Elisabeth Bik did her early work by hand. The arms race is real, and it is being run on top of an incentive structure (publish-or-perish, novelty-or-irrelevance, single-laboratory secrecy) that the field has not seriously revised since the 1970s.
+
+The parallel to Tuskegee is instructive but limited. Tuskegee produced direct, identifiable victims and a clear set of failures — no consent, no treatment, no public oversight. The Aβ*56 affair produces diffuse, statistical victims: Alzheimer's patients who enrolled in trials that should have been redesigned, families who paid out of pocket for drugs that should have been studied differently, an entire generation of postdoctoral researchers whose careers were built on a hypothesis that was overinvested in. There is no single wronged person to apologize to. There is, instead, a field-level question about what the public is owed when it funds science: not perfect results, but a system honest enough that its mistakes are recoverable. The question is whether we now have one.
+
+## Discussion Questions
+
+1. Reconstruct Schrag's Argument and the Robustness Reply in standard form. They share a premise about what makes a clinical trial ethically permissible; identify it, and explain which side's interpretation of that premise you find more plausible.
+2. The counter-reply argues that participants in anti-amyloid trials were wronged even if the trials were honestly run, because their consent was undermined by fabrication upstream. Does this conception of "wronging" stretch too far? Could the same logic make every researcher complicit in any fraud anywhere in the citation chain leading to their study?
+3. Stegenga's medical nihilism implies that the Lesné case is an extreme version of how clinical research normally fails. Pressure-test this: name one feature of biomedical research that you think *does* work well, and explain why it survives Stegenga's critique.
+4. You are a nurse working in a memory clinic. A patient with mild cognitive impairment asks you whether she should enroll in a new anti-amyloid antibody trial, citing news coverage of "the new Alzheimer's drugs." She has not read the *Science* exposé. What do you say, and what do you not say?
+5. The original 2006 *Nature* paper was retracted in 2024 — eighteen years after publication, and only after a whistleblower acting partly on behalf of paid short-sellers brought it to public attention. Design one institutional reform (at the journal, university, NIH, or FDA level) that you think would have caught the problem earlier, and identify the trade-off your reform would force on the system.
+
+## Further Reading
+
+- Charles Piller, *Doctored: Fraud, Arrogance, and Tragedy in the Quest to Cure Alzheimer's* (Atria, 2025) — book-length investigation.
+- Charles Piller, "Blots on a Field?", *Science*, 21 July 2022 — the original exposé.
+- Jacob Stegenga, *Medical Nihilism* (Oxford, 2018), chapters 1–3 — the philosophical reframing.
+- The PubPeer entries on Lesné's papers (pubpeer.com) — the actual flagged images, with public commentary.
+- John Ioannidis, "Why Most Published Research Findings Are False", *PLoS Medicine* (2005) — the foundational replication-crisis paper.
+
+## References
+
+::: {#refs}
+:::

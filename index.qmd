@@ -39,7 +39,8 @@ We offer comprehensive historical and clinical case studies to pair with specifi
 |---|---|---|---|
 | 1 | **Dax Cowart:** Refusing Burn Treatment and the Limits of Patient Autonomy | [L2B: Consent & Autonomy](chapters/02b-clinical-relationship.html) | [HTML](cases/01-dax-cowart.html) / [DOCX](cases/01-dax-cowart.docx) |
 | 2 | **Tuskegee & Guatemala:** Deception, Racism, and Vulnerability in Research | [L3B: Protecting Subjects](chapters/03b-protecting-research-subjects.html) | [HTML](cases/02-tuskegee-guatemala.html) / [DOCX](cases/02-tuskegee-guatemala.docx) |
-| 3 | **Henrietta Lacks:** Biospecimens, Informed Consent, and Genomic Privacy | [L3B: Protecting Subjects](chapters/03b-protecting-research-subjects.html) | [HTML](cases/03-henrietta-lacks.html) / [DOCX](cases/03-henrietta-lacks.docx) |
+| 3 | **Sylvain Lesné & the Aβ*56 Affair:** Research Misconduct, Replication, and the Amyloid Hypothesis | [L3B: Protecting Subjects](chapters/03b-protecting-research-subjects.html) | [HTML](cases/03-alzheimers-fraud.html) / [DOCX](cases/03-alzheimers-fraud.docx) |
+| 4 | **Kate Cox & Damla Karsan:** Conscientious Refusal, Conscientious Provision, and Professional Integrity Post-*Dobbs* | [L4B: Abortion Law](chapters/04b-abortion-law.html) | [HTML](cases/04-kate-cox-karsan.html) / [DOCX](cases/04-kate-cox-karsan.docx) |
 
 
 ---
