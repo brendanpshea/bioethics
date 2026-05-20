@@ -32,8 +32,8 @@ By the end of the course, students will be able to:
 | 2 | History & the Clinical Relationship | Hippocratic → Nuremberg → Belmont | Autonomy, consent, truth-telling, confidentiality |
 | 3 | Research Ethics | RCT primer; historical abuses | Vulnerability, equipoise, commercial funding, the replication crisis |
 | 4 | Abortion | Moral status arguments | The Law and Reproductive Rights (US and global) |
-| 5 | Reproductive Technology | IVF, surrogacy, commodification | Savior siblings; posthumous reproduction |
-| 6 | Genetics & Enhancement | Genetics primer; testing | CRISPR; therapy vs. enhancement |
+| 5 | Reproductive Ethics | Pregnancy, autonomy & maternal-fetal conflict | Making family: markets, surrogacy, parental rights |
+| 6 | Genomics & Enhancement | Reading genomes: prediction, privacy, dual use | Engineering persons: CRISPR, enhancement, identity |
 | 7 | End of Life | Brain death, advance directives | Euthanasia, MAID, disability critiques |
 | 8 | Justice & Health Care Allocation | Theories of justice; right to care | Disparities, implicit bias, rationing |
 | 9 | Public Health Ethics | Vaccination, liberty vs. welfare | Pandemic triage; COVID lessons |
@@ -176,75 +176,96 @@ The systematic ethics of clinical trials, organized around one spine — **vulne
 
 ---
 
-## L5. Reproductive Technology
+## L5. Reproductive Ethics
 
-### L5a. The Technology and What It Lets Us Do
+### L5a. Pregnancy, Autonomy, and Maternal-Fetal Conflict
 
-- **IVF** (in vitro fertilization): step-by-step in accessible language.
-- **ICSI** (intracytoplasmic sperm injection) — when and why it's used.
-- **PGD/PGT** (preimplantation genetic diagnosis/testing): testing embryos before implantation.
-- **Gestational surrogacy**: who's involved, who's the legal parent, where it's legal.
-- The newer frontier: **synthetic gametes** (in vitro gametogenesis), **posthumous reproduction** (sperm/egg retrieval after death).
+The lecture is built around a single question — *what does respect for autonomy require during pregnancy?* — and uses substance use, refusal of obstetric care, and research participation as the three terrains where the standard liberal model of autonomy visibly strains.
 
-**Visual elements:**
-- *Figure (code-generated):* step-by-step IVF diagram (egg retrieval → fertilization → embryo culture → transfer).
-- *Figure (code-generated):* PGD/PGT decision tree (test for what? select for what?).
-- *Table:* IVF success rates by age band (using CDC ART data, cited).
-- *Sidebar:* "What happens to leftover embryos?" — a practical look at the ~1 million frozen embryos in US storage.
-
-### L5b. Ethical Debates: Selection, Commerce, and Family
-
-- **Embryo selection** and where lines get drawn:
-  - Selecting against serious genetic disease (e.g., Huntington's, Tay-Sachs)
-  - Sex selection for "family balancing"
-  - "Savior siblings" selected as tissue donors for an existing child
-  - Selecting against disability (links to L11)
-- **Commercial surrogacy and egg donation**: Anderson's commodification critique vs. Robertson's procreative liberty.
-- Cross-border reproductive care ("fertility tourism") and exploitation concerns.
-- Applying the **four principles** to embryo selection cases.
+- **Liberal vs. relational autonomy:** the standard L2b model (a bounded self with stable preferences) and Susan Sherwin's relational critique (autonomy as exercised through, not against, social relationships).
+- **Justified paternalism — a primer.** Mill's harm principle and its limits; soft vs. hard paternalism; the U.S. experience with alcohol prohibition (1920–33) and the modern war on drugs; harm reduction as a third frame. Background for the pregnancy-specific debates that follow.
+- **Criminalization of substance use in pregnancy:** *Ferguson v. City of Charleston* (2001, MUSC's covert drug-testing program struck down); Wisconsin's Act 292 ("cocaine mom" law, 1997–present); Alabama's chemical-endangerment statute; Tennessee's expired fetal-assault law and its public-health rebound; *Brittney Poolaw* (Oklahoma, 2021, manslaughter conviction for a miscarriage after methamphetamine use). Pregnancy Justice's documentation of roughly 1,400 pregnancy-related criminalization cases between 1973 and 2020.
+- **Refusal of medically recommended care during pregnancy:** *In re A.C.* (DC, 1990, court-ordered cesarean later repudiated on appeal); ACOG Committee Opinion 664 and the modern professional consensus against forced obstetric intervention.
+- **Brain death and pregnancy:** *Marlise Muñoz* (Texas, 2013–14) — fetal-protection statutes vs. advance directives; preview of the case study that pairs with this lecture, and a quick bridge to L7.
+- **Vulnerability the other way: research exclusion.** Pregnant women were historically excluded from clinical trials as "vulnerable," with the result that we have almost no safety data on most prescription drugs in pregnancy. The 2018 PRGLAC report reframed exclusion *itself* as the harm — a callback to L3's FDORA logic and the "wrongful exclusion" face of the justice principle.
 
 **Visual elements:**
-- *Table:* Embryo selection scenarios — what's being selected, who benefits, what's contested.
-- *Figure (code-generated):* spectrum diagram, "more medical ↔ more elective" for selection traits.
-- *Case box:* The Nash family savior-sibling case (Adam Nash, 2000) — facts and discussion.
+
+- *Figure (code-generated):* 2×2 grid placing liberal autonomy and relational autonomy along axes of "self as bounded ↔ embedded" and "interests as fixed ↔ socially responsive."
+- *Figure (code-generated):* a Mill-style decision tree for paternalistic intervention — competent? voluntary? harming only self? — applied to one drug-policy case and one pregnancy case.
+- *Table:* pregnancy-criminalization frameworks across selected states — Wisconsin, Alabama, Tennessee, Oklahoma — what triggers prosecution, what defenses are available, current status.
+- *Sidebar:* "Why does ACOG oppose criminalizing substance use in pregnancy?" — summary of the public-health case.
+- *Case box:* *In re A.C.* (1990) — the forced-cesarean ruling and the appellate court's later repudiation.
+- *Sidebar:* "Why were pregnant women excluded from clinical research, and why is that changing?" — PRGLAC and the FDA's recent guidance on including pregnant participants.
+- *Discussion prompt:* "If alcohol use during pregnancy can harm a future person, why don't we prosecute it the way we prosecute meth use? What does your answer commit you to about *every* legal substance?"
+
+### L5b. Making Family: Markets, Surrogacy, and Parental Rights
+
+The technology is explained in service of the ethics: enough IVF/PGT/surrogacy to argue about, not a stand-alone tour.
+
+- **A short technological primer:** IVF, ICSI, PGT, and the distinction between **gestational** and **traditional** surrogacy.
+- **The commodification debate:** Elizabeth Anderson's critique that markets in gametes and gestation wrong both the providers and the resulting children; John Robertson's *procreative liberty* defense; Michael Sandel's broader *What Money Can't Buy* frame.
+- **Commercial vs. altruistic surrogacy regimes:** California's accommodating contract law; New York's 2021 Child-Parent Security Act; India's 2015 commercial-surrogacy ban; Thailand's 2015 ban; Mexico's reopening; the UK's altruistic-only model.
+- **Parental rights:** *In re Baby M* (NJ, 1988, traditional surrogacy and the limits of contract) and *Johnson v. Calvert* (CA, 1993, gestational surrogacy and the intent test).
+- **Gamete markets:** sperm and egg donation, anonymous vs. open-identity regimes, the "$50,000 Ivy League egg" price tier, recent moves toward donor-anonymity bans.
+- **Frozen embryos and the *LePage* aftershock:** *LePage v. Mobile Infirmary Clinic* (Alabama, Feb 2024) ruling that frozen embryos are "extrauterine children" under the wrongful-death statute; the IVF clinic shutdowns that followed; the Alabama legislative fix; what it suggests about institutional fragility post-*Dobbs*. (Embryo moral status proper stays in L4 — the focus here is what the legal recognition of embryos does to reproductive practice.)
+- Brief mentions: posthumous reproduction; savior siblings (Nash family).
+
+**Visual elements:**
+
+- *Figure (code-generated):* IVF + surrogacy flow with the points at which a parental-rights question can arise marked.
+- *Table:* commercial vs. altruistic surrogacy regimes across selected jurisdictions — what's permitted, what compensation is allowed, who is the legal parent.
+- *Table:* Anderson vs. Robertson vs. Sandel on the commodification debate — what each accepts, what each rejects.
+- *Case box:* *Baby M* (1988) — traditional surrogacy, contract, and the parental-rights split.
+- *Case box:* *LePage v. Mobile Infirmary* (2024) — facts, IVF clinic responses, legislative fix.
 - *Discussion prompt:* "Is paying $50,000 for an egg from an Ivy League donor different from paying $5,000 for an egg from a typical donor? Why or why not?"
 
 ---
 
-## L6. Genetics & Enhancement
+## L6. Genomics & Enhancement
 
-### L6a. Genetics Basics and What CRISPR Changes
+### L6a. Reading Genomes: Prediction, Privacy, and Dual Use
 
-- Vocabulary every student needs: **gene, genome, allele, chromosome, DNA, mutation**.
-- **Germline vs. somatic cells** — and why this distinction matters morally.
-- Patterns of inheritance: dominant, recessive, X-linked (using one familiar example each, e.g., Huntington's, cystic fibrosis, hemophilia).
-- **CRISPR-Cas9** in accessible terms: a programmable "find and replace" for DNA.
-- **Gene therapy** vs. **genetic enhancement** — and whether that line really holds up.
+- **A minimal vocabulary primer:** gene, allele, genome, mutation, germline vs. somatic — enough to read a genetic-test report, no inheritance-pattern tour.
+- **Prenatal screening:** **NIPT** (non-invasive prenatal testing) and the >90% Down syndrome termination rate; brief Adrienne Asch reference (full disability-rights treatment held for L11).
+- **Carrier and predictive testing:** the Ashkenazi screening model as a community-led success; BRCA testing in adults; the harder question of testing healthy children for adult-onset conditions (Huntington's, BRCA) — Feinberg's "open future" applied to information.
+- **Direct-to-consumer testing:** 23andMe and ancestry services; the 2023 23andMe data breach and what it exposed about genetic-data security; the implications of one relative's test for everyone who shares their genome.
+- **Forensic genealogy:** GEDmatch and the Golden State Killer (2018) — how a recreational-genealogy database became a criminal-investigation tool; the consent question for the millions of people whose distant relatives uploaded data.
+- **The legal floor:** GINA (2008) — what it covers (health insurance, employment) and what it does not (life, disability, long-term-care insurance, the military).
+- **Dual-use genomics and biosecurity:** mail-order DNA synthesis and the 2023 White House framework for nucleic-acid synthesis screening; gain-of-function research as the closest analogue (callback to L3 misconduct + the dual-use literature). This is where students meet biosecurity as a distinct research-ethics frame.
 
 **Visual elements:**
-- *Figure (code-generated):* gene-to-genome zoom diagram (nucleotide → gene → chromosome → genome).
-- *Figure (code-generated):* CRISPR-Cas9 mechanism illustration — guide RNA, Cas9, target sequence, cut.
-- *Image (public domain):* DNA double helix diagram (NIH / NHGRI public domain images).
-- *Table:* Examples of somatic gene therapies approved as of recent FDA data (e.g., Casgevy for sickle cell, Luxturna for retinal dystrophy).
-- *Sidebar:* "Therapy or enhancement?" — short examples that resist easy classification (e.g., editing for higher-than-average disease resistance).
 
-### L6b. Editing Humans: The He Jiankui Case and the Enhancement Debate
+- *Figure (code-generated):* an annotated mock 23andMe-style report — what it actually shows, what it claims, and what it doesn't.
+- *Table:* What GINA covers vs. what it doesn't — broken out by insurance line, employment, and federal vs. state law.
+- *Case box:* The Golden State Killer and GEDmatch — facts, the investigative method, and the consent question for non-uploaders.
+- *Sidebar:* "Why does mail-order DNA synthesis worry biosecurity experts?" — synthetic biology dual-use primer.
+- *Table:* prenatal screening tests — what each detects, accuracy, what a positive result actually means.
+- *Discussion prompt:* "Should parents be able to test a healthy 8-year-old for an adult-onset BRCA mutation? Does your answer change if the condition is Huntington's instead?"
 
-- The **He Jiankui case** (2018): what he did to the CCR5 gene in twin embryos, why the scientific community condemned it, what happened to him.
-- The international response and current consensus on germline editing.
-- The **non-identity problem** (Parfit): can you harm someone by choosing the conditions of their existence?
-- The "**child's right to an open future**" (Feinberg).
-- The enhancement debate:
-  - **Savulescu**: "procreative beneficence" — parents have reason to select the best possible child.
+### L6b. Engineering Persons: CRISPR, Enhancement, and Identity
+
+- **Somatic vs. germline editing** — the distinction that does most of the moral work.
+- **CRISPR-Cas9** in plain language: a programmable "find-and-replace" for DNA.
+- **Approved somatic therapies:** Casgevy (sickle-cell disease, FDA 2023), Luxturna (retinal dystrophy). The somatic case is largely settled; the germline case is not.
+- **The He Jiankui case (2018):** the CCR5 edit in twin embryos, the international condemnation, the 2019 prison sentence, the 2022 release; what consensus has and has not formed since.
+- **The non-identity problem** (Parfit) in concrete form: can you wrong someone by choosing the conditions of their existence?
+- **The enhancement debate:**
+  - **Savulescu**: procreative beneficence — parents have reason to select the best possible child.
   - **Sandel**: enhancement reflects a "drive to mastery" that corrodes appreciation of life as gift.
-  - **Glannon**: distinguishing acceptable from unacceptable enhancements.
+  - **Sparrow**: parental projects — selecting traits expresses a problematic view of the child as means.
+  - **Glannon**: a middle position distinguishing acceptable from unacceptable enhancements.
+- **Feinberg's "right to an open future"** applied to enhancement — the original home of the argument, in contrast with its L6a use for information.
+- **Live edge: polygenic embryo selection.** US fertility-clinic startups (Orchid Health, Heliospect) now offer trait selection on the basis of polygenic risk scores, including for predicted IQ — sitting at the intersection of embryo selection and enhancement, currently legal in the US and unregulated.
 
 **Visual elements:**
-- *Image (public domain or fair-use news photo, cited):* He Jiankui at a 2018 conference (note: confirm public domain status — fallback to a code-generated diagram of the CCR5 edit).
-- *Figure (code-generated):* timeline of the He Jiankui case from 2017 announcement to 2019 prison sentence.
-- *Table:* Savulescu vs. Sandel vs. Glannon on enhancement — what each accepts, rejects, and why.
-- *Discussion prompt:* "If parents could safely give their child a 10-point IQ boost, should they?"
-- *Case box:* The non-identity problem in a concrete form — "the 14-year-old girl" thought experiment.
+
+- *Figure (code-generated):* CRISPR-Cas9 mechanism — guide RNA, Cas9, target sequence, cut — at the lowest fidelity that still works.
+- *Figure (code-generated):* timeline of the He Jiankui case (2017 announcement → 2018 disclosure → 2019 sentencing → 2022 release).
+- *Table:* Savulescu vs. Sandel vs. Sparrow vs. Glannon on enhancement — what each accepts, rejects, and why.
+- *Case box:* The non-identity problem in concrete form — Parfit's "14-year-old girl" thought experiment.
+- *Case box:* Polygenic embryo selection for IQ — Orchid Health and Heliospect as the operating business model, currently legal in the US.
+- *Discussion prompt:* "If parents could safely give their child a 10-point IQ boost, should they? Does your answer change if the technique is only available to families who can pay $50,000?"
 
 ---
 
@@ -490,8 +511,8 @@ The systematic ethics of clinical trials, organized around one spine — **vulne
 | 2 | Tuskegee Syphilis Study | L3 Research ethics |
 | 3 | Henrietta Lacks & HeLa cells | L3 Research ethics (bridges to L8) |
 | 4 | Kate Cox — post-*Dobbs* medical exception | L4 Abortion |
-| 5 | Baby M — surrogacy | L5 Reproductive tech |
-| 6 | He Jiankui CRISPR twins (2018) | L6 Genetics |
+| 5 | Marlise Muñoz — brain death, pregnancy, and the limits of fetal-protection law | L5 Reproductive ethics |
+| 6 | He Jiankui CRISPR twins (2018) | L6 Genomics & enhancement |
 | 7 | Terri Schiavo | L7 End of life |
 | 8 | Organ allocation: Sarah Murnaghan & UNOS | L8 Justice |
 | 9 | COVID-19 ventilator triage (NY / Italy) | L9 Public health |
