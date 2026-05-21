@@ -1,0 +1,155 @@
+---
+title: "Adriana Smith: Brain Death, Pregnancy, and the Limits of Fetal-Protection Law"
+subtitle: "\"Trust Black Women\" — a bioethics case study"
+author: "Brendan Shea, PhD"
+date: last-modified
+---
+
+::: {.case-at-a-glance}
+- **Who:** Adriana Smith (1994–2025), a thirty-year-old registered nurse who lived in Atlanta and worked at Emory University Hospital.
+- **What:** In February 2025, Smith presented to a hospital with severe headaches, was discharged, and the next morning was found by her boyfriend gasping for air. Multiple blood clots in her brain. Declared brain-dead at nine weeks pregnant. Emory University Hospital Midtown kept her on mechanical support for approximately four months — over her family's stated objection — citing Georgia's 2019 abortion statute. On June 13, 2025, her son Chance was delivered by emergency cesarean at roughly twenty-two weeks of gestation, weighing one pound thirteen ounces. Smith was removed from support four days later.
+- **Where / When:** Emory University Hospital Midtown, Atlanta, Georgia, February–June 2025.
+- **Why it matters:** The case tests [conscription of the dead]{.key-term}, the role of [fetal-personhood law]{.key-term} in driving hospital risk-aversion under post-*Dobbs* statutory ambiguity, and Arthur Caplan's claim that prolonged somatic gestation in a brain-dead patient is medical [experimentation]{.key-term} rather than treatment — and so subject to research-ethics standards that no one in the case attempted to meet.
+- **Pair with:** Reproductive Ethics (Pregnancy, Autonomy, and Maternal-Fetal Conflict)
+:::
+
+## The Case
+
+Adriana Smith was thirty years old, a registered nurse, and nine weeks pregnant when she walked into Northside Hospital in Atlanta in February 2025 complaining of severe headaches. She was given medication and sent home. Sometime overnight, her boyfriend woke to the sound of her gasping for air. He called 911. She was taken to Emory University Hospital, where she worked, and where a CT scan revealed multiple blood clots in her brain. She deteriorated rapidly. Within hours she met clinical criteria for [whole-brain death]{.key-term}.
+
+::: {.context-box}
+**Whole-brain death.** A patient is whole-brain dead when there is irreversible loss of all functions of the entire brain, including the brainstem. Under the Uniform Determination of Death Act, adopted by Georgia and forty-eight other US states, whole-brain death is *legal death* — equivalent in all clinical, legal, and ethical respects to the cessation of cardiac and respiratory function. A brain-dead patient is not "in a coma," is not "unconscious," and is not "on life support" in the sense that the term ordinarily implies. The patient has died. Mechanical ventilation, vasopressors, and tube feedings can sustain organ perfusion in the body of a person who is no longer alive.
+:::
+
+Smith was transferred to Emory University Hospital Midtown — a separate facility within the same system — and connected to mechanical ventilation. Her mother, April Newkirk, would later tell the local press that the hospital informed the family that Georgia law required continued somatic support because the fetus had detectable cardiac activity. The family was not given a choice. The plan, Newkirk said the hospital told her, was to maintain Smith on the ventilator until approximately thirty-two weeks of gestation, the point at which her son's odds of survival outside the uterus would be reasonable.
+
+The law the hospital was reading was the Living Infants Fairness and Equality Act, known as the LIFE Act, signed by Governor Brian Kemp in 2019.
+
+::: {.context-box}
+**The LIFE Act (O.C.G.A. § 16-12-141).** Georgia's 2019 statute prohibits most abortions after detection of "a human heartbeat" — typically around six weeks gestation. The statute defines an "unborn child" as a "member of the species Homo sapiens at any stage of development who is carried in the womb." Crucially for what follows, the LIFE Act amends Georgia's definitions of personhood and dependency in ways that extend far beyond the abortion question — a fetus with cardiac activity may be claimed as a dependent on Georgia state income tax, for instance, and may be the subject of a wrongful-death action. The legal scholar Mary Ziegler has argued that the LIFE Act is structurally a fetal-personhood statute, with the abortion prohibition as one of its several legal consequences. [@georgia_life_act_2019]
+:::
+
+For three months, Smith remained on the ventilator while the fetus continued to develop. Reports later indicated that imaging during this period had detected fetal abnormalities. The family was not, by their account, presented with options for discontinuation. In mid-May, with Smith approximately twenty-two weeks into the pregnancy, April Newkirk went to the local Atlanta press.
+
+The story was national within forty-eight hours. International within a week. It collected the predictable coalition — abortion-rights advocates, reproductive-justice organizations, civil-liberties lawyers — and the less predictable one. Cole Muzio, of the Christian Frontline Policy Council, publicly stated that Georgia's abortion law did not, in fact, require what Emory was doing. State Senator Nabilah Islam Parkes, a Democrat, wrote to Republican Attorney General Christopher Carr asking for the state's official reading of the statute.
+
+The Attorney General's office responded in writing.
+
+::: {.context-box}
+**Carr's letter, May 2025.** "There is nothing in the LIFE Act that requires medical professionals to keep a woman on life support after brain death. Removing life support is not an action 'with the purpose to terminate a pregnancy.'" The letter was widely reported and not contested by Georgia legislative leadership. House Republican leadership separately released a statement saying that the law "is completely irrelevant" to Smith's case and that "any implication otherwise is just another gross mischaracterization of the intent of this legislation." [@carr_life_act_letter2025]
+:::
+
+Emory did not change course. The hospital declined to comment on the legal opinion publicly. State Senator Ed Setzler, the original sponsor of the LIFE Act, publicly endorsed Emory's reading. Bioethicists — among them Thaddeus Pope at Mitchell Hamline, Lois Shepherd at the University of Virginia, and Mary Ziegler at UC Davis — went on record in agreement with Carr's office: Georgia's statute did not require what was being done.
+
+On June 13, 2025, Smith was taken to surgery for an emergency cesarean. Her son, named Chance, was delivered weighing one pound thirteen ounces, classified by the World Health Organization as "extremely preterm." On June 15, Smith's family observed what would have been her thirty-first birthday at a private church service. On June 17, four days after Chance was born, Emory removed Smith from mechanical support. A funeral was held later that month.
+
+What had occurred at Emory between February and June was, by the time it ended, the longest documented somatic gestation in a brain-dead patient in the medical literature. There is essentially one prior case approaching its length — Germany, decades earlier, outcome unreported. There were no protocols. There was no advance directive guidance from the patient, no published institutional policy at Emory, no IRB review of the regimen. There was a hospital lawyer reading an ambiguous statute and a family that was not given an option. The question Smith's case raises is not whether anyone behaved illegally. The Attorney General said the hospital was not legally compelled. The question is what category of medical action the hospital was performing for four months, and what ethical regime applies to it.
+
+## Between the Statute and the Bedside
+
+To understand how the AG's letter failed to change Emory's behavior, three things have to be visible at once: the legal machinery that runs hospital decision-making in the post-*Dobbs* environment, the people whose voices were not in the room when the decisions were made, and the actual nursing labor that the four-month interval consisted of.
+
+The legal machinery first. An attorney general's opinion letter binds no county prosecutor and creates no insurance defense; a hospital's malpractice and directors-and-officers carriers do not underwrite the claim that "the Attorney General said it was fine." Individual physicians in Georgia face up to ten years' incarceration under the LIFE Act if a county prosecutor decides, after the fact, that they aided a prohibited act. The wrongful-death exposure of the institution under the same statute's personhood reading is uncapped. The Alabama Supreme Court's 2024 *LePage* decision — frozen embryos as "extrauterine children" under the wrongful-death statute — is the same legal machinery running in the same direction: fetal-personhood logic plus aggressive civil and criminal exposure produces hospital legal counsel that interprets every ambiguity against the patient. The contrast with Damla Karsan's decision, in *Cox v. Texas*, to put her own name on the lawsuit knowing what the criminal exposure was, is exact and instructive. Karsan was a single physician acting on her own conscience. The Emory decision was made by an institution's lawyers acting on its risk model. Same statute structure, different actor, opposite outcome.
+
+The voices that were not in the room are what relational autonomy was built to notice. Susan Sherwin's question — *who is in the room with her, who is not, and what conditions shape the choice that is being offered* — was developed for cases like this one. April Newkirk and the rest of Smith's family were offered a single option, presented as legally compelled, by people whose institutional incentives ran in only one direction. They were not told that the Attorney General would, weeks later, publicly contradict the hospital's reading. They were not told that prior precedent — *In re A.C.* (1990) and the Florida appellate court's repudiation of the order in *Burton* — established that the modern professional consensus is to honor refusal "in virtually all cases." That precedent presumed a living patient with capacity. Smith breaks the presumption. What the family inherits, under the doctrine, is the authority *A.C.* and *Burton* protected — and they exercised it. The hospital's counsel overrode it. Whatever else one says about that override, it is not the conversation about autonomy that the post-*A.C.* doctrine had spent thirty-five years constructing.
+
+Finally, the bedside. The four-month interval consisted of intensive nursing care — ventilator management, tube feedings, pressure-injury prevention on a body that does not move, antibiotic management of the urinary-tract and respiratory infections that come with prolonged immobility, hormonal and electrolyte support of a pregnancy in a body whose endocrine signaling no longer originated from a living brain. Many of the nurses providing this care were Smith's own former Emory colleagues. None of the interventions, in the dose and duration applied to her, has an evidence base. The same pattern that surrounds ordinary prescription medication in pregnancy — that roughly ninety-five percent of drugs in common use lack adequate pregnancy-specific safety data, because pregnant women were systematically excluded from the trials — extends here in a sharpened form: somatic gestation in a brain-dead patient has no evidence base because the practice was never studied, because no IRB ever approved a study, because no protocol was ever written. Four months of intensive care, in service of a fetus whose imaging raised concerns, using a regimen no one had tested. That is *exclusion-as-harm* in its most concentrated form. It is also the bridge to Caplan's argument, which the next section reconstructs.
+
+## The Argument Adriana Smith Started
+
+Smith's case is unusual in modern bioethics for producing four sharply distinct philosophical moves rather than the usual two. Most cases at this level admit a dominant frame and a principal objection. Smith admits at least four — a hospital risk-management argument, a statutory-interpretation reply, a *conscription* objection from the philosophy of postmortem pregnancy, and Caplan's reframing of the whole thing as unconsented human research. The fifth move, the contemporary one, is empirical and concerns who absorbs the ambiguity when these four positions disagree.
+
+### The Hospital's Argument
+
+Emory has not published its reasoning. What follows is the most charitable reconstruction of the position the hospital evidently took, defended by State Senator Setzler and others.
+
+::: {.argument}
+**The Hospital's Argument**
+
+1. The Georgia LIFE Act treats a fetus with detectable cardiac activity as a legal person, with rights protected by the state.
+2. Withdrawing mechanical support from a brain-dead pregnant patient with detectable fetal cardiac activity arguably *causes* the death of that legal person.
+3. A hospital practicing in a jurisdiction with severe criminal penalties for the wrongful death of a person is obligated to interpret ambiguous statutes conservatively to avoid criminal exposure for the institution and its physicians.
+4. Therefore, continued somatic support was the legally and professionally required course of action.
+:::
+
+The single disputed premise is the third — the institutional risk-management move that allows hospital legal counsel to do the work the statute does not. It is the premise the AG's letter directly contests. It is also the premise that turns out to do most of the actual operational work in post-*Dobbs* medicine.
+
+### The Statutory Reply
+
+The Attorney General's letter, supported by the legal scholarship that immediately surrounded it, is the cleanest legal answer the case received.
+
+::: {.argument}
+**The Statutory Reply (Carr, Pope, Shepherd, Ziegler)**
+
+1. The LIFE Act prohibits *abortion*, defined as an act undertaken with the *purpose* of terminating a pregnancy.
+2. Withdrawing mechanical support from a brain-dead patient has no such purpose; the patient is already dead, and the action being taken is the cessation of futile somatic interventions.
+3. Therefore, the LIFE Act does not require, and does not even speak to, the question of what Emory should have done.
+:::
+
+The soft spot in this reply is not its legal reasoning, which appears to be correct, but its assumption that the *legal* answer settles the *institutional* question. The hospital's lawyers were not asking what the AG believed the LIFE Act required. They were asking what an aggressive prosecutor — or a wrongful-death civil plaintiff — might persuade a Georgia jury that it required. Those are different questions, and the gap between them is what produced the four-month interval.
+
+### Lindemann Nelson and the Conscription of the Dead
+
+Whatever the law said or did not say, what Emory did is the kind of thing the rest of medicine has long forbidden. The philosopher Hilde Lindemann Nelson, writing about postmortem pregnancy in *Bioethics* in 1994, gave the principle its sharpest form: *we do not, in any other context, conscript the dead* [@lindemann1994].
+
+::: {.argument}
+**The Conscription Argument (Lindemann Nelson)**
+
+1. In every other medical context, we do not use a dead person's body for the benefit of a third party without explicit prior consent or family authorization — not for organ donation, not for tissue research, not for medical-school training, not for life-extending therapy of another patient.
+2. Adriana Smith was a dead person whose body was used for the benefit of a third party — her fetus — without explicit prior consent or family authorization.
+3. Therefore, what was done to Smith was a form of conscription that the rest of medicine forbids, and that the law has never explicitly authorized.
+:::
+
+The point is not that the fetus had no interests. Lindemann Nelson concedes that the fetus may have interests. The point is that *the rest of medicine* requires consent for the use of a dead body even when third-party interests are powerful, even when organ recipients on transplant waiting lists are dying, even when the social benefit of an autopsy or a teaching session is enormous. Smith's case is the one place where that requirement collapsed.
+
+### Caplan and Experimentation
+
+The fourth move is the most original, and for a nursing-student audience it may be the most useful. Arthur Caplan, writing in *Bioethics Today* in May 2025 while the case was still unfolding, argued that the framing was wrong from the start [@caplan2025smith]. The question was not whether Emory was permitted to continue *treatment*. The question was what category of *medical action* four-month somatic gestation in a brain-dead patient occupies. Caplan's answer: it is not treatment at all.
+
+::: {.argument}
+**The Experimentation Argument (Caplan)**
+
+1. A medical practice with essentially no evidence base, no established protocols, and no published prior outcomes is, in the relevant ethical sense, *research* rather than *care*.
+2. Research on human subjects requires informed consent — from the subject directly, or from those legally authorized to give surrogate consent on the subject's behalf.
+3. Prolonged somatic gestation in a brain-dead patient (one prior case in the literature, no protocols, no IRB review) meets the criteria for research; no such consent was sought or given for Smith.
+4. Therefore, what Emory did was *unconsented human experimentation*, and the modern research-ethics regime forbids it regardless of what any abortion statute does or does not require.
+:::
+
+This move opens onto the research-ethics framework that students saw earlier in the course. The framework included the *therapeutic misconception* — the tendency of patients to mistake research for personalized treatment. In Smith's case the misconception ran in the opposite direction. The hospital framed an experimental procedure as ordinary obstetric care, which kept the family from ever being asked the question they would have been asked at an IRB: *will you participate in this research?* The answer, by the family's account, would have been no. The question was not posed.
+
+The vulnerability framework returns here too. A brain-dead patient is the limit case of vulnerable subject — incapable of consent, incapable of withdrawing, incapable of objecting. Subjecting such a patient to a four-month experimental regimen without surrogate authorization is a research-ethics violation of an order that has not been seen in American medicine since the post-Tuskegee reforms of the 1970s.
+
+### The Move That Hasn't Ended: Race and the Distribution of Ambiguity
+
+The fifth move is empirical and concerns who, in practice, absorbs the cost of statutes whose enforcement is uncertain. The Georgia LIFE Act is, on its face, race-neutral. The outcomes it produces are not.
+
+Adriana Smith was Black. Emory University Hospital Midtown serves a substantially Black patient population. The hospitals in Georgia that operate under the same statute but serve wealthier, whiter patient populations have not, to date, produced a comparable case. The civil-rights organization SisterSong, which had been the lead plaintiff in earlier litigation against the LIFE Act, responded to Smith's case by building an altar called "Trust Black Women" [@sistersong_smith2025]. The choice of phrase is precise. The case raised exactly the question Dorothy Roberts framed in *Killing the Black Body* nearly thirty years earlier: the reproductive choices of Black women — and, here, the disposition of a Black woman's body after death — are the choices American medicine has been most willing to override [@roberts1997].
+
+Mary Ziegler, in interviews after Carr's letter became public, drew the structural point: post-*Dobbs* medicine routinely involves hospital lawyers reading ambiguous statutes against the most aggressive interpretation a prosecutor might offer. That reading is not random. The hospitals most willing to make conservative interpretive moves are the hospitals with the fewest resources to absorb litigation risk — public-payer-heavy hospitals serving low-income communities. The hospitals serving wealthier, whiter patient populations have more freedom to interpret ambiguity in the patient's favor. The same statute therefore produces different outcomes depending on whose body it lands on.
+
+The sharpened question Smith's case leaves open is not whether any of the four arguments above is right. It is whether the legal architecture that produced the case — a fetal-personhood statute, an ambiguous criminal exposure, and a hospital legal department deciding which way to read it — is one that the rest of American medicine can live with in cases yet to come. The case is recent enough that the answer is unsettled. It will not stay unsettled for long.
+
+## Discussion Questions
+
+1. Write out **The Hospital's Argument** and **The Statutory Reply** in your own words — premises first, then the conclusion. The two arguments share one premise and disagree about another. Identify both. Then choose: is the disagreement between them best described as *legal* (about what the LIFE Act actually says), *institutional* (about how a hospital's lawyers handle legal uncertainty), or *political* (about which reading any actor in the system has reason to make public)? Defend your choice.
+
+2. Caplan's argument turns on one claim: that what Emory did to Smith was *research*, not *care*. Push back on that claim. What features have to be present for a medical practice to count as "experimental" in a way that triggers research-ethics rules? Does every new medical intervention without an evidence base count as experimental? If not, what makes Smith's case different from the rest?
+
+3. Lindemann Nelson says we do not, in any other context, conscript the dead. Pick one current medical practice that comes close to conscripting the dead — postmortem organ donation under an opt-out system, continued ventilation while a family decides, postmortem sperm retrieval, or another of your choice. Explain how it differs from what was done to Smith. Does the difference confirm Lindemann Nelson's principle or weaken it?
+
+4. You are the charge nurse on the night shift in a Georgia ICU. A patient was declared brain-dead this morning at eleven weeks pregnant. The team has gathered to discuss whether to "continue support pending legal review." The patient's advance directive declines life-sustaining treatment. Her sister, the legal decision-maker, requests withdrawal. The hospital's lawyer has not yet returned the team's call. What do you say in the meeting? Which of the four arguments from the case is doing the work in what you say?
+
+5. Georgia's LIFE Act is, on its face, race-neutral. The outcomes it produces — including Smith's — are not. The chain runs from statute → hospital legal counsel → individual physician decision → patient and family encounter. At which point in that chain does race make the most difference? Propose one specific reform that would address race-driven differences at that point. Then say what your reform would *not* fix.
+
+## Further Reading
+
+- Arthur Caplan, "The Adriana Smith Case Unfolding in Atlanta Raises Many Questions," *Bioethics Today*, May 22, 2025. Three pages. Read it.
+- Hilde Lindemann Nelson, "The Architect and the Bee: Some Reflections on Postmortem Pregnancy," *Bioethics* 8:3 (1994), 247–267. The philosophical foundation for the *conscription* objection.
+- Dorothy Roberts, *Killing the Black Body* (1997), especially chapters 4 and 6 on the criminalization of Black women's reproductive choices.
+- Mary Ziegler, *Personhood: The New Civil War over Reproduction* (Yale, 2025) — for the legal-historical context of fetal-personhood statutes.
+- The Wikipedia article "Adriana Smith pregnancy case" — unusually well-sourced; a serviceable factual reference.
+
+## References
+
+::: {#refs}
+:::

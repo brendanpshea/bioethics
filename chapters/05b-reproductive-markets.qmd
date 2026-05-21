@@ -1,0 +1,722 @@
+---
+title: "Lecture 5 — Reproductive Ethics"
+subtitle: "Part B: Making Family — Markets, Surrogacy, and Parental Rights"
+author: "Brendan Shea, PhD"
+date: ""
+date-meta: last-modified
+institute: "An Introduction to Bioethics."
+format:
+  html:
+    toc: true
+    number-sections: true
+  revealjs:
+    output-file: 05b-reproductive-markets-slides.html
+---
+
+# A Contract in 1985 {.section-divider}
+
+## A Contract in 1985
+
+::: {.thought-question}
+In 1985, William Stern and Mary Beth Whitehead signed a contract through a New Jersey surrogacy broker. The contract obligated Whitehead, on the basis of a $10,000 fee, to undergo artificial insemination with Stern's sperm, to abstain from cigarettes, alcohol, and non-prescription medication, to submit to amniocentesis on Stern's request, to terminate the pregnancy if Stern requested it in the event of "physiological abnormality," to deliver the child to the Sterns at birth, and to make no effort to form a parent-child relationship with the child.
+
+**Write or discuss:**
+
+1. Whitehead signed knowingly and was paid the agreed amount. Why should the law care what she agreed to?
+2. Are the clauses about smoking, drinking, and amniocentesis morally equivalent to the clauses about parental rights, or different in kind?
+3. If the contract is wrong, is the wrong done to Whitehead, to the child, or to the rest of us?
+:::
+
+::: {.notes}
+These are the actual terms summarized in the New Jersey Supreme Court's opinion. The case is *In re Baby M*, 109 N.J. 396 (1988). We will return to what the court did with the contract later in the lecture.
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+Three things to hold onto from that scene:
+
+- The same contract has been treated four different ways in four different jurisdictions. New Jersey voided it. California enforces gestational versions of it routinely. India banned it in 2015. France treats arrangements like it as criminal.
+- The disagreement is not about *whether* people will continue to want what the Sterns wanted. It is about what kind of arrangement the law should make available to them.
+- The lecture's question is what to make of markets that move pieces of family life — gametes, gestation, parental rights — across the boundaries we used to assume were not market boundaries at all.
+:::
+
+## Today
+
+::: {.learning-outcomes}
+By the end of Part B, you will be able to:
+
+- State **Elizabeth Anderson's commodification argument** in standard form and identify its load-bearing premise.
+- Give the strongest version of **John Robertson's** procreative-liberty reply.
+- Describe what **In re Baby M** (1988) and **Johnson v. Calvert** (1993) held, and explain the **intent test** for parenthood.
+- Account for the practical end of donor anonymity in the consumer-DNA era.
+- Explain what the Alabama Supreme Court held in **LePage v. Mobile Infirmary** (2024) and why the legislative "fix" left the underlying holding in place.
+:::
+
+# The Technology, in Five Slides {.section-divider}
+
+## What IVF Actually Does
+
+**In vitro fertilization (IVF)** is the process of combining egg and sperm outside the body and transferring a resulting embryo back into the uterus. A typical cycle proceeds through five steps:
+
+<div class="timeline-strip">
+<div class="tl-step"><span class="tl-date">1</span>Ovarian stimulation</div>
+<div class="tl-step"><span class="tl-date">2</span>Egg retrieval</div>
+<div class="tl-step"><span class="tl-date">3</span>Fertilization (in dish)</div>
+<div class="tl-step"><span class="tl-date">4</span>Embryo culture (3–5 days)</div>
+<div class="tl-step"><span class="tl-date">5</span>Transfer or freeze</div>
+</div>
+
+A cycle takes two to three weeks and costs (in the US, 2025) around $15,000–$25,000 before medications. About one in three transfers results in a live birth under age thirty-five; substantially fewer in older patients.
+
+## ICSI and Why It Exists
+
+::: {.columns}
+::: {.column width="48%"}
+**The procedure.**
+
+**Intracytoplasmic sperm injection (ICSI)** injects a single sperm directly into the cytoplasm of a single egg. Introduced in 1992 to address severe male-factor infertility — sperm counts so low that conventional IVF would not work.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**The drift.**
+
+By 2020, ICSI was used in roughly 70% of US IVF cycles — far beyond the male-factor indication that justified its development. Insurance does not always cover it; the clinic does not always need it; patients are rarely told the difference.
+:::
+::::
+
+## PGT — What It Tests For
+
+**Preimplantation genetic testing (PGT)** is performed on a few cells biopsied from an embryo before transfer. Three named variants test for different things.
+
+| | What it looks for | What it can tell you |
+|---|---|---|
+| **PGT-A** (aneuploidy) | Wrong chromosome counts | Embryo is likely / unlikely to implant or miscarry |
+| **PGT-M** (monogenic) | Single-gene disorders (Huntington's, cystic fibrosis, Tay-Sachs) | Embryo carries / does not carry the mutation tested |
+| **PGT-SR** (structural) | Translocations and inversions | Embryo has / has not inherited the structural variant |
+
+None of these can tell you whether the resulting child will be healthy. They tell you, with caveats, about one variable at a time.
+
+## Gestational vs. Traditional Surrogacy
+
+::: {.columns}
+::: {.column width="48%"}
+**Traditional surrogacy.** The surrogate is also the genetic mother — her egg is used. The arrangement *Baby M* litigated.
+
+This form has nearly disappeared from the US market since the 1990s. The genetic connection makes the surrogate's parental claim too strong, and contracts cannot reliably override it.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**Gestational surrogacy.** The surrogate gestates an embryo created from someone else's egg and sperm. She has no genetic relationship to the child.
+
+Roughly 98% of US surrogacy is now gestational. The legal and ethical questions diverge sharply from the traditional case; *Johnson v. Calvert* (1993) is the foundational ruling.
+:::
+::::
+
+## Who Is in the Room
+
+A modern gestational surrogacy can involve up to seven distinct parties.
+
+::: {.columns}
+::: {.column width="48%"}
+- **Intended parent(s)** — who will raise the child.
+- **Surrogate** — who gestates and gives birth.
+- **Egg donor** — separate from the surrogate in gestational arrangements.
+- **Sperm donor** — sometimes separate from the intended father.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+- **Surrogate's spouse** — often required as co-signatory.
+- **Broker / agency** — matchmaking, contract.
+- **Fertility clinic** — the medical infrastructure.
+
+The number of parties is part of the ethics. Each connection used to be a single relationship; now each is a separate negotiation.
+:::
+::::
+
+# The Commodification Question {.section-divider}
+
+## The Question, Stated Sharply
+
+> **When reproduction enters the market, what — if anything — is being bought and sold, and what does that do to the people and the children involved?**
+
+That is the philosophical question Anderson and Robertson disagree about. The disagreement is not about whether commercial surrogacy *exists* — it does. The disagreement is about what kind of moral weight to give the fact that it involves an exchange of money.
+
+## Anderson's Commodification Argument
+
+::: {.argument}
+::: {.arg-name}
+Anderson: Commercial Surrogacy Improperly Commodifies
+:::
+::: {.arg-source}
+Elizabeth Anderson, "Is Women's Labor a Commodity?" (1990)
+:::
+
+1. Some goods have their value diminished or distorted when they are produced, exchanged, or enjoyed under market norms — children and reproductive labor are among them.
+2. The proper mode of valuing a child is *love* (parental rights as *trusts*); the proper mode of valuing women's reproductive labor is one that respects its non-fungible character.
+3. Commercial surrogacy substitutes market norms (use, disposal, fungibility) for these proper modes of valuation.
+4. Therefore, commercial surrogacy improperly commodifies both children and women's reproductive labor.
+:::
+
+The disputed premise is the first — that certain goods are *intrinsically* damaged by market exchange, rather than merely associated with markets that often go badly.
+
+## Anderson, in Her Own Words
+
+::: {.quote-card}
+"When women's labor is treated as a commodity, the women who perform it are degraded. Furthermore, commercial surrogacy degrades children by reducing their status to that of commodities."
+
+"Commercial surrogacy substitutes market norms for some of the norms of parental love. Most importantly, it requires us to understand parental rights no longer as trusts but as things more like property rights — that is, rights of use and disposal over the things owned."
+
+— Elizabeth Anderson, *Philosophy & Public Affairs* (1990), pp. 75–76
+:::
+
+[@andersonE1990]
+
+## Robertson's Procreative-Liberty Reply
+
+::: {.argument}
+::: {.arg-name}
+Robertson: Procreative Liberty Protects Surrogacy
+:::
+::: {.arg-source}
+John Robertson, *Children of Choice* (1994)
+:::
+
+1. Procreative liberty — the right to decide whether, when, and how to reproduce — is a core liberty interest deserving strong constitutional and moral protection.
+2. Surrogacy arrangements between informed, consenting adults are exercises of that liberty.
+3. The state may restrict procreative liberty only on the basis of *demonstrable harm* to identifiable parties — not on the basis of contested moral views about what reproduction should look like.
+4. Therefore, commercial surrogacy should be permitted, with regulation directed at preventing specific harms (fraud, coercion, harm to children) rather than at suppressing the arrangement itself.
+:::
+
+The soft spot here is the third premise's narrow definition of *harm*. Anderson would say the commodification of women and children *is* the harm, and Robertson has redefined the term until it cannot capture what is most contested about the practice.
+
+## Sandel's Broader Frame
+
+::: {.callout-note}
+**Michael Sandel, *What Money Can't Buy* (2012):** Not every market exchange corrupts the goods it touches. Some do. Markets in friendship, in apologies, in citizenship — and, Sandel argues, in gestation — change *what the good is*, not just how much of it is available.
+
+Sandel's frame is broader than Anderson's: it covers organ markets, kidney exchanges, congressional access, naming rights to a public building. The pattern it identifies is the same. Some social practices have meanings that *cannot survive* their conversion into market transactions.
+:::
+
+[@sandel2012]
+
+## Roberts and Reproductive Justice
+
+The Anderson–Robertson debate, as staged, is largely about *whether* markets in reproduction are permissible.
+
+A different tradition — what Dorothy Roberts and others call **reproductive justice** — asks a different question: *whose* markets, and on whose bodies? US gestational surrogates are disproportionately women in their twenties and thirties earning under $60,000 a year. International gestational surrogates were, before the 2015 bans, predominantly poor women in India, Thailand, and Nepal, paid roughly one-fifth of what the same service cost a US client.
+
+The reproductive-justice frame does not settle the philosophical question between Anderson and Robertson. It changes which question is the most urgent. [@roberts1997]
+
+# Surrogacy Regimes {.section-divider}
+
+## Commercial vs. Altruistic
+
+| | **Commercial** | **Altruistic** |
+|---|---|---|
+| **What changes hands** | A negotiated fee beyond medical expenses | Medical expenses and (sometimes) lost wages only |
+| **Who chooses the surrogate** | Agency matching, often across state or national lines | Typically a friend or relative |
+| **The implicit ethical picture** | Markets can handle reproductive labor with the right safeguards | Markets cannot handle this; gift-relations can |
+| **Where it is the law** | California, Texas, several other US states; Ukraine | UK, Canada, Australia, most of Europe |
+
+Most jurisdictions choose one regime. The choice is not technical; it is a stance on Anderson and Robertson.
+
+## The Jurisdictional Scoreboard
+
+| Jurisdiction | Commercial | Altruistic | Status |
+|---|---|---|---|
+| **California** | Permitted | Permitted | Enforceable contracts since *Johnson* (1993) |
+| **New York** | Permitted | Permitted | Legalized 2021 (Child-Parent Security Act) |
+| **Texas** | Permitted | Permitted | Gestational only; intent test |
+| **United Kingdom** | Prohibited | Permitted | No enforceable contracts; parenthood at birth |
+| **France** | Prohibited | Prohibited | Criminal offense since 1994 |
+| **India** | Prohibited | Permitted (citizens only) | Commercial ban 2015 (Surrogacy Act 2021) |
+| **Thailand** | Prohibited | Permitted (citizens only) | Ban 2015 after Baby Gammy case |
+| **Italy** | Prohibited | Prohibited | 2024 law criminalizes citizens for using surrogates *abroad* |
+
+[@nyCPSA2021]
+
+## Cross-Border Surrogacy
+
+::: {.columns}
+::: {.column width="48%"}
+**The pre-2015 international market.** India's commercial-surrogacy industry was estimated at $1.5 billion annually by 2012, with clients drawn from the US, UK, Israel, Australia, and Europe. Thailand and Nepal hosted parallel markets.
+
+A typical international gestational surrogacy in India in 2014 cost the client ~$25,000 — about one-fifth of the equivalent US arrangement. The surrogate's share was typically $6,000–$8,000.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**The 2015 cascade.** Thailand banned commercial surrogacy in February 2015 following the Baby Gammy case — an Australian couple who left a Down-syndrome twin with the Thai surrogate and took only the healthy sibling home. India followed in October 2015. Nepal in September. The market migrated to Mexico, then to Ukraine, and after 2022, to Colombia and Argentina.
+
+The industry does not disappear when one jurisdiction bans it. It moves. [@mohapatra2012]
+:::
+::::
+
+## Thought Question — Three Surrogacy Arrangements
+
+::: {.thought-question}
+Three real arrangements, lightly summarized. For each: is the arrangement (a) permissible, (b) permissible with regulation, or (c) impermissible? What is your reason — Anderson, Robertson, reproductive justice, or some combination?
+
+1. A married couple in San Francisco pays a $45,000 fee plus medical expenses to a married woman in Stockton with two children of her own, to gestate an embryo created from the couple's own gametes.
+2. A single man in Tel Aviv pays an Indian-run agency $40,000 to find a gestational surrogate in Cancún, Mexico. The surrogate's share is $7,000.
+3. A woman in London gestates a child for her sister, who cannot carry a pregnancy due to a uterine condition. The arrangement is reimbursed for medical expenses only.
+:::
+
+## The European Professional Consensus
+
+::: {.columns}
+::: {.column width="48%"}
+The European Society of Human Reproduction and Embryology (ESHRE) issued an updated ethics position in March 2025. Headline:
+
+> "Non-commercial surrogacy is an acceptable method of assisted reproduction for specific indications.… Commercial surrogacy arrangements are more likely to result in exploitation than non-commercial ones and therefore should be avoided."
+
+— ESHRE Ethics Committee [@eshre2025surrogacy]
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**The ten recommendations, in shortest form:**
+
+- Independent counseling and independent legal advice for each party.
+- The surrogate should be able to carry safely, judged medically and psychologically.
+- Surrogacy is *not* acceptable where the intended parent could carry without serious risk.
+- The surrogate should already have at least one child of her own.
+- **Single embryo transfer only.**
+- **Reimbursement for actual expenses only — no incentive payments.**
+- Mandatory registration and follow-up studies.
+:::
+::::
+
+## Make It Contemporary
+
+::: {.columns}
+::: {.column width="48%"}
+**Three live policy debates, 2023–2025:**
+
+- **New York's 2021 legalization** in retrospect — the state has become the second-largest US surrogacy market after California; advocates point to robust statutory protections, critics to commercialization.
+- **Italy's 2024 law** criminalizing Italian citizens for using surrogates abroad — the first extraterritorial enforcement of a surrogacy ban.
+- **The EU's draft framework** seeking common rules on cross-border arrangements, stalled since 2023.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**The pattern these share:**
+
+Every regime is reacting to the same thing — gestational surrogacy as a real, growing, technologically reliable practice that the previous generation's law did not anticipate.
+
+What divides them is what each takes the *primary* harm to be: exploitation of surrogates, commodification of children, or restriction of intended parents' procreative liberty.
+:::
+::::
+
+## After You've Discussed
+
+::: {.callout-note}
+A distinction the body has been circling.
+
+**Exploitation** and **commodification** are not the same wrong. A non-exploitative market can still commodify the good it trades in. A non-commodifying arrangement (an altruistic family surrogacy with no money involved) can still exploit the surrogate through emotional pressure or asymmetric power.
+
+Most surrogacy debates assume the two wrongs travel together. They do not. Which wrong drives your judgment shapes what fix you reach for — better contracts and informed consent address exploitation; the ban-it-or-permit-it question addresses commodification.
+:::
+
+# Gamete Markets {.section-divider}
+
+## A Brief History of Sperm Donation
+
+<div class="timeline-strip">
+<div class="tl-step"><span class="tl-date">1884</span>First documented donor insemination (Philadelphia)</div>
+<div class="tl-step"><span class="tl-date">1953</span>First frozen sperm bank</div>
+<div class="tl-step"><span class="tl-date">1980s</span>HIV-driven quarantine protocols</div>
+<div class="tl-step"><span class="tl-date">2005</span>UK bans donor anonymity</div>
+<div class="tl-step"><span class="tl-date">2023</span>Mass DNA identifications begin</div>
+</div>
+
+For most of this history, sperm donation operated on a promise of donor anonymity. That promise — as the right end of the timeline shows — is no longer one the technology lets us keep.
+
+## The Rise of Paid Egg Donation
+
+::: {.columns}
+::: {.column width="48%"}
+**Volume.**
+
+- ~10,000 US cycles using donor eggs per year by 2010.
+- ~17,000 by 2020.
+- Roughly one in nine IVF cycles in the US now uses donor eggs.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**Price.**
+
+- ASRM (American Society for Reproductive Medicine) guideline, now withdrawn: donor compensation should not exceed $10,000.
+- Median compensation in 2024: ~$8,000.
+- High-end programs: $25,000–$50,000 for donors meeting specific phenotypic criteria.
+:::
+::::
+
+## An Ad That Has Done Thirty Years of Work in Bioethics Classrooms
+
+In March 1999, a classified advertisement appeared in the *Yale Daily News* — and in the *Stanford Daily*, the *Harvard Crimson*, and the campus papers of several other elite universities. The ad sought an egg donor between 21 and 33 who had scored above 1400 on the SAT, was at least 5 feet 10 inches tall, and had no major family medical issues. The compensation offered was **$50,000**, plus all expenses.
+
+The ad was real. The couple who placed it remained anonymous. The compensation was roughly five times the going rate for an egg donor at the time, and it was contingent on phenotypic criteria — height, intellectual achievement, family background — that the standard donor market did not explicitly price.
+
+Almost every American undergraduate ethics class for the last twenty-five years has discussed some version of this ad. The reason is that it makes a single question very hard to avoid: *what, exactly, is being purchased for fifty thousand dollars?*
+
+## Anonymous vs. Open-Identity Donation
+
+| Jurisdiction | Donor anonymity | Year |
+|---|---|---|
+| **Sweden** | Banned | 1985 |
+| **UK** | Banned | 2005 |
+| **Netherlands** | Banned | 2004 |
+| **Germany** | Banned | 2018 |
+| **Australia (Victoria)** | Banned, retroactive to 1988 | 2017 |
+| **United States** | Permitted | — |
+| **France** | Banned | 2021 |
+
+The US is now an outlier among comparable jurisdictions in continuing to permit anonymous donation. Whether that legal permission still tracks practical reality is the next question. [@wilkinson_sep_egg_sperm]
+
+## The End of Donor Anonymity
+
+::: {.callout-important}
+23andMe and Ancestry have **roughly 50 million combined users** as of 2024. Any donor with one cousin in either database is, in practice, identifiable — the donor-conceived child uploads a sample, the algorithm flags a third or fourth cousin, the family tree narrows the candidates to one.
+
+The policy of donor anonymity in the US now functions as a **promise the technology no longer lets us keep**. Sperm banks that continue to advertise anonymity are advertising a property of the contract, not a property of the world.
+
+The ethical question is no longer whether anonymity *should* be available. It is whether donors should be required to make peace with the fact that it *will not* hold.
+:::
+
+# Parental Rights {.section-divider}
+
+## The Question Parental-Rights Cases Force
+
+Three claims can each plausibly ground parenthood:
+
+- **Genetic** — the person whose gametes contributed.
+- **Gestational** — the person who carried and delivered the child.
+- **Intentional** — the person who set the project in motion and means to raise the child.
+
+In a non-contested case, all three line up in the same person. In a contested case, they pull apart. *Baby M* and *Johnson* are the two foundational decisions about which claim wins when they pull apart.
+
+## In re Baby M (1988) — Facts
+
+::: {.columns}
+::: {.column width="48%"}
+**The arrangement.** William and Elizabeth Stern, a New Jersey couple, contracted with Mary Beth Whitehead through the Infertility Center of New York. Whitehead would be artificially inseminated with William Stern's sperm, gestate the resulting child, and surrender parental rights at birth in exchange for $10,000.
+
+The child — Baby M, later Melissa Stern — was born March 27, 1986. Whitehead surrendered her, then changed her mind within days and fled with the child to Florida.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**The litigation.** The Sterns located Whitehead in July 1986 and recovered the child. Whitehead countersued for custody. The New Jersey trial court enforced the contract, terminated Whitehead's parental rights, and granted custody to the Sterns.
+
+The New Jersey Supreme Court agreed to review the case in 1987.
+:::
+::::
+
+## Baby M — Holding
+
+::: {.callout-important}
+**Held (NJ Supreme Court, en banc, Feb. 1988):** The surrogacy contract is **void as against public policy**. The state may not enforce a contract that purports to terminate parental rights before birth or that pays for the transfer of a child.
+
+Custody was nonetheless awarded to William Stern under the **best-interests-of-the-child** standard. Mary Beth Whitehead retained parental rights as the genetic and gestational mother, with visitation. The Sterns adopted Melissa later.
+
+The opinion did not ban surrogacy. It made commercial surrogacy contracts unenforceable in New Jersey. The contract did not collapse; only its legal teeth did.
+:::
+
+[@babyM1988]
+
+## Johnson v. Calvert (1993) — Facts
+
+::: {.columns}
+::: {.column width="48%"}
+**The arrangement.** Mark and Crispina Calvert, a California couple, contracted with Anna Johnson in 1990. The Calverts provided both gametes; Johnson would gestate the resulting embryo and surrender the child at birth, for $10,000.
+
+The case was different from *Baby M* in a single critical respect: Johnson had **no genetic relationship** to the child. Both the egg and the sperm were the Calverts'.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**The dispute.** Late in the pregnancy, Johnson demanded the remaining payments and threatened not to give up the child. The Calverts sued for declaratory relief. The trial court ruled that the Calverts were the sole legal parents. Johnson appealed.
+
+The California Supreme Court agreed to hear the case in 1992.
+:::
+::::
+
+## Johnson — The Intent Test
+
+::: {.callout-important}
+**Held (Cal. Supreme Court, May 1993):** When both gestational and genetic claims to maternity exist and conflict, the legal mother is the woman who, at the time of conception, **intended to bring about the birth of the child she intended to raise**.
+
+The court rejected the "two mothers" possibility and the gestational-trumps-genetic rule. It also rejected the genetic-trumps-gestational rule. The deciding factor was **intent at the time of conception** — the *project*, not the biology.
+
+The decision launched gestational surrogacy as a stable American institution. Twenty-six US states now follow some version of the intent test for gestational arrangements.
+:::
+
+[@johnsonCalvert1993]
+
+## The Three Tests, Side by Side
+
+| Test | Picks the parent who… | Where it works | Where it fails |
+|---|---|---|---|
+| **Genetic** | Contributed the gametes | Disputes over abandoned IVF embryos | Anonymous donation; egg donation; cases where the genetic parent never intended to raise |
+| **Gestational** | Carried and delivered the child | Traditional surrogacy (*Baby M*); refusal-to-relinquish cases | Gestational surrogacy where the carrier has no genetic tie and never intended to raise |
+| **Intent** | Set the project in motion and meant to raise | Gestational surrogacy with a clean contract | Divorce mid-pregnancy; death of an intended parent; bad-faith intent |
+
+No test handles every case. Most US jurisdictions use **intent** as the default and **best interests** as the backstop.
+
+## Thought Question — Three Mothers
+
+::: {.thought-question}
+A married couple in Los Angeles begins an IVF cycle using a paid egg donor — they intend the resulting child to be raised by the husband and wife together. The embryo is implanted in a paid gestational carrier in San Diego. During the second trimester, the husband and wife separate. The wife disclaims interest in the child. The egg donor — informed of the pregnancy through a friend in the clinic — files a petition for parental rights.
+
+**Write or discuss.**
+
+1. Under the intent test, who is the legal mother?
+2. Under the genetic test? Under the gestational test?
+3. Which test is your test, and what does it commit you to in the cases the other tests handle better?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+**The intent test does most of the day-to-day legal work in the US.** It is fast, it is contract-friendly, and it produces predictable answers in the typical gestational-surrogacy case.
+
+But the intent test **presupposes a clean contract**. When the contract dissolves — through death, divorce, dispute, or simple change of mind — the test runs out of inputs. *Baby M*'s **best-interests-of-the-child** backstop is what catches those cases. It is slower, less predictable, and more discretionary. It is also the principle the law falls back on when the cleaner test breaks down.
+
+The American compromise is to use both: intent as the rule, best interests as the safety net.
+:::
+
+# LePage and the Alabama IVF Aftershock {.section-divider}
+
+## The Case Behind the Headlines
+
+In late 2020, at the Center for Reproductive Medicine in Mobile, Alabama, a hospital patient wandered into the clinic's cryogenic storage area. The patient removed several frozen embryos from a tank of liquid nitrogen with bare hands, sustained burns, and dropped the embryos, which were destroyed.
+
+Three sets of parents whose embryos were lost sued the clinic. The lower courts dismissed the wrongful-death claims, holding that frozen embryos were not "minor children" under the Alabama Wrongful Death of a Minor Act.
+
+The Alabama Supreme Court reversed.
+
+## LePage v. Mobile Infirmary Clinic (Feb 2024)
+
+::: {.callout-important}
+**Held (Ala. Supreme Court, Feb. 16, 2024):** The Alabama Wrongful Death of a Minor Act applies to **"all unborn children, regardless of their location"** — including embryos located *outside of a biological uterus at the time of their destruction*.
+
+The plaintiffs may sue for the wrongful death of their frozen embryos under the same statute that would apply to the wrongful death of a born child.
+
+The opinion does not state that all destruction of frozen embryos constitutes wrongful death; it states that the *statute* is available for the claim. Whether any particular destruction qualifies remains to be litigated.
+:::
+
+[@lepage2024]
+
+## Justice Parker's Concurrence
+
+::: {.quote-card}
+"In summary, the theologically based view of the sanctity of life adopted by the People of Alabama encompasses the following: (1) God made every person in His image; (2) each person therefore has a value that far exceeds the ability of human beings to calculate; and (3) human life cannot be wrongfully destroyed without incurring the wrath of a holy God, who views the destruction of His image as an affront to Himself."
+
+— Parker, C.J., concurring, *LePage v. Mobile Infirmary Clinic* (2024)
+:::
+
+::: {.notes}
+The concurrence is not the holding. The majority opinion rests on statutory interpretation; Parker's concurrence supplies the religious framing. Students should be able to tell the difference.
+:::
+
+## The Clinical Reaction
+
+<div class="timeline-strip">
+<div class="tl-step"><span class="tl-date">Feb 16</span>LePage ruling issued</div>
+<div class="tl-step"><span class="tl-date">Feb 21</span>UAB (Univ. of Alabama at Birmingham) pauses IVF</div>
+<div class="tl-step"><span class="tl-date">Feb 22</span>Alabama Fertility pauses IVF</div>
+<div class="tl-step"><span class="tl-date">Feb 23</span>Infirmary Health pauses IVF</div>
+<div class="tl-step"><span class="tl-date">Mar 6</span>State law signed granting providers immunity</div>
+</div>
+
+In the eighteen days between the ruling and the legislative fix, an unknown number of patients had cycles cancelled mid-stimulation. The clinics' position was not that the ruling banned IVF — it did not — but that the legal exposure of *any* embryo loss, normal in IVF practice, had become uninsurable.
+
+## The Legislative Fix
+
+::: {.callout-important}
+**Alabama Act 2024-21** (signed March 6, 2024) grants civil and criminal immunity to IVF providers and patients for the death of or damage to an embryo *during the course of IVF treatment*.
+
+The act does **not** disturb the underlying holding that embryos are children for purposes of the Wrongful Death Act. The fix is a carve-out, not a reversal.
+
+The structural question — whether embryos can be the subjects of wrongful-death claims in *any* context outside the IVF clinic — remains open. A donor who destroys leftover embryos; a clinic that disposes of abandoned ones; a researcher who uses them for stem-cell work — each of these is, in principle, exposed.
+:::
+
+## What's Still in Litigation
+
+::: {.columns}
+::: {.column width="48%"}
+**The *LePage* plaintiffs' damages claims** continue. The wrongful-death-of-a-minor statute permits punitive damages with no statutory cap; the question of how a jury values a frozen embryo's "life" is the next frontier.
+
+Several other state legislatures have introduced bills since 2024 that would similarly extend wrongful-death protection to embryos.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**Practical consequences in Alabama**, post-Act 2024-21:
+
+- Patients can resume IVF; clinics can continue to dispose of "non-viable" embryos.
+- "Disposition" of remaining embryos at the end of treatment remains legally fraught — providers are quietly recommending against destruction.
+- An estimated 350,000 frozen embryos in Alabama storage occupy an unclear legal status.
+:::
+::::
+
+## After LePage
+
+::: {.callout-note}
+*LePage* is not, strictly, about commodification or about parental rights. It lives in the same neighborhood, and the same legal logic.
+
+If embryos are "children," then their disposition, transfer, storage, and the contracts that govern their fate all become different legal questions. A clinic that "destroys" embryos is now, in Alabama, potentially in the wrongful-death liability landscape that, in the body of medicine, applies to medical errors causing the death of a born patient.
+
+The post-*Dobbs* logic has reached IVF. The next case, wherever it arises, will be about whether the same logic reaches the millions of frozen embryos sitting in storage in jurisdictions whose statutes were never written with them in mind.
+:::
+
+## Florida 2026 — Surrogacy as the Next Front
+
+::: {.columns}
+::: {.column width="48%"}
+**The facts.** A married couple in France contracted with a Florida woman for gestational surrogacy in 2024. In August 2025, a Broward County judge — Marlon Weiss — granted parental rights but volunteered in his opinion that surrogacy may be *unconstitutional* on fetal-personhood grounds.
+
+Within twenty-four hours of the child's birth, Florida Attorney General James Uthmeier moved to intervene in the confidential proceeding, arguing that commercial surrogacy violates the Thirteenth Amendment's prohibition of slavery. The case is pending before Florida's Fourth District Court of Appeal.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**Why the slide is here.** Uthmeier's argument — that commercial surrogacy treats children as property and women's reproductive labor as the kind of thing that can be sold — is *structurally* Anderson's argument from 1990, made by a conservative state attorney general in 2026.
+
+The political coalition that opposes commercial surrogacy in the United States now runs from feminist philosophers on the left to fetal-personhood advocates on the right. They disagree about almost everything else. They converge on the claim that some things are not properly bought.
+:::
+::::
+
+[@ellenbogen2026florida]
+
+# Three Quick Frontiers {.section-divider}
+
+## Posthumous Reproduction
+
+::: {.columns}
+::: {.column width="48%"}
+**The practice.** Sperm or eggs retrieved after death, then used to conceive a child. Sperm retrieval up to 36 hours post-mortem is technically feasible; egg retrieval is harder and rarer.
+
+US case law is permissive but inconsistent. Israel and Australia have detailed statutory frameworks.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**The question.**
+
+Does consent to *reproduction* survive death? Does explicit consent to *gamete retrieval* imply consent to *reproduction*? The *Jocelyn Edwards* case (New South Wales, Australia, 2011) — a widow who sued for use of her dead husband's sperm — turned on exactly this distinction.
+:::
+::::
+
+## Savior Siblings
+
+::: {.context-box}
+**The Nash family, 2000.** Lisa and Jack Nash's first child, Molly, was born with Fanconi anemia — a fatal genetic blood disorder. The only cure was a stem-cell transplant from a matched sibling donor.
+
+The Nashes used IVF and PGT-M to select an embryo that (a) did not carry the disease and (b) was a tissue match for Molly. Adam Nash was born in August 2000. His umbilical-cord blood was used to treat Molly, who is alive as of 2024.
+
+The ethical question in two sentences: was Adam created *as a means* to Molly's survival? Does it matter that the Nashes intended to love him for his own sake regardless?
+:::
+
+## Mitochondrial Replacement
+
+::: {.callout-note}
+**"Three-parent IVF."** A technique that transfers the nucleus of a fertilized egg into a second egg whose mitochondria are healthy. Used to prevent serious mitochondrial diseases that would otherwise be inherited from the egg donor's mitochondria.
+
+Approved in the UK in 2015; in clinical use since 2016. Approximately 50 children have been born with mitochondrial DNA from a third party.
+
+The philosophical question is whether the mitochondrial donor is a *parent* at all. She contributes ~0.1% of the child's DNA, no nuclear material, and (typically) no relationship. The intent test says no; a strict genetic test says yes.
+:::
+
+# Wrap {.section-divider}
+
+## The Scoreboard
+
+| | Anderson | Robertson | Sandel | Roberts |
+|---|---|---|---|---|
+| **Surrogacy** | Commodifies women's labor and children | Procreative liberty; regulate harms not arrangements | Markets corrupt some goods; this is one | Whose markets? Burdens fall on poor women |
+| **Gamete markets** | Same logic — gametes are not commodities | Adult-to-adult exchange with informed consent | The $50K ad is the corruption-of-meaning case | DNA-era anonymity is not equally available |
+| **Parental rights** | Trusts, not property | Contract, with the intent test | Best interests over contract | Whose children get protected by which test |
+| **LePage** | The ruling overreaches but follows the logic | A category error; embryos are not children | A different conversation entirely | The post-*Dobbs* logic reaches IVF unevenly |
+
+## The Through-Line
+
+::: {.columns}
+::: {.column width="48%"}
+**Part A** asked what autonomy requires *during* a pregnancy.
+
+**Part B** asked what families are owed *around* one — the markets in gametes and gestation, the contracts that move parental rights from one body to another, the cases that decide who counts as a parent when the standard answers diverge.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**Same value, different terrain.** The autonomy that protects a pregnant woman's refusal of treatment is the same autonomy that lets a couple sign a surrogacy contract — and the same autonomy whose limits the *Baby M* court tried to draw.
+
+The fight in both halves is over which conditions count as the conditions of a free choice, and which count as the conditions of an arrangement no law should enforce.
+:::
+::::
+
+## Review Questions
+
+Write a brief answer to each, or use them as discussion prompts.
+
+::: {.review-questions}
+
+::: {.review-item .review-recall}
+[Recall]{.review-label}
+
+State the intent test for parenthood as the California Supreme Court articulated it in *Johnson v. Calvert*. Identify one kind of case the intent test cannot handle, and the backstop principle that most American courts use when the intent test fails.
+:::
+
+::: {.review-item .review-apply}
+[Apply]{.review-label}
+
+A 32-year-old woman in Tuscaloosa wishes to dispose of three frozen embryos she and her now-ex-husband created in 2019. The clinic, citing *LePage*, refuses to destroy the embryos absent a court order. Using the structural distinction between Alabama's holding and Act 2024-21, lay out the legal position the clinic is taking and the ethical position the patient might press in reply.
+:::
+
+::: {.review-item .review-debate}
+[Debate]{.review-label}
+
+Anderson argues that commercial surrogacy *intrinsically* degrades women and children, independent of how well any particular arrangement is regulated. Robertson argues that procreative liberty protects surrogacy unless specific, demonstrable harms can be shown. Take the side you find harder to defend and give it the strongest case you can — including what it concedes to the other side.
+:::
+
+:::
+
+## Key Terms
+
+::: {.columns}
+::: {.column width="48%"}
+- [**Commodification**]{.key-term} — treating a good as the kind of thing that can properly be produced, exchanged, and disposed of under market norms.
+- [**Procreative liberty**]{.key-term} — Robertson's term for the right to decide whether, when, and how to reproduce.
+- [**Reproductive justice**]{.key-term} — the frame, associated with Dorothy Roberts, asking *whose* reproductive choices are constrained by what social conditions.
+- [**Gestational vs. traditional surrogacy**]{.key-term} — gestational: surrogate has no genetic tie; traditional: surrogate's egg is used.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+- [**Intent test**]{.key-term} — the rule from *Johnson v. Calvert* that parental rights belong to whoever set the project in motion intending to raise the child.
+- [**Best interests of the child**]{.key-term} — the family-law default standard that decides contested custody when other rules run out.
+- [**Donor anonymity**]{.key-term} — a contractual protection of a gamete donor's identity; increasingly unenforceable in the consumer-DNA era.
+- [**Wrongful-death-of-embryo statute**]{.key-term} — a state law extending wrongful-death liability to the destruction of frozen embryos (Alabama, 2024).
+:::
+::::
+
+## Further Reading
+
+- Elizabeth Anderson, "Is Women's Labor a Commodity?" *Philosophy & Public Affairs* 19:1 (1990).
+- John Robertson, *Children of Choice* (Princeton, 1994), chs. 1, 5.
+- Michael Sandel, *What Money Can't Buy* (FSG, 2012), ch. 3.
+- Dorothy Roberts, *Killing the Black Body* (1997), chs. 6–7.
+- Stephen Wilkinson and Nicola Williams, "The Donation and Sale of Human Eggs and Sperm," *SEP* (2023).
+- *In re Baby M*, 109 N.J. 396 (1988) — the opinion itself is readable.
+
+## References
+
+::: {#refs}
+:::

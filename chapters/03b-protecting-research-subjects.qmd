@@ -557,6 +557,21 @@ In global clinical research, does the local unavailability of a proven treatment
 
 :::
 
+## Key Terms
+
+- **Belmont Report (1979)** — names the three principles for human-subjects research: respect for persons, beneficence, and justice.
+- **Respect for persons** — the Belmont principle requiring informed consent and extra protections for those with diminished autonomy.
+- **Beneficence (in research)** — minimize risks, maximize benefits, and maintain a favorable risk–benefit ratio.
+- **Justice (Belmont)** — fair distribution of the benefits and burdens of research; operationalized as *Fair Subject Selection*.
+- **Fair Subject Selection** — recruiting populations because they bear on the scientific question, not because they are convenient or powerless.
+- **Vulnerability** — features of a subject or group that limit their ability to protect their own interests in a study.
+- **Cognitive vulnerability** (Kipnis) — limits on capacity to understand or evaluate the study (e.g., children, intellectual disability).
+- **Allocational vulnerability** (Kipnis) — being in a position where study participation is hard to refuse because resources, services, or status depend on it.
+- **Clinical equipoise** — the genuine uncertainty in the expert community about whether the trial arms are better than one another; the standard ethical condition for randomizing.
+- **Declaration of Helsinki** — the WMA's evolving statement of physicians' duties in research, including consent and post-trial obligations.
+- **Common Rule** — the U.S. federal regulation (45 CFR 46) governing federally funded human-subjects research; the framework IRBs apply.
+- **IRB (Institutional Review Board)** — the local committee that reviews protocols against these principles before research may proceed.
+
 ## References
 
 ::: {#refs}

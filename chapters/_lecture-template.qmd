@@ -215,17 +215,6 @@ Work a brief illustrative case in the text, or point to the paired case study **
 Three or four sentences summarizing the whole arc — the question, the main moves, the unresolved tension. No `L#`.
 :::
 
-## Key Terms
-
-- **[Term]** — short gloss
-- **[Term]** — short gloss
-
-## Further Reading
-
-Accessible follow-up sources (distinct from works cited).
-
-- Author. *Title*. Publisher, Year.
-
 ## Review Questions
 
 Write a brief answer to each, or use them as discussion prompts.
@@ -251,6 +240,17 @@ Write a brief answer to each, or use them as discussion prompts.
 :::
 
 :::
+
+## Key Terms
+
+- **[Term]** — short gloss
+- **[Term]** — short gloss
+
+## Further Reading
+
+Accessible follow-up sources (distinct from works cited).
+
+- Author. *Title*. Publisher, Year.
 
 ## References
 

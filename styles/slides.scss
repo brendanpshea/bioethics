@@ -451,6 +451,58 @@ $code-block-border-color: $rule;
   overflow-y: auto;
 }
 
+// ----- Two-column density fixes -----
+// Tighten list/paragraph spacing inside .columns blocks (highest-leverage fix)
+.reveal .columns ul,
+.reveal .columns ol {
+  line-height: 1.25;
+  margin: 0.3em 0;
+}
+.reveal .columns li { margin-bottom: 0.25em; }
+.reveal .columns p { margin-bottom: 0.4em; }
+.reveal .columns p + ul,
+.reveal .columns p + ol { margin-top: 0; }
+
+// Modest font shrink inside two-column layouts
+.reveal .columns { font-size: 0.92em; }
+
+// Opt-in escape hatch for the densest slides: `## Title {.dense}`
+.reveal .slides section.dense { font-size: 0.93em; }
+.reveal .slides section.dense ul li { margin-bottom: 0.2em; }
+.reveal .slides section.dense p { margin-bottom: 0.35em; }
+
+// ----- Compact colored timeline / step strip -----
+.reveal .timeline-strip {
+  display: flex;
+  gap: 0.45em;
+  margin: 0.7em 0;
+  font-size: 0.78em;
+  align-items: stretch;
+}
+.reveal .timeline-strip .tl-step {
+  flex: 1 1 0;
+  padding: 0.55em 0.7em;
+  background: $primary-tint;
+  border-left: 4px solid $primary;
+  border-radius: 0 6px 6px 0;
+  line-height: 1.3;
+}
+.reveal .timeline-strip .tl-step:nth-child(even) {
+  background: #fbf6ec;
+  border-left-color: $warm;
+}
+.reveal .timeline-strip .tl-step:nth-child(even) .tl-date {
+  color: $warm;
+}
+.reveal .timeline-strip .tl-step .tl-date {
+  display: block;
+  font-weight: 800;
+  font-size: 0.95em;
+  color: $primary;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.2em;
+}
+
 // ----- Closing review questions -----
 .reveal .review-questions {
   display: grid;

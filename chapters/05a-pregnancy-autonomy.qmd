@@ -18,7 +18,7 @@ format:
 ## A Patient at Twenty-Two Weeks
 
 ::: {.thought-question}
-A twenty-two-week-pregnant woman is admitted to the ICU with severe bacterial pneumonia. She is awake, oriented, and afraid. The team recommends intubation and a course of intravenous antibiotics; without intubation, her physicians estimate she will likely die within seventy-two hours. She refuses, citing concerns about fetal effects of the sedation and antibiotics, and says she would rather take her chances.
+A 22-week-pregnant woman is admitted to the ICU with severe bacterial pneumonia. She is awake and oriented. The team recommends intubation and IV antibiotics; without intubation, she will likely die within seventy-two hours. She refuses, citing fetal effects of the sedation, and says she will take her chances.
 
 **Write or discuss:**
 
@@ -34,11 +34,9 @@ Don't formalize. Let students react. We'll come back to the legal contours of ca
 ## After You've Discussed
 
 ::: {.callout-note}
-Three things to hold onto from that scene:
-
-- The standard model of autonomy you learned earlier in the course was built for **one bounded patient**. Pregnancy is the first case where some people argue there is more than one — and even that framing is contested.
-- The clinical instinct to "override" a refusing pregnant patient has a documented history of going badly, both for the patient and for the future babies the override was meant to protect.
-- Today's job is to learn a framework precise enough that you can tell the difference between a refusal we should accept, a refusal we should keep trying to persuade against, and a refusal that some have argued the law may override.
+- The standard model of autonomy was built for **one bounded patient**. Pregnancy is the first case where some argue there is more than one — and even that framing is contested.
+- The clinical instinct to "override" a refusing pregnant patient has a long history of going badly for both the patient and the future baby the override was meant to protect.
+- Today's job is to learn a framework precise enough to distinguish a refusal we should accept, a refusal we should keep trying to persuade against, and a refusal the law may override.
 :::
 
 ## Today
@@ -57,20 +55,20 @@ By the end of Part A, you will be able to:
 
 ## Liberal Autonomy: One-Slide Recap
 
-The standard model of autonomy you have been working with for several weeks rests on a small number of claims that are easy to state and hard to dislodge.
+The standard model of autonomy rests on a handful of claims that are easy to state and hard to dislodge.
 
 - The patient is the **author** of her own care.
 - Valid **informed consent** requires disclosure, understanding, voluntariness, and capacity.
-- A competent adult may **refuse** medically recommended treatment, including life-saving treatment, for any reason or no reason.
+- A competent adult may **refuse** medically recommended treatment, for any reason or no reason.
 - The clinician's job in the face of a refusal is **persuasion**, not coercion.
 
-That set of commitments has done enormous moral work since the Nuremberg Code. It also, on a growing list of cases, runs out.
+That set has done enormous work since Nuremberg. It also, in a growing list of cases, runs out.
 
 ## Where the Model Works: A Single Adult Patient
 
 ::: {.columns}
 ::: {.column width="48%"}
-A fifty-year-old man with a new diagnosis of stage IV pancreatic cancer is told he has a forty percent one-year survival chance with aggressive chemotherapy. He declines. He prefers to spend his remaining time gardening. His oncologist tries twice to talk him into the protocol, then helps him enroll in hospice.
+A fifty-year-old man with stage IV pancreatic cancer is told he has a 40% one-year survival chance with aggressive chemotherapy. He declines; he prefers to spend his remaining time gardening. His oncologist tries twice to talk him into the protocol, then helps him enroll in hospice.
 
 Nothing about that scene troubles anyone in the room. The standard model handles it perfectly.
 :::
@@ -113,11 +111,11 @@ The fight is over how to honor *both* lists at once.
 
 ## Paternalism, Defined
 
-[Paternalism]{.key-term} is acting on someone's behalf, against their stated preferences, for what one takes to be their own good. The word comes from the Latin *pater* — father — and the metaphor is exact: a parent overriding a child for the child's sake.
+[Paternalism]{.key-term} is acting on someone's behalf, against their stated preferences, for what one takes to be their own good. The metaphor is exact: a parent overriding a child for the child's sake.
 
-Almost no one thinks all paternalism is wrong. Most of us accept paternalism toward small children, toward people in florid psychotic crisis, toward an unconscious patient brought to the ED. The hard question is **where it stops**.
+Almost no one thinks all paternalism is wrong. We accept it toward small children, toward people in psychotic crisis, toward an unconscious patient in the ED. The hard question is **where it stops**.
 
-The arguments below are not specific to pregnancy. They form the general framework students need before substance-use cases involving pregnant patients can be evaluated honestly.
+The framework below is not specific to pregnancy. It is what we need before the pregnancy-specific cases can be evaluated honestly.
 
 ## Mill's Harm Principle
 
@@ -140,21 +138,21 @@ The arguments below are not specific to pregnancy. They form the general framewo
 
 ## The Standard Test for Justified Paternalism
 
-Most contemporary bioethicists agree on three questions that, taken together, license a presumption against intervention.
+Three questions, taken together, license a presumption against intervention.
 
 1. Is the person **competent** — able to understand and weigh the relevant information?
 2. Is the choice **voluntary** — free from coercion, manipulation, or material misinformation?
 3. Does the harm fall on **the chooser alone**, or also on identifiable others?
 
-If the answers are *yes, yes, and chooser alone*, the standard liberal answer is: **leave the person be**. Most of the work in real cases is done by reasonable disagreement about each of these three questions.
+If the answers are *yes, yes, and chooser alone*, the liberal answer is: **leave the person be**. Most of the real work is reasonable disagreement about each question.
 
 ## Prohibition, 1920–1933
 
 ::: {.columns}
 ::: {.column width="48%"}
-The Eighteenth Amendment, ratified in 1919, prohibited the manufacture, sale, and transportation of "intoxicating liquors" in the United States. The Volstead Act gave the prohibition teeth. The amendment was repealed in 1933 by the Twenty-First, the only constitutional amendment ever fully overturned.
+The Eighteenth Amendment (1919) prohibited the manufacture, sale, and transportation of "intoxicating liquors" in the US; the Volstead Act gave it teeth. It was repealed in 1933 — the only constitutional amendment ever fully overturned.
 
-In between, alcohol consumption fell briefly and then climbed back, illegal manufacture and distribution became a major industry, federal prison populations roughly tripled, and the homicide rate reached a peak it would not match again for sixty years.
+In between, alcohol consumption fell briefly and climbed back, illegal manufacture became a major industry, federal prison populations roughly tripled, and the homicide rate hit a peak it would not match for sixty years.
 :::
 ::: {.column width="4%"}
 :::
@@ -181,35 +179,35 @@ The numbers do not, by themselves, settle the policy question. They do force a s
 
 ## Harm Reduction as a Third Frame
 
-[Harm reduction]{.key-term} is a public-health approach that accepts that some people will continue using legal or illegal substances, and tries to minimize the medical and social damage that use produces — without making continued abstinence a precondition for help.
+[Harm reduction]{.key-term} accepts that some people will continue using substances and tries to minimize the medical and social damage — without making abstinence a precondition for help.
 
 ::: {.columns}
 ::: {.column width="48%"}
 **Concrete examples:**
 
-- Naloxone (Narcan) distribution to people who use opioids and to the people around them.
-- Syringe-services programs that exchange used needles for clean ones, reducing HIV and hepatitis C transmission.
-- Methadone and buprenorphine for opioid use disorder during pregnancy, in place of forced abstinence.
-- Supervised consumption sites (legal in Canada and several European countries; piloted in New York City since 2021).
+- Naloxone (Narcan) distribution to opioid users and those around them.
+- Syringe-services programs reducing HIV and hepatitis C transmission.
+- Methadone and buprenorphine for opioid use disorder during pregnancy.
+- Supervised consumption sites (legal in Canada; piloted in NYC since 2021).
 :::
 ::: {.column width="4%"}
 :::
 ::: {.column width="48%"}
 **The philosophical signature:**
 
-Harm reduction does not require resolving the question of whether use is morally wrong. It asks a different question — what intervention, in this person, in this week, reduces the harm of continued use the most? That is a soft-paternalism move dressed in public-health clothes.
+Harm reduction does not require resolving whether use is morally wrong. It asks a different question — what intervention, in this person, this week, reduces harm the most? That is soft paternalism in public-health clothes.
 :::
 ::::
 
 ## Thought Question — Should the State Ban Tobacco?
 
 ::: {.thought-question}
-Tobacco kills roughly 480,000 Americans a year, more than all illegal drugs combined. It is sold legally to anyone over twenty-one. The FDA has the statutory authority to lower nicotine in cigarettes to non-addictive levels and has proposed, but not implemented, doing so.
+Tobacco kills roughly 480,000 Americans a year — more than all illegal drugs combined. It is sold legally to anyone over twenty-one. The FDA has authority to cut nicotine to non-addictive levels and has proposed, but not implemented, doing so.
 
 **Write or discuss.**
 
 1. Apply the three-question test (competent? voluntary? harm to chooser alone?) to a thirty-year-old smoker.
-2. What does *secondhand smoke* do to the third question, and what does it commit you to about other secondhand harms (drinking, gambling, dietary choices)?
+2. What does *secondhand smoke* do to the third question, and what does that commit you to about other secondhand harms?
 3. If you would not ban tobacco, can you coherently support criminal penalties for methamphetamine? Identify the premise you are relying on.
 :::
 
@@ -219,54 +217,67 @@ Tobacco kills roughly 480,000 Americans a year, more than all illegal drugs comb
 ::: {.column width="48%"}
 **Three live policies that turn on these questions:**
 
-- The FDA's proposed ban on **menthol cigarettes**, delayed in 2024 over concerns about disparate enforcement against Black communities.
+- The FDA's proposed **menthol cigarette** ban, delayed in 2024 over concerns about disparate enforcement.
 - State and federal restrictions on **flavored e-cigarettes**, aimed at adolescent uptake.
-- Australia's **prescription-only nicotine model** for vaping products, in force since 2024.
+- Australia's **prescription-only nicotine model** for vaping, in force since 2024.
 :::
 ::: {.column width="4%"}
 :::
 ::: {.column width="48%"}
 **What each is doing under the hood:**
 
-- The menthol case is about *secondhand* harms — uptake patterns in communities with less choice.
-- The vape restrictions are about *competence* — the choice is being made by adolescents whose voluntariness is disputed.
-- Australia's model is *soft paternalism* dressed as a clinical pathway: you can have it, you just have to go through a doctor.
+- Menthol is about *secondhand* harms — uptake patterns in communities with less choice.
+- Vape restrictions are about *competence* — the choice is made by adolescents whose voluntariness is disputed.
+- Australia is *soft paternalism* dressed as a clinical pathway: you can have it, you just have to go through a doctor.
 :::
 ::::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-A distinction worth carrying into the pregnancy block that follows.
+A distinction worth carrying into the pregnancy block.
 
-**Deterrence-of-care** is the failure mode where an enforcement policy causes the people it is nominally designed to protect to avoid the system through which protection was supposed to flow.
+**Deterrence-of-care** is the failure mode where an enforcement policy causes the people it claims to protect to avoid the system protection was supposed to flow through.
 
-When tobacco enforcement is run through criminal sanctions on the user, smokers do not stop smoking; they hide it from their doctor. When drug enforcement reaches into pregnancy, women who use substances do not stop using; they avoid prenatal care. The next forty minutes is about how that pattern plays out when the patient is pregnant.
+When tobacco enforcement targets the user, smokers do not stop smoking; they hide it from their doctor. When drug enforcement reaches into pregnancy, women do not stop using; they avoid prenatal care. The next forty minutes is about how that pattern plays out when the patient is pregnant.
 :::
 
 # Relational Autonomy {.section-divider}
 
 ## Relational Autonomy — The Critique
 
-[Relational autonomy]{.key-term} is the view, most associated with the bioethicist **Susan Sherwin**, that the liberal model of autonomy you saw on slide five describes an abstraction rather than a real person.
+[Relational autonomy]{.key-term} is the view, most associated with **Susan Sherwin**, that the liberal model describes an abstraction rather than a real person.
 
-Real autonomy is *exercised through* relationships, social positions, economic conditions, and bodies that are never fully bounded. Treating autonomy as a property of an isolated chooser misses most of what shapes a real decision — and most of what an actually-respectful clinical encounter has to attend to.
+Real autonomy is *exercised through* relationships, social positions, economic conditions, and bodies that are never fully bounded. Treating autonomy as a property of an isolated chooser misses most of what shapes a real decision.
 
 The view is not anti-autonomy. It is a richer account of what autonomy is.
 
-## Sherwin, in Her Own Words
+## Where Relational Autonomy Changes the Clinical Move
 
-::: {.quote-card}
-"Bioethics will be unable to make sense of much actual patient experience until it learns to talk about the relations within which patients are embedded. The fiction of the isolated individual making choices in a social vacuum is precisely what allows real coercion to go unseen."
+::: {.columns}
+::: {.column width="48%"}
+**The liberal model would ask:**
 
-— Susan Sherwin, *No Longer Patient: Feminist Ethics and Health Care* (1992), paraphrased gloss
+- Does the patient understand the information?
+- Has she given valid consent?
+- Has she signed?
+
+If yes, the encounter is essentially done. The clinician has discharged the duty.
 :::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**Relational autonomy adds:**
+
+- Who is in the room with her, and who is not?
+- Is the choice she is making available to her *because* of the conditions of her life, or *despite* them?
+- What changes about her choice if the conditions change?
+
+The encounter ends not when the form is signed but when those questions are answered honestly.
+:::
+::::
 
 [@sherwin1992]
-
-::: {.notes}
-Verify the quote against the 1992 text before lecturing — what's on the slide is a faithful paraphrase, not a verbatim line. If a verbatim is needed, the closest passages are in chapter 6.
-:::
 
 ## Liberal vs. Relational Autonomy
 
@@ -283,8 +294,8 @@ Verify the quote against the 1992 text before lecturing — what's on the slide 
 Pregnancy is the paradigm case where the liberal picture strains.
 
 - The chooser is bodily continuous, for nine months, with the entity her choice is partly about.
-- Most pregnancies in the United States happen to women whose economic, social, and medical circumstances are doing real work in shaping what counts as a "free" choice.
-- The medical professions speaking to her have, historically, treated her as the *gestational vehicle* of a future patient — and her advance directives, her refusals, her bodily integrity as obstacles to be managed.
+- Most US pregnancies happen to women whose economic, social, and medical circumstances do real work in shaping what counts as a "free" choice.
+- Medicine has historically treated her as the *gestational vehicle* of a future patient — and her refusals as obstacles to be managed.
 
 Relational autonomy does not tell us to override her. It tells us to take the *conditions* of her choice more seriously than the liberal model required.
 
@@ -300,7 +311,7 @@ That is the question. Every case in this section turns on it. Notice that it pre
 
 ::: {.columns}
 ::: {.column width="48%"}
-In the late 1980s, the Medical University of South Carolina, in Charleston, began a program of **covert urine drug screening** on selected pregnant patients in its prenatal clinic. Positive results were forwarded to police. The criteria for selection — written by MUSC staff and approved by the local solicitor — included markers like "incomplete prenatal care" and "no prenatal care."
+In the late 1980s, MUSC in Charleston began a program of **covert urine drug screening** on selected pregnant patients in its prenatal clinic. Positive results were forwarded to police. The selection criteria — written by MUSC staff and approved by the local solicitor — included markers like "no prenatal care."
 
 Ten of the eleven women arrested under the program were Black. The eleventh was a white woman whose chart noted that she "lives with her boyfriend, who is a Negro."
 :::
@@ -328,18 +339,18 @@ The Supreme Court decided in 2001.
 ## Wisconsin Act 292 — The "Cocaine Mom" Law
 
 ::: {.context-box}
-**Wisconsin Act 292 (1997, codified at Wis. Stat. § 48.193).** Permits the civil detention of a pregnant woman if a court finds *probable cause* that she has used a controlled substance "to a severe degree" and is unwilling to accept treatment. The woman has no right to appointed counsel until forty-eight hours into the detention. The fetus, by contrast, is appointed a guardian *ad litem* at the outset of the proceeding.
+**Wisconsin Act 292 (1997).** Permits civil detention of a pregnant woman if a court finds *probable cause* she has used a controlled substance "to a severe degree" and is unwilling to accept treatment. She has no right to appointed counsel until forty-eight hours in. The fetus, by contrast, is appointed a guardian *ad litem* at the outset.
 
-The statute remains in force as of 2025. Federal challenges have been litigated; the most recent Seventh Circuit ruling (2023) sent the case back without resolving the constitutional question.
+The statute remains in force. The most recent Seventh Circuit ruling (2023) sent the case back without resolving the constitutional question.
 :::
 
 ## Alabama's Chemical Endangerment Statute
 
-Alabama's chemical-endangerment law was enacted in 2006 to punish adults who exposed children to the toxic chemicals used in clandestine methamphetamine production. Within five years, the statute was being used by Alabama prosecutors to charge **pregnant women** whose newborns tested positive for any controlled substance — interpreting the unborn child as the "child" the statute was designed to protect.
+Alabama's chemical-endangerment law was enacted in 2006 to punish adults who exposed children to the toxic chemicals of clandestine meth production. Within five years, prosecutors were using it to charge **pregnant women** whose newborns tested positive for any controlled substance — reading the unborn child as the protected "child."
 
-The Alabama Supreme Court affirmed this reading in *Ex parte Ankrom* (2013). Prosecutions accelerated. Between 2006 and 2022, several hundred women — disproportionately poor and rural — were convicted under the statute, with sentences ranging from probation to ten years.
+The Alabama Supreme Court affirmed this reading in *Ex parte Ankrom* (2013). Prosecutions accelerated. Between 2006 and 2022, several hundred women — disproportionately poor and rural — were convicted, with sentences from probation to ten years.
 
-The statute is, in form, identical to the one used against meth-lab operators. Its application to pregnant women was a prosecutorial choice, not a legislative one.
+The statute is identical in form to the one used against meth-lab operators. Its application to pregnant women was a prosecutorial choice, not a legislative one.
 
 ## Tennessee's Fetal Assault Law — Rise and Fall
 
@@ -366,15 +377,15 @@ The deterrence-of-care concept from earlier in the lecture has a body count.
 
 ::: {.columns}
 ::: {.column width="60%"}
-Lynn Paltrow and Jeanne Flavin documented **1,396 arrests and forced interventions on pregnant women** in the United States between 1973 and 2005, in a landmark 2013 study in the *Journal of Health Politics, Policy and Law*. Pregnancy Justice (formerly NAPW) has continued the tracking; the pace has accelerated post-*Dobbs*.
+Paltrow and Flavin documented **1,396 arrests and forced interventions on pregnant women** in the US between 1973 and 2005 — a landmark 2013 study in *JHPPL*. Pregnancy Justice has continued the tracking; the pace has accelerated post-*Dobbs*.
 
 Of the documented cases:
 
-- 71% of the women were classified as low-income.
+- 71% of the women were low-income.
 - 59% were women of color.
-- The most common charge was drug-related; the second was refusal of medically recommended care.
+- The most common charge was drug-related; the second was refusal of care.
 
-Dorothy Roberts's *Killing the Black Body* (1997) is the canonical analysis of why these enforcement patterns track race and class. The justice principle returns later in the course.
+Dorothy Roberts's *Killing the Black Body* (1997) is the canonical analysis of why these patterns track race and class.
 :::
 ::: {.column width="4%"}
 :::
@@ -390,7 +401,7 @@ Dorothy Roberts's *Killing the Black Body* (1997) is the canonical analysis of w
 ## Brittney Poolaw, Oklahoma, 2021
 
 ::: {.quote-card}
-In October 2021, a Comanche County jury convicted Brittney Poolaw, twenty-one, of first-degree manslaughter for the loss of a pregnancy at approximately seventeen weeks. The medical examiner's report could not identify a specific cause; methamphetamine and amphetamine metabolites were detected in fetal tissue at levels the toxicologist himself testified were not clearly causal. The pregnancy loss occurred at a stage at which roughly twenty percent of pregnancies end on their own. Poolaw was sentenced to four years.
+In October 2021, a Comanche County jury convicted Brittney Poolaw, twenty-one, of first-degree manslaughter for a pregnancy loss at approximately seventeen weeks. The medical examiner could not identify a cause; meth and amphetamine metabolites were detected in fetal tissue at levels the toxicologist himself testified were not clearly causal. Pregnancy loss at this stage occurs on its own in roughly twenty percent of cases. Poolaw was sentenced to four years.
 
 — Pregnancy Justice case summary; *State v. Poolaw*, Comanche Co. CF-2020-114
 :::
@@ -423,7 +434,7 @@ ACOG's normative claim and the population-level data point the same way. That co
 ## Thought Question — A Patient on Methamphetamine
 
 ::: {.thought-question}
-You are the L&D charge nurse on a Tuesday night shift. A thirty-two-week-pregnant patient arrives in early labor. Her urine tox is positive for methamphetamine. She has had three prenatal visits over the course of the pregnancy, no other complications, and tells you she used "yesterday, maybe the day before." Your state has mandatory reporting of in-utero drug exposure to child-protective services, with hospital discretion about whether to involve police.
+You are the L&D charge nurse on a Tuesday night. A 32-week-pregnant patient arrives in early labor. Her urine tox is positive for methamphetamine. She has had three prenatal visits, no other complications, and tells you she used "yesterday, maybe the day before." Your state has mandatory reporting of in-utero drug exposure to CPS; the hospital has discretion about police involvement.
 
 **Write or discuss.**
 
@@ -456,24 +467,24 @@ The professional medical position has not changed. The legal environment in whic
 ## After You've Discussed
 
 ::: {.callout-note}
-A distinction the body of the lecture has been circling without quite saying.
+A distinction the body of the lecture has been circling.
 
-When a pregnant patient and her medical team disagree, there are at least three different *kinds* of disagreement, and they call for different responses:
+When a pregnant patient and her team disagree, there are three different *kinds* of disagreement that call for different responses:
 
-- **Disagreement about the facts.** ("That medication will harm my fetus." It will not. Or it will, but less than the disease.) The remedy is *persuasion* and better information.
-- **Disagreement about the values.** ("Even though the medication is safer than the disease, I want to take my chances.") The remedy, in the standard model, is *respect for refusal*.
-- **Disagreement about whose interests count.** ("Your refusal will harm a third party — your fetus — who cannot speak for itself.") This is where the litigation lives. And this is where ACOG's modern position is: not that fetal interests do not exist, but that *coercion of the pregnant patient* is almost never the right response to them.
+- **About the facts.** ("That medication will harm my fetus." It won't, or it will less than the disease.) The remedy is *persuasion* and better information.
+- **About the values.** ("Even though the medication is safer, I want to take my chances.") The remedy is *respect for refusal*.
+- **About whose interests count.** ("Your refusal will harm your fetus, who cannot speak.") This is where the litigation lives — and where ACOG's modern position lands: fetal interests exist, but *coercion of the patient* is almost never the right response to them.
 :::
 
 # Refusal of Recommended Obstetric Care {.section-divider}
 
 ## When the Doctor Says Yes and the Patient Says No
 
-Three families of cases recur in the literature. They look superficially similar and are ethically and legally different.
+Three families of cases recur. They look superficially similar and are ethically and legally different.
 
-- **Refusal of cesarean delivery.** The clinician believes a section is medically indicated; the patient prefers vaginal delivery or no delivery at all.
-- **Refusal of transfusion.** Most commonly a Jehovah's Witness patient with peripartum hemorrhage; the standard model would honor the refusal; the presence of pregnancy has, historically, been used to override it.
-- **Refusal of medical management for ruptured membranes or previa.** Bedrest, hospitalization, cerclage — interventions whose burdens fall almost entirely on the patient and whose benefits are statistical and indirect.
+- **Refusal of cesarean.** The clinician believes a section is indicated; the patient prefers vaginal delivery, or no delivery at all.
+- **Refusal of transfusion.** Most commonly a Jehovah's Witness with peripartum hemorrhage; the standard model honors the refusal; pregnancy has historically been used to override it.
+- **Refusal of management for ruptured membranes or previa.** Bedrest, hospitalization, cerclage — burdens almost entirely on the patient, benefits statistical and indirect.
 
 The foundational case for all three is *In re A.C.* (1990).
 
@@ -481,9 +492,9 @@ The foundational case for all three is *In re A.C.* (1990).
 
 ::: {.columns}
 ::: {.column width="48%"}
-Angela Carder was twenty-seven years old, twenty-six weeks pregnant, and dying of metastatic cancer when she was admitted to George Washington University Hospital in 1987. Her oncologist had treated her since adolescence. The plan, agreed to by Carder, her family, and her medical team, was palliation.
+Angela Carder was twenty-seven, twenty-six weeks pregnant, and dying of metastatic cancer when she was admitted to George Washington University Hospital in 1987. Her oncologist had treated her since adolescence. The agreed plan was palliation.
 
-Hospital administrators sought a court order to perform a cesarean section without her consent, on the grounds that the fetus might be viable. A trial-court hearing was convened in the hospital corridor. The order was granted. The cesarean was performed. The infant lived approximately two hours. Carder died two days later. The cesarean was listed on the death certificate as a contributing cause.
+Hospital administrators sought a court order for a non-consensual cesarean, on the grounds that the fetus might be viable. The hearing was convened in the hospital corridor. The order was granted. The cesarean was performed. The infant lived two hours. Carder died two days later. The cesarean was listed on her death certificate as a contributing cause.
 :::
 ::: {.column width="4%"}
 :::
@@ -516,11 +527,11 @@ The opinion has the additional pedagogical virtue of being *short*. Most student
 
 ## Burton v. State (Florida, 2009–2010)
 
-If *A.C.* feels like a 1980s artifact, **Samantha Burton** is the case that shows it is not.
+If *A.C.* feels like a 1980s artifact, **Samantha Burton** shows it is not.
 
-In 2009, Samantha Burton was twenty-five weeks pregnant when her membranes ruptured. Her physician at Tallahassee Memorial recommended hospitalization and bedrest. Burton — who had two other children at home, no childcare, and a job she could not afford to lose — asked to be discharged so she could seek a second opinion. The hospital obtained a court order, in an emergency hearing held by telephone, compelling her to remain. She remained in the hospital for three days, against her will. Her fetus was delivered stillborn by emergency cesarean.
+In 2009, Burton was twenty-five weeks pregnant when her membranes ruptured. Her physician at Tallahassee Memorial recommended hospitalization and bedrest. Burton — two other children at home, no childcare, a job she could not afford to lose — asked to be discharged for a second opinion. The hospital obtained a court order by telephone compelling her to remain. She stayed three days against her will; her fetus was delivered stillborn by emergency cesarean.
 
-The Florida District Court of Appeal **vacated the trial court's order** in 2010, holding that even the state's interest in potential life "cannot override Burton's right to make her own medical treatment decisions." [@burton_florida2010]
+The Florida District Court of Appeal **vacated the order** in 2010, holding that even the state's interest in potential life "cannot override Burton's right to make her own medical treatment decisions." [@burton_florida2010]
 
 ## Thought Question — A Refused Cesarean at Thirty-Eight Weeks
 
@@ -538,9 +549,9 @@ What is your script for the next ten minutes? What are you *not* willing to do, 
 
 ::: {.columns}
 ::: {.column width="48%"}
-On November 26, 2013, Marlise Muñoz collapsed in her kitchen from what was later determined to be a pulmonary embolism. She was thirty-three years old and fourteen weeks pregnant. Paramedics restored cardiac activity en route to John Peter Smith Hospital. By the next morning, she met clinical criteria for whole-brain death.
+On November 26, 2013, Marlise Muñoz collapsed in her kitchen from what was later determined to be a pulmonary embolism. She was 33 and fourteen weeks pregnant. Paramedics restored cardiac activity en route to John Peter Smith Hospital. By morning, she met criteria for whole-brain death.
 
-Her husband Erick — a paramedic — and her parents requested withdrawal of mechanical support, consistent with her previously expressed wishes as a healthcare worker familiar with end-of-life cases.
+Her husband Erick — a paramedic — and her parents requested withdrawal of support, consistent with her previously expressed wishes.
 
 The hospital refused, citing the Texas Advance Directives Act.
 :::
@@ -572,23 +583,23 @@ The point is sharp and worth thinking with. Texas's statute does not, on its fac
 
 > "A person may not withdraw or withhold life-sustaining treatment under this subchapter from a pregnant patient."
 
-The statute has no carve-out for brain-dead patients, no carve-out for non-viable pregnancies, and no mechanism by which a pregnant woman's advance directive can override it. Texas is one of approximately a dozen U.S. states with comparable statutory language as of 2025.
+No carve-out for brain-dead patients, no carve-out for non-viable pregnancies, no mechanism for an advance directive to override it. Roughly a dozen US states have comparable statutory language as of 2025.
 
-A 2014 effort by Texas legislators to amend the statute, in the immediate wake of the Muñoz case, failed in committee. A 2023 effort failed for similar reasons.
+A 2014 effort to amend the statute failed in committee; a 2023 effort failed for similar reasons.
 :::
 
 ## Bridge
 
 ::: {.columns}
 ::: {.column width="48%"}
-**The case study you'll read this week** is on Marlise Muñoz and Texas's fetal-protection statute. It picks up where this slide leaves off — what the family fought for, how the legal argument was built, what changed afterward, and what has not.
+**The case study for this week** is on Marlise Muñoz and Texas's fetal-protection statute. It picks up where this slide leaves off — what the family fought for, how the argument was built, what changed afterward, and what has not.
 
-It pairs with this lecture. Read it before our next meeting.
+Read it before our next meeting.
 :::
 ::: {.column width="4%"}
 :::
 ::: {.column width="48%"}
-**Later in the course**, when we turn to brain death and advance directives in their own right, Muñoz returns. The questions raised by pregnancy and the questions raised by end-of-life care overlap exactly here — at the body that the law has decided is partly its own and partly something else's.
+**Later in the course**, when we turn to brain death and advance directives, Muñoz returns. The questions of pregnancy and the questions of end-of-life care overlap exactly here — at the body the law has decided is partly its own and partly something else's.
 :::
 ::::
 
@@ -596,9 +607,9 @@ It pairs with this lecture. Read it before our next meeting.
 
 ## The Other Side of "Vulnerability"
 
-The same word that has, for fifty years, protected pregnant women from being recruited into risky trials has also, for fifty years, kept them out of the evidence base for medicine they actually take.
+The same word that for fifty years protected pregnant women from risky trials has, for fifty years, kept them out of the evidence base for medicine they take.
 
-When we discussed protections for research subjects earlier in the course, "vulnerability" appeared as a *reason to be careful*. It has a second face. Exclusion can be a form of harm — when it leaves a class of patients without the evidence base their care requires. The category cuts both ways. The next three slides walk that second face.
+Earlier in the course, "vulnerability" appeared as a *reason to be careful*. It has a second face. Exclusion is a form of harm when it leaves a class of patients without an evidence base for their care. The next three slides walk that second face.
 
 ## Why Pregnant Women Were Excluded
 
@@ -612,24 +623,26 @@ When we discussed protections for research subjects earlier in the course, "vuln
 ## PRGLAC (2018) and the FDA's Reframing
 
 ::: {.callout-important}
-**Task Force on Research Specific to Pregnant Women and Lactating Women, 2018 Report to Congress (PRGLAC).**
+**PRGLAC Task Force, 2018 Report to Congress.**
 
-Of the prescription medications in common use during pregnancy, approximately **95 percent lack adequate pregnancy-specific safety and dosing data**. The task force concluded that the dominant paradigm of "protection by exclusion" had failed both pregnant women (who receive medications without an evidence base) and the medical profession (which prescribes them anyway).
+Of prescription medications in common use during pregnancy, roughly **95% lack adequate pregnancy-specific safety and dosing data**. The task force concluded that "protection by exclusion" had failed both pregnant women (who receive the medications anyway) and the profession (which prescribes them anyway).
 
-The FDA's 2018 draft guidance — issued contemporaneously — re-framed the inclusion of pregnant participants as the default, with exclusion requiring justification rather than the reverse.
+The FDA's 2018 draft guidance, issued contemporaneously, made inclusion of pregnant participants the default, with exclusion requiring justification.
 :::
 
 [@prglac2018]
 
-## Exclusion Itself as Harm
+## What the Evidence Gap Looks Like in Practice
 
-::: {.quote-card}
-"The framing of pregnant women as paradigmatically vulnerable has produced a research enterprise that knows astonishingly little about how the drugs we prescribe to them actually work. Protection without evidence is not protection."
+| Drug class | Pregnancy use | Pregnancy-specific safety/dosing data |
+|---|---|---|
+| **SSRIs** (sertraline, fluoxetine) | ~6% of US pregnancies | Observational only; no RCTs; debate ongoing about neonatal effects |
+| **Antihypertensives** | ~9% of US pregnancies (chronic + gestational) | Labetalol and nifedipine have decades of use without trial data; ACE inhibitors known to be teratogenic |
+| **Anti-seizure medications** | ~0.5% of US pregnancies | Most pregnancy data come from voluntary registries, not trials |
+| **Heparin / anticoagulants** | Common in high-risk pregnancies | Dosing largely extrapolated from non-pregnant adults |
+| **COVID-19 vaccines and antivirals** | Recommended in pregnancy | Pregnant women excluded from pivotal trials; post-marketing data only |
 
-— paraphrasing Lyerly, Little & Faden (2008) and the PRGLAC framing
-:::
-
-The same justice principle that warns against *wrongful exploitation* — including pregnant women in trials when the burdens fall on them and the benefits on others — warns equally against *wrongful exclusion*: keeping them out of the evidence base their own care depends on. The category that students saw earlier in the course returns here in inverted form.
+The same justice principle that warns against *wrongful exploitation* — burdens on pregnant women, benefits on others — warns equally against *wrongful exclusion*: keeping them out of the evidence base their own care depends on.
 
 # Wrap {.section-divider}
 
@@ -662,6 +675,32 @@ The same justice principle that warns against *wrongful exploitation* — includ
 The same word — *autonomy* — does different work in each terrain. The framework you have today is what tells you which work it is doing.
 :::
 ::::
+
+## Review Questions
+
+Write a brief answer to each, or use them as discussion prompts.
+
+::: {.review-questions}
+
+::: {.review-item .review-recall}
+[Recall]{.review-label}
+
+Distinguish *soft* from *hard* paternalism, and explain why a *deterrence-of-care* objection treats most prenatal criminal-law interventions as failures even on their own protective terms.
+:::
+
+::: {.review-item .review-apply}
+[Apply]{.review-label}
+
+A 30-week pregnant patient with opioid use disorder declines residential treatment, citing care of her two other children, but agrees to outpatient buprenorphine and weekly visits. A nurse asks whether she should file a child-welfare report "to be safe." Using harm reduction and relational autonomy, lay out the case for and against filing, and identify what concrete information about state law you would need before answering.
+:::
+
+::: {.review-item .review-debate}
+[Debate]{.review-label}
+
+Pregnant people have been systematically excluded from clinical trials in the name of protecting the fetus, leaving most drugs used in pregnancy without adequate evidence in pregnant bodies. Is the "vulnerability as exclusion" status quo more protective or more harmful, and what should the default be for new trials of non-teratogenic drugs likely to be used in pregnancy?
+:::
+
+:::
 
 ## Key Terms
 

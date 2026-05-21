@@ -647,6 +647,20 @@ Should global-health funding be directed mainly by cost-effectiveness calculatio
 
 :::
 
+## Key Terms
+
+- **Consequentialism** — the family of theories on which the rightness of an act depends on its outcomes.
+- **Utilitarianism** — the consequentialist view that the right act maximizes overall well-being.
+- **Preference utilitarianism** — the version that counts the satisfaction of preferences, not pleasure, as the relevant good.
+- **Principle of equal consideration of interests** — like interests count equally, regardless of whose interests they are.
+- **Speciesism** — Singer's term for giving lower weight to a being's interests simply because of species membership.
+- **Person (in Singer's sense)** — a being with self-awareness over time, capable of having preferences about its future.
+- **Deontology** — the family of theories on which some acts are right or wrong independent of consequences.
+- **Categorical Imperative** — Kant's test: act only on a maxim you could will to be a universal law, and treat humanity always as an end, never merely as a means.
+- **Virtue ethics** — the view that ethics centers on character traits (virtues) rather than rules or outcomes.
+- **Eudaimonia** — Aristotle's term for human flourishing, the end virtue serves.
+- **Care ethics** — the view that morality is grounded in concrete relationships of care and responsibility, not impartial rules.
+
 ## References
 
 ::: {#refs}

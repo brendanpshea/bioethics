@@ -608,6 +608,19 @@ Do health systems and governments owe material repair for past medical abuses su
 
 :::
 
+## Key Terms
+
+- **Paternalism** — overriding a person's choices for what is judged to be their own good.
+- **Eugenics** — the early-20th-century project of "improving" the population by controlling who reproduces; underwrote forced sterilization laws.
+- **Nuremberg Code (1947)** — the ten-point statement issued after the Nazi doctors' trial; first to require voluntary consent of the human subject.
+- **Declaration of Helsinki** — the World Medical Association's research-ethics statement (1964, repeatedly revised), addressing consent, risk, and obligations to subjects.
+- **Willowbrook hepatitis study** — research at a NY institution for children with intellectual disabilities, criticized for coerced consent and deliberate infection.
+- **Beecher's exposé (1966)** — Henry Beecher's *NEJM* article cataloguing 22 unethical studies in mainstream U.S. medicine.
+- **Tuskegee Study (1932–1972)** — USPHS study of untreated syphilis in Black men in Alabama; subjects deceived and denied penicillin after it became standard.
+- **Belmont Report (1979)** — National Commission report naming the three principles of research ethics: respect for persons, beneficence, justice.
+- **IRB (Institutional Review Board)** — the committee that reviews and approves human-subjects research at an institution.
+- **Bioethics** — the field that emerged in the 1970s in response to these scandals and to new biomedical capacities.
+
 ## References
 
 ::: {#refs}

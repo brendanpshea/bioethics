@@ -108,11 +108,15 @@ These are not problems Wicclair or Brock anticipated. The framework they built f
 
 ## Discussion Questions
 
-1. Reconstruct the Integrity Argument for Refusal and the Argument for Conscientious Provision in standard form. Identify the premise the two arguments share, and explain whether you think the post-*Dobbs* legal environment changes which side that shared premise actually supports.
-2. Stahl and Emanuel argue that clinicians who cannot meet a profession's obligations should leave the specialty. Does that response work for a clinician whose state legislature changed the relevant law after she completed her training? Construct the strongest version of the response that defends them, and the strongest version that does not.
-3. Pressure-test Brock's "conventional compromise." Identify the background condition the compromise assumes, and describe a present-day case in which that condition does not hold. Does the compromise survive in modified form, or does it have to be abandoned?
-4. You are a labor-and-delivery nurse in a Catholic hospital in a state with a near-total abortion ban. An ER patient is admitted at seventeen weeks with ruptured membranes, no fetal cardiac activity expected to stop for another day or two, and rising white-cell counts. Hospital policy and state law both require waiting. Your professional judgment tells you the patient is heading toward sepsis. What do you do, and what argument from the dialogue above are you implicitly relying on?
-5. Catholic hospital systems describe themselves as institutional conscience-bearers. Many state legislatures describe their abortion statutes as expressions of the moral conscience of the people. Apply the integrity argument to one of these — an institution or a state — and decide whether it carries over, or whether conscience is the kind of thing only individual persons can have. Defend your answer.
+1. Write out the **Integrity Argument for Refusal** and the **Argument for Conscientious Provision** in your own words — premises first, then the conclusion. The two arguments share one premise. Identify it. Then say whether the post-*Dobbs* legal environment changes which side that shared premise now supports.
+
+2. Stahl and Emanuel argue that clinicians who cannot meet a profession's obligations should leave the specialty. Does that response work for Damla Karsan — who completed her training years before Texas changed its abortion law? Give the strongest version of Stahl and Emanuel's reply to Karsan. Then give the strongest version of Karsan's reply back.
+
+3. Brock's **conventional compromise** says a clinician may refuse to provide care she objects to, as long as she refers the patient to someone who will. Brock's rule depends on one assumption about the world that has to be true for the rule to work. What is that assumption? Describe a present-day case where the assumption no longer holds. Does the compromise still work in some modified form, or does it have to be abandoned?
+
+4. You are a labor-and-delivery nurse in a Catholic hospital in a state with a near-total abortion ban. An ER patient is admitted at seventeen weeks. Her membranes have ruptured. The fetus still has a heartbeat, likely to stop on its own in a day or two. Her white-blood-cell count is rising — an early sign of infection. Hospital policy and state law both require waiting. Your professional judgment tells you the patient is heading toward sepsis. What do you do? Which argument from the case is doing the work in your answer?
+
+5. Catholic hospital systems describe themselves as institutions with a conscience. Many state legislatures describe their abortion statutes as expressions of the moral conscience of the people who voted for them. The integrity argument was built for *individual* people with consciences. Does it carry over to an institution or to a state? Pick one and defend your answer.
 
 ## Further Reading
 

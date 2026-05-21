@@ -461,6 +461,45 @@ Three payoffs to insist on:
 Clinical research is not ordinary care with extra paperwork. Its purpose is to produce reliable knowledge, which is why it uses randomization, control groups, blinding, and staged phases — visible in one real instrument, the 1954 polio trial, and again in the COVID-19 vaccine trials. Those same tools also teach you to *read* a study: clinical versus surrogate endpoints, whether a result could be chance, and who dropped out or was left out. The key task in Part A is learning to say, clearly and without panic: this is research, not just treatment by another name — and here is how good its evidence actually is.
 :::
 
+## Review Questions
+
+Write a brief answer to each, or use them as discussion prompts.
+
+::: {.review-questions}
+
+::: {.review-item .review-recall}
+[Recall]{.review-label}
+
+What is *clinical equipoise*, and why is it the standard ethical condition for randomizing patients between two arms of a trial?
+:::
+
+::: {.review-item .review-apply}
+[Apply]{.review-label}
+
+A community oncologist enrolls her own patients in an industry-sponsored Phase III trial of a new chemotherapy regimen and continues to manage their routine care. Identify two specific ways her dual role as physician-investigator could distort either the science or the patients' decision to enroll, and propose one structural safeguard for each.
+:::
+
+::: {.review-item .review-debate}
+[Debate]{.review-label}
+
+When a Phase III trial shows a clear mortality benefit at an interim look, the data safety monitoring board may stop the trial early and offer the better arm to everyone. Critics argue this often happens too soon — before long-term harms are visible — and that finishing the trial would better serve future patients. When should "stop early for benefit" win, and when should "let the science finish" win?
+:::
+
+:::
+
+## Key Terms
+
+- **Clinical care** — what a clinician does to benefit *this* patient.
+- **Clinical research** — what an investigator does to produce generalizable knowledge about a class of patients.
+- **Physician-investigator** — a clinician who simultaneously occupies both roles; the source of the structural conflict at the heart of research ethics.
+- **Clinical equipoise** — genuine uncertainty in the expert community about which trial arm is better; the standard justification for randomizing.
+- **Randomization** — assigning subjects to study arms by chance, to keep known and unknown differences balanced.
+- **Blinding** — concealing arm assignment from subjects (single-blind) and/or from clinicians and assessors (double-blind), to prevent expectation-driven distortion.
+- **Phases I–IV** — first-in-human safety (I), small efficacy and dose-finding (II), pivotal efficacy and safety (III), post-marketing surveillance (IV).
+- **Clinical vs. surrogate endpoint** — outcomes patients feel (death, MI, stroke) versus measurable proxies (LDL, tumor shrinkage) that may or may not track them.
+- **Data safety monitoring board (DSMB)** — an independent panel that reviews unblinded interim data and may stop a trial for harm, benefit, or futility.
+- **Therapeutic misconception** — the patient's mistaken belief that decisions in a trial are being made for *their* individual benefit rather than to answer a research question.
+
 ## References
 
 ::: {#refs}

@@ -150,11 +150,15 @@ Rubin's case does not refute Cowart — two psychiatrists found *he* had capacit
 
 ## Discussion Questions
 
-1. Reconstruct **The Autonomy Argument** and **The Beneficence / Temporary-Incapacity Reply** in your own words. They share no disputed premise except one — identify it, and say what kind of evidence (clinical, philosophical, statistical) could actually settle it.
-2. Cowart said he was glad to be alive *and* that his rights had been violated. Using the idea of **moral residue**, explain why this is not a contradiction — and say what it implies for how we should judge paternalistic decisions that "turned out fine."
-3. The Beneficence Reply uses a statistical generalization ("most such patients are later glad") to override one individual. When, if ever, is it legitimate to apply a true generalization about a group to the particular person in front of you? What principle are you relying on?
-4. You are the nurse assigned to Cowart's daily tank treatment. He has just told you, again, that he wants it to stop and wants to die. Drawing on the **virtues of a good nurse** and **Burt's relational counter**, what do you owe him in that moment that the institution does not — and what, concretely, do you do?
-5. Apply the Arnold–Menzel procedure to Andrea Rubin's case. Does the procedure yield the outcome Rubin endorses? If it does not, is that a flaw in the procedure, a difference between the two patients, or evidence that the argument Dax started is still unresolved?
+1. Write out **The Autonomy Argument** and **The Beneficence Reply** in your own words — premises first, then the conclusion. The two arguments disagree about one thing: whether Cowart was *competent* to refuse during his treatment. Then say what kind of evidence — clinical, philosophical, or statistical — could actually settle that question.
+
+2. After he recovered, Cowart said two things: he was glad to be alive, and his rights had been violated. The idea of **moral residue** says a decision can turn out fine and still leave a moral debt behind. Use that idea to explain why his two statements are not a contradiction. What does the idea tell us about paternalistic decisions that "turned out fine"?
+
+3. The Beneficence Reply uses a generalization about a group — "most patients in Cowart's situation are later glad they were treated" — to override one person's choice. When, if ever, is it fair to apply a true generalization about a group to the specific person in front of you? What principle are you relying on?
+
+4. You are the nurse assigned to Cowart's daily tank treatment. He has just told you again that he wants it to stop and wants to die. What do you owe him in that moment that the institution does not? What, concretely, do you do?
+
+5. Apply the Arnold–Menzel procedure to Andrea Rubin's case. Does the procedure give the answer Rubin would endorse? If not, what does the mismatch tell you — is the procedure flawed, is Rubin's case importantly different from Cowart's, or is the argument Cowart started still open?
 
 ## Further Reading
 

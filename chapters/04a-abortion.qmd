@@ -614,27 +614,6 @@ We learned a tool — standard form — and used it on four classical arguments.
 :::
 
 
-## Key Terms
-
-- **Standard form** — an argument written as numbered premises and a marked conclusion, so the inference is visible.
-- **Valid / sound** — *valid* = conclusion follows from premises; *sound* = valid plus all premises true.
-- **Moral status** — the property of mattering, morally, in one's own right.
-- **Personhood (Warren's sense)** — having a significant set of consciousness, reasoning, self-motivated activity, communication, self-awareness.
-- **Future like ours (Marquis)** — a future containing the kinds of experiences and projects that make adult human futures valuable.
-- **Bodily autonomy (Thomson)** — the right to determine what may be done with and to one's body, even when another's life depends on it.
-- **Virtue ethics (Hursthouse)** — the view that right action is what a fully virtuous person would characteristically do.
-
-## Further Reading
-
-Accessible follow-ups beyond the works cited.
-
-- Beckwith, Francis J. *Defending Life: A Moral and Legal Case Against Abortion Choice.* Cambridge University Press, 2007.
-- Boonin, David. *A Defense of Abortion.* Cambridge University Press, 2003.
-- Kamm, Frances M. *Creation and Abortion.* Oxford University Press, 1992.
-- Little, Margaret Olivia. "Abortion, Intimacy, and the Duty to Gestate." *Ethical Theory and Moral Practice* 2 (1999): 295–312.
-- Harman, Elizabeth. "The Ethics of Abortion." *Stanford Encyclopedia of Philosophy* (2025). [@harman_sep_abortion]
-- Gordon, John-Stewart. "Abortion." *Internet Encyclopedia of Philosophy*. [@gordon_iep_abortion]
-
 ## Review Questions
 
 Write a brief answer to each, or use them as discussion prompts.
@@ -660,6 +639,27 @@ Some critics charge that Thomson's violinist case proves too much: if it justifi
 :::
 
 :::
+
+## Key Terms
+
+- **Standard form** — an argument written as numbered premises and a marked conclusion, so the inference is visible.
+- **Valid / sound** — *valid* = conclusion follows from premises; *sound* = valid plus all premises true.
+- **Moral status** — the property of mattering, morally, in one's own right.
+- **Personhood (Warren's sense)** — having a significant set of consciousness, reasoning, self-motivated activity, communication, self-awareness.
+- **Future like ours (Marquis)** — a future containing the kinds of experiences and projects that make adult human futures valuable.
+- **Bodily autonomy (Thomson)** — the right to determine what may be done with and to one's body, even when another's life depends on it.
+- **Virtue ethics (Hursthouse)** — the view that right action is what a fully virtuous person would characteristically do.
+
+## Further Reading
+
+Accessible follow-ups beyond the works cited.
+
+- Beckwith, Francis J. *Defending Life: A Moral and Legal Case Against Abortion Choice.* Cambridge University Press, 2007.
+- Boonin, David. *A Defense of Abortion.* Cambridge University Press, 2003.
+- Kamm, Frances M. *Creation and Abortion.* Oxford University Press, 1992.
+- Little, Margaret Olivia. "Abortion, Intimacy, and the Duty to Gestate." *Ethical Theory and Moral Practice* 2 (1999): 295–312.
+- Harman, Elizabeth. "The Ethics of Abortion." *Stanford Encyclopedia of Philosophy* (2025). [@harman_sep_abortion]
+- Gordon, John-Stewart. "Abortion." *Internet Encyclopedia of Philosophy*. [@gordon_iep_abortion]
 
 ## References
 

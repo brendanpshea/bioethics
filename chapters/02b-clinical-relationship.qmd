@@ -649,6 +649,17 @@ Should patients usually get near-immediate electronic access to clinicians' note
 
 :::
 
+## Key Terms
+
+- **Paternalistic model** — Emanuel & Emanuel's first model: the clinician decides what is best and presents only the recommended course.
+- **Informative model** — the clinician supplies the facts and the patient chooses; values are treated as the patient's private business.
+- **Interpretive model** — the clinician helps the patient clarify and articulate values, then maps them to options.
+- **Deliberative model** — the clinician engages the patient in moral discussion about which health-related values are best worth pursuing.
+- **Informed consent** — a valid authorization with four elements: disclosure, understanding, voluntariness, and competence/capacity.
+- **Capacity** — the clinical judgment that a patient can understand, appreciate, reason about, and communicate a choice; decision-specific, not global.
+- **Confidentiality** — the duty to protect information patients share in the clinical relationship.
+- **HIPAA** — the U.S. statute setting baseline rules for the privacy and security of identifiable health information.
+
 ## References
 
 ::: {#refs}

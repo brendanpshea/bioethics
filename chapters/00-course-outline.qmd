@@ -186,7 +186,7 @@ The lecture is built around a single question — *what does respect for autonom
 - **Justified paternalism — a primer.** Mill's harm principle and its limits; soft vs. hard paternalism; the U.S. experience with alcohol prohibition (1920–33) and the modern war on drugs; harm reduction as a third frame. Background for the pregnancy-specific debates that follow.
 - **Criminalization of substance use in pregnancy:** *Ferguson v. City of Charleston* (2001, MUSC's covert drug-testing program struck down); Wisconsin's Act 292 ("cocaine mom" law, 1997–present); Alabama's chemical-endangerment statute; Tennessee's expired fetal-assault law and its public-health rebound; *Brittney Poolaw* (Oklahoma, 2021, manslaughter conviction for a miscarriage after methamphetamine use). Pregnancy Justice's documentation of roughly 1,400 pregnancy-related criminalization cases between 1973 and 2020.
 - **Refusal of medically recommended care during pregnancy:** *In re A.C.* (DC, 1990, court-ordered cesarean later repudiated on appeal); ACOG Committee Opinion 664 and the modern professional consensus against forced obstetric intervention.
-- **Brain death and pregnancy:** *Marlise Muñoz* (Texas, 2013–14) — fetal-protection statutes vs. advance directives; preview of the case study that pairs with this lecture, and a quick bridge to L7.
+- **Brain death and pregnancy:** *Marlise Muñoz* (Texas, 2013–14) as the precedent; *Adriana Smith* (Atlanta, 2025) — a Black registered nurse declared brain-dead at nine weeks pregnant and kept on somatic support for four months under a contested reading of Georgia's LIFE Act. Preview of the case study; quick bridge to L7.
 - **Vulnerability the other way: research exclusion.** Pregnant women were historically excluded from clinical trials as "vulnerable," with the result that we have almost no safety data on most prescription drugs in pregnancy. The 2018 PRGLAC report reframed exclusion *itself* as the harm — a callback to L3's FDORA logic and the "wrongful exclusion" face of the justice principle.
 
 **Visual elements:**
@@ -511,7 +511,7 @@ The technology is explained in service of the ethics: enough IVF/PGT/surrogacy t
 | 2 | Tuskegee Syphilis Study | L3 Research ethics |
 | 3 | Henrietta Lacks & HeLa cells | L3 Research ethics (bridges to L8) |
 | 4 | Kate Cox — post-*Dobbs* medical exception | L4 Abortion |
-| 5 | Marlise Muñoz — brain death, pregnancy, and the limits of fetal-protection law | L5 Reproductive ethics |
+| 5 | Adriana Smith — brain death, pregnancy, and the limits of fetal-protection law | L5 Reproductive ethics |
 | 6 | He Jiankui CRISPR twins (2018) | L6 Genomics & enhancement |
 | 7 | Terri Schiavo | L7 End of life |
 | 8 | Organ allocation: Sarah Murnaghan & UNOS | L8 Justice |

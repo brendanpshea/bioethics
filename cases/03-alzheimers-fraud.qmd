@@ -128,11 +128,15 @@ The parallel to Tuskegee is instructive but limited. Tuskegee produced direct, i
 
 ## Discussion Questions
 
-1. Reconstruct Schrag's Argument and the Robustness Reply in standard form. They share a premise about what makes a clinical trial ethically permissible; identify it, and explain which side's interpretation of that premise you find more plausible.
-2. The counter-reply argues that participants in anti-amyloid trials were wronged even if the trials were honestly run, because their consent was undermined by fabrication upstream. Does this conception of "wronging" stretch too far? Could the same logic make every researcher complicit in any fraud anywhere in the citation chain leading to their study?
-3. Stegenga's medical nihilism implies that the Lesné case is an extreme version of how clinical research normally fails. Pressure-test this: name one feature of biomedical research that you think *does* work well, and explain why it survives Stegenga's critique.
-4. You are a nurse working in a memory clinic. A patient with mild cognitive impairment asks you whether she should enroll in a new anti-amyloid antibody trial, citing news coverage of "the new Alzheimer's drugs." She has not read the *Science* exposé. What do you say, and what do you not say?
-5. The original 2006 *Nature* paper was retracted in 2024 — eighteen years after publication, and only after a whistleblower acting partly on behalf of paid short-sellers brought it to public attention. Design one institutional reform (at the journal, university, NIH, or FDA level) that you think would have caught the problem earlier, and identify the trade-off your reform would force on the system.
+1. Write out **Schrag's Argument** and the **Robustness Reply** in your own words — premises first, then the conclusion. The two arguments share one premise about what makes a clinical trial ethically OK to run. Identify it. Then say which side has the better read on what that premise requires.
+
+2. The counter-reply says that patients in anti-amyloid trials were *wronged* even when their own trials were honestly run — because the science behind those trials had been corrupted upstream by Lesné's fraud. Is this idea of "being wronged" too broad? If you accept it, where does it stop? If you reject it, why?
+
+3. Stegenga's **medical nihilism** says the Lesné case is just an extreme version of how biomedical research normally fails. Push back on this claim. Name one part of biomedical research that you think *does* work well, and explain why it survives Stegenga's critique.
+
+4. You are a nurse in a memory clinic. A patient with mild cognitive impairment asks you whether she should enroll in a new Alzheimer's drug trial. She mentions news coverage of the "new Alzheimer's drugs." She has not read the *Science* article on the fraud. What do you say to her? What do you not say?
+
+5. The 2006 *Nature* paper was retracted in 2024 — eighteen years after it was published, and only after a whistleblower (paid in part by stock-market short-sellers) brought it to public attention. Design one specific reform — at the journal, the university, the NIH, or the FDA — that would have caught the problem earlier. What trade-off would your reform force on the system?
 
 ## Further Reading
 

@@ -166,11 +166,15 @@ Fifty years on, that is where the argument rests — not at a verdict, but at a 
 
 ## Discussion Questions
 
-1. Reconstruct **The Regulatory-Gap Argument** and **The Conscience Argument**. They disagree about one premise — identify it, and say what Guatemala (eminent PI, NIH review, approving Surgeon General) contributes as evidence for one side.
-2. Nurse Eunice Rivers was trusted by the men precisely because she was caring, constant, and one of their own — and that trust kept them in the study for decades. You are a nurse who has just realized the "treatment" you administer is a deception. What do you owe these particular patients that the institution does not, and what concretely do you do — knowing what the evidence says happens to nurses who report?
-3. The Justice Reframing claims the deepest wrong was *whom they chose*, not the missing consent form. If a future study obtained perfect informed consent from poor, uninsured volunteers offered money they badly needed, would it have fixed Tuskegee's wrong or only relocated it? Defend your answer using **fair subject selection** and Kipnis's idea of vulnerability as pressure.
-4. Apply **The Institutional-Design Reply** to a hospital you know. Name one concrete change (not an ethics hotline) that would make a dissenting nurse or resident less alone, and explain, using Milgram, why it would work.
-5. A patient eligible for a new vaccine tells you she does not trust it, and mentions Tuskegee. Using **The Distrust Dispute**, give the strongest version of *both* responses — the reassure-and-educate response and the address-present-conditions response — and say which you would actually give her, and why.
+1. Write out **The Regulatory-Gap Argument** and **The Conscience Argument** in your own words — premises first, then the conclusion. They disagree about one premise. Identify it. Then explain what the Guatemala study — run by a respected lead researcher, reviewed by NIH, approved by the U.S. Surgeon General — tells us about which side has the better case.
+
+2. Nurse Eunice Rivers was trusted by the men in the study because she was caring, consistent, and one of their own. That trust is part of what kept them enrolled for decades. Imagine you are a nurse who has just realized that the "treatment" you have been giving is a deception. What do you owe these particular patients that the institution does not? What, concretely, do you do — knowing that nurses who reported similar abuses often lost their jobs?
+
+3. **The Justice Reframing** says the deepest wrong of Tuskegee was *who* the researchers chose as subjects, not the missing consent forms. Imagine a future study with perfect informed consent — but where the volunteers are poor, uninsured, and badly need the money. Would the consent fix Tuskegee's wrong, or just move it somewhere else? Use the idea of **fair subject selection** to defend your answer.
+
+4. **The Institutional-Design Reply** says hospitals can do specific things to keep individual dissent from being silenced. Pick a hospital you know. Name one concrete change — not an ethics hotline — that would make a dissenting nurse or resident less alone. Drawing on Milgram's obedience studies, explain why your change would actually work.
+
+5. A patient eligible for a new vaccine tells you she does not trust it. She mentions Tuskegee. The case describes two ways to respond: **reassure her and explain the science**, or **acknowledge that present conditions still give some patients real reasons to distrust**. Give the strongest version of each response. Then say which you would actually give her, and why.
 
 ## Further Reading
 
