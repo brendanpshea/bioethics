@@ -28,6 +28,8 @@ All materials are freely available for non-commercial educational use under a [C
 | 3B | Research Ethics | From Tuskegee to Today: Protecting Research Subjects | [Slides](chapters/03b-protecting-research-subjects-slides.html) | [Notes](chapters/03b-protecting-research-subjects.html) |
 | 4A | Reproductive Ethics | Abortion: Moral Status & Major Philosophical Arguments | [Slides](chapters/04a-abortion-slides.html) | [Notes](chapters/04a-abortion.html) |
 | 4B | Reproductive Ethics | Abortion: Law, Cases, and the Four Principles | [Slides](chapters/04b-abortion-law-slides.html) | [Notes](chapters/04b-abortion-law.html) |
+| 5A | Reproductive Ethics | Pregnancy, Autonomy, and Maternal-Fetal Conflict | [Slides](chapters/05a-pregnancy-autonomy-slides.html) | [Notes](chapters/05a-pregnancy-autonomy.html) |
+| 5B | Reproductive Ethics | Making Family: Markets, Surrogacy, and Parental Rights | [Slides](chapters/05b-reproductive-markets-slides.html) | [Notes](chapters/05b-reproductive-markets.html) |
 
 ---
 
