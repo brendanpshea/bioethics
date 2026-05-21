@@ -48,9 +48,19 @@ Because these are meant to be **citable, discoverable artifacts**, `cases/_metad
 
 - Model the prose on ***Harper's*, *The Atlantic*, and *The New Yorker***: narrative-led, scene-setting, confident but unshowy. Specific people, places, times, and numbers — never abstraction where a detail will do.
 - **Show, then name.** Tell what concretely happened to real, named people *before* you label it ("this is a conflict between autonomy and beneficence"). The concept should feel earned by the story.
-- Full paragraphs, not bullets, in the body. Vary sentence length. No subheading-and-fragment outlining inside the narrative.
+- Narrative prose carries the story. Vary sentence length. No subheading-and-fragment outlining inside the narrative.
+- **Use bulleted or numbered lists when the content is genuinely list-shaped** — a process with discrete steps, a set of parallel criteria, a chain of approval, a clinical checklist, an enumerated chain of consequences. Prose paragraphs that read "first … second … third …" or "a, b, and c" are usually a list trying to escape. Don't bullet narrative beats, argumentative moves, or anything that depends on connective tissue between sentences.
 - Take the **opposing view seriously**. A case where one side is obviously right is not worth 3,000 words. Give the strongest version of each position, in the voice of someone who holds it.
 - Restrained authorial presence: the essay can have a point of view but should not moralize or hand the reader the answer the discussion questions are meant to open.
+
+### Readability targets
+
+These cases are assigned to first- and second-year nursing students, including PSEO high-schoolers. Aim for:
+
+- **Flesch-Kincaid grade level < 10.5.** Lower is better; the easiest cases land near 9.0.
+- **Average sentence length ~14–15 words.** Split long sentences at semicolons, em-dashes, and "and/but/because." Two short sentences almost always beat one long one with three clauses.
+- **Plain verbs over Latinate ones.** *Show* not *demonstrate*, *use* not *utilize*, *later* not *subsequently*, *include* not *encompass*, *effect* not *ramification*. Keep technical vocabulary that earns its keep (autonomy, beneficence, equipoise, amyloid) — strip the avoidable polysyllables around it.
+- Check before committing. The repo's `readability_check.py` runs textstat over every case and prints Flesch-Kincaid, Gunning Fog, SMOG, sentence length, and list counts. Run it after a substantial rewrite.
 
 ## Structure (the section spine)
 

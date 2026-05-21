@@ -7,9 +7,9 @@ date: last-modified
 
 ::: {.case-at-a-glance}
 - **Who:** Kate Cox, a thirty-one-year-old mother of two from suburban Dallas; Dr. Damla Karsan, her OB-GYN; Ken Paxton, the Attorney General of Texas.
-- **What:** In December 2023, Cox became the first pregnant woman since *Roe v. Wade* was overturned to sue in open court for the right to an abortion. A trial judge granted her request. Within hours, Paxton wrote to three Texas hospitals warning that anyone performing the procedure could still face prosecution. The Texas Supreme Court ultimately ruled against her. Karsan, the named physician-plaintiff, would have faced up to life in prison if she had gone ahead.
-- **Where / When:** Travis County and the Texas Supreme Court, December 2023; the broader question is national and ongoing.
-- **Why it matters:** The case forces a hard question about [conscientious refusal]{.key-term} and its mirror image, [conscientious provision]{.key-term}: when a clinician's medical and moral judgment conflicts with the law of the state in which she practices, what does professional [integrity]{.key-term} require? *Dobbs* did not invent that question, but it inverted it.
+- **What:** In December 2023, Cox became the first pregnant woman since *Roe v. Wade* was overturned to sue in open court for the right to an abortion. A trial judge granted her request. Within hours, Paxton wrote to three Texas hospitals warning that anyone performing the procedure could still face prosecution. The Texas Supreme Court ruled against her. Karsan, the named physician-plaintiff, would have faced up to life in prison if she had gone ahead.
+- **Where / When:** Travis County and the Texas Supreme Court, December 2023. The broader question is national and ongoing.
+- **Why it matters:** The case forces a hard question about [conscientious refusal]{.key-term} and its mirror image, [conscientious provision]{.key-term}. When a clinician's medical and moral judgment conflicts with the law of the state in which she practices, what does professional [integrity]{.key-term} require? *Dobbs* did not invent that question, but it inverted it.
 - **Pair with:** Abortion (The Law and Reproductive Rights)
 :::
 
@@ -17,35 +17,78 @@ date: last-modified
 
 In August 2023, Kate Cox saw a positive home pregnancy test and ran into the playroom where her husband Justin was wrestling on the floor with their two toddlers. The Coxes had always wanted a large family — three or four children. They lived in a Dallas-area bungalow with two child-sized lawn chairs in the backyard, two sippy cups in the sink, and an Olaf the snowman in the living room. Neither Kate nor Justin was particularly political. When the Supreme Court issued its 2022 decision in *Dobbs v. Jackson Women's Health Organization*, returning the regulation of abortion to the states, the news barely registered with them. Texas's strict ban, they assumed, would have medical exceptions that would cover anything serious.
 
-At eighteen weeks, Cox's obstetrician called while she was driving and asked her to pull over. Early screening tests suggested Trisomy 18 — a chromosomal condition in which a third copy of chromosome 18 produces severe developmental abnormalities. Over the next several weeks of additional ultrasounds and maternal-fetal-medicine consultations, the diagnosis was confirmed. The fetus had malformations of the brain, the spine, the neural tube, the heart, the skull, and the limbs. "Each time we had an ultrasound, there was more bad news," Cox later told *Time*. The expected outcome was either death in utero or, if the baby survived birth, hospice care and death within hours or days.
+At eighteen weeks, Cox's obstetrician called while she was driving and asked her to pull over. Early screening tests suggested Trisomy 18. This is a chromosomal condition in which a third copy of chromosome 18 produces severe developmental abnormalities. Over the next several weeks of ultrasounds and maternal-fetal-medicine consultations, the diagnosis was confirmed. The fetus had malformations of:
+
+- The brain.
+- The spine.
+- The neural tube.
+- The heart.
+- The skull.
+- The limbs.
+
+"Each time we had an ultrasound, there was more bad news," Cox later told *Time*. The expected outcome was either death in utero or, if the baby survived birth, hospice care and death within hours or days.
 
 ::: {.context-box}
-**Trisomy 18 (Edwards syndrome).** Trisomy 18 occurs when a fetus has three copies of chromosome 18 instead of two. Roughly half of fetuses with the condition are stillborn; among live births, most die within the first week. A small minority of children with mosaic forms live longer, sometimes into adolescence, generally with profound disabilities. There is no curative treatment; standard care is "comfort care" — keeping the infant warm and free of pain — rather than aggressive intervention.
+**Trisomy 18 (Edwards syndrome).** Trisomy 18 occurs when a fetus has three copies of chromosome 18 instead of two. Roughly half of fetuses with the condition are stillborn. Among live births, most die within the first week. A small minority of children with mosaic forms live longer, sometimes into adolescence, generally with profound disabilities. There is no curative treatment. Standard care is "comfort care" — keeping the infant warm and free of pain — rather than aggressive intervention.
 :::
 
-The diagnosis also created acute risks for Cox herself. Her two previous deliveries had been by Cesarean section. A third C-section, or an induced labor at term following a fetal demise, carried elevated risks of uterine rupture, hemorrhage, and hysterectomy — meaning she might never be able to bear another child. She had already been to the emergency room several times for cramping and elevated vital signs. Her physician, Dr. Damla Karsan, judged that termination of the pregnancy was the medically indicated course.
+The diagnosis also created acute risks for Cox herself. Her two previous deliveries had been by Cesarean section. A third C-section, or an induced labor at term following a fetal demise, carried elevated risks:
 
-Texas law at the time forbade nearly all abortions. The statutes permitted a narrow exception when, in the "reasonable medical judgment" of the attending physician, the pregnancy placed the woman at risk of "a serious risk of substantial impairment of a major bodily function." The exception was poorly defined. Karsan believed Cox qualified. She also believed that if she was wrong — or if a prosecutor disagreed — she could lose her license, face fines of at least $100,000 per violation, and serve up to ninety-nine years in prison.
+- Uterine rupture.
+- Hemorrhage.
+- Hysterectomy — meaning she might never be able to bear another child.
+
+She had already been to the emergency room several times for cramping and elevated vital signs. Her physician, Dr. Damla Karsan, judged that termination of the pregnancy was the medically indicated course.
+
+Texas law at the time forbade nearly all abortions. The statutes permitted a narrow exception when, in the "reasonable medical judgment" of the attending physician, the pregnancy placed the woman at risk of "a serious risk of substantial impairment of a major bodily function." The exception was poorly defined. Karsan believed Cox qualified. She also believed that if she was wrong — or if a prosecutor disagreed — she could face severe penalties:
+
+- Loss of her medical license.
+- Fines of at least $100,000 per violation.
+- Up to ninety-nine years in prison.
 
 ::: {.context-box}
-**The Texas medical exception.** Texas's overlapping abortion statutes (the Human Life Protection Act and Senate Bill 8) permit abortion only when, in the physician's "reasonable medical judgment," the patient faces a "life-threatening physical condition" or "a serious risk of substantial impairment of a major bodily function." The statutes do not list qualifying diagnoses. They do not provide a pre-clearance mechanism. The physician must make the call; a prosecutor may second-guess it afterward, and the physician bears the burden of proving the judgment was reasonable.
+**The Texas medical exception.** Texas's overlapping abortion statutes (the Human Life Protection Act and Senate Bill 8) permit abortion only when, in the physician's "reasonable medical judgment," the patient faces a "life-threatening physical condition" or "a serious risk of substantial impairment of a major bodily function." The statutes:
+
+- Do not list qualifying diagnoses.
+- Do not provide a pre-clearance mechanism.
+- Require the physician to make the call alone.
+
+A prosecutor may second-guess that call afterward. The physician bears the burden of proving the judgment was reasonable.
 :::
 
 On December 5, 2023, with Cox now twenty weeks pregnant, the Center for Reproductive Rights filed *Cox v. Texas* on behalf of Cox, her husband, and Dr. Karsan. They asked a Travis County district judge for a [temporary restraining order]{.key-term} — a court order blocking the state from prosecuting Karsan or her hospital if she performed the abortion. Two days later, Judge Maya Guerra Gamble granted it. From the bench, she said: "The idea that Ms. Cox wants desperately to be a parent, and this law might actually cause her to lose that ability, is shocking and would be a genuine miscarriage of justice."
 
-Within hours, the Texas Attorney General, Ken Paxton, sent letters to three Houston-area hospitals where Karsan held privileges. The letters warned that the trial court's order did not insulate anyone from civil liability under SB 8 (which authorizes private lawsuits for at least $100,000 per abortion) or from criminal prosecution after the order was lifted, which Paxton was actively seeking. He asked the hospitals to consider their own exposure. Paxton then petitioned the Texas Supreme Court for an emergency stay.
+Within hours, the Texas Attorney General, Ken Paxton, sent letters to three Houston-area hospitals where Karsan held privileges. The letters made three points:
+
+- The trial court's order did not insulate anyone from civil liability under SB 8, which authorizes private lawsuits for at least $100,000 per abortion.
+- The order also did not insulate anyone from criminal prosecution after the order was lifted, which Paxton was actively seeking.
+- The hospitals should consider their own exposure.
+
+Paxton then petitioned the Texas Supreme Court for an emergency stay.
 
 By the time the Texas Supreme Court ruled, on December 11, 2023, Kate Cox had already left the state. The court held that Karsan had not met the statutory standard. Her sworn declaration that Cox faced a serious risk of impairment of a major bodily function was, in the court's view, an opinion — not the demonstration that the statute required. "Only a doctor can exercise 'reasonable medical judgment' to decide whether a pregnant woman 'has a life-threatening physical condition,'" the court wrote. "A woman who meets the medical-necessity exception need not seek a court order. … But the law does not permit a court to grant a pre-authorization" [@inreTexas2023]. Cox obtained the abortion in New Mexico.
 
-The figure who interests us in what follows is not the patient but the physician. Damla Karsan had not been compelled to take Cox's case. She could have referred Cox out of state — many Texas OB-GYNs did — and avoided the criminal exposure entirely. She chose instead to put her name on the lawsuit, to swear under oath that the medical-exception standard was met, and to publicly disagree with a state law she had to live under. She was not refusing to participate in a procedure she found morally objectionable. She was insisting on participating in a procedure she believed she was morally obligated to provide. The question her case raises is whether the profession of medicine has room for that kind of conscience too.
+The figure who interests us in what follows is not the patient but the physician. Damla Karsan had not been compelled to take Cox's case. She could have referred Cox out of state — many Texas OB-GYNs did — and avoided the criminal exposure entirely. She chose instead to do three risky things:
+
+1. Put her name on the lawsuit.
+2. Swear under oath that the medical-exception standard was met.
+3. Publicly disagree with a state law she had to live under.
+
+She was not refusing to participate in a procedure she found morally objectionable. She was insisting on participating in a procedure she believed she was morally obligated to provide. The question her case raises is whether the profession of medicine has room for that kind of conscience too.
 
 ## The Argument Karsan Started
 
-The classical debate about conscience in medicine was built around the figure of the *refuser*: a Catholic pharmacist who would not dispense Plan B, an OB-GYN who would not perform elective abortions, a nurse who would not assist with physician-assisted dying. The debate asked when, if ever, the law should protect such refusals. Karsan's case raises a stranger version of the question — when, if ever, the law should protect *provision* — and finds that the philosophical materials built for the first question travel awkwardly into the second.
+The classical debate about conscience in medicine was built around the figure of the *refuser*. Three examples:
+
+- A Catholic pharmacist who would not dispense Plan B.
+- An OB-GYN who would not perform elective abortions.
+- A nurse who would not assist with physician-assisted dying.
+
+The debate asked when, if ever, the law should protect such refusals. Karsan's case raises a stranger version of the question: when, if ever, should the law protect *provision*? The philosophical materials built for the first question travel awkwardly into the second.
 
 ### The integrity argument for conscientious refusal
 
-The foundational defense of conscience clauses, given its sharpest form by the bioethicist Mark Wicclair, holds that being asked to perform an act one believes to be deeply wrong is being asked to damage one's own moral integrity — and that moral integrity is itself a basic human good that medicine should respect [@wicclair2000]. A pharmacist who believes emergency contraception ends a human life is not, on this view, merely expressing a preference; she is being asked to act against her core identity.
+The foundational defense of conscience clauses, given its sharpest form by the bioethicist Mark Wicclair, holds that being asked to perform an act one believes to be deeply wrong is being asked to damage one's own moral integrity. Moral integrity is itself a basic human good that medicine should respect [@wicclair2000]. A pharmacist who believes emergency contraception ends a human life is not, on this view, merely expressing a preference. She is being asked to act against her core identity.
 
 ::: {.argument}
 **The Integrity Argument for Refusal**
@@ -60,7 +103,7 @@ The disputed premise is the third, which depends on what "serious harm to others
 
 ### Stahl and Emanuel's reply: physicians are not conscripts
 
-The bioethicists Ronit Stahl and Ezekiel Emanuel argue that the comparison to military conscientious objection, which underlies much of the conscience-clause tradition, breaks down at the point of voluntariness. Soldiers are drafted; physicians are licensed. Medicine is a profession one enters voluntarily, by accepting a set of fiduciary obligations to patients in exchange for state-granted privileges. To accept the license and then refuse the obligations is to want the benefit without the burden [@stahlEmanuel2017].
+The bioethicists Ronit Stahl and Ezekiel Emanuel argue that the comparison to military conscientious objection breaks down at the point of voluntariness. Soldiers are drafted. Physicians are licensed. Medicine is a profession one enters voluntarily. The entry deal goes like this: a clinician accepts fiduciary obligations to patients in exchange for state-granted privileges. To accept the license and then refuse the obligations is to want the benefit without the burden [@stahlEmanuel2017].
 
 ::: {.argument}
 **The Stahl-Emanuel Reply**
@@ -71,19 +114,34 @@ The bioethicists Ronit Stahl and Ezekiel Emanuel argue that the comparison to mi
 4. Therefore, conscience clauses that exempt clinicians from providing legal, indicated care are illegitimate.
 :::
 
-The soft spot here is the third premise, which works smoothly for a young medical student choosing a specialty and clumsily for a thirty-year veteran of obstetrics whose state legislature changes the rules underneath her. The argument also threatens to swallow a great deal more than its authors may have intended: the same logic would seem to compel participation in MAID, in capital punishment medical clearances, and in any other lawful practice the state designates as professionally indicated.
+The soft spot here is the third premise. It works smoothly for a young medical student choosing a specialty. It works clumsily for a thirty-year veteran of obstetrics whose state legislature changes the rules underneath her. The argument also threatens to swallow more than its authors may have intended. The same logic would seem to compel participation in:
+
+- MAID (medical aid in dying).
+- Capital punishment medical clearances.
+- Any other lawful practice the state designates as professionally indicated.
 
 ### Brock's counter-reply: the conventional compromise
 
-The philosopher Dan Brock proposed, well before *Dobbs*, what he called the "conventional compromise." A clinician may refuse personally, but must (a) disclose the refusal in advance, (b) refer the patient to another qualified provider, and (c) not abandon the patient mid-care. The refusing pharmacist hands the prescription to a colleague; the refusing OB-GYN provides the name of a clinic across town. Brock then anticipated and rejected the "complicity" objection — that referring is itself moral participation — by arguing that the moral weight of a referral is too thin to constitute the kind of agency that integrity protects [@brock2008].
+The philosopher Dan Brock proposed, well before *Dobbs*, what he called the "conventional compromise." A clinician may refuse personally, but must meet three conditions:
+
+1. Disclose the refusal in advance.
+2. Refer the patient to another qualified provider.
+3. Not abandon the patient mid-care.
+
+The refusing pharmacist hands the prescription to a colleague. The refusing OB-GYN provides the name of a clinic across town. Brock then anticipated and rejected the "complicity" objection — that referring is itself moral participation — by arguing that the moral weight of a referral is too thin to constitute the kind of agency that integrity protects [@brock2008].
 
 The conventional compromise was, for two decades, the working consensus of American medical ethics. It held because it assumed a background condition: that a willing provider was *somewhere*. In a country where abortion was legal everywhere and contraception was available at any pharmacy, the refusing clinician could always point to a door. *Dobbs* removed the assumption. In a state with no in-state legal provider, the obligation to "refer" collapses into a duty to direct the patient to break the law, leave the state, or wait.
 
 ### The reframing: conscientious provision
 
-This is where the case stops being about refusal and starts being about its mirror. The philosophers who wrote the foundational defenses of conscientious refusal — Wicclair, Brock, even the dissenters Stahl and Emanuel — were arguing about a setting in which the contested care was legal and the contested clinician was the one declining to provide it. Lisa Harris and her co-authors at the *Hastings Center Report* describe the post-*Dobbs* clinician as living under a "sword of Damocles": the contested care is now criminalized, and the contested clinician is the one who provides it [@harris2024damocles]. The integrity argument has not gone away. It has changed direction.
+This is where the case stops being about refusal and starts being about its mirror. The classical defenders of conscientious refusal — Wicclair, Brock, even the dissenters Stahl and Emanuel — were arguing about a different setting. In their setting, the contested care was legal, and the contested clinician was the one declining to provide it. Lisa Harris and her co-authors at the *Hastings Center Report* describe the post-*Dobbs* clinician as living under a "sword of Damocles." The contested care is now criminalized. The contested clinician is the one who provides it [@harris2024damocles]. The integrity argument has not gone away. It has changed direction.
 
-The sharpened version of the inversion is given by Isa Ryan, Ashish Premkumar, and Katie Watson in the *AMA Journal of Ethics* [@ryanPremkumarWatson2022]. They draw a distinction that the classical conscience-clause literature mostly elides: between [personal morality]{.key-term} — the convictions one holds as a private individual — and [role morality]{.key-term}, the ethical obligations one takes on by accepting a professional role. The pre-*Dobbs* conscience clause is a personal-morality protection: the pharmacist's private view of emergency contraception is shielded from the role's demands. Ryan and her co-authors argue that the post-*Dobbs* landscape now demands the *role-morality* analogue. Codes of professional ethics, they propose, should affirmatively protect clinicians who provide medically indicated care that their state has criminalized, because that provision is what the role itself requires. "Codes of medical ethics should be updated to state that, where abortion is illegal, breaking the law to provide care for reasons of conscience is not unethical."
+The sharpened version of the inversion comes from Isa Ryan, Ashish Premkumar, and Katie Watson in the *AMA Journal of Ethics* [@ryanPremkumarWatson2022]. They draw a distinction the classical literature mostly elides:
+
+- [Personal morality]{.key-term} — the convictions one holds as a private individual.
+- [Role morality]{.key-term} — the ethical obligations one takes on by accepting a professional role.
+
+The pre-*Dobbs* conscience clause is a personal-morality protection. The pharmacist's private view of emergency contraception is shielded from the role's demands. Ryan and her co-authors argue that the post-*Dobbs* landscape now demands the *role-morality* analogue. Codes of professional ethics should protect clinicians who provide medically indicated care that their state has criminalized. That provision is what the role itself requires. In their words: "Codes of medical ethics should be updated to state that, where abortion is illegal, breaking the law to provide care for reasons of conscience is not unethical."
 
 ::: {.argument}
 **The Argument for Conscientious Provision**
@@ -94,17 +152,26 @@ The sharpened version of the inversion is given by Isa Ryan, Ashish Premkumar, a
 4. Therefore, the profession should protect conscientious provision on par with conscientious refusal, including, where necessary, by recognizing that providing standard-of-care medicine in defiance of an unjust law is itself an ethical act.
 :::
 
-A defender of the asymmetry will press on the third premise. Refusal, the objection runs, is a negative claim — leave me out of it — that can be honored without anyone breaking the law; provision is a positive claim that, where care is illegal, *requires* law-breaking, and that is too much to ask the profession to underwrite. Ryan and her co-authors anticipate the objection: they argue that the asymmetry is itself an artifact of the prior legal regime, not a deep feature of conscience, and that what the profession underwrites is not law-breaking as such but the role's commitment to patient welfare when the law fails it.
+A defender of the asymmetry will press on the third premise. Refusal, the objection runs, is a negative claim — *leave me out of it* — that can be honored without anyone breaking the law. Provision is a positive claim that, where care is illegal, *requires* law-breaking. That is too much to ask the profession to underwrite. Ryan and her co-authors anticipate the objection. They argue that the asymmetry is itself an artifact of the prior legal regime, not a deep feature of conscience. What the profession underwrites is not law-breaking as such. It is the role's commitment to patient welfare when the law fails it.
 
-The case that haunts this move is not American. In October 2012, Savita Halappanavar, a thirty-one-year-old dentist living in Galway, was admitted to University Hospital Galway at seventeen weeks of pregnancy with an inevitable miscarriage. Her membranes had ruptured; the fetus was not viable. Irish law at the time prohibited abortion unless the woman's life was at risk. The medical team waited several days for the fetal heartbeat to stop on its own. Halappanavar developed sepsis; by the time the pregnancy was terminated, the infection was uncontrollable. She died on October 28, 2012. The case galvanized Irish public opinion and led to the 2018 referendum that repealed the constitutional ban. Damla Karsan, in Houston in December 2023, was practicing in a legal environment that asked of her what Halappanavar's physicians had been asked of in 2012 — to wait until a patient was sick enough.
+The case that haunts this move is not American. In October 2012, Savita Halappanavar, a thirty-one-year-old dentist living in Galway, was admitted to University Hospital Galway at seventeen weeks of pregnancy with an inevitable miscarriage. Her membranes had ruptured. The fetus was not viable. Irish law at the time prohibited abortion unless the woman's life was at risk. The medical team waited several days for the fetal heartbeat to stop on its own. Halappanavar developed sepsis. By the time the pregnancy was terminated, the infection was uncontrollable. She died on October 28, 2012. The case galvanized Irish public opinion and led to the 2018 referendum that repealed the constitutional ban. Damla Karsan, in Houston in December 2023, was practicing in a legal environment that asked of her what Halappanavar's physicians had been asked of in 2012 — to wait until a patient was sick enough.
 
 ### The move that hasn't ended
 
-What follows from the inversion is structural, not symmetrical. Pre-*Dobbs* conscience clauses protected individual clinicians from the demands of the profession. The new conscience question runs through *institutions* and *jurisdictions* — entities that classical bioethics did not theorize as conscience-bearers at all.
+What follows from the inversion is structural, not symmetrical. Pre-*Dobbs* conscience clauses protected individual clinicians from the demands of the profession. The new conscience question runs through *institutions* and *jurisdictions* — entities that classical bioethics did not theorize as conscience-bearers at all. Three current pressure points show the shape of the problem:
 
-Roughly one in six U.S. acute-care hospital beds is now in a Catholic system, and in some states the share is much higher. Catholic hospital directives prohibit sterilization, most forms of contraception, and abortion even in cases like Cox's; clinicians who work in those systems are bound by institutional conscience whether or not they share its commitments. A growing patchwork of state **shield laws** — New York, Massachusetts, California, and others — now protect clinicians who mail mifepristone into states that ban it, posing the constitutional question of whether a state may reach across its borders to prosecute a doctor whose conduct is legal where she stands. The federal Emergency Medical Treatment and Labor Act (EMTALA), which requires hospitals to stabilize patients in emergencies, has come into direct conflict with state bans; the Supreme Court's 2024 ruling in *Moyle v. United States* sent the question back for further litigation without resolving it.
+- **Catholic hospital systems.** Roughly one in six U.S. acute-care hospital beds is now in a Catholic system, and in some states the share is much higher. Catholic hospital directives prohibit sterilization, most forms of contraception, and abortion even in cases like Cox's. Clinicians who work in those systems are bound by institutional conscience whether or not they share its commitments.
+- **State shield laws.** A growing patchwork of state shield laws — New York, Massachusetts, California, and others — now protect clinicians who mail mifepristone into states that ban it. This poses the constitutional question of whether a state may reach across its borders to prosecute a doctor whose conduct is legal where she stands.
+- **EMTALA conflicts.** The federal Emergency Medical Treatment and Labor Act, which requires hospitals to stabilize patients in emergencies, has come into direct conflict with state bans. The Supreme Court's 2024 ruling in *Moyle v. United States* sent the question back for further litigation without resolving it.
 
-These are not problems Wicclair or Brock anticipated. The framework they built for the individual clinician with a private moral commitment is being asked to do work it was not designed for — to mediate between state legislatures, federal statutes, religious health systems, and clinicians whose oaths now conflict with their licenses. The sharpened open question is no longer whether conscience matters in medicine. It is whose conscience the law should recognize when the conscience of a state, a hospital, and a physician all point in different directions.
+These are not problems Wicclair or Brock anticipated. Their framework was built for the individual clinician with a private moral commitment. It is now being asked to mediate between four very different parties:
+
+- State legislatures.
+- Federal statutes.
+- Religious health systems.
+- Clinicians whose oaths now conflict with their licenses.
+
+The sharpened open question is no longer whether conscience matters in medicine. It is whose conscience the law should recognize when the conscience of a state, a hospital, and a physician all point in different directions.
 
 ## Discussion Questions
 
