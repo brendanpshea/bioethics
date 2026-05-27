@@ -1,0 +1,2055 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Brendan Shea, PhD">
+<meta name="dcterms.date" content="last-modified">
+
+<title>Lecture 6 — Genomics and Enhancement – Bioethics: An Open Educational Resource</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles/custom.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Bioethics: An Open Educational Resource</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../chapters/00-course-outline.html"> 
+<span class="menu-text">Outline</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-principles--reasoning" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">1. Principles &amp; Reasoning</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-principles--reasoning">    
+        <li>
+    <a class="dropdown-item" href="../chapters/01-introduction.html">
+ <span class="dropdown-text">Part A — The Four Principles</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../chapters/01b-theories.html">
+ <span class="dropdown-text">Part B — Ethical Theories</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-history--relationship" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">2. History &amp; Relationship</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-history--relationship">    
+        <li>
+    <a class="dropdown-item" href="../chapters/02a-history.html">
+ <span class="dropdown-text">Part A — History</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../chapters/02b-clinical-relationship.html">
+ <span class="dropdown-text">Part B — Clinical Relationship</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research-ethics" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">3. Research Ethics</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research-ethics">    
+        <li>
+    <a class="dropdown-item" href="../chapters/03a-clinical-research.html">
+ <span class="dropdown-text">Part A — How Clinical Research Works</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../chapters/03b-protecting-research-subjects.html">
+ <span class="dropdown-text">Part B — Protecting Research Subjects</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-abortion" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">4. Abortion</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-abortion">    
+        <li>
+    <a class="dropdown-item" href="../chapters/04a-abortion.html">
+ <span class="dropdown-text">Part A — Moral Status</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../chapters/04b-abortion-law.html">
+ <span class="dropdown-text">Part B — Law &amp; Cases</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-reproductive-ethics" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">5. Reproductive Ethics</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-reproductive-ethics">    
+        <li>
+    <a class="dropdown-item" href="../chapters/05a-pregnancy-autonomy.html">
+ <span class="dropdown-text">Part A — Pregnancy &amp; Autonomy</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../chapters/05b-reproductive-markets.html">
+ <span class="dropdown-text">Part B — Markets &amp; Surrogacy</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-genomics--enhancement" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">6. Genomics &amp; Enhancement</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-genomics--enhancement">    
+        <li>
+    <a class="dropdown-item" href="../chapters/06a-genomics-reading.html">
+ <span class="dropdown-text">Part A — Reading Genomes</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../chapters/06b-genomics-enhancement.html">
+ <span class="dropdown-text">Part B — Engineering Persons</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/brendanpshea/bioethics-oer"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#a-newborn-on-the-postpartum-floor" id="toc-a-newborn-on-the-postpartum-floor" class="nav-link active" data-scroll-target="#a-newborn-on-the-postpartum-floor"><span class="header-section-number">1</span> A Newborn on the Postpartum Floor</a>
+  <ul class="collapse">
+  <li><a href="#would-you-sign" id="toc-would-you-sign" class="nav-link" data-scroll-target="#would-you-sign"><span class="header-section-number">1.1</span> Would You Sign?</a></li>
+  <li><a href="#after-youve-discussed" id="toc-after-youve-discussed" class="nav-link" data-scroll-target="#after-youve-discussed"><span class="header-section-number">1.2</span> After You’ve Discussed</a></li>
+  <li><a href="#today" id="toc-today" class="nav-link" data-scroll-target="#today"><span class="header-section-number">1.3</span> Today</a></li>
+  </ul></li>
+  <li><a href="#the-human-genome-project-promise-and-aftermath" id="toc-the-human-genome-project-promise-and-aftermath" class="nav-link" data-scroll-target="#the-human-genome-project-promise-and-aftermath"><span class="header-section-number">2</span> The Human Genome Project: Promise and Aftermath</a>
+  <ul class="collapse">
+  <li><a href="#a-thirteen-year-arc" id="toc-a-thirteen-year-arc" class="nav-link" data-scroll-target="#a-thirteen-year-arc"><span class="header-section-number">2.1</span> A Thirteen-Year Arc</a></li>
+  <li><a href="#the-public-celera-race" id="toc-the-public-celera-race" class="nav-link" data-scroll-target="#the-public-celera-race"><span class="header-section-number">2.2</span> The Public-Celera Race</a></li>
+  <li><a href="#collins-1999-verbatim" id="toc-collins-1999-verbatim" class="nav-link" data-scroll-target="#collins-1999-verbatim"><span class="header-section-number">2.3</span> Collins 1999, Verbatim</a></li>
+  <li><a href="#promised-vs.-delivered" id="toc-promised-vs.-delivered" class="nav-link" data-scroll-target="#promised-vs.-delivered"><span class="header-section-number">2.4</span> Promised vs.&nbsp;Delivered</a></li>
+  <li><a href="#missing-heritability" id="toc-missing-heritability" class="nav-link" data-scroll-target="#missing-heritability"><span class="header-section-number">2.5</span> “Missing Heritability”</a></li>
+  </ul></li>
+  <li><a href="#geneticization" id="toc-geneticization" class="nav-link" data-scroll-target="#geneticization"><span class="header-section-number">3</span> Geneticization</a>
+  <ul class="collapse">
+  <li><a href="#lippman-names-the-tendency" id="toc-lippman-names-the-tendency" class="nav-link" data-scroll-target="#lippman-names-the-tendency"><span class="header-section-number">3.1</span> Lippman Names the Tendency</a></li>
+  <li><a href="#three-related-pulls" id="toc-three-related-pulls" class="nav-link" data-scroll-target="#three-related-pulls"><span class="header-section-number">3.2</span> Three Related Pulls</a></li>
+  <li><a href="#gene-environment-the-working-picture" id="toc-gene-environment-the-working-picture" class="nav-link" data-scroll-target="#gene-environment-the-working-picture"><span class="header-section-number">3.3</span> Gene × Environment — the Working Picture</a></li>
+  </ul></li>
+  <li><a href="#the-vocabulary-you-need" id="toc-the-vocabulary-you-need" class="nav-link" data-scroll-target="#the-vocabulary-you-need"><span class="header-section-number">4</span> The Vocabulary You Need</a>
+  <ul class="collapse">
+  <li><a href="#four-words" id="toc-four-words" class="nav-link" data-scroll-target="#four-words"><span class="header-section-number">4.1</span> Four Words</a></li>
+  <li><a href="#germline-vs.-somatic" id="toc-germline-vs.-somatic" class="nav-link" data-scroll-target="#germline-vs.-somatic"><span class="header-section-number">4.2</span> Germline vs.&nbsp;Somatic</a></li>
+  </ul></li>
+  <li><a href="#whose-genome-is-the-reference" id="toc-whose-genome-is-the-reference" class="nav-link" data-scroll-target="#whose-genome-is-the-reference"><span class="header-section-number">5</span> Whose Genome Is the Reference?</a>
+  <ul class="collapse">
+  <li><a href="#the-reference-is-a-composite" id="toc-the-reference-is-a-composite" class="nav-link" data-scroll-target="#the-reference-is-a-composite"><span class="header-section-number">5.1</span> The Reference Is a Composite</a></li>
+  <li><a href="#the-buffalo-man-and-craig-venter" id="toc-the-buffalo-man-and-craig-venter" class="nav-link" data-scroll-target="#the-buffalo-man-and-craig-venter"><span class="header-section-number">5.2</span> The Buffalo Man and Craig Venter</a></li>
+  <li><a href="#why-it-matters-ancestry-bias" id="toc-why-it-matters-ancestry-bias" class="nav-link" data-scroll-target="#why-it-matters-ancestry-bias"><span class="header-section-number">5.3</span> Why It Matters: Ancestry Bias</a></li>
+  <li><a href="#toward-a-pangenome" id="toc-toward-a-pangenome" class="nav-link" data-scroll-target="#toward-a-pangenome"><span class="header-section-number">5.4</span> Toward a Pangenome</a></li>
+  </ul></li>
+  <li><a href="#prenatal-testing" id="toc-prenatal-testing" class="nav-link" data-scroll-target="#prenatal-testing"><span class="header-section-number">6</span> Prenatal Testing</a>
+  <ul class="collapse">
+  <li><a href="#three-kinds-of-genetic-testing" id="toc-three-kinds-of-genetic-testing" class="nav-link" data-scroll-target="#three-kinds-of-genetic-testing"><span class="header-section-number">6.1</span> Three Kinds of Genetic Testing</a></li>
+  <li><a href="#nipt-how-it-works" id="toc-nipt-how-it-works" class="nav-link" data-scroll-target="#nipt-how-it-works"><span class="header-section-number">6.2</span> NIPT — How It Works</a></li>
+  <li><a href="#nipt-down-syndrome-and-the-90-question" id="toc-nipt-down-syndrome-and-the-90-question" class="nav-link" data-scroll-target="#nipt-down-syndrome-and-the-90-question"><span class="header-section-number">6.3</span> NIPT, Down Syndrome, and the &gt;90% Question</a></li>
+  </ul></li>
+  <li><a href="#predictive-testing-and-the-open-future" id="toc-predictive-testing-and-the-open-future" class="nav-link" data-scroll-target="#predictive-testing-and-the-open-future"><span class="header-section-number">7</span> Predictive Testing and the Open Future</a>
+  <ul class="collapse">
+  <li><a href="#brca-in-adults" id="toc-brca-in-adults" class="nav-link" data-scroll-target="#brca-in-adults"><span class="header-section-number">7.1</span> BRCA in Adults</a></li>
+  <li><a href="#testing-healthy-children-for-adult-onset-conditions" id="toc-testing-healthy-children-for-adult-onset-conditions" class="nav-link" data-scroll-target="#testing-healthy-children-for-adult-onset-conditions"><span class="header-section-number">7.2</span> Testing Healthy Children for Adult-Onset Conditions</a></li>
+  <li><a href="#feinbergs-open-future-applied-to-information" id="toc-feinbergs-open-future-applied-to-information" class="nav-link" data-scroll-target="#feinbergs-open-future-applied-to-information"><span class="header-section-number">7.3</span> Feinberg’s “Open Future,” Applied to Information</a></li>
+  </ul></li>
+  <li><a href="#newborn-genomic-sequencing-a-live-debate" id="toc-newborn-genomic-sequencing-a-live-debate" class="nav-link" data-scroll-target="#newborn-genomic-sequencing-a-live-debate"><span class="header-section-number">8</span> Newborn Genomic Sequencing — A Live Debate</a>
+  <ul class="collapse">
+  <li><a href="#babyseq-and-guardian" id="toc-babyseq-and-guardian" class="nav-link" data-scroll-target="#babyseq-and-guardian"><span class="header-section-number">8.1</span> BabySeq and GUARDIAN</a></li>
+  <li><a href="#acmg-vs.-aap-two-positions" id="toc-acmg-vs.-aap-two-positions" class="nav-link" data-scroll-target="#acmg-vs.-aap-two-positions"><span class="header-section-number">8.2</span> ACMG vs.&nbsp;AAP — Two Positions</a></li>
+  <li><a href="#thought-question-would-you-sign-your-newborn-up" id="toc-thought-question-would-you-sign-your-newborn-up" class="nav-link" data-scroll-target="#thought-question-would-you-sign-your-newborn-up"><span class="header-section-number">8.3</span> Thought Question — Would You Sign Your Newborn Up?</a></li>
+  <li><a href="#after-youve-discussed-1" id="toc-after-youve-discussed-1" class="nav-link" data-scroll-target="#after-youve-discussed-1"><span class="header-section-number">8.4</span> After You’ve Discussed</a></li>
+  </ul></li>
+  <li><a href="#direct-to-consumer-testing" id="toc-direct-to-consumer-testing" class="nav-link" data-scroll-target="#direct-to-consumer-testing"><span class="header-section-number">9</span> Direct-to-Consumer Testing</a>
+  <ul class="collapse">
+  <li><a href="#andme-by-the-numbers" id="toc-andme-by-the-numbers" class="nav-link" data-scroll-target="#andme-by-the-numbers"><span class="header-section-number">9.1</span> 23andMe by the Numbers</a></li>
+  <li><a href="#the-2023-breach" id="toc-the-2023-breach" class="nav-link" data-scroll-target="#the-2023-breach"><span class="header-section-number">9.2</span> The 2023 Breach</a></li>
+  <li><a href="#one-relatives-test-is-everyones-test" id="toc-one-relatives-test-is-everyones-test" class="nav-link" data-scroll-target="#one-relatives-test-is-everyones-test"><span class="header-section-number">9.3</span> One Relative’s Test Is Everyone’s Test</a></li>
+  </ul></li>
+  <li><a href="#race-and-genetics-the-nasem-framework" id="toc-race-and-genetics-the-nasem-framework" class="nav-link" data-scroll-target="#race-and-genetics-the-nasem-framework"><span class="header-section-number">10</span> Race and Genetics: The NASEM Framework</a>
+  <ul class="collapse">
+  <li><a href="#why-this-comes-up-here" id="toc-why-this-comes-up-here" class="nav-link" data-scroll-target="#why-this-comes-up-here"><span class="header-section-number">10.1</span> Why This Comes Up Here</a></li>
+  <li><a href="#nasem-2023-the-headline-rule" id="toc-nasem-2023-the-headline-rule" class="nav-link" data-scroll-target="#nasem-2023-the-headline-rule"><span class="header-section-number">10.2</span> NASEM 2023 — The Headline Rule</a></li>
+  <li><a href="#population-descriptors-at-a-glance" id="toc-population-descriptors-at-a-glance" class="nav-link" data-scroll-target="#population-descriptors-at-a-glance"><span class="header-section-number">10.3</span> Population Descriptors at a Glance</a></li>
+  <li><a href="#caucasian-a-word-with-a-history" id="toc-caucasian-a-word-with-a-history" class="nav-link" data-scroll-target="#caucasian-a-word-with-a-history"><span class="header-section-number">10.4</span> “Caucasian” — a Word with a History</a></li>
+  <li><a href="#thought-question-a-study-lands-on-your-desk" id="toc-thought-question-a-study-lands-on-your-desk" class="nav-link" data-scroll-target="#thought-question-a-study-lands-on-your-desk"><span class="header-section-number">10.5</span> Thought Question — A Study Lands on Your Desk</a></li>
+  <li><a href="#after-youve-discussed-2" id="toc-after-youve-discussed-2" class="nav-link" data-scroll-target="#after-youve-discussed-2"><span class="header-section-number">10.6</span> After You’ve Discussed</a></li>
+  </ul></li>
+  <li><a href="#forensic-genetic-genealogy" id="toc-forensic-genetic-genealogy" class="nav-link" data-scroll-target="#forensic-genetic-genealogy"><span class="header-section-number">11</span> Forensic Genetic Genealogy</a>
+  <ul class="collapse">
+  <li><a href="#gedmatch-and-the-golden-state-killer" id="toc-gedmatch-and-the-golden-state-killer" class="nav-link" data-scroll-target="#gedmatch-and-the-golden-state-killer"><span class="header-section-number">11.1</span> GEDmatch and the Golden State Killer</a></li>
+  <li><a href="#how-long-range-familial-search-works" id="toc-how-long-range-familial-search-works" class="nav-link" data-scroll-target="#how-long-range-familial-search-works"><span class="header-section-number">11.2</span> How Long-Range Familial Search Works</a></li>
+  <li><a href="#the-law-catches-up" id="toc-the-law-catches-up" class="nav-link" data-scroll-target="#the-law-catches-up"><span class="header-section-number">11.3</span> The Law Catches Up</a></li>
+  <li><a href="#thought-question-whose-consent" id="toc-thought-question-whose-consent" class="nav-link" data-scroll-target="#thought-question-whose-consent"><span class="header-section-number">11.4</span> Thought Question — Whose Consent?</a></li>
+  </ul></li>
+  <li><a href="#gina-and-the-gap" id="toc-gina-and-the-gap" class="nav-link" data-scroll-target="#gina-and-the-gap"><span class="header-section-number">12</span> GINA and the Gap</a>
+  <ul class="collapse">
+  <li><a href="#gina-2008-the-federal-floor" id="toc-gina-2008-the-federal-floor" class="nav-link" data-scroll-target="#gina-2008-the-federal-floor"><span class="header-section-number">12.1</span> GINA 2008 — The Federal Floor</a></li>
+  <li><a href="#the-four-cell-gap" id="toc-the-four-cell-gap" class="nav-link" data-scroll-target="#the-four-cell-gap"><span class="header-section-number">12.2</span> The Four-Cell Gap</a></li>
+  <li><a href="#florida-2020-and-the-state-level-patchwork" id="toc-florida-2020-and-the-state-level-patchwork" class="nav-link" data-scroll-target="#florida-2020-and-the-state-level-patchwork"><span class="header-section-number">12.3</span> Florida 2020 and the State-Level Patchwork</a></li>
+  </ul></li>
+  <li><a href="#dual-use-genomics" id="toc-dual-use-genomics" class="nav-link" data-scroll-target="#dual-use-genomics"><span class="header-section-number">13</span> Dual-Use Genomics</a>
+  <ul class="collapse">
+  <li><a href="#mail-order-dna-synthesis" id="toc-mail-order-dna-synthesis" class="nav-link" data-scroll-target="#mail-order-dna-synthesis"><span class="header-section-number">13.1</span> Mail-Order DNA Synthesis</a></li>
+  <li><a href="#the-2023-white-house-framework" id="toc-the-2023-white-house-framework" class="nav-link" data-scroll-target="#the-2023-white-house-framework"><span class="header-section-number">13.2</span> The 2023 White House Framework</a></li>
+  </ul></li>
+  <li><a href="#where-this-field-came-from" id="toc-where-this-field-came-from" class="nav-link" data-scroll-target="#where-this-field-came-from"><span class="header-section-number">14</span> Where This Field Came From</a>
+  <ul class="collapse">
+  <li><a href="#elsi-a-bioethics-program-built-into-the-science" id="toc-elsi-a-bioethics-program-built-into-the-science" class="nav-link" data-scroll-target="#elsi-a-bioethics-program-built-into-the-science"><span class="header-section-number">14.1</span> ELSI — A Bioethics Program Built Into the Science</a></li>
+  </ul></li>
+  <li><a href="#wrap" id="toc-wrap" class="nav-link" data-scroll-target="#wrap"><span class="header-section-number">15</span> Wrap</a>
+  <ul class="collapse">
+  <li><a href="#scoreboard-geneticization-across-the-lecture" id="toc-scoreboard-geneticization-across-the-lecture" class="nav-link" data-scroll-target="#scoreboard-geneticization-across-the-lecture"><span class="header-section-number">15.1</span> Scoreboard — Geneticization Across the Lecture</a></li>
+  <li><a href="#review-questions" id="toc-review-questions" class="nav-link" data-scroll-target="#review-questions"><span class="header-section-number">15.2</span> Review Questions</a></li>
+  <li><a href="#key-terms" id="toc-key-terms" class="nav-link" data-scroll-target="#key-terms"><span class="header-section-number">15.3</span> Key Terms</a></li>
+  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading"><span class="header-section-number">15.4</span> Further Reading</a></li>
+  <li><a href="#what-were-doing-in-part-b" id="toc-what-were-doing-in-part-b" class="nav-link" data-scroll-target="#what-were-doing-in-part-b"><span class="header-section-number">15.5</span> What We’re Doing in Part B</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">15.6</span> References</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="06a-genomics-reading-slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Lecture 6 — Genomics and Enhancement</h1>
+<p class="subtitle lead">Part A: Reading Genomes — Prediction, Privacy, and Dual Use</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Brendan Shea, PhD </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            An Introduction to Bioethics.
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="a-newborn-on-the-postpartum-floor" class="level1 section-divider" data-number="1">
+<h1 class="section-divider" data-number="1"><span class="header-section-number">1</span> A Newborn on the Postpartum Floor</h1>
+<section id="would-you-sign" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="would-you-sign"><span class="header-section-number">1.1</span> Would You Sign?</h2>
+<div class="thought-question">
+<p>You are a parent on the postpartum floor, twelve hours after a healthy delivery. A research nurse offers to read your newborn’s whole genome at no cost. The report, returned in two weeks, will list gene variants linked to several hundred conditions. Some are treatable in childhood. Some show up only in adulthood. Some are of uncertain meaning. Your partner is leaning yes. You want to ask more questions first.</p>
+<p><strong>Write or discuss:</strong></p>
+<ol type="1">
+<li>Which of those three kinds of result would you want to receive, and which would you rather not know?</li>
+<li>Does your answer change if the test is offered at the <em>six-year</em> visit instead?</li>
+<li>Whose decision is this — yours, your partner’s, or the child’s own, twenty years from now?</li>
+</ol>
+</div>
+<div class="notes">
+<p>Resist the urge to settle the question. The point is to surface the <em>time-shape</em> of genetic information: a decision the parents make today binds the child for life.</p>
+</div>
+</section>
+<section id="after-youve-discussed" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="after-youve-discussed"><span class="header-section-number">1.2</span> After You’ve Discussed</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The thought experiment turns on a distinction we will return to all lecture.</p>
+<ul>
+<li><strong>Actionable now</strong> — a finding the family can act on in childhood (a treatable metabolic condition).</li>
+<li><strong>Actionable later</strong> — a finding that matters in adulthood, when the child can decide for herself whether to know (BRCA1, late-onset Alzheimer’s risk).</li>
+<li><strong>Informative but not actionable</strong> — a finding that names a risk no one can act on yet (some Huntington’s variants in a healthy infant).</li>
+</ul>
+<p>Today is about what genetic tests <em>can</em> read, what they <em>cannot</em> read, and which decisions get easier or harder once they have read it.</p>
+</div>
+</div>
+</section>
+<section id="today" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="today"><span class="header-section-number">1.3</span> Today</h2>
+<div class="learning-outcomes">
+<p>By the end of Part A, you will be able to:</p>
+<ul>
+<li>Tell the basic story of the <strong>Human Genome Project</strong> — the 1990–2003 arc, the public-Celera race, and the gap between what was promised in 1999 and what actually arrived.</li>
+<li>Define <span class="key-term">geneticization</span> and use it to name a pattern that runs through prenatal testing, ancestry kits, and forensic genealogy.</li>
+<li>Explain why a “reference genome” built mostly from one or two people is not a neutral starting point, and what an <strong>ancestry bias</strong> in genetic prediction looks like in practice.</li>
+<li>State the <strong>NASEM 2023</strong> headline rule on race and genetic variation, and apply it to a real research scenario.</li>
+<li>Describe what <strong>GINA</strong> (2008) covers and what it does not, and name two state-level fixes for the gap.</li>
+</ul>
+</div>
+</section>
+</section>
+<section id="the-human-genome-project-promise-and-aftermath" class="level1 section-divider" data-number="2">
+<h1 class="section-divider" data-number="2"><span class="header-section-number">2</span> The Human Genome Project: Promise and Aftermath</h1>
+<section id="a-thirteen-year-arc" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="a-thirteen-year-arc"><span class="header-section-number">2.1</span> A Thirteen-Year Arc</h2>
+<div class="cell" data-fig-height="2.6" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<svg width="672" height="250" viewbox="0.00 0.00 597.05 55.60" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 51.6)">
+<title>HGP</title>
+<!-- 1990\nHGP launched\n(NIH + DOE) -->
+<g id="node1" class="node">
+<title>1990\nHGP launched\n(NIH + DOE)</title>
+<path fill="#f3f4f6" stroke="black" d="M75.32,-47.4C75.32,-47.4 12.23,-47.4 12.23,-47.4 6.23,-47.4 0.23,-41.4 0.23,-35.4 0.23,-35.4 0.23,-12.2 0.23,-12.2 0.23,-6.2 6.23,-0.2 12.23,-0.2 12.23,-0.2 75.32,-0.2 75.32,-0.2 81.32,-0.2 87.32,-6.2 87.32,-12.2 87.32,-12.2 87.32,-35.4 87.32,-35.4 87.32,-41.4 81.32,-47.4 75.32,-47.4"></path>
+<text text-anchor="middle" x="43.77" y="-33.7" font-family="Helvetica,sans-Serif" font-size="11.00">1990</text>
+<text text-anchor="middle" x="43.77" y="-20.5" font-family="Helvetica,sans-Serif" font-size="11.00">HGP launched</text>
+<text text-anchor="middle" x="43.77" y="-7.3" font-family="Helvetica,sans-Serif" font-size="11.00">(NIH + DOE)</text>
+</g>
+<!-- 1995\nFirst bacterial\ngenome sequenced -->
+<g id="node2" class="node">
+<title>1995\nFirst bacterial\ngenome sequenced</title>
+<path fill="#f3f4f6" stroke="black" d="M223.99,-47.4C223.99,-47.4 135.73,-47.4 135.73,-47.4 129.73,-47.4 123.73,-41.4 123.73,-35.4 123.73,-35.4 123.73,-12.2 123.73,-12.2 123.73,-6.2 129.73,-0.2 135.73,-0.2 135.73,-0.2 223.99,-0.2 223.99,-0.2 229.99,-0.2 235.99,-6.2 235.99,-12.2 235.99,-12.2 235.99,-35.4 235.99,-35.4 235.99,-41.4 229.99,-47.4 223.99,-47.4"></path>
+<text text-anchor="middle" x="179.86" y="-33.7" font-family="Helvetica,sans-Serif" font-size="11.00">1995</text>
+<text text-anchor="middle" x="179.86" y="-20.5" font-family="Helvetica,sans-Serif" font-size="11.00">First bacterial</text>
+<text text-anchor="middle" x="179.86" y="-7.3" font-family="Helvetica,sans-Serif" font-size="11.00">genome sequenced</text>
+</g>
+<!-- 1990\nHGP launched\n(NIH + DOE)&#45;&gt;1995\nFirst bacterial\ngenome sequenced -->
+<g id="edge1" class="edge">
+<title>1990\nHGP launched\n(NIH + DOE)-&gt;1995\nFirst bacterial\ngenome sequenced</title>
+<path fill="none" stroke="#6b7280" d="M87.57,-23.8C95.83,-23.8 104.66,-23.8 113.45,-23.8"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="123.72,-23.8 113.72,-28.3 118.72,-23.8 113.72,-23.8 113.72,-23.8 113.72,-23.8 118.72,-23.8 113.72,-19.3 123.72,-23.8 123.72,-23.8"></polygon>
+</g>
+<!-- 1998\nCelera enters\nthe race -->
+<g id="node3" class="node">
+<title>1998\nCelera enters\nthe race</title>
+<path fill="#f3f4f6" stroke="black" d="M342.22,-47.4C342.22,-47.4 284.16,-47.4 284.16,-47.4 278.16,-47.4 272.16,-41.4 272.16,-35.4 272.16,-35.4 272.16,-12.2 272.16,-12.2 272.16,-6.2 278.16,-0.2 284.16,-0.2 284.16,-0.2 342.22,-0.2 342.22,-0.2 348.22,-0.2 354.22,-6.2 354.22,-12.2 354.22,-12.2 354.22,-35.4 354.22,-35.4 354.22,-41.4 348.22,-47.4 342.22,-47.4"></path>
+<text text-anchor="middle" x="313.19" y="-33.7" font-family="Helvetica,sans-Serif" font-size="11.00">1998</text>
+<text text-anchor="middle" x="313.19" y="-20.5" font-family="Helvetica,sans-Serif" font-size="11.00">Celera enters</text>
+<text text-anchor="middle" x="313.19" y="-7.3" font-family="Helvetica,sans-Serif" font-size="11.00">the race</text>
+</g>
+<!-- 1995\nFirst bacterial\ngenome sequenced&#45;&gt;1998\nCelera enters\nthe race -->
+<g id="edge2" class="edge">
+<title>1995\nFirst bacterial\ngenome sequenced-&gt;1998\nCelera enters\nthe race</title>
+<path fill="none" stroke="#6b7280" d="M236.17,-23.8C244.75,-23.8 253.56,-23.8 262.01,-23.8"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="272.1,-23.8 262.1,-28.3 267.1,-23.8 262.1,-23.8 262.1,-23.8 262.1,-23.8 267.1,-23.8 262.1,-19.3 272.1,-23.8 272.1,-23.8"></polygon>
+</g>
+<!-- 2000\n&#39;Working draft&#39;\nat White House -->
+<g id="node4" class="node">
+<title>2000\n'Working draft'\nat White House</title>
+<path fill="#f3f4f6" stroke="black" d="M469.51,-47.4C469.51,-47.4 402.11,-47.4 402.11,-47.4 396.11,-47.4 390.11,-41.4 390.11,-35.4 390.11,-35.4 390.11,-12.2 390.11,-12.2 390.11,-6.2 396.11,-0.2 402.11,-0.2 402.11,-0.2 469.51,-0.2 469.51,-0.2 475.51,-0.2 481.51,-6.2 481.51,-12.2 481.51,-12.2 481.51,-35.4 481.51,-35.4 481.51,-41.4 475.51,-47.4 469.51,-47.4"></path>
+<text text-anchor="middle" x="435.81" y="-33.7" font-family="Helvetica,sans-Serif" font-size="11.00">2000</text>
+<text text-anchor="middle" x="435.81" y="-20.5" font-family="Helvetica,sans-Serif" font-size="11.00">'Working draft'</text>
+<text text-anchor="middle" x="435.81" y="-7.3" font-family="Helvetica,sans-Serif" font-size="11.00">at White House</text>
+</g>
+<!-- 1998\nCelera enters\nthe race&#45;&gt;2000\n&#39;Working draft&#39;\nat White House -->
+<g id="edge3" class="edge">
+<title>1998\nCelera enters\nthe race-&gt;2000\n'Working draft'\nat White House</title>
+<path fill="none" stroke="#6b7280" d="M354.35,-23.8C362.44,-23.8 371.08,-23.8 379.57,-23.8"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="389.83,-23.8 379.83,-28.3 384.83,-23.8 379.83,-23.8 379.83,-23.8 379.83,-23.8 384.83,-23.8 379.83,-19.3 389.83,-23.8 389.83,-23.8"></polygon>
+</g>
+<!-- 2003\nCompletion\ndeclared -->
+<g id="node5" class="node">
+<title>2003\nCompletion\ndeclared</title>
+<path fill="#f3f4f6" stroke="black" d="M576.87,-47.4C576.87,-47.4 529.59,-47.4 529.59,-47.4 523.59,-47.4 517.59,-41.4 517.59,-35.4 517.59,-35.4 517.59,-12.2 517.59,-12.2 517.59,-6.2 523.59,-0.2 529.59,-0.2 529.59,-0.2 576.87,-0.2 576.87,-0.2 582.87,-0.2 588.87,-6.2 588.87,-12.2 588.87,-12.2 588.87,-35.4 588.87,-35.4 588.87,-41.4 582.87,-47.4 576.87,-47.4"></path>
+<text text-anchor="middle" x="553.23" y="-33.7" font-family="Helvetica,sans-Serif" font-size="11.00">2003</text>
+<text text-anchor="middle" x="553.23" y="-20.5" font-family="Helvetica,sans-Serif" font-size="11.00">Completion</text>
+<text text-anchor="middle" x="553.23" y="-7.3" font-family="Helvetica,sans-Serif" font-size="11.00">declared</text>
+</g>
+<!-- 2000\n&#39;Working draft&#39;\nat White House&#45;&gt;2003\nCompletion\ndeclared -->
+<g id="edge4" class="edge">
+<title>2000\n'Working draft'\nat White House-&gt;2003\nCompletion\ndeclared</title>
+<path fill="none" stroke="#6b7280" d="M481.43,-23.8C489.91,-23.8 498.79,-23.8 507.27,-23.8"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="517.38,-23.8 507.38,-28.3 512.38,-23.8 507.38,-23.8 507.38,-23.8 507.38,-23.8 512.38,-23.8 507.38,-19.3 517.38,-23.8 517.38,-23.8"></polygon>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>The HGP was a public, international project led by the NIH and the Department of Energy. The UK’s Wellcome Trust Sanger Centre was the largest non-US partner. The project began in 1990 and was meant to finish by 2005. In 1998, a private company — Celera Genomics, run by <strong>Craig Venter</strong> — said it would finish first using a faster method. The race ended in a tie at a White House press conference in June 2000.</p>
+</section>
+<section id="the-public-celera-race" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="the-public-celera-race"><span class="header-section-number">2.2</span> The Public-Celera Race</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><strong>The public effort (HGP)</strong></p>
+<ul>
+<li>Funded by NIH, DOE, and the Wellcome Trust.</li>
+<li><strong>Clone-by-clone</strong> method: cut the genome into mapped chunks, sequence each, reassemble.</li>
+<li>Slower, but more careful with repeats.</li>
+<li>Data released to public databases each night.</li>
+</ul>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<p><strong>Celera Genomics</strong></p>
+<ul>
+<li>Privately funded; planned to sell access to the result.</li>
+<li><strong>Whole-genome shotgun</strong> method: break the genome into random fragments, sequence in bulk, reassemble by computer.</li>
+<li>Faster and cheaper, but leaned on the public data to fill gaps.</li>
+<li>Backed off its patent plan under public pressure.</li>
+</ul>
+</div>
+</div>
+<p>Both finished. The shotgun method won the science fight; the public group won the policy fight.</p>
+</section>
+<section id="collins-1999-verbatim" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="collins-1999-verbatim"><span class="header-section-number">2.3</span> Collins 1999, Verbatim</h2>
+<div class="quote-card">
+<p>“By the year 2010, it is expected that predictive genetic tests will be available for as many as a dozen common conditions, allowing individuals who wish to know this information to learn their individual susceptibilities and to take steps to reduce those risks for which interventions are or will be available. Such interventions could take the form of medical surveillance, lifestyle modifications, diet, or drug therapy.”</p>
+<p>— Francis S. Collins, “Medical and Societal Consequences of the Human Genome Project,” <em>NEJM</em> 341 (1999): 28.</p>
+</div>
+<p><span class="citation" data-cites="collins1999_hgp">(<a href="#ref-collins1999_hgp" role="doc-biblioref">Collins 1999</a>)</span></p>
+</section>
+<section id="promised-vs.-delivered" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="promised-vs.-delivered"><span class="header-section-number">2.4</span> Promised vs.&nbsp;Delivered</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Collins predicted by 2010</th>
+<th>What 2026 actually has</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Routine cheek-swab risk prediction for common diseases</td>
+<td>A small set of strong single-gene tests; broad risk prediction still uneven</td>
+</tr>
+<tr class="even">
+<td>Drugs dosed by genotype</td>
+<td>A few dozen drug-gene pairs in use; far fewer than promised</td>
+</tr>
+<tr class="odd">
+<td>Twelve common conditions with usable predictive tests</td>
+<td>Several, but most predict only modest risk</td>
+</tr>
+<tr class="even">
+<td>Genetic privacy laws “fully in place”</td>
+<td>GINA 2008 covers health insurance and employment only</td>
+</tr>
+<tr class="odd">
+<td>Public catching up with the science</td>
+<td>Ancestry-kit marketing still routinely overpromises</td>
+</tr>
+</tbody>
+</table>
+<p>The gap is not a failure of the project. It is the lecture’s first lesson about how genetic claims travel.</p>
+</section>
+<section id="missing-heritability" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="missing-heritability"><span class="header-section-number">2.5</span> “Missing Heritability”</h2>
+<div class="context-box">
+<p><strong>What GWAS expected and what it found</strong></p>
+<p>A <strong>genome-wide association study</strong> (GWAS) lines up the DNA of people who have a trait — height, diabetes, schizophrenia — against people who don’t, and looks for variants that show up more often in one group. By 2010, GWAS had been run on hundreds of thousands of people.</p>
+<p>Twin and family studies had predicted that most variation in these traits was heritable, and that GWAS would find a few moderately strong variants. What it found instead were thousands of variants of <em>tiny</em> effect — which still leave most of the predicted heritability unexplained. That gap is the <strong>missing heritability</strong> problem. It is part of why “cheek-swab risk prediction” did not arrive on the 1999 schedule.</p>
+</div>
+</section>
+</section>
+<section id="geneticization" class="level1 section-divider" data-number="3">
+<h1 class="section-divider" data-number="3"><span class="header-section-number">3</span> Geneticization</h1>
+<section id="lippman-names-the-tendency" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="lippman-names-the-tendency"><span class="header-section-number">3.1</span> Lippman Names the Tendency</h2>
+<div class="quote-card">
+<p>“Geneticization refers to an ongoing process by which differences between individuals are reduced to their DNA codes, with most disorders, behaviours and physiological variations defined, at least in part, as genetic in origin.… It refers as well to the process by which interventions employing genetic technologies are adopted to manage problems of health.”</p>
+<p>— Abby Lippman, “Prenatal Genetic Testing and Screening,” <em>American Journal of Law &amp; Medicine</em> 17 (1991): 19.</p>
+</div>
+<p><span class="citation" data-cites="lippman1991 gannett_sep_hgp">(<a href="#ref-lippman1991" role="doc-biblioref">Lippman 1991</a>; <a href="#ref-gannett_sep_hgp" role="doc-biblioref">Gannett 2023</a>)</span></p>
+</section>
+<section id="three-related-pulls" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="three-related-pulls"><span class="header-section-number">3.2</span> Three Related Pulls</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><strong>Geneticization</strong> — the <em>tendency</em> to cast human differences, risks, and identities as mostly genetic. A cultural and rhetorical pattern, not a scientific claim.</p>
+<p><strong>Genetic reductionism</strong> — the working assumption that the right level to <em>explain</em> a trait is the gene. Sometimes useful; often overshoots.</p>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<p><strong>Genetic determinism</strong> — the stronger claim that genes <em>fix</em> outcomes — that DNA is destiny. Almost no working geneticist believes this in its strong form. It lives mostly in popular framings and marketing copy.</p>
+<p>The three travel together. Catch one and you usually catch the others.</p>
+</div>
+</div>
+</section>
+<section id="gene-environment-the-working-picture" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="gene-environment-the-working-picture"><span class="header-section-number">3.3</span> Gene × Environment — the Working Picture</h2>
+<div class="cell" data-fig-height="2.4" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<svg width="672" height="230" viewbox="0.00 0.00 370.81 75.80" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 71.8)">
+<title>GxE</title>
+<!-- Genotype -->
+<g id="node1" class="node">
+<title>Genotype</title>
+<path fill="#f3f4f6" stroke="black" d="M51.55,-67.8C51.55,-67.8 12.15,-67.8 12.15,-67.8 6.15,-67.8 0.15,-61.8 0.15,-55.8 0.15,-55.8 0.15,-43.8 0.15,-43.8 0.15,-37.8 6.15,-31.8 12.15,-31.8 12.15,-31.8 51.55,-31.8 51.55,-31.8 57.55,-31.8 63.55,-37.8 63.55,-43.8 63.55,-43.8 63.55,-55.8 63.55,-55.8 63.55,-61.8 57.55,-67.8 51.55,-67.8"></path>
+<text text-anchor="middle" x="31.85" y="-46.5" font-family="Helvetica,sans-Serif" font-size="11.00">Genotype</text>
+</g>
+<!-- Phenotype\n(observed trait) -->
+<g id="node2" class="node">
+<title>Phenotype\n(observed trait)</title>
+<path fill="#f3f4f6" stroke="black" d="M350.8,-67.8C350.8,-67.8 284.86,-67.8 284.86,-67.8 278.86,-67.8 272.86,-61.8 272.86,-55.8 272.86,-55.8 272.86,-43.8 272.86,-43.8 272.86,-37.8 278.86,-31.8 284.86,-31.8 284.86,-31.8 350.8,-31.8 350.8,-31.8 356.8,-31.8 362.8,-37.8 362.8,-43.8 362.8,-43.8 362.8,-55.8 362.8,-55.8 362.8,-61.8 356.8,-67.8 350.8,-67.8"></path>
+<text text-anchor="middle" x="317.83" y="-53.1" font-family="Helvetica,sans-Serif" font-size="11.00">Phenotype</text>
+<text text-anchor="middle" x="317.83" y="-39.9" font-family="Helvetica,sans-Serif" font-size="11.00">(observed trait)</text>
+</g>
+<!-- Genotype&#45;&gt;Phenotype\n(observed trait) -->
+<g id="edge1" class="edge">
+<title>Genotype-&gt;Phenotype\n(observed trait)</title>
+<path fill="none" stroke="#6b7280" d="M63.65,-58.56C69.59,-59.91 75.81,-61.09 81.7,-61.8 143.32,-69.26 214.57,-63.65 262.35,-57.84"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="272.47,-56.57 263.11,-62.28 267.51,-57.19 262.55,-57.82 262.55,-57.82 262.55,-57.82 267.51,-57.19 261.99,-53.35 272.47,-56.57 272.47,-56.57"></polygon>
+</g>
+<!-- Environment\n(diet, exposure,\nstress, care) -->
+<g id="node3" class="node">
+<title>Environment\n(diet, exposure,\nstress, care)</title>
+<path fill="#f3f4f6" stroke="black" d="M223.75,-47.4C223.75,-47.4 156.12,-47.4 156.12,-47.4 150.12,-47.4 144.12,-41.4 144.12,-35.4 144.12,-35.4 144.12,-12.2 144.12,-12.2 144.12,-6.2 150.12,-0.2 156.12,-0.2 156.12,-0.2 223.75,-0.2 223.75,-0.2 229.75,-0.2 235.75,-6.2 235.75,-12.2 235.75,-12.2 235.75,-35.4 235.75,-35.4 235.75,-41.4 229.75,-47.4 223.75,-47.4"></path>
+<text text-anchor="middle" x="189.93" y="-33.7" font-family="Helvetica,sans-Serif" font-size="11.00">Environment</text>
+<text text-anchor="middle" x="189.93" y="-20.5" font-family="Helvetica,sans-Serif" font-size="11.00">(diet, exposure,</text>
+<text text-anchor="middle" x="189.93" y="-7.3" font-family="Helvetica,sans-Serif" font-size="11.00">stress, care)</text>
+</g>
+<!-- Genotype&#45;&gt;Environment\n(diet, exposure,\nstress, care) -->
+<g id="edge3" class="edge">
+<title>Genotype-&gt;Environment\n(diet, exposure,\nstress, care)</title>
+<path fill="none" stroke="#6b7280" stroke-dasharray="5,2" d="M63.69,-44.66C83.74,-41.32 110.46,-36.87 134.07,-32.94"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="143.97,-31.29 134.84,-37.37 139.04,-32.11 134.1,-32.93 134.1,-32.93 134.1,-32.93 139.04,-32.11 133.36,-28.49 143.97,-31.29 143.97,-31.29"></polygon>
+<text text-anchor="middle" x="103.86" y="-46" font-family="Times,serif" font-size="14.00"> &nbsp;shapes</text>
+</g>
+<!-- Environment\n(diet, exposure,\nstress, care)&#45;&gt;Phenotype\n(observed trait) -->
+<g id="edge2" class="edge">
+<title>Environment\n(diet, exposure,\nstress, care)-&gt;Phenotype\n(observed trait)</title>
+<path fill="none" stroke="#6b7280" d="M236.03,-33.11C244.64,-34.89 253.74,-36.77 262.6,-38.6"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="272.47,-40.64 261.77,-43.02 267.57,-39.63 262.68,-38.62 262.68,-38.62 262.68,-38.62 267.57,-39.63 263.59,-34.21 272.47,-40.64 272.47,-40.64"></polygon>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>The textbook case is <strong>phenylketonuria (PKU)</strong>. It causes severe intellectual disability — but only if the diet contains a substance called phenylalanine. Find the gene at birth, change the diet, and the disability never appears. Same DNA, different outcome.</p>
+<p>Most diseases the HGP was meant to crack — diabetes, heart disease, depression — sit closer to the PKU end than the popular framing suggests. Genes matter. So does what you live next to, eat, and can afford.</p>
+</section>
+</section>
+<section id="the-vocabulary-you-need" class="level1 section-divider" data-number="4">
+<h1 class="section-divider" data-number="4"><span class="header-section-number">4</span> The Vocabulary You Need</h1>
+<section id="four-words" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="four-words"><span class="header-section-number">4.1</span> Four Words</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Term</th>
+<th>What it means</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Gene</strong></td>
+<td>A stretch of DNA that codes for a working product (usually a protein). Humans have about 20,000.</td>
+</tr>
+<tr class="even">
+<td><strong>Allele</strong></td>
+<td>One of the possible versions of a gene at a given spot. You get one from each parent.</td>
+</tr>
+<tr class="odd">
+<td><strong>Genome</strong></td>
+<td>The full set of DNA in an organism’s cells — about 3.2 billion base pairs in humans.</td>
+</tr>
+<tr class="even">
+<td><strong>Variant</strong></td>
+<td>Any place where one person’s DNA differs from a reference sequence. Most variants do nothing visible. A few do a lot.</td>
+</tr>
+</tbody>
+</table>
+<p>The older word <strong>mutation</strong> is still used, but <em>variant</em> has largely replaced it. “Mutation” carries an unhelpful hint that the difference is always bad.</p>
+</section>
+<section id="germline-vs.-somatic" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="germline-vs.-somatic"><span class="header-section-number">4.2</span> Germline vs.&nbsp;Somatic</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><strong>Germline</strong></p>
+<ul>
+<li>Present in the egg or sperm — and so in <em>every</em> cell of the resulting person.</li>
+<li>Heritable: passed to children.</li>
+<li>A germline edit changes one person <em>and</em> every descendant.</li>
+</ul>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<p><strong>Somatic</strong></p>
+<ul>
+<li>A change in one tissue, in one person, in non-reproductive cells.</li>
+<li>Not heritable: dies with the patient.</li>
+<li>Most cancers are somatic. So are most approved gene therapies (Casgevy for sickle-cell disease, for example).</li>
+</ul>
+</div>
+</div>
+<p>This distinction does most of the moral work in Part B. Editing one patient’s bone marrow is not the same as editing every cell in every descendant.</p>
+</section>
+</section>
+<section id="whose-genome-is-the-reference" class="level1 section-divider" data-number="5">
+<h1 class="section-divider" data-number="5"><span class="header-section-number">5</span> Whose Genome Is the Reference?</h1>
+<section id="the-reference-is-a-composite" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="the-reference-is-a-composite"><span class="header-section-number">5.1</span> The Reference Is a Composite</h2>
+<p>When a clinical lab says a patient has “a variant,” it means the patient’s DNA differs in one spot from <strong>the human reference genome</strong>. The reference is a published sequence anyone can look up. Everyone else’s DNA gets compared against it.</p>
+<p>The reference is a <em>composite</em>. It is stitched together from cell lines that came from several anonymous donors. It is not the genome of any one person.</p>
+<p>That choice matters, because most of the reference is from very few of those donors. <span class="citation" data-cites="gannett_sep_hgp">(<a href="#ref-gannett_sep_hgp" role="doc-biblioref">Gannett 2023</a>)</span></p>
+</section>
+<section id="the-buffalo-man-and-craig-venter" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="the-buffalo-man-and-craig-venter"><span class="header-section-number">5.2</span> The Buffalo Man and Craig Venter</h2>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Where the reference actually comes from</strong></p>
+<p>The public HGP reference is roughly <strong>74% from one anonymous male donor.</strong> He was known internally as “RP11” because his cells became the most-used cell line at Roswell Park Cancer Institute in Buffalo, New York. He was paid $50, signed an anonymous consent form, and never knew he was the main donor.</p>
+<p>The Celera reference is roughly <strong>71% from Craig Venter himself.</strong> Venter quietly put his own DNA into the donor pool and confirmed it in public in 2002.</p>
+<p>For about twenty years, the standard against which billions of human genomes have been compared was therefore mostly two men.</p>
+</div>
+</div>
+<p><span class="citation" data-cites="gannett_sep_hgp">(<a href="#ref-gannett_sep_hgp" role="doc-biblioref">Gannett 2023</a>)</span></p>
+</section>
+<section id="why-it-matters-ancestry-bias" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="why-it-matters-ancestry-bias"><span class="header-section-number">5.3</span> Why It Matters: Ancestry Bias</h2>
+<p>GWAS finds variants by comparing thousands of cases to thousands of controls. If those controls are mostly of one ancestry, the variants the study <em>finds</em> are the ones that matter in that group. The predictions built from them work best in that group too.</p>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><strong>Where GWAS participants come from (cumulative, mid-2010s):</strong></p>
+<ul>
+<li>~80% European ancestry</li>
+<li>~10% Asian ancestry</li>
+<li>~3% African ancestry</li>
+<li>~1% Hispanic / Latin American</li>
+<li>Remainder: everyone else</li>
+</ul>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<p><strong>What that means in the clinic:</strong></p>
+<p>A <strong>polygenic risk score</strong> for coronary disease trained on this data is about 4–5× more accurate in people of European ancestry than in people of African ancestry.</p>
+<p>The score is not biased because the math is bad. It is biased because the <em>training data</em> was.</p>
+</div>
+</div>
+<p><span class="citation" data-cites="popejoy_fullerton_2016">(<a href="#ref-popejoy_fullerton_2016" role="doc-biblioref">Popejoy and Fullerton 2016</a>)</span></p>
+</section>
+<section id="toward-a-pangenome" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="toward-a-pangenome"><span class="header-section-number">5.4</span> Toward a Pangenome</h2>
+<p>The fix is not to “patch the reference.” It is to replace one reference with <em>many</em>. A <strong>pangenome reference</strong> is a set of high-quality genomes from people around the world, queried as a group rather than as one string.</p>
+<p>The first draft human pangenome was published in 2023. Its 47 starting genomes are still only a fraction of human variation. The shift — from one reference to many — closes the bias gap at the root rather than patching it downstream.</p>
+</section>
+</section>
+<section id="prenatal-testing" class="level1 section-divider" data-number="6">
+<h1 class="section-divider" data-number="6"><span class="header-section-number">6</span> Prenatal Testing</h1>
+<section id="three-kinds-of-genetic-testing" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="three-kinds-of-genetic-testing"><span class="header-section-number">6.1</span> Three Kinds of Genetic Testing</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Who is tested</th>
+<th>What it tells you</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Diagnostic</strong></td>
+<td>A patient with symptoms</td>
+<td>Whether their disease has a known genetic cause</td>
+</tr>
+<tr class="even">
+<td><strong>Predictive</strong></td>
+<td>A healthy person at risk</td>
+<td>Their chance of developing a disease later</td>
+</tr>
+<tr class="odd">
+<td><strong>Reproductive</strong></td>
+<td>A future parent, fetus, or embryo</td>
+<td>Whether a future person is likely to be affected</td>
+</tr>
+</tbody>
+</table>
+<p>The same lab test can be used for any of the three. What changes is <em>who is asking, on whose behalf, and what they will do with the answer</em>.</p>
+</section>
+<section id="nipt-how-it-works" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="nipt-how-it-works"><span class="header-section-number">6.2</span> NIPT — How It Works</h2>
+<div class="cell" data-fig-height="2.6" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<svg width="672" height="250" viewbox="0.00 0.00 590.28 55.60" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 51.6)">
+<title>NIPT</title>
+<!-- Maternal\nblood draw\n(~10 weeks) -->
+<g id="node1" class="node">
+<title>Maternal\nblood draw\n(~10 weeks)</title>
+<path fill="#f3f4f6" stroke="black" d="M64.33,-47.4C64.33,-47.4 11.89,-47.4 11.89,-47.4 5.89,-47.4 -0.11,-41.4 -0.11,-35.4 -0.11,-35.4 -0.11,-12.2 -0.11,-12.2 -0.11,-6.2 5.89,-0.2 11.89,-0.2 11.89,-0.2 64.33,-0.2 64.33,-0.2 70.33,-0.2 76.33,-6.2 76.33,-12.2 76.33,-12.2 76.33,-35.4 76.33,-35.4 76.33,-41.4 70.33,-47.4 64.33,-47.4"></path>
+<text text-anchor="middle" x="38.11" y="-33.7" font-family="Helvetica,sans-Serif" font-size="11.00">Maternal</text>
+<text text-anchor="middle" x="38.11" y="-20.5" font-family="Helvetica,sans-Serif" font-size="11.00">blood draw</text>
+<text text-anchor="middle" x="38.11" y="-7.3" font-family="Helvetica,sans-Serif" font-size="11.00">(~10 weeks)</text>
+</g>
+<!-- Cell&#45;free DNA\n(mother + fetus) -->
+<g id="node2" class="node">
+<title>Cell-free DNA\n(mother + fetus)</title>
+<path fill="#f3f4f6" stroke="black" d="M194.14,-41.8C194.14,-41.8 124.25,-41.8 124.25,-41.8 118.25,-41.8 112.25,-35.8 112.25,-29.8 112.25,-29.8 112.25,-17.8 112.25,-17.8 112.25,-11.8 118.25,-5.8 124.25,-5.8 124.25,-5.8 194.14,-5.8 194.14,-5.8 200.14,-5.8 206.14,-11.8 206.14,-17.8 206.14,-17.8 206.14,-29.8 206.14,-29.8 206.14,-35.8 200.14,-41.8 194.14,-41.8"></path>
+<text text-anchor="middle" x="159.19" y="-27.1" font-family="Helvetica,sans-Serif" font-size="11.00">Cell-free DNA</text>
+<text text-anchor="middle" x="159.19" y="-13.9" font-family="Helvetica,sans-Serif" font-size="11.00">(mother + fetus)</text>
+</g>
+<!-- Maternal\nblood draw\n(~10 weeks)&#45;&gt;Cell&#45;free DNA\n(mother + fetus) -->
+<g id="edge1" class="edge">
+<title>Maternal\nblood draw\n(~10 weeks)-&gt;Cell-free DNA\n(mother + fetus)</title>
+<path fill="none" stroke="#6b7280" d="M76.46,-23.8C84.6,-23.8 93.38,-23.8 102.07,-23.8"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="112.18,-23.8 102.18,-28.3 107.18,-23.8 102.18,-23.8 102.18,-23.8 102.18,-23.8 107.18,-23.8 102.18,-19.3 112.18,-23.8 112.18,-23.8"></polygon>
+</g>
+<!-- Sequencing -->
+<g id="node3" class="node">
+<title>Sequencing</title>
+<path fill="#f3f4f6" stroke="black" d="M304.32,-41.8C304.32,-41.8 254.11,-41.8 254.11,-41.8 248.11,-41.8 242.11,-35.8 242.11,-29.8 242.11,-29.8 242.11,-17.8 242.11,-17.8 242.11,-11.8 248.11,-5.8 254.11,-5.8 254.11,-5.8 304.32,-5.8 304.32,-5.8 310.32,-5.8 316.32,-11.8 316.32,-17.8 316.32,-17.8 316.32,-29.8 316.32,-29.8 316.32,-35.8 310.32,-41.8 304.32,-41.8"></path>
+<text text-anchor="middle" x="279.22" y="-20.5" font-family="Helvetica,sans-Serif" font-size="11.00">Sequencing</text>
+</g>
+<!-- Cell&#45;free DNA\n(mother + fetus)&#45;&gt;Sequencing -->
+<g id="edge2" class="edge">
+<title>Cell-free DNA\n(mother + fetus)-&gt;Sequencing</title>
+<path fill="none" stroke="#6b7280" d="M206.16,-23.8C214.63,-23.8 223.47,-23.8 231.95,-23.8"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="242.06,-23.8 232.06,-28.3 237.06,-23.8 232.06,-23.8 232.06,-23.8 232.06,-23.8 237.06,-23.8 232.06,-19.3 242.06,-23.8 242.06,-23.8"></polygon>
+</g>
+<!-- Count chromosome\nfragments -->
+<g id="node4" class="node">
+<title>Count chromosome\nfragments</title>
+<path fill="#f3f4f6" stroke="black" d="M452.25,-41.8C452.25,-41.8 364.28,-41.8 364.28,-41.8 358.28,-41.8 352.28,-35.8 352.28,-29.8 352.28,-29.8 352.28,-17.8 352.28,-17.8 352.28,-11.8 358.28,-5.8 364.28,-5.8 364.28,-5.8 452.25,-5.8 452.25,-5.8 458.25,-5.8 464.25,-11.8 464.25,-17.8 464.25,-17.8 464.25,-29.8 464.25,-29.8 464.25,-35.8 458.25,-41.8 452.25,-41.8"></path>
+<text text-anchor="middle" x="408.26" y="-27.1" font-family="Helvetica,sans-Serif" font-size="11.00">Count chromosome</text>
+<text text-anchor="middle" x="408.26" y="-13.9" font-family="Helvetica,sans-Serif" font-size="11.00">fragments</text>
+</g>
+<!-- Sequencing&#45;&gt;Count chromosome\nfragments -->
+<g id="edge3" class="edge">
+<title>Sequencing-&gt;Count chromosome\nfragments</title>
+<path fill="none" stroke="#6b7280" d="M316.28,-23.8C324.39,-23.8 333.23,-23.8 342.11,-23.8"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="352.12,-23.8 342.12,-28.3 347.12,-23.8 342.12,-23.8 342.12,-23.8 342.12,-23.8 347.12,-23.8 342.12,-19.3 352.12,-23.8 352.12,-23.8"></polygon>
+</g>
+<!-- Probability\nof trisomy 21,\n18, 13, etc. -->
+<g id="node5" class="node">
+<title>Probability\nof trisomy 21,\n18, 13, etc.</title>
+<path fill="#f3f4f6" stroke="black" d="M570.29,-47.4C570.29,-47.4 512.25,-47.4 512.25,-47.4 506.25,-47.4 500.25,-41.4 500.25,-35.4 500.25,-35.4 500.25,-12.2 500.25,-12.2 500.25,-6.2 506.25,-0.2 512.25,-0.2 512.25,-0.2 570.29,-0.2 570.29,-0.2 576.29,-0.2 582.29,-6.2 582.29,-12.2 582.29,-12.2 582.29,-35.4 582.29,-35.4 582.29,-41.4 576.29,-47.4 570.29,-47.4"></path>
+<text text-anchor="middle" x="541.27" y="-33.7" font-family="Helvetica,sans-Serif" font-size="11.00">Probability</text>
+<text text-anchor="middle" x="541.27" y="-20.5" font-family="Helvetica,sans-Serif" font-size="11.00">of trisomy 21,</text>
+<text text-anchor="middle" x="541.27" y="-7.3" font-family="Helvetica,sans-Serif" font-size="11.00">18, 13, etc.</text>
+</g>
+<!-- Count chromosome\nfragments&#45;&gt;Probability\nof trisomy 21,\n18, 13, etc. -->
+<g id="edge4" class="edge">
+<title>Count chromosome\nfragments-&gt;Probability\nof trisomy 21,\n18, 13, etc.</title>
+<path fill="none" stroke="#6b7280" d="M464.44,-23.8C472.8,-23.8 481.39,-23.8 489.64,-23.8"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="499.88,-23.8 489.88,-28.3 494.88,-23.8 489.88,-23.8 489.88,-23.8 489.88,-23.8 494.88,-23.8 489.88,-19.3 499.88,-23.8 499.88,-23.8"></polygon>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p><strong>Non-invasive prenatal testing</strong> (NIPT) reads bits of fetal DNA that float in the mother’s blood. It is available from about ten weeks of pregnancy. NIPT is <em>screening</em>, not diagnosis. A positive result raises the chance the fetus has Down syndrome but does not confirm it.</p>
+<p>A confirming test — usually amniocentesis at 15–18 weeks — is needed before any permanent decision.</p>
+</section>
+<section id="nipt-down-syndrome-and-the-90-question" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="nipt-down-syndrome-and-the-90-question"><span class="header-section-number">6.3</span> NIPT, Down Syndrome, and the &gt;90% Question</h2>
+<p>NIPT has been offered to nearly all pregnant patients in the US since the mid-2010s, regardless of age. After a confirmed Down syndrome diagnosis, the US termination rate is above 60%. In Denmark and Iceland, where first-trimester screening is universal, the rate is close to 95%.</p>
+<div class="context-box">
+<p><strong>A question that returns later in the course</strong></p>
+<p>The disability scholar <strong>Adrienne Asch</strong> argued that aborting a fetus diagnosed with Down syndrome is not the same as the general right to abortion. The <em>grounds</em> matter, she said. “We don’t want a child like <em>that</em>” sends a message to people already living with the condition.</p>
+<p>This lecture does not settle the argument. The disability-rights treatment belongs to a later lecture. The point here is that NIPT is the technology that made the question scale — from rare diagnosis to a routine offer.</p>
+</div>
+</section>
+</section>
+<section id="predictive-testing-and-the-open-future" class="level1 section-divider" data-number="7">
+<h1 class="section-divider" data-number="7"><span class="header-section-number">7</span> Predictive Testing and the Open Future</h1>
+<section id="brca-in-adults" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="brca-in-adults"><span class="header-section-number">7.1</span> BRCA in Adults</h2>
+<p>The genes <strong>BRCA1</strong> and <strong>BRCA2</strong> are tumor-suppressor genes. Certain variants in either raise lifetime risk of breast and ovarian cancer by a lot. Among Ashkenazi Jewish women, three specific variants account for most of the inherited risk. Predictive testing in healthy adult women is, by now, routine.</p>
+<p>What a positive result changes for an adult woman is concrete: more frequent screening, the option of preventive surgery in her thirties or forties, sometimes drug therapy. The decision is hers, with a genetic counselor.</p>
+<p>The adult case is largely a settled use of informed consent. The child case is not.</p>
+</section>
+<section id="testing-healthy-children-for-adult-onset-conditions" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="testing-healthy-children-for-adult-onset-conditions"><span class="header-section-number">7.2</span> Testing Healthy Children for Adult-Onset Conditions</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><strong>BRCA in a healthy eight-year-old</strong></p>
+<ul>
+<li>The risk is real, but does not become <em>actionable</em> until her twenties or thirties.</li>
+<li>The result will follow her through every insurance form and school record for two decades before she can act on it.</li>
+<li>The American Society of Human Genetics has long advised <em>against</em> testing children for adult-onset conditions with no childhood treatment.</li>
+</ul>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<p><strong>Huntington’s in a healthy eight-year-old</strong></p>
+<ul>
+<li>A near-certain prediction of a fatal brain disease in midlife.</li>
+<li>No treatment. No prevention.</li>
+<li>The professional view is even firmer: do not test.</li>
+<li>Yet some adult Huntington’s patients say they wish they had been told earlier. Others say the opposite.</li>
+</ul>
+<p>The same rule, applied twice, gives the same answer for <em>different</em> reasons.</p>
+</div>
+</div>
+</section>
+<section id="feinbergs-open-future-applied-to-information" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="feinbergs-open-future-applied-to-information"><span class="header-section-number">7.3</span> Feinberg’s “Open Future,” Applied to Information</h2>
+<div class="context-box">
+<p><strong>Feinberg’s right to an open future</strong></p>
+<p>The legal philosopher <strong>Joel Feinberg</strong> argued that children hold a class of “rights in trust.” These are autonomy rights they cannot yet use, but which adults must keep <em>open</em> on their behalf. Parental choices that <em>close off</em> a future the child might have chosen are, on this view, a distinct kind of wrong.</p>
+<p>The first uses were about things like religion and schooling. Applied to genetic information, the rule is simple: <strong>don’t fix the meaning of an adult-onset risk before the future adult can decide whether to know it.</strong></p>
+<p>The same adult, twenty years later, can walk into a clinic and ask.</p>
+</div>
+</section>
+</section>
+<section id="newborn-genomic-sequencing-a-live-debate" class="level1 section-divider" data-number="8">
+<h1 class="section-divider" data-number="8"><span class="header-section-number">8</span> Newborn Genomic Sequencing — A Live Debate</h1>
+<section id="babyseq-and-guardian" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="babyseq-and-guardian"><span class="header-section-number">8.1</span> BabySeq and GUARDIAN</h2>
+<p>Two long-running US studies are quietly normalizing the choice we opened with.</p>
+<ul>
+<li><strong>BabySeq</strong> (Boston, since 2015) randomly assigned newborns to whole-genome reading plus normal care, or normal care alone. It tracked what families and pediatricians did with the results.</li>
+<li><strong>GUARDIAN</strong> (New York, since 2022) is enrolling a much larger group. It returns about 150–250 conditions, all chosen for childhood treatability.</li>
+</ul>
+<p>Neither study has reported major harm. Both report that families want the results — even for adult-onset conditions the researchers were nervous about returning.</p>
+</section>
+<section id="acmg-vs.-aap-two-positions" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="acmg-vs.-aap-two-positions"><span class="header-section-number">8.2</span> ACMG vs.&nbsp;AAP — Two Positions</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>American College of Medical Genetics</strong></th>
+<th><strong>American Academy of Pediatrics</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Default frame</strong></td>
+<td>Sequencing is cheap; expanding the panel of conditions returned is the responsible move</td>
+<td>The longstanding rule against testing healthy children should not erode with technology</td>
+</tr>
+<tr class="even">
+<td><strong>What to report</strong></td>
+<td>A regularly updated list of “medically actionable” findings, including some adult-onset</td>
+<td>Conditions with a <em>childhood</em> treatment, by preference</td>
+</tr>
+<tr class="odd">
+<td><strong>Why</strong></td>
+<td>Information delayed is treatments missed</td>
+<td>Information returned is futures narrowed</td>
+</tr>
+<tr class="even">
+<td><strong>Direction of pressure</strong></td>
+<td>Expand the panel</td>
+<td>Hold the line</td>
+</tr>
+</tbody>
+</table>
+<p>Both groups are firmly mainstream. They disagree, in public, about what to do with the next four million newborns.</p>
+</section>
+<section id="thought-question-would-you-sign-your-newborn-up" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="thought-question-would-you-sign-your-newborn-up"><span class="header-section-number">8.3</span> Thought Question — Would You Sign Your Newborn Up?</h2>
+<div class="thought-question">
+<p>You are the parent we opened with. The hospital is enrolling for a study that returns about 200 conditions: most treatable in childhood, about 30 only relevant in adulthood, a handful neither but informative. Your partner wants to enroll. You are unsure.</p>
+<p><strong>Write or discuss.</strong></p>
+<ol type="1">
+<li>Which of the three kinds of result would you tell the study you want back, and which not?</li>
+<li>The consent form says the data will be kept for thirty years and may be re-read as the science improves. Does that change your answer?</li>
+<li>The nurse on the consent team says “most families take everything.” Is that helpful information — or a form of subtle pressure?</li>
+</ol>
+</div>
+</section>
+<section id="after-youve-discussed-1" class="level2" data-number="8.4">
+<h2 data-number="8.4" class="anchored" data-anchor-id="after-youve-discussed-1"><span class="header-section-number">8.4</span> After You’ve Discussed</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A distinction worth carrying forward.</p>
+<p><strong>Actionability</strong> does not mean a single thing. It can mean:</p>
+<ul>
+<li><em>Actionable now</em> — there is a treatment we can start tomorrow (PKU diet, congenital hypothyroidism).</li>
+<li><em>Actionable later</em> — there is a screening or prevention plan that begins in adulthood (BRCA, Lynch syndrome).</li>
+<li><em>Behaviorally actionable</em> — no medical treatment, but the family changes plans (career, when to have kids).</li>
+<li><em>Not actionable</em> — the information is interesting but changes nothing concrete.</li>
+</ul>
+<p>The ACMG and AAP do not disagree about the science. They disagree about which of these counts as “actionable enough” to override a child’s right to decide for herself.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="direct-to-consumer-testing" class="level1 section-divider" data-number="9">
+<h1 class="section-divider" data-number="9"><span class="header-section-number">9</span> Direct-to-Consumer Testing</h1>
+<section id="andme-by-the-numbers" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="andme-by-the-numbers"><span class="header-section-number">9.1</span> 23andMe by the Numbers</h2>
+<ul>
+<li>Founded 2006; cleared by the FDA as a home health test in 2017.</li>
+<li>About <strong>14 million customers</strong> by 2023, most for ancestry rather than health.</li>
+<li>A saliva tube; about $100; results in six weeks.</li>
+<li>Customers can opt their DNA into research; about 80% historically have.</li>
+<li>Filed for bankruptcy in 2025; the data itself is still a corporate asset under sale.</li>
+</ul>
+<p>The product is two products in one box: a recreational ancestry report, and a clinical-grade test for a small set of disease variants.</p>
+</section>
+<section id="the-2023-breach" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="the-2023-breach"><span class="header-section-number">9.2</span> The 2023 Breach</h2>
+<p>In October 2023, attackers got into 23andMe accounts by reusing passwords leaked from other sites. Because many customers had opted into a feature called “DNA Relatives,” each broken account also exposed information about that user’s <em>relatives</em> — relatives who had never been hacked themselves.</p>
+<p>About <strong>6.9 million users</strong> were affected. Lists targeting Ashkenazi Jewish and Chinese-ancestry customers were posted on hacker forums. The company settled in late 2024 for about $30 million.</p>
+</section>
+<section id="one-relatives-test-is-everyones-test" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="one-relatives-test-is-everyones-test"><span class="header-section-number">9.3</span> One Relative’s Test Is Everyone’s Test</h2>
+<div class="context-box">
+<p><strong>The consent externality</strong></p>
+<p>If your second cousin uploads her saliva to a genealogy site, she has not just given consent for herself. With no notice to you, she has shared a lot about your DNA too.</p>
+<p>You cannot really <em>opt out</em> of your relatives’ choices. The same feature of DNA that makes ancestry inference work makes one-person consent an incomplete protection.</p>
+<p>The next section runs on the same fact. Shared DNA is what exposed millions in the 23andMe breach. It is also what makes forensic genetic genealogy work.</p>
+</div>
+</section>
+</section>
+<section id="race-and-genetics-the-nasem-framework" class="level1 section-divider" data-number="10">
+<h1 class="section-divider" data-number="10"><span class="header-section-number">10</span> Race and Genetics: The NASEM Framework</h1>
+<section id="why-this-comes-up-here" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="why-this-comes-up-here"><span class="header-section-number">10.1</span> Why This Comes Up Here</h2>
+<p>Race is not the topic of this lecture. The technology puts it on the table all the same, in two places.</p>
+<ul>
+<li><strong>Ancestry kits</strong>: a customer is told she is “23% Italian” with a precision the science does not support. The reference panels behind those percentages are social-political artifacts, not natural categories.</li>
+<li><strong>Genetic research</strong>: studies often report results by self-reported race, treating race as a stand-in for genetic variation. The 2023 National Academies report says that is a mistake.</li>
+</ul>
+<p>The field has argued about race and genetics since the HGP itself. The latest professional consensus is short and specific.</p>
+</section>
+<section id="nasem-2023-the-headline-rule" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="nasem-2023-the-headline-rule"><span class="header-section-number">10.2</span> NASEM 2023 — The Headline Rule</h2>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Recommendation 1.</strong> <em>“Researchers should not use race as a proxy for human genetic variation. In particular, researchers should not assign genetic ancestry group labels to individuals or sets of individuals based on their race, whether self-identified or not.”</em></p>
+<p>— National Academies of Sciences, Engineering, and Medicine, <em>Using Population Descriptors in Genetics and Genomics Research</em> (2023), Summary, Rec. 1.</p>
+</div>
+</div>
+<p>The reasoning, in one line: race is a social-political category. It shifts by country and by era. Human genetic variation is continuous, not discrete. Mapping the first onto the second produces errors that go in predictable directions. <span class="citation" data-cites="nasem_2023_population_descriptors">(<a href="#ref-nasem_2023_population_descriptors" role="doc-biblioref">National Academies of Sciences, Engineering, and Medicine 2023</a>)</span></p>
+</section>
+<section id="population-descriptors-at-a-glance" class="level2" data-number="10.3">
+<h2 data-number="10.3" class="anchored" data-anchor-id="population-descriptors-at-a-glance"><span class="header-section-number">10.3</span> Population Descriptors at a Glance</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Descriptor</th>
+<th>What it captures</th>
+<th>When to use it</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Race</strong></td>
+<td>A social-political category about perceived ancestry; shifts by country and era</td>
+<td>Not as a stand-in for genetic variation; sometimes as a stand-in for <em>social exposure</em> (with a stated reason)</td>
+</tr>
+<tr class="even">
+<td><strong>Ethnicity</strong></td>
+<td>A social-political category about shared cultural heritage</td>
+<td>For <em>cultural</em> features, not genetic ones</td>
+</tr>
+<tr class="odd">
+<td><strong>Geography</strong></td>
+<td>Where a person’s recent ancestors lived</td>
+<td>Useful to describe sampling; not a stand-in for ancestry</td>
+</tr>
+<tr class="even">
+<td><strong>Genetic ancestry</strong></td>
+<td>The paths through a family tree by which DNA was passed down</td>
+<td>When the study question is about ancestry as such</td>
+</tr>
+<tr class="odd">
+<td><strong>Genetic similarity</strong></td>
+<td>A number measuring how genetically alike two people are</td>
+<td>The preferred tool for most population comparisons</td>
+</tr>
+</tbody>
+</table>
+<p>Adapted from NASEM 2023, Table S-1.</p>
+</section>
+<section id="caucasian-a-word-with-a-history" class="level2" data-number="10.4">
+<h2 data-number="10.4" class="anchored" data-anchor-id="caucasian-a-word-with-a-history"><span class="header-section-number">10.4</span> “Caucasian” — a Word with a History</h2>
+<div class="context-box">
+<p><strong>Where the word came from</strong></p>
+<p>The term <em>Caucasian</em> was coined in 1795 by the German anatomist <strong>Johann Friedrich Blumenbach</strong>. He split humans into five “varieties” and declared the Caucasus region home to the most beautiful skull in his collection. He used the word to convey a racial hierarchy, with Europeans on top.</p>
+<p>NASEM 2023 says the word should be retired from genetic research. It carries no scientific information. It never did. Its continued use in medical forms gives a sheen of legitimacy to a category that started as a judgment about a skull.</p>
+</div>
+<p><span class="citation" data-cites="nasem_2023_population_descriptors">(<a href="#ref-nasem_2023_population_descriptors" role="doc-biblioref">National Academies of Sciences, Engineering, and Medicine 2023</a>)</span></p>
+</section>
+<section id="thought-question-a-study-lands-on-your-desk" class="level2" data-number="10.5">
+<h2 data-number="10.5" class="anchored" data-anchor-id="thought-question-a-study-lands-on-your-desk"><span class="header-section-number">10.5</span> Thought Question — A Study Lands on Your Desk</h2>
+<div class="thought-question">
+<p>You are a primary-care clinician reading the morning’s literature alerts. A new paper reports: <em>“African American patients in our cohort have a 1.8× higher rate of variant X, a variant linked to poor response to drug Y.”</em> You prescribe drug Y often.</p>
+<p><strong>Write or discuss.</strong></p>
+<ol type="1">
+<li>Before you change anything, what would you want to know about how the authors <em>defined</em> “African American”?</li>
+<li>Two of your patients fit the label as the authors used it: one whose grandparents emigrated from Nigeria in the 1990s, one whose family has been in rural Mississippi for six generations. Should the finding change their care in the same way?</li>
+<li>If the answer to (2) is “no,” what should the study have been reporting instead?</li>
+</ol>
+</div>
+</section>
+<section id="after-youve-discussed-2" class="level2" data-number="10.6">
+<h2 data-number="10.6" class="anchored" data-anchor-id="after-youve-discussed-2"><span class="header-section-number">10.6</span> After You’ve Discussed</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A clinician will, this week, read a study saying “African American patients have a higher rate of variant X.” Three readings sit underneath that sentence. They do not commit to the same things.</p>
+<ul>
+<li><em>Race as ancestry-proxy</em>: the variant is more common in people whose recent ancestors came from certain regions of Africa. Replace the label with the geographic ancestry and the claim becomes precise.</li>
+<li><em>Race as social-exposure proxy</em>: the variant looks more common because what activates it (lead, redlining, segregated air) tracks race in the US.</li>
+<li><em>Race as the actual variable</em>: a claim about a biological category called “African American” — which NASEM says doesn’t exist.</li>
+</ul>
+<p>The clinician’s job is to ask which one is being claimed before acting on it.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="forensic-genetic-genealogy" class="level1 section-divider" data-number="11">
+<h1 class="section-divider" data-number="11"><span class="header-section-number">11</span> Forensic Genetic Genealogy</h1>
+<section id="gedmatch-and-the-golden-state-killer" class="level2" data-number="11.1">
+<h2 data-number="11.1" class="anchored" data-anchor-id="gedmatch-and-the-golden-state-killer"><span class="header-section-number">11.1</span> GEDmatch and the Golden State Killer</h2>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Joseph James DeAngelo, 2018</strong></p>
+<p>Between 1973 and 1986, one offender committed at least 13 murders and dozens of rapes across California. The case went cold for thirty years. In 2018, a Sacramento team uploaded a DNA profile from a 1980 crime scene to <strong>GEDmatch</strong>, an open genealogy site used mostly by hobbyist family-tree researchers.</p>
+<p>The profile matched several of DeAngelo’s distant cousins. None of them had any idea their saliva tubes could finger a relative for murder. Investigators built family trees from the matches, narrowed to DeAngelo, picked up DNA from his car door handle, and arrested him.</p>
+<p>He pleaded guilty in 2020.</p>
+</div>
+</div>
+</section>
+<section id="how-long-range-familial-search-works" class="level2" data-number="11.2">
+<h2 data-number="11.2" class="anchored" data-anchor-id="how-long-range-familial-search-works"><span class="header-section-number">11.2</span> How Long-Range Familial Search Works</h2>
+<div class="cell" data-fig-height="2.8" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<svg width="672" height="269" viewbox="0.00 0.00 888.94 55.60" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 51.6)">
+<title>IGG</title>
+<!-- Crime&#45;scene\nDNA sample -->
+<g id="node1" class="node">
+<title>Crime-scene\nDNA sample</title>
+<path fill="#f3f4f6" stroke="black" d="M66.52,-41.8C66.52,-41.8 11.83,-41.8 11.83,-41.8 5.83,-41.8 -0.17,-35.8 -0.17,-29.8 -0.17,-29.8 -0.17,-17.8 -0.17,-17.8 -0.17,-11.8 5.83,-5.8 11.83,-5.8 11.83,-5.8 66.52,-5.8 66.52,-5.8 72.52,-5.8 78.52,-11.8 78.52,-17.8 78.52,-17.8 78.52,-29.8 78.52,-29.8 78.52,-35.8 72.52,-41.8 66.52,-41.8"></path>
+<text text-anchor="middle" x="39.17" y="-27.1" font-family="Helvetica,sans-Serif" font-size="11.00">Crime-scene</text>
+<text text-anchor="middle" x="39.17" y="-13.9" font-family="Helvetica,sans-Serif" font-size="11.00">DNA sample</text>
+</g>
+<!-- SNP profile\n(~500k markers) -->
+<g id="node2" class="node">
+<title>SNP profile\n(~500k markers)</title>
+<path fill="#f3f4f6" stroke="black" d="M198.92,-41.8C198.92,-41.8 126.15,-41.8 126.15,-41.8 120.15,-41.8 114.15,-35.8 114.15,-29.8 114.15,-29.8 114.15,-17.8 114.15,-17.8 114.15,-11.8 120.15,-5.8 126.15,-5.8 126.15,-5.8 198.92,-5.8 198.92,-5.8 204.92,-5.8 210.92,-11.8 210.92,-17.8 210.92,-17.8 210.92,-29.8 210.92,-29.8 210.92,-35.8 204.92,-41.8 198.92,-41.8"></path>
+<text text-anchor="middle" x="162.54" y="-27.1" font-family="Helvetica,sans-Serif" font-size="11.00">SNP profile</text>
+<text text-anchor="middle" x="162.54" y="-13.9" font-family="Helvetica,sans-Serif" font-size="11.00">(~500k markers)</text>
+</g>
+<!-- Crime&#45;scene\nDNA sample&#45;&gt;SNP profile\n(~500k markers) -->
+<g id="edge1" class="edge">
+<title>Crime-scene\nDNA sample-&gt;SNP profile\n(~500k markers)</title>
+<path fill="none" stroke="#6b7280" d="M78.57,-23.8C86.66,-23.8 95.36,-23.8 103.97,-23.8"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="114.01,-23.8 104.01,-28.3 109.01,-23.8 104.01,-23.8 104.01,-23.8 104.01,-23.8 109.01,-23.8 104.01,-19.3 114.01,-23.8 114.01,-23.8"></polygon>
+</g>
+<!-- Upload to\nGEDmatch /\nFamilyTreeDNA -->
+<g id="node3" class="node">
+<title>Upload to\nGEDmatch /\nFamilyTreeDNA</title>
+<path fill="#f3f4f6" stroke="black" d="M329.08,-47.4C329.08,-47.4 258.62,-47.4 258.62,-47.4 252.62,-47.4 246.62,-41.4 246.62,-35.4 246.62,-35.4 246.62,-12.2 246.62,-12.2 246.62,-6.2 252.62,-0.2 258.62,-0.2 258.62,-0.2 329.08,-0.2 329.08,-0.2 335.08,-0.2 341.08,-6.2 341.08,-12.2 341.08,-12.2 341.08,-35.4 341.08,-35.4 341.08,-41.4 335.08,-47.4 329.08,-47.4"></path>
+<text text-anchor="middle" x="293.85" y="-33.7" font-family="Helvetica,sans-Serif" font-size="11.00">Upload to</text>
+<text text-anchor="middle" x="293.85" y="-20.5" font-family="Helvetica,sans-Serif" font-size="11.00">GEDmatch /</text>
+<text text-anchor="middle" x="293.85" y="-7.3" font-family="Helvetica,sans-Serif" font-size="11.00">FamilyTreeDNA</text>
+</g>
+<!-- SNP profile\n(~500k markers)&#45;&gt;Upload to\nGEDmatch /\nFamilyTreeDNA -->
+<g id="edge2" class="edge">
+<title>SNP profile\n(~500k markers)-&gt;Upload to\nGEDmatch /\nFamilyTreeDNA</title>
+<path fill="none" stroke="#6b7280" d="M210.95,-23.8C219.26,-23.8 227.97,-23.8 236.48,-23.8"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="246.73,-23.8 236.73,-28.3 241.73,-23.8 236.73,-23.8 236.73,-23.8 236.73,-23.8 241.73,-23.8 236.73,-19.3 246.73,-23.8 246.73,-23.8"></polygon>
+</g>
+<!-- Identify shared\nDNA segments -->
+<g id="node4" class="node">
+<title>Identify shared\nDNA segments</title>
+<path fill="#f3f4f6" stroke="black" d="M454.92,-41.8C454.92,-41.8 388.98,-41.8 388.98,-41.8 382.98,-41.8 376.98,-35.8 376.98,-29.8 376.98,-29.8 376.98,-17.8 376.98,-17.8 376.98,-11.8 382.98,-5.8 388.98,-5.8 388.98,-5.8 454.92,-5.8 454.92,-5.8 460.92,-5.8 466.92,-11.8 466.92,-17.8 466.92,-17.8 466.92,-29.8 466.92,-29.8 466.92,-35.8 460.92,-41.8 454.92,-41.8"></path>
+<text text-anchor="middle" x="421.95" y="-27.1" font-family="Helvetica,sans-Serif" font-size="11.00">Identify shared</text>
+<text text-anchor="middle" x="421.95" y="-13.9" font-family="Helvetica,sans-Serif" font-size="11.00">DNA segments</text>
+</g>
+<!-- Upload to\nGEDmatch /\nFamilyTreeDNA&#45;&gt;Identify shared\nDNA segments -->
+<g id="edge3" class="edge">
+<title>Upload to\nGEDmatch /\nFamilyTreeDNA-&gt;Identify shared\nDNA segments</title>
+<path fill="none" stroke="#6b7280" d="M341.09,-23.8C349.38,-23.8 358.1,-23.8 366.59,-23.8"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="376.81,-23.8 366.81,-28.3 371.81,-23.8 366.81,-23.8 366.81,-23.8 366.81,-23.8 371.81,-23.8 366.81,-19.3 376.81,-23.8 376.81,-23.8"></polygon>
+</g>
+<!-- Build family\ntrees from matches -->
+<g id="node5" class="node">
+<title>Build family\ntrees from matches</title>
+<path fill="#f3f4f6" stroke="black" d="M601.14,-41.8C601.14,-41.8 514.86,-41.8 514.86,-41.8 508.86,-41.8 502.86,-35.8 502.86,-29.8 502.86,-29.8 502.86,-17.8 502.86,-17.8 502.86,-11.8 508.86,-5.8 514.86,-5.8 514.86,-5.8 601.14,-5.8 601.14,-5.8 607.14,-5.8 613.14,-11.8 613.14,-17.8 613.14,-17.8 613.14,-29.8 613.14,-29.8 613.14,-35.8 607.14,-41.8 601.14,-41.8"></path>
+<text text-anchor="middle" x="558" y="-27.1" font-family="Helvetica,sans-Serif" font-size="11.00">Build family</text>
+<text text-anchor="middle" x="558" y="-13.9" font-family="Helvetica,sans-Serif" font-size="11.00">trees from matches</text>
+</g>
+<!-- Identify shared\nDNA segments&#45;&gt;Build family\ntrees from matches -->
+<g id="edge4" class="edge">
+<title>Identify shared\nDNA segments-&gt;Build family\ntrees from matches</title>
+<path fill="none" stroke="#6b7280" d="M467.21,-23.8C475.24,-23.8 483.76,-23.8 492.23,-23.8"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="502.5,-23.8 492.5,-28.3 497.5,-23.8 492.5,-23.8 492.5,-23.8 492.5,-23.8 497.5,-23.8 492.5,-19.3 502.5,-23.8 502.5,-23.8"></polygon>
+</g>
+<!-- Narrow to one\ncandidate suspect -->
+<g id="node6" class="node">
+<title>Narrow to one\ncandidate suspect</title>
+<path fill="#f3f4f6" stroke="black" d="M741.58,-41.8C741.58,-41.8 661.24,-41.8 661.24,-41.8 655.24,-41.8 649.24,-35.8 649.24,-29.8 649.24,-29.8 649.24,-17.8 649.24,-17.8 649.24,-11.8 655.24,-5.8 661.24,-5.8 661.24,-5.8 741.58,-5.8 741.58,-5.8 747.58,-5.8 753.58,-11.8 753.58,-17.8 753.58,-17.8 753.58,-29.8 753.58,-29.8 753.58,-35.8 747.58,-41.8 741.58,-41.8"></path>
+<text text-anchor="middle" x="701.41" y="-27.1" font-family="Helvetica,sans-Serif" font-size="11.00">Narrow to one</text>
+<text text-anchor="middle" x="701.41" y="-13.9" font-family="Helvetica,sans-Serif" font-size="11.00">candidate suspect</text>
+</g>
+<!-- Build family\ntrees from matches&#45;&gt;Narrow to one\ncandidate suspect -->
+<g id="edge5" class="edge">
+<title>Build family\ntrees from matches-&gt;Narrow to one\ncandidate suspect</title>
+<path fill="none" stroke="#6b7280" d="M613.27,-23.8C621.57,-23.8 630.2,-23.8 638.65,-23.8"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="648.84,-23.8 638.84,-28.3 643.84,-23.8 638.84,-23.8 638.84,-23.8 638.84,-23.8 643.84,-23.8 638.84,-19.3 648.84,-23.8 648.84,-23.8"></polygon>
+</g>
+<!-- Confirm with\nrecovered DNA -->
+<g id="node7" class="node">
+<title>Confirm with\nrecovered DNA</title>
+<path fill="#f3f4f6" stroke="black" d="M869.04,-41.8C869.04,-41.8 801.64,-41.8 801.64,-41.8 795.64,-41.8 789.64,-35.8 789.64,-29.8 789.64,-29.8 789.64,-17.8 789.64,-17.8 789.64,-11.8 795.64,-5.8 801.64,-5.8 801.64,-5.8 869.04,-5.8 869.04,-5.8 875.04,-5.8 881.04,-11.8 881.04,-17.8 881.04,-17.8 881.04,-29.8 881.04,-29.8 881.04,-35.8 875.04,-41.8 869.04,-41.8"></path>
+<text text-anchor="middle" x="835.34" y="-27.1" font-family="Helvetica,sans-Serif" font-size="11.00">Confirm with</text>
+<text text-anchor="middle" x="835.34" y="-13.9" font-family="Helvetica,sans-Serif" font-size="11.00">recovered DNA</text>
+</g>
+<!-- Narrow to one\ncandidate suspect&#45;&gt;Confirm with\nrecovered DNA -->
+<g id="edge6" class="edge">
+<title>Narrow to one\ncandidate suspect-&gt;Confirm with\nrecovered DNA</title>
+<path fill="none" stroke="#6b7280" d="M753.79,-23.8C762.23,-23.8 771,-23.8 779.52,-23.8"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="789.74,-23.8 779.74,-28.3 784.74,-23.8 779.74,-23.8 779.74,-23.8 779.74,-23.8 784.74,-23.8 779.74,-19.3 789.74,-23.8 789.74,-23.8"></polygon>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>The method works because of one fact about DNA. A third cousin shares about 0.8% of their DNA with you, in long, readable chunks. With a database of a few million users, <em>some</em> third or fourth cousin of any given American is almost certainly in it.</p>
+<p>Your choice to stay out of the database does not, by itself, keep you out of searches it enables.</p>
+</section>
+<section id="the-law-catches-up" class="level2" data-number="11.3">
+<h2 data-number="11.3" class="anchored" data-anchor-id="the-law-catches-up"><span class="header-section-number">11.3</span> The Law Catches Up</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Year</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>2018</strong></td>
+<td>DeAngelo arrest brings the method to public attention</td>
+</tr>
+<tr class="even">
+<td><strong>2019</strong></td>
+<td>US Department of Justice issues an <em>interim policy</em> for federal use — only with prosecutor approval, only for violent crimes</td>
+</tr>
+<tr class="odd">
+<td><strong>2021</strong></td>
+<td><strong>Maryland</strong> becomes the first US state to regulate forensic genealogy by statute — court approval required, limited crimes</td>
+</tr>
+<tr class="even">
+<td><strong>2021</strong></td>
+<td><strong>Montana</strong> passes a tighter law requiring a search warrant</td>
+</tr>
+<tr class="odd">
+<td><strong>2023–</strong></td>
+<td>Other state legislatures consider similar bills; most US states still have no law</td>
+</tr>
+</tbody>
+</table>
+<p>The federal courts have not yet ruled on whether a Fourth Amendment “search” happens when investigators query a database your cousin uploaded.</p>
+</section>
+<section id="thought-question-whose-consent" class="level2" data-number="11.4">
+<h2 data-number="11.4" class="anchored" data-anchor-id="thought-question-whose-consent"><span class="header-section-number">11.4</span> Thought Question — Whose Consent?</h2>
+<div class="thought-question">
+<p>Your second cousin — someone you have met twice in your life — uploads her saliva to a genealogy site. Six years later, investigators use her upload to identify <em>you</em> as a suspect in a thirty-year-old assault case. They are right; you did it. You are arrested, charged, and convicted.</p>
+<p><strong>Write or discuss.</strong></p>
+<ol type="1">
+<li>Did you have a privacy interest that was violated, given that your own DNA was never tested?</li>
+<li>Does the answer change if you are <em>innocent</em> and were briefly a suspect before being cleared?</li>
+<li>Does it change if the crime is a serial murder vs.&nbsp;a thirty-year-old simple assault?</li>
+</ol>
+</div>
+</section>
+</section>
+<section id="gina-and-the-gap" class="level1 section-divider" data-number="12">
+<h1 class="section-divider" data-number="12"><span class="header-section-number">12</span> GINA and the Gap</h1>
+<section id="gina-2008-the-federal-floor" class="level2" data-number="12.1">
+<h2 data-number="12.1" class="anchored" data-anchor-id="gina-2008-the-federal-floor"><span class="header-section-number">12.1</span> GINA 2008 — The Federal Floor</h2>
+<p>The <strong>Genetic Information Nondiscrimination Act</strong>, signed in May 2008, was the first US federal law aimed at genetic discrimination. It does two things, and only two.</p>
+<ul>
+<li><strong>Health insurance</strong>: insurers may not use a person’s genetic information to set eligibility, premiums, or coverage. They may not request or require it.</li>
+<li><strong>Employment</strong>: employers with 15 or more workers may not use genetic information in hiring, firing, or promotion.</li>
+</ul>
+<p>That is the federal floor. Everyone in the US is covered by it. The areas it does <em>not</em> reach are large.</p>
+</section>
+<section id="the-four-cell-gap" class="level2" data-number="12.2">
+<h2 data-number="12.2" class="anchored" data-anchor-id="the-four-cell-gap"><span class="header-section-number">12.2</span> The Four-Cell Gap</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Insurance line</th>
+<th>Covered by GINA?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Health insurance</strong></td>
+<td>Yes — cannot use genetic information</td>
+</tr>
+<tr class="even">
+<td><strong>Life insurance</strong></td>
+<td><strong>No</strong> — may request it and price on it</td>
+</tr>
+<tr class="odd">
+<td><strong>Disability insurance</strong></td>
+<td><strong>No</strong></td>
+</tr>
+<tr class="even">
+<td><strong>Long-term-care insurance</strong></td>
+<td><strong>No</strong></td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Employer category</th>
+<th>Covered by GINA?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Civilian employer, ≥15 employees</strong></td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td><strong>Civilian employer, &lt;15 employees</strong></td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td><strong>US military</strong></td>
+<td><strong>No</strong> — service members may be reassigned or separated on genetic findings</td>
+</tr>
+</tbody>
+</table>
+<p>Anyone who tells a patient “you are protected against genetic discrimination” is, strictly, telling them about half the truth.</p>
+</section>
+<section id="florida-2020-and-the-state-level-patchwork" class="level2" data-number="12.3">
+<h2 data-number="12.3" class="anchored" data-anchor-id="florida-2020-and-the-state-level-patchwork"><span class="header-section-number">12.3</span> Florida 2020 and the State-Level Patchwork</h2>
+<p>In 2020, <strong>Florida</strong> became the first US state to extend protection to <em>life, disability, and long-term-care</em> insurance — partly closing the GINA gap inside its own borders. A few other states have passed narrower versions. Many more have tried and failed.</p>
+<p>Federal law has not moved since 2008. For now, the action is in state legislatures and in the actuarial departments of life insurers. Both know that a whole-genome reading for under a thousand dollars is on the near horizon for every American applicant.</p>
+</section>
+</section>
+<section id="dual-use-genomics" class="level1 section-divider" data-number="13">
+<h1 class="section-divider" data-number="13"><span class="header-section-number">13</span> Dual-Use Genomics</h1>
+<section id="mail-order-dna-synthesis" class="level2" data-number="13.1">
+<h2 data-number="13.1" class="anchored" data-anchor-id="mail-order-dna-synthesis"><span class="header-section-number">13.1</span> Mail-Order DNA Synthesis</h2>
+<p>For about $0.10 per base pair, a researcher can order a custom stretch of DNA online and get it in the mail in days. The technology is what makes modern molecular biology workable. It also made it possible, in 2002, for a Stony Brook lab to build a working poliovirus from scratch, using only the published genome and mail-order reagents.</p>
+<p>The dual-use risk is not hypothetical. The 1918 flu virus has been rebuilt in a high-containment lab. A 2016 Canadian team used a published horsepox genome to assemble a close relative of the virus, for under $100,000.</p>
+<p>The question is not whether the technology should exist. It does. The question is who is checking what gets ordered.</p>
+</section>
+<section id="the-2023-white-house-framework" class="level2" data-number="13.2">
+<h2 data-number="13.2" class="anchored" data-anchor-id="the-2023-white-house-framework"><span class="header-section-number">13.2</span> The 2023 White House Framework</h2>
+<p>In April 2023, the White House issued a framework asking providers of synthetic DNA to <strong>screen orders</strong> against lists of dangerous sequences, and to verify the legitimacy of customers placing large or unusual orders.</p>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><strong>What the framework does</strong></p>
+<ul>
+<li>Sets a uniform federal screening standard.</li>
+<li>Targets orders touching sequences on the federal Select Agent list.</li>
+<li>Ties some federal funding to using compliant providers.</li>
+</ul>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<p><strong>What it doesn’t do</strong></p>
+<ul>
+<li>Cover <em>benchtop</em> DNA synthesizers, which sit outside the screening regime.</li>
+<li>Cover non-US providers, several of which sell into US labs.</li>
+<li>Catch fragments small enough to be assembled into a dangerous sequence later.</li>
+</ul>
+</div>
+</div>
+<p>The risk is real. The controls are partial. The regulatory pace has not matched the technological one.</p>
+</section>
+</section>
+<section id="where-this-field-came-from" class="level1 section-divider" data-number="14">
+<h1 class="section-divider" data-number="14"><span class="header-section-number">14</span> Where This Field Came From</h1>
+<section id="elsi-a-bioethics-program-built-into-the-science" class="level2" data-number="14.1">
+<h2 data-number="14.1" class="anchored" data-anchor-id="elsi-a-bioethics-program-built-into-the-science"><span class="header-section-number">14.1</span> ELSI — A Bioethics Program Built Into the Science</h2>
+<div class="context-box">
+<p><strong>The 1988 promise</strong></p>
+<p>When James Watson was named to lead the new National Center for Human Genome Research, a reporter asked him about the social effects of sequencing the human genome. More or less off the cuff, Watson said a portion of the funding would be set aside to study those effects.</p>
+<p>That promise became the <strong>Ethical, Legal, and Social Implications (ELSI) research program</strong>. The 1993 NIH Revitalization Act made it a legal requirement: at least 5% of the NIH budget for the genome project goes to ELSI research. That has meant tens of millions of dollars a year, every year, for over three decades.</p>
+<p>ELSI is why genomics has more bioethics infrastructure than other parts of biomedicine. The model was later copied for the BRAIN Initiative, the All of Us program, and parts of federal AI research funding.</p>
+</div>
+<p><span class="citation" data-cites="mcewen2014_elsi">(<a href="#ref-mcewen2014_elsi" role="doc-biblioref">McEwen et al. 2014</a>)</span></p>
+</section>
+</section>
+<section id="wrap" class="level1 section-divider" data-number="15">
+<h1 class="section-divider" data-number="15"><span class="header-section-number">15</span> Wrap</h1>
+<section id="scoreboard-geneticization-across-the-lecture" class="level2" data-number="15.1">
+<h2 data-number="15.1" class="anchored" data-anchor-id="scoreboard-geneticization-across-the-lecture"><span class="header-section-number">15.1</span> Scoreboard — Geneticization Across the Lecture</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Where it shows up</th>
+<th>What gets read as genetic</th>
+<th>What gets read out</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>NIPT + the &gt;90% question</strong></td>
+<td>Fetal trisomy</td>
+<td>What life with Down syndrome actually looks like</td>
+</tr>
+<tr class="even">
+<td><strong>23andMe ancestry</strong></td>
+<td>“23% Italian” — discrete national identities</td>
+<td>The continuous geographic gradients beneath the labels</td>
+</tr>
+<tr class="odd">
+<td><strong>Polygenic risk scores</strong></td>
+<td>Disease risk as a number</td>
+<td>The training-data ancestry that set how accurate the number is</td>
+</tr>
+<tr class="even">
+<td><strong>Race in research</strong></td>
+<td>Genetic variation as racial-group difference</td>
+<td>The environment and history that track race in the US</td>
+</tr>
+<tr class="odd">
+<td><strong>Forensic genealogy</strong></td>
+<td>A suspect’s identity from distant-cousin matches</td>
+<td>The non-suspect relatives whose DNA was searched without consent</td>
+</tr>
+<tr class="even">
+<td><strong>Dual-use synthesis</strong></td>
+<td>A pathogen’s sequence as a copyable recipe</td>
+<td>The conditions under which the recipe gets ordered</td>
+</tr>
+</tbody>
+</table>
+<p>The same pull, six times. Name it once; spot it everywhere.</p>
+</section>
+<section id="review-questions" class="level2" data-number="15.2">
+<h2 data-number="15.2" class="anchored" data-anchor-id="review-questions"><span class="header-section-number">15.2</span> Review Questions</h2>
+<p>Write a brief answer to each, or use them as discussion prompts.</p>
+<div class="review-questions">
+<div class="review-item review-recall">
+<p><span class="review-label">Recall</span></p>
+<p>Define <em>geneticization</em> in your own words. Then explain why a polygenic risk score for coronary disease predicts more accurately in people of European ancestry than in people of African ancestry — and why that is a problem of training data rather than of the math.</p>
+</div>
+<div class="review-item review-apply">
+<p><span class="review-label">Apply</span></p>
+<p>A 34-year-old patient comes to your clinic with a 23andMe report showing two BRCA1 founder variants. She is alarmed; her mother died of ovarian cancer at 52. What three things do you do <em>before</em> counseling her about preventive surgery, and which of them is the one a 23andMe report cannot stand in for?</p>
+</div>
+<div class="review-item review-debate">
+<p><span class="review-label">Debate</span></p>
+<p>A state legislature is considering a bill modeled on Maryland’s 2021 law. The bill would require a judicial warrant before police can run a forensic genealogy search. Police argue the bill will reopen unsolved violent crimes. Civil-liberties advocates argue uploaded relatives never consented to a search. Take a position and name the strongest argument you have <em>not</em> taken.</p>
+</div>
+</div>
+</section>
+<section id="key-terms" class="level2" data-number="15.3">
+<h2 data-number="15.3" class="anchored" data-anchor-id="key-terms"><span class="header-section-number">15.3</span> Key Terms</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<ul>
+<li><span class="key-term">Geneticization</span></li>
+<li><span class="key-term">Genetic determinism</span></li>
+<li><span class="key-term">Germline vs.&nbsp;somatic</span></li>
+<li><span class="key-term">Genome-wide association study (GWAS)</span></li>
+<li><span class="key-term">Polygenic risk score</span></li>
+</ul>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<ul>
+<li><span class="key-term">NIPT</span></li>
+<li><span class="key-term">Open future (Feinberg)</span></li>
+<li><span class="key-term">Population descriptor (NASEM)</span></li>
+<li><span class="key-term">Investigative genetic genealogy</span></li>
+<li><span class="key-term">GINA</span></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="further-reading" class="level2" data-number="15.4">
+<h2 data-number="15.4" class="anchored" data-anchor-id="further-reading"><span class="header-section-number">15.4</span> Further Reading</h2>
+<ul>
+<li>James Tabery, <em>Tyranny of the Gene: Personalized Medicine and Its Threat to Public Health</em> (Knopf, 2023).</li>
+<li>Lisa Gannett, “The Human Genome Project,” <em>Stanford Encyclopedia of Philosophy</em> (2023 revision).</li>
+<li>National Academies of Sciences, Engineering, and Medicine, <em>Using Population Descriptors in Genetics and Genomics Research</em> (2023) — read the summary at minimum.</li>
+<li>Alice Popejoy and Stephanie Fullerton, “Genomics is Failing on Diversity,” <em>Nature</em> 538 (2016).</li>
+<li>Jean McEwen et al., “The ELSI Program: Reflections on an Ongoing Experiment,” <em>Annual Review of Genomics and Human Genetics</em> 15 (2014).</li>
+</ul>
+</section>
+<section id="what-were-doing-in-part-b" class="level2" data-number="15.5">
+<h2 data-number="15.5" class="anchored" data-anchor-id="what-were-doing-in-part-b"><span class="header-section-number">15.5</span> What We’re Doing in Part B</h2>
+<p>Part A asked what genetic tests can <em>read</em>, what they cannot, and which decisions get easier or harder once they have read.</p>
+<p>Part B asks what happens when the technology starts to <em>write</em> — CRISPR-Cas9 in the clinic, the He Jiankui twins, the non-identity problem, and the live US market for polygenic embryo selection. Same spine — geneticization — applied to a sharper edge.</p>
+</section>
+<section id="references" class="level2" data-number="15.6">
+<h2 data-number="15.6" class="anchored" data-anchor-id="references"><span class="header-section-number">15.6</span> References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-collins1999_hgp" class="csl-entry" role="listitem">
+Collins, Francis S. 1999. <span>“Shattuck Lecture — Medical and Societal Consequences of the <span>Human</span> <span>Genome</span> <span>Project</span>.”</span> <em>New England Journal of Medicine</em> 341 (1): 28–37. <a href="https://doi.org/10.1056/NEJM199907013410106">https://doi.org/10.1056/NEJM199907013410106</a>.
+</div>
+<div id="ref-gannett_sep_hgp" class="csl-entry" role="listitem">
+Gannett, Lisa. 2023. <em>The <span>Human</span> <span>Genome</span> <span>Project</span></em>. The Stanford Encyclopedia of Philosophy (Fall 2023 Edition), Edward N. Zalta and Uri Nodelman (eds.). <a href="https://plato.stanford.edu/archives/fall2023/entries/human-genome/">https://plato.stanford.edu/archives/fall2023/entries/human-genome/</a>.
+</div>
+<div id="ref-lippman1991" class="csl-entry" role="listitem">
+Lippman, Abby. 1991. <span>“Prenatal Genetic Testing and Screening: Constructing Needs and Reinforcing Inequities.”</span> <em>American Journal of Law &amp; Medicine</em> 17 (1–2): 15–50.
+</div>
+<div id="ref-mcewen2014_elsi" class="csl-entry" role="listitem">
+McEwen, Jean E., Joy T. Boyer, Kathie Y. Sun, Karen R. Rothenberg, Nicole C. Lockhart, and Mark S. Guyer. 2014. <span>“The Ethical, Legal, and Social Implications Program of the <span>National</span> <span>Human</span> <span>Genome</span> <span>Research</span> <span>Institute</span>: Reflections on an Ongoing Experiment.”</span> <em>Annual Review of Genomics and Human Genetics</em> 15: 481–505. <a href="https://doi.org/10.1146/annurev-genom-090413-025327">https://doi.org/10.1146/annurev-genom-090413-025327</a>.
+</div>
+<div id="ref-nasem_2023_population_descriptors" class="csl-entry" role="listitem">
+National Academies of Sciences, Engineering, and Medicine. 2023. <em>Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field</em>. The National Academies Press. <a href="https://doi.org/10.17226/26902">https://doi.org/10.17226/26902</a>.
+</div>
+<div id="ref-popejoy_fullerton_2016" class="csl-entry" role="listitem">
+Popejoy, Alice B., and Stephanie M. Fullerton. 2016. <span>“Genomics Is Failing on Diversity.”</span> <em>Nature</em> 538 (7624): 161–64. <a href="https://doi.org/10.1038/538161a">https://doi.org/10.1038/538161a</a>.
+</div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><a href="https://creativecommons.org/licenses/by-nc/4.0/"><img src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" class="img-fluid" alt="CC BY-NC 4.0"></a> Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Brendan Shea</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

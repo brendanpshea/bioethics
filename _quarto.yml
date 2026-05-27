@@ -46,6 +46,18 @@ website:
             text: "Part A — Moral Status"
           - href: chapters/04b-abortion-law.qmd
             text: "Part B — Law & Cases"
+      - text: "5. Reproductive Ethics"
+        menu:
+          - href: chapters/05a-pregnancy-autonomy.qmd
+            text: "Part A — Pregnancy & Autonomy"
+          - href: chapters/05b-reproductive-markets.qmd
+            text: "Part B — Markets & Surrogacy"
+      - text: "6. Genomics & Enhancement"
+        menu:
+          - href: chapters/06a-genomics-reading.qmd
+            text: "Part A — Reading Genomes"
+          - href: chapters/06b-genomics-enhancement.qmd
+            text: "Part B — Engineering Persons"
     right:
       - icon: github
         href: https://github.com/brendanpshea/bioethics-oer

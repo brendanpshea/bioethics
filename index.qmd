@@ -30,6 +30,8 @@ All materials are freely available for non-commercial educational use under a [C
 | 4B | Reproductive Ethics | Abortion: Law, Cases, and the Four Principles | [Slides](chapters/04b-abortion-law-slides.html) | [Notes](chapters/04b-abortion-law.html) |
 | 5A | Reproductive Ethics | Pregnancy, Autonomy, and Maternal-Fetal Conflict | [Slides](chapters/05a-pregnancy-autonomy-slides.html) | [Notes](chapters/05a-pregnancy-autonomy.html) |
 | 5B | Reproductive Ethics | Making Family: Markets, Surrogacy, and Parental Rights | [Slides](chapters/05b-reproductive-markets-slides.html) | [Notes](chapters/05b-reproductive-markets.html) |
+| 6A | Genomics & Enhancement | Reading Genomes: Prediction, Privacy, and Dual Use | [Slides](chapters/06a-genomics-reading-slides.html) | [Notes](chapters/06a-genomics-reading.html) |
+| 6B | Genomics & Enhancement | Engineering Persons: CRISPR, Enhancement, and Identity | [Slides](chapters/06b-genomics-enhancement-slides.html) | [Notes](chapters/06b-genomics-enhancement.html) |
 
 ---
 
@@ -44,6 +46,7 @@ We offer comprehensive historical and clinical case studies to pair with specifi
 | 3 | **Sylvain Lesné & the Aβ*56 Affair:** Research Misconduct, Replication, and the Amyloid Hypothesis | [L3B: Protecting Subjects](chapters/03b-protecting-research-subjects.html) | [HTML](cases/03-alzheimers-fraud.html) / [DOCX](cases/03-alzheimers-fraud.docx) |
 | 4 | **Kate Cox & Damla Karsan:** Conscientious Refusal, Conscientious Provision, and Professional Integrity Post-*Dobbs* | [L4B: Abortion Law](chapters/04b-abortion-law.html) | [HTML](cases/04-kate-cox-karsan.html) / [DOCX](cases/04-kate-cox-karsan.docx) |
 | 5 | **Adriana Smith:** Brain Death, Pregnancy, and the Limits of Fetal-Protection Law | [L5A: Pregnancy & Autonomy](chapters/05a-pregnancy-autonomy.html) | [HTML](cases/05-adriana-smith.html) / [DOCX](cases/05-adriana-smith.docx) |
+| 6 | **He Jiankui & the CRISPR Twins:** Germline Editing, Consent, and the Limits of Scientific Self-Regulation | [L6B: Engineering Persons](chapters/06b-genomics-enhancement.html) | [HTML](cases/06-he-jiankui.html) / [DOCX](cases/06-he-jiankui.docx) |
 
 
 ---

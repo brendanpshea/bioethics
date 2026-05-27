@@ -20,18 +20,18 @@ format:
 - Part A explained how trials work and how to read their results
 - The rules that protect participants were written *after* real abuses
 - Part B asks a harder question: when does reviewed, legal, well-funded research still wrong people?
-- One idea organizes the whole lecture: **vulnerability** — who can be pressured, and who pays the price when knowledge is the goal
+- One idea organizes the whole lecture: **vulnerability** — who can be pressured, and who pays when knowledge is the goal
 
 ## Today
 
 ::: {.learning-outcomes}
 By the end of Part B, you will be able to:
 
-- Define [vulnerability]{.key-term} as a matter of power and pressure, not personality, using a working taxonomy
+- Define [vulnerability]{.key-term} as a matter of power and pressure, not personality, using a working list of types
 - Apply the Belmont principles as concrete IRB review questions
 - Explain [clinical equipoise]{.key-term} as the moral license that both starts and ends a trial
 - Judge when placebo controls are and are not defensible, including across rich and poor settings
-- Analyze how commercial funding distorts research, using the Markingson case
+- Show how commercial funding distorts research, using the Markingson case
 - Explain why so many published findings fail to replicate — and how AI sharpens the threat
 :::
 
@@ -44,8 +44,8 @@ Modern research protections were built one scandal at a time.
 | Case | The wrong | What it forced into place |
 |---|---|---|
 | **Nazi experiments** | No real consent; extreme harm | Voluntary consent; Nuremberg [@nuremberg1947] |
-| **Willowbrook** | Dependent children, coercive setting | Vulnerable-population protection; independent review [@jonsen1998] |
-| **Tuskegee** | Deception, withheld treatment, racist selection | Belmont: respect, beneficence, justice [@brandt1978; @belmont1979] |
+| **Willowbrook** | Dependent children; coercive setting | Vulnerable-population protection; independent review [@jonsen1998] |
+| **Tuskegee** | Deception; withheld treatment; racist selection | Belmont: respect, beneficence, justice [@brandt1978; @belmont1979] |
 
 Each row is a failure on the left and the safeguard it forced on the right.
 
@@ -61,7 +61,7 @@ What was the deepest wrong shared by these cases?
 
 1. Which answer seems most central to you, and why?
 2. Are these really different wrongs, or different names for one wrong?
-3. Today the abuse rarely looks like camps or segregated wards — it may look like a confusing consent form, or recruiting the people least able to say no. What warning signs would still make you uneasy in a study that is legal, reviewed, and well funded?
+3. Today the abuse rarely looks like camps or segregated wards. It may look like a confusing consent form, or recruiting the people least able to say no. What warning signs would still make you uneasy in a study that is legal, reviewed, and well funded?
 :::
 
 ## After You've Discussed
@@ -69,7 +69,7 @@ What was the deepest wrong shared by these cases?
 ::: {.callout-note}
 Three distinctions are worth keeping sharp:
 
-- **Consent failures, harm failures, and justice failures are not identical.** Tuskegee had all three.
+- **Consent failures, harm failures, and justice failures are not the same thing.** Tuskegee had all three.
 - **These cases are not only about cruelty.** They are also about institutions finding reassuring language for doing the wrong thing.
 - **Modern oversight exists because good intentions are not enough.** The point is to distrust self-justification *before* the damage is done.
 :::
@@ -78,14 +78,14 @@ Three distinctions are worth keeping sharp:
 
 ## Vulnerability Is Pressure, Not Personality
 
-- Every case above shares one feature: the people studied could not freely say no
-- [Vulnerability]{.key-term} is not a kind of person — it is a kind of situation
+- Every case above shares one feature. The people studied could not freely say no.
+- [Vulnerability]{.key-term} is not a kind of person. It is a kind of situation.
 - The questions that matter: who depends on whom? Who can walk away? What would refusing cost?
-- Justice cuts both ways: wrongful **exploitation** of the vulnerable *and* wrongful **exclusion** from research are both failures
+- Justice cuts both ways. Wrongful **exploitation** of the vulnerable *and* wrongful **exclusion** from research are both failures.
 
-## A Working Taxonomy of Vulnerability
+## A Working List of Vulnerabilities
 
-Kipnis's types name *what kind of pressure* a participant is under — a more useful tool than a list of "vulnerable groups."
+Kipnis's types name *what kind of pressure* a participant is under. That is more useful than a list of "vulnerable groups."
 
 | Type | The pressure | Example |
 |---|---|---|
@@ -94,21 +94,21 @@ Kipnis's types name *what kind of pressure* a participant is under — a more us
 | **Deferential** | Socially unable to refuse a trusted figure | Patient recruited by own physician |
 | **Medical** | Desperate; no good alternative | Terminal illness, "nothing left to try" |
 | **Allocational** | Poor; the study is a path to care or money | Payment covers rent; trial is the only clinic |
-| **Infrastructural** | The setting cannot deliver on promises | Weak health system; no post-trial supply |
+| **Infrastructural** | The setting cannot deliver on promises | Weak health system; no drug supply after the trial |
 
 ## Why This Frame Matters
 
-- The regulated groups — children, prisoners, pregnant people — map onto these *types*, but the types travel further
+- The regulated groups — children, prisoners, pregnant people — map onto these *types*. But the types reach further.
 - A wealthy, educated patient recruited by her own oncologist is **deferentially** and **medically** vulnerable, though she is on no protected list
-- The rest of this lecture is a tour of these pressures: placebo and global trials (**allocational, infrastructural**), commercial funding (**deferential, medical**), and bad knowledge (the wronged party becomes the *future patient*)
-- Extra protection should not collapse into automatic exclusion — protecting people is not the same as making them invisible
+- The rest of this lecture is a tour of these pressures. Placebo and global trials (**allocational, infrastructural**). Commercial funding (**deferential, medical**). And bad knowledge — where the wronged party becomes the *future patient*.
+- Extra protection should not collapse into automatic exclusion. Protecting people is not the same as making them invisible.
 
 ## Thought Question
 
 ::: {.thought-question}
 You are on an IRB reviewing a vaccine study.
 
-- Disease burden is high in prisons.
+- Disease rates are high in prisons.
 - Researchers want to recruit incarcerated people because follow-up will be easy.
 - They plan a modest payment and better clinic access for participants.
 
@@ -122,7 +122,7 @@ You are on an IRB reviewing a vaccine study.
 ::: {.callout-note}
 - **Name the pressures, then design against them.** This study mixes juridic (incarceration), allocational (payment, clinic access), and infrastructural (will the vaccine reach them after?) vulnerability.
 - **Convenience is the enemy.** "Easy follow-up" is never, by itself, a reason to pick a population.
-- **Inclusion and protection can conflict.** Banning prison research protects against coercion but can also deny prisoners the benefits of studies aimed at their own disease burden.
+- **Inclusion and protection can conflict.** Banning prison research protects against coercion. It can also deny prisoners the benefits of studies aimed at their own disease.
 :::
 
 # Belmont, Put to Work {.section-divider}
@@ -130,7 +130,7 @@ You are on an IRB reviewing a vaccine study.
 ## Belmont in One Slide
 
 - The [Belmont Report]{.key-term} (1979) named three principles [@belmont1979]
-- **Respect for persons** → real consent; extra care exactly where vulnerability is highest
+- **Respect for persons** → real consent; extra care where vulnerability is highest
 - **Beneficence** → minimize harm; justify risk against benefit
 - **Justice** → who bears the burdens, who gets the benefits
 - Each becomes a concrete question an IRB must ask of every study
@@ -140,7 +140,7 @@ You are on an IRB reviewing a vaccine study.
 ```{dot}
 //| fig-width: 10.4
 //| fig-height: 3.1
-//| fig-cap: "Belmont principles become protections only when institutions translate them into review questions and protocol requirements."
+//| fig-cap: "Belmont principles become protections only when institutions turn them into review questions and protocol requirements."
 digraph belmont {
   rankdir=LR;
   bgcolor="transparent";
@@ -175,17 +175,17 @@ This protocol lands on your desk:
 
 > A 12-month placebo-controlled trial of a new Alzheimer's drug. Participants: residents of one memory-care facility. Consent: signed by adult children as surrogates. Site chosen because "follow-up is easy — they don't move."
 
-1. Which vulnerability types apply? Score the protocol on each Belmont principle — where is it weakest?
+1. Which vulnerability types apply? Score the protocol on each Belmont principle. Where is it weakest?
 2. What single change would you require before approving it?
-3. Is "easy follow-up" ever a legitimate reason to pick a population?
+3. Is "easy follow-up" ever a fair reason to pick a population?
 :::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-- **Respect for persons:** these residents are *cognitively* vulnerable; surrogate consent is allowed, but the residents' own assent — and dissent — still count. A child's signature is not the whole story.
+- **Respect for persons:** these residents are *cognitively* vulnerable. Surrogate consent is allowed. But the residents' own assent — and dissent — still count. A child's signature is not the whole story.
 - **Beneficence:** a 12-month placebo arm in a progressive disease needs serious justification [@commonrule_hhs].
-- **Justice:** "they don't move" is convenience recruitment — exactly what fair selection forbids.
+- **Justice:** "they don't move" is convenience recruitment. That is exactly what fair selection forbids.
 :::
 
 # Equipoise: The Moral Clock on a Trial {.section-divider}
@@ -194,54 +194,54 @@ This protocol lands on your desk:
 
 - Randomizing a sick person is only acceptable under [clinical equipoise]{.key-term} [@freedman1987]
 - Equipoise means the **expert community is genuinely uncertain** which arm is better
-- It is not one doctor's hunch — it is honest, collective "we do not yet know"
-- If the community already knows, randomizing assigns some patients to the worse arm on purpose
+- It is not one doctor's hunch. It is an honest, collective "we do not yet know."
+- If the community already knows, randomizing sends some patients to the worse arm on purpose
 - Equipoise is the moral license a trial needs to begin
 
 ## The Clock Runs Out
 
-- Equipoise is not permanent — evidence accumulates while the trial runs
+- Equipoise is not permanent. Evidence builds up while the trial runs.
 - An independent monitoring board can **stop a trial early** for three reasons:
 
 | Trigger | What it means | Why stopping is required |
 |---|---|---|
 | **Harm** | One arm is clearly hurting people | Continuing knowingly harms participants |
 | **Benefit** | One arm is clearly better | Keeping the other arm is no longer fair |
-| **Futility** | The question cannot be answered | Continued risk buys no knowledge |
+| **Futility** | The question cannot be answered | More risk buys no knowledge |
 
-- When uncertainty resolves, the moral license expires — the trial must end
+- When the uncertainty resolves, the moral license expires. The trial must end.
 
 ## Stopping Early Is Not Free
 
 ::: {.context-box}
-**A counterintuitive fact.** Trials stopped early *for benefit* tend to **overestimate** how well the treatment works.
+**A counterintuitive fact.** Trials stopped early *for benefit* tend to **overstate** how well the treatment works.
 
-Random luck swings hardest in small samples. A trial that stops the moment results look great may have stopped on a lucky high point. This is why monitoring boards use strict statistical rules, not "it looks good enough." Stopping early is itself an ethical *and* a scientific judgment.
+Random luck swings hardest in small samples. A trial that stops the moment results look great may have stopped on a lucky high point. This is why monitoring boards use strict statistical rules, not "it looks good enough." Stopping early is both an ethical *and* a scientific judgment.
 :::
 
 ## Placebo Disputes Are Equipoise Disputes
 
 - Most fights about placebo controls are really fights about whether equipoise exists
-- "There is already a proven treatment" = "there is no real uncertainty — so a placebo arm assigns people to a known-worse option"
-- "The proven treatment cannot actually be delivered here" = "uncertainty about *feasible* options still exists"
-- Holding the concept of equipoise lets you see the next debate clearly
+- "There is already a proven treatment" = "there is no real uncertainty. So a placebo arm sends people to a known-worse option."
+- "The proven treatment cannot actually be delivered here" = "uncertainty about *feasible* options still exists."
+- Holding the concept of equipoise lets you see the next debate clearly.
 
 # Placebo, Poverty, and Global Research {.section-divider}
 
 ## Helsinki's Placebo Rule
 
-- The [Declaration of Helsinki]{.key-term} says new interventions should usually be tested against the **best proven** intervention [@helsinki2024]
-- Placebo is acceptable if no proven intervention exists, or for compelling methodological reasons
-- But **not** if participants risk serious or irreversible harm by going without proven treatment [@helsinki2024]
-- That last condition is the one people fight about — and it is an equipoise fight
+- The [Declaration of Helsinki]{.key-term} says new treatments should usually be tested against the **best proven** option [@helsinki2024]
+- Placebo is acceptable if no proven treatment exists, or for strong scientific reasons
+- But **not** if participants risk serious or permanent harm by going without proven treatment [@helsinki2024]
+- That last condition is the one people fight about. And it is an equipoise fight.
 
 ## The AZT Trials in Five Lines
 
-- In 1994, a long-course zidovudine regimen reduced perinatal HIV transmission
-- That regimen was expensive and logistically hard in many low-resource settings
+- In 1994, a long-course AZT regimen reduced mother-to-baby HIV transmission
+- That regimen was expensive and hard to deliver in many low-resource settings
 - Later trials tested shorter, cheaper regimens, often against placebo
-- Critics: this withheld a known effective intervention [@lurie1997]
-- Defenders: the real question was what feasible strategy could work where the long regimen was unavailable [@varmus1997]
+- Critics: this withheld a known effective treatment [@lurie1997]
+- Defenders: the real question was what feasible strategy could work where the long regimen was not available [@varmus1997]
 
 ## Two Famous Positions
 
@@ -259,7 +259,7 @@ Random luck swings hardest in small samples. A trial that stops the moment resul
 ::: {.column width="50%"}
 **Varmus and Satcher** [@varmus1997]
 
-- The long regimen was not realistically implementable
+- The long regimen was not realistically deliverable
 - A shorter regimen might still save lives at scale
 - The relevant comparison had to include feasibility
 - Blocking the trial preserves principle but blocks benefit
@@ -272,7 +272,7 @@ Random luck swings hardest in small samples. A trial that stops the moment resul
 ```{dot}
 //| fig-width: 10.6
 //| fig-height: 3.5
-//| fig-cap: "A simplified placebo decision tree. Each diamond is, in effect, a question about whether genuine equipoise exists. Real IRB review is more detailed."
+//| fig-cap: "A simple placebo decision tree. Each diamond is really a question about whether genuine equipoise exists. Real IRB review is more detailed."
 digraph placebo {
   rankdir=LR;
   bgcolor="transparent";
@@ -282,17 +282,17 @@ digraph placebo {
 
   A [label="Does a best proven\nintervention exist?", shape=diamond, style=filled,
      fillcolor="#f8fafc", color="#94a3b8"];
-  B [label="Placebo may be\nethically easier to justify", shape=box, style="rounded,filled",
+  B [label="Placebo may be\neasier to justify", shape=box, style="rounded,filled",
      fillcolor="#cfe9ec", color="#0e7c86", fontcolor="#0e7c86", penwidth=2];
-  C [label="Would withholding it risk\nserious or irreversible harm?", shape=diamond, style=filled,
+  C [label="Would withholding it risk\nserious or permanent harm?", shape=diamond, style=filled,
      fillcolor="#f8fafc", color="#94a3b8"];
   D [label="Placebo is a major\nethical red flag", shape=box, style="rounded,filled",
      fillcolor="#fad7d2", color="#c0392b", fontcolor="#9d2f23"];
-  E [label="Is placebo genuinely\nmethodologically necessary?", shape=diamond, style=filled,
+  E [label="Is placebo genuinely\nneeded for the science?", shape=diamond, style=filled,
      fillcolor="#f8fafc", color="#94a3b8"];
   F [label="Use active-control\ndesign instead", shape=box, style="rounded,filled",
      fillcolor="#fce9d6", color="#b07d1a"];
-  G [label="Approve only with\nstrong justification and protections", shape=box, style="rounded,filled",
+  G [label="Approve only with\nstrong reasons and protections", shape=box, style="rounded,filled",
      fillcolor="#dfe6ee", color="#475569"];
 
   A -> B [label="no", color="#0e7c86", fontcolor="#0e7c86"];
@@ -310,10 +310,10 @@ digraph placebo {
 You are on an ethics committee in 1997 reviewing a short-course AZT trial in Uganda.
 
 - In the sponsor country, the long-course regimen already works.
-- In the host country, that regimen is too expensive and complex for ordinary use.
-- The proposed study compares a shorter regimen to placebo.
+- In the host country, that regimen is too expensive and complex for everyday use.
+- The study compares a shorter regimen to placebo.
 
-1. Is there genuine equipoise here — and equipoise about *what*?
+1. Is there real equipoise here — and equipoise about *what*?
 2. Does local unavailability change what researchers ethically owe participants?
 3. What is owed *after* the study — do participants keep what worked?
 :::
@@ -321,11 +321,11 @@ You are on an ethics committee in 1997 reviewing a short-course AZT trial in Uga
 ## After You've Discussed
 
 ::: {.callout-note}
-Three hard truths belong together here — this is **allocational** and **infrastructural** vulnerability by design:
+Three hard truths belong together here. This is **allocational** and **infrastructural** vulnerability by design.
 
-- **"Local standard" describes the world; it does not settle what is ethically owed.**
-- **Feasibility matters, but poverty must not become a discount on human protections.** A study can be practical and still exploitative.
-- **Post-trial access is part of the ethics, not cleanup.** Proving a regimen works and then withdrawing it uses the host community [@emanuel2004benchmarks; @helsinki2024].
+- **"Local standard" describes the world. It does not settle what is ethically owed.**
+- **Feasibility matters. But poverty must not become a discount on human protections.** A study can be practical and still exploitative.
+- **Post-trial access is part of the ethics, not cleanup.** Proving a regimen works and then taking it away uses the host community [@emanuel2004benchmarks; @helsinki2024].
 :::
 
 # Research Without a Trial: Tissue and Data {.section-divider}
@@ -335,8 +335,8 @@ Three hard truths belong together here — this is **allocational** and **infras
 - In 1951, Henrietta Lacks, a Black woman, was treated for cervical cancer
 - Without her knowledge, cells from her tumor were taken and grown
 - They became **HeLa** — the first immortal human cell line, used in countless studies and products
-- She was never asked; her family was not told for decades and shared in none of the benefit
-- No drug, no placebo, no "arm" — and still a major research-ethics failure: a vulnerability of *never being asked at all*
+- She was never asked. Her family was not told for decades. They shared in none of the benefit.
+- No drug, no placebo, no "arm" — and still a major research-ethics failure. The vulnerability here was *never being asked at all*.
 
 ## What the Rules Now Require
 
@@ -344,24 +344,24 @@ Three hard truths belong together here — this is **allocational** and **infras
 - Consent forms must open with a short **"key information"** summary in plain language
 - **Broad consent**: a person can agree once to future, unspecified research on stored samples and data
 - Most multi-site studies now use a **single IRB** instead of one per site
-- Broad consent is more honest than silence — but ethically thinner than asking each time
+- Broad consent is more honest than silence. It is also ethically thinner than asking each time.
 
 ## Thought Question
 
 ::: {.thought-question}
-You give a blood sample for a routine test. A leftover vial is stored. Years later it is used — deidentified — in genetic research and a profitable diagnostic. You were never specifically asked; a broad intake form said "samples may be used for research."
+You give a blood sample for a routine test. A leftover vial is stored. Years later it is used — with your name removed — in genetic research and a profitable diagnostic. You were never asked. A broad intake form said "samples may be used for research."
 
 1. Was that consent meaningful?
 2. Do you have a claim to a say — or a share — in what was discovered?
-3. Is "deidentified" enough, when the sample is DNA that can re-identify you and implicate relatives?
+3. Is "deidentified" enough, when the sample is DNA that can re-identify you and your relatives?
 :::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-- **Consent for *this study* is not consent for *all future research*.** Tissue and data banks rely on broad consent — useful, but ethically thinner than specific consent.
+- **Consent for *this study* is not consent for *all future research*.** Tissue and data banks rely on broad consent. Useful, but ethically thinner than specific consent.
 - **Benefit-sharing is part of justice.** If people make a discovery possible, who profits is an ethical question, not an afterthought.
-- **"Deidentified" weakens but does not erase the stake** — genomic data can re-identify, and can implicate relatives who never agreed.
+- **"Deidentified" weakens but does not erase the stake.** Genomic data can re-identify, and can implicate relatives who never agreed.
 :::
 
 # When Money Recruits: Commercial Funding {.section-divider}
@@ -369,40 +369,40 @@ You give a blood sample for a routine test. A leftover vial is stored. Years lat
 ## The Structural Conflict
 
 - Most clinical trials are now funded by the companies that profit if the drug succeeds
-- Industry funding is not wrong by itself — but it builds in a conflict of interest
+- Industry funding is not wrong by itself. But it builds in a conflict of interest.
 - Watch three roles: **who funds**, **who recruits**, and **who reviews**
-- Danger peaks when the same people, paid by the sponsor, also treat and enroll the patient
+- The danger peaks when the same people, paid by the sponsor, also treat and enroll the patient
 - This is **deferential** and **medical** vulnerability meeting a financial incentive
 
 ## The Markingson Case
 
 ::: {.context-box}
-**Dan Markingson, University of Minnesota, 2003–2004.** A young man with acute psychosis was placed under an involuntary commitment order. He was enrolled by his **treating psychiatrist** into the industry-funded CAFÉ antipsychotic trial — while facing commitment to a state hospital if he did not cooperate with his treatment team. His mother repeatedly warned that he was deteriorating. He died by suicide during the study.
+**Dan Markingson, University of Minnesota, 2003–2004.** A young man with acute psychosis was placed under an involuntary commitment order. His **treating psychiatrist** enrolled him in the industry-funded CAFÉ antipsychotic trial. He was facing commitment to a state hospital if he did not cooperate with his treatment team. His mother repeatedly warned that he was getting worse. He died by suicide during the study.
 :::
 
 ## What the 2015 Review Found
 
 - Markingson was, in the state auditor's words, **"extraordinarily vulnerable"** — committed, psychotic, with no real freedom to refuse [@mn_legaudit2015]
-- Investigators and the IRB chair had **financial ties** to the sponsor, creating an incentive to enroll and retain subjects [@mn_legaudit2015]
-- The University's review of his death was **superficial** — it did not examine medical records or seek outside information
-- Bioethicist **Carl Elliott** spent years pressing for accountability against institutional resistance [@elliott2010]
+- Investigators and the IRB chair had **financial ties** to the sponsor. That gave them a reason to enroll and keep subjects [@mn_legaudit2015]
+- The University's review of his death was **shallow**. It did not look at medical records or seek outside information.
+- Bioethicist **Carl Elliott** spent years pressing for accountability. The university pushed back [@elliott2010].
 - Every vulnerability type from earlier is here at once: cognitive, juridic, deferential, medical
 
 ## Disclosure Is Not a Firewall
 
-A well-designed system does not rely on good intentions. It builds **structure**:
+A well-designed system does not rely on good intentions. It builds **structure**.
 
 | Weak safeguard | Stronger safeguard |
 |---|---|
 | Investigator discloses COI on a form | Recruitment done by someone with **no stake** in enrollment |
 | Sponsor analyzes its own data | **Independent** monitoring board and statisticians |
 | Treating doctor also enrolls the patient | Separation of the **care role** from the **research role** |
-| Institution investigates itself | **External**, empowered review when harm occurs |
+| Institution investigates itself | **Outside**, empowered review when harm occurs |
 
 ## Thought Question
 
 ::: {.thought-question}
-A patient newly diagnosed with a serious illness is offered a trial by the physician she trusts most — her own specialist. The specialist receives per-patient payments from the sponsor for each enrollee.
+A patient newly diagnosed with a serious illness is offered a trial by the physician she trusts most — her own specialist. The specialist receives per-patient payments from the sponsor for each person enrolled.
 
 1. Which vulnerability types is she under, before any form is signed?
 2. Is disclosure of the payment enough to fix the problem? Why or why not?
@@ -413,7 +413,7 @@ A patient newly diagnosed with a serious illness is offered a trial by the physi
 
 ::: {.callout-note}
 - **Conflict of interest is structural, not just moral.** Honest people in a bad structure still produce biased enrollment.
-- **Disclosure is the floor, not the fix.** Telling someone about a conflict does not neutralize it; separating the roles does.
+- **Disclosure is the floor, not the fix.** Telling someone about a conflict does not neutralize it. Separating the roles does.
 - **The treating clinician is the highest-pressure recruiter.** That is exactly why independent recruitment and review exist.
 :::
 
@@ -426,54 +426,54 @@ A patient newly diagnosed with a serious illness is offered a trial by the physi
   - **Fabrication** — making up data
   - **Falsification** — manipulating data, images, or results
   - **Plagiarism** — passing off others' work as your own
-- A faked study can change treatment for millions before anyone notices — the wronged party is now the **future patient**
+- A faked study can change treatment for millions before anyone notices. The wronged party is now the **future patient**.
 
 ## Why So Many Findings Are False
 
-A landmark argument: under realistic conditions, *most* published findings can be wrong [@ioannidis2005]. Four ingredients:
+A landmark paper said most published findings can be wrong [@ioannidis2005]. Four reasons:
 
-- **Low base rate** — most hypotheses tested are false to begin with
-- **Small studies** — easily swung by chance (recall: small samples are fragile)
+- **Low base rate** — most hypotheses tested are false to start with
+- **Small studies** — easily swung by chance
 - **Researcher flexibility** — many small choices, each nudging toward "significant"
-- **Publication bias** — positive results get published; null results vanish
+- **Publication bias** — positive results get printed. Null results vanish.
 
 ## How Flexibility Becomes a False Result
 
 ::: {.context-box}
-**A worked example.** Test one hypothesis at *p* < 0.05 and a false positive is unlikely. Now test **20** subgroups and report only the one that "worked": a positive result is now *likely* by pure chance.
+**A worked example.** Test one hypothesis at *p* < 0.05 and a false positive is unlikely. Now test **20** subgroups and report only the one that "worked." A positive result is now *likely* by pure chance.
 
 - **p-hacking** — trying analyses until one crosses the line
 - **HARKing** — Hypothesizing After the Results are Known, then writing it up as if predicted
 
-Neither requires lying. Both manufacture false findings [@simmons2011].
+Neither requires lying. Both make false findings [@simmons2011].
 :::
 
 ## It Is Systemic, Not Rare
 
 - **Psychology:** a large replication project reproduced only about **39%** of published findings [@osc2015]
 - **Preclinical cancer:** one team could confirm just **6 of 53** landmark studies [@begley2012]
-- These are not fringe journals — they are the literature clinicians rely on
+- These are not fringe journals. They are the literature clinicians rely on.
 - "Published" and "peer-reviewed" are a **floor, not a guarantee**
 
 ## The Alzheimer's Case, in Full
 
 ::: {.context-box}
-In **2006**, a *Nature* paper named a specific amyloid protein, **Aβ*56**, as a cause of memory loss — it became one of the most-cited Alzheimer's papers of its era and helped lock in the "amyloid hypothesis" that steered roughly **16 years** of funding and drug development.
+In **2006**, a *Nature* paper named a specific amyloid protein, **Aβ*56**, as a cause of memory loss. It became one of the most-cited Alzheimer's papers of its era. It helped lock in the "amyloid hypothesis" that steered roughly **16 years** of funding and drug development.
 
 In **2022**, a six-month *Science* investigation found that key images in that paper, and in many related ones, appear to have been **manipulated** [@piller2022].
 :::
 
 - Through those years, amyloid-targeting drugs **failed trial after trial**
 - Participants in those trials received infusions with real risks — brain swelling and microbleeds
-- A possibly fabricated result may have redirected a field while patients volunteered for drugs built on it
+- A possibly faked result may have redirected a field while patients volunteered for drugs built on it
 
 ## Psychology: Famous Results That Didn't Hold
 
 The replication project that reproduced only ~39% of findings [@osc2015] swept up results students may already know:
 
-- **Power posing** — holding a "confident" stance was said to change hormones and risk-taking; large replications found no reliable effect
-- **Ego depletion** — willpower as a fuel that "runs out"; a 23-lab preregistered test found the effect near zero
-- **Social priming** — reading "elderly" words said to make people walk slower; did not replicate
+- **Power posing** — holding a "confident" stance was said to change hormones and risk-taking. Large replications found no reliable effect.
+- **Ego depletion** — willpower as a fuel that "runs out." A 23-lab preregistered test found the effect near zero.
+- **Social priming** — reading "elderly" words was said to make people walk slower. It did not replicate.
 
 These were not fringe claims. They were TED talks, textbooks, and bestsellers.
 
@@ -488,15 +488,15 @@ One review found about **40%** of established practices tested over a decade wer
 | Vertebroplasty (spinal fracture) | Cement injected into the spine | No better than a sham procedure |
 | Stents for stable chest pain | An invasive cardiac procedure | No better than medication for symptoms |
 
-Each was standard, reimbursed, and sincerely recommended. **Bad evidence is not abstract — it is surgery and side effects that did nothing.**
+Each was standard, paid for, and sincerely recommended. **Bad evidence is not abstract — it is surgery and side effects that did nothing.**
 
 ## The AI Turn
 
-- **Surgisphere, 2020:** *The Lancet* and *NEJM* retracted COVID papers built on a huge hospital database that **no one could audit** and that likely never existed — fabricated big data, accepted because it looked authoritative
-- AI now lowers the cost of exactly this: fabricated images, synthetic "data," and fluent **paper-mill** manuscripts at scale
-- It also makes p-hacking faster — automated search across thousands of model variants
-- Counter-tools exist (image forensics, statistical screening), but **detection lags creation**
-- For a clinician: provenance and replication matter more than polish; a confident, well-written result is not a true one
+- **Surgisphere, 2020:** *The Lancet* and *NEJM* pulled COVID papers built on a huge hospital database. **No one could audit** it. It likely never existed. Faked big data, accepted because it looked official.
+- AI now makes this cheaper. Faked images. Synthetic "data." Fluent **paper-mill** manuscripts at scale.
+- It also makes p-hacking faster — an automated search across thousands of model variants
+- Counter-tools exist (image forensics, statistical screening). But **detection lags creation**.
+- For a clinician: source and replication matter more than polish. A confident, well-written result is not a true one.
 
 ## Thought Question
 
@@ -511,8 +511,8 @@ A landmark drug trial is later found to contain manipulated data. Thousands of p
 ## After You've Discussed
 
 ::: {.callout-note}
-- **Integrity is a subject-protection issue too.** A false result is not just an academic error — it is the knee surgery, the hormone pill, the amyloid infusion that thousands of real people endured for nothing.
-- **The safeguards are thin by design.** Science runs on trust and infrequent replication; misconduct — and now AI — exploits exactly that.
+- **Integrity is a subject-protection issue too.** A false result is not just an academic error. It is the knee surgery, the hormone pill, the amyloid infusion that thousands of real people endured for nothing.
+- **The safeguards are thin by design.** Science runs on trust and the occasional replication. Misconduct — and now AI — exploits exactly that.
 - **Fixes are structural:** preregistration, registered reports, data sharing, independent replication, faster retractions.
 :::
 
@@ -520,7 +520,7 @@ A landmark drug trial is later found to contain manipulated data. Thousands of p
 
 ## The Through-Line
 
-- One question ran through everything: who could be **pressured**, and who pays when knowledge is the goal?
+- One question ran through everything. Who could be **pressured**, and who pays when knowledge is the goal?
 - Vulnerability is a kind of situation, not a kind of person
 - Consent, equipoise, fair selection, conflict-of-interest firewalls, and research integrity are all answers to that one question
 - The rulebook exists to keep learning answerable to persons — during the study, after it, and in what the study is allowed to claim
@@ -528,7 +528,11 @@ A landmark drug trial is later found to contain manipulated data. Thousands of p
 ## Wrapping Up Part B
 
 ::: {.recap}
-Research ethics is the systematic study of how the pursuit of knowledge can wrong people — and how to design against it. Vulnerability, understood as power and pressure rather than personality, is the spine: it explains why consent must be real, why equipoise both licenses and ends a trial, why placebo and global trials turn on feasibility and post-trial duties, why commercial funding needs structural firewalls rather than mere disclosure, and why a replication crisis sharpened by AI is itself a subject-protection problem. Ethical research is not research with a signature. It is research designed so that the people who make knowledge possible — and the future patients who will rely on it — are treated as persons first.
+Research ethics is the study of how the search for knowledge can wrong people — and how to design against it.
+
+Vulnerability is the spine. It is power and pressure, not personality. That is why consent must be real. It is why equipoise both starts and ends a trial. It is why placebo and global trials turn on feasibility and post-trial duties. It is why commercial funding needs structural firewalls, not just disclosure. And it is why a replication crisis sharpened by AI is itself a subject-protection problem.
+
+Ethical research is not research with a signature. It is research designed so that the people who make knowledge possible — and the future patients who will rely on it — are treated as persons first.
 :::
 
 ## Review Questions
@@ -540,19 +544,19 @@ Write a brief answer to each, or use them as discussion prompts.
 ::: {.review-item .review-recall}
 [Recall]{.review-label}
 
-How does the Belmont principle of *Justice* translate into the concrete IRB requirement of *Fair Subject Selection*, and what is the difference between cognitive and allocational vulnerability in Kipnis's taxonomy?
+How does the Belmont principle of *Justice* translate into the concrete IRB requirement of *Fair Subject Selection*? And what is the difference between cognitive and allocational vulnerability in Kipnis's list?
 :::
 
 ::: {.review-item .review-apply}
 [Apply]{.review-label}
 
-A biotech company wants to compile a large registry of genomic data from children in foster care to study rare pediatric neurological conditions. Consent will be obtained from state caseworkers, and the children's data will be fully de-identified. Based on Kipnis's types of vulnerability and the Belmont principles, identify two distinct ethical concerns that an IRB should address before approving this protocol.
+A biotech company wants to build a large registry of genomic data from children in foster care to study rare pediatric brain conditions. Consent will be obtained from state caseworkers. The children's data will be fully deidentified. Using Kipnis's types of vulnerability and the Belmont principles, name two distinct ethical concerns an IRB should address before approving this protocol.
 :::
 
 ::: {.review-item .review-debate}
 [Debate]{.review-label}
 
-In global clinical research, does the local unavailability of a proven treatment justify using a placebo-controlled design in a low-resource host country, or does this practice represent a double standard that exploits structural global inequalities?
+In global clinical research, does the local unavailability of a proven treatment justify using a placebo-controlled design in a low-resource host country? Or does this practice represent a double standard that exploits global inequalities?
 :::
 
 :::
@@ -560,16 +564,16 @@ In global clinical research, does the local unavailability of a proven treatment
 ## Key Terms
 
 - **Belmont Report (1979)** — names the three principles for human-subjects research: respect for persons, beneficence, and justice.
-- **Respect for persons** — the Belmont principle requiring informed consent and extra protections for those with diminished autonomy.
-- **Beneficence (in research)** — minimize risks, maximize benefits, and maintain a favorable risk–benefit ratio.
-- **Justice (Belmont)** — fair distribution of the benefits and burdens of research; operationalized as *Fair Subject Selection*.
-- **Fair Subject Selection** — recruiting populations because they bear on the scientific question, not because they are convenient or powerless.
+- **Respect for persons** — the Belmont principle requiring informed consent and extra protections for those with limited autonomy.
+- **Beneficence (in research)** — minimize risks, maximize benefits, keep a favorable risk-benefit ratio.
+- **Justice (Belmont)** — fair distribution of the benefits and burdens of research. Operationalized as *Fair Subject Selection*.
+- **Fair Subject Selection** — recruiting populations because they bear on the scientific question. Not because they are convenient or powerless.
 - **Vulnerability** — features of a subject or group that limit their ability to protect their own interests in a study.
 - **Cognitive vulnerability** (Kipnis) — limits on capacity to understand or evaluate the study (e.g., children, intellectual disability).
 - **Allocational vulnerability** (Kipnis) — being in a position where study participation is hard to refuse because resources, services, or status depend on it.
-- **Clinical equipoise** — the genuine uncertainty in the expert community about whether the trial arms are better than one another; the standard ethical condition for randomizing.
+- **Clinical equipoise** — real uncertainty in the expert community about whether one trial arm is better than the other. The standard ethical condition for randomizing.
 - **Declaration of Helsinki** — the WMA's evolving statement of physicians' duties in research, including consent and post-trial obligations.
-- **Common Rule** — the U.S. federal regulation (45 CFR 46) governing federally funded human-subjects research; the framework IRBs apply.
+- **Common Rule** — the US federal regulation (45 CFR 46) governing federally funded human-subjects research. The framework IRBs apply.
 - **IRB (Institutional Review Board)** — the local committee that reviews protocols against these principles before research may proceed.
 
 ## References

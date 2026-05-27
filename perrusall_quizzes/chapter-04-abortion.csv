@@ -1,0 +1,41 @@
+Question type,Answer explanation,Points,Prompt,Correct answers,Answer choice 1,Answer choice 2,Answer choice 3,Answer choice 4,Answer choice 5
+MC,,,What does writing an argument in standard form make easiest to see?,4,Authority,Emotion,Popularity,Inference,
+MC,,,In logic what does valid mean?,3,Case feels fair,Evidence is vivid,Conclusion follows,Premises agree,
+MC,,,In logic what does sound mean?,3,Long and formal,Widely accepted,Valid and true,Emotionally strong,
+MC,,,In Warren's sense personhood involves a significant set of what?,2,Tax statuses,Mental capacities,Legal permits,Voting rights,
+MC,,,Marquis says killing is wrong because it deprives someone of what?,4,Shared DNA,State approval,Maternal intent,Future like ours,
+MC,,,Thomson's framework centers on what right?,3,Civil obedience,Public virtue,Bodily autonomy,Natural sympathy,
+MC,,,Hursthouse reframes abortion through what moral lens?,3,Property theory,Utility math,The virtue-ethics approach,Social contract,
+MC,,,Which framework uses the violinist case?,3,Marquis's framework,Hursthouse's framework,Thomson's framework,Warren's framework,
+MC,,,What is the term for the premise that carries most of an argument's weight?,3,Hidden witness,Lingering moral residue,Load-bearing premise,Legal exception,
+MC,,,Roe originally used what legal standard?,3,A shield-law statute,The parenthood intent test,Trimester framework,Proxy review,
+MC,,,Casey replaced Roe with what standard?,1,The undue-burden test,Publicly shareable reasons,Strict scrutiny,Rational basis,
+MC,,,What does stare decisis mean?,3,Balance harms,Count votes,Follow precedent,Review medicine,
+MC,,,What is quickening?,1,First felt movement,First ultrasound,First contraction,First trimester,
+MC,,,Viability is usually placed at about what point?,3,12 weeks,32 weeks,22 to 24 weeks,40 weeks,
+MC,,,What is a trigger law?,1,Automatic ban,Hospital policy,Retroactive ban,Clinic merger,
+MC,,,What is a shield law?,1,Provider protection,Fetal tax credit,Clinic merger,Privacy waiver,
+MC,,,Which old federal statute is central to mailing disputes after Dobbs?,1,The Comstock Act,Hyde Amendment,Georgia's LIFE Act,The Belmont Report,
+MC,,,In Thomson's thought experiment how long does the violinist need support?,4,Nine days,Nine years,Nine weeks,Nine months,
+MC,,,Kate Cox's fetus was diagnosed with what condition?,4,Turner syndrome,Down syndrome,Sickle cell,Trisomy 18,
+MC,,,Who was Kate Cox's physician-plaintiff?,3,Bioethicist Lois Shepherd,April Newkirk herself,Dr. Damla Karsan,Legal scholar Mary Ziegler,
+MC,,,In what month and year did Cox sue?,2,June 2023,December 2023,March 2024,May 2022,
+MC,,,What kind of court order did Cox seek?,2,Ethics consult,Temporary restraining order,Jury verdict,Federal pardon,
+MC,,,Who warned Texas hospitals after the trial court ruled for Cox?,3,Justice Clarence Thomas,Governor Greg Abbott,Attorney General Ken Paxton,John Robertson's defense,
+MC,,,What state did Cox go to for the abortion?,4,The state of Louisiana,The state of Florida,The state of Oklahoma,The state of New Mexico,
+MC,,,Which court ultimately ruled against Cox?,3,Travis County court,Fifth Circuit,Texas Supreme Court,US Supreme Court,
+MC,,,What does conscientious provision mean in the Karsan case?,2,Hide the records,Provide the procedure,Refuse the procedure,Delay needed treatment,
+MC,,,Brock's conventional compromise depends on what practical assumption?,2,Cheap travel,Referral access,Full consensus,Court neutrality,
+MC,,,What kind of suits did SB 8 authorize?,2,Federal criminal indictments,Private civil lawsuits,Hospital union votes,State medical boards,
+MC,,,Which philosopher is tied to the future-like-ours argument?,3,Mary Anne Warren's view,Judith Thomson,Don Marquis's view,Rosalind Hursthouse's view,
+MC,,,Which philosopher uses virtue ethics to discuss abortion?,3,Don Marquis's view,Mary Anne Warren's view,Rosalind Hursthouse's view,John Robertson's defense,
+MR,,,Which frameworks are presented as major approaches to the ethics of abortion?,"2,3,4,5",The Dobbs ruling,Thomson's framework,Hursthouse's framework,Marquis's framework,Warren's framework
+MR,,,Which legal standards or doctrines are central to modern abortion-law disputes?,"1,2,3,5",Fetal viability outside womb,Stare decisis,The undue-burden test,Reproductive justice,A trigger-law statute
+MR,,,Which of the following statements about Kate Cox are true?,"2,3,4,5",A Texas court permanently cleared her procedure in state.,She filed suit in Texas in 2023.,Her fetus was diagnosed with Trisomy 18.,Kate Cox was already a mother of two children.,She eventually left Texas to obtain an abortion.
+MR,,,Which features made the Texas medical exception hard to use?,"1,3,4,5",Prosecutor second-guesses,Automatic immunity,No pre-clearance,Physician acts alone,No diagnosis list
+MR,,,Which frameworks can support abortion access for different reasons?,"1,3,4",Thomson's framework,Marquis's framework,Hursthouse's framework,Warren's framework,
+MR,,,Which items belong to Warren's personhood list?,"1,2,4,5",Communication,Consciousness,Citizenship,Self-awareness,Reasoning
+MR,,,Which legal terms shape the post-Dobbs abortion-law landscape?,"2,3,4,5",Belmont,A trigger-law statute,The Comstock Act,A shield-law statute,Fetal viability outside womb
+MR,,,Which acts fit conscientious provision in Karsan's case?,"1,3,4,5",Aimed to provide abortion,Refused all counseling,Challenged state law,Joined lawsuit,Swore exception met
+MR,,,Which questions does Thomson's violinist case ask students to consider?,"1,2,3",Killing versus saving,Where analogy breaks,Must stay connected,Need judge approval,
+MR,,,Which of the following statements identify medical risks Kate Cox faced?,"2,3,4,5",The main medical risk was that she would lose private insurance.,Carrying the pregnancy further raised the risk of fetal demise.,Continuing the pregnancy increased the risk of hemorrhage.,Delaying treatment threatened her future fertility through hysterectomy.,Another C-section increased the risk of uterine rupture.

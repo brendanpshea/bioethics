@@ -1,0 +1,574 @@
+---
+title: "Lecture 6 — Genomics and Enhancement"
+subtitle: "Part B: Engineering Persons — CRISPR, Enhancement, and Identity"
+author: "Brendan Shea, PhD"
+date: ""
+date-meta: last-modified
+institute: "An Introduction to Bioethics."
+format:
+  html:
+    toc: true
+    number-sections: true
+  revealjs:
+    output-file: 06b-genomics-enhancement-slides.html
+---
+
+# A Clinic Visit That Sounds Like the Future {.section-divider}
+
+## Would You Select?
+
+::: {.thought-question}
+You and your partner are doing IVF. Six embryos make it to the testing stage. The clinic offers a new add-on for $50,000. They will read each embryo's whole genome and rank them on predicted IQ, height, and risk for common diseases. You can pick the embryo at the top of the list. The doctor stresses that it is legal, voluntary, and currently used by other couples in the clinic.
+
+**Write or discuss:**
+
+1. Is this medical treatment, disease prevention, or something else? Does the label matter?
+2. The expected IQ gain from picking the top embryo is about 2 points. Does that change your answer?
+3. If you would not pay $50,000 for this, but it became free tomorrow, would you take it then?
+:::
+
+::: {.notes}
+The scenario is not hypothetical. US fertility clinics began offering whole-embryo polygenic scoring around 2020. The first business model is in slides 35–38. The point of the opener is to surface "what counts as treatment?" before naming it.
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+The thought question turns on a distinction we will spend the lecture testing.
+
+- **Treatment** restores normal function — an antibiotic for an infection, insulin for diabetes.
+- **Prevention** keeps you out of harm — a vaccine, a statin.
+- **Enhancement** improves you *beyond* the normal range — sharper memory, taller body, longer life.
+
+The line between these sounds clear. It is not. Most of today is about why the line keeps collapsing — and what is left to argue about once it does.
+:::
+
+## Today
+
+::: {.learning-outcomes}
+By the end of Part B, you will be able to:
+
+- State three accounts of the **treatment-enhancement distinction** and explain why each one keeps collapsing.
+- Tell **somatic** from **germline** editing, and explain why this does most of the moral work in the gene-editing debate.
+- Describe what **Casgevy** (FDA 2023) does, and why somatic gene therapy is much less contested than germline editing.
+- Compare three positions on enhancement: **Savulescu**'s procreative beneficence, **Sandel**'s giftedness argument, and **Habermas** on making vs. growing.
+- Explain the **non-identity problem** and apply it to a real case.
+- Describe what **polygenic embryo selection** is doing in US fertility clinics today, and what it can and cannot deliver.
+:::
+
+# The Treatment-Enhancement Line {.section-divider}
+
+## Why This Line Matters in Practice
+
+The treatment-enhancement distinction is not just an academic puzzle. It does work in three concrete places.
+
+- **Insurance.** Health insurers pay for treatment. They do not pay for enhancement. Whether a procedure is one or the other decides who can afford it.
+- **Professional duty.** Doctors have an obligation to treat. They do not have an obligation to enhance. A patient cannot demand enhancement the way she can demand treatment.
+- **Regulation.** The FDA approves drugs as treatments for specific conditions. Off-label and enhancement uses fall outside its main review.
+
+Move a procedure from one side of the line to the other, and three different systems respond.
+
+## A Working Definition
+
+The standard definition in the philosophical literature is precise.
+
+**Enhancement** = biomedical interventions used to improve human form or functioning *beyond what is necessary to restore or sustain health*.
+
+A few implications travel with that definition.
+
+- It is the *use*, not the technology, that makes something an enhancement. The same drug can be treatment for one patient and enhancement for the next.
+- Most enhancement-capable drugs and procedures enter medicine first as treatments. They show up as enhancements later, off-label.
+- The definition rests on what counts as "health" — which is exactly the unstable concept the next three slides will probe. [@sep_enhancement]
+
+## Three Accounts at a Glance
+
+| Account | What treatment is | What enhancement is | Who advocates |
+|---|---|---|---|
+| **Professional-domain** | What the profession says it is | What the profession refuses to do | Practitioners; medical societies |
+| **Normal-function** | Restores species-typical function | Pushes beyond the typical range | Boorse 1977; Daniels |
+| **Disease-based** | Addresses a diagnosable malady | Acts on a healthy system | Gert, Culver, Clouser 2006 |
+
+Each account does real work in clinical practice. Each one also keeps collapsing under pressure.
+
+## The Professional-Domain Account
+
+::: {.context-box}
+**The idea.** Treatment is whatever doctors agree they should do. Enhancement is whatever they refuse. Medical societies set the line by professional consensus.
+
+**Why it collapses.** Medicine has a track record of *medicalization* — absorbing new conditions into its scope as cultural demand grows. Shyness became social anxiety disorder. Restlessness in boys became ADHD. Aging in men became "low T." Each was once outside medicine. Each is now inside.
+
+If the profession's own boundaries shift with demand, the profession's word for what counts as treatment cannot be the bedrock of the distinction.
+:::
+
+## The Normal-Function Account
+
+::: {.columns}
+::: {.column width="48%"}
+**The idea (Boorse, Daniels)**
+
+Health is the ability to do what people of your age and sex can typically do. Treatment restores you to that range. Enhancement pushes you above it.
+
+This account anchors the distinction in physiology, not professional opinion.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**Where it collapses**
+
+- **Prevention.** A vaccine pushes your immune response above normal *on purpose*. Statins lower cholesterol *below* the average for your age. Both look like enhancement under this account. Both are clearly treatment in practice.
+- **Disability.** A powered wheelchair that travels faster than a healthy walker does counts as enhancement here. Asking why is asking what is wrong with the account.
+:::
+::::
+
+[@boorse1977]
+
+## The Disease-Based Account
+
+::: {.context-box}
+**The idea (Gert, Culver, Clouser).** Treatment addresses a *malady* — a condition that involves real harm and has no good external cause. Enhancement acts on a healthy system that has no malady to address.
+
+**Why it collapses.** The list of recognized maladies keeps growing — and often grows to match what the profession (and the market) want to provide. This is **nosological elasticity**: coining new diseases to license new interventions.
+
+The clearest current example is the next block of slides. ADHD diagnosis rates have moved in lockstep with stimulant prescriptions, which have moved in lockstep with classroom and workplace demand for focus. Each step was inside the disease-based account. The aggregate looks more like enhancement.
+:::
+
+[@gert_culver_clouser_2006]
+
+## Why the Line Keeps Collapsing
+
+Each account does something the other two cannot.
+
+- The professional-domain account is honest about who actually decides. It gives no principled answer.
+- The normal-function account is honest about biology. It collapses on prevention.
+- The disease-based account is honest about clinical practice. It collapses under medicalization.
+
+The distinction does not vanish. It just stops being settle-able from the outside. Every concrete case in this lecture — Casgevy, Adderall, He Jiankui, polygenic IQ — runs the same argument again, on different ground.
+
+That is the lecture's spine. Watch for it. [@sep_enhancement]
+
+# From Somatic to Germline {.section-divider}
+
+## Somatic vs. Germline
+
+::: {.columns}
+::: {.column width="48%"}
+**Somatic changes**
+
+- In one tissue, in one person.
+- Not in sperm or egg cells.
+- Not inherited.
+- The change dies with the patient.
+- All currently approved gene therapies are somatic.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**Germline changes**
+
+- In every cell of the resulting person, including reproductive cells.
+- Heritable. Passed to children.
+- Each descendant inherits it.
+- Banned for clinical use in nearly every country.
+- The He Jiankui case is the only known human germline edit to date.
+:::
+::::
+
+The same molecular tool can do either. The moral weight is in *which cells* it touches.
+
+## CRISPR-Cas9 — How It Works
+
+```{dot}
+//| fig-height: 2.6
+digraph CRISPR {
+  rankdir=LR;
+  graph [bgcolor="transparent"];
+  node [shape=box, style="rounded,filled", fillcolor="#f3f4f6", fontname="Helvetica", fontsize=11];
+  edge [arrowhead=vee, color="#6b7280"];
+  "Design a short\nguide RNA" -> "Guide RNA + Cas9\nenter the cell" -> "Guide finds matching\nDNA sequence" -> "Cas9 cuts\nthe DNA" -> "Cell repairs the cut\n(edit takes effect)";
+}
+```
+
+**CRISPR-Cas9** is, in plain terms, a programmable find-and-replace for DNA. You design a short guide molecule that matches the sequence you want to change. The guide drags Cas9 (a cutting enzyme) to that spot. Cas9 cuts. The cell tries to repair the cut, and the edit ends up in place.
+
+Casgevy and the He Jiankui case both use this technology. The difference between them is somatic vs. germline.
+
+## Casgevy (FDA December 2023)
+
+The first CRISPR-based therapy approved for clinical use in the US treats **sickle-cell disease**, an inherited blood disorder that causes severe pain crises and organ damage.
+
+The procedure works like this. Doctors harvest the patient's own stem cells. In the lab, they use CRISPR to switch on a gene that produces a different form of hemoglobin. The edited cells are then reinfused. The patient's bone marrow makes the new hemoglobin from then on.
+
+This is a **somatic** edit. It changes the patient. It does not change her future children.
+
+## Casgevy by the Numbers
+
+- Approved by the FDA in December 2023.
+- About **100,000 Americans** live with sickle-cell disease. Most are Black.
+- The list price is roughly **$2.2 million** per patient.
+- Insurance coverage in early 2026 is uneven. Medicaid coverage varies by state.
+- The procedure requires weeks of chemotherapy to clear the marrow before the edited cells go back in. Most patients can only be treated at specialized centers.
+
+The science is a triumph. The access question is a justice question. We will come back to it in the health-care lecture.
+
+## Luxturna and the Broader Picture
+
+**Luxturna** (FDA 2017) treats an inherited form of blindness caused by a mutation in the *RPE65* gene. A working copy of the gene is injected directly into the retina. About $425,000 per eye.
+
+Several other somatic gene therapies are now approved or in late-stage trials — for hemophilia, for spinal muscular atrophy, for some inherited immune disorders.
+
+All of them are clearly treatment under all three accounts of the line. None of the moral arguments later in this lecture apply to them.
+
+The hard cases start when the same tools are used in embryos — or in healthy people.
+
+## He Jiankui — Briefly
+
+::: {.context-box}
+**What he did.** In November 2018, Chinese scientist **He Jiankui** announced he had used CRISPR to edit the **CCR5** gene in human embryos. He had implanted the embryos. Twin girls — Lulu and Nana — had been born. A third edited child was born shortly after.
+
+His stated goal was to confer resistance to HIV. The edit was performed without serious clinical justification, with deeply flawed consent, and outside any sanctioned oversight.
+
+He was sentenced to three years in prison in 2019. He was released in 2022 and has since attempted to return to research. The international scientific consensus against germline editing has held — for now.
+:::
+
+> **Paired case:** [He Jiankui's CRISPR Twins](../cases/06-he-jiankui.qmd) — the full case study, including the consent failures and the scientific community's response.
+
+# Cognitive Enhancement {.section-divider}
+
+## Off-Label Stimulants in Healthy Adults
+
+The most common form of enhancement actually happening today does not involve embryos or CRISPR. It involves a prescription pad.
+
+- Roughly **1 in 6** US college students reports nonmedical use of stimulants like Adderall.
+- Rates are higher in pre-professional programs — nursing, medical, and law students above the average.
+- **Modafinil**, prescribed for narcolepsy, is now widely used off-label by shift workers, surgical residents, and military personnel.
+- Most users get their pills from a friend with a prescription. A growing number get them from telehealth services.
+
+This is enhancement in plain sight. It is also enhancement that looks a lot like treatment from the outside.
+
+## What the Drugs Actually Do
+
+The marketing implies a cognitive transformation. The evidence is more modest.
+
+- In **diagnosed ADHD**, stimulants improve attention and reduce disruptive symptoms in a clear, well-replicated way.
+- In **healthy adults**, the effects are small. Recent meta-analyses find a modest boost to simple attention tasks and a near-zero effect on complex problem-solving.
+- Side effects — insomnia, anxiety, raised heart rate, dependence — are real and dose-dependent.
+- The largest effect for healthy users is on *perceived* productivity. Subjects feel sharper, even when their actual performance does not move much.
+
+This matters for the ethics. The drugs are not nothing. They are also not what the campus rumor says they are.
+
+## ADHD Diagnosis Over Time
+
+| Year | US children diagnosed with ADHD | Adult stimulant prescriptions |
+|---|---|---|
+| **1997** | ~3% | uncommon |
+| **2007** | ~7% | rising |
+| **2016** | ~10% | common in adults |
+| **2022** | ~11% | sharply higher; telehealth-driven |
+
+The diagnosis rate has roughly tripled in twenty-five years. The criteria have broadened in each DSM revision since 1994.
+
+Some of that increase is real recognition of a real condition. Some of it is the disease-based account collapsing in slow motion: as demand for the drug grew, the criteria for the diagnosis that justifies the drug expanded to match. **Nosological elasticity** in real time.
+
+## Thought Question — A Roommate's NCLEX Request
+
+::: {.thought-question}
+Your roommate, a healthy nursing student with no ADHD diagnosis, asks to borrow one of your Adderall pills the night before NCLEX. She is anxious. She has heard from upperclassmen that "everyone uses it." You are prescribed it for a diagnosis you have had since high school.
+
+**Write or discuss.**
+
+1. Apply the three accounts of the treatment-enhancement line to her request. Which one makes the strongest case for "no"?
+2. Does the answer change if she says she just wants to *try* one pill at a normal dose?
+3. If you would say no to your roommate, would you say no to *yourself* using the same drug to gain an edge on the same test?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+The three accounts give three different reasons for "no" — and they cut at different angles.
+
+- **Professional-domain**: prescribing is a professional act. Sharing a prescription with someone undiagnosed is outside that act. The clinical relationship is what makes the use legitimate; outside that relationship, the same pill is something else.
+- **Normal-function**: the drug pushes attention *above* the normal range in a healthy user. That is enhancement, not treatment.
+- **Disease-based**: she has no malady. There is nothing to treat. The pill is acting on a healthy system to give her a competitive edge.
+
+A fourth angle is equity. If passing NCLEX increasingly requires stimulants, the test starts measuring access to a diagnosis, not nursing knowledge.
+:::
+
+# The Non-Identity Problem {.section-divider}
+
+## Parfit's 14-Year-Old Girl
+
+::: {.callout-important}
+**The thought experiment**
+
+Imagine a 14-year-old girl who is thinking about having a child. If she has the child now, the child will have a difficult start — limited resources, an inexperienced parent, predictable hardships. If she waits until she is 22, she will be more prepared, more stable, and the child she has *then* will have a much better life.
+
+It seems obvious that waiting is the right thing to do.
+
+But here is the puzzle. The child she would have at 14 is *not the same person* as the child she would have at 22. Different egg, different sperm, different person. If she waits, the first child never exists. He doesn't get a better life; he simply does not get a life at all.
+
+— Derek Parfit, *Reasons and Persons* (1984)
+:::
+
+## The Puzzle Stated Sharply
+
+So who was *wronged* by the early pregnancy?
+
+- Not the actual child. His alternative was nonexistence. He is glad to be alive. He has no complaint.
+- Not the never-existing child. That child has no complaints, because that child never existed.
+
+The puzzle is real. We feel a strong intuition that the early pregnancy was wrong. The standard person-affecting reasoning cannot say *who* was wronged. [@parfit1984]
+
+This matters everywhere we *choose* the conditions of someone's existence — embryo selection, germline editing, even decisions about when to conceive.
+
+## He Jiankui's Twins Through This Lens
+
+Lulu and Nana exist only because their parents took part in He Jiankui's experiment. A different embryo would have meant a different child — or no child at all.
+
+So on the simplest reading: the twins were not *wronged* by being edited. The alternative was that they not exist.
+
+That cannot be where the analysis ends. Most people share a strong sense that what He did was wrong. The non-identity problem forces us to locate the wrong somewhere other than "harm to the specific child who exists."
+
+Two candidate locations show up later in the lecture: a wrong to the **kind of relationship** parents and children should have (Sandel, Habermas), and a wrong to the **future adult** who was set up without consent (Feinberg, Habermas).
+
+# The Enhancement Debate {.section-divider}
+
+## The Central Question
+
+If safe, accurate gene editing or embryo selection were available — and many forms already are — should parents use them to give their children advantages they would not otherwise have?
+
+Three serious answers. Each is held by careful philosophers. None is fringe.
+
+- **Savulescu**: yes, and parents have a *positive duty* to do so.
+- **Sandel**: no, because doing so corrodes something valuable in the parent-child relationship.
+- **Habermas**: no, because the child cannot consent to being someone else's project.
+
+## Savulescu — Procreative Beneficence
+
+::: {.context-box}
+**The argument.** If you are going to bring a child into existence, you have a moral reason to bring the child *with the best expected life*. The reasoning is straightforward consequentialism: more well-being is better than less well-being, all else equal.
+
+The argument applies the same way to disease risk and to traits. If a parent should pick the embryo less likely to develop cancer, the parent should also pick the embryo more likely to be tall, intelligent, or cheerful — to the extent those traits track well-being.
+
+Savulescu calls this **procreative beneficence**. It is the most permissive position in the contemporary literature.
+:::
+
+[@savulescu2001_procreative]
+
+## Sandel — Verbatim
+
+::: {.quote-card}
+"To appreciate children as gifts is to accept them as they come, not as objects of our design, or products of our will, or instruments of our ambition. Parental love is not contingent on the talents and attributes the child happens to have."
+
+— Michael Sandel, *The Case Against Perfection: Ethics in the Age of Genetic Engineering* (2007), p. 45.
+:::
+
+[@sandel2007_perfection]
+
+## Sandel's Giftedness Argument
+
+The argument is not that enhancement makes children worse off. It often does not. The argument is about what enhancement does to the *parent* and to the *practice* of parenting.
+
+- A parent who accepts the child as a gift can love the child unconditionally. Effort goes into the child's flourishing on the child's own terms.
+- A parent who designs the child treats the child as a project. Love starts to track *how well the project is going*.
+- Beyond the family, a society of designed children loses what Sandel calls **solidarity** — the sense that we are all subject to the same lottery and owe each other something for it.
+
+The argument is not against medicine. It is against the idea that parenting is a manufacturing problem.
+
+## Habermas — Making vs. Growing
+
+For Habermas, the wrong of enhancement is not in the child's outcomes. It is in the *kind of being* a designed child is.
+
+- A child who *grew* — under nature's contingency — can come to understand her life as her own. The traits she has are not someone else's choice.
+- A child who was *made* — selected or edited toward a specific design — is, in a real sense, the project of her parents' lives. She cannot retroactively consent to that. She cannot un-design herself.
+
+This is not a religious argument. It is an argument about the structure of autonomy. The future adult is owed a life that is *hers*, not an extension of someone else's plan.
+
+The He Jiankui twins are the sharpest test case. They exist only because of the edit. They were also, in Habermas's terms, *made* in a way no child should be. [@habermas2003_future]
+
+## Three Positions at a Glance
+
+| | **Savulescu** | **Sandel** | **Habermas** |
+|---|---|---|---|
+| **Enhancement is** | A duty, where it improves the child's life | A corrosion of the parent-child relationship | A wrong to the future autonomous adult |
+| **What's lost without it** | Well-being the child could have had | Nothing — the giftedness is the point | Nothing — the autonomy is the point |
+| **What's lost with it** | Nothing intrinsic; only access concerns | Unconditional love; social solidarity | The child's authorship of her own life |
+| **Polygenic IQ scoring is** | Permissible; perhaps obligatory if affordable | The textbook example of the drive to mastery | The clearest case of *making* a person |
+
+All three can agree that Casgevy is fine. They split sharply on embryo selection.
+
+# Feinberg's Open Future, Applied to the Body {.section-divider}
+
+## Open Future, Now for the Body
+
+Part A used Feinberg's argument about a child's right to an **open future** for the case of genetic *information* — testing a healthy child for an adult-onset disease.
+
+Part B applies the same principle to genetic *engineering*. The principle is the same: do not foreclose, in advance, choices the future adult should be free to make on her own.
+
+- The *informational* version says: don't tell the eight-year-old about her BRCA risk before she can decide whether she wants to know.
+- The *engineering* version says: don't *build* the eight-year-old toward a specific future before she can decide what kind of future she wants.
+
+The argument is consistent with letting the same person, at 25, walk into a clinic and choose. [@feinberg1980_open_future]
+
+## The Future Person Who Never Consented
+
+Habermas and Feinberg meet at the He Jiankui twins.
+
+- Habermas: they were *made*, in a way that makes their lives the project of someone else's plan.
+- Feinberg: a future they might have chosen for themselves was foreclosed in the embryo dish.
+- Non-identity problem: they cannot complain that they were harmed, because the alternative was nonexistence.
+
+The wrong, then, is not to the twins-vs-no-twins comparison. It is to the *kind of relationship* He Jiankui's experiment set up between him, the parents, and two future adults who could never have agreed to be designed this way.
+
+That is the cleanest formulation in the literature. It is also why germline editing remains banned in clinical use almost everywhere.
+
+# Polygenic Embryo Selection {.section-divider}
+
+## What Polygenic Embryo Selection Is
+
+```{dot}
+//| fig-height: 2.6
+digraph PGTPRS {
+  rankdir=LR;
+  graph [bgcolor="transparent"];
+  node [shape=box, style="rounded,filled", fillcolor="#f3f4f6", fontname="Helvetica", fontsize=11];
+  edge [arrowhead=vee, color="#6b7280"];
+  "IVF\n(6–10 embryos)" -> "Biopsy a few cells\nfrom each embryo" -> "Sequence the DNA" -> "Calculate polygenic\nrisk scores" -> "Rank embryos" -> "Implant the chosen\nembryo";
+}
+```
+
+No editing. No CRISPR. Just selection.
+
+The clinic creates embryos through IVF, tests each one, calculates a polygenic risk score for whatever traits the parents are paying to assess, and lets the parents choose which embryo to implant.
+
+The technology has been used to screen out single-gene diseases (Tay-Sachs, cystic fibrosis) for decades. What is new is selecting on *risk of common disease* — and on traits like height or predicted IQ.
+
+## From Disease Screening to Trait Selection
+
+The standard preimplantation test screens for things almost no one wants — a fatal childhood disease, a chromosomal abnormality. The new market screens for things that look more like preferences.
+
+- Risk of adult heart disease.
+- Risk of type 2 diabetes.
+- Predicted height.
+- Predicted educational attainment.
+- Predicted IQ.
+
+Each step looks like a small extension of the last. The aggregate has crossed a line the field used to police more carefully. There is no US federal law against it.
+
+## Orchid Health and Heliospect
+
+Two US companies are the live edge of the field.
+
+- **Orchid Health** (San Francisco) offers what it calls "whole-genome embryo screening" — sequencing every embryo and reporting risk scores across hundreds of conditions, including some adult-onset ones. Prices range from a few thousand dollars per embryo upward.
+- **Heliospect Genomics** offers polygenic embryo selection that explicitly includes scoring for **IQ**. Reporting by *The Guardian* in 2024 documented the service in detail.
+
+Both operate legally in the US. The market is small but growing. Neither product is available in most European countries.
+
+## How Accurate Is a Polygenic IQ Score?
+
+The marketing implies precision. The science is humbler.
+
+- Current polygenic scores for IQ explain about **10–15%** of the variance in intelligence-test performance. The rest is environment, gene-environment interaction, and noise.
+- For a couple selecting among 6–10 sibling embryos, the expected IQ gain from picking the top-ranked one is roughly **2–4 points**. Within the noise of the test itself.
+- Predictions work best in the population the score was trained on — overwhelmingly people of European ancestry, as Part A noted.
+- Almost everything that makes a person's life go well — temperament, motivation, the household they grow up in — is *not* in the score.
+
+The product on offer is not a designer baby. It is a small statistical nudge sold with the language of choice.
+
+## Thought Question — IQ at $50,000
+
+::: {.thought-question}
+You and your partner can afford the $50,000 selection package. The clinic shows you six embryos ranked by predicted IQ. The top embryo is 2.3 points higher than the bottom one. The clinic counselor says "most of our families choose the top."
+
+**Write or discuss.**
+
+1. Do you select on IQ? Why or why not?
+2. Suppose the service became free tomorrow. Does your answer change?
+3. Suppose the gap were 10 points instead of 2.3. Does your answer change?
+4. If you would not select for IQ, would you select for low risk of type 2 diabetes? What is different about the two choices?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+A few distinctions worth carrying away.
+
+- **What is actually selected.** The "best" embryo is best only in *expectation*, and the expectation is small. The choice is a probability bet, not a guarantee.
+- **What is left out.** Most of what shapes a child's life is environment and chance — neither of which is in the score. Selection promises agency over a slice of the outcome and quiet about the rest.
+- **Where the three positions land.** Savulescu says select. Sandel says you have just defined the parent-child relationship in terms of a 2-point statistical edge. Habermas says you have committed a future adult to a project she cannot un-author.
+- **Equity.** The service is currently sold at price points that exclude most American families. If it works at all, it works to widen advantage that money already buys.
+:::
+
+# Wrap {.section-divider}
+
+## Scoreboard — The Treatment-Enhancement Collapse
+
+| Where it shows up | Looks like treatment because | Looks like enhancement because |
+|---|---|---|
+| **Casgevy for sickle cell** | Treats a clear malady; restores normal hemoglobin | Permanent edit; price puts it out of reach for most patients |
+| **Adderall off-label** | Same molecule as the prescription drug | Acts on a healthy brain; gives a competitive edge |
+| **He Jiankui's CCR5 edit** | Framed as HIV prevention | Healthy embryos; no clear medical need; heritable |
+| **Polygenic disease screening** | Selects against future illness | Treats embryos as products to be ranked |
+| **Polygenic IQ selection** | Sold as "best chance for your child" | No malady; pure trait selection |
+| **Future germline editing** | Could prevent inherited disease | Could redesign human capacities |
+
+Six cases. One unstable line. That is what the lecture has been arguing.
+
+## Review Questions
+
+Write a brief answer to each, or use them as discussion prompts.
+
+::: {.review-questions}
+
+::: {.review-item .review-recall}
+[Recall]{.review-label}
+
+State the three accounts of the treatment-enhancement distinction in your own words. For each, name one concrete example where it gives an unhelpful answer.
+:::
+
+::: {.review-item .review-apply}
+[Apply]{.review-label}
+
+A 28-year-old patient with sickle-cell disease asks you about Casgevy. She is insured through Medicaid in a state where coverage is uncertain. What three things do you tell her about the treatment itself, and what is the one ethical issue you cannot resolve at the bedside?
+:::
+
+::: {.review-item .review-debate}
+[Debate]{.review-label}
+
+A US state legislature is considering a bill that would ban polygenic embryo selection for non-disease traits in fertility clinics. Take a position. Identify the strongest argument against your position and respond to it.
+:::
+
+:::
+
+## Key Terms
+
+::: {.columns}
+::: {.column width="48%"}
+- [Treatment vs. enhancement]{.key-term}
+- [Normal-function account]{.key-term}
+- [Nosological elasticity]{.key-term}
+- [Somatic vs. germline]{.key-term}
+- [CRISPR-Cas9]{.key-term}
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+- [Procreative beneficence]{.key-term}
+- [Giftedness (Sandel)]{.key-term}
+- [Making vs. growing (Habermas)]{.key-term}
+- [Non-identity problem]{.key-term}
+- [Polygenic embryo selection]{.key-term}
+:::
+::::
+
+## Further Reading
+
+- Michael Sandel, *The Case Against Perfection: Ethics in the Age of Genetic Engineering* (Harvard, 2007).
+- Jürgen Habermas, *The Future of Human Nature* (Polity, 2003).
+- Daniel Moseley and Eric Juengst, "Human Enhancement," *Stanford Encyclopedia of Philosophy* (Winter 2025).
+- Julian Savulescu, "Procreative Beneficence: Why We Should Select the Best Children," *Bioethics* 15 (2001).
+- James Tabery, *Tyranny of the Gene* (Knopf, 2023).
+
+## References
+
+::: {#refs}
+:::

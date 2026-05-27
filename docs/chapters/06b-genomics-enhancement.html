@@ -1,0 +1,1639 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Brendan Shea, PhD">
+<meta name="dcterms.date" content="last-modified">
+
+<title>Lecture 6 — Genomics and Enhancement – Bioethics: An Open Educational Resource</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles/custom.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Bioethics: An Open Educational Resource</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../chapters/00-course-outline.html"> 
+<span class="menu-text">Outline</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-principles--reasoning" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">1. Principles &amp; Reasoning</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-principles--reasoning">    
+        <li>
+    <a class="dropdown-item" href="../chapters/01-introduction.html">
+ <span class="dropdown-text">Part A — The Four Principles</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../chapters/01b-theories.html">
+ <span class="dropdown-text">Part B — Ethical Theories</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-history--relationship" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">2. History &amp; Relationship</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-history--relationship">    
+        <li>
+    <a class="dropdown-item" href="../chapters/02a-history.html">
+ <span class="dropdown-text">Part A — History</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../chapters/02b-clinical-relationship.html">
+ <span class="dropdown-text">Part B — Clinical Relationship</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research-ethics" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">3. Research Ethics</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research-ethics">    
+        <li>
+    <a class="dropdown-item" href="../chapters/03a-clinical-research.html">
+ <span class="dropdown-text">Part A — How Clinical Research Works</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../chapters/03b-protecting-research-subjects.html">
+ <span class="dropdown-text">Part B — Protecting Research Subjects</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-abortion" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">4. Abortion</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-abortion">    
+        <li>
+    <a class="dropdown-item" href="../chapters/04a-abortion.html">
+ <span class="dropdown-text">Part A — Moral Status</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../chapters/04b-abortion-law.html">
+ <span class="dropdown-text">Part B — Law &amp; Cases</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-reproductive-ethics" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">5. Reproductive Ethics</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-reproductive-ethics">    
+        <li>
+    <a class="dropdown-item" href="../chapters/05a-pregnancy-autonomy.html">
+ <span class="dropdown-text">Part A — Pregnancy &amp; Autonomy</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../chapters/05b-reproductive-markets.html">
+ <span class="dropdown-text">Part B — Markets &amp; Surrogacy</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-genomics--enhancement" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">6. Genomics &amp; Enhancement</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-genomics--enhancement">    
+        <li>
+    <a class="dropdown-item" href="../chapters/06a-genomics-reading.html">
+ <span class="dropdown-text">Part A — Reading Genomes</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../chapters/06b-genomics-enhancement.html">
+ <span class="dropdown-text">Part B — Engineering Persons</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/brendanpshea/bioethics-oer"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#a-clinic-visit-that-sounds-like-the-future" id="toc-a-clinic-visit-that-sounds-like-the-future" class="nav-link active" data-scroll-target="#a-clinic-visit-that-sounds-like-the-future"><span class="header-section-number">1</span> A Clinic Visit That Sounds Like the Future</a>
+  <ul class="collapse">
+  <li><a href="#would-you-select" id="toc-would-you-select" class="nav-link" data-scroll-target="#would-you-select"><span class="header-section-number">1.1</span> Would You Select?</a></li>
+  <li><a href="#after-youve-discussed" id="toc-after-youve-discussed" class="nav-link" data-scroll-target="#after-youve-discussed"><span class="header-section-number">1.2</span> After You’ve Discussed</a></li>
+  <li><a href="#today" id="toc-today" class="nav-link" data-scroll-target="#today"><span class="header-section-number">1.3</span> Today</a></li>
+  </ul></li>
+  <li><a href="#the-treatment-enhancement-line" id="toc-the-treatment-enhancement-line" class="nav-link" data-scroll-target="#the-treatment-enhancement-line"><span class="header-section-number">2</span> The Treatment-Enhancement Line</a>
+  <ul class="collapse">
+  <li><a href="#why-this-line-matters-in-practice" id="toc-why-this-line-matters-in-practice" class="nav-link" data-scroll-target="#why-this-line-matters-in-practice"><span class="header-section-number">2.1</span> Why This Line Matters in Practice</a></li>
+  <li><a href="#a-working-definition" id="toc-a-working-definition" class="nav-link" data-scroll-target="#a-working-definition"><span class="header-section-number">2.2</span> A Working Definition</a></li>
+  <li><a href="#three-accounts-at-a-glance" id="toc-three-accounts-at-a-glance" class="nav-link" data-scroll-target="#three-accounts-at-a-glance"><span class="header-section-number">2.3</span> Three Accounts at a Glance</a></li>
+  <li><a href="#the-professional-domain-account" id="toc-the-professional-domain-account" class="nav-link" data-scroll-target="#the-professional-domain-account"><span class="header-section-number">2.4</span> The Professional-Domain Account</a></li>
+  <li><a href="#the-normal-function-account" id="toc-the-normal-function-account" class="nav-link" data-scroll-target="#the-normal-function-account"><span class="header-section-number">2.5</span> The Normal-Function Account</a></li>
+  <li><a href="#the-disease-based-account" id="toc-the-disease-based-account" class="nav-link" data-scroll-target="#the-disease-based-account"><span class="header-section-number">2.6</span> The Disease-Based Account</a></li>
+  <li><a href="#why-the-line-keeps-collapsing" id="toc-why-the-line-keeps-collapsing" class="nav-link" data-scroll-target="#why-the-line-keeps-collapsing"><span class="header-section-number">2.7</span> Why the Line Keeps Collapsing</a></li>
+  </ul></li>
+  <li><a href="#from-somatic-to-germline" id="toc-from-somatic-to-germline" class="nav-link" data-scroll-target="#from-somatic-to-germline"><span class="header-section-number">3</span> From Somatic to Germline</a>
+  <ul class="collapse">
+  <li><a href="#somatic-vs.-germline" id="toc-somatic-vs.-germline" class="nav-link" data-scroll-target="#somatic-vs.-germline"><span class="header-section-number">3.1</span> Somatic vs.&nbsp;Germline</a></li>
+  <li><a href="#crispr-cas9-how-it-works" id="toc-crispr-cas9-how-it-works" class="nav-link" data-scroll-target="#crispr-cas9-how-it-works"><span class="header-section-number">3.2</span> CRISPR-Cas9 — How It Works</a></li>
+  <li><a href="#casgevy-fda-december-2023" id="toc-casgevy-fda-december-2023" class="nav-link" data-scroll-target="#casgevy-fda-december-2023"><span class="header-section-number">3.3</span> Casgevy (FDA December 2023)</a></li>
+  <li><a href="#casgevy-by-the-numbers" id="toc-casgevy-by-the-numbers" class="nav-link" data-scroll-target="#casgevy-by-the-numbers"><span class="header-section-number">3.4</span> Casgevy by the Numbers</a></li>
+  <li><a href="#luxturna-and-the-broader-picture" id="toc-luxturna-and-the-broader-picture" class="nav-link" data-scroll-target="#luxturna-and-the-broader-picture"><span class="header-section-number">3.5</span> Luxturna and the Broader Picture</a></li>
+  <li><a href="#he-jiankui-briefly" id="toc-he-jiankui-briefly" class="nav-link" data-scroll-target="#he-jiankui-briefly"><span class="header-section-number">3.6</span> He Jiankui — Briefly</a></li>
+  </ul></li>
+  <li><a href="#cognitive-enhancement" id="toc-cognitive-enhancement" class="nav-link" data-scroll-target="#cognitive-enhancement"><span class="header-section-number">4</span> Cognitive Enhancement</a>
+  <ul class="collapse">
+  <li><a href="#off-label-stimulants-in-healthy-adults" id="toc-off-label-stimulants-in-healthy-adults" class="nav-link" data-scroll-target="#off-label-stimulants-in-healthy-adults"><span class="header-section-number">4.1</span> Off-Label Stimulants in Healthy Adults</a></li>
+  <li><a href="#what-the-drugs-actually-do" id="toc-what-the-drugs-actually-do" class="nav-link" data-scroll-target="#what-the-drugs-actually-do"><span class="header-section-number">4.2</span> What the Drugs Actually Do</a></li>
+  <li><a href="#adhd-diagnosis-over-time" id="toc-adhd-diagnosis-over-time" class="nav-link" data-scroll-target="#adhd-diagnosis-over-time"><span class="header-section-number">4.3</span> ADHD Diagnosis Over Time</a></li>
+  <li><a href="#thought-question-a-roommates-nclex-request" id="toc-thought-question-a-roommates-nclex-request" class="nav-link" data-scroll-target="#thought-question-a-roommates-nclex-request"><span class="header-section-number">4.4</span> Thought Question — A Roommate’s NCLEX Request</a></li>
+  <li><a href="#after-youve-discussed-1" id="toc-after-youve-discussed-1" class="nav-link" data-scroll-target="#after-youve-discussed-1"><span class="header-section-number">4.5</span> After You’ve Discussed</a></li>
+  </ul></li>
+  <li><a href="#the-non-identity-problem" id="toc-the-non-identity-problem" class="nav-link" data-scroll-target="#the-non-identity-problem"><span class="header-section-number">5</span> The Non-Identity Problem</a>
+  <ul class="collapse">
+  <li><a href="#parfits-14-year-old-girl" id="toc-parfits-14-year-old-girl" class="nav-link" data-scroll-target="#parfits-14-year-old-girl"><span class="header-section-number">5.1</span> Parfit’s 14-Year-Old Girl</a></li>
+  <li><a href="#the-puzzle-stated-sharply" id="toc-the-puzzle-stated-sharply" class="nav-link" data-scroll-target="#the-puzzle-stated-sharply"><span class="header-section-number">5.2</span> The Puzzle Stated Sharply</a></li>
+  <li><a href="#he-jiankuis-twins-through-this-lens" id="toc-he-jiankuis-twins-through-this-lens" class="nav-link" data-scroll-target="#he-jiankuis-twins-through-this-lens"><span class="header-section-number">5.3</span> He Jiankui’s Twins Through This Lens</a></li>
+  </ul></li>
+  <li><a href="#the-enhancement-debate" id="toc-the-enhancement-debate" class="nav-link" data-scroll-target="#the-enhancement-debate"><span class="header-section-number">6</span> The Enhancement Debate</a>
+  <ul class="collapse">
+  <li><a href="#the-central-question" id="toc-the-central-question" class="nav-link" data-scroll-target="#the-central-question"><span class="header-section-number">6.1</span> The Central Question</a></li>
+  <li><a href="#savulescu-procreative-beneficence" id="toc-savulescu-procreative-beneficence" class="nav-link" data-scroll-target="#savulescu-procreative-beneficence"><span class="header-section-number">6.2</span> Savulescu — Procreative Beneficence</a></li>
+  <li><a href="#sandel-verbatim" id="toc-sandel-verbatim" class="nav-link" data-scroll-target="#sandel-verbatim"><span class="header-section-number">6.3</span> Sandel — Verbatim</a></li>
+  <li><a href="#sandels-giftedness-argument" id="toc-sandels-giftedness-argument" class="nav-link" data-scroll-target="#sandels-giftedness-argument"><span class="header-section-number">6.4</span> Sandel’s Giftedness Argument</a></li>
+  <li><a href="#habermas-making-vs.-growing" id="toc-habermas-making-vs.-growing" class="nav-link" data-scroll-target="#habermas-making-vs.-growing"><span class="header-section-number">6.5</span> Habermas — Making vs.&nbsp;Growing</a></li>
+  <li><a href="#three-positions-at-a-glance" id="toc-three-positions-at-a-glance" class="nav-link" data-scroll-target="#three-positions-at-a-glance"><span class="header-section-number">6.6</span> Three Positions at a Glance</a></li>
+  </ul></li>
+  <li><a href="#feinbergs-open-future-applied-to-the-body" id="toc-feinbergs-open-future-applied-to-the-body" class="nav-link" data-scroll-target="#feinbergs-open-future-applied-to-the-body"><span class="header-section-number">7</span> Feinberg’s Open Future, Applied to the Body</a>
+  <ul class="collapse">
+  <li><a href="#open-future-now-for-the-body" id="toc-open-future-now-for-the-body" class="nav-link" data-scroll-target="#open-future-now-for-the-body"><span class="header-section-number">7.1</span> Open Future, Now for the Body</a></li>
+  <li><a href="#the-future-person-who-never-consented" id="toc-the-future-person-who-never-consented" class="nav-link" data-scroll-target="#the-future-person-who-never-consented"><span class="header-section-number">7.2</span> The Future Person Who Never Consented</a></li>
+  </ul></li>
+  <li><a href="#polygenic-embryo-selection" id="toc-polygenic-embryo-selection" class="nav-link" data-scroll-target="#polygenic-embryo-selection"><span class="header-section-number">8</span> Polygenic Embryo Selection</a>
+  <ul class="collapse">
+  <li><a href="#what-polygenic-embryo-selection-is" id="toc-what-polygenic-embryo-selection-is" class="nav-link" data-scroll-target="#what-polygenic-embryo-selection-is"><span class="header-section-number">8.1</span> What Polygenic Embryo Selection Is</a></li>
+  <li><a href="#from-disease-screening-to-trait-selection" id="toc-from-disease-screening-to-trait-selection" class="nav-link" data-scroll-target="#from-disease-screening-to-trait-selection"><span class="header-section-number">8.2</span> From Disease Screening to Trait Selection</a></li>
+  <li><a href="#orchid-health-and-heliospect" id="toc-orchid-health-and-heliospect" class="nav-link" data-scroll-target="#orchid-health-and-heliospect"><span class="header-section-number">8.3</span> Orchid Health and Heliospect</a></li>
+  <li><a href="#how-accurate-is-a-polygenic-iq-score" id="toc-how-accurate-is-a-polygenic-iq-score" class="nav-link" data-scroll-target="#how-accurate-is-a-polygenic-iq-score"><span class="header-section-number">8.4</span> How Accurate Is a Polygenic IQ Score?</a></li>
+  <li><a href="#thought-question-iq-at-50000" id="toc-thought-question-iq-at-50000" class="nav-link" data-scroll-target="#thought-question-iq-at-50000"><span class="header-section-number">8.5</span> Thought Question — IQ at $50,000</a></li>
+  <li><a href="#after-youve-discussed-2" id="toc-after-youve-discussed-2" class="nav-link" data-scroll-target="#after-youve-discussed-2"><span class="header-section-number">8.6</span> After You’ve Discussed</a></li>
+  </ul></li>
+  <li><a href="#wrap" id="toc-wrap" class="nav-link" data-scroll-target="#wrap"><span class="header-section-number">9</span> Wrap</a>
+  <ul class="collapse">
+  <li><a href="#scoreboard-the-treatment-enhancement-collapse" id="toc-scoreboard-the-treatment-enhancement-collapse" class="nav-link" data-scroll-target="#scoreboard-the-treatment-enhancement-collapse"><span class="header-section-number">9.1</span> Scoreboard — The Treatment-Enhancement Collapse</a></li>
+  <li><a href="#review-questions" id="toc-review-questions" class="nav-link" data-scroll-target="#review-questions"><span class="header-section-number">9.2</span> Review Questions</a></li>
+  <li><a href="#key-terms" id="toc-key-terms" class="nav-link" data-scroll-target="#key-terms"><span class="header-section-number">9.3</span> Key Terms</a></li>
+  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading"><span class="header-section-number">9.4</span> Further Reading</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">9.5</span> References</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="06b-genomics-enhancement-slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Lecture 6 — Genomics and Enhancement</h1>
+<p class="subtitle lead">Part B: Engineering Persons — CRISPR, Enhancement, and Identity</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Brendan Shea, PhD </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            An Introduction to Bioethics.
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="a-clinic-visit-that-sounds-like-the-future" class="level1 section-divider" data-number="1">
+<h1 class="section-divider" data-number="1"><span class="header-section-number">1</span> A Clinic Visit That Sounds Like the Future</h1>
+<section id="would-you-select" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="would-you-select"><span class="header-section-number">1.1</span> Would You Select?</h2>
+<div class="thought-question">
+<p>You and your partner are doing IVF. Six embryos make it to the testing stage. The clinic offers a new add-on for $50,000. They will read each embryo’s whole genome and rank them on predicted IQ, height, and risk for common diseases. You can pick the embryo at the top of the list. The doctor stresses that it is legal, voluntary, and currently used by other couples in the clinic.</p>
+<p><strong>Write or discuss:</strong></p>
+<ol type="1">
+<li>Is this medical treatment, disease prevention, or something else? Does the label matter?</li>
+<li>The expected IQ gain from picking the top embryo is about 2 points. Does that change your answer?</li>
+<li>If you would not pay $50,000 for this, but it became free tomorrow, would you take it then?</li>
+</ol>
+</div>
+<div class="notes">
+<p>The scenario is not hypothetical. US fertility clinics began offering whole-embryo polygenic scoring around 2020. The first business model is in slides 35–38. The point of the opener is to surface “what counts as treatment?” before naming it.</p>
+</div>
+</section>
+<section id="after-youve-discussed" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="after-youve-discussed"><span class="header-section-number">1.2</span> After You’ve Discussed</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The thought question turns on a distinction we will spend the lecture testing.</p>
+<ul>
+<li><strong>Treatment</strong> restores normal function — an antibiotic for an infection, insulin for diabetes.</li>
+<li><strong>Prevention</strong> keeps you out of harm — a vaccine, a statin.</li>
+<li><strong>Enhancement</strong> improves you <em>beyond</em> the normal range — sharper memory, taller body, longer life.</li>
+</ul>
+<p>The line between these sounds clear. It is not. Most of today is about why the line keeps collapsing — and what is left to argue about once it does.</p>
+</div>
+</div>
+</section>
+<section id="today" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="today"><span class="header-section-number">1.3</span> Today</h2>
+<div class="learning-outcomes">
+<p>By the end of Part B, you will be able to:</p>
+<ul>
+<li>State three accounts of the <strong>treatment-enhancement distinction</strong> and explain why each one keeps collapsing.</li>
+<li>Tell <strong>somatic</strong> from <strong>germline</strong> editing, and explain why this does most of the moral work in the gene-editing debate.</li>
+<li>Describe what <strong>Casgevy</strong> (FDA 2023) does, and why somatic gene therapy is much less contested than germline editing.</li>
+<li>Compare three positions on enhancement: <strong>Savulescu</strong>’s procreative beneficence, <strong>Sandel</strong>’s giftedness argument, and <strong>Habermas</strong> on making vs.&nbsp;growing.</li>
+<li>Explain the <strong>non-identity problem</strong> and apply it to a real case.</li>
+<li>Describe what <strong>polygenic embryo selection</strong> is doing in US fertility clinics today, and what it can and cannot deliver.</li>
+</ul>
+</div>
+</section>
+</section>
+<section id="the-treatment-enhancement-line" class="level1 section-divider" data-number="2">
+<h1 class="section-divider" data-number="2"><span class="header-section-number">2</span> The Treatment-Enhancement Line</h1>
+<section id="why-this-line-matters-in-practice" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="why-this-line-matters-in-practice"><span class="header-section-number">2.1</span> Why This Line Matters in Practice</h2>
+<p>The treatment-enhancement distinction is not just an academic puzzle. It does work in three concrete places.</p>
+<ul>
+<li><strong>Insurance.</strong> Health insurers pay for treatment. They do not pay for enhancement. Whether a procedure is one or the other decides who can afford it.</li>
+<li><strong>Professional duty.</strong> Doctors have an obligation to treat. They do not have an obligation to enhance. A patient cannot demand enhancement the way she can demand treatment.</li>
+<li><strong>Regulation.</strong> The FDA approves drugs as treatments for specific conditions. Off-label and enhancement uses fall outside its main review.</li>
+</ul>
+<p>Move a procedure from one side of the line to the other, and three different systems respond.</p>
+</section>
+<section id="a-working-definition" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="a-working-definition"><span class="header-section-number">2.2</span> A Working Definition</h2>
+<p>The standard definition in the philosophical literature is precise.</p>
+<p><strong>Enhancement</strong> = biomedical interventions used to improve human form or functioning <em>beyond what is necessary to restore or sustain health</em>.</p>
+<p>A few implications travel with that definition.</p>
+<ul>
+<li>It is the <em>use</em>, not the technology, that makes something an enhancement. The same drug can be treatment for one patient and enhancement for the next.</li>
+<li>Most enhancement-capable drugs and procedures enter medicine first as treatments. They show up as enhancements later, off-label.</li>
+<li>The definition rests on what counts as “health” — which is exactly the unstable concept the next three slides will probe. <span class="citation" data-cites="sep_enhancement">(<a href="#ref-sep_enhancement" role="doc-biblioref">Moseley and Juengst 2025</a>)</span></li>
+</ul>
+</section>
+<section id="three-accounts-at-a-glance" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="three-accounts-at-a-glance"><span class="header-section-number">2.3</span> Three Accounts at a Glance</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Account</th>
+<th>What treatment is</th>
+<th>What enhancement is</th>
+<th>Who advocates</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Professional-domain</strong></td>
+<td>What the profession says it is</td>
+<td>What the profession refuses to do</td>
+<td>Practitioners; medical societies</td>
+</tr>
+<tr class="even">
+<td><strong>Normal-function</strong></td>
+<td>Restores species-typical function</td>
+<td>Pushes beyond the typical range</td>
+<td>Boorse 1977; Daniels</td>
+</tr>
+<tr class="odd">
+<td><strong>Disease-based</strong></td>
+<td>Addresses a diagnosable malady</td>
+<td>Acts on a healthy system</td>
+<td>Gert, Culver, Clouser 2006</td>
+</tr>
+</tbody>
+</table>
+<p>Each account does real work in clinical practice. Each one also keeps collapsing under pressure.</p>
+</section>
+<section id="the-professional-domain-account" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="the-professional-domain-account"><span class="header-section-number">2.4</span> The Professional-Domain Account</h2>
+<div class="context-box">
+<p><strong>The idea.</strong> Treatment is whatever doctors agree they should do. Enhancement is whatever they refuse. Medical societies set the line by professional consensus.</p>
+<p><strong>Why it collapses.</strong> Medicine has a track record of <em>medicalization</em> — absorbing new conditions into its scope as cultural demand grows. Shyness became social anxiety disorder. Restlessness in boys became ADHD. Aging in men became “low T.” Each was once outside medicine. Each is now inside.</p>
+<p>If the profession’s own boundaries shift with demand, the profession’s word for what counts as treatment cannot be the bedrock of the distinction.</p>
+</div>
+</section>
+<section id="the-normal-function-account" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="the-normal-function-account"><span class="header-section-number">2.5</span> The Normal-Function Account</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><strong>The idea (Boorse, Daniels)</strong></p>
+<p>Health is the ability to do what people of your age and sex can typically do. Treatment restores you to that range. Enhancement pushes you above it.</p>
+<p>This account anchors the distinction in physiology, not professional opinion.</p>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<p><strong>Where it collapses</strong></p>
+<ul>
+<li><strong>Prevention.</strong> A vaccine pushes your immune response above normal <em>on purpose</em>. Statins lower cholesterol <em>below</em> the average for your age. Both look like enhancement under this account. Both are clearly treatment in practice.</li>
+<li><strong>Disability.</strong> A powered wheelchair that travels faster than a healthy walker does counts as enhancement here. Asking why is asking what is wrong with the account.</li>
+</ul>
+</div>
+</div>
+<p><span class="citation" data-cites="boorse1977">(<a href="#ref-boorse1977" role="doc-biblioref">Boorse 1977</a>)</span></p>
+</section>
+<section id="the-disease-based-account" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="the-disease-based-account"><span class="header-section-number">2.6</span> The Disease-Based Account</h2>
+<div class="context-box">
+<p><strong>The idea (Gert, Culver, Clouser).</strong> Treatment addresses a <em>malady</em> — a condition that involves real harm and has no good external cause. Enhancement acts on a healthy system that has no malady to address.</p>
+<p><strong>Why it collapses.</strong> The list of recognized maladies keeps growing — and often grows to match what the profession (and the market) want to provide. This is <strong>nosological elasticity</strong>: coining new diseases to license new interventions.</p>
+<p>The clearest current example is the next block of slides. ADHD diagnosis rates have moved in lockstep with stimulant prescriptions, which have moved in lockstep with classroom and workplace demand for focus. Each step was inside the disease-based account. The aggregate looks more like enhancement.</p>
+</div>
+<p><span class="citation" data-cites="gert_culver_clouser_2006">(<a href="#ref-gert_culver_clouser_2006" role="doc-biblioref">Gert et al. 2006</a>)</span></p>
+</section>
+<section id="why-the-line-keeps-collapsing" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="why-the-line-keeps-collapsing"><span class="header-section-number">2.7</span> Why the Line Keeps Collapsing</h2>
+<p>Each account does something the other two cannot.</p>
+<ul>
+<li>The professional-domain account is honest about who actually decides. It gives no principled answer.</li>
+<li>The normal-function account is honest about biology. It collapses on prevention.</li>
+<li>The disease-based account is honest about clinical practice. It collapses under medicalization.</li>
+</ul>
+<p>The distinction does not vanish. It just stops being settle-able from the outside. Every concrete case in this lecture — Casgevy, Adderall, He Jiankui, polygenic IQ — runs the same argument again, on different ground.</p>
+<p>That is the lecture’s spine. Watch for it. <span class="citation" data-cites="sep_enhancement">(<a href="#ref-sep_enhancement" role="doc-biblioref">Moseley and Juengst 2025</a>)</span></p>
+</section>
+</section>
+<section id="from-somatic-to-germline" class="level1 section-divider" data-number="3">
+<h1 class="section-divider" data-number="3"><span class="header-section-number">3</span> From Somatic to Germline</h1>
+<section id="somatic-vs.-germline" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="somatic-vs.-germline"><span class="header-section-number">3.1</span> Somatic vs.&nbsp;Germline</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><strong>Somatic changes</strong></p>
+<ul>
+<li>In one tissue, in one person.</li>
+<li>Not in sperm or egg cells.</li>
+<li>Not inherited.</li>
+<li>The change dies with the patient.</li>
+<li>All currently approved gene therapies are somatic.</li>
+</ul>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<p><strong>Germline changes</strong></p>
+<ul>
+<li>In every cell of the resulting person, including reproductive cells.</li>
+<li>Heritable. Passed to children.</li>
+<li>Each descendant inherits it.</li>
+<li>Banned for clinical use in nearly every country.</li>
+<li>The He Jiankui case is the only known human germline edit to date.</li>
+</ul>
+</div>
+</div>
+<p>The same molecular tool can do either. The moral weight is in <em>which cells</em> it touches.</p>
+</section>
+<section id="crispr-cas9-how-it-works" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="crispr-cas9-how-it-works"><span class="header-section-number">3.2</span> CRISPR-Cas9 — How It Works</h2>
+<div class="cell" data-fig-height="2.6" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<svg width="672" height="250" viewbox="0.00 0.00 640.72 44.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
+<title>CRISPR</title>
+<!-- Design a short\nguide RNA -->
+<g id="node1" class="node">
+<title>Design a short\nguide RNA</title>
+<path fill="#f3f4f6" stroke="black" d="M74.89,-36C74.89,-36 12.04,-36 12.04,-36 6.04,-36 0.04,-30 0.04,-24 0.04,-24 0.04,-12 0.04,-12 0.04,-6 6.04,0 12.04,0 12.04,0 74.89,0 74.89,0 80.89,0 86.89,-6 86.89,-12 86.89,-12 86.89,-24 86.89,-24 86.89,-30 80.89,-36 74.89,-36"></path>
+<text text-anchor="middle" x="43.46" y="-21.3" font-family="Helvetica,sans-Serif" font-size="11.00">Design a short</text>
+<text text-anchor="middle" x="43.46" y="-8.1" font-family="Helvetica,sans-Serif" font-size="11.00">guide RNA</text>
+</g>
+<!-- Guide RNA + Cas9\nenter the cell -->
+<g id="node2" class="node">
+<title>Guide RNA + Cas9\nenter the cell</title>
+<path fill="#f3f4f6" stroke="black" d="M220.7,-36C220.7,-36 135,-36 135,-36 129,-36 123,-30 123,-24 123,-24 123,-12 123,-12 123,-6 129,0 135,0 135,0 220.7,0 220.7,0 226.7,0 232.7,-6 232.7,-12 232.7,-12 232.7,-24 232.7,-24 232.7,-30 226.7,-36 220.7,-36"></path>
+<text text-anchor="middle" x="177.85" y="-21.3" font-family="Helvetica,sans-Serif" font-size="11.00">Guide RNA + Cas9</text>
+<text text-anchor="middle" x="177.85" y="-8.1" font-family="Helvetica,sans-Serif" font-size="11.00">enter the cell</text>
+</g>
+<!-- Design a short\nguide RNA&#45;&gt;Guide RNA + Cas9\nenter the cell -->
+<g id="edge1" class="edge">
+<title>Design a short\nguide RNA-&gt;Guide RNA + Cas9\nenter the cell</title>
+<path fill="none" stroke="#6b7280" d="M87.08,-18C95.23,-18 103.93,-18 112.58,-18"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="122.68,-18 112.68,-22.5 117.68,-18 112.68,-18 112.68,-18 112.68,-18 117.68,-18 112.68,-13.5 122.68,-18 122.68,-18"></polygon>
+</g>
+<!-- Guide finds matching\nDNA sequence -->
+<g id="node3" class="node">
+<title>Guide finds matching\nDNA sequence</title>
+<path fill="#f3f4f6" stroke="black" d="M376.28,-36C376.28,-36 280.61,-36 280.61,-36 274.61,-36 268.61,-30 268.61,-24 268.61,-24 268.61,-12 268.61,-12 268.61,-6 274.61,0 280.61,0 280.61,0 376.28,0 376.28,0 382.28,0 388.28,-6 388.28,-12 388.28,-12 388.28,-24 388.28,-24 388.28,-30 382.28,-36 376.28,-36"></path>
+<text text-anchor="middle" x="328.44" y="-21.3" font-family="Helvetica,sans-Serif" font-size="11.00">Guide finds matching</text>
+<text text-anchor="middle" x="328.44" y="-8.1" font-family="Helvetica,sans-Serif" font-size="11.00">DNA sequence</text>
+</g>
+<!-- Guide RNA + Cas9\nenter the cell&#45;&gt;Guide finds matching\nDNA sequence -->
+<g id="edge2" class="edge">
+<title>Guide RNA + Cas9\nenter the cell-&gt;Guide finds matching\nDNA sequence</title>
+<path fill="none" stroke="#6b7280" d="M232.92,-18C241.27,-18 249.98,-18 258.6,-18"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="268.65,-18 258.65,-22.5 263.65,-18 258.65,-18 258.65,-18 258.65,-18 263.65,-18 258.65,-13.5 268.65,-18 268.65,-18"></polygon>
+</g>
+<!-- Cas9 cuts\nthe DNA -->
+<g id="node4" class="node">
+<title>Cas9 cuts\nthe DNA</title>
+<path fill="#f3f4f6" stroke="black" d="M476.97,-36C476.97,-36 436.15,-36 436.15,-36 430.15,-36 424.15,-30 424.15,-24 424.15,-24 424.15,-12 424.15,-12 424.15,-6 430.15,0 436.15,0 436.15,0 476.97,0 476.97,0 482.97,0 488.97,-6 488.97,-12 488.97,-12 488.97,-24 488.97,-24 488.97,-30 482.97,-36 476.97,-36"></path>
+<text text-anchor="middle" x="456.56" y="-21.3" font-family="Helvetica,sans-Serif" font-size="11.00">Cas9 cuts</text>
+<text text-anchor="middle" x="456.56" y="-8.1" font-family="Helvetica,sans-Serif" font-size="11.00">the DNA</text>
+</g>
+<!-- Guide finds matching\nDNA sequence&#45;&gt;Cas9 cuts\nthe DNA -->
+<g id="edge3" class="edge">
+<title>Guide finds matching\nDNA sequence-&gt;Cas9 cuts\nthe DNA</title>
+<path fill="none" stroke="#6b7280" d="M388.44,-18C397.1,-18 405.85,-18 414.06,-18"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="424.1,-18 414.1,-22.5 419.1,-18 414.1,-18 414.1,-18 414.1,-18 419.1,-18 414.1,-13.5 424.1,-18 424.1,-18"></polygon>
+</g>
+<!-- Cell repairs the cut\n(edit takes effect) -->
+<g id="node5" class="node">
+<title>Cell repairs the cut\n(edit takes effect)</title>
+<path fill="#f3f4f6" stroke="black" d="M620.58,-36C620.58,-36 537.16,-36 537.16,-36 531.16,-36 525.16,-30 525.16,-24 525.16,-24 525.16,-12 525.16,-12 525.16,-6 531.16,0 537.16,0 537.16,0 620.58,0 620.58,0 626.58,0 632.58,-6 632.58,-12 632.58,-12 632.58,-24 632.58,-24 632.58,-30 626.58,-36 620.58,-36"></path>
+<text text-anchor="middle" x="578.87" y="-21.3" font-family="Helvetica,sans-Serif" font-size="11.00">Cell repairs the cut</text>
+<text text-anchor="middle" x="578.87" y="-8.1" font-family="Helvetica,sans-Serif" font-size="11.00">(edit takes effect)</text>
+</g>
+<!-- Cas9 cuts\nthe DNA&#45;&gt;Cell repairs the cut\n(edit takes effect) -->
+<g id="edge4" class="edge">
+<title>Cas9 cuts\nthe DNA-&gt;Cell repairs the cut\n(edit takes effect)</title>
+<path fill="none" stroke="#6b7280" d="M489.17,-18C497.16,-18 506.03,-18 514.98,-18"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="525.08,-18 515.08,-22.5 520.08,-18 515.08,-18 515.08,-18 515.08,-18 520.08,-18 515.08,-13.5 525.08,-18 525.08,-18"></polygon>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p><strong>CRISPR-Cas9</strong> is, in plain terms, a programmable find-and-replace for DNA. You design a short guide molecule that matches the sequence you want to change. The guide drags Cas9 (a cutting enzyme) to that spot. Cas9 cuts. The cell tries to repair the cut, and the edit ends up in place.</p>
+<p>Casgevy and the He Jiankui case both use this technology. The difference between them is somatic vs.&nbsp;germline.</p>
+</section>
+<section id="casgevy-fda-december-2023" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="casgevy-fda-december-2023"><span class="header-section-number">3.3</span> Casgevy (FDA December 2023)</h2>
+<p>The first CRISPR-based therapy approved for clinical use in the US treats <strong>sickle-cell disease</strong>, an inherited blood disorder that causes severe pain crises and organ damage.</p>
+<p>The procedure works like this. Doctors harvest the patient’s own stem cells. In the lab, they use CRISPR to switch on a gene that produces a different form of hemoglobin. The edited cells are then reinfused. The patient’s bone marrow makes the new hemoglobin from then on.</p>
+<p>This is a <strong>somatic</strong> edit. It changes the patient. It does not change her future children.</p>
+</section>
+<section id="casgevy-by-the-numbers" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="casgevy-by-the-numbers"><span class="header-section-number">3.4</span> Casgevy by the Numbers</h2>
+<ul>
+<li>Approved by the FDA in December 2023.</li>
+<li>About <strong>100,000 Americans</strong> live with sickle-cell disease. Most are Black.</li>
+<li>The list price is roughly <strong>$2.2 million</strong> per patient.</li>
+<li>Insurance coverage in early 2026 is uneven. Medicaid coverage varies by state.</li>
+<li>The procedure requires weeks of chemotherapy to clear the marrow before the edited cells go back in. Most patients can only be treated at specialized centers.</li>
+</ul>
+<p>The science is a triumph. The access question is a justice question. We will come back to it in the health-care lecture.</p>
+</section>
+<section id="luxturna-and-the-broader-picture" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="luxturna-and-the-broader-picture"><span class="header-section-number">3.5</span> Luxturna and the Broader Picture</h2>
+<p><strong>Luxturna</strong> (FDA 2017) treats an inherited form of blindness caused by a mutation in the <em>RPE65</em> gene. A working copy of the gene is injected directly into the retina. About $425,000 per eye.</p>
+<p>Several other somatic gene therapies are now approved or in late-stage trials — for hemophilia, for spinal muscular atrophy, for some inherited immune disorders.</p>
+<p>All of them are clearly treatment under all three accounts of the line. None of the moral arguments later in this lecture apply to them.</p>
+<p>The hard cases start when the same tools are used in embryos — or in healthy people.</p>
+</section>
+<section id="he-jiankui-briefly" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="he-jiankui-briefly"><span class="header-section-number">3.6</span> He Jiankui — Briefly</h2>
+<div class="context-box">
+<p><strong>What he did.</strong> In November 2018, Chinese scientist <strong>He Jiankui</strong> announced he had used CRISPR to edit the <strong>CCR5</strong> gene in human embryos. He had implanted the embryos. Twin girls — Lulu and Nana — had been born. A third edited child was born shortly after.</p>
+<p>His stated goal was to confer resistance to HIV. The edit was performed without serious clinical justification, with deeply flawed consent, and outside any sanctioned oversight.</p>
+<p>He was sentenced to three years in prison in 2019. He was released in 2022 and has since attempted to return to research. The international scientific consensus against germline editing has held — for now.</p>
+</div>
+<blockquote class="blockquote">
+<p><strong>Paired case:</strong> <a href="../cases/06-he-jiankui.html">He Jiankui’s CRISPR Twins</a> — the full case study, including the consent failures and the scientific community’s response.</p>
+</blockquote>
+</section>
+</section>
+<section id="cognitive-enhancement" class="level1 section-divider" data-number="4">
+<h1 class="section-divider" data-number="4"><span class="header-section-number">4</span> Cognitive Enhancement</h1>
+<section id="off-label-stimulants-in-healthy-adults" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="off-label-stimulants-in-healthy-adults"><span class="header-section-number">4.1</span> Off-Label Stimulants in Healthy Adults</h2>
+<p>The most common form of enhancement actually happening today does not involve embryos or CRISPR. It involves a prescription pad.</p>
+<ul>
+<li>Roughly <strong>1 in 6</strong> US college students reports nonmedical use of stimulants like Adderall.</li>
+<li>Rates are higher in pre-professional programs — nursing, medical, and law students above the average.</li>
+<li><strong>Modafinil</strong>, prescribed for narcolepsy, is now widely used off-label by shift workers, surgical residents, and military personnel.</li>
+<li>Most users get their pills from a friend with a prescription. A growing number get them from telehealth services.</li>
+</ul>
+<p>This is enhancement in plain sight. It is also enhancement that looks a lot like treatment from the outside.</p>
+</section>
+<section id="what-the-drugs-actually-do" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="what-the-drugs-actually-do"><span class="header-section-number">4.2</span> What the Drugs Actually Do</h2>
+<p>The marketing implies a cognitive transformation. The evidence is more modest.</p>
+<ul>
+<li>In <strong>diagnosed ADHD</strong>, stimulants improve attention and reduce disruptive symptoms in a clear, well-replicated way.</li>
+<li>In <strong>healthy adults</strong>, the effects are small. Recent meta-analyses find a modest boost to simple attention tasks and a near-zero effect on complex problem-solving.</li>
+<li>Side effects — insomnia, anxiety, raised heart rate, dependence — are real and dose-dependent.</li>
+<li>The largest effect for healthy users is on <em>perceived</em> productivity. Subjects feel sharper, even when their actual performance does not move much.</li>
+</ul>
+<p>This matters for the ethics. The drugs are not nothing. They are also not what the campus rumor says they are.</p>
+</section>
+<section id="adhd-diagnosis-over-time" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="adhd-diagnosis-over-time"><span class="header-section-number">4.3</span> ADHD Diagnosis Over Time</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Year</th>
+<th>US children diagnosed with ADHD</th>
+<th>Adult stimulant prescriptions</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>1997</strong></td>
+<td>~3%</td>
+<td>uncommon</td>
+</tr>
+<tr class="even">
+<td><strong>2007</strong></td>
+<td>~7%</td>
+<td>rising</td>
+</tr>
+<tr class="odd">
+<td><strong>2016</strong></td>
+<td>~10%</td>
+<td>common in adults</td>
+</tr>
+<tr class="even">
+<td><strong>2022</strong></td>
+<td>~11%</td>
+<td>sharply higher; telehealth-driven</td>
+</tr>
+</tbody>
+</table>
+<p>The diagnosis rate has roughly tripled in twenty-five years. The criteria have broadened in each DSM revision since 1994.</p>
+<p>Some of that increase is real recognition of a real condition. Some of it is the disease-based account collapsing in slow motion: as demand for the drug grew, the criteria for the diagnosis that justifies the drug expanded to match. <strong>Nosological elasticity</strong> in real time.</p>
+</section>
+<section id="thought-question-a-roommates-nclex-request" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="thought-question-a-roommates-nclex-request"><span class="header-section-number">4.4</span> Thought Question — A Roommate’s NCLEX Request</h2>
+<div class="thought-question">
+<p>Your roommate, a healthy nursing student with no ADHD diagnosis, asks to borrow one of your Adderall pills the night before NCLEX. She is anxious. She has heard from upperclassmen that “everyone uses it.” You are prescribed it for a diagnosis you have had since high school.</p>
+<p><strong>Write or discuss.</strong></p>
+<ol type="1">
+<li>Apply the three accounts of the treatment-enhancement line to her request. Which one makes the strongest case for “no”?</li>
+<li>Does the answer change if she says she just wants to <em>try</em> one pill at a normal dose?</li>
+<li>If you would say no to your roommate, would you say no to <em>yourself</em> using the same drug to gain an edge on the same test?</li>
+</ol>
+</div>
+</section>
+<section id="after-youve-discussed-1" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="after-youve-discussed-1"><span class="header-section-number">4.5</span> After You’ve Discussed</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The three accounts give three different reasons for “no” — and they cut at different angles.</p>
+<ul>
+<li><strong>Professional-domain</strong>: prescribing is a professional act. Sharing a prescription with someone undiagnosed is outside that act. The clinical relationship is what makes the use legitimate; outside that relationship, the same pill is something else.</li>
+<li><strong>Normal-function</strong>: the drug pushes attention <em>above</em> the normal range in a healthy user. That is enhancement, not treatment.</li>
+<li><strong>Disease-based</strong>: she has no malady. There is nothing to treat. The pill is acting on a healthy system to give her a competitive edge.</li>
+</ul>
+<p>A fourth angle is equity. If passing NCLEX increasingly requires stimulants, the test starts measuring access to a diagnosis, not nursing knowledge.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="the-non-identity-problem" class="level1 section-divider" data-number="5">
+<h1 class="section-divider" data-number="5"><span class="header-section-number">5</span> The Non-Identity Problem</h1>
+<section id="parfits-14-year-old-girl" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="parfits-14-year-old-girl"><span class="header-section-number">5.1</span> Parfit’s 14-Year-Old Girl</h2>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>The thought experiment</strong></p>
+<p>Imagine a 14-year-old girl who is thinking about having a child. If she has the child now, the child will have a difficult start — limited resources, an inexperienced parent, predictable hardships. If she waits until she is 22, she will be more prepared, more stable, and the child she has <em>then</em> will have a much better life.</p>
+<p>It seems obvious that waiting is the right thing to do.</p>
+<p>But here is the puzzle. The child she would have at 14 is <em>not the same person</em> as the child she would have at 22. Different egg, different sperm, different person. If she waits, the first child never exists. He doesn’t get a better life; he simply does not get a life at all.</p>
+<p>— Derek Parfit, <em>Reasons and Persons</em> (1984)</p>
+</div>
+</div>
+</section>
+<section id="the-puzzle-stated-sharply" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="the-puzzle-stated-sharply"><span class="header-section-number">5.2</span> The Puzzle Stated Sharply</h2>
+<p>So who was <em>wronged</em> by the early pregnancy?</p>
+<ul>
+<li>Not the actual child. His alternative was nonexistence. He is glad to be alive. He has no complaint.</li>
+<li>Not the never-existing child. That child has no complaints, because that child never existed.</li>
+</ul>
+<p>The puzzle is real. We feel a strong intuition that the early pregnancy was wrong. The standard person-affecting reasoning cannot say <em>who</em> was wronged. <span class="citation" data-cites="parfit1984">(<a href="#ref-parfit1984" role="doc-biblioref">Parfit 1984</a>)</span></p>
+<p>This matters everywhere we <em>choose</em> the conditions of someone’s existence — embryo selection, germline editing, even decisions about when to conceive.</p>
+</section>
+<section id="he-jiankuis-twins-through-this-lens" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="he-jiankuis-twins-through-this-lens"><span class="header-section-number">5.3</span> He Jiankui’s Twins Through This Lens</h2>
+<p>Lulu and Nana exist only because their parents took part in He Jiankui’s experiment. A different embryo would have meant a different child — or no child at all.</p>
+<p>So on the simplest reading: the twins were not <em>wronged</em> by being edited. The alternative was that they not exist.</p>
+<p>That cannot be where the analysis ends. Most people share a strong sense that what He did was wrong. The non-identity problem forces us to locate the wrong somewhere other than “harm to the specific child who exists.”</p>
+<p>Two candidate locations show up later in the lecture: a wrong to the <strong>kind of relationship</strong> parents and children should have (Sandel, Habermas), and a wrong to the <strong>future adult</strong> who was set up without consent (Feinberg, Habermas).</p>
+</section>
+</section>
+<section id="the-enhancement-debate" class="level1 section-divider" data-number="6">
+<h1 class="section-divider" data-number="6"><span class="header-section-number">6</span> The Enhancement Debate</h1>
+<section id="the-central-question" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="the-central-question"><span class="header-section-number">6.1</span> The Central Question</h2>
+<p>If safe, accurate gene editing or embryo selection were available — and many forms already are — should parents use them to give their children advantages they would not otherwise have?</p>
+<p>Three serious answers. Each is held by careful philosophers. None is fringe.</p>
+<ul>
+<li><strong>Savulescu</strong>: yes, and parents have a <em>positive duty</em> to do so.</li>
+<li><strong>Sandel</strong>: no, because doing so corrodes something valuable in the parent-child relationship.</li>
+<li><strong>Habermas</strong>: no, because the child cannot consent to being someone else’s project.</li>
+</ul>
+</section>
+<section id="savulescu-procreative-beneficence" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="savulescu-procreative-beneficence"><span class="header-section-number">6.2</span> Savulescu — Procreative Beneficence</h2>
+<div class="context-box">
+<p><strong>The argument.</strong> If you are going to bring a child into existence, you have a moral reason to bring the child <em>with the best expected life</em>. The reasoning is straightforward consequentialism: more well-being is better than less well-being, all else equal.</p>
+<p>The argument applies the same way to disease risk and to traits. If a parent should pick the embryo less likely to develop cancer, the parent should also pick the embryo more likely to be tall, intelligent, or cheerful — to the extent those traits track well-being.</p>
+<p>Savulescu calls this <strong>procreative beneficence</strong>. It is the most permissive position in the contemporary literature.</p>
+</div>
+<p><span class="citation" data-cites="savulescu2001_procreative">(<a href="#ref-savulescu2001_procreative" role="doc-biblioref">Savulescu 2001</a>)</span></p>
+</section>
+<section id="sandel-verbatim" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="sandel-verbatim"><span class="header-section-number">6.3</span> Sandel — Verbatim</h2>
+<div class="quote-card">
+<p>“To appreciate children as gifts is to accept them as they come, not as objects of our design, or products of our will, or instruments of our ambition. Parental love is not contingent on the talents and attributes the child happens to have.”</p>
+<p>— Michael Sandel, <em>The Case Against Perfection: Ethics in the Age of Genetic Engineering</em> (2007), p.&nbsp;45.</p>
+</div>
+<p><span class="citation" data-cites="sandel2007_perfection">(<a href="#ref-sandel2007_perfection" role="doc-biblioref">Sandel 2007</a>)</span></p>
+</section>
+<section id="sandels-giftedness-argument" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="sandels-giftedness-argument"><span class="header-section-number">6.4</span> Sandel’s Giftedness Argument</h2>
+<p>The argument is not that enhancement makes children worse off. It often does not. The argument is about what enhancement does to the <em>parent</em> and to the <em>practice</em> of parenting.</p>
+<ul>
+<li>A parent who accepts the child as a gift can love the child unconditionally. Effort goes into the child’s flourishing on the child’s own terms.</li>
+<li>A parent who designs the child treats the child as a project. Love starts to track <em>how well the project is going</em>.</li>
+<li>Beyond the family, a society of designed children loses what Sandel calls <strong>solidarity</strong> — the sense that we are all subject to the same lottery and owe each other something for it.</li>
+</ul>
+<p>The argument is not against medicine. It is against the idea that parenting is a manufacturing problem.</p>
+</section>
+<section id="habermas-making-vs.-growing" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="habermas-making-vs.-growing"><span class="header-section-number">6.5</span> Habermas — Making vs.&nbsp;Growing</h2>
+<p>For Habermas, the wrong of enhancement is not in the child’s outcomes. It is in the <em>kind of being</em> a designed child is.</p>
+<ul>
+<li>A child who <em>grew</em> — under nature’s contingency — can come to understand her life as her own. The traits she has are not someone else’s choice.</li>
+<li>A child who was <em>made</em> — selected or edited toward a specific design — is, in a real sense, the project of her parents’ lives. She cannot retroactively consent to that. She cannot un-design herself.</li>
+</ul>
+<p>This is not a religious argument. It is an argument about the structure of autonomy. The future adult is owed a life that is <em>hers</em>, not an extension of someone else’s plan.</p>
+<p>The He Jiankui twins are the sharpest test case. They exist only because of the edit. They were also, in Habermas’s terms, <em>made</em> in a way no child should be. <span class="citation" data-cites="habermas2003_future">(<a href="#ref-habermas2003_future" role="doc-biblioref">Habermas 2003</a>)</span></p>
+</section>
+<section id="three-positions-at-a-glance" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="three-positions-at-a-glance"><span class="header-section-number">6.6</span> Three Positions at a Glance</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Savulescu</strong></th>
+<th><strong>Sandel</strong></th>
+<th><strong>Habermas</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Enhancement is</strong></td>
+<td>A duty, where it improves the child’s life</td>
+<td>A corrosion of the parent-child relationship</td>
+<td>A wrong to the future autonomous adult</td>
+</tr>
+<tr class="even">
+<td><strong>What’s lost without it</strong></td>
+<td>Well-being the child could have had</td>
+<td>Nothing — the giftedness is the point</td>
+<td>Nothing — the autonomy is the point</td>
+</tr>
+<tr class="odd">
+<td><strong>What’s lost with it</strong></td>
+<td>Nothing intrinsic; only access concerns</td>
+<td>Unconditional love; social solidarity</td>
+<td>The child’s authorship of her own life</td>
+</tr>
+<tr class="even">
+<td><strong>Polygenic IQ scoring is</strong></td>
+<td>Permissible; perhaps obligatory if affordable</td>
+<td>The textbook example of the drive to mastery</td>
+<td>The clearest case of <em>making</em> a person</td>
+</tr>
+</tbody>
+</table>
+<p>All three can agree that Casgevy is fine. They split sharply on embryo selection.</p>
+</section>
+</section>
+<section id="feinbergs-open-future-applied-to-the-body" class="level1 section-divider" data-number="7">
+<h1 class="section-divider" data-number="7"><span class="header-section-number">7</span> Feinberg’s Open Future, Applied to the Body</h1>
+<section id="open-future-now-for-the-body" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="open-future-now-for-the-body"><span class="header-section-number">7.1</span> Open Future, Now for the Body</h2>
+<p>Part A used Feinberg’s argument about a child’s right to an <strong>open future</strong> for the case of genetic <em>information</em> — testing a healthy child for an adult-onset disease.</p>
+<p>Part B applies the same principle to genetic <em>engineering</em>. The principle is the same: do not foreclose, in advance, choices the future adult should be free to make on her own.</p>
+<ul>
+<li>The <em>informational</em> version says: don’t tell the eight-year-old about her BRCA risk before she can decide whether she wants to know.</li>
+<li>The <em>engineering</em> version says: don’t <em>build</em> the eight-year-old toward a specific future before she can decide what kind of future she wants.</li>
+</ul>
+<p>The argument is consistent with letting the same person, at 25, walk into a clinic and choose. <span class="citation" data-cites="feinberg1980_open_future">(<a href="#ref-feinberg1980_open_future" role="doc-biblioref">Feinberg 1980</a>)</span></p>
+</section>
+<section id="the-future-person-who-never-consented" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="the-future-person-who-never-consented"><span class="header-section-number">7.2</span> The Future Person Who Never Consented</h2>
+<p>Habermas and Feinberg meet at the He Jiankui twins.</p>
+<ul>
+<li>Habermas: they were <em>made</em>, in a way that makes their lives the project of someone else’s plan.</li>
+<li>Feinberg: a future they might have chosen for themselves was foreclosed in the embryo dish.</li>
+<li>Non-identity problem: they cannot complain that they were harmed, because the alternative was nonexistence.</li>
+</ul>
+<p>The wrong, then, is not to the twins-vs-no-twins comparison. It is to the <em>kind of relationship</em> He Jiankui’s experiment set up between him, the parents, and two future adults who could never have agreed to be designed this way.</p>
+<p>That is the cleanest formulation in the literature. It is also why germline editing remains banned in clinical use almost everywhere.</p>
+</section>
+</section>
+<section id="polygenic-embryo-selection" class="level1 section-divider" data-number="8">
+<h1 class="section-divider" data-number="8"><span class="header-section-number">8</span> Polygenic Embryo Selection</h1>
+<section id="what-polygenic-embryo-selection-is" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="what-polygenic-embryo-selection-is"><span class="header-section-number">8.1</span> What Polygenic Embryo Selection Is</h2>
+<div class="cell" data-fig-height="2.6" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<svg width="672" height="250" viewbox="0.00 0.00 806.15 44.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 40)">
+<title>PGTPRS</title>
+<!-- IVF\n(6–10 embryos) -->
+<g id="node1" class="node">
+<title>IVF\n(6–10 embryos)</title>
+<path fill="#f3f4f6" stroke="black" d="M84.12,-36C84.12,-36 11.96,-36 11.96,-36 5.96,-36 -0.04,-30 -0.04,-24 -0.04,-24 -0.04,-12 -0.04,-12 -0.04,-6 5.96,0 11.96,0 11.96,0 84.12,0 84.12,0 90.12,0 96.12,-6 96.12,-12 96.12,-12 96.12,-24 96.12,-24 96.12,-30 90.12,-36 84.12,-36"></path>
+<text text-anchor="middle" x="48.04" y="-21.3" font-family="Helvetica,sans-Serif" font-size="11.00">IVF</text>
+<text text-anchor="middle" x="48.04" y="-8.1" font-family="Helvetica,sans-Serif" font-size="11.00">(6–10 embryos)</text>
+</g>
+<!-- Biopsy a few cells\nfrom each embryo -->
+<g id="node2" class="node">
+<title>Biopsy a few cells\nfrom each embryo</title>
+<path fill="#f3f4f6" stroke="black" d="M224.55,-36C224.55,-36 144.26,-36 144.26,-36 138.26,-36 132.26,-30 132.26,-24 132.26,-24 132.26,-12 132.26,-12 132.26,-6 138.26,0 144.26,0 144.26,0 224.55,0 224.55,0 230.55,0 236.55,-6 236.55,-12 236.55,-12 236.55,-24 236.55,-24 236.55,-30 230.55,-36 224.55,-36"></path>
+<text text-anchor="middle" x="184.41" y="-21.3" font-family="Helvetica,sans-Serif" font-size="11.00">Biopsy a few cells</text>
+<text text-anchor="middle" x="184.41" y="-8.1" font-family="Helvetica,sans-Serif" font-size="11.00">from each embryo</text>
+</g>
+<!-- IVF\n(6–10 embryos)&#45;&gt;Biopsy a few cells\nfrom each embryo -->
+<g id="edge1" class="edge">
+<title>IVF\n(6–10 embryos)-&gt;Biopsy a few cells\nfrom each embryo</title>
+<path fill="none" stroke="#6b7280" d="M96.41,-18C104.58,-18 113.17,-18 121.65,-18"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="131.9,-18 121.9,-22.5 126.9,-18 121.9,-18 121.9,-18 121.9,-18 126.9,-18 121.89,-13.5 131.9,-18 131.9,-18"></polygon>
+</g>
+<!-- Sequence the DNA -->
+<g id="node3" class="node">
+<title>Sequence the DNA</title>
+<path fill="#f3f4f6" stroke="black" d="M370.98,-36C370.98,-36 284.64,-36 284.64,-36 278.64,-36 272.64,-30 272.64,-24 272.64,-24 272.64,-12 272.64,-12 272.64,-6 278.64,0 284.64,0 284.64,0 370.98,0 370.98,0 376.98,0 382.98,-6 382.98,-12 382.98,-12 382.98,-24 382.98,-24 382.98,-30 376.98,-36 370.98,-36"></path>
+<text text-anchor="middle" x="327.81" y="-14.7" font-family="Helvetica,sans-Serif" font-size="11.00">Sequence the DNA</text>
+</g>
+<!-- Biopsy a few cells\nfrom each embryo&#45;&gt;Sequence the DNA -->
+<g id="edge2" class="edge">
+<title>Biopsy a few cells\nfrom each embryo-&gt;Sequence the DNA</title>
+<path fill="none" stroke="#6b7280" d="M236.86,-18C245.05,-18 253.62,-18 262.08,-18"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="272.3,-18 262.3,-22.5 267.3,-18 262.3,-18 262.3,-18 262.3,-18 267.3,-18 262.3,-13.5 272.3,-18 272.3,-18"></polygon>
+</g>
+<!-- Calculate polygenic\nrisk scores -->
+<g id="node4" class="node">
+<title>Calculate polygenic\nrisk scores</title>
+<path fill="#f3f4f6" stroke="black" d="M518.49,-36C518.49,-36 430.7,-36 430.7,-36 424.7,-36 418.7,-30 418.7,-24 418.7,-24 418.7,-12 418.7,-12 418.7,-6 424.7,0 430.7,0 430.7,0 518.49,0 518.49,0 524.49,0 530.49,-6 530.49,-12 530.49,-12 530.49,-24 530.49,-24 530.49,-30 524.49,-36 518.49,-36"></path>
+<text text-anchor="middle" x="474.59" y="-21.3" font-family="Helvetica,sans-Serif" font-size="11.00">Calculate polygenic</text>
+<text text-anchor="middle" x="474.59" y="-8.1" font-family="Helvetica,sans-Serif" font-size="11.00">risk scores</text>
+</g>
+<!-- Sequence the DNA&#45;&gt;Calculate polygenic\nrisk scores -->
+<g id="edge3" class="edge">
+<title>Sequence the DNA-&gt;Calculate polygenic\nrisk scores</title>
+<path fill="none" stroke="#6b7280" d="M383.14,-18C391.35,-18 399.9,-18 408.31,-18"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="418.48,-18 408.48,-22.5 413.48,-18 408.48,-18 408.48,-18 408.48,-18 413.48,-18 408.48,-13.5 418.48,-18 418.48,-18"></polygon>
+</g>
+<!-- Rank embryos -->
+<g id="node5" class="node">
+<title>Rank embryos</title>
+<path fill="#f3f4f6" stroke="black" d="M641.16,-36C641.16,-36 578.33,-36 578.33,-36 572.33,-36 566.33,-30 566.33,-24 566.33,-24 566.33,-12 566.33,-12 566.33,-6 572.33,0 578.33,0 578.33,0 641.16,0 641.16,0 647.16,0 653.16,-6 653.16,-12 653.16,-12 653.16,-24 653.16,-24 653.16,-30 647.16,-36 641.16,-36"></path>
+<text text-anchor="middle" x="609.75" y="-14.7" font-family="Helvetica,sans-Serif" font-size="11.00">Rank embryos</text>
+</g>
+<!-- Calculate polygenic\nrisk scores&#45;&gt;Rank embryos -->
+<g id="edge4" class="edge">
+<title>Calculate polygenic\nrisk scores-&gt;Rank embryos</title>
+<path fill="none" stroke="#6b7280" d="M530.52,-18C538.98,-18 547.69,-18 556.09,-18"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="566.15,-18 556.15,-22.5 561.15,-18 556.15,-18 556.15,-18 556.15,-18 561.15,-18 556.15,-13.5 566.15,-18 566.15,-18"></polygon>
+</g>
+<!-- Implant the chosen\nembryo -->
+<g id="node6" class="node">
+<title>Implant the chosen\nembryo</title>
+<path fill="#f3f4f6" stroke="black" d="M786.12,-36C786.12,-36 701.23,-36 701.23,-36 695.23,-36 689.23,-30 689.23,-24 689.23,-24 689.23,-12 689.23,-12 689.23,-6 695.23,0 701.23,0 701.23,0 786.12,0 786.12,0 792.12,0 798.12,-6 798.12,-12 798.12,-12 798.12,-24 798.12,-24 798.12,-30 792.12,-36 786.12,-36"></path>
+<text text-anchor="middle" x="743.68" y="-21.3" font-family="Helvetica,sans-Serif" font-size="11.00">Implant the chosen</text>
+<text text-anchor="middle" x="743.68" y="-8.1" font-family="Helvetica,sans-Serif" font-size="11.00">embryo</text>
+</g>
+<!-- Rank embryos&#45;&gt;Implant the chosen\nembryo -->
+<g id="edge5" class="edge">
+<title>Rank embryos-&gt;Implant the chosen\nembryo</title>
+<path fill="none" stroke="#6b7280" d="M653.22,-18C661.45,-18 670.24,-18 678.97,-18"></path>
+<polygon fill="#6b7280" stroke="#6b7280" points="689.17,-18 679.17,-22.5 684.17,-18 679.17,-18 679.17,-18 679.17,-18 684.17,-18 679.17,-13.5 689.17,-18 689.17,-18"></polygon>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>No editing. No CRISPR. Just selection.</p>
+<p>The clinic creates embryos through IVF, tests each one, calculates a polygenic risk score for whatever traits the parents are paying to assess, and lets the parents choose which embryo to implant.</p>
+<p>The technology has been used to screen out single-gene diseases (Tay-Sachs, cystic fibrosis) for decades. What is new is selecting on <em>risk of common disease</em> — and on traits like height or predicted IQ.</p>
+</section>
+<section id="from-disease-screening-to-trait-selection" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="from-disease-screening-to-trait-selection"><span class="header-section-number">8.2</span> From Disease Screening to Trait Selection</h2>
+<p>The standard preimplantation test screens for things almost no one wants — a fatal childhood disease, a chromosomal abnormality. The new market screens for things that look more like preferences.</p>
+<ul>
+<li>Risk of adult heart disease.</li>
+<li>Risk of type 2 diabetes.</li>
+<li>Predicted height.</li>
+<li>Predicted educational attainment.</li>
+<li>Predicted IQ.</li>
+</ul>
+<p>Each step looks like a small extension of the last. The aggregate has crossed a line the field used to police more carefully. There is no US federal law against it.</p>
+</section>
+<section id="orchid-health-and-heliospect" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="orchid-health-and-heliospect"><span class="header-section-number">8.3</span> Orchid Health and Heliospect</h2>
+<p>Two US companies are the live edge of the field.</p>
+<ul>
+<li><strong>Orchid Health</strong> (San Francisco) offers what it calls “whole-genome embryo screening” — sequencing every embryo and reporting risk scores across hundreds of conditions, including some adult-onset ones. Prices range from a few thousand dollars per embryo upward.</li>
+<li><strong>Heliospect Genomics</strong> offers polygenic embryo selection that explicitly includes scoring for <strong>IQ</strong>. Reporting by <em>The Guardian</em> in 2024 documented the service in detail.</li>
+</ul>
+<p>Both operate legally in the US. The market is small but growing. Neither product is available in most European countries.</p>
+</section>
+<section id="how-accurate-is-a-polygenic-iq-score" class="level2" data-number="8.4">
+<h2 data-number="8.4" class="anchored" data-anchor-id="how-accurate-is-a-polygenic-iq-score"><span class="header-section-number">8.4</span> How Accurate Is a Polygenic IQ Score?</h2>
+<p>The marketing implies precision. The science is humbler.</p>
+<ul>
+<li>Current polygenic scores for IQ explain about <strong>10–15%</strong> of the variance in intelligence-test performance. The rest is environment, gene-environment interaction, and noise.</li>
+<li>For a couple selecting among 6–10 sibling embryos, the expected IQ gain from picking the top-ranked one is roughly <strong>2–4 points</strong>. Within the noise of the test itself.</li>
+<li>Predictions work best in the population the score was trained on — overwhelmingly people of European ancestry, as Part A noted.</li>
+<li>Almost everything that makes a person’s life go well — temperament, motivation, the household they grow up in — is <em>not</em> in the score.</li>
+</ul>
+<p>The product on offer is not a designer baby. It is a small statistical nudge sold with the language of choice.</p>
+</section>
+<section id="thought-question-iq-at-50000" class="level2" data-number="8.5">
+<h2 data-number="8.5" class="anchored" data-anchor-id="thought-question-iq-at-50000"><span class="header-section-number">8.5</span> Thought Question — IQ at $50,000</h2>
+<div class="thought-question">
+<p>You and your partner can afford the $50,000 selection package. The clinic shows you six embryos ranked by predicted IQ. The top embryo is 2.3 points higher than the bottom one. The clinic counselor says “most of our families choose the top.”</p>
+<p><strong>Write or discuss.</strong></p>
+<ol type="1">
+<li>Do you select on IQ? Why or why not?</li>
+<li>Suppose the service became free tomorrow. Does your answer change?</li>
+<li>Suppose the gap were 10 points instead of 2.3. Does your answer change?</li>
+<li>If you would not select for IQ, would you select for low risk of type 2 diabetes? What is different about the two choices?</li>
+</ol>
+</div>
+</section>
+<section id="after-youve-discussed-2" class="level2" data-number="8.6">
+<h2 data-number="8.6" class="anchored" data-anchor-id="after-youve-discussed-2"><span class="header-section-number">8.6</span> After You’ve Discussed</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A few distinctions worth carrying away.</p>
+<ul>
+<li><strong>What is actually selected.</strong> The “best” embryo is best only in <em>expectation</em>, and the expectation is small. The choice is a probability bet, not a guarantee.</li>
+<li><strong>What is left out.</strong> Most of what shapes a child’s life is environment and chance — neither of which is in the score. Selection promises agency over a slice of the outcome and quiet about the rest.</li>
+<li><strong>Where the three positions land.</strong> Savulescu says select. Sandel says you have just defined the parent-child relationship in terms of a 2-point statistical edge. Habermas says you have committed a future adult to a project she cannot un-author.</li>
+<li><strong>Equity.</strong> The service is currently sold at price points that exclude most American families. If it works at all, it works to widen advantage that money already buys.</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<section id="wrap" class="level1 section-divider" data-number="9">
+<h1 class="section-divider" data-number="9"><span class="header-section-number">9</span> Wrap</h1>
+<section id="scoreboard-the-treatment-enhancement-collapse" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="scoreboard-the-treatment-enhancement-collapse"><span class="header-section-number">9.1</span> Scoreboard — The Treatment-Enhancement Collapse</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Where it shows up</th>
+<th>Looks like treatment because</th>
+<th>Looks like enhancement because</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Casgevy for sickle cell</strong></td>
+<td>Treats a clear malady; restores normal hemoglobin</td>
+<td>Permanent edit; price puts it out of reach for most patients</td>
+</tr>
+<tr class="even">
+<td><strong>Adderall off-label</strong></td>
+<td>Same molecule as the prescription drug</td>
+<td>Acts on a healthy brain; gives a competitive edge</td>
+</tr>
+<tr class="odd">
+<td><strong>He Jiankui’s CCR5 edit</strong></td>
+<td>Framed as HIV prevention</td>
+<td>Healthy embryos; no clear medical need; heritable</td>
+</tr>
+<tr class="even">
+<td><strong>Polygenic disease screening</strong></td>
+<td>Selects against future illness</td>
+<td>Treats embryos as products to be ranked</td>
+</tr>
+<tr class="odd">
+<td><strong>Polygenic IQ selection</strong></td>
+<td>Sold as “best chance for your child”</td>
+<td>No malady; pure trait selection</td>
+</tr>
+<tr class="even">
+<td><strong>Future germline editing</strong></td>
+<td>Could prevent inherited disease</td>
+<td>Could redesign human capacities</td>
+</tr>
+</tbody>
+</table>
+<p>Six cases. One unstable line. That is what the lecture has been arguing.</p>
+</section>
+<section id="review-questions" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="review-questions"><span class="header-section-number">9.2</span> Review Questions</h2>
+<p>Write a brief answer to each, or use them as discussion prompts.</p>
+<div class="review-questions">
+<div class="review-item review-recall">
+<p><span class="review-label">Recall</span></p>
+<p>State the three accounts of the treatment-enhancement distinction in your own words. For each, name one concrete example where it gives an unhelpful answer.</p>
+</div>
+<div class="review-item review-apply">
+<p><span class="review-label">Apply</span></p>
+<p>A 28-year-old patient with sickle-cell disease asks you about Casgevy. She is insured through Medicaid in a state where coverage is uncertain. What three things do you tell her about the treatment itself, and what is the one ethical issue you cannot resolve at the bedside?</p>
+</div>
+<div class="review-item review-debate">
+<p><span class="review-label">Debate</span></p>
+<p>A US state legislature is considering a bill that would ban polygenic embryo selection for non-disease traits in fertility clinics. Take a position. Identify the strongest argument against your position and respond to it.</p>
+</div>
+</div>
+</section>
+<section id="key-terms" class="level2" data-number="9.3">
+<h2 data-number="9.3" class="anchored" data-anchor-id="key-terms"><span class="header-section-number">9.3</span> Key Terms</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<ul>
+<li><span class="key-term">Treatment vs.&nbsp;enhancement</span></li>
+<li><span class="key-term">Normal-function account</span></li>
+<li><span class="key-term">Nosological elasticity</span></li>
+<li><span class="key-term">Somatic vs.&nbsp;germline</span></li>
+<li><span class="key-term">CRISPR-Cas9</span></li>
+</ul>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<ul>
+<li><span class="key-term">Procreative beneficence</span></li>
+<li><span class="key-term">Giftedness (Sandel)</span></li>
+<li><span class="key-term">Making vs.&nbsp;growing (Habermas)</span></li>
+<li><span class="key-term">Non-identity problem</span></li>
+<li><span class="key-term">Polygenic embryo selection</span></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="further-reading" class="level2" data-number="9.4">
+<h2 data-number="9.4" class="anchored" data-anchor-id="further-reading"><span class="header-section-number">9.4</span> Further Reading</h2>
+<ul>
+<li>Michael Sandel, <em>The Case Against Perfection: Ethics in the Age of Genetic Engineering</em> (Harvard, 2007).</li>
+<li>Jürgen Habermas, <em>The Future of Human Nature</em> (Polity, 2003).</li>
+<li>Daniel Moseley and Eric Juengst, “Human Enhancement,” <em>Stanford Encyclopedia of Philosophy</em> (Winter 2025).</li>
+<li>Julian Savulescu, “Procreative Beneficence: Why We Should Select the Best Children,” <em>Bioethics</em> 15 (2001).</li>
+<li>James Tabery, <em>Tyranny of the Gene</em> (Knopf, 2023).</li>
+</ul>
+</section>
+<section id="references" class="level2" data-number="9.5">
+<h2 data-number="9.5" class="anchored" data-anchor-id="references"><span class="header-section-number">9.5</span> References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-boorse1977" class="csl-entry" role="listitem">
+Boorse, Christopher. 1977. <span>“Health as a Theoretical Concept.”</span> <em>Philosophy of Science</em> 44 (4): 542–73. <a href="https://doi.org/10.1086/288768">https://doi.org/10.1086/288768</a>.
+</div>
+<div id="ref-feinberg1980_open_future" class="csl-entry" role="listitem">
+Feinberg, Joel. 1980. <span>“The Child’s Right to an Open Future.”</span> In <em>Whose Child? Children’s Rights, Parental Authority, and State Power</em>, edited by William Aiken and Hugh LaFollette. Littlefield, Adams.
+</div>
+<div id="ref-gert_culver_clouser_2006" class="csl-entry" role="listitem">
+Gert, Bernard, Charles M. Culver, and K. Danner Clouser. 2006. <em>Bioethics: A Systematic Approach</em>. 2nd ed. Oxford University Press.
+</div>
+<div id="ref-habermas2003_future" class="csl-entry" role="listitem">
+Habermas, Jürgen. 2003. <em>The Future of Human Nature</em>. Polity Press.
+</div>
+<div id="ref-sep_enhancement" class="csl-entry" role="listitem">
+Moseley, Daniel, and Eric Juengst. 2025. <em>Human Enhancement</em>. The Stanford Encyclopedia of Philosophy (Winter 2025 Edition), Edward N. Zalta and Uri Nodelman (eds.). <a href="https://plato.stanford.edu/archives/win2025/entries/enhancement/">https://plato.stanford.edu/archives/win2025/entries/enhancement/</a>.
+</div>
+<div id="ref-parfit1984" class="csl-entry" role="listitem">
+Parfit, Derek. 1984. <em>Reasons and Persons</em>. Oxford University Press.
+</div>
+<div id="ref-sandel2007_perfection" class="csl-entry" role="listitem">
+Sandel, Michael J. 2007. <em>The Case Against Perfection: Ethics in the Age of Genetic Engineering</em>. Belknap Press of Harvard University Press.
+</div>
+<div id="ref-savulescu2001_procreative" class="csl-entry" role="listitem">
+Savulescu, Julian. 2001. <span>“Procreative Beneficence: Why We Should Select the Best Children.”</span> <em>Bioethics</em> 15 (5–6): 413–26. <a href="https://doi.org/10.1111/1467-8519.00251">https://doi.org/10.1111/1467-8519.00251</a>.
+</div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><a href="https://creativecommons.org/licenses/by-nc/4.0/"><img src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" class="img-fluid" alt="CC BY-NC 4.0"></a> Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Brendan Shea</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

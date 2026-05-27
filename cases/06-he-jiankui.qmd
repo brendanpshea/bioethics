@@ -1,0 +1,163 @@
+---
+title: "He Jiankui and the CRISPR Twins: Germline Editing, Consent, and the Limits of Scientific Self-Regulation"
+subtitle: "'Lulu and Nana' — a bioethics case study"
+author: "Brendan Shea, PhD"
+date: last-modified
+---
+
+::: {.case-at-a-glance}
+- **Who:** He Jiankui (b. 1984), a Chinese biophysicist; "Lulu" and "Nana," twin girls he claimed to have edited as embryos; a third child, sometimes called "Amy," born in 2019.
+- **What:** He used CRISPR-Cas9 to disable the *CCR5* gene in human embryos and implanted them, producing the first known live births of gene-edited babies.
+- **Where / When:** Shenzhen, China. The experiment ran from 2017 to 2018. He revealed it on November 25, 2018, twenty-four hours before the Second International Summit on Human Gene Editing opened in Hong Kong. He was sentenced to three years in prison in December 2019 and released in 2022.
+- **Why it matters:** This is the first known clinical use of human [germline editing]{.key-term} — changes to DNA that pass to every cell of the resulting person and to their descendants. The case is a study in what a careful, decade-long international [near-consensus]{.key-term} can and cannot do when one ambitious actor decides not to wait.
+- **Pair with:** Genomics & Enhancement
+:::
+
+## The Case
+
+The world found out on a Sunday night. On November 25, 2018, the technology reporter Antonio Regalado published an article in *MIT Technology Review* describing a Chinese clinical trial that was, the title said, "creating CRISPR babies." Within hours the Associated Press confirmed the story: a researcher named He Jiankui had used gene editing on human embryos, implanted them, and a pair of twin girls — he called them Lulu and Nana — had been born about a month earlier. He posted five short YouTube videos the same night. In one of them, against a clean white wall, he explained calmly that he had "edited a gene" to give two healthy newborn girls "the ability to resist HIV" [@greely2019_he_jiankui].
+
+The Second International Summit on Human Gene Editing was scheduled to open in Hong Kong the next morning. He was on the program. He had not told the organizers what he was about to say.
+
+::: {.context-box}
+**Some vocabulary the story turns on.** [CRISPR-Cas9]{.key-term} is a programmable tool that scientists use to cut DNA at a chosen spot. A short guide molecule finds the target sequence; the Cas9 enzyme makes the cut; the cell repairs the cut, and the edit takes effect.
+
+A change made to one tissue in one person — say, to a patient's bone marrow — is a [somatic edit]{.key-term}. It is not inherited. A change made to an early embryo (or to sperm or egg cells) is a [germline edit]{.key-term}. It ends up in every cell of the resulting person, including her own eggs or sperm, and so passes to her children, her grandchildren, and onward.
+
+Somatic editing is now standard medicine. The FDA approved the first somatic CRISPR therapy, **Casgevy** for sickle-cell disease, in December 2023. Germline editing in human embryos meant for live birth has been banned for clinical use in nearly every country with the relevant law. The He experiment is the only known exception.
+:::
+
+He Jiankui was 34. He had a physics doctorate from Rice University and a postdoctoral fellowship at Stanford with Stephen Quake, where he had worked on DNA sequencing technology. In 2012 he had returned to China under the Thousand Talents recruitment program and joined the new Southern University of Science and Technology in Shenzhen. He started a sequencing company, Direct Genomics, in 2012, with the Nobel laureate Craig Mello on its scientific advisory board. By 2017 he had decided to do something his sequencing background did not qualify him for. He would use CRISPR to make HIV-resistant children.
+
+His recruitment plan ran through an AIDS support organization in Beijing called Baihualin. Eight Chinese couples agreed to take part. In every case the father was HIV-positive and the mother was not. He paid each couple about 280,000 yuan, roughly $40,000, to cover the procedures. The consent form they signed was twenty-three pages long. Its first sentence described what they were joining as "an AIDS vaccine development project." It said the goal was to help produce "HIV-resistant infants" [@greely2019_he_jiankui]. The form spent more pages on the financial liabilities that would attach if the parents talked to anyone about the project than it spent on what gene editing actually is.
+
+He's target was the **CCR5** gene, which encodes a protein on the surface of certain immune cells. Most strains of HIV use the CCR5 protein as the door through which they enter the cell. About 1% of people of European ancestry are born with two copies of a natural variant of the gene called CCR5Δ32, in which a 32-letter stretch is deleted. People with two copies of CCR5Δ32 are largely resistant to those strains of HIV. He's plan was to use CRISPR to make a similar deletion in human embryos.
+
+::: {.context-box}
+**The medical problem was already solved.** Couples in which one partner is HIV-positive and the other is not have safely had biological children for years. The standard methods are sperm washing followed by intrauterine insemination or IVF, with antiretroviral therapy for the positive parent. Transmission rates are effectively zero. There was no medical need for any of these eight couples to have their embryos edited [@greely2019_he_jiankui].
+
+The risks were real. CRISPR can cut DNA at unintended sites — called [off-target effects]{.key-term} — with unknown consequences. Edits in a single-cell embryo can fail to copy to every later cell, producing a [mosaic]{.key-term} child whose tissues carry different edits. And the protein He was disabling does many things besides serve as a doorway for HIV; CCR5 plays roles in cognition, in resistance to West Nile virus, and possibly in lifespan. The edits would be present in the children's eggs, and pass to any children they had.
+:::
+
+Five of the eight women became pregnant. One miscarried. One withdrew. One carried twins to term. The twins — He called them Lulu and Nana, and the names were almost certainly pseudonyms — were born by emergency C-section in October 2018, premature but healthy. He paid the medical costs and arranged for the family to disappear from public view. The DNA tests he ran on the babies before implantation showed that he had not actually reproduced the natural CCR5Δ32 deletion. He had produced novel variants, with effects no one had ever studied, in two living children. He implanted the embryos anyway.
+
+He flew to Hong Kong on November 26 and walked onto the Summit stage on November 28. The room had spent the previous twenty-four hours absorbing Regalado's article. He was visibly calm. He apologized for not telling the organizers in advance. He said he was proud of what he had done. He said the parents were "well-educated." He took questions and answered most of them with confidence that surprised his critics more than his content did.
+
+By that evening the Chinese vice-minister of science and technology had announced an investigation. Within a week, 122 Chinese scientists had signed an open letter calling He's experiment "madness." His university said it knew nothing about the work. The hospital ethics committee whose approval He had cited said its signatures had been forged. He was placed under what looked like loose detention at his apartment in Shenzhen for most of 2019.
+
+A second woman in the trial had been pregnant when He spoke in Hong Kong. She gave birth, also in secret, in 2019. That third child — sometimes called Amy in the limited reporting since — appears to be alive and healthy. Almost nothing else about her, Lulu, or Nana has been disclosed.
+
+In December 2019 a Chinese court convicted He of "illegal medical practice" and sentenced him to three years in prison and a three-million-yuan fine. Two collaborators received shorter terms. He was banned for life from human reproductive research. He served his sentence and was released in 2022. He has since opened a small lab in Beijing, given interviews defending the original experiment, and announced plans for "rare disease" gene therapy work [@cyranoski2020_crispr_prison]. The international consensus against clinical germline editing has held for now. The question is what, exactly, the consensus is *for*.
+
+## The Argument He Started
+
+He's experiment broke no clear American law, because it was not done in America. It broke Chinese laws ambiguously enough that a court had to reach for "illegal medical practice." What it broke unambiguously was a long, careful, near-unanimous statement from the world's leading scientific bodies that this exact step should not yet be taken. The argument the case started is not just about He. It is about what scientific self-regulation can do when one person decides not to listen.
+
+### His Defense
+
+In Hong Kong, He defended what he had done as a serious response to a serious disease. The argument he made, paraphrased, ran something like this.
+
+::: {.argument}
+**He Jiankui's Defense**
+
+1. HIV is a serious disease, especially in families where one parent is already infected.
+2. CRISPR editing of *CCR5* can confer resistance to the strains of HIV that use that protein.
+3. The parents understood the procedure and consented to it.
+4. Therefore, this experiment was an ethically acceptable use of gene editing.
+:::
+
+Premise 2 is where the defense falls. The edits He actually made were not the natural CCR5Δ32 variant. They were novel deletions and substitutions, never studied in any organism, with unknown effects on immune function and brain development. He knew this before he implanted the embryos. Lulu and Nana may or may not have meaningful HIV resistance. They will, for the rest of their lives, carry edits whose downstream effects no one can predict.
+
+### The Risk-Benefit Reply
+
+Henry Greely, in the most thorough early analysis of the case, called it a "reckless ethical disaster" [@greely2019_he_jiankui]. The objection is not philosophical at first. It is empirical: there was no benefit on offer, and the risks were real and lifelong.
+
+::: {.argument}
+**The Risk-Benefit Reply**
+
+1. Standard reproductive medicine already prevents HIV transmission from infected fathers to their children, at very low cost and near-zero risk.
+2. The *CCR5* edits actually made by He did not match the natural protective variant and had never been studied in any organism.
+3. Any unintended edits, off-target effects, or mosaicism in Lulu and Nana are permanent and heritable.
+4. Therefore, the risk-benefit balance of this experiment was unjustifiable on standard research-ethics criteria.
+:::
+
+This reply does most of the work needed to condemn what He did. It does not yet say anything special about *germline* editing. The next move asks whether the case would still have been wrong if the risks had somehow been low — and finds that consent itself does not stretch the way He needed it to stretch.
+
+### The Future Person's Consent
+
+The parents signed a form. Lulu and Nana did not — and could not. Once they exist, they cannot un-consent to the edits they were born with. Any children they have will inherit those edits in turn. The German philosopher Jürgen Habermas had argued, fifteen years before the case, that an asymmetry runs between children who are *grown* under nature's contingency and children who are *made* under someone else's specific plan: the made child cannot, in principle, retroactively endorse the design choices that produced her [@habermas2003_future].
+
+::: {.argument}
+**The Future Person's Consent Reply**
+
+1. Germline edits affect every cell of the resulting person and pass to her descendants.
+2. The persons most affected by a germline edit are the resulting child and her future descendants.
+3. Those persons cannot consent before they exist, and cannot reverse the edit after they exist.
+4. Therefore, parental consent alone is structurally insufficient to authorize a germline edit.
+:::
+
+This is where Derek Parfit's [non-identity problem]{.key-term} earns its place in the case. Lulu and Nana cannot complain that they were harmed by the edits, because the only alternative was that they not exist. A different embryo would have meant a different person, or no person at all. The wrong does not sit cleanly in "harm to specific children." It sits in something subtler: in the kind of relationship He set up between himself, the parents, and two future adults who were, in Habermas's phrase, made into the project of someone else's life.
+
+### The Limits of Self-Regulation
+
+A natural reply to all of this is: well, then, change the rules. But the rules were not the problem. The rules had already been written. They were not law. They were the carefully considered judgment of the relevant scientific community, repeated in detail.
+
+In 2015, an international group of scientists and ethicists meeting in Napa Valley — modeled on the 1975 Asilomar conference on recombinant DNA — published a statement in *Science* calling for a moratorium on clinical germline editing while the science and the ethics matured. The First International Summit, in Washington in December of that year, concluded that clinical germline editing should not proceed "unless and until (i) the relevant safety and efficacy issues have been resolved … and (ii) there is broad societal consensus." In February 2017, the U.S. National Academies of Sciences and Medicine issued a 328-page report, *Human Genome Editing: Science, Ethics, and Governance*, listing ten specific criteria that would need to be met before any heritable germline edit could proceed [@nasem2017_human_genome_editing]. The Nuffield Council on Bioethics, in July 2018, set out a similar framework for the United Kingdom.
+
+He's experiment, judged against these documents, failed almost every criterion. He had no clinical justification: the families could already have unaffected children. He had no pre-clinical safety data of the kind the Academies required. He had no oversight: his university said it knew nothing. He had no transparency: he confided in a handful of senior academics — including his Stanford postdoctoral supervisor Stephen Quake, the Nobel laureate Craig Mello, and the bioethicist William Hurlbut — and most of them either tried to dissuade him or simply did not inform anyone else when they could not [@greely2019_he_jiankui].
+
+```{dot}
+//| fig-height: 3.2
+//| fig-cap: "The cascade of oversight that should have caught He's experiment, and didn't. Each box is a body that, on standard accounts of research ethics, would have been expected to know, ask, or stop the work."
+digraph oversight {
+  rankdir=TB;
+  graph [bgcolor="transparent"];
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=10, margin="0.18,0.10"];
+  edge [arrowhead=vee, color="#6b7280"];
+
+  H [label="He's research group\n(Shenzhen)", fillcolor="#fce9d6", color="#b07d1a"];
+  U [label="Southern University of\nScience and Technology\nsaid it knew nothing", fillcolor="#f3f4f6", color="#94a3b8"];
+  E [label="Harmonicare hospital\nethics committee\nsaid signatures were forged", fillcolor="#f3f4f6", color="#94a3b8"];
+  F [label="Assisted-reproduction\ncenters at four hospitals\nclaimed not to know", fillcolor="#f3f4f6", color="#94a3b8"];
+  C [label="Senior academics\nHe confided in\ndissuaded; did not report", fillcolor="#f3f4f6", color="#94a3b8"];
+  I [label="International scientific\ncommunity learned via\ntechnology journalism", fillcolor="#fad7d2", color="#c0392b"];
+
+  H -> U;
+  H -> E;
+  H -> F;
+  H -> C;
+  C -> I [style=dashed, label=" not in time"];
+}
+```
+
+The diagram shows the structure of the failure. Self-regulation works when the relevant community shares norms and enforces them on each other. It assumes the deviant case does not happen, or if it does, that someone in the chain will speak. In He's case, every box failed in its own way. His university did not look. His hospital ethics committee may have been deceived or simply ignored. The senior academics he confided in tried, individually, to talk him out of it, but did not raise alarms outside their conversations. By the time the international community knew, two children had been born.
+
+### What Has and Has Not Followed
+
+The case is now seven years old. The consensus it tested has, so far, held.
+
+In July 2021 the World Health Organization issued a framework for global governance of human genome editing, including recommendations for a global registry of clinical trials and a mechanism for whistleblowers. The Third International Summit at the Francis Crick Institute in March 2023 reaffirmed the moratorium on clinical germline editing while explicitly endorsing the development of somatic CRISPR therapies. In December 2023 the FDA approved Casgevy, the first somatic CRISPR therapy for sickle-cell disease, at a list price of about $2.2 million per patient. The same molecular tool that put He Jiankui in prison is now the technology behind a celebrated treatment.
+
+And He himself, freed from prison in April 2022, has reopened a small Beijing laboratory. His public statements continue to defend the original experiment, framed now around "rare disease" gene therapy rather than HIV resistance [@cyranoski2020_crispr_prison]. He has not been able to publish in any major journal, but he is not silent. He is not the only researcher in the world who could try this again. The 2021 WHO framework is a set of recommendations. The 2023 Summit was a meeting. The Academies' criteria are guidance. None of these documents prevent a second He Jiankui. They only describe what one would, in retrospect, be guilty of.
+
+The sharpened question that has not closed is this: is the international consensus holding because it is sound, or because no one has yet decided to break it again? Self-regulation produced eighteen months of horror in 2018 and one prison sentence in 2019. It has not, since, produced a structure that could stop the next attempt before another child is born.
+
+## Discussion Questions
+
+1. Reconstruct **He Jiankui's Defense** and the **Risk-Benefit Reply** in standard form. They share one premise. Identify it and write the strongest version of that premise you can give.
+2. Parfit's non-identity problem suggests Lulu and Nana cannot have been harmed by the edits, because their alternative was nonexistence. Yet most readers feel strongly that the experiment was wrong. Where, exactly, does the wrong lie if not in harm to the twins? Use one ethical concept from the dialogue to ground your answer.
+3. He's consent form described the experiment as "an AIDS vaccine development project." Suppose he had instead used the phrase "the first heritable human gene-editing experiment." Would proper informed consent have been possible from the eight couples? Defend your view.
+4. You are a research nurse at a fertility clinic. A patient mentions, in passing, that her husband is a biologist who has been "doing some CRISPR experiments on our IVF embryos at home before transfer." What do you do, in what order, and what authority — clinical, legal, or professional — backs each step?
+5. The FDA approved Casgevy in December 2023. It uses CRISPR to treat sickle-cell disease through *somatic* editing of a patient's own stem cells. He Jiankui used the same molecular tool to alter the germline of twin girls. Drawing on the case, identify the single feature — not "intent," not "regulation" — that does the moral work of separating these two uses of CRISPR.
+
+## Further Reading
+
+- Henry T. Greely, "CRISPR'd babies: human germline genome editing in the 'He Jiankui affair'," *Journal of Law and the Biosciences* 6 (2019): 111–183. The fullest and most accessible single account, with extensive primary documents.
+- *Make People Better* (Cody Sheehy, dir.), 2022. A documentary built around Antonio Regalado's reporting, with interviews from several principals.
+- National Academies of Sciences, Engineering, and Medicine, *Human Genome Editing: Science, Ethics, and Governance* (National Academies Press, 2017). The pre-He report whose criteria the experiment violated.
+- David Cyranoski, "What CRISPR-baby prison sentences mean for research," *Nature* 577 (2020): 154–155. Short, useful summary of the legal outcome and what it did and didn't settle.
+
+## References
+
+::: {#refs}
+:::

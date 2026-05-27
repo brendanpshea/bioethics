@@ -1,0 +1,41 @@
+Question type,Answer explanation,Points,Prompt,Correct answers,Answer choice 1,Answer choice 2,Answer choice 3,Answer choice 4,Answer choice 5
+MC,,,What is the main goal of clinical care?,2,Knowledge for a class,Benefit this patient,Market share,Trial enrollment,
+MC,,,What is the main goal of clinical research?,3,Direct treatment,Personal rescue,Produce knowledge,Family support,
+MC,,,A physician-investigator is a clinician who is also what?,1,A clinical researcher,A jury member,The enrolled patient,The tissue donor,
+MC,,,Clinical equipoise means what kind of professional state?,4,Perfect expert certainty,Full professional agreement,Zero patient risk,Expert uncertainty,
+MC,,,What is randomization mainly used to do in a trial?,2,Faster consent forms,Balance trial groups,Raise sponsor funding,Select likely winners,
+MC,,,What does blinding mainly prevent?,3,Lab staffing shortages,Open data sharing,Expectation effects,Long follow-up,
+MC,,,Phase I trials mainly study what first?,1,Basic human safety,Early drug efficacy,Drug marketing plans,Insurance coverage rules,
+MC,,,Phase III trials are mainly about what?,4,Diet tracking,Case reports,Bench science,Pivotal efficacy,
+MC,,,Phase IV happens mainly at what point?,2,Before animals,After marketing,During funding,Before consent,
+MC,,,Which description best fits a surrogate endpoint in clinical research?,1,It is a measurable stand-in for a real patient outcome.,It is a direct outcome such as death or stroke.,It is a payment bonus for joining the study.,It is an unblinded interim review by the DSMB.,
+MC,,,What independent group can stop a trial early for harm benefit or futility?,3,IRB clerk,Ethics hotline,An independent DSMB panel,Grant panel,
+MC,,,Therapeutic misconception is the mistaken belief that a trial is mainly for what?,2,Public debate,Personal benefit,Journal prestige,Clinic revenue,
+MC,,,Which Belmont principle most directly grounds informed consent?,4,The principle of justice,Genuine expert uncertainty,Pure aggregate utility,Respect for persons,
+MC,,,Which Belmont principle becomes fair subject selection in practice?,1,The principle of justice,The principle of autonomy,The duty of beneficence,Fidelity,
+MC,,,Cognitive vulnerability refers to limits on what?,2,Travel access,Real understanding of risks,Lab space,Budgeting,
+MC,,,Allocational vulnerability means participation is hard to refuse because of what?,3,Media attention,Scientific doubt,Needed resources,Spare time,
+MC,,,What is the Common Rule?,1,US research regulation,Hospital slogan,Nursing code,Insurance form,
+MC,,,In what year was the Aβ*56 paper published?,4,1996,2012,2022,2006,
+MC,,,In what journal did the Aβ*56 paper appear?,2,The journal Science,The journal Nature,Cell,Neuron,
+MC,,,Which neurologist closely inspected the suspect images?,3,Henry Beecher,James Jones,Neurologist Matthew Schrag,Bioethicist Arthur Caplan,
+MC,,,Which lab method did analysts inspect for duplication and splicing?,1,Western blot,Blood culture,CT scan,Patch clamp,
+MC,,,Which outlet published the major exposé in 2022?,4,The journal Nature,NEJM,Lancet,The journal Science,
+MC,,,In what year did Nature retract the Aβ*56 paper?,2,2022,2024,2025,2006,
+MC,,,In what year did Minnesota conclude that Lesné committed misconduct?,3,2023,2024,2025,2019,
+MC,,,The amyloid hypothesis centers on what protein family?,1,Amyloid beta,Tau only,Insulin,Collagen,
+MC,,,Why does fake preclinical evidence threaten clinical trials downstream?,2,It lowers payroll,It creates false equipoise,It speeds review,It ends consent,
+MC,,,Which endpoint is something patients directly feel or experience?,4,Surrogate endpoint,Biomarker change,Lab ratio,Clinical endpoint,
+MC,,,Which research statement comes from the World Medical Association?,1,Declaration of Helsinki,The federal Common Rule,Georgia's LIFE Act,The HIPAA privacy law,
+MC,,,What local body applies the Common Rule to a specific protocol?,3,An independent DSMB panel,The federal CDC,An institutional review board,NIH,
+MC,,,Which senior collaborator worked with Lesné on the 2006 paper?,2,Researcher Karen Ashe,Legal scholar Mary Ziegler,Donna Wilcock,Image analyst Elisabeth Bik,
+MR,,,Which mechanisms help protect trial integrity?,"1,2,3,4",Randomization,Blinding,An independent DSMB panel,IRB review,Billing codes
+MR,,,Which Belmont principles govern human-subjects research?,"1,2,3",Respect for persons,The duty of beneficence,The principle of justice,The principle of autonomy,
+MR,,,Which examples fit cognitive or allocational vulnerability?,"1,2,3,4",Children,Intellectual disability,Foster care dependence,Needed services,Secure tenure
+MR,,,Which of the following statements about the Aβ*56 affair are true?,"1,2,3,4",The 2006 Nature paper later became a major fraud target.,Nature formally retracted the paper in 2024.,Lesne resigned after Minnesota found misconduct in 2025.,The disputed work centered on a Minnesota laboratory.,The case began with data from the Tuskegee study.
+MR,,,Which people were publicly linked to the Aβ*56 case?,"1,2,3,4",Sylvain Lesne,Neurologist Matthew Schrag,Researcher Karen Ashe,Image analyst Elisabeth Bik,James H Jones
+MR,,,Which claims define Schrag's argument?,"1,2,3",Trials need equipoise,Honest preclinical evidence matters,Fake data can wrong subjects,All amyloid work is fake,
+MR,,,Which labels name phases of human drug testing?,"1,2,3,4",Phase I,Phase II,Phase III,Phase IV,Phase X
+MR,,,Which features distinguish clinical research from ordinary care?,"1,2,3,4",Protocol role,Knowledge for a class,Chance assignment,Dual role,Guaranteed benefit
+MR,,,Which counts as a surrogate endpoint rather than a clinical endpoint?,"1,2",LDL,Tumor shrinkage,Death,Stroke,Heart attack
+MR,,,Which modern protections were highlighted in chapter 3?,"1,2,3,4",IRB review,Informed consent,Fair subject selection,DSMB oversight,Secret deception

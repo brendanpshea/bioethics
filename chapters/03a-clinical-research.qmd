@@ -21,14 +21,14 @@ format:
 You have metastatic cancer. Your oncologist says:
 
 - "The standard drug has stopped working."
-- "There is a study you could join, but I need to be clear: it is a randomized trial."
+- "There is a study you could join. I need to be clear: it is a randomized trial."
 - "One group gets the current standard treatment. The other gets the new drug."
 - "I do not get to choose your group, and neither do you."
-- "I hope it helps you, but the study is designed to answer a question, not to tailor a plan just for you."
+- "I hope it helps you. But the study is designed to answer a question, not to tailor a plan just for you."
 
 1. Does this sound like care, research, or both?
 2. What would you still want to know before saying yes?
-3. If your doctor is the one recruiting you, what confusion is most likely?
+3. If your doctor is the one recruiting you, what is most likely to confuse you?
 :::
 
 ## After You've Discussed
@@ -36,13 +36,13 @@ You have metastatic cancer. Your oncologist says:
 ::: {.callout-note}
 Three starting points matter here:
 
-- **Research can happen inside ordinary care settings without becoming ordinary care.** Same clinic, different goal.
-- **Randomization is the clue.** Once assignment is by chance, the clinician is no longer choosing only on the basis of what seems best for *this* patient.
-- **Hope is not the same as a promise.** Ethical recruitment does not kill hope, but it cannot quietly market the study as personalized treatment.
+- **Research can happen inside ordinary care without becoming ordinary care.** Same clinic, different goal.
+- **Randomization is the clue.** Once assignment is by chance, the clinician is no longer choosing only on what seems best for *this* patient.
+- **Hope is not the same as a promise.** Ethical recruitment does not kill hope. It also cannot quietly sell the study as personal treatment.
 :::
 
 ::: {.notes}
-The opening move should make students feel how easily research can sound like an ordinary treatment recommendation. The point is not to make them anti-research; it is to make them notice the difference in purpose.
+The opening move should make students feel how easily research can sound like an ordinary treatment recommendation. The point is not to make them anti-research. It is to make them notice the difference in purpose.
 :::
 
 ## Today
@@ -50,7 +50,7 @@ The opening move should make students feel how easily research can sound like an
 ::: {.learning-outcomes}
 By the end of Part A, you will be able to:
 
-- Distinguish clinical care from clinical research, and say why the difference changes consent and oversight
+- Tell clinical care apart from clinical research, and say why the difference changes consent and oversight
 - Explain randomization, control, placebo, and blinding by walking through the 1954 polio trial
 - Tell a clinical endpoint from a surrogate, and judge whether a result could be chance
 - Summarize what trial phases I–IV are for
@@ -63,10 +63,10 @@ By the end of Part A, you will be able to:
 ## One Crucial Difference
 
 - [Clinical care]{.key-term} aims to help the patient in front of you
-- [Clinical research]{.key-term} aims to produce generalizable knowledge [@emanuel2000research]
-- Both may benefit a patient
+- [Clinical research]{.key-term} aims to produce knowledge that applies to many patients [@emanuel2000research]
+- Both can help a patient
 - But direct patient benefit is not what makes an activity research
-- That difference changes consent, oversight, and acceptable risk
+- That difference changes consent, oversight, and what risks are acceptable
 
 ## The Same Room Can Hide the Difference
 
@@ -86,10 +86,10 @@ By the end of Part A, you will be able to:
 **Why it is not the same**
 
 - The protocol fixes what can happen
-- Randomization may assign the arm
+- A coin flip may assign the arm
 - The main goal is learning, not tailoring
 - The results are meant to guide future care
-- Independent review is required before it begins
+- Independent review must happen before it begins
 :::
 
 ::::
@@ -97,7 +97,7 @@ By the end of Part A, you will be able to:
 ## Why Research Exists
 
 - Without research, medicine would freeze in place
-- New drugs, devices, and procedures need to be tested before they become standard
+- New drugs, devices, and procedures must be tested before they become standard
 - Even old treatments need comparison, follow-up, and correction
 - Ethical research is not the enemy of patient care
 - Ethical research is one reason patient care can improve at all
@@ -107,34 +107,34 @@ By the end of Part A, you will be able to:
 | Question | Clinical care | Clinical research |
 |---|---|---|
 | **Main goal** | Help this patient now | Produce reliable knowledge |
-| **Who should benefit first?** | The individual patient | Future patients, and sometimes current participants |
-| **Who sets the plan?** | Clinician and patient | Protocol, eligibility rules, and study design |
+| **Who should benefit first?** | This patient | Future patients, and sometimes current ones |
+| **Who sets the plan?** | Clinician and patient | The protocol, eligibility rules, and study design |
 | **What governs it?** | Professional standards, licensure, ordinary consent | IRB review, protocol rules, research consent [@commonrule_hhs] |
 | **What counts as success?** | Good care for this person | Valid evidence that answers the research question |
 
 ## The Physician-Investigator Tension
 
 - A clinician may also be a [physician-investigator]{.key-term}
-- That can be efficient and even helpful
-- It can also blur whether advice is being given as a doctor or as a researcher
-- Modern research ethics assumes this tension is real, not rare [@helsinki2024]
+- That can be efficient and helpful
+- It can also blur whether the advice is coming from the doctor or the researcher
+- Modern research ethics treats this tension as real and common, not rare [@helsinki2024]
 - That is one reason independent review matters
 
 # Inside a Randomized Trial {.section-divider}
 
 ## Why Randomize?
 
-- If doctors chose the groups, healthier and sicker patients could cluster without anyone meaning to [@nci_trials2024]
+- If doctors picked the groups, healthier and sicker patients could cluster without anyone meaning to [@nci_trials2024]
 - Randomization assigns people by chance
-- That helps keep the comparison scientifically fair
-- But it also means the clinician is no longer hand-picking the treatment for this patient
-- So randomization is ethically important, not just statistically useful
+- That keeps the comparison scientifically fair
+- It also means the clinician is no longer hand-picking a treatment for this patient
+- So randomization is ethically important, not just useful in statistics
 
 ## When Is It OK to Randomize a Sick Person?
 
 - The honest answer needs a concept: [clinical equipoise]{.key-term}
 - It means the expert community is *genuinely unsure* which arm is better
-- If we already knew, randomizing would be wrong — we'd be assigning some patients to the worse option on purpose
+- If we already knew, randomizing would be wrong — we'd be sending some patients to the worse option on purpose
 - Equipoise is the moral license for a trial
 - This is why "I'd just give everyone the new drug" misses the point: we do not yet know it is better
 
@@ -143,7 +143,7 @@ By the end of Part A, you will be able to:
 ```{dot}
 //| fig-width: 10.6
 //| fig-height: 3.1
-//| fig-cap: "A plain-language map of a parallel-group randomized trial. The key ethical moment is the middle: once participants consent and are randomized, no one chooses the arm just for that patient's benefit."
+//| fig-cap: "A plain-language map of a parallel-group randomized trial. The key ethical moment is the middle: once people consent and are randomized, no one chooses the arm just for that patient's benefit."
 digraph rct {
   rankdir=LR;
   bgcolor="transparent";
@@ -177,11 +177,11 @@ digraph rct {
 
 ## A Real Trial: Polio, 1954
 
-- In 1952 the United States recorded roughly 58,000 polio cases, most of them children — it was the most feared childhood disease in the country.
-- Jonas Salk's killed-virus injected vaccine looked promising, but "promising" vaccines had failed and even harmed children before.
-- So the country ran the largest medical experiment in history: about 1.8 million schoolchildren, the "Polio Pioneers," organized by the March of Dimes and directed by Thomas Francis Jr.
-- The trial's job was not to *deliver* a cure but to *prove* whether there was one.
-- Every mechanic from the last few slides — randomize, control, blind, compare — was used on these children, and the design choices decided whether anyone could believe the result [@francis1955].
+- In 1952 the United States recorded about 58,000 polio cases, most of them children. It was the most feared childhood disease in the country.
+- Jonas Salk's killed-virus injected vaccine looked promising. But "promising" vaccines had failed before. Some had even harmed children.
+- So the country ran the largest medical experiment in history. About 1.8 million schoolchildren — the "Polio Pioneers" — took part. The March of Dimes organized it. Thomas Francis Jr. led the science.
+- The trial's job was not to *deliver* a cure. It was to *prove* whether there was one.
+- Every part from the last few slides — randomize, control, blind, compare — was used on these children. The design choices decided whether anyone could believe the result [@francis1955].
 
 ## Two Designs, One Trial
 
@@ -194,7 +194,7 @@ The 1954 trial actually ran **two designs at once** — and that is the lesson:
 | **Blinding** | **Double-blind** — no one knew who got what | Not blinded |
 | **How trustworthy** | High — groups comparable, judgment unbiased | Weaker — volunteers differ; diagnosis can be swayed |
 
-Same disease, same year, same vaccine: the **design**, not the vaccine, is what made one half of the trial believable.
+Same disease, same year, same vaccine. The **design**, not the vaccine, is what made one half of the trial believable.
 
 ## What the Control Group Gets
 
@@ -202,7 +202,7 @@ Same disease, same year, same vaccine: the **design**, not the vaccine, is what 
 - Sometimes it gets standard care plus a placebo
 - Sometimes, if no proven treatment exists, it may get placebo or no active treatment [@nci_trials2024; @helsinki2024]
 - Control does not mean "ignored"
-- Everyone in the study is still monitored under a protocol
+- Everyone in the study is still watched under a protocol
 
 ## Placebo Does Not Always Mean "Nothing"
 
@@ -218,67 +218,67 @@ Same disease, same year, same vaccine: the **design**, not the vaccine, is what 
 
 - [Blinding]{.key-term} means some people in the trial do not know which arm a participant is in
 - Single-blind usually means the participant does not know
-- Double-blind usually means the participant and the treating team or evaluators do not know
+- Double-blind usually means the participant *and* the treating team do not know
 - The point is to reduce expectation effects and biased judgment
 - "Double-blind" is about cleaner evidence, not secrecy for its own sake
 
 ## Why Blinding Mattered in 1954
 
 ::: {.context-box}
-Diagnosing mild polio is partly a judgment call — a borderline weak limb can be read either way. In the 1954 trial's observed-control areas, the examining doctors knew which children had been vaccinated. A doctor who *hoped* the vaccine worked could, without any dishonesty, lean toward "not polio" in a vaccinated child.
+Diagnosing mild polio is partly a judgment call. A borderline weak limb can be read either way. In the 1954 trial's observed-control areas, the examining doctors knew which children had been vaccinated. A doctor who *hoped* the vaccine worked could, without any dishonesty, lean toward "not polio" in a vaccinated child.
 
-That is exactly why the placebo-controlled areas were **double-blind**: no one at the bedside knew, so hope could not tip the count.
+That is exactly why the placebo-controlled areas were **double-blind**. No one at the bedside knew. Hope could not tip the count.
 :::
 
 ## Who Watches the Trial While It Runs?
 
 - A trial is not left alone until it ends
-- An independent [data safety monitoring board]{.key-term} (DSMB) reviews the data as it accumulates
+- An independent [data safety monitoring board]{.key-term} (DSMB) reads the data as it comes in
 - It can **stop a trial early for harm** — one arm is clearly hurting people
 - It can also **stop early for benefit** — one arm is so clearly better that continuing the other is no longer fair
-- Equipoise has a deadline: once the evidence is in, the trial must end
+- Equipoise has a deadline. Once the evidence is in, the trial must end
 
 ## The Same Machinery, Today
 
-- The 2020 COVID-19 vaccine trials used exactly the 1954 logic at modern scale: tens of thousands of volunteers, randomized, double-blind, placebo-controlled.
-- The primary endpoint was a **clinical** one — laboratory-confirmed symptomatic COVID-19 — not just an antibody level in the blood.
-- An independent data safety monitoring board reviewed the accumulating results at planned interim points.
-- When the effect was large and the safety data adequate, the FDA granted Emergency Use Authorization, with full approval following after more follow-up.
-- Seventy years apart, the polio and COVID trials are recognizably the same instrument, used carefully because the stakes were enormous.
+- The 2020 COVID-19 vaccine trials used the 1954 logic at modern scale. Tens of thousands of volunteers. Randomized. Double-blind. Placebo-controlled.
+- The primary endpoint was a **clinical** one — lab-confirmed symptomatic COVID-19. Not just an antibody level in the blood.
+- An independent monitoring board read the data at planned checkpoints.
+- When the effect was large and the safety data was good enough, the FDA granted Emergency Use Authorization. Full approval came later, after more follow-up.
+- Seventy years apart, the polio and COVID trials are the same instrument. Both used it carefully because the stakes were enormous.
 
 # Reading a Trial's Result {.section-divider}
 
 ## What Are We Even Measuring? Endpoints
 
 - A **clinical endpoint** is something a patient can feel or would obviously care about: living longer, avoiding a stroke, walking without pain.
-- A **surrogate endpoint** is a stand-in measured because it is faster or cheaper — a lab number, a scan finding, a blood pressure reading.
-- Surrogates speed research up, but a treatment can move the surrogate and still not help patients — or even harm them.
-- The classic warning is the CAST trial: drugs that "fixed" an abnormal heart rhythm on the monitor actually *increased* deaths.
+- A **surrogate endpoint** is a stand-in. It is measured because it is faster or cheaper — a lab number, a scan finding, a blood pressure reading.
+- Surrogates speed research up. But a treatment can move the surrogate and still not help patients. It can even harm them.
+- The classic warning is the CAST trial. Drugs that "fixed" an abnormal heart rhythm on the monitor actually *increased* deaths.
 - So the first question to ask of any trial is: did patients actually do better, or did a number just move?
 
 ## Could It Just Be Chance?
 
-- Any two groups of people differ a little by luck, even if the treatment does nothing at all.
+- Any two groups of people differ a little by luck, even if the treatment does nothing.
 - Statistics ask one question: how likely is a difference *this big* if the treatment really had no effect?
-- "Statistically significant" roughly means "probably not just luck" — it does **not** mean large, important, or certain.
-- Small trials are easily fooled by chance, which is why large samples and **independent replication** matter so much.
-- A single significant result is a lead worth following, not a verdict to act on alone.
+- "Statistically significant" roughly means "probably not just luck." It does **not** mean large, important, or certain.
+- Small trials are easily fooled by chance. That is why large samples and **independent replication** matter so much.
+- A single significant result is a lead worth following. It is not a verdict to act on alone.
 
 ## Honest Trials Can Still Mislead
 
 - A result can mislead even when no one lied or faked anything.
-- **Who got into the trial** limits who the answer applies to: narrow eligibility rules can exclude the very patients you treat.
-- People who **drop out** are usually different from those who finish, so analyzing only the "completers" quietly flatters the treatment.
-- **Intention-to-treat** analysis — count everyone in the group they were randomized to, even if they quit — is the standard guard against that.
+- **Who got into the trial** limits who the answer applies to. Narrow eligibility rules can leave out the very patients you treat.
+- People who **drop out** are usually different from those who finish. So looking only at the "completers" quietly flatters the treatment.
+- **Intention-to-treat** analysis is the standard guard against that. It counts everyone in the group they were randomized to, even if they quit.
 - The disciplined question is always: who is missing from this result, and which way would that bias it?
 
 ## When a Letter Becomes "Evidence"
 
-- In 1980 a five-sentence *letter to the editor* reported that, among **hospitalized** patients given opioids, addiction was rare [@porter1980].
-- It was not a trial: no randomization, no control, no long-term or outpatient follow-up.
-- Over the next two decades it was cited hundreds of times as if it had proven that long-term outpatient opioids rarely cause addiction.
-- The reading-evidence lesson is exact: the *type* of study and *who was in it* cap what any result can support.
-- How that misreading was promoted is a research-integrity story we return to later — here the point is simply that a letter is not an RCT.
+- In 1980, a five-sentence *letter to the editor* reported that, among **hospitalized** patients given opioids, addiction was rare [@porter1980].
+- It was not a trial. No randomization. No control. No long-term or outpatient follow-up.
+- Over the next two decades it was cited hundreds of times — as if it had proven that long-term outpatient opioids rarely cause addiction.
+- The lesson is exact. The *type* of study and *who was in it* cap what any result can support.
+- How that misreading was promoted is a research-integrity story we return to later. Here the point is simple: a letter is not an RCT.
 
 ## Thought Question
 
@@ -286,7 +286,7 @@ That is exactly why the placebo-controlled areas were **double-blind**: no one a
 A new drug's Phase III trial is reported as "positive."
 
 - It significantly improved a **surrogate** marker on a scan.
-- The trial was **small**, and about **25%** of participants dropped out.
+- The trial was **small**. About **25%** of participants dropped out.
 - The analysis included only those who completed.
 
 1. Name the three weaknesses you can already see.
@@ -297,12 +297,12 @@ A new drug's Phase III trial is reported as "positive."
 ## Make It Contemporary
 
 ::: {.thought-question}
-Regulators sometimes grant **accelerated approval** based on a surrogate endpoint, with a confirmatory trial promised later.
+Regulators sometimes grant **accelerated approval** based on a surrogate endpoint. A confirming trial is promised later.
 
 - Patients with no other option get the drug years sooner.
-- Some confirmatory trials later show no real benefit — and a few are never finished.
+- Some confirming trials later show no real benefit. A few are never finished.
 
-Is faster access worth weaker evidence? Who should decide, and what should happen if the confirmatory trial fails?
+Is faster access worth weaker evidence? Who should decide? And what should happen if the confirming trial fails?
 :::
 
 ## After You've Discussed
@@ -351,11 +351,11 @@ digraph phases {
 
 ## What Each Phase Is Really Asking
 
-- **Phase I** is small (often 15–30 people in cancer) and asks what dose is tolerable and what harms appear; direct benefit is not the point, which is what makes it ethically hard [@nci_trials2024].
-- **Phase II** enrolls more people and asks whether the treatment *seems* to work, while safety is still watched closely; many promising drugs fail right here.
-- **Phase III** is the large, usually randomized comparison against the best existing option, and it is where placebo and control debates bite hardest because its result becomes the new standard.
-- **Phase IV** runs after approval and catches rare harms and real-world performance that tightly controlled trials miss.
-- "Clinical trial" is therefore not one thing — the same words cover wildly different risks, hopes, and likely benefits.
+- **Phase I** is small. Often 15–30 people in cancer. It asks what dose is tolerable and what harms appear. Direct benefit is not the point. That is what makes it ethically hard [@nci_trials2024].
+- **Phase II** enrolls more people. It asks whether the treatment *seems* to work. Safety is still watched closely. Many promising drugs fail right here.
+- **Phase III** is the large, usually randomized comparison against the best existing option. This is where placebo and control debates bite hardest. Its result becomes the new standard.
+- **Phase IV** runs after approval. It catches rare harms and real-world performance that tightly controlled trials miss.
+- "Clinical trial" is therefore not one thing. The same words cover wildly different risks, hopes, and likely benefits.
 
 ## Why Phases Matter Ethically
 
@@ -369,9 +369,9 @@ digraph phases {
 
 ## The Therapeutic Misconception
 
-- [Therapeutic misconception]{.key-term} happens when participants think the study intervention is being chosen mainly for their personal medical benefit [@appelbaum1982tm]
-- The misunderstanding is not just "I hope this helps"
-- It is more like "my doctor is selecting this because it is best for me"
+- [Therapeutic misconception]{.key-term} happens when participants think the study is being chosen mainly for their personal medical benefit [@appelbaum1982tm]
+- The mistake is not just "I hope this helps"
+- It is more like "my doctor is picking this because it is best for me"
 - That is often false once protocol rules and randomization control the options
 - A person can sign a form and still misunderstand the basic situation
 
@@ -380,15 +380,15 @@ digraph phases {
 - Recruitment often comes from a trusted clinician
 - Serious illness makes hope urgent
 - Research visits look like treatment visits
-- Words like "option" and "opportunity" blur categories
+- Words like "option" and "opportunity" blur the categories
 - Many people hear "new" and assume "better"
 
 ## A Research Consent Is Not a Treatment Consent
 
-- Valid consent has four elements; research adds requirements on top of them
+- Valid consent has four elements. Research adds requirements on top of them.
 - It must say, in plain words, **"this is research"** — not treatment chosen for you
-- It must disclose **randomization**: a chance process, not your clinician, may pick your arm
-- It must state the goal is **knowledge**, and that direct benefit is uncertain or unlikely
+- It must disclose **randomization**. A chance process, not your clinician, may pick your arm
+- It must state the goal is **knowledge**. Direct benefit is uncertain or unlikely
 - It must make **withdrawal at any time, without penalty,** explicit
 - The nurse is often the one who notices a form was signed but not understood
 
@@ -407,14 +407,14 @@ The distinction is what the therapeutic misconception tries to protect [@appelba
 
 - Healthy volunteers and desperate patients join studies for very different reasons
 - In Phase I, researchers mainly ask what dose is tolerable and what harms appear
-- Some participants may benefit, but many will not
+- Some participants may benefit. Many will not.
 - Payment, hope, and lack of alternatives can all cloud judgment
 - Ethical recruitment has to say this plainly
 
 ## Thought Question
 
 ::: {.thought-question}
-You are a research nurse enrolling patients in a first-in-human oncology trial.
+You are a research nurse enrolling patients in a first-in-human cancer trial.
 
 - A patient says, "If you are offering this, you must think it gives me the best chance."
 - The oncologist who is also the principal investigator is standing beside you.
@@ -427,7 +427,7 @@ You are a research nurse enrolling patients in a first-in-human oncology trial.
 ## Make It Contemporary
 
 ::: {.thought-question}
-The same structure appears outside oncology too:
+The same structure appears outside cancer too:
 
 - A family enrolls a child in a gene-therapy study because no approved treatment exists.
 - A healthy adult joins a Phase I trial mainly because the payment covers two months of rent.
@@ -440,8 +440,8 @@ Both may be voluntary. But are both *equally* informed and equally free?
 ::: {.callout-note}
 Three payoffs to insist on:
 
-- **Hope is allowed.** The goal is not to turn participants cynical; it is to keep hope from masquerading as evidence.
-- **Misunderstanding is not the same as irrationality.** A person may fully understand that a study is not personalized care and still choose it.
+- **Hope is allowed.** The goal is not to turn participants cynical. It is to keep hope from masquerading as evidence.
+- **Misunderstanding is not the same as irrationality.** A person may fully understand that a study is not personal care and still choose it.
 - **The hardest part is relational.** When a trusted clinician recruits for a study, the burden to separate care from research falls more heavily on the professional, not less [@helsinki2024].
 :::
 
@@ -451,14 +451,18 @@ Three payoffs to insist on:
 
 - Trials are ethically hard because they borrow the setting of care but not its single-minded goal
 - Randomization, blinding, control groups, and phases are scientific tools
-- The same tools also let you *read* a result: what was measured, could it be chance, who is missing
+- The same tools let you *read* a result: what was measured, could it be chance, who is missing
 - Those tools are exactly why research needs its own ethics
 - Part B turns from the structure of trials to the rulebook meant to protect the people inside them
 
 ## Wrapping Up Part A
 
 ::: {.recap}
-Clinical research is not ordinary care with extra paperwork. Its purpose is to produce reliable knowledge, which is why it uses randomization, control groups, blinding, and staged phases — visible in one real instrument, the 1954 polio trial, and again in the COVID-19 vaccine trials. Those same tools also teach you to *read* a study: clinical versus surrogate endpoints, whether a result could be chance, and who dropped out or was left out. The key task in Part A is learning to say, clearly and without panic: this is research, not just treatment by another name — and here is how good its evidence actually is.
+Clinical research is not ordinary care with extra paperwork. Its purpose is to produce reliable knowledge. That is why it uses randomization, control groups, blinding, and staged phases. You can see all of these in one real instrument: the 1954 polio trial. The same tools showed up again in the COVID-19 vaccine trials.
+
+Those tools also teach you to *read* a study. What did it measure — a clinical endpoint or a surrogate? Could the result be chance? Who dropped out or was left out?
+
+The key task in Part A is learning to say, clearly and without panic: this is research, not just treatment by another name — and here is how good its evidence actually is.
 :::
 
 ## Review Questions
@@ -476,13 +480,13 @@ What is *clinical equipoise*, and why is it the standard ethical condition for r
 ::: {.review-item .review-apply}
 [Apply]{.review-label}
 
-A community oncologist enrolls her own patients in an industry-sponsored Phase III trial of a new chemotherapy regimen and continues to manage their routine care. Identify two specific ways her dual role as physician-investigator could distort either the science or the patients' decision to enroll, and propose one structural safeguard for each.
+A community oncologist enrolls her own patients in an industry-sponsored Phase III trial of a new chemo drug. She continues to manage their routine care. Identify two specific ways her dual role as physician-investigator could distort either the science or the patients' decision to enroll. Propose one structural safeguard for each.
 :::
 
 ::: {.review-item .review-debate}
 [Debate]{.review-label}
 
-When a Phase III trial shows a clear mortality benefit at an interim look, the data safety monitoring board may stop the trial early and offer the better arm to everyone. Critics argue this often happens too soon — before long-term harms are visible — and that finishing the trial would better serve future patients. When should "stop early for benefit" win, and when should "let the science finish" win?
+When a Phase III trial shows a clear survival benefit at an interim look, the data safety monitoring board may stop the trial early and offer the better arm to everyone. Critics argue this often happens too soon — before long-term harms are visible — and that finishing the trial would better serve future patients. When should "stop early for benefit" win, and when should "let the science finish" win?
 :::
 
 :::
@@ -490,15 +494,15 @@ When a Phase III trial shows a clear mortality benefit at an interim look, the d
 ## Key Terms
 
 - **Clinical care** — what a clinician does to benefit *this* patient.
-- **Clinical research** — what an investigator does to produce generalizable knowledge about a class of patients.
-- **Physician-investigator** — a clinician who simultaneously occupies both roles; the source of the structural conflict at the heart of research ethics.
-- **Clinical equipoise** — genuine uncertainty in the expert community about which trial arm is better; the standard justification for randomizing.
+- **Clinical research** — what an investigator does to produce knowledge about a class of patients.
+- **Physician-investigator** — a clinician who is both at once; the source of the structural conflict at the heart of research ethics.
+- **Clinical equipoise** — real uncertainty in the expert community about which trial arm is better; the standard reason for randomizing.
 - **Randomization** — assigning subjects to study arms by chance, to keep known and unknown differences balanced.
-- **Blinding** — concealing arm assignment from subjects (single-blind) and/or from clinicians and assessors (double-blind), to prevent expectation-driven distortion.
+- **Blinding** — hiding the arm assignment from subjects (single-blind) and/or from clinicians and assessors (double-blind), to prevent expectation effects.
 - **Phases I–IV** — first-in-human safety (I), small efficacy and dose-finding (II), pivotal efficacy and safety (III), post-marketing surveillance (IV).
-- **Clinical vs. surrogate endpoint** — outcomes patients feel (death, MI, stroke) versus measurable proxies (LDL, tumor shrinkage) that may or may not track them.
-- **Data safety monitoring board (DSMB)** — an independent panel that reviews unblinded interim data and may stop a trial for harm, benefit, or futility.
-- **Therapeutic misconception** — the patient's mistaken belief that decisions in a trial are being made for *their* individual benefit rather than to answer a research question.
+- **Clinical vs. surrogate endpoint** — outcomes patients feel (death, MI, stroke) versus measurable stand-ins (LDL, tumor shrinkage) that may or may not track them.
+- **Data safety monitoring board (DSMB)** — an independent panel that reads unblinded interim data and may stop a trial for harm, benefit, or futility.
+- **Therapeutic misconception** — the patient's mistaken belief that decisions in a trial are being made for *their* personal benefit rather than to answer a research question.
 
 ## References
 

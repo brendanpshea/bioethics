@@ -1,0 +1,93 @@
+{
+  "title": "Replace With Quiz Title",
+  "shuffle_answers": true,
+  "questions": [
+    {
+      "question_type": "MC",
+      "answer_style": "single word or term",
+      "prompt": "Replace this prompt with a one-best-answer question.",
+      "answer_explanation": "",
+      "points": "",
+      "tags": [
+        "replace-me",
+        "key-term"
+      ],
+      "choices": [
+        {
+          "text": "Correct term",
+          "correct": true
+        },
+        {
+          "text": "Distractor term",
+          "correct": false
+        },
+        {
+          "text": "Another distractor",
+          "correct": false
+        },
+        {
+          "text": "Final distractor",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_type": "MC",
+      "answer_style": "clause",
+      "prompt": "Replace this prompt with a clause-style answer set.",
+      "answer_explanation": "",
+      "points": "",
+      "tags": [
+        "replace-me",
+        "clause-style"
+      ],
+      "choices": [
+        {
+          "text": "The correct short clause",
+          "correct": true
+        },
+        {
+          "text": "A plausible short clause",
+          "correct": false
+        },
+        {
+          "text": "Another plausible clause",
+          "correct": false
+        },
+        {
+          "text": "A final short clause",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question_type": "MR",
+      "answer_style": "complete sentence",
+      "prompt": "Replace this prompt with a multiple-answer item that truly needs sentence-length options.",
+      "answer_explanation": "",
+      "points": "",
+      "tags": [
+        "replace-me",
+        "sentence-style"
+      ],
+      "choices": [
+        {
+          "text": "This sentence is a correct option because it states the key condition clearly.",
+          "correct": true
+        },
+        {
+          "text": "This sentence is also correct because it names a second required feature.",
+          "correct": true
+        },
+        {
+          "text": "This sentence is a distractor because it sounds plausible but reverses the rule.",
+          "correct": false
+        },
+        {
+          "text": "This sentence is another distractor because it confuses a nearby concept.",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

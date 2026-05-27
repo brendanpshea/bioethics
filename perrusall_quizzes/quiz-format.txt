@@ -1,0 +1,19 @@
+Refer to the template spreadsheet and fill it in with a row for each question you want in your quiz.
+
+    Question type: MC for multiple choice, MR for multiple answer, TF for true/false, or NM for numeric.
+    Answer explanation: Any answer explanation that students should see after the quiz.
+    Points: This field is not currently used and can be left blank (all questions are equally weighted).
+    Prompt: The question prompt.
+    Correct answers: A comma-separated list of which answer choice(s) is/are correct. For multiple choice or multiple answer questions, enter the number(s) corresponding to the correct answer choices(s). For numeric questions, enter the correct numeric answer(s).
+    Answer choice 1, 2, 3, 4, 5: Each possible answer choice (for multiple choice or multiple answer questions). 
+
+
+Notes on quiz design:
+
+1. The default quiz is around 40 questions. Usually around 30 MC and 10 MR. No T/F or NM. In some cases, this may change.
+2. I prefer longer question stems and shorter answers. Average answer length (across the set) should not exceed 5 words. This is easiest if some questions have 1 o 2 word answers.
+3. Within a single question, all answers should be a similar length. Right answers should be equally likely to be longest, shortest, or in the middle.
+4. False answers need to represent plausible misleaders. They should not (in comparison to right answers) be more likely to use absolutes, negatives, quantifiers, or the like.
+5. Aim for < 12th grade reading level.
+
+After writing a quiz, these should be validated.
