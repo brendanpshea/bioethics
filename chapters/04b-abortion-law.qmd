@@ -600,19 +600,19 @@ Law has answered the abortion question in radically different ways across time a
 ::: {.review-item .review-recall}
 [Recall]{.review-label}
 
-State, in your own words, the **four standard reasons** the Supreme Court gives for overturning a precedent. Then identify which of those reasons did the most work in the *Dobbs* majority opinion.
+Pick two of the standard reasons a court gives for overturning one of its own past decisions. Which of the two did the most work in *Dobbs*?
 :::
 
 ::: {.review-item .review-apply}
 [Apply]{.review-label}
 
-A US state passes a law banning abortion at six weeks LMP with an exception only when the pregnant person's "life is in imminent danger." A patient with previable PPROM presents at 19 weeks with rising white-cell count but stable vitals. Reconstruct the clinician's decision as an argument with at least three premises, identify which premise the *statute* makes most contestable, and propose one statutory change that would resolve that contestability.
+A state bans abortion except when the patient's "life is in imminent danger." A patient at 19 weeks has a serious infection that is not yet life-threatening but is expected to become so. What does the word *imminent* force the medical team to wait for? Suggest one change to the statute that would fix the problem.
 :::
 
 ::: {.review-item .review-debate}
 [Debate]{.review-label}
 
-Compare China's One-Child Policy and Romania's Decree 770 as examples of state demographic engineering. Both inflicted severe harms; both ultimately failed on their own terms. Is the lesson that **coercive** reproductive policy is always wrong, or only that **these** policies were wrong because of how they were carried out? Defend your view using the four principles and at least one argument from Part A.
+China forced people to have fewer children; Romania forced people to have more. Both caused severe harms. Is the lesson that *all* coercive reproductive policy is wrong, or only that these particular policies went wrong? Defend your view.
 :::
 
 :::

@@ -629,7 +629,7 @@ State Marquis's future-like-ours argument in standard form (three or four premis
 ::: {.review-item .review-apply}
 [Apply]{.review-label}
 
-A 28-year-old patient at 11 weeks gestation tells you she is terminating because prenatal testing has revealed Tay-Sachs disease, which is uniformly fatal in early childhood. Reconstruct her reasoning as an argument in standard form, then identify which of our four frameworks (Marquis, Warren, Thomson, Hursthouse) would most readily support her decision and which would most strongly resist it.
+A patient at 11 weeks is terminating because prenatal testing revealed Tay-Sachs disease, which kills affected children in early childhood. Which of our four thinkers (Marquis, Warren, Thomson, Hursthouse) would most support her decision, and which would most resist it?
 :::
 
 ::: {.review-item .review-debate}

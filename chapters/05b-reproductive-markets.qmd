@@ -671,19 +671,19 @@ Write a brief answer to each, or use them as discussion prompts.
 ::: {.review-item .review-recall}
 [Recall]{.review-label}
 
-State the intent test for parenthood as the California Supreme Court articulated it in *Johnson v. Calvert*. Identify one kind of case the intent test cannot handle, and the backstop principle that most American courts use when the intent test fails.
+In your own words, state the intent test from *Johnson v. Calvert*. Give one kind of case where the intent test does not give a clear answer.
 :::
 
 ::: {.review-item .review-apply}
 [Apply]{.review-label}
 
-A 32-year-old woman in Tuscaloosa wishes to dispose of three frozen embryos she and her now-ex-husband created in 2019. The clinic, citing *LePage*, refuses to destroy the embryos absent a court order. Using the structural distinction between Alabama's holding and Act 2024-21, lay out the legal position the clinic is taking and the ethical position the patient might press in reply.
+An Alabama woman wants her IVF clinic to destroy three frozen embryos she no longer needs. The clinic refuses, citing *LePage*. What is the clinic worried about, and what is the patient's strongest reply?
 :::
 
 ::: {.review-item .review-debate}
 [Debate]{.review-label}
 
-Anderson argues that commercial surrogacy *intrinsically* degrades women and children, independent of how well any particular arrangement is regulated. Robertson argues that procreative liberty protects surrogacy unless specific, demonstrable harms can be shown. Take the side you find harder to defend and give it the strongest case you can — including what it concedes to the other side.
+Anderson says commercial surrogacy is wrong in itself, no matter how well it is regulated. Robertson says it is fine unless we can show specific harms. Pick the side you find *harder* to defend and make the strongest case you can for it.
 :::
 
 :::

@@ -192,11 +192,11 @@ This protocol lands on your desk:
 
 ## The License to Randomize
 
-- Randomizing a sick person is only acceptable under [clinical equipoise]{.key-term} [@freedman1987]
+- For most randomized trials, the standard license is [clinical equipoise]{.key-term} [@freedman1987]
 - Equipoise means the **expert community is genuinely uncertain** which arm is better
 - It is not one doctor's hunch. It is an honest, collective "we do not yet know."
 - If the community already knows, randomizing sends some patients to the worse arm on purpose
-- Equipoise is the moral license a trial needs to begin
+- Equipoise is the default moral license for an RCT — but, as we will see, it is a contested one
 
 ## The Clock Runs Out
 
@@ -225,6 +225,16 @@ Random luck swings hardest in small samples. A trial that stops the moment resul
 - "There is already a proven treatment" = "there is no real uncertainty. So a placebo arm sends people to a known-worse option."
 - "The proven treatment cannot actually be delivered here" = "uncertainty about *feasible* options still exists."
 - Holding the concept of equipoise lets you see the next debate clearly.
+
+## Where Equipoise Runs Out
+
+Equipoise is a powerful idea, but it is not the answer to every research-ethics question.
+
+- **Phase I trials don't have arms to compare.** A first-in-human dose-finding study exposes participants to risk for very little personal benefit. There is no equipoise to invoke. The framework is *risk-benefit plus informed consent*.
+- **Miller and Brody's critique.** Equipoise treats the trial investigator as if she were the participant's *doctor*, with a duty not to give a worse option. But research aims at knowledge for *future* patients, not care for *this* one. On their view, equipoise quietly imports the therapeutic misconception into the rulebook.
+- **Stopping early cuts both ways.** When a monitoring board stops a trial for benefit, equipoise says it must — uncertainty has resolved. But the **public** gets weaker evidence: smaller samples, missed long-term harms, possibly overstated effects. Subject welfare and public knowledge can pull apart.
+
+The takeaway is not that equipoise is wrong. It is that equipoise is the right frame for the *middle* of research ethics — comparative trials of real treatments — and the wrong frame for the edges.
 
 # Placebo, Poverty, and Global Research {.section-divider}
 
@@ -530,7 +540,7 @@ A landmark drug trial is later found to contain manipulated data. Thousands of p
 ::: {.recap}
 Research ethics is the study of how the search for knowledge can wrong people — and how to design against it.
 
-Vulnerability is the spine. It is power and pressure, not personality. That is why consent must be real. It is why equipoise both starts and ends a trial. It is why placebo and global trials turn on feasibility and post-trial duties. It is why commercial funding needs structural firewalls, not just disclosure. And it is why a replication crisis sharpened by AI is itself a subject-protection problem.
+Vulnerability is the spine. It is power and pressure, not personality. That is why consent must be real. It is why equipoise — the standard, if contested, license for most RCTs — both starts and ends a trial. It is why placebo and global trials turn on feasibility and post-trial duties. It is why commercial funding needs structural firewalls, not just disclosure. And it is why a replication crisis sharpened by AI is itself a subject-protection problem.
 
 Ethical research is not research with a signature. It is research designed so that the people who make knowledge possible — and the future patients who will rely on it — are treated as persons first.
 :::
@@ -544,19 +554,19 @@ Write a brief answer to each, or use them as discussion prompts.
 ::: {.review-item .review-recall}
 [Recall]{.review-label}
 
-How does the Belmont principle of *Justice* translate into the concrete IRB requirement of *Fair Subject Selection*? And what is the difference between cognitive and allocational vulnerability in Kipnis's list?
+What does Belmont's *Justice* principle ask an IRB to check when it picks who gets studied? Then give one example each of *cognitive* and *allocational* vulnerability.
 :::
 
 ::: {.review-item .review-apply}
 [Apply]{.review-label}
 
-A biotech company wants to build a large registry of genomic data from children in foster care to study rare pediatric brain conditions. Consent will be obtained from state caseworkers. The children's data will be fully deidentified. Using Kipnis's types of vulnerability and the Belmont principles, name two distinct ethical concerns an IRB should address before approving this protocol.
+A biotech company wants to collect DNA from children in foster care to study rare brain conditions. State caseworkers — not the children's parents — will sign the consent. Name two things an IRB should worry about before approving this study.
 :::
 
 ::: {.review-item .review-debate}
 [Debate]{.review-label}
 
-In global clinical research, does the local unavailability of a proven treatment justify using a placebo-controlled design in a low-resource host country? Or does this practice represent a double standard that exploits global inequalities?
+A drug that works is standard care in rich countries but unavailable in a poor country. Is it acceptable to run a placebo-controlled trial of a new drug there, given that the standard drug is out of reach anyway? Defend your answer.
 :::
 
 :::
@@ -571,7 +581,7 @@ In global clinical research, does the local unavailability of a proven treatment
 - **Vulnerability** — features of a subject or group that limit their ability to protect their own interests in a study.
 - **Cognitive vulnerability** (Kipnis) — limits on capacity to understand or evaluate the study (e.g., children, intellectual disability).
 - **Allocational vulnerability** (Kipnis) — being in a position where study participation is hard to refuse because resources, services, or status depend on it.
-- **Clinical equipoise** — real uncertainty in the expert community about whether one trial arm is better than the other. The standard ethical condition for randomizing.
+- **Clinical equipoise** — real uncertainty in the expert community about whether one trial arm is better than the other. The standard license for randomizing in comparative trials; contested at the edges (Phase I, early stopping, the Miller-Brody critique).
 - **Declaration of Helsinki** — the WMA's evolving statement of physicians' duties in research, including consent and post-trial obligations.
 - **Common Rule** — the US federal regulation (45 CFR 46) governing federally funded human-subjects research. The framework IRBs apply.
 - **IRB (Institutional Review Board)** — the local committee that reviews protocols against these principles before research may proceed.

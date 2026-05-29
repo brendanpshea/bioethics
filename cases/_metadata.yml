@@ -17,6 +17,13 @@ format:
     toc: true
     number-sections: false
   docx:
+    reference-doc: ../styles/case-reference.docx
     toc: true
+    toc-depth: 2
     number-sections: false
-    highlight-style: github
+    highlight-style: tango
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    link-citations: true
+    filters:
+      - ../styles/case-divs.lua

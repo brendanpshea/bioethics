@@ -1,6 +1,6 @@
-# Bieothics 💻
+# Bioethics 💻
 
-**PHIL 1135| Summer 2026**
+**PHIL 1135 | Summer 2026**
 
 ## Course Information
 
@@ -8,17 +8,17 @@
 **Email:** Brendan.Shea@rctc.edu  
 **Phone:** 507-722-1146  
 **Office:** M2403Q  
-**Office Hours:** Mon Wed 10:00 AM - 12:00 PM (by Zoom). Please email me ahead of time to leat me know you are coming
+**Office Hours:** Mon & Wed 10:00 AM – 12:00 PM (by Zoom). Please email me ahead of time to let me know you are coming.
 
-**Class Locations:** 
-- Section 71-72: Online
+**Sections:** 71 and 72 (both fully online, asynchronous — no required synchronous meetings)
 
-**Class Time:** Mon Wed 12:00 PM - 1:50 PM (Section 1)
+**Zoom Link (office hours):** Available on D2L
 
-**Class Zoom Link:** Available on D2L
+**Prerequisites:** None
 
-**Prerequisites:** 
-None
+### A Note on the Accelerated Summer Format ⏩
+
+This is a **5-week summer course covering the same content as a 16-week semester course**. A typical semester course expects roughly 6–9 hours of work per week; in this format that becomes roughly **18–27 hours of work per week**. Please plan accordingly before the term begins, and reach out early if your schedule starts to slip.
 
 
 ## Course Description 📖
@@ -97,7 +97,7 @@ Methods may include but are not limited to:
 This course contributes to meeting the following RCTC Core Outcome(s): 
 
 **Critical Thinking:** Students will think systematically and explore information thoroughly before accepting or formulating a position or conclusion.
-**Personal and Professional Accountability**     Students will take responsibility as active learners for achieving their educational and personal goals.
+**Personal and Professional Accountability:** Students will take responsibility as active learners for achieving their educational and personal goals.
 
 ## Required and Recommended Course Materials 📚
 
@@ -124,7 +124,13 @@ This will provide you with the opportunity to reflect on key ideas, events, and 
 
 **Three Exams - 60% total (20% each)**
 
-Exams are delivered using Respondus Monitor, and will require a webcam to take.
+Exams are delivered through D2L and require **Respondus LockDown Browser with Respondus Monitor**. You will need:
+
+- A PC, Mac, or Linux laptop/desktop (Chromebooks, tablets, and phones are not supported).
+- A working **webcam and microphone** — Respondus Monitor records you while you take the exam.
+- A reliable internet connection and a quiet, well-lit space.
+
+You'll be prompted to install LockDown Browser the first time you launch a quiz from D2L. I recommend installing it and running a short practice quiz **at least a few days before Exam 1** so any setup problems surface early.
 
 ### Attendance 📅
 
@@ -207,25 +213,66 @@ Some helpful resources at RCTC (all of which are included with your course tuiti
 
 ## Course Calendar 📅
 
-The following calendar indicates the order in which things will be covered. All specific due dates can be found on the **D2L Course Calendar** (which are authoritative)
+This calendar shows the order in which things will be covered. **All specific due dates are on the D2L Course Calendar, which is authoritative.** Each chapter is delivered in two parts (a/b); online students should work through both parts as a single unit, along with the paired case study.
 
-1. Week 1: 6/1 - 6/7
-    - Tuesday: Ch 1 - Intro to Bioethics
-    - Wednesday: Ch 2 - Clinical Ethics 
-    - Friday: Ch 3 - Research Ethics
-2. Week 2: 6/7 - 6/14
-    - Monday: Ch 4 - Abortion
-    - Wednesday: Ch 5 - Pregnancy and Children 
-    - Friday: Ch 6 - Genomics
-    - Saturday: Exam 1 (Chapters 1 to 4)
-3. Week 3: 6/15 to 6/22
-    - Monday: Ch 7 - End of Life 
-    - Wednesday: Ch 8 - Justice and Health Care
-    - Friday: Ch 9 - Public Health Ethics
-    - Saturday: Exam 2 (Chapters 5 to 8)
-4. Week 4: 6/23 to 6/30
-    - Monday: Ch 10 - AI in Medicine
-    - Wednesday: Ch 11 - Gender, Identity & Disability
-    - Friday: Ch 12 - Animal Ethics
-5. Week 5: 6/31 to 7/2
-    - Monday: Exam 3 (Chapters 9 to 12) and End of Course
+Exams are scheduled to **open Friday evening and close Sunday night** so you can choose when to sit them across the weekend.
+
+**Week 1 — Foundations & Clinical Ethics (6/1 – 6/7)**
+- **Tue 6/2:** Ch 1 — Intro to Bioethics
+  - 1a: Principles, moral arguments, fallacies
+  - 1b: Theories as lenses on the principles
+- **Wed 6/3:** Ch 2 — History & the Clinical Relationship
+  - 2a: Hippocrates → Nuremberg → Belmont
+  - 2b: Autonomy, consent, truth-telling, confidentiality
+  - *Case 1: Dax Cowart*
+- **Fri 6/5:** Ch 3 — Research Ethics
+  - 3a: RCT primer; historical abuses
+  - 3b: Vulnerability, equipoise, commercial funding, the replication crisis
+  - *Case 2: Tuskegee & Guatemala* · *Case 3: Alzheimer's research fraud (Aβ\*56)*
+
+**Week 2 — Reproductive & Genetic Ethics (6/8 – 6/14)**
+- **Mon 6/8:** Ch 4 — Abortion
+  - 4a: Moral status arguments (Thomson, Marquis, Hursthouse)
+  - 4b: The law and reproductive rights (Roe → Casey → Dobbs)
+  - *Case 4: Kate Cox & post-Dobbs medical exceptions*
+- **Wed 6/10:** Ch 5 — Reproductive Ethics
+  - 5a: Pregnancy, autonomy, and maternal-fetal conflict
+  - 5b: Making family — markets, surrogacy, parental rights
+  - *Case 5: Adriana Smith*
+- **Fri 6/12:** Ch 6 — Genomics & Enhancement
+  - 6a: Reading genomes — prediction, privacy, dual use
+  - 6b: Engineering persons — CRISPR, enhancement, identity
+  - *Case 6: He Jiankui CRISPR twins*
+- **Sat–Sun 6/13–6/14: Exam 1 (Ch 1–4)**
+
+**Week 3 — Life, Death & Justice (6/15 – 6/21)**
+- **Mon 6/15:** Ch 7 — End of Life
+  - 7a: Brain death, PVS, advance directives
+  - 7b: Euthanasia, MAID, disability critiques
+  - *Case 7: Terri Schiavo*
+- **Wed 6/17:** Ch 8 — Justice & Health Care Allocation
+  - 8a: Theories of justice; right to care
+  - 8b: Disparities, implicit bias, rationing
+  - *Case 8: Sarah Murnaghan & UNOS organ allocation*
+- **Fri 6/19:** Ch 9 — Public Health Ethics
+  - 9a: From patient to population
+  - 9b: Pandemics, mandates, and what COVID revealed
+  - *Case 9: COVID-19 ventilator triage (NY / Italy)*
+- **Sat–Sun 6/20–6/21: Exam 2 (Ch 5–8)**
+
+**Week 4 — Frontiers (6/22 – 6/28)**
+- **Mon 6/22:** Ch 10 — AI in Medicine
+  - 10a: How medical AI works and where it goes wrong
+  - 10b: Consent, liability, and living with black boxes
+  - *Case 10: Optum care-management algorithm*
+- **Wed 6/24:** Ch 11 — Gender, Identity & Disability
+  - 11a: Gender-affirming care and the evidence debate (Cass Review)
+  - 11b: Disability, identity, and the limits of autonomy
+  - *Case 11: Bell v. Tavistock*
+- **Fri 6/26:** Ch 12 — Animal Ethics
+  - 12a: Moral status of animals and the ethics of research
+  - 12b: Industrial animals, xenotransplantation, connecting threads
+  - *Case 12: David Bennett pig-heart xenotransplant*
+
+**Week 5 — Final Exam (6/29 – 7/2)**
+- **Mon 6/29 – Thu 7/2: Exam 3 (Ch 9–12)** opens Monday and closes Thursday night. End of course.

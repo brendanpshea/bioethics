@@ -7,7 +7,9 @@
       "Bash(curl -s -A \"BioethicsOER/1.0 \\(educational; brendanpshea@gmail.com\\)\" -o \"c:/Users/brend/OneDrive/Documents/Github/bioethics/images/kant.jpg\" \"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Immanuel_Kant_%28painted_portrait%29.jpg/600px-Immanuel_Kant_%28painted_portrait%29.jpg\")",
       "Bash(curl -s -A \"BioethicsOER/1.0 \\(educational; brendanpshea@gmail.com\\)\" -o \"c:/Users/brend/OneDrive/Documents/Github/bioethics/images/aristotle.jpg\" \"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/600px-Aristotle_Altemps_Inv8575.jpg\")",
       "Bash(curl -s -A \"BioethicsOER/1.0 \\(educational; brendanpshea@gmail.com\\)\" -o \"c:/Users/brend/OneDrive/Documents/Github/bioethics/images/mill.jpg\" \"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/John_Stuart_Mill_by_London_Stereoscopic_Company%2C_c1870.jpg/600px-John_Stuart_Mill_by_London_Stereoscopic_Company%2C_c1870.jpg\")",
-      "Bash(curl -s -A \"BioethicsOER/1.0 \\(educational; brendanpshea@gmail.com\\)\" -o \"c:/Users/brend/OneDrive/Documents/Github/bioethics/images/bentham.jpg\" \"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Jeremy_Bentham_by_Henry_William_Pickersgill.jpg/600px-Jeremy_Bentham_by_Henry_William_Pickersgill.jpg\")"
+      "Bash(curl -s -A \"BioethicsOER/1.0 \\(educational; brendanpshea@gmail.com\\)\" -o \"c:/Users/brend/OneDrive/Documents/Github/bioethics/images/bentham.jpg\" \"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Jeremy_Bentham_by_Henry_William_Pickersgill.jpg/600px-Jeremy_Bentham_by_Henry_William_Pickersgill.jpg\")",
+      "Bash(pandoc --version)",
+      "Bash(pandoc --print-default-data-file reference.docx)"
     ]
   }
 }

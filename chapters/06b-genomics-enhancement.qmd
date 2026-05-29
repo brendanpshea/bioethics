@@ -528,7 +528,7 @@ State the three accounts of the treatment-enhancement distinction in your own wo
 ::: {.review-item .review-apply}
 [Apply]{.review-label}
 
-A 28-year-old patient with sickle-cell disease asks you about Casgevy. She is insured through Medicaid in a state where coverage is uncertain. What three things do you tell her about the treatment itself, and what is the one ethical issue you cannot resolve at the bedside?
+A young woman with sickle-cell disease is considering Casgevy, but her state's Medicaid program may not cover it. Name two things she needs to understand about the treatment, and one ethical issue that goes beyond her individual case.
 :::
 
 ::: {.review-item .review-debate}
