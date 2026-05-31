@@ -290,7 +290,8 @@ The lecture's spine is the **treatment-vs-enhancement distinction** — normativ
 ### L7a. Death, Dying, and Advance Planning
 
 - Defining the end of life clinically: **brain death**, **coma**, **persistent vegetative state**, **minimally conscious state** — what's different about each.
-- The 1968 Harvard criteria and the move to whole-brain death.
+- The 1968 Harvard criteria and the move to whole-brain death. 
+- Current debates on defining / operationalizing death
 - **Advance directives** in everyday terms:
   - Living wills
   - Durable power of attorney for health care

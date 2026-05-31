@@ -1,0 +1,577 @@
+---
+title: "Lecture 7 — End-of-Life Care"
+subtitle: "Part A: Death, Dying, and Advance Planning"
+author: "Brendan Shea, PhD"
+date: ""
+date-meta: last-modified
+institute: "An Introduction to Bioethics."
+format:
+  html:
+    toc: true
+    number-sections: true
+  revealjs:
+    output-file: 07a-death-dying-slides.html
+---
+
+# A Woman Who Is Neither Awake Nor Dead {.section-divider}
+
+## A Case to Sit With
+
+::: {.thought-question}
+In January 1983, 25-year-old Nancy Cruzan lost control of her car on an icy Missouri road and was thrown into a ditch. Paramedics restarted her heart, but her brain had gone too long without oxygen. She never woke up.
+
+Years later she still breathes on her own. Her eyes open. She has cycles of sleep and waking. But she never tracks a face, never responds, never shows a sign that anyone is home. Her parents say she would have hated living this way, and they ask the hospital to stop the feeding tube that keeps her alive.
+
+**Write or discuss:**
+
+1. Is Nancy alive? Is she still *there*?
+2. Should her parents' word be enough to stop the feeding tube?
+3. Who, exactly, should get to decide — and on what basis?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+Nancy's case hides **two different questions** that people constantly run together.
+
+- **Is the person gone?** This is a *clinical* question — about brains, breathing, and consciousness.
+- **Who decides what happens next, and on what basis?** This is a *legal and ethical* question — about consent, evidence, and family.
+
+A patient can be clearly gone with no decision left to make (she is simply dead), or fully present but unable to speak for herself, or — like Nancy — somewhere in between, where both questions are live at once. Today we take them one at a time.
+:::
+
+## Today
+
+::: {.learning-outcomes}
+By the end of Part A, you will be able to:
+
+- Distinguish **coma**, **persistent vegetative state**, **minimally conscious state**, and **locked-in syndrome** by their clinical signs.
+- Explain the **whole-brain** standard of death, where it came from (Harvard 1968), and how the law codified it.
+- Apply the two surrogate standards — **substituted judgment** and **best interest** — to a patient who cannot speak.
+- Tell a **living will**, a **durable power of attorney**, and a **POLST** apart: what each is, who fills it out, and when it takes effect.
+- Explain why the **Cruzan** ruling drove the spread of advance directives.
+- Say what made the **Quinlan**, **Cruzan**, and **Schiavo** cases different from one another.
+:::
+
+## A Note on Language
+
+The everyday words for this topic are loaded. "Vegetable," "life support," and "pulling the plug" all smuggle in judgments before the argument starts.
+
+- We will use the clinical terms — *vegetative state*, *mechanical ventilation*, *withdrawing treatment* — not because they are colder, but because they are **more precise**.
+- Precision matters here because the words decide real outcomes. Whether a body counts as a *living patient* or a *dead body* changes who may touch it, who may stop, and who may grieve.
+
+Watch your own reactions to the vocabulary today. They are often where the ethics is hiding.
+
+# Question One: Is the Person Gone? {.section-divider}
+
+## Two Things We Mix Up
+
+::: {.context-box}
+**Arousal vs. awareness**
+
+Consciousness has two parts, and they can come apart.
+
+- **Arousal** is wakefulness — eyes open, sleep-wake cycles. It is run by the brainstem.
+- **Awareness** is *content* — actually experiencing something, recognizing a face, feeling pain as pain. It depends on the cortex.
+
+A patient can be **aroused but not aware** (eyes open, no one home). This is exactly the combination that makes end-of-life cases so hard, and it is why "unconscious" is too blunt a word for what we are about to describe.
+:::
+
+## The Spectrum of Consciousness
+
+```{dot}
+//| fig-width: 9
+digraph G {
+  rankdir=LR;
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fillcolor="#eef3f8"];
+  edge [color="#888888"];
+  coma  [label="Coma\n(no arousal,\nno awareness)"];
+  pvs   [label="Vegetative\nstate\n(arousal,\nno awareness)"];
+  mcs   [label="Minimally\nconscious\n(arousal,\nflickers of\nawareness)"];
+  li    [label="Locked-in\n(full awareness,\nno movement)", fillcolor="#f8eeee"];
+  aware [label="Full\nawareness", fillcolor="#eef8ee"];
+  coma -> pvs -> mcs -> aware;
+  mcs -> li [style=dashed, label="different\naxis"];
+}
+```
+
+These are not stops on a single dial. Locked-in patients are *fully* aware — they sit off to the side as a warning about how wrong our guesses can be.
+
+## Coma
+
+A [coma]{.key-term} is a state of deep unresponsiveness: no arousal and no awareness. The eyes stay closed, and there are no sleep-wake cycles.
+
+- It is caused by damage to the brainstem or to large areas of both hemispheres.
+- Coma is usually **temporary**. Within two to four weeks, most patients either recover some function, progress to a vegetative state, or die.
+- A coma is *not* the same as brain death, and it is *not* the same as deep anesthesia or sleep, though it can look similar from the bedside.
+
+## Persistent Vegetative State
+
+::: {.columns}
+::: {.column width="52%"}
+In a [vegetative state]{.key-term}, the brainstem recovers enough for **arousal** but the cortex does not recover **awareness**. The patient's eyes open, they have sleep-wake cycles, they may grimace or moan — but there is no sign of experience.
+
+The word *persistent* means it has lasted a while; *permanent* is a prediction that it will not reverse — generally after 3 months (non-traumatic) or 12 months (traumatic injury). [@multisociety1994]
+:::
+::: {.column width="48%"}
+::: {.callout-important}
+**This is where Nancy Cruzan was.**
+
+Her eyes opened. She had sleep-wake cycles. Reflexes worked. To a visitor she could look almost awake — which is exactly why her family's request to stop her feeding tube struck many people as killing, not letting die.
+:::
+:::
+::::
+
+## Minimally Conscious State
+
+A [minimally conscious state]{.key-term} is a step up from vegetative: the patient shows **inconsistent but real** signs of awareness — following a simple command once, tracking a person with their eyes, reaching for a cup.
+
+- The signs come and go, which makes the diagnosis genuinely hard.
+- The stakes of getting it wrong are enormous. Studies have found that a large share of patients labeled "vegetative" are, on careful testing, actually minimally conscious.
+- "Minimally conscious" still means **conscious**. Someone is in there, at least intermittently — and that changes every decision that follows.
+
+## Locked-In Syndrome
+
+::: {.columns}
+::: {.column width="55%"}
+[Locked-in syndrome]{.key-term} is the mirror image of the vegetative state. Damage to the *ventral pons* in the brainstem paralyzes nearly every voluntary muscle, while the cortex is **completely intact**.
+
+The patient is fully awake and aware — thinking, feeling, hearing every word said over the bed — but can often move only their eyes. They are not gone at all. They are trapped.
+:::
+::: {.column width="45%"}
+::: {.context-box}
+**Why it belongs here**
+
+Locked-in patients have been mistaken for vegetative for months. The lesson is humbling: from the outside, a fully conscious person and an unaware one can look the same. Our confidence about "no one is home" should always carry a margin of doubt.
+:::
+:::
+::::
+
+## From a Stopped Heart to a Stopped Brain
+
+For most of history, death was obvious: the heart stopped, breathing stopped, the body went cold. You did not need a definition.
+
+Two mid-century technologies broke that simplicity.
+
+- The **mechanical ventilator** could keep a body breathing and a heart beating after the brain had been destroyed. Now there were warm, pulsing bodies with no brain function at all.
+- **Organ transplantation** raised the stakes: organs had to be taken from a body that was legally dead, but still perfused. *When* someone counted as dead suddenly had life-or-death consequences for others.
+
+## The Harvard Criteria (1968)
+
+::: {.context-box}
+**"A Definition of Irreversible Coma"**
+
+In 1968 an ad hoc committee at Harvard Medical School proposed a new basis for declaring death: not a stopped heart, but a permanently nonfunctioning brain. [@harvard1968]
+
+Their tests were practical and strict — no response to stimuli, no movement or breathing, no reflexes, a flat EEG — repeated after 24 hours to confirm irreversibility.
+
+This was a genuine shift. For the first time, a breathing, beating body could be declared **dead** on the basis of its brain.
+:::
+
+## Whole-Brain Death Becomes Law
+
+By 1981 the idea had matured into a legal standard. The President's Commission endorsed it [@presidents_commission_1981], and the **Uniform Determination of Death Act** put it into statute across the states [@udda1981].
+
+A person is dead who has sustained **either**:
+
+1. irreversible cessation of **circulatory and respiratory** functions, **or**
+2. irreversible cessation of **all functions of the entire brain**, including the brainstem.
+
+The second clause is [whole-brain death]{.key-term}. Both routes are legally death — equally final, equally complete.
+
+## How Brain Death Is Tested
+
+Declaring whole-brain death is not a guess; it follows a fixed clinical protocol.
+
+- **No responsiveness** and a known, irreversible cause.
+- **No brainstem reflexes** — pupils fixed, no gag, no cough, no response to cold water in the ear.
+- **The apnea test** — the ventilator is briefly removed; if carbon dioxide rises and the patient still makes no effort to breathe, the brainstem is not driving respiration.
+
+Only when every part fails, with no reversible cause, is the patient declared dead — even while the ventilator keeps the chest rising.
+
+## Is Death a Fact or a Line We Draw?
+
+::: {.columns}
+::: {.column width="48%"}
+**The whole-brain standard (the law)**
+
+Death is the irreversible loss of the brain's role as the body's integrator. It is a biological fact we *discover*.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**The challengers**
+
+- **Higher-brain** view: what matters is the *person* — consciousness. On this view a permanently unaware patient is, in the sense that counts, already gone.
+- **Circulatory** view: bodies with brain death can be maintained for years, so "brain = death" may be a useful *convention*, not a discovery. [@sep_death]
+:::
+::::
+
+We will not settle this. Notice only that the legal line and the philosophical question do not perfectly match.
+
+## Make It Contemporary
+
+::: {.thought-question}
+In 2025, **Adriana Smith**, a pregnant nurse in Georgia, was declared brain-dead after a medical emergency. By the whole-brain standard, she was legally **dead**.
+
+But she was about nine weeks pregnant, and hospital staff read Georgia's strict abortion law as requiring them to keep her body on support to let the fetus develop. Her body was maintained for months over her family's objections.
+
+**Discuss:**
+
+1. If Adriana was legally dead, whose decision was it to continue support?
+2. Does a brain-death declaration end a person's interests, or can the law assign her body new obligations?
+:::
+
+## Make It Contemporary (cont.)
+
+::: {.thought-question}
+The Adriana Smith case is a collision of three bodies of law that rarely meet.
+
+- **Brain-death law** said she was dead and her treatment could stop.
+- **Abortion law** was read to say the pregnancy must be protected.
+- **Advance-directive law** normally lets a person or family refuse continued intervention — but the law was unclear whether a dead woman could still "refuse." [@watson2025braindeath]
+
+**Discuss:** When these three frameworks conflict, which should win — and who should decide that they conflict at all?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+The Smith case forces a distinction we have been circling.
+
+- **Being dead** is a fact about the body — Adriana met the legal definition of death.
+- **Being allowed to die** is a *decision* about a still-living patient — the question Nancy Cruzan's family faced.
+
+These are not the same problem. Confusing them is the single most common mistake in end-of-life debates: arguing about *what someone is* when the real disagreement is about *what we are permitted to do*.
+:::
+
+# Question Two: Who Decides? {.section-divider}
+
+## When the Patient Can't Speak
+
+A competent adult may accept or refuse any treatment, including life-sustaining treatment — that is settled ground. The hard cases begin only when the patient **loses the capacity** to decide.
+
+- Capacity is decision-specific: it is the ability to understand the choice, weigh it, and communicate it.
+- When capacity is gone and cannot be regained in time, the decision must pass to someone else.
+- The rest of this lecture is about *who* that someone is, and *how* they are supposed to decide.
+
+## The Surrogate Hierarchy
+
+When a patient cannot decide, most states follow an ordered chain to find a [surrogate]{.key-term} — a stand-in decision-maker.
+
+- First, anyone the patient **named in advance** (a healthcare proxy).
+- If no one was named, a **default hierarchy** kicks in: usually spouse, then adult children, then parents, then siblings.
+- The exact order is set by **state law and varies**, which is why two families in two states can face the same crisis and get different answers about who is in charge.
+
+## Who Decides? — A Flowchart
+
+```{dot}
+//| fig-width: 8
+digraph G {
+  rankdir=TB;
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fillcolor="#eef3f8"];
+  edge [fontname="Helvetica", fontsize=10, color="#888888"];
+  cap   [label="Does the patient\nhave capacity?"];
+  pt    [label="Patient decides", fillcolor="#eef8ee"];
+  proxy [label="Did they name\na proxy?"];
+  named [label="Named proxy decides"];
+  doc   [label="Did they leave\nwritten wishes?"];
+  follow[label="Follow the directive"];
+  surr  [label="Default surrogate decides\n(state hierarchy)"];
+  cap -> pt [label="yes"];
+  cap -> proxy [label="no"];
+  proxy -> named [label="yes"];
+  proxy -> doc [label="no"];
+  doc -> follow [label="yes"];
+  doc -> surr [label="no"];
+}
+```
+
+## Standard One: Substituted Judgment
+
+::: {.context-box}
+**Substituted judgment**
+
+The surrogate asks: *"What would **this patient** have wanted?"* — not what the surrogate wants, and not what is best in the abstract.
+
+It is an attempt to honor the patient's own values when she can no longer voice them. Past statements, religious commitments, and how she lived all become evidence.
+
+**Its weakness:** we are often guessing. Studies show surrogates predict patients' wishes only a little better than chance. The harder the case, the thinner the evidence tends to be.
+:::
+
+## Standard Two: Best Interest
+
+::: {.context-box}
+**Best interest**
+
+When we have **no idea** what the patient would have wanted — a young child, a lifelong intellectual disability, a stranger with no record — substituted judgment has nothing to work with.
+
+Then the surrogate falls back to asking: *"What is best for someone in this situation?"* — weighing benefits, burdens, pain, and prospects for recovery.
+
+This standard is more objective, but it is also more **paternalistic**: it can override what an unusual patient might actually have chosen for herself.
+:::
+
+## The Two Standards Side by Side
+
+| | Substituted judgment | Best interest |
+|---|---|---|
+| **Question asked** | What would *this patient* have wanted? | What is best for someone here? |
+| **Needs** | Evidence of the patient's values | A judgment about benefits/burdens |
+| **Used when** | We know something about the patient | We know little or nothing |
+| **Risk** | Guessing, projection | Paternalism |
+
+Courts generally **prefer substituted judgment** when there is real evidence, and treat best interest as the fallback — which is exactly why written evidence became so valuable.
+
+## Cruzan Reaches the Supreme Court (1990)
+
+Nancy's parents asked Missouri to let them stop her feeding tube. The state refused, and in 1990 the case became the first "right to die" dispute the U.S. Supreme Court ever heard. [@cruzan1990]
+
+The Court's holding was narrow but pivotal:
+
+- A competent person **does** have a constitutional right to refuse treatment, including artificial nutrition.
+- But a state **may require "clear and convincing evidence"** of an incompetent patient's own wishes before a surrogate stops treatment.
+- Missouri's standard was constitutional — and Nancy's family had not yet met it.
+
+## Cruzan's Ending
+
+The ruling sent the family back to find better evidence — and they did.
+
+- After the decision, **former coworkers came forward** with specific memories of Nancy saying she would never want to live "like a vegetable."
+- A Missouri court found this met the clear-and-convincing standard.
+- Her feeding tube was removed in December 1990, and **Nancy Cruzan died on December 26, 1990**, nearly eight years after the crash.
+
+The case that demanded *evidence of her wishes* is the reason millions of Americans now write those wishes down.
+
+# The Paperwork Cruzan Created {.section-divider}
+
+## Why Directives Exploded After Cruzan
+
+If the law would honor a patient's wishes only with **clear evidence**, the obvious response was to create the evidence in advance.
+
+- Within months of the ruling, Congress passed the **Patient Self-Determination Act of 1990**, requiring hospitals to ask every admitted patient whether they have an advance directive — and to tell them they may make one.
+- An [advance directive]{.key-term} is simply a set of instructions, made while you have capacity, for a time when you do not.
+- There are two main kinds, plus a third document that works differently. [@sep_advance_directives]
+
+## The Living Will
+
+A [living will]{.key-term} states, in advance, **what treatments you would or would not want** if you become unable to decide and are terminally ill or permanently unconscious.
+
+- It speaks for you when you cannot — "no ventilator, no feeding tube, no CPR," or the opposite.
+- Its blind spot: it can only address situations you **foresaw**. Medicine is full of cases no one wrote down, and a living will goes silent on those.
+- It also requires someone to *find it* and *read it* at the right moment — which does not always happen.
+
+## The Durable Power of Attorney
+
+::: {.columns}
+::: {.column width="55%"}
+A [durable power of attorney for health care]{.key-term} does something different: instead of guessing every scenario, you **name a person** to decide for you.
+
+"Durable" means it stays in effect *after* you lose capacity — which is the whole point.
+
+The named agent can respond to the actual situation, ask questions, and reason the way you would, rather than being limited to a checklist written years earlier.
+:::
+::: {.column width="45%"}
+::: {.callout-note}
+**Why many ethicists prefer it**
+
+A scenario you never imagined cannot be covered by a living will. But a trusted person who knows your values can adapt. Naming an agent transfers *judgment*, not just instructions.
+:::
+:::
+::::
+
+## POLST: A Different Kind of Document
+
+A [POLST]{.key-term} (Physician Orders for Life-Sustaining Treatment; **MOLST** in some states) is **not** an advance directive. The difference matters.
+
+- A living will is a *patient's wish*. A POLST is a **medical order**, signed by a clinician, that other clinicians must follow immediately.
+- It is meant for the **seriously ill** — people for whom these decisions are not hypothetical but likely within the year.
+- It travels with the patient across settings (home, nursing facility, ambulance) and tells a paramedic at 3 a.m. exactly what to do, with no time to hunt for a lawyer's document.
+
+## Three Documents at a Glance
+
+| | Living will | Durable POA | POLST / MOLST |
+|---|---|---|---|
+| **What it is** | Your stated wishes | A named decision-maker | A doctor's standing order |
+| **Who fills it out** | Any adult | Any adult | Clinician + patient |
+| **For whom** | Anyone planning ahead | Anyone planning ahead | The seriously/terminally ill |
+| **When it kicks in** | You lose capacity | You lose capacity | Immediately, as an order |
+| **Binds EMS?** | Not directly | Through the agent | **Yes, directly** |
+
+## What a Directive Looks Like
+
+::: {.context-box}
+**A simplified living-will excerpt (illustrative only)**
+
+> *If I am terminally ill or permanently unconscious, and two physicians agree my condition will not improve, I direct that:*
+>
+> - *I do **not** want cardiopulmonary resuscitation (CPR).*
+> - *I do **not** want a breathing machine to be used or continued.*
+> - *I **do** want medication to keep me comfortable, even if it shortens my life.*
+>
+> *I appoint my sister, Maria, as my health care agent to make any decision not covered above.*
+
+Real forms are longer and state-specific — but this is the shape of the thing.
+:::
+
+## Where Directives Fail
+
+Advance directives are powerful, but they are not a solution to everything.
+
+- Most people **never fill one out** — estimates put completion well under half of adults.
+- A directive that exists but **cannot be found** in the emergency does no good.
+- Many are **too vague** ("no heroic measures") to guide a concrete decision.
+- And a family that **disagrees** can stall or override even a clear document at the bedside.
+
+These gaps are exactly the soil in which the worst conflicts grow.
+
+## Thought Question
+
+::: {.thought-question}
+Your father has had a massive stroke and cannot communicate or swallow. The team asks whether to place a feeding tube. He left **no living will**, but years ago he named **you** as his health care agent.
+
+You remember him saying, after visiting his own mother in a nursing home, "Don't ever let me end up like that." But you are not certain he meant *this*.
+
+1. Are you reasoning by substituted judgment or best interest right now?
+2. How strong is your evidence — would it meet "clear and convincing"?
+3. Does being the *named agent* change what you are allowed to decide, versus a default surrogate?
+:::
+
+## Make It Contemporary
+
+::: {.thought-question}
+States have tried to make the 3 a.m. version of your father's case easier.
+
+- **POLST programs** (now in most states) would let his physician convert "no feeding tube" into a portable medical order that EMS must honor.
+- **Default-surrogate statutes** name, in law, who decides when no agent was appointed — but the order of relatives **differs by state**.
+
+**Discuss:** Would a POLST have made your decision easier, or just moved the hard judgment earlier — onto the doctor who signed it?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+A distinction clinicians feel even though the law treats the two alike:
+
+- **Withholding** treatment is never starting it (not placing the feeding tube).
+- **Withdrawing** treatment is stopping something already running (removing the tube).
+
+Ethically and legally, these are considered **equivalent** — if it is permissible not to start, it is permissible to stop. But many caregivers feel withdrawing is far harder, as if it *causes* the death. Hold onto that gap between law and feeling. It is the hinge of everything in Part B.
+:::
+
+# When the Tools Aren't Enough: Schiavo {.section-divider}
+
+## Theresa Schiavo
+
+In February 1990, 26-year-old **Terri Schiavo** collapsed at home in Florida from cardiac arrest. Like Nancy Cruzan, her brain was starved of oxygen, and she entered a **persistent vegetative state**.
+
+- Her husband, **Michael**, became her legal guardian.
+- She left **no living will** and had named no health care agent.
+- For several years the family was united in hoping she might recover.
+
+The tools we just studied — the directive, the named agent — were exactly what she did not have.
+
+## The Conflict
+
+By the late 1990s the family had split, and the split was total.
+
+- **Michael Schiavo** said Terri would never have wanted to be kept alive this way, and asked to remove her feeding tube — a substituted-judgment claim based on past remarks.
+- Her parents, the **Schindlers**, disputed that she was truly vegetative, believed she responded to them, and wanted treatment continued.
+
+With no written directive, the case became a **contest of credibility**: whose account of Terri's wishes should the court believe?
+
+## The Escalation
+
+What made Schiavo unique was not the medicine — it was how far the fight traveled. [@quill2005_schiavo]
+
+- **Florida courts** repeatedly found, on the evidence, that Terri was in a PVS and would have refused the tube.
+- The **Florida legislature** passed "Terri's Law" (2003) to let the governor order the tube reinserted; the state supreme court struck it down.
+- In March 2005, **Congress** passed and the **President** signed a law moving the case to federal court.
+- The federal courts declined to overturn the findings.
+
+## The Autopsy
+
+Terri Schiavo's feeding tube was removed, and she died on **March 31, 2005**, fifteen years after her collapse.
+
+- The autopsy found her brain had **atrophied to about half its normal weight** — damage that was massive and irreversible.
+- It confirmed she had been **blind**, making claims that she "tracked" visitors impossible.
+
+The autopsy settled the *medical* facts. It did not settle the **ethical and political** dispute — by then the case had become a national argument about life, disability, and who should decide, and the autopsy changed almost no one's mind.
+
+## Three Cases, Three Lessons
+
+| Case | Year | State | The new question it raised |
+|---|---|---|---|
+| **Quinlan** | 1976 | NJ | May a surrogate *withdraw a ventilator*? (Yes.) |
+| **Cruzan** | 1990 | MO | May a state demand *clear evidence* of wishes? (Yes.) |
+| **Schiavo** | 2005 | FL | What happens when *the family itself splits*? |
+
+Quinlan opened the door to refusing treatment. Cruzan set the evidentiary price. Schiavo showed that even with both settled, a divided family and a missing directive can still tear everything apart.
+
+*(Karen Ann Quinlan, notably, kept breathing for nearly a decade after her ventilator was removed — a reminder that "removing life support" does not always mean immediate death.)*
+
+## Why These Cases Keep Happening
+
+The Schiavo circus was extreme, but its ingredients are ordinary.
+
+- **Most people leave no directive** — so there is nothing clear to follow.
+- **Families disagree**, often out of love pulling in opposite directions.
+- **The diagnosis itself can be contested**, especially the PVS/minimally-conscious line.
+
+Every tool in this lecture exists to keep an ordinary tragedy from becoming a Schiavo. None of them works if the documents are never filled out.
+
+## Mini-Recap
+
+::: {.recap}
+We took two questions in turn. *Is the person gone?* led us through coma, vegetative and minimally conscious states, and the whole-brain definition of death. *Who decides?* led us through the surrogate hierarchy, substituted judgment versus best interest, and the documents — living wills, durable powers of attorney, and POLST — that Cruzan made essential.
+
+Notice what every case so far had in common: the question was whether to **let** the dying happen — to stop or withhold treatment. In Part B we cross a sharper line: not letting die, but **actively ending** a life on request. The same patient, the same suffering — but a question that divides medicine far more deeply.
+:::
+
+## Review Questions
+
+::: {.review-questions}
+
+::: {.review-item .review-recall}
+[Recall]{.review-label}
+
+Name the two clauses of the Uniform Determination of Death Act, and explain how a vegetative state differs from whole-brain death.
+:::
+
+::: {.review-item .review-apply}
+[Apply]{.review-label}
+
+A patient with advanced dementia and no advance directive develops pneumonia. Her three children disagree about antibiotics. Which surrogate standard applies, and what would you need to know to use it?
+:::
+
+::: {.review-item .review-debate}
+[Debate]{.review-label}
+
+Should states be allowed to require "clear and convincing evidence" of a patient's wishes before a family may stop treatment, as *Cruzan* permits — or does that set the bar too high?
+:::
+
+:::
+
+## Key Terms
+
+- **Coma** — deep unresponsiveness with no arousal and no awareness; usually temporary.
+- **Vegetative state** — arousal (eyes open, sleep-wake cycles) without awareness.
+- **Minimally conscious state** — inconsistent but genuine signs of awareness.
+- **Locked-in syndrome** — full awareness with near-total paralysis.
+- **Whole-brain death** — irreversible loss of all brain function, including the brainstem; legally death.
+- **Surrogate** — a stand-in decision-maker for a patient who lacks capacity.
+- **Substituted judgment** — deciding as *this patient* would have wanted.
+- **Best interest** — deciding what is best for someone in the patient's situation.
+- **Advance directive** — instructions made while competent for a time of incapacity.
+- **Living will / Durable power of attorney / POLST** — wishes / a named agent / a portable medical order.
+
+## Further Reading
+
+- President's Commission. *Defining Death.* U.S. Government Printing Office, 1981.
+- Cowart, Dax, and Robert Burt. "Confronting Death: Who Chooses, Who Controls?" [@cowart1998]
+- DeGrazia, David. "The Definition of Death." *Stanford Encyclopedia of Philosophy.* [@sep_death]
+- Davis, John K. "Advance Directives and Substitute Decision-Making." *Stanford Encyclopedia of Philosophy.* [@sep_advance_directives]
+
+## References
+
+::: {#refs}
+:::
