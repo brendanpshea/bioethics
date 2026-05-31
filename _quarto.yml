@@ -58,6 +58,12 @@ website:
             text: "Part A — Reading Genomes"
           - href: chapters/06b-genomics-enhancement.qmd
             text: "Part B — Engineering Persons"
+      - text: "7. End-of-Life Care"
+        menu:
+          - href: chapters/07a-death-dying.qmd
+            text: "Part A — Death, Dying & Advance Planning"
+          - href: chapters/07b-euthanasia.qmd
+            text: "Part B — Euthanasia & Assisted Death"
     right:
       - icon: github
         href: https://github.com/brendanpshea/bioethics-oer

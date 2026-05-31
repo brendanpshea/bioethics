@@ -32,6 +32,8 @@ All materials are freely available for non-commercial educational use under a [C
 | 5B | Reproductive Ethics | Making Family: Markets, Surrogacy, and Parental Rights | [Slides](chapters/05b-reproductive-markets-slides.html) | [Notes](chapters/05b-reproductive-markets.html) |
 | 6A | Genomics & Enhancement | Reading Genomes: Prediction, Privacy, and Dual Use | [Slides](chapters/06a-genomics-reading-slides.html) | [Notes](chapters/06a-genomics-reading.html) |
 | 6B | Genomics & Enhancement | Engineering Persons: CRISPR, Enhancement, and Identity | [Slides](chapters/06b-genomics-enhancement-slides.html) | [Notes](chapters/06b-genomics-enhancement.html) |
+| 7A | End-of-Life Care | Death, Dying, and Advance Planning | [Slides](chapters/07a-death-dying-slides.html) | [Notes](chapters/07a-death-dying.html) |
+| 7B | End-of-Life Care | Euthanasia, Assisted Death, and Their Critics | [Slides](chapters/07b-euthanasia-slides.html) | [Notes](chapters/07b-euthanasia.html) |
 
 ---
 
