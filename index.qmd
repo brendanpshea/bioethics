@@ -49,6 +49,7 @@ We offer comprehensive historical and clinical case studies to pair with specifi
 | 4 | **Kate Cox & Damla Karsan:** Conscientious Refusal, Conscientious Provision, and Professional Integrity Post-*Dobbs* | [L4B: Abortion Law](chapters/04b-abortion-law.html) | [HTML](cases/04-kate-cox-karsan.html) / [DOCX](cases/04-kate-cox-karsan.docx) |
 | 5 | **Adriana Smith:** Brain Death, Pregnancy, and the Limits of Fetal-Protection Law | [L5A: Pregnancy & Autonomy](chapters/05a-pregnancy-autonomy.html) | [HTML](cases/05-adriana-smith.html) / [DOCX](cases/05-adriana-smith.docx) |
 | 6 | **He Jiankui & the CRISPR Twins:** Germline Editing, Consent, and the Limits of Scientific Self-Regulation | [L6B: Engineering Persons](chapters/06b-genomics-enhancement.html) | [HTML](cases/06-he-jiankui.html) / [DOCX](cases/06-he-jiankui.docx) |
+| 7 | **Noelia Castillo:** Psychiatric Suffering, Decisional Capacity, and the Limits of Euthanasia Law | [L7B: Euthanasia & Assisted Death](chapters/07b-euthanasia.html) | [HTML](cases/07-noelia-castillo.html) / [DOCX](cases/07-noelia-castillo.docx) |
 
 
 ---

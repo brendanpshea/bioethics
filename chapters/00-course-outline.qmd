@@ -338,6 +338,7 @@ The lecture's spine is the **treatment-vs-enhancement distinction** — normativ
 - *Table:* MAID legal status across selected jurisdictions (US states, Canada, Netherlands, Belgium, Switzerland).
 - *Case box:* Rachels' "Smith and Jones in the bathtub" thought experiment.
 - *Discussion prompt:* "Is there a moral difference between turning off a ventilator and giving a lethal injection? Why or why not?"
+- *Case box:* **Noelia Castillo** (Spain, 2026) — the psychiatric-MAID frontier; the paired case study.
 - *Discussion debrief:* logical vs. empirical slippery slopes, using Canada's trajectory.
 
 ---

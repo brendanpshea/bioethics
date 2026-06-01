@@ -454,8 +454,44 @@ By 2023, MAID accounted for about **1 in 20 deaths** in Canada — among the hig
 
 The hardest frontier is assisted death for **psychiatric** suffering — where the illness is mental, not terminal.
 
-- The **Netherlands** and **Belgium** permit euthanasia for psychiatric conditions in rare cases (a small fraction of all cases, but a growing one).
+- The **Netherlands**, **Belgium**, and **Spain** permit assisted death for non-terminal suffering, including conditions that are partly or wholly psychiatric.
 - The dispute is sharp because two of the law's safeguards strain here: Is the suffering truly **irremediable**? Can a condition that distorts judgment leave the patient fully **competent** to consent?
+
+## A Case at the Frontier: Noelia Castillo
+
+::: {.columns}
+::: {.column width="55%"}
+In 2022, **Noelia Castillo**, a young Spanish woman with OCD and borderline personality disorder, attempted suicide and was left paraplegic and in constant pain. In 2024 she asked to die under Spain's euthanasia law.
+
+Her **father** fought her in court for **601 days**, arguing her mental illness made her wish to die a *symptom*, not a choice. Every court — up to the European Court of Human Rights — found she had **capacity**. She died in March 2026, age 25.
+:::
+::: {.column width="45%"}
+::: {.callout-important}
+**Why it's the hard case**
+
+Her death was approved for *physical* pain, but fought over *psychiatric* capacity. She was **not dying** — she was disabled. So the case fuses both critiques: Is this autonomy honored, or a vulnerable woman society failed first and offered death second?
+:::
+:::
+::::
+
+## Castillo: Two Readings of the Same Facts
+
+::: {.columns}
+::: {.column width="48%"}
+**Autonomy honored**
+
+Refusing a capable woman's request *only* because her suffering is psychiatric applies a double standard we never use for physical illness. Every court agreed she could choose.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**Vulnerability abandoned**
+
+Safeguards checked whether she *qualified*, not *why* she got there: lost home, institutional care, untreated trauma, assaults never investigated. A pianist offered to fund her care. Was death simply more available than a livable life?
+:::
+::::
+
+The paired case study works this through in full. It is the live form of every argument in this lecture.
 
 ## Canada Hits the Brakes
 
@@ -523,7 +559,7 @@ Should assisted death ever be available for psychiatric suffering alone, as in B
 
 ## Paired Case
 
-Work through the paired case study on **Brittany Maynard and the right to die**, which traces one competent patient's choice against the arguments above.
+Work through the paired case study on **Noelia Castillo** — a woman left disabled by a suicide attempt who won a two-year legal battle for euthanasia in Spain. It tests every argument in this lecture against the hardest case: psychiatric suffering, contested capacity, and a family that fought to keep her alive.
 
 ## Further Reading
 

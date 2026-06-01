@@ -1,0 +1,145 @@
+---
+title: "Noelia Castillo: Psychiatric Suffering, Decisional Capacity, and the Limits of Euthanasia Law"
+subtitle: "“I just want to go peacefully” — a bioethics case study"
+author: "Brendan Shea, PhD"
+date: last-modified
+---
+
+::: {.case-at-a-glance}
+- **Who:** Noelia Castillo Ramos (2000–2026), a young woman from Barcelona, Catalonia, Spain.
+- **What:** After a 2022 suicide attempt left her paraplegic and in constant pain, she asked to die under Spain's euthanasia law. Her request was approved, then tied up for 601 days by her father's legal appeals before she died at age 25.
+- **Where / When:** Catalonia, Spain, 2024–2026, under the 2021 Organic Law Regulating Euthanasia.
+- **Why it matters:** Castillo's case forces the hardest question in end-of-life ethics: can a person whose suffering is bound up with **mental illness** make a genuinely autonomous, irreversible choice to die — and who gets to decide whether she can? It also reverses the usual family fight: here a [competent]{.key-term} patient fought *for* death while her family fought to keep her alive.
+- **Pair with:** Euthanasia, Assisted Death, and Their Critics
+:::
+
+## The Case
+
+Noelia Castillo was born in Barcelona in November 2000. Her childhood was unstable. When she was about thirteen, her parents lost their home and separated, and her mental health began to suffer. She later said she sometimes had to follow her father to bars and wait there until the early hours of the morning. She was diagnosed with two conditions that would shadow the rest of her story: **obsessive–compulsive disorder** and **borderline personality disorder**.
+
+::: {.context-box}
+**Two diagnoses, in plain terms.**
+
+- [Obsessive–compulsive disorder]{.key-term} (OCD) involves intrusive, unwanted thoughts and repeated behaviors a person feels driven to perform to ease the anxiety those thoughts cause.
+- [Borderline personality disorder]{.key-term} (BPD) brings intense, unstable emotions, a shaky sense of self, and stormy relationships. It also raises the risk of self-harm and suicide, which matters here.
+
+Neither condition, by itself, removes a person's ability to make decisions. But BPD can drive suicidal feelings. So it sits at the center of the dispute that follows: when such a person asks to die, is that a free choice or a symptom of the illness?
+:::
+
+From 2015 to 2019, Castillo lived in social care. She left at eighteen, as a legal adult. In interviews she said she had survived several sexual assaults that she never reported, and so they were never investigated or confirmed in court. In October 2022, days after one of these assaults, she attempted suicide by jumping from a building. She was twenty-one.
+
+She survived the fall, but it changed everything. The injuries left her with **irreversible paraplegia** — permanent paralysis of the lower body — along with chronic physical pain, neurological damage, and deep psychological suffering. She now used a wheelchair and lived, in her own words, in constant pain.
+
+Eighteen months later, in April 2024, Castillo formally asked to die under Spain's euthanasia law.
+
+::: {.context-box}
+**Spain's euthanasia law.** The 2021 Organic Law Regulating Euthanasia lets a capable, conscious adult request an assisted death. They must have a "serious and incurable illness" *or* a "serious, chronic, and disabling condition." It must cause "constant and unbearable physical or mental suffering" with no relief the person finds tolerable [@spain_euthanasia_law2021]. Spain does **not** require that the patient be dying. A request must be made twice in writing, reviewed by independent doctors, and signed off by a regional committee. A doctor may then either give the lethal medication directly (**euthanasia**) or supply it for the patient to take (**assisted death**).
+:::
+
+In July 2024, Catalonia's Guarantee and Evaluation Commission approved her request unanimously. The procedure was set for the following month. It did not happen for another 601 days.
+
+The obstacle was her father. With the support of the Christian Lawyers Association, an ultra-conservative advocacy group, he launched a series of appeals to stop the procedure. His central argument was about her mind. He claimed that her personality disorder meant she could not make a sound judgment about ending her life. The state, he said, had a duty to protect her from a decision driven by illness.
+
+The courts disagreed, again and again. In March 2025, a Barcelona court rejected the appeal and found Castillo capable of deciding. The High Court of Justice of Catalonia upheld her right in September 2025. Spain's Supreme Court rejected the father's appeal in January 2026, and the Constitutional Court dismissed his claim. On March 10, 2026, the European Court of Human Rights rejected his final appeal. At every level, the courts found that Castillo had the capacity to choose.
+
+In a television interview recorded the day before she died, Castillo defended her decision and made a point of not recommending it to anyone else. "I just want to go peacefully now and to stop suffering," she said. "I don't want to be an example for anyone — it's simply my life." On March 26, 2026, at age twenty-five, she received euthanasia at a healthcare center in Sant Pere de Ribes. Her mother asked to be in the room. Castillo chose to die alone.
+
+Her case became a national argument before and after her death. It was debated in Spain's Congress. Several parties spoke in support. The People's Party and Vox criticized the outcome. Catholic bishops condemned it, with one calling it "another step toward a culture of death." A great deal of false information also spread. Political figures claimed she had been attacked by migrant children, and many reports said she had been granted euthanasia "for depression." Fact-checkers found both untrue [@castillo_guardian2026]. The official basis for her euthanasia was the chronic, irreversible **physical** pain from her injuries.
+
+That last fact is the knot at the center of the case. On paper, her euthanasia was approved for a physical, disabling condition — suffering the law plainly covers. But the reason it was fought all the way to Strasbourg was psychiatric. The claim was that a mind shaped by trauma and personality disorder cannot truly consent to its own death. The law treated her as a disability-and-pain case. Her father treated her as a psychiatric one. Both were describing the same woman.
+
+## The Argument Castillo Started
+
+Castillo's case is not hard because the facts are unclear. It is hard because two genuine values point in opposite directions. One is respect for what a suffering adult decides about her own life. The other is protection of people whose suffering may be distorting that very decision. The exchange below traces how that conflict unfolds, each move answering the one before.
+
+### The argument from autonomy
+
+The starting point is the principle behind Spain's law and most assisted-death laws: a competent adult may decide that her suffering is no longer bearable, and that judgment is hers to make.
+
+::: {.argument}
+**The Autonomy Argument**
+
+1. A competent adult has the right to make decisions about her own body and life, including how much suffering she will endure.
+2. Noelia Castillo was a competent adult enduring constant, irreversible suffering with no relief she found tolerable.
+3. Therefore, the decision to end that suffering through euthanasia was hers to make, and the law was right to honor it.
+:::
+
+Premise 1 is widely accepted in the abstract. So, as in many euthanasia cases, the whole weight of the argument falls on **premise 2** — the claim that Castillo was genuinely competent. That is exactly where her father attacked.
+
+### The capacity challenge: symptom or choice?
+
+Her father did not argue that suffering people should be forced to live. He argued that Castillo's particular suffering came wrapped in a mental illness that made her wish to die unreliable. On this view, a borderline personality disorder marked by suicidal urges does not just *accompany* the request to die — it may *produce* it. The wish is a symptom, not a settled preference.
+
+::: {.argument}
+**The Capacity Challenge**
+
+1. A choice counts as autonomous only if it reflects the person's stable values rather than a symptom of illness.
+2. Castillo's wish to die may be a symptom of her psychiatric disorders, which involve suicidality.
+3. The state has a duty to protect vulnerable people from acting on such symptoms.
+4. Therefore, her request should not have been honored without resolving whether it was a stable choice or a symptom.
+:::
+
+This challenge raises a problem psychiatrists have not solved. With a terminal cancer, doctors can say with confidence that the illness is **irremediable** — beyond cure. With a psychiatric condition, predicting that suffering will never lift is far harder. The line between *preventing suicide* and *assisting death* can blur [@grassi2022_maid_psych]. The same health system offers suicide prevention to one patient and euthanasia to another. What decides which door a person walks through?
+
+::: {.context-box}
+**Capacity and irremediability.** [Decisional capacity]{.key-term} is the ability to understand relevant information, appreciate how it applies to oneself, reason about options, and communicate a choice. It is decision-specific, not global: a person can have a diagnosis and still have capacity for a given decision. [Irremediable]{.key-term} suffering is suffering that cannot be relieved by any means the patient finds acceptable. Both concepts are easier to apply to a failing body than to a suffering mind — which is why psychiatric cases sit at the frontier of these laws.
+:::
+
+### The reply: a double standard
+
+Castillo's defenders — including a group of philosophers writing in *The Lancet Psychiatry* after her death — argue that the capacity challenge hides a double standard. They identify three moves against psychiatric euthanasia that they regard as fallacies [@rueda2026_fallacies].
+
+- **Branding the wish as a symptom.** Treating any death wish rooted in mental illness as automatically incompetent applies a test we never apply to physical illness. When a cancer patient in agony asks to die, we take it seriously; we do not dismiss it as the disease talking. Capacity must be judged case by case.
+- **The "better support" objection.** Saying that stronger family or social support might have changed her mind does not show that her actual decision was invalid. Almost any choice could be waved away by imagining kinder circumstances that never existed.
+- **The "time heals" objection.** Saying trauma *might* ease with more years and more treatment imposes an open-ended waiting period on the patient — a standard of proof that no other irremediable condition has to meet.
+
+::: {.argument}
+**The Anti–Double-Standard Reply**
+
+1. We accept a suffering patient's request to die when their condition is physical and judged irremediable.
+2. Refusing the same request when the suffering is psychiatric, solely because it is psychiatric, treats like cases differently without justification.
+3. Castillo was found to have capacity by every court and committee that examined her.
+4. Therefore, refusing her request would have been unjust discrimination against the mentally ill, not protection of them.
+:::
+
+The reply is powerful precisely because it turns the protective instinct around: shielding the mentally ill from their own choices can itself be a way of *not* taking them seriously as persons.
+
+### The vulnerability counter: a free choice, or a failed society?
+
+But the strongest objection to Castillo's euthanasia does not deny her capacity at all. It accepts that she chose freely — and asks what she was choosing *between*.
+
+The philosopher Loughran Butcher argues that defenders of psychiatric euthanasia answer the wrong worry. They point to safeguards: independent reviews, capacity assessments, committee approval. But safeguards only check whether a person *qualifies*. They do nothing about *why* a person reaches that point [@butcher2025_vulnerability]. Castillo's life held a lost home, years in institutional care, untreated trauma, poverty, and assaults that were never investigated. Each of those is a social failure, not a medical fact. A safeguard confirms she is eligible. It does not ask whether better support would have left her wanting to live.
+
+This is also where the **disability-rights** critique enters. Castillo was not dying. She was paralyzed and in pain. Many disabled people live with such conditions for decades and do not regard them as a reason to die. Critics worry that approving her death sends a message: that a paraplegic life is a life not worth living. The British pianist James Rhodes, himself an abuse survivor, offered to pay for her physical and mental healthcare. His gesture dramatized the objection. Was death offered to her more readily than a real chance at a livable life?
+
+::: {.argument}
+**The Vulnerability / Disability Argument**
+
+1. A choice is only as free as the alternatives a person actually has.
+2. Castillo's alternatives were narrowed by social failures — poverty, lost housing, institutional care, untreated trauma, and inadequate support.
+3. When death becomes more available than the support that would make life bearable, "choosing" death is not a clean exercise of autonomy.
+4. Therefore, honoring her request may have ratified a social failure rather than respected an autonomous person.
+:::
+
+Notice that this argument does not call Castillo incompetent. It grants everything the double-standard reply demands — and still finds something wrong. The Spanish bishops, in their own register, made a parallel point: the case showed "an accumulation of personal suffering and institutional shortcomings that calls the whole of society into question."
+
+### The unresolved frontier
+
+So the case ends where the law itself is unsettled. Only a handful of countries — the Netherlands, Belgium, Spain — permit assisted death for suffering that is not terminal and is partly or wholly psychiatric. Canada twice voted to extend its system to people whose sole condition is a mental illness. Twice it **postponed** the change, most recently to 2027. Clinicians could not agree on how to tell irremediable mental illness from the treatable kind [@grassi2022_maid_psych]. The very question Castillo's father raised is one that a whole national health system has so far refused to answer.
+
+Her case also inverts the older end-of-life disputes. In the landmark American cases, families fought to *stop* treatment while the state insisted on preserving life. Here a competent woman fought for death while her father fought to keep her alive. The courts sided with the woman against the family. That reversal is not a footnote. It shows how far the center of gravity has shifted toward individual autonomy. It also shows why the people most worried are not only religious conservatives, but disability advocates and psychiatrists.
+
+What remains unresolved is whether Castillo's death was autonomy honored or vulnerability abandoned. Both descriptions fit the same facts. The courts answered the narrow legal question — did she have capacity? They answered yes. They did not, and perhaps could not, answer the larger one. Would a just society have given her something to live for before it gave her a way to die?
+
+## Discussion Questions
+
+1. Every court that examined Castillo found she had the capacity to choose. Is a finding of capacity enough to settle whether honoring her request was *ethical*, or can a fully capable choice still be the wrong one to grant? Explain the gap, if there is one.
+2. The *Lancet Psychiatry* authors argue that treating a psychiatric death-wish as automatically incompetent applies a double standard we never apply to physical illness. Is the difference between physical and psychiatric suffering a real moral difference, or just a prejudice? Defend your answer.
+3. Butcher argues that safeguards check whether someone *qualifies* for euthanasia but ignore *why* they reached that point. If a person's wish to die grows out of poverty and lack of support, is their choice still autonomous? What would have to be true for it to count as free?
+4. Castillo's father argued the state should have protected her from her own decision; the courts ruled that protecting her meant respecting it. When a competent adult and her family disagree this completely, whose judgment should the law privilege, and why?
+5. Canada has twice postponed allowing euthanasia for mental illness alone because doctors cannot reliably judge when such suffering is irremediable. Given that uncertainty, should a country permit psychiatric euthanasia now, wait until the judgment is more reliable, or refuse it permanently? What does your answer cost?
+
+## References
+
+::: {#refs}
+:::
