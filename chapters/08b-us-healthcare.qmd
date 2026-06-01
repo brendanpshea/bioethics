@@ -544,6 +544,10 @@ Should the US adopt a single-payer system, a public option, or market reforms? D
 - **Underinsurance / financial toxicity** — having coverage but still unable to afford care, or bankrupted by it.
 - **Single-payer / public option** — one public insurer for all / a public plan competing with private ones.
 
+## Paired Case
+
+Work through the paired case study on **Singapore's health care system** — a country that covers everyone and lives longest while spending a quarter of what the US spends. It asks what the US can, and can't, learn from a "fifth model," and why Singapore's success is harder to copy than it looks.
+
 ## Further Reading
 
 - Reid, T. R. *The Healing of America: A Global Quest for Better, Cheaper, and Fairer Health Care.* Penguin, 2009. [@reid2009]

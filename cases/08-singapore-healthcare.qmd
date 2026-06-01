@@ -1,0 +1,164 @@
+---
+title: "Singapore's Health Care System: Cost, Access, Outcomes, and What the United States Can (and Can't) Learn"
+subtitle: "The model everyone admires — and reads selectively"
+author: "Brendan Shea, PhD"
+date: last-modified
+---
+
+::: {.case-at-a-glance}
+- **What:** Singapore covers everyone, lives longer than almost anyone, and spends about a quarter of what the US spends — through an unusual mix of forced savings, catastrophic insurance, subsidies, and heavy government control.
+- **The numbers:** Singapore spends **~5% of GDP** on health; the US spends **~18%**. Life expectancy is **83.5** years vs. **78.5** in the US. **100%** of Singaporeans have public coverage.
+- **The shadow:** roughly **a third** of Singapore's population are migrant workers, who are **excluded** from government subsidies. COVID-19 exposed this sharply.
+- **Why it matters:** Singapore is the system US reformers on the **left and right** both point to. This case asks whether the US can learn from it — and whether its success can be separated from the trade-offs that produce it.
+- **Pair with:** Why US Health Care Costs So Much
+:::
+
+## The Case
+
+Every American who studies health policy eventually runs into Singapore, and has the same reaction: *how?*
+
+The United States spends close to **18% of its entire economy** on health care — about **$14,570 per person** — and gets middling results. Singapore spends roughly **5% of GDP**, a quarter of the US share. Yet Singaporeans live to **83.5** on average, five years longer than Americans, and **everyone** is covered [@commonwealth_singapore]. On paper, Singapore looks like it solved the puzzle the US can't.
+
+It did not do so by building a British-style national health service, or a Canadian single-payer plan, or a German system of insurance funds. It built something stranger.
+
+::: {.context-box}
+**The "S+3Ms" framework.** Singapore funds health care through four layers [@commonwealth_singapore].
+
+- **Subsidies:** the government pays up to **80%** of the bill in public hospital wards, with the biggest subsidies for those who choose the most basic accommodations.
+- **MediSave (1984):** a [compulsory savings]{.key-term} account. Workers must set aside **8–10.5% of every paycheck** in a personal medical account they can later spend on care.
+- **MediShield Life (2015):** mandatory national insurance for **catastrophic** bills — big hospital stays and costly treatments. Everyone is in it, including people with pre-existing conditions.
+- **MediFund:** a government endowment that catches those who still can't pay after the other three layers.
+:::
+
+Notice the philosophy buried in that design. Singapore wants you to feel the cost of routine care, so you spend your own MediSave dollars on small things. It pools money only for the **big, unpredictable** bills that would bankrupt a family. And it keeps a safety net under everyone who falls through.
+
+This system was not built in one stroke. It grew piece by piece over forty years — MediSave in 1984, MediShield in 1990, MediFund in 1993, and finally MediShield Life in 2015, which closed the gaps by making coverage truly universal and lifelong. Each step added a layer rather than replacing the system, much as the US did. The difference is that Singapore was building toward a **plan**, while the US was patching an accident.
+
+The money still comes from a mix of sources. In 2022 the government paid about **57%** of all health spending, and individuals paid roughly **a quarter out of pocket** — a higher share than in most rich countries [@commonwealth_singapore]. Singapore is comfortable making patients pay at the point of care, on the theory that a price you can feel is a price you think about. Whether that restraint is wise or harsh is part of what the case is about.
+
+The system also nudges behavior in ways Americans would find startling. Public hospital wards are **tiered**: a "C" ward holds many beds in one room and is heavily subsidized; an "A" ward is a private room with little or no subsidy. You can have comfort, or you can have a big subsidy, but not both. The choice quietly sorts people by what they're willing to pay for — a form of rationing that patients impose on themselves.
+
+::: {.context-box}
+**The part that's easy to miss.** Behind the savings accounts sits a powerful government hand. Singapore's state **owns most of the acute hospitals**, controls how many are built, and **negotiates or sets the prices** of drugs and procedures. This is [supply-side control]{.key-term} — managing the cost and amount of care from the top, not just the demand for it. Much of Singapore's low spending comes from this control, not from the savings accounts alone [@haseltine2013].
+:::
+
+Then came the test no one plans for.
+
+When COVID-19 arrived, Singapore looked like a global model. It moved early and hard. National apps — **TraceTogether** and **SafeEntry** — let officials trace contacts within hours. When community spread grew, the country imposed a "circuit breaker" lockdown. Later it ran one of the world's most successful vaccination drives, reaching more than **96%** of eligible people. Its **case-fatality rate settled at about 0.08% — among the very lowest on Earth.**
+
+But the worst outbreak did not happen among citizens. It tore through the **dormitories of migrant workers** — the men who build Singapore's towers and clean its streets. Hundreds of thousands of them live packed into shared rooms, often a dozen or more to a unit. The virus moved through that crowding fast. At the peak, well over **47% of dormitory workers** had been infected, and for months they made up the overwhelming majority of Singapore's cases [@koh2020_migrant].
+
+Two facts sit side by side here, and both are true. First, very few of these workers **died** — most are young men, so the dormitory outbreak was enormous in cases but small in deaths. Second, they had been living in conditions that made an outbreak almost certain, in a country famous for control and order. These workers are about a third of Singapore's population, and they are **not** eligible for the government subsidies that protect citizens.
+
+So Singapore's celebrated COVID numbers told a true story and hid one at the same time. The country protected its citizens superbly. It had also built a second, lower track for the people it depended on most — and the pandemic shoved that track into view. The low *national* death rate was partly a fact about Singapore's system, and partly a fact about who was counted as fully inside it.
+
+## The Argument Singapore Started
+
+Singapore is not really one argument. It is a screen onto which people project the system they already wanted. The exchange below tries to separate what Singapore actually does from what its admirers wish it did.
+
+### The case for copying it
+
+Start with the appeal, because it is real and bipartisan.
+
+::: {.argument}
+**The Emulation Argument**
+
+1. A just and efficient health system should deliver good health outcomes for everyone at a sustainable cost.
+2. Singapore delivers near-top outcomes, universal coverage, and long lives at about a quarter of the US cost.
+3. Therefore, the US should adopt the key features of Singapore's system.
+:::
+
+What makes this argument unusual is **who** makes it. American conservatives love **MediSave**: people spend their own money, feel the cost, and avoid waste — personal responsibility built into the system. It is the dream behind US health savings accounts. American progressives love that coverage is **universal**, that the **government sets prices** and owns the hospitals, and that no one goes bankrupt from a hospital bill. It is the dream behind a public system.
+
+Both camps look at Singapore and see their own ideals confirmed. When a single example is claimed as proof by people who disagree about everything, that is a clue. It usually means each side is looking at a different part of the elephant — and that the real system is doing something more complicated than either story admits.
+
+### Which model is it?
+
+::: {.context-box}
+**The four classic models.** Most countries build their system on one of four templates [@reid2009].
+
+- **Beveridge:** the government owns the hospitals and pays for care from taxes (the UK's NHS).
+- **National Health Insurance:** care is delivered privately, but a single government insurer pays the bills (Canada).
+- **Bismarck:** private providers and private nonprofit insurance "funds," tightly regulated so everyone is covered (Germany).
+- **Out-of-pocket:** there is no system; you pay for what you can afford (much of the developing world).
+:::
+
+Singapore fits **none** of them cleanly.
+
+- Its forced **savings accounts** look like a regulated version of *out-of-pocket* — you pay, but from a mandated account.
+- Its **catastrophic insurance** (MediShield Life) looks like *National Health Insurance* for big bills.
+- Its **government-owned hospitals and price-setting** look like *Beveridge*.
+
+It is, in effect, a **fifth model** — a deliberate hybrid. This matters for the US debate, because each American faction tends to grab the one piece that resembles its preferred model and ignore the rest. The conservative sees the out-of-pocket gear; the progressive sees the Beveridge gear. Singapore only works because it bolts them together.
+
+### The hidden engine
+
+This is where the most common American lesson goes wrong.
+
+The popular story is that Singapore is cheap because patients spend their own money and shop carefully. There is something to that. But it is not the main engine, and Haseltine's history of the system makes the point plainly: Singapore's low costs come mostly from the **government's heavy hand on supply and prices** [@haseltine2013].
+
+::: {.argument}
+**The Whole-System Argument**
+
+1. Singapore's low costs depend on the government owning hospitals, limiting their number, and setting prices — not mainly on patient cost-sharing.
+2. A reform that imports the savings accounts (MediSave) **without** the government's supply-side control would keep US prices high.
+3. The features of Singapore's system work as an interlocking whole, not as parts you can take one at a time.
+4. Therefore, "copy MediSave" is not a coherent lesson from Singapore; the price control is doing the heavy lifting.
+:::
+
+What does that control look like in practice? The government decides how many hospitals get built and where, so supply does not balloon. It publishes the prices hospitals charge and pressures them to stay in line. It buys drugs in bulk for the whole country and negotiates hard, the way Canada or the UK does — leverage the fragmented US system never has. None of this is the savings accounts. It is the state acting as the dominant buyer and planner of care.
+
+There is also a cultural engine Americans tend to skip. Singapore's government is openly **paternalistic**. It tells citizens how much to save, steers them toward basic wards, and ran national tracking systems during COVID that most Americans would reject outright. The savings accounts only restrain spending because a strong state stands behind them, shaping what things cost in the first place. Take away the state, and you have left the engine on the dock. A patient shopping carefully in a market with American prices still faces American bills.
+
+### The shadow: who's left out
+
+Now the hardest move, and the moral heart of the case.
+
+A defender says: *Singapore proves you can cover everyone well and cheaply.* But "everyone" hides a choice. Singapore's superb averages rest partly on a population it does **not** fully include — the migrant workers who are barred from subsidies and were left in crowded dormitories when the virus came.
+
+::: {.context-box}
+**Why this is a justice problem, not just a footnote.** Philosophers who study health justice argue that a society's duties run to **all** the people whose labor sustains it, and that health is shaped by [social determinants]{.key-term} — housing, work, and income, not just clinics [@sep_justice_health]. On a Rawlsian view, a system should be judged by how it treats its **worst-off** members. By that test, Singapore's dormitory residents are exactly the people the numbers leave out.
+:::
+
+::: {.argument}
+**The Exclusion Argument**
+
+1. A health system should be judged by how it treats its worst-off members, not only by its averages.
+2. Singapore achieves part of its low cost and high averages by excluding migrant workers — about a third of its population — from full coverage.
+3. Excellent averages bought partly through exclusion do not show that a system is **just**.
+4. Therefore, Singapore's headline success cannot be read, on its own, as a model of justice for others to copy.
+:::
+
+This does not erase Singapore's achievement. It reframes it. The question becomes whether the efficiency Americans admire is **separable** from the exclusion that helped produce it — or whether tidy numbers and a hidden second track tend to come together.
+
+And before Americans feel superior, the mirror turns. The US has its own excluded groups: undocumented immigrants who get only emergency care, and the millions who fall into the coverage gap between Medicaid and the exchanges. Every health system draws a line around who fully counts. Singapore's line is just unusually visible — drawn between citizens and the workers who build the city. The case asks the US to notice that it draws lines too, and to ask whether its own are any easier to defend.
+
+### Can it transfer?
+
+Suppose the US wanted to learn the real lessons anyway. Could it?
+
+Several features that make Singapore work may not cross the ocean.
+
+- **Scale.** Singapore is a wealthy **city-state** of under six million. The US is a continent of 340 million, with fifty states and no single health authority.
+- **Governance.** Singapore is run by one dominant party that can impose forced savings, set prices, and track citizens with little pushback. US politics blocks far smaller moves.
+- **Culture.** Singapore's system assumes a level of trust in government, and acceptance of paternalism, that the US does not share.
+- **Membership.** Singapore's model depends on a sharp line between citizens, who are protected, and non-citizens, who are not. The US draws lines too, but a model built on that exclusion sits badly with its stated ideals.
+
+Some pieces might still travel. The US could borrow Singapore's **supply-side price control** — public price-setting and bulk drug purchasing — without forcing anyone to open a savings account. It could add **catastrophic-only** public insurance, so that no illness bankrupts a family, while leaving routine care to the market. It could fund a real safety net like MediFund for those who exhaust everything else.
+
+But notice that each of these "lessons" is really a **value choice** dressed as a technical fix. Price control means deciding that the government, not the market, sets what care is worth. Catastrophic-only insurance means deciding that people *should* feel the cost of routine care — a stance that looks like prudence to one person and cruelty to another. Singapore did not stumble into these answers. It chose them, and accepted the trade-offs. The US cannot borrow the answers without making the same choices.
+
+What Singapore really offers the US is not a blueprint. It is a mirror. Each side sees the system it wanted and calls it proof. The honest lesson may be the uncomfortable one: that Singapore's enviable numbers come bundled with state control and a two-track membership most Americans say they would refuse — and that you cannot reliably buy the outcomes without buying the trade-offs.
+
+## Discussion Questions
+
+1. Both American conservatives and progressives cite Singapore as proof of their own approach. What does that tell you about using a single foreign country as evidence in a policy debate? How should you reason about "what works elsewhere"?
+2. Singapore's low costs come largely from government control of hospitals and prices, not from patient savings accounts. If the US adopted MediSave-style accounts *without* price control, what would you predict — and why?
+3. Is excluding migrant workers from subsidies a **flaw** in Singapore's system, or a **feature** that helps produce its low costs and good averages? Can a system be both highly efficient and unjust?
+4. Singapore's model depends on a paternalistic government, forced savings, and national health tracking. Are these acceptable prices for universal, low-cost care? Defend your line using a theory of justice.
+5. Pick one element of Singapore's system you think the US *should* adopt and one it *should not*. For each, name the value (from Part A) that drives your choice.
+
+## References
+
+::: {#refs}
+:::
