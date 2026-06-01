@@ -289,9 +289,11 @@ The lecture's spine is the **treatment-vs-enhancement distinction** — normativ
 
 ### L7a. Death, Dying, and Advance Planning
 
-- Defining the end of life clinically: **brain death**, **coma**, **persistent vegetative state**, **minimally conscious state** — what's different about each.
-- The 1968 Harvard criteria and the move to whole-brain death. 
-- Current debates on defining / operationalizing death
+*Spine:* the lecture follows **Nancy Cruzan** as a recurring case, organized around one framing question — *"When is a person gone, and once we're not sure, who decides what happens next?"* The clinical material answers the first half; the legal/ethical material answers the second.
+
+- Defining the end of life clinically: **brain death**, **coma**, **persistent vegetative state**, **minimally conscious state**, **locked-in syndrome** — what's different about each (arousal vs. awareness).
+- The 1968 Harvard criteria, the move to whole-brain death, and how the **Uniform Determination of Death Act** (1981) codified it.
+- Current debates on defining / operationalizing death (whole-brain vs. higher-brain vs. circulatory — light touch).
 - **Advance directives** in everyday terms:
   - Living wills
   - Durable power of attorney for health care
@@ -299,7 +301,8 @@ The lecture's spine is the **treatment-vs-enhancement distinction** — normativ
 - Surrogate decision-making standards:
   - **Substituted judgment** ("what would *this patient* have wanted?")
   - **Best interest** ("what's best for someone in this situation?")
-- High-profile cases: **Karen Ann Quinlan** (1976), **Nancy Cruzan** (1990), **Terri Schiavo** (1990–2005).
+- High-profile cases compared: **Karen Ann Quinlan** (1976, who decides / ventilator), **Nancy Cruzan** (1990, the "clear and convincing evidence" standard that drove the spread of directives), **Terri Schiavo** (1990–2005, the payoff case — the tools exist, but a divided family and a missing directive still tore everything apart).
+- Contemporary tie-in: **Adriana Smith** (Georgia, 2025) — being *dead* vs. being *allowed to die*, where brain-death, abortion, and advance-directive law collide.
 
 **Visual elements:**
 - *Figure (code-generated):* spectrum diagram of consciousness states from coma to full awareness, with diagnostic criteria for each.
@@ -310,23 +313,32 @@ The lecture's spine is the **treatment-vs-enhancement distinction** — normativ
 
 ### L7b. Euthanasia, Assisted Death, and Their Critics
 
+*Spine:* anchored on **Brittany Maynard** (terminal glioblastoma, moved to Oregon, died 2014), structured as an **argument map** around one disputed line — the line between **killing** and **letting die**. The pro voices and the critics each get a fair hearing.
+
 - A vocabulary that students consistently confuse:
   - **Active euthanasia** (administering a lethal substance)
   - **Passive euthanasia** (withholding or withdrawing treatment)
   - **Withdrawal of treatment** (not the same as killing)
   - **Physician-assisted death / MAID** (prescribing, not administering)
-- **Rachels' argument** (1975): the active/passive distinction doesn't carry the moral weight people think it does.
-- The doctrine of **double effect** — and whether palliative sedation falls under it.
-- Where MAID is legal (Oregon since 1997, Canada since 2016, several others) and where it's expanding.
-- **Disability community critiques**: "better dead than disabled" worries, coercion concerns, and access disparities.
-- The **psychiatric MAID** controversy — Belgium, Netherlands, Canada's pause and ongoing debate.
+- The philosophical chain (challenge → reply → pro → critics):
+  - **Rachels** (1975): the active/passive distinction carries no moral weight in itself (Smith & Jones).
+  - **Foot** (1977): the distinction survives once re-grounded in **negative vs. positive duties**.
+  - **Brock** (1992): the autonomy + well-being case *for* voluntary active euthanasia — the same values that justify refusing treatment.
+  - **Singer**: the quality-of-life / anti-sanctity-of-life view — and why its edge invites the disability backlash.
+  - **Velleman** (1992): the best *secular* objection — establishing a *right* to die can harm the vulnerable by removing the "no choice" default.
+  - **Harriet McBryde Johnson** vs. Singer ("Unspeakable Conversations," 2003): the disability-rights answer with a named voice.
+- The doctrine of **double effect** — and whether palliative sedation falls under it or is "slow euthanasia."
+- Where MAID is legal (Oregon since 1997, Canada since 2016 via *Carter*, several others) and where it's expanding; Oregon's 25+ years of data.
+- **Disability community critiques**: "better dead than disabled" worries, coercion concerns, the "duty to die," and access disparities.
+- The **psychiatric MAID** controversy — Belgium, Netherlands, and Canada's repeated pause (now to 2027) on mental-illness-only eligibility.
 
 **Visual elements:**
-- *Figure (code-generated):* concept map distinguishing active/passive, voluntary/involuntary, killing/letting die.
+- *Figure (code-generated):* concept map distinguishing active/passive, voluntary/non-voluntary/involuntary, killing/letting die.
+- *Scoreboard table:* Rachels vs. Foot — what each thinks does the moral work.
 - *Table:* MAID legal status across selected jurisdictions (US states, Canada, Netherlands, Belgium, Switzerland).
 - *Case box:* Rachels' "Smith and Jones in the bathtub" thought experiment.
 - *Discussion prompt:* "Is there a moral difference between turning off a ventilator and giving a lethal injection? Why or why not?"
-- *Case box:* A recent psychiatric MAID case (with care, given course audience).
+- *Discussion debrief:* logical vs. empirical slippery slopes, using Canada's trajectory.
 
 ---
 

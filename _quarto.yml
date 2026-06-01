@@ -22,51 +22,60 @@ website:
         text: Home
       - href: chapters/00-course-outline.qmd
         text: "Outline"
-      - text: "1. Principles & Reasoning"
-        menu:
+    right:
+      - icon: github
+        href: https://github.com/brendanpshea/bioethics-oer
+
+  sidebar:
+    style: floating
+    collapse-level: 1
+    contents:
+      - href: index.qmd
+        text: "Home"
+      - href: chapters/00-course-outline.qmd
+        text: "Course Outline"
+      - section: "1. Principles & Reasoning"
+        contents:
           - href: chapters/01-introduction.qmd
             text: "Part A — The Four Principles"
           - href: chapters/01b-theories.qmd
             text: "Part B — Ethical Theories"
-      - text: "2. History & Relationship"
-        menu:
+      - section: "2. History & Relationship"
+        contents:
           - href: chapters/02a-history.qmd
             text: "Part A — History"
           - href: chapters/02b-clinical-relationship.qmd
             text: "Part B — Clinical Relationship"
-      - text: "3. Research Ethics"
-        menu:
+      - section: "3. Research Ethics"
+        contents:
           - href: chapters/03a-clinical-research.qmd
             text: "Part A — How Clinical Research Works"
           - href: chapters/03b-protecting-research-subjects.qmd
             text: "Part B — Protecting Research Subjects"
-      - text: "4. Abortion"
-        menu:
+      - section: "4. Abortion"
+        contents:
           - href: chapters/04a-abortion.qmd
             text: "Part A — Moral Status"
           - href: chapters/04b-abortion-law.qmd
             text: "Part B — Law & Cases"
-      - text: "5. Reproductive Ethics"
-        menu:
+      - section: "5. Reproductive Ethics"
+        contents:
           - href: chapters/05a-pregnancy-autonomy.qmd
             text: "Part A — Pregnancy & Autonomy"
           - href: chapters/05b-reproductive-markets.qmd
             text: "Part B — Markets & Surrogacy"
-      - text: "6. Genomics & Enhancement"
-        menu:
+      - section: "6. Genomics & Enhancement"
+        contents:
           - href: chapters/06a-genomics-reading.qmd
             text: "Part A — Reading Genomes"
           - href: chapters/06b-genomics-enhancement.qmd
             text: "Part B — Engineering Persons"
-      - text: "7. End-of-Life Care"
-        menu:
+      - section: "7. End-of-Life Care"
+        contents:
           - href: chapters/07a-death-dying.qmd
             text: "Part A — Death, Dying & Advance Planning"
           - href: chapters/07b-euthanasia.qmd
             text: "Part B — Euthanasia & Assisted Death"
-    right:
-      - icon: github
-        href: https://github.com/brendanpshea/bioethics-oer
 
   page-footer:
     left: |
