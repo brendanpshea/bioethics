@@ -1,0 +1,514 @@
+---
+title: "Lecture 8 — Justice and Health Care"
+subtitle: "Part A: Theories of Justice and the Right to Health Care"
+author: "Brendan Shea, PhD"
+date: ""
+date-meta: last-modified
+institute: "An Introduction to Bioethics."
+format:
+  html:
+    toc: true
+    number-sections: true
+  revealjs:
+    output-file: 08a-justice-health-slides.html
+---
+
+# Who Lives, Who Dies? {.section-divider}
+
+## A Case to Sit With
+
+::: {.thought-question}
+It is 1962. A Seattle hospital has just built the world's first machine that can keep people with failing kidneys alive — but it has only **three** treatment slots. About **sixty** patients in the area will die without it. Every one of them is medically eligible. The machine cannot be shared.
+
+You are on the committee that must decide who gets the three slots.
+
+**Write or discuss:**
+
+1. What criteria would you use to choose? Be specific.
+2. Would you consider a patient's job, family, or character? Should you?
+3. Whatever rule you pick — could you defend it to the families of the people who die?
+:::
+
+## What the Committee Actually Did
+
+The committee was real. At Seattle's Swedish Hospital, **seven anonymous citizens** — a lawyer, a minister, a homemaker, a banker, a labor leader, a state official, and a surgeon — were handed exactly this choice.
+
+- They chose largely by **social worth**: whether a patient had a steady job, went to church, was married, supported children, seemed likely to "contribute."
+- The journalist **Shana Alexander** watched them for six months and published what she saw in *LIFE* magazine in 1962, under the title "They Decide Who Lives, Who Dies" [@alexander1962].
+- The public was horrified — not because the committee was cruel, but because it had no principle beyond its own values.
+
+## After You've Discussed
+
+::: {.callout-note}
+The committee's mistake was not bad intentions. It was deciding life and death with **no theory of justice** — just an instinct about who "deserved" to live.
+
+The reaction to the Seattle committee helped launch the field of **bioethics**, and within a decade Congress simply paid for dialysis for everyone who needed it (1972). But the deeper question never went away: when a life-saving resource is scarce, **by what principle should it be shared?**
+
+Today we meet four serious answers — and test each one against a single donated organ.
+:::
+
+## Today
+
+::: {.learning-outcomes}
+By the end of Part A, you will be able to:
+
+- Explain what **distributive justice** is and why a "treat like cases alike" rule is not enough.
+- State the **utilitarian**, **Rawlsian**, **libertarian**, and **capabilities** theories of justice in plain language.
+- Apply all four to a concrete allocation problem — who should receive a scarce organ.
+- Describe how the US actually allocates organs (**UNOS**), and the ethics of **presumed consent** and **organ markets**.
+- Reconstruct **Daniels'** argument that there is a moral **right to health care**, and the main objections to it.
+:::
+
+# What Is Justice in Health Care? {.section-divider}
+
+## Distributive Justice
+
+[Distributive justice]{.key-term} is the part of ethics that asks how a society should divide up benefits and burdens — here, scarce medical care — fairly.
+
+- Almost everyone accepts a starting rule, the **formal principle of justice**: treat like cases alike, and different cases differently.
+- The trouble is that the formal principle is empty until you say **which differences matter**. Need? Merit? Ability to pay? Likelihood of benefit?
+- The Seattle committee thought "social worth" was a relevant difference. The four theories ahead each name a *different* feature as the one that counts.
+
+## The Problem We Will Keep Returning To
+
+Every theory will be tested on the same hard case, so the differences between them stay visible.
+
+::: {.context-box}
+**One organ, many candidates.**
+
+Today more than **105,000** people in the US are waiting for an organ transplant. Over **92,000** of them — about **87%** — need a kidney [@optn_data]. Most will wait years; some will die waiting.
+
+When one donated kidney becomes available and several patients match it, **someone decides who gets it.** That decision is distributive justice in its rawest form — and each theory answers it differently.
+:::
+
+## Four Lenses
+
+Each lens fixes on a **different question** — and that question, not a tidy formula, is what it brings to the bedside.
+
+- **Utilitarian:** what produces the most total good?
+- **Rawlsian:** what rules would we accept before knowing who we'd be?
+- **Libertarian:** were the holdings and transfers fair?
+- **Capabilities:** what does a person need to function as a human being?
+
+Notice these are not four answers to one question. They are four *different questions* — which is why, as we'll see, they rarely hand down a single verdict on their own.
+
+# The Utilitarian Lens {.section-divider}
+
+## The Principle
+
+[Utilitarianism]{.key-term} says the just distribution is the one that produces the **greatest total well-being**. Count everyone equally, add up the benefits, and choose the option with the largest sum.
+
+- It is **outcome-focused**: what matters is results, not who gets what or why.
+- Applied to scarce care, it becomes a simple instruction: do the most **good per unit** of a scarce resource.
+- This is the logic behind cost-effectiveness analysis throughout modern medicine.
+
+## Applied to the Organ
+
+A first pass says: give the kidney to whoever gains the **most good** — usually the most years of healthy life. But "total well-being" is bigger than one patient.
+
+- A utilitarian also weighs **system-wide** effects: rules that keep public trust high, that encourage more people to donate, that don't frighten families away.
+- So the lens doesn't simply crown a recipient. It might favor opt-out, or even a market (more organs, more lives) — *or* oppose a market if payment **crowds out** altruistic donation and shrinks the supply.
+
+::: {.context-box}
+**The QALY.** Health economists measure benefit in [quality-adjusted life years]{.key-term} (QALYs). One year in perfect health = 1 QALY; a year in poor health counts as less.
+
+Britain's **NICE** uses roughly this math to decide what the NHS funds — often around £20,000–£30,000 per QALY. It is the utilitarian instinct turned into a spreadsheet. But notice it answers "is this worth it overall?", not "which patient deserves it?"
+:::
+
+## Where It Bites
+
+The strength of the utilitarian lens — maximize benefit — is also its danger.
+
+- It can **sacrifice the few for the many**: a patient who would gain only a few good years loses to one who would gain decades, every time.
+- QALY math can systematically **disadvantage the elderly and the disabled**, because they are counted as having fewer or "lower-quality" years to gain.
+- It treats the individual as a site where good is produced, not as someone with a *claim*. That is exactly what the next lens insists on.
+
+# The Rawlsian Lens {.section-divider}
+
+## Justice as Fairness
+
+John Rawls asked a different question: not "what maximizes good?" but "**what rules would we choose if we were fair?**" [@rawls1971]
+
+::: {.context-box}
+**The original position.** Imagine designing a society's rules from behind a [veil of ignorance]{.key-term}: you know nothing about who *you* will be — your wealth, talents, health, or whether you'll be the patient who needs the kidney.
+
+Rawls argues that rational people choosing under that veil would not gamble on landing at the bottom. They would choose rules that protect **everyone**, especially the worst-off — because that worst-off person might be them.
+:::
+
+## Two Principles, In Order
+
+Behind the veil, Rawls argues, we would choose **two** principles — and the order matters as much as the content.
+
+1. **Equal basic liberties** — the same rights and freedoms for all (speech, conscience, bodily integrity).
+2. **(a)** Fair **equality of opportunity**, and **(b)** the [difference principle]{.key-term}: inequalities are just only if they help the **least advantaged**.
+
+Crucially, the first principle is **lexically prior**: you may *not* trade away basic liberties for greater welfare, however large the gain. That priority is exactly what divides Rawls from the utilitarian — no one's liberty is a line item in someone else's sum.
+
+## Applied to the Organ — with a Caveat
+
+::: {.context-box}
+**A caution Rawls himself would press.** Rawls's principles govern the **basic structure** of society — its constitution and institutions — not who gets the next kidney. Using the difference principle to micro-allocate one organ is an *extension* of his view, not a verdict it strictly delivers.
+:::
+
+Read in a Rawlsian spirit (or its **prioritarian** cousin — give extra weight to the worse-off), the lens does two things:
+
+- It rejects the Seattle committee's "social worth": behind the veil, no one would agree to be judged on their job or churchgoing.
+- It tilts toward the **worst-off** — the sickest, or those with the least access — even when that isn't the choice that maximizes total life-years. Whether it picks a *specific* recipient still depends on how you build the institution.
+
+## Thought Question
+
+::: {.thought-question}
+Two patients match the one available kidney.
+
+- **Patient A** is 30, otherwise healthy, and would likely gain ~40 good years.
+- **Patient B** is 55, sicker, and would likely gain ~12 good years — and has already been waiting three years on dialysis.
+
+1. Who does the **utilitarian** choose? Who does the **Rawlsian** lean toward?
+2. Behind the veil of ignorance — not knowing if you're A or B — which rule would you pick?
+3. Does "years gained" feel like the right measure of a fair claim? What's missing?
+:::
+
+# The Libertarian Lens {.section-divider}
+
+## Entitlement, Not Distribution
+
+Robert Nozick rejects the whole question. There is no "just distribution" to engineer — only **just transactions** [@nozick1974].
+
+- A distribution is just if people acquired what they have **fairly** (without theft or fraud) and **transferred** it freely.
+- On this view, **no one is owed health care**. Care is a service, produced by others, that you obtain by buying it or being given it.
+- Forcing some to pay for others' care is, for Nozick, a kind of **coercion** — taking what people justly earned.
+
+## Applied to the Organ
+
+The libertarian focuses on one fact the other theories skip: the kidney **belonged to someone**.
+
+- An organ is the **donor's to give** — so donor wishes, including **directed donation** ("give it to this person, or people like me"), carry real moral weight.
+- From **self-ownership**, the logic runs that what you may *give*, you may also *sell* — pointing toward a market.
+- But libertarians don't all land there. Nozick's **Lockean proviso** ("enough, and as good, left for others") and the requirement that acquisitions be *just* can constrain markets that prey on the desperate — and **left-libertarians** read self-ownership very differently. The lens leans toward markets; it doesn't compel them.
+
+## The Market Made Real: Iran
+
+::: {.columns}
+::: {.column width="56%"}
+Since **1988**, Iran has run the world's only **legal, regulated kidney market**. Living donors are paid — officially about $1,400, plus negotiated payments from recipients.
+
+The result libertarians predict actually happened: Iran **eliminated its kidney waiting list by around 1999** [@ghods2006]. People who would have died on dialysis received transplants.
+:::
+::: {.column width="44%"}
+::: {.callout-important}
+**The catch**
+
+In surveys, about **43%** of Iranian donors said their motive was **purely financial**, and roughly **three-quarters** said selling kidneys should be **banned**. The sellers are overwhelmingly poor.
+
+A market clears the list — by routing the burden onto people who feel they have no choice.
+:::
+:::
+::::
+
+# The Capabilities Lens {.section-divider}
+
+## What People Are Actually Able to Do
+
+Amartya Sen and Martha Nussbaum offer a fourth lens: justice is about securing the real **freedoms and functionings** people need to live a fully human life [@sen1999; @nussbaum2011].
+
+- A [capability]{.key-term} is a genuine opportunity to do or be something a person has reason to value — to be healthy, to move about, to take part in their community.
+- Money and even "welfare" are only means. What matters is whether a person can **actually function**.
+- On Nussbaum's list, **bodily health** is a central capability that a just society must secure for everyone above a real threshold.
+
+## Applied to the Organ
+
+The capabilities lens asks not "who gains the most life-years?" but "**what does this person need to function as a human being?**"
+
+- Against the utilitarian, it refuses to reduce a person to a QALY score. A disabled candidate is not "worth less"; the question is what they need to flourish.
+- Against the libertarian, it treats health as something a just society **owes** people, not merely a good they may buy.
+- But it, too, **under-determines** the rule: proponents disagree about what it requires, Sen resists a fixed list, and "secure a threshold for all" doesn't say who gets *this* organ when there isn't enough to go around.
+
+## Same Patient, Two Verdicts
+
+::: {.columns}
+::: {.column width="48%"}
+**The utilitarian** counts a candidate with a permanent disability as gaining fewer "quality-adjusted" years — and so ranks them lower for the organ.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**The capabilities theorist** asks what *this* person needs to live a full human life, and rejects the idea that a disabled life is worth less. The disability lowers their score in one lens and is irrelevant to their claim in the other.
+:::
+::::
+
+On the same disabled candidate, the two lenses weigh the very same facts in opposite directions. That is why which considerations you treat as decisive is not academic.
+
+# Four Lenses, One Organ {.section-divider}
+
+## The Theories Head to Head
+
+Each lens **foregrounds a different consideration** — and that, not a final verdict, is what it contributes.
+
+| Lens | What it makes salient | Why it doesn't settle policy alone |
+|---|---|---|
+| **Utilitarian** | total benefit, system-wide effects | depends on the empirical facts; can back many rules |
+| **Rawlsian** | basic liberties, then the worst-off | governs institutions, not one organ |
+| **Libertarian** | whose it was; consent; fair transfer | the proviso and "just acquisition" cut both ways |
+| **Capabilities** | what a person needs to function | proponents disagree on what it requires |
+
+## Theories Don't Hand Down Policies
+
+::: {.callout-important}
+The single most common mistake in these debates is to say "utilitarianism *requires* a market" or "Rawls *forbids* it." None of these theories delivers a policy by itself.
+
+- Each one tells you **what to weigh** — total welfare, the worst-off, consent, capabilities.
+- Turning that into a rule needs **empirical facts** (does a market grow or shrink supply?) and **interpretive choices** (what does "fair acquisition," or "the threshold," actually demand?).
+
+So the lenses don't end the argument. They tell you what the argument is *about* — and that is exactly what the Seattle committee never worked out.
+:::
+
+## Discussion
+
+::: {.thought-question}
+Look back at the Seattle "God Committee."
+
+1. Which of the four lenses, if any, was the committee using when it judged "social worth"?
+2. Which lens would have most changed its decisions — and how?
+3. If you had to build a real allocation system, which lens would you make the *backbone*, and which would you keep only as a check?
+:::
+
+# How We Actually Allocate Organs {.section-divider}
+
+## The UNOS System
+
+In the US, the **Organ Procurement and Transplantation Network**, run through **UNOS**, matches donated organs to waiting patients by a published algorithm — not a committee's gut feeling [@optn_data].
+
+The algorithm blends factors that, in fact, come straight from our four lenses:
+
+- **Medical urgency** — how sick the patient is (a nod to Rawls' worst-off).
+- **Expected benefit** — how well and how long the graft will work (utilitarian).
+- **Time on the waiting list** — first-come fairness.
+- **Matching and proximity** — blood type, tissue, distance.
+
+## Three Principles in Tension
+
+```{dot}
+//| fig-width: 8
+digraph G {
+  rankdir=LR;
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fillcolor="#eef3f8"];
+  edge [color="#888888"];
+  organ [label="One donated\norgan", fillcolor="#e8e8e8"];
+  sick [label="Sickest first\n(urgency / worst-off)"];
+  best [label="Best outcome\n(most life-years)"];
+  fcfs [label="First-come\n(time waiting)"];
+  organ -> sick; organ -> best; organ -> fcfs;
+  sick -> conflict [label="who wins?"];
+  best -> conflict;
+  fcfs -> conflict;
+  conflict [label="Every allocation rule\npicks a trade-off", shape=note, fillcolor="#fff7e6"];
+}
+```
+
+"Sickest first" and "best outcome" often point at **different patients** — the sickest patient may do worst with the organ. No rule escapes the trade-off.
+
+## Where Do Organs Come From? Opt-In vs. Opt-Out
+
+::: {.columns}
+::: {.column width="52%"}
+The US uses **opt-in**: you are a donor only if you register. About **48 donors per million** people.
+
+**Spain** uses **presumed consent** (soft opt-out): everyone is a donor unless they say no. Spain leads the world at **52.6 per million** (2024) [@matesanz2017].
+:::
+::: {.column width="48%"}
+::: {.context-box}
+**Why Spain really wins**
+
+The law is not the whole story. Spain pairs opt-out with the **ONT** — full-time donation coordinators in every hospital and skilled family support. Spanish families consent about **8 times in 10**; the UK, also opt-out, gets about 6 in 10.
+
+**Infrastructure, not just the default rule, drives the result.**
+:::
+:::
+::::
+
+## When Money and Choice Bend the System
+
+Even a need-based system has seams that wealth and preference can widen.
+
+- **Directed and conditional donation** lets donors steer organs toward specific people or groups — honoring the donor's liberty, but pulling against equal access.
+- **Multi-listing:** a patient can register at several transplant centers in different regions at once. The famous example is Steve Jobs, who registered in Tennessee while living in California and received a liver there.
+- It is legal. It is also a reminder that the ability to travel and pay can quietly improve your odds in a system meant to run on need.
+
+## Philosophers Take Sides
+
+This is a live debate among serious philosophers — and it does **not** split neatly along left and right.
+
+::: {.columns}
+::: {.column width="48%"}
+**Allow regulated sales**
+
+- **Radcliffe-Richards** and colleagues: if we let people take risks for money in far more dangerous jobs, banning kidney sales is inconsistent paternalism [@radcliffe_richards1998].
+- **Cherry**: self-ownership and consent make a regulated market legitimate — and it saves lives [@cherry2005].
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**Forbid them**
+
+- **Satz**: kidney markets are **noxious** — built on desperation and weak agency, with harmful, unequal outcomes [@satz2010].
+- **Sandel**: pricing organs **corrupts** how we value the body and one another, regardless of consent [@sandel2012].
+:::
+::::
+
+Note both sides include egalitarians *and* libertarians — the disagreement is about consent, exploitation, and what money does to a thing, not simply about markets.
+
+## Thought Question
+
+::: {.thought-question}
+You are a healthy college student, deep in debt. A patient on dialysis offers you **$30,000** for one of your kidneys. You can live a normal life with one. The exchange is voluntary, and it would save the patient's life and clear your debt.
+
+1. Is there anything *wrong* with this trade? If so, what exactly?
+2. Does your answer change if the seller is desperate rather than merely willing?
+3. Would you feel differently about selling **blood plasma**, or an egg, or a lung? Why?
+:::
+
+## Make It Contemporary
+
+::: {.thought-question}
+The US bans organ sales outright — the **National Organ Transplant Act of 1984** makes it a federal crime [@nota1984]. Iran allows them, and has no kidney waiting list.
+
+So the trade-off is stark and real: the US protects the poor from being pressured to sell, and tens of thousands wait — some die. Iran clears the list, and its sellers are overwhelmingly poor and largely regretful.
+
+**Discuss:** If a regulated market would save thousands of lives a year, is banning it a moral stand — or a comfortable way of letting people die so we don't have to watch the poor sell their organs?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+The kidney-market debate turns on three ideas people tend to blur:
+
+- **Coercion** — a threat removes your choice ("sell, or I hurt you").
+- **Undue inducement** — an offer is so large or your need so desperate that you can't reason well about the risk.
+- **Exploitation** — a deal is voluntary *and* mutually beneficial, yet still unfair because one side takes advantage of the other's vulnerability.
+
+A kidney sale may involve no coercion at all and still be exploitative. Lurking under all three is **commodification** — the worry that some things (organs, votes, people) are degraded the moment they carry a price.
+:::
+
+# Is There a Right to Health Care? {.section-divider}
+
+## From One Organ to the Whole System
+
+The organ case was a stand-in. The same theories now face the largest distributive question of all: **does a person have a *right* to health care at all?**
+
+::: {.context-box}
+**Two kinds of rights.**
+
+- A [negative right]{.key-term} is a right to be **left alone** — free speech, the right to refuse treatment. It only requires others *not* to interfere.
+- A [positive right]{.key-term} is a right to be **provided** something — and it requires others to act, and usually to pay.
+
+"A right to health care" is a **positive** right. That is exactly why it is contested: it places a claim on other people's resources.
+:::
+
+## Daniels: Health and Fair Opportunity
+
+Norman Daniels builds the strongest case for a right to care by extending Rawls [@daniels2008].
+
+- Rawls says justice requires **fair equality of opportunity**: your life chances shouldn't be set by the lottery of birth.
+- Disease and disability, Daniels argues, **shrink your range of opportunity** just as surely as poor schooling does — they shut doors a healthy person can walk through.
+- So a society already committed to fair opportunity is committed, by its own logic, to the health care that **restores normal functioning**.
+
+::: {.fragment}
+On this view, health care isn't charity. It's what fair opportunity *requires*.
+:::
+
+## The Counterarguments
+
+::: {.columns}
+::: {.column width="48%"}
+**The libertarian (Nozick)**
+
+There is no positive right to care, because it forces some to fund others. Compassion may be a virtue, but it cannot be **coerced** through taxation without violating people's just holdings.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**The utilitarian**
+
+Whether to guarantee care is not a matter of *right* at all — it's an empirical question. Guarantee it **if and only if** doing so maximizes overall welfare. The answer could change with the budget.
+:::
+::::
+
+Daniels says opportunity grounds a right; Nozick says rights run the other way; the utilitarian says "right" is the wrong word. Three lenses, three verdicts.
+
+## Where the US Stands
+
+The US is the rich-world outlier, and its pattern is revealing.
+
+- It treats **education** as a right (free K–12), **food** and **housing** as partial rights (SNAP, vouchers) — floors below which it tries not to let people fall.
+- But it treats most **health care** as a **market good**: something you get mainly through a job, a purchase, or by qualifying for a program.
+- The result is a patchwork with real gaps — which is the subject of Part B.
+
+## The Cancer Drug Test
+
+::: {.thought-question}
+A new cancer therapy (**CAR-T**, a real treatment) can cost around **$475,000** for a single course. A public insurer must decide whether to cover it.
+
+How does each lens rule?
+
+1. **Utilitarian:** is the QALY gain worth $475,000 versus spending it elsewhere?
+2. **Rawlsian / Daniels:** does fair opportunity require funding it for the worst-off who can't pay?
+3. **Libertarian:** is anyone *owed* this at all — or should those who want it buy it?
+
+Which answer can you live with — and who pays for it?
+:::
+
+## Mini-Recap
+
+::: {.recap}
+We started with seven citizens in Seattle deciding who lived, and asked what principle could replace their guesswork. Four answered: the **utilitarian** (maximize good), **Rawls** (protect the worst-off), the **libertarian** (free transactions, even markets), and the **capabilities** view (secure what people need to function). We watched them split over a single kidney, over selling organs, and over whether health care is a **right** at all — with Daniels arguing it follows from fair opportunity.
+
+We now have the **values**. Part B brings the **facts**: how the actual US health care system spends the most in the world and yet leaves Americans sicker and shorter-lived than their peers — and what, by these four lenses, we might owe each other.
+:::
+
+## Review Questions
+
+::: {.review-questions}
+
+::: {.review-item .review-recall}
+[Recall]{.review-label}
+
+State the difference principle and explain how a Rawlsian and a utilitarian would allocate one kidney differently.
+:::
+
+::: {.review-item .review-apply}
+[Apply]{.review-label}
+
+A city has one ICU bed and two patients: a 40-year-old with a 70% survival chance and a 70-year-old with a 40% chance. Pick a theory of justice and defend who gets the bed.
+:::
+
+::: {.review-item .review-debate}
+[Debate]{.review-label}
+
+Is there a moral right to health care? Defend your answer using Daniels and at least one objection to him.
+:::
+
+:::
+
+## Key Terms
+
+- **Distributive justice** — how a society fairly divides scarce benefits and burdens.
+- **Utilitarianism** — maximize total well-being; outcome-focused.
+- **Veil of ignorance** — choose rules not knowing your place (Rawls).
+- **Priority of liberty / difference principle** — equal basic liberties come first (lexically prior); then inequalities must help the worst-off (Rawls).
+- **Entitlement theory** — justice is fair acquisition and transfer, not a pattern (Nozick).
+- **Capabilities** — the real freedoms people need to function (Sen, Nussbaum).
+- **QALY** — quality-adjusted life year; a unit of health benefit.
+- **Presumed consent** — everyone is an organ donor unless they opt out.
+- **Negative vs. positive rights** — a right to non-interference vs. a right to be provided something.
+- **Fair equality of opportunity** — the Rawlsian idea Daniels uses to ground a right to care.
+
+## Further Reading
+
+- Rawls, John. *A Theory of Justice.* Harvard University Press, 1971.
+- Daniels, Norman. *Just Health: Meeting Health Needs Fairly.* Cambridge University Press, 2008.
+- Nussbaum, Martha. *Creating Capabilities.* Harvard University Press, 2011.
+
+## References
+
+::: {#refs}
+:::

@@ -347,34 +347,42 @@ The lecture's spine is the **treatment-vs-enhancement distinction** — normativ
 
 ### L8a. Theories of Justice and the Right to Health Care
 
-- A short tour of four families of theories, in plain language:
-  - **Utilitarian** — maximize total well-being.
-  - **Rawlsian** — what would we choose behind a "veil of ignorance"?
-  - **Libertarian** (Nozick) — no one is owed health care; redistribution is unjust.
-  - **Capabilities** (Sen, Nussbaum) — what people need to function as humans.
-- Is there a **moral right** to health care? Norman Daniels' argument from fair equality of opportunity.
-- Where the US stands: a country that treats food, housing, and education as partial rights but health care as mostly a market good.
+*Spine:* anchored on **allocating a single scarce organ** as the running application, opened by the case that shows what allocation looks like *without* a theory of justice — the **Seattle "God Committee"** (1962), which rationed early dialysis by judging patients' "social worth" (job, church attendance, marital status). The motivating question: *if not by social worth, then by what principle?*
+
+- A short tour of four families of theories, in plain language — each run through the same organ-allocation problem:
+  - **Utilitarian** — maximize total well-being / life-years saved (the logic behind QALYs and survival-benefit scoring).
+  - **Rawlsian** — what would we choose behind a "veil of ignorance"? Protect the worst-off.
+  - **Libertarian** (Nozick) — no one is owed health care; the organ is the donor's to give (hence directed donation and the kidney-market debate).
+  - **Capabilities** (Sen, Nussbaum) — restore the functioning people need to live a human life.
+- **Organ allocation as the worked application:** how **UNOS** prioritizes — "sickest first" vs. "best outcome" vs. "first-come"; **opt-in vs. opt-out / presumed consent** (Spain's world-leading donation rate); **directed/conditional donation**; the ethics of **paid organ markets** (Iran, the only legal one); ability-to-pay distortions (registering in multiple states).
+- Is there a **moral right** to health care? Positive vs. negative rights; Norman Daniels' argument from fair equality of opportunity.
+- Where the US stands: a country that treats food, housing, and education as partial rights but health care as mostly a market good. (Bridge to 8b via the expensive-cancer-drug coverage question.)
 
 **Visual elements:**
 - *Figure (code-generated):* 2×2 grid of theories of justice along axes of "individual liberty ↔ collective welfare" and "outcome-focused ↔ rights-focused."
-- *Table:* Four theories applied to one scenario (e.g., "should an expensive cancer drug be covered by public insurance?") — what each says and why.
+- *Table:* Four theories applied to one scarce organ — what each says about who gets it, and why.
 - *Sidebar:* Rawls' original position, illustrated as a thought experiment.
+- *Case box:* The Seattle "God Committee" and the birth of bioethics commissions.
 - *Discussion prompt:* "Behind the veil of ignorance, what health system would you design?"
 
-### L8b. Real-World Disparities and Allocation Choices
+### L8b. Why US Health Care Costs So Much — and Delivers So Little
 
-- Comparing systems: **US, Canada, Germany, UK** on coverage, financing, outcomes (life expectancy, infant mortality, cost per capita).
-- **Health disparities** in the US: racial, socioeconomic, geographic — and the mechanisms behind them (access, bias, environment, history).
-- **Implicit bias** in clinical encounters — what the evidence says (pain undertreatment, dismissed symptoms), and what interventions show promise.
-- **Organ allocation**: how UNOS prioritizes, the ethics of directed donation, "first-come" vs. "sickest first" vs. "best outcome."
-- Rationing under scarcity (preview of COVID-era crisis standards, fully developed in L9).
+*Spine:* two devices carry the facts. (1) The **driving paradox** — the US spends roughly **double** peer nations (~$13,000+/person, ~17–18% of GDP) yet ranks near the bottom of rich countries on life expectancy and infant/maternal mortality: *spend the most, get less.* (2) **Follow one person through the patchwork** — born (Medicaid/CHIP) → employer insurance → job loss → ACA exchange → uninsured gap → Medicare at 65 → Medicaid for nursing-home care. One life touches every program. The descriptive material is **framed by 8a's justice theories** and ends on the value conflicts behind current debates.
+
+- **The fragmented system, explained:** employer-sponsored insurance (≈half of Americans; the tax exclusion), **Medicare**, **Medicaid**, the **VA** (actual government-run care), **ACA exchanges**, the individual market, and out-of-pocket / the uninsured.
+- **A little history since 1945:** the WWII wage-freeze accident that tied insurance to jobs (1943/'54); Truman's failed national plan; **Medicare & Medicaid (1965)**; EMTALA (1986, must treat in the ER); Clinton's 1994 failure; the **ACA (2010)** — what changed, and what stubbornly didn't (still employer-core, still not universal).
+- **Why so expensive?** The evidence: **"it's the prices, not the utilization"** (Anderson et al.) — Americans don't use more care, each unit costs more — plus multi-payer administrative overhead, fee-for-service incentives, drug prices, hospital consolidation, and little price transparency.
+- **Why poorer outcomes?** Access gaps *plus* social/behavioral drivers the system doesn't control (obesity, firearms, vehicle deaths, opioids, inequality — the IOM's "Shorter Lives, Poorer Health"). Honest nuance: not all of it is a health-*system* failure. Population disparities (life expectancy by race, maternal mortality) live here. *(Implicit bias in the clinical encounter relocated to L9.)*
+- **What we're genuinely best at:** quaternary/specialty care (Mayo, Cleveland Clinic, MD Anderson), top-tier cancer survival, biomedical innovation, no waits for the well-insured.
+- **Where we struggle:** pricing, access, administrative burden, rural hospital closures, **nursing/staff shortages and burnout** (foregrounded for the nursing audience), and the recent life-expectancy decline.
+- **Compare the world:** universal coverage has many designs — UK NHS (government-run), Canada (single public insurer, private delivery), Germany (multi-payer sickness funds), Switzerland (regulated private mandate — the ACA's cousin). Leaves students ready for the Medicare-for-All / public-option / market-reform debate.
 
 **Visual elements:**
-- *Figure (code-generated):* bar chart comparing US/Canada/Germany/UK on life expectancy, infant mortality, and per-capita health spending (using OECD data).
-- *Figure (code-generated):* line chart of US life expectancy by race over recent decades.
-- *Table:* Health insurance coverage mechanisms — single-payer, multi-payer with mandate, employer-based, etc., with one country example each.
-- *Case box:* The 2009 Oregon Health Plan prioritization list — a real attempt at explicit rationing.
-- *Case box:* UNOS organ allocation criteria, with a discussion prompt about directed donation.
+- *Figure (code-generated):* scatter/bar — per-capita health spending vs. life expectancy across OECD countries, with the US as the visible outlier.
+- *Figure (code-generated):* "who covers whom" — US population by coverage source (employer, Medicare, Medicaid, exchange, uninsured) as a stacked bar.
+- *Figure (code-generated):* timeline of US health-financing milestones, 1945–present.
+- *Table:* Four models of universal coverage (UK / Canada / Germany / Switzerland) — who pays, who delivers, how it compares to a US program.
+- *Discussion prompt:* "You can change one feature of the US system. Which, and which 8a value does your choice serve?"
 
 ---
 
@@ -400,6 +408,7 @@ The lecture's spine is the **treatment-vs-enhancement distinction** — normativ
 - **Quarantine and isolation**: ethical justifications and their limits.
 - **Vaccine mandates** and conscientious exemptions — the religious, philosophical, and medical exemption debate.
 - **Crisis standards of care**: how triage shifts under scarcity (ventilators, ICU beds, monoclonals).
+- **Implicit bias** in clinical encounters — what the evidence says (pain undertreatment, dismissed symptoms) and what interventions show promise; a population-level mechanism behind disparities (relocated from L8b).
 - What COVID-19 revealed:
   - Pre-existing inequities (race, occupation, housing density)
   - Governance failures and information environments

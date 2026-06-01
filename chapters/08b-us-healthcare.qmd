@@ -1,0 +1,557 @@
+---
+title: "Lecture 8 — Justice and Health Care"
+subtitle: "Part B: Why US Health Care Costs So Much — and Delivers So Little"
+author: "Brendan Shea, PhD"
+date: ""
+date-meta: last-modified
+institute: "An Introduction to Bioethics."
+format:
+  html:
+    toc: true
+    number-sections: true
+  revealjs:
+    output-file: 08b-us-healthcare-slides.html
+---
+
+# The Most Expensive Care in the World {.section-divider}
+
+## Where We Left Off
+
+In Part A we built four lenses for asking what a just society owes people: maximize good (utilitarian), protect the worst-off (Rawls), respect free choices (libertarian), secure what people need to function (capabilities). We argued, with Daniels, about whether health care is a **right** at all.
+
+That was the theory. Part B is the machine those values have to deal with — the real US health care system. Before we can argue about how to *fix* it, we have to see clearly how it actually works, what it costs, and what it delivers.
+
+## Guess First
+
+::: {.thought-question}
+Before the numbers appear, write down your best guess.
+
+1. How much does the US spend on health care **per person, per year** — counting everything (insurance, taxes, out-of-pocket)?
+2. Among wealthy countries, where do you think the US **ranks on life expectancy** — near the top, middle, or bottom?
+3. Do you expect Americans to **use more** doctor visits and hospital days than people in other rich countries, or fewer?
+:::
+
+## The Paradox
+
+The United States spends far more on health care than any nation on Earth — and its people are not healthier for it.
+
+| | United States | OECD average |
+|---|---|---|
+| **Spending per person (2023)** | **~$14,570** | ~$6,000–7,000 |
+| **Share of the whole economy** | **17.6% of GDP** | ~9–11% |
+| **Life expectancy (2023)** | **78.4 years** | **81.1 years** |
+| **Maternal deaths / 100,000** | **~17** | ~10 |
+
+We spend roughly **double** — and live nearly **three years less** [@cms_nhe2023; @oecd_hag2025]. Everything in this lecture answers one question: **why?**
+
+## After You've Discussed
+
+::: {.callout-note}
+Hold onto the gap. The US spends the most and ranks near the bottom of its peers on life expectancy, infant mortality, and maternal mortality. This is not a small inefficiency — it is the central puzzle of American health policy.
+
+And it is where Part A stops being abstract. A country that treats care as **mostly a market good** has built a system with extraordinary capabilities and extraordinary gaps. By the end you should be able to say, in the language of justice, what we are getting right and what we owe each other.
+:::
+
+## Today
+
+::: {.learning-outcomes}
+By the end of Part B, you will be able to:
+
+- Explain the **paradox**: highest spending, middling outcomes.
+- Describe the **four models** of a health system (Beveridge, National Health Insurance, Bismarck, out-of-pocket) and name countries that use each.
+- Show why the US is **"fragmented"** — it runs **all four models at once** — and map its programs onto them.
+- Trace how the system **got this way** since 1945, and explain why US care is so expensive (**"it's the prices, not the utilization"**) and why outcomes lag.
+- Name what the US does **best** and where it **struggles**, including the nursing workforce crisis.
+- Argue, using a Part A value, **which model the US should move toward.**
+:::
+
+# Four Ways to Build a Health System {.section-divider}
+
+## Two Questions Define Every System
+
+Before we look at the US, we need a map. Every health system on earth is built from the answers to just **two questions**:
+
+- **Who delivers the care?** — does the government own the hospitals and employ the staff, or are they private?
+- **Who pays for it?** — the government from taxes, regulated insurance funds, or you, out of pocket?
+
+The journalist **T. R. Reid** sorted the world's systems into **four models** by those two answers [@reid2009]. Almost every country picks **one**. Keep that word — *one* — in mind.
+
+## The Four Models
+
+| Model | Who delivers | Who pays | Where you'll find it |
+|---|---|---|---|
+| **Beveridge** | government owns it | government (taxes) | UK (NHS), Spain, Cuba |
+| **National Health Insurance** | private providers | one government insurer | Canada, Taiwan |
+| **Bismarck** | private providers | regulated nonprofit **funds** (payroll) | Germany, France, Japan |
+| **Out-of-pocket** | whoever you can find | **you**, if you can pay | most low-income countries |
+
+The deepest split is **who pays**, running from "the public, for everyone" (Beveridge, NHI) to "private but tightly regulated" (Bismarck) to "you're on your own" (out-of-pocket).
+
+## Beveridge vs. National Health Insurance
+
+::: {.columns}
+::: {.column width="48%"}
+**Beveridge** (UK's NHS, since 1948)
+
+The government **owns the hospitals and employs the doctors**, and funds it all through taxes. Care is free at the point of use. This is what "socialized medicine" actually means — the state runs the whole thing.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**National Health Insurance** (Canada, Taiwan)
+
+Doctors and hospitals stay **private**, but a **single government insurer** pays them, funded by taxes. One payer, private delivery. No marketing, no denials for profit, strong bargaining power on prices.
+:::
+::::
+
+## Bismarck vs. Out-of-Pocket
+
+::: {.columns}
+::: {.column width="48%"}
+**Bismarck** (Germany since 1883, France, Japan)
+
+Care *and* insurance are **private** — but insurers are **nonprofit "sickness funds,"** everyone must be covered, and prices are tightly regulated. Switzerland's mandate, and the US **ACA**, are cousins of this model.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**Out-of-pocket**
+
+No system at all: you get the care you can pay for, and go without the rest. This is the reality for most people in poor countries — and, as we'll see, for the **uninsured** in the US.
+:::
+::::
+
+## A Caution Before We Go On
+
+::: {.callout-note}
+These four models are **idealizations**. Real countries blend at the edges — the British buy private top-up insurance, Germany has some public hospitals, Canada leaves dental and drugs largely private.
+
+But the framework holds where it matters: each country builds its system around **one** model and makes it coherent. Hold that thought — because the United States did something no one else did.
+:::
+
+# A System That Isn't One System {.section-divider}
+
+## One Life, Every Program
+
+The US has no single health system. It has a **patchwork** — and the easiest way to see it is to follow one person through a lifetime.
+
+::: {.context-box}
+**Meet Maria.**
+
+- **Born:** her family is low-income, so she's covered by **Medicaid/CHIP**.
+- **Age 26:** good job with benefits — **employer-sponsored insurance**.
+- **Age 34:** laid off. Briefly **uninsured**, then buys a plan on the **ACA exchange** with a subsidy.
+- **Age 60:** chronic illness, can't keep working full-time — a coverage **gap**.
+- **Age 65:** ages into **Medicare**.
+- **Age 81:** needs a nursing home; Medicare won't cover long-term care, so she spends down her savings until **Medicaid** does.
+
+One person. **Six** different programs — and, as we're about to see, **three different countries' models** of health care, all without leaving the US.
+:::
+
+## Who Covers Whom
+
+US health coverage in 2023 [@census_coverage2023]:
+
+| Source of coverage | Share of population |
+|---|---|
+| **Employer-sponsored** | ~54% |
+| **Medicare** (65+ and disabled) | ~19% |
+| **Medicaid** (low-income) | ~19% |
+| **Direct purchase / ACA exchanges** | ~10% |
+| **VA / military** | a few % |
+| **Uninsured** | **~8% (≈26 million)** |
+
+Shares add to more than 100% because many people hold more than one type in a year. About **92.5%** of Americans had some coverage — near a record high, and still leaving 26 million with none.
+
+## The US Runs All Four Models at Once
+
+This is the heart of "fragmentation." Other countries pick one model. The US runs **all four simultaneously** — and which one you live under depends on your age, job, income, and luck [@reid2009].
+
+| If you are… | Your coverage | …is really this model | …like which country |
+|---|---|---|---|
+| A veteran (VA) | government hospitals | **Beveridge** | the UK |
+| 65 or older | Medicare | **National Health Insurance** | Canada |
+| Working with benefits | employer insurance | **Bismarck** | Germany |
+| Uninsured | pay or go without | **Out-of-pocket** | the developing world |
+
+A single country containing Britain, Canada, Germany, *and* the developing world — sorted by who you happen to be.
+
+## Why "Fragmented" Is Expensive, Not Just Messy
+
+Running four systems at once isn't only untidy — it has real costs.
+
+- **No coherence:** each model has its own rules, paperwork, eligibility, and incentives. Providers must bill all of them at once.
+- **Gaps at the seams:** people fall *between* models — too rich for Medicaid, too young for Medicare, no job-based plan. That's where the 26 million uninsured live.
+- **No single bargaining power:** because no one payer dominates, no one can negotiate prices the way Canada's or the UK's system can. We'll see the price consequences shortly.
+
+## Employer-Sponsored Insurance — the Core
+
+About **half** of Americans get coverage through a job — the single largest piece of the system, and the one most people never chose.
+
+- Your employer buys a group plan and pays much of the premium; you pay the rest from your paycheck.
+- In 2024, the average family plan cost **$25,572 a year** in total premiums — most of it invisible to workers because the employer "pays" it (out of wages they'd otherwise get).
+- Lose or change the job, and you can lose the coverage. **Maria's layoff** is the system's built-in fragility.
+
+## Medicare and Medicaid — the 1965 Pillars
+
+::: {.columns}
+::: {.column width="48%"}
+**Medicare** — federal, for people **65+** and the long-term disabled.
+
+- **Part A:** hospital
+- **Part B:** outpatient/doctors
+- **Part C:** private "Advantage" plans
+- **Part D:** drugs
+
+Nearly universal for the old — the closest thing the US has to a right to care.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**Medicaid** — joint **federal–state**, for **low-income** people.
+
+- Rules and generosity **vary by state**.
+- The **ACA** let states expand it to more low-income adults; not all did.
+- Quietly enormous: it pays for about **4 in 10 US births** and most **nursing-home** care.
+:::
+::::
+
+## The VA — Actual Government Medicine
+
+One corner of the US system looks like the rest of the wealthy world.
+
+- The **Veterans Health Administration** doesn't just *insure* veterans — it **owns the hospitals and employs the doctors**. The government delivers the care directly.
+- This is pure **Beveridge** — the UK's model, running inside the United States. It's what people usually mean by "socialized medicine," and it's already the largest integrated system in the country.
+- So the same nation that leaves 26 million uninsured also runs a full British-style health service for its veterans. That is the patchwork in one breath.
+
+## The Exchanges and the Uninsured
+
+For people without a job-based plan, Medicare, or Medicaid, the **ACA marketplaces** (since 2014) sell individual plans, with income-based subsidies.
+
+- About **10%** of Americans buy coverage this way or on the individual market.
+- Even so, **~26 million remain uninsured** — too well-off for Medicaid, no job-based plan, or unwilling/unable to buy in.
+- The uninsured don't simply go without: by law, emergency rooms must still treat them — a fact with its own history, coming up next.
+
+# How We Got Here {.section-divider}
+
+## The Accident That Built the System
+
+America's job-based system was not designed. It was an accident of **World War II**.
+
+- Wartime **wage controls (1942–43)** froze what employers could pay. To compete for scarce workers, they offered **health benefits** instead of raises.
+- Then the government ruled those benefits **tax-free** — confirmed in the **1954** tax code. A dollar of health insurance wasn't taxed; a dollar of wages was.
+- That tax break made job-based coverage explode. The US tied health care to employment not by choice, but by a loophole no one ever closed.
+
+## The Hidden Subsidy
+
+That 1954 tax break is still here — and it is enormous.
+
+- Excluding employer health benefits from taxes cost the federal government about **$299 billion in 2022** — the **single largest tax expenditure** in the entire federal budget [@tpc_esi_exclusion].
+- It is invisible: most workers have no idea they receive it.
+- It is **regressive** — worth more to higher earners in higher tax brackets. The US already heavily subsidizes health care; it just does it quietly, and tilts it toward the well-off.
+
+## A Short History, 1945–Today
+
+```{dot}
+//| fig-width: 9
+digraph G {
+  rankdir=LR;
+  node [shape=box, style="rounded,filled", fontname="Helvetica", fillcolor="#eef3f8", fontsize=11];
+  edge [color="#aaaaaa"];
+  a [label="1948\nTruman's national\nplan fails"];
+  b [label="1965\nMedicare &\nMedicaid"];
+  c [label="1986\nEMTALA:\nERs must treat"];
+  d [label="1994\nClinton plan\nfails"];
+  e [label="2003\nMedicare\nPart D (drugs)"];
+  f [label="2010\nACA: exchanges,\nMedicaid expansion", fillcolor="#eef8ee"];
+  a -> b -> c -> d -> e -> f;
+}
+```
+
+Two big expansions (1965, 2010), two big failures (1948, 1994), and one unfunded promise — **EMTALA**, which since 1986 has required hospitals to screen and stabilize anyone in an emergency, regardless of ability to pay [@emtala1986].
+
+## What Changed, and What Didn't
+
+Eighty years of fights, and the core never moved.
+
+- **What changed:** the old got Medicare; the poor got Medicaid; emergencies got EMTALA; the individual market got the ACA's exchanges and protections [@aca2010].
+- **What didn't:** coverage is still built around the **employer**, and the US still has **no universal guarantee**. Every reform added a patch rather than replacing the quilt.
+- The result is the fragmented system we just mapped — and the costs we turn to now.
+
+# Why So Expensive? {.section-divider}
+
+## It's the Prices, Not the Utilization
+
+The intuitive guess is that Americans must overuse care — too many tests, too many visits. The evidence says the opposite.
+
+- Americans actually have **fewer** doctor visits and **fewer** hospital stays than the OECD average.
+- What's different is that **each unit costs far more**: the same drug, scan, or procedure simply has a higher price tag in the US.
+- Health economists summed it up in a famous title: **"It's still the prices, stupid"** [@anderson2019]. The volume isn't the problem. The prices are.
+
+## What Drives the Prices
+
+If prices are the engine, what feeds them?
+
+- **Drug prices** — the US pays far more for the same medications than other countries, which negotiate or cap prices.
+- **Higher salaries** — for physicians and many staff, well above peer-country norms.
+- **Hospital market power** — mergers leave many regions with one dominant system that can name its price.
+- **Opacity** — patients almost never see a price before care, so normal market discipline never kicks in.
+
+## The Paperwork Tax
+
+Some of the money never buys care at all — it buys **billing**.
+
+::: {.context-box}
+**Administrative complexity.** With hundreds of insurers, each with its own rules, codes, and denials, the US spends enormously just **managing the money**.
+
+- Administration is about **8% of US health spending**, versus **1–3%** in peer countries.
+- Hospital administration alone runs about **25% of costs** — the highest of eight nations studied.
+- Billing and insurance paperwork costs roughly **$2,497 per person** in the US, against **$551** in Canada [@himmelstein2020].
+
+Part of this is the price of running **four models at once**: every provider must bill Medicare, Medicaid, dozens of private insurers, and self-pay patients, each with its own rules. Canada has one payer to bill. We have thousands.
+:::
+
+## Fee-for-Service: Paying for Volume
+
+Underneath the prices is an incentive problem in how we pay.
+
+::: {.columns}
+::: {.column width="48%"}
+**Fee-for-service**
+
+Providers are paid **per thing done** — per test, scan, procedure. The built-in incentive is to do **more**, whether or not it helps. Volume is rewarded; restraint is not.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**Value-based care**
+
+The alternative pays for **keeping people healthy** — a fixed amount per patient, or bonuses for good outcomes. It's spreading slowly, but fee-for-service still dominates US medicine.
+:::
+::::
+
+## A Lens Check
+
+::: {.callout-note}
+"Let the market set prices" is a **libertarian** instinct from Part A — free transactions, minimal interference. It does drive innovation and rewards investment.
+
+But health care breaks the assumptions a market needs: patients can't shop while having a heart attack, can't see prices, and can't walk away. The **utilitarian** asks whether all this spending actually maximizes health (it doesn't), and **Daniels** asks whether prices this high are compatible with fair access (they aren't). Same facts, three verdicts.
+:::
+
+# When Insured Isn't Covered {.section-divider}
+
+## Thought Question
+
+::: {.thought-question}
+You have a job and a health insurance plan. Your appendix bursts; you get emergency surgery and go home in two days, cured. Weeks later, a bill arrives: after everything your insurance paid, **you owe $15,000** — a deductible, "out-of-network" charges from a surgeon you never chose, and coinsurance.
+
+1. You did everything right and were insured. How did you still end up owing $15,000?
+2. Did you have any real chance to "shop" or consent to these prices?
+3. Should being insured mean you're protected from this — and if so, who pays the difference?
+:::
+
+## Make It Contemporary
+
+::: {.thought-question}
+This is ordinary, not rare.
+
+- Medical bills are a leading cause of personal **bankruptcy** in the US, and a large share of online fundraisers are for medical costs.
+- The bill in the scenario — surprise charges from out-of-network providers at an in-network hospital — was so common that Congress passed the **No Surprises Act**, effective 2022, to ban much of it [@nosurprises2022].
+
+**Discuss:** A law was needed to stop hospitals from billing insured patients for doctors those patients never chose. What does *needing that law* tell you about the system?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+A distinction the coverage numbers hide:
+
+- **Uninsured** means no plan at all (~8%).
+- **Underinsured** means you *have* a plan, but its deductibles and cost-sharing are so high that you still can't afford care or get wiped out by a bill.
+
+Tens of millions are underinsured. "92.5% covered" can hide people who skip prescriptions, avoid the ER, or go bankrupt anyway. Health economists call the bankrupting effect **financial toxicity** — when the *treatment for the bill* becomes its own illness.
+:::
+
+# Why Poorer Outcomes? {.section-divider}
+
+## Access Gaps
+
+Part of the outcomes gap is straightforward: people who can't afford care get less of it, later.
+
+- The uninsured and underinsured **delay** care, **skip** medications, and **avoid** preventive visits until problems become emergencies.
+- Emergency, late-stage care is both worse for patients and more expensive for everyone.
+- Peer countries with universal coverage remove this barrier — one clear reason their populations do better on basic measures.
+
+## But It's Not Only the System
+
+Here honesty matters: a large share of the US disadvantage is **not** something hospitals can fix.
+
+- Americans face higher rates of **obesity**, **firearm deaths**, **vehicle deaths**, and **drug overdoses** (about **107,000** in 2022) than peers.
+- Deep **income inequality and poverty** shape health long before anyone reaches a clinic.
+- These are **social and behavioral** drivers. Even a perfect health system would leave much of the gap untouched — which is exactly why the gap is so stubborn.
+
+## Shorter Lives, Even for the Advantaged
+
+::: {.context-box}
+**The finding that surprised everyone.**
+
+A landmark 2013 National Academies report, *U.S. Health in International Perspective: Shorter Lives, Poorer Health*, found the US disadvantage runs across the **whole life course** — and is **not** explained only by the poor or by minorities [@nrc2013].
+
+Even **white, college-educated, insured, high-income** Americans were found to be in worse health than similar people in peer nations. The disadvantage is national, not just a problem of the margins.
+:::
+
+## Disparities Within
+
+The national average also hides sharp gaps inside the US.
+
+- **Life expectancy** differs by years across racial and economic lines.
+- **Maternal mortality** for Black women is roughly **three times** that of white women.
+- **Infant mortality** for Black infants (~10.9 per 1,000) is about three times that of Asian infants (~3.5) [@cdc_infant2023].
+
+These are the population-level injustices Part A's theories were built to name. They are not random — they track access, history, and bias.
+
+# What We're Good At, and Where We Struggle {.section-divider}
+
+## Best in the World — Genuinely
+
+The US system has real, world-leading strengths, and an honest account has to say so.
+
+- For complex, specialized care, US centers like the **Mayo Clinic**, **Cleveland Clinic**, and **MD Anderson** are among the best on Earth.
+- US **cancer survival** is at or near the top internationally — highest in the world for prostate cancer, top-tier for breast and colon (the CONCORD studies) [@concord].
+- The US leads in **biomedical innovation**, and the well-insured face **little or no waiting** for elective and specialty care.
+
+## Where We Struggle
+
+The same system that delivers the world's best specialty care fails on the basics.
+
+- **Prices** no one can see or predict; **access** gaps for tens of millions.
+- A crushing **administrative** burden.
+- **Rural hospital closures** leaving whole regions without nearby care.
+- A **life-expectancy stall** that, even after the COVID rebound, leaves the US years behind its peers.
+
+## The Workforce Crisis
+
+The strain shows up most sharply in the people who deliver the care — especially nurses.
+
+- HRSA projects roughly a **10% shortage of registered nurses by 2027**, and a shortfall of **over 500,000 by 2030** [@hrsa_nursing2024].
+- The NCSBN found about **138,000 nurses left** since 2022, and nearly **40% intend to leave** the workforce by 2029.
+- In 2024, over **80,000 qualified nursing-school applicants were turned away** — not for lack of demand, but for lack of faculty and clinical placements.
+
+## Why Staffing Is an Ethics Problem
+
+::: {.callout-note}
+A shortage of nurses is not just an HR headache — it is a justice and safety issue.
+
+- Thinner staffing means **higher patient-to-nurse ratios**, which research links to worse patient outcomes.
+- Worse conditions drive **burnout**, which drives more nurses out — a self-feeding cycle.
+- Shortages hit **rural and safety-net** settings hardest, widening the very disparities we just described.
+
+The system's failures land on patients *through* the workforce. Who staffs the bedside is a distributive-justice question too.
+:::
+
+# Which Model Should the US Choose? {.section-divider}
+
+## The Menu, Now That You Know It
+
+Every reform debate you'll ever hear is really an argument about **which model to grow, and which to shrink**. The four are no longer abstract:
+
+- **Beveridge** — expand the VA's approach to everyone ("the NHS option").
+- **National Health Insurance** — one public insurer paying private doctors ("**Medicare for All**").
+- **Bismarck** — keep private insurers but regulate them into universal coverage (a **fully built-out ACA**, like Switzerland or Germany).
+- **Keep blending** — patch the current four-model mix without choosing.
+
+## Choosing on Purpose: Taiwan
+
+::: {.columns}
+::: {.column width="56%"}
+The US drifted into its patchwork by **accident**. It doesn't have to stay there — and one country proves it.
+
+In the early 1990s **Taiwan** had no universal system. Rather than guess, its government **studied health systems around the world**, then in **1995** deliberately built a **National Health Insurance** model — single public insurer, private delivery. It reached near-universal coverage in a few years, at a fraction of US cost.
+:::
+::: {.column width="44%"}
+::: {.context-box}
+**The lesson**
+
+A country *can* look at the menu and choose. The US question is not "is reform possible?" — Taiwan, Canada, Germany, and Britain all answer yes. It is **which model**, and **which value** that choice serves.
+:::
+:::
+::::
+
+## Three Directions, Three Values
+
+Each reform path advances a **different Part A value** — and sacrifices another.
+
+| Reform | Model | Serves… | Strains… |
+|---|---|---|---|
+| **Medicare for All** | NHI | equal access (Rawls, Daniels) | liberty; existing plans |
+| **Public option** | NHI + Bismarck | a middle path | satisfies neither side fully |
+| **Build out the ACA** | Bismarck | coverage *and* choice | complexity; cost control |
+| **Market reforms** | toward out-of-pocket | liberty (libertarian) | the worst-off |
+
+There is no value-free choice. To pick a model is to pick which of Part A's principles you put first.
+
+## Make It Contemporary
+
+::: {.thought-question}
+"Medicare for All" would cover every American through a single public insurer, ending most private plans and the link between jobs and coverage.
+
+1. Which Part A value does it serve best — and which does it sacrifice?
+2. It would likely **lower total spending** (less administration, real price negotiation) but **raise taxes** while ending premiums. Is that a good trade?
+3. Tens of millions are happy with employer plans. Should a reform that helps the worst-off be allowed to change what *they* have?
+:::
+
+## Wrap-Up
+
+::: {.recap}
+We started with a paradox: the US spends about **double** any peer nation, near **$14,570 per person**, and gets **shorter lives** in return. We saw why — a **patchwork** that runs all **four models** of health care at once (Beveridge for veterans, NHI for the old, Bismarck for workers, out-of-pocket for the uninsured), built by a wartime accident, with prices no one can see and an outcomes gap driven as much by guns, cars, food, and poverty as by the clinic. We named what the US does best (the world's finest specialty and cancer care) and where it fails (access, cost, and a nursing workforce in crisis).
+
+None of this settles the argument — it *equips* it. Other countries chose **one** model on purpose; the US can too. Which one depends on which of Part A's values we put first: the most total health, the protection of the worst-off, the freedom to choose, or the capabilities every person needs. The model is yours to argue for.
+:::
+
+## Review Questions
+
+::: {.review-questions}
+
+::: {.review-item .review-recall}
+[Recall]{.review-label}
+
+Explain "it's the prices, not the utilization," and give two specific reasons US prices run higher than peer countries'.
+:::
+
+::: {.review-item .review-apply}
+[Apply]{.review-label}
+
+A friend says, "Americans are unhealthy because they overuse the ER and eat badly — fixing insurance won't help." Using this lecture, where is your friend partly right, and where wrong?
+:::
+
+::: {.review-item .review-debate}
+[Debate]{.review-label}
+
+Should the US adopt a single-payer system, a public option, or market reforms? Defend your choice using a specific theory of justice from Part A.
+:::
+
+:::
+
+## Key Terms
+
+- **The four models** — Beveridge (gov owns & pays), National Health Insurance (single gov payer, private care), Bismarck (regulated private funds), out-of-pocket (pay or go without).
+- **Fragmentation** — the US runs all four models at once, sorted by age, job, and income.
+- **Employer-sponsored insurance** — job-based coverage; ~half of Americans.
+- **Medicare / Medicaid** — federal coverage for the old/disabled / joint federal–state coverage for the low-income.
+- **EMTALA** — 1986 law requiring ERs to screen and stabilize regardless of ability to pay.
+- **Tax exclusion** — the untaxed status of employer health benefits; the largest federal tax expenditure.
+- **"It's the prices, not the utilization"** — US spending is high because of prices, not volume of care.
+- **Underinsurance / financial toxicity** — having coverage but still unable to afford care, or bankrupted by it.
+- **Single-payer / public option** — one public insurer for all / a public plan competing with private ones.
+
+## Further Reading
+
+- Reid, T. R. *The Healing of America: A Global Quest for Better, Cheaper, and Fairer Health Care.* Penguin, 2009. [@reid2009]
+- Rosenthal, Elisabeth. *An American Sickness: How Healthcare Became Big Business.* Penguin, 2017.
+- Anderson, Hussey & Petrosyan. "It's Still the Prices, Stupid." *Health Affairs* (2019). [@anderson2019]
+- National Academies. *U.S. Health in International Perspective: Shorter Lives, Poorer Health* (2013). [@nrc2013]
+
+## References
+
+::: {#refs}
+:::

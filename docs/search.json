@@ -189,6 +189,797 @@
     "text": "References\n\n\nArnold, Denis G., and Paul T. Menzel. 1998. “When Comes ‘the End of the Day’? A Comment on the Dialogue Between Dax Cowart and Robert Burt.” Hastings Center Report 28 (1): 25–27. https://doi.org/10.2307/3527970.\n\n\nBrewster, Luke P., Barbara K. Bennett, and Richard L. Gamelli. 2006. “Application of Rehabilitation Ethics to a Selected Burn Patient Population’s Perspective.” Journal of the American College of Surgeons 203 (5): 766–71. https://doi.org/10.1016/j.jamcollsurg.2006.06.024.\n\n\nBurton, Keith. 1989. “A Chronicle: Dax’s Case as It Happened.” In Dax’s Case: Essays in Medical Ethics and Human Meaning, edited by Lonnie D. Kliever. Southern Methodist University Press.\n\n\nCowart, Dax, and Robert Burt. 1998. “Confronting Death: Who Chooses, Who Controls?” Hastings Center Report 28 (1): 14–24. https://doi.org/10.2307/3528337.\n\n\nFaden, Ruth R., and Tom L. Beauchamp. 1986. A History and Theory of Informed Consent. Oxford University Press.\n\n\nGerrek, Monica L. 2018. “Getting Past Dax.” AMA Journal of Ethics 20 (6): 581–88. https://doi.org/10.1001/journalofethics.2018.20.6.mhst1-1806.\n\n\nKliever, Lonnie D., ed. 1989. Dax’s Case: Essays in Medical Ethics and Human Meaning. Southern Methodist University Press.\n\n\nParsi, Kayhan, and William J. Winslade. 2019. “Why Dax’s Case Still Matters.” The American Journal of Bioethics 19 (9): 8–10. https://doi.org/10.1080/15265161.2019.1643944.\n\n\nSlotnik, Daniel E. 2019. Dax Cowart, Who Fought for Patients’ Rights, Dies at 71. The New York Times, May 15, 2019. https://www.nytimes.com/2019/05/15/obituaries/dax-cowart-dead.html.\n\n\nSupreme Court of New Jersey. 1976. In Re Quinlan, 70 n.j. 10, 355 a.2d 647. Supreme Court of New Jersey.\n\n\nSupreme Court of the United States. 1990. Cruzan v. Director, Missouri Department of Health, 497 u.s. 261. Supreme Court of the United States.\n\n\nUnited States Court of Appeals, District of Columbia Circuit. 1972. Canterbury v. Spence, 464 f.2d 772. United States Court of Appeals, D.C. Circuit.\n\n\nWhite, Robert B. 1974. Please Let Me Die [Film]. University of Texas Medical Branch, Galveston."
   },
   {
+    "objectID": "chapters/08a-justice-health.html",
+    "href": "chapters/08a-justice-health.html",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "",
+    "text": "It is 1962. A Seattle hospital has just built the world’s first machine that can keep people with failing kidneys alive — but it has only three treatment slots. About sixty patients in the area will die without it. Every one of them is medically eligible. The machine cannot be shared.\nYou are on the committee that must decide who gets the three slots.\nWrite or discuss:\n\nWhat criteria would you use to choose? Be specific.\nWould you consider a patient’s job, family, or character? Should you?\nWhatever rule you pick — could you defend it to the families of the people who die?\n\n\n\n\n\nThe committee was real. At Seattle’s Swedish Hospital, seven anonymous citizens — a lawyer, a minister, a homemaker, a banker, a labor leader, a state official, and a surgeon — were handed exactly this choice.\n\nThey chose largely by social worth: whether a patient had a steady job, went to church, was married, supported children, seemed likely to “contribute.”\nThe journalist Shana Alexander watched them for six months and published what she saw in LIFE magazine in 1962, under the title “They Decide Who Lives, Who Dies” (Alexander 1962).\nThe public was horrified — not because the committee was cruel, but because it had no principle beyond its own values.\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe committee’s mistake was not bad intentions. It was deciding life and death with no theory of justice — just an instinct about who “deserved” to live.\nThe reaction to the Seattle committee helped launch the field of bioethics, and within a decade Congress simply paid for dialysis for everyone who needed it (1972). But the deeper question never went away: when a life-saving resource is scarce, by what principle should it be shared?\nToday we meet four serious answers — and test each one against a single donated organ.\n\n\n\n\n\n\nBy the end of Part A, you will be able to:\n\nExplain what distributive justice is and why a “treat like cases alike” rule is not enough.\nState the utilitarian, Rawlsian, libertarian, and capabilities theories of justice in plain language.\nApply all four to a concrete allocation problem — who should receive a scarce organ.\nDescribe how the US actually allocates organs (UNOS), and the ethics of presumed consent and organ markets.\nReconstruct Daniels’ argument that there is a moral right to health care, and the main objections to it.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#a-case-to-sit-with",
+    "href": "chapters/08a-justice-health.html#a-case-to-sit-with",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "",
+    "text": "It is 1962. A Seattle hospital has just built the world’s first machine that can keep people with failing kidneys alive — but it has only three treatment slots. About sixty patients in the area will die without it. Every one of them is medically eligible. The machine cannot be shared.\nYou are on the committee that must decide who gets the three slots.\nWrite or discuss:\n\nWhat criteria would you use to choose? Be specific.\nWould you consider a patient’s job, family, or character? Should you?\nWhatever rule you pick — could you defend it to the families of the people who die?",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#what-the-committee-actually-did",
+    "href": "chapters/08a-justice-health.html#what-the-committee-actually-did",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "",
+    "text": "The committee was real. At Seattle’s Swedish Hospital, seven anonymous citizens — a lawyer, a minister, a homemaker, a banker, a labor leader, a state official, and a surgeon — were handed exactly this choice.\n\nThey chose largely by social worth: whether a patient had a steady job, went to church, was married, supported children, seemed likely to “contribute.”\nThe journalist Shana Alexander watched them for six months and published what she saw in LIFE magazine in 1962, under the title “They Decide Who Lives, Who Dies” (Alexander 1962).\nThe public was horrified — not because the committee was cruel, but because it had no principle beyond its own values.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#after-youve-discussed",
+    "href": "chapters/08a-justice-health.html#after-youve-discussed",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "",
+    "text": "Note\n\n\n\nThe committee’s mistake was not bad intentions. It was deciding life and death with no theory of justice — just an instinct about who “deserved” to live.\nThe reaction to the Seattle committee helped launch the field of bioethics, and within a decade Congress simply paid for dialysis for everyone who needed it (1972). But the deeper question never went away: when a life-saving resource is scarce, by what principle should it be shared?\nToday we meet four serious answers — and test each one against a single donated organ.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#today",
+    "href": "chapters/08a-justice-health.html#today",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "",
+    "text": "By the end of Part A, you will be able to:\n\nExplain what distributive justice is and why a “treat like cases alike” rule is not enough.\nState the utilitarian, Rawlsian, libertarian, and capabilities theories of justice in plain language.\nApply all four to a concrete allocation problem — who should receive a scarce organ.\nDescribe how the US actually allocates organs (UNOS), and the ethics of presumed consent and organ markets.\nReconstruct Daniels’ argument that there is a moral right to health care, and the main objections to it.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#distributive-justice",
+    "href": "chapters/08a-justice-health.html#distributive-justice",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "2.1 Distributive Justice",
+    "text": "2.1 Distributive Justice\nDistributive justice is the part of ethics that asks how a society should divide up benefits and burdens — here, scarce medical care — fairly.\n\nAlmost everyone accepts a starting rule, the formal principle of justice: treat like cases alike, and different cases differently.\nThe trouble is that the formal principle is empty until you say which differences matter. Need? Merit? Ability to pay? Likelihood of benefit?\nThe Seattle committee thought “social worth” was a relevant difference. The four theories ahead each name a different feature as the one that counts.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#the-problem-we-will-keep-returning-to",
+    "href": "chapters/08a-justice-health.html#the-problem-we-will-keep-returning-to",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "2.2 The Problem We Will Keep Returning To",
+    "text": "2.2 The Problem We Will Keep Returning To\nEvery theory will be tested on the same hard case, so the differences between them stay visible.\n\nOne organ, many candidates.\nToday more than 105,000 people in the US are waiting for an organ transplant. Over 92,000 of them — about 87% — need a kidney (Organ Procurement and Transplantation Network (OPTN) 2025). Most will wait years; some will die waiting.\nWhen one donated kidney becomes available and several patients match it, someone decides who gets it. That decision is distributive justice in its rawest form — and each theory answers it differently.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#four-lenses",
+    "href": "chapters/08a-justice-health.html#four-lenses",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "2.3 Four Lenses",
+    "text": "2.3 Four Lenses\nEach lens fixes on a different question — and that question, not a tidy formula, is what it brings to the bedside.\n\nUtilitarian: what produces the most total good?\nRawlsian: what rules would we accept before knowing who we’d be?\nLibertarian: were the holdings and transfers fair?\nCapabilities: what does a person need to function as a human being?\n\nNotice these are not four answers to one question. They are four different questions — which is why, as we’ll see, they rarely hand down a single verdict on their own.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#the-principle",
+    "href": "chapters/08a-justice-health.html#the-principle",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "3.1 The Principle",
+    "text": "3.1 The Principle\nUtilitarianism says the just distribution is the one that produces the greatest total well-being. Count everyone equally, add up the benefits, and choose the option with the largest sum.\n\nIt is outcome-focused: what matters is results, not who gets what or why.\nApplied to scarce care, it becomes a simple instruction: do the most good per unit of a scarce resource.\nThis is the logic behind cost-effectiveness analysis throughout modern medicine.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#applied-to-the-organ",
+    "href": "chapters/08a-justice-health.html#applied-to-the-organ",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "3.2 Applied to the Organ",
+    "text": "3.2 Applied to the Organ\nA first pass says: give the kidney to whoever gains the most good — usually the most years of healthy life. But “total well-being” is bigger than one patient.\n\nA utilitarian also weighs system-wide effects: rules that keep public trust high, that encourage more people to donate, that don’t frighten families away.\nSo the lens doesn’t simply crown a recipient. It might favor opt-out, or even a market (more organs, more lives) — or oppose a market if payment crowds out altruistic donation and shrinks the supply.\n\n\nThe QALY. Health economists measure benefit in quality-adjusted life years (QALYs). One year in perfect health = 1 QALY; a year in poor health counts as less.\nBritain’s NICE uses roughly this math to decide what the NHS funds — often around £20,000–£30,000 per QALY. It is the utilitarian instinct turned into a spreadsheet. But notice it answers “is this worth it overall?”, not “which patient deserves it?”",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#where-it-bites",
+    "href": "chapters/08a-justice-health.html#where-it-bites",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "3.3 Where It Bites",
+    "text": "3.3 Where It Bites\nThe strength of the utilitarian lens — maximize benefit — is also its danger.\n\nIt can sacrifice the few for the many: a patient who would gain only a few good years loses to one who would gain decades, every time.\nQALY math can systematically disadvantage the elderly and the disabled, because they are counted as having fewer or “lower-quality” years to gain.\nIt treats the individual as a site where good is produced, not as someone with a claim. That is exactly what the next lens insists on.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#justice-as-fairness",
+    "href": "chapters/08a-justice-health.html#justice-as-fairness",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "4.1 Justice as Fairness",
+    "text": "4.1 Justice as Fairness\nJohn Rawls asked a different question: not “what maximizes good?” but “what rules would we choose if we were fair?” (Rawls 1971)\n\nThe original position. Imagine designing a society’s rules from behind a veil of ignorance: you know nothing about who you will be — your wealth, talents, health, or whether you’ll be the patient who needs the kidney.\nRawls argues that rational people choosing under that veil would not gamble on landing at the bottom. They would choose rules that protect everyone, especially the worst-off — because that worst-off person might be them.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#two-principles-in-order",
+    "href": "chapters/08a-justice-health.html#two-principles-in-order",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "4.2 Two Principles, In Order",
+    "text": "4.2 Two Principles, In Order\nBehind the veil, Rawls argues, we would choose two principles — and the order matters as much as the content.\n\nEqual basic liberties — the same rights and freedoms for all (speech, conscience, bodily integrity).\n(a) Fair equality of opportunity, and (b) the difference principle: inequalities are just only if they help the least advantaged.\n\nCrucially, the first principle is lexically prior: you may not trade away basic liberties for greater welfare, however large the gain. That priority is exactly what divides Rawls from the utilitarian — no one’s liberty is a line item in someone else’s sum.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#applied-to-the-organ-with-a-caveat",
+    "href": "chapters/08a-justice-health.html#applied-to-the-organ-with-a-caveat",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "4.3 Applied to the Organ — with a Caveat",
+    "text": "4.3 Applied to the Organ — with a Caveat\n\nA caution Rawls himself would press. Rawls’s principles govern the basic structure of society — its constitution and institutions — not who gets the next kidney. Using the difference principle to micro-allocate one organ is an extension of his view, not a verdict it strictly delivers.\n\nRead in a Rawlsian spirit (or its prioritarian cousin — give extra weight to the worse-off), the lens does two things:\n\nIt rejects the Seattle committee’s “social worth”: behind the veil, no one would agree to be judged on their job or churchgoing.\nIt tilts toward the worst-off — the sickest, or those with the least access — even when that isn’t the choice that maximizes total life-years. Whether it picks a specific recipient still depends on how you build the institution.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#thought-question",
+    "href": "chapters/08a-justice-health.html#thought-question",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "4.4 Thought Question",
+    "text": "4.4 Thought Question\n\nTwo patients match the one available kidney.\n\nPatient A is 30, otherwise healthy, and would likely gain ~40 good years.\nPatient B is 55, sicker, and would likely gain ~12 good years — and has already been waiting three years on dialysis.\n\n\nWho does the utilitarian choose? Who does the Rawlsian lean toward?\nBehind the veil of ignorance — not knowing if you’re A or B — which rule would you pick?\nDoes “years gained” feel like the right measure of a fair claim? What’s missing?",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#entitlement-not-distribution",
+    "href": "chapters/08a-justice-health.html#entitlement-not-distribution",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "5.1 Entitlement, Not Distribution",
+    "text": "5.1 Entitlement, Not Distribution\nRobert Nozick rejects the whole question. There is no “just distribution” to engineer — only just transactions (Nozick 1974).\n\nA distribution is just if people acquired what they have fairly (without theft or fraud) and transferred it freely.\nOn this view, no one is owed health care. Care is a service, produced by others, that you obtain by buying it or being given it.\nForcing some to pay for others’ care is, for Nozick, a kind of coercion — taking what people justly earned.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#applied-to-the-organ-1",
+    "href": "chapters/08a-justice-health.html#applied-to-the-organ-1",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "5.2 Applied to the Organ",
+    "text": "5.2 Applied to the Organ\nThe libertarian focuses on one fact the other theories skip: the kidney belonged to someone.\n\nAn organ is the donor’s to give — so donor wishes, including directed donation (“give it to this person, or people like me”), carry real moral weight.\nFrom self-ownership, the logic runs that what you may give, you may also sell — pointing toward a market.\nBut libertarians don’t all land there. Nozick’s Lockean proviso (“enough, and as good, left for others”) and the requirement that acquisitions be just can constrain markets that prey on the desperate — and left-libertarians read self-ownership very differently. The lens leans toward markets; it doesn’t compel them.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#the-market-made-real-iran",
+    "href": "chapters/08a-justice-health.html#the-market-made-real-iran",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "5.3 The Market Made Real: Iran",
+    "text": "5.3 The Market Made Real: Iran\n\n\nSince 1988, Iran has run the world’s only legal, regulated kidney market. Living donors are paid — officially about $1,400, plus negotiated payments from recipients.\nThe result libertarians predict actually happened: Iran eliminated its kidney waiting list by around 1999 (Ghods and Savaj 2006). People who would have died on dialysis received transplants.\n\n\n\n\n\n\n\nImportant\n\n\n\nThe catch\nIn surveys, about 43% of Iranian donors said their motive was purely financial, and roughly three-quarters said selling kidneys should be banned. The sellers are overwhelmingly poor.\nA market clears the list — by routing the burden onto people who feel they have no choice.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#what-people-are-actually-able-to-do",
+    "href": "chapters/08a-justice-health.html#what-people-are-actually-able-to-do",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "6.1 What People Are Actually Able to Do",
+    "text": "6.1 What People Are Actually Able to Do\nAmartya Sen and Martha Nussbaum offer a fourth lens: justice is about securing the real freedoms and functionings people need to live a fully human life (Sen 1999; Nussbaum 2011).\n\nA capability is a genuine opportunity to do or be something a person has reason to value — to be healthy, to move about, to take part in their community.\nMoney and even “welfare” are only means. What matters is whether a person can actually function.\nOn Nussbaum’s list, bodily health is a central capability that a just society must secure for everyone above a real threshold.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#applied-to-the-organ-2",
+    "href": "chapters/08a-justice-health.html#applied-to-the-organ-2",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "6.2 Applied to the Organ",
+    "text": "6.2 Applied to the Organ\nThe capabilities lens asks not “who gains the most life-years?” but “what does this person need to function as a human being?”\n\nAgainst the utilitarian, it refuses to reduce a person to a QALY score. A disabled candidate is not “worth less”; the question is what they need to flourish.\nAgainst the libertarian, it treats health as something a just society owes people, not merely a good they may buy.\nBut it, too, under-determines the rule: proponents disagree about what it requires, Sen resists a fixed list, and “secure a threshold for all” doesn’t say who gets this organ when there isn’t enough to go around.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#same-patient-two-verdicts",
+    "href": "chapters/08a-justice-health.html#same-patient-two-verdicts",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "6.3 Same Patient, Two Verdicts",
+    "text": "6.3 Same Patient, Two Verdicts\n\n\nThe utilitarian counts a candidate with a permanent disability as gaining fewer “quality-adjusted” years — and so ranks them lower for the organ.\n\n\n\nThe capabilities theorist asks what this person needs to live a full human life, and rejects the idea that a disabled life is worth less. The disability lowers their score in one lens and is irrelevant to their claim in the other.\n\n\nOn the same disabled candidate, the two lenses weigh the very same facts in opposite directions. That is why which considerations you treat as decisive is not academic.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#the-theories-head-to-head",
+    "href": "chapters/08a-justice-health.html#the-theories-head-to-head",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "7.1 The Theories Head to Head",
+    "text": "7.1 The Theories Head to Head\nEach lens foregrounds a different consideration — and that, not a final verdict, is what it contributes.\n\n\n\n\n\n\n\n\nLens\nWhat it makes salient\nWhy it doesn’t settle policy alone\n\n\n\n\nUtilitarian\ntotal benefit, system-wide effects\ndepends on the empirical facts; can back many rules\n\n\nRawlsian\nbasic liberties, then the worst-off\ngoverns institutions, not one organ\n\n\nLibertarian\nwhose it was; consent; fair transfer\nthe proviso and “just acquisition” cut both ways\n\n\nCapabilities\nwhat a person needs to function\nproponents disagree on what it requires",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#theories-dont-hand-down-policies",
+    "href": "chapters/08a-justice-health.html#theories-dont-hand-down-policies",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "7.2 Theories Don’t Hand Down Policies",
+    "text": "7.2 Theories Don’t Hand Down Policies\n\n\n\n\n\n\nImportant\n\n\n\nThe single most common mistake in these debates is to say “utilitarianism requires a market” or “Rawls forbids it.” None of these theories delivers a policy by itself.\n\nEach one tells you what to weigh — total welfare, the worst-off, consent, capabilities.\nTurning that into a rule needs empirical facts (does a market grow or shrink supply?) and interpretive choices (what does “fair acquisition,” or “the threshold,” actually demand?).\n\nSo the lenses don’t end the argument. They tell you what the argument is about — and that is exactly what the Seattle committee never worked out.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#discussion",
+    "href": "chapters/08a-justice-health.html#discussion",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "7.3 Discussion",
+    "text": "7.3 Discussion\n\nLook back at the Seattle “God Committee.”\n\nWhich of the four lenses, if any, was the committee using when it judged “social worth”?\nWhich lens would have most changed its decisions — and how?\nIf you had to build a real allocation system, which lens would you make the backbone, and which would you keep only as a check?",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#the-unos-system",
+    "href": "chapters/08a-justice-health.html#the-unos-system",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "8.1 The UNOS System",
+    "text": "8.1 The UNOS System\nIn the US, the Organ Procurement and Transplantation Network, run through UNOS, matches donated organs to waiting patients by a published algorithm — not a committee’s gut feeling (Organ Procurement and Transplantation Network (OPTN) 2025).\nThe algorithm blends factors that, in fact, come straight from our four lenses:\n\nMedical urgency — how sick the patient is (a nod to Rawls’ worst-off).\nExpected benefit — how well and how long the graft will work (utilitarian).\nTime on the waiting list — first-come fairness.\nMatching and proximity — blood type, tissue, distance.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#three-principles-in-tension",
+    "href": "chapters/08a-justice-health.html#three-principles-in-tension",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "8.2 Three Principles in Tension",
+    "text": "8.2 Three Principles in Tension\n\n\n\n\n\n\n\nG\n\n\n\norgan\n\nOne donated\norgan\n\n\n\nsick\n\nSickest first\n(urgency / worst-off)\n\n\n\norgan-&gt;sick\n\n\n\n\n\nbest\n\nBest outcome\n(most life-years)\n\n\n\norgan-&gt;best\n\n\n\n\n\nfcfs\n\nFirst-come\n(time waiting)\n\n\n\norgan-&gt;fcfs\n\n\n\n\n\nconflict\n\n\n\nEvery allocation rule\npicks a trade-off\n\n\n\nsick-&gt;conflict\n\n\nwho wins?\n\n\n\nbest-&gt;conflict\n\n\n\n\n\nfcfs-&gt;conflict\n\n\n\n\n\n\n\n\n\n\n“Sickest first” and “best outcome” often point at different patients — the sickest patient may do worst with the organ. No rule escapes the trade-off.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#where-do-organs-come-from-opt-in-vs.-opt-out",
+    "href": "chapters/08a-justice-health.html#where-do-organs-come-from-opt-in-vs.-opt-out",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "8.3 Where Do Organs Come From? Opt-In vs. Opt-Out",
+    "text": "8.3 Where Do Organs Come From? Opt-In vs. Opt-Out\n\n\nThe US uses opt-in: you are a donor only if you register. About 48 donors per million people.\nSpain uses presumed consent (soft opt-out): everyone is a donor unless they say no. Spain leads the world at 52.6 per million (2024) (Matesanz et al. 2017).\n\n\nWhy Spain really wins\nThe law is not the whole story. Spain pairs opt-out with the ONT — full-time donation coordinators in every hospital and skilled family support. Spanish families consent about 8 times in 10; the UK, also opt-out, gets about 6 in 10.\nInfrastructure, not just the default rule, drives the result.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#when-money-and-choice-bend-the-system",
+    "href": "chapters/08a-justice-health.html#when-money-and-choice-bend-the-system",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "8.4 When Money and Choice Bend the System",
+    "text": "8.4 When Money and Choice Bend the System\nEven a need-based system has seams that wealth and preference can widen.\n\nDirected and conditional donation lets donors steer organs toward specific people or groups — honoring the donor’s liberty, but pulling against equal access.\nMulti-listing: a patient can register at several transplant centers in different regions at once. The famous example is Steve Jobs, who registered in Tennessee while living in California and received a liver there.\nIt is legal. It is also a reminder that the ability to travel and pay can quietly improve your odds in a system meant to run on need.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#philosophers-take-sides",
+    "href": "chapters/08a-justice-health.html#philosophers-take-sides",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "8.5 Philosophers Take Sides",
+    "text": "8.5 Philosophers Take Sides\nThis is a live debate among serious philosophers — and it does not split neatly along left and right.\n\n\nAllow regulated sales\n\nRadcliffe-Richards and colleagues: if we let people take risks for money in far more dangerous jobs, banning kidney sales is inconsistent paternalism (Radcliffe-Richards et al. 1998).\nCherry: self-ownership and consent make a regulated market legitimate — and it saves lives (Cherry 2005).\n\n\n\n\nForbid them\n\nSatz: kidney markets are noxious — built on desperation and weak agency, with harmful, unequal outcomes (Satz 2010).\nSandel: pricing organs corrupts how we value the body and one another, regardless of consent (Sandel 2012).\n\n\n\nNote both sides include egalitarians and libertarians — the disagreement is about consent, exploitation, and what money does to a thing, not simply about markets.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#thought-question-1",
+    "href": "chapters/08a-justice-health.html#thought-question-1",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "8.6 Thought Question",
+    "text": "8.6 Thought Question\n\nYou are a healthy college student, deep in debt. A patient on dialysis offers you $30,000 for one of your kidneys. You can live a normal life with one. The exchange is voluntary, and it would save the patient’s life and clear your debt.\n\nIs there anything wrong with this trade? If so, what exactly?\nDoes your answer change if the seller is desperate rather than merely willing?\nWould you feel differently about selling blood plasma, or an egg, or a lung? Why?",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#make-it-contemporary",
+    "href": "chapters/08a-justice-health.html#make-it-contemporary",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "8.7 Make It Contemporary",
+    "text": "8.7 Make It Contemporary\n\nThe US bans organ sales outright — the National Organ Transplant Act of 1984 makes it a federal crime (United States Congress 1984). Iran allows them, and has no kidney waiting list.\nSo the trade-off is stark and real: the US protects the poor from being pressured to sell, and tens of thousands wait — some die. Iran clears the list, and its sellers are overwhelmingly poor and largely regretful.\nDiscuss: If a regulated market would save thousands of lives a year, is banning it a moral stand — or a comfortable way of letting people die so we don’t have to watch the poor sell their organs?",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#after-youve-discussed-1",
+    "href": "chapters/08a-justice-health.html#after-youve-discussed-1",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "8.8 After You’ve Discussed",
+    "text": "8.8 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nThe kidney-market debate turns on three ideas people tend to blur:\n\nCoercion — a threat removes your choice (“sell, or I hurt you”).\nUndue inducement — an offer is so large or your need so desperate that you can’t reason well about the risk.\nExploitation — a deal is voluntary and mutually beneficial, yet still unfair because one side takes advantage of the other’s vulnerability.\n\nA kidney sale may involve no coercion at all and still be exploitative. Lurking under all three is commodification — the worry that some things (organs, votes, people) are degraded the moment they carry a price.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#from-one-organ-to-the-whole-system",
+    "href": "chapters/08a-justice-health.html#from-one-organ-to-the-whole-system",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "9.1 From One Organ to the Whole System",
+    "text": "9.1 From One Organ to the Whole System\nThe organ case was a stand-in. The same theories now face the largest distributive question of all: does a person have a right to health care at all?\n\nTwo kinds of rights.\n\nA negative right is a right to be left alone — free speech, the right to refuse treatment. It only requires others not to interfere.\nA positive right is a right to be provided something — and it requires others to act, and usually to pay.\n\n“A right to health care” is a positive right. That is exactly why it is contested: it places a claim on other people’s resources.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#daniels-health-and-fair-opportunity",
+    "href": "chapters/08a-justice-health.html#daniels-health-and-fair-opportunity",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "9.2 Daniels: Health and Fair Opportunity",
+    "text": "9.2 Daniels: Health and Fair Opportunity\nNorman Daniels builds the strongest case for a right to care by extending Rawls (Daniels 2008).\n\nRawls says justice requires fair equality of opportunity: your life chances shouldn’t be set by the lottery of birth.\nDisease and disability, Daniels argues, shrink your range of opportunity just as surely as poor schooling does — they shut doors a healthy person can walk through.\nSo a society already committed to fair opportunity is committed, by its own logic, to the health care that restores normal functioning.\n\n\nOn this view, health care isn’t charity. It’s what fair opportunity requires.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#the-counterarguments",
+    "href": "chapters/08a-justice-health.html#the-counterarguments",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "9.3 The Counterarguments",
+    "text": "9.3 The Counterarguments\n\n\nThe libertarian (Nozick)\nThere is no positive right to care, because it forces some to fund others. Compassion may be a virtue, but it cannot be coerced through taxation without violating people’s just holdings.\n\n\n\nThe utilitarian\nWhether to guarantee care is not a matter of right at all — it’s an empirical question. Guarantee it if and only if doing so maximizes overall welfare. The answer could change with the budget.\n\n\nDaniels says opportunity grounds a right; Nozick says rights run the other way; the utilitarian says “right” is the wrong word. Three lenses, three verdicts.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#where-the-us-stands",
+    "href": "chapters/08a-justice-health.html#where-the-us-stands",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "9.4 Where the US Stands",
+    "text": "9.4 Where the US Stands\nThe US is the rich-world outlier, and its pattern is revealing.\n\nIt treats education as a right (free K–12), food and housing as partial rights (SNAP, vouchers) — floors below which it tries not to let people fall.\nBut it treats most health care as a market good: something you get mainly through a job, a purchase, or by qualifying for a program.\nThe result is a patchwork with real gaps — which is the subject of Part B.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#the-cancer-drug-test",
+    "href": "chapters/08a-justice-health.html#the-cancer-drug-test",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "9.5 The Cancer Drug Test",
+    "text": "9.5 The Cancer Drug Test\n\nA new cancer therapy (CAR-T, a real treatment) can cost around $475,000 for a single course. A public insurer must decide whether to cover it.\nHow does each lens rule?\n\nUtilitarian: is the QALY gain worth $475,000 versus spending it elsewhere?\nRawlsian / Daniels: does fair opportunity require funding it for the worst-off who can’t pay?\nLibertarian: is anyone owed this at all — or should those who want it buy it?\n\nWhich answer can you live with — and who pays for it?",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#mini-recap",
+    "href": "chapters/08a-justice-health.html#mini-recap",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "9.6 Mini-Recap",
+    "text": "9.6 Mini-Recap\n\nWe started with seven citizens in Seattle deciding who lived, and asked what principle could replace their guesswork. Four answered: the utilitarian (maximize good), Rawls (protect the worst-off), the libertarian (free transactions, even markets), and the capabilities view (secure what people need to function). We watched them split over a single kidney, over selling organs, and over whether health care is a right at all — with Daniels arguing it follows from fair opportunity.\nWe now have the values. Part B brings the facts: how the actual US health care system spends the most in the world and yet leaves Americans sicker and shorter-lived than their peers — and what, by these four lenses, we might owe each other.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#review-questions",
+    "href": "chapters/08a-justice-health.html#review-questions",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "9.7 Review Questions",
+    "text": "9.7 Review Questions\n\n\nRecall\nState the difference principle and explain how a Rawlsian and a utilitarian would allocate one kidney differently.\n\n\nApply\nA city has one ICU bed and two patients: a 40-year-old with a 70% survival chance and a 70-year-old with a 40% chance. Pick a theory of justice and defend who gets the bed.\n\n\nDebate\nIs there a moral right to health care? Defend your answer using Daniels and at least one objection to him.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#key-terms",
+    "href": "chapters/08a-justice-health.html#key-terms",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "9.8 Key Terms",
+    "text": "9.8 Key Terms\n\nDistributive justice — how a society fairly divides scarce benefits and burdens.\nUtilitarianism — maximize total well-being; outcome-focused.\nVeil of ignorance — choose rules not knowing your place (Rawls).\nPriority of liberty / difference principle — equal basic liberties come first (lexically prior); then inequalities must help the worst-off (Rawls).\nEntitlement theory — justice is fair acquisition and transfer, not a pattern (Nozick).\nCapabilities — the real freedoms people need to function (Sen, Nussbaum).\nQALY — quality-adjusted life year; a unit of health benefit.\nPresumed consent — everyone is an organ donor unless they opt out.\nNegative vs. positive rights — a right to non-interference vs. a right to be provided something.\nFair equality of opportunity — the Rawlsian idea Daniels uses to ground a right to care.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#further-reading",
+    "href": "chapters/08a-justice-health.html#further-reading",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "9.9 Further Reading",
+    "text": "9.9 Further Reading\n\nRawls, John. A Theory of Justice. Harvard University Press, 1971.\nDaniels, Norman. Just Health: Meeting Health Needs Fairly. Cambridge University Press, 2008.\nNussbaum, Martha. Creating Capabilities. Harvard University Press, 2011.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health.html#references",
+    "href": "chapters/08a-justice-health.html#references",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "9.10 References",
+    "text": "9.10 References\n\n\nAlexander, Shana. 1962. “They Decide Who Lives, Who Dies.” Life 53 (19): 102–25.\n\n\nCherry, Mark J. 2005. Kidney for Sale by Owner: Human Organs, Transplantation, and the Market. Georgetown University Press.\n\n\nDaniels, Norman. 2008. Just Health: Meeting Health Needs Fairly. Cambridge University Press.\n\n\nGhods, Ahad J., and Shekoufeh Savaj. 2006. “Iranian Model of Paid and Regulated Living-Unrelated Kidney Donation.” Clinical Journal of the American Society of Nephrology 1 (6): 1136–45. https://doi.org/10.2215/CJN.00700206.\n\n\nMatesanz, Rafael, Beatriz Domínguez-Gil, Elisabeth Coll, Beatriz Mahíllo, and Rocío Marazuela. 2017. “How Spain Reached 40 Deceased Organ Donors Per Million Population.” American Journal of Transplantation 17 (6): 1447–54. https://doi.org/10.1111/ajt.14104.\n\n\nNozick, Robert. 1974. Anarchy, State, and Utopia. Basic Books.\n\n\nNussbaum, Martha C. 2011. Creating Capabilities: The Human Development Approach. Belknap Press of Harvard University Press.\n\n\nOrgan Procurement and Transplantation Network (OPTN). 2025. National Data: Waiting List and Transplants. U.S. Health Resources and Services Administration. https://optn.transplant.hrsa.gov/data.\n\n\nRadcliffe-Richards, Janet, A. S. Daar, R. D. Guttmann, et al. 1998. “The Case for Allowing Kidney Sales.” The Lancet 351 (9120): 1950–52. https://doi.org/10.1016/S0140-6736(97)08211-1.\n\n\nRawls, John. 1971. A Theory of Justice. Harvard University Press.\n\n\nSandel, Michael J. 2012. What Money Can’t Buy: The Moral Limits of Markets. Farrar, Straus; Giroux.\n\n\nSatz, Debra. 2010. Why Some Things Should Not Be for Sale: The Moral Limits of Markets. Oxford University Press.\n\n\nSen, Amartya. 1999. Development as Freedom. Alfred A. Knopf.\n\n\nUnited States Congress. 1984. National Organ Transplant Act of 1984, Pub. L. No. 98-507. 98 Stat. 2339. https://www.congress.gov/bill/98th-congress/senate-bill/2048.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part A — Theories of Justice & the Right to Care"
+    ]
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#a-case-to-sit-with",
+    "href": "chapters/08a-justice-health-slides.html#a-case-to-sit-with",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "A Case to Sit With",
+    "text": "A Case to Sit With\n\nIt is 1962. A Seattle hospital has just built the world’s first machine that can keep people with failing kidneys alive — but it has only three treatment slots. About sixty patients in the area will die without it. Every one of them is medically eligible. The machine cannot be shared.\nYou are on the committee that must decide who gets the three slots.\nWrite or discuss:\n\nWhat criteria would you use to choose? Be specific.\nWould you consider a patient’s job, family, or character? Should you?\nWhatever rule you pick — could you defend it to the families of the people who die?"
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#what-the-committee-actually-did",
+    "href": "chapters/08a-justice-health-slides.html#what-the-committee-actually-did",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "What the Committee Actually Did",
+    "text": "What the Committee Actually Did\nThe committee was real. At Seattle’s Swedish Hospital, seven anonymous citizens — a lawyer, a minister, a homemaker, a banker, a labor leader, a state official, and a surgeon — were handed exactly this choice.\n\nThey chose largely by social worth: whether a patient had a steady job, went to church, was married, supported children, seemed likely to “contribute.”\nThe journalist Shana Alexander watched them for six months and published what she saw in LIFE magazine in 1962, under the title “They Decide Who Lives, Who Dies” (Alexander 1962).\nThe public was horrified — not because the committee was cruel, but because it had no principle beyond its own values."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#after-youve-discussed",
+    "href": "chapters/08a-justice-health-slides.html#after-youve-discussed",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nThe committee’s mistake was not bad intentions. It was deciding life and death with no theory of justice — just an instinct about who “deserved” to live.\nThe reaction to the Seattle committee helped launch the field of bioethics, and within a decade Congress simply paid for dialysis for everyone who needed it (1972). But the deeper question never went away: when a life-saving resource is scarce, by what principle should it be shared?\nToday we meet four serious answers — and test each one against a single donated organ."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#today",
+    "href": "chapters/08a-justice-health-slides.html#today",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Today",
+    "text": "Today\n\nBy the end of Part A, you will be able to:\n\nExplain what distributive justice is and why a “treat like cases alike” rule is not enough.\nState the utilitarian, Rawlsian, libertarian, and capabilities theories of justice in plain language.\nApply all four to a concrete allocation problem — who should receive a scarce organ.\nDescribe how the US actually allocates organs (UNOS), and the ethics of presumed consent and organ markets.\nReconstruct Daniels’ argument that there is a moral right to health care, and the main objections to it."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#distributive-justice",
+    "href": "chapters/08a-justice-health-slides.html#distributive-justice",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Distributive Justice",
+    "text": "Distributive Justice\nDistributive justice is the part of ethics that asks how a society should divide up benefits and burdens — here, scarce medical care — fairly.\n\nAlmost everyone accepts a starting rule, the formal principle of justice: treat like cases alike, and different cases differently.\nThe trouble is that the formal principle is empty until you say which differences matter. Need? Merit? Ability to pay? Likelihood of benefit?\nThe Seattle committee thought “social worth” was a relevant difference. The four theories ahead each name a different feature as the one that counts."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#the-problem-we-will-keep-returning-to",
+    "href": "chapters/08a-justice-health-slides.html#the-problem-we-will-keep-returning-to",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "The Problem We Will Keep Returning To",
+    "text": "The Problem We Will Keep Returning To\nEvery theory will be tested on the same hard case, so the differences between them stay visible.\n\nOne organ, many candidates.\nToday more than 105,000 people in the US are waiting for an organ transplant. Over 92,000 of them — about 87% — need a kidney (Organ Procurement and Transplantation Network (OPTN) 2025). Most will wait years; some will die waiting.\nWhen one donated kidney becomes available and several patients match it, someone decides who gets it. That decision is distributive justice in its rawest form — and each theory answers it differently."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#four-lenses",
+    "href": "chapters/08a-justice-health-slides.html#four-lenses",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Four Lenses",
+    "text": "Four Lenses\nEach lens fixes on a different question — and that question, not a tidy formula, is what it brings to the bedside.\n\nUtilitarian: what produces the most total good?\nRawlsian: what rules would we accept before knowing who we’d be?\nLibertarian: were the holdings and transfers fair?\nCapabilities: what does a person need to function as a human being?\n\nNotice these are not four answers to one question. They are four different questions — which is why, as we’ll see, they rarely hand down a single verdict on their own."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#the-principle",
+    "href": "chapters/08a-justice-health-slides.html#the-principle",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "The Principle",
+    "text": "The Principle\nUtilitarianism says the just distribution is the one that produces the greatest total well-being. Count everyone equally, add up the benefits, and choose the option with the largest sum.\n\nIt is outcome-focused: what matters is results, not who gets what or why.\nApplied to scarce care, it becomes a simple instruction: do the most good per unit of a scarce resource.\nThis is the logic behind cost-effectiveness analysis throughout modern medicine."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#applied-to-the-organ",
+    "href": "chapters/08a-justice-health-slides.html#applied-to-the-organ",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Applied to the Organ",
+    "text": "Applied to the Organ\nA first pass says: give the kidney to whoever gains the most good — usually the most years of healthy life. But “total well-being” is bigger than one patient.\n\nA utilitarian also weighs system-wide effects: rules that keep public trust high, that encourage more people to donate, that don’t frighten families away.\nSo the lens doesn’t simply crown a recipient. It might favor opt-out, or even a market (more organs, more lives) — or oppose a market if payment crowds out altruistic donation and shrinks the supply.\n\n\nThe QALY. Health economists measure benefit in quality-adjusted life years (QALYs). One year in perfect health = 1 QALY; a year in poor health counts as less.\nBritain’s NICE uses roughly this math to decide what the NHS funds — often around £20,000–£30,000 per QALY. It is the utilitarian instinct turned into a spreadsheet. But notice it answers “is this worth it overall?”, not “which patient deserves it?”"
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#where-it-bites",
+    "href": "chapters/08a-justice-health-slides.html#where-it-bites",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Where It Bites",
+    "text": "Where It Bites\nThe strength of the utilitarian lens — maximize benefit — is also its danger.\n\nIt can sacrifice the few for the many: a patient who would gain only a few good years loses to one who would gain decades, every time.\nQALY math can systematically disadvantage the elderly and the disabled, because they are counted as having fewer or “lower-quality” years to gain.\nIt treats the individual as a site where good is produced, not as someone with a claim. That is exactly what the next lens insists on."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#justice-as-fairness",
+    "href": "chapters/08a-justice-health-slides.html#justice-as-fairness",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Justice as Fairness",
+    "text": "Justice as Fairness\nJohn Rawls asked a different question: not “what maximizes good?” but “what rules would we choose if we were fair?” (Rawls 1971)\n\nThe original position. Imagine designing a society’s rules from behind a veil of ignorance: you know nothing about who you will be — your wealth, talents, health, or whether you’ll be the patient who needs the kidney.\nRawls argues that rational people choosing under that veil would not gamble on landing at the bottom. They would choose rules that protect everyone, especially the worst-off — because that worst-off person might be them."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#two-principles-in-order",
+    "href": "chapters/08a-justice-health-slides.html#two-principles-in-order",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Two Principles, In Order",
+    "text": "Two Principles, In Order\nBehind the veil, Rawls argues, we would choose two principles — and the order matters as much as the content.\n\nEqual basic liberties — the same rights and freedoms for all (speech, conscience, bodily integrity).\n(a) Fair equality of opportunity, and (b) the difference principle: inequalities are just only if they help the least advantaged.\n\nCrucially, the first principle is lexically prior: you may not trade away basic liberties for greater welfare, however large the gain. That priority is exactly what divides Rawls from the utilitarian — no one’s liberty is a line item in someone else’s sum."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#applied-to-the-organ-with-a-caveat",
+    "href": "chapters/08a-justice-health-slides.html#applied-to-the-organ-with-a-caveat",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Applied to the Organ — with a Caveat",
+    "text": "Applied to the Organ — with a Caveat\n\nA caution Rawls himself would press. Rawls’s principles govern the basic structure of society — its constitution and institutions — not who gets the next kidney. Using the difference principle to micro-allocate one organ is an extension of his view, not a verdict it strictly delivers.\n\nRead in a Rawlsian spirit (or its prioritarian cousin — give extra weight to the worse-off), the lens does two things:\n\nIt rejects the Seattle committee’s “social worth”: behind the veil, no one would agree to be judged on their job or churchgoing.\nIt tilts toward the worst-off — the sickest, or those with the least access — even when that isn’t the choice that maximizes total life-years. Whether it picks a specific recipient still depends on how you build the institution."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#thought-question",
+    "href": "chapters/08a-justice-health-slides.html#thought-question",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Thought Question",
+    "text": "Thought Question\n\nTwo patients match the one available kidney.\n\nPatient A is 30, otherwise healthy, and would likely gain ~40 good years.\nPatient B is 55, sicker, and would likely gain ~12 good years — and has already been waiting three years on dialysis.\n\n\nWho does the utilitarian choose? Who does the Rawlsian lean toward?\nBehind the veil of ignorance — not knowing if you’re A or B — which rule would you pick?\nDoes “years gained” feel like the right measure of a fair claim? What’s missing?"
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#entitlement-not-distribution",
+    "href": "chapters/08a-justice-health-slides.html#entitlement-not-distribution",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Entitlement, Not Distribution",
+    "text": "Entitlement, Not Distribution\nRobert Nozick rejects the whole question. There is no “just distribution” to engineer — only just transactions (Nozick 1974).\n\nA distribution is just if people acquired what they have fairly (without theft or fraud) and transferred it freely.\nOn this view, no one is owed health care. Care is a service, produced by others, that you obtain by buying it or being given it.\nForcing some to pay for others’ care is, for Nozick, a kind of coercion — taking what people justly earned."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#applied-to-the-organ-1",
+    "href": "chapters/08a-justice-health-slides.html#applied-to-the-organ-1",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Applied to the Organ",
+    "text": "Applied to the Organ\nThe libertarian focuses on one fact the other theories skip: the kidney belonged to someone.\n\nAn organ is the donor’s to give — so donor wishes, including directed donation (“give it to this person, or people like me”), carry real moral weight.\nFrom self-ownership, the logic runs that what you may give, you may also sell — pointing toward a market.\nBut libertarians don’t all land there. Nozick’s Lockean proviso (“enough, and as good, left for others”) and the requirement that acquisitions be just can constrain markets that prey on the desperate — and left-libertarians read self-ownership very differently. The lens leans toward markets; it doesn’t compel them."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#the-market-made-real-iran",
+    "href": "chapters/08a-justice-health-slides.html#the-market-made-real-iran",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "The Market Made Real: Iran",
+    "text": "The Market Made Real: Iran\n\n\nSince 1988, Iran has run the world’s only legal, regulated kidney market. Living donors are paid — officially about $1,400, plus negotiated payments from recipients.\nThe result libertarians predict actually happened: Iran eliminated its kidney waiting list by around 1999 (Ghods and Savaj 2006). People who would have died on dialysis received transplants.\n\n\n\n\n\n\n\nImportant\n\n\nThe catch\nIn surveys, about 43% of Iranian donors said their motive was purely financial, and roughly three-quarters said selling kidneys should be banned. The sellers are overwhelmingly poor.\nA market clears the list — by routing the burden onto people who feel they have no choice."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#what-people-are-actually-able-to-do",
+    "href": "chapters/08a-justice-health-slides.html#what-people-are-actually-able-to-do",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "What People Are Actually Able to Do",
+    "text": "What People Are Actually Able to Do\nAmartya Sen and Martha Nussbaum offer a fourth lens: justice is about securing the real freedoms and functionings people need to live a fully human life (Sen 1999; Nussbaum 2011).\n\nA capability is a genuine opportunity to do or be something a person has reason to value — to be healthy, to move about, to take part in their community.\nMoney and even “welfare” are only means. What matters is whether a person can actually function.\nOn Nussbaum’s list, bodily health is a central capability that a just society must secure for everyone above a real threshold."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#applied-to-the-organ-2",
+    "href": "chapters/08a-justice-health-slides.html#applied-to-the-organ-2",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Applied to the Organ",
+    "text": "Applied to the Organ\nThe capabilities lens asks not “who gains the most life-years?” but “what does this person need to function as a human being?”\n\nAgainst the utilitarian, it refuses to reduce a person to a QALY score. A disabled candidate is not “worth less”; the question is what they need to flourish.\nAgainst the libertarian, it treats health as something a just society owes people, not merely a good they may buy.\nBut it, too, under-determines the rule: proponents disagree about what it requires, Sen resists a fixed list, and “secure a threshold for all” doesn’t say who gets this organ when there isn’t enough to go around."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#same-patient-two-verdicts",
+    "href": "chapters/08a-justice-health-slides.html#same-patient-two-verdicts",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Same Patient, Two Verdicts",
+    "text": "Same Patient, Two Verdicts\n\n\nThe utilitarian counts a candidate with a permanent disability as gaining fewer “quality-adjusted” years — and so ranks them lower for the organ.\n\n\n\nThe capabilities theorist asks what this person needs to live a full human life, and rejects the idea that a disabled life is worth less. The disability lowers their score in one lens and is irrelevant to their claim in the other.\n\nOn the same disabled candidate, the two lenses weigh the very same facts in opposite directions. That is why which considerations you treat as decisive is not academic."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#the-theories-head-to-head",
+    "href": "chapters/08a-justice-health-slides.html#the-theories-head-to-head",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "The Theories Head to Head",
+    "text": "The Theories Head to Head\nEach lens foregrounds a different consideration — and that, not a final verdict, is what it contributes.\n\n\n\n\n\n\n\n\nLens\nWhat it makes salient\nWhy it doesn’t settle policy alone\n\n\n\n\nUtilitarian\ntotal benefit, system-wide effects\ndepends on the empirical facts; can back many rules\n\n\nRawlsian\nbasic liberties, then the worst-off\ngoverns institutions, not one organ\n\n\nLibertarian\nwhose it was; consent; fair transfer\nthe proviso and “just acquisition” cut both ways\n\n\nCapabilities\nwhat a person needs to function\nproponents disagree on what it requires"
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#theories-dont-hand-down-policies",
+    "href": "chapters/08a-justice-health-slides.html#theories-dont-hand-down-policies",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Theories Don’t Hand Down Policies",
+    "text": "Theories Don’t Hand Down Policies\n\n\n\n\n\n\nImportant\n\n\nThe single most common mistake in these debates is to say “utilitarianism requires a market” or “Rawls forbids it.” None of these theories delivers a policy by itself.\n\nEach one tells you what to weigh — total welfare, the worst-off, consent, capabilities.\nTurning that into a rule needs empirical facts (does a market grow or shrink supply?) and interpretive choices (what does “fair acquisition,” or “the threshold,” actually demand?).\n\nSo the lenses don’t end the argument. They tell you what the argument is about — and that is exactly what the Seattle committee never worked out."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#discussion",
+    "href": "chapters/08a-justice-health-slides.html#discussion",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Discussion",
+    "text": "Discussion\n\nLook back at the Seattle “God Committee.”\n\nWhich of the four lenses, if any, was the committee using when it judged “social worth”?\nWhich lens would have most changed its decisions — and how?\nIf you had to build a real allocation system, which lens would you make the backbone, and which would you keep only as a check?"
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#the-unos-system",
+    "href": "chapters/08a-justice-health-slides.html#the-unos-system",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "The UNOS System",
+    "text": "The UNOS System\nIn the US, the Organ Procurement and Transplantation Network, run through UNOS, matches donated organs to waiting patients by a published algorithm — not a committee’s gut feeling (Organ Procurement and Transplantation Network (OPTN) 2025).\nThe algorithm blends factors that, in fact, come straight from our four lenses:\n\nMedical urgency — how sick the patient is (a nod to Rawls’ worst-off).\nExpected benefit — how well and how long the graft will work (utilitarian).\nTime on the waiting list — first-come fairness.\nMatching and proximity — blood type, tissue, distance."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#three-principles-in-tension",
+    "href": "chapters/08a-justice-health-slides.html#three-principles-in-tension",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Three Principles in Tension",
+    "text": "Three Principles in Tension\n\n\n\n\n\n\n\nG\n\n\n\norgan\n\nOne donated\norgan\n\n\n\nsick\n\nSickest first\n(urgency / worst-off)\n\n\n\norgan-&gt;sick\n\n\n\n\n\nbest\n\nBest outcome\n(most life-years)\n\n\n\norgan-&gt;best\n\n\n\n\n\nfcfs\n\nFirst-come\n(time waiting)\n\n\n\norgan-&gt;fcfs\n\n\n\n\n\nconflict\n\n\n\nEvery allocation rule\npicks a trade-off\n\n\n\nsick-&gt;conflict\n\n\nwho wins?\n\n\n\nbest-&gt;conflict\n\n\n\n\n\nfcfs-&gt;conflict\n\n\n\n\n\n\n\n\n\n\n“Sickest first” and “best outcome” often point at different patients — the sickest patient may do worst with the organ. No rule escapes the trade-off."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#where-do-organs-come-from-opt-in-vs.-opt-out",
+    "href": "chapters/08a-justice-health-slides.html#where-do-organs-come-from-opt-in-vs.-opt-out",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Where Do Organs Come From? Opt-In vs. Opt-Out",
+    "text": "Where Do Organs Come From? Opt-In vs. Opt-Out\n\n\nThe US uses opt-in: you are a donor only if you register. About 48 donors per million people.\nSpain uses presumed consent (soft opt-out): everyone is a donor unless they say no. Spain leads the world at 52.6 per million (2024) (Matesanz et al. 2017).\n\n\nWhy Spain really wins\nThe law is not the whole story. Spain pairs opt-out with the ONT — full-time donation coordinators in every hospital and skilled family support. Spanish families consent about 8 times in 10; the UK, also opt-out, gets about 6 in 10.\nInfrastructure, not just the default rule, drives the result."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#when-money-and-choice-bend-the-system",
+    "href": "chapters/08a-justice-health-slides.html#when-money-and-choice-bend-the-system",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "When Money and Choice Bend the System",
+    "text": "When Money and Choice Bend the System\nEven a need-based system has seams that wealth and preference can widen.\n\nDirected and conditional donation lets donors steer organs toward specific people or groups — honoring the donor’s liberty, but pulling against equal access.\nMulti-listing: a patient can register at several transplant centers in different regions at once. The famous example is Steve Jobs, who registered in Tennessee while living in California and received a liver there.\nIt is legal. It is also a reminder that the ability to travel and pay can quietly improve your odds in a system meant to run on need."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#philosophers-take-sides",
+    "href": "chapters/08a-justice-health-slides.html#philosophers-take-sides",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Philosophers Take Sides",
+    "text": "Philosophers Take Sides\nThis is a live debate among serious philosophers — and it does not split neatly along left and right.\n\n\nAllow regulated sales\n\nRadcliffe-Richards and colleagues: if we let people take risks for money in far more dangerous jobs, banning kidney sales is inconsistent paternalism (Radcliffe-Richards et al. 1998).\nCherry: self-ownership and consent make a regulated market legitimate — and it saves lives (Cherry 2005).\n\n\n\n\nForbid them\n\nSatz: kidney markets are noxious — built on desperation and weak agency, with harmful, unequal outcomes (Satz 2010).\nSandel: pricing organs corrupts how we value the body and one another, regardless of consent (Sandel 2012).\n\n\nNote both sides include egalitarians and libertarians — the disagreement is about consent, exploitation, and what money does to a thing, not simply about markets."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#thought-question-1",
+    "href": "chapters/08a-justice-health-slides.html#thought-question-1",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Thought Question",
+    "text": "Thought Question\n\nYou are a healthy college student, deep in debt. A patient on dialysis offers you $30,000 for one of your kidneys. You can live a normal life with one. The exchange is voluntary, and it would save the patient’s life and clear your debt.\n\nIs there anything wrong with this trade? If so, what exactly?\nDoes your answer change if the seller is desperate rather than merely willing?\nWould you feel differently about selling blood plasma, or an egg, or a lung? Why?"
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#make-it-contemporary",
+    "href": "chapters/08a-justice-health-slides.html#make-it-contemporary",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Make It Contemporary",
+    "text": "Make It Contemporary\n\nThe US bans organ sales outright — the National Organ Transplant Act of 1984 makes it a federal crime (United States Congress 1984). Iran allows them, and has no kidney waiting list.\nSo the trade-off is stark and real: the US protects the poor from being pressured to sell, and tens of thousands wait — some die. Iran clears the list, and its sellers are overwhelmingly poor and largely regretful.\nDiscuss: If a regulated market would save thousands of lives a year, is banning it a moral stand — or a comfortable way of letting people die so we don’t have to watch the poor sell their organs?"
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#after-youve-discussed-1",
+    "href": "chapters/08a-justice-health-slides.html#after-youve-discussed-1",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nThe kidney-market debate turns on three ideas people tend to blur:\n\nCoercion — a threat removes your choice (“sell, or I hurt you”).\nUndue inducement — an offer is so large or your need so desperate that you can’t reason well about the risk.\nExploitation — a deal is voluntary and mutually beneficial, yet still unfair because one side takes advantage of the other’s vulnerability.\n\nA kidney sale may involve no coercion at all and still be exploitative. Lurking under all three is commodification — the worry that some things (organs, votes, people) are degraded the moment they carry a price."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#from-one-organ-to-the-whole-system",
+    "href": "chapters/08a-justice-health-slides.html#from-one-organ-to-the-whole-system",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "From One Organ to the Whole System",
+    "text": "From One Organ to the Whole System\nThe organ case was a stand-in. The same theories now face the largest distributive question of all: does a person have a right to health care at all?\n\nTwo kinds of rights.\n\nA negative right is a right to be left alone — free speech, the right to refuse treatment. It only requires others not to interfere.\nA positive right is a right to be provided something — and it requires others to act, and usually to pay.\n\n“A right to health care” is a positive right. That is exactly why it is contested: it places a claim on other people’s resources."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#daniels-health-and-fair-opportunity",
+    "href": "chapters/08a-justice-health-slides.html#daniels-health-and-fair-opportunity",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Daniels: Health and Fair Opportunity",
+    "text": "Daniels: Health and Fair Opportunity\nNorman Daniels builds the strongest case for a right to care by extending Rawls (Daniels 2008).\n\nRawls says justice requires fair equality of opportunity: your life chances shouldn’t be set by the lottery of birth.\nDisease and disability, Daniels argues, shrink your range of opportunity just as surely as poor schooling does — they shut doors a healthy person can walk through.\nSo a society already committed to fair opportunity is committed, by its own logic, to the health care that restores normal functioning.\n\n\nOn this view, health care isn’t charity. It’s what fair opportunity requires."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#the-counterarguments",
+    "href": "chapters/08a-justice-health-slides.html#the-counterarguments",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "The Counterarguments",
+    "text": "The Counterarguments\n\n\nThe libertarian (Nozick)\nThere is no positive right to care, because it forces some to fund others. Compassion may be a virtue, but it cannot be coerced through taxation without violating people’s just holdings.\n\n\n\nThe utilitarian\nWhether to guarantee care is not a matter of right at all — it’s an empirical question. Guarantee it if and only if doing so maximizes overall welfare. The answer could change with the budget.\n\nDaniels says opportunity grounds a right; Nozick says rights run the other way; the utilitarian says “right” is the wrong word. Three lenses, three verdicts."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#where-the-us-stands",
+    "href": "chapters/08a-justice-health-slides.html#where-the-us-stands",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Where the US Stands",
+    "text": "Where the US Stands\nThe US is the rich-world outlier, and its pattern is revealing.\n\nIt treats education as a right (free K–12), food and housing as partial rights (SNAP, vouchers) — floors below which it tries not to let people fall.\nBut it treats most health care as a market good: something you get mainly through a job, a purchase, or by qualifying for a program.\nThe result is a patchwork with real gaps — which is the subject of Part B."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#the-cancer-drug-test",
+    "href": "chapters/08a-justice-health-slides.html#the-cancer-drug-test",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "The Cancer Drug Test",
+    "text": "The Cancer Drug Test\n\nA new cancer therapy (CAR-T, a real treatment) can cost around $475,000 for a single course. A public insurer must decide whether to cover it.\nHow does each lens rule?\n\nUtilitarian: is the QALY gain worth $475,000 versus spending it elsewhere?\nRawlsian / Daniels: does fair opportunity require funding it for the worst-off who can’t pay?\nLibertarian: is anyone owed this at all — or should those who want it buy it?\n\nWhich answer can you live with — and who pays for it?"
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#mini-recap",
+    "href": "chapters/08a-justice-health-slides.html#mini-recap",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Mini-Recap",
+    "text": "Mini-Recap\n\nWe started with seven citizens in Seattle deciding who lived, and asked what principle could replace their guesswork. Four answered: the utilitarian (maximize good), Rawls (protect the worst-off), the libertarian (free transactions, even markets), and the capabilities view (secure what people need to function). We watched them split over a single kidney, over selling organs, and over whether health care is a right at all — with Daniels arguing it follows from fair opportunity.\nWe now have the values. Part B brings the facts: how the actual US health care system spends the most in the world and yet leaves Americans sicker and shorter-lived than their peers — and what, by these four lenses, we might owe each other."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#review-questions",
+    "href": "chapters/08a-justice-health-slides.html#review-questions",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Review Questions",
+    "text": "Review Questions\n\n\nRecall\nState the difference principle and explain how a Rawlsian and a utilitarian would allocate one kidney differently.\n\n\nApply\nA city has one ICU bed and two patients: a 40-year-old with a 70% survival chance and a 70-year-old with a 40% chance. Pick a theory of justice and defend who gets the bed.\n\n\nDebate\nIs there a moral right to health care? Defend your answer using Daniels and at least one objection to him."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#key-terms",
+    "href": "chapters/08a-justice-health-slides.html#key-terms",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Key Terms",
+    "text": "Key Terms\n\nDistributive justice — how a society fairly divides scarce benefits and burdens.\nUtilitarianism — maximize total well-being; outcome-focused.\nVeil of ignorance — choose rules not knowing your place (Rawls).\nPriority of liberty / difference principle — equal basic liberties come first (lexically prior); then inequalities must help the worst-off (Rawls).\nEntitlement theory — justice is fair acquisition and transfer, not a pattern (Nozick).\nCapabilities — the real freedoms people need to function (Sen, Nussbaum).\nQALY — quality-adjusted life year; a unit of health benefit.\nPresumed consent — everyone is an organ donor unless they opt out.\nNegative vs. positive rights — a right to non-interference vs. a right to be provided something.\nFair equality of opportunity — the Rawlsian idea Daniels uses to ground a right to care."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#further-reading",
+    "href": "chapters/08a-justice-health-slides.html#further-reading",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Further Reading",
+    "text": "Further Reading\n\nRawls, John. A Theory of Justice. Harvard University Press, 1971.\nDaniels, Norman. Just Health: Meeting Health Needs Fairly. Cambridge University Press, 2008.\nNussbaum, Martha. Creating Capabilities. Harvard University Press, 2011."
+  },
+  {
+    "objectID": "chapters/08a-justice-health-slides.html#references",
+    "href": "chapters/08a-justice-health-slides.html#references",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "References",
+    "text": "References\n\n\nAlexander, Shana. 1962. “They Decide Who Lives, Who Dies.” Life 53 (19): 102–25.\n\n\nCherry, Mark J. 2005. Kidney for Sale by Owner: Human Organs, Transplantation, and the Market. Georgetown University Press.\n\n\nDaniels, Norman. 2008. Just Health: Meeting Health Needs Fairly. Cambridge University Press.\n\n\nGhods, Ahad J., and Shekoufeh Savaj. 2006. “Iranian Model of Paid and Regulated Living-Unrelated Kidney Donation.” Clinical Journal of the American Society of Nephrology 1 (6): 1136–45. https://doi.org/10.2215/CJN.00700206.\n\n\nMatesanz, Rafael, Beatriz Domínguez-Gil, Elisabeth Coll, Beatriz Mahíllo, and Rocío Marazuela. 2017. “How Spain Reached 40 Deceased Organ Donors Per Million Population.” American Journal of Transplantation 17 (6): 1447–54. https://doi.org/10.1111/ajt.14104.\n\n\nNozick, Robert. 1974. Anarchy, State, and Utopia. Basic Books.\n\n\nNussbaum, Martha C. 2011. Creating Capabilities: The Human Development Approach. Belknap Press of Harvard University Press.\n\n\nOrgan Procurement and Transplantation Network (OPTN). 2025. National Data: Waiting List and Transplants. U.S. Health Resources and Services Administration. https://optn.transplant.hrsa.gov/data.\n\n\nRadcliffe-Richards, Janet, A. S. Daar, R. D. Guttmann, et al. 1998. “The Case for Allowing Kidney Sales.” The Lancet 351 (9120): 1950–52. https://doi.org/10.1016/S0140-6736(97)08211-1.\n\n\nRawls, John. 1971. A Theory of Justice. Harvard University Press.\n\n\nSandel, Michael J. 2012. What Money Can’t Buy: The Moral Limits of Markets. Farrar, Straus; Giroux.\n\n\nSatz, Debra. 2010. Why Some Things Should Not Be for Sale: The Moral Limits of Markets. Oxford University Press.\n\n\nSen, Amartya. 1999. Development as Freedom. Alfred A. Knopf.\n\n\nUnited States Congress. 1984. National Organ Transplant Act of 1984, Pub. L. No. 98-507. 98 Stat. 2339. https://www.congress.gov/bill/98th-congress/senate-bill/2048."
+  },
+  {
     "objectID": "chapters/07a-death-dying.html",
     "href": "chapters/07a-death-dying.html",
     "title": "Lecture 7 — End-of-Life Care",
@@ -6681,7 +7472,7 @@
     "href": "index.html#course-materials",
     "title": "Bioethics: An Open Educational Resource",
     "section": "2 Course Materials",
-    "text": "2 Course Materials\n\n\n\n#\nPart\nTopic\nSlides\nNotes\n\n\n\n\n1A\nPrinciples & Reasoning\nThe Four Principles; Reading a Moral Argument\nSlides\nNotes\n\n\n1B\nPrinciples & Reasoning\nEthical Theories as Lenses\nSlides\nNotes\n\n\n2A\nHistory & Relationship\nFrom Hippocrates to the Belmont Report\nSlides\nNotes\n\n\n2B\nHistory & Relationship\nThe Clinical Relationship: Consent, Autonomy, and Confidentiality\nSlides\nNotes\n\n\n3A\nResearch Ethics\nHow Clinical Research Works (and Why It’s Different from Care)\nSlides\nNotes\n\n\n3B\nResearch Ethics\nFrom Tuskegee to Today: Protecting Research Subjects\nSlides\nNotes\n\n\n4A\nReproductive Ethics\nAbortion: Moral Status & Major Philosophical Arguments\nSlides\nNotes\n\n\n4B\nReproductive Ethics\nAbortion: Law, Cases, and the Four Principles\nSlides\nNotes\n\n\n5A\nReproductive Ethics\nPregnancy, Autonomy, and Maternal-Fetal Conflict\nSlides\nNotes\n\n\n5B\nReproductive Ethics\nMaking Family: Markets, Surrogacy, and Parental Rights\nSlides\nNotes\n\n\n6A\nGenomics & Enhancement\nReading Genomes: Prediction, Privacy, and Dual Use\nSlides\nNotes\n\n\n6B\nGenomics & Enhancement\nEngineering Persons: CRISPR, Enhancement, and Identity\nSlides\nNotes\n\n\n7A\nEnd-of-Life Care\nDeath, Dying, and Advance Planning\nSlides\nNotes\n\n\n7B\nEnd-of-Life Care\nEuthanasia, Assisted Death, and Their Critics\nSlides\nNotes",
+    "text": "2 Course Materials\n\n\n\n#\nPart\nTopic\nSlides\nNotes\n\n\n\n\n1A\nPrinciples & Reasoning\nThe Four Principles; Reading a Moral Argument\nSlides\nNotes\n\n\n1B\nPrinciples & Reasoning\nEthical Theories as Lenses\nSlides\nNotes\n\n\n2A\nHistory & Relationship\nFrom Hippocrates to the Belmont Report\nSlides\nNotes\n\n\n2B\nHistory & Relationship\nThe Clinical Relationship: Consent, Autonomy, and Confidentiality\nSlides\nNotes\n\n\n3A\nResearch Ethics\nHow Clinical Research Works (and Why It’s Different from Care)\nSlides\nNotes\n\n\n3B\nResearch Ethics\nFrom Tuskegee to Today: Protecting Research Subjects\nSlides\nNotes\n\n\n4A\nReproductive Ethics\nAbortion: Moral Status & Major Philosophical Arguments\nSlides\nNotes\n\n\n4B\nReproductive Ethics\nAbortion: Law, Cases, and the Four Principles\nSlides\nNotes\n\n\n5A\nReproductive Ethics\nPregnancy, Autonomy, and Maternal-Fetal Conflict\nSlides\nNotes\n\n\n5B\nReproductive Ethics\nMaking Family: Markets, Surrogacy, and Parental Rights\nSlides\nNotes\n\n\n6A\nGenomics & Enhancement\nReading Genomes: Prediction, Privacy, and Dual Use\nSlides\nNotes\n\n\n6B\nGenomics & Enhancement\nEngineering Persons: CRISPR, Enhancement, and Identity\nSlides\nNotes\n\n\n7A\nEnd-of-Life Care\nDeath, Dying, and Advance Planning\nSlides\nNotes\n\n\n7B\nEnd-of-Life Care\nEuthanasia, Assisted Death, and Their Critics\nSlides\nNotes\n\n\n8A\nJustice & Health Care\nTheories of Justice and the Right to Health Care\nSlides\nNotes\n\n\n8B\nJustice & Health Care\nWhy US Health Care Costs So Much — and Delivers So Little\nSlides\nNotes",
     "crumbs": [
       "Home"
     ]
@@ -6842,7 +7633,7 @@
     "href": "chapters/00-course-outline.html#l8.-justice-health-care-allocation",
     "title": "Course Outline & Learning Outcomes",
     "section": "1.7 L8. Justice & Health Care Allocation",
-    "text": "1.7 L8. Justice & Health Care Allocation\n\n1.7.1 L8a. Theories of Justice and the Right to Health Care\n\nA short tour of four families of theories, in plain language:\n\nUtilitarian — maximize total well-being.\nRawlsian — what would we choose behind a “veil of ignorance”?\nLibertarian (Nozick) — no one is owed health care; redistribution is unjust.\nCapabilities (Sen, Nussbaum) — what people need to function as humans.\n\nIs there a moral right to health care? Norman Daniels’ argument from fair equality of opportunity.\nWhere the US stands: a country that treats food, housing, and education as partial rights but health care as mostly a market good.\n\nVisual elements: - Figure (code-generated): 2×2 grid of theories of justice along axes of “individual liberty ↔︎ collective welfare” and “outcome-focused ↔︎ rights-focused.” - Table: Four theories applied to one scenario (e.g., “should an expensive cancer drug be covered by public insurance?”) — what each says and why. - Sidebar: Rawls’ original position, illustrated as a thought experiment. - Discussion prompt: “Behind the veil of ignorance, what health system would you design?”\n\n\n1.7.2 L8b. Real-World Disparities and Allocation Choices\n\nComparing systems: US, Canada, Germany, UK on coverage, financing, outcomes (life expectancy, infant mortality, cost per capita).\nHealth disparities in the US: racial, socioeconomic, geographic — and the mechanisms behind them (access, bias, environment, history).\nImplicit bias in clinical encounters — what the evidence says (pain undertreatment, dismissed symptoms), and what interventions show promise.\nOrgan allocation: how UNOS prioritizes, the ethics of directed donation, “first-come” vs. “sickest first” vs. “best outcome.”\nRationing under scarcity (preview of COVID-era crisis standards, fully developed in L9).\n\nVisual elements: - Figure (code-generated): bar chart comparing US/Canada/Germany/UK on life expectancy, infant mortality, and per-capita health spending (using OECD data). - Figure (code-generated): line chart of US life expectancy by race over recent decades. - Table: Health insurance coverage mechanisms — single-payer, multi-payer with mandate, employer-based, etc., with one country example each. - Case box: The 2009 Oregon Health Plan prioritization list — a real attempt at explicit rationing. - Case box: UNOS organ allocation criteria, with a discussion prompt about directed donation.",
+    "text": "1.7 L8. Justice & Health Care Allocation\n\n1.7.1 L8a. Theories of Justice and the Right to Health Care\nSpine: anchored on allocating a single scarce organ as the running application, opened by the case that shows what allocation looks like without a theory of justice — the Seattle “God Committee” (1962), which rationed early dialysis by judging patients’ “social worth” (job, church attendance, marital status). The motivating question: if not by social worth, then by what principle?\n\nA short tour of four families of theories, in plain language — each run through the same organ-allocation problem:\n\nUtilitarian — maximize total well-being / life-years saved (the logic behind QALYs and survival-benefit scoring).\nRawlsian — what would we choose behind a “veil of ignorance”? Protect the worst-off.\nLibertarian (Nozick) — no one is owed health care; the organ is the donor’s to give (hence directed donation and the kidney-market debate).\nCapabilities (Sen, Nussbaum) — restore the functioning people need to live a human life.\n\nOrgan allocation as the worked application: how UNOS prioritizes — “sickest first” vs. “best outcome” vs. “first-come”; opt-in vs. opt-out / presumed consent (Spain’s world-leading donation rate); directed/conditional donation; the ethics of paid organ markets (Iran, the only legal one); ability-to-pay distortions (registering in multiple states).\nIs there a moral right to health care? Positive vs. negative rights; Norman Daniels’ argument from fair equality of opportunity.\nWhere the US stands: a country that treats food, housing, and education as partial rights but health care as mostly a market good. (Bridge to 8b via the expensive-cancer-drug coverage question.)\n\nVisual elements: - Figure (code-generated): 2×2 grid of theories of justice along axes of “individual liberty ↔︎ collective welfare” and “outcome-focused ↔︎ rights-focused.” - Table: Four theories applied to one scarce organ — what each says about who gets it, and why. - Sidebar: Rawls’ original position, illustrated as a thought experiment. - Case box: The Seattle “God Committee” and the birth of bioethics commissions. - Discussion prompt: “Behind the veil of ignorance, what health system would you design?”\n\n\n1.7.2 L8b. Why US Health Care Costs So Much — and Delivers So Little\nSpine: two devices carry the facts. (1) The driving paradox — the US spends roughly double peer nations (~$13,000+/person, ~17–18% of GDP) yet ranks near the bottom of rich countries on life expectancy and infant/maternal mortality: spend the most, get less. (2) Follow one person through the patchwork — born (Medicaid/CHIP) → employer insurance → job loss → ACA exchange → uninsured gap → Medicare at 65 → Medicaid for nursing-home care. One life touches every program. The descriptive material is framed by 8a’s justice theories and ends on the value conflicts behind current debates.\n\nThe fragmented system, explained: employer-sponsored insurance (≈half of Americans; the tax exclusion), Medicare, Medicaid, the VA (actual government-run care), ACA exchanges, the individual market, and out-of-pocket / the uninsured.\nA little history since 1945: the WWII wage-freeze accident that tied insurance to jobs (1943/’54); Truman’s failed national plan; Medicare & Medicaid (1965); EMTALA (1986, must treat in the ER); Clinton’s 1994 failure; the ACA (2010) — what changed, and what stubbornly didn’t (still employer-core, still not universal).\nWhy so expensive? The evidence: “it’s the prices, not the utilization” (Anderson et al.) — Americans don’t use more care, each unit costs more — plus multi-payer administrative overhead, fee-for-service incentives, drug prices, hospital consolidation, and little price transparency.\nWhy poorer outcomes? Access gaps plus social/behavioral drivers the system doesn’t control (obesity, firearms, vehicle deaths, opioids, inequality — the IOM’s “Shorter Lives, Poorer Health”). Honest nuance: not all of it is a health-system failure. Population disparities (life expectancy by race, maternal mortality) live here. (Implicit bias in the clinical encounter relocated to L9.)\nWhat we’re genuinely best at: quaternary/specialty care (Mayo, Cleveland Clinic, MD Anderson), top-tier cancer survival, biomedical innovation, no waits for the well-insured.\nWhere we struggle: pricing, access, administrative burden, rural hospital closures, nursing/staff shortages and burnout (foregrounded for the nursing audience), and the recent life-expectancy decline.\nCompare the world: universal coverage has many designs — UK NHS (government-run), Canada (single public insurer, private delivery), Germany (multi-payer sickness funds), Switzerland (regulated private mandate — the ACA’s cousin). Leaves students ready for the Medicare-for-All / public-option / market-reform debate.\n\nVisual elements: - Figure (code-generated): scatter/bar — per-capita health spending vs. life expectancy across OECD countries, with the US as the visible outlier. - Figure (code-generated): “who covers whom” — US population by coverage source (employer, Medicare, Medicaid, exchange, uninsured) as a stacked bar. - Figure (code-generated): timeline of US health-financing milestones, 1945–present. - Table: Four models of universal coverage (UK / Canada / Germany / Switzerland) — who pays, who delivers, how it compares to a US program. - Discussion prompt: “You can change one feature of the US system. Which, and which 8a value does your choice serve?”",
     "crumbs": [
       "Home",
       "Course Outline"
@@ -6853,7 +7644,7 @@
     "href": "chapters/00-course-outline.html#l9.-public-health-ethics",
     "title": "Course Outline & Learning Outcomes",
     "section": "1.8 L9. Public Health Ethics",
-    "text": "1.8 L9. Public Health Ethics\n\n1.8.1 L9a. From Patient to Population\n\nHow public health ethics differs from clinical ethics: the unit of concern shifts from the individual patient to the population.\nFive core public health ethics frameworks (e.g., Childress et al.’s benchmarks: effectiveness, proportionality, necessity, least infringement, public justification).\nClassic tensions: individual liberty vs. collective welfare.\nA short history of public health: sanitation, vaccination, fluoridation, tobacco control — the wins, and the resistance.\nJacobson v. Massachusetts (1905) and the legal basis for vaccine mandates.\n\nVisual elements: - Figure (code-generated): side-by-side comparison of clinical ethics vs. public health ethics — unit of concern, primary value, key tensions. - Figure (code-generated): line graph showing disease incidence before and after major public health interventions (e.g., measles before/after vaccine). - Image (public domain): John Snow’s cholera map (1854), Wikimedia Commons. - Table: Childress et al.’s five “justificatory conditions” with an example for each. - Sidebar: “What did Jacobson actually decide?” — a short legal note.\n\n\n1.8.2 L9b. Pandemics, Mandates, and What COVID Revealed\n\nQuarantine and isolation: ethical justifications and their limits.\nVaccine mandates and conscientious exemptions — the religious, philosophical, and medical exemption debate.\nCrisis standards of care: how triage shifts under scarcity (ventilators, ICU beds, monoclonals).\nWhat COVID-19 revealed:\n\nPre-existing inequities (race, occupation, housing density)\nGovernance failures and information environments\nThe limits of public trust as a resource\n\nEthical lessons going forward — and what the field is still arguing about.\n\nVisual elements: - Figure (code-generated): a triage decision tree for ventilator allocation under crisis standards (illustrative, with the major scoring approaches noted). - Figure (code-generated): bar chart of COVID-19 mortality by race/ethnicity and by occupation type (CDC data). - Table: Arguments for and against vaccine mandates — public health, autonomy, religious liberty, equity. - Case box: The Italian ICU triage protocols of March 2020. - Discussion prompt: “What would fair allocation of the first 100,000 doses of a pandemic vaccine look like?”",
+    "text": "1.8 L9. Public Health Ethics\n\n1.8.1 L9a. From Patient to Population\n\nHow public health ethics differs from clinical ethics: the unit of concern shifts from the individual patient to the population.\nFive core public health ethics frameworks (e.g., Childress et al.’s benchmarks: effectiveness, proportionality, necessity, least infringement, public justification).\nClassic tensions: individual liberty vs. collective welfare.\nA short history of public health: sanitation, vaccination, fluoridation, tobacco control — the wins, and the resistance.\nJacobson v. Massachusetts (1905) and the legal basis for vaccine mandates.\n\nVisual elements: - Figure (code-generated): side-by-side comparison of clinical ethics vs. public health ethics — unit of concern, primary value, key tensions. - Figure (code-generated): line graph showing disease incidence before and after major public health interventions (e.g., measles before/after vaccine). - Image (public domain): John Snow’s cholera map (1854), Wikimedia Commons. - Table: Childress et al.’s five “justificatory conditions” with an example for each. - Sidebar: “What did Jacobson actually decide?” — a short legal note.\n\n\n1.8.2 L9b. Pandemics, Mandates, and What COVID Revealed\n\nQuarantine and isolation: ethical justifications and their limits.\nVaccine mandates and conscientious exemptions — the religious, philosophical, and medical exemption debate.\nCrisis standards of care: how triage shifts under scarcity (ventilators, ICU beds, monoclonals).\nImplicit bias in clinical encounters — what the evidence says (pain undertreatment, dismissed symptoms) and what interventions show promise; a population-level mechanism behind disparities (relocated from L8b).\nWhat COVID-19 revealed:\n\nPre-existing inequities (race, occupation, housing density)\nGovernance failures and information environments\nThe limits of public trust as a resource\n\nEthical lessons going forward — and what the field is still arguing about.\n\nVisual elements: - Figure (code-generated): a triage decision tree for ventilator allocation under crisis standards (illustrative, with the major scoring approaches noted). - Figure (code-generated): bar chart of COVID-19 mortality by race/ethnicity and by occupation type (CDC data). - Table: Arguments for and against vaccine mandates — public health, autonomy, religious liberty, equity. - Case box: The Italian ICU triage protocols of March 2020. - Discussion prompt: “What would fair allocation of the first 100,000 doses of a pandemic vaccine look like?”",
     "crumbs": [
       "Home",
       "Course Outline"
@@ -13464,6 +14255,911 @@
       "Home",
       "7. End-of-Life Care",
       "Part B — Euthanasia & Assisted Death"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#where-we-left-off",
+    "href": "chapters/08b-us-healthcare-slides.html#where-we-left-off",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Where We Left Off",
+    "text": "Where We Left Off\nIn Part A we built four lenses for asking what a just society owes people: maximize good (utilitarian), protect the worst-off (Rawls), respect free choices (libertarian), secure what people need to function (capabilities). We argued, with Daniels, about whether health care is a right at all.\nThat was the theory. Part B is the machine those values have to deal with — the real US health care system. Before we can argue about how to fix it, we have to see clearly how it actually works, what it costs, and what it delivers."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#guess-first",
+    "href": "chapters/08b-us-healthcare-slides.html#guess-first",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Guess First",
+    "text": "Guess First\n\nBefore the numbers appear, write down your best guess.\n\nHow much does the US spend on health care per person, per year — counting everything (insurance, taxes, out-of-pocket)?\nAmong wealthy countries, where do you think the US ranks on life expectancy — near the top, middle, or bottom?\nDo you expect Americans to use more doctor visits and hospital days than people in other rich countries, or fewer?"
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#the-paradox",
+    "href": "chapters/08b-us-healthcare-slides.html#the-paradox",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "The Paradox",
+    "text": "The Paradox\nThe United States spends far more on health care than any nation on Earth — and its people are not healthier for it.\n\n\n\n\nUnited States\nOECD average\n\n\n\n\nSpending per person (2023)\n~$14,570\n~$6,000–7,000\n\n\nShare of the whole economy\n17.6% of GDP\n~9–11%\n\n\nLife expectancy (2023)\n78.4 years\n81.1 years\n\n\nMaternal deaths / 100,000\n~17\n~10\n\n\n\nWe spend roughly double — and live nearly three years less (Centers for Medicare and Medicaid Services 2024; Organisation for Economic Co-operation and Development 2025). Everything in this lecture answers one question: why?"
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#after-youve-discussed",
+    "href": "chapters/08b-us-healthcare-slides.html#after-youve-discussed",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nHold onto the gap. The US spends the most and ranks near the bottom of its peers on life expectancy, infant mortality, and maternal mortality. This is not a small inefficiency — it is the central puzzle of American health policy.\nAnd it is where Part A stops being abstract. A country that treats care as mostly a market good has built a system with extraordinary capabilities and extraordinary gaps. By the end you should be able to say, in the language of justice, what we are getting right and what we owe each other."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#today",
+    "href": "chapters/08b-us-healthcare-slides.html#today",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Today",
+    "text": "Today\n\nBy the end of Part B, you will be able to:\n\nExplain the paradox: highest spending, middling outcomes.\nDescribe the four models of a health system (Beveridge, National Health Insurance, Bismarck, out-of-pocket) and name countries that use each.\nShow why the US is “fragmented” — it runs all four models at once — and map its programs onto them.\nTrace how the system got this way since 1945, and explain why US care is so expensive (“it’s the prices, not the utilization”) and why outcomes lag.\nName what the US does best and where it struggles, including the nursing workforce crisis.\nArgue, using a Part A value, which model the US should move toward."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#two-questions-define-every-system",
+    "href": "chapters/08b-us-healthcare-slides.html#two-questions-define-every-system",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Two Questions Define Every System",
+    "text": "Two Questions Define Every System\nBefore we look at the US, we need a map. Every health system on earth is built from the answers to just two questions:\n\nWho delivers the care? — does the government own the hospitals and employ the staff, or are they private?\nWho pays for it? — the government from taxes, regulated insurance funds, or you, out of pocket?\n\nThe journalist T. R. Reid sorted the world’s systems into four models by those two answers (Reid 2009). Almost every country picks one. Keep that word — one — in mind."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#the-four-models",
+    "href": "chapters/08b-us-healthcare-slides.html#the-four-models",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "The Four Models",
+    "text": "The Four Models\n\n\n\n\n\n\n\n\n\nModel\nWho delivers\nWho pays\nWhere you’ll find it\n\n\n\n\nBeveridge\ngovernment owns it\ngovernment (taxes)\nUK (NHS), Spain, Cuba\n\n\nNational Health Insurance\nprivate providers\none government insurer\nCanada, Taiwan\n\n\nBismarck\nprivate providers\nregulated nonprofit funds (payroll)\nGermany, France, Japan\n\n\nOut-of-pocket\nwhoever you can find\nyou, if you can pay\nmost low-income countries\n\n\n\nThe deepest split is who pays, running from “the public, for everyone” (Beveridge, NHI) to “private but tightly regulated” (Bismarck) to “you’re on your own” (out-of-pocket)."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#beveridge-vs.-national-health-insurance",
+    "href": "chapters/08b-us-healthcare-slides.html#beveridge-vs.-national-health-insurance",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Beveridge vs. National Health Insurance",
+    "text": "Beveridge vs. National Health Insurance\n\n\nBeveridge (UK’s NHS, since 1948)\nThe government owns the hospitals and employs the doctors, and funds it all through taxes. Care is free at the point of use. This is what “socialized medicine” actually means — the state runs the whole thing.\n\n\n\nNational Health Insurance (Canada, Taiwan)\nDoctors and hospitals stay private, but a single government insurer pays them, funded by taxes. One payer, private delivery. No marketing, no denials for profit, strong bargaining power on prices."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#bismarck-vs.-out-of-pocket",
+    "href": "chapters/08b-us-healthcare-slides.html#bismarck-vs.-out-of-pocket",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Bismarck vs. Out-of-Pocket",
+    "text": "Bismarck vs. Out-of-Pocket\n\n\nBismarck (Germany since 1883, France, Japan)\nCare and insurance are private — but insurers are nonprofit “sickness funds,” everyone must be covered, and prices are tightly regulated. Switzerland’s mandate, and the US ACA, are cousins of this model.\n\n\n\nOut-of-pocket\nNo system at all: you get the care you can pay for, and go without the rest. This is the reality for most people in poor countries — and, as we’ll see, for the uninsured in the US."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#a-caution-before-we-go-on",
+    "href": "chapters/08b-us-healthcare-slides.html#a-caution-before-we-go-on",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "A Caution Before We Go On",
+    "text": "A Caution Before We Go On\n\n\n\n\n\n\nNote\n\n\nThese four models are idealizations. Real countries blend at the edges — the British buy private top-up insurance, Germany has some public hospitals, Canada leaves dental and drugs largely private.\nBut the framework holds where it matters: each country builds its system around one model and makes it coherent. Hold that thought — because the United States did something no one else did."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#one-life-every-program",
+    "href": "chapters/08b-us-healthcare-slides.html#one-life-every-program",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "One Life, Every Program",
+    "text": "One Life, Every Program\nThe US has no single health system. It has a patchwork — and the easiest way to see it is to follow one person through a lifetime.\n\nMeet Maria.\n\nBorn: her family is low-income, so she’s covered by Medicaid/CHIP.\nAge 26: good job with benefits — employer-sponsored insurance.\nAge 34: laid off. Briefly uninsured, then buys a plan on the ACA exchange with a subsidy.\nAge 60: chronic illness, can’t keep working full-time — a coverage gap.\nAge 65: ages into Medicare.\nAge 81: needs a nursing home; Medicare won’t cover long-term care, so she spends down her savings until Medicaid does.\n\nOne person. Six different programs — and, as we’re about to see, three different countries’ models of health care, all without leaving the US."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#who-covers-whom",
+    "href": "chapters/08b-us-healthcare-slides.html#who-covers-whom",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Who Covers Whom",
+    "text": "Who Covers Whom\nUS health coverage in 2023 (Keisler-Starkey et al. 2024):\n\n\n\nSource of coverage\nShare of population\n\n\n\n\nEmployer-sponsored\n~54%\n\n\nMedicare (65+ and disabled)\n~19%\n\n\nMedicaid (low-income)\n~19%\n\n\nDirect purchase / ACA exchanges\n~10%\n\n\nVA / military\na few %\n\n\nUninsured\n~8% (≈26 million)\n\n\n\nShares add to more than 100% because many people hold more than one type in a year. About 92.5% of Americans had some coverage — near a record high, and still leaving 26 million with none."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#the-us-runs-all-four-models-at-once",
+    "href": "chapters/08b-us-healthcare-slides.html#the-us-runs-all-four-models-at-once",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "The US Runs All Four Models at Once",
+    "text": "The US Runs All Four Models at Once\nThis is the heart of “fragmentation.” Other countries pick one model. The US runs all four simultaneously — and which one you live under depends on your age, job, income, and luck (Reid 2009).\n\n\n\n\n\n\n\n\n\nIf you are…\nYour coverage\n…is really this model\n…like which country\n\n\n\n\nA veteran (VA)\ngovernment hospitals\nBeveridge\nthe UK\n\n\n65 or older\nMedicare\nNational Health Insurance\nCanada\n\n\nWorking with benefits\nemployer insurance\nBismarck\nGermany\n\n\nUninsured\npay or go without\nOut-of-pocket\nthe developing world\n\n\n\nA single country containing Britain, Canada, Germany, and the developing world — sorted by who you happen to be."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#why-fragmented-is-expensive-not-just-messy",
+    "href": "chapters/08b-us-healthcare-slides.html#why-fragmented-is-expensive-not-just-messy",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Why “Fragmented” Is Expensive, Not Just Messy",
+    "text": "Why “Fragmented” Is Expensive, Not Just Messy\nRunning four systems at once isn’t only untidy — it has real costs.\n\nNo coherence: each model has its own rules, paperwork, eligibility, and incentives. Providers must bill all of them at once.\nGaps at the seams: people fall between models — too rich for Medicaid, too young for Medicare, no job-based plan. That’s where the 26 million uninsured live.\nNo single bargaining power: because no one payer dominates, no one can negotiate prices the way Canada’s or the UK’s system can. We’ll see the price consequences shortly."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#employer-sponsored-insurance-the-core",
+    "href": "chapters/08b-us-healthcare-slides.html#employer-sponsored-insurance-the-core",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Employer-Sponsored Insurance — the Core",
+    "text": "Employer-Sponsored Insurance — the Core\nAbout half of Americans get coverage through a job — the single largest piece of the system, and the one most people never chose.\n\nYour employer buys a group plan and pays much of the premium; you pay the rest from your paycheck.\nIn 2024, the average family plan cost $25,572 a year in total premiums — most of it invisible to workers because the employer “pays” it (out of wages they’d otherwise get).\nLose or change the job, and you can lose the coverage. Maria’s layoff is the system’s built-in fragility."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#medicare-and-medicaid-the-1965-pillars",
+    "href": "chapters/08b-us-healthcare-slides.html#medicare-and-medicaid-the-1965-pillars",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Medicare and Medicaid — the 1965 Pillars",
+    "text": "Medicare and Medicaid — the 1965 Pillars\n\n\nMedicare — federal, for people 65+ and the long-term disabled.\n\nPart A: hospital\nPart B: outpatient/doctors\nPart C: private “Advantage” plans\nPart D: drugs\n\nNearly universal for the old — the closest thing the US has to a right to care.\n\n\n\nMedicaid — joint federal–state, for low-income people.\n\nRules and generosity vary by state.\nThe ACA let states expand it to more low-income adults; not all did.\nQuietly enormous: it pays for about 4 in 10 US births and most nursing-home care."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#the-va-actual-government-medicine",
+    "href": "chapters/08b-us-healthcare-slides.html#the-va-actual-government-medicine",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "The VA — Actual Government Medicine",
+    "text": "The VA — Actual Government Medicine\nOne corner of the US system looks like the rest of the wealthy world.\n\nThe Veterans Health Administration doesn’t just insure veterans — it owns the hospitals and employs the doctors. The government delivers the care directly.\nThis is pure Beveridge — the UK’s model, running inside the United States. It’s what people usually mean by “socialized medicine,” and it’s already the largest integrated system in the country.\nSo the same nation that leaves 26 million uninsured also runs a full British-style health service for its veterans. That is the patchwork in one breath."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#the-exchanges-and-the-uninsured",
+    "href": "chapters/08b-us-healthcare-slides.html#the-exchanges-and-the-uninsured",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "The Exchanges and the Uninsured",
+    "text": "The Exchanges and the Uninsured\nFor people without a job-based plan, Medicare, or Medicaid, the ACA marketplaces (since 2014) sell individual plans, with income-based subsidies.\n\nAbout 10% of Americans buy coverage this way or on the individual market.\nEven so, ~26 million remain uninsured — too well-off for Medicaid, no job-based plan, or unwilling/unable to buy in.\nThe uninsured don’t simply go without: by law, emergency rooms must still treat them — a fact with its own history, coming up next."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#the-accident-that-built-the-system",
+    "href": "chapters/08b-us-healthcare-slides.html#the-accident-that-built-the-system",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "The Accident That Built the System",
+    "text": "The Accident That Built the System\nAmerica’s job-based system was not designed. It was an accident of World War II.\n\nWartime wage controls (1942–43) froze what employers could pay. To compete for scarce workers, they offered health benefits instead of raises.\nThen the government ruled those benefits tax-free — confirmed in the 1954 tax code. A dollar of health insurance wasn’t taxed; a dollar of wages was.\nThat tax break made job-based coverage explode. The US tied health care to employment not by choice, but by a loophole no one ever closed."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#the-hidden-subsidy",
+    "href": "chapters/08b-us-healthcare-slides.html#the-hidden-subsidy",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "The Hidden Subsidy",
+    "text": "The Hidden Subsidy\nThat 1954 tax break is still here — and it is enormous.\n\nExcluding employer health benefits from taxes cost the federal government about $299 billion in 2022 — the single largest tax expenditure in the entire federal budget (Tax Policy Center 2024).\nIt is invisible: most workers have no idea they receive it.\nIt is regressive — worth more to higher earners in higher tax brackets. The US already heavily subsidizes health care; it just does it quietly, and tilts it toward the well-off."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#a-short-history-1945today",
+    "href": "chapters/08b-us-healthcare-slides.html#a-short-history-1945today",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "A Short History, 1945–Today",
+    "text": "A Short History, 1945–Today\n\n\n\n\n\n\n\nG\n\n\n\na\n\n1948\nTruman's national\nplan fails\n\n\n\nb\n\n1965\nMedicare &\nMedicaid\n\n\n\na-&gt;b\n\n\n\n\n\nc\n\n1986\nEMTALA:\nERs must treat\n\n\n\nb-&gt;c\n\n\n\n\n\nd\n\n1994\nClinton plan\nfails\n\n\n\nc-&gt;d\n\n\n\n\n\ne\n\n2003\nMedicare\nPart D (drugs)\n\n\n\nd-&gt;e\n\n\n\n\n\nf\n\n2010\nACA: exchanges,\nMedicaid expansion\n\n\n\ne-&gt;f\n\n\n\n\n\n\n\n\n\n\nTwo big expansions (1965, 2010), two big failures (1948, 1994), and one unfunded promise — EMTALA, which since 1986 has required hospitals to screen and stabilize anyone in an emergency, regardless of ability to pay (United States Congress 1986)."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#what-changed-and-what-didnt",
+    "href": "chapters/08b-us-healthcare-slides.html#what-changed-and-what-didnt",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "What Changed, and What Didn’t",
+    "text": "What Changed, and What Didn’t\nEighty years of fights, and the core never moved.\n\nWhat changed: the old got Medicare; the poor got Medicaid; emergencies got EMTALA; the individual market got the ACA’s exchanges and protections (United States Congress 2010).\nWhat didn’t: coverage is still built around the employer, and the US still has no universal guarantee. Every reform added a patch rather than replacing the quilt.\nThe result is the fragmented system we just mapped — and the costs we turn to now."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#its-the-prices-not-the-utilization",
+    "href": "chapters/08b-us-healthcare-slides.html#its-the-prices-not-the-utilization",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "It’s the Prices, Not the Utilization",
+    "text": "It’s the Prices, Not the Utilization\nThe intuitive guess is that Americans must overuse care — too many tests, too many visits. The evidence says the opposite.\n\nAmericans actually have fewer doctor visits and fewer hospital stays than the OECD average.\nWhat’s different is that each unit costs far more: the same drug, scan, or procedure simply has a higher price tag in the US.\nHealth economists summed it up in a famous title: “It’s still the prices, stupid” (Anderson et al. 2019). The volume isn’t the problem. The prices are."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#what-drives-the-prices",
+    "href": "chapters/08b-us-healthcare-slides.html#what-drives-the-prices",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "What Drives the Prices",
+    "text": "What Drives the Prices\nIf prices are the engine, what feeds them?\n\nDrug prices — the US pays far more for the same medications than other countries, which negotiate or cap prices.\nHigher salaries — for physicians and many staff, well above peer-country norms.\nHospital market power — mergers leave many regions with one dominant system that can name its price.\nOpacity — patients almost never see a price before care, so normal market discipline never kicks in."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#the-paperwork-tax",
+    "href": "chapters/08b-us-healthcare-slides.html#the-paperwork-tax",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "The Paperwork Tax",
+    "text": "The Paperwork Tax\nSome of the money never buys care at all — it buys billing.\n\nAdministrative complexity. With hundreds of insurers, each with its own rules, codes, and denials, the US spends enormously just managing the money.\n\nAdministration is about 8% of US health spending, versus 1–3% in peer countries.\nHospital administration alone runs about 25% of costs — the highest of eight nations studied.\nBilling and insurance paperwork costs roughly $2,497 per person in the US, against $551 in Canada (Himmelstein et al. 2020).\n\nPart of this is the price of running four models at once: every provider must bill Medicare, Medicaid, dozens of private insurers, and self-pay patients, each with its own rules. Canada has one payer to bill. We have thousands."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#fee-for-service-paying-for-volume",
+    "href": "chapters/08b-us-healthcare-slides.html#fee-for-service-paying-for-volume",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Fee-for-Service: Paying for Volume",
+    "text": "Fee-for-Service: Paying for Volume\nUnderneath the prices is an incentive problem in how we pay.\n\n\nFee-for-service\nProviders are paid per thing done — per test, scan, procedure. The built-in incentive is to do more, whether or not it helps. Volume is rewarded; restraint is not.\n\n\n\nValue-based care\nThe alternative pays for keeping people healthy — a fixed amount per patient, or bonuses for good outcomes. It’s spreading slowly, but fee-for-service still dominates US medicine."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#a-lens-check",
+    "href": "chapters/08b-us-healthcare-slides.html#a-lens-check",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "A Lens Check",
+    "text": "A Lens Check\n\n\n\n\n\n\nNote\n\n\n“Let the market set prices” is a libertarian instinct from Part A — free transactions, minimal interference. It does drive innovation and rewards investment.\nBut health care breaks the assumptions a market needs: patients can’t shop while having a heart attack, can’t see prices, and can’t walk away. The utilitarian asks whether all this spending actually maximizes health (it doesn’t), and Daniels asks whether prices this high are compatible with fair access (they aren’t). Same facts, three verdicts."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#thought-question",
+    "href": "chapters/08b-us-healthcare-slides.html#thought-question",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Thought Question",
+    "text": "Thought Question\n\nYou have a job and a health insurance plan. Your appendix bursts; you get emergency surgery and go home in two days, cured. Weeks later, a bill arrives: after everything your insurance paid, you owe $15,000 — a deductible, “out-of-network” charges from a surgeon you never chose, and coinsurance.\n\nYou did everything right and were insured. How did you still end up owing $15,000?\nDid you have any real chance to “shop” or consent to these prices?\nShould being insured mean you’re protected from this — and if so, who pays the difference?"
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#make-it-contemporary",
+    "href": "chapters/08b-us-healthcare-slides.html#make-it-contemporary",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Make It Contemporary",
+    "text": "Make It Contemporary\n\nThis is ordinary, not rare.\n\nMedical bills are a leading cause of personal bankruptcy in the US, and a large share of online fundraisers are for medical costs.\nThe bill in the scenario — surprise charges from out-of-network providers at an in-network hospital — was so common that Congress passed the No Surprises Act, effective 2022, to ban much of it (Centers for Medicare and Medicaid Services 2022).\n\nDiscuss: A law was needed to stop hospitals from billing insured patients for doctors those patients never chose. What does needing that law tell you about the system?"
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#after-youve-discussed-1",
+    "href": "chapters/08b-us-healthcare-slides.html#after-youve-discussed-1",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nA distinction the coverage numbers hide:\n\nUninsured means no plan at all (~8%).\nUnderinsured means you have a plan, but its deductibles and cost-sharing are so high that you still can’t afford care or get wiped out by a bill.\n\nTens of millions are underinsured. “92.5% covered” can hide people who skip prescriptions, avoid the ER, or go bankrupt anyway. Health economists call the bankrupting effect financial toxicity — when the treatment for the bill becomes its own illness."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#access-gaps",
+    "href": "chapters/08b-us-healthcare-slides.html#access-gaps",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Access Gaps",
+    "text": "Access Gaps\nPart of the outcomes gap is straightforward: people who can’t afford care get less of it, later.\n\nThe uninsured and underinsured delay care, skip medications, and avoid preventive visits until problems become emergencies.\nEmergency, late-stage care is both worse for patients and more expensive for everyone.\nPeer countries with universal coverage remove this barrier — one clear reason their populations do better on basic measures."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#but-its-not-only-the-system",
+    "href": "chapters/08b-us-healthcare-slides.html#but-its-not-only-the-system",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "But It’s Not Only the System",
+    "text": "But It’s Not Only the System\nHere honesty matters: a large share of the US disadvantage is not something hospitals can fix.\n\nAmericans face higher rates of obesity, firearm deaths, vehicle deaths, and drug overdoses (about 107,000 in 2022) than peers.\nDeep income inequality and poverty shape health long before anyone reaches a clinic.\nThese are social and behavioral drivers. Even a perfect health system would leave much of the gap untouched — which is exactly why the gap is so stubborn."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#shorter-lives-even-for-the-advantaged",
+    "href": "chapters/08b-us-healthcare-slides.html#shorter-lives-even-for-the-advantaged",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Shorter Lives, Even for the Advantaged",
+    "text": "Shorter Lives, Even for the Advantaged\n\nThe finding that surprised everyone.\nA landmark 2013 National Academies report, U.S. Health in International Perspective: Shorter Lives, Poorer Health, found the US disadvantage runs across the whole life course — and is not explained only by the poor or by minorities (National Research Council and Institute of Medicine 2013).\nEven white, college-educated, insured, high-income Americans were found to be in worse health than similar people in peer nations. The disadvantage is national, not just a problem of the margins."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#disparities-within",
+    "href": "chapters/08b-us-healthcare-slides.html#disparities-within",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Disparities Within",
+    "text": "Disparities Within\nThe national average also hides sharp gaps inside the US.\n\nLife expectancy differs by years across racial and economic lines.\nMaternal mortality for Black women is roughly three times that of white women.\nInfant mortality for Black infants (~10.9 per 1,000) is about three times that of Asian infants (~3.5) (Ely and Driscoll 2025).\n\nThese are the population-level injustices Part A’s theories were built to name. They are not random — they track access, history, and bias."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#best-in-the-world-genuinely",
+    "href": "chapters/08b-us-healthcare-slides.html#best-in-the-world-genuinely",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Best in the World — Genuinely",
+    "text": "Best in the World — Genuinely\nThe US system has real, world-leading strengths, and an honest account has to say so.\n\nFor complex, specialized care, US centers like the Mayo Clinic, Cleveland Clinic, and MD Anderson are among the best on Earth.\nUS cancer survival is at or near the top internationally — highest in the world for prostate cancer, top-tier for breast and colon (the CONCORD studies) (Allemani et al. 2018).\nThe US leads in biomedical innovation, and the well-insured face little or no waiting for elective and specialty care."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#where-we-struggle",
+    "href": "chapters/08b-us-healthcare-slides.html#where-we-struggle",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Where We Struggle",
+    "text": "Where We Struggle\nThe same system that delivers the world’s best specialty care fails on the basics.\n\nPrices no one can see or predict; access gaps for tens of millions.\nA crushing administrative burden.\nRural hospital closures leaving whole regions without nearby care.\nA life-expectancy stall that, even after the COVID rebound, leaves the US years behind its peers."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#the-workforce-crisis",
+    "href": "chapters/08b-us-healthcare-slides.html#the-workforce-crisis",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "The Workforce Crisis",
+    "text": "The Workforce Crisis\nThe strain shows up most sharply in the people who deliver the care — especially nurses.\n\nHRSA projects roughly a 10% shortage of registered nurses by 2027, and a shortfall of over 500,000 by 2030 (Health Resources and Services Administration, National Center for Health Workforce Analysis 2024).\nThe NCSBN found about 138,000 nurses left since 2022, and nearly 40% intend to leave the workforce by 2029.\nIn 2024, over 80,000 qualified nursing-school applicants were turned away — not for lack of demand, but for lack of faculty and clinical placements."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#why-staffing-is-an-ethics-problem",
+    "href": "chapters/08b-us-healthcare-slides.html#why-staffing-is-an-ethics-problem",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Why Staffing Is an Ethics Problem",
+    "text": "Why Staffing Is an Ethics Problem\n\n\n\n\n\n\nNote\n\n\nA shortage of nurses is not just an HR headache — it is a justice and safety issue.\n\nThinner staffing means higher patient-to-nurse ratios, which research links to worse patient outcomes.\nWorse conditions drive burnout, which drives more nurses out — a self-feeding cycle.\nShortages hit rural and safety-net settings hardest, widening the very disparities we just described.\n\nThe system’s failures land on patients through the workforce. Who staffs the bedside is a distributive-justice question too."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#the-menu-now-that-you-know-it",
+    "href": "chapters/08b-us-healthcare-slides.html#the-menu-now-that-you-know-it",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "The Menu, Now That You Know It",
+    "text": "The Menu, Now That You Know It\nEvery reform debate you’ll ever hear is really an argument about which model to grow, and which to shrink. The four are no longer abstract:\n\nBeveridge — expand the VA’s approach to everyone (“the NHS option”).\nNational Health Insurance — one public insurer paying private doctors (“Medicare for All”).\nBismarck — keep private insurers but regulate them into universal coverage (a fully built-out ACA, like Switzerland or Germany).\nKeep blending — patch the current four-model mix without choosing."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#choosing-on-purpose-taiwan",
+    "href": "chapters/08b-us-healthcare-slides.html#choosing-on-purpose-taiwan",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Choosing on Purpose: Taiwan",
+    "text": "Choosing on Purpose: Taiwan\n\n\nThe US drifted into its patchwork by accident. It doesn’t have to stay there — and one country proves it.\nIn the early 1990s Taiwan had no universal system. Rather than guess, its government studied health systems around the world, then in 1995 deliberately built a National Health Insurance model — single public insurer, private delivery. It reached near-universal coverage in a few years, at a fraction of US cost.\n\n\nThe lesson\nA country can look at the menu and choose. The US question is not “is reform possible?” — Taiwan, Canada, Germany, and Britain all answer yes. It is which model, and which value that choice serves."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#three-directions-three-values",
+    "href": "chapters/08b-us-healthcare-slides.html#three-directions-three-values",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Three Directions, Three Values",
+    "text": "Three Directions, Three Values\nEach reform path advances a different Part A value — and sacrifices another.\n\n\n\n\n\n\n\n\n\nReform\nModel\nServes…\nStrains…\n\n\n\n\nMedicare for All\nNHI\nequal access (Rawls, Daniels)\nliberty; existing plans\n\n\nPublic option\nNHI + Bismarck\na middle path\nsatisfies neither side fully\n\n\nBuild out the ACA\nBismarck\ncoverage and choice\ncomplexity; cost control\n\n\nMarket reforms\ntoward out-of-pocket\nliberty (libertarian)\nthe worst-off\n\n\n\nThere is no value-free choice. To pick a model is to pick which of Part A’s principles you put first."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#make-it-contemporary-1",
+    "href": "chapters/08b-us-healthcare-slides.html#make-it-contemporary-1",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Make It Contemporary",
+    "text": "Make It Contemporary\n\n“Medicare for All” would cover every American through a single public insurer, ending most private plans and the link between jobs and coverage.\n\nWhich Part A value does it serve best — and which does it sacrifice?\nIt would likely lower total spending (less administration, real price negotiation) but raise taxes while ending premiums. Is that a good trade?\nTens of millions are happy with employer plans. Should a reform that helps the worst-off be allowed to change what they have?"
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#wrap-up",
+    "href": "chapters/08b-us-healthcare-slides.html#wrap-up",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Wrap-Up",
+    "text": "Wrap-Up\n\nWe started with a paradox: the US spends about double any peer nation, near $14,570 per person, and gets shorter lives in return. We saw why — a patchwork that runs all four models of health care at once (Beveridge for veterans, NHI for the old, Bismarck for workers, out-of-pocket for the uninsured), built by a wartime accident, with prices no one can see and an outcomes gap driven as much by guns, cars, food, and poverty as by the clinic. We named what the US does best (the world’s finest specialty and cancer care) and where it fails (access, cost, and a nursing workforce in crisis).\nNone of this settles the argument — it equips it. Other countries chose one model on purpose; the US can too. Which one depends on which of Part A’s values we put first: the most total health, the protection of the worst-off, the freedom to choose, or the capabilities every person needs. The model is yours to argue for."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#review-questions",
+    "href": "chapters/08b-us-healthcare-slides.html#review-questions",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Review Questions",
+    "text": "Review Questions\n\n\nRecall\nExplain “it’s the prices, not the utilization,” and give two specific reasons US prices run higher than peer countries’.\n\n\nApply\nA friend says, “Americans are unhealthy because they overuse the ER and eat badly — fixing insurance won’t help.” Using this lecture, where is your friend partly right, and where wrong?\n\n\nDebate\nShould the US adopt a single-payer system, a public option, or market reforms? Defend your choice using a specific theory of justice from Part A."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#key-terms",
+    "href": "chapters/08b-us-healthcare-slides.html#key-terms",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Key Terms",
+    "text": "Key Terms\n\nThe four models — Beveridge (gov owns & pays), National Health Insurance (single gov payer, private care), Bismarck (regulated private funds), out-of-pocket (pay or go without).\nFragmentation — the US runs all four models at once, sorted by age, job, and income.\nEmployer-sponsored insurance — job-based coverage; ~half of Americans.\nMedicare / Medicaid — federal coverage for the old/disabled / joint federal–state coverage for the low-income.\nEMTALA — 1986 law requiring ERs to screen and stabilize regardless of ability to pay.\nTax exclusion — the untaxed status of employer health benefits; the largest federal tax expenditure.\n“It’s the prices, not the utilization” — US spending is high because of prices, not volume of care.\nUnderinsurance / financial toxicity — having coverage but still unable to afford care, or bankrupted by it.\nSingle-payer / public option — one public insurer for all / a public plan competing with private ones."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#further-reading",
+    "href": "chapters/08b-us-healthcare-slides.html#further-reading",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Further Reading",
+    "text": "Further Reading\n\nReid, T. R. The Healing of America: A Global Quest for Better, Cheaper, and Fairer Health Care. Penguin, 2009. (Reid 2009)\nRosenthal, Elisabeth. An American Sickness: How Healthcare Became Big Business. Penguin, 2017.\nAnderson, Hussey & Petrosyan. “It’s Still the Prices, Stupid.” Health Affairs (2019). (Anderson et al. 2019)\nNational Academies. U.S. Health in International Perspective: Shorter Lives, Poorer Health (2013). (National Research Council and Institute of Medicine 2013)"
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#references",
+    "href": "chapters/08b-us-healthcare-slides.html#references",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "References",
+    "text": "References\n\n\nAllemani, Claudia, Tomohiro Matsuda, Veronica Di Carlo, et al. 2018. “Global Surveillance of Trends in Cancer Survival 2000–14 (CONCORD-3).” The Lancet 391 (10125): 1023–75. https://doi.org/10.1016/S0140-6736(17)33326-3.\n\n\nAnderson, Gerard F., Peter Hussey, and Varduhi Petrosyan. 2019. “It’s Still the Prices, Stupid: Why the US Spends so Much on Health Care, and a Tribute to Uwe Reinhardt.” Health Affairs 38 (1): 87–95. https://doi.org/10.1377/hlthaff.2018.05144.\n\n\nCenters for Medicare and Medicaid Services. 2022. No Surprises Act. Enacted in the Consolidated Appropriations Act, 2021; effective January 1, 2022. https://www.cms.gov/nosurprises.\n\n\nCenters for Medicare and Medicaid Services. 2024. National Health Expenditure Fact Sheet. https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet.\n\n\nEly, Danielle M., and Anne K. Driscoll. 2025. Infant Mortality in the United States: Provisional Data. National Vital Statistics Reports, vol. 74, no. 7. National Center for Health Statistics. https://www.cdc.gov/nchs/data/nvsr/nvsr74/nvsr74-07.pdf.\n\n\nHealth Resources and Services Administration, National Center for Health Workforce Analysis. 2024. Nurse Workforce Projections, 2022–2037. U.S. Department of Health and Human Services. https://bhw.hrsa.gov/data-research/projecting-health-workforce-supply-demand.\n\n\nHimmelstein, David U., Terry Campbell, and Steffie Woolhandler. 2020. “Health Care Administrative Costs in the United States and Canada, 2017.” Annals of Internal Medicine 172 (2): 134–42. https://doi.org/10.7326/M19-2818.\n\n\nKeisler-Starkey, Katherine, Lisa N. Bunch, and Rachel A. Lindstrom. 2024. Health Insurance Coverage in the United States: 2023. Current Population Reports, P60-284. U.S. Census Bureau. https://www.census.gov/library/publications/2024/demo/p60-284.html.\n\n\nNational Research Council and Institute of Medicine. 2013. U.s. Health in International Perspective: Shorter Lives, Poorer Health. Edited by Steven H. Woolf and Laudan Aron. The National Academies Press. https://doi.org/10.17226/13497.\n\n\nOrganisation for Economic Co-operation and Development. 2025. Health at a Glance 2025: OECD Indicators. OECD Publishing. https://doi.org/10.1787/a894f72e-en.\n\n\nReid, T. R. 2009. The Healing of America: A Global Quest for Better, Cheaper, and Fairer Health Care. Penguin Press.\n\n\nTax Policy Center. 2024. How Does the Tax Exclusion for Employer-Sponsored Health Insurance Work? Urban Institute and Brookings Institution Tax Policy Center Briefing Book. https://taxpolicycenter.org/briefing-book/how-does-tax-exclusion-employer-sponsored-health-insurance-work.\n\n\nUnited States Congress. 1986. Emergency Medical Treatment and Active Labor Act (EMTALA), 42 u.s.c. § 1395dd. Enacted as part of the Consolidated Omnibus Budget Reconciliation Act of 1985, Pub. L. No. 99-272. https://www.cms.gov/medicare/regulations-guidance/legislation/emergency-medical-treatment-labor-act.\n\n\nUnited States Congress. 2010. Patient Protection and Affordable Care Act, Pub. L. No. 111-148. 124 Stat. 119. https://www.congress.gov/bill/111th-congress/house-bill/3590."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html",
+    "href": "chapters/08b-us-healthcare.html",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "",
+    "text": "In Part A we built four lenses for asking what a just society owes people: maximize good (utilitarian), protect the worst-off (Rawls), respect free choices (libertarian), secure what people need to function (capabilities). We argued, with Daniels, about whether health care is a right at all.\nThat was the theory. Part B is the machine those values have to deal with — the real US health care system. Before we can argue about how to fix it, we have to see clearly how it actually works, what it costs, and what it delivers.\n\n\n\n\nBefore the numbers appear, write down your best guess.\n\nHow much does the US spend on health care per person, per year — counting everything (insurance, taxes, out-of-pocket)?\nAmong wealthy countries, where do you think the US ranks on life expectancy — near the top, middle, or bottom?\nDo you expect Americans to use more doctor visits and hospital days than people in other rich countries, or fewer?\n\n\n\n\n\nThe United States spends far more on health care than any nation on Earth — and its people are not healthier for it.\n\n\n\n\nUnited States\nOECD average\n\n\n\n\nSpending per person (2023)\n~$14,570\n~$6,000–7,000\n\n\nShare of the whole economy\n17.6% of GDP\n~9–11%\n\n\nLife expectancy (2023)\n78.4 years\n81.1 years\n\n\nMaternal deaths / 100,000\n~17\n~10\n\n\n\nWe spend roughly double — and live nearly three years less (Centers for Medicare and Medicaid Services 2024; Organisation for Economic Co-operation and Development 2025). Everything in this lecture answers one question: why?\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nHold onto the gap. The US spends the most and ranks near the bottom of its peers on life expectancy, infant mortality, and maternal mortality. This is not a small inefficiency — it is the central puzzle of American health policy.\nAnd it is where Part A stops being abstract. A country that treats care as mostly a market good has built a system with extraordinary capabilities and extraordinary gaps. By the end you should be able to say, in the language of justice, what we are getting right and what we owe each other.\n\n\n\n\n\n\nBy the end of Part B, you will be able to:\n\nExplain the paradox: highest spending, middling outcomes.\nDescribe the four models of a health system (Beveridge, National Health Insurance, Bismarck, out-of-pocket) and name countries that use each.\nShow why the US is “fragmented” — it runs all four models at once — and map its programs onto them.\nTrace how the system got this way since 1945, and explain why US care is so expensive (“it’s the prices, not the utilization”) and why outcomes lag.\nName what the US does best and where it struggles, including the nursing workforce crisis.\nArgue, using a Part A value, which model the US should move toward.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#where-we-left-off",
+    "href": "chapters/08b-us-healthcare.html#where-we-left-off",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "",
+    "text": "In Part A we built four lenses for asking what a just society owes people: maximize good (utilitarian), protect the worst-off (Rawls), respect free choices (libertarian), secure what people need to function (capabilities). We argued, with Daniels, about whether health care is a right at all.\nThat was the theory. Part B is the machine those values have to deal with — the real US health care system. Before we can argue about how to fix it, we have to see clearly how it actually works, what it costs, and what it delivers.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#guess-first",
+    "href": "chapters/08b-us-healthcare.html#guess-first",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "",
+    "text": "Before the numbers appear, write down your best guess.\n\nHow much does the US spend on health care per person, per year — counting everything (insurance, taxes, out-of-pocket)?\nAmong wealthy countries, where do you think the US ranks on life expectancy — near the top, middle, or bottom?\nDo you expect Americans to use more doctor visits and hospital days than people in other rich countries, or fewer?",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#the-paradox",
+    "href": "chapters/08b-us-healthcare.html#the-paradox",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "",
+    "text": "The United States spends far more on health care than any nation on Earth — and its people are not healthier for it.\n\n\n\n\nUnited States\nOECD average\n\n\n\n\nSpending per person (2023)\n~$14,570\n~$6,000–7,000\n\n\nShare of the whole economy\n17.6% of GDP\n~9–11%\n\n\nLife expectancy (2023)\n78.4 years\n81.1 years\n\n\nMaternal deaths / 100,000\n~17\n~10\n\n\n\nWe spend roughly double — and live nearly three years less (Centers for Medicare and Medicaid Services 2024; Organisation for Economic Co-operation and Development 2025). Everything in this lecture answers one question: why?",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#after-youve-discussed",
+    "href": "chapters/08b-us-healthcare.html#after-youve-discussed",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "",
+    "text": "Note\n\n\n\nHold onto the gap. The US spends the most and ranks near the bottom of its peers on life expectancy, infant mortality, and maternal mortality. This is not a small inefficiency — it is the central puzzle of American health policy.\nAnd it is where Part A stops being abstract. A country that treats care as mostly a market good has built a system with extraordinary capabilities and extraordinary gaps. By the end you should be able to say, in the language of justice, what we are getting right and what we owe each other.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#today",
+    "href": "chapters/08b-us-healthcare.html#today",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "",
+    "text": "By the end of Part B, you will be able to:\n\nExplain the paradox: highest spending, middling outcomes.\nDescribe the four models of a health system (Beveridge, National Health Insurance, Bismarck, out-of-pocket) and name countries that use each.\nShow why the US is “fragmented” — it runs all four models at once — and map its programs onto them.\nTrace how the system got this way since 1945, and explain why US care is so expensive (“it’s the prices, not the utilization”) and why outcomes lag.\nName what the US does best and where it struggles, including the nursing workforce crisis.\nArgue, using a Part A value, which model the US should move toward.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#two-questions-define-every-system",
+    "href": "chapters/08b-us-healthcare.html#two-questions-define-every-system",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "2.1 Two Questions Define Every System",
+    "text": "2.1 Two Questions Define Every System\nBefore we look at the US, we need a map. Every health system on earth is built from the answers to just two questions:\n\nWho delivers the care? — does the government own the hospitals and employ the staff, or are they private?\nWho pays for it? — the government from taxes, regulated insurance funds, or you, out of pocket?\n\nThe journalist T. R. Reid sorted the world’s systems into four models by those two answers (Reid 2009). Almost every country picks one. Keep that word — one — in mind.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#the-four-models",
+    "href": "chapters/08b-us-healthcare.html#the-four-models",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "2.2 The Four Models",
+    "text": "2.2 The Four Models\n\n\n\n\n\n\n\n\n\nModel\nWho delivers\nWho pays\nWhere you’ll find it\n\n\n\n\nBeveridge\ngovernment owns it\ngovernment (taxes)\nUK (NHS), Spain, Cuba\n\n\nNational Health Insurance\nprivate providers\none government insurer\nCanada, Taiwan\n\n\nBismarck\nprivate providers\nregulated nonprofit funds (payroll)\nGermany, France, Japan\n\n\nOut-of-pocket\nwhoever you can find\nyou, if you can pay\nmost low-income countries\n\n\n\nThe deepest split is who pays, running from “the public, for everyone” (Beveridge, NHI) to “private but tightly regulated” (Bismarck) to “you’re on your own” (out-of-pocket).",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#beveridge-vs.-national-health-insurance",
+    "href": "chapters/08b-us-healthcare.html#beveridge-vs.-national-health-insurance",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "2.3 Beveridge vs. National Health Insurance",
+    "text": "2.3 Beveridge vs. National Health Insurance\n\n\nBeveridge (UK’s NHS, since 1948)\nThe government owns the hospitals and employs the doctors, and funds it all through taxes. Care is free at the point of use. This is what “socialized medicine” actually means — the state runs the whole thing.\n\n\n\nNational Health Insurance (Canada, Taiwan)\nDoctors and hospitals stay private, but a single government insurer pays them, funded by taxes. One payer, private delivery. No marketing, no denials for profit, strong bargaining power on prices.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#bismarck-vs.-out-of-pocket",
+    "href": "chapters/08b-us-healthcare.html#bismarck-vs.-out-of-pocket",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "2.4 Bismarck vs. Out-of-Pocket",
+    "text": "2.4 Bismarck vs. Out-of-Pocket\n\n\nBismarck (Germany since 1883, France, Japan)\nCare and insurance are private — but insurers are nonprofit “sickness funds,” everyone must be covered, and prices are tightly regulated. Switzerland’s mandate, and the US ACA, are cousins of this model.\n\n\n\nOut-of-pocket\nNo system at all: you get the care you can pay for, and go without the rest. This is the reality for most people in poor countries — and, as we’ll see, for the uninsured in the US.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#a-caution-before-we-go-on",
+    "href": "chapters/08b-us-healthcare.html#a-caution-before-we-go-on",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "2.5 A Caution Before We Go On",
+    "text": "2.5 A Caution Before We Go On\n\n\n\n\n\n\nNote\n\n\n\nThese four models are idealizations. Real countries blend at the edges — the British buy private top-up insurance, Germany has some public hospitals, Canada leaves dental and drugs largely private.\nBut the framework holds where it matters: each country builds its system around one model and makes it coherent. Hold that thought — because the United States did something no one else did.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#one-life-every-program",
+    "href": "chapters/08b-us-healthcare.html#one-life-every-program",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "3.1 One Life, Every Program",
+    "text": "3.1 One Life, Every Program\nThe US has no single health system. It has a patchwork — and the easiest way to see it is to follow one person through a lifetime.\n\nMeet Maria.\n\nBorn: her family is low-income, so she’s covered by Medicaid/CHIP.\nAge 26: good job with benefits — employer-sponsored insurance.\nAge 34: laid off. Briefly uninsured, then buys a plan on the ACA exchange with a subsidy.\nAge 60: chronic illness, can’t keep working full-time — a coverage gap.\nAge 65: ages into Medicare.\nAge 81: needs a nursing home; Medicare won’t cover long-term care, so she spends down her savings until Medicaid does.\n\nOne person. Six different programs — and, as we’re about to see, three different countries’ models of health care, all without leaving the US.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#who-covers-whom",
+    "href": "chapters/08b-us-healthcare.html#who-covers-whom",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "3.2 Who Covers Whom",
+    "text": "3.2 Who Covers Whom\nUS health coverage in 2023 (Keisler-Starkey et al. 2024):\n\n\n\nSource of coverage\nShare of population\n\n\n\n\nEmployer-sponsored\n~54%\n\n\nMedicare (65+ and disabled)\n~19%\n\n\nMedicaid (low-income)\n~19%\n\n\nDirect purchase / ACA exchanges\n~10%\n\n\nVA / military\na few %\n\n\nUninsured\n~8% (≈26 million)\n\n\n\nShares add to more than 100% because many people hold more than one type in a year. About 92.5% of Americans had some coverage — near a record high, and still leaving 26 million with none.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#the-us-runs-all-four-models-at-once",
+    "href": "chapters/08b-us-healthcare.html#the-us-runs-all-four-models-at-once",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "3.3 The US Runs All Four Models at Once",
+    "text": "3.3 The US Runs All Four Models at Once\nThis is the heart of “fragmentation.” Other countries pick one model. The US runs all four simultaneously — and which one you live under depends on your age, job, income, and luck (Reid 2009).\n\n\n\n\n\n\n\n\n\nIf you are…\nYour coverage\n…is really this model\n…like which country\n\n\n\n\nA veteran (VA)\ngovernment hospitals\nBeveridge\nthe UK\n\n\n65 or older\nMedicare\nNational Health Insurance\nCanada\n\n\nWorking with benefits\nemployer insurance\nBismarck\nGermany\n\n\nUninsured\npay or go without\nOut-of-pocket\nthe developing world\n\n\n\nA single country containing Britain, Canada, Germany, and the developing world — sorted by who you happen to be.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#why-fragmented-is-expensive-not-just-messy",
+    "href": "chapters/08b-us-healthcare.html#why-fragmented-is-expensive-not-just-messy",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "3.4 Why “Fragmented” Is Expensive, Not Just Messy",
+    "text": "3.4 Why “Fragmented” Is Expensive, Not Just Messy\nRunning four systems at once isn’t only untidy — it has real costs.\n\nNo coherence: each model has its own rules, paperwork, eligibility, and incentives. Providers must bill all of them at once.\nGaps at the seams: people fall between models — too rich for Medicaid, too young for Medicare, no job-based plan. That’s where the 26 million uninsured live.\nNo single bargaining power: because no one payer dominates, no one can negotiate prices the way Canada’s or the UK’s system can. We’ll see the price consequences shortly.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#employer-sponsored-insurance-the-core",
+    "href": "chapters/08b-us-healthcare.html#employer-sponsored-insurance-the-core",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "3.5 Employer-Sponsored Insurance — the Core",
+    "text": "3.5 Employer-Sponsored Insurance — the Core\nAbout half of Americans get coverage through a job — the single largest piece of the system, and the one most people never chose.\n\nYour employer buys a group plan and pays much of the premium; you pay the rest from your paycheck.\nIn 2024, the average family plan cost $25,572 a year in total premiums — most of it invisible to workers because the employer “pays” it (out of wages they’d otherwise get).\nLose or change the job, and you can lose the coverage. Maria’s layoff is the system’s built-in fragility.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#medicare-and-medicaid-the-1965-pillars",
+    "href": "chapters/08b-us-healthcare.html#medicare-and-medicaid-the-1965-pillars",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "3.6 Medicare and Medicaid — the 1965 Pillars",
+    "text": "3.6 Medicare and Medicaid — the 1965 Pillars\n\n\nMedicare — federal, for people 65+ and the long-term disabled.\n\nPart A: hospital\nPart B: outpatient/doctors\nPart C: private “Advantage” plans\nPart D: drugs\n\nNearly universal for the old — the closest thing the US has to a right to care.\n\n\n\nMedicaid — joint federal–state, for low-income people.\n\nRules and generosity vary by state.\nThe ACA let states expand it to more low-income adults; not all did.\nQuietly enormous: it pays for about 4 in 10 US births and most nursing-home care.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#the-va-actual-government-medicine",
+    "href": "chapters/08b-us-healthcare.html#the-va-actual-government-medicine",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "3.7 The VA — Actual Government Medicine",
+    "text": "3.7 The VA — Actual Government Medicine\nOne corner of the US system looks like the rest of the wealthy world.\n\nThe Veterans Health Administration doesn’t just insure veterans — it owns the hospitals and employs the doctors. The government delivers the care directly.\nThis is pure Beveridge — the UK’s model, running inside the United States. It’s what people usually mean by “socialized medicine,” and it’s already the largest integrated system in the country.\nSo the same nation that leaves 26 million uninsured also runs a full British-style health service for its veterans. That is the patchwork in one breath.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#the-exchanges-and-the-uninsured",
+    "href": "chapters/08b-us-healthcare.html#the-exchanges-and-the-uninsured",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "3.8 The Exchanges and the Uninsured",
+    "text": "3.8 The Exchanges and the Uninsured\nFor people without a job-based plan, Medicare, or Medicaid, the ACA marketplaces (since 2014) sell individual plans, with income-based subsidies.\n\nAbout 10% of Americans buy coverage this way or on the individual market.\nEven so, ~26 million remain uninsured — too well-off for Medicaid, no job-based plan, or unwilling/unable to buy in.\nThe uninsured don’t simply go without: by law, emergency rooms must still treat them — a fact with its own history, coming up next.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#the-accident-that-built-the-system",
+    "href": "chapters/08b-us-healthcare.html#the-accident-that-built-the-system",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "4.1 The Accident That Built the System",
+    "text": "4.1 The Accident That Built the System\nAmerica’s job-based system was not designed. It was an accident of World War II.\n\nWartime wage controls (1942–43) froze what employers could pay. To compete for scarce workers, they offered health benefits instead of raises.\nThen the government ruled those benefits tax-free — confirmed in the 1954 tax code. A dollar of health insurance wasn’t taxed; a dollar of wages was.\nThat tax break made job-based coverage explode. The US tied health care to employment not by choice, but by a loophole no one ever closed.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#the-hidden-subsidy",
+    "href": "chapters/08b-us-healthcare.html#the-hidden-subsidy",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "4.2 The Hidden Subsidy",
+    "text": "4.2 The Hidden Subsidy\nThat 1954 tax break is still here — and it is enormous.\n\nExcluding employer health benefits from taxes cost the federal government about $299 billion in 2022 — the single largest tax expenditure in the entire federal budget (Tax Policy Center 2024).\nIt is invisible: most workers have no idea they receive it.\nIt is regressive — worth more to higher earners in higher tax brackets. The US already heavily subsidizes health care; it just does it quietly, and tilts it toward the well-off.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#a-short-history-1945today",
+    "href": "chapters/08b-us-healthcare.html#a-short-history-1945today",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "4.3 A Short History, 1945–Today",
+    "text": "4.3 A Short History, 1945–Today\n\n\n\n\n\n\n\nG\n\n\n\na\n\n1948\nTruman's national\nplan fails\n\n\n\nb\n\n1965\nMedicare &\nMedicaid\n\n\n\na-&gt;b\n\n\n\n\n\nc\n\n1986\nEMTALA:\nERs must treat\n\n\n\nb-&gt;c\n\n\n\n\n\nd\n\n1994\nClinton plan\nfails\n\n\n\nc-&gt;d\n\n\n\n\n\ne\n\n2003\nMedicare\nPart D (drugs)\n\n\n\nd-&gt;e\n\n\n\n\n\nf\n\n2010\nACA: exchanges,\nMedicaid expansion\n\n\n\ne-&gt;f\n\n\n\n\n\n\n\n\n\n\nTwo big expansions (1965, 2010), two big failures (1948, 1994), and one unfunded promise — EMTALA, which since 1986 has required hospitals to screen and stabilize anyone in an emergency, regardless of ability to pay (United States Congress 1986).",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#what-changed-and-what-didnt",
+    "href": "chapters/08b-us-healthcare.html#what-changed-and-what-didnt",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "4.4 What Changed, and What Didn’t",
+    "text": "4.4 What Changed, and What Didn’t\nEighty years of fights, and the core never moved.\n\nWhat changed: the old got Medicare; the poor got Medicaid; emergencies got EMTALA; the individual market got the ACA’s exchanges and protections (United States Congress 2010).\nWhat didn’t: coverage is still built around the employer, and the US still has no universal guarantee. Every reform added a patch rather than replacing the quilt.\nThe result is the fragmented system we just mapped — and the costs we turn to now.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#its-the-prices-not-the-utilization",
+    "href": "chapters/08b-us-healthcare.html#its-the-prices-not-the-utilization",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "5.1 It’s the Prices, Not the Utilization",
+    "text": "5.1 It’s the Prices, Not the Utilization\nThe intuitive guess is that Americans must overuse care — too many tests, too many visits. The evidence says the opposite.\n\nAmericans actually have fewer doctor visits and fewer hospital stays than the OECD average.\nWhat’s different is that each unit costs far more: the same drug, scan, or procedure simply has a higher price tag in the US.\nHealth economists summed it up in a famous title: “It’s still the prices, stupid” (Anderson et al. 2019). The volume isn’t the problem. The prices are.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#what-drives-the-prices",
+    "href": "chapters/08b-us-healthcare.html#what-drives-the-prices",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "5.2 What Drives the Prices",
+    "text": "5.2 What Drives the Prices\nIf prices are the engine, what feeds them?\n\nDrug prices — the US pays far more for the same medications than other countries, which negotiate or cap prices.\nHigher salaries — for physicians and many staff, well above peer-country norms.\nHospital market power — mergers leave many regions with one dominant system that can name its price.\nOpacity — patients almost never see a price before care, so normal market discipline never kicks in.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#the-paperwork-tax",
+    "href": "chapters/08b-us-healthcare.html#the-paperwork-tax",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "5.3 The Paperwork Tax",
+    "text": "5.3 The Paperwork Tax\nSome of the money never buys care at all — it buys billing.\n\nAdministrative complexity. With hundreds of insurers, each with its own rules, codes, and denials, the US spends enormously just managing the money.\n\nAdministration is about 8% of US health spending, versus 1–3% in peer countries.\nHospital administration alone runs about 25% of costs — the highest of eight nations studied.\nBilling and insurance paperwork costs roughly $2,497 per person in the US, against $551 in Canada (Himmelstein et al. 2020).\n\nPart of this is the price of running four models at once: every provider must bill Medicare, Medicaid, dozens of private insurers, and self-pay patients, each with its own rules. Canada has one payer to bill. We have thousands.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#fee-for-service-paying-for-volume",
+    "href": "chapters/08b-us-healthcare.html#fee-for-service-paying-for-volume",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "5.4 Fee-for-Service: Paying for Volume",
+    "text": "5.4 Fee-for-Service: Paying for Volume\nUnderneath the prices is an incentive problem in how we pay.\n\n\nFee-for-service\nProviders are paid per thing done — per test, scan, procedure. The built-in incentive is to do more, whether or not it helps. Volume is rewarded; restraint is not.\n\n\n\nValue-based care\nThe alternative pays for keeping people healthy — a fixed amount per patient, or bonuses for good outcomes. It’s spreading slowly, but fee-for-service still dominates US medicine.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#a-lens-check",
+    "href": "chapters/08b-us-healthcare.html#a-lens-check",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "5.5 A Lens Check",
+    "text": "5.5 A Lens Check\n\n\n\n\n\n\nNote\n\n\n\n“Let the market set prices” is a libertarian instinct from Part A — free transactions, minimal interference. It does drive innovation and rewards investment.\nBut health care breaks the assumptions a market needs: patients can’t shop while having a heart attack, can’t see prices, and can’t walk away. The utilitarian asks whether all this spending actually maximizes health (it doesn’t), and Daniels asks whether prices this high are compatible with fair access (they aren’t). Same facts, three verdicts.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#thought-question",
+    "href": "chapters/08b-us-healthcare.html#thought-question",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "6.1 Thought Question",
+    "text": "6.1 Thought Question\n\nYou have a job and a health insurance plan. Your appendix bursts; you get emergency surgery and go home in two days, cured. Weeks later, a bill arrives: after everything your insurance paid, you owe $15,000 — a deductible, “out-of-network” charges from a surgeon you never chose, and coinsurance.\n\nYou did everything right and were insured. How did you still end up owing $15,000?\nDid you have any real chance to “shop” or consent to these prices?\nShould being insured mean you’re protected from this — and if so, who pays the difference?",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#make-it-contemporary",
+    "href": "chapters/08b-us-healthcare.html#make-it-contemporary",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "6.2 Make It Contemporary",
+    "text": "6.2 Make It Contemporary\n\nThis is ordinary, not rare.\n\nMedical bills are a leading cause of personal bankruptcy in the US, and a large share of online fundraisers are for medical costs.\nThe bill in the scenario — surprise charges from out-of-network providers at an in-network hospital — was so common that Congress passed the No Surprises Act, effective 2022, to ban much of it (Centers for Medicare and Medicaid Services 2022).\n\nDiscuss: A law was needed to stop hospitals from billing insured patients for doctors those patients never chose. What does needing that law tell you about the system?",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#after-youve-discussed-1",
+    "href": "chapters/08b-us-healthcare.html#after-youve-discussed-1",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "6.3 After You’ve Discussed",
+    "text": "6.3 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nA distinction the coverage numbers hide:\n\nUninsured means no plan at all (~8%).\nUnderinsured means you have a plan, but its deductibles and cost-sharing are so high that you still can’t afford care or get wiped out by a bill.\n\nTens of millions are underinsured. “92.5% covered” can hide people who skip prescriptions, avoid the ER, or go bankrupt anyway. Health economists call the bankrupting effect financial toxicity — when the treatment for the bill becomes its own illness.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#access-gaps",
+    "href": "chapters/08b-us-healthcare.html#access-gaps",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "7.1 Access Gaps",
+    "text": "7.1 Access Gaps\nPart of the outcomes gap is straightforward: people who can’t afford care get less of it, later.\n\nThe uninsured and underinsured delay care, skip medications, and avoid preventive visits until problems become emergencies.\nEmergency, late-stage care is both worse for patients and more expensive for everyone.\nPeer countries with universal coverage remove this barrier — one clear reason their populations do better on basic measures.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#but-its-not-only-the-system",
+    "href": "chapters/08b-us-healthcare.html#but-its-not-only-the-system",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "7.2 But It’s Not Only the System",
+    "text": "7.2 But It’s Not Only the System\nHere honesty matters: a large share of the US disadvantage is not something hospitals can fix.\n\nAmericans face higher rates of obesity, firearm deaths, vehicle deaths, and drug overdoses (about 107,000 in 2022) than peers.\nDeep income inequality and poverty shape health long before anyone reaches a clinic.\nThese are social and behavioral drivers. Even a perfect health system would leave much of the gap untouched — which is exactly why the gap is so stubborn.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#shorter-lives-even-for-the-advantaged",
+    "href": "chapters/08b-us-healthcare.html#shorter-lives-even-for-the-advantaged",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "7.3 Shorter Lives, Even for the Advantaged",
+    "text": "7.3 Shorter Lives, Even for the Advantaged\n\nThe finding that surprised everyone.\nA landmark 2013 National Academies report, U.S. Health in International Perspective: Shorter Lives, Poorer Health, found the US disadvantage runs across the whole life course — and is not explained only by the poor or by minorities (National Research Council and Institute of Medicine 2013).\nEven white, college-educated, insured, high-income Americans were found to be in worse health than similar people in peer nations. The disadvantage is national, not just a problem of the margins.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#disparities-within",
+    "href": "chapters/08b-us-healthcare.html#disparities-within",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "7.4 Disparities Within",
+    "text": "7.4 Disparities Within\nThe national average also hides sharp gaps inside the US.\n\nLife expectancy differs by years across racial and economic lines.\nMaternal mortality for Black women is roughly three times that of white women.\nInfant mortality for Black infants (~10.9 per 1,000) is about three times that of Asian infants (~3.5) (Ely and Driscoll 2025).\n\nThese are the population-level injustices Part A’s theories were built to name. They are not random — they track access, history, and bias.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#best-in-the-world-genuinely",
+    "href": "chapters/08b-us-healthcare.html#best-in-the-world-genuinely",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "8.1 Best in the World — Genuinely",
+    "text": "8.1 Best in the World — Genuinely\nThe US system has real, world-leading strengths, and an honest account has to say so.\n\nFor complex, specialized care, US centers like the Mayo Clinic, Cleveland Clinic, and MD Anderson are among the best on Earth.\nUS cancer survival is at or near the top internationally — highest in the world for prostate cancer, top-tier for breast and colon (the CONCORD studies) (Allemani et al. 2018).\nThe US leads in biomedical innovation, and the well-insured face little or no waiting for elective and specialty care.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#where-we-struggle",
+    "href": "chapters/08b-us-healthcare.html#where-we-struggle",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "8.2 Where We Struggle",
+    "text": "8.2 Where We Struggle\nThe same system that delivers the world’s best specialty care fails on the basics.\n\nPrices no one can see or predict; access gaps for tens of millions.\nA crushing administrative burden.\nRural hospital closures leaving whole regions without nearby care.\nA life-expectancy stall that, even after the COVID rebound, leaves the US years behind its peers.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#the-workforce-crisis",
+    "href": "chapters/08b-us-healthcare.html#the-workforce-crisis",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "8.3 The Workforce Crisis",
+    "text": "8.3 The Workforce Crisis\nThe strain shows up most sharply in the people who deliver the care — especially nurses.\n\nHRSA projects roughly a 10% shortage of registered nurses by 2027, and a shortfall of over 500,000 by 2030 (Health Resources and Services Administration, National Center for Health Workforce Analysis 2024).\nThe NCSBN found about 138,000 nurses left since 2022, and nearly 40% intend to leave the workforce by 2029.\nIn 2024, over 80,000 qualified nursing-school applicants were turned away — not for lack of demand, but for lack of faculty and clinical placements.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#why-staffing-is-an-ethics-problem",
+    "href": "chapters/08b-us-healthcare.html#why-staffing-is-an-ethics-problem",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "8.4 Why Staffing Is an Ethics Problem",
+    "text": "8.4 Why Staffing Is an Ethics Problem\n\n\n\n\n\n\nNote\n\n\n\nA shortage of nurses is not just an HR headache — it is a justice and safety issue.\n\nThinner staffing means higher patient-to-nurse ratios, which research links to worse patient outcomes.\nWorse conditions drive burnout, which drives more nurses out — a self-feeding cycle.\nShortages hit rural and safety-net settings hardest, widening the very disparities we just described.\n\nThe system’s failures land on patients through the workforce. Who staffs the bedside is a distributive-justice question too.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#the-menu-now-that-you-know-it",
+    "href": "chapters/08b-us-healthcare.html#the-menu-now-that-you-know-it",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "9.1 The Menu, Now That You Know It",
+    "text": "9.1 The Menu, Now That You Know It\nEvery reform debate you’ll ever hear is really an argument about which model to grow, and which to shrink. The four are no longer abstract:\n\nBeveridge — expand the VA’s approach to everyone (“the NHS option”).\nNational Health Insurance — one public insurer paying private doctors (“Medicare for All”).\nBismarck — keep private insurers but regulate them into universal coverage (a fully built-out ACA, like Switzerland or Germany).\nKeep blending — patch the current four-model mix without choosing.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#choosing-on-purpose-taiwan",
+    "href": "chapters/08b-us-healthcare.html#choosing-on-purpose-taiwan",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "9.2 Choosing on Purpose: Taiwan",
+    "text": "9.2 Choosing on Purpose: Taiwan\n\n\nThe US drifted into its patchwork by accident. It doesn’t have to stay there — and one country proves it.\nIn the early 1990s Taiwan had no universal system. Rather than guess, its government studied health systems around the world, then in 1995 deliberately built a National Health Insurance model — single public insurer, private delivery. It reached near-universal coverage in a few years, at a fraction of US cost.\n\n\nThe lesson\nA country can look at the menu and choose. The US question is not “is reform possible?” — Taiwan, Canada, Germany, and Britain all answer yes. It is which model, and which value that choice serves.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#three-directions-three-values",
+    "href": "chapters/08b-us-healthcare.html#three-directions-three-values",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "9.3 Three Directions, Three Values",
+    "text": "9.3 Three Directions, Three Values\nEach reform path advances a different Part A value — and sacrifices another.\n\n\n\n\n\n\n\n\n\nReform\nModel\nServes…\nStrains…\n\n\n\n\nMedicare for All\nNHI\nequal access (Rawls, Daniels)\nliberty; existing plans\n\n\nPublic option\nNHI + Bismarck\na middle path\nsatisfies neither side fully\n\n\nBuild out the ACA\nBismarck\ncoverage and choice\ncomplexity; cost control\n\n\nMarket reforms\ntoward out-of-pocket\nliberty (libertarian)\nthe worst-off\n\n\n\nThere is no value-free choice. To pick a model is to pick which of Part A’s principles you put first.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#make-it-contemporary-1",
+    "href": "chapters/08b-us-healthcare.html#make-it-contemporary-1",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "9.4 Make It Contemporary",
+    "text": "9.4 Make It Contemporary\n\n“Medicare for All” would cover every American through a single public insurer, ending most private plans and the link between jobs and coverage.\n\nWhich Part A value does it serve best — and which does it sacrifice?\nIt would likely lower total spending (less administration, real price negotiation) but raise taxes while ending premiums. Is that a good trade?\nTens of millions are happy with employer plans. Should a reform that helps the worst-off be allowed to change what they have?",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#wrap-up",
+    "href": "chapters/08b-us-healthcare.html#wrap-up",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "9.5 Wrap-Up",
+    "text": "9.5 Wrap-Up\n\nWe started with a paradox: the US spends about double any peer nation, near $14,570 per person, and gets shorter lives in return. We saw why — a patchwork that runs all four models of health care at once (Beveridge for veterans, NHI for the old, Bismarck for workers, out-of-pocket for the uninsured), built by a wartime accident, with prices no one can see and an outcomes gap driven as much by guns, cars, food, and poverty as by the clinic. We named what the US does best (the world’s finest specialty and cancer care) and where it fails (access, cost, and a nursing workforce in crisis).\nNone of this settles the argument — it equips it. Other countries chose one model on purpose; the US can too. Which one depends on which of Part A’s values we put first: the most total health, the protection of the worst-off, the freedom to choose, or the capabilities every person needs. The model is yours to argue for.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#review-questions",
+    "href": "chapters/08b-us-healthcare.html#review-questions",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "9.6 Review Questions",
+    "text": "9.6 Review Questions\n\n\nRecall\nExplain “it’s the prices, not the utilization,” and give two specific reasons US prices run higher than peer countries’.\n\n\nApply\nA friend says, “Americans are unhealthy because they overuse the ER and eat badly — fixing insurance won’t help.” Using this lecture, where is your friend partly right, and where wrong?\n\n\nDebate\nShould the US adopt a single-payer system, a public option, or market reforms? Defend your choice using a specific theory of justice from Part A.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#key-terms",
+    "href": "chapters/08b-us-healthcare.html#key-terms",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "9.7 Key Terms",
+    "text": "9.7 Key Terms\n\nThe four models — Beveridge (gov owns & pays), National Health Insurance (single gov payer, private care), Bismarck (regulated private funds), out-of-pocket (pay or go without).\nFragmentation — the US runs all four models at once, sorted by age, job, and income.\nEmployer-sponsored insurance — job-based coverage; ~half of Americans.\nMedicare / Medicaid — federal coverage for the old/disabled / joint federal–state coverage for the low-income.\nEMTALA — 1986 law requiring ERs to screen and stabilize regardless of ability to pay.\nTax exclusion — the untaxed status of employer health benefits; the largest federal tax expenditure.\n“It’s the prices, not the utilization” — US spending is high because of prices, not volume of care.\nUnderinsurance / financial toxicity — having coverage but still unable to afford care, or bankrupted by it.\nSingle-payer / public option — one public insurer for all / a public plan competing with private ones.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#further-reading",
+    "href": "chapters/08b-us-healthcare.html#further-reading",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "9.8 Further Reading",
+    "text": "9.8 Further Reading\n\nReid, T. R. The Healing of America: A Global Quest for Better, Cheaper, and Fairer Health Care. Penguin, 2009. (Reid 2009)\nRosenthal, Elisabeth. An American Sickness: How Healthcare Became Big Business. Penguin, 2017.\nAnderson, Hussey & Petrosyan. “It’s Still the Prices, Stupid.” Health Affairs (2019). (Anderson et al. 2019)\nNational Academies. U.S. Health in International Perspective: Shorter Lives, Poorer Health (2013). (National Research Council and Institute of Medicine 2013)",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
+    ]
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare.html#references",
+    "href": "chapters/08b-us-healthcare.html#references",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "9.9 References",
+    "text": "9.9 References\n\n\nAllemani, Claudia, Tomohiro Matsuda, Veronica Di Carlo, et al. 2018. “Global Surveillance of Trends in Cancer Survival 2000–14 (CONCORD-3).” The Lancet 391 (10125): 1023–75. https://doi.org/10.1016/S0140-6736(17)33326-3.\n\n\nAnderson, Gerard F., Peter Hussey, and Varduhi Petrosyan. 2019. “It’s Still the Prices, Stupid: Why the US Spends so Much on Health Care, and a Tribute to Uwe Reinhardt.” Health Affairs 38 (1): 87–95. https://doi.org/10.1377/hlthaff.2018.05144.\n\n\nCenters for Medicare and Medicaid Services. 2022. No Surprises Act. Enacted in the Consolidated Appropriations Act, 2021; effective January 1, 2022. https://www.cms.gov/nosurprises.\n\n\nCenters for Medicare and Medicaid Services. 2024. National Health Expenditure Fact Sheet. https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet.\n\n\nEly, Danielle M., and Anne K. Driscoll. 2025. Infant Mortality in the United States: Provisional Data. National Vital Statistics Reports, vol. 74, no. 7. National Center for Health Statistics. https://www.cdc.gov/nchs/data/nvsr/nvsr74/nvsr74-07.pdf.\n\n\nHealth Resources and Services Administration, National Center for Health Workforce Analysis. 2024. Nurse Workforce Projections, 2022–2037. U.S. Department of Health and Human Services. https://bhw.hrsa.gov/data-research/projecting-health-workforce-supply-demand.\n\n\nHimmelstein, David U., Terry Campbell, and Steffie Woolhandler. 2020. “Health Care Administrative Costs in the United States and Canada, 2017.” Annals of Internal Medicine 172 (2): 134–42. https://doi.org/10.7326/M19-2818.\n\n\nKeisler-Starkey, Katherine, Lisa N. Bunch, and Rachel A. Lindstrom. 2024. Health Insurance Coverage in the United States: 2023. Current Population Reports, P60-284. U.S. Census Bureau. https://www.census.gov/library/publications/2024/demo/p60-284.html.\n\n\nNational Research Council and Institute of Medicine. 2013. U.s. Health in International Perspective: Shorter Lives, Poorer Health. Edited by Steven H. Woolf and Laudan Aron. The National Academies Press. https://doi.org/10.17226/13497.\n\n\nOrganisation for Economic Co-operation and Development. 2025. Health at a Glance 2025: OECD Indicators. OECD Publishing. https://doi.org/10.1787/a894f72e-en.\n\n\nReid, T. R. 2009. The Healing of America: A Global Quest for Better, Cheaper, and Fairer Health Care. Penguin Press.\n\n\nTax Policy Center. 2024. How Does the Tax Exclusion for Employer-Sponsored Health Insurance Work? Urban Institute and Brookings Institution Tax Policy Center Briefing Book. https://taxpolicycenter.org/briefing-book/how-does-tax-exclusion-employer-sponsored-health-insurance-work.\n\n\nUnited States Congress. 1986. Emergency Medical Treatment and Active Labor Act (EMTALA), 42 u.s.c. § 1395dd. Enacted as part of the Consolidated Omnibus Budget Reconciliation Act of 1985, Pub. L. No. 99-272. https://www.cms.gov/medicare/regulations-guidance/legislation/emergency-medical-treatment-labor-act.\n\n\nUnited States Congress. 2010. Patient Protection and Affordable Care Act, Pub. L. No. 111-148. 124 Stat. 119. https://www.congress.gov/bill/111th-congress/house-bill/3590.",
+    "crumbs": [
+      "Home",
+      "8. Justice & Health Care",
+      "Part B — Why US Health Care Costs So Much"
     ]
   },
   {

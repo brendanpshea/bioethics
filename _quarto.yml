@@ -76,6 +76,12 @@ website:
             text: "Part A — Death, Dying & Advance Planning"
           - href: chapters/07b-euthanasia.qmd
             text: "Part B — Euthanasia & Assisted Death"
+      - section: "8. Justice & Health Care"
+        contents:
+          - href: chapters/08a-justice-health.qmd
+            text: "Part A — Theories of Justice & the Right to Care"
+          - href: chapters/08b-us-healthcare.qmd
+            text: "Part B — Why US Health Care Costs So Much"
 
   page-footer:
     left: |

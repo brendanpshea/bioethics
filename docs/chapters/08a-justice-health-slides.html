@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-acf12a64177840b8d86f2d4f01b2e9fb.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.37">
+
+  <meta name="author" content="Brendan Shea, PhD">
+  <meta name="dcterms.date" content="last-modified">
+  <title>Bioethics: An Open Educational Resource – Lecture 8 — Justice and Health Care</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-2c91ffb3ef59a94917f8afeb4e0fc034.css">
+  <link rel="stylesheet" href="../styles/custom.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Lecture 8 — Justice and Health Care</h1>
+  <p class="subtitle">Part A: Theories of Justice and the Right to Health Care</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Brendan Shea, PhD 
+</div>
+        <p class="quarto-title-affiliation">
+            An Introduction to Bioethics.
+          </p>
+    </div>
+</div>
+
+</section>
+<section>
+<section id="who-lives-who-dies" class="title-slide slide level1 section-divider center">
+<h1>Who Lives, Who Dies?</h1>
+
+</section>
+<section id="a-case-to-sit-with" class="slide level2 scrollable">
+<h2>A Case to Sit With</h2>
+<div class="thought-question">
+<p>It is 1962. A Seattle hospital has just built the world’s first machine that can keep people with failing kidneys alive — but it has only <strong>three</strong> treatment slots. About <strong>sixty</strong> patients in the area will die without it. Every one of them is medically eligible. The machine cannot be shared.</p>
+<p>You are on the committee that must decide who gets the three slots.</p>
+<p><strong>Write or discuss:</strong></p>
+<ol type="1">
+<li>What criteria would you use to choose? Be specific.</li>
+<li>Would you consider a patient’s job, family, or character? Should you?</li>
+<li>Whatever rule you pick — could you defend it to the families of the people who die?</li>
+</ol>
+</div>
+</section>
+<section id="what-the-committee-actually-did" class="slide level2">
+<h2>What the Committee Actually Did</h2>
+<p>The committee was real. At Seattle’s Swedish Hospital, <strong>seven anonymous citizens</strong> — a lawyer, a minister, a homemaker, a banker, a labor leader, a state official, and a surgeon — were handed exactly this choice.</p>
+<ul>
+<li>They chose largely by <strong>social worth</strong>: whether a patient had a steady job, went to church, was married, supported children, seemed likely to “contribute.”</li>
+<li>The journalist <strong>Shana Alexander</strong> watched them for six months and published what she saw in <em>LIFE</em> magazine in 1962, under the title “They Decide Who Lives, Who Dies” <span class="citation" data-cites="alexander1962">(<a href="#/references" role="doc-biblioref" onclick="">Alexander 1962</a>)</span>.</li>
+<li>The public was horrified — not because the committee was cruel, but because it had no principle beyond its own values.</li>
+</ul>
+</section>
+<section id="after-youve-discussed" class="slide level2">
+<h2>After You’ve Discussed</h2>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>The committee’s mistake was not bad intentions. It was deciding life and death with <strong>no theory of justice</strong> — just an instinct about who “deserved” to live.</p>
+<p>The reaction to the Seattle committee helped launch the field of <strong>bioethics</strong>, and within a decade Congress simply paid for dialysis for everyone who needed it (1972). But the deeper question never went away: when a life-saving resource is scarce, <strong>by what principle should it be shared?</strong></p>
+<p>Today we meet four serious answers — and test each one against a single donated organ.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="today" class="slide level2">
+<h2>Today</h2>
+<div class="learning-outcomes">
+<p>By the end of Part A, you will be able to:</p>
+<ul>
+<li>Explain what <strong>distributive justice</strong> is and why a “treat like cases alike” rule is not enough.</li>
+<li>State the <strong>utilitarian</strong>, <strong>Rawlsian</strong>, <strong>libertarian</strong>, and <strong>capabilities</strong> theories of justice in plain language.</li>
+<li>Apply all four to a concrete allocation problem — who should receive a scarce organ.</li>
+<li>Describe how the US actually allocates organs (<strong>UNOS</strong>), and the ethics of <strong>presumed consent</strong> and <strong>organ markets</strong>.</li>
+<li>Reconstruct <strong>Daniels’</strong> argument that there is a moral <strong>right to health care</strong>, and the main objections to it.</li>
+</ul>
+</div>
+</section></section>
+<section>
+<section id="what-is-justice-in-health-care" class="title-slide slide level1 section-divider center">
+<h1>What Is Justice in Health Care?</h1>
+
+</section>
+<section id="distributive-justice" class="slide level2">
+<h2>Distributive Justice</h2>
+<p><span class="key-term">Distributive justice</span> is the part of ethics that asks how a society should divide up benefits and burdens — here, scarce medical care — fairly.</p>
+<ul>
+<li>Almost everyone accepts a starting rule, the <strong>formal principle of justice</strong>: treat like cases alike, and different cases differently.</li>
+<li>The trouble is that the formal principle is empty until you say <strong>which differences matter</strong>. Need? Merit? Ability to pay? Likelihood of benefit?</li>
+<li>The Seattle committee thought “social worth” was a relevant difference. The four theories ahead each name a <em>different</em> feature as the one that counts.</li>
+</ul>
+</section>
+<section id="the-problem-we-will-keep-returning-to" class="slide level2">
+<h2>The Problem We Will Keep Returning To</h2>
+<p>Every theory will be tested on the same hard case, so the differences between them stay visible.</p>
+<div class="context-box">
+<p><strong>One organ, many candidates.</strong></p>
+<p>Today more than <strong>105,000</strong> people in the US are waiting for an organ transplant. Over <strong>92,000</strong> of them — about <strong>87%</strong> — need a kidney <span class="citation" data-cites="optn_data">(<a href="#/references" role="doc-biblioref" onclick="">Organ Procurement and Transplantation Network (OPTN) 2025</a>)</span>. Most will wait years; some will die waiting.</p>
+<p>When one donated kidney becomes available and several patients match it, <strong>someone decides who gets it.</strong> That decision is distributive justice in its rawest form — and each theory answers it differently.</p>
+</div>
+</section>
+<section id="four-lenses" class="slide level2">
+<h2>Four Lenses</h2>
+<p>Each lens fixes on a <strong>different question</strong> — and that question, not a tidy formula, is what it brings to the bedside.</p>
+<ul>
+<li><strong>Utilitarian:</strong> what produces the most total good?</li>
+<li><strong>Rawlsian:</strong> what rules would we accept before knowing who we’d be?</li>
+<li><strong>Libertarian:</strong> were the holdings and transfers fair?</li>
+<li><strong>Capabilities:</strong> what does a person need to function as a human being?</li>
+</ul>
+<p>Notice these are not four answers to one question. They are four <em>different questions</em> — which is why, as we’ll see, they rarely hand down a single verdict on their own.</p>
+</section></section>
+<section>
+<section id="the-utilitarian-lens" class="title-slide slide level1 section-divider center">
+<h1>The Utilitarian Lens</h1>
+
+</section>
+<section id="the-principle" class="slide level2">
+<h2>The Principle</h2>
+<p><span class="key-term">Utilitarianism</span> says the just distribution is the one that produces the <strong>greatest total well-being</strong>. Count everyone equally, add up the benefits, and choose the option with the largest sum.</p>
+<ul>
+<li>It is <strong>outcome-focused</strong>: what matters is results, not who gets what or why.</li>
+<li>Applied to scarce care, it becomes a simple instruction: do the most <strong>good per unit</strong> of a scarce resource.</li>
+<li>This is the logic behind cost-effectiveness analysis throughout modern medicine.</li>
+</ul>
+</section>
+<section id="applied-to-the-organ" class="slide level2">
+<h2>Applied to the Organ</h2>
+<p>A first pass says: give the kidney to whoever gains the <strong>most good</strong> — usually the most years of healthy life. But “total well-being” is bigger than one patient.</p>
+<ul>
+<li>A utilitarian also weighs <strong>system-wide</strong> effects: rules that keep public trust high, that encourage more people to donate, that don’t frighten families away.</li>
+<li>So the lens doesn’t simply crown a recipient. It might favor opt-out, or even a market (more organs, more lives) — <em>or</em> oppose a market if payment <strong>crowds out</strong> altruistic donation and shrinks the supply.</li>
+</ul>
+<div class="context-box">
+<p><strong>The QALY.</strong> Health economists measure benefit in <span class="key-term">quality-adjusted life years</span> (QALYs). One year in perfect health = 1 QALY; a year in poor health counts as less.</p>
+<p>Britain’s <strong>NICE</strong> uses roughly this math to decide what the NHS funds — often around £20,000–£30,000 per QALY. It is the utilitarian instinct turned into a spreadsheet. But notice it answers “is this worth it overall?”, not “which patient deserves it?”</p>
+</div>
+</section>
+<section id="where-it-bites" class="slide level2">
+<h2>Where It Bites</h2>
+<p>The strength of the utilitarian lens — maximize benefit — is also its danger.</p>
+<ul>
+<li>It can <strong>sacrifice the few for the many</strong>: a patient who would gain only a few good years loses to one who would gain decades, every time.</li>
+<li>QALY math can systematically <strong>disadvantage the elderly and the disabled</strong>, because they are counted as having fewer or “lower-quality” years to gain.</li>
+<li>It treats the individual as a site where good is produced, not as someone with a <em>claim</em>. That is exactly what the next lens insists on.</li>
+</ul>
+</section></section>
+<section>
+<section id="the-rawlsian-lens" class="title-slide slide level1 section-divider center">
+<h1>The Rawlsian Lens</h1>
+
+</section>
+<section id="justice-as-fairness" class="slide level2">
+<h2>Justice as Fairness</h2>
+<p>John Rawls asked a different question: not “what maximizes good?” but “<strong>what rules would we choose if we were fair?</strong>” <span class="citation" data-cites="rawls1971">(<a href="#/references" role="doc-biblioref" onclick="">Rawls 1971</a>)</span></p>
+<div class="context-box">
+<p><strong>The original position.</strong> Imagine designing a society’s rules from behind a <span class="key-term">veil of ignorance</span>: you know nothing about who <em>you</em> will be — your wealth, talents, health, or whether you’ll be the patient who needs the kidney.</p>
+<p>Rawls argues that rational people choosing under that veil would not gamble on landing at the bottom. They would choose rules that protect <strong>everyone</strong>, especially the worst-off — because that worst-off person might be them.</p>
+</div>
+</section>
+<section id="two-principles-in-order" class="slide level2 scrollable">
+<h2>Two Principles, In Order</h2>
+<p>Behind the veil, Rawls argues, we would choose <strong>two</strong> principles — and the order matters as much as the content.</p>
+<ol type="1">
+<li><strong>Equal basic liberties</strong> — the same rights and freedoms for all (speech, conscience, bodily integrity).</li>
+<li><strong>(a)</strong> Fair <strong>equality of opportunity</strong>, and <strong>(b)</strong> the <span class="key-term">difference principle</span>: inequalities are just only if they help the <strong>least advantaged</strong>.</li>
+</ol>
+<p>Crucially, the first principle is <strong>lexically prior</strong>: you may <em>not</em> trade away basic liberties for greater welfare, however large the gain. That priority is exactly what divides Rawls from the utilitarian — no one’s liberty is a line item in someone else’s sum.</p>
+</section>
+<section id="applied-to-the-organ-with-a-caveat" class="slide level2">
+<h2>Applied to the Organ — with a Caveat</h2>
+<div class="context-box">
+<p><strong>A caution Rawls himself would press.</strong> Rawls’s principles govern the <strong>basic structure</strong> of society — its constitution and institutions — not who gets the next kidney. Using the difference principle to micro-allocate one organ is an <em>extension</em> of his view, not a verdict it strictly delivers.</p>
+</div>
+<p>Read in a Rawlsian spirit (or its <strong>prioritarian</strong> cousin — give extra weight to the worse-off), the lens does two things:</p>
+<ul>
+<li>It rejects the Seattle committee’s “social worth”: behind the veil, no one would agree to be judged on their job or churchgoing.</li>
+<li>It tilts toward the <strong>worst-off</strong> — the sickest, or those with the least access — even when that isn’t the choice that maximizes total life-years. Whether it picks a <em>specific</em> recipient still depends on how you build the institution.</li>
+</ul>
+</section>
+<section id="thought-question" class="slide level2 scrollable">
+<h2>Thought Question</h2>
+<div class="thought-question">
+<p>Two patients match the one available kidney.</p>
+<ul>
+<li><strong>Patient A</strong> is 30, otherwise healthy, and would likely gain ~40 good years.</li>
+<li><strong>Patient B</strong> is 55, sicker, and would likely gain ~12 good years — and has already been waiting three years on dialysis.</li>
+</ul>
+<ol type="1">
+<li>Who does the <strong>utilitarian</strong> choose? Who does the <strong>Rawlsian</strong> lean toward?</li>
+<li>Behind the veil of ignorance — not knowing if you’re A or B — which rule would you pick?</li>
+<li>Does “years gained” feel like the right measure of a fair claim? What’s missing?</li>
+</ol>
+</div>
+</section></section>
+<section>
+<section id="the-libertarian-lens" class="title-slide slide level1 section-divider center">
+<h1>The Libertarian Lens</h1>
+
+</section>
+<section id="entitlement-not-distribution" class="slide level2">
+<h2>Entitlement, Not Distribution</h2>
+<p>Robert Nozick rejects the whole question. There is no “just distribution” to engineer — only <strong>just transactions</strong> <span class="citation" data-cites="nozick1974">(<a href="#/references" role="doc-biblioref" onclick="">Nozick 1974</a>)</span>.</p>
+<ul>
+<li>A distribution is just if people acquired what they have <strong>fairly</strong> (without theft or fraud) and <strong>transferred</strong> it freely.</li>
+<li>On this view, <strong>no one is owed health care</strong>. Care is a service, produced by others, that you obtain by buying it or being given it.</li>
+<li>Forcing some to pay for others’ care is, for Nozick, a kind of <strong>coercion</strong> — taking what people justly earned.</li>
+</ul>
+</section>
+<section id="applied-to-the-organ-1" class="slide level2">
+<h2>Applied to the Organ</h2>
+<p>The libertarian focuses on one fact the other theories skip: the kidney <strong>belonged to someone</strong>.</p>
+<ul>
+<li>An organ is the <strong>donor’s to give</strong> — so donor wishes, including <strong>directed donation</strong> (“give it to this person, or people like me”), carry real moral weight.</li>
+<li>From <strong>self-ownership</strong>, the logic runs that what you may <em>give</em>, you may also <em>sell</em> — pointing toward a market.</li>
+<li>But libertarians don’t all land there. Nozick’s <strong>Lockean proviso</strong> (“enough, and as good, left for others”) and the requirement that acquisitions be <em>just</em> can constrain markets that prey on the desperate — and <strong>left-libertarians</strong> read self-ownership very differently. The lens leans toward markets; it doesn’t compel them.</li>
+</ul>
+</section>
+<section id="the-market-made-real-iran" class="slide level2">
+<h2>The Market Made Real: Iran</h2>
+<div class="columns">
+<div class="column" style="width:56%;">
+<p>Since <strong>1988</strong>, Iran has run the world’s only <strong>legal, regulated kidney market</strong>. Living donors are paid — officially about $1,400, plus negotiated payments from recipients.</p>
+<p>The result libertarians predict actually happened: Iran <strong>eliminated its kidney waiting list by around 1999</strong> <span class="citation" data-cites="ghods2006">(<a href="#/references" role="doc-biblioref" onclick="">Ghods and Savaj 2006</a>)</span>. People who would have died on dialysis received transplants.</p>
+</div><div class="column" style="width:44%;">
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>The catch</strong></p>
+<p>In surveys, about <strong>43%</strong> of Iranian donors said their motive was <strong>purely financial</strong>, and roughly <strong>three-quarters</strong> said selling kidneys should be <strong>banned</strong>. The sellers are overwhelmingly poor.</p>
+<p>A market clears the list — by routing the burden onto people who feel they have no choice.</p>
+</div>
+</div>
+</div>
+</div></div>
+</section></section>
+<section>
+<section id="the-capabilities-lens" class="title-slide slide level1 section-divider center">
+<h1>The Capabilities Lens</h1>
+
+</section>
+<section id="what-people-are-actually-able-to-do" class="slide level2">
+<h2>What People Are Actually Able to Do</h2>
+<p>Amartya Sen and Martha Nussbaum offer a fourth lens: justice is about securing the real <strong>freedoms and functionings</strong> people need to live a fully human life <span class="citation" data-cites="sen1999 nussbaum2011">(<a href="#/references" role="doc-biblioref" onclick="">Sen 1999</a>; <a href="#/references" role="doc-biblioref" onclick="">Nussbaum 2011</a>)</span>.</p>
+<ul>
+<li>A <span class="key-term">capability</span> is a genuine opportunity to do or be something a person has reason to value — to be healthy, to move about, to take part in their community.</li>
+<li>Money and even “welfare” are only means. What matters is whether a person can <strong>actually function</strong>.</li>
+<li>On Nussbaum’s list, <strong>bodily health</strong> is a central capability that a just society must secure for everyone above a real threshold.</li>
+</ul>
+</section>
+<section id="applied-to-the-organ-2" class="slide level2">
+<h2>Applied to the Organ</h2>
+<p>The capabilities lens asks not “who gains the most life-years?” but “<strong>what does this person need to function as a human being?</strong>”</p>
+<ul>
+<li>Against the utilitarian, it refuses to reduce a person to a QALY score. A disabled candidate is not “worth less”; the question is what they need to flourish.</li>
+<li>Against the libertarian, it treats health as something a just society <strong>owes</strong> people, not merely a good they may buy.</li>
+<li>But it, too, <strong>under-determines</strong> the rule: proponents disagree about what it requires, Sen resists a fixed list, and “secure a threshold for all” doesn’t say who gets <em>this</em> organ when there isn’t enough to go around.</li>
+</ul>
+</section>
+<section id="same-patient-two-verdicts" class="slide level2">
+<h2>Same Patient, Two Verdicts</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><strong>The utilitarian</strong> counts a candidate with a permanent disability as gaining fewer “quality-adjusted” years — and so ranks them lower for the organ.</p>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<p><strong>The capabilities theorist</strong> asks what <em>this</em> person needs to live a full human life, and rejects the idea that a disabled life is worth less. The disability lowers their score in one lens and is irrelevant to their claim in the other.</p>
+</div></div>
+<p>On the same disabled candidate, the two lenses weigh the very same facts in opposite directions. That is why which considerations you treat as decisive is not academic.</p>
+</section></section>
+<section>
+<section id="four-lenses-one-organ" class="title-slide slide level1 section-divider center">
+<h1>Four Lenses, One Organ</h1>
+
+</section>
+<section id="the-theories-head-to-head" class="slide level2">
+<h2>The Theories Head to Head</h2>
+<p>Each lens <strong>foregrounds a different consideration</strong> — and that, not a final verdict, is what it contributes.</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Lens</th>
+<th>What it makes salient</th>
+<th>Why it doesn’t settle policy alone</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Utilitarian</strong></td>
+<td>total benefit, system-wide effects</td>
+<td>depends on the empirical facts; can back many rules</td>
+</tr>
+<tr class="even">
+<td><strong>Rawlsian</strong></td>
+<td>basic liberties, then the worst-off</td>
+<td>governs institutions, not one organ</td>
+</tr>
+<tr class="odd">
+<td><strong>Libertarian</strong></td>
+<td>whose it was; consent; fair transfer</td>
+<td>the proviso and “just acquisition” cut both ways</td>
+</tr>
+<tr class="even">
+<td><strong>Capabilities</strong></td>
+<td>what a person needs to function</td>
+<td>proponents disagree on what it requires</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="theories-dont-hand-down-policies" class="slide level2">
+<h2>Theories Don’t Hand Down Policies</h2>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p>The single most common mistake in these debates is to say “utilitarianism <em>requires</em> a market” or “Rawls <em>forbids</em> it.” None of these theories delivers a policy by itself.</p>
+<ul>
+<li>Each one tells you <strong>what to weigh</strong> — total welfare, the worst-off, consent, capabilities.</li>
+<li>Turning that into a rule needs <strong>empirical facts</strong> (does a market grow or shrink supply?) and <strong>interpretive choices</strong> (what does “fair acquisition,” or “the threshold,” actually demand?).</li>
+</ul>
+<p>So the lenses don’t end the argument. They tell you what the argument is <em>about</em> — and that is exactly what the Seattle committee never worked out.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="discussion" class="slide level2 scrollable">
+<h2>Discussion</h2>
+<div class="thought-question">
+<p>Look back at the Seattle “God Committee.”</p>
+<ol type="1">
+<li>Which of the four lenses, if any, was the committee using when it judged “social worth”?</li>
+<li>Which lens would have most changed its decisions — and how?</li>
+<li>If you had to build a real allocation system, which lens would you make the <em>backbone</em>, and which would you keep only as a check?</li>
+</ol>
+</div>
+</section></section>
+<section>
+<section id="how-we-actually-allocate-organs" class="title-slide slide level1 section-divider center">
+<h1>How We Actually Allocate Organs</h1>
+
+</section>
+<section id="the-unos-system" class="slide level2">
+<h2>The UNOS System</h2>
+<p>In the US, the <strong>Organ Procurement and Transplantation Network</strong>, run through <strong>UNOS</strong>, matches donated organs to waiting patients by a published algorithm — not a committee’s gut feeling <span class="citation" data-cites="optn_data">(<a href="#/references" role="doc-biblioref" onclick="">Organ Procurement and Transplantation Network (OPTN) 2025</a>)</span>.</p>
+<p>The algorithm blends factors that, in fact, come straight from our four lenses:</p>
+<ul>
+<li><strong>Medical urgency</strong> — how sick the patient is (a nod to Rawls’ worst-off).</li>
+<li><strong>Expected benefit</strong> — how well and how long the graft will work (utilitarian).</li>
+<li><strong>Time on the waiting list</strong> — first-come fairness.</li>
+<li><strong>Matching and proximity</strong> — blood type, tissue, distance.</li>
+</ul>
+</section>
+<section id="three-principles-in-tension" class="slide level2">
+<h2>Three Principles in Tension</h2>
+<div class="cell" data-fig-width="8" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="768" height="480" viewbox="0.00 0.00 520.77 169.60" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 165.6)">
+<title>G</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-165.6 516.77,-165.6 516.77,4 -4,4"></polygon>
+<!-- organ -->
+<g id="node1" class="node">
+<title>organ</title>
+<path fill="#e8e8e8" stroke="black" d="M84.94,-101.4C84.94,-101.4 12.02,-101.4 12.02,-101.4 6.02,-101.4 0.02,-95.4 0.02,-89.4 0.02,-89.4 0.02,-72.2 0.02,-72.2 0.02,-66.2 6.02,-60.2 12.02,-60.2 12.02,-60.2 84.94,-60.2 84.94,-60.2 90.94,-60.2 96.94,-66.2 96.94,-72.2 96.94,-72.2 96.94,-89.4 96.94,-89.4 96.94,-95.4 90.94,-101.4 84.94,-101.4"></path>
+<text text-anchor="middle" x="48.48" y="-85" font-family="Helvetica,sans-Serif" font-size="14.00">One donated</text>
+<text text-anchor="middle" x="48.48" y="-68.2" font-family="Helvetica,sans-Serif" font-size="14.00">organ</text>
+</g>
+<!-- sick -->
+<g id="node2" class="node">
+<title>sick</title>
+<path fill="#eef3f8" stroke="black" d="M262.67,-161.4C262.67,-161.4 145.72,-161.4 145.72,-161.4 139.72,-161.4 133.72,-155.4 133.72,-149.4 133.72,-149.4 133.72,-132.2 133.72,-132.2 133.72,-126.2 139.72,-120.2 145.72,-120.2 145.72,-120.2 262.67,-120.2 262.67,-120.2 268.67,-120.2 274.67,-126.2 274.67,-132.2 274.67,-132.2 274.67,-149.4 274.67,-149.4 274.67,-155.4 268.67,-161.4 262.67,-161.4"></path>
+<text text-anchor="middle" x="204.2" y="-145" font-family="Helvetica,sans-Serif" font-size="14.00">Sickest first</text>
+<text text-anchor="middle" x="204.2" y="-128.2" font-family="Helvetica,sans-Serif" font-size="14.00">(urgency / worst-off)</text>
+</g>
+<!-- organ&#45;&gt;sick -->
+<g id="edge1" class="edge">
+<title>organ-&gt;sick</title>
+<path fill="none" stroke="#888888" d="M97.27,-99.46C111.08,-104.85 126.36,-110.81 140.91,-116.49"></path>
+<polygon fill="#888888" stroke="#888888" points="139.76,-119.8 150.35,-120.17 142.3,-113.28 139.76,-119.8"></polygon>
+</g>
+<!-- best -->
+<g id="node3" class="node">
+<title>best</title>
+<path fill="#eef3f8" stroke="black" d="M250.54,-101.4C250.54,-101.4 157.85,-101.4 157.85,-101.4 151.85,-101.4 145.85,-95.4 145.85,-89.4 145.85,-89.4 145.85,-72.2 145.85,-72.2 145.85,-66.2 151.85,-60.2 157.85,-60.2 157.85,-60.2 250.54,-60.2 250.54,-60.2 256.54,-60.2 262.54,-66.2 262.54,-72.2 262.54,-72.2 262.54,-89.4 262.54,-89.4 262.54,-95.4 256.54,-101.4 250.54,-101.4"></path>
+<text text-anchor="middle" x="204.2" y="-85" font-family="Helvetica,sans-Serif" font-size="14.00">Best outcome</text>
+<text text-anchor="middle" x="204.2" y="-68.2" font-family="Helvetica,sans-Serif" font-size="14.00">(most life-years)</text>
+</g>
+<!-- organ&#45;&gt;best -->
+<g id="edge2" class="edge">
+<title>organ-&gt;best</title>
+<path fill="none" stroke="#888888" d="M97.27,-80.8C109.44,-80.8 122.75,-80.8 135.7,-80.8"></path>
+<polygon fill="#888888" stroke="#888888" points="135.98,-84.3 145.98,-80.8 135.98,-77.3 135.98,-84.3"></polygon>
+</g>
+<!-- fcfs -->
+<g id="node4" class="node">
+<title>fcfs</title>
+<path fill="#eef3f8" stroke="black" d="M241.94,-41.4C241.94,-41.4 166.45,-41.4 166.45,-41.4 160.45,-41.4 154.45,-35.4 154.45,-29.4 154.45,-29.4 154.45,-12.2 154.45,-12.2 154.45,-6.2 160.45,-0.2 166.45,-0.2 166.45,-0.2 241.94,-0.2 241.94,-0.2 247.94,-0.2 253.94,-6.2 253.94,-12.2 253.94,-12.2 253.94,-29.4 253.94,-29.4 253.94,-35.4 247.94,-41.4 241.94,-41.4"></path>
+<text text-anchor="middle" x="204.2" y="-25" font-family="Helvetica,sans-Serif" font-size="14.00">First-come</text>
+<text text-anchor="middle" x="204.2" y="-8.2" font-family="Helvetica,sans-Serif" font-size="14.00">(time waiting)</text>
+</g>
+<!-- organ&#45;&gt;fcfs -->
+<g id="edge3" class="edge">
+<title>organ-&gt;fcfs</title>
+<path fill="none" stroke="#888888" d="M97.27,-62.14C112.31,-56.28 129.08,-49.73 144.77,-43.61"></path>
+<polygon fill="#888888" stroke="#888888" points="146.33,-46.75 154.37,-39.86 143.78,-40.23 146.33,-46.75"></polygon>
+</g>
+<!-- conflict -->
+<g id="node5" class="node">
+<title>conflict</title>
+<polygon fill="#fff7e6" stroke="black" points="506.8,-101.4 370.68,-101.4 370.68,-60.2 512.8,-60.2 512.8,-95.4 506.8,-101.4"></polygon>
+<polyline fill="none" stroke="black" points="506.8,-101.4 506.8,-95.4 "></polyline>
+<polyline fill="none" stroke="black" points="512.8,-95.4 506.8,-95.4 "></polyline>
+<text text-anchor="middle" x="441.74" y="-85" font-family="Helvetica,sans-Serif" font-size="14.00">Every allocation rule</text>
+<text text-anchor="middle" x="441.74" y="-68.2" font-family="Helvetica,sans-Serif" font-size="14.00">picks a trade-off</text>
+</g>
+<!-- sick&#45;&gt;conflict -->
+<g id="edge4" class="edge">
+<title>sick-&gt;conflict</title>
+<path fill="none" stroke="#888888" d="M274.59,-123.12C301.66,-116.23 332.86,-108.28 360.86,-101.15"></path>
+<polygon fill="#888888" stroke="#888888" points="361.79,-104.52 370.61,-98.66 360.06,-97.74 361.79,-104.52"></polygon>
+<text text-anchor="middle" x="322.57" y="-122" font-family="Times,serif" font-size="14.00">who wins?</text>
+</g>
+<!-- best&#45;&gt;conflict -->
+<g id="edge5" class="edge">
+<title>best-&gt;conflict</title>
+<path fill="none" stroke="#888888" d="M262.51,-80.8C291.88,-80.8 328.13,-80.8 360.25,-80.8"></path>
+<polygon fill="#888888" stroke="#888888" points="360.52,-84.3 370.52,-80.8 360.52,-77.3 360.52,-84.3"></polygon>
+</g>
+<!-- fcfs&#45;&gt;conflict -->
+<g id="edge6" class="edge">
+<title>fcfs-&gt;conflict</title>
+<path fill="none" stroke="#888888" d="M254,-33.23C284.79,-41.08 325.3,-51.39 360.71,-60.41"></path>
+<polygon fill="#888888" stroke="#888888" points="360,-63.84 370.55,-62.92 361.72,-57.06 360,-63.84"></polygon>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>“Sickest first” and “best outcome” often point at <strong>different patients</strong> — the sickest patient may do worst with the organ. No rule escapes the trade-off.</p>
+</section>
+<section id="where-do-organs-come-from-opt-in-vs.-opt-out" class="slide level2">
+<h2>Where Do Organs Come From? Opt-In vs.&nbsp;Opt-Out</h2>
+<div class="columns">
+<div class="column" style="width:52%;">
+<p>The US uses <strong>opt-in</strong>: you are a donor only if you register. About <strong>48 donors per million</strong> people.</p>
+<p><strong>Spain</strong> uses <strong>presumed consent</strong> (soft opt-out): everyone is a donor unless they say no. Spain leads the world at <strong>52.6 per million</strong> (2024) <span class="citation" data-cites="matesanz2017">(<a href="#/references" role="doc-biblioref" onclick="">Matesanz et al. 2017</a>)</span>.</p>
+</div><div class="column" style="width:48%;">
+<div class="context-box">
+<p><strong>Why Spain really wins</strong></p>
+<p>The law is not the whole story. Spain pairs opt-out with the <strong>ONT</strong> — full-time donation coordinators in every hospital and skilled family support. Spanish families consent about <strong>8 times in 10</strong>; the UK, also opt-out, gets about 6 in 10.</p>
+<p><strong>Infrastructure, not just the default rule, drives the result.</strong></p>
+</div>
+</div></div>
+</section>
+<section id="when-money-and-choice-bend-the-system" class="slide level2">
+<h2>When Money and Choice Bend the System</h2>
+<p>Even a need-based system has seams that wealth and preference can widen.</p>
+<ul>
+<li><strong>Directed and conditional donation</strong> lets donors steer organs toward specific people or groups — honoring the donor’s liberty, but pulling against equal access.</li>
+<li><strong>Multi-listing:</strong> a patient can register at several transplant centers in different regions at once. The famous example is Steve Jobs, who registered in Tennessee while living in California and received a liver there.</li>
+<li>It is legal. It is also a reminder that the ability to travel and pay can quietly improve your odds in a system meant to run on need.</li>
+</ul>
+</section>
+<section id="philosophers-take-sides" class="slide level2">
+<h2>Philosophers Take Sides</h2>
+<p>This is a live debate among serious philosophers — and it does <strong>not</strong> split neatly along left and right.</p>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><strong>Allow regulated sales</strong></p>
+<ul>
+<li><strong>Radcliffe-Richards</strong> and colleagues: if we let people take risks for money in far more dangerous jobs, banning kidney sales is inconsistent paternalism <span class="citation" data-cites="radcliffe_richards1998">(<a href="#/references" role="doc-biblioref" onclick="">Radcliffe-Richards et al. 1998</a>)</span>.</li>
+<li><strong>Cherry</strong>: self-ownership and consent make a regulated market legitimate — and it saves lives <span class="citation" data-cites="cherry2005">(<a href="#/references" role="doc-biblioref" onclick="">Cherry 2005</a>)</span>.</li>
+</ul>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<p><strong>Forbid them</strong></p>
+<ul>
+<li><strong>Satz</strong>: kidney markets are <strong>noxious</strong> — built on desperation and weak agency, with harmful, unequal outcomes <span class="citation" data-cites="satz2010">(<a href="#/references" role="doc-biblioref" onclick="">Satz 2010</a>)</span>.</li>
+<li><strong>Sandel</strong>: pricing organs <strong>corrupts</strong> how we value the body and one another, regardless of consent <span class="citation" data-cites="sandel2012">(<a href="#/references" role="doc-biblioref" onclick="">Sandel 2012</a>)</span>.</li>
+</ul>
+</div></div>
+<p>Note both sides include egalitarians <em>and</em> libertarians — the disagreement is about consent, exploitation, and what money does to a thing, not simply about markets.</p>
+</section>
+<section id="thought-question-1" class="slide level2 scrollable">
+<h2>Thought Question</h2>
+<div class="thought-question">
+<p>You are a healthy college student, deep in debt. A patient on dialysis offers you <strong>$30,000</strong> for one of your kidneys. You can live a normal life with one. The exchange is voluntary, and it would save the patient’s life and clear your debt.</p>
+<ol type="1">
+<li>Is there anything <em>wrong</em> with this trade? If so, what exactly?</li>
+<li>Does your answer change if the seller is desperate rather than merely willing?</li>
+<li>Would you feel differently about selling <strong>blood plasma</strong>, or an egg, or a lung? Why?</li>
+</ol>
+</div>
+</section>
+<section id="make-it-contemporary" class="slide level2">
+<h2>Make It Contemporary</h2>
+<div class="thought-question">
+<p>The US bans organ sales outright — the <strong>National Organ Transplant Act of 1984</strong> makes it a federal crime <span class="citation" data-cites="nota1984">(<a href="#/references" role="doc-biblioref" onclick="">United States Congress 1984</a>)</span>. Iran allows them, and has no kidney waiting list.</p>
+<p>So the trade-off is stark and real: the US protects the poor from being pressured to sell, and tens of thousands wait — some die. Iran clears the list, and its sellers are overwhelmingly poor and largely regretful.</p>
+<p><strong>Discuss:</strong> If a regulated market would save thousands of lives a year, is banning it a moral stand — or a comfortable way of letting people die so we don’t have to watch the poor sell their organs?</p>
+</div>
+</section>
+<section id="after-youve-discussed-1" class="slide level2">
+<h2>After You’ve Discussed</h2>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>The kidney-market debate turns on three ideas people tend to blur:</p>
+<ul>
+<li><strong>Coercion</strong> — a threat removes your choice (“sell, or I hurt you”).</li>
+<li><strong>Undue inducement</strong> — an offer is so large or your need so desperate that you can’t reason well about the risk.</li>
+<li><strong>Exploitation</strong> — a deal is voluntary <em>and</em> mutually beneficial, yet still unfair because one side takes advantage of the other’s vulnerability.</li>
+</ul>
+<p>A kidney sale may involve no coercion at all and still be exploitative. Lurking under all three is <strong>commodification</strong> — the worry that some things (organs, votes, people) are degraded the moment they carry a price.</p>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="is-there-a-right-to-health-care" class="title-slide slide level1 section-divider center">
+<h1>Is There a Right to Health Care?</h1>
+
+</section>
+<section id="from-one-organ-to-the-whole-system" class="slide level2">
+<h2>From One Organ to the Whole System</h2>
+<p>The organ case was a stand-in. The same theories now face the largest distributive question of all: <strong>does a person have a <em>right</em> to health care at all?</strong></p>
+<div class="context-box">
+<p><strong>Two kinds of rights.</strong></p>
+<ul>
+<li>A <span class="key-term">negative right</span> is a right to be <strong>left alone</strong> — free speech, the right to refuse treatment. It only requires others <em>not</em> to interfere.</li>
+<li>A <span class="key-term">positive right</span> is a right to be <strong>provided</strong> something — and it requires others to act, and usually to pay.</li>
+</ul>
+<p>“A right to health care” is a <strong>positive</strong> right. That is exactly why it is contested: it places a claim on other people’s resources.</p>
+</div>
+</section>
+<section id="daniels-health-and-fair-opportunity" class="slide level2">
+<h2>Daniels: Health and Fair Opportunity</h2>
+<p>Norman Daniels builds the strongest case for a right to care by extending Rawls <span class="citation" data-cites="daniels2008">(<a href="#/references" role="doc-biblioref" onclick="">Daniels 2008</a>)</span>.</p>
+<ul>
+<li>Rawls says justice requires <strong>fair equality of opportunity</strong>: your life chances shouldn’t be set by the lottery of birth.</li>
+<li>Disease and disability, Daniels argues, <strong>shrink your range of opportunity</strong> just as surely as poor schooling does — they shut doors a healthy person can walk through.</li>
+<li>So a society already committed to fair opportunity is committed, by its own logic, to the health care that <strong>restores normal functioning</strong>.</li>
+</ul>
+<div class="fragment">
+<p>On this view, health care isn’t charity. It’s what fair opportunity <em>requires</em>.</p>
+</div>
+</section>
+<section id="the-counterarguments" class="slide level2">
+<h2>The Counterarguments</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><strong>The libertarian (Nozick)</strong></p>
+<p>There is no positive right to care, because it forces some to fund others. Compassion may be a virtue, but it cannot be <strong>coerced</strong> through taxation without violating people’s just holdings.</p>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<p><strong>The utilitarian</strong></p>
+<p>Whether to guarantee care is not a matter of <em>right</em> at all — it’s an empirical question. Guarantee it <strong>if and only if</strong> doing so maximizes overall welfare. The answer could change with the budget.</p>
+</div></div>
+<p>Daniels says opportunity grounds a right; Nozick says rights run the other way; the utilitarian says “right” is the wrong word. Three lenses, three verdicts.</p>
+</section>
+<section id="where-the-us-stands" class="slide level2">
+<h2>Where the US Stands</h2>
+<p>The US is the rich-world outlier, and its pattern is revealing.</p>
+<ul>
+<li>It treats <strong>education</strong> as a right (free K–12), <strong>food</strong> and <strong>housing</strong> as partial rights (SNAP, vouchers) — floors below which it tries not to let people fall.</li>
+<li>But it treats most <strong>health care</strong> as a <strong>market good</strong>: something you get mainly through a job, a purchase, or by qualifying for a program.</li>
+<li>The result is a patchwork with real gaps — which is the subject of Part B.</li>
+</ul>
+</section>
+<section id="the-cancer-drug-test" class="slide level2 scrollable">
+<h2>The Cancer Drug Test</h2>
+<div class="thought-question">
+<p>A new cancer therapy (<strong>CAR-T</strong>, a real treatment) can cost around <strong>$475,000</strong> for a single course. A public insurer must decide whether to cover it.</p>
+<p>How does each lens rule?</p>
+<ol type="1">
+<li><strong>Utilitarian:</strong> is the QALY gain worth $475,000 versus spending it elsewhere?</li>
+<li><strong>Rawlsian / Daniels:</strong> does fair opportunity require funding it for the worst-off who can’t pay?</li>
+<li><strong>Libertarian:</strong> is anyone <em>owed</em> this at all — or should those who want it buy it?</li>
+</ol>
+<p>Which answer can you live with — and who pays for it?</p>
+</div>
+</section>
+<section id="mini-recap" class="slide level2">
+<h2>Mini-Recap</h2>
+<div class="recap">
+<p>We started with seven citizens in Seattle deciding who lived, and asked what principle could replace their guesswork. Four answered: the <strong>utilitarian</strong> (maximize good), <strong>Rawls</strong> (protect the worst-off), the <strong>libertarian</strong> (free transactions, even markets), and the <strong>capabilities</strong> view (secure what people need to function). We watched them split over a single kidney, over selling organs, and over whether health care is a <strong>right</strong> at all — with Daniels arguing it follows from fair opportunity.</p>
+<p>We now have the <strong>values</strong>. Part B brings the <strong>facts</strong>: how the actual US health care system spends the most in the world and yet leaves Americans sicker and shorter-lived than their peers — and what, by these four lenses, we might owe each other.</p>
+</div>
+</section>
+<section id="review-questions" class="slide level2">
+<h2>Review Questions</h2>
+<div class="review-questions">
+<div class="review-item review-recall">
+<p><span class="review-label">Recall</span></p>
+<p>State the difference principle and explain how a Rawlsian and a utilitarian would allocate one kidney differently.</p>
+</div>
+<div class="review-item review-apply">
+<p><span class="review-label">Apply</span></p>
+<p>A city has one ICU bed and two patients: a 40-year-old with a 70% survival chance and a 70-year-old with a 40% chance. Pick a theory of justice and defend who gets the bed.</p>
+</div>
+<div class="review-item review-debate">
+<p><span class="review-label">Debate</span></p>
+<p>Is there a moral right to health care? Defend your answer using Daniels and at least one objection to him.</p>
+</div>
+</div>
+</section>
+<section id="key-terms" class="slide level2">
+<h2>Key Terms</h2>
+<ul>
+<li><strong>Distributive justice</strong> — how a society fairly divides scarce benefits and burdens.</li>
+<li><strong>Utilitarianism</strong> — maximize total well-being; outcome-focused.</li>
+<li><strong>Veil of ignorance</strong> — choose rules not knowing your place (Rawls).</li>
+<li><strong>Priority of liberty / difference principle</strong> — equal basic liberties come first (lexically prior); then inequalities must help the worst-off (Rawls).</li>
+<li><strong>Entitlement theory</strong> — justice is fair acquisition and transfer, not a pattern (Nozick).</li>
+<li><strong>Capabilities</strong> — the real freedoms people need to function (Sen, Nussbaum).</li>
+<li><strong>QALY</strong> — quality-adjusted life year; a unit of health benefit.</li>
+<li><strong>Presumed consent</strong> — everyone is an organ donor unless they opt out.</li>
+<li><strong>Negative vs.&nbsp;positive rights</strong> — a right to non-interference vs.&nbsp;a right to be provided something.</li>
+<li><strong>Fair equality of opportunity</strong> — the Rawlsian idea Daniels uses to ground a right to care.</li>
+</ul>
+</section>
+<section id="further-reading" class="slide level2">
+<h2>Further Reading</h2>
+<ul>
+<li>Rawls, John. <em>A Theory of Justice.</em> Harvard University Press, 1971.</li>
+<li>Daniels, Norman. <em>Just Health: Meeting Health Needs Fairly.</em> Cambridge University Press, 2008.</li>
+<li>Nussbaum, Martha. <em>Creating Capabilities.</em> Harvard University Press, 2011.</li>
+</ul>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-alexander1962" class="csl-entry" role="listitem">
+Alexander, Shana. 1962. <span>“They Decide Who Lives, Who Dies.”</span> <em>Life</em> 53 (19): 102–25.
+</div>
+<div id="ref-cherry2005" class="csl-entry" role="listitem">
+Cherry, Mark J. 2005. <em>Kidney for Sale by Owner: Human Organs, Transplantation, and the Market</em>. Georgetown University Press.
+</div>
+<div id="ref-daniels2008" class="csl-entry" role="listitem">
+Daniels, Norman. 2008. <em>Just Health: Meeting Health Needs Fairly</em>. Cambridge University Press.
+</div>
+<div id="ref-ghods2006" class="csl-entry" role="listitem">
+Ghods, Ahad J., and Shekoufeh Savaj. 2006. <span>“Iranian Model of Paid and Regulated Living-Unrelated Kidney Donation.”</span> <em>Clinical Journal of the American Society of Nephrology</em> 1 (6): 1136–45. <a href="https://doi.org/10.2215/CJN.00700206">https://doi.org/10.2215/CJN.00700206</a>.
+</div>
+<div id="ref-matesanz2017" class="csl-entry" role="listitem">
+Matesanz, Rafael, Beatriz Domínguez-Gil, Elisabeth Coll, Beatriz Mahíllo, and Rocío Marazuela. 2017. <span>“How Spain Reached 40 Deceased Organ Donors Per Million Population.”</span> <em>American Journal of Transplantation</em> 17 (6): 1447–54. <a href="https://doi.org/10.1111/ajt.14104">https://doi.org/10.1111/ajt.14104</a>.
+</div>
+<div id="ref-nozick1974" class="csl-entry" role="listitem">
+Nozick, Robert. 1974. <em>Anarchy, State, and Utopia</em>. Basic Books.
+</div>
+<div id="ref-nussbaum2011" class="csl-entry" role="listitem">
+Nussbaum, Martha C. 2011. <em>Creating Capabilities: The Human Development Approach</em>. Belknap Press of Harvard University Press.
+</div>
+<div id="ref-optn_data" class="csl-entry" role="listitem">
+Organ Procurement and Transplantation Network (OPTN). 2025. <em>National Data: Waiting List and Transplants</em>. U.S. Health Resources and Services Administration. <a href="https://optn.transplant.hrsa.gov/data">https://optn.transplant.hrsa.gov/data</a>.
+</div>
+<div id="ref-radcliffe_richards1998" class="csl-entry" role="listitem">
+Radcliffe-Richards, Janet, A. S. Daar, R. D. Guttmann, et al. 1998. <span>“The Case for Allowing Kidney Sales.”</span> <em>The Lancet</em> 351 (9120): 1950–52. <a href="https://doi.org/10.1016/S0140-6736(97)08211-1">https://doi.org/10.1016/S0140-6736(97)08211-1</a>.
+</div>
+<div id="ref-rawls1971" class="csl-entry" role="listitem">
+Rawls, John. 1971. <em>A Theory of Justice</em>. Harvard University Press.
+</div>
+<div id="ref-sandel2012" class="csl-entry" role="listitem">
+Sandel, Michael J. 2012. <em>What Money Can’t Buy: The Moral Limits of Markets</em>. Farrar, Straus; Giroux.
+</div>
+<div id="ref-satz2010" class="csl-entry" role="listitem">
+Satz, Debra. 2010. <em>Why Some Things Should Not Be for Sale: The Moral Limits of Markets</em>. Oxford University Press.
+</div>
+<div id="ref-sen1999" class="csl-entry" role="listitem">
+Sen, Amartya. 1999. <em>Development as Freedom</em>. Alfred A. Knopf.
+</div>
+<div id="ref-nota1984" class="csl-entry" role="listitem">
+United States Congress. 1984. <em>National Organ Transplant Act of 1984, Pub. L. No. 98-507</em>. 98 Stat. 2339. <a href="https://www.congress.gov/bill/98th-congress/senate-bill/2048">https://www.congress.gov/bill/98th-congress/senate-bill/2048</a>.
+</div>
+</div>
+
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+<p>Bioethics OER · CC BY-NC 4.0 · Brendan Shea</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': false,
+'previewLinksAuto': true,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'fast',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>
