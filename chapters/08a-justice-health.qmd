@@ -121,7 +121,7 @@ The strength of the utilitarian lens — maximize benefit — is also its danger
 
 - It can **sacrifice the few for the many**: a patient who would gain only a few good years loses to one who would gain decades, every time.
 - QALY math can systematically **disadvantage the elderly and the disabled**, because they are counted as having fewer or "lower-quality" years to gain.
-- It treats the individual as a site where good is produced, not as someone with a *claim*. That is exactly what the next lens insists on.
+- It treats the individual as a site where good is produced, not as someone with a *claim*. That is what the next lens insists on.
 
 # The Rawlsian Lens {.section-divider}
 
@@ -236,7 +236,7 @@ The capabilities lens asks not "who gains the most life-years?" but "**what does
 :::
 ::::
 
-On the same disabled candidate, the two lenses weigh the very same facts in opposite directions. That is why which considerations you treat as decisive is not academic.
+On the same disabled candidate, the two lenses weigh identical facts in opposite directions — and send the kidney to different people. Which considerations you treat as decisive has real stakes.
 
 # Four Lenses, One Organ {.section-divider}
 

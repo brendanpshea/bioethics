@@ -111,7 +111,7 @@ Most clinicians and courts insist that **stopping treatment is not the same as k
 - When a ventilator is withdrawn and the patient dies, the standard view says the *disease* kills her; the doctor merely steps out of the way.
 - When a doctor injects a lethal drug, the *doctor* kills her.
 
-On this view, a patient has a strong right to refuse treatment (so passive euthanasia is permissible), but no one has a right to be killed (so active euthanasia is not). Hold onto this claim — it is exactly what Rachels will attack.
+On this view, a patient has a strong right to refuse treatment (so passive euthanasia is permissible), but no one has a right to be killed (so active euthanasia is not). This is the claim Rachels will attack.
 
 ## Assisted Death vs. Euthanasia
 
@@ -519,7 +519,7 @@ The honest question is not "is there a slope?" but "**which** slope, and is this
 ::: {.recap}
 We began with one disputed line — **killing vs. letting die** — and watched Rachels argue it carries no weight in itself while Foot rebuilt it from duties. Brock and Singer pressed the case *for* assisted death from autonomy and quality of life; Velleman and the disability-rights critics, led here by Harriet McBryde Johnson, pressed *back* — not from religion, but from concern for the vulnerable and for what a mere *option* does to them.
 
-The doctrine of double effect let us see palliative sedation as the same fight in new clothing: does intention change what an act is? And the law on the ground — Oregon's steady data, Canada's rapid expansion and its sudden pause on psychiatric cases — shows a society still arguing, in real time, about where the brakes belong. The line between mercy and danger is exactly what no one has finished drawing.
+Palliative sedation raised the same question in a new form: does intention change what an act is? And the law on the ground — Oregon's steady data, Canada's rapid expansion and its sudden pause on psychiatric cases — shows a society still arguing over where the brakes belong. Where the line between mercy and danger falls is not yet settled.
 :::
 
 ## Review Questions
