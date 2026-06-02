@@ -19,7 +19,7 @@ format:
 
 In Part A every hard case was about whether to **let** dying happen — to stop or withhold treatment for a patient who could no longer decide. We ended on a puzzle: the law treats **withholding** and **withdrawing** treatment as the same, yet many caregivers feel that stopping a machine *causes* the death in a way that never starting it does not.
 
-Part B walks straight into that feeling. We now ask about a sharper act: not letting a patient die, but **actively helping** them die — on their own clear request. This is where medicine, law, and philosophy disagree most deeply.
+Part B walks straight into that feeling. We now ask about a related act: not letting a patient die, but **actively helping** them die — on their own clear request. This is where medicine, law, and philosophy disagree most deeply.
 
 ## A Case to Sit With
 
@@ -43,7 +43,7 @@ Notice how Brittany's case differs from Nancy Cruzan's in Part A.
 - Cruzan **could not speak** for herself; others decided whether to *let* her die.
 - Maynard was **fully competent** and decided for herself; she asked for help to *actively* end her life.
 
-Part A was about *who decides* for the silent. Part B is about what a person may ask for — and what others may do — when the patient is the one asking. Almost everything today turns on one disputed line: the line between **killing** and **letting die**.
+Part A was about *who decides* for the silent. Part B is about what a person may ask for — and what others may do — when the patient is the one asking.
 :::
 
 ## Today
@@ -63,7 +63,7 @@ By the end of Part B, you will be able to:
 
 ## Why Vocabulary Comes First
 
-This is the one topic where people argue past each other because they are using the same words for different acts. Before any ethics, we need a clean map.
+This a topic where people argue past each other because they are using the same words for different acts. Before any ethics, we need a clean map.
 
 Three distinctions do all the work:
 
@@ -102,7 +102,7 @@ digraph G {
 - **Active euthanasia** — someone *administers* something that causes death, such as a lethal injection.
 - **Passive euthanasia** — death is allowed to happen by *withholding or withdrawing* treatment, such as stopping a ventilator.
 
-Almost every legal system treats these very differently: passive euthanasia is widely accepted, while active euthanasia is illegal in most of the world. The whole philosophical fight is about whether that difference is justified.
+Almost every legal system treats these very differently: passive euthanasia is widely accepted, while active euthanasia is illegal in most of the world. 
 
 ## "Withdrawal Is Not Killing" — The Standard View
 
@@ -198,7 +198,9 @@ Other things — consent, motive, consequences, risk of abuse — may still make
 Philippa Foot agrees the bare physical difference is thin — but argues the distinction survives once we ground it in **duties and rights**. [@foot1977]
 
 - A **negative duty** not to *harm* people (not to kill) is generally **more stringent** than a **positive duty** to *aid* people (to save).
-- I may not murder a stranger to use his organs, even to save five others — my duty not to kill him outweighs my duty to save them.
+- Foot's example: it may be permissible for an army to retreat and "let" a wounded soldier die (because rescuing him would put the rest of the army in danger) but NOT permissible to shoot him (if he didn't want to die)
+- Basic idea: Kiling can "violate rights" even in cases where letting die does not
+
 
 So "killing vs. letting die" is a stand-in for "violating a strong negative duty vs. a weaker positive one." The distinction was tracking something real after all.
 
@@ -259,14 +261,33 @@ Peter Singer pushes further, attacking the premise he thinks blocks clear thinki
 - Singer replaces it with a **quality-of-life** ethic: what matters morally is the character of a life *for the one living it*.
 - For a preference utilitarian like Singer, killing a self-aware being is wrong mainly because it thwarts that being's preferences — so when a person *prefers* death, voluntary euthanasia can respect rather than violate them.
 
-## Singer's Edge — and the Backlash It Invites
+## Singer's Edge: Neonatal Euthanasia
 
 ::: {.callout-important}
-Singer's view has a sharp edge that will matter for the rest of the lecture.
+Singer defends some limited cases of  **neonatal euthanasia** — deliberately ending the life of some newborns, a practice critics call infanticide. Two claims combine.
 
-If what makes killing wrong is thwarting a being's preferences about its own future, then beings without such preferences — Singer's examples include some severely impaired newborns — do not have the same protection. Singer has defended non-voluntary euthanasia in such cases. [@singer2011_practical]
+First: on the preference view, *no* newborn is yet a self-aware being with preferences about its own future, so the wrong that protects an adult does not yet attach to any infant. Second: there are some cases in which neonatal euthanasia produces better outcomes, *even considering the eventual life this newborn woild have had.* [@singer2011_practical]
 
-This is exactly the reasoning that the disability-rights movement regards as **dangerous** — and it is why a quality-of-life ethic, meant to *expand* compassion, draws its fiercest critics from disabled people themselves.
+The argument's weight rests on the **quality-of-life prognosis**, not on impairment as such. Even so, the newborns it identifies are largely disabled ones, which is why the position is most sharply contested among disability-rights advocates.
+:::
+
+## Singer's Two Kinds of Case
+
+::: {.context-box}
+The cases are not all alike, and the difference marks where the disagreement actually is.
+
+- **Tay-Sachs and similar conditions.** The child faces a short life of severe suffering. Here Singer's claim that living on may be no benefit *to that child* draws comparatively wide sympathy. Active euthanasia may be preferable to painful "letting die."
+- **Down syndrome.** Singer *grants* such a child can have a good life. His argument then shifts ground: the **parents' preferences**, plus the prospect of a different, healthier child they could raise instead, can outweigh it. This is the far more contested case.
+:::
+
+## "You Already Agree With Me"
+
+::: {.callout-important}
+There is a sense is which Singer's view isn't as outlandish as it seems.
+
+Many people accept **late-term abortion** after a prenatal Down syndrome diagnosis. Singer sees no morally significant line between a fetus shortly before birth and a newborn shortly after — so, he argues, anyone who accepts the first is already committed to the second. The disagreement, on his telling, is not about principle but about **consistency**. [@singer2011_practical]
+
+This is why the critique, though it names Singer, reaches further than him: the premise he is drawing out is one a large part of society already accepts in another form.
 :::
 
 ## Thought Question
@@ -348,13 +369,13 @@ For disability-rights groups such as **Not Dead Yet**, Velleman's abstract worry
 ::: {.column width="55%"}
 **Harriet McBryde Johnson** was a lawyer and disability-rights activist who had a progressive neuromuscular condition and used a wheelchair. In 2002 she debated Peter Singer at Princeton and wrote about it in "Unspeakable Conversations." [@johnson2003_unspeakable]
 
-Her core reply to Singer: his confidence that disability makes a life worse is an *outsider's* assumption. Disabled people consistently rate their own quality of life far higher than the non-disabled imagine. The premise of the quality-of-life argument is, she said, simply mistaken.
+Her core reply to Singer: his confidence that disability makes a life worse is an *outsider's* assumption. Survey research finds that disabled people often rate their own quality of life far higher than the non-disabled predict they would — the so-called disability paradox. The premise of the quality-of-life argument, she said, is at least far shakier than Singer assumes.
 :::
 ::: {.column width="45%"}
 ::: {.context-box}
-**The unsettling part**
+**Why she found it hard to answer**
 
-Johnson found Singer personable and his logic internally consistent — which is what frightened her. A coherent, well-meaning argument can still license treating some lives as expendable. The danger is not cartoon villainy; it is reasonable-sounding premises.
+Johnson granted that Singer was personable and his logic internally consistent. That was her difficulty: she could not locate an obvious flaw to point to. Her objection was therefore aimed at his premises — the quality-of-life judgments the argument starts from — rather than at any slip in his reasoning.
 :::
 :::
 ::::
