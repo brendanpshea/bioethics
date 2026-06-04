@@ -1,41 +1,41 @@
 Question type,Answer explanation,Points,Prompt,Correct answers,Answer choice 1,Answer choice 2,Answer choice 3,Answer choice 4,Answer choice 5
-MC,,,Which kind of paternalism intervenes when choice is not fully voluntary?,1,Soft paternalism only,Strict legal liability,Market-based justice,Blind state neutrality,
-MC,,,Harm reduction mainly tries to do what in risky settings?,2,Assign moral blame,Reduce overall harm,Punish relapse behavior,Seek perfect behavior,
-MC,,,Relational autonomy treats persons as what?,3,Fully self-creating,Entirely private selves,Socially embedded agents,State-defined persons,
-MC,,,The deterrence-of-care objection says criminalization can push patients away from what?,4,Court hearings,Media coverage,Research grants,Prenatal medical care,
-MC,,,A fetal-protection statute is designed to protect whose interests?,1,Fetal interests alone,Clinic profit margins,Hospital brand image,State tax credits,
-MC,,,Vulnerability as exclusion names what recurring problem?,2,Better access,Research-trial exclusion,Rapid payment,Extra private autonomy,
-MC,,,What makes gestational surrogacy distinct from traditional surrogacy?,3,No surrogacy contract,No payment allowed,No genetic tie,No pregnancy involved,
-MC,,,Commodification means treating a good under what norms?,2,Family-based norms,Market exchange norms,Religious moral norms,Legal regulatory norms,
-MC,,,Robertson's term for the right to decide whether and how to reproduce is what?,4,Publicly shareable reasons,Medical liberty,Moral-pluralist theory,Robertson's procreative liberty,
-MC,,,Reproductive justice asks whose choices are constrained by what?,1,Social conditions,Private feelings,Court etiquette,Study blinding,
-MC,,,The intent test comes from which case?,3,Baby M,LePage,Johnson v Calvert,Cox v Texas,
-MC,,,When the intent test fails what backstop standard often remains?,2,Genuine clinical equipoise,The child's best interests,Shared common morality,Final judgment,
-MC,,,Donor anonymity is harder to preserve in the era of what?,1,Consumer DNA databases,Paper medical charts,Hospital burn units,Closed adoption records,
-MC,,,What is the name of Alabama's 2024 embryo ruling in chapter 5?,4,The Dobbs ruling,Casey,Baby M,LePage,
-MC,,,Baby M involved what kind of surrogacy?,2,Gestational surrogacy,Traditional surrogacy,Commercial IVF,Embryo adoption,
-MC,,,Johnson v Calvert is associated with what legal test?,3,The undue-burden test,Wrongful death,The parenthood intent test,Best evidence,
-MC,,,Adriana Smith was declared brain-dead at about how many weeks pregnant?,1,Nine weeks,18 weeks,22 weeks,32 weeks,
-MC,,,What did the hospital cite as reason to continue support?,2,Georgia's LIFE Act,HIPAA rule,The federal Common Rule,The Belmont Report,
-MC,,,Under whole-brain death a patient is legally what?,4,Unconscious,Recovering,Critically ill,Legally dead already,
+MC,,,Which form of paternalism intervenes only when a choice is not fully voluntary?,3,Strict liability,Hard paternalism,Soft paternalism,Legal moralism,
+MC,,,Requiring a prescription to obtain opioids is offered as a defensible case of what?,2,Soft paternalism,Hard paternalism,Pure libertarianism,Harm to others,
+MC,,,Mill's harm principle permits overriding a competent adult only to prevent what?,4,Moral offense,Harm to self,Bad character,Harm to others,
+MC,,,The deterrence-of-care objection says criminalization can push patients away from what?,3,Media coverage,Research grants,Prenatal medical care,Court hearings,
+MC,,,"In prosecutions like Poolaw, prenatal drug use was charged as which kind of crime?",1,Child abuse or homicide,A small civil fine,Simple drug possession,A minor traffic offense,
+MC,,,US overdose deaths are the highest among wealthy nations despite drug policies that are what?,3,Broadly lenient,Mostly absent,Highly punitive,Treatment-centered,
+MC,,,What makes gestational surrogacy distinct from traditional surrogacy?,2,No surrogacy contract,No genetic tie,No payment allowed,No pregnancy involved,
+MC,,,Commodification means treating a good under what norms?,1,Market exchange norms,Religious moral norms,Legal regulatory norms,Family-based norms,
+MC,,,Robertson's term for the right to decide whether and how to reproduce is what?,2,Medical liberty,Robertson's procreative liberty,Moral-pluralist theory,Publicly shareable reasons,
+MC,,,Reproductive justice asks whose choices are constrained by what?,3,Court etiquette,Study blinding,Social conditions,Private feelings,
+MC,,,The intent test comes from which case?,3,LePage,Baby M,Johnson v Calvert,Cox v Texas,
+MC,,,When the intent test fails what backstop standard often remains?,1,The child's best interests,Shared common morality,Genuine clinical equipoise,Final judgment,
+MC,,,Donor anonymity is harder to preserve in the era of what?,4,Paper medical charts,Closed adoption records,Hospital burn units,Consumer DNA databases,
+MC,,,What is the name of Alabama's 2024 embryo ruling in chapter 5?,2,Casey,LePage,The Dobbs ruling,Baby M,
+MC,,,Baby M involved what kind of surrogacy?,1,Traditional surrogacy,Gestational surrogacy,Embryo adoption,Commercial IVF,
+MC,,,Johnson v Calvert is associated with what legal test?,3,Wrongful death,The undue-burden test,The parenthood intent test,Best evidence,
+MC,,,Adriana Smith was declared brain-dead at about how many weeks pregnant?,4,18 weeks,32 weeks,22 weeks,Nine weeks,
+MC,,,What did the hospital cite as reason to continue support?,1,HIPAA rule,The Belmont Report,The federal Common Rule,Georgia's LIFE Act,
+MC,,,Under whole-brain death a patient is legally what?,3,Critically ill,Unconscious,Legally dead already,Recovering,
 MC,,,Carr's 2025 letter said the LIFE Act required what after brain death?,3,Court order,Immediate delivery,Nothing in the statute,IRB review,
-MC,,,About how long was Smith kept on somatic support?,2,Four days,Four months,Four years,Four hours,
-MC,,,At about how many weeks was Chance delivered?,3,12 weeks,18 weeks,22 weeks,32 weeks,
-MC,,,How was Chance classified at birth in the case?,1,Extremely preterm,Full term infant,Late preterm,Post-term infant,
-MC,,,Caplan argued prolonged somatic gestation in Smith's case was what rather than care?,4,Ordinary comfort care,Private mourning,Routine bedside nursing,Experimental medical practice,
-MC,,,Conscription of the dead means using what for someone else's benefit?,2,Public money alone,The dead body,A court docket,A birth record,
-MC,,,What Georgia statute shaped the hospital's legal reading?,1,Georgia's LIFE Act,The HIPAA privacy law,Belmont,Comstock,
-MC,,,Which critic argued commercial surrogacy can intrinsically degrade women and children?,3,John Robertson's defense,Dorothy Roberts,Elizabeth Anderson,Philosopher Susan Sherwin,
-MC,,,Which defender argued surrogacy is protected by procreative liberty?,4,Philosopher Susan Sherwin,Bioethicist Arthur Caplan,Dorothy Roberts,John Robertson's defense,
-MC,,,Which two-word frame asks whose reproduction is constrained by social conditions?,2,Genuine clinical equipoise,The reproductive-justice frame,Lingering moral residue,Publicly shareable reasons,
-MC,,,What kind of review did Emory not seek for the four-month regimen?,1,IRB review,Tax ruling,Custody trial,Peer grading,
-MR,,,Which concepts structure the chapter's discussion of pregnancy autonomy and fetal-protection law?,"1,2,3,4",Harm reduction,Relational autonomy,Deterrence-of-care,Vulnerability as exclusion,Commodification
-MR,,,Which concepts structure the chapter's discussion of surrogacy and reproductive markets?,"1,2,3,4",Commodification,Robertson's procreative liberty,The reproductive-justice frame,The parenthood intent test,Fair subject selection
-MR,,,Which of the following statements about Adriana Smith are true?,"1,2,3,4",Adriana Smith worked as a registered nurse in Atlanta.,She was declared brain-dead at about nine weeks pregnant.,Her family said the hospital gave them no real choice.,Chance was delivered months later by emergency cesarean.,Mechanical support was permanently ended in February 2025.
-MR,,,Which statements follow from whole-brain death as defined in the case?,"1,2,3,4",Whole-brain death counts as legal death under the law.,Whole-brain death is not the same thing as a coma.,A brain-dead patient is not merely unconscious.,Mechanical support can maintain organ perfusion after death.,Whole-brain death means future recovery is expected.
-MR,,,Which cases or laws frame the chapter's debates about surrogacy embryos and fetal-personhood law?,"1,2,3,4",Baby M,Johnson v Calvert,LePage,Georgia's LIFE Act,Casey
-MR,,,Which details support the statutory reply against Emory's reading?,"1,2,3,4",The Georgia attorney general said the statute did not require support.,The statute does not explicitly order hospitals to continue support.,Withdrawing support is not the same act as performing abortion.,Republican leaders said the LIFE Act was irrelevant here.,The hospital had guaranteed legal immunity if it withdrew support.
-MR,,,Which concerns support the deterrence-of-care objection?,"1,2,3,4",Criminal penalties can push patients away from prenatal care.,Fear of prosecution can make patients hide risky behavior.,Patients may disclose less honestly when they expect punishment.,Delayed treatment can worsen both maternal and fetal outcomes.,Punitive laws generally increase trust in clinicians and hospitals.
-MR,,,Which statements distinguish gestational from traditional surrogacy?,"1,2",In gestational surrogacy the surrogate has no genetic link.,In traditional surrogacy the surrogate's own egg is used.,Gestational surrogacy is always unpaid and never commercial.,Traditional surrogacy always prevents later parental disputes.,
-MR,,,Which issues are central to the reproductive markets and embryo debate?,"1,2,3,4",Whether reproduction can be bought and sold,How donor anonymity survives consumer DNA databases,Which parenthood test should settle surrogacy disputes,When best interests should decide custody disputes,How Tuskegee shaped federal vaccine policy debates
-MR,,,Which absences made Smith's case extraordinary?,"1,2,3,4",No published protocols guided such prolonged somatic gestation.,No advance-directive guidance from Smith addressed this scenario.,Emory had no published institutional policy for the situation.,No IRB reviewed the four-month regimen.,There was no detectable fetal heartbeat at any point.
+MC,,,About how long was Smith kept on somatic support?,4,Four days,Four years,Four hours,Four months,
+MC,,,At about how many weeks was Chance delivered?,3,32 weeks,18 weeks,22 weeks,12 weeks,
+MC,,,How was Chance classified at birth in the case?,3,Full term infant,Late preterm,Extremely preterm,Post-term infant,
+MC,,,Caplan argued prolonged somatic gestation in Smith's case was what rather than care?,1,Experimental medical practice,Routine bedside nursing,Ordinary comfort care,Private mourning,
+MC,,,Conscription of the dead means using what for someone else's benefit?,4,A court docket,A birth record,Public money alone,The dead body,
+MC,,,What Georgia statute shaped the hospital's legal reading?,1,Georgia's LIFE Act,The HIPAA privacy law,Comstock,Belmont,
+MC,,,Which critic argued commercial surrogacy can intrinsically degrade women and children?,4,John Robertson's defense,Dorothy Roberts,Philosopher Susan Sherwin,Elizabeth Anderson,
+MC,,,Which defender argued surrogacy is protected by procreative liberty?,4,Dorothy Roberts,Philosopher Susan Sherwin,Bioethicist Arthur Caplan,John Robertson's defense,
+MC,,,Which two-word frame asks whose reproduction is constrained by social conditions?,1,The reproductive-justice frame,Genuine clinical equipoise,Publicly shareable reasons,Lingering moral residue,
+MC,,,What kind of review did Emory not seek for the four-month regimen?,3,Tax ruling,Peer grading,IRB review,Custody trial,
+MR,,,Which ideas organize the debate over paternalism and pregnancy?,"1,2,3,4",Partial autonomy,Mill's harm principle,Deterrence-of-care,Soft and hard paternalism,Commodification
+MR,,,Which concepts structure the chapter's discussion of surrogacy and reproductive markets?,"1,2,3,4",Robertson's procreative liberty,The parenthood intent test,The reproductive-justice frame,Commodification,Fair subject selection
+MR,,,Which of the following statements about Adriana Smith are true?,"2,3,4,5",Mechanical support was permanently ended in February 2025.,She was declared brain-dead at about nine weeks pregnant.,Adriana Smith worked as a registered nurse in Atlanta.,Her family said the hospital gave them no real choice.,Chance was delivered months later by emergency cesarean.
+MR,,,Which statements follow from whole-brain death as defined in the case?,"2,3,4,5",Whole-brain death means future recovery is expected.,A brain-dead patient is not merely unconscious.,Whole-brain death is not the same thing as a coma.,Whole-brain death counts as legal death under the law.,Mechanical support can maintain organ perfusion after death.
+MR,,,Which cases or laws frame the chapter's debates about surrogacy embryos and fetal-personhood law?,"1,2,4,5",Johnson v Calvert,Baby M,Casey,Georgia's LIFE Act,LePage
+MR,,,Which details support the statutory reply against Emory's reading?,"1,2,4,5",The statute does not explicitly order hospitals to continue support.,Republican leaders said the LIFE Act was irrelevant here.,The hospital had guaranteed legal immunity if it withdrew support.,The Georgia attorney general said the statute did not require support.,Withdrawing support is not the same act as performing abortion.
+MR,,,Which concerns support the deterrence-of-care objection?,"1,3,4,5",Delayed treatment can worsen both maternal and fetal outcomes.,Punitive laws generally increase trust in clinicians and hospitals.,Patients may disclose less honestly when they expect punishment.,Criminal penalties can push patients away from prenatal care.,Fear of prosecution can make patients hide risky behavior.
+MR,,,Which statements distinguish gestational from traditional surrogacy?,"1,3",In traditional surrogacy the surrogate's own egg is used.,Traditional surrogacy always prevents later parental disputes.,In gestational surrogacy the surrogate has no genetic link.,Gestational surrogacy is always unpaid and never commercial.,
+MR,,,Which issues are central to the reproductive markets and embryo debate?,"1,2,3,5",Which parenthood test should settle surrogacy disputes,Whether reproduction can be bought and sold,When best interests should decide custody disputes,How Tuskegee shaped federal vaccine policy debates,How donor anonymity survives consumer DNA databases
+MR,,,Which absences made Smith's case extraordinary?,"1,2,4,5",No published protocols guided such prolonged somatic gestation.,No advance-directive guidance from Smith addressed this scenario.,There was no detectable fetal heartbeat at any point.,Emory had no published institutional policy for the situation.,No IRB reviewed the four-month regimen.
