@@ -1,0 +1,41 @@
+Question type,Answer explanation,Points,Prompt,Correct answers,Answer choice 1,Answer choice 2,Answer choice 3,Answer choice 4,Answer choice 5
+MC,,,The public Human Genome Project assembled DNA using which sequencing approach?,2,Whole-genome shotgun,Clone-by-clone mapping,Direct protein readout,Single-cell sorting,
+MC,,,Celera Genomics sequenced the genome using which faster method?,2,Clone-by-clone mapping,Whole-genome shotgun,Pangenome assembly,Sanger microarray,
+MC,,,Whose own DNA made up most of the Celera reference genome?,4,Francis Collins,James Watson,Johann Blumenbach,Craig Venter,
+MC,,,Geneticization names the tendency to do what with human differences?,3,Deny any heritability,Blame the environment,Reduce them to DNA,Ignore inherited traits,
+MC,,,PKU is the textbook example of which relationship?,3,Somatic mutation spread,Random genetic drift,Gene-environment interaction,Pure genetic destiny,
+MC,,,The human reference genome was stitched together from whom?,1,A few anonymous donors,A perfect average,One typical person,Only synthetic DNA,
+MC,,,Polygenic risk scores predict most accurately for which group?,3,Indigenous ancestry,Mixed ancestry,European ancestry,African ancestry,
+MC,,,NIPT is correctly classified as which kind of test?,4,A confirmatory test,A diagnostic test,A carrier test,A screening test,
+MC,,,Feinberg argued that children hold a right to what?,1,An open future,A perfect genome,Guaranteed treatment,Full parental disclosure,
+MC,,,NASEM 2023 says race should not be used as a proxy for what?,3,Geographic ancestry,Social exposure risk,Human genetic variation,Cultural heritage,
+MC,,,GINA 2008 bars genetic discrimination in which two areas?,4,Housing and lending,Schools and the military,Life and disability insurance,Health insurance and employment,
+MC,,,Forensic genetic genealogy first drew wide attention by identifying whom?,3,A vaccine fraudster,A lab whistleblower,The Golden State Killer,A missing heir,
+MC,,,Enhancement is defined as improving function beyond what is needed to do what?,4,Match a competitor,Satisfy a patient,Follow a guideline,Restore or sustain health,
+MC,,,The normal-function account of health is most associated with whom?,4,Parfit,Habermas,Sandel,Boorse,
+MC,,,Coining new diagnoses to license new interventions is called what?,3,Missing heritability,Genetic determinism,Nosological elasticity,Procreative beneficence,
+MC,,,CRISPR-Cas9 functions essentially as what for DNA?,4,A protein scanner,A random mutagen,A cell-culture dye,Programmable find-and-replace,
+MC,,,"Casgevy, the first approved CRISPR therapy, treats which disease?",4,Inherited blindness,Type 2 diabetes,Cystic fibrosis,Sickle-cell disease,
+MC,,,Casgevy changes a patient through which kind of edit?,1,A somatic edit,A germline edit,A heritable edit,An embryo edit,
+MC,,,Savulescu's claim that parents should select the best-off child is called what?,1,Procreative beneficence,The open future,Giftedness ethics,Making versus growing,
+MC,,,Sandel's argument against enhancement centers on which idea?,4,Non-identity,Elasticity,Beneficence,Giftedness,
+MC,,,Habermas locates the wrong of enhancement in the difference between what?,3,Health and disease,Public and private,Making and growing,Screening and editing,
+MC,,,The non-identity problem comes from which philosopher?,2,Boorse,Parfit,Feinberg,Sandel,
+MC,,,Polygenic scores for IQ currently explain about how much of the variance?,3,Under 1 percent,50 to 60 percent,10 to 15 percent,About 90 percent,
+MC,,,Polygenic embryo selection differs from CRISPR because it involves only what?,4,Cloning of embryos,"Editing, not selection",Germline repair,"Selection, not editing",
+MC,,,He Jiankui used CRISPR to disable which gene in the embryos?,2,TP53,CCR5,RPE65,BRCA1,
+MC,,,The natural CCR5-delta-32 variant confers resistance to what?,2,Influenza,HIV,Tuberculosis,Hepatitis B,
+MC,,,He's consent form described the study to the couples as what?,1,An AIDS vaccine project,A fertility study,A gene-editing trial,A cancer screening,
+MC,,,"In the trial couples, which parent was HIV-positive?",1,The father,The mother,Neither parent,Both parents,
+MC,,,A Chinese court convicted He Jiankui of which offense?,4,Crimes against humanity,Patent infringement,Fraud against donors,Illegal medical practice,
+MC,,,Critics stressed the experiment was unjustified because the medical problem was what?,4,Newly discovered,Untreatable then,Extremely rare,Already solvable safely,
+MR,,,Which statements about NIPT are accurate?,"1,2,3,4",It is a screening test rather than a diagnosis.,It can be performed from about ten weeks of pregnancy.,A positive result is usually confirmed by amniocentesis.,NIPT reads cell-free fetal DNA from maternal blood.,A positive NIPT result confirms Down syndrome by itself.
+MR,,,Which statements describe the ancestry-bias problem in genomics?,"1,2,3,4",Most GWAS participants have been of European ancestry.,The reference genome came mostly from very few donors.,Risk scores predict less accurately for African ancestry.,A pangenome aims to replace one reference with many.,The bias exists because the underlying math is flawed.
+MR,,,Which statements about GINA 2008 are correct?,"1,2,3,4",It bars genetic discrimination in health insurance.,It covers employers with fifteen or more workers.,It does not cover members of the US military.,It does not protect life or disability insurance.,It bans genetic discrimination in every insurance market.
+MR,,,Which are recognized accounts of the treatment-enhancement line?,"2,3,5",Market-equilibrium account,Normal-function account,Disease-based account,Harm-principle account,Professional-domain account
+MR,,,Which statements about Casgevy are true?,"1,3,4,5",It treats inherited sickle-cell disease.,It edits embryos and passes to descendants.,Its price is about 2.2 million dollars.,The FDA approved it in December 2023.,"It is a somatic, non-heritable edit."
+MR,,,Which claims fit Sandel's case against enhancement?,"1,3,4,5",Children should be accepted as gifts.,Parents have a positive duty to enhance children.,Parental love should not track chosen traits.,Designed children can erode social solidarity.,Enhancement expresses a drive to mastery.
+MR,,,Which statements about polygenic embryo selection are accurate?,"2,3,4,5",It reliably guarantees a high-IQ child.,It begins with IVF and embryo biopsy.,It ranks embryos by polygenic risk scores.,The expected IQ gain is only a few points.,"It involves selection, not gene editing."
+MR,,,Which features made He's experiment a research-ethics failure?,"1,2,3,5",The consent process was deeply flawed.,No legitimate body oversaw the work.,"The edits were novel, not the natural variant.",An ethics board properly approved the trial.,The couples could already have unaffected children.
+MR,,,Which efforts formed the consensus He's experiment violated?,"1,2,4",The 2018 Nuffield Council framework,The 2015 Napa moratorium statement,A binding United Nations treaty,The 2017 National Academies report,An FDA approval of germline editing
+MR,,,"Given the non-identity problem, where do the readings locate the wrong?","1,2,3,4",The wrong lies in the relationship that was set up.,Feinberg says a future they might choose was foreclosed.,"Habermas says the twins were made, not grown.",The future persons could never consent to the edits.,The twins were clearly harmed versus never existing.
