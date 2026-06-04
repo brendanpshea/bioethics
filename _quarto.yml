@@ -58,10 +58,10 @@ website:
             text: "Part A — Moral Status"
           - href: chapters/04b-abortion-law.qmd
             text: "Part B — Law & Cases"
-      - section: "5. Reproductive Ethics"
+      - section: "5. Autonomy, Paternalism, and Reproduction"
         contents:
-          - href: chapters/05a-pregnancy-autonomy.qmd
-            text: "Part A — Pregnancy & Autonomy"
+          - href: chapters/05a-paternalism.qmd
+            text: "Part A — Paternalism & Its Limits"
           - href: chapters/05b-reproductive-markets.qmd
             text: "Part B — Markets & Surrogacy"
       - section: "6. Genomics & Enhancement"

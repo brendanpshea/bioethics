@@ -32,7 +32,7 @@ By the end of the course, students will be able to:
 | 2 | History & the Clinical Relationship | Hippocratic → Nuremberg → Belmont | Autonomy, consent, truth-telling, confidentiality |
 | 3 | Research Ethics | RCT primer; historical abuses | Vulnerability, equipoise, commercial funding, the replication crisis |
 | 4 | Abortion | Moral status arguments | The Law and Reproductive Rights (US and global) |
-| 5 | Reproductive Ethics | Pregnancy, autonomy & maternal-fetal conflict | Making family: markets, surrogacy, parental rights |
+| 5 | Autonomy, Paternalism & Reproduction | Paternalism and its limits | Making family: markets, surrogacy, parental rights |
 | 6 | Genomics & Enhancement | Reading genomes: prediction, privacy, dual use | Engineering persons: CRISPR, enhancement, identity |
 | 7 | End of Life | Brain death, advance directives | Euthanasia, MAID, disability critiques |
 | 8 | Justice & Health Care Allocation | Theories of justice; right to care | Disparities, implicit bias, rationing |
@@ -176,27 +176,25 @@ The systematic ethics of clinical trials, organized around one spine — **vulne
 
 ---
 
-## L5. Reproductive Ethics
+## L5. Autonomy, Paternalism, and Reproduction
 
-### L5a. Pregnancy, Autonomy, and Maternal-Fetal Conflict
+### L5a. Paternalism and Its Limits
 
-The lecture is built around a single question — *what does respect for autonomy require during pregnancy?* — and uses substance use, refusal of obstetric care, and research participation as the three terrains where the standard liberal model of autonomy visibly strains.
+The lecture builds one tool — Mill's framework for justified paternalism — and stress-tests it on the two hardest places medicine uses it: drug policy and pregnancy.
 
-- **Liberal vs. relational autonomy:** the standard L2b model (a bounded self with stable preferences) and Susan Sherwin's relational critique (autonomy as exercised through, not against, social relationships).
-- **Justified paternalism — a primer.** Mill's harm principle and its limits; soft vs. hard paternalism; the U.S. experience with alcohol prohibition (1920–33) and the modern war on drugs; harm reduction as a third frame. Background for the pregnancy-specific debates that follow.
-- **Criminalization of substance use in pregnancy:** *Ferguson v. City of Charleston* (2001, MUSC's covert drug-testing program struck down); Wisconsin's Act 292 ("cocaine mom" law, 1997–present); Alabama's chemical-endangerment statute; Tennessee's expired fetal-assault law and its public-health rebound; *Brittney Poolaw* (Oklahoma, 2021, manslaughter conviction for a miscarriage after methamphetamine use). Pregnancy Justice's documentation of roughly 1,400 pregnancy-related criminalization cases between 1973 and 2020.
-- **Refusal of medically recommended care during pregnancy:** *In re A.C.* (DC, 1990, court-ordered cesarean later repudiated on appeal); ACOG Committee Opinion 664 and the modern professional consensus against forced obstetric intervention.
-- **Brain death and pregnancy:** *Marlise Muñoz* (Texas, 2013–14) as the precedent; *Adriana Smith* (Atlanta, 2025) — a Black registered nurse declared brain-dead at nine weeks pregnant and kept on somatic support for four months under a contested reading of Georgia's LIFE Act. Preview of the case study; quick bridge to L7.
-- **Vulnerability the other way: research exclusion.** Pregnant women were historically excluded from clinical trials as "vulnerable," with the result that we have almost no safety data on most prescription drugs in pregnancy. The 2018 PRGLAC report reframed exclusion *itself* as the harm — a callback to L3's FDORA logic and the "wrongful exclusion" face of the justice principle.
+- **The Millian framework.** Paternalism defined (interference, without consent, *only because* it is for the person's good); Mill's harm principle and his own exceptions (children, the bridge); soft vs. hard paternalism distinguished by whether the overridden choice is *compromised* or *competent*; the three-question test (competent? voluntary? harm to the chooser alone?).
+- **Hard paternalism, defended.** Prescription-only opioids as a piece of hard paternalism we accept, and the actual justification for it (addiction, information asymmetry, irreversibility, the choosing-self/later-self gap) — which works by treating the choice as less voluntary than it appears.
+- **Why drug policy is hard.** Unrestricted 19th-century opiates (patent medicines, infant "soothing syrups") as the case *for* control; Prohibition (1920–33) as the case against bans; a cross-national comparison (US, Portugal, Netherlands, Singapore, Japan) showing stringency does not predict outcomes; two coherent models (consistent strictness vs. funded decriminalization) and the soft-paternalism middle (tobacco taxes, the 21 drinking age, naloxone).
+- **Pregnancy as a paternalism problem.** The second-party complication for Mill's third question; a spectrum of interventions from soft (risk messaging) to hard (criminal prosecution), read as a ladder; *Ferguson v. City of Charleston* (2001) as the hard end's mechanism; Tennessee's expired fetal-assault law and Faherty et al. (2019) as the result (deterrence-of-care); *Brittney Poolaw* (Oklahoma, 2021) and the Paltrow–Flavin count; ACOG Opinions 473/664 as the professional line.
+- **Partial autonomy — the hardest case.** Where autonomy is real but incomplete: the addicted chooser, the pregnant patient, and the adolescent; mature-minor doctrine and confidential adolescent care.
 
 **Visual elements:**
 
-- *Figure (code-generated):* 2×2 grid placing liberal autonomy and relational autonomy along axes of "self as bounded ↔ embedded" and "interests as fixed ↔ socially responsive."
 - *Figure (code-generated):* a Mill-style decision tree for paternalistic intervention — competent? voluntary? harming only self? — applied to one drug-policy case and one pregnancy case.
-- *Table:* pregnancy-criminalization frameworks across selected states — Wisconsin, Alabama, Tennessee, Oklahoma — what triggers prosecution, what defenses are available, current status.
-- *Sidebar:* "Why does ACOG oppose criminalizing substance use in pregnancy?" — summary of the public-health case.
-- *Case box:* *In re A.C.* (1990) — the forced-cesarean ruling and the appellate court's later repudiation.
-- *Sidebar:* "Why were pregnant women excluded from clinical research, and why is that changing?" — PRGLAC and the FDA's recent guidance on including pregnant participants.
+- *Table:* cross-national drug policy — overdose and incarceration rates against policy stance, showing stringency does not track outcomes.
+- *Table:* the spectrum of interventions aimed at pregnant women, soft to hard, with the paternalism type of each.
+- *Scoreboard table:* worked cases (sedated patient, age limits, cigarette taxes, prescription opioids, prenatal-drug prosecution) sorted soft/hard with the verdict on each.
+- *Sidebar:* "Why does ACOG oppose criminalizing substance use in pregnancy?" — the convergence of the ethical argument and the population data.
 - *Discussion prompt:* "If alcohol use during pregnancy can harm a future person, why don't we prosecute it the way we prosecute meth use? What does your answer commit you to about *every* legal substance?"
 
 ### L5b. Making Family: Markets, Surrogacy, and Parental Rights
