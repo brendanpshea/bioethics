@@ -595,8 +595,7 @@ A genetic test shows Mrs. R carries a mutation her adult siblings may also carry
 ## After You've Discussed
 
 ::: {.callout-note}
-- **Only Mrs. R can waive her own right to know.** A competent patient may *autonomously choose* not to receive information ("just talk to my daughter") — that is respected autonomy. The family *withholding* it from her, unasked, is not their call.
-- So it isn't "autonomy vs. culture." The move is to ask Mrs. R — *before* the bad news — how much she wants to know and whom she wants involved. Culturally informed, and still hers.
+- **Only Mrs. R can waive her own right to know.** A competent patient may choose not to receive information ("just talk to my daughter") — that is respected autonomy; the family withholding it from her, unasked, is not. So it isn't "autonomy vs. culture": ask *her*, before the bad news, how much she wants to know and whom she wants involved.
 - The genetic case is **different in kind**: a third party's welfare is now at stake. That is closer to Tarasoff than to truth-telling.
 :::
 

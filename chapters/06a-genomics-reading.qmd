@@ -39,8 +39,6 @@ The thought experiment turns on a distinction we will return to all lecture.
 - **Actionable now** — a finding the family can act on in childhood (a treatable metabolic condition).
 - **Actionable later** — a finding that matters in adulthood, when the child can decide for herself whether to know (BRCA1, late-onset Alzheimer's risk).
 - **Informative but not actionable** — a finding that names a risk no one can act on yet (some Huntington's variants in a healthy infant).
-
-Today is about what genetic tests *can* read, what they *cannot* read, and which decisions get easier or harder once they have read it.
 :::
 
 ## Today
@@ -394,14 +392,7 @@ You are the parent we opened with. The hospital is enrolling for a study that re
 ## After You've Discussed
 
 ::: {.callout-note}
-A distinction worth carrying forward.
-
-**Actionability** does not mean a single thing. It can mean:
-
-- *Actionable now* — there is a treatment we can start tomorrow (PKU diet, congenital hypothyroidism).
-- *Actionable later* — there is a screening or prevention plan that begins in adulthood (BRCA, Lynch syndrome).
-- *Behaviorally actionable* — no medical treatment, but the family changes plans (career, when to have kids).
-- *Not actionable* — the information is interesting but changes nothing concrete.
+The opener split results into *actionable now*, *actionable later*, and *merely informative*. Two finer senses matter here: a finding can be *behaviorally* actionable — no treatment, but the family changes plans (career, when to have kids) — or *not actionable* at all.
 
 The ACMG and AAP do not disagree about the science. They disagree about which of these counts as "actionable enough" to override a child's right to decide for herself.
 :::
@@ -496,7 +487,7 @@ You are a primary-care clinician reading the morning's literature alerts. A new 
 ## After You've Discussed
 
 ::: {.callout-note}
-A clinician will, this week, read a study saying "African American patients have a higher rate of variant X." Three readings sit underneath that sentence. They do not commit to the same things.
+"African American patients have a higher rate of variant X" can mean three different things, and they do not commit to the same claims.
 
 - *Race as ancestry-proxy*: the variant is more common in people whose recent ancestors came from certain regions of Africa. Replace the label with the geographic ancestry and the claim becomes precise.
 - *Race as social-exposure proxy*: the variant looks more common because what activates it (lead, redlining, segregated air) tracks race in the US.

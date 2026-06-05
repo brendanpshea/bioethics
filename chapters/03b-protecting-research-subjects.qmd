@@ -120,8 +120,7 @@ You are on an IRB reviewing a vaccine study.
 ## After You've Discussed
 
 ::: {.callout-note}
-- **Name the pressures, then design against them.** This study mixes juridic (incarceration), allocational (payment, clinic access), and infrastructural (will the vaccine reach them after?) vulnerability.
-- **Convenience is the enemy.** "Easy follow-up" is never, by itself, a reason to pick a population.
+- **Name the pressures, then design against them.** This study mixes juridic (incarceration), allocational (payment, clinic access), and infrastructural (will the vaccine reach them afterward?) vulnerability.
 - **Inclusion and protection can conflict.** Banning prison research protects against coercion. It can also deny prisoners the benefits of studies aimed at their own disease.
 :::
 
@@ -178,14 +177,6 @@ This protocol lands on your desk:
 1. Which vulnerability types apply? Score the protocol on each Belmont principle. Where is it weakest?
 2. What single change would you require before approving it?
 3. Is "easy follow-up" ever a fair reason to pick a population?
-:::
-
-## After You've Discussed
-
-::: {.callout-note}
-- **Respect for persons:** these residents are *cognitively* vulnerable. Surrogate consent is allowed. But the residents' own assent — and dissent — still count. A child's signature is not the whole story.
-- **Beneficence:** a 12-month placebo arm in a progressive disease needs serious justification [@commonrule_hhs].
-- **Justice:** "they don't move" is convenience recruitment. That is exactly what fair selection forbids.
 :::
 
 # Equipoise: The Moral Clock on a Trial {.section-divider}
@@ -331,10 +322,9 @@ You are on an ethics committee in 1997 reviewing a short-course AZT trial in Uga
 ## After You've Discussed
 
 ::: {.callout-note}
-Three hard truths belong together here. This is **allocational** and **infrastructural** vulnerability by design.
+This is **allocational** and **infrastructural** vulnerability by design.
 
-- **"Local standard" describes the world. It does not settle what is ethically owed.**
-- **Feasibility matters. But poverty must not become a discount on human protections.** A study can be practical and still exploitative.
+- **"Local standard" describes the world; it does not settle what is owed.** A study can be feasible, even locally standard, and still exploitative — poverty is not a discount on human protections.
 - **Post-trial access is part of the ethics, not cleanup.** Proving a regimen works and then taking it away uses the host community [@emanuel2004benchmarks; @helsinki2024].
 :::
 
@@ -522,8 +512,7 @@ A landmark drug trial is later found to contain manipulated data. Thousands of p
 
 ::: {.callout-note}
 - **Integrity is a subject-protection issue too.** A false result is not just an academic error. It is the knee surgery, the hormone pill, the amyloid infusion that thousands of real people endured for nothing.
-- **The safeguards are thin by design.** Science runs on trust and the occasional replication. Misconduct — and now AI — exploits exactly that.
-- **Fixes are structural:** preregistration, registered reports, data sharing, independent replication, faster retractions.
+- **The safeguards are thin by design** — science runs on trust and occasional replication — so the fixes are structural: preregistration, data sharing, independent replication, faster retractions.
 :::
 
 # Wrapping Up Part B {.section-divider}

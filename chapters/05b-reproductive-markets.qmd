@@ -38,7 +38,6 @@ Three things to hold onto from that scene:
 
 - The same contract has been treated four different ways in four different jurisdictions. New Jersey voided it. California enforces gestational versions of it routinely. India banned it in 2015. France treats arrangements like it as criminal.
 - The disagreement is not about *whether* people will continue to want what the Sterns wanted. It is about what kind of arrangement the law should make available to them.
-- The lecture's question is what to make of markets that move pieces of family life — gametes, gestation, parental rights — across the boundaries we used to assume were not market boundaries at all.
 :::
 
 ## Today
@@ -484,9 +483,7 @@ A married couple in Los Angeles begins an IVF cycle using a paid egg donor — t
 ## After You've Discussed
 
 ::: {.callout-note}
-**The intent test does most of the day-to-day legal work in the US.** It is fast, it is contract-friendly, and it produces predictable answers in the typical gestational-surrogacy case.
-
-But the intent test **presupposes a clean contract**. When the contract dissolves — through death, divorce, dispute, or simple change of mind — the test runs out of inputs. *Baby M*'s **best-interests-of-the-child** backstop is what catches those cases. It is slower, less predictable, and more discretionary. It is also the principle the law falls back on when the cleaner test breaks down.
+**The intent test does most of the day-to-day legal work in the US** — fast, contract-friendly, predictable in the typical gestational case. But it **presupposes a clean contract**. When the contract dissolves — death, divorce, dispute, a change of mind — it runs out of inputs, and *Baby M*'s **best-interests-of-the-child** standard is the slower, more discretionary backstop that catches those cases.
 
 The American compromise is to use both: intent as the rule, best interests as the safety net.
 :::

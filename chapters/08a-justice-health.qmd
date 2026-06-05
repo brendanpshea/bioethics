@@ -380,13 +380,9 @@ So the trade-off is stark and real: the US protects the poor from being pressure
 ## After You've Discussed
 
 ::: {.callout-note}
-The kidney-market debate turns on three ideas people tend to blur:
+The same three ideas from research ethics return here — **coercion**, **undue inducement**, and **exploitation** — and they still come apart the same way: a kidney sale may involve no coercion at all and remain exploitative.
 
-- **Coercion** — a threat removes your choice ("sell, or I hurt you").
-- **Undue inducement** — an offer is so large or your need so desperate that you can't reason well about the risk.
-- **Exploitation** — a deal is voluntary *and* mutually beneficial, yet still unfair because one side takes advantage of the other's vulnerability.
-
-A kidney sale may involve no coercion at all and still be exploitative. Lurking under all three is **commodification** — the worry that some things (organs, votes, people) are degraded the moment they carry a price.
+What the market case adds is a fourth idea the first three miss: **commodification** — the worry that some things (organs, votes, people) are degraded the moment they carry a price. That, not coercion, is what splits the debate.
 :::
 
 # Is There a Right to Health Care? {.section-divider}
