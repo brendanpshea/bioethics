@@ -388,37 +388,43 @@ The lecture's spine is the **treatment-vs-enhancement distinction** — normativ
 
 ### L9a. From Patient to Population
 
+The lecture's question: when may a society override individual liberty for the sake of collective health — and how would we know it has gone too far?
+
 - How public health ethics differs from clinical ethics: the unit of concern shifts from the individual patient to the population.
-- Five core public health ethics frameworks (e.g., Childress et al.'s benchmarks: effectiveness, proportionality, necessity, least infringement, public justification).
-- Classic tensions: **individual liberty vs. collective welfare**.
+- **The tension, anchored in Mill (callback, L5a).** The harm principle is the liberty default — but contagion makes "harm to others" literal and collective, which is exactly where the principle gets interesting. Public health is the standing exception that has to justify itself.
+- **The test for that justification: Childress et al.'s five benchmarks** — effectiveness, proportionality, necessity, least infringement, public justification. Not a separate topic from the liberty tension; the rubric for adjudicating it.
 - A short history of public health: sanitation, vaccination, fluoridation, tobacco control — the wins, and the resistance.
-- **Jacobson v. Massachusetts** (1905) and the legal basis for vaccine mandates.
+- **Jacobson v. Massachusetts** (1905) and the legal basis for vaccine mandates — and its dark mirror, *Buck v. Bell* (1927), which cited *Jacobson* to uphold compulsory sterilization (callback to L2 eugenics): the same "public health necessity" logic turned to the unforgivable. The benchmarks — necessity, least infringement — are what is supposed to stop that slide.
+- **Forward link to 9b:** 9a is what the state may legitimately *compel*; 9b is what it may do when it cannot — or should not — reach for force.
 
 **Visual elements:**
 - *Figure (code-generated):* side-by-side comparison of clinical ethics vs. public health ethics — unit of concern, primary value, key tensions.
 - *Figure (code-generated):* line graph showing disease incidence before and after major public health interventions (e.g., measles before/after vaccine).
 - *Image (public domain):* John Snow's cholera map (1854), Wikimedia Commons.
 - *Table:* Childress et al.'s five "justificatory conditions" with an example for each.
-- *Sidebar:* "What did Jacobson actually decide?" — a short legal note.
+- *Sidebar:* "What did Jacobson actually decide?" — a short legal note (it upheld a $5 fine, not forced vaccination), paired with the *Buck v. Bell* warning about how the same logic was abused.
 
-### L9b. Pandemics, Mandates, and What COVID Revealed
+### L9b. False Beliefs and Public Health: The Ethics of Correction
 
-- **Quarantine and isolation**: ethical justifications and their limits.
-- **Vaccine mandates** and conscientious exemptions — the religious, philosophical, and medical exemption debate.
-- **Crisis standards of care**: how triage shifts under scarcity (ventilators, ICU beds, monoclonals).
-- **Implicit bias** in clinical encounters — what the evidence says (pain undertreatment, dismissed symptoms) and what interventions show promise; a population-level mechanism behind disparities (relocated from L8b).
-- What COVID-19 revealed:
-  - Pre-existing inequities (race, occupation, housing density)
-  - Governance failures and information environments
-  - The limits of public trust as a resource
-- Ethical lessons going forward — and what the field is still arguing about.
+The lecture's question: if giving people the facts doesn't fix false medical beliefs — and can entrench them — what may a clinician or a state permissibly do instead, without manipulating people or simply declaring dissent irrational? COVID-19 is the springboard, but the target is the general problem.
+
+- **The naïve view: the "deficit model."** People believe falsehoods because they lack information; the cure is education. This is where most students — and most clinicians — start.
+- **Why facts don't fix it — Dan Kahan.** Identity-protective (cultural) cognition: on politically charged science, *more* scientific literacy predicts *more* polarization, not less. Reasoning is defending the tribe, not tracking the truth — so "explain harder" demonstrably fails.
+- **Why correction can backfire — C. Thi Nguyen.** The **epistemic bubble** (merely omits opposing voices; pops on contact with them) vs. the **echo chamber** (actively discredits outside sources, so contact makes things worse). Handing an echo-chamber member the CDC page can confirm their priors.
+- **So should we stop trusting experts? No — trust the *process* — Naomi Oreskes.** *Why Trust Science?*: science's authority rests on organized, social skepticism (peer critique, replication), not individual genius. *Merchants of Doubt*: doubt is deliberately **manufactured** by actors who exploit that very openness (tobacco → climate → vaccines). The task becomes distinguishing *earned distrust* from *cultivated denial*.
+- **Callbacks (no new thinkers):**
+  - The **replication crisis** (L3, Ioannidis): students already know science gets things wrong — that is the objection Oreskes answers (the warrant is self-correction, not infallibility).
+  - **Tuskegee** (L2/L3): sometimes distrust is *earned* — some "false beliefs" are rational inferences from a real betrayal. The clinical-encounter evidence on dismissed symptoms and undertreated pain (relocated from L8b) is the population-level mechanism: people learn distrust.
+  - **Mill's harm principle and marketplace of ideas** (L5a): Mill bet truth wins an open contest — do echo chambers break the bet? Nudging or regulating belief is *soft paternalism aimed at the intellect*; run L5's three-question test on it.
+  - **Autonomy requires understanding** (L2b, consent): is a misinformed refusal even an autonomous choice — and who gets to rule the understanding "corrupted"?
+- **The two case sites:** the clinician facing one misinformed patient vs. the policymaker facing a misinformed population — the same dilemma at different altitudes. The resolution to end on is *trustworthy process*, not belief-engineering.
 
 **Visual elements:**
-- *Figure (code-generated):* a triage decision tree for ventilator allocation under crisis standards (illustrative, with the major scoring approaches noted).
-- *Figure (code-generated):* bar chart of COVID-19 mortality by race/ethnicity and by occupation type (CDC data).
-- *Table:* Arguments for and against vaccine mandates — public health, autonomy, religious liberty, equity.
-- *Case box:* The Italian ICU triage protocols of March 2020.
-- *Discussion prompt:* "What would *fair* allocation of the first 100,000 doses of a pandemic vaccine look like?"
+- *Figure (code-generated):* Kahan's result, illustrated — belief polarization *widening* as science literacy rises (two diverging lines by cultural group), against the deficit model's predicted convergence.
+- *Figure (code-generated):* a 2×2 / side-by-side contrasting the epistemic bubble and the echo chamber on two features — does it omit other voices, or actively discredit them? — with the predicted effect of "more exposure" for each.
+- *Table:* a ladder of responses to false medical belief, from rational persuasion → framing/nudges → platform regulation → mandates, each tagged with the L5 paternalism type and the autonomy worry it raises.
+- *Case box:* manufactured doubt — the tobacco industry's "doubt is our product" memo, and the reused playbook (Oreskes), as a template students can spot in a contemporary health claim.
+- *Discussion prompt:* "A parent refuses a childhood vaccine on a false belief. Name one response that respects their autonomy and one that manipulates — and say what makes the difference."
 
 ---
 

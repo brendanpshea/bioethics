@@ -1,0 +1,520 @@
+---
+title: "Lecture 9 — Public Health Ethics"
+subtitle: "Part A: From Patient to Population"
+author: "Brendan Shea, PhD"
+date: ""
+date-meta: last-modified
+institute: "An Introduction to Bioethics."
+format:
+  html:
+    toc: true
+    number-sections: true
+  revealjs:
+    output-file: 09a-public-health-slides.html
+---
+
+# A Healthy Woman in Quarantine {.section-divider}
+
+## A Case to Sit With
+
+::: {.thought-question}
+It is 1907. **Mary Mallon** is a cook in New York City. She is healthy — she has never been sick a day in her life. But typhoid fever keeps breaking out in the families she cooks for: 22 cases so far, at least one of them fatal. Investigators believe her body carries the bacteria without harming her, and that she spreads it through the food she prepares.
+
+She feels fine, has broken no law, and refuses to believe she is dangerous.
+
+You are the health officer who must decide.
+
+1. May the city detain a healthy person who has committed no crime?
+2. If yes, for how long — and what would have to be true to justify it?
+3. What do you owe Mary in return for taking her freedom?
+:::
+
+## What the City Actually Did
+
+Mary Mallon was the first known **healthy carrier** of typhoid in the United States.
+
+- Health officials seized her and isolated her on **North Brother Island**, in the East River, without a trial.
+- She was released in 1910 after promising never to cook again — then changed her name and went back to cooking, sparking a fresh outbreak at a maternity hospital.
+- She was detained a second time and held on the island for **23 more years**, until her death in 1938 — about **26 years** of confinement in all [@leavitt1996].
+
+## After You've Discussed
+
+::: {.callout-note}
+Mary's case is hard precisely because both sides have a real claim. She was harming people who never chose the risk. *And* she was a poor Irish immigrant woman, locked away for decades while other carriers were merely warned.
+
+The clinical ethics you have learned so far asks: *what does this patient want, and what is good for her?* That framing cannot even state Mary's problem — because the people who matter most here are **the strangers she might infect**.
+
+Today we build the tools for that second kind of ethics, and we will come back to Mary at the end to judge what was done to her.
+:::
+
+## Today
+
+::: {.learning-outcomes}
+By the end of Part A, you will be able to:
+
+- Explain how **public health ethics** differs from clinical ethics, and why the unit of concern shifts from the patient to the **population**.
+- State **Mill's harm principle** and explain why contagion is the case where it bites hardest.
+- Apply **Childress and colleagues' five justificatory benchmarks** to a real public health intervention.
+- Trace a short history of public health — sanitation, vaccination, fluoridation, tobacco — and what made each one fought over.
+- Reconstruct what **Jacobson v. Massachusetts** (1905) decided, and how the same logic was abused in **Buck v. Bell**.
+:::
+
+# From Patient to Population {.section-divider}
+
+## Two Different Jobs
+
+Clinical ethics and public health ethics answer to **different patients**.
+
+| | Clinical ethics | Public health ethics |
+|---|---|---|
+| **Unit of concern** | the individual patient | the population |
+| **Primary value** | autonomy — the patient's own choice | collective welfare and fairness |
+| **Key relationship** | doctor and patient, by consent | the state and a community, often without consent |
+| **Hard question** | what does *this* person want? | who may be burdened for the good of all? |
+
+## The Patient in Front of You Isn't the Only Patient
+
+In the clinic, the person who bears the risk and the person who makes the choice are usually **the same**. Public health pulls them apart.
+
+- When Mary cooks, *she* runs no risk — the risk falls on the families at her table.
+- When a parent declines a vaccine, the exposed include the newborn and the cancer patient who cannot be vaccinated at all.
+- The decision and the danger sit with **different people**, which is exactly why consent alone cannot settle it.
+
+::: {.context-box}
+**What "population health" measures**
+
+Public health works in rates, not individuals. **Incidence** is how many *new* cases appear in a population over a period (say, measles cases per 100,000 per year). A measure that barely helps any single patient can still prevent thousands of cases once it is spread across a whole population.
+:::
+
+# Liberty vs. Collective Welfare {.section-divider}
+
+## Mill's Harm Principle
+
+The starting presumption in a free society is **liberty**: adults may run their own lives, even badly. John Stuart Mill gave the classic limit.
+
+> "The only purpose for which power can be rightfully exercised over any member of a civilized community, against his will, is to **prevent harm to others**." [@mill1863]
+
+Harm to *yourself* is not enough. The state needs **harm to others** to justify coercion — and that is the door public health walks through.
+
+## Why Contagion Is the Hardest Case
+
+You met the harm principle when we asked whether the state may protect people from *themselves*. Infectious disease changes the problem, because the harm is no longer self-regarding.
+
+- A drinker mostly endangers himself; a contagious person endangers **strangers who never consented** to the risk.
+- One unvaccinated child raises the danger for everyone too young or too sick to be vaccinated — a cost imposed on others.
+- So contagion is the cleanest case Mill allows: the choice genuinely **reaches other people's bodies**.
+
+::: {.context-box}
+**Externalities and herd immunity**
+
+An **externality** is a cost your choice imposes on someone who had no say in it — like secondhand smoke. Vaccination creates the opposite, a benefit to others: once enough of a community is immune, the disease cannot spread easily, which protects the **few who cannot be vaccinated**. That shared shield is called **herd immunity**.
+:::
+
+## The Exception That Must Justify Itself
+
+So public health is not a standing license to coerce. It is a **standing exception** to the presumption of liberty — and an exception has to earn its keep, every time.
+
+That raises the question this whole lecture turns on:
+
+> When may a society override individual liberty for the sake of collective health — and how would we know when it has gone **too far**?
+
+A slogan like "public safety" is not an answer. We need a **test**.
+
+# How Do We Know It's Justified? {.section-divider}
+
+## Five Benchmarks
+
+Childress and colleagues proposed five conditions a coercive public health measure should meet before we accept it [@childress2002]. Think of them as a checklist that a mere appeal to "safety" must pass.
+
+| Benchmark | The question it forces |
+|---|---|
+| **Effectiveness** | Will this actually work — is there real evidence it protects health? |
+| **Proportionality** | Do the public benefits outweigh the burdens on liberty and privacy? |
+| **Necessity** | Is coercion truly needed, or would a softer measure do? |
+| **Least infringement** | Among options that work, is this the *least* restrictive? |
+| **Public justification** | Can officials explain it openly to those who bear the burden? |
+
+## How to Use Them
+
+The benchmarks do not give a yes-or-no verdict by themselves. They tell you **what the argument is about** — and where a policy is weakest.
+
+- A measure can be **effective** yet fail **proportionality** (it works, but the cost to liberty is too high).
+- It can be **necessary** yet fail **least infringement** (something *had* to be done, but not *this*).
+- Most real disputes are not "liberty vs. safety" in the abstract; they are fights over **one specific benchmark**.
+
+## How to Read the Scoreboard
+
+We score every major case against the same five benchmarks. **The marks are not a tally** — each reports the status of *one* dimension:
+
+- ✅ **clearly met** — settled, not in dispute.
+- ⚖️ **the legitimate battleground** — defensible either way; where honest people argue, *not* a weakness.
+- ❌ **fails** — a genuine defect.
+
+A measure can be **fully justified while carrying several ⚖️s**. Always read the **bottom line**, not the column of marks.
+
+## The Scoreboard: Mary Mallon
+
+Applied first to **Mary Mallon's 23-year second detention**:
+
+| Benchmark | Verdict | Why |
+|---|---|---|
+| Effectiveness | ✅ | Isolating an active carrier did stop the spread. |
+| Proportionality | ❌ | 23 years against a rare risk is not proportionate. |
+| Necessity | ❌ | She could have been supported in non-cooking work. |
+| Least infringement | ❌ | Lifelong island confinement was the *most* restrictive option. |
+| Public justification | ❌ | Other carriers were warned, not jailed — this looks like bias. |
+
+::: {.notes}
+Some isolation was warranted — Mary truly was infectious — but the 23-year version fails everything after effectiveness. A justified goal pursued by unjustified means. Stress: the marks are not a tally; this is a "justified goal, unjustified means" case.
+:::
+
+# The Wins and the Resistance {.section-divider}
+
+## Sanitation: The Broad Street Pump
+
+::: {.columns}
+::: {.column width="56%"}
+In 1854, cholera was killing people in London's Soho, and most experts blamed "bad air." The physician **John Snow** mapped where the dead lived and saw the deaths cluster around **one water pump** on Broad Street [@snow1855].
+
+He persuaded officials to remove the pump handle. The outbreak, already fading, ended — and Snow had founded modern **epidemiology**: find the cause by studying the *pattern* in a population.
+:::
+::: {.column width="44%"}
+![](../images/john_snow_map.jpg){width="100%" fig-alt="John Snow's 1854 map of cholera deaths clustered around the Broad Street pump"}
+
+::: {.attribution}
+John Snow, cholera map of Soho, 1854. Public domain.
+:::
+:::
+::::
+
+## Sanitation — Scored
+
+Clean water and sewers became the **largest life-saver in public health history**, adding more years to human life than any drug.
+
+| Benchmark | Verdict | Why |
+|---|---|---|
+| Effectiveness | ✅ | Waterborne epidemics collapsed once supplies were separated from sewage. |
+| Proportionality | ✅ | Enormous benefit; the burden was mostly money and regulation, not liberty. |
+| Necessity | ✅ | No individual can build their own clean-water system. |
+| Least infringement | ✅ | It restricts pollution and plumbing, not persons. |
+| Public justification | ✅ | The case is open, measurable, and widely shared. |
+
+::: {.notes}
+About as close to an easy case as public health gets — strong on every benchmark, little serious dispute. Use it as the contrast class: most later cases are *not* this clean.
+:::
+
+## Vaccination: From Scourge to Memory
+
+Smallpox killed roughly **30%** of those it infected and disfigured most survivors. After Edward Jenner's 1796 cowpox vaccine, mass vaccination drove it back.
+
+- In 1980 the World Health Organization declared smallpox **eradicated** — the only human disease ever deliberately wiped out.
+- Measles cases in the US fell from hundreds of thousands a year to near zero after the 1963 vaccine.
+- These are among the clearest public health wins on record — which makes the resistance they met worth understanding rather than mocking.
+
+## The Resistance Was Not Simply Stupid
+
+Vaccination has drawn organized opposition since the very beginning, and the fears were not all baseless.
+
+- Early smallpox vaccination used **arm-to-arm** transfer that could pass along other infections; the safety worry had a real basis at the time.
+- Victorian **Anti-Vaccination Leagues** framed compulsory vaccination as the state forcing a foreign substance into a child's body — a liberty claim, not only a medical one.
+- The lesson for the benchmarks: a measure can be highly **effective** and still owe people honest answers on **proportionality** and **consent**.
+
+## Vaccination — Scored
+
+| Benchmark | Verdict | Why |
+|---|---|---|
+| Effectiveness | ✅ | Among the best-evidenced interventions in all of medicine. |
+| Proportionality | ✅ | Serious harms are rare; the disease burden prevented is vast. |
+| Necessity | ⚖️ | Live question: how high must uptake go, and is a mandate the only route? |
+| Least infringement | ⚖️ | Real debate: narrow-exemption school rules may reach uptake with less force. |
+| Public justification | ✅ | The evidence is open — though trust must be earned. |
+
+::: {.notes}
+The science is settled; the lasting argument is over coercion — how strong a mandate, which exemptions, in which circumstances. Keep that debate live and open; don't let students hear "justified, case closed."
+:::
+
+## Two Kinds of Criticism
+
+Not every objection to a mandate is equal. The benchmarks let you sort them — and good citizenship means telling them apart.
+
+| Unreasonable objection | Why it fails | Legitimate objection | Why it's serious |
+|---|---|---|---|
+| "Vaccines don't work" | loses on **effectiveness** — the evidence is settled | "A less coercive design might reach similar uptake" | a real **least-infringement** question |
+| "Just let it rip" | loses on **proportionality** — it ignores the dead | "Make exemptions only as narrow as the threat needs" | turns on contested, checkable facts |
+
+**The pattern:** unreasonable criticism attacks a ✅ benchmark that is actually settled. Legitimate criticism lives at the ⚖️ marks — *is there a route that delivers the same benefit with less coercion?* The honest answer is often "**maybe — but it isn't clear there is.**"
+
+## Fluoridation: Medicine in the Water
+
+Adding tiny amounts of fluoride to public water cuts tooth decay across a whole population, rich and poor alike — the CDC named it one of the great public health achievements of the 20th century.
+
+- It is genuinely effective and cheap, and it reaches children whose families could never afford a dentist.
+- But critics call it **compulsory mass medication**: unlike a vaccine you can refuse, the only way to opt out of the tap is to not drink the water.
+- Here the fight is not about effectiveness at all. It is about **consent** and the right to refuse a benefit chosen for you.
+
+## Fluoridation — Scored
+
+| Benchmark | Verdict | Why |
+|---|---|---|
+| Effectiveness | ✅ | Decades of data show real reductions in tooth decay. |
+| Proportionality | ✅ | Benefit is large; the dose is far below any level of harm. |
+| Necessity | ⚖️ | Live question: can toothpaste and dental programs match its reach for the poor? |
+| Least infringement | ⚖️ | Real objection: there is no easy individual opt-out from the tap. |
+| Public justification | ✅ | Openly debated and voted on in many localities. |
+
+::: {.notes}
+Evidence for benefit is strong, but this stays a live political fight — over consent and opt-out, and over optimal dose — that communities still vote on today.
+:::
+
+## Tobacco Control: A Ladder, Not a Ban
+
+Smoking once filled offices, planes, and hospital wards. Public health rolled it back not with a single prohibition but with a **ladder** of escalating, ever-firmer steps.
+
+- **Inform:** warning labels and the 1964 Surgeon General's report.
+- **Tax:** make the harmful choice more expensive without forbidding it.
+- **Protect others:** smoke-free laws in workplaces and restaurants — aimed squarely at **secondhand smoke**, the externality.
+
+Each rung climbs only as far as the harm to others justifies — a worked example of **least infringement**.
+
+## Tobacco — Scored
+
+| Benchmark | Verdict | Why |
+|---|---|---|
+| Effectiveness | ✅ | US adult smoking fell from ~42% (1965) to under 12% today. |
+| Proportionality | ✅ | Smoke-free laws impose mild burdens against large health gains. |
+| Necessity | ✅ | Voluntary appeals alone had stalled; secondhand smoke harms bystanders. |
+| Least infringement | ✅ | It taxes and zones the behavior, not bans the product. |
+| Public justification | ✅ | Grounded in openly published, overwhelming evidence. |
+
+::: {.notes}
+The core case is strong, yet the hard questions stay open — how high the tax, what age limit, whether to ban menthol or flavored vapes. The ladder is still being climbed.
+:::
+
+## 1918: The Year of Masks and Closures
+
+The influenza pandemic of 1918–19 killed an estimated **50 million** people worldwide and about **675,000** in the US. There was no vaccine and no antibiotic — cities had only **non-pharmaceutical interventions (NPIs)**: closing schools, churches, and theaters, banning gatherings, and requiring masks.
+
+- **Philadelphia** held a wartime parade in late September 1918; within weeks its hospitals were overwhelmed and deaths soared.
+- **St. Louis** closed early and stayed closed; its peak death rate was a fraction of Philadelphia's.
+- Timing and NPIs measurably **saved lives** — the first clear evidence that "flattening the curve" works.
+
+## 1918 — Scored
+
+San Francisco's mask order drew an organized **Anti-Mask League** in early 1919, with thousands protesting compulsory masking as tyranny — and "closure fatigue" eroded compliance as the months wore on.
+
+| Benchmark | Verdict | Why |
+|---|---|---|
+| Effectiveness | ⚖️ | Earlier, longer NPIs tracked lower peaks — but the size, and which measures mattered, is debated. |
+| Proportionality | ⚖️ | Real benefit, but closures hit workers, shops, and churches hardest. |
+| Necessity | ✅ | With no vaccine or cure, NPIs were the only tools available. |
+| Least infringement | ⚖️ | Blanket closures are blunt; targeted measures barely existed in 1918. |
+| Public justification | ❌ | Wartime secrecy and mixed messaging undercut trust. |
+
+::: {.notes}
+NPIs clearly helped, but how much, and which ones, is genuinely debated — public health rarely gets a clean experiment. The clearest failures were candor and execution, not the decision to act.
+:::
+
+## COVID-19: The Same Playbook, a Different World
+
+A century later, COVID-19 reached for the **same toolkit** — distancing, masking, closures, then vaccines — but at a scale and duration 1918 never saw, in a connected, polarized society.
+
+- The early NPIs again bought time, but **fatigue, economic cost, and politicization** frayed compliance far faster than in any single 1918 city.
+- Public response split along identity and trust lines in ways that the 1918 Anti-Mask League only hinted at.
+- *Why* people came to disbelieve the measures — the problem of false belief and broken trust — is the subject of Part B; here we are only tracking the **measures and the response**.
+
+## Two Pandemics, One Lesson
+
+| | 1918 influenza | COVID-19 |
+|---|---|---|
+| **Main tools** | closures, gathering bans, masks | distancing, masks, closures, then vaccines |
+| **What seems to have helped** | early, sustained NPIs tracked lower peaks (size debated) | early NPIs likely slowed spread (how much debated); vaccines clearly cut deaths |
+| **Why compliance frayed** | closure fatigue, business cost, war secrecy | fatigue, economic cost, politicization, distrust |
+
+The deep lesson repeats: NPIs can **help**, but their power is limited less by biology than by **how long a public will accept them** — which is why trust, not just law, decides a pandemic. And because public health rarely runs a clean experiment, *how much* any one measure helped is itself often argued for years.
+
+## Thought Question
+
+::: {.thought-question}
+Many places require **motorcycle helmets** and **seatbelts**. A rider who skips a helmet seems, at first, to risk only **himself** — which Mill's harm principle would protect.
+
+1. Is helmet-skipping really self-regarding, or does it impose costs on others? Name them.
+2. Does "society pays the medical bills" justify almost any health mandate? Where would that logic stop?
+3. Which of the five benchmarks does a helmet law pass most easily — and which is shakiest?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+Notice the move both sides just made. The helmet debate turns on whether a "self-regarding" choice is *really* self-regarding once its costs are **socialized** — shared through insurance, emergency rooms, and grieving families.
+
+That gives us a useful distinction the benchmarks alone don't name: a **direct externality** (your germs enter my body) versus a **socialized cost** (we all pay for the consequences of your risk). The first is the strong Millian case for coercion; the second is real but far easier to stretch into justifying anything. Keep them apart.
+:::
+
+## What the History Shows
+
+Across four very different interventions, the benchmark that decides the case **keeps changing**.
+
+| Case | The benchmark that does the work |
+|---|---|
+| **Sanitation** | passes all five — the easy case |
+| **Vaccination** | fought over **least infringement** (mandate vs. exemption) |
+| **Fluoridation** | fought over **least infringement / consent** (no opt-out) |
+| **Tobacco** | a model of **least infringement** done well (the ladder) |
+
+The real disputes are rarely "freedom vs. safety." They are arguments about **which benchmark a specific policy flunks**.
+
+# Jacobson and Its Shadow {.section-divider}
+
+## Jacobson v. Massachusetts (1905)
+
+During a smallpox outbreak, Cambridge required adults to be vaccinated or pay a **$5 fine** (about $170 today). Pastor **Henning Jacobson** refused and challenged the law.
+
+- The Supreme Court upheld the requirement, grounding it in the state's **police power** to protect public health.
+- The Court's key idea: individual liberty is not absolute, and a community may protect itself against an epidemic that threatens everyone.
+- This remains the legal foundation for US vaccine requirements more than a century later [@jacobson1905].
+
+## What Jacobson Actually Decided
+
+::: {.callout-important}
+**Read the holding narrowly.** Jacobson is often described as letting the government *force needles into arms*. It did no such thing.
+
+- The penalty was a **fine**, not forced vaccination. Jacobson could refuse and pay.
+- The Court demanded the measure be **reasonable** and tied to a real public necessity — not arbitrary.
+- It even warned that such powers could go "**beyond what was reasonably required**" and harm particular people — a limit, written into the very case that grants the power.
+:::
+
+## The Court's Own Words
+
+::: {.quote-card}
+"There are manifold restraints to which every person is necessarily subject for the common good. On any other basis organized society could not exist with safety to its members."
+
+"Real liberty for all could not exist under the operation of a principle which recognizes the right of each individual person to use his own [liberty]… regardless of the injury that may be done to others."
+
+— *Jacobson v. Massachusetts*, 197 U.S. 11 (1905) [@jacobson1905]
+:::
+
+## Buck v. Bell: The Dark Mirror
+
+Twenty-two years later, the Court cited **Jacobson** to reach one of its most infamous results.
+
+- In **Buck v. Bell** (1927), it upheld the forced **sterilization** of Carrie Buck, a young woman wrongly labeled "feeble-minded," as a public health measure for the "welfare of society."
+- Justice Holmes wrote: "**Three generations of imbeciles are enough**." The science was junk and the label was false [@buck1927].
+- The same "necessity for the common good" that justified a $5 vaccine fine was stretched to justify the **eugenic mutilation** of the powerless — part of the American sterilization story you met earlier.
+
+## Why the Benchmarks Exist
+
+Run Buck v. Bell through the scoreboard. It is not a close call — it **fails almost everything**.
+
+| Benchmark | Verdict | Why |
+|---|---|---|
+| Effectiveness | ❌ | Based on pseudoscience; sterilizing Carrie Buck protected no one. |
+| Proportionality | ❌ | An irreversible bodily harm against a non-existent threat. |
+| Necessity | ❌ | No public danger required any action at all. |
+| Least infringement | ❌ | The most violent intervention imaginable on a healthy body. |
+| Public justification | ❌ | Built on a false label the subject could not contest. |
+
+The benchmarks are not bureaucracy. They are the **guardrails** that separate Jacobson from Buck.
+
+::: {.notes}
+Flatly unjustified — the one case that fails every benchmark. Unlike Mary, who at least passed effectiveness, Buck involved no real threat at all.
+:::
+
+# When May the State Compel? {.section-divider}
+
+## Thought Question
+
+::: {.thought-question}
+You are a nurse on an oncology unit, where patients have weakened immune systems. Your hospital adopts a policy: **get an annual flu shot, or wear a mask at all times on duty during flu season.** A respected colleague refuses both, calling it a violation of her bodily autonomy.
+
+1. Is this a "mandate"? She is never held down — she has an alternative (the mask).
+2. Which patients' interests are on the other side of her refusal?
+3. Run the policy through the five benchmarks. Does it pass?
+:::
+
+## Make It Contemporary
+
+::: {.thought-question}
+In 2019, a large **measles outbreak** spread through under-vaccinated communities in New York. In response, New York **repealed its religious exemption** to school vaccine requirements, leaving only medical exemptions. Unvaccinated children could no longer attend school.
+
+1. Is barring a child from school a fine-like penalty (à la Jacobson), or something heavier?
+2. Does ending a long-standing exemption *during* an outbreak strengthen or weaken its public justification?
+3. Would you have kept a narrow exemption? On which benchmark does your answer turn?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+"Mandate" hides at least three different tools, and they sit at different rungs of the least-infringement ladder:
+
+- A **pure mandate** removes the choice (forced vaccination — which, note, Jacobson did *not* authorize).
+- A **condition of participation** keeps the choice but attaches a cost: vaccinate *or* don't attend school, *or* wear a mask.
+- A **taxed or incentivized choice** leaves the act fully free but tilts it (a surcharge, a paid day off to get the shot).
+
+Almost every real "vaccine mandate" is the **second** kind. Naming which tool is in play is usually more clarifying than arguing about "mandates" in general.
+:::
+
+# Back to Mary {.section-divider}
+
+## Mary Mallon, Judged
+
+Now we have the tools the 1907 health officer lacked. Mary's case was genuinely hard — she *was* infecting people who never accepted the risk, the strong Millian ground for action.
+
+- On **effectiveness**, isolating an active carrier worked.
+- But on **necessity** and **least infringement**, her 23-year confinement fails: she could have been supported in safe work, as most other carriers were.
+- And on **public justification**, the contrast with carriers who were merely warned exposes how much her poverty, gender, and origin shaped her fate.
+
+The benchmarks don't say "never detain Mary." They say the state owed her the **least** that would protect the public — and gave her vastly more.
+
+## Mini-Recap
+
+::: {.recap}
+We moved from the clinic, where ethics turns on one patient's choice, to the **population**, where the danger and the decision fall on different people. Mill's harm principle opens the door to coercion when a choice truly **harms others**, and contagion is its sharpest case. But that license is an **exception that must justify itself**, so we adopted Childress and colleagues' five benchmarks — effectiveness, proportionality, necessity, least infringement, public justification — and scored sanitation, vaccination, fluoridation, and tobacco against them. **Jacobson** shows the power at its most legitimate; **Buck v. Bell** shows the same logic abused, which is exactly why the benchmarks matter.
+
+All of this was about what a society may **compel**. Next we turn to the harder modern problem: what public health can do when force is unavailable or unwise — when the obstacle is not defiance, but what people **believe**.
+:::
+
+## Review Questions
+
+::: {.review-questions}
+
+::: {.review-item .review-recall}
+[Recall]{.review-label}
+
+List Childress and colleagues' five benchmarks and explain the difference between *necessity* and *least infringement*.
+:::
+
+::: {.review-item .review-apply}
+[Apply]{.review-label}
+
+A city wants to ban sugary-drink sales over 16 ounces to fight diabetes. Pick two benchmarks and use them to argue for or against the ban.
+:::
+
+::: {.review-item .review-debate}
+[Debate]{.review-label}
+
+Should states allow religious or philosophical exemptions to school vaccine requirements? Defend your view using the harm principle and at least one benchmark.
+:::
+
+:::
+
+## Key Terms
+
+- **Public health ethics** — ethics whose unit of concern is the population, not the individual patient.
+- **Harm principle** — power may be used against someone's will only to prevent harm to others (Mill).
+- **Externality** — a cost (or benefit) a choice imposes on people who had no say in it.
+- **Herd immunity** — protection of the non-immune once enough of a population is immune.
+- **Police power** — a state's authority to regulate for public health, safety, and welfare.
+- **The five benchmarks** — effectiveness, proportionality, necessity, least infringement, public justification (Childress et al.).
+- **Healthy carrier** — a person who spreads a pathogen without being sick themselves.
+- **Condition of participation** — a rule that keeps a choice but attaches a cost (e.g., vaccinate or stay home).
+
+## Further Reading
+
+- Gostin, Lawrence O., and Lindsay F. Wiley. *Public Health Law: Power, Duty, Restraint.* University of California Press, 2016.
+- Leavitt, Judith Walzer. *Typhoid Mary: Captive to the Public's Health.* Beacon Press, 1996.
+- Bayer, Ronald, et al., eds. *Public Health Ethics: Theory, Policy, and Practice.* Oxford University Press, 2007.
+
+## References
+
+::: {#refs}
+:::

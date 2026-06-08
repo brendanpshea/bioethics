@@ -16721,5 +16721,320 @@
     "title": "Lecture 5 — Autonomy, Paternalism, and Reproduction",
     "section": "References",
     "text": "References\n\n\nAmerican College of Obstetricians and Gynecologists. 2011. Committee Opinion No. 473: Substance Abuse Reporting and Pregnancy: The Role of the Obstetrician-Gynecologist. ACOG, Reaffirmed 2021.\n\n\nAmerican College of Obstetricians and Gynecologists. 2016. Committee Opinion No. 664: Refusal of Medically Recommended Treatment During Pregnancy. ACOG, Reaffirmed 2022. https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2016/06/refusal-of-medically-recommended-treatment-during-pregnancy.\n\n\nColeman, Doriane Lambelet, and Philip M. Rosoff. 2013. “The Legal Authority of Mature Minors to Consent to General Medical Treatment.” Pediatrics 131 (4): 786–93.\n\n\nDworkin, Gerald. 2020. Paternalism. The Stanford Encyclopedia of Philosophy (Fall 2020 Edition), Edward N. Zalta (ed.). https://plato.stanford.edu/archives/fall2020/entries/paternalism/.\n\n\nFaherty, Laura J., Ashley M. Kranz, Joshua Russell-Fritch, Stephen W. Patrick, Joel Cantor, and Bradley D. Stein. 2019. “Association of Punitive and Reporting State Policies Related to Substance Use in Pregnancy with Rates of Neonatal Abstinence Syndrome.” JAMA Network Open 2 (11): e1914078. https://doi.org/10.1001/jamanetworkopen.2019.14078.\n\n\nFeinberg, Joel. 1986. Harm to Self: The Moral Limits of the Criminal Law, Volume 3. Oxford University Press.\n\n\nInstitute for Crime & Justice Policy Research. 2023. World Prison Brief. Birkbeck, University of London. https://www.prisonstudies.org/.\n\n\nMill, John Stuart. 1863. Utilitarianism. Parker, Son,; Bourn.\n\n\nPaltrow, Lynn M., and Jeanne Flavin. 2013. “Arrests of and Forced Interventions on Pregnant Women in the United States, 1973–2005: Implications for Women’s Legal Status and Public Health.” Journal of Health Politics, Policy and Law 38 (2): 299–343. https://doi.org/10.1215/03616878-1966324.\n\n\nRoberts, Dorothy E. 1997. Killing the Black Body: Race, Reproduction, and the Meaning of Liberty. Pantheon Books.\n\n\nSupreme Court of the United States. 2001. Ferguson v. City of Charleston, 532 U.S. 67. United States Reports. https://supreme.justia.com/cases/federal/us/532/67/.\n\n\nTikkanen, Roosa et al. 2022. Too Many Lives Lost: Comparing Overdose Mortality Rates and Policy Solutions Across High-Income Countries. The Commonwealth Fund. https://www.commonwealthfund.org/blog/2022/too-many-lives-lost-comparing-overdose-mortality-rates-policy-solutions.\n\n\nYoung, James Harvey. 1961. The Toadstool Millionaires: A Social History of Patent Medicines in America Before Federal Regulation. Princeton University Press."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#a-case-to-sit-with",
+    "href": "chapters/09a-public-health-slides.html#a-case-to-sit-with",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "A Case to Sit With",
+    "text": "A Case to Sit With\n\nIt is 1907. Mary Mallon is a cook in New York City. She is healthy — she has never been sick a day in her life. But typhoid fever keeps breaking out in the families she cooks for: 22 cases so far, at least one of them fatal. Investigators believe her body carries the bacteria without harming her, and that she spreads it through the food she prepares.\nShe feels fine, has broken no law, and refuses to believe she is dangerous.\nYou are the health officer who must decide.\n\nMay the city detain a healthy person who has committed no crime?\nIf yes, for how long — and what would have to be true to justify it?\nWhat do you owe Mary in return for taking her freedom?"
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#what-the-city-actually-did",
+    "href": "chapters/09a-public-health-slides.html#what-the-city-actually-did",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "What the City Actually Did",
+    "text": "What the City Actually Did\nMary Mallon was the first known healthy carrier of typhoid in the United States.\n\nHealth officials seized her and isolated her on North Brother Island, in the East River, without a trial.\nShe was released in 1910 after promising never to cook again — then changed her name and went back to cooking, sparking a fresh outbreak at a maternity hospital.\nShe was detained a second time and held on the island for 23 more years, until her death in 1938 — about 26 years of confinement in all (Leavitt 1996)."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#after-youve-discussed",
+    "href": "chapters/09a-public-health-slides.html#after-youve-discussed",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nMary’s case is hard precisely because both sides have a real claim. She was harming people who never chose the risk. And she was a poor Irish immigrant woman, locked away for decades while other carriers were merely warned.\nThe clinical ethics you have learned so far asks: what does this patient want, and what is good for her? That framing cannot even state Mary’s problem — because the people who matter most here are the strangers she might infect.\nToday we build the tools for that second kind of ethics, and we will come back to Mary at the end to judge what was done to her."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#today",
+    "href": "chapters/09a-public-health-slides.html#today",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Today",
+    "text": "Today\n\nBy the end of Part A, you will be able to:\n\nExplain how public health ethics differs from clinical ethics, and why the unit of concern shifts from the patient to the population.\nState Mill’s harm principle and explain why contagion is the case where it bites hardest.\nApply Childress and colleagues’ five justificatory benchmarks to a real public health intervention.\nTrace a short history of public health — sanitation, vaccination, fluoridation, tobacco — and what made each one fought over.\nReconstruct what Jacobson v. Massachusetts (1905) decided, and how the same logic was abused in Buck v. Bell."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#two-different-jobs",
+    "href": "chapters/09a-public-health-slides.html#two-different-jobs",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Two Different Jobs",
+    "text": "Two Different Jobs\nClinical ethics and public health ethics answer to different patients.\n\n\n\n\n\n\n\n\n\nClinical ethics\nPublic health ethics\n\n\n\n\nUnit of concern\nthe individual patient\nthe population\n\n\nPrimary value\nautonomy — the patient’s own choice\ncollective welfare and fairness\n\n\nKey relationship\ndoctor and patient, by consent\nthe state and a community, often without consent\n\n\nHard question\nwhat does this person want?\nwho may be burdened for the good of all?"
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#the-patient-in-front-of-you-isnt-the-only-patient",
+    "href": "chapters/09a-public-health-slides.html#the-patient-in-front-of-you-isnt-the-only-patient",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "The Patient in Front of You Isn’t the Only Patient",
+    "text": "The Patient in Front of You Isn’t the Only Patient\nIn the clinic, the person who bears the risk and the person who makes the choice are usually the same. Public health pulls them apart.\n\nWhen Mary cooks, she runs no risk — the risk falls on the families at her table.\nWhen a parent declines a vaccine, the exposed include the newborn and the cancer patient who cannot be vaccinated at all.\nThe decision and the danger sit with different people, which is exactly why consent alone cannot settle it.\n\n\nWhat “population health” measures\nPublic health works in rates, not individuals. Incidence is how many new cases appear in a population over a period (say, measles cases per 100,000 per year). A measure that barely helps any single patient can still prevent thousands of cases once it is spread across a whole population."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#mills-harm-principle",
+    "href": "chapters/09a-public-health-slides.html#mills-harm-principle",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Mill’s Harm Principle",
+    "text": "Mill’s Harm Principle\nThe starting presumption in a free society is liberty: adults may run their own lives, even badly. John Stuart Mill gave the classic limit.\n\n“The only purpose for which power can be rightfully exercised over any member of a civilized community, against his will, is to prevent harm to others.” (Mill 1863)\n\nHarm to yourself is not enough. The state needs harm to others to justify coercion — and that is the door public health walks through."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#why-contagion-is-the-hardest-case",
+    "href": "chapters/09a-public-health-slides.html#why-contagion-is-the-hardest-case",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Why Contagion Is the Hardest Case",
+    "text": "Why Contagion Is the Hardest Case\nYou met the harm principle when we asked whether the state may protect people from themselves. Infectious disease changes the problem, because the harm is no longer self-regarding.\n\nA drinker mostly endangers himself; a contagious person endangers strangers who never consented to the risk.\nOne unvaccinated child raises the danger for everyone too young or too sick to be vaccinated — a cost imposed on others.\nSo contagion is the cleanest case Mill allows: the choice genuinely reaches other people’s bodies.\n\n\nExternalities and herd immunity\nAn externality is a cost your choice imposes on someone who had no say in it — like secondhand smoke. Vaccination creates the opposite, a benefit to others: once enough of a community is immune, the disease cannot spread easily, which protects the few who cannot be vaccinated. That shared shield is called herd immunity."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#the-exception-that-must-justify-itself",
+    "href": "chapters/09a-public-health-slides.html#the-exception-that-must-justify-itself",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "The Exception That Must Justify Itself",
+    "text": "The Exception That Must Justify Itself\nSo public health is not a standing license to coerce. It is a standing exception to the presumption of liberty — and an exception has to earn its keep, every time.\nThat raises the question this whole lecture turns on:\n\nWhen may a society override individual liberty for the sake of collective health — and how would we know when it has gone too far?\n\nA slogan like “public safety” is not an answer. We need a test."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#five-benchmarks",
+    "href": "chapters/09a-public-health-slides.html#five-benchmarks",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Five Benchmarks",
+    "text": "Five Benchmarks\nChildress and colleagues proposed five conditions a coercive public health measure should meet before we accept it (Childress et al. 2002). Think of them as a checklist that a mere appeal to “safety” must pass.\n\n\n\n\n\n\n\nBenchmark\nThe question it forces\n\n\n\n\nEffectiveness\nWill this actually work — is there real evidence it protects health?\n\n\nProportionality\nDo the public benefits outweigh the burdens on liberty and privacy?\n\n\nNecessity\nIs coercion truly needed, or would a softer measure do?\n\n\nLeast infringement\nAmong options that work, is this the least restrictive?\n\n\nPublic justification\nCan officials explain it openly to those who bear the burden?"
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#how-to-use-them",
+    "href": "chapters/09a-public-health-slides.html#how-to-use-them",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "How to Use Them",
+    "text": "How to Use Them\nThe benchmarks do not give a yes-or-no verdict by themselves. They tell you what the argument is about — and where a policy is weakest.\n\nA measure can be effective yet fail proportionality (it works, but the cost to liberty is too high).\nIt can be necessary yet fail least infringement (something had to be done, but not this).\nMost real disputes are not “liberty vs. safety” in the abstract; they are fights over one specific benchmark."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#the-scoreboard",
+    "href": "chapters/09a-public-health-slides.html#the-scoreboard",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "The Scoreboard",
+    "text": "The Scoreboard\nWe will score every major case against the same five benchmarks. The marks are not a tally to add up — each reports the status of one dimension:\n\n✅ clearly met — settled, not seriously in dispute.\n⚖️ the legitimate battleground — defensible either way; this is where honest people argue, not a weakness.\n❌ fails — a genuine defect.\n\nA measure can be fully justified while carrying several ⚖️s. Read the bottom line, not the column of marks. Applied first to Mary Mallon’s 23-year second detention:\n\n\n\n\n\n\n\n\nBenchmark\nVerdict\nWhy\n\n\n\n\nEffectiveness\n✅\nIsolating an active carrier did stop her from infecting others.\n\n\nProportionality\n❌\nA brief detention, perhaps — but 23 years against a rare risk is not proportionate.\n\n\nNecessity\n❌\nShe could have been retrained and supported in non-cooking work.\n\n\nLeast infringement\n❌\nLifelong island confinement was the most restrictive option, not the least.\n\n\nPublic justification\n❌\nOther carriers were warned, not jailed; her treatment looks like bias.\n\n\n\n\n\n\n\n\n\nNote\n\n\nBottom line: some isolation was warranted — Mary truly was infectious — but the 23-year version fails on every count after effectiveness. A justified goal pursued by unjustified means."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#sanitation-the-broad-street-pump",
+    "href": "chapters/09a-public-health-slides.html#sanitation-the-broad-street-pump",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Sanitation: The Broad Street Pump",
+    "text": "Sanitation: The Broad Street Pump\n\n\nIn 1854, cholera was killing people in London’s Soho, and most experts blamed “bad air.” The physician John Snow mapped where the dead lived and saw the deaths cluster around one water pump on Broad Street (Snow 1855).\nHe persuaded officials to remove the pump handle. The outbreak, already fading, ended — and Snow had founded modern epidemiology: find the cause by studying the pattern in a population.\n\n\n\nJohn Snow, cholera map of Soho, 1854. Public domain."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#sanitation-scored",
+    "href": "chapters/09a-public-health-slides.html#sanitation-scored",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Sanitation — Scored",
+    "text": "Sanitation — Scored\nClean water and sewers became the largest life-saver in public health history, adding more years to human life than any drug.\n\n\n\n\n\n\n\n\nBenchmark\nVerdict\nWhy\n\n\n\n\nEffectiveness\n✅\nWaterborne epidemics collapsed once supplies were separated from sewage.\n\n\nProportionality\n✅\nEnormous benefit; the burden was mostly money and regulation, not liberty.\n\n\nNecessity\n✅\nNo individual can build their own clean-water system.\n\n\nLeast infringement\n✅\nIt restricts pollution and plumbing, not persons.\n\n\nPublic justification\n✅\nThe case is open, measurable, and widely shared.\n\n\n\n\nAbout as close to an easy case as public health gets — strong on every benchmark, little serious dispute. Use it as the contrast class: most later cases are not this clean."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#vaccination-from-scourge-to-memory",
+    "href": "chapters/09a-public-health-slides.html#vaccination-from-scourge-to-memory",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Vaccination: From Scourge to Memory",
+    "text": "Vaccination: From Scourge to Memory\nSmallpox killed roughly 30% of those it infected and disfigured most survivors. After Edward Jenner’s 1796 cowpox vaccine, mass vaccination drove it back.\n\nIn 1980 the World Health Organization declared smallpox eradicated — the only human disease ever deliberately wiped out.\nMeasles cases in the US fell from hundreds of thousands a year to near zero after the 1963 vaccine.\nThese are among the clearest public health wins on record — which makes the resistance they met worth understanding rather than mocking."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#the-resistance-was-not-simply-stupid",
+    "href": "chapters/09a-public-health-slides.html#the-resistance-was-not-simply-stupid",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "The Resistance Was Not Simply Stupid",
+    "text": "The Resistance Was Not Simply Stupid\nVaccination has drawn organized opposition since the very beginning, and the fears were not all baseless.\n\nEarly smallpox vaccination used arm-to-arm transfer that could pass along other infections; the safety worry had a real basis at the time.\nVictorian Anti-Vaccination Leagues framed compulsory vaccination as the state forcing a foreign substance into a child’s body — a liberty claim, not only a medical one.\nThe lesson for the benchmarks: a measure can be highly effective and still owe people honest answers on proportionality and consent."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#vaccination-scored",
+    "href": "chapters/09a-public-health-slides.html#vaccination-scored",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Vaccination — Scored",
+    "text": "Vaccination — Scored\n\n\n\n\n\n\n\n\nBenchmark\nVerdict\nWhy\n\n\n\n\nEffectiveness\n✅\nAmong the best-evidenced interventions in all of medicine.\n\n\nProportionality\n✅\nSerious harms are rare; the disease burden prevented is vast.\n\n\nNecessity\n⚖️\nLive question: how high must uptake go, and is a mandate the only route?\n\n\nLeast infringement\n⚖️\nReal debate: narrow-exemption school rules may reach uptake with less force.\n\n\nPublic justification\n✅\nThe evidence is open — though trust must be earned.\n\n\n\n\nThe science is settled; the lasting argument is over coercion — how strong a mandate, which exemptions, in which circumstances. Keep that debate live and open; don’t let students hear “justified, case closed.”"
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#fluoridation-medicine-in-the-water",
+    "href": "chapters/09a-public-health-slides.html#fluoridation-medicine-in-the-water",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Fluoridation: Medicine in the Water",
+    "text": "Fluoridation: Medicine in the Water\nAdding tiny amounts of fluoride to public water cuts tooth decay across a whole population, rich and poor alike — the CDC named it one of the great public health achievements of the 20th century.\n\nIt is genuinely effective and cheap, and it reaches children whose families could never afford a dentist.\nBut critics call it compulsory mass medication: unlike a vaccine you can refuse, the only way to opt out of the tap is to not drink the water.\nHere the fight is not about effectiveness at all. It is about consent and the right to refuse a benefit chosen for you."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#fluoridation-scored",
+    "href": "chapters/09a-public-health-slides.html#fluoridation-scored",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Fluoridation — Scored",
+    "text": "Fluoridation — Scored\n\n\n\n\n\n\n\n\nBenchmark\nVerdict\nWhy\n\n\n\n\nEffectiveness\n✅\nDecades of data show real reductions in tooth decay.\n\n\nProportionality\n✅\nBenefit is large; the dose is far below any level of harm.\n\n\nNecessity\n⚖️\nLive question: can toothpaste and dental programs match its reach for the poor?\n\n\nLeast infringement\n⚖️\nReal objection: there is no easy individual opt-out from the tap.\n\n\nPublic justification\n✅\nOpenly debated and voted on in many localities.\n\n\n\n\nEvidence for benefit is strong, but this stays a live political fight — over consent and opt-out, and over optimal dose — that communities still vote on today."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#tobacco-control-a-ladder-not-a-ban",
+    "href": "chapters/09a-public-health-slides.html#tobacco-control-a-ladder-not-a-ban",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Tobacco Control: A Ladder, Not a Ban",
+    "text": "Tobacco Control: A Ladder, Not a Ban\nSmoking once filled offices, planes, and hospital wards. Public health rolled it back not with a single prohibition but with a ladder of escalating, ever-firmer steps.\n\nInform: warning labels and the 1964 Surgeon General’s report.\nTax: make the harmful choice more expensive without forbidding it.\nProtect others: smoke-free laws in workplaces and restaurants — aimed squarely at secondhand smoke, the externality.\n\nEach rung climbs only as far as the harm to others justifies — a worked example of least infringement."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#tobacco-scored",
+    "href": "chapters/09a-public-health-slides.html#tobacco-scored",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Tobacco — Scored",
+    "text": "Tobacco — Scored\n\n\n\n\n\n\n\n\nBenchmark\nVerdict\nWhy\n\n\n\n\nEffectiveness\n✅\nUS adult smoking fell from ~42% (1965) to under 12% today.\n\n\nProportionality\n✅\nSmoke-free laws impose mild burdens against large health gains.\n\n\nNecessity\n✅\nVoluntary appeals alone had stalled; secondhand smoke harms bystanders.\n\n\nLeast infringement\n✅\nIt taxes and zones the behavior, not bans the product.\n\n\nPublic justification\n✅\nGrounded in openly published, overwhelming evidence.\n\n\n\n\nThe core case is strong, yet the hard questions stay open — how high the tax, what age limit, whether to ban menthol or flavored vapes. The ladder is still being climbed."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#thought-question",
+    "href": "chapters/09a-public-health-slides.html#thought-question",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Thought Question",
+    "text": "Thought Question\n\nMany places require motorcycle helmets and seatbelts. A rider who skips a helmet seems, at first, to risk only himself — which Mill’s harm principle would protect.\n\nIs helmet-skipping really self-regarding, or does it impose costs on others? Name them.\nDoes “society pays the medical bills” justify almost any health mandate? Where would that logic stop?\nWhich of the five benchmarks does a helmet law pass most easily — and which is shakiest?"
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#after-youve-discussed-1",
+    "href": "chapters/09a-public-health-slides.html#after-youve-discussed-1",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nNotice the move both sides just made. The helmet debate turns on whether a “self-regarding” choice is really self-regarding once its costs are socialized — shared through insurance, emergency rooms, and grieving families.\nThat gives us a useful distinction the benchmarks alone don’t name: a direct externality (your germs enter my body) versus a socialized cost (we all pay for the consequences of your risk). The first is the strong Millian case for coercion; the second is real but far easier to stretch into justifying anything. Keep them apart."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#what-the-history-shows",
+    "href": "chapters/09a-public-health-slides.html#what-the-history-shows",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "What the History Shows",
+    "text": "What the History Shows\nAcross four very different interventions, the benchmark that decides the case keeps changing.\n\n\n\n\n\n\n\nCase\nThe benchmark that does the work\n\n\n\n\nSanitation\npasses all five — the easy case\n\n\nVaccination\nfought over least infringement (mandate vs. exemption)\n\n\nFluoridation\nfought over least infringement / consent (no opt-out)\n\n\nTobacco\na model of least infringement done well (the ladder)\n\n\n\nThe real disputes are rarely “freedom vs. safety.” They are arguments about which benchmark a specific policy flunks."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#jacobson-v.-massachusetts-1905",
+    "href": "chapters/09a-public-health-slides.html#jacobson-v.-massachusetts-1905",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Jacobson v. Massachusetts (1905)",
+    "text": "Jacobson v. Massachusetts (1905)\nDuring a smallpox outbreak, Cambridge required adults to be vaccinated or pay a $5 fine (about $170 today). Pastor Henning Jacobson refused and challenged the law.\n\nThe Supreme Court upheld the requirement, grounding it in the state’s police power to protect public health.\nThe Court’s key idea: individual liberty is not absolute, and a community may protect itself against an epidemic that threatens everyone.\nThis remains the legal foundation for US vaccine requirements more than a century later (Supreme Court of the United States 1905)."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#what-jacobson-actually-decided",
+    "href": "chapters/09a-public-health-slides.html#what-jacobson-actually-decided",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "What Jacobson Actually Decided",
+    "text": "What Jacobson Actually Decided\n\n\n\n\n\n\nImportant\n\n\nRead the holding narrowly. Jacobson is often described as letting the government force needles into arms. It did no such thing.\n\nThe penalty was a fine, not forced vaccination. Jacobson could refuse and pay.\nThe Court demanded the measure be reasonable and tied to a real public necessity — not arbitrary.\nIt even warned that such powers could go “beyond what was reasonably required” and harm particular people — a limit, written into the very case that grants the power."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#the-courts-own-words",
+    "href": "chapters/09a-public-health-slides.html#the-courts-own-words",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "The Court’s Own Words",
+    "text": "The Court’s Own Words\n\n“There are manifold restraints to which every person is necessarily subject for the common good. On any other basis organized society could not exist with safety to its members.”\n“Real liberty for all could not exist under the operation of a principle which recognizes the right of each individual person to use his own [liberty]… regardless of the injury that may be done to others.”\n— Jacobson v. Massachusetts, 197 U.S. 11 (1905) (Supreme Court of the United States 1905)"
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#buck-v.-bell-the-dark-mirror",
+    "href": "chapters/09a-public-health-slides.html#buck-v.-bell-the-dark-mirror",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Buck v. Bell: The Dark Mirror",
+    "text": "Buck v. Bell: The Dark Mirror\nTwenty-two years later, the Court cited Jacobson to reach one of its most infamous results.\n\nIn Buck v. Bell (1927), it upheld the forced sterilization of Carrie Buck, a young woman wrongly labeled “feeble-minded,” as a public health measure for the “welfare of society.”\nJustice Holmes wrote: “Three generations of imbeciles are enough.” The science was junk and the label was false (Supreme Court of the United States 1927).\nThe same “necessity for the common good” that justified a $5 vaccine fine was stretched to justify the eugenic mutilation of the powerless — part of the American sterilization story you met earlier."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#why-the-benchmarks-exist",
+    "href": "chapters/09a-public-health-slides.html#why-the-benchmarks-exist",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Why the Benchmarks Exist",
+    "text": "Why the Benchmarks Exist\nRun Buck v. Bell through the scoreboard. It is not a close call — it fails almost everything.\n\n\n\n\n\n\n\n\nBenchmark\nVerdict\nWhy\n\n\n\n\nEffectiveness\n❌\nBased on pseudoscience; sterilizing Carrie Buck protected no one.\n\n\nProportionality\n❌\nAn irreversible bodily harm against a non-existent threat.\n\n\nNecessity\n❌\nNo public danger required any action at all.\n\n\nLeast infringement\n❌\nThe most violent intervention imaginable on a healthy body.\n\n\nPublic justification\n❌\nBuilt on a false label the subject could not contest.\n\n\n\nThe benchmarks are not bureaucracy. They are the guardrails that separate Jacobson from Buck.\n\nFlatly unjustified — the one case that fails every benchmark. Unlike Mary, who at least passed effectiveness, Buck involved no real threat at all."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#thought-question-1",
+    "href": "chapters/09a-public-health-slides.html#thought-question-1",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Thought Question",
+    "text": "Thought Question\n\nYou are a nurse on an oncology unit, where patients have weakened immune systems. Your hospital adopts a policy: get an annual flu shot, or wear a mask at all times on duty during flu season. A respected colleague refuses both, calling it a violation of her bodily autonomy.\n\nIs this a “mandate”? She is never held down — she has an alternative (the mask).\nWhich patients’ interests are on the other side of her refusal?\nRun the policy through the five benchmarks. Does it pass?"
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#make-it-contemporary",
+    "href": "chapters/09a-public-health-slides.html#make-it-contemporary",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Make It Contemporary",
+    "text": "Make It Contemporary\n\nIn 2019, a large measles outbreak spread through under-vaccinated communities in New York. In response, New York repealed its religious exemption to school vaccine requirements, leaving only medical exemptions. Unvaccinated children could no longer attend school.\n\nIs barring a child from school a fine-like penalty (à la Jacobson), or something heavier?\nDoes ending a long-standing exemption during an outbreak strengthen or weaken its public justification?\nWould you have kept a narrow exemption? On which benchmark does your answer turn?"
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#after-youve-discussed-2",
+    "href": "chapters/09a-public-health-slides.html#after-youve-discussed-2",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n“Mandate” hides at least three different tools, and they sit at different rungs of the least-infringement ladder:\n\nA pure mandate removes the choice (forced vaccination — which, note, Jacobson did not authorize).\nA condition of participation keeps the choice but attaches a cost: vaccinate or don’t attend school, or wear a mask.\nA taxed or incentivized choice leaves the act fully free but tilts it (a surcharge, a paid day off to get the shot).\n\nAlmost every real “vaccine mandate” is the second kind. Naming which tool is in play is usually more clarifying than arguing about “mandates” in general."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#mary-mallon-judged",
+    "href": "chapters/09a-public-health-slides.html#mary-mallon-judged",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Mary Mallon, Judged",
+    "text": "Mary Mallon, Judged\nNow we have the tools the 1907 health officer lacked. Mary’s case was genuinely hard — she was infecting people who never accepted the risk, the strong Millian ground for action.\n\nOn effectiveness, isolating an active carrier worked.\nBut on necessity and least infringement, her 23-year confinement fails: she could have been supported in safe work, as most other carriers were.\nAnd on public justification, the contrast with carriers who were merely warned exposes how much her poverty, gender, and origin shaped her fate.\n\nThe benchmarks don’t say “never detain Mary.” They say the state owed her the least that would protect the public — and gave her vastly more."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#mini-recap",
+    "href": "chapters/09a-public-health-slides.html#mini-recap",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Mini-Recap",
+    "text": "Mini-Recap\n\nWe moved from the clinic, where ethics turns on one patient’s choice, to the population, where the danger and the decision fall on different people. Mill’s harm principle opens the door to coercion when a choice truly harms others, and contagion is its sharpest case. But that license is an exception that must justify itself, so we adopted Childress and colleagues’ five benchmarks — effectiveness, proportionality, necessity, least infringement, public justification — and scored sanitation, vaccination, fluoridation, and tobacco against them. Jacobson shows the power at its most legitimate; Buck v. Bell shows the same logic abused, which is exactly why the benchmarks matter.\nAll of this was about what a society may compel. Next we turn to the harder modern problem: what public health can do when force is unavailable or unwise — when the obstacle is not defiance, but what people believe."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#review-questions",
+    "href": "chapters/09a-public-health-slides.html#review-questions",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Review Questions",
+    "text": "Review Questions\n\n\nRecall\nList Childress and colleagues’ five benchmarks and explain the difference between necessity and least infringement.\n\n\nApply\nA city wants to ban sugary-drink sales over 16 ounces to fight diabetes. Pick two benchmarks and use them to argue for or against the ban.\n\n\nDebate\nShould states allow religious or philosophical exemptions to school vaccine requirements? Defend your view using the harm principle and at least one benchmark."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#key-terms",
+    "href": "chapters/09a-public-health-slides.html#key-terms",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Key Terms",
+    "text": "Key Terms\n\nPublic health ethics — ethics whose unit of concern is the population, not the individual patient.\nHarm principle — power may be used against someone’s will only to prevent harm to others (Mill).\nExternality — a cost (or benefit) a choice imposes on people who had no say in it.\nHerd immunity — protection of the non-immune once enough of a population is immune.\nPolice power — a state’s authority to regulate for public health, safety, and welfare.\nThe five benchmarks — effectiveness, proportionality, necessity, least infringement, public justification (Childress et al.).\nHealthy carrier — a person who spreads a pathogen without being sick themselves.\nCondition of participation — a rule that keeps a choice but attaches a cost (e.g., vaccinate or stay home)."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#further-reading",
+    "href": "chapters/09a-public-health-slides.html#further-reading",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Further Reading",
+    "text": "Further Reading\n\nGostin, Lawrence O., and Lindsay F. Wiley. Public Health Law: Power, Duty, Restraint. University of California Press, 2016.\nLeavitt, Judith Walzer. Typhoid Mary: Captive to the Public’s Health. Beacon Press, 1996.\nBayer, Ronald, et al., eds. Public Health Ethics: Theory, Policy, and Practice. Oxford University Press, 2007."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#references",
+    "href": "chapters/09a-public-health-slides.html#references",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "References",
+    "text": "References\n\n\nChildress, James F., Ruth R. Faden, Ruth D. Gaare, et al. 2002. “Public Health Ethics: Mapping the Terrain.” Journal of Law, Medicine & Ethics 30 (2): 170–78.\n\n\nLeavitt, Judith Walzer. 1996. Typhoid Mary: Captive to the Public’s Health. Beacon Press.\n\n\nMill, John Stuart. 1863. Utilitarianism. Parker, Son,; Bourn.\n\n\nSnow, John. 1855. On the Mode of Communication of Cholera. 2nd ed. John Churchill.\n\n\nSupreme Court of the United States. 1905. Jacobson v. Massachusetts, 197 u.s. 11.\n\n\nSupreme Court of the United States. 1927. Buck v. Bell, 274 U.S. 200 (1927). U.S. Supreme Court decision."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#the-year-of-masks-and-closures",
+    "href": "chapters/09a-public-health-slides.html#the-year-of-masks-and-closures",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "1918: The Year of Masks and Closures",
+    "text": "1918: The Year of Masks and Closures\nThe influenza pandemic of 1918–19 killed an estimated 50 million people worldwide and about 675,000 in the US. There was no vaccine and no antibiotic — cities had only non-pharmaceutical interventions (NPIs): closing schools, churches, and theaters, banning gatherings, and requiring masks.\n\nPhiladelphia held a wartime parade in late September 1918; within weeks its hospitals were overwhelmed and deaths soared.\nSt. Louis closed early and stayed closed; its peak death rate was a fraction of Philadelphia’s.\nTiming and NPIs measurably saved lives — the first clear evidence that “flattening the curve” works."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#scored",
+    "href": "chapters/09a-public-health-slides.html#scored",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "1918 — Scored",
+    "text": "1918 — Scored\nSan Francisco’s mask order drew an organized Anti-Mask League in early 1919, with thousands protesting compulsory masking as tyranny — and “closure fatigue” eroded compliance as the months wore on.\n\n\n\n\n\n\n\n\nBenchmark\nVerdict\nWhy\n\n\n\n\nEffectiveness\n⚖️\nEarlier, longer NPIs tracked lower peaks — but the size, and which measures mattered, is debated.\n\n\nProportionality\n⚖️\nReal benefit, but closures hit workers, shops, and churches hardest.\n\n\nNecessity\n✅\nWith no vaccine or cure, NPIs were the only tools available.\n\n\nLeast infringement\n⚖️\nBlanket closures are blunt; targeted measures barely existed in 1918.\n\n\nPublic justification\n❌\nWartime secrecy and mixed messaging undercut trust.\n\n\n\n\nNPIs clearly helped, but how much, and which ones, is genuinely debated — public health rarely gets a clean experiment. The clearest failures were candor and execution, not the decision to act."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#covid-19-the-same-playbook-a-different-world",
+    "href": "chapters/09a-public-health-slides.html#covid-19-the-same-playbook-a-different-world",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "COVID-19: The Same Playbook, a Different World",
+    "text": "COVID-19: The Same Playbook, a Different World\nA century later, COVID-19 reached for the same toolkit — distancing, masking, closures, then vaccines — but at a scale and duration 1918 never saw, in a connected, polarized society.\n\nThe early NPIs again bought time, but fatigue, economic cost, and politicization frayed compliance far faster than in any single 1918 city.\nPublic response split along identity and trust lines in ways that the 1918 Anti-Mask League only hinted at.\nWhy people came to disbelieve the measures — the problem of false belief and broken trust — is the subject of Part B; here we are only tracking the measures and the response."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#two-pandemics-one-lesson",
+    "href": "chapters/09a-public-health-slides.html#two-pandemics-one-lesson",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Two Pandemics, One Lesson",
+    "text": "Two Pandemics, One Lesson\n\n\n\n\n\n\n\n\n\n1918 influenza\nCOVID-19\n\n\n\n\nMain tools\nclosures, gathering bans, masks\ndistancing, masks, closures, then vaccines\n\n\nWhat seems to have helped\nearly, sustained NPIs tracked lower peaks (size debated)\nearly NPIs likely slowed spread (how much debated); vaccines clearly cut deaths\n\n\nWhy compliance frayed\nclosure fatigue, business cost, war secrecy\nfatigue, economic cost, politicization, distrust\n\n\n\nThe deep lesson repeats: NPIs can help, but their power is limited less by biology than by how long a public will accept them — which is why trust, not just law, decides a pandemic. And because public health rarely runs a clean experiment, how much any one measure helped is itself often argued for years."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#two-kinds-of-criticism",
+    "href": "chapters/09a-public-health-slides.html#two-kinds-of-criticism",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "Two Kinds of Criticism",
+    "text": "Two Kinds of Criticism\nNot every objection to a mandate is equal. The benchmarks let you sort them — and good citizenship means telling them apart.\n\n\n\n\n\n\n\n\n\nUnreasonable objection\nWhy it fails\nLegitimate objection\nWhy it’s serious\n\n\n\n\n“Vaccines don’t work”\nloses on effectiveness — the evidence is settled\n“A less coercive design might reach similar uptake”\na real least-infringement question\n\n\n“Just let it rip”\nloses on proportionality — it ignores the dead\n“Make exemptions only as narrow as the threat needs”\nturns on contested, checkable facts\n\n\n\nThe pattern: unreasonable criticism attacks a ✅ benchmark that is actually settled. Legitimate criticism lives at the ⚖️ marks — is there a route that delivers the same benefit with less coercion? The honest answer is often “maybe — but it isn’t clear there is.”"
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#how-to-read-the-scoreboard",
+    "href": "chapters/09a-public-health-slides.html#how-to-read-the-scoreboard",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "How to Read the Scoreboard",
+    "text": "How to Read the Scoreboard\nWe score every major case against the same five benchmarks. The marks are not a tally — each reports the status of one dimension:\n\n✅ clearly met — settled, not in dispute.\n⚖️ the legitimate battleground — defensible either way; where honest people argue, not a weakness.\n❌ fails — a genuine defect.\n\nA measure can be fully justified while carrying several ⚖️s. Always read the bottom line, not the column of marks."
+  },
+  {
+    "objectID": "chapters/09a-public-health-slides.html#the-scoreboard-mary-mallon",
+    "href": "chapters/09a-public-health-slides.html#the-scoreboard-mary-mallon",
+    "title": "Lecture 9 — Public Health Ethics",
+    "section": "The Scoreboard: Mary Mallon",
+    "text": "The Scoreboard: Mary Mallon\nApplied first to Mary Mallon’s 23-year second detention:\n\n\n\n\n\n\n\n\nBenchmark\nVerdict\nWhy\n\n\n\n\nEffectiveness\n✅\nIsolating an active carrier did stop the spread.\n\n\nProportionality\n❌\n23 years against a rare risk is not proportionate.\n\n\nNecessity\n❌\nShe could have been supported in non-cooking work.\n\n\nLeast infringement\n❌\nLifelong island confinement was the most restrictive option.\n\n\nPublic justification\n❌\nOther carriers were warned, not jailed — this looks like bias.\n\n\n\n\nSome isolation was warranted — Mary truly was infectious — but the 23-year version fails everything after effectiveness. A justified goal pursued by unjustified means. Stress: the marks are not a tally; this is a “justified goal, unjustified means” case."
   }
 ]
