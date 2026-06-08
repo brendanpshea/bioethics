@@ -36,6 +36,8 @@ All materials are freely available for non-commercial educational use under a [C
 | 7B | End-of-Life Care | Euthanasia, Assisted Death, and Their Critics | [Slides](chapters/07b-euthanasia-slides.html) | [Notes](chapters/07b-euthanasia.html) |
 | 8A | Justice & Health Care | Theories of Justice and the Right to Health Care | [Slides](chapters/08a-justice-health-slides.html) | [Notes](chapters/08a-justice-health.html) |
 | 8B | Justice & Health Care | Why US Health Care Costs So Much — and Delivers So Little | [Slides](chapters/08b-us-healthcare-slides.html) | [Notes](chapters/08b-us-healthcare.html) |
+| 9A | Public Health Ethics | From Patient to Population | [Slides](chapters/09a-public-health-slides.html) | [Notes](chapters/09a-public-health.html) |
+| 9B | Public Health Ethics | False Beliefs and the Ethics of Correction | [Slides](chapters/09b-public-health-beliefs-slides.html) | [Notes](chapters/09b-public-health-beliefs.html) |
 
 ---
 

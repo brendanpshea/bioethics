@@ -82,6 +82,12 @@ website:
             text: "Part A — Theories of Justice & the Right to Care"
           - href: chapters/08b-us-healthcare.qmd
             text: "Part B — Why US Health Care Costs So Much"
+      - section: "9. Public Health Ethics"
+        contents:
+          - href: chapters/09a-public-health.qmd
+            text: "Part A — From Patient to Population"
+          - href: chapters/09b-public-health-beliefs.qmd
+            text: "Part B — False Beliefs & the Ethics of Correction"
 
   page-footer:
     left: |

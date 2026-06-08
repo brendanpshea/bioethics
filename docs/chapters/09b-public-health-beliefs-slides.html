@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-acf12a64177840b8d86f2d4f01b2e9fb.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.37">
+
+  <meta name="author" content="Brendan Shea, PhD">
+  <meta name="dcterms.date" content="last-modified">
+  <title>Bioethics: An Open Educational Resource – Lecture 9 — Public Health Ethics</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-2c91ffb3ef59a94917f8afeb4e0fc034.css">
+  <link rel="stylesheet" href="../styles/custom.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Lecture 9 — Public Health Ethics</h1>
+  <p class="subtitle">Part B: False Beliefs and the Ethics of Correction</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Brendan Shea, PhD 
+</div>
+        <p class="quarto-title-affiliation">
+            An Introduction to Bioethics.
+          </p>
+    </div>
+</div>
+
+</section>
+<section>
+<section id="the-patient-who-wont-believe-you" class="title-slide slide level1 section-divider center">
+<h1>The Patient Who Won’t Believe You</h1>
+
+</section>
+<section id="a-case-to-sit-with" class="slide level2 scrollable">
+<h2>A Case to Sit With</h2>
+<div class="thought-question">
+<p>A mother brings her healthy 14-month-old to your clinic. She is warm, college-educated, and clearly devoted to her child — and she refuses the <strong>MMR vaccine</strong>, certain it causes autism. She has read widely. She is not stupid, and she is not careless.</p>
+<p>You have about <strong>15 minutes</strong>.</p>
+<ol type="1">
+<li>What would you actually <em>say</em> to her? Be specific.</li>
+<li>If you hand her the studies showing no link, what do you expect to happen?</li>
+<li>Is her refusal a free, informed choice you must respect — or is it something else?</li>
+</ol>
+</div>
+</section>
+<section id="after-youve-discussed" class="slide level2">
+<h2>After You’ve Discussed</h2>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>Notice what is <em>not</em> her problem: a shortage of information. She has plenty — much of it false, all of it confidently held. Handing her more facts may do nothing, or may make her dig in.</p>
+<p>That is the puzzle this lecture is about. In Part A we asked what a society may <strong>compel</strong>. Here we ask the harder question: what do you do when force is unavailable or wrong, and the obstacle is not defiance but <strong>belief</strong>?</p>
+<p>We will not solve it by deciding she is foolish. We have to understand <em>why</em> a smart, caring person ends up here — and what may honestly be done about it.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="the-question-for-today" class="slide level2">
+<h2>The Question for Today</h2>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>If giving people the facts does not fix false medical beliefs — and can entrench them — what may a clinician or a state permissibly do instead, without manipulating people or simply declaring dissent irrational?</strong></p>
+</div>
+</div>
+</div>
+<p>COVID-19 is our richest example, because most of us lived it. But the target is <strong>general</strong>: how false medical beliefs form, spread, and resist correction — long before COVID, and long after.</p>
+</section>
+<section id="today" class="slide level2">
+<h2>Today</h2>
+<div class="learning-outcomes">
+<p>By the end of Part B, you will be able to:</p>
+<ul>
+<li>Explain the <strong>deficit model</strong> of false belief and use <strong>Kahan’s</strong> evidence to show why it fails.</li>
+<li>Distinguish <strong>Nguyen’s</strong> epistemic bubble from an echo chamber, and say why correction can backfire.</li>
+<li>Reconstruct <strong>Oreskes’</strong> answer to “why trust science?” and her account of <strong>manufactured doubt</strong>.</li>
+<li>Tell <strong>earned distrust</strong> apart from <strong>cultivated denial</strong>, using the history of medical betrayal.</li>
+<li>Apply the <strong>autonomy</strong> worry to belief: when, if ever, may we try to change what someone believes?</li>
+</ul>
+</div>
+</section></section>
+<section>
+<section id="why-just-tell-them-the-facts-fails" class="title-slide slide level1 section-divider center">
+<h1>Why “Just Tell Them the Facts” Fails</h1>
+
+</section>
+<section id="where-everyone-starts-the-deficit-model" class="slide level2">
+<h2>Where Everyone Starts: The Deficit Model</h2>
+<div class="context-box">
+<p><strong>The deficit model</strong></p>
+<p>The intuitive theory of false belief: people believe wrong things because their heads have a <em>deficit</em> — missing information. Fill the gap with facts, and the false belief dissolves.</p>
+<p>It feels obviously true. It is also, for charged health topics, mostly <strong>wrong</strong> — and the rest of this section explains why.</p>
+</div>
+<p>If the deficit model were right, the most scientifically literate people would be the <em>least</em> divided over contested science. The data show the opposite.</p>
+</section>
+<section id="kahan-reasoning-defends-the-tribe" class="slide level2">
+<h2>Kahan: Reasoning Defends the Tribe</h2>
+<p>The legal scholar <strong>Dan Kahan</strong> studies what he calls <span class="key-term">identity-protective cognition</span>: on issues that have become badges of group identity, people reason to <strong>protect their standing in their group</strong>, not to track the truth <span class="citation" data-cites="kahan2012">(<a href="#/references" role="doc-biblioref" onclick="">Kahan et al. 2012</a>)</span>.</p>
+<ul>
+<li>We are all capable of it — liberals and conservatives, the educated and the not.</li>
+<li>The mind quietly asks, “What does someone <em>like me</em> believe?” before it asks, “What is true?”</li>
+<li>This is not stupidity. It is a social instinct doing exactly what it evolved to do — in a setting where it misfires badly.</li>
+</ul>
+</section>
+<section id="the-result-that-breaks-the-deficit-model" class="slide level2">
+<h2>The Result That Breaks the Deficit Model</h2>
+<p>Kahan’s striking finding: on a politically charged science question, giving people <strong>more</strong> scientific literacy and numeracy makes them <strong>more polarized</strong>, not less.</p>
+<div class="columns">
+<div class="column" style="width:54%;">
+<p>The most knowledgeable people are the <em>best</em> at finding reasons for whatever their group already believes. Skill becomes a better engine for <strong>motivated reasoning</strong>.</p>
+<p>So “educate them harder” can widen the gap it was meant to close. The bottleneck is not facts. It is <strong>identity</strong>.</p>
+</div><div class="column" style="width:46%;">
+<div id="451a3f19" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="09b-public-health-beliefs_files/figure-revealjs/cell-2-output-1.png" width="432" height="334"></p>
+<figcaption>Schematic of Kahan et al.&nbsp;(2012): as literacy rises, groups diverge.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="what-this-does-and-doesnt-mean" class="slide level2">
+<h2>What This Does — and Doesn’t — Mean</h2>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p>The lesson is <strong>not</strong> “people are stupid,” and it is <strong>not</strong> “facts don’t matter.” Both misreadings lead somewhere ugly.</p>
+<ul>
+<li>It <em>is</em>: on identity-laden topics, facts alone rarely move people, because belief is doing a <strong>social</strong> job.</li>
+<li>It is <em>not</em>: that every belief is just tribalism, or that there’s no truth of the matter. There is — the MMR–autism link is false either way.</li>
+</ul>
+<p>Knowing this changes the <em>strategy</em>, not the <em>facts</em>. It tells us why our mother in the clinic won’t budge — and warns us that the obvious move may backfire.</p>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="bubbles-and-echo-chambers" class="title-slide slide level1 section-divider center">
+<h1>Bubbles and Echo Chambers</h1>
+
+</section>
+<section id="almost-everything-we-know-we-take-on-trust" class="slide level2">
+<h2>Almost Everything We Know, We Take on Trust</h2>
+<p>You have never run the experiments behind germ theory. Neither have I. Nearly all of medical knowledge reaches us through <strong>testimony</strong> — we believe it because we trust the people and institutions who tell us.</p>
+<ul>
+<li>This is not a weakness. No one can personally verify more than a sliver of what they know.</li>
+<li>So the real question is rarely “why won’t they think for themselves?”</li>
+<li>It is: <strong>whom do they trust — and why not us?</strong> That reframing is the key to everything that follows.</li>
+</ul>
+</section>
+<section id="two-things-that-look-alike" class="slide level2">
+<h2>Two Things That Look Alike</h2>
+<p>The philosopher <strong>C. Thi Nguyen</strong> draws a distinction that changes how we should respond <span class="citation" data-cites="nguyen2020">(<a href="#/references" role="doc-biblioref" onclick="">Nguyen 2020</a>)</span>.</p>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><strong>Epistemic bubble</strong></p>
+<p>A network that simply <strong>leaves out</strong> other voices — you just never hear the other side.</p>
+<p>It is an <em>omission</em>. Bubbles are fragile: expose the person to the missing information and the bubble can <strong>pop</strong>.</p>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<p><strong>Echo chamber</strong></p>
+<p>A network that actively <strong>discredits</strong> outside voices — they are taught to be liars, shills, “sheep.”</p>
+<p>It is a <em>manipulation of trust</em>. Exposure does <strong>not</strong> pop it; it can confirm the story.</p>
+</div></div>
+</section>
+<section id="why-correction-can-backfire" class="slide level2">
+<h2>Why Correction Can Backfire</h2>
+<p>This is the part that surprises people. In an <strong>echo chamber</strong>, the usual fix — “here are the facts from the experts” — is not neutral. It is the very thing the chamber has prepared its members to reject.</p>
+<ul>
+<li>The chamber’s core teaching is that mainstream sources are corrupt. So a CDC fact sheet is <em>evidence of the conspiracy</em>, not against it.</li>
+<li>Every correction can be re-read as proof that “they” are trying to control you.</li>
+<li>The harder you push official facts, the more the chamber’s story seems to come true.</li>
+</ul>
+</section>
+<section id="worked-example-the-mothers-belief" class="slide level2">
+<h2>Worked Example: The Mother’s Belief</h2>
+<p>Is our MMR mother in a bubble or a chamber? It matters enormously for what you should do.</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>If a <strong>bubble</strong></th>
+<th>If an <strong>echo chamber</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>What’s wrong</td>
+<td>she just hasn’t seen the evidence</td>
+<td>she’s been taught the evidence is a lie</td>
+</tr>
+<tr class="even">
+<td>What works</td>
+<td>calm exposure to good information</td>
+<td>exposure can backfire; <strong>trust</strong> must come first</td>
+</tr>
+<tr class="odd">
+<td>Your move</td>
+<td>inform</td>
+<td>connect, <em>then</em> inform — or you confirm the story</td>
+</tr>
+</tbody>
+</table>
+<p>The same words — “actually, the studies show no link” — heal a bubble and harden a chamber.</p>
+</section></section>
+<section>
+<section id="science-isnt-infallible-so-why-trust-it" class="title-slide slide level1 section-divider center">
+<h1>Science Isn’t Infallible — So Why Trust It?</h1>
+
+</section>
+<section id="but-science-gets-things-wrong" class="slide level2">
+<h2>“But Science Gets Things Wrong”</h2>
+<p>Here the skeptic has a real point, and we should grant it plainly. You have already seen that <strong>most published findings can be false</strong> — p-hacking, the replication crisis, retracted landmark studies <span class="citation" data-cites="ioannidis2005">(<a href="#/references" role="doc-biblioref" onclick="">Ioannidis 2005</a>)</span>.</p>
+<p>So if science errs, isn’t trusting “the experts” just its own kind of faith?</p>
+<aside class="notes">
+<p>Recap the replication crisis in one line — students met it earlier. Do not re-teach it. The point here is to <em>grant</em> the skeptic’s premise honestly before answering it.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="the-bad-inference" class="slide level2">
+<h2>The Bad Inference</h2>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p>From “<strong>science sometimes gets it wrong</strong>,” it does <strong>not</strong> follow that “<strong>so my podcast is just as likely to be right.</strong>”</p>
+<p>That inference treats all sources as equally unreliable the moment any one of them errs. But a method that <em>catches and corrects</em> its own errors is in a completely different class from one that never checks itself at all.</p>
+</div>
+</div>
+</div>
+<p>The question is not “is science perfect?” (no) but “<strong>what makes it more trustworthy than the alternatives?</strong>”</p>
+</section>
+<section id="oreskes-trust-the-process-not-the-genius" class="slide level2">
+<h2>Oreskes: Trust the Process, Not the Genius</h2>
+<p>The historian <strong>Naomi Oreskes</strong> argues that science’s authority does <strong>not</strong> rest on the brilliance of individual scientists, who are as biased as anyone <span class="citation" data-cites="oreskes2019">(<a href="#/references" role="doc-biblioref" onclick="">Oreskes 2019</a>)</span>.</p>
+<p>It rests on a <strong>social process</strong>:</p>
+<ul>
+<li>Claims are exposed to <strong>organized skepticism</strong> — peer review, replication, sustained expert criticism.</li>
+<li>A finding survives only by withstanding the field’s best efforts to <em>break</em> it.</li>
+<li>The warrant is not “a smart person said so.” It is “<strong>this survived a community trying to prove it wrong.</strong>”</li>
+</ul>
+</section>
+<section id="merchants-of-doubt" class="slide level2">
+<h2>Merchants of Doubt</h2>
+<p>Oreskes and Conway documented a darker move: you don’t need to <em>disprove</em> science to defeat it — you only need to <strong>manufacture doubt</strong> <span class="citation" data-cites="oreskesConway2010">(<a href="#/references" role="doc-biblioref" onclick="">Oreskes and Conway 2010</a>)</span>.</p>
+<ul>
+<li>The same tactics, often the same firms, ran the playbook for <strong>tobacco</strong>, then acid rain, then <strong>climate</strong> — and now appears around vaccines and COVID.</li>
+<li>The goal was never to win the science. It was to make the public think “the experts can’t agree,” so nothing gets done.</li>
+<li>Doubt is <strong>manufactured</strong> precisely by exploiting science’s honest openness about uncertainty.</li>
+</ul>
+</section>
+<section id="earned-distrust-vs.-cultivated-denial" class="slide level2">
+<h2>Earned Distrust vs.&nbsp;Cultivated Denial</h2>
+<p>Put the last two sections together and a sharp line appears — the one we most need.</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Cultivated denial</strong></th>
+<th><strong>Earned distrust</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Source</td>
+<td>manufactured by interested actors</td>
+<td>learned from real betrayal</td>
+</tr>
+<tr class="even">
+<td>Example</td>
+<td>doubt-mongering about vaccines</td>
+<td>wary of a system that has lied before</td>
+</tr>
+<tr class="odd">
+<td>The right response</td>
+<td>expose the manufacture</td>
+<td><strong>acknowledge the wrong</strong>, rebuild trust</td>
+</tr>
+</tbody>
+</table>
+<p>Not all distrust is irrational. Our next move is to take the <em>reasonable</em> kind seriously.</p>
+</section></section>
+<section>
+<section id="sometimes-theyre-right-not-to-trust-you" class="title-slide slide level1 section-divider center">
+<h1>Sometimes They’re Right Not to Trust You</h1>
+
+</section>
+<section id="false-belief-can-be-a-reasonable-inference" class="slide level2">
+<h2>False Belief Can Be a Reasonable Inference</h2>
+<p>A person who distrusts the medical system is not always in an echo chamber. Sometimes they are <strong>reasoning correctly from a real history</strong>.</p>
+<ul>
+<li>You met <strong>Tuskegee</strong>: forty years in which the US Public Health Service watched Black men die of treatable syphilis and lied to them about it.</li>
+<li>A community that learned “they experimented on us and lied” is not being paranoid to ask, “why trust them now?”</li>
+<li>Studies link that documented history to lower trust and worse health decisions decades later <span class="citation" data-cites="alsan2018">(<a href="#/references" role="doc-biblioref" onclick="">Alsan and Wanamaker 2018</a>)</span>.</li>
+</ul>
+<aside class="notes">
+<p>One-line recap of Tuskegee — told in full earlier. Apply, don’t re-narrate.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="how-distrust-is-learned" class="slide level2">
+<h2>How Distrust Is Learned</h2>
+<p>The betrayal isn’t only in the history books. It is <strong>re-taught in ordinary clinical encounters</strong>.</p>
+<ul>
+<li>The evidence on <strong>implicit bias</strong> is real: patients of color have their pain systematically <strong>undertreated</strong>, and women’s symptoms are more often dismissed as anxiety.</li>
+<li>Each dismissed complaint is a small lesson: <em>this place does not believe me.</em></li>
+<li>Multiply that across a lifetime, and “false beliefs” about medicine become a rational summary of how medicine has actually treated you.</li>
+</ul>
+</section>
+<section id="the-implication-for-correction" class="slide level2">
+<h2>The Implication for Correction</h2>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>This reframes the whole problem. If some distrust is <strong>earned</strong>, then “correcting” people by repeating official facts — louder — is not just ineffective. It repeats the original insult: <em>you are the problem; we are fine.</em></p>
+<p>The work isn’t only in their heads. It is in the <strong>track record</strong> — which means the cure for some false beliefs is not a better pamphlet, but a system that stops earning the distrust.</p>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="diagnosing-a-false-belief" class="title-slide slide level1 section-divider center">
+<h1>Diagnosing a False Belief</h1>
+
+</section>
+<section id="the-three-lens-diagnosis" class="slide level2">
+<h2>The Three-Lens Diagnosis</h2>
+<p>Before deciding what to <em>do</em> about a false belief, diagnose it. Our three thinkers give three questions — run every case through all three.</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Lens</th>
+<th>The question it asks</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Kahan</strong></td>
+<td>Is <strong>identity</strong> in play — has this belief become a badge of belonging?</td>
+</tr>
+<tr class="even">
+<td><strong>Nguyen</strong></td>
+<td>Bubble or <strong>echo chamber</strong> — has trust in outsiders been actively poisoned?</td>
+</tr>
+<tr class="odd">
+<td><strong>Oreskes</strong></td>
+<td>Is doubt being <strong>manufactured</strong> — and is the distrust earned or cultivated?</td>
+</tr>
+</tbody>
+</table>
+<p>The lenses don’t deliver a verdict. They tell you <strong>what kind of problem you face</strong> — and therefore what might work.</p>
+</section>
+<section id="lens-check-mmr-and-autism" class="slide level2">
+<h2>Lens Check: MMR and Autism</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Lens</th>
+<th>Reading</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Kahan</strong></td>
+<td>Partly — “natural parenting” identity for some; not strongly partisan at first.</td>
+</tr>
+<tr class="even">
+<td><strong>Nguyen</strong></td>
+<td>Often a true <strong>echo chamber</strong>: communities that pre-discredit doctors and the CDC.</td>
+</tr>
+<tr class="odd">
+<td><strong>Oreskes</strong></td>
+<td>The seed was <strong>fraud</strong> (a retracted, falsified study), then amplified far beyond it.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Diagnosis:</strong> mostly an echo-chamber + manufactured-origin problem → leading with facts will tend to backfire; <strong>trust</strong> is the lever.</p>
+</section>
+<section id="lens-check-ivermectin-for-covid" class="slide level2">
+<h2>Lens Check: Ivermectin for COVID</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Lens</th>
+<th>Reading</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Kahan</strong></td>
+<td>Strongly — the drug became a <strong>political identity</strong> marker, left vs.&nbsp;right.</td>
+</tr>
+<tr class="even">
+<td><strong>Nguyen</strong></td>
+<td>Echo chambers reframed regulators’ warnings as proof of suppression.</td>
+</tr>
+<tr class="odd">
+<td><strong>Oreskes</strong></td>
+<td>Genuine early uncertainty was <strong>stretched</strong> into manufactured doubt about the whole system.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Diagnosis:</strong> identity + echo chamber → the <em>messenger</em> matters more than the message; a trusted in-group voice beats an official one.</p>
+</section></section>
+<section>
+<section id="when-youre-the-clinician" class="title-slide slide level1 section-divider center">
+<h1>When You’re the Clinician</h1>
+
+</section>
+<section id="thought-question" class="slide level2 scrollable">
+<h2>Thought Question</h2>
+<div class="thought-question">
+<p>Back to the mother refusing MMR. You now suspect she is in an <strong>echo chamber</strong> where doctors are pre-cast as untrustworthy.</p>
+<ol type="1">
+<li>Knowing that facts may backfire, what is your <em>first</em> move — and why is it not the studies?</li>
+<li>Is it manipulative to lead with rapport and her values instead of evidence? Or is it just good care?</li>
+<li>Where is the line between <em>persuading</em> her and <em>handling</em> her?</li>
+</ol>
+</div>
+</section>
+<section id="make-it-contemporary" class="slide level2 scrollable">
+<h2>Make It Contemporary</h2>
+<div class="thought-question">
+<p>The same dynamic scales — from one clinic to a whole country.</p>
+<ul>
+<li><strong>Ivermectin (2020–21):</strong> millions sought an unproven COVID treatment; demand tracked political identity more than medical evidence.</li>
+<li><strong>South Africa (1999–2008):</strong> President Mbeki’s government, embracing <strong>AIDS denialism</strong>, withheld proven antiretrovirals. Researchers later estimated this contributed to <strong>over 300,000 deaths</strong>.</li>
+</ul>
+<p>Same machinery — identity, echo chambers, manufactured doubt — at the scale of a state.</p>
+<ol type="1">
+<li>Does scale change the ethics of how officials should respond, or only the stakes?</li>
+<li>When a <em>government</em> holds the false belief, who is left to correct it?</li>
+</ol>
+</div>
+</section>
+<section id="after-youve-discussed-1" class="slide level2">
+<h2>After You’ve Discussed</h2>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>We need three words the lecture has been circling:</p>
+<ul>
+<li><strong>Persuasion</strong> — moving someone by reasons they can examine. Respects agency.</li>
+<li><strong>Manipulation</strong> — moving someone by bypassing their reason (fear, framing, social pressure they don’t see).</li>
+<li><strong>Coercion</strong> — moving someone by force or threat.</li>
+</ul>
+<p>Leading with rapport and shared values can be honest persuasion <em>or</em> sliding manipulation — and the difference is whether you are giving her <strong>reasons she could endorse</strong>, or pulling levers she can’t see. Hold that line; the rest of the lecture tests it.</p>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="may-we-try-to-change-what-people-believe" class="title-slide slide level1 section-divider center">
+<h1>May We Try to Change What People Believe?</h1>
+
+</section>
+<section id="is-a-misinformed-refusal-autonomous" class="slide level2">
+<h2>Is a Misinformed Refusal Autonomous?</h2>
+<p>Recall what makes a choice genuinely autonomous: not just that it is <em>uncoerced</em>, but that it is <strong>informed</strong> — made with real understanding.</p>
+<ul>
+<li>If our mother’s refusal rests on a belief that is flatly false, is her choice fully <strong>autonomous</strong> — or is it a choice made on corrupted inputs?</li>
+<li>That is tempting: “she’s misinformed, so her refusal doesn’t bind me.” It would dissolve the dilemma.</li>
+<li>But it hands you a dangerous power — to declare beliefs you dislike “uninformed,” and override them.</li>
+</ul>
+</section>
+<section id="who-decides-which-beliefs-are-false-enough" class="slide level2">
+<h2>Who Decides Which Beliefs Are “False Enough”?</h2>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p>The moment you may override a choice because its <strong>belief</strong> is wrong, you need a judge of which beliefs count as wrong enough. That judge is usually <strong>you</strong> — and that is paternalism’s foot in the door.</p>
+<p>Recall the limit from earlier: power over a competent adult needs more than “they believe something false.” Plenty of competent people believe false things and keep the right to decide. The harm-to-others case (an unvaccinated child in a community) is far stronger than the “for-her-own-good” case — and they should not be blurred.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="the-correction-ladder" class="slide level2">
+<h2>The Correction Ladder</h2>
+<p>As with coercion in Part A, responses to false belief form a <strong>ladder</strong> — and each rung costs more in autonomy. Climb only as high as the case warrants.</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Rung</th>
+<th>Tool</th>
+<th>Autonomy cost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td><strong>Inform</strong> — offer good evidence</td>
+<td>none — pure persuasion</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td><strong>Trusted messenger</strong> — route it through an in-group voice</td>
+<td>low</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td><strong>Reframe / nudge</strong> — defaults, framing, choice architecture</td>
+<td>contested — may bypass reason</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td><strong>Restrict</strong> — limit reach of false claims (platform rules)</td>
+<td>real — speech costs</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td><strong>Mandate</strong> — attach consequences to the behavior</td>
+<td>highest — Part A territory</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="where-persuasion-becomes-manipulation" class="slide level2">
+<h2>Where Persuasion Becomes Manipulation</h2>
+<p>Rungs 1–2 give reasons. Somewhere around <strong>rung 3</strong>, we start managing people instead of convincing them.</p>
+<ul>
+<li>A <strong>nudge</strong> (opt-out defaults, a scary image) can work <em>because</em> it bypasses deliberation — which is exactly the worry.</li>
+<li>It may be benign (a default flu-shot appointment) or troubling (fear campaigns that exploit anxiety).</li>
+<li>The test isn’t “did it work?” Propaganda works. The test is whether it treats people as <strong>reasoners</strong> or as <strong>levers</strong>.</li>
+</ul>
+</section>
+<section id="does-the-marketplace-of-ideas-still-clear" class="slide level2">
+<h2>Does the Marketplace of Ideas Still Clear?</h2>
+<div class="columns">
+<div class="column" style="width:56%;">
+<p>The classic answer to bad speech is <strong>more speech</strong>: let truth and falsehood grapple, and truth wins. It is the case for staying on the low rungs.</p>
+<p>But that bet assumed people <em>hear</em> the other side. Nguyen’s echo chamber is precisely the case where exposure <strong>doesn’t</strong> correct — where the marketplace may not clear. That is the strongest argument for climbing higher — and its danger.</p>
+</div><div class="column" style="width:44%;">
+<div class="context-box">
+<p><strong>The marketplace of ideas</strong></p>
+<p>Mill’s wager: open debate is self-correcting, so the cure for error is argument, not suppression. The echo chamber is the modern stress test of whether that still holds.</p>
+</div>
+</div></div>
+</section></section>
+<section>
+<section id="from-one-patient-to-the-public-square" class="title-slide slide level1 section-divider center">
+<h1>From One Patient to the Public Square</h1>
+
+</section>
+<section id="may-the-state-regulate-misinformation" class="slide level2">
+<h2>May the State Regulate Misinformation?</h2>
+<p>The clinic dilemma becomes a constitutional one when the actor is the <strong>government</strong>.</p>
+<ul>
+<li>Demonstrably dangerous falsehoods cause real deaths — the case <em>for</em> acting.</li>
+<li>But the state is the <strong>least trusted messenger</strong> for exactly the people most in the echo chamber.</li>
+<li>And “the government decides what is misinformation” is the sentence that the echo chamber has been waiting to hear.</li>
+</ul>
+</section>
+<section id="the-suppression-paradox" class="slide level2">
+<h2>The Suppression Paradox</h2>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p>Climbing to rung 4 or 5 against false belief carries a built-in trap: <strong>suppression can confirm the story.</strong></p>
+<p>The echo chamber teaches that authorities silence the truth. Deplatforming, penalties, and gag rules can all be re-read as proof of exactly that — turning the correction into recruitment material.</p>
+<p>This doesn’t make regulation always wrong. It means coercion against <em>belief</em> can be <strong>self-undermining</strong> in a way coercion against <em>behavior</em> (Part A) often is not.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="reasonable-vs.-unreasonable-criticism-again" class="slide level2">
+<h2>Reasonable vs.&nbsp;Unreasonable Criticism — Again</h2>
+<p>The triage from Part A returns, now aimed at public-health <strong>messaging</strong>.</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Unreasonable</th>
+<th>Why it fails</th>
+<th>Legitimate</th>
+<th>Why it’s serious</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>“They lied, so trust no one”</td>
+<td>over-generalizes from real errors</td>
+<td>“They overstated certainty and lost credibility”</td>
+<td>a real failure of candor</td>
+</tr>
+<tr class="even">
+<td>“Misinformation is anything I dislike”</td>
+<td>makes the censor the judge</td>
+<td>“Who defines misinformation, and with what limits?”</td>
+<td>a genuine free-speech worry</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="thought-question-1" class="slide level2 scrollable">
+<h2>Thought Question</h2>
+<div class="thought-question">
+<p>A social platform asks you to write its policy on COVID vaccine claims.</p>
+<ol type="1">
+<li>Would you remove false claims, label them, down-rank them, or leave them up? Pick one and defend it.</li>
+<li>Does your answer change if removing them visibly <strong>boosts</strong> the believers’ sense of persecution?</li>
+<li>Which rung of the ladder is this — and what would have to be true to justify going higher?</li>
+</ol>
+</div>
+</section></section>
+<section>
+<section id="earn-the-right-to-be-believed" class="title-slide slide level1 section-divider center">
+<h1>Earn the Right to Be Believed</h1>
+
+</section>
+<section id="you-dont-engineer-belief-you-become-worth-believing" class="slide level2">
+<h2>You Don’t Engineer Belief — You Become Worth Believing</h2>
+<p>Pull the threads together. If facts backfire in echo chambers, if some distrust is earned, and if coercing belief can confirm the conspiracy — then the center of gravity shifts.</p>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p>The aim is not to <strong>engineer</strong> the right beliefs in people’s heads. It is to become, as a clinician and as an institution, <strong>worth believing</strong> — so that your testimony is <em>accepted</em> rather than rejected.</p>
+<p>Oreskes’ point, turned practical: trust is earned by a <strong>process</strong>, not demanded by authority.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="what-trustworthiness-requires" class="slide level2">
+<h2>What Trustworthiness Requires</h2>
+<p>Becoming trustworthy is concrete work, not a slogan.</p>
+<ul>
+<li><strong>Transparency</strong> — show the reasoning and the evidence, including what you don’t know.</li>
+<li><strong>Honesty about uncertainty</strong> — overclaiming (“the science is settled” when it isn’t) spends trust you can’t refund.</li>
+<li><strong>Reciprocity</strong> — when you ask people to bear a burden, acknowledge it and make it right.</li>
+<li><strong>Repair</strong> — name past wrongs plainly instead of asking the betrayed to “just trust the experts.”</li>
+</ul>
+</section>
+<section id="back-to-the-clinic" class="slide level2">
+<h2>Back to the Clinic</h2>
+<p>So what <em>do</em> you say to the mother?</p>
+<ul>
+<li>Probably not the studies first. Probably: you listen, you find the value you share (a healthy child), and you become — over more than one visit — a person she has reason to trust.</li>
+<li>The lever was never the pamphlet. It was the <strong>relationship</strong>.</li>
+<li>That is slower, less satisfying, and far more honest than winning the argument. It is also the only thing that reliably works.</li>
+</ul>
+</section>
+<section id="mini-recap" class="slide level2">
+<h2>Mini-Recap</h2>
+<div class="recap">
+<p>We started with a smart, caring mother whom facts would not move, and asked why. The <strong>deficit model</strong> is false: <strong>Kahan</strong> shows that on identity-laden topics, more knowledge can deepen division. <strong>Nguyen</strong> explains why correction backfires — an <strong>echo chamber</strong> poisons trust in outsiders, so facts confirm the story. <strong>Oreskes</strong> answers the skeptic: science earns trust through <strong>organized skepticism</strong>, while bad actors <strong>manufacture doubt</strong> — though we must still honor the <strong>earned distrust</strong> that betrayals like Tuskegee created. The ethics then turns on <strong>autonomy</strong>: we cannot simply override beliefs we judge false without becoming paternalists, and coercing belief can be self-undermining. The honest path is not to engineer belief but to become <strong>worth believing</strong> — through transparency, candor about uncertainty, and repair.</p>
+</div>
+</section>
+<section id="review-questions" class="slide level2">
+<h2>Review Questions</h2>
+<div class="review-questions">
+<div class="review-item review-recall">
+<p><span class="review-label">Recall</span></p>
+<p>Explain the difference between an epistemic bubble and an echo chamber, and why it changes how you should respond.</p>
+</div>
+<div class="review-item review-apply">
+<p><span class="review-label">Apply</span></p>
+<p>A patient refuses a cancer treatment in favor of an unproven herbal remedy he found online. Run his belief through the three lenses and say what you would do first.</p>
+</div>
+<div class="review-item review-debate">
+<p><span class="review-label">Debate</span></p>
+<p>Should a government be allowed to remove medical misinformation from social media? Defend your view using the suppression paradox and at least one benchmark from Part A.</p>
+</div>
+</div>
+</section>
+<section id="key-terms" class="slide level2">
+<h2>Key Terms</h2>
+<ul>
+<li><strong>Deficit model</strong> — the (mistaken) view that false belief is simply missing information.</li>
+<li><strong>Identity-protective cognition</strong> — reasoning to protect group standing rather than to track truth (Kahan).</li>
+<li><strong>Motivated reasoning</strong> — using one’s skills to reach a desired conclusion.</li>
+<li><strong>Epistemic bubble</strong> — a network that omits other voices; fragile to exposure (Nguyen).</li>
+<li><strong>Echo chamber</strong> — a network that actively discredits outsiders; exposure can entrench it (Nguyen).</li>
+<li><strong>Organized skepticism</strong> — the social error-checking (peer review, replication) behind science’s authority (Oreskes).</li>
+<li><strong>Manufactured doubt</strong> — deliberately exploiting uncertainty to block action (Oreskes &amp; Conway).</li>
+<li><strong>Earned distrust</strong> — well-grounded suspicion based on a real history of betrayal.</li>
+<li><strong>Persuasion / manipulation / coercion</strong> — moving someone by reasons / by bypassing reason / by force.</li>
+</ul>
+</section>
+<section id="further-reading" class="slide level2">
+<h2>Further Reading</h2>
+<ul>
+<li>Nguyen, C. Thi. “Echo Chambers and Epistemic Bubbles.” <em>Episteme</em> 17, no. 2 (2020): 141–161.</li>
+<li>Oreskes, Naomi. <em>Why Trust Science?</em> Princeton University Press, 2019.</li>
+<li>Oreskes, Naomi, and Erik M. Conway. <em>Merchants of Doubt.</em> Bloomsbury Press, 2010.</li>
+</ul>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-alsan2018" class="csl-entry" role="listitem">
+Alsan, Marcella, and Marianne Wanamaker. 2018. <span>“<span>Tuskegee</span> and the Health of Black Men.”</span> <em>The Quarterly Journal of Economics</em> 133 (1): 407–55. <a href="https://doi.org/10.1093/qje/qjx029">https://doi.org/10.1093/qje/qjx029</a>.
+</div>
+<div id="ref-ioannidis2005" class="csl-entry" role="listitem">
+Ioannidis, John P. A. 2005. <span>“Why Most Published Research Findings Are False.”</span> <em>PLoS Medicine</em> 2 (8): e124. <a href="https://doi.org/10.1371/journal.pmed.0020124">https://doi.org/10.1371/journal.pmed.0020124</a>.
+</div>
+<div id="ref-kahan2012" class="csl-entry" role="listitem">
+Kahan, Dan M., Ellen Peters, Maggie Wittlin, et al. 2012. <span>“The Polarizing Impact of Science Literacy and Numeracy on Perceived Climate Change Risks.”</span> <em>Nature Climate Change</em> 2 (10): 732–35.
+</div>
+<div id="ref-nguyen2020" class="csl-entry" role="listitem">
+Nguyen, C. Thi. 2020. <span>“Echo Chambers and Epistemic Bubbles.”</span> <em>Episteme</em> 17 (2): 141–61.
+</div>
+<div id="ref-oreskes2019" class="csl-entry" role="listitem">
+Oreskes, Naomi. 2019. <em>Why Trust Science?</em> Princeton University Press.
+</div>
+<div id="ref-oreskesConway2010" class="csl-entry" role="listitem">
+Oreskes, Naomi, and Erik M. Conway. 2010. <em>Merchants of Doubt: How a Handful of Scientists Obscured the Truth on Issues from Tobacco Smoke to Global Warming</em>. Bloomsbury Press.
+</div>
+</div>
+
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+<p>Bioethics OER · CC BY-NC 4.0 · Brendan Shea</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': false,
+'previewLinksAuto': true,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'fast',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>
