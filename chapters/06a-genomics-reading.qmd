@@ -377,26 +377,6 @@ Neither study has reported major harm. Both report that families want the result
 
 Both groups are firmly mainstream. They disagree, in public, about what to do with the next four million newborns.
 
-## Thought Question — Would You Sign Your Newborn Up?
-
-::: {.thought-question}
-You are the parent we opened with. The hospital is enrolling for a study that returns about 200 conditions: most treatable in childhood, about 30 only relevant in adulthood, a handful neither but informative. Your partner wants to enroll. You are unsure.
-
-**Write or discuss.**
-
-1. Which of the three kinds of result would you tell the study you want back, and which not?
-2. The consent form says the data will be kept for thirty years and may be re-read as the science improves. Does that change your answer?
-3. The nurse on the consent team says "most families take everything." Is that helpful information — or a form of subtle pressure?
-:::
-
-## After You've Discussed
-
-::: {.callout-note}
-The opener split results into *actionable now*, *actionable later*, and *merely informative*. Two finer senses matter here: a finding can be *behaviorally* actionable — no treatment, but the family changes plans (career, when to have kids) — or *not actionable* at all.
-
-The ACMG and AAP do not disagree about the science. They disagree about which of these counts as "actionable enough" to override a child's right to decide for herself.
-:::
-
 # Direct-to-Consumer Testing {.section-divider}
 
 ## 23andMe by the Numbers
@@ -414,18 +394,6 @@ The product is two products in one box: a recreational ancestry report, and a cl
 In October 2023, attackers got into 23andMe accounts by reusing passwords leaked from other sites. Because many customers had opted into a feature called "DNA Relatives," each broken account also exposed information about that user's *relatives* — relatives who had never been hacked themselves.
 
 About **6.9 million users** were affected. Lists targeting Ashkenazi Jewish and Chinese-ancestry customers were posted on hacker forums. The company settled in late 2024 for about $30 million.
-
-## One Relative's Test Is Everyone's Test
-
-::: {.context-box}
-**The consent externality**
-
-If your second cousin uploads her saliva to a genealogy site, she has not just given consent for herself. With no notice to you, she has shared a lot about your DNA too.
-
-You cannot really *opt out* of your relatives' choices. The same feature of DNA that makes ancestry inference work makes one-person consent an incomplete protection.
-
-The next section runs on the same fact. Shared DNA is what exposed millions in the 23andMe breach. It is also what makes forensic genetic genealogy work.
-:::
 
 # Race and Genetics: The NASEM Framework {.section-divider}
 
@@ -446,7 +414,7 @@ The field has argued about race and genetics since the HGP itself. The latest pr
 — National Academies of Sciences, Engineering, and Medicine, *Using Population Descriptors in Genetics and Genomics Research* (2023), Summary, Rec. 1.
 :::
 
-The reasoning, in one line: race is a social-political category. It shifts by country and by era. Human genetic variation is continuous, not discrete. Mapping the first onto the second produces errors that go in predictable directions. [@nasem_2023_population_descriptors]
+The reasoning, in one line: race is a social-political category. It shifts by country and by era. Human genetic variation is continuous, not discrete. Mapping the first onto the second produces errors that go in predictable directions. The same report retires *Caucasian* from genetic research — a term coined in 1795 by Blumenbach to rank a skull he found beautiful, carrying no genetic information then or now. [@nasem_2023_population_descriptors]
 
 ## Population Descriptors at a Glance
 
@@ -459,42 +427,6 @@ The reasoning, in one line: race is a social-political category. It shifts by co
 | **Genetic similarity** | A number measuring how genetically alike two people are | The preferred tool for most population comparisons |
 
 Adapted from NASEM 2023, Table S-1.
-
-## "Caucasian" — a Word with a History
-
-::: {.context-box}
-**Where the word came from**
-
-The term *Caucasian* was coined in 1795 by the German anatomist **Johann Friedrich Blumenbach**. He split humans into five "varieties" and declared the Caucasus region home to the most beautiful skull in his collection. He used the word to convey a racial hierarchy, with Europeans on top.
-
-NASEM 2023 says the word should be retired from genetic research. It carries no scientific information. It never did. Its continued use in medical forms gives a sheen of legitimacy to a category that started as a judgment about a skull.
-:::
-
-[@nasem_2023_population_descriptors]
-
-## Thought Question — A Study Lands on Your Desk
-
-::: {.thought-question}
-You are a primary-care clinician reading the morning's literature alerts. A new paper reports: *"African American patients in our cohort have a 1.8× higher rate of variant X, a variant linked to poor response to drug Y."* You prescribe drug Y often.
-
-**Write or discuss.**
-
-1. Before you change anything, what would you want to know about how the authors *defined* "African American"?
-2. Two of your patients fit the label as the authors used it: one whose grandparents emigrated from Nigeria in the 1990s, one whose family has been in rural Mississippi for six generations. Should the finding change their care in the same way?
-3. If the answer to (2) is "no," what should the study have been reporting instead?
-:::
-
-## After You've Discussed
-
-::: {.callout-note}
-"African American patients have a higher rate of variant X" can mean three different things, and they do not commit to the same claims.
-
-- *Race as ancestry-proxy*: the variant is more common in people whose recent ancestors came from certain regions of Africa. Replace the label with the geographic ancestry and the claim becomes precise.
-- *Race as social-exposure proxy*: the variant looks more common because what activates it (lead, redlining, segregated air) tracks race in the US.
-- *Race as the actual variable*: a claim about a biological category called "African American" — which NASEM says doesn't exist.
-
-The clinician's job is to ask which one is being claimed before acting on it.
-:::
 
 # Forensic Genetic Genealogy {.section-divider}
 
@@ -585,57 +517,6 @@ In 2020, **Florida** became the first US state to extend protection to *life, di
 
 Federal law has not moved since 2008. For now, the action is in state legislatures and in the actuarial departments of life insurers. Both know that a whole-genome reading for under a thousand dollars is on the near horizon for every American applicant.
 
-# Dual-Use Genomics {.section-divider}
-
-## Mail-Order DNA Synthesis
-
-For about $0.10 per base pair, a researcher can order a custom stretch of DNA online and get it in the mail in days. The technology is what makes modern molecular biology workable. It also made it possible, in 2002, for a Stony Brook lab to build a working poliovirus from scratch, using only the published genome and mail-order reagents.
-
-The dual-use risk is not hypothetical. The 1918 flu virus has been rebuilt in a high-containment lab. A 2016 Canadian team used a published horsepox genome to assemble a close relative of the virus, for under $100,000.
-
-The question is not whether the technology should exist. It does. The question is who is checking what gets ordered.
-
-## The 2023 White House Framework
-
-In April 2023, the White House issued a framework asking providers of synthetic DNA to **screen orders** against lists of dangerous sequences, and to verify the legitimacy of customers placing large or unusual orders.
-
-::: {.columns}
-::: {.column width="48%"}
-**What the framework does**
-
-- Sets a uniform federal screening standard.
-- Targets orders touching sequences on the federal Select Agent list.
-- Ties some federal funding to using compliant providers.
-:::
-::: {.column width="4%"}
-:::
-::: {.column width="48%"}
-**What it doesn't do**
-
-- Cover *benchtop* DNA synthesizers, which sit outside the screening regime.
-- Cover non-US providers, several of which sell into US labs.
-- Catch fragments small enough to be assembled into a dangerous sequence later.
-:::
-::::
-
-The risk is real. The controls are partial. The regulatory pace has not matched the technological one.
-
-# Where This Field Came From {.section-divider}
-
-## ELSI — A Bioethics Program Built Into the Science
-
-::: {.context-box}
-**The 1988 promise**
-
-When James Watson was named to lead the new National Center for Human Genome Research, a reporter asked him about the social effects of sequencing the human genome. More or less off the cuff, Watson said a portion of the funding would be set aside to study those effects.
-
-That promise became the **Ethical, Legal, and Social Implications (ELSI) research program**. The 1993 NIH Revitalization Act made it a legal requirement: at least 5% of the NIH budget for the genome project goes to ELSI research. That has meant tens of millions of dollars a year, every year, for over three decades.
-
-ELSI is why genomics has more bioethics infrastructure than other parts of biomedicine. The model was later copied for the BRAIN Initiative, the All of Us program, and parts of federal AI research funding.
-:::
-
-[@mcewen2014_elsi]
-
 # Wrap {.section-divider}
 
 ## Scoreboard — Geneticization Across the Lecture
@@ -647,9 +528,8 @@ ELSI is why genomics has more bioethics infrastructure than other parts of biome
 | **Polygenic risk scores** | Disease risk as a number | The training-data ancestry that set how accurate the number is |
 | **Race in research** | Genetic variation as racial-group difference | The environment and history that track race in the US |
 | **Forensic genealogy** | A suspect's identity from distant-cousin matches | The non-suspect relatives whose DNA was searched without consent |
-| **Dual-use synthesis** | A pathogen's sequence as a copyable recipe | The conditions under which the recipe gets ordered |
 
-The same pull, six times. Name it once; spot it everywhere.
+The same pull, again and again. Name it once; spot it everywhere.
 
 ## Review Questions
 
@@ -704,7 +584,6 @@ Should police need a warrant before searching genealogy databases for a suspect'
 - Lisa Gannett, "The Human Genome Project," *Stanford Encyclopedia of Philosophy* (2023 revision).
 - National Academies of Sciences, Engineering, and Medicine, *Using Population Descriptors in Genetics and Genomics Research* (2023) — read the summary at minimum.
 - Alice Popejoy and Stephanie Fullerton, "Genomics is Failing on Diversity," *Nature* 538 (2016).
-- Jean McEwen et al., "The ELSI Program: Reflections on an Ongoing Experiment," *Annual Review of Genomics and Human Genetics* 15 (2014).
 
 ## What We're Doing in Part B
 
