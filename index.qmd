@@ -55,6 +55,7 @@ We offer comprehensive historical and clinical case studies to pair with specifi
 | 6 | **He Jiankui & the CRISPR Twins:** Germline Editing, Consent, and the Limits of Scientific Self-Regulation | [L6B: Engineering Persons](chapters/06b-genomics-enhancement.html) | [HTML](cases/06-he-jiankui.html) / [DOCX](cases/06-he-jiankui.docx) |
 | 7 | **Noelia Castillo:** Psychiatric Suffering, Decisional Capacity, and the Limits of Euthanasia Law | [L7B: Euthanasia & Assisted Death](chapters/07b-euthanasia.html) | [HTML](cases/07-noelia-castillo.html) / [DOCX](cases/07-noelia-castillo.docx) |
 | 8 | **Singapore's Health Care System:** Cost, Access, Outcomes, and What the US Can (and Can't) Learn | [L8B: Why US Health Care Costs So Much](chapters/08b-us-healthcare.html) | [HTML](cases/08-singapore-healthcare.html) / [DOCX](cases/08-singapore-healthcare.docx) |
+| 9 | **Andrew Wakefield & the MMR-Autism Myth:** Misinformation, Vaccine Hesitancy, and Public Trust | [L9B: False Beliefs & the Ethics of Correction](chapters/09b-public-health-beliefs.html) | [HTML](cases/09-wakefield-mmr.html) / [DOCX](cases/09-wakefield-mmr.docx) |
 
 
 ---
