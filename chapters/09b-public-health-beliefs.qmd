@@ -30,7 +30,7 @@ You have about **15 minutes**.
 ## After You've Discussed
 
 ::: {.callout-note}
-Notice what is *not* her problem: a shortage of information. She has plenty — much of it false, all of it confidently held. Handing her more facts may do nothing, or may make her dig in.
+Her problem is *not* a shortage of information. She has plenty — much of it false, all of it confidently held. Handing her more facts may do nothing, or may make her dig in.
 
 That is the puzzle this lecture is about. In Part A we asked what a society may **compel**. Here we ask the harder question: what do you do when force is unavailable or wrong, and the obstacle is not defiance but **belief**?
 
@@ -71,7 +71,7 @@ It feels obviously true. It is also, for charged health topics, mostly **wrong**
 
 If the deficit model were right, the most scientifically literate people would be the *least* divided over contested science. The data show the opposite.
 
-## Kahan: Reasoning Defends the Tribe
+## Kahan: Reasoning Defends the Group
 
 The legal scholar **Dan Kahan** studies what he calls [identity-protective cognition]{.key-term}: on issues that have become badges of group identity, people reason to **protect their standing in their group**, not to track the truth [@kahan2012].
 
@@ -123,7 +123,7 @@ plt.show()
 ## What This Does — and Doesn't — Mean
 
 ::: {.callout-important}
-The lesson is **not** "people are stupid," and it is **not** "facts don't matter." Both misreadings lead somewhere ugly.
+The lesson is **not** "people are stupid," and it is **not** "facts don't matter." Both misreadings are mistakes — and consequential ones.
 
 - It *is*: on identity-laden topics, facts alone rarely move people, because belief is doing a **social** job.
 - It is *not*: that every belief is just tribalism, or that there's no truth of the matter. There is — the MMR–autism link is false either way.
@@ -166,7 +166,7 @@ It is a *manipulation of trust*. Exposure does **not** pop it; it can confirm th
 
 ## Why Correction Can Backfire
 
-This is the part that surprises people. In an **echo chamber**, the usual fix — "here are the facts from the experts" — is not neutral. It is the very thing the chamber has prepared its members to reject.
+In an **echo chamber**, the usual fix — "here are the facts from the experts" — is not neutral. It is the very thing the chamber has prepared its members to reject.
 
 - The chamber's core teaching is that mainstream sources are corrupt. So a CDC fact sheet is *evidence of the conspiracy*, not against it.
 - Every correction can be re-read as proof that "they" are trying to control you.
@@ -273,7 +273,7 @@ The betrayal isn't only in the history books. It is **re-taught in ordinary clin
 ## The Implication for Correction
 
 ::: {.callout-note}
-This reframes the whole problem. If some distrust is **earned**, then "correcting" people by repeating official facts — louder — is not just ineffective. It repeats the original insult: *you are the problem; we are fine.*
+This reframes the whole problem. If some distrust is **earned**, then "correcting" people by repeating official facts — louder — is not just ineffective. It repeats the original message: *you are the problem; we are fine.*
 
 The work isn't only in their heads. It is in the **track record** — which means the cure for some false beliefs is not a better pamphlet, but a system that stops earning the distrust.
 :::
@@ -316,27 +316,29 @@ This is the whole payoff. Different mixes call for different moves.
 
 Hand everyone the same fact sheet, and you will help the few in a bubble and harden everyone else.
 
-## Profile: MMR and Autism
+## Profile: The MMR–Autism Fear
 
-Which strands are strongest? Roughly:
+*What happened:* in 1998 a British doctor published a small study linking the **MMR vaccine** to autism. It was later retracted and shown to be **fraud**. Studies of millions of children since have found **no link** — yet the fear spread and stuck.
 
-- **Cultivated doubt** — the seed was outright **fraud**, then amplified for profit and attention.
-- **Echo chamber** — communities that pre-discredit doctors and the CDC.
-- **Reasonable inference** — some real distrust of a drug industry that has lied before.
-- *Identity* is present but milder, and not strongly partisan at first.
+*Why it stuck — the mix:*
 
-**Lead move:** not the studies. A **trusted messenger** and the parent's own values — because the dominant strands punish a facts-first approach.
+- **Cultivated doubt** — a fraudulent seed, kept alive by sellers of the "natural" alternative.
+- **Echo chamber** — parent groups that pre-discredit doctors and the CDC.
+- **Reasonable inference** — real distrust of a drug industry that has lied before.
+
+**Lead move:** not the studies. A **trusted messenger** and the parent's own values.
 
 ## Profile: Ivermectin for COVID
 
-A different mix entirely:
+*What happened:* ivermectin is a cheap, safe drug — for **parasites**. During COVID some promoted it as a cure. Careful trials found it **did not work** against the virus. But belief in it grew, and split along political lines.
+
+*Why it grew — a different mix:*
 
 - **Identity** — the drug became a **political badge**, left vs. right.
-- **Echo chamber** — regulators' warnings were reframed as proof of suppression.
-- **Cultivated doubt** — genuine early uncertainty stretched into doubt about the whole system.
-- **Reasonable inference** plays a smaller role; this is more identity than betrayal.
+- **Echo chamber** — official warnings were recast as proof of a cover-up.
+- **Cultivated doubt** — real early uncertainty stretched into doubt about everything.
 
-**Lead move:** an **in-group voice**, not an official one — because the identity strand makes the messenger matter more than the message.
+**Lead move:** an **in-group voice**, not an official one — here the messenger matters more than the message.
 
 # When You're the Clinician {.section-divider}
 
@@ -439,14 +441,14 @@ The clinic dilemma becomes a constitutional one when the actor is the **governme
 
 - Demonstrably dangerous falsehoods cause real deaths — the case *for* acting.
 - But the state is the **least trusted messenger** for exactly the people most in the echo chamber.
-- And "the government decides what is misinformation" is the sentence that the echo chamber has been waiting to hear.
+- And "the government decides what is misinformation" is exactly what the echo chamber predicts it will do.
 
 ## The Suppression Paradox
 
 ::: {.callout-important}
 Climbing to rung 4 or 5 against false belief carries a built-in trap: **suppression can confirm the story.**
 
-The echo chamber teaches that authorities silence the truth. Deplatforming, penalties, and gag rules can all be re-read as proof of exactly that — turning the correction into recruitment material.
+The echo chamber teaches that authorities silence the truth. Deplatforming, penalties, and gag rules can all be re-read as proof of exactly that — making the correction look like evidence of the cover-up.
 
 This doesn't make regulation always wrong. It means coercion against *belief* can be **self-undermining** in a way coercion against *behavior* (Part A) often is not.
 :::
@@ -497,7 +499,7 @@ So what *do* you say to the mother?
 
 - Probably not the studies first. Probably: you listen, you find the value you share (a healthy child), and you become — over more than one visit — a person she has reason to trust.
 - The lever was never the pamphlet. It was the **relationship**.
-- That is slower, less satisfying, and far more honest than winning the argument. It is also the only thing that reliably works.
+- That is slower, less satisfying, and far more honest than winning the argument. It is also, the evidence suggests, what works most reliably.
 
 ## Mini-Recap
 

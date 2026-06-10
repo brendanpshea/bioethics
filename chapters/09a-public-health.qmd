@@ -205,7 +205,7 @@ John Snow, cholera map of Soho, 1854. Public domain.
 
 ## Sanitation — Scored
 
-Clean water and sewers became the **largest life-saver in public health history**, adding more years to human life than any drug.
+Clean water and sewers are among the **largest life-savers in public health history** — by some measures adding more years to life than any single drug.
 
 | Benchmark | Verdict | Why |
 |---|---|---|
@@ -225,11 +225,11 @@ Smallpox killed roughly **30%** of those it infected and disfigured most survivo
 
 - In 1980 the World Health Organization declared smallpox **eradicated** — the only human disease ever deliberately wiped out.
 - Measles cases in the US fell from hundreds of thousands a year to near zero after the 1963 vaccine.
-- These are among the clearest public health wins on record — which makes the resistance they met worth understanding rather than mocking.
+- These are among the clearest public health wins on record — which makes the resistance they met worth taking seriously.
 
-## The Resistance Was Not Simply Stupid
+## The Resistance Had Real Roots
 
-Vaccination has drawn organized opposition since the very beginning, and the fears were not all baseless.
+Vaccination has drawn organized opposition since the very beginning, and the early fears were not all baseless.
 
 - Early smallpox vaccination used **arm-to-arm** transfer that could pass along other infections; the safety worry had a real basis at the time.
 - Victorian **Anti-Vaccination Leagues** framed compulsory vaccination as the state forcing a foreign substance into a child's body — a liberty claim, not only a medical one.
@@ -251,12 +251,12 @@ The science is settled; the lasting argument is over coercion — how strong a m
 
 ## Two Kinds of Criticism
 
-Not every objection to a mandate is equal. The benchmarks let you sort them — and good citizenship means telling them apart.
+Not every objection to a mandate is equal. The benchmarks let you sort the serious ones from the rest.
 
 | Unreasonable objection | Why it fails | Legitimate objection | Why it's serious |
 |---|---|---|---|
 | "Vaccines don't work" | loses on **effectiveness** — the evidence is settled | "A less coercive design might reach similar uptake" | a real **least-infringement** question |
-| "Just let it rip" | loses on **proportionality** — it ignores the dead | "Make exemptions only as narrow as the threat needs" | turns on contested, checkable facts |
+| "Just let it rip" | loses on **proportionality** — it discounts the deaths | "Make exemptions only as narrow as the threat needs" | turns on contested, checkable facts |
 
 **The pattern:** unreasonable criticism attacks a ✅ benchmark that is actually settled. Legitimate criticism lives at the ⚖️ marks — *is there a route that delivers the same benefit with less coercion?* The honest answer is often "**maybe — but it isn't clear there is.**"
 
@@ -361,7 +361,7 @@ Many places require **motorcycle helmets** and **seatbelts**. A rider who skips 
 ## After You've Discussed
 
 ::: {.callout-note}
-Notice the move both sides just made. The helmet debate turns on whether a "self-regarding" choice is *really* self-regarding once its costs are **socialized** — shared through insurance, emergency rooms, and grieving families.
+Both arguments turn on the same point. The helmet debate is really about whether a "self-regarding" choice stays self-regarding once its costs are **socialized** — shared through insurance, emergency rooms, and lost income.
 
 That gives us a useful distinction the benchmarks alone don't name: a **direct externality** (your germs enter my body) versus a **socialized cost** (we all pay for the consequences of your risk). The first is the strong Millian case for coercion; the second is real but far easier to stretch into justifying anything. Keep them apart.
 :::
@@ -409,13 +409,13 @@ During a smallpox outbreak, Cambridge required adults to be vaccinated or pay a 
 — *Jacobson v. Massachusetts*, 197 U.S. 11 (1905) [@jacobson1905]
 :::
 
-## Buck v. Bell: The Dark Mirror
+## Buck v. Bell: The Same Logic Abused
 
-Twenty-two years later, the Court cited **Jacobson** to reach one of its most infamous results.
+Twenty-two years later, the Court cited **Jacobson** to reach one of its most criticized results.
 
 - In **Buck v. Bell** (1927), it upheld the forced **sterilization** of Carrie Buck, a young woman wrongly labeled "feeble-minded," as a public health measure for the "welfare of society."
-- Justice Holmes wrote: "**Three generations of imbeciles are enough**." The science was junk and the label was false [@buck1927].
-- The same "necessity for the common good" that justified a $5 vaccine fine was stretched to justify the **eugenic mutilation** of the powerless — part of the American sterilization story you met earlier.
+- Justice Holmes wrote: "**Three generations of imbeciles are enough**." The science was unfounded and the label was false [@buck1927].
+- The same "necessity for the common good" that justified a $5 vaccine fine was stretched to justify the forced **sterilization** of people judged unfit — part of the American eugenics story you met earlier.
 
 ## Why the Benchmarks Exist
 
@@ -426,7 +426,7 @@ Run Buck v. Bell through the scoreboard. It is not a close call — it **fails a
 | Effectiveness | ❌ | Based on pseudoscience; sterilizing Carrie Buck protected no one. |
 | Proportionality | ❌ | An irreversible bodily harm against a non-existent threat. |
 | Necessity | ❌ | No public danger required any action at all. |
-| Least infringement | ❌ | The most violent intervention imaginable on a healthy body. |
+| Least infringement | ❌ | Irreversible surgery forced on a healthy body. |
 | Public justification | ❌ | Built on a false label the subject could not contest. |
 
 The benchmarks are not bureaucracy. They are the **guardrails** that separate Jacobson from Buck.
