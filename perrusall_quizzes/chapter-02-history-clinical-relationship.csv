@@ -1,41 +1,41 @@
 Question type,Answer explanation,Points,Prompt,Correct answers,Answer choice 1,Answer choice 2,Answer choice 3,Answer choice 4,Answer choice 5
-MC,,,Which code first made voluntary consent central in research ethics?,2,Declaration of Helsinki,The Nuremberg Code,The Belmont Report,The federal Common Rule,
-MC,,,Which report named respect for persons beneficence and justice?,3,The Nuremberg Code,Declaration of Helsinki,The Belmont Report,The HIPAA privacy law,
-MC,,,What local committee reviews human-subjects research before it starts?,1,An institutional review board,An independent DSMB panel,The federal CDC,The World Health Organization,
-MC,,,What movement aimed to improve the population by controlling reproduction?,4,Pluralism,Personalism,Humanism,Eugenics,
-MC,,,Which 1966 article catalogued 22 unethical studies in US medicine?,2,Clinton apology,Beecher exposé,Belmont memo,Carr letter,
-MC,,,What study involved children deliberately infected with hepatitis?,3,Guatemala study,Tuskegee study,Willowbrook study,Macon survey,
-MC,,,Which research-ethics statement comes from the World Medical Association?,1,Declaration of Helsinki,The federal Common Rule,National Research Act,The HIPAA privacy law,
-MC,,,What is it called when clinicians override choices for a patient's good?,4,Adequate disclosure of facts,The principle of autonomy,Genuine expert uncertainty,Clinical paternalism,
-MC,,,In the paternalistic model who decides the best course?,2,The patient's family,The attending clinician,A trial judge,The health insurer,
-MC,,,In the informative model what does the clinician mainly provide?,3,The patient's values,Personal favors alone,Clinical facts alone,Referrals,
-MC,,,In the interpretive model the clinician helps clarify what?,1,The patient's values,Hospital revenue goals,Institutional liability risk,Public rankings only,
-MC,,,In the deliberative model the clinician engages the patient in what?,4,Secret review,Technical coding,Market testing,Moral discussion,
-MC,,,Which element of informed consent requires giving relevant facts?,2,Decision-making capacity,Adequate disclosure of facts,Information privacy norms,Mere chart documentation,
+MC,,,Which code first made voluntary consent central in research ethics?,1,The Nuremberg Code,The Belmont Report,Declaration of Helsinki,The federal Common Rule,
+MC,,,Which report named respect for persons beneficence and justice?,4,Declaration of Helsinki,The HIPAA privacy law,The Nuremberg Code,The Belmont Report,
+MC,,,What local committee reviews human-subjects research before it starts?,1,An institutional review board,The federal CDC,An independent DSMB panel,The World Health Organization,
+MC,,,What movement aimed to improve the population by controlling reproduction?,4,Pluralism,Humanism,Personalism,Eugenics,
+MC,,,Which 1966 article catalogued 22 unethical studies in US medicine?,1,Beecher exposé,Belmont memo,Clinton apology,Carr letter,
+MC,,,What study involved children deliberately infected with hepatitis?,2,Tuskegee study,Willowbrook study,Guatemala study,Macon survey,
+MC,,,Which research-ethics statement comes from the World Medical Association?,3,The federal Common Rule,National Research Act,Declaration of Helsinki,The HIPAA privacy law,
+MC,,,What is it called when clinicians override choices for a patient's good?,3,Adequate disclosure of facts,The principle of autonomy,Clinical paternalism,Genuine expert uncertainty,
+MC,,,In the paternalistic model who decides the best course?,4,The health insurer,The patient's family,A trial judge,The attending clinician,
+MC,,,In the informative model what does the clinician mainly provide?,4,Personal favors alone,Referrals,The patient's values,Clinical facts alone,
+MC,,,In the interpretive model the clinician helps clarify what?,2,Institutional liability risk,The patient's values,Hospital revenue goals,Public rankings only,
+MC,,,In the deliberative model the clinician engages the patient in what?,3,Technical coding,Market testing,Moral discussion,Secret review,
+MC,,,Which element of informed consent requires giving relevant facts?,1,Adequate disclosure of facts,Information privacy norms,Decision-making capacity,Mere chart documentation,
 MC,,,Which element asks whether the patient really grasps the facts?,3,Freedom from coercion,Clinical confidentiality duties,Real understanding of risks,General social equity,
-MC,,,Which element asks whether the choice is free from pressure?,1,Freedom from coercion,Adequate disclosure of facts,The principle of justice,Decision-making capacity,
-MC,,,Which duty protects information patients share in care?,4,Administrative transparency,Public disclosure rules,Billing data only,Clinical confidentiality duties,
-MC,,,What federal privacy law sets baseline rules for health data?,2,An institutional review board,The HIPAA privacy law,Belmont,Medicare,
-MC,,,What phrase were Tuskegee men told instead of syphilis?,3,A made-up fever,A vague nerve illness,Bad blood,Chronic bodily strain,
-MC,,,How many Tuskegee subjects had latent syphilis?,1,399,201,600,1300,
-MC,,,How many Tuskegee subjects were healthy controls?,4,399,40,1300,201,
+MC,,,Which element asks whether the choice is free from pressure?,4,The principle of justice,Decision-making capacity,Adequate disclosure of facts,Freedom from coercion,
+MC,,,Which duty protects information patients share in care?,4,Administrative transparency,Billing data only,Public disclosure rules,Clinical confidentiality duties,
+MC,,,What federal privacy law sets baseline rules for health data?,3,Belmont,An institutional review board,The HIPAA privacy law,Medicare,
+MC,,,What phrase were Tuskegee men told instead of syphilis?,4,A made-up fever,A vague nerve illness,Chronic bodily strain,Bad blood,
+MC,,,How many Tuskegee subjects had latent syphilis?,4,201,600,1300,399,
+MC,,,How many Tuskegee subjects were healthy controls?,4,40,399,1300,201,
 MC,,,What painful test was falsely described as treatment in Tuskegee?,2,A diagnostic X-ray,Spinal tap,Blood typing,A skin test,
-MC,,,What inducement helped secure autopsies in Tuskegee?,1,Burial insurance,Tuition assistance,Deeds to land,Government war bonds,
-MC,,,Which nurse's trust helped keep the Tuskegee men enrolled?,3,Legal scholar Mary Ziegler,Bioethicist Lois Shepherd,Eunice Rivers,Dorothy Roberts,
-MC,,,In what decade did penicillin become the standard cure for syphilis?,2,1930s,1940s,1950s,1960s,
-MC,,,The Public Health Service later became part of what agency?,4,NIH,FDA,HRSA,The federal CDC,
-MC,,,Which year did President Clinton apologize for Tuskegee?,1,1997,1979,2003,2011,
-MC,,,Which country hosted the parallel intentional infection study?,3,Nigeria,Peru,Guatemala,Canada,
-MC,,,For about how long did the Tuskegee study run?,2,12 years,40 years,8 years,60 years,
-MC,,,Why is a signed form alone not enough for consent?,4,It costs money,It needs a witness,It expires quickly,Understanding may be missing,
+MC,,,What inducement helped secure autopsies in Tuskegee?,2,Government war bonds,Burial insurance,Tuition assistance,Deeds to land,
+MC,,,Which nurse's trust helped keep the Tuskegee men enrolled?,2,Legal scholar Mary Ziegler,Eunice Rivers,Dorothy Roberts,Bioethicist Lois Shepherd,
+MC,,,In what decade did penicillin become the standard cure for syphilis?,1,1940s,1960s,1930s,1950s,
+MC,,,The Public Health Service later became part of what agency?,2,NIH,The federal CDC,FDA,HRSA,
+MC,,,Which year did President Clinton apologize for Tuskegee?,1,1997,2003,1979,2011,
+MC,,,Which country hosted the parallel intentional infection study?,1,Guatemala,Canada,Nigeria,Peru,
+MC,,,For about how long did the Tuskegee study run?,1,40 years,12 years,8 years,60 years,
+MC,,,Why is a signed form alone not enough for consent?,3,It costs money,It expires quickly,Understanding may be missing,It needs a witness,
 MC,,,Capacity in the clinical relationship is best seen as what?,1,Specific to this decision,Family-owned,Diagnosis-wide,Permanent,
-MR,,,Which items are elements of valid informed consent?,"1,2,3,4",Adequate disclosure of facts,Real understanding of risks,Freedom from coercion,Decision-making capacity,Competitiveness
-MR,,,Which episodes helped build the modern research-ethics rulebook?,"1,2,3,4",Nuremberg,Willowbrook,Tuskegee,Beecher,The HIPAA privacy law
-MR,,,Which clinician models involve helping patients work through values?,"1,2",The interpretive model,The deliberative model,The informative model,The paternalistic model,
-MR,,,Which Tuskegee details clearly show deception?,"1,2,3,4",Bad blood label,Spinal shot,Withheld penicillin,Burial insurance,Full disclosure
-MR,,,Which groups were deliberately infected in Guatemala?,"1,2,3",Prisoners,Soldiers,Psych patients,Local reporters,
-MR,,,Which protections were part of the post-Tuskegee response?,"1,2,3,4",IRBs,Consent rules,The Belmont Report,National Research Act,Secret autopsies
-MR,,,Which abilities are part of capacity assessment?,"1,2,3,4",Understand relevant information,Appreciate risk,Reason about options,Clearly communicate a choice,Follow orders
-MR,,,Which non-paternalistic models still leave the final choice with the patient?,"1,2,3",The informative model,The interpretive model,The deliberative model,The paternalistic model,
-MR,,,Which of the following statements show that Tuskegee involved unjust subject selection?,"1,2,3,4",The study targeted poor Black men in Macon County.,Many subjects had little practical access to physicians.,Researchers recruited a sharecropping population that was easy to exploit.,Officials chose a vulnerable community that they could closely monitor.,The study mainly recruited wealthy volunteers from northern cities.
-MR,,,Which practices belong to confidentiality and privacy work?,"1,2,3,4",Protect records,Limit sharing,Secure data,Follow HIPAA,Public posting
+MR,,,Which items are elements of valid informed consent?,"1,2,4,5",Freedom from coercion,Decision-making capacity,Competitiveness,Real understanding of risks,Adequate disclosure of facts
+MR,,,Which episodes helped build the modern research-ethics rulebook?,"1,2,3,5",Nuremberg,Beecher,Tuskegee,The HIPAA privacy law,Willowbrook
+MR,,,Which clinician models involve helping patients work through values?,"1,3",The interpretive model,The informative model,The deliberative model,The paternalistic model,
+MR,,,Which Tuskegee details clearly show deception?,"1,2,4,5",Spinal shot,Bad blood label,Full disclosure,Withheld penicillin,Burial insurance
+MR,,,Which groups were deliberately infected in Guatemala?,"2,3,4",Local reporters,Soldiers,Prisoners,Psych patients,
+MR,,,Which protections were part of the post-Tuskegee response?,"1,2,4,5",The Belmont Report,National Research Act,Secret autopsies,IRBs,Consent rules
+MR,,,Which abilities are part of capacity assessment?,"1,2,4,5",Reason about options,Clearly communicate a choice,Follow orders,Understand relevant information,Appreciate risk
+MR,,,Which non-paternalistic models still leave the final choice with the patient?,"2,3,4",The paternalistic model,The deliberative model,The informative model,The interpretive model,
+MR,,,Which of the following statements show that Tuskegee involved unjust subject selection?,"1,2,3,5",Many subjects had little practical access to physicians.,The study targeted poor Black men in Macon County.,Officials chose a vulnerable community that they could closely monitor.,The study mainly recruited wealthy volunteers from northern cities.,Researchers recruited a sharecropping population that was easy to exploit.
+MR,,,Which practices belong to confidentiality and privacy work?,"1,2,4,5",Limit sharing,Secure data,Public posting,Protect records,Follow HIPAA
