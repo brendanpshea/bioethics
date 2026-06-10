@@ -561,20 +561,20 @@ Should police need a warrant before searching genealogy databases for a suspect'
 
 ::: {.columns}
 ::: {.column width="48%"}
-- [Geneticization]{.key-term}
-- [Genetic determinism]{.key-term}
-- [Germline vs. somatic]{.key-term}
-- [Genome-wide association study (GWAS)]{.key-term}
-- [Polygenic risk score]{.key-term}
+- [**Geneticization**]{.key-term} — Lippman's term for the cultural tendency to explain human differences, risks, and identities primarily in genetic terms, and to favor genetic interventions as the preferred solution to health problems.
+- [**Genetic determinism**]{.key-term} — the strong claim that genes fix outcomes — that DNA is destiny — regardless of environment; almost no working geneticist defends it in this form, but it persists in popular and marketing framings.
+- [**Germline vs. somatic**]{.key-term} — germline changes occur in reproductive cells and are inherited by every descendant; somatic changes occur in non-reproductive tissue of one person and die with that person.
+- [**Genome-wide association study (GWAS)**]{.key-term} — a research method that scans the DNA of thousands of people with and without a trait to identify variants statistically linked to it; results work best in the ancestry group the study was run on.
+- [**Polygenic risk score**]{.key-term} — a number calculated by adding up the small effects of thousands of variants across the genome to estimate an individual's risk for a complex trait; accuracy depends heavily on whether the training population matches the person being scored.
 :::
 ::: {.column width="4%"}
 :::
 ::: {.column width="48%"}
-- [NIPT]{.key-term}
-- [Open future (Feinberg)]{.key-term}
-- [Population descriptor (NASEM)]{.key-term}
-- [Investigative genetic genealogy]{.key-term}
-- [GINA]{.key-term}
+- [**NIPT**]{.key-term} — non-invasive prenatal testing; reads fragments of fetal DNA floating in the mother's blood from about ten weeks of pregnancy to screen for chromosomal conditions like trisomy 21; a screening result, not a diagnosis, and requires confirmatory testing before any permanent decision.
+- [**Open future (Feinberg)**]{.key-term} — Feinberg's principle that children hold autonomy rights "in trust"; adults must keep those futures open rather than foreclosing choices — including the choice of whether to know one's genetic risks — before the child can make them herself.
+- [**Population descriptor (NASEM)**]{.key-term} — a label used to group people in genetics research; the 2023 NASEM report recommends using geographic ancestry or genetic similarity rather than race as a stand-in for genetic variation, since race is a social-political category, not a biological one.
+- [**Investigative genetic genealogy**]{.key-term} — a forensic technique that uploads a crime-scene DNA profile to a consumer genealogy database, identifies distant-cousin matches among users, and builds a family tree to narrow to a suspect; used to solve the Golden State Killer case in 2018.
+- [**GINA**]{.key-term} — the Genetic Information Nondiscrimination Act (2008); bars health insurers and employers from using genetic information against people, but does not cover life, disability, or long-term-care insurance, or the US military.
 :::
 ::::
 
