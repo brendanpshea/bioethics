@@ -52,8 +52,8 @@ By the end of Part B, you will be able to:
 
 - Explain the **deficit model** of false belief and use **Kahan's** evidence to show why it fails.
 - Distinguish **Nguyen's** epistemic bubble from an echo chamber, and say why correction can backfire.
-- Reconstruct **Oreskes'** answer to "why trust science?" and her account of **manufactured doubt**.
-- Tell **earned distrust** apart from **cultivated denial**, using the history of medical betrayal.
+- Reconstruct **Oreskes'** answer to "why trust science?" and explain why **manufactured doubt** reaches vaccines only indirectly.
+- Map the **five contributors** to a false belief, and show how their *mix* dictates the right response.
 - Apply the **autonomy** worry to belief: when, if ever, may we try to change what someone believes?
 :::
 
@@ -220,9 +220,19 @@ It rests on a **social process**:
 
 Oreskes and Conway documented a darker move: you don't need to *disprove* science to defeat it — you only need to **manufacture doubt** [@oreskesConway2010].
 
-- The same tactics, often the same firms, ran the playbook for **tobacco**, then acid rain, then **climate** — and now appears around vaccines and COVID.
+- A specific industry, often the same firms, ran the playbook for **tobacco**, then acid rain, then **climate**.
 - The goal was never to win the science. It was to make the public think "the experts can't agree," so nothing gets done.
 - Doubt is **manufactured** precisely by exploiting science's honest openness about uncertainty.
+
+## Does This Apply to Vaccines?
+
+Be careful here. Tobacco and climate had a clear **paymaster** — an industry funding doubt to protect a product. Vaccines do not fit so neatly: no big company profits from anti-vax, and makers actually *want* uptake. So who is buying the doubt?
+
+- **The playbook spread.** "Teach the controversy, exploit uncertainty" is a portable tactic. It migrated.
+- **The people spread.** The same anti-regulatory, distrust-the-experts movement built on tobacco and climate carried over to vaccines — one movement, not three.
+- **The merchants are diffuse.** No single industry, but a scattered **wellness economy** — supplements, clinics, books, subscriptions — profits by selling the alternative to the shot.
+
+So for vaccines, cultivated doubt is **real but indirect** — a spillover and a side effect, not a single boardroom's plan. That is why it is *one* cause among several, not the whole story.
 
 ## Earned Distrust vs. Cultivated Denial
 
@@ -240,11 +250,13 @@ Not all distrust is irrational. Our next move is to take the *reasonable* kind s
 
 ## False Belief Can Be a Reasonable Inference
 
-A person who distrusts the medical system is not always in an echo chamber. Sometimes they are **reasoning correctly from a real history**.
+A person who distrusts the medical system is not always in an echo chamber. Sometimes they are **reasoning correctly from a real history**. In Bayesian terms, they are updating sensibly — on a corrupted set of **evidence**.
 
 - You met **Tuskegee**: forty years in which the US Public Health Service watched Black men die of treatable syphilis and lied to them about it.
 - A community that learned "they experimented on us and lied" is not being paranoid to ask, "why trust them now?"
 - Studies link that documented history to lower trust and worse health decisions decades later [@alsan2018].
+
+The defect here is not in the person's reasoning. It is in the **evidence they were given** — by history, and by the sources they had reason to trust.
 
 ::: {.notes}
 One-line recap of Tuskegee — told in full earlier. Apply, don't re-narrate.
@@ -268,37 +280,63 @@ The work isn't only in their heads. It is in the **track record** — which mean
 
 # Diagnosing a False Belief {.section-divider}
 
-## The Three-Lens Diagnosis
+## Five Contributors, Not One Cause
 
-Before deciding what to *do* about a false belief, diagnose it. Our three thinkers give three questions — run every case through all three.
+We have been collecting causes, not rival theories. A false medical belief is not *explained* by any one of them. It is **produced by a mix** — and the mix differs from person to person.
 
-| Lens | The question it asks |
+| | Contributor | Where it lives |
+|---|---|---|
+| 1 | **Identity-protective cognition** (Kahan) | inside the believer |
+| 2 | **Epistemic bubble** (Nguyen) | the information they meet |
+| 3 | **Echo chamber** (Nguyen) | the information they meet |
+| 4 | **Cultivated doubt** (Oreskes) | the information they meet |
+| 5 | **Reasonable inference** from real betrayal | inside the believer |
+
+## They Feed Each Other
+
+These are not five separate boxes. They **reinforce** each other, which is why the belief is so hard to move.
+
+- **Cultivated doubt** seeds an **echo chamber** with ready-made suspicion.
+- The **echo chamber** then hardens the belief into **identity**.
+- And **earned distrust** makes a person *receptive* to the chamber in the first place.
+
+So we are not picking one cause. We are mapping a **web** — and asking which strands are strongest for *this* person.
+
+## The Mix Dictates the Response
+
+This is the whole payoff. Different mixes call for different moves.
+
+| If the belief is mostly… | then the response is… |
 |---|---|
-| **Kahan** | Is **identity** in play — has this belief become a badge of belonging? |
-| **Nguyen** | Bubble or **echo chamber** — has trust in outsiders been actively poisoned? |
-| **Oreskes** | Is doubt being **manufactured** — and is the distrust earned or cultivated? |
+| **Epistemic bubble** | good information may actually work |
+| **Echo chamber** | lead with a trusted messenger, not facts |
+| **Identity** | don't threaten the identity; find an in-group frame |
+| **Cultivated doubt** | expose the merchant and the incentive |
+| **Reasonable inference** | acknowledge the real wrong; rebuild trust |
 
-The lenses don't deliver a verdict. They tell you **what kind of problem you face** — and therefore what might work.
+Hand everyone the same fact sheet, and you will help the few in a bubble and harden everyone else.
 
-## Lens Check: MMR and Autism
+## Profile: MMR and Autism
 
-| Lens | Reading |
-|---|---|
-| **Kahan** | Partly — "natural parenting" identity for some; not strongly partisan at first. |
-| **Nguyen** | Often a true **echo chamber**: communities that pre-discredit doctors and the CDC. |
-| **Oreskes** | The seed was **fraud** (a retracted, falsified study), then amplified far beyond it. |
+Which strands are strongest? Roughly:
 
-**Diagnosis:** mostly an echo-chamber + manufactured-origin problem → leading with facts will tend to backfire; **trust** is the lever.
+- **Cultivated doubt** — the seed was outright **fraud**, then amplified for profit and attention.
+- **Echo chamber** — communities that pre-discredit doctors and the CDC.
+- **Reasonable inference** — some real distrust of a drug industry that has lied before.
+- *Identity* is present but milder, and not strongly partisan at first.
 
-## Lens Check: Ivermectin for COVID
+**Lead move:** not the studies. A **trusted messenger** and the parent's own values — because the dominant strands punish a facts-first approach.
 
-| Lens | Reading |
-|---|---|
-| **Kahan** | Strongly — the drug became a **political identity** marker, left vs. right. |
-| **Nguyen** | Echo chambers reframed regulators' warnings as proof of suppression. |
-| **Oreskes** | Genuine early uncertainty was **stretched** into manufactured doubt about the whole system. |
+## Profile: Ivermectin for COVID
 
-**Diagnosis:** identity + echo chamber → the *messenger* matters more than the message; a trusted in-group voice beats an official one.
+A different mix entirely:
+
+- **Identity** — the drug became a **political badge**, left vs. right.
+- **Echo chamber** — regulators' warnings were reframed as proof of suppression.
+- **Cultivated doubt** — genuine early uncertainty stretched into doubt about the whole system.
+- **Reasonable inference** plays a smaller role; this is more identity than betrayal.
+
+**Lead move:** an **in-group voice**, not an official one — because the identity strand makes the messenger matter more than the message.
 
 # When You're the Clinician {.section-divider}
 
@@ -320,7 +358,7 @@ The same dynamic scales — from one clinic to a whole country.
 - **Ivermectin (2020–21):** millions sought an unproven COVID treatment; demand tracked political identity more than medical evidence.
 - **South Africa (1999–2008):** President Mbeki's government, embracing **AIDS denialism**, withheld proven antiretrovirals. Researchers later estimated this contributed to **over 300,000 deaths**.
 
-Same machinery — identity, echo chambers, manufactured doubt — at the scale of a state.
+Same contributors — identity, echo chambers, cultivated doubt — at the scale of a state.
 
 1. Does scale change the ethics of how officials should respond, or only the stakes?
 2. When a *government* holds the false belief, who is left to correct it?
@@ -464,7 +502,7 @@ So what *do* you say to the mother?
 ## Mini-Recap
 
 ::: {.recap}
-We started with a smart, caring mother whom facts would not move, and asked why. The **deficit model** is false: **Kahan** shows that on identity-laden topics, more knowledge can deepen division. **Nguyen** explains why correction backfires — an **echo chamber** poisons trust in outsiders, so facts confirm the story. **Oreskes** answers the skeptic: science earns trust through **organized skepticism**, while bad actors **manufacture doubt** — though we must still honor the **earned distrust** that betrayals like Tuskegee created. The ethics then turns on **autonomy**: we cannot simply override beliefs we judge false without becoming paternalists, and coercing belief can be self-undermining. The honest path is not to engineer belief but to become **worth believing** — through transparency, candor about uncertainty, and repair.
+We started with a smart, caring mother whom facts would not move, and asked why. The **deficit model** is false: a false medical belief is produced by a **mix of five contributors** — identity-protective cognition (**Kahan**), epistemic bubbles and echo chambers (**Nguyen**), cultivated doubt (**Oreskes**, reaching vaccines only indirectly), and reasonable inference from a real history of betrayal. They **feed each other**, and the mix differs by person — so the same fact sheet that helps someone in a bubble hardens everyone else. The ethics then turns on **autonomy**: we cannot simply override beliefs we judge false without becoming paternalists, and coercing belief can be self-undermining. The honest path is not to engineer belief but to become **worth believing** — through transparency, candor about uncertainty, and repair.
 :::
 
 ## Review Questions
@@ -480,7 +518,7 @@ Explain the difference between an epistemic bubble and an echo chamber, and why 
 ::: {.review-item .review-apply}
 [Apply]{.review-label}
 
-A patient refuses a cancer treatment in favor of an unproven herbal remedy he found online. Run his belief through the three lenses and say what you would do first.
+A patient refuses a cancer treatment in favor of an unproven herbal remedy he found online. Name which of the five contributors look strongest in his case, and say what you would do first.
 :::
 
 ::: {.review-item .review-debate}
@@ -499,8 +537,9 @@ Should a government be allowed to remove medical misinformation from social medi
 - **Epistemic bubble** — a network that omits other voices; fragile to exposure (Nguyen).
 - **Echo chamber** — a network that actively discredits outsiders; exposure can entrench it (Nguyen).
 - **Organized skepticism** — the social error-checking (peer review, replication) behind science's authority (Oreskes).
-- **Manufactured doubt** — deliberately exploiting uncertainty to block action (Oreskes & Conway).
-- **Earned distrust** — well-grounded suspicion based on a real history of betrayal.
+- **Manufactured / cultivated doubt** — deliberately exploiting uncertainty to block action; reaches vaccines indirectly (Oreskes & Conway).
+- **Earned distrust** — well-grounded suspicion; a reasonable Bayesian update from a real history of betrayal.
+- **The five contributors** — identity, epistemic bubble, echo chamber, cultivated doubt, and reasonable inference: the co-acting causes of a false belief.
 - **Persuasion / manipulation / coercion** — moving someone by reasons / by bypassing reason / by force.
 
 ## Further Reading

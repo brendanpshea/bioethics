@@ -31,11 +31,12 @@ You are the health officer who must decide.
 
 ## What the City Actually Did
 
-Mary Mallon was the first known **healthy carrier** of typhoid in the United States.
+Mary Mallon was the first known **healthy carrier** of typhoid in the US — and her story has two very different halves.
 
-- Health officials seized her and isolated her on **North Brother Island**, in the East River, without a trial.
-- She was released in 1910 after promising never to cook again — then changed her name and went back to cooking, sparking a fresh outbreak at a maternity hospital.
-- She was detained a second time and held on the island for **23 more years**, until her death in 1938 — about **26 years** of confinement in all [@leavitt1996].
+- **First (1907–1910):** officials seized her with no warning, no trial, and no precedent, and held her on **North Brother Island** for three years. No law yet said a well person could be locked up. She was released in 1910 after promising never to cook again.
+- **Second (1915–1938):** she broke that promise. Under the alias "**Mrs. Brown**," she took a kitchen job at **Sloane Maternity Hospital** and infected some 25 people, killing two — new mothers and staff. She was returned to the island until her death, about **26 years** of confinement in all [@leavitt1996].
+
+These are **not the same case** — and by the end we will score them very differently.
 
 ## After You've Discussed
 
@@ -44,7 +45,7 @@ Mary's case is hard precisely because both sides have a real claim. She was harm
 
 The clinical ethics you have learned so far asks: *what does this patient want, and what is good for her?* That framing cannot even state Mary's problem — because the people who matter most here are **the strangers she might infect**.
 
-Today we build the tools for that second kind of ethics, and we will come back to Mary at the end to judge what was done to her.
+Today we build the tools for that second kind of ethics — and we will come back to Mary at the end, where the two halves of her story pull in opposite directions.
 :::
 
 ## Today
@@ -71,6 +72,8 @@ Clinical ethics and public health ethics answer to **different patients**.
 | **Primary value** | autonomy — the patient's own choice | collective welfare and fairness |
 | **Key relationship** | doctor and patient, by consent | the state and a community, often without consent |
 | **Hard question** | what does *this* person want? | who may be burdened for the good of all? |
+
+This is not a *different* ethics. It is the same **four principles** — autonomy, beneficence, non-maleficence, justice — with the weight shifted from the individual to the population.
 
 ## The Patient in Front of You Isn't the Only Patient
 
@@ -124,7 +127,7 @@ A slogan like "public safety" is not an answer. We need a **test**.
 
 ## Five Benchmarks
 
-Childress and colleagues proposed five conditions a coercive public health measure should meet before we accept it [@childress2002]. Think of them as a checklist that a mere appeal to "safety" must pass.
+**James Childress** — yes, the same Childress behind the four principles of biomedical ethics — and colleagues proposed five conditions a coercive public health measure should meet before we accept it [@childress2002]. Think of them as a checklist that a mere appeal to "safety" must pass.
 
 | Benchmark | The question it forces |
 |---|---|
@@ -133,6 +136,19 @@ Childress and colleagues proposed five conditions a coercive public health measu
 | **Necessity** | Is coercion truly needed, or would a softer measure do? |
 | **Least infringement** | Among options that work, is this the *least* restrictive? |
 | **Public justification** | Can officials explain it openly to those who bear the burden? |
+
+## The Four Principles, Re-Tooled
+
+That shared authorship is not a coincidence. These are not five new rules to memorize — they are the **four principles** you already know, retooled for populations.
+
+| Benchmark | The principle it carries |
+|---|---|
+| Effectiveness + proportionality | **beneficence** weighed against **non-maleficence** |
+| Necessity | **non-maleficence** — impose no more harm than required |
+| Least infringement | respect for **autonomy** — minimize the liberty intrusion |
+| Public justification | **justice** + accountability — answerable to those burdened |
+
+The move from clinic to population doesn't replace the principles. It **re-weights** them.
 
 ## How to Use Them
 
@@ -152,20 +168,20 @@ We score every major case against the same five benchmarks. **The marks are not 
 
 A measure can be **fully justified while carrying several ⚖️s**. Always read the **bottom line**, not the column of marks.
 
-## The Scoreboard: Mary Mallon
+## The Scoreboard: Mary's First Detention (1907)
 
-Applied first to **Mary Mallon's 23-year second detention**:
+Applied first to her **first** detention — three years, on no precedent at all:
 
 | Benchmark | Verdict | Why |
 |---|---|---|
-| Effectiveness | ✅ | Isolating an active carrier did stop the spread. |
-| Proportionality | ❌ | 23 years against a rare risk is not proportionate. |
-| Necessity | ❌ | She could have been supported in non-cooking work. |
-| Least infringement | ❌ | Lifelong island confinement was the *most* restrictive option. |
-| Public justification | ❌ | Other carriers were warned, not jailed — this looks like bias. |
+| Effectiveness | ✅ | She truly was an active carrier; isolation stopped the spread. |
+| Proportionality | ⚖️ | Three years of liberty against a real but rare risk — arguable. |
+| Necessity | ⚖️ | Was detention needed, or untried supervision? They never found out. |
+| Least infringement | ❌ | No trial, no warning, indefinite — straight to the harshest option. |
+| Public justification | ❌ | No law authorized it, and other carriers were spared her fate. |
 
 ::: {.notes}
-Some isolation was warranted — Mary truly was infectious — but the 23-year version fails everything after effectiveness. A justified goal pursued by unjustified means. Stress: the marks are not a tally; this is a "justified goal, unjustified means" case.
+This is the HARD case for the state, and the genuinely troubling one: novel, no due process, indefinite, and she was singled out — a poor Irish immigrant woman. Effectiveness is solid; least-infringement and justification are where it bites. Flag that the *second* detention will flip several of these marks.
 :::
 
 # The Wins and the Resistance {.section-divider}
@@ -455,20 +471,46 @@ Almost every real "vaccine mandate" is the **second** kind. Naming which tool is
 
 # Back to Mary {.section-divider}
 
-## Mary Mallon, Judged
+## The Second Detention Flips the Scoreboard
 
-Now we have the tools the 1907 health officer lacked. Mary's case was genuinely hard — she *was* infecting people who never accepted the risk, the strong Millian ground for action.
+The first detention was the hard case. The **second** is not — and the same benchmarks now point the other way.
 
-- On **effectiveness**, isolating an active carrier worked.
-- But on **necessity** and **least infringement**, her 23-year confinement fails: she could have been supported in safe work, as most other carriers were.
-- And on **public justification**, the contrast with carriers who were merely warned exposes how much her poverty, gender, and origin shaped her fate.
+| Benchmark | 1907 (first) | 1915 (second) |
+|---|---|---|
+| Effectiveness | ✅ | ✅ |
+| Proportionality | ⚖️ | ✅ — she had killed again, by deceit |
+| Necessity | ⚖️ | ✅ — the softer rung was *tried*, and failed |
+| Least infringement | ❌ | ⚖️ — release-on-promise had already failed once |
+| Public justification | ❌ | ✅ — a documented, willful return to the kitchen |
 
-The benchmarks don't say "never detain Mary." They say the state owed her the **least** that would protect the public — and gave her vastly more.
+By 1915 she had used a false name and cooked at a **maternity hospital**, infecting the most vulnerable patients there. The least-infringing option had been offered — and she broke it.
+
+## So What Did Mary Teach Us?
+
+::: {.callout-important}
+The lesson is **not** "the government got it wrong." It is sharper and more useful than that.
+
+- The **same coercion** can be unjustified in 1907 and justified in 1915 — because the *facts* changed, not the slogan.
+- In 1907 the state skipped the softer rungs; in 1915 it had climbed them and watched them fail.
+- "Detain the carrier" is never the right answer or the wrong one in the abstract. The benchmarks — and the four principles inside them — decide, case by case.
+:::
+
+## Make It Contemporary
+
+::: {.thought-question}
+Mary's dilemma is not history. We still confine — and even prosecute — contagious people who will not change their behavior.
+
+- **TB isolation:** US courts can still order a contagious, non-adherent tuberculosis patient into involuntary isolation — the direct legal descendant of Mary's island.
+- **HIV nondisclosure laws:** since the late 1980s, many states criminalize exposing a partner to HIV without disclosure. Reformers say the laws ignore real transmission risk and deter testing; defenders point to deliberate, deceptive exposure — the "Mrs. Brown" case.
+
+1. Which detention does each law resemble — the 1907 case, or the 1915 one?
+2. Does criminal *punishment* meet "least infringement," or fail the way the first detention did?
+:::
 
 ## Mini-Recap
 
 ::: {.recap}
-We moved from the clinic, where ethics turns on one patient's choice, to the **population**, where the danger and the decision fall on different people. Mill's harm principle opens the door to coercion when a choice truly **harms others**, and contagion is its sharpest case. But that license is an **exception that must justify itself**, so we adopted Childress and colleagues' five benchmarks — effectiveness, proportionality, necessity, least infringement, public justification — and scored sanitation, vaccination, fluoridation, and tobacco against them. **Jacobson** shows the power at its most legitimate; **Buck v. Bell** shows the same logic abused, which is exactly why the benchmarks matter.
+We moved from the clinic, where ethics turns on one patient's choice, to the **population**, where the danger and the decision fall on different people. Mill's harm principle opens the door to coercion when a choice truly **harms others**, and contagion is its sharpest case. But that license is an **exception that must justify itself**, so we adopted Childress's five benchmarks — the **four principles re-tooled for populations** — and scored sanitation, vaccination, fluoridation, and tobacco against them. Mary showed that the *same* detention can pass or fail as the facts change; **Jacobson** shows the power at its most legitimate; **Buck v. Bell** shows the same logic abused, which is exactly why the benchmarks matter.
 
 All of this was about what a society may **compel**. Next we turn to the harder modern problem: what public health can do when force is unavailable or unwise — when the obstacle is not defiance, but what people **believe**.
 :::
