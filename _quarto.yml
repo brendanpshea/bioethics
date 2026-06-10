@@ -92,6 +92,8 @@ website:
         contents:
           - href: chapters/10a-medical-ai.qmd
             text: "Part A — How Medical AI Works and Where It Goes Wrong"
+          - href: chapters/10b-fifth-principle.qmd
+            text: "Part B — The Fifth Principle: Consent, Accountability, and Black Boxes"
 
   page-footer:
     left: |
