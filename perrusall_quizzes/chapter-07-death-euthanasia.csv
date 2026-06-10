@@ -1,0 +1,41 @@
+Question type,Answer explanation,Points,Prompt,Correct answers,Answer choice 1,Answer choice 2,Answer choice 3,Answer choice 4,Answer choice 5
+MC,,,"According to clinical definitions, which state involves wakeful arousal without any awareness or experience?",3,Locked-in syndrome,Coma,Persistent vegetative state,Minimally conscious state,
+MC,,,What defines whole-brain death under the Uniform Determination of Death Act?,3,Loss of higher cortical function,Irreversible cessation of circulatory functions,Irreversible cessation of all brain functions,Coma lasting more than thirty days,
+MC,,,Which surrogate decision-making standard asks what the patient themselves would have wanted?,4,Professional domain standard,Best interest standard,Clear and convincing evidence test,Substituted judgment,
+MC,,,"In the Nancy Cruzan case, what did the US Supreme Court rule regarding life-sustaining treatment?",2,States must defer to immediate family,States may require clear and convincing evidence,Families can demand unproven treatments,Artificial nutrition cannot be legally withdrawn,
+MC,,,How does a durable power of attorney for health care differ from a living will?,1,Names a specific surrogate,A checklist of refused treatments,Direct orders for paramedics,Only takes effect with capacity,
+MC,,,What uniquely characterizes a POLST (or MOLST) compared to standard advance directives?,2,Valid only inside one hospital,Actionable medical clinician order,Overrides a named health proxy,Contract written by a lawyer,
+MC,,,What makes physician-assisted death different from active voluntary euthanasia?,1,Patient performs final act,Involves stopping life-prolonging treatments,Doctor administers lethal dose,Does not require voluntary request,
+MC,,,James Rachels uses the thought experiment of Smith and Jones to argue what point?,2,Double effect cannot be applied,No moral difference between killing and letting die,Negative duties not to harm are stronger,Active euthanasia is worse,
+MC,,,How does Philippa Foot respond to Rachels' argument against the killing and letting die distinction?,2,Both had identical positive duties,Different duties not to harm and aid,Active euthanasia has better consequences,Doctors cannot withdraw treatment,
+MC,,,Peter Singer defends certain cases of euthanasia by substituting the sanctity-of-life doctrine with what framework?,4,Universal human dignity,Open future right,Normal-function account,Quality-of-life ethic,
+MC,,,Why does J. David Velleman argue against establishing a public right to assisted death?,3,Doctors cannot administer drugs safely,Religious mandate to preserve life,Options force vulnerable patients to justify living,Competent adults cannot evaluate quality of life,
+MC,,,What is the core of Harriet McBryde Johnson’s and the disability-rights critique of assisted death?,1,Assumes dependent lives are not worth living,Makes dying too difficult for patients,Violates professional-domain standards,Ignores financial cost of care,
+MC,,,"Under the doctrine of double effect, how is the use of high-dose morphine at the end of life often justified?",1,Intends pain relief limits risk,Guarantees direct heart stoppage,Primary intention is to cause death,Explicit patient waiver for active euthanasia,
+MC,,,"In the case of Noelia Castillo, why did her father launch a long legal battle to stop her euthanasia?",2,Failed to meet best interest standard,Her request was a psychiatric symptom,Misdiagnosis of paraplegia,Not met six-month terminal requirement,
+MC,,,How does the vulnerability counter-argument interpret Noelia Castillo's decision to seek euthanasia?,4,Lacked validity without physical disability,Coerced by state to save medical costs,Uninfluenced by social conditions,Influenced by lack of social support,
+MC,,,What is the definition of a coma?,4,Full awareness without movement,Partial awareness with arousal,Wakeful arousal without awareness,Deep unresponsiveness without arousal or awareness,
+MC,,,What does a persistent vegetative state require?,2,No arousal or awareness,Arousal without awareness,Full awareness,Partial awareness,
+MC,,,What syndrome resembles a vegetative state but features full awareness?,1,Locked-in syndrome,Minimally conscious state,Brain death,Coma,
+MC,,,The Harvard Criteria (1968) introduced tests for what condition?,3,Locked-in syndrome,Heart failure,Whole-brain death,Persistent vegetative state,
+MC,,,"Under whole-brain death acts, what ceases irreversibly?",1,All functions of the entire brain,Only circulatory functions,Only respiratory functions,Only higher cortical functions,
+MC,,,Who typically decides for a patient without capacity if no proxy is named?,4,The state governor,A hospital attorney,The lead clinician,Default hierarchy of relatives,
+MC,,,The best interest standard is used when the surrogate has what?,1,No idea what the patient wanted,Substituted judgment evidence,A clear written directive,A verbal request from the patient,
+MC,,,What did former coworkers of Nancy Cruzan provide to the court?,1,Clear and convincing evidence,A medical power of attorney,A signed living will,A doctor order,
+MC,,,Why is a living will sometimes limited in effectiveness?,1,It only covers scenarios foreseen,It gives power to a relative,It binds EMS personnel directly,It takes effect immediately,
+MC,,,Who can sign a POLST or MOLST form?,2,Only a state judge,A clinician and the patient,Any competent relative,Only a lawyer,
+MC,,,What differentiates passive from active euthanasia in standard medical view?,4,Whether the patient is competent,Who signs the paperwork,Whether the patient is terminal,Withdrawing treatment versus causing death,
+MC,,,"Under US laws, what is a common safeguard for assisted death?",1,The patient must be competent,The patient must be unconscious,A judge must approve it,The doctor must administer it,
+MC,,,What case allowed the Supreme Court of Canada to expand MAID?,4,Cruzan v. Director,Roe v. Wade,Schiavo v. Schindler,Carter v. Canada,
+MC,,,When is palliative sedation to unconsciousness typically used?,2,To reverse a coma,To relieve refractory suffering,To intentionally end life,To cure a terminal illness,
+MC,,,Why did Canada pause the MAID expansion for mental illness to 2027?,2,Court ruling banning all MAID,Difficulty judging if irremediable,Direct order from the UN,Lack of available lethal medication,
+MR,,,Which conditions involve some level of open eyes/arousal? (Select all that apply),"1,4,5",Minimally conscious state,Coma,Whole-brain death,Vegetative state,Locked-in syndrome
+MR,,,Which of the following are parts of the double effect doctrine? (Select all that apply),"1,4,5",Bad effect is foreseen but unintended,The bad effect is the means to good,Death is intentionally caused,There is a proportionate reason,The act itself is neutral or good
+MR,,,Which jurisdictions legally allow the prescribing model of assisted death? (Select all that apply),"1,2,3,4",Washington,Colorado,Oregon,California,
+MR,,,What are the commonly cited reasons for requesting assisted death in Oregon? (Select all that apply),"2,3,5",Inadequate pain control mostly,Loss of dignity,Less able to enjoy activities,Financial cost of care,Loss of autonomy
+MR,,,What elements are typically required in US assisted death laws? (Select all that apply),"2,3,4",Approved by a hospital ethicist,Terminal diagnosis,Voluntary request,Competent adult,Doctor administers drug
+MR,,,Which scholars argued against a simple acceptance of active euthanasia? (Select all that apply),"1,4,5",J. David Velleman,James Rachels,Peter Singer,Harriet McBryde Johnson,Philippa Foot
+MR,,,Which safeguards are meant to verify capacity? (Select all that apply),"2,3,5",Family member consent override,Psychiatric evaluation if in doubt,Multiple written requests,Automatic approval for pain,Independent doctor review
+MR,,,"According to the normal-function account, what does treatment do? (Select all that apply)","3,4",Enhances physical traits,Pushes above normal range,Restores species typical function,Addresses a diagnosable malady,
+MR,,,Which forms are advance directives? (Select all that apply),"2,4",Prescription pad,Durable Power of Attorney,POLST,Living will,
+MR,,,Which of the following describes Nancy Cruzan's state? (Select all that apply),"1,3,5",Awake but unaware,Terminally ill cancer,Vegetative state,Coma,Required a feeding tube
