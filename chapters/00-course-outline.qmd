@@ -37,7 +37,7 @@ By the end of the course, students will be able to:
 | 7 | End of Life | Brain death, advance directives | Euthanasia, MAID, disability critiques |
 | 8 | Justice & Health Care Allocation | Theories of justice; right to care | Disparities, implicit bias, rationing |
 | 9 | Public Health Ethics | Vaccination, liberty vs. welfare | Pandemic triage; COVID lessons |
-| 10 | AI in Medicine | Diagnostic AI; algorithmic bias | AI in mental health; liability, privacy |
+| 10 | AI in Medicine | How medical AI works and fails | The fifth principle: explicability, consent, liability |
 | 11 | Gender, Identity & Disability | Gender-affirming care; Cass Review | Disability ethics; body integrity |
 | 12 | Animal Ethics | Moral status; animal research | Factory farming; xenotransplantation |
 
@@ -432,39 +432,45 @@ The lecture's question: if giving people the facts doesn't fix false medical bel
 
 ### L10a. How Medical AI Works and Where It Goes Wrong
 
-- A jargon-free explanation of **supervised machine learning**: training data, features, labels, prediction.
-- Two main use cases in medicine:
-  - **Diagnostic AI** (image classification — radiology, dermatology, pathology)
-  - **Predictive AI** (risk scores — sepsis, readmission, deterioration)
-- **Sources of algorithmic bias**:
-  - Training data not representative of deployment population
-  - Proxy variables (using cost as a proxy for need, etc.)
-  - Deployment drift (model performs worse over time as the world changes)
-- Two case studies students should know:
-  - The **Optum** care-management algorithm (Obermeyer et al. 2019) — used cost to predict need, systematically underestimated Black patients' illness.
-  - The **Epic Sepsis Model** controversy (Wong et al. 2021) — claimed strong performance, performed poorly in independent validation.
+*Spine:* one question asked of every system in the lecture — **"What was the model actually trained to do, and is that the same as what we're using it for?"** Every failure case below (proxy variables, distribution shift, hallucination) is a gap between the trained task and the clinical task.
+
+- A jargon-free **supervised learning** primer: training data, features, labels, prediction — and the crucial point that the model learns whatever pattern predicts the *label*, not what we wish it learned.
+- A short **generative AI** primer at the same altitude: LLMs are trained to produce *plausible continuations*, not verified truths — which is why hallucination isn't a bug to patch but the flip side of how they work.
+- **Three kinds of medical AI**, each with its signature failure mode:
+  - **Diagnostic** (image classification — radiology, dermatology, pathology) → fails by *distribution shift* (trained on one population, deployed on another).
+  - **Predictive** (risk scores — sepsis, readmission, deterioration) → fails by *proxy variables* and *alert burden*.
+  - **Generative** (LLMs — patient questions, ambient scribes, draft replies) → fails by *hallucination* and *sycophancy* (telling the user what they want to hear).
+- **Sources of algorithmic bias**: unrepresentative training data; proxy variables; deployment drift (model performs worse over time as the world changes).
+- The **Optum care-management algorithm** (Obermeyer et al. 2019), kept brief in lecture — cost as a proxy for need systematically underestimated Black patients' illness; a *justice* failure invisible from inside the accuracy metrics. (Full narrative carried by the paired case study.)
+- The **Epic Sepsis Model, in two acts**: Act I — Wong et al. (2021): claimed performance collapses under independent validation (callback: L3's replication crisis — external validation is AI's replication). Act II — the rebuilt model (Wong et al. 2026) validates well on AUC yet generates low-precision, high-volume alerts: passing the metrics is not the same as helping the patient. Alert fatigue as an ethics problem.
+- **The hype cycle** (callback to L6a's HGP promise-vs-delivery frame): Hinton's 2016 "stop training radiologists" prediction vs. the assistive reality a decade later.
 
 **Visual elements:**
-- *Figure (code-generated):* simplified diagram of how a supervised ML model is trained and deployed.
-- *Figure (code-generated):* illustration of the Optum proxy-variable problem — cost ≠ need.
-- *Table:* Diagnostic vs. predictive medical AI — examples, what could go wrong, how it's evaluated.
-- *Case box:* The Optum algorithm in detail — what it did, how it was caught, what changed.
+- *Figure (code-generated):* supervised ML training-and-deployment pipeline, with the three failure points marked (bad labels, unrepresentative data, drift).
+- *Figure (code-generated):* the Optum proxy problem — two patients, equal sickness, unequal historical cost.
+- *Table:* diagnostic vs. predictive vs. generative medical AI — example, what it's trained to do, signature failure, how it's evaluated.
+- *Quote card:* Hinton (2016) on radiologists, with the ten-years-later reality check.
 - *Sidebar:* "Why does a model trained on Stanford patients underperform at a rural hospital?"
+- *Discussion prompt:* "You ask a chatbot about a medication and it answers fluently and wrongly. Why do fluent and wrong go together?"
 
-### L10b. Consent, Liability, and Living with Black Boxes
+### L10b. The Fifth Principle: Consent, Accountability, and Black Boxes
 
-- **Informed consent** when AI is in the loop: should patients be told? Does the answer change for opaque vs. explainable models?
-- **Liability** when AI gets it wrong: clinician, hospital, vendor, regulator — who's responsible?
-- **AI mental-health chatbots**: what they're good at, what they're not, and recent harm reports.
-- **Data privacy** in health AI: training-data provenance, model memorization, deidentification limits.
-- The professional ethics of clinicians who use AI: when to defer, when to override.
+*Spine:* **Floridi's AI4People framework** (Floridi et al. 2018) — the four principles of this course survive contact with AI, but they need a fifth: **explicability**, split into *intelligibility* (can it be understood?) and *accountability* (who answers for it?). The lecture's two halves are those two components.
+
+- **Floridi's move**: why AI ethics converged on bioethics' four principles, and why opacity forces the addition — each of the four quietly presupposes that *someone can explain what happened*. The course's framework, stress-tested and patched.
+- **Intelligibility half — informed consent with AI in the loop** (callback: L2b's four elements): must patients be told? Can "understanding" be satisfied by a system nobody can explain? **Ambient AI scribes** as the everyday concrete case: the visit is recorded, transcribed, and drafted by an LLM — what does disclosure require?
+- **Accountability half — liability when AI contributes to harm**: clinician, hospital, vendor, regulator — the "problem of many hands." The regulatory map: imaging AI as an FDA-regulated device (1,250+ authorized) vs. LLMs falling largely outside device regulation, with the FDA's January 2026 loosening of clinical-decision-support guidance widening the gap.
+- **AI mental-health chatbots — where the stakes are highest**: what they plausibly help with (access, anonymity, 3 a.m. availability) and the documented harms (bad advice to users in crisis; the wrongful-death litigation and January 2026 Character.AI settlement, handled at the regulatory altitude, not as individual tragedy narratives). The **Illinois WOPR Act** (2025) banning AI therapy — run **Mill's three-question test** (callback, L5a) on a state forbidding adults an AI therapist.
+- **Privacy**: the HIPAA gap — consumer chatbots are not covered entities; what students type into a chatbot has none of the protection they assume; model memorization and deidentification limits, briefly.
+- **The clinician's professional ethics**: automation bias (over-trusting the machine) vs. dismissal (under-trusting it); deskilling; when to defer and when to override — explicability as what makes either choice *defensible*.
 
 **Visual elements:**
-- *Figure (code-generated):* decision flow for "should I tell the patient AI was involved?" with the relevant ethical considerations.
-- *Table:* Liability scenarios when AI contributes to harm — who's plausibly responsible under each framing.
-- *Case box:* A reported case involving a mental-health chatbot (chosen with care for course audience).
-- *Discussion prompt:* "The AI says the patient has a 90% chance of sepsis; the resident sees no clinical signs. What should happen?"
-- *Sidebar:* HIPAA and AI — what the rule does and doesn't cover.
+- *Figure (code-generated):* the four principles + explicability — Floridi's five, with the medical-AI issue each governs (the lecture's map).
+- *Table:* liability scenarios when AI contributes to harm — who's plausibly responsible under each framing, and what each answer incentivizes.
+- *Case box:* the Illinois AI-therapy ban (2025) — what it prohibits, what prompted it, the Mill analysis.
+- *Sidebar:* "HIPAA and AI — why your chatbot conversation isn't a medical record."
+- *Discussion prompt:* "The AI says 90% chance of sepsis; the resident sees no clinical signs — and has watched this alert cry wolf before. What should happen?"
+- *Discussion prompt:* "Illinois banned AI therapy for everyone, including adults who prefer it. Apply Mill's three questions. Does the ban pass?"
 
 ---
 

@@ -88,6 +88,10 @@ website:
             text: "Part A — From Patient to Population"
           - href: chapters/09b-public-health-beliefs.qmd
             text: "Part B — False Beliefs & the Ethics of Correction"
+      - section: "10. AI in Medicine"
+        contents:
+          - href: chapters/10a-medical-ai.qmd
+            text: "Part A — How Medical AI Works and Where It Goes Wrong"
 
   page-footer:
     left: |

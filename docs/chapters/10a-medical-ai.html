@@ -1,0 +1,1797 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Brendan Shea, PhD">
+<meta name="dcterms.date" content="last-modified">
+
+<title>Lecture 10 — AI in Medicine – Bioethics: An Open Educational Resource</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-7f8f88aac4f3542376d5c11b86a4c14d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles/custom.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Bioethics: An Open Educational Resource</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="../index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../chapters/00-course-outline.html"> 
+<span class="menu-text">Outline</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/brendanpshea/bioethics-oer"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/10a-medical-ai.html">10. AI in Medicine</a></li><li class="breadcrumb-item"><a href="../chapters/10a-medical-ai.html">Part A — How Medical AI Works and Where It Goes Wrong</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/00-course-outline.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Course Outline</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+ <span class="menu-text">1. Principles &amp; Reasoning</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/01-introduction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part A — The Four Principles</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/01b-theories.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part B — Ethical Theories</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">2. History &amp; Relationship</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/02a-history.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part A — History</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/02b-clinical-relationship.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part B — Clinical Relationship</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">3. Research Ethics</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/03a-clinical-research.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part A — How Clinical Research Works</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/03b-protecting-research-subjects.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part B — Protecting Research Subjects</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">4. Abortion</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/04a-abortion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part A — Moral Status</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/04b-abortion-law.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part B — Law &amp; Cases</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">5. Autonomy, Paternalism, and Reproduction</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/05a-paternalism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part A — Paternalism &amp; Its Limits</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/05b-reproductive-markets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part B — Markets &amp; Surrogacy</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+ <span class="menu-text">6. Genomics &amp; Enhancement</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/06a-genomics-reading.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part A — Reading Genomes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/06b-genomics-enhancement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part B — Engineering Persons</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false">
+ <span class="menu-text">7. End-of-Life Care</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/07a-death-dying.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part A — Death, Dying &amp; Advance Planning</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/07b-euthanasia.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part B — Euthanasia &amp; Assisted Death</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false">
+ <span class="menu-text">8. Justice &amp; Health Care</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/08a-justice-health.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part A — Theories of Justice &amp; the Right to Care</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/08b-us-healthcare.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part B — Why US Health Care Costs So Much</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
+ <span class="menu-text">9. Public Health Ethics</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/09a-public-health.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part A — From Patient to Population</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/09b-public-health-beliefs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Part B — False Beliefs &amp; the Ethics of Correction</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true">
+ <span class="menu-text">10. AI in Medicine</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../chapters/10a-medical-ai.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Part A — How Medical AI Works and Where It Goes Wrong</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-million-mole-question" id="toc-the-million-mole-question" class="nav-link active" data-scroll-target="#the-million-mole-question"><span class="header-section-number">1</span> The Million-Mole Question</a>
+  <ul class="collapse">
+  <li><a href="#a-case-to-sit-with" id="toc-a-case-to-sit-with" class="nav-link" data-scroll-target="#a-case-to-sit-with"><span class="header-section-number">1.1</span> A Case to Sit With</a></li>
+  <li><a href="#what-the-model-actually-learned" id="toc-what-the-model-actually-learned" class="nav-link" data-scroll-target="#what-the-model-actually-learned"><span class="header-section-number">1.2</span> What the Model Actually Learned</a></li>
+  <li><a href="#after-youve-discussed" id="toc-after-youve-discussed" class="nav-link" data-scroll-target="#after-youve-discussed"><span class="header-section-number">1.3</span> After You’ve Discussed</a></li>
+  <li><a href="#today" id="toc-today" class="nav-link" data-scroll-target="#today"><span class="header-section-number">1.4</span> Today</a></li>
+  </ul></li>
+  <li><a href="#how-a-machine-learns" id="toc-how-a-machine-learns" class="nav-link" data-scroll-target="#how-a-machine-learns"><span class="header-section-number">2</span> How a Machine Learns</a>
+  <ul class="collapse">
+  <li><a href="#not-magic-not-a-mind" id="toc-not-magic-not-a-mind" class="nav-link" data-scroll-target="#not-magic-not-a-mind"><span class="header-section-number">2.1</span> Not Magic, Not a Mind</a></li>
+  <li><a href="#training-data-features-labels" id="toc-training-data-features-labels" class="nav-link" data-scroll-target="#training-data-features-labels"><span class="header-section-number">2.2</span> Training Data, Features, Labels</a></li>
+  <li><a href="#the-label-is-the-boss" id="toc-the-label-is-the-boss" class="nav-link" data-scroll-target="#the-label-is-the-boss"><span class="header-section-number">2.3</span> The Label Is the Boss</a></li>
+  <li><a href="#where-medical-training-data-comes-from" id="toc-where-medical-training-data-comes-from" class="nav-link" data-scroll-target="#where-medical-training-data-comes-from"><span class="header-section-number">2.4</span> Where Medical Training Data Comes From</a></li>
+  <li><a href="#from-training-to-the-bedside" id="toc-from-training-to-the-bedside" class="nav-link" data-scroll-target="#from-training-to-the-bedside"><span class="header-section-number">2.5</span> From Training to the Bedside</a></li>
+  <li><a href="#the-question-to-carry" id="toc-the-question-to-carry" class="nav-link" data-scroll-target="#the-question-to-carry"><span class="header-section-number">2.6</span> The Question to Carry</a></li>
+  <li><a href="#why-a-stanford-model-stumbles-in-rural-minnesota" id="toc-why-a-stanford-model-stumbles-in-rural-minnesota" class="nav-link" data-scroll-target="#why-a-stanford-model-stumbles-in-rural-minnesota"><span class="header-section-number">2.7</span> Why a Stanford Model Stumbles in Rural Minnesota</a></li>
+  </ul></li>
+  <li><a href="#three-kinds-of-medical-ai" id="toc-three-kinds-of-medical-ai" class="nav-link" data-scroll-target="#three-kinds-of-medical-ai"><span class="header-section-number">3</span> Three Kinds of Medical AI</a>
+  <ul class="collapse">
+  <li><a href="#diagnostic-ai-the-machine-that-looks" id="toc-diagnostic-ai-the-machine-that-looks" class="nav-link" data-scroll-target="#diagnostic-ai-the-machine-that-looks"><span class="header-section-number">3.1</span> Diagnostic AI: The Machine That Looks</a></li>
+  <li><a href="#predictive-ai-the-machine-that-warns" id="toc-predictive-ai-the-machine-that-warns" class="nav-link" data-scroll-target="#predictive-ai-the-machine-that-warns"><span class="header-section-number">3.2</span> Predictive AI: The Machine That Warns</a></li>
+  <li><a href="#generative-ai-the-machine-that-talks" id="toc-generative-ai-the-machine-that-talks" class="nav-link" data-scroll-target="#generative-ai-the-machine-that-talks"><span class="header-section-number">3.3</span> Generative AI: The Machine That Talks</a></li>
+  <li><a href="#why-fluent-and-wrong-go-together" id="toc-why-fluent-and-wrong-go-together" class="nav-link" data-scroll-target="#why-fluent-and-wrong-go-together"><span class="header-section-number">3.4</span> Why Fluent and Wrong Go Together</a></li>
+  <li><a href="#sycophancy-the-agreeable-machine" id="toc-sycophancy-the-agreeable-machine" class="nav-link" data-scroll-target="#sycophancy-the-agreeable-machine"><span class="header-section-number">3.5</span> Sycophancy: The Agreeable Machine</a></li>
+  <li><a href="#three-machines-three-signature-failures" id="toc-three-machines-three-signature-failures" class="nav-link" data-scroll-target="#three-machines-three-signature-failures"><span class="header-section-number">3.6</span> Three Machines, Three Signature Failures</a></li>
+  <li><a href="#thought-question" id="toc-thought-question" class="nav-link" data-scroll-target="#thought-question"><span class="header-section-number">3.7</span> Thought Question</a></li>
+  <li><a href="#make-it-contemporary" id="toc-make-it-contemporary" class="nav-link" data-scroll-target="#make-it-contemporary"><span class="header-section-number">3.8</span> Make It Contemporary</a></li>
+  <li><a href="#after-youve-discussed-1" id="toc-after-youve-discussed-1" class="nav-link" data-scroll-target="#after-youve-discussed-1"><span class="header-section-number">3.9</span> After You’ve Discussed</a></li>
+  </ul></li>
+  <li><a href="#how-bias-gets-in" id="toc-how-bias-gets-in" class="nav-link" data-scroll-target="#how-bias-gets-in"><span class="header-section-number">4</span> How Bias Gets In</a>
+  <ul class="collapse">
+  <li><a href="#bias-isnt-usually-malice" id="toc-bias-isnt-usually-malice" class="nav-link" data-scroll-target="#bias-isnt-usually-malice"><span class="header-section-number">4.1</span> Bias Isn’t (Usually) Malice</a></li>
+  <li><a href="#the-missing-patients" id="toc-the-missing-patients" class="nav-link" data-scroll-target="#the-missing-patients"><span class="header-section-number">4.2</span> The Missing Patients</a></li>
+  <li><a href="#the-proxy-problem" id="toc-the-proxy-problem" class="nav-link" data-scroll-target="#the-proxy-problem"><span class="header-section-number">4.3</span> The Proxy Problem</a></li>
+  <li><a href="#drift-the-world-moves-on" id="toc-drift-the-world-moves-on" class="nav-link" data-scroll-target="#drift-the-world-moves-on"><span class="header-section-number">4.4</span> Drift: The World Moves On</a></li>
+  </ul></li>
+  <li><a href="#the-algorithm-that-read-bills-as-bodies" id="toc-the-algorithm-that-read-bills-as-bodies" class="nav-link" data-scroll-target="#the-algorithm-that-read-bills-as-bodies"><span class="header-section-number">5</span> The Algorithm That Read Bills as Bodies</a>
+  <ul class="collapse">
+  <li><a href="#a-tool-built-to-help" id="toc-a-tool-built-to-help" class="nav-link" data-scroll-target="#a-tool-built-to-help"><span class="header-section-number">5.1</span> A Tool Built to Help</a></li>
+  <li><a href="#the-fatal-design-choice" id="toc-the-fatal-design-choice" class="nav-link" data-scroll-target="#the-fatal-design-choice"><span class="header-section-number">5.2</span> The Fatal Design Choice</a></li>
+  <li><a href="#what-obermeyer-found" id="toc-what-obermeyer-found" class="nav-link" data-scroll-target="#what-obermeyer-found"><span class="header-section-number">5.3</span> What Obermeyer Found</a></li>
+  <li><a href="#trained-vs.-used-the-cost-algorithm" id="toc-trained-vs.-used-the-cost-algorithm" class="nav-link" data-scroll-target="#trained-vs.-used-the-cost-algorithm"><span class="header-section-number">5.4</span> Trained vs.&nbsp;Used: The Cost Algorithm</a></li>
+  <li><a href="#why-no-one-saw-it" id="toc-why-no-one-saw-it" class="nav-link" data-scroll-target="#why-no-one-saw-it"><span class="header-section-number">5.5</span> Why No One Saw It</a></li>
+  <li><a href="#what-happened-after" id="toc-what-happened-after" class="nav-link" data-scroll-target="#what-happened-after"><span class="header-section-number">5.6</span> What Happened After</a></li>
+  <li><a href="#thought-question-1" id="toc-thought-question-1" class="nav-link" data-scroll-target="#thought-question-1"><span class="header-section-number">5.7</span> Thought Question</a></li>
+  <li><a href="#after-youve-discussed-2" id="toc-after-youve-discussed-2" class="nav-link" data-scroll-target="#after-youve-discussed-2"><span class="header-section-number">5.8</span> After You’ve Discussed</a></li>
+  </ul></li>
+  <li><a href="#the-epic-sepsis-model-in-two-acts" id="toc-the-epic-sepsis-model-in-two-acts" class="nav-link" data-scroll-target="#the-epic-sepsis-model-in-two-acts"><span class="header-section-number">6</span> The Epic Sepsis Model, in Two Acts</a>
+  <ul class="collapse">
+  <li><a href="#the-stakes-why-predict-sepsis-at-all" id="toc-the-stakes-why-predict-sepsis-at-all" class="nav-link" data-scroll-target="#the-stakes-why-predict-sepsis-at-all"><span class="header-section-number">6.1</span> The Stakes: Why Predict Sepsis at All</a></li>
+  <li><a href="#act-i-the-outside-test" id="toc-act-i-the-outside-test" class="nav-link" data-scroll-target="#act-i-the-outside-test"><span class="header-section-number">6.2</span> Act I: The Outside Test</a></li>
+  <li><a href="#trained-vs.-used-the-sepsis-alarm" id="toc-trained-vs.-used-the-sepsis-alarm" class="nav-link" data-scroll-target="#trained-vs.-used-the-sepsis-alarm"><span class="header-section-number">6.3</span> Trained vs.&nbsp;Used: The Sepsis Alarm</a></li>
+  <li><a href="#external-validation-is-replication" id="toc-external-validation-is-replication" class="nav-link" data-scroll-target="#external-validation-is-replication"><span class="header-section-number">6.4</span> External Validation Is Replication</a></li>
+  <li><a href="#act-ii-the-rebuilt-model" id="toc-act-ii-the-rebuilt-model" class="nav-link" data-scroll-target="#act-ii-the-rebuilt-model"><span class="header-section-number">6.5</span> Act II: The Rebuilt Model</a></li>
+  <li><a href="#when-passing-the-test-isnt-passing" id="toc-when-passing-the-test-isnt-passing" class="nav-link" data-scroll-target="#when-passing-the-test-isnt-passing"><span class="header-section-number">6.6</span> When Passing the Test Isn’t Passing</a></li>
+  <li><a href="#the-full-scoreboard" id="toc-the-full-scoreboard" class="nav-link" data-scroll-target="#the-full-scoreboard"><span class="header-section-number">6.7</span> The Full Scoreboard</a></li>
+  </ul></li>
+  <li><a href="#the-hype-cycle" id="toc-the-hype-cycle" class="nav-link" data-scroll-target="#the-hype-cycle"><span class="header-section-number">7</span> The Hype Cycle</a>
+  <ul class="collapse">
+  <li><a href="#stop-training-radiologists" id="toc-stop-training-radiologists" class="nav-link" data-scroll-target="#stop-training-radiologists"><span class="header-section-number">7.1</span> “Stop Training Radiologists”</a></li>
+  <li><a href="#a-decade-later" id="toc-a-decade-later" class="nav-link" data-scroll-target="#a-decade-later"><span class="header-section-number">7.2</span> A Decade Later</a></li>
+  <li><a href="#youve-seen-this-movie" id="toc-youve-seen-this-movie" class="nav-link" data-scroll-target="#youve-seen-this-movie"><span class="header-section-number">7.3</span> You’ve Seen This Movie</a></li>
+  <li><a href="#make-it-contemporary-1" id="toc-make-it-contemporary-1" class="nav-link" data-scroll-target="#make-it-contemporary-1"><span class="header-section-number">7.4</span> Make It Contemporary</a></li>
+  <li><a href="#after-youve-discussed-3" id="toc-after-youve-discussed-3" class="nav-link" data-scroll-target="#after-youve-discussed-3"><span class="header-section-number">7.5</span> After You’ve Discussed</a></li>
+  </ul></li>
+  <li><a href="#where-this-leaves-us" id="toc-where-this-leaves-us" class="nav-link" data-scroll-target="#where-this-leaves-us"><span class="header-section-number">8</span> Where This Leaves Us</a>
+  <ul class="collapse">
+  <li><a href="#mini-recap" id="toc-mini-recap" class="nav-link" data-scroll-target="#mini-recap"><span class="header-section-number">8.1</span> Mini-Recap</a></li>
+  <li><a href="#review-questions" id="toc-review-questions" class="nav-link" data-scroll-target="#review-questions"><span class="header-section-number">8.2</span> Review Questions</a></li>
+  <li><a href="#key-terms" id="toc-key-terms" class="nav-link" data-scroll-target="#key-terms"><span class="header-section-number">8.3</span> Key Terms</a></li>
+  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading"><span class="header-section-number">8.4</span> Further Reading</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">8.5</span> References</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="10a-medical-ai-slides.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../chapters/10a-medical-ai.html">10. AI in Medicine</a></li><li class="breadcrumb-item"><a href="../chapters/10a-medical-ai.html">Part A — How Medical AI Works and Where It Goes Wrong</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Lecture 10 — AI in Medicine</h1>
+<p class="subtitle lead">Part A: How Medical AI Works and Where It Goes Wrong</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Brendan Shea, PhD </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            An Introduction to Bioethics.
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="the-million-mole-question" class="level1 section-divider" data-number="1">
+<h1 class="section-divider" data-number="1"><span class="header-section-number">1</span> The Million-Mole Question</h1>
+<section id="a-case-to-sit-with" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="a-case-to-sit-with"><span class="header-section-number">1.1</span> A Case to Sit With</h2>
+<div class="thought-question">
+<p>Your aunt has a mole she doesn’t like the look of. Instead of waiting three months for a dermatology appointment, she photographs it with a free <strong>“AI skin check” app</strong>, which rates it <em>low risk</em>. She knows you’re in nursing school, so she calls you.</p>
+<p>“The company says it was trained on over a million photos of moles,” she says. “That’s more moles than any dermatologist will see in a lifetime. Why shouldn’t I trust it?”</p>
+<ol type="1">
+<li>What would you want to know about those million photos before you answer her?</li>
+<li>Is “more data than any human has seen” the same thing as “better judgment than any human has”? Why or why not?</li>
+</ol>
+</div>
+</section>
+<section id="what-the-model-actually-learned" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="what-the-model-actually-learned"><span class="header-section-number">1.2</span> What the Model Actually Learned</h2>
+<p>Researchers testing a top-performing skin-cancer model found something strange: it could be fooled by <strong>a marker pen</strong>.</p>
+<ul>
+<li>Dermatologists often circle or mark a lesion with violet surgical ink <em>before</em> photographing it — and they mark the ones they already suspect.</li>
+<li>When Winkler and colleagues added those routine ink markings to images of <strong>harmless moles</strong>, the model’s melanoma scores jumped: its specificity collapsed from about <strong>84% to 46%</strong> <span class="citation" data-cites="winkler2019">(<a href="#ref-winkler2019" role="doc-biblioref">Winkler et al. 2019</a>)</span>. Other teams caught models keying on the <strong>rulers</strong> placed next to suspicious lesions.</li>
+<li>The model had never been looking only at moles. It had learned that <em>ink and rulers predict cancer</em> — because worried clinicians bring out the ink and the rulers.</li>
+</ul>
+</section>
+<section id="after-youve-discussed" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="after-youve-discussed"><span class="header-section-number">1.3</span> After You’ve Discussed</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The model wasn’t broken. It did exactly what it was built to do: find whatever patterns in the photos predicted the label “malignant.” Ink markings really do predict that label — in the training photos. They just have nothing to do with your aunt’s skin.</p>
+<p>That gap is the whole lecture. Every disaster we will study today comes down to one question, asked of one system at a time: <strong>what was the model actually trained to do — and is that the same thing we are using it for?</strong></p>
+</div>
+</div>
+</section>
+<section id="today" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="today"><span class="header-section-number">1.4</span> Today</h2>
+<div class="learning-outcomes">
+<p>By the end of Part A, you will be able to:</p>
+<ul>
+<li>Explain <strong>supervised machine learning</strong> in plain terms — training data, features, labels, prediction — and why the <em>label</em> controls what gets learned.</li>
+<li>Distinguish the three kinds of medical AI — <strong>diagnostic, predictive, and generative</strong> — and name each one’s signature failure mode.</li>
+<li>Tell what happened, with names and numbers, in the <strong>Obermeyer cost-algorithm study</strong> and the <strong>two acts of the Epic Sepsis Model</strong> story.</li>
+<li>Explain why a chatbot’s answer can be <strong>fluent and wrong at the same time</strong>, and why that combination is dangerous in health care.</li>
+</ul>
+</div>
+</section>
+</section>
+<section id="how-a-machine-learns" class="level1 section-divider" data-number="2">
+<h1 class="section-divider" data-number="2"><span class="header-section-number">2</span> How a Machine Learns</h1>
+<section id="not-magic-not-a-mind" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="not-magic-not-a-mind"><span class="header-section-number">2.1</span> Not Magic, Not a Mind</h2>
+<p>For decades, programmers tried to build medical software the obvious way: interview experts and write down their rules. Those “expert systems” mostly failed — medicine has too many exceptions to its exceptions.</p>
+<p><span class="key-term">Machine learning</span> flips the approach. Instead of being <em>given</em> rules, the system is given <strong>examples</strong> — thousands or millions of them — and adjusts itself until its outputs match the answers. A calculator follows rules a human wrote. A machine-learning model <strong>writes its own rules from the data</strong>, and nobody, including its makers, can fully list what they are.</p>
+</section>
+<section id="training-data-features-labels" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="training-data-features-labels"><span class="header-section-number">2.2</span> Training Data, Features, Labels</h2>
+<p>Three terms explain almost everything that follows. In <span class="key-term">supervised learning</span>, the system learns from examples that come with the answers attached.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Term</th>
+<th>What it means</th>
+<th>In the skin app</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Training data</strong></td>
+<td>the examples the model learns from</td>
+<td>a million lesion photos</td>
+</tr>
+<tr class="even">
+<td><strong>Features</strong></td>
+<td>the measurable inputs in each example</td>
+<td>the pixels of each photo</td>
+</tr>
+<tr class="odd">
+<td><strong>Label</strong></td>
+<td>the “right answer” attached to each example</td>
+<td>“biopsy: malignant” or “benign”</td>
+</tr>
+</tbody>
+</table>
+<p>Once trained, the model takes the features of a <strong>new</strong> case — your aunt’s mole — and predicts its label.</p>
+</section>
+<section id="the-label-is-the-boss" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="the-label-is-the-boss"><span class="header-section-number">2.3</span> The Label Is the Boss</h2>
+<p>During training, the model adjusts millions of internal settings with a single goal: <strong>predict the label</strong>. That goal sounds harmless, but it has a sharp edge.</p>
+<ul>
+<li>The model learns <em>whatever pattern</em> in the features predicts the label — it has no idea which patterns are medicine and which are habit.</li>
+<li>Ink markings predict the label “malignant.” So the model learns ink.</li>
+<li>Nobody chose that. Nobody banned it either, because nobody knew it was happening.</li>
+</ul>
+<p>The model is a ruthless shortcut-finder. The shortcuts are invisible until someone goes looking.</p>
+</section>
+<section id="where-medical-training-data-comes-from" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="where-medical-training-data-comes-from"><span class="header-section-number">2.4</span> Where Medical Training Data Comes From</h2>
+<div class="context-box">
+<p><strong>Nobody collected this data to teach machines medicine</strong></p>
+<p>Medical AI is mostly trained on data that already existed for other reasons: <strong>electronic health records</strong> (written for documentation and billing), <strong>insurance claims</strong> (written to get paid), and <strong>imaging archives</strong> (filed for clinical use). Each carries the fingerprints of its original purpose — what got coded, who got tested, which patients showed up at all. A model trained on this data learns the medicine <em>and</em> the fingerprints, with no way to tell them apart.</p>
+</div>
+</section>
+<section id="from-training-to-the-bedside" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="from-training-to-the-bedside"><span class="header-section-number">2.5</span> From Training to the Bedside</h2>
+<div class="cell" data-fig-width="9.5" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<svg width="912" height="480" viewbox="0.00 0.00 818.85 125.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 121)">
+<title>pipeline</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-121 814.85,-121 814.85,4 -4,4"></polygon>
+<!-- collect -->
+<g id="node1" class="node">
+<title>collect</title>
+<path fill="#eef3fa" stroke="black" d="M245.2,-36C245.2,-36 179.33,-36 179.33,-36 173.33,-36 167.33,-30 167.33,-24 167.33,-24 167.33,-12 167.33,-12 167.33,-6 173.33,0 179.33,0 179.33,0 245.2,0 245.2,0 251.2,0 257.2,-6 257.2,-12 257.2,-12 257.2,-24 257.2,-24 257.2,-30 251.2,-36 245.2,-36"></path>
+<text text-anchor="middle" x="212.27" y="-13.8" font-family="Helvetica,sans-Serif" font-size="14.00">Collect data</text>
+</g>
+<!-- label_ -->
+<g id="node2" class="node">
+<title>label_</title>
+<path fill="#eef3fa" stroke="black" d="M386.36,-63C386.36,-63 314.04,-63 314.04,-63 308.04,-63 302.04,-57 302.04,-51 302.04,-51 302.04,-39 302.04,-39 302.04,-33 308.04,-27 314.04,-27 314.04,-27 386.36,-27 386.36,-27 392.36,-27 398.36,-33 398.36,-39 398.36,-39 398.36,-51 398.36,-51 398.36,-57 392.36,-63 386.36,-63"></path>
+<text text-anchor="middle" x="350.2" y="-40.8" font-family="Helvetica,sans-Serif" font-size="14.00">Attach labels</text>
+</g>
+<!-- collect&#45;&gt;label_ -->
+<g id="edge1" class="edge">
+<title>collect-&gt;label_</title>
+<path fill="none" stroke="black" d="M257.4,-26.77C268.43,-28.96 280.43,-31.34 291.99,-33.64"></path>
+<polygon fill="black" stroke="black" points="291.52,-37.11 302.01,-35.63 292.88,-30.25 291.52,-37.11"></polygon>
+</g>
+<!-- train -->
+<g id="node3" class="node">
+<title>train</title>
+<path fill="#eef3fa" stroke="black" d="M512.16,-63C512.16,-63 446.32,-63 446.32,-63 440.32,-63 434.32,-57 434.32,-51 434.32,-51 434.32,-39 434.32,-39 434.32,-33 440.32,-27 446.32,-27 446.32,-27 512.16,-27 512.16,-27 518.16,-27 524.16,-33 524.16,-39 524.16,-39 524.16,-51 524.16,-51 524.16,-57 518.16,-63 512.16,-63"></path>
+<text text-anchor="middle" x="479.24" y="-40.8" font-family="Helvetica,sans-Serif" font-size="14.00">Train model</text>
+</g>
+<!-- label_&#45;&gt;train -->
+<g id="edge2" class="edge">
+<title>label_-&gt;train</title>
+<path fill="none" stroke="black" d="M398.51,-45C406.83,-45 415.56,-45 424.05,-45"></path>
+<polygon fill="black" stroke="black" points="424.26,-48.5 434.26,-45 424.26,-41.5 424.26,-48.5"></polygon>
+</g>
+<!-- validate -->
+<g id="node4" class="node">
+<title>validate</title>
+<path fill="#eef3fa" stroke="black" d="M633.93,-63C633.93,-63 591.74,-63 591.74,-63 585.74,-63 579.74,-57 579.74,-51 579.74,-51 579.74,-39 579.74,-39 579.74,-33 585.74,-27 591.74,-27 591.74,-27 633.93,-27 633.93,-27 639.93,-27 645.93,-33 645.93,-39 645.93,-39 645.93,-51 645.93,-51 645.93,-57 639.93,-63 633.93,-63"></path>
+<text text-anchor="middle" x="612.84" y="-40.8" font-family="Helvetica,sans-Serif" font-size="14.00">Validate</text>
+</g>
+<!-- train&#45;&gt;validate -->
+<g id="edge3" class="edge">
+<title>train-&gt;validate</title>
+<path fill="none" stroke="black" d="M524.43,-45C538.97,-45 555.09,-45 569.49,-45"></path>
+<polygon fill="black" stroke="black" points="569.63,-48.5 579.63,-45 569.63,-41.5 569.63,-48.5"></polygon>
+</g>
+<!-- deploy -->
+<g id="node5" class="node">
+<title>deploy</title>
+<path fill="#eef3fa" stroke="black" d="M799.04,-90C799.04,-90 713.29,-90 713.29,-90 707.29,-90 701.29,-84 701.29,-78 701.29,-78 701.29,-66 701.29,-66 701.29,-60 707.29,-54 713.29,-54 713.29,-54 799.04,-54 799.04,-54 805.04,-54 811.04,-60 811.04,-66 811.04,-66 811.04,-78 811.04,-78 811.04,-84 805.04,-90 799.04,-90"></path>
+<text text-anchor="middle" x="756.16" y="-67.8" font-family="Helvetica,sans-Serif" font-size="14.00">Deploy in clinic</text>
+</g>
+<!-- validate&#45;&gt;deploy -->
+<g id="edge4" class="edge">
+<title>validate-&gt;deploy</title>
+<path fill="none" stroke="black" d="M646.26,-51.19C659.63,-53.75 675.61,-56.8 691.16,-59.77"></path>
+<polygon fill="black" stroke="black" points="690.81,-63.27 701.29,-61.71 692.12,-56.39 690.81,-63.27"></polygon>
+</g>
+<!-- f1 -->
+<g id="node6" class="node">
+<title>f1</title>
+<path fill="transparent" stroke="transparent" d="M110.61,-36C110.61,-36 11.8,-36 11.8,-36 5.8,-36 -0.2,-30 -0.2,-24 -0.2,-24 -0.2,-12 -0.2,-12 -0.2,-6 5.8,0 11.8,0 11.8,0 110.61,0 110.61,0 116.61,0 122.61,-6 122.61,-12 122.61,-12 122.61,-24 122.61,-24 122.61,-30 116.61,-36 110.61,-36"></path>
+<text text-anchor="middle" x="61.2" y="-21.3" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">Failure 1:</text>
+<text text-anchor="middle" x="61.2" y="-8.1" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">unrepresentative data</text>
+</g>
+<!-- f1&#45;&gt;collect -->
+<g id="edge5" class="edge">
+<title>f1-&gt;collect</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M122.83,-18C137.66,-18 153.26,-18 167.15,-18"></path>
+</g>
+<!-- f2 -->
+<g id="node7" class="node">
+<title>f2</title>
+<path fill="transparent" stroke="transparent" d="M253.98,-90C253.98,-90 170.55,-90 170.55,-90 164.55,-90 158.55,-84 158.55,-78 158.55,-78 158.55,-66 158.55,-66 158.55,-60 164.55,-54 170.55,-54 170.55,-54 253.98,-54 253.98,-54 259.98,-54 265.98,-60 265.98,-66 265.98,-66 265.98,-78 265.98,-78 265.98,-84 259.98,-90 253.98,-90"></path>
+<text text-anchor="middle" x="212.27" y="-75.3" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">Failure 2:</text>
+<text text-anchor="middle" x="212.27" y="-62.1" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">the label is a proxy</text>
+</g>
+<!-- f2&#45;&gt;label_ -->
+<g id="edge6" class="edge">
+<title>f2-&gt;label_</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M266.21,-61.48C277.99,-59.14 290.4,-56.68 301.94,-54.39"></path>
+</g>
+<!-- f3 -->
+<g id="node8" class="node">
+<title>f3</title>
+<path fill="transparent" stroke="transparent" d="M653.62,-117C653.62,-117 572.06,-117 572.06,-117 566.06,-117 560.06,-111 560.06,-105 560.06,-105 560.06,-93 560.06,-93 560.06,-87 566.06,-81 572.06,-81 572.06,-81 653.62,-81 653.62,-81 659.62,-81 665.62,-87 665.62,-93 665.62,-93 665.62,-105 665.62,-105 665.62,-111 659.62,-117 653.62,-117"></path>
+<text text-anchor="middle" x="612.84" y="-102.3" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">Failure 3:</text>
+<text text-anchor="middle" x="612.84" y="-89.1" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">the world changes</text>
+</g>
+<!-- f3&#45;&gt;deploy -->
+<g id="edge7" class="edge">
+<title>f3-&gt;deploy</title>
+<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M665.66,-89.1C677.32,-86.87 689.72,-84.5 701.45,-82.26"></path>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<p>Every case in this lecture fails at one of these three marked points. Keep the diagram in mind — we will keep returning to it.</p>
+</section>
+<section id="the-question-to-carry" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="the-question-to-carry"><span class="header-section-number">2.6</span> The Question to Carry</h2>
+<p>We will score every system today on the same small card — our version of a running scoreboard.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>The skin-check app</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Trained to do</strong></td>
+<td>predict which <em>photos</em> got the label “malignant”</td>
+</tr>
+<tr class="even">
+<td><strong>Used to do</strong></td>
+<td>tell your aunt whether her <em>mole</em> is cancer</td>
+</tr>
+<tr class="odd">
+<td><strong>The gap</strong></td>
+<td>the photographer’s worry — ink, rulers, framing — rides along with the disease</td>
+</tr>
+</tbody>
+</table>
+<p>When the trained task and the clinical task match, the model can be genuinely excellent. When they quietly diverge, you get the rest of this lecture.</p>
+</section>
+<section id="why-a-stanford-model-stumbles-in-rural-minnesota" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="why-a-stanford-model-stumbles-in-rural-minnesota"><span class="header-section-number">2.7</span> Why a Stanford Model Stumbles in Rural Minnesota</h2>
+<div class="columns">
+<div class="column" style="width:52%;">
+<p><span class="key-term">Distribution shift</span> is the first failure point: the model meets a world that no longer resembles its training data.</p>
+<ul>
+<li>Different <strong>scanners and cameras</strong> produce systematically different images.</li>
+<li>Different <strong>populations</strong> carry different ages, skin tones, and disease rates.</li>
+<li>Different <strong>workflows</strong> order different tests at different times.</li>
+</ul>
+</div><div class="column" style="width:44%;">
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>The portable X-ray tell</strong></p>
+<p>One study found chest X-ray models partly “diagnosing” pneumonia by detecting <strong>which hospital and machine</strong> took the film — portable scanners are used on sicker patients, and the model learned the scanner, not just the lungs. The model didn’t get worse when it traveled. The world stopped matching its textbook.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="three-kinds-of-medical-ai" class="level1 section-divider" data-number="3">
+<h1 class="section-divider" data-number="3"><span class="header-section-number">3</span> Three Kinds of Medical AI</h1>
+<section id="diagnostic-ai-the-machine-that-looks" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="diagnostic-ai-the-machine-that-looks"><span class="header-section-number">3.1</span> Diagnostic AI: The Machine That Looks</h2>
+<p>The most mature kind of medical AI <strong>classifies images</strong>: radiology scans, skin photographs, pathology slides, retinal images.</p>
+<ul>
+<li>The FDA has authorized over <strong>1,250 AI-enabled medical devices</strong>, roughly three-quarters of them in radiology.</li>
+<li>The first <strong>autonomous</strong> diagnostic system (no physician reads the image) was cleared in 2018 for diabetic eye disease screening.</li>
+<li>Headlines say these systems perform “at expert level” — which is true <strong>on test images resembling their training data</strong>. The ink-marking study shows what that qualifier hides.</li>
+</ul>
+</section>
+<section id="predictive-ai-the-machine-that-warns" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="predictive-ai-the-machine-that-warns"><span class="header-section-number">3.2</span> Predictive AI: The Machine That Warns</h2>
+<p>The second kind doesn’t look at images — it watches <strong>the chart</strong>. Risk-scoring models run silently inside the electronic health record, recalculating as new vitals and labs arrive.</p>
+<ul>
+<li>Common targets: <strong>sepsis</strong>, clinical <strong>deterioration</strong>, 30-day <strong>readmission</strong>, falls.</li>
+<li>You will not choose to use these systems; they come bundled with the EHR, and they page <em>you</em>. Every nurse on a med-surg floor works under a deterioration score.</li>
+<li>Their signature failures are different from diagnostic AI’s: <strong>proxy labels</strong> (what exactly counts as “sepsis” in the training data?) and <strong>alert burden</strong> — both starring in our second case study.</li>
+</ul>
+</section>
+<section id="generative-ai-the-machine-that-talks" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="generative-ai-the-machine-that-talks"><span class="header-section-number">3.3</span> Generative AI: The Machine That Talks</h2>
+<div class="context-box">
+<p><strong>What a large language model is</strong></p>
+<p>A <span class="key-term">large language model</span> (LLM) — the technology behind ChatGPT and its rivals — is trained on enormous amounts of text to do one thing: <strong>predict the next word</strong>. Do that well enough, at large enough scale, and the model can draft essays, summarize charts, and hold a fluent conversation. But its output is always a <em>plausible continuation of the text so far</em> — not a fact retrieved from a database, and not a claim it checked against the world.</p>
+</div>
+<p>Patients ask LLMs about symptoms and medications every day. Hospitals now use them to draft visit notes and patient messages. This is the kind of AI your patients — and you — already touch.</p>
+</section>
+<section id="why-fluent-and-wrong-go-together" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="why-fluent-and-wrong-go-together"><span class="header-section-number">3.4</span> Why Fluent and Wrong Go Together</h2>
+<p>A radiology model that fails gives a wrong score. A language model that fails gives you <strong>a confident, articulate, well-organized wrong answer</strong> — because producing convincing text is the one thing it was trained to do.</p>
+<ul>
+<li><span class="key-term">Hallucination</span> is the industry’s term for generated content that is fluent, specific, and false: an invented drug interaction, a fabricated study, a wrong dose stated warmly.</li>
+<li>It is not a bug awaiting a patch. The model that writes a beautiful, accurate discharge summary and the model that invents a citation are <strong>the same model, doing the same thing</strong> — continuing text plausibly.</li>
+<li>Most of the time, the most plausible continuation is true. “Most of the time” is a frightening phrase in a medication question.</li>
+</ul>
+</section>
+<section id="sycophancy-the-agreeable-machine" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="sycophancy-the-agreeable-machine"><span class="header-section-number">3.5</span> Sycophancy: The Agreeable Machine</h2>
+<p>LLMs are fine-tuned on <strong>human feedback</strong> — people rate which answers they like. People, it turns out, like being agreed with.</p>
+<ul>
+<li>The result is <span class="key-term">sycophancy</span>: a learned tendency to tell the user what they seem to want to hear.</li>
+<li>Researchers have shown that chatbots will <strong>abandon a correct medical answer</strong> when the user simply pushes back (“are you sure? I read that it’s fine”).</li>
+<li>A patient fishing for reassurance can usually catch some. Your aunt doesn’t want to hear “see a dermatologist.” The model can feel that.</li>
+</ul>
+</section>
+<section id="three-machines-three-signature-failures" class="level2" data-number="3.6">
+<h2 data-number="3.6" class="anchored" data-anchor-id="three-machines-three-signature-failures"><span class="header-section-number">3.6</span> Three Machines, Three Signature Failures</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Diagnostic</strong></th>
+<th><strong>Predictive</strong></th>
+<th><strong>Generative</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>What it does</td>
+<td>classifies images</td>
+<td>scores risk from the chart</td>
+<td>produces text</td>
+</tr>
+<tr class="even">
+<td>Example</td>
+<td>melanoma from photos</td>
+<td>sepsis early warning</td>
+<td>answering a patient’s drug question</td>
+</tr>
+<tr class="odd">
+<td>Trained to do</td>
+<td>match labeled images</td>
+<td>predict a recorded outcome</td>
+<td>continue text plausibly</td>
+</tr>
+<tr class="even">
+<td>Signature failure</td>
+<td><strong>distribution shift</strong></td>
+<td><strong>proxy labels, alert burden</strong></td>
+<td><strong>hallucination, sycophancy</strong></td>
+</tr>
+<tr class="odd">
+<td>Checked how?</td>
+<td>test images, reader studies</td>
+<td>accuracy stats (AUC, PPV)</td>
+<td>…this is an open problem</td>
+</tr>
+</tbody>
+</table>
+<p>One question diagnoses all three columns: <em>what was it trained to do, and is that what we’re using it for?</em></p>
+</section>
+<section id="thought-question" class="level2" data-number="3.7">
+<h2 data-number="3.7" class="anchored" data-anchor-id="thought-question"><span class="header-section-number">3.7</span> Thought Question</h2>
+<div class="thought-question">
+<p>You are charting at 2 a.m. A patient newly started on an <strong>anticoagulant</strong> shows you her tablet: she asked a chatbot whether the drug is safe with her <strong>turmeric supplements</strong>, and it gave a confident, detailed, friendly answer — with mechanisms and percentages.</p>
+<ol type="1">
+<li>What, concretely, would you do before letting that answer stand?</li>
+<li>Does it matter that the answer <em>sounds</em> exactly like a pharmacist? What is the sound of expertise actually evidence for, here?</li>
+<li>She trusts the chatbot more than the pharmacy’s printout because “it answered <em>my</em> question about <em>my</em> situation.” Is she making a mistake? Name it precisely.</li>
+</ol>
+</div>
+</section>
+<section id="make-it-contemporary" class="level2" data-number="3.8">
+<h2 data-number="3.8" class="anchored" data-anchor-id="make-it-contemporary"><span class="header-section-number">3.8</span> Make It Contemporary</h2>
+<div class="thought-question">
+<p>In 2025, <em>Annals of Internal Medicine: Clinical Cases</em> reported a 60-year-old man who asked a chatbot how to cut <strong>chloride</strong> from his diet. He came away with <strong>sodium bromide</strong> as a substitute for table salt — a chemical swap that is sensible in a chemistry lab and poisonous at the dinner table. After about three months he arrived at an emergency department psychotic, convinced his neighbor was poisoning him. The diagnosis was <strong>bromism</strong> — a toxidrome so old it mostly vanished with 1970s sedatives <span class="citation" data-cites="eichenberger2025">(<a href="#ref-eichenberger2025" role="doc-biblioref">Eichenberger et al. 2025</a>)</span>.</p>
+<p>The answer he got was fluent, specific, and responsive to exactly the question he asked. Where in our three-word vocabulary — data, features, <strong>labels</strong> — did this disaster live?</p>
+</div>
+</section>
+<section id="after-youve-discussed-1" class="level2" data-number="3.9">
+<h2 data-number="3.9" class="anchored" data-anchor-id="after-youve-discussed-1"><span class="header-section-number">3.9</span> After You’ve Discussed</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Here is a distinction the slides above never stated: <strong>verification asymmetry</strong>. A true generated answer and a hallucinated one are <em>indistinguishable on the screen</em> — same fluency, same confidence, same formatting. Only checking against the world tells them apart, and the checking takes expertise the asker usually lacks (that’s why they asked).</p>
+<p>Human expertise carries external credentials — a license, a pharmacist behind a counter, malpractice exposure. Generated text carries only its own voice. The bromism patient’s error wasn’t trusting a wrong answer; it was treating <em>fluency</em> as if it were a credential.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="how-bias-gets-in" class="level1 section-divider" data-number="4">
+<h1 class="section-divider" data-number="4"><span class="header-section-number">4</span> How Bias Gets In</h1>
+<section id="bias-isnt-usually-malice" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="bias-isnt-usually-malice"><span class="header-section-number">4.1</span> Bias Isn’t (Usually) Malice</h2>
+<p>No engineer writes <code>if patient is Black: score lower</code>. Algorithmic bias almost always walks in through one of three doors — the three failure points on our pipeline diagram.</p>
+<ul>
+<li><strong>Unrepresentative training data</strong> — the model never properly saw patients like this one.</li>
+<li><strong>Proxy labels</strong> — the label stands in for what we want, and the stand-in is warped.</li>
+<li><strong>Deployment drift</strong> — the world changes; the frozen model doesn’t.</li>
+</ul>
+<p>The data does it wordlessly. That is what makes it hard to see — and easy to deny.</p>
+</section>
+<section id="the-missing-patients" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="the-missing-patients"><span class="header-section-number">4.2</span> The Missing Patients</h2>
+<div class="columns">
+<div class="column" style="width:52%;">
+<p>Audits of the public datasets behind skin-cancer AI found that images of <strong>dark skin are a small fraction</strong> of the total — and models trained on them perform measurably worse on darker skin.</p>
+<p>The injustice compounds: melanoma is <em>already</em> caught later in Black patients, with five-year survival roughly <strong>twenty points lower</strong> than for white patients. A tool that underperforms exactly where mortality is worst doesn’t just miss an opportunity — it widens the gap it could have closed.</p>
+</div><div class="column" style="width:44%;">
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Justice, before deployment day one</strong></p>
+<p>This failure needs no biased user and no flawed deployment. It is locked in <strong>at data collection</strong>, years before any patient meets the tool. When we ask who is responsible for an algorithm’s harm, remember how early the harm can start.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="the-proxy-problem" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="the-proxy-problem"><span class="header-section-number">4.3</span> The Proxy Problem</h2>
+<p>Often the thing you actually care about — <em>how sick is this patient?</em> — <strong>is not a field in any database</strong>. So designers train on a stand-in they can measure.</p>
+<ul>
+<li>Sickness becomes <strong>dollars spent</strong>. Diagnosis becomes <strong>billing codes</strong>. Clinical concern becomes <strong>tests ordered</strong>.</li>
+<li>A <span class="key-term">proxy variable</span> is exactly that stand-in — and the model becomes superb at predicting the proxy, <em>including everything unjust baked into it</em>.</li>
+<li>If less was historically spent on some patients’ care, a cost-trained model reads those patients as healthier. No one has to intend this. The arithmetic does it.</li>
+</ul>
+<p>Hold that thought. It is about to cost real patients real care.</p>
+</section>
+<section id="drift-the-world-moves-on" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="drift-the-world-moves-on"><span class="header-section-number">4.4</span> Drift: The World Moves On</h2>
+<p>A trained model is <strong>frozen</strong> — a photograph of the world as it looked in its training data, asked to govern the present.</p>
+<ul>
+<li>COVID-19 made this vivid: models trained on 2019 patients met 2020, and their assumptions about fevers, admissions, and baseline risk quietly broke.</li>
+<li>Slower drift is constant: new drugs, new documentation habits, new patient mixes, a new lab vendor with slightly different reference ranges.</li>
+<li><span class="key-term">Deployment drift</span> means a model’s validation report has an expiration date — usually unprinted.</li>
+</ul>
+</section>
+</section>
+<section id="the-algorithm-that-read-bills-as-bodies" class="level1 section-divider" data-number="5">
+<h1 class="section-divider" data-number="5"><span class="header-section-number">5</span> The Algorithm That Read Bills as Bodies</h1>
+<section id="a-tool-built-to-help" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="a-tool-built-to-help"><span class="header-section-number">5.1</span> A Tool Built to Help</h2>
+<p>This case begins with a genuinely good idea, and it matters that you see that. <strong>Care-management programs</strong> give the sickest patients extra support — care coordinators, home visits, help managing five prescriptions at once. They work, and slots are scarce.</p>
+<p>An insurer with millions of members cannot hand-pick who needs help most. So health systems bought an algorithm to rank patients by future health need — one of a class of tools applied to roughly <strong>200 million Americans a year</strong>. Nothing about the goal was sinister. Watch what one design choice did.</p>
+</section>
+<section id="the-fatal-design-choice" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="the-fatal-design-choice"><span class="header-section-number">5.2</span> The Fatal Design Choice</h2>
+<p>The designers needed a label meaning “how sick will this patient be next year?” — and no such field exists. They chose next year’s <strong>health-care costs</strong>.</p>
+<ul>
+<li>Cost is measurable, objective, and sits right there in the claims data.</li>
+<li>And on average, sicker patients do cost more — the proxy isn’t crazy.</li>
+<li>But cost doesn’t measure sickness. It measures sickness <em>times access, times trust, times whether anyone took your symptoms seriously enough to order the test</em>.</li>
+</ul>
+<p>The model was now being trained to answer a different question than the one everyone thought it answered.</p>
+</section>
+<section id="what-obermeyer-found" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="what-obermeyer-found"><span class="header-section-number">5.3</span> What Obermeyer Found</h2>
+<p>In 2019, Ziad Obermeyer and colleagues got rare access to one large hospital’s data — the algorithm’s scores <em>plus</em> the patients’ actual health <span class="citation" data-cites="obermeyer2019">(<a href="#ref-obermeyer2019" role="doc-biblioref">Obermeyer et al. 2019</a>)</span>.</p>
+<ul>
+<li>At the <strong>same risk score</strong>, Black patients were substantially sicker than white patients — carrying about <strong>26% more chronic conditions</strong>.</li>
+<li>The algorithm was deciding who got extra care. Fixing the bias would have raised the share of Black patients flagged for help from <strong>17.7% to 46.5%</strong>.</li>
+<li>The mechanism was exactly the proxy: historically, <strong>less money had been spent</strong> on equally sick Black patients. So the model read them as healthier.</li>
+</ul>
+</section>
+<section id="trained-vs.-used-the-cost-algorithm" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="trained-vs.-used-the-cost-algorithm"><span class="header-section-number">5.4</span> Trained vs.&nbsp;Used: The Cost Algorithm</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>The care-management algorithm</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Trained to do</strong></td>
+<td>predict who will <em>cost the most</em> next year</td>
+</tr>
+<tr class="even">
+<td><strong>Used to do</strong></td>
+<td>find who is <em>sickest</em> and route scarce help to them</td>
+</tr>
+<tr class="odd">
+<td><strong>The gap</strong></td>
+<td>every dollar of unequal access, distrust, and undertreatment in the historical spending record</td>
+</tr>
+</tbody>
+</table>
+<p>The skin app’s gap was a photographer’s habit. This gap was <strong>the medical history of American inequality</strong>, compressed into a label.</p>
+</section>
+<section id="why-no-one-saw-it" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="why-no-one-saw-it"><span class="header-section-number">5.5</span> Why No One Saw It</h2>
+<p>Here is the uncomfortable part: the algorithm was <strong>accurate</strong>. At its trained task — predicting cost — it performed well for Black and white patients alike. Every internal quality check passed.</p>
+<ul>
+<li>The checks were calibrated against <strong>cost</strong> — the very proxy carrying the bias. The yardstick and the flaw were the same object.</li>
+<li>Race wasn’t even an input; the developers had excluded it deliberately, believing that made the tool fair.</li>
+<li>It took outsiders with <strong>independent data</strong> — researchers who could compare scores against actual health, not predicted spending — to see it.</li>
+</ul>
+<p>You cannot audit your way out of a proxy problem with the proxy.</p>
+</section>
+<section id="what-happened-after" class="level2" data-number="5.6">
+<h2 data-number="5.6" class="anchored" data-anchor-id="what-happened-after"><span class="header-section-number">5.6</span> What Happened After</h2>
+<p>The study landed in <em>Science</em> in October 2019, and the response was fast.</p>
+<ul>
+<li>New York’s financial-services and health regulators opened an <strong>investigation</strong> within weeks, warning insurers statewide.</li>
+<li>The researchers worked <em>with</em> the manufacturer rather than just naming and shaming — retraining on a label closer to actual health knocked out roughly <strong>84% of the measured bias</strong>. The fix was that available, once someone looked.</li>
+<li>The paired case study for this lecture tells the fuller story: how the access was negotiated, and what “fixing the label” required.</li>
+</ul>
+<div class="notes">
+<p>Obermeyer’s team never names the product in the paper; press coverage identified it as Optum’s Impact Pro. Worth saying aloud so students don’t over-cite the paper for the company name. Also worth stressing the constructive ending — this is the field’s best example of a bias being found, measured, and substantially repaired.</p>
+</div>
+</section>
+<section id="thought-question-1" class="level2" data-number="5.7">
+<h2 data-number="5.7" class="anchored" data-anchor-id="thought-question-1"><span class="header-section-number">5.7</span> Thought Question</h2>
+<div class="thought-question">
+<p>You are the nursing representative on your hospital’s <strong>purchasing committee</strong>. A vendor is pitching a readmission-risk tool: “<strong>92% accurate</strong>, used by 200 hospitals.” The training data, the features, and the label are all trade secrets.</p>
+<ol type="1">
+<li>Write the three questions you would put to the vendor before signing. (Steal freely from this lecture.)</li>
+<li>The CMO says: “200 hospitals can’t be wrong, and we don’t ask drug companies for their formulas.” What’s the flaw in each half of that sentence?</li>
+<li>If the vendor answers none of your questions, is “no purchase” really an option — knowing the status quo is overworked clinicians eyeballing risk?</li>
+</ol>
+</div>
+</section>
+<section id="after-youve-discussed-2" class="level2" data-number="5.8">
+<h2 data-number="5.8" class="anchored" data-anchor-id="after-youve-discussed-2"><span class="header-section-number">5.8</span> After You’ve Discussed</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The committee scenario turns on a distinction we haven’t named: <strong>internal versus external validation</strong>. Internal validation is the vendor grading its own homework — its model, its data, its chosen yardstick. External validation is an independent test, on <em>your</em> patients, against an outcome <em>you</em> care about.</p>
+<p>“92% accurate” is an internal number until proven otherwise. The Obermeyer study was external validation in action — and the case you’re about to see is what happens when a tool used on millions of patients goes years without any.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="the-epic-sepsis-model-in-two-acts" class="level1 section-divider" data-number="6">
+<h1 class="section-divider" data-number="6"><span class="header-section-number">6</span> The Epic Sepsis Model, in Two Acts</h1>
+<section id="the-stakes-why-predict-sepsis-at-all" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="the-stakes-why-predict-sepsis-at-all"><span class="header-section-number">6.1</span> The Stakes: Why Predict Sepsis at All</h2>
+<div class="context-box">
+<p><strong>Sepsis, in one breath</strong></p>
+<p><span class="key-term">Sepsis</span> is the body’s immune response to infection spiraling into organ damage. About <strong>1.7 million American adults</strong> develop it each year and roughly <strong>350,000 die</strong>. It is treatable — but the window is brutal: every hour of delayed antibiotics measurably raises mortality, and early sepsis can look like a dozen milder things. A reliable early-warning system would save thousands of lives. This is a <em>worthy</em> target.</p>
+</div>
+<p>Epic, whose electronic health record holds the charts of most hospitalized Americans, shipped a sepsis prediction model <strong>bundled into the EHR</strong>. Hundreds of hospitals switched it on.</p>
+</section>
+<section id="act-i-the-outside-test" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="act-i-the-outside-test"><span class="header-section-number">6.2</span> Act I: The Outside Test</h2>
+<p>For years, the only performance numbers were <strong>Epic’s own</strong>. In 2021, Andrew Wong and colleagues at Michigan Medicine ran the first large independent test: 27,697 patients, 38,455 hospitalizations <span class="citation" data-cites="wong2021">(<a href="#ref-wong2021" role="doc-biblioref">Wong et al. 2021</a>)</span>.</p>
+<ul>
+<li>Claimed discrimination: AUC 0.76–0.83. Measured: <strong>0.63</strong> — closer to a coin flip than to the brochure.</li>
+<li>At the standard alert threshold, the model <strong>missed two-thirds</strong> of sepsis cases (sensitivity 33%)…</li>
+<li>…while firing alerts on <strong>18% of all hospitalized patients</strong>, with only <strong>12%</strong> of alerts pointing at a patient who actually developed sepsis.</li>
+</ul>
+<p>The hospitals had deployed first and validated never.</p>
+</section>
+<section id="trained-vs.-used-the-sepsis-alarm" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="trained-vs.-used-the-sepsis-alarm"><span class="header-section-number">6.3</span> Trained vs.&nbsp;Used: The Sepsis Alarm</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>The Epic Sepsis Model (v1)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Trained to do</strong></td>
+<td>predict which patients would receive a sepsis <strong>billing code</strong>, using chart signals that often appear only <em>after</em> clinicians already suspect sepsis</td>
+</tr>
+<tr class="even">
+<td><strong>Used to do</strong></td>
+<td>warn the team <strong>before</strong> anyone suspects</td>
+</tr>
+<tr class="odd">
+<td><strong>The gap</strong></td>
+<td>the model was best at “predicting” what the team already knew — and weakest exactly when a warning would have mattered</td>
+</tr>
+</tbody>
+</table>
+<p>A fire alarm that excels at detecting fire trucks.</p>
+</section>
+<section id="external-validation-is-replication" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="external-validation-is-replication"><span class="header-section-number">6.4</span> External Validation Is Replication</h2>
+<p>When we studied research ethics, you learned why so many published findings collapse on the second look: results need <strong>independent replication</strong> before they deserve trust. The same logic, relocated:</p>
+<ul>
+<li>A vendor’s internal performance numbers are a <strong>claim</strong>, not a finding.</li>
+<li>External validation — someone else’s patients, someone else’s count — is medical AI’s replication.</li>
+<li>The scandal of Act I isn’t only that the model underperformed. It’s that a tool running on hundreds of hospitals’ patients went <strong>years without anyone outside the company checking</strong> — something we would never tolerate for a new drug.</li>
+</ul>
+</section>
+<section id="act-ii-the-rebuilt-model" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="act-ii-the-rebuilt-model"><span class="header-section-number">6.5</span> Act II: The Rebuilt Model</h2>
+<p>Epic retired version 1 and rebuilt the model on a better foundation — including training on data <strong>before clinical recognition</strong>, attacking the circularity directly. In 2026, Wong’s group published the independent verdict on the sequel: nine hospitals, prospective, predictions every 15 minutes <span class="citation" data-cites="wong2026">(<a href="#ref-wong2026" role="doc-biblioref"><span class="nocase">Wong et al.</span> 2026</a>)</span>.</p>
+<ul>
+<li>Discrimination was now genuinely good: <strong>AUC 0.82–0.92</strong>. The headline flaw was fixed.</li>
+<li>And yet: <strong>low positive predictive value</strong> — most alerts still pointed at patients who never developed sepsis.</li>
+<li>And the model’s performance and alert volume <strong>varied widely from hospital to hospital</strong> — the same software, different realities.</li>
+</ul>
+</section>
+<section id="when-passing-the-test-isnt-passing" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="when-passing-the-test-isnt-passing"><span class="header-section-number">6.6</span> When Passing the Test Isn’t Passing</h2>
+<div class="columns">
+<div class="column" style="width:52%;">
+<p>Act II’s lesson is subtler and more important than Act I’s: a model can <strong>ace its statistics and still fail the night shift</strong>.</p>
+<p>When most alerts are false, clinicians learn — rationally — to click through them. The alert becomes noise with a timestamp. And the one true warning dies in the pile, which is precisely the patient the system existed to save.</p>
+</div><div class="column" style="width:44%;">
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Alert fatigue is an ethics problem</strong></p>
+<p><span class="key-term">Alert fatigue</span> quietly reassigns blame. When alert #41 turns out to be the real one, the chart shows a warning <em>given</em> and a nurse who <em>dismissed it</em>. The system’s noise becomes the human’s negligence. Ask who designed the threshold — and who absorbs the risk of it.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="the-full-scoreboard" class="level2" data-number="6.7">
+<h2 data-number="6.7" class="anchored" data-anchor-id="the-full-scoreboard"><span class="header-section-number">6.7</span> The Full Scoreboard</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Trained to do</th>
+<th>Used to do</th>
+<th>The gap</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Skin app</strong></td>
+<td>predict labels on <em>photos</em></td>
+<td>judge your aunt’s mole</td>
+<td>the photographer’s worry rides along</td>
+</tr>
+<tr class="even">
+<td><strong>Cost algorithm</strong></td>
+<td>predict <em>spending</em></td>
+<td>find the sickest</td>
+<td>inequality baked into the bills</td>
+</tr>
+<tr class="odd">
+<td><strong>Epic v1</strong></td>
+<td>predict sepsis <em>billing codes</em></td>
+<td>warn before suspicion</td>
+<td>best at the already-known</td>
+</tr>
+<tr class="even">
+<td><strong>Epic v2</strong></td>
+<td>predict sepsis, properly</td>
+<td>help the night shift</td>
+<td>accurate ≠ usable: the alert flood</td>
+</tr>
+</tbody>
+</table>
+<p>Four systems, four owners, four different fixes — <strong>one recurring gap</strong>. This is not a story about one bad model. It is a pattern you can now spot unaided.</p>
+</section>
+</section>
+<section id="the-hype-cycle" class="level1 section-divider" data-number="7">
+<h1 class="section-divider" data-number="7"><span class="header-section-number">7</span> The Hype Cycle</h1>
+<section id="stop-training-radiologists" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="stop-training-radiologists"><span class="header-section-number">7.1</span> “Stop Training Radiologists”</h2>
+<div class="quote-card">
+<blockquote class="blockquote">
+<p>“I think if you work as a radiologist, you are like the coyote that’s already over the edge of the cliff but hasn’t yet looked down. … People should stop training radiologists now. It’s just completely obvious that within five years deep learning is going to do better than radiologists. … It might be ten years, but we’ve got plenty of radiologists already.”</p>
+</blockquote>
+<div class="attribution">
+<p>Geoffrey Hinton — pioneer of deep learning and later Nobel laureate — remarks at the <em>Machine Learning and the Market for Intelligence</em> conference, Toronto, 2016</p>
+</div>
+</div>
+</section>
+<section id="a-decade-later" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="a-decade-later"><span class="header-section-number">7.2</span> A Decade Later</h2>
+<p>It is 2026 — five years past Hinton’s deadline, at the edge of his “might be ten.” The coyote looked down.</p>
+<ul>
+<li>The United States has a radiologist <strong>shortage</strong>, with imaging volumes growing faster than the workforce; radiology residencies fill as competitively as ever.</li>
+<li>AI is genuinely everywhere in the reading room — as a <strong>second reader</strong>, a triage tool flagging urgent scans, a measurement assistant. Authorized devices number in the hundreds.</li>
+<li>What failed wasn’t the technology. It was the <strong>verb</strong>: AI turned out to <em>assist</em> the people it was supposed to <em>replace</em>.</li>
+</ul>
+<p>The prediction failed in the most instructive way possible: the capability largely arrived, and the replacement didn’t.</p>
+</section>
+<section id="youve-seen-this-movie" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="youve-seen-this-movie"><span class="header-section-number">7.3</span> You’ve Seen This Movie</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><strong>The genome, 1999</strong></p>
+<p>When we studied genomics, you met Francis Collins’ prediction: by 2010, cheek-swab risk prediction and individualized prescribing would be routine. The science was real. The timeline and the simplicity were not.</p>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<p><strong>The radiologist, 2016</strong></p>
+<p>Same shape: a real breakthrough, a compressed timeline, and the hard parts skipped — validation, deployment, drift, liability, and tired humans at 3 a.m.</p>
+</div>
+</div>
+<p>The recurring formula: <strong>genuine capability + skipped deployment problems = confident, wrong prediction.</strong> Learn the shape and you can grade the next decade’s promises yourself.</p>
+</section>
+<section id="make-it-contemporary-1" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="make-it-contemporary-1"><span class="header-section-number">7.4</span> Make It Contemporary</h2>
+<div class="thought-question">
+<p>Three claims you can read in this morning’s health-care press:</p>
+<ol type="1">
+<li><strong>Ambient AI scribes</strong> — software that listens to the visit and drafts the note — are already in most large health systems, with studies reporting less documentation burnout.</li>
+<li>The FDA began clearing <strong>foundation-model devices</strong> in 2025; the agency’s device list now tags products built on large language models.</li>
+<li>Vendors promise AI will “give clinicians their evenings back” and fix the burnout crisis.</li>
+</ol>
+<p>For each claim: is this a <em>capability</em> claim or a <em>deployment</em> claim? What would you need to see — whose validation, on whose patients, measuring what — before you believed it? Which one is a Hinton?</p>
+</div>
+</section>
+<section id="after-youve-discussed-3" class="level2" data-number="7.5">
+<h2 data-number="7.5" class="anchored" data-anchor-id="after-youve-discussed-3"><span class="header-section-number">7.5</span> After You’ve Discussed</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The grading key is a distinction this lecture has been circling all along: <strong>capability versus deployment</strong>. Capability is what a model can do on a benchmark, in a paper, at a demo. Deployment is what survives contact with real workflows, real incentives, real liability, and real exhaustion.</p>
+<p>Every case today — the ink markings, the cost proxy, the alert flood — was a deployment failure wrapped around a genuine capability. Deployment is where the ethics lives. And deployment questions — <em>should the patient be told? who answers when it’s wrong?</em> — are exactly where Part B begins.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="where-this-leaves-us" class="level1 section-divider" data-number="8">
+<h1 class="section-divider" data-number="8"><span class="header-section-number">8</span> Where This Leaves Us</h1>
+<section id="mini-recap" class="level2" data-number="8.1">
+<h2 data-number="8.1" class="anchored" data-anchor-id="mini-recap"><span class="header-section-number">8.1</span> Mini-Recap</h2>
+<div class="recap">
+<p>One question organized everything: <strong>what was the model actually trained to do, and is that what we’re using it for?</strong> Supervised learning makes the <em>label</em> the boss, so the model learns proxies, shortcuts, and history along with the medicine. The three kinds of medical AI fail in signature ways — diagnostic models meet <strong>distribution shift</strong>, predictive models inherit <strong>proxy labels</strong> and drown floors in <strong>alerts</strong>, and generative models produce answers that are <strong>fluent and wrong at once</strong>. The cost algorithm and the Epic Sepsis Model showed the gap at national scale — and showed that the fixes (ask what the label was, demand external validation) are real.</p>
+<p>But every fix we found required someone who could <strong>explain the system</strong> — and increasingly, no one fully can. What does consent mean when the recommendation comes from a black box? Who answers when it’s wrong? That is Part B.</p>
+</div>
+</section>
+<section id="review-questions" class="level2" data-number="8.2">
+<h2 data-number="8.2" class="anchored" data-anchor-id="review-questions"><span class="header-section-number">8.2</span> Review Questions</h2>
+<div class="review-questions">
+<div class="review-item review-recall">
+<p><span class="review-label">Recall</span></p>
+<p>Name the three kinds of medical AI and each one’s signature failure mode. Then explain, using the skin-app case, why “the label is the boss” — what did that model’s label actually contain besides disease?</p>
+</div>
+<div class="review-item review-apply">
+<p><span class="review-label">Apply</span></p>
+<p>A vendor offers your nursing home a <strong>fall-risk model</strong> trained at two large urban academic hospitals, using “documented fall in the chart” as its label. Using the pipeline’s three failure points, predict two specific ways this model could go wrong in your facility — and say what you’d demand before deployment.</p>
+</div>
+<div class="review-item review-debate">
+<p><span class="review-label">Debate</span></p>
+<p>Should hospitals be prohibited from deploying clinical AI that has never passed <strong>independent external validation</strong> — even though no such rule applies to many other hospital tools, and waiting may cost lives a working model could have saved? Defend your answer with one case from this lecture.</p>
+</div>
+</div>
+</section>
+<section id="key-terms" class="level2" data-number="8.3">
+<h2 data-number="8.3" class="anchored" data-anchor-id="key-terms"><span class="header-section-number">8.3</span> Key Terms</h2>
+<ul>
+<li><strong>Supervised learning</strong> — training a model on examples that come with the answers (labels) attached.</li>
+<li><strong>Features / labels</strong> — the measurable inputs of each example / the “right answer” the model learns to predict.</li>
+<li><strong>Proxy variable</strong> — a measurable stand-in (cost, billing codes) for the thing you actually want (sickness).</li>
+<li><strong>Distribution shift</strong> — deployment in a world that no longer resembles the training data.</li>
+<li><strong>Deployment drift</strong> — performance decay as the world changes under a frozen model.</li>
+<li><strong>Hallucination</strong> — generated content that is fluent, specific, and false.</li>
+<li><strong>Sycophancy</strong> — a model’s learned tendency to agree with the user, even against a correct answer.</li>
+<li><strong>External validation</strong> — independent testing on new patients, by someone other than the maker.</li>
+<li><strong>Positive predictive value (PPV)</strong> — of all alerts fired, the fraction that were right.</li>
+<li><strong>Alert fatigue</strong> — the rational habit of ignoring alarms that are usually false, which buries the true one.</li>
+</ul>
+</section>
+<section id="further-reading" class="level2" data-number="8.4">
+<h2 data-number="8.4" class="anchored" data-anchor-id="further-reading"><span class="header-section-number">8.4</span> Further Reading</h2>
+<ul>
+<li>Topol, Eric. <em>Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again.</em> Basic Books, 2019. (The optimistic case, by a cardiologist who takes the failures seriously.)</li>
+<li>Mukherjee, Siddhartha. “A.I. Versus M.D.” <em>The New Yorker</em>, April 3, 2017.</li>
+<li>O’Neil, Cathy. <em>Weapons of Math Destruction.</em> Crown, 2016. (Proxy variables and opaque scoring, well beyond medicine.)</li>
+</ul>
+</section>
+<section id="references" class="level2" data-number="8.5">
+<h2 data-number="8.5" class="anchored" data-anchor-id="references"><span class="header-section-number">8.5</span> References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-eichenberger2025" class="csl-entry" role="listitem">
+Eichenberger, Audrey, Stephen Thielke, and Adam Van Buskirk. 2025. <span>“A Case of Bromism Influenced by Use of Artificial Intelligence.”</span> <em>Annals of Internal Medicine: Clinical Cases</em> 4 (8). <a href="https://doi.org/10.7326/aimcc.2024.1260">https://doi.org/10.7326/aimcc.2024.1260</a>.
+</div>
+<div id="ref-obermeyer2019" class="csl-entry" role="listitem">
+Obermeyer, Ziad, Brian Powers, Christine Vogeli, and Sendhil Mullainathan. 2019. <span>“Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations.”</span> <em>Science</em> 366 (6464): 447–53. <a href="https://doi.org/10.1126/science.aax2342">https://doi.org/10.1126/science.aax2342</a>.
+</div>
+<div id="ref-winkler2019" class="csl-entry" role="listitem">
+Winkler, Julia K., Christine Fink, Ferdinand Toberer, et al. 2019. <span>“Association Between Surgical Skin Markings in Dermoscopic Images and Diagnostic Performance of a Deep Learning Convolutional Neural Network for Melanoma Recognition.”</span> <em>JAMA Dermatology</em> 155 (10): 1135–41. <a href="https://doi.org/10.1001/jamadermatol.2019.1735">https://doi.org/10.1001/jamadermatol.2019.1735</a>.
+</div>
+<div id="ref-wong2026" class="csl-entry" role="listitem">
+<span class="nocase">Wong, Andrew, Danielle Currey, Megan Schwinne, et al.</span> 2026. <span>“Multicenter Prospective Validation of an Updated Proprietary Sepsis Prediction Model.”</span> <em>JAMA Network Open</em> 9 (2): e260181. <a href="https://doi.org/10.1001/jamanetworkopen.2026.0181">https://doi.org/10.1001/jamanetworkopen.2026.0181</a>.
+</div>
+<div id="ref-wong2021" class="csl-entry" role="listitem">
+Wong, Andrew, Erkin Otles, John P. Donnelly, et al. 2021. <span>“External Validation of a Widely Implemented Proprietary Sepsis Prediction Model in Hospitalized Patients.”</span> <em>JAMA Internal Medicine</em> 181 (8): 1065–70. <a href="https://doi.org/10.1001/jamainternmed.2021.2626">https://doi.org/10.1001/jamainternmed.2021.2626</a>.
+</div>
+</div>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
+            // default icon
+            link.classList.add("external");
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><a href="https://creativecommons.org/licenses/by-nc/4.0/"><img src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" class="img-fluid" alt="CC BY-NC 4.0"></a> Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Brendan Shea</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
