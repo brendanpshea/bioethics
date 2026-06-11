@@ -1,6 +1,6 @@
 import textstat, re, sys, os, glob
 
-files = sorted(glob.glob("cases/0*.qmd"))
+files = sorted(glob.glob("cases/[0-9]*.qmd"))
 for f in files:
     with open(f, encoding="utf-8") as fp:
         raw = fp.read()

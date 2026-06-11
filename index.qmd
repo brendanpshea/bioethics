@@ -58,6 +58,7 @@ We offer comprehensive historical and clinical case studies to pair with specifi
 | 7 | **Noelia Castillo:** Psychiatric Suffering, Decisional Capacity, and the Limits of Euthanasia Law | [L7B: Euthanasia & Assisted Death](chapters/07b-euthanasia.html) | [HTML](cases/07-noelia-castillo.html) / [DOCX](cases/07-noelia-castillo.docx) |
 | 8 | **Singapore's Health Care System:** Cost, Access, Outcomes, and What the US Can (and Can't) Learn | [L8B: Why US Health Care Costs So Much](chapters/08b-us-healthcare.html) | [HTML](cases/08-singapore-healthcare.html) / [DOCX](cases/08-singapore-healthcare.docx) |
 | 9 | **Andrew Wakefield & the MMR-Autism Myth:** Misinformation, Vaccine Hesitancy, and Public Trust | [L9B: False Beliefs & the Ethics of Correction](chapters/09b-public-health-beliefs.html) | [HTML](cases/09-wakefield-mmr.html) / [DOCX](cases/09-wakefield-mmr.docx) |
+| 10 | **The Optum Algorithm:** Racial Bias, Proxy Variables, and Justice in Medical AI | [L10A: How Medical AI Works](chapters/10a-medical-ai.html) | [HTML](cases/10-optum-algorithm.html) / [DOCX](cases/10-optum-algorithm.docx) |
 
 
 ---

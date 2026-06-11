@@ -329,7 +329,7 @@ The study landed in *Science* in October 2019, and the response was fast.
 
 - New York's financial-services and health regulators opened an **investigation** within weeks, warning insurers statewide.
 - The researchers worked *with* the manufacturer rather than just naming and shaming — retraining on a label closer to actual health knocked out roughly **84% of the measured bias**. The fix was that available, once someone looked.
-- The paired case study for this lecture tells the fuller story: how the access was negotiated, and what "fixing the label" required.
+> **Paired case:** [The Optum Algorithm: Racial Bias, Proxy Variables, and Justice in Medical AI](../cases/10-optum-algorithm.qmd)
 
 ::: {.notes}
 Obermeyer's team never names the product in the paper; press coverage identified it as Optum's Impact Pro. Worth saying aloud so students don't over-cite the paper for the company name. Also worth stressing the constructive ending — this is the field's best example of a bias being found, measured, and substantially repaired.
