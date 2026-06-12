@@ -19,7 +19,7 @@ format:
 
 In Part A every hard case was about whether to **let** dying happen — to stop or withhold treatment for a patient who could no longer decide. We ended on a puzzle: the law treats **withholding** and **withdrawing** treatment as the same, yet many caregivers feel that stopping a machine *causes* the death in a way that never starting it does not.
 
-Part B walks straight into that feeling. We now ask about a related act: not letting a patient die, but **actively helping** them die — on their own clear request. This is where medicine, law, and philosophy disagree most deeply.
+Part B takes up a related act: not letting a patient die, but **actively helping** them die — on their own clear request. This is where medicine, law, and philosophy disagree most deeply.
 
 ## A Case to Sit With
 
@@ -38,7 +38,7 @@ She and her husband moved from California to Oregon, one of the few states where
 ## After You've Discussed
 
 ::: {.callout-note}
-Notice how Brittany's case differs from Nancy Cruzan's in Part A.
+Brittany's case differs from Nancy Cruzan's in Part A.
 
 - Cruzan **could not speak** for herself; others decided whether to *let* her die.
 - Maynard was **fully competent** and decided for herself; she asked for help to *actively* end her life.
@@ -71,7 +71,7 @@ Three distinctions do all the work:
 - **Voluntary vs. non-voluntary vs. involuntary** — *who* wanted it.
 - **Assisted death vs. euthanasia** — *who performs the final act.*
 
-Get these straight and most of the confusion disappears.
+These three distinctions resolve most of the confusion before the ethics even starts.
 
 ## The Concept Map
 
@@ -111,7 +111,7 @@ Most clinicians and courts insist that **stopping treatment is not the same as k
 - When a ventilator is withdrawn and the patient dies, the standard view says the *disease* kills her; the doctor merely steps out of the way.
 - When a doctor injects a lethal drug, the *doctor* kills her.
 
-On this view, a patient has a strong right to refuse treatment (so passive euthanasia is permissible), but no one has a right to be killed (so active euthanasia is not). This is the claim Rachels will attack.
+On this view, a patient has a strong right to refuse treatment (so passive euthanasia is permissible), but no one has a right to be killed (so active euthanasia is not). Rachels attacks exactly this claim.
 
 ## Assisted Death vs. Euthanasia
 
@@ -230,7 +230,7 @@ Rachels and Foot agree the *bare* act-type is morally inert. They split on wheth
 | What does the real work? | Consequences, motive, consent | Negative vs. positive duties |
 | Implication for euthanasia | Removes a key objection | Leaves a principled brake |
 
-The debate does not end here — it *relocates*. If the line between active and passive is not bedrock, the next question is whether the values underneath it actually *support* assisted death.
+If the line between active and passive is not bedrock, the next question is whether the values underneath it actually *support* assisted death.
 
 # If the Line Blurs, Should We Permit It? {.section-divider}
 
@@ -352,7 +352,7 @@ Velleman's argument is easy to misread, so be exact.
 - He is **not** claiming euthanasia is intrinsically wrong, or that no one should ever have it.
 - He argues that a **general right or public policy** is dangerous, because the option's mere existence reshapes the pressures on the vulnerable.
 
-This is why his view cuts across the usual lines: a secular philosopher, granting that death can be a benefit, still resisting a *right* to it. It also sets up the critics who say the vulnerable are not hypothetical.
+His view cuts across the usual lines: a secular philosopher, granting that death can be a benefit, still resisting a *right* to it. The disability-rights critics go further — for them, the vulnerable are not hypothetical.
 :::
 
 ## The Disability-Rights Critique
@@ -388,7 +388,7 @@ The critics converge on three concrete risks that safeguards must answer.
 - **The "duty to die"** — once dying is an option, the dependent may feel obligated to take it (Velleman's worry, lived).
 - **Access disparities** — those with the *least* social support may find death the most *available* form of "care," while the well-resourced get treatment.
 
-These are empirical questions. Which is why both sides now argue about **data** — and we turn to it after one more conceptual tool.
+These are empirical questions, which is why both sides now argue about **data** — taken up after one more conceptual tool.
 
 # Double Effect and Palliative Sedation {.section-divider}
 
@@ -512,12 +512,12 @@ Safeguards checked whether she *qualified*, not *why* she got there: lost home, 
 :::
 ::::
 
-The paired case study works this through in full. It is the live form of every argument in this lecture.
+The paired case study works this through in full.
 
 ## Canada Hits the Brakes
 
 ::: {.context-box}
-**A pause worth noticing**
+**Canada's pause**
 
 Canada planned to extend MAID to people whose **sole** underlying condition is a **mental illness**. The start date was set for March 2023 — then delayed to 2024 — then delayed again to **March 2027**.
 

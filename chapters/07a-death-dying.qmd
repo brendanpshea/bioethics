@@ -60,7 +60,7 @@ The everyday words for this topic are loaded. "Vegetable," "life support," and "
 - We will use the clinical terms — *vegetative state*, *mechanical ventilation*, *withdrawing treatment* — not because they are colder, but because they are **more precise**.
 - Precision matters here because the words decide real outcomes. Whether a body counts as a *living patient* or a *dead body* changes who may touch it, who may stop, and who may grieve.
 
-Watch your own reactions to the vocabulary today. They are often where the ethics is hiding.
+The vocabulary is often where the ethics is hiding.
 
 # Question One: Is the Person Gone? {.section-divider}
 
@@ -74,7 +74,7 @@ Consciousness has two parts, and they can come apart.
 - **Arousal** is wakefulness — eyes open, sleep-wake cycles. It is run by the brainstem.
 - **Awareness** is *content* — actually experiencing something, recognizing a face, feeling pain as pain. It depends on the cortex.
 
-A patient can be **aroused but not aware** (eyes open, no one home). This is exactly the combination that makes end-of-life cases so hard, and it is why "unconscious" is too blunt a word for what we are about to describe.
+A patient can be **aroused but not aware** (eyes open, no one home). That combination is what makes end-of-life cases so hard, and why "unconscious" is too blunt a word for these states.
 :::
 
 ## The Spectrum of Consciousness
@@ -95,7 +95,7 @@ digraph G {
 }
 ```
 
-These are not stops on a single dial. Locked-in patients are *fully* aware — they sit off to the side as a warning about how wrong our guesses can be.
+These are not stops on a single dial. Locked-in patients are *fully* aware, off on their own axis — proof of how wrong a bedside guess can be.
 
 ## Coma
 
@@ -142,7 +142,7 @@ The patient is fully awake and aware — thinking, feeling, hearing every word s
 ::: {.context-box}
 **Why it belongs here**
 
-Locked-in patients have been mistaken for vegetative for months. The lesson is humbling: from the outside, a fully conscious person and an unaware one can look the same. Our confidence about "no one is home" should always carry a margin of doubt.
+Locked-in patients have been mistaken for vegetative for months. From the outside, a fully conscious person and an unaware one can look the same — so any confidence about "no one is home" should carry a margin of doubt.
 :::
 :::
 ::::
@@ -207,7 +207,7 @@ Death is the irreversible loss of the brain's role as the body's integrator. It 
 :::
 ::::
 
-We will not settle this. Notice only that the legal line and the philosophical question do not perfectly match.
+The legal line and the philosophical question do not perfectly match — the law fixes a usable boundary where the metaphysics stays open.
 
 ## Make It Contemporary
 
@@ -237,7 +237,7 @@ The Adriana Smith case is a collision of three bodies of law that rarely meet.
 ## After You've Discussed
 
 ::: {.callout-note}
-The Smith case forces a distinction we have been circling.
+The Smith case turns on a distinction worth stating outright.
 
 - **Being dead** is a fact about the body — Adriana met the legal definition of death.
 - **Being allowed to die** is a *decision* about a still-living patient — the question Nancy Cruzan's family faced.
@@ -253,7 +253,7 @@ A competent adult may accept or refuse any treatment, including life-sustaining 
 
 - Capacity is decision-specific: it is the ability to understand the choice, weigh it, and communicate it.
 - When capacity is gone and cannot be regained in time, the decision must pass to someone else.
-- The rest of this lecture is about *who* that someone is, and *how* they are supposed to decide.
+- The question then is *who* that someone is, and *how* they are supposed to decide.
 
 ## The Surrogate Hierarchy
 
@@ -422,7 +422,7 @@ Advance directives are powerful, but they are not a solution to everything.
 - Many are **too vague** ("no heroic measures") to guide a concrete decision.
 - And a family that **disagrees** can stall or override even a clear document at the bedside.
 
-These gaps are exactly the soil in which the worst conflicts grow.
+These gaps are where the worst end-of-life conflicts begin.
 
 ## Thought Question
 
@@ -455,7 +455,7 @@ A distinction clinicians feel even though the law treats the two alike:
 - **Withholding** treatment is never starting it (not placing the feeding tube).
 - **Withdrawing** treatment is stopping something already running (removing the tube).
 
-Ethically and legally, these are considered **equivalent** — if it is permissible not to start, it is permissible to stop. But many caregivers feel withdrawing is far harder, as if it *causes* the death. Hold onto that gap between law and feeling. It is the hinge of everything in Part B.
+Ethically and legally, these are considered **equivalent** — if it is permissible not to start, it is permissible to stop. But many caregivers feel withdrawing is far harder, as if it *causes* the death. That gap between law and feeling is where Part B begins.
 :::
 
 # When the Tools Aren't Enough: Schiavo {.section-divider}
@@ -524,7 +524,7 @@ Every tool in this lecture exists to keep an ordinary tragedy from becoming a Sc
 ::: {.recap}
 We took two questions in turn. *Is the person gone?* led us through coma, vegetative and minimally conscious states, and the whole-brain definition of death. *Who decides?* led us through the surrogate hierarchy, substituted judgment versus best interest, and the documents — living wills, durable powers of attorney, and POLST — that Cruzan made essential.
 
-Notice what every case so far had in common: the question was whether to **let** the dying happen — to stop or withhold treatment. In Part B we cross a sharper line: not letting die, but **actively ending** a life on request. The same patient, the same suffering — but a question that divides medicine far more deeply.
+Every case so far shared one feature: the question was whether to **let** the dying happen — to stop or withhold treatment. Part B crosses a sharper line: not letting die, but **actively ending** a life on request. The same patient, the same suffering — but a question that divides medicine far more deeply.
 :::
 
 ## Review Questions
