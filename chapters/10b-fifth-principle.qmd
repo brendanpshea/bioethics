@@ -124,7 +124,7 @@ Each case today gets scored against the five principles. First up: the unannounc
 | Justice | who gets the careful review — the 9 a.m. or the 5 p.m. patient? | ⚖️ |
 | **Explicability** | nobody told you; no one can fully audit the draft's source | **❌** |
 
-Watch the bottom row as the cases accumulate. That's the lecture's argument, in a table.
+As the cases accumulate, the bottom row — explicability — keeps failing first.
 
 # Intelligibility: Consent with AI in the Loop {.section-divider}
 
@@ -181,7 +181,7 @@ The hardest version of the question: can consent be **valid** when *no one* — 
 - **One answer: no.** Autonomy means deciding for reasons; a recommendation without conveyable reasons can be *accepted*, but not really *consented to*. Explanation is non-negotiable.
 - **The other: yes.** Medicine has always run on validated-but-unexplained treatments — lithium stabilized mood for decades before anyone knew why, and nobody called those prescriptions unconsented. What matters is the **track record**, not the mechanism: *we don't know how it works, but we know that it works — on patients like you.*
 
-This dispute does not resolve. Notice what the second answer quietly requires, though: the track record must exist — which is Part A's external validation, wearing consent's clothes.
+This dispute does not resolve. But the second answer quietly requires that the track record *exist* — external validation again, now wearing consent's clothes.
 
 ## Thought Question
 
@@ -230,7 +230,7 @@ Explicability's second half: **who is responsible for the way it works?** With A
 | **Vendor** | product liability — defective design | almost entirely untested in court; contracts and trade secrets shield it |
 | **Regulator** | cleared it for market | can't be sued; clearance ≠ a guarantee, though juries hear it as one |
 
-Read the right-hand column twice. Every row's framing **trains someone to behave differently** — and right now, most of the training lands on the clinician.
+The right-hand column matters most: every row's framing **trains someone to behave differently** — and right now, most of the training lands on the clinician.
 
 ## The Standard-of-Care Trap
 
@@ -250,7 +250,7 @@ The vendor — the party with the *most* knowledge of the model's failure modes 
 - **Contract terms**: hospitals sign indemnification clauses and accept "as-is" performance language that patients never see.
 - **Trade secrecy**: the very opacity that creates the risk also frustrates the lawsuit — you can't depose a weight matrix.
 
-Sit with the asymmetry: knowledge and exposure point in opposite directions. That is an accountability architecture, and somebody chose it.
+Knowledge and exposure point in opposite directions. That is an accountability architecture, and somebody chose it.
 
 ## The Regulatory Map
 
@@ -312,7 +312,7 @@ Before the harms, the honest case *for* — because any critique that skips it i
 - The chatbot is **free, anonymous, infinitely patient, and awake at 3 a.m.** — which is when the crisis is.
 - People report real comfort, and for some, it's the first time they've told *anyone*.
 
-The alternative to the chatbot, for millions, is not a therapist. It is **nobody**. Hold that fact and the next four slides at the same time.
+The alternative to the chatbot, for millions, is not a therapist. It is **nobody**. Any honest accounting of the harms has to keep that fact on the table.
 
 ## Two Very Different Machines
 
@@ -348,8 +348,6 @@ The harms reached courtrooms fast, and the legal theory matters more than the he
 - Families of teenagers who died by suicide after months-long chatbot relationships filed **wrongful-death suits** against Character.AI and OpenAI beginning in 2024–25.
 - In **January 2026**, Character.AI and Google **settled** the leading cases, including the first-filed Garcia suit; cases against OpenAI continue [@cnn_characterai_2026].
 - The core allegation is not "the bot said a wrong thing." It is **design defect**: that engagement-maximizing systems *engineered the attachment itself* — the isolation, the dependency — and that the harm flowed from the design working as intended.
-
-Mark that theory. It returns on the last slide of this section.
 
 ## The Illinois Ban
 
@@ -405,7 +403,7 @@ Now look back at the regulation. Disclaimers, disclosure rules, fact-checking st
 
 ## Why Your Chatbot Conversation Isn't a Medical Record
 
-Students are often shocked by this slide. **HIPAA does not protect health information. It protects health information *held by certain entities*** — providers, insurers, and their contractors.
+**HIPAA does not protect health information. It protects health information *held by certain entities*** — providers, insurers, and their contractors.
 
 - A consumer chatbot is none of those. What you type into it has, legally, roughly the protection of a social-media post: the company's own privacy policy, **changeable at will** and enforceable mostly by embarrassment.
 - The conversations people have with companion bots — suicidality, addiction, abuse — are *exactly* the disclosures HIPAA was built to guard.
@@ -485,7 +483,7 @@ Either way, the duty explicability adds: **be able to say afterward which questi
 | **Chatbot therapist** | ⚖️ | ❌ | ⚖️ | ❌ | **❌** |
 | **The privacy cases** | ⚖️ | ❌ | ⚖️ | ❌ | **❌** |
 
-Read down the columns: the four classic principles strain *case by case*. Read the last column: **explicability is load-bearing in every row**. That is Floridi's argument, made by the evidence — it's not a footnote to the four principles. It's what keeps them standing.
+Down the columns, the four classic principles strain *case by case*. In the last column, **explicability fails in every row**. That is Floridi's argument, made concrete: explicability is not a footnote to the four principles — it is what keeps them standing.
 
 # Where This Leaves Us {.section-divider}
 

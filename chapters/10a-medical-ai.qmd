@@ -63,7 +63,7 @@ For decades, programmers tried to build medical software the obvious way: interv
 
 ## Training Data, Features, Labels
 
-Three terms explain almost everything that follows. In [supervised learning]{.key-term}, the system learns from examples that come with the answers attached.
+Three terms carry the whole subject. In [supervised learning]{.key-term}, the system learns from examples that come with the answers attached.
 
 | Term | What it means | In the skin app |
 |---|---|---|
@@ -115,7 +115,7 @@ digraph pipeline {
 }
 ```
 
-Every case in this lecture fails at one of these three marked points. Keep the diagram in mind — we will keep returning to it.
+Every major failure of medical AI on record traces back to one of these three marked points.
 
 ## The Question to Carry
 
@@ -127,7 +127,7 @@ We will score every system today on the same small card — our version of a run
 | **Used to do** | tell your aunt whether her *mole* is cancer |
 | **The gap** | the photographer's worry — ink, rulers, framing — rides along with the disease |
 
-When the trained task and the clinical task match, the model can be genuinely excellent. When they quietly diverge, you get the rest of this lecture.
+When the trained task and the clinical task match, the model can be genuinely excellent. When they quietly diverge, accurate models start producing harmful care.
 
 ## Why a Stanford Model Stumbles in Rural Minnesota
 
@@ -225,7 +225,7 @@ The answer he got was fluent, specific, and responsive to exactly the question h
 ## After You've Discussed
 
 ::: {.callout-note}
-Here is a distinction the slides above never stated: **verification asymmetry**. A true generated answer and a hallucinated one are *indistinguishable on the screen* — same fluency, same confidence, same formatting. Only checking against the world tells them apart, and the checking takes expertise the asker usually lacks (that's why they asked).
+The scenario turns on **verification asymmetry**. A true generated answer and a hallucinated one are *indistinguishable on the screen* — same fluency, same confidence, same formatting. Only checking against the world tells them apart, and the checking takes expertise the asker usually lacks (that's why they asked).
 
 Human expertise carries external credentials — a license, a pharmacist behind a counter, malpractice exposure. Generated text carries only its own voice. The bromism patient's error wasn't trusting a wrong answer; it was treating *fluency* as if it were a credential.
 :::
@@ -267,8 +267,6 @@ Often the thing you actually care about — *how sick is this patient?* — **is
 - A [proxy variable]{.key-term} is exactly that stand-in — and the model becomes superb at predicting the proxy, *including everything unjust baked into it*.
 - If less was historically spent on some patients' care, a cost-trained model reads those patients as healthier. No one has to intend this. The arithmetic does it.
 
-Hold that thought. It is about to cost real patients real care.
-
 ## Drift: The World Moves On
 
 A trained model is **frozen** — a photograph of the world as it looked in its training data, asked to govern the present.
@@ -283,7 +281,7 @@ A trained model is **frozen** — a photograph of the world as it looked in its 
 
 This case begins with a genuinely good idea, and it matters that you see that. **Care-management programs** give the sickest patients extra support — care coordinators, home visits, help managing five prescriptions at once. They work, and slots are scarce.
 
-An insurer with millions of members cannot hand-pick who needs help most. So health systems bought an algorithm to rank patients by future health need — one of a class of tools applied to roughly **200 million Americans a year**. Nothing about the goal was sinister. Watch what one design choice did.
+An insurer with millions of members cannot hand-pick who needs help most. So health systems bought an algorithm to rank patients by future health need — one of a class of tools applied to roughly **200 million Americans a year**. Nothing about the goal was sinister; a single design choice undid it.
 
 ## The Fatal Design Choice
 
@@ -350,7 +348,7 @@ You are the nursing representative on your hospital's **purchasing committee**. 
 ::: {.callout-note}
 The committee scenario turns on a distinction we haven't named: **internal versus external validation**. Internal validation is the vendor grading its own homework — its model, its data, its chosen yardstick. External validation is an independent test, on *your* patients, against an outcome *you* care about.
 
-"92% accurate" is an internal number until proven otherwise. The Obermeyer study was external validation in action — and the case you're about to see is what happens when a tool used on millions of patients goes years without any.
+"92% accurate" is an internal number until proven otherwise. The Obermeyer study was external validation in action — and the Epic Sepsis Model is what happens when a tool used on millions of patients goes years without any.
 :::
 
 # The Epic Sepsis Model, in Two Acts {.section-divider}
@@ -485,7 +483,7 @@ For each claim: is this a *capability* claim or a *deployment* claim? What would
 ## After You've Discussed
 
 ::: {.callout-note}
-The grading key is a distinction this lecture has been circling all along: **capability versus deployment**. Capability is what a model can do on a benchmark, in a paper, at a demo. Deployment is what survives contact with real workflows, real incentives, real liability, and real exhaustion.
+The grading key is the distinction between **capability and deployment**. Capability is what a model can do on a benchmark, in a paper, at a demo. Deployment is what survives contact with real workflows, real incentives, real liability, and real exhaustion.
 
 Every case today — the ink markings, the cost proxy, the alert flood — was a deployment failure wrapped around a genuine capability. Deployment is where the ethics lives. And deployment questions — *should the patient be told? who answers when it's wrong?* — are exactly where Part B begins.
 :::

@@ -40,6 +40,7 @@ All materials are freely available for non-commercial educational use under a [C
 | 9B | Public Health Ethics | False Beliefs and the Ethics of Correction | [Slides](chapters/09b-public-health-beliefs-slides.html) | [Notes](chapters/09b-public-health-beliefs.html) |
 | 10A | AI in Medicine | How Medical AI Works and Where It Goes Wrong | [Slides](chapters/10a-medical-ai-slides.html) | [Notes](chapters/10a-medical-ai.html) |
 | 10B | AI in Medicine | The Fifth Principle: Consent, Accountability, and Black Boxes | [Slides](chapters/10b-fifth-principle-slides.html) | [Notes](chapters/10b-fifth-principle.html) |
+| 11A | Gender, Identity & Disability | Gender-Affirming Care: Deciding Under Uncertainty | [Slides](chapters/11a-gender-affirming-care-slides.html) | [Notes](chapters/11a-gender-affirming-care.html) |
 
 ---
 

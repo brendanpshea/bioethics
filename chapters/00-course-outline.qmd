@@ -38,7 +38,7 @@ By the end of the course, students will be able to:
 | 8 | Justice & Health Care Allocation | Theories of justice; right to care | Disparities, implicit bias, rationing |
 | 9 | Public Health Ethics | Vaccination, liberty vs. welfare | Pandemic triage; COVID lessons |
 | 10 | AI in Medicine | How medical AI works and fails | The fifth principle: explicability, consent, liability |
-| 11 | Gender, Identity & Disability | Gender-affirming care; Cass Review | Disability ethics; body integrity |
+| 11 | Gender, Identity & Disability | Gender-affirming care: deciding under uncertainty | Disability ethics; mere vs. bad difference |
 | 12 | Animal Ethics | Moral status; animal research | Factory farming; xenotransplantation |
 
 ## Lecture-Level Learning Outcomes
@@ -476,34 +476,49 @@ The lecture's question: if giving people the facts doesn't fix false medical bel
 
 ## L11. Gender, Identity & Disability
 
-### L11a. Gender-Affirming Care: Adults, Adolescents, and the Evidence Debate
+### L11a. Gender-Affirming Care: Deciding Under Uncertainty
 
-- A vocabulary primer: sex, gender identity, gender dysphoria — defined neutrally and clinically.
-- The current standard pathways for **adult** gender-affirming care (WPATH Standards of Care 8, basics only).
-- Pediatric and adolescent care: what's offered, when, with what assessments and safeguards.
-- The **Cass Review** (UK, 2024): what it concluded, what it changed in NHS practice, and the contested reception of its evidentiary standards.
-- Parental authority, adolescent assent, and clinical gatekeeping — applying ideas from L2 in a contested area.
+*Spine:* one question carries the lecture — **what should medicine, families, and the state each do when the evidence is genuinely low-certainty and the stakes are high in both directions?** The crucial analytical move, taught early and applied throughout: **low-certainty evidence does not automatically favor either side.** Precaution arguments ("no irreversible treatment without strong evidence") and access arguments ("no withholding possibly life-saving treatment without strong evidence of harm") both claim the same evidence base. This makes 11a the capstone of the course's epistemology thread (evidence quality and equipoise from research ethics; adolescent partial autonomy from paternalism; dueling authorities and trust-the-process from public health).
+
+- A vocabulary primer: sex, gender identity, gender dysphoria (DSM-5-TR) — defined neutrally and clinically.
+- What care actually involves, by age and reversibility: social transition → puberty blockers → hormones → (rarely, for minors) surgery; what's offered, when, with what assessments. Adult care framed briefly as the less-contested baseline.
+- **The evidence debate, mapped fairly.** What the systematic reviews actually found (low/very-low certainty on key outcomes) and why that finding cuts both ways. **WPATH SOC8** reframed as one contested authority among several, not "the standard, basics only."
+- **The philosophical chain** (named bioethicists, challenge→reply→pro→critic, per course standard): **Giordano** (the foundational pro case — blockers as "time to think," relief of suffering, the open future preserved) → **Ashley** (the anti-gatekeeping radicalization — assessment-heavy models themselves harm; affirmation as default) → **Gorin** (the skeptic's reply, *Hastings Center Report* 2024 — the diagnosis can't bear the weight; evidence doesn't support the affirmative default) → **Priest** (the state-vs-parents move — adolescents' right to transition over parental objection, paired with mature-minor doctrine). Keystone: **Feinberg's open future claimed by both sides** — blockers preserve options vs. the pathway forecloses them. One principle, opposite conclusions: the lecture's spine in philosophical form, with a thinker students already know from genomics and enhancement.
+- **The Cass Review (UK, 2024) and its remarkable aftermath**: what it concluded and changed; the Yale critique and defenders' replies; the **BMA arc** — members force a critical evaluation, the evaluation (May 2026) finds the methodology sound while faulting government implementation — as a trust-the-process exhibit.
+- **The PATHWAYS trial pause (Feb 2026)** as the equipoise lesson: "just run the trial" turns out to be ethically hard — consent, blinding, and community equipoise problems delayed it for years, then MHRA safety concerns paused it before recruitment. NHS England's halt on new 16–17 hormone referrals (March 2026).
+- **Preemptive balance:** Sweden and Finland restricted pediatric care *before* Cass and outside Anglo-American politics.
+- **The legal half, lean** (constitutional toolkit is prior knowledge from the abortion-law lecture): ***U.S. v. Skrmetti* (2025)** — what the 6–3 holding actually was (age/medical-use classification, rational basis), and what it deliberately didn't decide; the 27-state ban map vs. shield states (**Minnesota is a refuge state — where most of our students will practice**); EO 14187 and the post-ruling federal squeeze (CMS, OPM, hospitals dropping care preemptively, pressure moving toward adult care).
+- Parental authority, adolescent assent, mature-minor doctrine, and clinical gatekeeping — the paternalism lecture's machinery applied.
 
 **Visual elements:**
-- *Figure (code-generated):* timeline of care pathways for adults vs. adolescents (typical, illustrative).
-- *Table:* Major positions in the Cass Review debate — supporters' claims, critics' claims, the evidentiary points each emphasizes.
+- *Figure (code-generated):* care pathway by age and reversibility (typical, illustrative), with the contested decision points marked.
+- *Table:* the dueling authorities — AAP/Endocrine Society, Cass Review, HHS 2025 report, European agencies — what each concluded and what evidence standard each invoked.
+- *Table:* precaution argument vs. access argument — same evidence base, opposite defaults, what each risks being wrong about.
 - *Sidebar:* "What is 'gender dysphoria' in DSM-5-TR?"
+- *Case box:* a composite case (a 15-year-old patient, parents disagreeing) with a four-principles analysis. Composite only — no real minors.
 - *Discussion prompt:* "Where should the age line be for irreversible interventions, and who should decide?"
-- *Case box:* A composite case (e.g., a 15-year-old patient, their parents disagreeing) with a four-principles analysis.
+- *Discussion unit (dueling authorities):* "Your patient's parents bring you the HHS report; her physician cites the Endocrine Society. What does a trustworthy process look like here?" — callback to trusting process over authority.
 
 ### L11b. Disability, Identity, and the Limits of Autonomy
 
-- Models of disability: **medical model** vs. **social model** vs. interactional views.
-- **Barnes** ("mere difference" view) vs. **Bognar** and others ("bad difference"): is disability bad in itself or only because of how society is arranged?
-- The **disability-rights critique of selective abortion** (Asch): what it argues, what it doesn't argue.
-- **Body integrity identity disorder (BIID)** / body integrity dysphoria: when patients seek amputation of healthy limbs — what does respect for autonomy require?
-- Applying the **four principles** to cases at the intersection of identity and medicine.
+*Spine:* the **mere-difference vs. bad-difference** dispute runs as the scoreboard through every case — models of disability, selective abortion, deaf embryo selection, body integrity dysphoria — each scored under both views, accumulating to a final grid.
+
+- Models of disability: **medical model** vs. **social model** vs. **Shakespeare's interactional view** (the named "both" position completing the challenge→reply chain).
+- **The disability paradox** (Albrecht & Devlieger 1999) as the lecture's empirical anchor: disabled people self-report quality of life far higher than outsiders — including clinicians — predict. For a nursing audience, the load-bearing fact: *your* quality-of-life predictions are systematically miscalibrated.
+- **Barnes** ("mere difference") vs. **Bognar** and others ("bad difference"): is disability bad in itself or only because of how society is arranged? The disability paradox as Barnes's evidence; Bognar's reply.
+- The **disability-rights critique of selective abortion** (Asch) — paying off the NIPT setup from the genomics lecture: what the expressivist objection argues, and what it doesn't.
+- The deaf-embryo-selection question as the hard case where the two spines cross.
+- **Body integrity dysphoria** (ICD-11 term; formerly BIID): when patients seek amputation of healthy limbs — what does respect for autonomy require? The Robert Smith case (Falkirk, late 1990s) as the real case box.
+- **The analogy question, handled explicitly** (3-slide discussion unit): critics of gender-affirming care argue BID and gender dysphoria are analogous; defenders publish disanalogies (evidence of benefit, nosology, outcomes). Where exactly does the analogy hold, and where does it break? Named argument-mapping, not insinuation.
+- One-line recap callbacks, not retellings: the MAID disability critique (Johnson vs. Singer); Feinberg's open future.
 
 **Visual elements:**
-- *Figure (code-generated):* diagram contrasting medical and social models of disability with a specific example (e.g., wheelchair user + stairs vs. ramp).
+- *Figure (code-generated):* medical vs. social vs. interactional models with one concrete example (wheelchair user + stairs vs. ramp).
 - *Table:* "Mere difference" vs. "bad difference" — what each accepts, rejects, and implies for selection and policy.
-- *Case box:* The BIID debate — a real reported case, briefly.
+- *Scoreboard (recurring):* each case scored under mere-difference and bad-difference readings, accumulating to a final grid.
+- *Case box:* the Robert Smith amputations — facts, the hospital's response, the open question.
 - *Discussion prompt:* "If a deaf couple wants a deaf child via embryo selection, what should the clinic do?"
+- *Discussion unit:* the BID ↔ gender dysphoria analogy — map it, then break it (or defend it).
 - *Image (public domain):* the disability pride flag or relevant historical photograph (verify public domain status before use).
 
 ---
@@ -566,5 +581,5 @@ The lecture's question: if giving people the facts doesn't fix false medical bel
 | 8 | Organ allocation: Sarah Murnaghan & UNOS | L8 Justice |
 | 9 | COVID-19 ventilator triage (NY / Italy) | L9 Public health |
 | 10 | Optum care-management algorithm | L10 AI in medicine |
-| 11 | Bell v. Tavistock | L11 Gender, identity & disability |
+| 11 | *U.S. v. Skrmetti* — gender-affirming care, evidence, and the law | L11 Gender, identity & disability |
 | 12 | David Bennett — first pig-heart xenotransplant | L12 Animal ethics |

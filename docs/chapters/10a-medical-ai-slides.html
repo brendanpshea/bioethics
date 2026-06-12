@@ -235,7 +235,7 @@ Brendan Shea, PhD
 </section>
 <section id="training-data-features-labels" class="slide level2">
 <h2>Training Data, Features, Labels</h2>
-<p>Three terms explain almost everything that follows. In <span class="key-term">supervised learning</span>, the system learns from examples that come with the answers attached.</p>
+<p>Three terms carry the whole subject. In <span class="key-term">supervised learning</span>, the system learns from examples that come with the answers attached.</p>
 <table class="caption-top">
 <colgroup>
 <col style="width: 33%">
@@ -394,7 +394,7 @@ Brendan Shea, PhD
 </div>
 </div>
 </div>
-<p>Every case in this lecture fails at one of these three marked points. Keep the diagram in mind — we will keep returning to it.</p>
+<p>Every major failure of medical AI on record traces back to one of these three marked points.</p>
 </section>
 <section id="the-question-to-carry" class="slide level2">
 <h2>The Question to Carry</h2>
@@ -425,7 +425,7 @@ Brendan Shea, PhD
 </tr>
 </tbody>
 </table>
-<p>When the trained task and the clinical task match, the model can be genuinely excellent. When they quietly diverge, you get the rest of this lecture.</p>
+<p>When the trained task and the clinical task match, the model can be genuinely excellent. When they quietly diverge, accurate models start producing harmful care.</p>
 </section>
 <section id="why-a-stanford-model-stumbles-in-rural-minnesota" class="slide level2">
 <h2>Why a Stanford Model Stumbles in Rural Minnesota</h2>
@@ -584,7 +584,7 @@ Brendan Shea, PhD
 <p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
-<p>Here is a distinction the slides above never stated: <strong>verification asymmetry</strong>. A true generated answer and a hallucinated one are <em>indistinguishable on the screen</em> — same fluency, same confidence, same formatting. Only checking against the world tells them apart, and the checking takes expertise the asker usually lacks (that’s why they asked).</p>
+<p>The scenario turns on <strong>verification asymmetry</strong>. A true generated answer and a hallucinated one are <em>indistinguishable on the screen</em> — same fluency, same confidence, same formatting. Only checking against the world tells them apart, and the checking takes expertise the asker usually lacks (that’s why they asked).</p>
 <p>Human expertise carries external credentials — a license, a pharmacist behind a counter, malpractice exposure. Generated text carries only its own voice. The bromism patient’s error wasn’t trusting a wrong answer; it was treating <em>fluency</em> as if it were a credential.</p>
 </div>
 </div>
@@ -636,7 +636,6 @@ Brendan Shea, PhD
 <li>A <span class="key-term">proxy variable</span> is exactly that stand-in — and the model becomes superb at predicting the proxy, <em>including everything unjust baked into it</em>.</li>
 <li>If less was historically spent on some patients’ care, a cost-trained model reads those patients as healthier. No one has to intend this. The arithmetic does it.</li>
 </ul>
-<p>Hold that thought. It is about to cost real patients real care.</p>
 </section>
 <section id="drift-the-world-moves-on" class="slide level2">
 <h2>Drift: The World Moves On</h2>
@@ -655,7 +654,7 @@ Brendan Shea, PhD
 <section id="a-tool-built-to-help" class="slide level2">
 <h2>A Tool Built to Help</h2>
 <p>This case begins with a genuinely good idea, and it matters that you see that. <strong>Care-management programs</strong> give the sickest patients extra support — care coordinators, home visits, help managing five prescriptions at once. They work, and slots are scarce.</p>
-<p>An insurer with millions of members cannot hand-pick who needs help most. So health systems bought an algorithm to rank patients by future health need — one of a class of tools applied to roughly <strong>200 million Americans a year</strong>. Nothing about the goal was sinister. Watch what one design choice did.</p>
+<p>An insurer with millions of members cannot hand-pick who needs help most. So health systems bought an algorithm to rank patients by future health need — one of a class of tools applied to roughly <strong>200 million Americans a year</strong>. Nothing about the goal was sinister; a single design choice undid it.</p>
 </section>
 <section id="the-fatal-design-choice" class="slide level2">
 <h2>The Fatal Design Choice</h2>
@@ -760,7 +759,7 @@ Brendan Shea, PhD
 </div>
 <div class="callout-content">
 <p>The committee scenario turns on a distinction we haven’t named: <strong>internal versus external validation</strong>. Internal validation is the vendor grading its own homework — its model, its data, its chosen yardstick. External validation is an independent test, on <em>your</em> patients, against an outcome <em>you</em> care about.</p>
-<p>“92% accurate” is an internal number until proven otherwise. The Obermeyer study was external validation in action — and the case you’re about to see is what happens when a tool used on millions of patients goes years without any.</p>
+<p>“92% accurate” is an internal number until proven otherwise. The Obermeyer study was external validation in action — and the Epic Sepsis Model is what happens when a tool used on millions of patients goes years without any.</p>
 </div>
 </div>
 </div>
@@ -968,7 +967,7 @@ Brendan Shea, PhD
 <p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
-<p>The grading key is a distinction this lecture has been circling all along: <strong>capability versus deployment</strong>. Capability is what a model can do on a benchmark, in a paper, at a demo. Deployment is what survives contact with real workflows, real incentives, real liability, and real exhaustion.</p>
+<p>The grading key is the distinction between <strong>capability and deployment</strong>. Capability is what a model can do on a benchmark, in a paper, at a demo. Deployment is what survives contact with real workflows, real incentives, real liability, and real exhaustion.</p>
 <p>Every case today — the ink markings, the cost proxy, the alert flood — was a deployment failure wrapped around a genuine capability. Deployment is where the ethics lives. And deployment questions — <em>should the patient be told? who answers when it’s wrong?</em> — are exactly where Part B begins.</p>
 </div>
 </div>

@@ -94,6 +94,10 @@ website:
             text: "Part A — How Medical AI Works and Where It Goes Wrong"
           - href: chapters/10b-fifth-principle.qmd
             text: "Part B — The Fifth Principle: Consent, Accountability, and Black Boxes"
+      - section: "11. Gender, Identity & Disability"
+        contents:
+          - href: chapters/11a-gender-affirming-care.qmd
+            text: "Part A — Gender-Affirming Care: Deciding Under Uncertainty"
 
   page-footer:
     left: |
