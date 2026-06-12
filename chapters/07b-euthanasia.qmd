@@ -63,7 +63,7 @@ By the end of Part B, you will be able to:
 
 ## Why Vocabulary Comes First
 
-This a topic where people argue past each other because they are using the same words for different acts. Before any ethics, we need a clean map.
+This is a topic where people argue past each other because they are using the same words for different acts. Before any ethics, we need a clean map.
 
 Three distinctions do all the work:
 
@@ -72,28 +72,6 @@ Three distinctions do all the work:
 - **Assisted death vs. euthanasia** — *who performs the final act.*
 
 These three distinctions resolve most of the confusion before the ethics even starts.
-
-## The Concept Map
-
-```{dot}
-//| fig-width: 9
-digraph G {
-  rankdir=TB;
-  node [shape=box, style="rounded,filled", fontname="Helvetica", fillcolor="#eef3f8", fontsize=11];
-  edge [color="#888888"];
-  cause [label="Causing a patient's death", fillcolor="#e8e8e8"];
-  active [label="ACTIVE\n(do something:\nlethal drug)"];
-  passive [label="PASSIVE\n(withhold/withdraw\ntreatment)"];
-  who [label="Whose wish?"];
-  vol [label="Voluntary\n(patient asks)", fillcolor="#eef8ee"];
-  non [label="Non-voluntary\n(patient can't say)"];
-  inv [label="Involuntary\n(against patient's\nwish)", fillcolor="#f8eeee"];
-  cause -> active;
-  cause -> passive;
-  active -> who;
-  who -> vol; who -> non; who -> inv;
-}
-```
 
 ## Active vs. Passive Euthanasia
 
@@ -145,22 +123,14 @@ This line is legally decisive. US states that permit assisted death allow only t
 
 # Does the Distinction Hold? Rachels vs. Foot {.section-divider}
 
-## The View Rachels Attacks
+## Rachels vs. the AMA (1975)
 
-In 1975 the American Medical Association's policy captured the standard view exactly: a doctor may stop "extraordinary means" of prolonging life (passive), but the "intentional termination of the life of one human being by another — mercy killing" (active) is forbidden. [@rachels1975]
+The American Medical Association's 1975 policy captured the standard view exactly: a doctor may stop "extraordinary means" of prolonging life (passive), but "mercy killing" (active) is forbidden — because killing is in itself worse than letting die. [@rachels1975]
 
-The assumption: **passive euthanasia is sometimes permissible, active euthanasia never is** — because killing is in itself worse than letting die.
+James Rachels argued that this position is confused, and often cruel in practice.
 
-James Rachels set out to show that this assumption is confused.
-
-## Rachels' Challenge (1975)
-
-Rachels argues that if we have already decided a patient should die — say, a newborn with a condition so severe that withholding treatment is judged acceptable — then **passive euthanasia is often the *crueler* option.**
-
-- Withholding treatment can mean a slow death over days, by dehydration or infection.
-- A quick lethal injection would cause less suffering.
-
-So if anything, the act we permit (passive) can be *worse* for the patient than the act we forbid (active). Something has gone wrong with the distinction.
+- Once we have decided a patient should die — a newborn whose treatment may permissibly be withheld — *passive* euthanasia can mean a slow death over days, by dehydration or infection.
+- A quick lethal injection would cause less suffering. The act we permit can be *worse* for the patient than the act we forbid.
 
 ## Smith and Jones
 
@@ -173,53 +143,32 @@ So if anything, the act we permit (passive) can be *worse* for the patient than 
 Smith **killed**; Jones merely **let die**. Is Jones any less monstrous? Almost no one thinks so. [@rachels1975]
 :::
 
-## The Bare Difference Argument
+## The Bare Difference — and Its Limits
 
-The Smith and Jones case is built so that *everything* is the same except killing vs. letting die — same motive, same outcome, same intention. Rachels calls what is left the **bare difference**.
+:::: {.columns}
+::: {.column width="52%"}
+The case is built so *everything* is the same except killing vs. letting die — same motive, same outcome, same intention. Rachels calls what is left the **bare difference**.
 
-- If killing were worse than letting die *in itself*, Jones would be at least a little less guilty than Smith.
-- He is not. So the bare difference between killing and letting die carries **no moral weight on its own**.
-
-If that is right, then "but that would be *killing*" cannot, by itself, settle the euthanasia debate.
-
-## What Rachels Does and Doesn't Show
-
-::: {.callout-important}
-Be precise about the conclusion.
-
-- Rachels does **not** show that active euthanasia is right, or that killing is usually fine.
-- He shows only that the **killing/letting-die distinction itself** does not carry the moral weight people lean on it for.
-
-Other things — consent, motive, consequences, risk of abuse — may still make killing usually worse. Rachels just denies that the *bare* act-type does the work. Whether anything else can rescue the distinction is Foot's question.
+If killing were worse *in itself*, Jones would be at least a little less guilty than Smith. He is not. So the bare difference carries **no moral weight on its own** — and "but that would be *killing*" cannot, by itself, settle the euthanasia debate.
 :::
+::: {.column width="48%"}
+::: {.callout-important}
+**Be precise about the conclusion**
+
+Rachels does **not** show that active euthanasia is right. Consent, motive, consequences, and risk of abuse may still make killing usually worse — he denies only that the *bare* act-type does the work. Whether anything else can rescue the distinction is Foot's question.
+:::
+:::
+::::
 
 ## Foot's Reply: Duties, Not Acts
 
 Philippa Foot agrees the bare physical difference is thin — but argues the distinction survives once we ground it in **duties and rights**. [@foot1977]
 
-- A **negative duty** not to *harm* people (not to kill) is generally **more stringent** than a **positive duty** to *aid* people (to save).
-- Foot's example: it may be permissible for an army to retreat and "let" a wounded soldier die (because rescuing him would put the rest of the army in danger) but NOT permissible to shoot him (if he didn't want to die)
-- Basic idea: Kiling can "violate rights" even in cases where letting die does not
+- A **negative duty** not to *harm* (not to kill) is generally **more stringent** than a **positive duty** to *aid* (to save).
+- Her example: an army may permissibly retreat and "let" a wounded soldier die — but may not shoot him. Killing can **violate rights** where letting die does not.
+- On this view Jones is as bad as Smith not because letting die equals killing, but because Jones **had a duty to save** the boy — and a doctor honoring a refusal violates no duty by *stopping*, yet would violate one by *injecting*.
 
-
-So "killing vs. letting die" is a stand-in for "violating a strong negative duty vs. a weaker positive one." The distinction was tracking something real after all.
-
-## Why Foot's Move Matters
-
-::: {.columns}
-::: {.column width="55%"}
-On Foot's view, the reason Jones is as bad as Smith is *not* that letting die equals killing in general. It is that Jones **had no right** to let the boy drown — he had a duty to save him and a murderous intent besides.
-
-Change the case to a doctor who *may* permissibly stop a treatment the patient refused, and the negative/positive distinction does real work: the doctor violates no duty by stopping, but would violate one by injecting.
-:::
-::: {.column width="45%"}
-::: {.context-box}
-**The upshot**
-
-Rachels and Foot agree the *bare* act-type is morally inert. They split on whether the duties *behind* the act-type — strong duties not to harm, weaker duties to aid — revive a defensible line between euthanasia's forms.
-:::
-:::
-::::
+"Killing vs. letting die" was a stand-in for "strong negative duty vs. weaker positive one" — tracking something real after all.
 
 ## Scoreboard: Rachels vs. Foot
 
@@ -234,25 +183,15 @@ If the line between active and passive is not bedrock, the next question is whet
 
 # If the Line Blurs, Should We Permit It? {.section-divider}
 
-## Brock's Positive Case
+## Brock: The Parity Argument
 
-Dan Brock turns the discussion around. Instead of asking whether killing is special, he asks: **what values justify letting patients refuse treatment in the first place?** [@brock1992]
-
-He finds two:
+Dan Brock turns the discussion around: instead of asking whether killing is special, ask **what values justify letting patients refuse treatment in the first place** [@brock1992]. He finds two — and they are the same two that support voluntary active euthanasia.
 
 - **Self-determination** — competent people have the right to shape their own lives, including their dying.
 - **Well-being** — we let people judge for themselves when continued life is a benefit or a burden.
+- If these are weighty enough to let a patient **refuse a ventilator and die**, why not weighty enough to let her **request a lethal drug and die**? In both, a competent person judges life worse than death, and a doctor helps carry out that judgment.
 
-These are the *same* two values, Brock argues, that support voluntary active euthanasia.
-
-## Brock: The Parity Argument
-
-If self-determination and well-being are weighty enough to let a patient **refuse a ventilator and die**, Brock asks, why are they not weighty enough to let a patient **request a lethal drug and die**?
-
-- In both, a competent person judges that continued life is worse than death.
-- In both, a doctor helps carry out that judgment.
-
-Brock's challenge to the standard view: you cannot consistently celebrate the right to refuse treatment and flatly forbid voluntary euthanasia, because the **same moral foundation underlies both**. He takes the worries seriously, but locates them in *consequences and safeguards*, not in the act itself.
+You cannot consistently celebrate the right to refuse and flatly forbid voluntary euthanasia, Brock argues — the worries belong to *consequences and safeguards*, not the act itself.
 
 ## Singer: Rejecting Sanctity of Life
 
@@ -266,7 +205,7 @@ Peter Singer pushes further, attacking the premise he thinks blocks clear thinki
 ::: {.callout-important}
 Singer defends some limited cases of  **neonatal euthanasia** — deliberately ending the life of some newborns, a practice critics call infanticide. Two claims combine.
 
-First: on the preference view, *no* newborn is yet a self-aware being with preferences about its own future, so the wrong that protects an adult does not yet attach to any infant. Second: there are some cases in which neonatal euthanasia produces better outcomes, *even considering the eventual life this newborn woild have had.* [@singer2011_practical]
+First: on the preference view, *no* newborn is yet a self-aware being with preferences about its own future, so the wrong that protects an adult does not yet attach to any infant. Second: there are some cases in which neonatal euthanasia produces better outcomes, *even considering the eventual life this newborn would have had.* [@singer2011_practical]
 
 The argument's weight rests on the **quality-of-life prognosis**, not on impairment as such. Even so, the newborns it identifies are largely disabled ones, which is why the position is most sharply contested among disability-rights advocates.
 :::
@@ -276,19 +215,11 @@ The argument's weight rests on the **quality-of-life prognosis**, not on impairm
 ::: {.context-box}
 The cases are not all alike, and the difference marks where the disagreement actually is.
 
-- **Tay-Sachs and similar conditions.** The child faces a short life of severe suffering. Here Singer's claim that living on may be no benefit *to that child* draws comparatively wide sympathy. Active euthanasia may be preferable to painful "letting die."
-- **Down syndrome.** Singer *grants* such a child can have a good life. His argument then shifts ground: the **parents' preferences**, plus the prospect of a different, healthier child they could raise instead, can outweigh it. This is the far more contested case.
+- **Tay-Sachs and similar conditions.** A short life of severe suffering. Singer's claim that living on may be no benefit *to that child* draws comparatively wide sympathy.
+- **Down syndrome.** Singer *grants* such a child can have a good life; his argument shifts to the **parents' preferences** and the healthier child they could raise instead. This is the far more contested case.
 :::
 
-## "You Already Agree With Me"
-
-::: {.callout-important}
-There is a sense is which Singer's view isn't as outlandish as it seems.
-
-Many people accept **late-term abortion** after a prenatal Down syndrome diagnosis. Singer sees no morally significant line between a fetus shortly before birth and a newborn shortly after — so, he argues, anyone who accepts the first is already committed to the second. The disagreement, on his telling, is not about principle but about **consistency**. [@singer2011_practical]
-
-This is why the critique, though it names Singer, reaches further than him: the premise he is drawing out is one a large part of society already accepts in another form.
-:::
+And Singer presses a consistency point: many people accept **late-term abortion** after a prenatal Down syndrome diagnosis, and he sees no morally significant line between a fetus shortly before birth and a newborn shortly after [@singer2011_practical]. The premise he draws out is one much of society already accepts in another form.
 
 ## Thought Question
 
@@ -332,7 +263,7 @@ J. David Velleman offers the most interesting *secular* objection — one that g
 - He **concedes** that death can genuinely benefit some patients, and that they may be entitled to it.
 - He still argues against establishing a **right or institution** of assisted death.
 
-His worry is not about the act. It is about what *offering the option to everyone* does to everyone.
+The claim is not that euthanasia is intrinsically wrong, or that no one should ever have it. His worry is what *offering the option to everyone* does to everyone — including those who never wanted it.
 
 ## Velleman: The Cost of Having a Choice
 
@@ -342,17 +273,6 @@ His worry is not about the act. It is about what *offering the option to everyon
 Right now, a gravely ill person who keeps living needs no justification — there was simply no choice. But once death becomes an accepted option, the situation changes for *everyone*, including those who never wanted it.
 
 Now a patient must, in effect, **justify continuing to live** — to family, to caregivers, even to herself. The frail and dependent may feel they ought to "stop being a burden." Merely *making the choice available* can strip away the protection of having no choice at all. [@velleman1992]
-:::
-
-## Velleman: A Careful Conclusion
-
-::: {.callout-important}
-Velleman's argument is easy to misread, so be exact.
-
-- He is **not** claiming euthanasia is intrinsically wrong, or that no one should ever have it.
-- He argues that a **general right or public policy** is dangerous, because the option's mere existence reshapes the pressures on the vulnerable.
-
-His view cuts across the usual lines: a secular philosopher, granting that death can be a benefit, still resisting a *right* to it. The disability-rights critics go further — for them, the vulnerable are not hypothetical.
 :::
 
 ## The Disability-Rights Critique
@@ -403,21 +323,14 @@ A classic four-part test: the act is permissible only if
 3. the bad effect is **foreseen but not intended**; and
 4. there is a **proportionate reason** (the suffering is grave enough).
 
-## Double Effect in Practice
+## Morphine, Sedation, and Intention
 
-The standard medical example: a dying patient in severe pain is given escalating **morphine**. The dose needed for comfort may also depress breathing and hasten death.
+The standard example: a dying patient in severe pain is given escalating **morphine**. The dose needed for comfort may also depress breathing — permissible under double effect, because the doctor **intends** relief and merely **foresees** the risk. The same act would be wrong if death were the *intention* and pain relief the cover.
 
-- Under double effect, this is permissible: the doctor **intends** relief and merely **foresees** the risk to breathing.
-- The same physical act — giving the drug — would be wrong if the doctor *intended* the death and used pain relief as a cover.
+[Palliative sedation]{.key-term} extends the logic: sedating a dying patient — sometimes to unconsciousness — to relieve symptoms nothing else can touch.
 
-Double effect makes **intention** do the moral work. Critics (including Rachels) ask whether a distinction that turns on a doctor's private intention can really bear that much weight.
-
-## Palliative Sedation
-
-[Palliative sedation]{.key-term} is the practice of sedating a dying patient — sometimes to unconsciousness — to relieve symptoms that nothing else can touch (intractable pain, agitation, breathlessness).
-
-- It is legal and widely accepted, and is usually justified by **double effect**: the aim is relief of suffering, not death.
-- In its deepest form — **continuous sedation to unconsciousness**, often while withholding artificial nutrition and hydration — the patient never wakes and dies within days.
+- Legal and widely accepted, justified by **double effect**: the aim is relief, not death.
+- In its deepest form — **continuous sedation to unconsciousness**, often with artificial nutrition withheld — the patient never wakes and dies within days.
 
 ## Is Palliative Sedation "Slow Euthanasia"?
 
@@ -512,7 +425,7 @@ Safeguards checked whether she *qualified*, not *why* she got there: lost home, 
 :::
 ::::
 
-The paired case study works this through in full.
+> **Paired case:** [Noelia Castillo: Psychiatric Suffering, Decisional Capacity, and the Limits of Euthanasia Law](../cases/07-noelia-castillo.qmd)
 
 ## Canada Hits the Brakes
 
@@ -577,10 +490,6 @@ Should assisted death ever be available for psychiatric suffering alone, as in B
 - **Negative vs. positive duties (Foot)** — the duty not to harm is more stringent than the duty to aid.
 - **Doctrine of double effect** — a foreseen bad effect can be permissible if unintended and proportionate.
 - **Palliative sedation** — sedating a dying patient to relieve refractory suffering.
-
-## Paired Case
-
-Work through the paired case study on **Noelia Castillo** — a woman left disabled by a suicide attempt who won a two-year legal battle for euthanasia in Spain. It tests every argument in this lecture against the hardest case: psychiatric suffering, contested capacity, and a family that fought to keep her alive.
 
 ## Further Reading
 

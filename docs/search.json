@@ -1149,7 +1149,7 @@
     "href": "chapters/07b-euthanasia.html#why-vocabulary-comes-first",
     "title": "Lecture 7 — End-of-Life Care",
     "section": "2.1 Why Vocabulary Comes First",
-    "text": "2.1 Why Vocabulary Comes First\nThis a topic where people argue past each other because they are using the same words for different acts. Before any ethics, we need a clean map.\nThree distinctions do all the work:\n\nActive vs. passive — doing something to cause death vs. withholding something.\nVoluntary vs. non-voluntary vs. involuntary — who wanted it.\nAssisted death vs. euthanasia — who performs the final act.\n\nThese three distinctions resolve most of the confusion before the ethics even starts.",
+    "text": "2.1 Why Vocabulary Comes First\nThis is a topic where people argue past each other because they are using the same words for different acts. Before any ethics, we need a clean map.\nThree distinctions do all the work:\n\nActive vs. passive — doing something to cause death vs. withholding something.\nVoluntary vs. non-voluntary vs. involuntary — who wanted it.\nAssisted death vs. euthanasia — who performs the final act.\n\nThese three distinctions resolve most of the confusion before the ethics even starts.",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -1172,8 +1172,8 @@
     "objectID": "chapters/07b-euthanasia.html#active-vs.-passive-euthanasia",
     "href": "chapters/07b-euthanasia.html#active-vs.-passive-euthanasia",
     "title": "Lecture 7 — End-of-Life Care",
-    "section": "2.3 Active vs. Passive Euthanasia",
-    "text": "2.3 Active vs. Passive Euthanasia\nEuthanasia means bringing about a death for the sake of the person who dies — a “good death.” It splits in two:\n\nActive euthanasia — someone administers something that causes death, such as a lethal injection.\nPassive euthanasia — death is allowed to happen by withholding or withdrawing treatment, such as stopping a ventilator.\n\nAlmost every legal system treats these very differently: passive euthanasia is widely accepted, while active euthanasia is illegal in most of the world.",
+    "section": "2.2 Active vs. Passive Euthanasia",
+    "text": "2.2 Active vs. Passive Euthanasia\nEuthanasia means bringing about a death for the sake of the person who dies — a “good death.” It splits in two:\n\nActive euthanasia — someone administers something that causes death, such as a lethal injection.\nPassive euthanasia — death is allowed to happen by withholding or withdrawing treatment, such as stopping a ventilator.\n\nAlmost every legal system treats these very differently: passive euthanasia is widely accepted, while active euthanasia is illegal in most of the world.",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -1184,8 +1184,8 @@
     "objectID": "chapters/07b-euthanasia.html#withdrawal-is-not-killing-the-standard-view",
     "href": "chapters/07b-euthanasia.html#withdrawal-is-not-killing-the-standard-view",
     "title": "Lecture 7 — End-of-Life Care",
-    "section": "2.4 “Withdrawal Is Not Killing” — The Standard View",
-    "text": "2.4 “Withdrawal Is Not Killing” — The Standard View\nMost clinicians and courts insist that stopping treatment is not the same as killing.\n\nWhen a ventilator is withdrawn and the patient dies, the standard view says the disease kills her; the doctor merely steps out of the way.\nWhen a doctor injects a lethal drug, the doctor kills her.\n\nOn this view, a patient has a strong right to refuse treatment (so passive euthanasia is permissible), but no one has a right to be killed (so active euthanasia is not). Rachels attacks exactly this claim.",
+    "section": "2.3 “Withdrawal Is Not Killing” — The Standard View",
+    "text": "2.3 “Withdrawal Is Not Killing” — The Standard View\nMost clinicians and courts insist that stopping treatment is not the same as killing.\n\nWhen a ventilator is withdrawn and the patient dies, the standard view says the disease kills her; the doctor merely steps out of the way.\nWhen a doctor injects a lethal drug, the doctor kills her.\n\nOn this view, a patient has a strong right to refuse treatment (so passive euthanasia is permissible), but no one has a right to be killed (so active euthanasia is not). Rachels attacks exactly this claim.",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -1196,8 +1196,8 @@
     "objectID": "chapters/07b-euthanasia.html#assisted-death-vs.-euthanasia",
     "href": "chapters/07b-euthanasia.html#assisted-death-vs.-euthanasia",
     "title": "Lecture 7 — End-of-Life Care",
-    "section": "2.5 Assisted Death vs. Euthanasia",
-    "text": "2.5 Assisted Death vs. Euthanasia\n\n\nPhysician-assisted death (PAD / MAID)\nThe doctor prescribes a lethal medication, but the patient takes it themselves. This is what Brittany Maynard did. The final act is the patient’s.\n\n\n\n(Active, voluntary) euthanasia\nThe doctor administers the medication directly — for example, a lethal injection at the patient’s request. The final act is the doctor’s.\n\n\nThis line is legally decisive. US states that permit assisted death allow only the prescribing model; Canada and several European countries allow the doctor to administer as well. “MAID” (Medical Assistance in Dying) is the Canadian term and covers both.",
+    "section": "2.4 Assisted Death vs. Euthanasia",
+    "text": "2.4 Assisted Death vs. Euthanasia\n\n\nPhysician-assisted death (PAD / MAID)\nThe doctor prescribes a lethal medication, but the patient takes it themselves. This is what Brittany Maynard did. The final act is the patient’s.\n\n\n\n(Active, voluntary) euthanasia\nThe doctor administers the medication directly — for example, a lethal injection at the patient’s request. The final act is the doctor’s.\n\n\nThis line is legally decisive. US states that permit assisted death allow only the prescribing model; Canada and several European countries allow the doctor to administer as well. “MAID” (Medical Assistance in Dying) is the Canadian term and covers both.",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -1208,8 +1208,8 @@
     "objectID": "chapters/07b-euthanasia.html#the-map-of-terms",
     "href": "chapters/07b-euthanasia.html#the-map-of-terms",
     "title": "Lecture 7 — End-of-Life Care",
-    "section": "2.6 The Map of Terms",
-    "text": "2.6 The Map of Terms\n\n\n\n\n\n\n\n\n\nTerm\nWho acts last\nPatient’s wish\nTypical legal status\n\n\n\n\nRefusing treatment\nPatient (refuses)\nVoluntary\nLegal everywhere\n\n\nPassive euthanasia\nDoctor (withholds)\nUsually voluntary/non-vol.\nWidely accepted\n\n\nPhysician-assisted death\nPatient (takes drug)\nVoluntary only\nLegal in some places\n\n\nActive voluntary euthanasia\nDoctor (administers)\nVoluntary\nLegal in fewer places\n\n\nNon-voluntary euthanasia\nDoctor\nPatient can’t say\nHighly contested\n\n\nInvoluntary euthanasia\nDoctor\nAgainst patient’s wish\nAlways wrong / murder",
+    "section": "2.5 The Map of Terms",
+    "text": "2.5 The Map of Terms\n\n\n\n\n\n\n\n\n\nTerm\nWho acts last\nPatient’s wish\nTypical legal status\n\n\n\n\nRefusing treatment\nPatient (refuses)\nVoluntary\nLegal everywhere\n\n\nPassive euthanasia\nDoctor (withholds)\nUsually voluntary/non-vol.\nWidely accepted\n\n\nPhysician-assisted death\nPatient (takes drug)\nVoluntary only\nLegal in some places\n\n\nActive voluntary euthanasia\nDoctor (administers)\nVoluntary\nLegal in fewer places\n\n\nNon-voluntary euthanasia\nDoctor\nPatient can’t say\nHighly contested\n\n\nInvoluntary euthanasia\nDoctor\nAgainst patient’s wish\nAlways wrong / murder",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -1244,8 +1244,8 @@
     "objectID": "chapters/07b-euthanasia.html#smith-and-jones",
     "href": "chapters/07b-euthanasia.html#smith-and-jones",
     "title": "Lecture 7 — End-of-Life Care",
-    "section": "3.3 Smith and Jones",
-    "text": "3.3 Smith and Jones\n\nRachels’ thought experiment\n\nSmith will inherit a fortune if his young cousin dies. He sneaks into the bathroom and drowns the boy in the bath, making it look like an accident.\nJones stands to inherit the same fortune. He sneaks in planning to drown the boy — but the child slips, hits his head, and slides face-down into the water. Jones watches, ready to push him under if needed, and lets him drown.\n\nSmith killed; Jones merely let die. Is Jones any less monstrous? Almost no one thinks so. (Rachels 1975)",
+    "section": "3.2 Smith and Jones",
+    "text": "3.2 Smith and Jones\n\nRachels’ thought experiment\n\nSmith will inherit a fortune if his young cousin dies. He sneaks into the bathroom and drowns the boy in the bath, making it look like an accident.\nJones stands to inherit the same fortune. He sneaks in planning to drown the boy — but the child slips, hits his head, and slides face-down into the water. Jones watches, ready to push him under if needed, and lets him drown.\n\nSmith killed; Jones merely let die. Is Jones any less monstrous? Almost no one thinks so. (Rachels 1975)",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -1280,8 +1280,8 @@
     "objectID": "chapters/07b-euthanasia.html#foots-reply-duties-not-acts",
     "href": "chapters/07b-euthanasia.html#foots-reply-duties-not-acts",
     "title": "Lecture 7 — End-of-Life Care",
-    "section": "3.6 Foot’s Reply: Duties, Not Acts",
-    "text": "3.6 Foot’s Reply: Duties, Not Acts\nPhilippa Foot agrees the bare physical difference is thin — but argues the distinction survives once we ground it in duties and rights. (Foot 1977)\n\nA negative duty not to harm people (not to kill) is generally more stringent than a positive duty to aid people (to save).\nFoot’s example: it may be permissible for an army to retreat and “let” a wounded soldier die (because rescuing him would put the rest of the army in danger) but NOT permissible to shoot him (if he didn’t want to die)\nBasic idea: Kiling can “violate rights” even in cases where letting die does not\n\nSo “killing vs. letting die” is a stand-in for “violating a strong negative duty vs. a weaker positive one.” The distinction was tracking something real after all.",
+    "section": "3.4 Foot’s Reply: Duties, Not Acts",
+    "text": "3.4 Foot’s Reply: Duties, Not Acts\nPhilippa Foot agrees the bare physical difference is thin — but argues the distinction survives once we ground it in duties and rights. (Foot 1977)\n\nA negative duty not to harm (not to kill) is generally more stringent than a positive duty to aid (to save).\nHer example: an army may permissibly retreat and “let” a wounded soldier die — but may not shoot him. Killing can violate rights where letting die does not.\nOn this view Jones is as bad as Smith not because letting die equals killing, but because Jones had a duty to save the boy — and a doctor honoring a refusal violates no duty by stopping, yet would violate one by injecting.\n\n“Killing vs. letting die” was a stand-in for “strong negative duty vs. weaker positive one” — tracking something real after all.",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -1304,8 +1304,8 @@
     "objectID": "chapters/07b-euthanasia.html#scoreboard-rachels-vs.-foot",
     "href": "chapters/07b-euthanasia.html#scoreboard-rachels-vs.-foot",
     "title": "Lecture 7 — End-of-Life Care",
-    "section": "3.8 Scoreboard: Rachels vs. Foot",
-    "text": "3.8 Scoreboard: Rachels vs. Foot\n\n\n\n\n\n\n\n\n\nRachels (1975)\nFoot (1977)\n\n\n\n\nBare act-type matters?\nNo\nNo\n\n\nSo the distinction is empty?\nLargely, yes\nNo — re-ground it\n\n\nWhat does the real work?\nConsequences, motive, consent\nNegative vs. positive duties\n\n\nImplication for euthanasia\nRemoves a key objection\nLeaves a principled brake\n\n\n\nIf the line between active and passive is not bedrock, the next question is whether the values underneath it actually support assisted death.",
+    "section": "3.5 Scoreboard: Rachels vs. Foot",
+    "text": "3.5 Scoreboard: Rachels vs. Foot\n\n\n\n\n\n\n\n\n\nRachels (1975)\nFoot (1977)\n\n\n\n\nBare act-type matters?\nNo\nNo\n\n\nSo the distinction is empty?\nLargely, yes\nNo — re-ground it\n\n\nWhat does the real work?\nConsequences, motive, consent\nNegative vs. positive duties\n\n\nImplication for euthanasia\nRemoves a key objection\nLeaves a principled brake\n\n\n\nIf the line between active and passive is not bedrock, the next question is whether the values underneath it actually support assisted death.",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -1328,8 +1328,8 @@
     "objectID": "chapters/07b-euthanasia.html#brock-the-parity-argument",
     "href": "chapters/07b-euthanasia.html#brock-the-parity-argument",
     "title": "Lecture 7 — End-of-Life Care",
-    "section": "4.2 Brock: The Parity Argument",
-    "text": "4.2 Brock: The Parity Argument\nIf self-determination and well-being are weighty enough to let a patient refuse a ventilator and die, Brock asks, why are they not weighty enough to let a patient request a lethal drug and die?\n\nIn both, a competent person judges that continued life is worse than death.\nIn both, a doctor helps carry out that judgment.\n\nBrock’s challenge to the standard view: you cannot consistently celebrate the right to refuse treatment and flatly forbid voluntary euthanasia, because the same moral foundation underlies both. He takes the worries seriously, but locates them in consequences and safeguards, not in the act itself.",
+    "section": "4.1 Brock: The Parity Argument",
+    "text": "4.1 Brock: The Parity Argument\nDan Brock turns the discussion around: instead of asking whether killing is special, ask what values justify letting patients refuse treatment in the first place (Brock 1992). He finds two — and they are the same two that support voluntary active euthanasia.\n\nSelf-determination — competent people have the right to shape their own lives, including their dying.\nWell-being — we let people judge for themselves when continued life is a benefit or a burden.\nIf these are weighty enough to let a patient refuse a ventilator and die, why not weighty enough to let her request a lethal drug and die? In both, a competent person judges life worse than death, and a doctor helps carry out that judgment.\n\nYou cannot consistently celebrate the right to refuse and flatly forbid voluntary euthanasia, Brock argues — the worries belong to consequences and safeguards, not the act itself.",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -1340,8 +1340,8 @@
     "objectID": "chapters/07b-euthanasia.html#singer-rejecting-sanctity-of-life",
     "href": "chapters/07b-euthanasia.html#singer-rejecting-sanctity-of-life",
     "title": "Lecture 7 — End-of-Life Care",
-    "section": "4.3 Singer: Rejecting Sanctity of Life",
-    "text": "4.3 Singer: Rejecting Sanctity of Life\nPeter Singer pushes further, attacking the premise he thinks blocks clear thinking: the sanctity-of-life doctrine — the idea that human life is always equally precious simply because it is human. (Singer 1994)\n\nSinger replaces it with a quality-of-life ethic: what matters morally is the character of a life for the one living it.\nFor a preference utilitarian like Singer, killing a self-aware being is wrong mainly because it thwarts that being’s preferences — so when a person prefers death, voluntary euthanasia can respect rather than violate them.",
+    "section": "4.2 Singer: Rejecting Sanctity of Life",
+    "text": "4.2 Singer: Rejecting Sanctity of Life\nPeter Singer pushes further, attacking the premise he thinks blocks clear thinking: the sanctity-of-life doctrine — the idea that human life is always equally precious simply because it is human. (Singer 1994)\n\nSinger replaces it with a quality-of-life ethic: what matters morally is the character of a life for the one living it.\nFor a preference utilitarian like Singer, killing a self-aware being is wrong mainly because it thwarts that being’s preferences — so when a person prefers death, voluntary euthanasia can respect rather than violate them.",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -1364,8 +1364,8 @@
     "objectID": "chapters/07b-euthanasia.html#thought-question",
     "href": "chapters/07b-euthanasia.html#thought-question",
     "title": "Lecture 7 — End-of-Life Care",
-    "section": "4.7 Thought Question",
-    "text": "4.7 Thought Question\n\nA patient with ALS is on a ventilator and fully competent. She asks her physician to turn it off, knowing she will die within minutes. The physician does, giving sedation for comfort. The patient dies. Everyone agrees this was lawful and ethical.\nThe next patient, with the same disease but not yet ventilator-dependent, asks the physician for a lethal medication to take at home.\n\nIs the physician’s role really different in the two cases?\nIf the first is permitted, on what grounds would you forbid the second?\nDoes it change your answer that, in the first case, the patient could not have lived long without the machine?",
+    "section": "4.5 Thought Question",
+    "text": "4.5 Thought Question\n\nA patient with ALS is on a ventilator and fully competent. She asks her physician to turn it off, knowing she will die within minutes. The physician does, giving sedation for comfort. The patient dies. Everyone agrees this was lawful and ethical.\nThe next patient, with the same disease but not yet ventilator-dependent, asks the physician for a lethal medication to take at home.\n\nIs the physician’s role really different in the two cases?\nIf the first is permitted, on what grounds would you forbid the second?\nDoes it change your answer that, in the first case, the patient could not have lived long without the machine?",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -1376,8 +1376,8 @@
     "objectID": "chapters/07b-euthanasia.html#make-it-contemporary",
     "href": "chapters/07b-euthanasia.html#make-it-contemporary",
     "title": "Lecture 7 — End-of-Life Care",
-    "section": "4.8 Make It Contemporary",
-    "text": "4.8 Make It Contemporary\n\nThis is not hypothetical. After Brittany Maynard’s death, California passed the End of Life Option Act (2015), joining Oregon (1997), Washington, Colorado, and others. By the mid-2020s, assisted death was legal in eleven US jurisdictions, covering roughly a fifth of Americans.\nEvery US law allows only the prescribing model, requires a terminal diagnosis (usually six months), and demands the patient be competent and act voluntarily.\nDiscuss: Are those three safeguards — terminal, competent, voluntary — the right lines? Which would you tighten or loosen?",
+    "section": "4.6 Make It Contemporary",
+    "text": "4.6 Make It Contemporary\n\nThis is not hypothetical. After Brittany Maynard’s death, California passed the End of Life Option Act (2015), joining Oregon (1997), Washington, Colorado, and others. By the mid-2020s, assisted death was legal in eleven US jurisdictions, covering roughly a fifth of Americans.\nEvery US law allows only the prescribing model, requires a terminal diagnosis (usually six months), and demands the patient be competent and act voluntarily.\nDiscuss: Are those three safeguards — terminal, competent, voluntary — the right lines? Which would you tighten or loosen?",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -1388,8 +1388,8 @@
     "objectID": "chapters/07b-euthanasia.html#after-youve-discussed-1",
     "href": "chapters/07b-euthanasia.html#after-youve-discussed-1",
     "title": "Lecture 7 — End-of-Life Care",
-    "section": "4.9 After You’ve Discussed",
-    "text": "4.9 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nA distinction the safeguards quietly assume:\n\nIn assisted death, the patient performs the final act. This builds in a last check — the person must still, at the end, choose to act.\nIn euthanasia, someone else performs it. This is available to patients too disabled to act for themselves, but it removes that final self-check.\n\nUS law has chosen the first model precisely because the patient’s last act is itself a safeguard. Canada and the Netherlands accept the second — and inherit a harder problem of verifying consent at the very end.",
+    "section": "4.7 After You’ve Discussed",
+    "text": "4.7 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nA distinction the safeguards quietly assume:\n\nIn assisted death, the patient performs the final act. This builds in a last check — the person must still, at the end, choose to act.\nIn euthanasia, someone else performs it. This is available to patients too disabled to act for themselves, but it removes that final self-check.\n\nUS law has chosen the first model precisely because the patient’s last act is itself a safeguard. Canada and the Netherlands accept the second — and inherit a harder problem of verifying consent at the very end.",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -1401,7 +1401,7 @@
     "href": "chapters/07b-euthanasia.html#velleman-against-the-right-to-die",
     "title": "Lecture 7 — End-of-Life Care",
     "section": "5.1 Velleman: Against the Right to Die",
-    "text": "5.1 Velleman: Against the Right to Die\nJ. David Velleman offers the most interesting secular objection — one that grants almost everything to the other side. (Velleman 1992)\n\nHe concedes that death can genuinely benefit some patients, and that they may be entitled to it.\nHe still argues against establishing a right or institution of assisted death.\n\nHis worry is not about the act. It is about what offering the option to everyone does to everyone.",
+    "text": "5.1 Velleman: Against the Right to Die\nJ. David Velleman offers the most interesting secular objection — one that grants almost everything to the other side. (Velleman 1992)\n\nHe concedes that death can genuinely benefit some patients, and that they may be entitled to it.\nHe still argues against establishing a right or institution of assisted death.\n\nThe claim is not that euthanasia is intrinsically wrong, or that no one should ever have it. His worry is what offering the option to everyone does to everyone — including those who never wanted it.",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -1436,8 +1436,8 @@
     "objectID": "chapters/07b-euthanasia.html#the-disability-rights-critique",
     "href": "chapters/07b-euthanasia.html#the-disability-rights-critique",
     "title": "Lecture 7 — End-of-Life Care",
-    "section": "5.4 The Disability-Rights Critique",
-    "text": "5.4 The Disability-Rights Critique\nFor disability-rights groups such as Not Dead Yet, Velleman’s abstract worry is daily reality. Their objection is not religious; it is about who is actually at risk.\n\n“Better dead than disabled.” Assisted-death laws rest on the judgment that some lives are not worth living — and the lives singled out are usually disabled ones.\nPeople often request death not because of pain but because of dependence, lost dignity, and being a burden — conditions that better support could change.\nThe same society that offers suicide prevention to the able-bodied may offer suicide assistance to the disabled. That asymmetry is the heart of the critique.",
+    "section": "5.3 The Disability-Rights Critique",
+    "text": "5.3 The Disability-Rights Critique\nFor disability-rights groups such as Not Dead Yet, Velleman’s abstract worry is daily reality. Their objection is not religious; it is about who is actually at risk.\n\n“Better dead than disabled.” Assisted-death laws rest on the judgment that some lives are not worth living — and the lives singled out are usually disabled ones.\nPeople often request death not because of pain but because of dependence, lost dignity, and being a burden — conditions that better support could change.\nThe same society that offers suicide prevention to the able-bodied may offer suicide assistance to the disabled. That asymmetry is the heart of the critique.",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -1448,8 +1448,8 @@
     "objectID": "chapters/07b-euthanasia.html#mcbryde-johnson-meets-singer",
     "href": "chapters/07b-euthanasia.html#mcbryde-johnson-meets-singer",
     "title": "Lecture 7 — End-of-Life Care",
-    "section": "5.5 McBryde Johnson Meets Singer",
-    "text": "5.5 McBryde Johnson Meets Singer\n\n\nHarriet McBryde Johnson was a lawyer and disability-rights activist who had a progressive neuromuscular condition and used a wheelchair. In 2002 she debated Peter Singer at Princeton and wrote about it in “Unspeakable Conversations.” (Johnson 2003)\nHer core reply to Singer: his confidence that disability makes a life worse is an outsider’s assumption. Survey research finds that disabled people often rate their own quality of life far higher than the non-disabled predict they would — the so-called disability paradox. The premise of the quality-of-life argument, she said, is at least far shakier than Singer assumes.\n\n\nWhy she found it hard to answer\nJohnson granted that Singer was personable and his logic internally consistent. That was her difficulty: she could not locate an obvious flaw to point to. Her objection was therefore aimed at his premises — the quality-of-life judgments the argument starts from — rather than at any slip in his reasoning.",
+    "section": "5.4 McBryde Johnson Meets Singer",
+    "text": "5.4 McBryde Johnson Meets Singer\n\n\nHarriet McBryde Johnson was a lawyer and disability-rights activist who had a progressive neuromuscular condition and used a wheelchair. In 2002 she debated Peter Singer at Princeton and wrote about it in “Unspeakable Conversations.” (Johnson 2003)\nHer core reply to Singer: his confidence that disability makes a life worse is an outsider’s assumption. Survey research finds that disabled people often rate their own quality of life far higher than the non-disabled predict they would — the so-called disability paradox. The premise of the quality-of-life argument, she said, is at least far shakier than Singer assumes.\n\n\nWhy she found it hard to answer\nJohnson granted that Singer was personable and his logic internally consistent. That was her difficulty: she could not locate an obvious flaw to point to. Her objection was therefore aimed at his premises — the quality-of-life judgments the argument starts from — rather than at any slip in his reasoning.",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -1460,8 +1460,8 @@
     "objectID": "chapters/07b-euthanasia.html#coercion-duty-and-access",
     "href": "chapters/07b-euthanasia.html#coercion-duty-and-access",
     "title": "Lecture 7 — End-of-Life Care",
-    "section": "5.6 Coercion, Duty, and Access",
-    "text": "5.6 Coercion, Duty, and Access\nThe critics converge on three concrete risks that safeguards must answer.\n\nCoercion — subtle pressure from family, cost, or exhausted caregivers, not held at gunpoint but nudged.\nThe “duty to die” — once dying is an option, the dependent may feel obligated to take it (Velleman’s worry, lived).\nAccess disparities — those with the least social support may find death the most available form of “care,” while the well-resourced get treatment.\n\nThese are empirical questions, which is why both sides now argue about data — taken up after one more conceptual tool.",
+    "section": "5.5 Coercion, Duty, and Access",
+    "text": "5.5 Coercion, Duty, and Access\nThe critics converge on three concrete risks that safeguards must answer.\n\nCoercion — subtle pressure from family, cost, or exhausted caregivers, not held at gunpoint but nudged.\nThe “duty to die” — once dying is an option, the dependent may feel obligated to take it (Velleman’s worry, lived).\nAccess disparities — those with the least social support may find death the most available form of “care,” while the well-resourced get treatment.\n\nThese are empirical questions, which is why both sides now argue about data — taken up after one more conceptual tool.",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -1508,8 +1508,8 @@
     "objectID": "chapters/07b-euthanasia.html#is-palliative-sedation-slow-euthanasia",
     "href": "chapters/07b-euthanasia.html#is-palliative-sedation-slow-euthanasia",
     "title": "Lecture 7 — End-of-Life Care",
-    "section": "6.4 Is Palliative Sedation “Slow Euthanasia”?",
-    "text": "6.4 Is Palliative Sedation “Slow Euthanasia”?\n\n\nThe defense\nThe intention is to relieve refractory suffering, not to kill. Studies suggest properly titrated sedation does not clearly shorten life. By double effect, it stays on the right side of the line.\n\n\n\nThe worry\nIf you sedate someone to permanent unconsciousness and stop feeding them, the outcome is certain death. Critics call this “slow euthanasia” — euthanasia that keeps the form of double effect while abandoning its substance.\n\n\nThis is the same fault line as Rachels vs. Foot, in a new place: does the intention behind an act change what the act is?",
+    "section": "6.3 Is Palliative Sedation “Slow Euthanasia”?",
+    "text": "6.3 Is Palliative Sedation “Slow Euthanasia”?\n\n\nThe defense\nThe intention is to relieve refractory suffering, not to kill. Studies suggest properly titrated sedation does not clearly shorten life. By double effect, it stays on the right side of the line.\n\n\n\nThe worry\nIf you sedate someone to permanent unconsciousness and stop feeding them, the outcome is certain death. Critics call this “slow euthanasia” — euthanasia that keeps the form of double effect while abandoning its substance.\n\n\nThis is the same fault line as Rachels vs. Foot, in a new place: does the intention behind an act change what the act is?",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -1581,7 +1581,7 @@
     "href": "chapters/07b-euthanasia.html#castillo-two-readings-of-the-same-facts",
     "title": "Lecture 7 — End-of-Life Care",
     "section": "7.6 Castillo: Two Readings of the Same Facts",
-    "text": "7.6 Castillo: Two Readings of the Same Facts\n\n\nAutonomy honored\nRefusing a capable woman’s request only because her suffering is psychiatric applies a double standard we never use for physical illness. Every court agreed she could choose.\n\n\n\nVulnerability abandoned\nSafeguards checked whether she qualified, not why she got there: lost home, institutional care, untreated trauma, assaults never investigated. A pianist offered to fund her care. Was death simply more available than a livable life?\n\n\nThe paired case study works this through in full.",
+    "text": "7.6 Castillo: Two Readings of the Same Facts\n\n\nAutonomy honored\nRefusing a capable woman’s request only because her suffering is psychiatric applies a double standard we never use for physical illness. Every court agreed she could choose.\n\n\n\nVulnerability abandoned\nSafeguards checked whether she qualified, not why she got there: lost home, institutional care, untreated trauma, assaults never investigated. A pianist offered to fund her care. Was death simply more available than a livable life?\n\n\n\nPaired case: Noelia Castillo: Psychiatric Suffering, Decisional Capacity, and the Limits of Euthanasia Law",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -1664,8 +1664,8 @@
     "objectID": "chapters/07b-euthanasia.html#further-reading",
     "href": "chapters/07b-euthanasia.html#further-reading",
     "title": "Lecture 7 — End-of-Life Care",
-    "section": "7.13 Further Reading",
-    "text": "7.13 Further Reading\n\nRachels, James. “Active and Passive Euthanasia.” New England Journal of Medicine (1975). (Rachels 1975)\nFoot, Philippa. “Euthanasia.” Philosophy & Public Affairs (1977). (Foot 1977)\nJohnson, Harriet McBryde. “Unspeakable Conversations.” The New York Times Magazine (2003). (Johnson 2003)\nYoung, Robert. “Voluntary Euthanasia.” Stanford Encyclopedia of Philosophy. (Young 2024)",
+    "section": "7.12 Further Reading",
+    "text": "7.12 Further Reading\n\nRachels, James. “Active and Passive Euthanasia.” New England Journal of Medicine (1975). (Rachels 1975)\nFoot, Philippa. “Euthanasia.” Philosophy & Public Affairs (1977). (Foot 1977)\nJohnson, Harriet McBryde. “Unspeakable Conversations.” The New York Times Magazine (2003). (Johnson 2003)\nYoung, Robert. “Voluntary Euthanasia.” Stanford Encyclopedia of Philosophy. (Young 2024)",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -1676,8 +1676,8 @@
     "objectID": "chapters/07b-euthanasia.html#references",
     "href": "chapters/07b-euthanasia.html#references",
     "title": "Lecture 7 — End-of-Life Care",
-    "section": "7.14 References",
-    "text": "7.14 References\n\n\nBrock, Dan W. 1992. “Voluntary Active Euthanasia.” Hastings Center Report 22 (2): 10–22. https://doi.org/10.2307/3562560.\n\n\nFoot, Philippa. 1977. “Euthanasia.” Philosophy & Public Affairs 6 (2): 85–112.\n\n\nJohnson, Harriet McBryde. 2003. “Unspeakable Conversations.” The New York Times Magazine. https://www.nytimes.com/2003/02/16/magazine/unspeakable-conversations.html.\n\n\nMaynard, Brittany. 2014. My Right to Death with Dignity at 29. CNN. https://www.cnn.com/2014/10/07/opinion/maynard-assisted-suicide-cancer-dignity/.\n\n\nMcIntyre, Alison. 2023. Doctrine of Double Effect. The Stanford Encyclopedia of Philosophy (Fall 2023 Edition), Edward N. Zalta and Uri Nodelman (eds.). https://plato.stanford.edu/archives/fall2023/entries/double-effect/.\n\n\nOregon Health Authority, Public Health Division. 2024. Oregon Death with Dignity Act: Annual Data Summary. Center for Health Statistics. https://www.oregon.gov/oha/ph/providerpartnerresources/evaluationresearch/deathwithdignityact/pages/index.aspx.\n\n\nRachels, James. 1975. “Active and Passive Euthanasia.” New England Journal of Medicine 292 (2): 78–80. https://doi.org/10.1056/NEJM197501092920206.\n\n\nSinger, Peter. 1994. Rethinking Life and Death: The Collapse of Our Traditional Ethics. St. Martin’s Press.\n\n\nSinger, Peter. 2011. Practical Ethics. 3rd ed. Cambridge University Press.\n\n\nSupreme Court of Canada. 2015. Carter v. Canada (Attorney General), 2015 SCC 5. [2015] 1 S.C.R. 331. https://decisions.scc-csc.ca/scc-csc/scc-csc/en/item/14637/index.do.\n\n\nVelleman, J. David. 1992. “Against the Right to Die.” Journal of Medicine and Philosophy 17 (6): 665–81. https://doi.org/10.1093/jmp/17.6.665.\n\n\nYoung, Robert. 2024. Voluntary Euthanasia. The Stanford Encyclopedia of Philosophy (Spring 2024 Edition), Edward N. Zalta and Uri Nodelman (eds.). https://plato.stanford.edu/archives/spr2024/entries/euthanasia-voluntary/.",
+    "section": "7.13 References",
+    "text": "7.13 References\n\n\nBrock, Dan W. 1992. “Voluntary Active Euthanasia.” Hastings Center Report 22 (2): 10–22. https://doi.org/10.2307/3562560.\n\n\nFoot, Philippa. 1977. “Euthanasia.” Philosophy & Public Affairs 6 (2): 85–112.\n\n\nJohnson, Harriet McBryde. 2003. “Unspeakable Conversations.” The New York Times Magazine. https://www.nytimes.com/2003/02/16/magazine/unspeakable-conversations.html.\n\n\nMaynard, Brittany. 2014. My Right to Death with Dignity at 29. CNN. https://www.cnn.com/2014/10/07/opinion/maynard-assisted-suicide-cancer-dignity/.\n\n\nMcIntyre, Alison. 2023. Doctrine of Double Effect. The Stanford Encyclopedia of Philosophy (Fall 2023 Edition), Edward N. Zalta and Uri Nodelman (eds.). https://plato.stanford.edu/archives/fall2023/entries/double-effect/.\n\n\nOregon Health Authority, Public Health Division. 2024. Oregon Death with Dignity Act: Annual Data Summary. Center for Health Statistics. https://www.oregon.gov/oha/ph/providerpartnerresources/evaluationresearch/deathwithdignityact/pages/index.aspx.\n\n\nRachels, James. 1975. “Active and Passive Euthanasia.” New England Journal of Medicine 292 (2): 78–80. https://doi.org/10.1056/NEJM197501092920206.\n\n\nSinger, Peter. 1994. Rethinking Life and Death: The Collapse of Our Traditional Ethics. St. Martin’s Press.\n\n\nSinger, Peter. 2011. Practical Ethics. 3rd ed. Cambridge University Press.\n\n\nSupreme Court of Canada. 2015. Carter v. Canada (Attorney General), 2015 SCC 5. [2015] 1 S.C.R. 331. https://decisions.scc-csc.ca/scc-csc/scc-csc/en/item/14637/index.do.\n\n\nVelleman, J. David. 1992. “Against the Right to Die.” Journal of Medicine and Philosophy 17 (6): 665–81. https://doi.org/10.1093/jmp/17.6.665.\n\n\nYoung, Robert. 2024. Voluntary Euthanasia. The Stanford Encyclopedia of Philosophy (Spring 2024 Edition), Edward N. Zalta and Uri Nodelman (eds.). https://plato.stanford.edu/archives/spr2024/entries/euthanasia-voluntary/.",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -1717,7 +1717,7 @@
     "href": "chapters/07b-euthanasia-slides.html#why-vocabulary-comes-first",
     "title": "Lecture 7 — End-of-Life Care",
     "section": "Why Vocabulary Comes First",
-    "text": "Why Vocabulary Comes First\nThis a topic where people argue past each other because they are using the same words for different acts. Before any ethics, we need a clean map.\nThree distinctions do all the work:\n\nActive vs. passive — doing something to cause death vs. withholding something.\nVoluntary vs. non-voluntary vs. involuntary — who wanted it.\nAssisted death vs. euthanasia — who performs the final act.\n\nThese three distinctions resolve most of the confusion before the ethics even starts."
+    "text": "Why Vocabulary Comes First\nThis is a topic where people argue past each other because they are using the same words for different acts. Before any ethics, we need a clean map.\nThree distinctions do all the work:\n\nActive vs. passive — doing something to cause death vs. withholding something.\nVoluntary vs. non-voluntary vs. involuntary — who wanted it.\nAssisted death vs. euthanasia — who performs the final act.\n\nThese three distinctions resolve most of the confusion before the ethics even starts."
   },
   {
     "objectID": "chapters/07b-euthanasia-slides.html#the-concept-map",
@@ -1794,7 +1794,7 @@
     "href": "chapters/07b-euthanasia-slides.html#foots-reply-duties-not-acts",
     "title": "Lecture 7 — End-of-Life Care",
     "section": "Foot’s Reply: Duties, Not Acts",
-    "text": "Foot’s Reply: Duties, Not Acts\nPhilippa Foot agrees the bare physical difference is thin — but argues the distinction survives once we ground it in duties and rights. (Foot 1977)\n\nA negative duty not to harm people (not to kill) is generally more stringent than a positive duty to aid people (to save).\nFoot’s example: it may be permissible for an army to retreat and “let” a wounded soldier die (because rescuing him would put the rest of the army in danger) but NOT permissible to shoot him (if he didn’t want to die)\nBasic idea: Kiling can “violate rights” even in cases where letting die does not\n\nSo “killing vs. letting die” is a stand-in for “violating a strong negative duty vs. a weaker positive one.” The distinction was tracking something real after all."
+    "text": "Foot’s Reply: Duties, Not Acts\nPhilippa Foot agrees the bare physical difference is thin — but argues the distinction survives once we ground it in duties and rights. (Foot 1977)\n\nA negative duty not to harm (not to kill) is generally more stringent than a positive duty to aid (to save).\nHer example: an army may permissibly retreat and “let” a wounded soldier die — but may not shoot him. Killing can violate rights where letting die does not.\nOn this view Jones is as bad as Smith not because letting die equals killing, but because Jones had a duty to save the boy — and a doctor honoring a refusal violates no duty by stopping, yet would violate one by injecting.\n\n“Killing vs. letting die” was a stand-in for “strong negative duty vs. weaker positive one” — tracking something real after all."
   },
   {
     "objectID": "chapters/07b-euthanasia-slides.html#why-foots-move-matters",
@@ -1822,7 +1822,7 @@
     "href": "chapters/07b-euthanasia-slides.html#brock-the-parity-argument",
     "title": "Lecture 7 — End-of-Life Care",
     "section": "Brock: The Parity Argument",
-    "text": "Brock: The Parity Argument\nIf self-determination and well-being are weighty enough to let a patient refuse a ventilator and die, Brock asks, why are they not weighty enough to let a patient request a lethal drug and die?\n\nIn both, a competent person judges that continued life is worse than death.\nIn both, a doctor helps carry out that judgment.\n\nBrock’s challenge to the standard view: you cannot consistently celebrate the right to refuse treatment and flatly forbid voluntary euthanasia, because the same moral foundation underlies both. He takes the worries seriously, but locates them in consequences and safeguards, not in the act itself."
+    "text": "Brock: The Parity Argument\nDan Brock turns the discussion around: instead of asking whether killing is special, ask what values justify letting patients refuse treatment in the first place (Brock 1992). He finds two — and they are the same two that support voluntary active euthanasia.\n\nSelf-determination — competent people have the right to shape their own lives, including their dying.\nWell-being — we let people judge for themselves when continued life is a benefit or a burden.\nIf these are weighty enough to let a patient refuse a ventilator and die, why not weighty enough to let her request a lethal drug and die? In both, a competent person judges life worse than death, and a doctor helps carry out that judgment.\n\nYou cannot consistently celebrate the right to refuse and flatly forbid voluntary euthanasia, Brock argues — the worries belong to consequences and safeguards, not the act itself."
   },
   {
     "objectID": "chapters/07b-euthanasia-slides.html#singer-rejecting-sanctity-of-life",
@@ -1864,7 +1864,7 @@
     "href": "chapters/07b-euthanasia-slides.html#velleman-against-the-right-to-die",
     "title": "Lecture 7 — End-of-Life Care",
     "section": "Velleman: Against the Right to Die",
-    "text": "Velleman: Against the Right to Die\nJ. David Velleman offers the most interesting secular objection — one that grants almost everything to the other side. (Velleman 1992)\n\nHe concedes that death can genuinely benefit some patients, and that they may be entitled to it.\nHe still argues against establishing a right or institution of assisted death.\n\nHis worry is not about the act. It is about what offering the option to everyone does to everyone."
+    "text": "Velleman: Against the Right to Die\nJ. David Velleman offers the most interesting secular objection — one that grants almost everything to the other side. (Velleman 1992)\n\nHe concedes that death can genuinely benefit some patients, and that they may be entitled to it.\nHe still argues against establishing a right or institution of assisted death.\n\nThe claim is not that euthanasia is intrinsically wrong, or that no one should ever have it. His worry is what offering the option to everyone does to everyone — including those who never wanted it."
   },
   {
     "objectID": "chapters/07b-euthanasia-slides.html#velleman-the-cost-of-having-a-choice",
@@ -1969,7 +1969,7 @@
     "href": "chapters/07b-euthanasia-slides.html#castillo-two-readings-of-the-same-facts",
     "title": "Lecture 7 — End-of-Life Care",
     "section": "Castillo: Two Readings of the Same Facts",
-    "text": "Castillo: Two Readings of the Same Facts\n\n\nAutonomy honored\nRefusing a capable woman’s request only because her suffering is psychiatric applies a double standard we never use for physical illness. Every court agreed she could choose.\n\n\n\nVulnerability abandoned\nSafeguards checked whether she qualified, not why she got there: lost home, institutional care, untreated trauma, assaults never investigated. A pianist offered to fund her care. Was death simply more available than a livable life?\n\nThe paired case study works this through in full."
+    "text": "Castillo: Two Readings of the Same Facts\n\n\nAutonomy honored\nRefusing a capable woman’s request only because her suffering is psychiatric applies a double standard we never use for physical illness. Every court agreed she could choose.\n\n\n\nVulnerability abandoned\nSafeguards checked whether she qualified, not why she got there: lost home, institutional care, untreated trauma, assaults never investigated. A pianist offered to fund her care. Was death simply more available than a livable life?\n\n\nPaired case: Noelia Castillo: Psychiatric Suffering, Decisional Capacity, and the Limits of Euthanasia Law"
   },
   {
     "objectID": "chapters/07b-euthanasia-slides.html#canada-hits-the-brakes",
@@ -15346,8 +15346,8 @@
     "objectID": "chapters/07b-euthanasia.html#singers-edge-neonatal-euthanasia",
     "href": "chapters/07b-euthanasia.html#singers-edge-neonatal-euthanasia",
     "title": "Lecture 7 — End-of-Life Care",
-    "section": "4.4 Singer’s Edge: Neonatal Euthanasia",
-    "text": "4.4 Singer’s Edge: Neonatal Euthanasia\n\n\n\n\n\n\nImportant\n\n\n\nSinger defends some limited cases of neonatal euthanasia — deliberately ending the life of some newborns, a practice critics call infanticide. Two claims combine.\nFirst: on the preference view, no newborn is yet a self-aware being with preferences about its own future, so the wrong that protects an adult does not yet attach to any infant. Second: there are some cases in which neonatal euthanasia produces better outcomes, even considering the eventual life this newborn woild have had. (Singer 2011)\nThe argument’s weight rests on the quality-of-life prognosis, not on impairment as such. Even so, the newborns it identifies are largely disabled ones, which is why the position is most sharply contested among disability-rights advocates.",
+    "section": "4.3 Singer’s Edge: Neonatal Euthanasia",
+    "text": "4.3 Singer’s Edge: Neonatal Euthanasia\n\n\n\n\n\n\nImportant\n\n\n\nSinger defends some limited cases of neonatal euthanasia — deliberately ending the life of some newborns, a practice critics call infanticide. Two claims combine.\nFirst: on the preference view, no newborn is yet a self-aware being with preferences about its own future, so the wrong that protects an adult does not yet attach to any infant. Second: there are some cases in which neonatal euthanasia produces better outcomes, even considering the eventual life this newborn would have had. (Singer 2011)\nThe argument’s weight rests on the quality-of-life prognosis, not on impairment as such. Even so, the newborns it identifies are largely disabled ones, which is why the position is most sharply contested among disability-rights advocates.",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -15358,8 +15358,8 @@
     "objectID": "chapters/07b-euthanasia.html#singers-two-kinds-of-case",
     "href": "chapters/07b-euthanasia.html#singers-two-kinds-of-case",
     "title": "Lecture 7 — End-of-Life Care",
-    "section": "4.5 Singer’s Two Kinds of Case",
-    "text": "4.5 Singer’s Two Kinds of Case\n\nThe cases are not all alike, and the difference marks where the disagreement actually is.\n\nTay-Sachs and similar conditions. The child faces a short life of severe suffering. Here Singer’s claim that living on may be no benefit to that child draws comparatively wide sympathy. Active euthanasia may be preferable to painful “letting die.”\nDown syndrome. Singer grants such a child can have a good life. His argument then shifts ground: the parents’ preferences, plus the prospect of a different, healthier child they could raise instead, can outweigh it. This is the far more contested case.",
+    "section": "4.4 Singer’s Two Kinds of Case",
+    "text": "4.4 Singer’s Two Kinds of Case\n\nThe cases are not all alike, and the difference marks where the disagreement actually is.\n\nTay-Sachs and similar conditions. A short life of severe suffering. Singer’s claim that living on may be no benefit to that child draws comparatively wide sympathy.\nDown syndrome. Singer grants such a child can have a good life; his argument shifts to the parents’ preferences and the healthier child they could raise instead. This is the far more contested case.\n\n\nAnd Singer presses a consistency point: many people accept late-term abortion after a prenatal Down syndrome diagnosis, and he sees no morally significant line between a fetus shortly before birth and a newborn shortly after (Singer 2011). The premise he draws out is one much of society already accepts in another form.",
     "crumbs": [
       "Home",
       "7. End-of-Life Care",
@@ -15383,14 +15383,14 @@
     "href": "chapters/07b-euthanasia-slides.html#singers-edge-neonatal-euthanasia",
     "title": "Lecture 7 — End-of-Life Care",
     "section": "Singer’s Edge: Neonatal Euthanasia",
-    "text": "Singer’s Edge: Neonatal Euthanasia\n\n\n\n\n\n\nImportant\n\n\nSinger defends some limited cases of neonatal euthanasia — deliberately ending the life of some newborns, a practice critics call infanticide. Two claims combine.\nFirst: on the preference view, no newborn is yet a self-aware being with preferences about its own future, so the wrong that protects an adult does not yet attach to any infant. Second: there are some cases in which neonatal euthanasia produces better outcomes, even considering the eventual life this newborn woild have had. (Singer 2011)\nThe argument’s weight rests on the quality-of-life prognosis, not on impairment as such. Even so, the newborns it identifies are largely disabled ones, which is why the position is most sharply contested among disability-rights advocates."
+    "text": "Singer’s Edge: Neonatal Euthanasia\n\n\n\n\n\n\nImportant\n\n\nSinger defends some limited cases of neonatal euthanasia — deliberately ending the life of some newborns, a practice critics call infanticide. Two claims combine.\nFirst: on the preference view, no newborn is yet a self-aware being with preferences about its own future, so the wrong that protects an adult does not yet attach to any infant. Second: there are some cases in which neonatal euthanasia produces better outcomes, even considering the eventual life this newborn would have had. (Singer 2011)\nThe argument’s weight rests on the quality-of-life prognosis, not on impairment as such. Even so, the newborns it identifies are largely disabled ones, which is why the position is most sharply contested among disability-rights advocates."
   },
   {
     "objectID": "chapters/07b-euthanasia-slides.html#singers-two-kinds-of-case",
     "href": "chapters/07b-euthanasia-slides.html#singers-two-kinds-of-case",
     "title": "Lecture 7 — End-of-Life Care",
     "section": "Singer’s Two Kinds of Case",
-    "text": "Singer’s Two Kinds of Case\n\nThe cases are not all alike, and the difference marks where the disagreement actually is.\n\nTay-Sachs and similar conditions. The child faces a short life of severe suffering. Here Singer’s claim that living on may be no benefit to that child draws comparatively wide sympathy. Active euthanasia may be preferable to painful “letting die.”\nDown syndrome. Singer grants such a child can have a good life. His argument then shifts ground: the parents’ preferences, plus the prospect of a different, healthier child they could raise instead, can outweigh it. This is the far more contested case."
+    "text": "Singer’s Two Kinds of Case\n\nThe cases are not all alike, and the difference marks where the disagreement actually is.\n\nTay-Sachs and similar conditions. A short life of severe suffering. Singer’s claim that living on may be no benefit to that child draws comparatively wide sympathy.\nDown syndrome. Singer grants such a child can have a good life; his argument shifts to the parents’ preferences and the healthier child they could raise instead. This is the far more contested case.\n\n\nAnd Singer presses a consistency point: many people accept late-term abortion after a prenatal Down syndrome diagnosis, and he sees no morally significant line between a fetus shortly before birth and a newborn shortly after (Singer 2011). The premise he draws out is one much of society already accepts in another form."
   },
   {
     "objectID": "chapters/07b-euthanasia-slides.html#you-already-agree-with-me",
@@ -21549,5 +21549,62 @@
     "title": "Lecture 11 — Gender, Identity & Disability",
     "section": "References",
     "text": "References\n\n\nAshley, Florence. 2019. “Thinking an Ethics of Gender Exploration: Against Delaying Transition for Transgender and Gender Creative Youth.” Clinical Child Psychology and Psychiatry 24 (2): 223–36. https://doi.org/10.1177/1359104519836462.\n\n\nCass, Hilary. 2024. The Cass Review: Independent Review of Gender Identity Services for Children and Young People — Final Report. NHS England. https://webarchive.nationalarchives.gov.uk/ukgwa/20250310143846/https://cass.independent-review.uk/home/publications/final-report/.\n\n\nFeinberg, Joel. 1980. “The Child’s Right to an Open Future.” In Whose Child? Children’s Rights, Parental Authority, and State Power, edited by William Aiken and Hugh LaFollette. Littlefield, Adams.\n\n\nGiordano, Simona. 2008. “Lives in a Chiaroscuro. Should We Suspend the Puberty of Children with Gender Identity Disorder?” Journal of Medical Ethics 34 (8): 580–84. https://doi.org/10.1136/jme.2007.021097.\n\n\nGorin, Moti. 2024. “What Is the Aim of Pediatric ‘Gender-Affirming’ Care?” Hastings Center Report 54 (3): 35–50. https://doi.org/10.1002/hast.1583.\n\n\nMcNamara, Meredithe, Anne Alstott, et al. 2024. An Evidence-Based Critique of “the Cass Review” on Gender-Affirming Care for Adolescent Gender Dysphoria. Yale School of Medicine and Yale Law School.\n\n\nPriest, Maura. 2019. “Transgender Children and the Right to Transition: Medical Ethics When Parents Mean Well but Cause Harm.” The American Journal of Bioethics 19 (2): 45–59. https://doi.org/10.1080/15265161.2018.1557276.\n\n\nSupreme Court of the United States. 2025. United States v. Skrmetti, 605 u.s. ___.\n\n\nU.S. Department of Health and Human Services. 2025. Treatment for Pediatric Gender Dysphoria: Review of Evidence and Best Practices."
+  },
+  {
+    "objectID": "chapters/07b-euthanasia.html#rachels-vs.-the-ama-1975",
+    "href": "chapters/07b-euthanasia.html#rachels-vs.-the-ama-1975",
+    "title": "Lecture 7 — End-of-Life Care",
+    "section": "3.1 Rachels vs. the AMA (1975)",
+    "text": "3.1 Rachels vs. the AMA (1975)\nThe American Medical Association’s 1975 policy captured the standard view exactly: a doctor may stop “extraordinary means” of prolonging life (passive), but “mercy killing” (active) is forbidden — because killing is in itself worse than letting die. (Rachels 1975)\nJames Rachels argued that this position is confused, and often cruel in practice.\n\nOnce we have decided a patient should die — a newborn whose treatment may permissibly be withheld — passive euthanasia can mean a slow death over days, by dehydration or infection.\nA quick lethal injection would cause less suffering. The act we permit can be worse for the patient than the act we forbid.",
+    "crumbs": [
+      "Home",
+      "7. End-of-Life Care",
+      "Part B — Euthanasia & Assisted Death"
+    ]
+  },
+  {
+    "objectID": "chapters/07b-euthanasia.html#the-bare-difference-and-its-limits",
+    "href": "chapters/07b-euthanasia.html#the-bare-difference-and-its-limits",
+    "title": "Lecture 7 — End-of-Life Care",
+    "section": "3.3 The Bare Difference — and Its Limits",
+    "text": "3.3 The Bare Difference — and Its Limits\n\n\nThe case is built so everything is the same except killing vs. letting die — same motive, same outcome, same intention. Rachels calls what is left the bare difference.\nIf killing were worse in itself, Jones would be at least a little less guilty than Smith. He is not. So the bare difference carries no moral weight on its own — and “but that would be killing” cannot, by itself, settle the euthanasia debate.\n\n\n\n\n\n\n\nImportant\n\n\n\nBe precise about the conclusion\nRachels does not show that active euthanasia is right. Consent, motive, consequences, and risk of abuse may still make killing usually worse — he denies only that the bare act-type does the work. Whether anything else can rescue the distinction is Foot’s question.",
+    "crumbs": [
+      "Home",
+      "7. End-of-Life Care",
+      "Part B — Euthanasia & Assisted Death"
+    ]
+  },
+  {
+    "objectID": "chapters/07b-euthanasia.html#morphine-sedation-and-intention",
+    "href": "chapters/07b-euthanasia.html#morphine-sedation-and-intention",
+    "title": "Lecture 7 — End-of-Life Care",
+    "section": "6.2 Morphine, Sedation, and Intention",
+    "text": "6.2 Morphine, Sedation, and Intention\nThe standard example: a dying patient in severe pain is given escalating morphine. The dose needed for comfort may also depress breathing — permissible under double effect, because the doctor intends relief and merely foresees the risk. The same act would be wrong if death were the intention and pain relief the cover.\nPalliative sedation extends the logic: sedating a dying patient — sometimes to unconsciousness — to relieve symptoms nothing else can touch.\n\nLegal and widely accepted, justified by double effect: the aim is relief, not death.\nIn its deepest form — continuous sedation to unconsciousness, often with artificial nutrition withheld — the patient never wakes and dies within days.",
+    "crumbs": [
+      "Home",
+      "7. End-of-Life Care",
+      "Part B — Euthanasia & Assisted Death"
+    ]
+  },
+  {
+    "objectID": "chapters/07b-euthanasia-slides.html#rachels-vs.-the-ama-1975",
+    "href": "chapters/07b-euthanasia-slides.html#rachels-vs.-the-ama-1975",
+    "title": "Lecture 7 — End-of-Life Care",
+    "section": "Rachels vs. the AMA (1975)",
+    "text": "Rachels vs. the AMA (1975)\nThe American Medical Association’s 1975 policy captured the standard view exactly: a doctor may stop “extraordinary means” of prolonging life (passive), but “mercy killing” (active) is forbidden — because killing is in itself worse than letting die. (Rachels 1975)\nJames Rachels argued that this position is confused, and often cruel in practice.\n\nOnce we have decided a patient should die — a newborn whose treatment may permissibly be withheld — passive euthanasia can mean a slow death over days, by dehydration or infection.\nA quick lethal injection would cause less suffering. The act we permit can be worse for the patient than the act we forbid."
+  },
+  {
+    "objectID": "chapters/07b-euthanasia-slides.html#the-bare-difference-and-its-limits",
+    "href": "chapters/07b-euthanasia-slides.html#the-bare-difference-and-its-limits",
+    "title": "Lecture 7 — End-of-Life Care",
+    "section": "The Bare Difference — and Its Limits",
+    "text": "The Bare Difference — and Its Limits\n\n\nThe case is built so everything is the same except killing vs. letting die — same motive, same outcome, same intention. Rachels calls what is left the bare difference.\nIf killing were worse in itself, Jones would be at least a little less guilty than Smith. He is not. So the bare difference carries no moral weight on its own — and “but that would be killing” cannot, by itself, settle the euthanasia debate.\n\n\n\n\n\n\n\nImportant\n\n\nBe precise about the conclusion\nRachels does not show that active euthanasia is right. Consent, motive, consequences, and risk of abuse may still make killing usually worse — he denies only that the bare act-type does the work. Whether anything else can rescue the distinction is Foot’s question."
+  },
+  {
+    "objectID": "chapters/07b-euthanasia-slides.html#morphine-sedation-and-intention",
+    "href": "chapters/07b-euthanasia-slides.html#morphine-sedation-and-intention",
+    "title": "Lecture 7 — End-of-Life Care",
+    "section": "Morphine, Sedation, and Intention",
+    "text": "Morphine, Sedation, and Intention\nThe standard example: a dying patient in severe pain is given escalating morphine. The dose needed for comfort may also depress breathing — permissible under double effect, because the doctor intends relief and merely foresees the risk. The same act would be wrong if death were the intention and pain relief the cover.\nPalliative sedation extends the logic: sedating a dying patient — sometimes to unconsciousness — to relieve symptoms nothing else can touch.\n\nLegal and widely accepted, justified by double effect: the aim is relief, not death.\nIn its deepest form — continuous sedation to unconsciousness, often with artificial nutrition withheld — the patient never wakes and dies within days."
   }
 ]
