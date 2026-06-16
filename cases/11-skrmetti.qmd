@@ -1,0 +1,140 @@
+---
+title: "United States v. Skrmetti: Gender-Affirming Care, Equal Protection, and Evidence Under Law"
+subtitle: "\"We leave questions regarding its policy to the democratic process\" — a bioethics case study"
+author: "Brendan Shea, PhD"
+date: last-modified
+---
+
+::: {.case-at-a-glance}
+- **Who:** L.W., a sixteen-year-old transgender girl from Nashville, and her parents Brian and Samantha Williams; Jonathan Skrmetti, the Attorney General of Tennessee; Chase Strangio, the ACLU lawyer who argued for the families.
+- **What:** In June 2025, the Supreme Court upheld a Tennessee law that bans puberty blockers and hormones for minors' gender transition — while leaving the same drugs legal for other uses. The vote was 6–3.
+- **Where / When:** A federal trial court in Nashville, the Sixth Circuit, and the Supreme Court, 2023–2025.
+- **Why it matters:** The case turned on [equal protection]{.key-term} and on which [standard of review]{.key-term} a court must use. It asked whether a ban that sorts patients by *purpose* really sorts them by *sex* — and how a court should rule when the medical evidence is thin and the experts disagree.
+- **Pair with:** Gender, Identity & Disability
+:::
+
+## The Case
+
+L.W. was fourteen when she first put words to what she had felt for years. She told her parents she was a girl. Brian and Samantha Williams, of Nashville, did not panic and did not rush. They took her to doctors. After careful assessment, L.W. was diagnosed with [gender dysphoria]{.key-term} and, in time, began hormone therapy. She later described the years before treatment as "real-life body horror." The medicine, she said, let her "feel normal."
+
+::: {.context-box}
+**Gender dysphoria.** This is a clinical diagnosis, not a feeling alone. In the DSM-5-TR, it names the marked distress that can come from a mismatch between a person's felt gender and their sex recorded at birth. The distress must last at least six months and must cause real impairment. Being transgender is not itself a disorder; the diagnosis treats the suffering, not the identity.
+:::
+
+Then the law changed. In March 2023, Tennessee passed Senate Bill 1, often called SB1. The law bans doctors from giving minors puberty blockers, hormones, or surgery *when the goal is gender transition*. One feature of the law would become the heart of the case. The very same drugs stay legal for other reasons. A boy with [precocious puberty]{.key-term} can still take a blocker to slow it down. A boy whose body makes too little testosterone can still take testosterone. What SB1 forbids is using those drugs to help a minor live as a gender that differs from their birth sex.
+
+::: {.context-box}
+**Precocious puberty.** This is puberty that starts far too early, sometimes at age six or seven. Doctors have paused it for decades using the same class of drugs — GnRH agonists — now debated in gender care. The drug is identical. Under SB1, only the purpose decides whether it is legal.
+:::
+
+For the Williams family, the new law meant the road. To keep L.W. on the care her doctors had prescribed, the family now had to drive out of state. Samantha Williams was bitter about what she saw as a double standard. Tennessee lawmakers had loudly defended "parental rights" during the COVID-19 school fights, she noted. Now those same lawmakers were overruling her family's medical choices. "They made this medical decision for our child," she said.
+
+The Williamses did not stay quiet. Together with two other transgender teens and their families, and a Tennessee doctor, they sued. The Biden administration joined them. A federal law lets the United States enter a private suit when it claims a state has denied [equal protection]{.key-term} of the laws.
+
+::: {.context-box}
+**The Equal Protection Clause and tiers of review.** The Fourteenth Amendment says no state may "deny to any person the equal protection of the laws." Courts do not treat every law the same. Most laws get [rational basis review]{.key-term}: the law survives if the state had any reasonable reason for it. This test is easy to pass. But laws that sort people by race get [strict scrutiny]{.key-term}, and laws that sort by sex get [intermediate scrutiny]{.key-term} — a much harder test the state usually loses. So the whole fight often becomes a single question: which test applies?
+:::
+
+The case moved up the ladder. The trial judge in Nashville blocked the law, finding it likely violated parents' rights. Then the Sixth Circuit Court of Appeals reversed. Chief Judge Jeffrey Sutton wrote that the right of parents to direct a child's medical care is not "deeply rooted in this Nation's history and tradition," the test the Supreme Court had set in an earlier case. He held that SB1 needed only rational basis review — and that it passed. Judge Helene White dissented in part. She thought the law "likely unconstitutional" as sex discrimination. The split set the stage for the Supreme Court.
+
+The argument came on December 4, 2024. It drew a crowd, in part because of who stood at the lectern. Chase Strangio, a lawyer for the ACLU, argued for the families. He is the first openly transgender person known to argue a case before the Supreme Court. Solicitor General Elizabeth Prelogar argued for the United States; she told the justices the case was about whether L.W. could simply "be a girl" in Tennessee. Matt Rice, Tennessee's solicitor general, argued for the state.
+
+There was a strange twist before the ruling came down. In February 2025, after the election, the Trump administration switched the government's side. It now told the Court that SB1 did *not* violate equal protection. But it asked the Court to rule anyway. Because oral argument was already over, the switch changed little.
+
+On June 18, 2025, the Court ruled 6–3 to uphold the law. Chief Justice John Roberts wrote for the majority. He insisted the ruling was narrow and not a verdict on transgender people. "Our role is not 'to judge the wisdom, fairness, or logic' of the law before us," he wrote, "but only to ensure that it does not violate the equal protection guarantee." Having found no violation, he closed: "We leave questions regarding its policy to the people, their elected representatives, and the democratic process."
+
+Justice Sonia Sotomayor read part of her dissent aloud, a rare move that signals deep disagreement. The Court, she wrote, "invites legislatures to engage in discrimination by hiding blatant sex classifications in plain sight." The question the case raised is easy to state and hard to answer. When a law turns the same drug on or off depending on the patient, is that a line about *purpose* — or a line about *sex*?
+
+## The Argument *Skrmetti* Started
+
+The case is worth studying not because one side is obviously right, but because both sides made serious legal arguments from the same facts. What follows is the exchange, move by move. Each step answers the one before it.
+
+### The families' argument: this is a sex line
+
+Strangio and Prelogar built their case on a simple test. Change one fact about the patient — her sex — and see if the law's answer changes. Under SB1, a patient born male may take testosterone to match a male identity. A patient born female may not take testosterone to match a male identity. Same drug, same dose, same goal of looking more masculine. The only thing that flipped the result was the sex on the birth certificate.
+
+::: {.argument}
+**The Sex-Classification Argument**
+
+1. A law classifies by sex if changing only the patient's sex changes what the law allows.
+2. Under SB1, whether a minor may receive testosterone or estrogen depends on the sex they were assigned at birth.
+3. Any law that classifies by sex must pass intermediate scrutiny, which SB1 cannot.
+4. Therefore, SB1 violates the Equal Protection Clause.
+:::
+
+The families leaned on *Bostock v. Clayton County* (2020), where the Court held that firing someone for being transgender is firing them "because of sex" under federal job law [@bostock2020]. You cannot define transgender status, they argued, without referring to sex. The disputed premise is the second one. Does the law really sort by sex — or does it sort by the *reason* the drug is given? Tennessee staked everything on saying it sorts by reason.
+
+### Tennessee's reply: this is a purpose line
+
+The state, and then the majority, denied that sex was doing the work. SB1, they said, draws two lines, and neither is sex. The first line is age: the law restricts minors, not adults. The second line is medical purpose: it allows these drugs for conditions like precocious puberty and bars them for gender transition. A transgender boy and a transgender girl are treated exactly the same — neither may transition as a minor. So, the state argued, no one is treated worse for being male or female.
+
+::: {.argument}
+**The Medical-Purpose Reply**
+
+1. A law classifies by sex only if it treats males and females differently.
+2. SB1 bans transition care for every minor, of either sex, while allowing the same drugs for other conditions for every minor, of either sex.
+3. So SB1 classifies by age and medical purpose, not by sex.
+4. Therefore, only rational basis review applies, and SB1 passes it.
+:::
+
+The soft spot here is premise 2's claim that the line is truly sex-neutral. The dissent pressed exactly there. It argued that "transition care" cannot even be described without naming sex, because the treatment a patient seeks is defined against the sex they were born with.
+
+### The dissent's counter-reply: hidden lines and a warning from history
+
+Sotomayor, joined by Justice Ketanji Brown Jackson, answered that the "purpose" framing was a magic trick. A sex line does not stop being a sex line just because a state describes it in other words. Her sharpest point came from history, and Jackson had raised it at oral argument. In *Loving v. Virginia* (1967), Virginia defended its ban on interracial marriage by saying it was not racist, because it punished the white and the Black partner equally [@loving1967]. The Court rejected that reasoning. A law can rest on race even when it falls on every race "equally."
+
+::: {.argument}
+**The *Loving* Parallel**
+
+1. In *Loving*, a law that applied to all races was still struck down as race discrimination, because the forbidden act was defined by race.
+2. SB1 applies to all sexes, but the forbidden treatment is defined by the patient's sex.
+3. Laws that hide a protected classification inside an "even-handed" rule still trigger heightened scrutiny.
+4. Therefore, SB1 should face intermediate scrutiny, which it cannot survive.
+:::
+
+This is where a concept from constitutional ethics earns its place. The point of [heightened scrutiny]{.key-term} is to protect groups that the ordinary political process tends to overlook or mistreat. To Sotomayor, retreating to rational basis "exactly where it matters most" abandoned the children the clause exists to guard. The majority's answer was not that trans youth deserve no concern. It was that courts are the wrong body to weigh contested medicine — which sets up the next move.
+
+### The reframing move: who decides a question of weak evidence?
+
+Roberts did not rest only on logic about classification. He reached for the medical record, and this is where the case meets the rest of the gender-care debate. The majority cited the **Cass Review**, the four-year independent study commissioned by England's National Health Service.
+
+::: {.context-box}
+**The Cass Review.** Led by senior pediatrician Hilary Cass, this 2024 review used systematic evidence methods from the University of York. It concluded that the evidence behind puberty blockers and hormones for minors is "remarkably weak" — small studies, short follow-up, and low certainty about long-term benefit. It did not call the treatment harmful. It called the evidence thin, and urged caution. England, Sweden, and Finland all moved toward restriction on similar grounds.
+:::
+
+Roberts drew a lesson from that uncertainty: "Recent developments only underscore the need for legislative flexibility in this area." Where evidence is contested, he argued, elected lawmakers — not judges — should set the rule. This reframes the whole case. The fight is no longer only about sex. It is about *who* decides a medical question that science has not settled.
+
+The evidence fight had a fierce subplot in the briefs. The American Academy of Pediatrics, the Endocrine Society, and other major medical groups filed briefs against the ban, calling the care necessary. On the other side, Tennessee's supporting experts drew scrutiny. *The Guardian* reported that four doctors backing the ban had been criticized by various courts as biased, and that three of them had never treated a transgender youth. Alabama, defending its own ban, filed a brief claiming that WPATH, the group that writes transgender care standards, had shaped its guidelines with an eye on lawsuits rather than pure science. Each side, in short, accused the other of dressing up values as evidence. That is the deeper puzzle the case leaves open: when the studies are weak, does the benefit of the doubt belong to the patient who wants care, or to the legislature that wants to wait?
+
+### The move that hasn't ended: the squeeze after the ruling
+
+*Skrmetti* settled one narrow question and reopened many. The Court did not rule that the bans are wise, that the treatments are harmful, or that transgender people can never be a protected class. It also left untouched the *parental rights* claim — whether the Constitution protects a parent's choice to get this care — because that question was not before it. At oral argument, Justice Amy Coney Barrett seemed open to that issue, which means the next lawsuit may look different.
+
+One concurring opinion shows how live that next question is. Justice Barrett wrote separately to argue that transgender people should *not* count as a protected class at all. A protected class, she reasoned, is usually marked by an "obvious, immutable, or distinguishing" trait like race or sex, and has faced formal, written-in-law discrimination over time. Transgender people, she argued, do not fit that mold. Sotomayor answered her directly. Anyone "searching for more evidence of de jure discrimination," she wrote, "need look no further than the present" — pointing to the expulsion of transgender service members from the military and threats to pull funding from schools that support transgender students. The two justices were not just reading history differently. They were arguing about whether the harm is past or happening now.
+
+What followed the ruling moved faster than the ruling itself. *Skrmetti* concerned state bans on care for *minors*. But Executive Order 14187, signed in January 2025, directed federally funded institutions to stop the care for patients under nineteen — past the usual age of adulthood. Federal health agencies sent hospitals warning letters. Major children's hospitals paused or ended services, including some in states where the care is fully legal. Minnesota is a refuge state, with laws meant to protect patients and providers. Yet even there, hospitals that depend on federal money felt the pressure.
+
+So the legal map is no longer a simple split between "ban states" and "shield states." Federal funding reaches across that line. *Skrmetti* handed the policy to "the democratic process" — but the democratic process now runs through courts, statehouses, and federal budget offices all at once. The sharpened question is no longer just *what should we do for a child like L.W.?* It is *who now holds the pen — and can anyone overrule them?*
+
+## Discussion Questions
+
+1. Reconstruct the **Sex-Classification Argument** and the **Medical-Purpose Reply** in your own words. They share one disputed premise: whether SB1's line is drawn by sex or by purpose. Take a side and defend it, using the actual text of the law.
+
+2. Justice Jackson compared SB1 to the interracial-marriage ban struck down in *Loving v. Virginia*. Tennessee replied that the cases are not alike. Where is the analogy strong, and where does it break down? Does the comparison persuade you?
+
+3. The majority argued that when medical evidence is weak, *legislatures* — not courts — should set the rule. Pressure-test that claim. Are there cases where weak evidence should make a court *more* protective of an individual, not less? When, and why?
+
+4. You are the nurse caring for a teen like L.W. in a Minnesota clinic. The care is legal in your state, but your hospital has paused it under federal funding pressure. The family asks what you can still do for them. What do you say, and what do you refuse to promise?
+
+5. After *Skrmetti*, federal orders reached into shield states like Minnesota and into the care of patients up to age nineteen. Was the Court right that this dispute belongs to "the democratic process," or does that phrase hide who actually holds the power now? Defend your answer using the events after the ruling.
+
+## Further Reading
+
+- Hilary Cass, *The Cass Review: Final Report* (NHS England, 2024). Read the foreword and recommendations directly; both sides quote it, and few read it.
+- ABC News, "Transgender Teen Implores Supreme Court to Strike Tennessee Gender-Affirming Care Ban" (2024) — a profile of L.W. and the Williams family in their own words.
+- The majority and dissenting opinions in *United States v. Skrmetti* (2025), which are written for non-lawyers more than most and repay a direct read.
+
+## References
+
+::: {#refs}
+:::
