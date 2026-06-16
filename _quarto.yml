@@ -98,6 +98,8 @@ website:
         contents:
           - href: chapters/11a-gender-affirming-care.qmd
             text: "Part A — Gender-Affirming Care: Deciding Under Uncertainty"
+          - href: chapters/11b-disability-identity.qmd
+            text: "Part B — Disability, Identity, and the Limits of Autonomy"
 
   page-footer:
     left: |

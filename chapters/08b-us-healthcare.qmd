@@ -42,15 +42,7 @@ The United States spends far more on health care than any nation on Earth — an
 | **Life expectancy (2023)** | **78.4 years** | **81.1 years** |
 | **Maternal deaths / 100,000** | **~17** | ~10 |
 
-We spend roughly **double** — and live nearly **three years less** [@cms_nhe2023; @oecd_hag2025]. Everything in this lecture answers one question: **why?**
-
-## After You've Discussed
-
-::: {.callout-note}
-Hold onto the gap. The US spends the most and ranks near the bottom of its peers on life expectancy, infant mortality, and maternal mortality. This is not a small inefficiency — it is the central puzzle of American health policy.
-
-And it is where Part A stops being abstract. A country that treats care as **mostly a market good** has built a system with extraordinary capabilities and extraordinary gaps. By the end you should be able to say, in the language of justice, what we are getting right and what we owe each other.
-:::
+We spend roughly **double** — and live nearly **three years less** [@cms_nhe2023; @oecd_hag2025]. This gap is not a small inefficiency — it is the central puzzle of American health policy, and where Part A stops being abstract: a country that treats care as **mostly a market good** has built a system with extraordinary capabilities and extraordinary gaps. Everything in this lecture answers one question: **why?**
 
 ## Today
 
@@ -85,7 +77,7 @@ The journalist **T. R. Reid** sorted the world's systems into **four models** by
 | **Bismarck** | private providers | regulated nonprofit **funds** (payroll) | Germany, France, Japan |
 | **Out-of-pocket** | whoever you can find | **you**, if you can pay | most low-income countries |
 
-The deepest split is **who pays**, running from "the public, for everyone" (Beveridge, NHI) to "private but tightly regulated" (Bismarck) to "you're on your own" (out-of-pocket).
+The deepest split is **who pays**, running from "the public, for everyone" (Beveridge, NHI) to "private but tightly regulated" (Bismarck) to "you're on your own" (out-of-pocket). These are **idealizations** — real countries blend at the edges — but each builds its system around **one** model and makes it coherent. Hold that thought: the United States did something no one else did.
 
 ## Beveridge vs. National Health Insurance
 
@@ -120,14 +112,6 @@ Care *and* insurance are **private** — but insurers are **nonprofit "sickness 
 No system at all: you get the care you can pay for, and go without the rest. This is the reality for most people in poor countries — and, as we'll see, for the **uninsured** in the US.
 :::
 ::::
-
-## A Caution Before We Go On
-
-::: {.callout-note}
-These four models are **idealizations**. Real countries blend at the edges — the British buy private top-up insurance, Germany has some public hospitals, Canada leaves dental and drugs largely private.
-
-But the framework holds where it matters: each country builds its system around **one** model and makes it coherent. Hold that thought — because the United States did something no one else did.
-:::
 
 # A System That Isn't One System {.section-divider}
 
@@ -174,15 +158,7 @@ This is the heart of "fragmentation." Other countries pick one model. The US run
 | Working with benefits | employer insurance | **Bismarck** | Germany |
 | Uninsured | pay or go without | **Out-of-pocket** | the developing world |
 
-A single country containing Britain, Canada, Germany, *and* the developing world — sorted by who you happen to be.
-
-## Why "Fragmented" Is Expensive, Not Just Messy
-
-Running four systems at once isn't only untidy — it has real costs.
-
-- **No coherence:** each model has its own rules, paperwork, eligibility, and incentives. Providers must bill all of them at once.
-- **Gaps at the seams:** people fall *between* models — too rich for Medicaid, too young for Medicare, no job-based plan. That's where the 26 million uninsured live.
-- **No single bargaining power:** because no one payer dominates, no one can negotiate prices the way Canada's or the UK's system can. We'll see the price consequences shortly.
+A single country containing Britain, Canada, Germany, *and* the developing world — sorted by who you happen to be. And running four systems at once isn't only untidy — it is expensive: every provider bills all of them at once (the **paperwork tax** we'll see shortly), people fall *between* models into the **gaps at the seams** where the 26 million uninsured live, and no single payer dominates enough to **negotiate prices** the way Canada or the UK can.
 
 ## Employer-Sponsored Insurance — the Core
 
@@ -268,15 +244,7 @@ digraph G {
 }
 ```
 
-Two big expansions (1965, 2010), two big failures (1948, 1994), and one unfunded promise — **EMTALA**, which since 1986 has required hospitals to screen and stabilize anyone in an emergency, regardless of ability to pay [@emtala1986].
-
-## What Changed, and What Didn't
-
-Eighty years of fights, and the core never moved.
-
-- **What changed:** the old got Medicare; the poor got Medicaid; emergencies got EMTALA; the individual market got the ACA's exchanges and protections [@aca2010].
-- **What didn't:** coverage is still built around the **employer**, and the US still has **no universal guarantee**. Every reform added a patch rather than replacing the quilt.
-- The result is the fragmented system we just mapped — and the costs we turn to now.
+Two big expansions (1965, 2010), two big failures (1948, 1994), and one unfunded promise — **EMTALA**, which since 1986 has required hospitals to screen and stabilize anyone in an emergency, regardless of ability to pay [@emtala1986]. Eighty years of fights, and the core never moved: coverage is still built around the **employer**, and the US still has **no universal guarantee** [@aca2010]. Every reform added a patch rather than replacing the quilt — leaving the fragmented system we just mapped, and the costs we turn to now.
 
 # Why So Expensive? {.section-divider}
 
@@ -412,22 +380,27 @@ These are the population-level injustices Part A's theories were built to name. 
 
 # What We're Good At, and Where We Struggle {.section-divider}
 
-## Best in the World — Genuinely
+## Best in the World — and Failing the Basics
 
-The US system has real, world-leading strengths, and an honest account has to say so.
+::: {.columns}
+::: {.column width="48%"}
+**Genuine strengths**
 
-- For complex, specialized care, US centers like the **Mayo Clinic**, **Cleveland Clinic**, and **MD Anderson** are among the best on Earth.
-- US **cancer survival** is at or near the top internationally — highest in the world for prostate cancer, top-tier for breast and colon (the CONCORD studies) [@concord].
-- The US leads in **biomedical innovation**, and the well-insured face **little or no waiting** for elective and specialty care.
-
-## Where We Struggle
-
-The same system that delivers the world's best specialty care fails on the basics.
+- For complex, specialized care, **Mayo Clinic**, **Cleveland Clinic**, and **MD Anderson** are among the best on Earth.
+- US **cancer survival** is at or near the top internationally — highest for prostate, top-tier for breast and colon (CONCORD) [@concord].
+- The US leads in **biomedical innovation**, and the well-insured face **little or no waiting** for specialty care.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**Where it fails**
 
 - **Prices** no one can see or predict; **access** gaps for tens of millions.
 - A crushing **administrative** burden.
 - **Rural hospital closures** leaving whole regions without nearby care.
 - A **life-expectancy stall** that, even after the COVID rebound, leaves the US years behind its peers.
+:::
+::::
 
 ## The Workforce Crisis
 
@@ -450,15 +423,6 @@ The system's failures land on patients *through* the workforce. Who staffs the b
 :::
 
 # Which Model Should the US Choose? {.section-divider}
-
-## The Menu, Now That You Know It
-
-Every reform debate you'll ever hear is really an argument about **which model to grow, and which to shrink**. The four are no longer abstract:
-
-- **Beveridge** — expand the VA's approach to everyone ("the NHS option").
-- **National Health Insurance** — one public insurer paying private doctors ("**Medicare for All**").
-- **Bismarck** — keep private insurers but regulate them into universal coverage (a **fully built-out ACA**, like Switzerland or Germany).
-- **Keep blending** — patch the current four-model mix without choosing.
 
 ## Choosing on Purpose: Taiwan
 

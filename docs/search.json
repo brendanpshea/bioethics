@@ -767,14 +767,14 @@
     "href": "chapters/08b-us-healthcare-slides.html#the-paradox",
     "title": "Lecture 8 — Justice and Health Care",
     "section": "The Paradox",
-    "text": "The Paradox\nThe United States spends far more on health care than any nation on Earth — and its people are not healthier for it.\n\n\n\n\nUnited States\nOECD average\n\n\n\n\nSpending per person (2023)\n~$14,570\n~$6,000–7,000\n\n\nShare of the whole economy\n17.6% of GDP\n~9–11%\n\n\nLife expectancy (2023)\n78.4 years\n81.1 years\n\n\nMaternal deaths / 100,000\n~17\n~10\n\n\n\nWe spend roughly double — and live nearly three years less (Centers for Medicare and Medicaid Services 2024; Organisation for Economic Co-operation and Development 2025). Everything in this lecture answers one question: why?"
+    "text": "The Paradox\nThe United States spends far more on health care than any nation on Earth — and its people are not healthier for it.\n\n\n\n\nUnited States\nOECD average\n\n\n\n\nSpending per person (2023)\n~$14,570\n~$6,000–7,000\n\n\nShare of the whole economy\n17.6% of GDP\n~9–11%\n\n\nLife expectancy (2023)\n78.4 years\n81.1 years\n\n\nMaternal deaths / 100,000\n~17\n~10\n\n\n\nWe spend roughly double — and live nearly three years less (Centers for Medicare and Medicaid Services 2024; Organisation for Economic Co-operation and Development 2025). This gap is not a small inefficiency — it is the central puzzle of American health policy, and where Part A stops being abstract: a country that treats care as mostly a market good has built a system with extraordinary capabilities and extraordinary gaps. Everything in this lecture answers one question: why?"
   },
   {
     "objectID": "chapters/08b-us-healthcare-slides.html#after-youve-discussed",
     "href": "chapters/08b-us-healthcare-slides.html#after-youve-discussed",
     "title": "Lecture 8 — Justice and Health Care",
     "section": "After You’ve Discussed",
-    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nHold onto the gap. The US spends the most and ranks near the bottom of its peers on life expectancy, infant mortality, and maternal mortality. This is not a small inefficiency — it is the central puzzle of American health policy.\nAnd it is where Part A stops being abstract. A country that treats care as mostly a market good has built a system with extraordinary capabilities and extraordinary gaps. By the end you should be able to say, in the language of justice, what we are getting right and what we owe each other."
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nA distinction the coverage numbers hide:\n\nUninsured means no plan at all (~8%).\nUnderinsured means you have a plan, but its deductibles and cost-sharing are so high that you still can’t afford care or get wiped out by a bill.\n\nTens of millions are underinsured. “92.5% covered” can hide people who skip prescriptions, avoid the ER, or go bankrupt anyway. Health economists call the bankrupting effect financial toxicity — when the treatment for the bill becomes its own illness."
   },
   {
     "objectID": "chapters/08b-us-healthcare-slides.html#today",
@@ -795,7 +795,7 @@
     "href": "chapters/08b-us-healthcare-slides.html#the-four-models",
     "title": "Lecture 8 — Justice and Health Care",
     "section": "The Four Models",
-    "text": "The Four Models\n\n\n\n\n\n\n\n\n\nModel\nWho delivers\nWho pays\nWhere you’ll find it\n\n\n\n\nBeveridge\ngovernment owns it\ngovernment (taxes)\nUK (NHS), Spain, Cuba\n\n\nNational Health Insurance\nprivate providers\none government insurer\nCanada, Taiwan\n\n\nBismarck\nprivate providers\nregulated nonprofit funds (payroll)\nGermany, France, Japan\n\n\nOut-of-pocket\nwhoever you can find\nyou, if you can pay\nmost low-income countries\n\n\n\nThe deepest split is who pays, running from “the public, for everyone” (Beveridge, NHI) to “private but tightly regulated” (Bismarck) to “you’re on your own” (out-of-pocket)."
+    "text": "The Four Models\n\n\n\n\n\n\n\n\n\nModel\nWho delivers\nWho pays\nWhere you’ll find it\n\n\n\n\nBeveridge\ngovernment owns it\ngovernment (taxes)\nUK (NHS), Spain, Cuba\n\n\nNational Health Insurance\nprivate providers\none government insurer\nCanada, Taiwan\n\n\nBismarck\nprivate providers\nregulated nonprofit funds (payroll)\nGermany, France, Japan\n\n\nOut-of-pocket\nwhoever you can find\nyou, if you can pay\nmost low-income countries\n\n\n\nThe deepest split is who pays, running from “the public, for everyone” (Beveridge, NHI) to “private but tightly regulated” (Bismarck) to “you’re on your own” (out-of-pocket). These are idealizations — real countries blend at the edges — but each builds its system around one model and makes it coherent. Hold that thought: the United States did something no one else did."
   },
   {
     "objectID": "chapters/08b-us-healthcare-slides.html#beveridge-vs.-national-health-insurance",
@@ -837,7 +837,7 @@
     "href": "chapters/08b-us-healthcare-slides.html#the-us-runs-all-four-models-at-once",
     "title": "Lecture 8 — Justice and Health Care",
     "section": "The US Runs All Four Models at Once",
-    "text": "The US Runs All Four Models at Once\nThis is the heart of “fragmentation.” Other countries pick one model. The US runs all four simultaneously — and which one you live under depends on your age, job, income, and luck (Reid 2009).\n\n\n\n\n\n\n\n\n\nIf you are…\nYour coverage\n…is really this model\n…like which country\n\n\n\n\nA veteran (VA)\ngovernment hospitals\nBeveridge\nthe UK\n\n\n65 or older\nMedicare\nNational Health Insurance\nCanada\n\n\nWorking with benefits\nemployer insurance\nBismarck\nGermany\n\n\nUninsured\npay or go without\nOut-of-pocket\nthe developing world\n\n\n\nA single country containing Britain, Canada, Germany, and the developing world — sorted by who you happen to be."
+    "text": "The US Runs All Four Models at Once\nThis is the heart of “fragmentation.” Other countries pick one model. The US runs all four simultaneously — and which one you live under depends on your age, job, income, and luck (Reid 2009).\n\n\n\n\n\n\n\n\n\nIf you are…\nYour coverage\n…is really this model\n…like which country\n\n\n\n\nA veteran (VA)\ngovernment hospitals\nBeveridge\nthe UK\n\n\n65 or older\nMedicare\nNational Health Insurance\nCanada\n\n\nWorking with benefits\nemployer insurance\nBismarck\nGermany\n\n\nUninsured\npay or go without\nOut-of-pocket\nthe developing world\n\n\n\nA single country containing Britain, Canada, Germany, and the developing world — sorted by who you happen to be. And running four systems at once isn’t only untidy — it is expensive: every provider bills all of them at once (the paperwork tax we’ll see shortly), people fall between models into the gaps at the seams where the 26 million uninsured live, and no single payer dominates enough to negotiate prices the way Canada or the UK can."
   },
   {
     "objectID": "chapters/08b-us-healthcare-slides.html#why-fragmented-is-expensive-not-just-messy",
@@ -893,7 +893,7 @@
     "href": "chapters/08b-us-healthcare-slides.html#a-short-history-1945today",
     "title": "Lecture 8 — Justice and Health Care",
     "section": "A Short History, 1945–Today",
-    "text": "A Short History, 1945–Today\n\n\n\n\n\n\n\nG\n\n\n\na\n\n1948\nTruman's national\nplan fails\n\n\n\nb\n\n1965\nMedicare &\nMedicaid\n\n\n\na-&gt;b\n\n\n\n\n\nc\n\n1986\nEMTALA:\nERs must treat\n\n\n\nb-&gt;c\n\n\n\n\n\nd\n\n1994\nClinton plan\nfails\n\n\n\nc-&gt;d\n\n\n\n\n\ne\n\n2003\nMedicare\nPart D (drugs)\n\n\n\nd-&gt;e\n\n\n\n\n\nf\n\n2010\nACA: exchanges,\nMedicaid expansion\n\n\n\ne-&gt;f\n\n\n\n\n\n\n\n\n\n\nTwo big expansions (1965, 2010), two big failures (1948, 1994), and one unfunded promise — EMTALA, which since 1986 has required hospitals to screen and stabilize anyone in an emergency, regardless of ability to pay (United States Congress 1986)."
+    "text": "A Short History, 1945–Today\n\n\n\n\n\n\n\nG\n\n\n\na\n\n1948\nTruman's national\nplan fails\n\n\n\nb\n\n1965\nMedicare &\nMedicaid\n\n\n\na-&gt;b\n\n\n\n\n\nc\n\n1986\nEMTALA:\nERs must treat\n\n\n\nb-&gt;c\n\n\n\n\n\nd\n\n1994\nClinton plan\nfails\n\n\n\nc-&gt;d\n\n\n\n\n\ne\n\n2003\nMedicare\nPart D (drugs)\n\n\n\nd-&gt;e\n\n\n\n\n\nf\n\n2010\nACA: exchanges,\nMedicaid expansion\n\n\n\ne-&gt;f\n\n\n\n\n\n\n\n\n\n\nTwo big expansions (1965, 2010), two big failures (1948, 1994), and one unfunded promise — EMTALA, which since 1986 has required hospitals to screen and stabilize anyone in an emergency, regardless of ability to pay (United States Congress 1986). Eighty years of fights, and the core never moved: coverage is still built around the employer, and the US still has no universal guarantee (United States Congress 2010). Every reform added a patch rather than replacing the quilt — leaving the fragmented system we just mapped, and the costs we turn to now."
   },
   {
     "objectID": "chapters/08b-us-healthcare-slides.html#what-changed-and-what-didnt",
@@ -21606,5 +21606,746 @@
     "title": "Lecture 7 — End-of-Life Care",
     "section": "Morphine, Sedation, and Intention",
     "text": "Morphine, Sedation, and Intention\nThe standard example: a dying patient in severe pain is given escalating morphine. The dose needed for comfort may also depress breathing — permissible under double effect, because the doctor intends relief and merely foresees the risk. The same act would be wrong if death were the intention and pain relief the cover.\nPalliative sedation extends the logic: sedating a dying patient — sometimes to unconsciousness — to relieve symptoms nothing else can touch.\n\nLegal and widely accepted, justified by double effect: the aim is relief, not death.\nIn its deepest form — continuous sedation to unconsciousness, often with artificial nutrition withheld — the patient never wakes and dies within days."
+  },
+  {
+    "objectID": "chapters/08b-us-healthcare-slides.html#best-in-the-world-and-failing-the-basics",
+    "href": "chapters/08b-us-healthcare-slides.html#best-in-the-world-and-failing-the-basics",
+    "title": "Lecture 8 — Justice and Health Care",
+    "section": "Best in the World — and Failing the Basics",
+    "text": "Best in the World — and Failing the Basics\n\n\nGenuine strengths\n\nFor complex, specialized care, Mayo Clinic, Cleveland Clinic, and MD Anderson are among the best on Earth.\nUS cancer survival is at or near the top internationally — highest for prostate, top-tier for breast and colon (CONCORD) (Allemani et al. 2018).\nThe US leads in biomedical innovation, and the well-insured face little or no waiting for specialty care.\n\n\n\n\nWhere it fails\n\nPrices no one can see or predict; access gaps for tens of millions.\nA crushing administrative burden.\nRural hospital closures leaving whole regions without nearby care.\nA life-expectancy stall that, even after the COVID rebound, leaves the US years behind its peers."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html",
+    "href": "chapters/11b-disability-identity.html",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "",
+    "text": "You are the nurse admitting Daniel, 34, who broke his neck in a diving accident four years ago. He is paralyzed from the chest down and uses a power wheelchair. On the intake form, under quality of life, 0–10, you have to record your clinical impression before you’ve really talked to him.\nPicture his life. Then write a number.\n\nWhat number did you put — and what was it based on?\nWhen Daniel fills out the same scale himself an hour later, do you expect his number to be higher than yours, lower, or the same?\nIf his is much higher, which of you is wrong?\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nMost clinicians put a low number. Most patients like Daniel put a high one — and the gap is large and well-documented. Hold onto that gap; it is the empirical fact this whole lecture turns on.\nBut notice what the gap does not settle. It tells us our predictions are off. It does not tell us whether disability is, in itself, something bad that happens to be survivable — or simply a different way of having a body. Those are two different claims, and most of today is about keeping them apart.\n\n\n\n\n\n\nBy the end of Part B, you will be able to:\n\nDistinguish the medical, social, and interactional models of disability, and apply each to a concrete case.\nState the disability paradox (Albrecht & Devlieger), explain why it matters at the bedside, and name its contested edges.\nLay out the mere-difference (Barnes) vs. bad-difference (Bognar) dispute and use a commitments map to track what each view implies — without deciding who is right.\nExplain the expressivist objection to selective abortion (Asch) and the deaf-embryo-selection problem.\nMap the body integrity dysphoria debate and evaluate, by named argument, whether it is analogous to gender dysphoria.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#a-case-to-sit-with",
+    "href": "chapters/11b-disability-identity.html#a-case-to-sit-with",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "",
+    "text": "You are the nurse admitting Daniel, 34, who broke his neck in a diving accident four years ago. He is paralyzed from the chest down and uses a power wheelchair. On the intake form, under quality of life, 0–10, you have to record your clinical impression before you’ve really talked to him.\nPicture his life. Then write a number.\n\nWhat number did you put — and what was it based on?\nWhen Daniel fills out the same scale himself an hour later, do you expect his number to be higher than yours, lower, or the same?\nIf his is much higher, which of you is wrong?",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#after-youve-discussed",
+    "href": "chapters/11b-disability-identity.html#after-youve-discussed",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "",
+    "text": "Note\n\n\n\nMost clinicians put a low number. Most patients like Daniel put a high one — and the gap is large and well-documented. Hold onto that gap; it is the empirical fact this whole lecture turns on.\nBut notice what the gap does not settle. It tells us our predictions are off. It does not tell us whether disability is, in itself, something bad that happens to be survivable — or simply a different way of having a body. Those are two different claims, and most of today is about keeping them apart.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#today",
+    "href": "chapters/11b-disability-identity.html#today",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "",
+    "text": "By the end of Part B, you will be able to:\n\nDistinguish the medical, social, and interactional models of disability, and apply each to a concrete case.\nState the disability paradox (Albrecht & Devlieger), explain why it matters at the bedside, and name its contested edges.\nLay out the mere-difference (Barnes) vs. bad-difference (Bognar) dispute and use a commitments map to track what each view implies — without deciding who is right.\nExplain the expressivist objection to selective abortion (Asch) and the deaf-embryo-selection problem.\nMap the body integrity dysphoria debate and evaluate, by named argument, whether it is analogous to gender dysphoria.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#the-same-person-three-lenses",
+    "href": "chapters/11b-disability-identity.html#the-same-person-three-lenses",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "2.1 The Same Person, Three Lenses",
+    "text": "2.1 The Same Person, Three Lenses\nBefore we argue about whether disability is bad, we have to settle a prior question that sounds simple and isn’t: what is a disability? Where, exactly, does the problem live? Three serious answers have shaped law, medicine, and activism — and they disagree about that one word, where.\n\n\n\n\n\n\n\n\nModel\nWhere the problem lives\nThe fix it points to\n\n\n\n\nMedical\nin the body — a deficit to diagnose\ncure, correct, rehabilitate the person\n\n\nSocial\nin the environment — barriers and design\nchange the world, not the body\n\n\nInteractional\nin the meeting of body and world\nboth, weighed case by case\n\n\n\nWe’ll take each in turn, because the choice between them quietly settles a lot of bedside decisions before anyone notices a choice was made.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#a-wheelchair-and-a-flight-of-stairs",
+    "href": "chapters/11b-disability-identity.html#a-wheelchair-and-a-flight-of-stairs",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "2.4 A Wheelchair and a Flight of Stairs",
+    "text": "2.4 A Wheelchair and a Flight of Stairs\n\n\n\n\n\n\n\nG\n\n\n\nbody\n\nUses a\nwheelchair\n\n\n\nstairs\n\nBuilding has\nonly stairs\n\n\n\nbody-&gt;stairs\n\n\n\n\n\nramp\n\nBuilding has\na ramp\n\n\n\nbody-&gt;ramp\n\n\n\n\n\nout1\n\nCannot enter\n= disabled\n\n\n\nstairs-&gt;out1\n\n\n\n\n\nout2\n\nEnters freely\n= not disabled\n\n\n\nramp-&gt;out2\n\n\n\n\n\n\n\n\n\n\nSame body, two buildings, opposite outcomes. The social model’s point is in this picture: the wheelchair didn’t change between the two rows — the building did.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#shakespeares-both-position",
+    "href": "chapters/11b-disability-identity.html#shakespeares-both-position",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "2.5 Shakespeare’s “Both” Position",
+    "text": "2.5 Shakespeare’s “Both” Position\nThe pure social model overreaches, and Tom Shakespeare says so from inside the movement (Shakespeare 2006). Build every ramp in the world and a degenerative condition still brings pain, fatigue, and shortened life that no ramp touches.\n\nHis interactional model: disability is real and it is relational — produced where a particular body meets a particular world.\nSome of the burden is social and removable (the stairs). Some is intrinsic and stays (the pain).\nThe honest question is never “body or world?” but how much of this burden is which — and that answer changes case by case.\n\nThis is the position we’ll carry forward: it refuses both “just cure them” and “disability is purely a social construct.”",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#the-disability-paradox",
+    "href": "chapters/11b-disability-identity.html#the-disability-paradox",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "3.1 The Disability Paradox",
+    "text": "3.1 The Disability Paradox\nIn 1999 Gary Albrecht and Patrick Devlieger interviewed people with serious and persistent disabilities — and found that a majority reported a good or excellent quality of life (Albrecht and Devlieger 1999). Outsiders, including health professionals, consistently predict the opposite.\n\nThe “paradox” is only paradoxical from the outside: it confounds people who imagine the disability without imagining the life around it.\nMechanisms include adaptation (people adjust), response shift (what counts as a good day rescales), and relationships, work, and meaning that the diagnosis never mentions.\nFor a nurse, the load-bearing takeaway is blunt: your quality-of-life predictions about disabled patients are systematically miscalibrated — and those predictions quietly drive triage, counseling, and end-of-life conversations.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#dont-over-read-it",
+    "href": "chapters/11b-disability-identity.html#dont-over-read-it",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "3.3 Don’t Over-Read It",
+    "text": "3.3 Don’t Over-Read It\n\nWhere the paradox has critics\nThe finding is robust but not a trump card. Skeptics argue that adaptation can mask genuine deprivation — a person can rescale “a good day” downward and report contentment while still being worse off on things that matter. Others note selection and reporting effects in who answers such surveys.\nSo the paradox proves our predictions are unreliable. It does not, by itself, prove disability is no loss at all. Keep that distinction — the next debate runs straight through it.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#the-dispute",
+    "href": "chapters/11b-disability-identity.html#the-dispute",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "4.1 The Dispute",
+    "text": "4.1 The Dispute\nHere is the question the rest of the lecture orbits: is disability bad in itself, or only bad because of how the world is arranged?\n\n\nMere difference (Elizabeth Barnes). Disability is a difference, like being gay or left-handed — not in itself a harm (Barnes 2016). It can carry goods (community, perspective, skills) and its burdens are largely social. The disability paradox is her evidence: ask disabled people, and they’re not living tragedies.\n\n\n\nBad difference (Greg Bognar and others). Disability is, on balance, a genuine bad — something we have reason to prevent and treat, even in a perfectly just society (Bognar 2016). Adaptation explains the high self-reports without showing nothing was lost. A just world removes the stairs; it doesn’t remove the condition.\n\n\nBoth sides accept the paradox data. They disagree about what it shows.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#a-map-not-a-scoreboard",
+    "href": "chapters/11b-disability-identity.html#a-map-not-a-scoreboard",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "4.2 A Map, Not a Scoreboard",
+    "text": "4.2 A Map, Not a Scoreboard\n\n\n\n\n\n\nImportant\n\n\n\nWe are going to track these two views across three hard cases. This is not a scoreboard — no view earns points, and no case gets “decided” here. It is a commitments map: each cell records what a view would say, so you can see what holding it consistently costs you.\nThe work isn’t done when the grid is full. The grid is where the discussion starts — because reading down a column shows whether a view can hold its nerve across every case, and reading across a row shows how much your verdict depends on a premise you chose back here.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#the-commitments-map-empty",
+    "href": "chapters/11b-disability-identity.html#the-commitments-map-empty",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "4.3 The Commitments Map (empty)",
+    "text": "4.3 The Commitments Map (empty)\n\n\n\nCase\nMere difference would say…\nBad difference would say…\n\n\n\n\nSelective abortion after NIPT\n(we’ll fill this in)\n\n\n\nDeaf embryo selection\n\n\n\n\nBody integrity dysphoria\n\n\n\n\n\nNotice there is no third column for “the right answer.” There isn’t one yet — that’s the point.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#the-expressivist-objection",
+    "href": "chapters/11b-disability-identity.html#the-expressivist-objection",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "5.1 The Expressivist Objection",
+    "text": "5.1 The Expressivist Objection\nPrenatal screening lets parents test for conditions like Down syndrome and choose to end the pregnancy. Adrienne Asch — a bioethicist who was herself blind — pressed the expressivist objection (Asch 1999): selecting against a trait says something about people who live with it.\n\nThe claim: aborting because of a disability expresses the judgment that such lives are not worth living — a message aimed at every disabled person already here.\nWhat it is not: Asch did not argue for banning abortion, and not against reproductive choice as such. Her target was the informational frame — testing presented as routine, with disability described only as a list of deficits.\nHer constructive demand: if you’re going to offer the test, offer an honest picture of the life, not just the diagnosis.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#the-replies",
+    "href": "chapters/11b-disability-identity.html#the-replies",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "5.3 The Replies",
+    "text": "5.3 The Replies\nThe objection is contested, and the replies are serious:\n\nThe “any-particular-child” reply. A choice not to have this pregnancy need not be a verdict on existing people — declining a child with a trait isn’t the same as declaring those who have it unwelcome.\nWhose message? Even if some choices express something, it’s the surrounding attitudes and information, not the bare act, that carry the meaning.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#the-case-where-the-spines-cross",
+    "href": "chapters/11b-disability-identity.html#the-case-where-the-spines-cross",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "6.1 The Case Where the Spines Cross",
+    "text": "6.1 The Case Where the Spines Cross\nEmbryo selection (via IVF and genetic testing) usually screens conditions out. But some Deaf couples — who experience Deafness as a culture and a language, not a loss — have sought to select a Deaf child in. This is the case where our two threads collide head-on.\n\nIf disability is mere difference, selecting for Deafness looks like selecting for any other trait a family values — coherent, even unremarkable.\nIf disability is bad difference, the parents are choosing a worse-off life for a child who can’t consent — and a principle of procreative beneficence would forbid it.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#thought-question",
+    "href": "chapters/11b-disability-identity.html#thought-question",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "6.3 Thought Question",
+    "text": "6.3 Thought Question\n\nA Deaf couple comes to your fertility clinic. Both are fluent in ASL, deeply embedded in Deaf community, and they ask the embryologist to select an embryo that will be Deaf — the same way another couple might hope for a child who shares their language.\nYou are on the clinic’s ethics committee.\n\nIs selecting for Deafness different, morally, from selecting against it? Or are they the same act in two directions?\nDoes the future child’s inability to consent change who should decide?\nCould you write a clinic policy that lets parents select out but not in — and defend it without assuming the answer to today’s whole debate?",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#after-youve-discussed-1",
+    "href": "chapters/11b-disability-identity.html#after-youve-discussed-1",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "6.4 After You’ve Discussed",
+    "text": "6.4 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nA distinction the cases above never named: welfarist vs. perfectionist reasons. A welfarist asks only whether the child’s life goes well for the child; a perfectionist asks whether a capacity (hearing) is objectively worth having regardless of how content its absence leaves you.\nMost “select out but not in” policies quietly smuggle in a perfectionist premise — that hearing is better, full stop — while presenting themselves as neutral. Seeing that doesn’t tell you the policy is wrong. It tells you where its real commitment is hiding.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#body-integrity-dysphoria",
+    "href": "chapters/11b-disability-identity.html#body-integrity-dysphoria",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "7.1 Body Integrity Dysphoria",
+    "text": "7.1 Body Integrity Dysphoria\nSome people experience a persistent, distressing sense that a healthy limb is not theirs and should be removed. Long called BIID, it now has a formal name in the WHO’s classification: body integrity dysphoria (ICD-11). It pushes respect for autonomy to its edge.\n\n\n\n\n\n\nImportant\n\n\n\nThe Robert Smith case (Falkirk, Scotland, late 1990s)\nSurgeon Robert Smith amputated the healthy legs of two patients who had sought the operation for years and reported relief afterward. When the cases became public, the hospital stopped the practice; no further such amputations were permitted. Michael First’s later study of similar patients found their desire was stable, specific, and long-standing — not a delusion or a passing wish (First 2005).\nThe open question the case leaves: when a competent adult calmly and persistently asks to remove a healthy part of their own body, what does respect for autonomy actually require?",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#what-autonomy-might-require",
+    "href": "chapters/11b-disability-identity.html#what-autonomy-might-require",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "7.2 What Autonomy Might Require",
+    "text": "7.2 What Autonomy Might Require\nTim Bayne and Neil Levy argue the autonomy case deserves to be taken seriously (Bayne and Levy 2005). Their argument tracks the same form we used to defend other contested bodily choices.\n\n\nThe Autonomy Argument for Amputation\n\n\nAfter Tim Bayne and Neil Levy, “Amputees by Choice” (2005)\n\n\nA competent adult’s settled, informed request about their own body should normally be honored, even when others find the choice strange or mistaken.\nThe desire in body integrity dysphoria is competent, settled, and informed — stable for decades, specific, not a delusion (First’s finding).\nSurgery reliably relieves the distress, and no other treatment reliably does.\nSo refusing the amputation, not performing it, is what fails to respect the patient.\n\n\n(Bayne and Levy 2005)\nThe pushback lands on P1 and P3: removing healthy tissue may exceed what a physician’s role permits however settled the request, and “no other treatment works” is an evidential claim that is far from settled. Whether autonomy here is decisive or overridden is the open question the Falkirk hospital answered with a flat no.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#why-this-needs-to-be-done-out-loud",
+    "href": "chapters/11b-disability-identity.html#why-this-needs-to-be-done-out-loud",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "8.1 Why This Needs to Be Done Out Loud",
+    "text": "8.1 Why This Needs to Be Done Out Loud\nThe moment you put body integrity dysphoria next to gender dysphoria, someone draws an analogy — and someone else calls it offensive. We will do neither by insinuation. We will map the argument and then test it.\nThe structure both sides share: a persistent, distressing mismatch between an experienced sense of the body and the body as it is, where the patient seeks to change the body rather than the mind.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#thought-question-1",
+    "href": "chapters/11b-disability-identity.html#thought-question-1",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "8.2 Thought Question",
+    "text": "8.2 Thought Question\n\nYou sit on a hospital ethics board. A colleague argues: “Body integrity dysphoria and gender dysphoria have the same shape — distress at a bodily feature, a request to alter the body, relief when we do. If we accommodate one, consistency demands we treat them alike.”\nAnother colleague answers: “Same shape, different substance. The analogy is a rhetorical trap.”\n\nState the strongest version of the analogy in one sentence.\nState the strongest disanalogy in one sentence.\nDoes the argument turn on logic, or on evidence? Where exactly?",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#make-it-contemporary",
+    "href": "chapters/11b-disability-identity.html#make-it-contemporary",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "8.3 Make It Contemporary",
+    "text": "8.3 Make It Contemporary\n\nThis isn’t hypothetical. Critics of gender-affirming care have published the BID analogy in bioethics journals; clinicians and ethicists have published replies drawing disanalogies — differences in the evidence of benefit, in diagnostic and outcome data, and in how each condition is classified.\nPull up your own field’s stance: how does nursing or medicine currently distinguish a body-modifying treatment it endorses from one it refuses? Is the line drawn by evidence, by diagnosis, or by something less explicit?",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#after-youve-discussed-2",
+    "href": "chapters/11b-disability-identity.html#after-youve-discussed-2",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "8.4 After You’ve Discussed",
+    "text": "8.4 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nThe distinction that resolves most of the heat: structural analogy vs. evidential analogy.\nTwo conditions can share a structure (distress → request to alter body → relief) while differing entirely in their evidence base (how large the outcome studies are, how reversible the intervention, how the diagnosis behaves over time). An argument that rides the structural likeness all the way to “treat them identically” has skipped the evidential question — which is exactly the question that does the real work.\nSo the analogy isn’t simply true or false. It holds at the level of form and may break at the level of evidence — and pointing that out is analysis, not insult.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#the-commitments-map-filled",
+    "href": "chapters/11b-disability-identity.html#the-commitments-map-filled",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "10.1 The Commitments Map (filled)",
+    "text": "10.1 The Commitments Map (filled)\n\n\n\n\n\n\n\n\nCase\nMere difference would say…\nBad difference would say…\n\n\n\n\nSelective abortion (NIPT)\nscreening framed as tragedy rests on a false premise\na real loss may be prevented, but the message still warrants care\n\n\nDeaf embryo selection\nselecting for Deafness is coherent, like any valued trait\nchoosing a worse-off life for a non-consenting child\n\n\nBody integrity dysphoria\na settled identity claim deserving accommodation\ndistress to be treated, not a difference to affirm\n\n\n\nRead down a column: can either view hold its nerve across all three? Read across a row: notice how much your verdict was fixed by a premise you picked early. The map didn’t decide anything — it showed you where your decision actually lives.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#wrap-up",
+    "href": "chapters/11b-disability-identity.html#wrap-up",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "10.2 Wrap-Up",
+    "text": "10.2 Wrap-Up\n\nWe began with a gap: clinicians predict low quality of life for disabled patients; patients report high. That disability paradox unsettles the bedside but settles no philosophy — it leaves open whether disability is a mere difference or a bad difference. We tracked that live dispute across selective abortion, Deaf embryo selection, and body integrity dysphoria, and we tested the BID–gender-dysphoria analogy by mapping it rather than asserting it. The threads stay open on purpose. What’s earned is sharper: the disagreements are about premises and evidence, not about who cares more.\nTwo one-line callbacks worth holding: the disability-rights critique of assisted dying (Harriet McBryde Johnson against Peter Singer (Johnson 2003)) is this same dispute in a different room; and Feinberg’s open future, claimed by every side, runs under all of it.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#review-questions",
+    "href": "chapters/11b-disability-identity.html#review-questions",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "10.3 Review Questions",
+    "text": "10.3 Review Questions\n\n\nRecall\nState the medical, social, and interactional models of disability in one sentence each, and say where each locates “the problem.”\n\n\nApply\nA hospital is designing a survey that asks nurses to rate incoming patients’ quality of life. Using the disability paradox, name one concrete way this could harm disabled patients — and one safeguard you’d build in.\n\n\nDebate\nShould a fertility clinic be allowed to let parents select embryos against a disability but not for one? Defend your answer without assuming disability is bad-difference or mere-difference from the start.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#key-terms",
+    "href": "chapters/11b-disability-identity.html#key-terms",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "10.4 Key Terms",
+    "text": "10.4 Key Terms\n\nMedical model — disability as a deficit located in the body, to be cured or corrected.\nSocial model — disability as produced by a disabling environment, not the body.\nInteractional model — Shakespeare’s view: disability arises where a particular body meets a particular world; some burden is removable, some intrinsic.\nDisability paradox — disabled people report quality of life far higher than outsiders, including clinicians, predict.\nMere difference — Barnes’s view that disability is a difference, not in itself a harm.\nBad difference — the view that disability is, on balance, a genuine bad worth preventing even in a just world.\nExpressivist objection — Asch’s argument that selecting against a disability expresses a judgment about people who live with it.\nProcreative beneficence — Savulescu’s principle that, when choosing among possible children, parents have reason to choose the one expected to have the best life.\nImpairment vs. disability — the social model’s split: impairment is a bodily feature; disability is what a society does to people who have it.\nBody integrity dysphoria — ICD-11 condition: persistent distress that a healthy limb is not one’s own, with a desire for its removal.\nDiagnostic overshadowing — attributing a disabled patient’s new symptoms to their existing disability instead of investigating them as in anyone else.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#further-reading",
+    "href": "chapters/11b-disability-identity.html#further-reading",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "10.5 Further Reading",
+    "text": "10.5 Further Reading\n\nBarnes, Elizabeth. The Minority Body: A Theory of Disability. Oxford University Press, 2016.\nShakespeare, Tom. Disability Rights and Wrongs Revisited. Routledge, 2014.\nJohnson, Harriet McBryde. “Unspeakable Conversations.” The New York Times Magazine, 2003.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#references",
+    "href": "chapters/11b-disability-identity.html#references",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "10.6 References",
+    "text": "10.6 References\n\n\nAlbrecht, Gary L., and Patrick J. Devlieger. 1999. “The Disability Paradox: High Quality of Life Against All Odds.” Social Science & Medicine 48 (8): 977–88.\n\n\nAsch, Adrienne. 1999. “Prenatal Diagnosis and Selective Abortion: A Challenge to Practice and Policy.” American Journal of Public Health 89 (11): 1649–57.\n\n\nBarnes, Elizabeth. 2016. The Minority Body: A Theory of Disability. Oxford University Press.\n\n\nBayne, Tim, and Neil Levy. 2005. “Amputees by Choice: Body Integrity Identity Disorder and the Ethics of Amputation.” Journal of Applied Philosophy 22 (1): 75–86.\n\n\nBognar, Greg. 2016. “Is Disability Mere Difference?” Journal of Medical Ethics 42 (1): 46–49.\n\n\nFirst, Michael B. 2005. “Desire for Amputation of a Limb: Paraphilia, Psychosis, or a New Type of Identity Disorder.” Psychological Medicine 35 (6): 919–28.\n\n\nIezzoni, Lisa I., Sowmya R. Rao, Julie Ressalam, et al. 2021. “Physicians’ Perceptions of People with Disability and Their Health Care.” Health Affairs 40 (2): 297–306.\n\n\nJohnson, Harriet McBryde. 2003. “Unspeakable Conversations.” The New York Times Magazine. https://www.nytimes.com/2003/02/16/magazine/unspeakable-conversations.html.\n\n\nSavulescu, Julian. 2001. “Procreative Beneficence: Why We Should Select the Best Children.” Bioethics 15 (5–6): 413–26. https://doi.org/10.1111/1467-8519.00251.\n\n\nShakespeare, Tom. 2006. Disability Rights and Wrongs. Routledge.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#a-case-to-sit-with",
+    "href": "chapters/11b-disability-identity-slides.html#a-case-to-sit-with",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "A Case to Sit With",
+    "text": "A Case to Sit With\n\nYou are the nurse admitting Daniel, 34, who broke his neck in a diving accident four years ago. He is paralyzed from the chest down and uses a power wheelchair. On the intake form, under quality of life, 0–10, you have to record your clinical impression before you’ve really talked to him.\nPicture his life. Then write a number.\n\nWhat number did you put — and what was it based on?\nWhen Daniel fills out the same scale himself an hour later, do you expect his number to be higher than yours, lower, or the same?\nIf his is much higher, which of you is wrong?"
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#after-youve-discussed",
+    "href": "chapters/11b-disability-identity-slides.html#after-youve-discussed",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nMost clinicians put a low number. Most patients like Daniel put a high one — and the gap is large and well-documented. Hold onto that gap; it is the empirical fact this whole lecture turns on.\nBut notice what the gap does not settle. It tells us our predictions are off. It does not tell us whether disability is, in itself, something bad that happens to be survivable — or simply a different way of having a body. Those are two different claims, and most of today is about keeping them apart."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#today",
+    "href": "chapters/11b-disability-identity-slides.html#today",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "Today",
+    "text": "Today\n\nBy the end of Part B, you will be able to:\n\nDistinguish the medical, social, and interactional models of disability, and apply each to a concrete case.\nState the disability paradox (Albrecht & Devlieger), explain why it matters at the bedside, and name its contested edges.\nLay out the mere-difference (Barnes) vs. bad-difference (Bognar) dispute and use a commitments map to track what each view implies — without deciding who is right.\nExplain the expressivist objection to selective abortion (Asch) and the deaf-embryo-selection problem.\nMap the body integrity dysphoria debate and evaluate, by named argument, whether it is analogous to gender dysphoria."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#the-same-person-three-lenses",
+    "href": "chapters/11b-disability-identity-slides.html#the-same-person-three-lenses",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "The Same Person, Three Lenses",
+    "text": "The Same Person, Three Lenses\nBefore we argue about whether disability is bad, we have to settle a prior question that sounds simple and isn’t: what is a disability? Where, exactly, does the problem live? Three serious answers have shaped law, medicine, and activism — and they disagree about that one word, where.\n\n\n\n\n\n\n\n\nModel\nWhere the problem lives\nThe fix it points to\n\n\n\n\nMedical\nin the body — a deficit to diagnose\ncure, correct, rehabilitate the person\n\n\nSocial\nin the environment — barriers and design\nchange the world, not the body\n\n\nInteractional\nin the meeting of body and world\nboth, weighed case by case\n\n\n\nWe’ll take each in turn, because the choice between them quietly settles a lot of bedside decisions before anyone notices a choice was made."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#a-wheelchair-and-a-flight-of-stairs",
+    "href": "chapters/11b-disability-identity-slides.html#a-wheelchair-and-a-flight-of-stairs",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "A Wheelchair and a Flight of Stairs",
+    "text": "A Wheelchair and a Flight of Stairs\n\n\n\n\n\n\n\nG\n\n\n\nbody\n\nUses a\nwheelchair\n\n\n\nstairs\n\nBuilding has\nonly stairs\n\n\n\nbody-&gt;stairs\n\n\n\n\n\nramp\n\nBuilding has\na ramp\n\n\n\nbody-&gt;ramp\n\n\n\n\n\nout1\n\nCannot enter\n= disabled\n\n\n\nstairs-&gt;out1\n\n\n\n\n\nout2\n\nEnters freely\n= not disabled\n\n\n\nramp-&gt;out2\n\n\n\n\n\n\n\n\n\n\nSame body, two buildings, opposite outcomes. The social model’s point is in this picture: the wheelchair didn’t change between the two rows — the building did."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#shakespeares-both-position",
+    "href": "chapters/11b-disability-identity-slides.html#shakespeares-both-position",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "Shakespeare’s “Both” Position",
+    "text": "Shakespeare’s “Both” Position\nThe pure social model overreaches, and Tom Shakespeare says so from inside the movement (Shakespeare 2006). Build every ramp in the world and a degenerative condition still brings pain, fatigue, and shortened life that no ramp touches.\n\nHis interactional model: disability is real and it is relational — produced where a particular body meets a particular world.\nSome of the burden is social and removable (the stairs). Some is intrinsic and stays (the pain).\nThe honest question is never “body or world?” but how much of this burden is which — and that answer changes case by case.\n\nThis is the position we’ll carry forward: it refuses both “just cure them” and “disability is purely a social construct.”"
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#the-disability-paradox",
+    "href": "chapters/11b-disability-identity-slides.html#the-disability-paradox",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "The Disability Paradox",
+    "text": "The Disability Paradox\nIn 1999 Gary Albrecht and Patrick Devlieger interviewed people with serious and persistent disabilities — and found that a majority reported a good or excellent quality of life (Albrecht and Devlieger 1999). Outsiders, including health professionals, consistently predict the opposite.\n\nThe “paradox” is only paradoxical from the outside: it confounds people who imagine the disability without imagining the life around it.\nMechanisms include adaptation (people adjust), response shift (what counts as a good day rescales), and relationships, work, and meaning that the diagnosis never mentions.\nFor a nurse, the load-bearing takeaway is blunt: your quality-of-life predictions about disabled patients are systematically miscalibrated — and those predictions quietly drive triage, counseling, and end-of-life conversations."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#dont-over-read-it",
+    "href": "chapters/11b-disability-identity-slides.html#dont-over-read-it",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "Don’t Over-Read It",
+    "text": "Don’t Over-Read It\n\nWhere the paradox has critics\nThe finding is robust but not a trump card. Skeptics argue that adaptation can mask genuine deprivation — a person can rescale “a good day” downward and report contentment while still being worse off on things that matter. Others note selection and reporting effects in who answers such surveys.\nSo the paradox proves our predictions are unreliable. It does not, by itself, prove disability is no loss at all. Keep that distinction — the next debate runs straight through it."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#the-dispute",
+    "href": "chapters/11b-disability-identity-slides.html#the-dispute",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "The Dispute",
+    "text": "The Dispute\nHere is the question the rest of the lecture orbits: is disability bad in itself, or only bad because of how the world is arranged?\n\n\nMere difference (Elizabeth Barnes). Disability is a difference, like being gay or left-handed — not in itself a harm (Barnes 2016). It can carry goods (community, perspective, skills) and its burdens are largely social. The disability paradox is her evidence: ask disabled people, and they’re not living tragedies.\n\n\n\nBad difference (Greg Bognar and others). Disability is, on balance, a genuine bad — something we have reason to prevent and treat, even in a perfectly just society (Bognar 2016). Adaptation explains the high self-reports without showing nothing was lost. A just world removes the stairs; it doesn’t remove the condition.\n\nBoth sides accept the paradox data. They disagree about what it shows."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#a-map-not-a-scoreboard",
+    "href": "chapters/11b-disability-identity-slides.html#a-map-not-a-scoreboard",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "A Map, Not a Scoreboard",
+    "text": "A Map, Not a Scoreboard\n\n\n\n\n\n\nImportant\n\n\nWe are going to track these two views across three hard cases. This is not a scoreboard — no view earns points, and no case gets “decided” here. It is a commitments map: each cell records what a view would say, so you can see what holding it consistently costs you.\nThe work isn’t done when the grid is full. The grid is where the discussion starts — because reading down a column shows whether a view can hold its nerve across every case, and reading across a row shows how much your verdict depends on a premise you chose back here."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#the-commitments-map-empty",
+    "href": "chapters/11b-disability-identity-slides.html#the-commitments-map-empty",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "The Commitments Map (empty)",
+    "text": "The Commitments Map (empty)\n\n\n\nCase\nMere difference would say…\nBad difference would say…\n\n\n\n\nSelective abortion after NIPT\n(we’ll fill this in)\n\n\n\nDeaf embryo selection\n\n\n\n\nBody integrity dysphoria\n\n\n\n\n\nNotice there is no third column for “the right answer.” There isn’t one yet — that’s the point."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#the-expressivist-objection",
+    "href": "chapters/11b-disability-identity-slides.html#the-expressivist-objection",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "The Expressivist Objection",
+    "text": "The Expressivist Objection\nPrenatal screening lets parents test for conditions like Down syndrome and choose to end the pregnancy. Adrienne Asch — a bioethicist who was herself blind — pressed the expressivist objection (Asch 1999): selecting against a trait says something about people who live with it.\n\nThe claim: aborting because of a disability expresses the judgment that such lives are not worth living — a message aimed at every disabled person already here.\nWhat it is not: Asch did not argue for banning abortion, and not against reproductive choice as such. Her target was the informational frame — testing presented as routine, with disability described only as a list of deficits.\nHer constructive demand: if you’re going to offer the test, offer an honest picture of the life, not just the diagnosis."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#the-replies",
+    "href": "chapters/11b-disability-identity-slides.html#the-replies",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "The Replies",
+    "text": "The Replies\nThe objection is contested, and the replies are serious:\n\nThe “any-particular-child” reply. A choice not to have this pregnancy need not be a verdict on existing people — declining a child with a trait isn’t the same as declaring those who have it unwelcome.\nWhose message? Even if some choices express something, it’s the surrounding attitudes and information, not the bare act, that carry the meaning."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#the-case-where-the-spines-cross",
+    "href": "chapters/11b-disability-identity-slides.html#the-case-where-the-spines-cross",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "The Case Where the Spines Cross",
+    "text": "The Case Where the Spines Cross\nEmbryo selection (via IVF and genetic testing) usually screens conditions out. But some Deaf couples — who experience Deafness as a culture and a language, not a loss — have sought to select a Deaf child in. This is the case where our two threads collide head-on.\n\nIf disability is mere difference, selecting for Deafness looks like selecting for any other trait a family values — coherent, even unremarkable.\nIf disability is bad difference, the parents are choosing a worse-off life for a child who can’t consent — and a principle of procreative beneficence would forbid it."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#thought-question",
+    "href": "chapters/11b-disability-identity-slides.html#thought-question",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "Thought Question",
+    "text": "Thought Question\n\nA Deaf couple comes to your fertility clinic. Both are fluent in ASL, deeply embedded in Deaf community, and they ask the embryologist to select an embryo that will be Deaf — the same way another couple might hope for a child who shares their language.\nYou are on the clinic’s ethics committee.\n\nIs selecting for Deafness different, morally, from selecting against it? Or are they the same act in two directions?\nDoes the future child’s inability to consent change who should decide?\nCould you write a clinic policy that lets parents select out but not in — and defend it without assuming the answer to today’s whole debate?"
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#after-youve-discussed-1",
+    "href": "chapters/11b-disability-identity-slides.html#after-youve-discussed-1",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nA distinction the cases above never named: welfarist vs. perfectionist reasons. A welfarist asks only whether the child’s life goes well for the child; a perfectionist asks whether a capacity (hearing) is objectively worth having regardless of how content its absence leaves you.\nMost “select out but not in” policies quietly smuggle in a perfectionist premise — that hearing is better, full stop — while presenting themselves as neutral. Seeing that doesn’t tell you the policy is wrong. It tells you where its real commitment is hiding."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#body-integrity-dysphoria",
+    "href": "chapters/11b-disability-identity-slides.html#body-integrity-dysphoria",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "Body Integrity Dysphoria",
+    "text": "Body Integrity Dysphoria\nSome people experience a persistent, distressing sense that a healthy limb is not theirs and should be removed. Long called BIID, it now has a formal name in the WHO’s classification: body integrity dysphoria (ICD-11). It pushes respect for autonomy to its edge.\n\n\n\n\n\n\nImportant\n\n\nThe Robert Smith case (Falkirk, Scotland, late 1990s)\nSurgeon Robert Smith amputated the healthy legs of two patients who had sought the operation for years and reported relief afterward. When the cases became public, the hospital stopped the practice; no further such amputations were permitted. Michael First’s later study of similar patients found their desire was stable, specific, and long-standing — not a delusion or a passing wish (First 2005).\nThe open question the case leaves: when a competent adult calmly and persistently asks to remove a healthy part of their own body, what does respect for autonomy actually require?"
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#what-autonomy-might-require",
+    "href": "chapters/11b-disability-identity-slides.html#what-autonomy-might-require",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "What Autonomy Might Require",
+    "text": "What Autonomy Might Require\nTim Bayne and Neil Levy argue the autonomy case deserves to be taken seriously (Bayne and Levy 2005). Their argument tracks the same form we used to defend other contested bodily choices.\n\n\nThe Autonomy Argument for Amputation\n\n\nAfter Tim Bayne and Neil Levy, “Amputees by Choice” (2005)\n\n\nA competent adult’s settled, informed request about their own body should normally be honored, even when others find the choice strange or mistaken.\nThe desire in body integrity dysphoria is competent, settled, and informed — stable for decades, specific, not a delusion (First’s finding).\nSurgery reliably relieves the distress, and no other treatment reliably does.\nSo refusing the amputation, not performing it, is what fails to respect the patient.\n\n\n(Bayne and Levy 2005)\nThe pushback lands on P1 and P3: removing healthy tissue may exceed what a physician’s role permits however settled the request, and “no other treatment works” is an evidential claim that is far from settled. Whether autonomy here is decisive or overridden is the open question the Falkirk hospital answered with a flat no."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#why-this-needs-to-be-done-out-loud",
+    "href": "chapters/11b-disability-identity-slides.html#why-this-needs-to-be-done-out-loud",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "Why This Needs to Be Done Out Loud",
+    "text": "Why This Needs to Be Done Out Loud\nThe moment you put body integrity dysphoria next to gender dysphoria, someone draws an analogy — and someone else calls it offensive. We will do neither by insinuation. We will map the argument and then test it.\nThe structure both sides share: a persistent, distressing mismatch between an experienced sense of the body and the body as it is, where the patient seeks to change the body rather than the mind."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#thought-question-1",
+    "href": "chapters/11b-disability-identity-slides.html#thought-question-1",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "Thought Question",
+    "text": "Thought Question\n\nYou sit on a hospital ethics board. A colleague argues: “Body integrity dysphoria and gender dysphoria have the same shape — distress at a bodily feature, a request to alter the body, relief when we do. If we accommodate one, consistency demands we treat them alike.”\nAnother colleague answers: “Same shape, different substance. The analogy is a rhetorical trap.”\n\nState the strongest version of the analogy in one sentence.\nState the strongest disanalogy in one sentence.\nDoes the argument turn on logic, or on evidence? Where exactly?"
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#make-it-contemporary",
+    "href": "chapters/11b-disability-identity-slides.html#make-it-contemporary",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "Make It Contemporary",
+    "text": "Make It Contemporary\n\nThis isn’t hypothetical. Critics of gender-affirming care have published the BID analogy in bioethics journals; clinicians and ethicists have published replies drawing disanalogies — differences in the evidence of benefit, in diagnostic and outcome data, and in how each condition is classified.\nPull up your own field’s stance: how does nursing or medicine currently distinguish a body-modifying treatment it endorses from one it refuses? Is the line drawn by evidence, by diagnosis, or by something less explicit?"
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#after-youve-discussed-2",
+    "href": "chapters/11b-disability-identity-slides.html#after-youve-discussed-2",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nThe distinction that resolves most of the heat: structural analogy vs. evidential analogy.\nTwo conditions can share a structure (distress → request to alter body → relief) while differing entirely in their evidence base (how large the outcome studies are, how reversible the intervention, how the diagnosis behaves over time). An argument that rides the structural likeness all the way to “treat them identically” has skipped the evidential question — which is exactly the question that does the real work.\nSo the analogy isn’t simply true or false. It holds at the level of form and may break at the level of evidence — and pointing that out is analysis, not insult."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#the-commitments-map-filled",
+    "href": "chapters/11b-disability-identity-slides.html#the-commitments-map-filled",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "The Commitments Map (filled)",
+    "text": "The Commitments Map (filled)\n\n\n\n\n\n\n\n\nCase\nMere difference would say…\nBad difference would say…\n\n\n\n\nSelective abortion (NIPT)\nscreening framed as tragedy rests on a false premise\na real loss may be prevented, but the message still warrants care\n\n\nDeaf embryo selection\nselecting for Deafness is coherent, like any valued trait\nchoosing a worse-off life for a non-consenting child\n\n\nBody integrity dysphoria\na settled identity claim deserving accommodation\ndistress to be treated, not a difference to affirm\n\n\n\nRead down a column: can either view hold its nerve across all three? Read across a row: notice how much your verdict was fixed by a premise you picked early. The map didn’t decide anything — it showed you where your decision actually lives."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#wrap-up",
+    "href": "chapters/11b-disability-identity-slides.html#wrap-up",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "Wrap-Up",
+    "text": "Wrap-Up\n\nWe began with a gap: clinicians predict low quality of life for disabled patients; patients report high. That disability paradox unsettles the bedside but settles no philosophy — it leaves open whether disability is a mere difference or a bad difference. We tracked that live dispute across selective abortion, Deaf embryo selection, and body integrity dysphoria, and we tested the BID–gender-dysphoria analogy by mapping it rather than asserting it. The threads stay open on purpose. What’s earned is sharper: the disagreements are about premises and evidence, not about who cares more.\nTwo one-line callbacks worth holding: the disability-rights critique of assisted dying (Harriet McBryde Johnson against Peter Singer (Johnson 2003)) is this same dispute in a different room; and Feinberg’s open future, claimed by every side, runs under all of it."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#review-questions",
+    "href": "chapters/11b-disability-identity-slides.html#review-questions",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "Review Questions",
+    "text": "Review Questions\n\n\nRecall\nState the medical, social, and interactional models of disability in one sentence each, and say where each locates “the problem.”\n\n\nApply\nA hospital is designing a survey that asks nurses to rate incoming patients’ quality of life. Using the disability paradox, name one concrete way this could harm disabled patients — and one safeguard you’d build in.\n\n\nDebate\nShould a fertility clinic be allowed to let parents select embryos against a disability but not for one? Defend your answer without assuming disability is bad-difference or mere-difference from the start."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#key-terms",
+    "href": "chapters/11b-disability-identity-slides.html#key-terms",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "Key Terms",
+    "text": "Key Terms\n\nMedical model — disability as a deficit located in the body, to be cured or corrected.\nSocial model — disability as produced by a disabling environment, not the body.\nInteractional model — Shakespeare’s view: disability arises where a particular body meets a particular world; some burden is removable, some intrinsic.\nDisability paradox — disabled people report quality of life far higher than outsiders, including clinicians, predict.\nMere difference — Barnes’s view that disability is a difference, not in itself a harm.\nBad difference — the view that disability is, on balance, a genuine bad worth preventing even in a just world.\nExpressivist objection — Asch’s argument that selecting against a disability expresses a judgment about people who live with it.\nProcreative beneficence — Savulescu’s principle that, when choosing among possible children, parents have reason to choose the one expected to have the best life.\nImpairment vs. disability — the social model’s split: impairment is a bodily feature; disability is what a society does to people who have it.\nBody integrity dysphoria — ICD-11 condition: persistent distress that a healthy limb is not one’s own, with a desire for its removal.\nDiagnostic overshadowing — attributing a disabled patient’s new symptoms to their existing disability instead of investigating them as in anyone else."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#further-reading",
+    "href": "chapters/11b-disability-identity-slides.html#further-reading",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "Further Reading",
+    "text": "Further Reading\n\nBarnes, Elizabeth. The Minority Body: A Theory of Disability. Oxford University Press, 2016.\nShakespeare, Tom. Disability Rights and Wrongs Revisited. Routledge, 2014.\nJohnson, Harriet McBryde. “Unspeakable Conversations.” The New York Times Magazine, 2003."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#references",
+    "href": "chapters/11b-disability-identity-slides.html#references",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "References",
+    "text": "References\n\n\nAlbrecht, Gary L., and Patrick J. Devlieger. 1999. “The Disability Paradox: High Quality of Life Against All Odds.” Social Science & Medicine 48 (8): 977–88.\n\n\nAsch, Adrienne. 1999. “Prenatal Diagnosis and Selective Abortion: A Challenge to Practice and Policy.” American Journal of Public Health 89 (11): 1649–57.\n\n\nBarnes, Elizabeth. 2016. The Minority Body: A Theory of Disability. Oxford University Press.\n\n\nBayne, Tim, and Neil Levy. 2005. “Amputees by Choice: Body Integrity Identity Disorder and the Ethics of Amputation.” Journal of Applied Philosophy 22 (1): 75–86.\n\n\nBognar, Greg. 2016. “Is Disability Mere Difference?” Journal of Medical Ethics 42 (1): 46–49.\n\n\nFirst, Michael B. 2005. “Desire for Amputation of a Limb: Paraphilia, Psychosis, or a New Type of Identity Disorder.” Psychological Medicine 35 (6): 919–28.\n\n\nIezzoni, Lisa I., Sowmya R. Rao, Julie Ressalam, et al. 2021. “Physicians’ Perceptions of People with Disability and Their Health Care.” Health Affairs 40 (2): 297–306.\n\n\nJohnson, Harriet McBryde. 2003. “Unspeakable Conversations.” The New York Times Magazine. https://www.nytimes.com/2003/02/16/magazine/unspeakable-conversations.html.\n\n\nSavulescu, Julian. 2001. “Procreative Beneficence: Why We Should Select the Best Children.” Bioethics 15 (5–6): 413–26. https://doi.org/10.1111/1467-8519.00251.\n\n\nShakespeare, Tom. 2006. Disability Rights and Wrongs. Routledge."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#the-medical-model",
+    "href": "chapters/11b-disability-identity.html#the-medical-model",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "2.2 The Medical Model",
+    "text": "2.2 The Medical Model\nThe medical model is the default most of us absorb without being taught it: a disability is something wrong with a person — a deficit in the body to be diagnosed, measured against a norm, and ideally fixed.\n\nIt treats the location of the problem as obvious: the spinal cord is severed, therefore the person is disabled. The body is the cause; the world is just the backdrop.\nIt has real victories — vaccines, surgeries, prosthetics, rehabilitation — and for a nurse it is the working frame of the chart and the care plan.\nIts blind spot: if the problem is in the person, then the only solutions are to cure the person or to manage their decline. The building, the bus, the hiring manager never come up for review.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#the-social-model",
+    "href": "chapters/11b-disability-identity.html#the-social-model",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "2.3 The Social Model",
+    "text": "2.3 The Social Model\nThe social model, forged by disabled activists in the 1970s, makes a deliberately provocative move: it separates impairment (a feature of your body — you can’t walk) from disability (what a particular society does to people with that feature — it builds only stairs).\n\nOn this view you are not disabled by your legs; you are disabled by a world designed as if everyone walked. Change the world and the disability shrinks, though the impairment stays.\nThis is the logic behind curb cuts, the Americans with Disabilities Act, ramps, captioning, and screen readers — accommodations that move the “fix” off the body and onto the environment.\nIts blind spot, which we’ll press in a moment: some burdens — chronic pain, fatigue, a shortened life — are not waiting behind a missing ramp.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#the-objection-in-standard-form",
+    "href": "chapters/11b-disability-identity.html#the-objection-in-standard-form",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "5.2 The Objection in Standard Form",
+    "text": "5.2 The Objection in Standard Form\nPutting it in numbered form shows exactly where the disagreement will land.\n\n\nThe Expressivist Objection\n\n\nAfter Adrienne Asch, “Prenatal Diagnosis and Selective Abortion” (1999)\n\n\nTo select against a trait, because of that trait, is to act on the judgment that the trait makes a life go worse.\nActing on that judgment, publicly and through medicine, sends a message about everyone who already lives with the trait.\nDisability does not, in fact, make a life go worse in the way the message assumes (the disability paradox).\nSo routine selective abortion for disability sends a false and harmful message about disabled people.\n\n\n(Asch 1999)\nThe load-bearing premise is P3 — the very mere-difference/bad-difference claim we just set up. If P3 is false, the message in P4 might be true, not harmful. That is where the replies push.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#what-each-view-concludes-here",
+    "href": "chapters/11b-disability-identity.html#what-each-view-concludes-here",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "5.4 What Each View Concludes Here",
+    "text": "5.4 What Each View Concludes Here\nRun the case through both lenses and you get two different diagnoses of what’s even going wrong — which is why the policy fight never resolves.\n\n\nMere difference sharpens Asch. If disability is no tragedy, then a screening program framed as tragedy-avoidance rests on a false premise — and a medical system built on that premise really is broadcasting a damaging message, P3 and all.\n\n\n\nBad difference can grant Asch the message worry while denying the premise. Yes, be careful how the test is offered — but if a condition genuinely brings loss, then preventing it isn’t a slander, and the expressivist charge overreaches.\n\n\nNeither lens, notice, hands you a policy: both are compatible with offering the test and with reforming how it’s offered. The disagreement is one level down — about what the test is for.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#the-bad-difference-argument-in-standard-form",
+    "href": "chapters/11b-disability-identity.html#the-bad-difference-argument-in-standard-form",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "6.2 The Bad-Difference Argument, in Standard Form",
+    "text": "6.2 The Bad-Difference Argument, in Standard Form\nThe cleanest version comes from Julian Savulescu’s principle of procreative beneficence: when you can choose between possible children, you should choose the one expected to have the best life.\n\n\nAgainst Selecting for Deafness\n\n\nAfter Julian Savulescu, “Procreative Beneficence” (2001)\n\n\nWhen selecting among possible children, parents have a reason to choose the child expected to have the best life available to them.\nOther things equal, a hearing child has access to goods (spoken language, more careers, easier navigation of a hearing world) that a Deaf child does not.\nSo, other things equal, parents have a reason not to select for Deafness.\n\n\n(Savulescu 2001)\nThe mere-difference reply attacks P2: “other things equal” is doing the cheating. Deafness opens a language and a community as much as it closes options — so the lives aren’t ranked, just different. Whether P2 is true is, once again, the whole dispute.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#the-medical-model",
+    "href": "chapters/11b-disability-identity-slides.html#the-medical-model",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "The Medical Model",
+    "text": "The Medical Model\nThe medical model is the default most of us absorb without being taught it: a disability is something wrong with a person — a deficit in the body to be diagnosed, measured against a norm, and ideally fixed.\n\nIt treats the location of the problem as obvious: the spinal cord is severed, therefore the person is disabled. The body is the cause; the world is just the backdrop.\nIt has real victories — vaccines, surgeries, prosthetics, rehabilitation — and for a nurse it is the working frame of the chart and the care plan.\nIts blind spot: if the problem is in the person, then the only solutions are to cure the person or to manage their decline. The building, the bus, the hiring manager never come up for review."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#the-social-model",
+    "href": "chapters/11b-disability-identity-slides.html#the-social-model",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "The Social Model",
+    "text": "The Social Model\nThe social model, forged by disabled activists in the 1970s, makes a deliberately provocative move: it separates impairment (a feature of your body — you can’t walk) from disability (what a particular society does to people with that feature — it builds only stairs).\n\nOn this view you are not disabled by your legs; you are disabled by a world designed as if everyone walked. Change the world and the disability shrinks, though the impairment stays.\nThis is the logic behind curb cuts, the Americans with Disabilities Act, ramps, captioning, and screen readers — accommodations that move the “fix” off the body and onto the environment.\nIts blind spot, which we’ll press in a moment: some burdens — chronic pain, fatigue, a shortened life — are not waiting behind a missing ramp."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#the-objection-in-standard-form",
+    "href": "chapters/11b-disability-identity-slides.html#the-objection-in-standard-form",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "The Objection in Standard Form",
+    "text": "The Objection in Standard Form\nPutting it in numbered form shows exactly where the disagreement will land.\n\n\nThe Expressivist Objection\n\n\nAfter Adrienne Asch, “Prenatal Diagnosis and Selective Abortion” (1999)\n\n\nTo select against a trait, because of that trait, is to act on the judgment that the trait makes a life go worse.\nActing on that judgment, publicly and through medicine, sends a message about everyone who already lives with the trait.\nDisability does not, in fact, make a life go worse in the way the message assumes (the disability paradox).\nSo routine selective abortion for disability sends a false and harmful message about disabled people.\n\n\n(Asch 1999)\nThe load-bearing premise is P3 — the very mere-difference/bad-difference claim we just set up. If P3 is false, the message in P4 might be true, not harmful. That is where the replies push."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#what-each-view-concludes-here",
+    "href": "chapters/11b-disability-identity-slides.html#what-each-view-concludes-here",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "What Each View Concludes Here",
+    "text": "What Each View Concludes Here\nRun the case through both lenses and you get two different diagnoses of what’s even going wrong — which is why the policy fight never resolves.\n\n\nMere difference sharpens Asch. If disability is no tragedy, then a screening program framed as tragedy-avoidance rests on a false premise — and a medical system built on that premise really is broadcasting a damaging message, P3 and all.\n\n\n\nBad difference can grant Asch the message worry while denying the premise. Yes, be careful how the test is offered — but if a condition genuinely brings loss, then preventing it isn’t a slander, and the expressivist charge overreaches.\n\nNeither lens, notice, hands you a policy: both are compatible with offering the test and with reforming how it’s offered. The disagreement is one level down — about what the test is for."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#the-bad-difference-argument-in-standard-form",
+    "href": "chapters/11b-disability-identity-slides.html#the-bad-difference-argument-in-standard-form",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "The Bad-Difference Argument, in Standard Form",
+    "text": "The Bad-Difference Argument, in Standard Form\nThe cleanest version comes from Julian Savulescu’s principle of procreative beneficence: when you can choose between possible children, you should choose the one expected to have the best life.\n\n\nAgainst Selecting for Deafness\n\n\nAfter Julian Savulescu, “Procreative Beneficence” (2001)\n\n\nWhen selecting among possible children, parents have a reason to choose the child expected to have the best life available to them.\nOther things equal, a hearing child has access to goods (spoken language, more careers, easier navigation of a hearing world) that a Deaf child does not.\nSo, other things equal, parents have a reason not to select for Deafness.\n\n\n(Savulescu 2001)\nThe mere-difference reply attacks P2: “other things equal” is doing the cheating. Deafness opens a language and a community as much as it closes options — so the lives aren’t ranked, just different. Whether P2 is true is, once again, the whole dispute."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#what-it-looks-like-at-the-bedside",
+    "href": "chapters/11b-disability-identity.html#what-it-looks-like-at-the-bedside",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "3.2 What It Looks Like at the Bedside",
+    "text": "3.2 What It Looks Like at the Bedside\nThe paradox isn’t a statistic; it’s a recurring clinical error. Picture the gap concretely.\n\n\nWhat the team predicts. A newly injured patient with a high spinal-cord injury is often discussed as though life is effectively over — colleagues quietly wonder whether aggressive care is even kind. The prediction is sincere, and it is made by people who have never lived it.\n\n\n\nWhat the data show. Years out, many such patients rate their quality of life near where they’d have rated it before — and a striking share would not trade their lives. The body changed permanently; the life, with time and support, reassembled around it.\n\n\nThis is why the paradox is a patient-safety issue, not a feel-good footnote: a miscalibrated prediction, made early, can steer counseling and even resuscitation decisions toward an outcome the patient would never have chosen.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#what-it-looks-like-at-the-bedside",
+    "href": "chapters/11b-disability-identity-slides.html#what-it-looks-like-at-the-bedside",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "What It Looks Like at the Bedside",
+    "text": "What It Looks Like at the Bedside\nThe paradox isn’t a statistic; it’s a recurring clinical error. Picture the gap concretely.\n\n\nWhat the team predicts. A newly injured patient with a high spinal-cord injury is often discussed as though life is effectively over — colleagues quietly wonder whether aggressive care is even kind. The prediction is sincere, and it is made by people who have never lived it.\n\n\n\nWhat the data show. Years out, many such patients rate their quality of life near where they’d have rated it before — and a striking share would not trade their lives. The body changed permanently; the life, with time and support, reassembled around it.\n\nThis is why the paradox is a patient-safety issue, not a feel-good footnote: a miscalibrated prediction, made early, can steer counseling and even resuscitation decisions toward an outcome the patient would never have chosen."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#the-paradox-has-a-name-in-the-chart",
+    "href": "chapters/11b-disability-identity.html#the-paradox-has-a-name-in-the-chart",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "9.1 The Paradox Has a Name in the Chart",
+    "text": "9.1 The Paradox Has a Name in the Chart\nThe miscalibration we met earlier isn’t just a philosophy-seminar curiosity — it has a clinical name and a body count: diagnostic overshadowing.\n\nDiagnostic overshadowing\nThe error of attributing a patient’s new or unexplained symptoms to their existing disability, instead of investigating them as you would in anyone else. A patient with cerebral palsy reports chest pain and it’s filed under “his baseline”; a patient with an intellectual disability grows withdrawn and it’s chalked up to the disability rather than worked up as depression or pain.\n\nIt is the disability paradox turned into a missed diagnosis: the clinician’s low expectations do the triage before the symptom is heard. The countermeasure is a habit — ask whether you’d order this workup for a patient without the disability, and if so, order it.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#the-access-gap-is-real-and-measurable",
+    "href": "chapters/11b-disability-identity.html#the-access-gap-is-real-and-measurable",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "9.2 The Access Gap Is Real and Measurable",
+    "text": "9.2 The Access Gap Is Real and Measurable\nDisabled patients in the U.S. get worse care, and not mainly because of their bodies — because of the system the social model told us to look at.\n\nExam tables that don’t lower, scales that can’t weigh a wheelchair user, and imaging that requires a transfer no one is staffed to do — so basics like cancer screening happen less often.\nIn a 2021 national survey, 82 percent of physicians believed people with significant disability have a worse quality of life than nondisabled people, and only about 41 percent felt very confident they could provide them equal-quality care (Iezzoni et al. 2021).\nThe throughline: attitudes you’d call abstract in a lecture become who gets a mammogram in practice.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#how-you-talk-is-part-of-the-care",
+    "href": "chapters/11b-disability-identity.html#how-you-talk-is-part-of-the-care",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "9.3 How You Talk Is Part of the Care",
+    "text": "9.3 How You Talk Is Part of the Care\nTwo pieces of professional vocabulary that nursing students are expected to handle well — and that gen-ed students will meet the moment they’re a patient’s family member.\n\n\nPerson-first vs. identity-first. “Person with a disability” foregrounds the person; “disabled person” (and capital-D Deaf, Autistic) is claimed with pride by many communities. There’s no single correct form — ask, and use what the patient uses.\n\n\n\n“Nothing about us without us.” The disability-rights slogan with a bedside translation: speak to the patient, not the companion pushing the chair; presume capacity until shown otherwise; let the person tell you what help they want before you give it.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity.html#the-three-models-back-at-work",
+    "href": "chapters/11b-disability-identity.html#the-three-models-back-at-work",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "9.4 The Three Models, Back at Work",
+    "text": "9.4 The Three Models, Back at Work\nThe framework from the start of the lecture isn’t decoration — each model names a different part of good care.\n\n\n\n\n\n\n\n\nModel\nWhat it’s good for at the bedside\nWhere it misleads if used alone\n\n\n\n\nMedical\nthe workup, the treatment, the chart\nmakes you forget the room, the ramp, the attitude\n\n\nSocial\naccessible equipment, accommodations, advocacy\ncan wave away pain and illness that no ramp fixes\n\n\nInteractional\nweighing which burdens to fix and which to accommodate\ndemands judgment — there’s no formula\n\n\n\nGood nursing is mostly the bottom row: knowing, for this patient today, which part of the problem is the body and which part is the building.",
+    "crumbs": [
+      "Home",
+      "11. Gender, Identity & Disability",
+      "Part B — Disability, Identity, and the Limits of Autonomy"
+    ]
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#the-paradox-has-a-name-in-the-chart",
+    "href": "chapters/11b-disability-identity-slides.html#the-paradox-has-a-name-in-the-chart",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "The Paradox Has a Name in the Chart",
+    "text": "The Paradox Has a Name in the Chart\nThe miscalibration we met earlier isn’t just a philosophy-seminar curiosity — it has a clinical name and a body count: diagnostic overshadowing.\n\nDiagnostic overshadowing\nThe error of attributing a patient’s new or unexplained symptoms to their existing disability, instead of investigating them as you would in anyone else. A patient with cerebral palsy reports chest pain and it’s filed under “his baseline”; a patient with an intellectual disability grows withdrawn and it’s chalked up to the disability rather than worked up as depression or pain.\n\nIt is the disability paradox turned into a missed diagnosis: the clinician’s low expectations do the triage before the symptom is heard. The countermeasure is a habit — ask whether you’d order this workup for a patient without the disability, and if so, order it."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#the-access-gap-is-real-and-measurable",
+    "href": "chapters/11b-disability-identity-slides.html#the-access-gap-is-real-and-measurable",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "The Access Gap Is Real and Measurable",
+    "text": "The Access Gap Is Real and Measurable\nDisabled patients in the U.S. get worse care, and not mainly because of their bodies — because of the system the social model told us to look at.\n\nExam tables that don’t lower, scales that can’t weigh a wheelchair user, and imaging that requires a transfer no one is staffed to do — so basics like cancer screening happen less often.\nIn a 2021 national survey, 82 percent of physicians believed people with significant disability have a worse quality of life than nondisabled people, and only about 41 percent felt very confident they could provide them equal-quality care (Iezzoni et al. 2021).\nThe throughline: attitudes you’d call abstract in a lecture become who gets a mammogram in practice."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#how-you-talk-is-part-of-the-care",
+    "href": "chapters/11b-disability-identity-slides.html#how-you-talk-is-part-of-the-care",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "How You Talk Is Part of the Care",
+    "text": "How You Talk Is Part of the Care\nTwo pieces of professional vocabulary that nursing students are expected to handle well — and that gen-ed students will meet the moment they’re a patient’s family member.\n\n\nPerson-first vs. identity-first. “Person with a disability” foregrounds the person; “disabled person” (and capital-D Deaf, Autistic) is claimed with pride by many communities. There’s no single correct form — ask, and use what the patient uses.\n\n\n\n“Nothing about us without us.” The disability-rights slogan with a bedside translation: speak to the patient, not the companion pushing the chair; presume capacity until shown otherwise; let the person tell you what help they want before you give it."
+  },
+  {
+    "objectID": "chapters/11b-disability-identity-slides.html#the-three-models-back-at-work",
+    "href": "chapters/11b-disability-identity-slides.html#the-three-models-back-at-work",
+    "title": "Lecture 11 — Gender, Identity & Disability",
+    "section": "The Three Models, Back at Work",
+    "text": "The Three Models, Back at Work\nThe framework from the start of the lecture isn’t decoration — each model names a different part of good care.\n\n\n\n\n\n\n\n\nModel\nWhat it’s good for at the bedside\nWhere it misleads if used alone\n\n\n\n\nMedical\nthe workup, the treatment, the chart\nmakes you forget the room, the ramp, the attitude\n\n\nSocial\naccessible equipment, accommodations, advocacy\ncan wave away pain and illness that no ramp fixes\n\n\nInteractional\nweighing which burdens to fix and which to accommodate\ndemands judgment — there’s no formula\n\n\n\nGood nursing is mostly the bottom row: knowing, for this patient today, which part of the problem is the body and which part is the building."
   }
 ]
