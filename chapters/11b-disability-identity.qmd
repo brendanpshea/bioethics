@@ -30,9 +30,9 @@ Picture his life. Then write a number.
 ## After You've Discussed
 
 ::: {.callout-note}
-Most clinicians put a low number. Most patients like Daniel put a high one — and the gap is large and well-documented. Hold onto that gap; it is the empirical fact this whole lecture turns on.
+Most clinicians put a low number. Most patients like Daniel put a high one, and the gap is large and well-documented.
 
-But notice what the gap does **not** settle. It tells us our predictions are off. It does **not** tell us whether disability is, in itself, something bad that happens to be survivable — or simply a different way of having a body. Those are two different claims, and most of today is about keeping them apart.
+The gap does not settle everything. It tells us our predictions are off. It does **not** tell us whether disability is, in itself, something bad that happens to be survivable — or simply a different way of having a body. Those are two different claims, and they are easy to confuse.
 :::
 
 ## Today
@@ -51,7 +51,7 @@ By the end of Part B, you will be able to:
 
 ## The Same Person, Three Lenses
 
-Before we argue about whether disability is *bad*, we have to settle a prior question that sounds simple and isn't: **what is a disability?** Where, exactly, does the problem live? Three serious answers have shaped law, medicine, and activism — and they disagree about that one word, *where*.
+Before we argue about whether disability is *bad*, we have to answer a prior question: **what is a disability?** Where, exactly, does the problem live? Three answers have shaped law, medicine, and activism, and they disagree about that one word, *where*.
 
 | Model | Where the problem lives | The fix it points to |
 |---|---|---|
@@ -59,7 +59,7 @@ Before we argue about whether disability is *bad*, we have to settle a prior que
 | **Social** | in the environment — barriers and design | change the world, not the body |
 | **Interactional** | in the *meeting* of body and world | both, weighed case by case |
 
-We'll take each in turn, because the choice between them quietly settles a lot of bedside decisions before anyone notices a choice was made.
+The choice between them settles many bedside decisions before anyone notices a choice was made.
 
 ## The Medical Model
 
@@ -71,11 +71,11 @@ The [medical model]{.key-term} is the default most of us absorb without being ta
 
 ## The Social Model
 
-The [social model]{.key-term}, forged by disabled activists in the 1970s, makes a deliberately provocative move: it separates **impairment** (a feature of your body — you can't walk) from **disability** (what a particular society does to people with that feature — it builds only stairs).
+The [social model]{.key-term}, forged by disabled activists in the 1970s, separates **impairment** (a feature of your body — you can't walk) from **disability** (what a particular society does to people with that feature — it builds only stairs).
 
 - On this view you are not disabled *by* your legs; you are disabled *by* a world designed as if everyone walked. Change the world and the disability shrinks, though the impairment stays.
 - This is the logic behind curb cuts, the Americans with Disabilities Act, ramps, captioning, and screen readers — accommodations that move the "fix" off the body and onto the environment.
-- Its blind spot, which we'll press in a moment: some burdens — chronic pain, fatigue, a shortened life — are not waiting behind a missing ramp.
+- Its blind spot: some burdens — chronic pain, fatigue, a shortened life — are not waiting behind a missing ramp.
 
 ## A Wheelchair and a Flight of Stairs
 
@@ -104,7 +104,7 @@ The pure social model overreaches, and Tom Shakespeare says so from inside the m
 - Some of the burden is social and removable (the stairs). Some is intrinsic and stays (the pain).
 - The honest question is never "body or world?" but *how much of this burden is which* — and that answer changes case by case.
 
-This is the position we'll carry forward: it refuses both "just cure them" and "disability is purely a social construct."
+The interactional view refuses both extremes — "just cure them" and "disability is purely a social construct."
 
 # The Fact That Unsettles the Bedside {.section-divider}
 
@@ -114,7 +114,7 @@ In 1999 Gary Albrecht and Patrick Devlieger interviewed people with serious and 
 
 - The "paradox" is only paradoxical from the *outside*: it confounds people who imagine the disability without imagining the life around it.
 - Mechanisms include **adaptation** (people adjust), **response shift** (what counts as a good day rescales), and relationships, work, and meaning that the diagnosis never mentions.
-- For a nurse, the load-bearing takeaway is blunt: **your quality-of-life predictions about disabled patients are systematically miscalibrated** — and those predictions quietly drive triage, counseling, and end-of-life conversations.
+- For a nurse, the takeaway: **your quality-of-life predictions about disabled patients are systematically miscalibrated** — and those predictions drive triage, counseling, and end-of-life conversations.
 
 ## What It Looks Like at the Bedside
 
@@ -131,7 +131,7 @@ The paradox isn't a statistic; it's a recurring clinical error. Picture the gap 
 :::
 ::::
 
-This is why the paradox is a patient-safety issue, not a feel-good footnote: a miscalibrated prediction, made early, can steer counseling and even resuscitation decisions toward an outcome the patient would never have chosen.
+The paradox is a patient-safety issue: a miscalibrated prediction, made early, can steer counseling and even resuscitation decisions toward an outcome the patient would never have chosen.
 
 ## Don't Over-Read It
 
@@ -140,7 +140,7 @@ This is why the paradox is a patient-safety issue, not a feel-good footnote: a m
 
 The finding is robust but not a trump card. Skeptics argue that *adaptation* can mask genuine deprivation — a person can rescale "a good day" downward and report contentment while still being worse off on things that matter. Others note selection and reporting effects in who answers such surveys.
 
-So the paradox proves our **predictions** are unreliable. It does not, by itself, prove disability is *no loss at all*. Keep that distinction — the next debate runs straight through it.
+So the paradox proves our **predictions** are unreliable. It does not, by itself, prove disability is *no loss at all*.
 :::
 
 # Mere Difference vs. Bad Difference {.section-divider}
@@ -165,9 +165,7 @@ Both sides accept the paradox data. They disagree about what it shows.
 ## A Map, Not a Scoreboard
 
 ::: {.callout-important}
-We are going to track these two views across three hard cases. This is **not** a scoreboard — no view earns points, and no case gets "decided" here. It is a **commitments map**: each cell records *what a view would say*, so you can see what holding it consistently costs you.
-
-The work isn't done when the grid is full. The grid is where the discussion *starts* — because reading down a column shows whether a view can hold its nerve across every case, and reading across a row shows how much your verdict depends on a premise you chose back here.
+We'll track these two views across three hard cases. Each cell records *what a view would say*, not which view wins — so you can see what holding a view consistently costs you. Reading down a column shows whether a view holds up across every case; reading across a row shows how much a verdict depends on a premise chosen early.
 :::
 
 ## The Commitments Map (empty)
@@ -177,8 +175,6 @@ The work isn't done when the grid is full. The grid is where the discussion *sta
 | Selective abortion after NIPT | *(we'll fill this in)* | |
 | Deaf embryo selection | | |
 | Body integrity dysphoria | | |
-
-Notice there is no third column for "the right answer." There isn't one yet — that's the point.
 
 # When Prevention Sends a Message {.section-divider}
 
@@ -191,8 +187,6 @@ Prenatal screening lets parents test for conditions like Down syndrome and choos
 - Her constructive demand: if you're going to offer the test, offer an honest picture of the life, not just the diagnosis.
 
 ## The Objection in Standard Form
-
-Putting it in numbered form shows exactly where the disagreement will land.
 
 ::: {.objection}
 ::: {.arg-name}
@@ -210,7 +204,7 @@ After Adrienne Asch, "Prenatal Diagnosis and Selective Abortion" (1999)
 
 [@asch1999]
 
-The load-bearing premise is **P3** — the very mere-difference/bad-difference claim we just set up. If P3 is false, the message in P4 might be *true*, not harmful. That is where the replies push.
+The load-bearing premise is **P3** — the mere-difference/bad-difference claim from earlier. If P3 is false, the message in P4 might be *true* rather than harmful, and that is what the replies attack.
 
 ## The Replies
 
@@ -221,7 +215,7 @@ The objection is contested, and the replies are serious:
 
 ## What Each View Concludes Here
 
-Run the case through both lenses and you get two different diagnoses of *what's even going wrong* — which is why the policy fight never resolves.
+Each lens gives a different diagnosis of what is going wrong, which is why the policy fight never resolves.
 
 :::: {.columns}
 ::: {.column width="48%"}
@@ -234,13 +228,13 @@ Run the case through both lenses and you get two different diagnoses of *what's 
 :::
 ::::
 
-Neither lens, notice, hands you a policy: both are compatible with offering the test *and* with reforming how it's offered. The disagreement is one level down — about what the test is *for*.
+Neither lens hands you a policy: both are compatible with offering the test *and* with reforming how it's offered. The disagreement is one level down — about what the test is *for*.
 
 # Choosing Disability On Purpose {.section-divider}
 
-## The Case Where the Spines Cross
+## Selecting Deafness In
 
-Embryo selection (via IVF and genetic testing) usually screens conditions *out*. But some Deaf couples — who experience Deafness as a culture and a language, not a loss — have sought to select a Deaf child *in*. This is the case where our two threads collide head-on.
+Embryo selection (via IVF and genetic testing) usually screens conditions *out*. But some Deaf couples — who experience Deafness as a culture and a language, not a loss — have sought to select a Deaf child *in*.
 
 - If disability is **mere difference**, selecting for Deafness looks like selecting for any other trait a family values — coherent, even unremarkable.
 - If disability is **bad difference**, the parents are choosing a worse-off life for a child who can't consent — and a principle of *procreative beneficence* would forbid it.
@@ -264,7 +258,7 @@ After Julian Savulescu, "Procreative Beneficence" (2001)
 
 [@savulescu2001_procreative]
 
-The mere-difference reply attacks **P2**: "other things equal" is doing the cheating. Deafness opens a language and a community as much as it closes options — so the lives aren't ranked, just *different*. Whether P2 is true is, once again, the whole dispute.
+The mere-difference reply attacks **P2**: "other things equal" is doing the cheating. Deafness opens a language and a community as much as it closes options — so the lives aren't ranked, just *different*. Whether P2 is true is the whole dispute.
 
 ## Thought Question
 
@@ -283,7 +277,7 @@ You are on the clinic's ethics committee.
 ::: {.callout-note}
 A distinction the cases above never named: **welfarist vs. perfectionist** reasons. A welfarist asks only whether the child's life goes well *for the child*; a perfectionist asks whether a capacity (hearing) is objectively worth having regardless of how content its absence leaves you.
 
-Most "select out but not in" policies quietly smuggle in a perfectionist premise — that hearing is better, full stop — while presenting themselves as neutral. Seeing that doesn't tell you the policy is wrong. It tells you where its real commitment is hiding.
+Most "select out but not in" policies smuggle in a perfectionist premise — that hearing is better, full stop — while presenting themselves as neutral. That doesn't make the policy wrong, but it locates the policy's real commitment.
 :::
 
 # A Healthy Limb, and a Patient Who Wants It Gone {.section-divider}
@@ -324,9 +318,9 @@ The pushback lands on **P1** and **P3**: removing healthy tissue may exceed what
 
 # The Analogy Everyone Reaches For {.section-divider}
 
-## Why This Needs to Be Done Out Loud
+## The Analogy, Stated Plainly
 
-The moment you put body integrity dysphoria next to gender dysphoria, someone draws an analogy — and someone else calls it offensive. We will do neither by insinuation. We will **map the argument** and then test it.
+The moment you put body integrity dysphoria next to gender dysphoria, someone draws an analogy, and someone else calls it offensive. Better to state it and test it than to trade insinuations.
 
 The structure both sides share: a persistent, distressing mismatch between an experienced sense of the body and the body as it is, where the patient seeks to change the body rather than the mind.
 
@@ -357,14 +351,14 @@ The distinction that resolves most of the heat: **structural analogy vs. evident
 
 Two conditions can share a *structure* (distress → request to alter body → relief) while differing entirely in their *evidence base* (how large the outcome studies are, how reversible the intervention, how the diagnosis behaves over time). An argument that rides the structural likeness all the way to "treat them identically" has skipped the evidential question — which is exactly the question that does the real work.
 
-So the analogy isn't simply true or false. It **holds at the level of form and may break at the level of evidence** — and pointing that out is analysis, not insult.
+So the analogy isn't simply true or false. It **holds at the level of form and may break at the level of evidence.**
 :::
 
 # Bringing It to the Bedside {.section-divider}
 
 ## The Paradox Has a Name in the Chart
 
-The miscalibration we met earlier isn't just a philosophy-seminar curiosity — it has a clinical name and a body count: [diagnostic overshadowing]{.key-term}.
+The miscalibration from earlier has a clinical name: [diagnostic overshadowing]{.key-term}.
 
 ::: {.context-box}
 **Diagnostic overshadowing**
@@ -380,7 +374,7 @@ Disabled patients in the U.S. get worse care, and not mainly because of their bo
 
 - Exam tables that don't lower, scales that can't weigh a wheelchair user, and imaging that requires a transfer no one is staffed to do — so basics like cancer screening happen *less* often.
 - In a 2021 national survey, **82 percent of physicians believed people with significant disability have a worse quality of life** than nondisabled people, and only about **41 percent felt very confident they could provide them equal-quality care** [@iezzoni2021].
-- The throughline: attitudes you'd call abstract in a lecture become *who gets a mammogram* in practice.
+- Attitudes that sound abstract become *who gets a mammogram* in practice.
 
 ## How You Talk Is Part of the Care
 
@@ -399,7 +393,7 @@ Two pieces of professional vocabulary that nursing students are expected to hand
 
 ## The Three Models, Back at Work
 
-The framework from the start of the lecture isn't decoration — each model names a different part of good care.
+Each model names a different part of good care.
 
 | Model | What it's good for at the bedside | Where it misleads if used alone |
 |---|---|---|
@@ -419,12 +413,12 @@ Good nursing is mostly the bottom row: knowing, for this patient today, which pa
 | Deaf embryo selection | selecting *for* Deafness is coherent, like any valued trait | choosing a worse-off life for a non-consenting child |
 | Body integrity dysphoria | a settled identity claim deserving accommodation | distress to be treated, not a difference to affirm |
 
-Read **down** a column: can either view hold its nerve across all three? Read **across** a row: notice how much your verdict was fixed by a premise you picked early. The map didn't decide anything — it showed you where your decision actually lives.
+Read **down** a column: can either view hold up across all three cases? Read **across** a row: notice how much a verdict was fixed by a premise picked early. The map decides nothing; it shows where the decision actually lives.
 
 ## Wrap-Up
 
 ::: {.recap}
-We began with a gap: clinicians predict low quality of life for disabled patients; patients report high. That **disability paradox** unsettles the bedside but settles no philosophy — it leaves open whether disability is a *mere difference* or a *bad difference*. We tracked that live dispute across selective abortion, Deaf embryo selection, and body integrity dysphoria, and we tested the BID–gender-dysphoria analogy by mapping it rather than asserting it. The threads stay open on purpose. What's earned is sharper: the disagreements are about premises and evidence, not about who cares more.
+We began with a gap: clinicians predict low quality of life for disabled patients; patients report high. That **disability paradox** unsettles the bedside but settles no philosophy — it leaves open whether disability is a *mere difference* or a *bad difference*. We tracked that live dispute across selective abortion, Deaf embryo selection, and body integrity dysphoria, and we tested the BID–gender-dysphoria analogy by mapping it rather than asserting it. The disagreements here are about premises and evidence, not about who cares more.
 
 Two one-line callbacks worth holding: the disability-rights critique of assisted dying (Harriet McBryde Johnson against Peter Singer [@johnson2003_unspeakable]) is this same dispute in a different room; and Feinberg's *open future*, claimed by every side, runs under all of it.
 :::
