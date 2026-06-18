@@ -53,7 +53,7 @@ So the case leaves a hard question on the table. When a desperate patient, a des
 
 ## The Argument the Bennett Case Started
 
-The Bennett case is worth study because the people involved were not careless. The surgeons were experts acting in good faith; the patient wanted to live; the regulators signed off. The disagreement is about something deeper than any mistake. What follows is a connected exchange — each move answering the one before.
+Every time medicine tries something for the first time, the same two questions return: where is the line between treating a patient and experimenting on one, and can a dying person freely consent to either? Bennett's case poses both as starkly as the first heart transplants did in 1967 — and adds a third those cases never faced. A pig's organ can carry a pig's viruses, so the risk reached past Bennett to a public that never sat in the consent conversation.
 
 ### The rescue argument: he had nothing to lose
 
@@ -87,7 +87,7 @@ A treatment is meant to help the patient. An experiment is meant to produce know
 **Therapeutic misconception.** The well-documented tendency of patients in research to believe that an experimental procedure is designed to help *them*, when its real purpose is to gather data. The more desperate the patient, the stronger the misconception — and the harder it is to correct.
 :::
 
-Add desperation to the mix and the worry sharpens. A man hours from death, offered his "last choice," is in no position to weigh odds coolly. Consent given at the edge of the grave may be sincere and still not be free.
+Add desperation to the mix and the worry grows. A man hours from death, offered his "last choice," is in no position to weigh odds coolly. Consent given at the edge of the grave may be sincere and still not be free.
 
 ### The counter-reply: desperate patients can still choose
 

@@ -51,7 +51,7 @@ For the rest of that life he said two things that many listeners could not hold 
 
 ## The Argument Dax Started
 
-What makes Cowart's case central to bioethics is not the horror of the burns. It is the *quality of the disagreement* it produced. Over fifty years, Cowart, his physicians, and a series of philosophers and lawyers built an argument, attacked it, repaired it, and attacked the repair. The pieces below trace that exchange as a connected dialogue. Each move answers the one before.
+Cowart's case became the test the modern right to refuse treatment had to pass. The principle was already stirring in 1970s bioethics — that patients, not physicians, should rule over their own bodies — but it had not yet met a patient who was fully competent, in agony, and demanding to be allowed to die from injuries he was likely to survive. For fifty years Cowart, his physicians, and a line of philosophers and lawyers fought over the one question his case posed without escape: may a competent person refuse life-saving care precisely because the life saved would be his to live?
 
 ### The argument from autonomy
 
@@ -182,7 +182,7 @@ If the story stopped with Arnold and Menzel, the lesson would still look tidy: r
 - She was sedated for weeks and could not decide.
 - After recovery, Rubin did *not* feel betrayed. She believes she genuinely lacked capacity early on, that the team acted in her interest, and that honoring her friends' pleas would have been a fatal mistake.
 
-Rubin's case does not refute Cowart. Two psychiatrists found *he* had capacity, and hers is also just one story. What it does is reopen premise 2 of the original autonomy argument as a genuinely empirical question that cannot be settled from a single famous case. Capacity in catastrophic injury is harder to read, and more variable across people, than either "burn units are tyrannical" or "patients always come around" allows. Cowart himself, asked how a physician could ever be *sure* a patient truly wants to die, conceded: "I doubt that there is any way a physician can be absolutely sure." Fifty years on, that is roughly where the argument rests — not at an answer, but at a sharper question, with Cowart's autonomy claim intact and the certainty once used against it gone on both sides.
+Rubin's case does not refute Cowart. Two psychiatrists found *he* had capacity, and hers is also just one story. What it does is reopen premise 2 of the original autonomy argument as a genuinely empirical question that cannot be settled from a single famous case. Capacity in catastrophic injury is harder to read, and more variable across people, than either "burn units are tyrannical" or "patients always come around" allows. Cowart himself, asked how a physician could ever be *sure* a patient truly wants to die, conceded: "I doubt that there is any way a physician can be absolutely sure." Fifty years on, that is roughly where the argument rests — not at an answer, but at a harder question, with Cowart's autonomy claim intact and the certainty once used against it gone on both sides.
 
 ## Discussion Questions
 

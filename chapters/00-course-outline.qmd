@@ -126,7 +126,7 @@ The systematic ethics of clinical trials, organized around one spine — **vulne
 - Placebo, poverty, and global research: the **short-course AZT trials** (Lurie & Wolfe vs. Varmus & Satcher) as allocational/infrastructural vulnerability; post-trial access.
 - Research without a trial: **Henrietta Lacks**, broad consent, the rewritten Common Rule, and DNA re-identification.
 - **Commercial funding and conflict of interest**: the **Dan Markingson** case (University of Minnesota, 2003–04) as a worst-case convergence of every vulnerability type; why disclosure is a floor and structural firewalls are the fix.
-- The **replication crisis** as a subject-protection problem: why most findings can be false (Ioannidis), p-hacking and HARKing in plain language, systemic evidence (psychology ≈39%; preclinical cancer 6/53), the Aβ*56 Alzheimer's and Surgisphere cases, and how **AI sharpens the threat** (synthetic data, paper mills, faster p-hacking).
+- The **replication crisis** as a subject-protection problem: why most findings can be false (Ioannidis), p-hacking and HARKing in plain language, systemic evidence (psychology ≈39%; preclinical cancer 6/53), the Aβ*56 Alzheimer's and Surgisphere cases, and how **AI worsens the threat** (synthetic data, paper mills, faster p-hacking).
 - Research misconduct (fabrication, falsification, plagiarism) and the structural fixes: preregistration, registered reports, data sharing, replication.
 
 **Visual elements:**

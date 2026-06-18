@@ -104,7 +104,16 @@ The single biggest requirement: the back half of the case must read as **one con
 4. **A reframing move** — a thinker who accepts much of the exchange but shifts the frame (relational, procedural, institutional).
 5. **The move that hasn't ended** — the **contemporary/empirical turn**: a documented present-day analogue (a named law, ruling, study, or practice) and **≥2 recent sources** (ideally within ~10 years, real `refs.bib` keys) that *reopen* rather than close the argument. This is the required contemporary bridge, delivered as the live edge of the dialogue.
 
-Every move needs **connective tissue**: open each subsection by stating what the previous move forced, and close it by stating what it now invites. A reader should be able to say, after each subsection, "so the next question is ___." Avoid false equivalence in the final move: name what is genuinely parallel *and* what has changed. End on a sharpened open question, not a verdict (balanced tension).
+Every move needs **connective tissue**: open each subsection by stating what the previous move forced, and close it by stating what it now invites. A reader should be able to say, after each subsection, "so the next question is ___." Avoid false equivalence in the final move: name what is genuinely parallel *and* what has changed. End on an unresolved question, not a verdict (balanced tension).
+
+### The framing paragraph (the section's first lines)
+
+The short paragraph under `## The Argument <Subject> Started` is where most cases go generic. It must do **two concrete jobs**, and nothing else:
+
+1. **Locate the case in a longer argument.** Almost every case is the *latest round* of a fight that predates it — name that older argument and the position the case inherited or disturbed (Kate Cox: the classical debate over the conscientious *refuser*, now inverted to *provision*; He Jiankui: a standing near-unanimous consensus he chose to ignore). If the case is genuinely novel, say precisely what is new and why the old tools don't fit. Do not write as though the argument *began* with this case.
+2. **Name the one thing actually in dispute** — the specific hinge the five moves will turn on — in plain, concrete terms. Not "a hard disagreement," but *what* is disagreed about.
+
+Give it a point of view and a concrete detail; show the stakes rather than labeling them. **Do not** open by asserting that the disagreement is high-quality, that both sides are reasonable, that there are "no villains," or that everyone acted in good faith — that flattens the tension the dialogue is supposed to earn, and it states a conclusion the reader should reach by the end. (If "serious people genuinely disagree" *is* the real thesis, it must be earned with the specific reason, not used as a reflexive opener.) **Do not** narrate the document's own structure ("what follows is a connected exchange; each move answers the last") — the H3 sequence and the connective-tissue rule already do that work.
 
 ## Arguments in Standard Form (required)
 
@@ -149,7 +158,8 @@ A numbered list of **5** questions. Each must:
 - An argument box with no surrounding prose, or prose that never says which premise is in dispute.
 - Bulleted "notes" in place of narrative prose.
 - A bolded key term with no definition on the page.
-- A one-sided case with a strawman opponent; resolving the dialogue with a verdict instead of a sharpened open question.
+- A one-sided case with a strawman opponent; resolving the dialogue with a verdict instead of an open question.
+- A framing paragraph that opens on "the *quality of the disagreement*," "both sides are reasonable," "no villains," or "acted in good faith" — or that narrates structure ("what follows is a connected exchange; each move answers the last") instead of locating the case in an older argument and naming the specific point in dispute.
 - "Read for next class" / assignment framing.
 - More or fewer than 5 discussion questions.
 - Invented citation keys or unsourced empirical claims in the contemporary move.
@@ -181,7 +191,7 @@ Two to four plain-language sentences. Scaffolding only — no ethics yet.
 
 ## The Argument [Subject] Started
 
-[One short framing paragraph: this case matters because of the *quality of the disagreement* it produced; what follows is a connected exchange, each move answering the last.]
+[One short framing paragraph doing the two jobs from "The framing paragraph" above: (1) locate this case as the latest round of an older argument (or say precisely what is new); (2) name the one specific thing in dispute. Concrete, with a point of view. Do NOT assert both sides are reasonable / acted in good faith / there are no villains, and do NOT narrate the structure ("what follows is a connected exchange…").]
 
 ### [The central argument — usually the protagonist's position]
 
@@ -221,7 +231,7 @@ Two to four plain-language sentences. Scaffolding only — no ethics yet.
 
 ### [The move that hasn't ended — the contemporary/empirical turn]
 
-[A documented present-day analogue + ≥2 recent sources [@key2020; @key2022] that *reopen* the argument. Name what is parallel and what has changed. End on a sharpened open question, not a verdict.]
+[A documented present-day analogue + ≥2 recent sources [@key2020; @key2022] that *reopen* the argument. Name what is parallel and what has changed. End on an open question, not a verdict.]
 
 ## Discussion Questions
 

@@ -47,7 +47,7 @@ Justice Sonia Sotomayor read part of her dissent aloud, a rare move that signals
 
 ## The Argument *Skrmetti* Started
 
-The case is worth studying not because one side is obviously right, but because both sides made serious legal arguments from the same facts. What follows is the exchange, move by move. Each step answers the one before it.
+The legal fight in *Skrmetti* did not begin in 2025. It inherited a fifty-year-old machinery for deciding when a law that treats people differently must clear a higher constitutional bar. The whole case turns on one move inside that machinery: whether a ban that sorts patients by the *purpose* of a drug is, underneath, sorting them by *sex* — and so whether courts owe it skeptical review or near-total deference.
 
 ### The families' argument: this is a sex line
 
@@ -81,7 +81,7 @@ The soft spot here is premise 2's claim that the line is truly sex-neutral. The 
 
 ### The dissent's counter-reply: hidden lines and a warning from history
 
-Sotomayor, joined by Justice Ketanji Brown Jackson, answered that the "purpose" framing was a magic trick. A sex line does not stop being a sex line just because a state describes it in other words. Her sharpest point came from history, and Jackson had raised it at oral argument. In *Loving v. Virginia* (1967), Virginia defended its ban on interracial marriage by saying it was not racist, because it punished the white and the Black partner equally [@loving1967]. The Court rejected that reasoning. A law can rest on race even when it falls on every race "equally."
+Sotomayor, joined by Justice Ketanji Brown Jackson, answered that the "purpose" framing was a magic trick. A sex line does not stop being a sex line just because a state describes it in other words. Her most telling point came from history, and Jackson had raised it at oral argument. In *Loving v. Virginia* (1967), Virginia defended its ban on interracial marriage by saying it was not racist, because it punished the white and the Black partner equally [@loving1967]. The Court rejected that reasoning. A law can rest on race even when it falls on every race "equally."
 
 ::: {.argument}
 **The *Loving* Parallel**
@@ -114,7 +114,7 @@ One concurring opinion shows how live that next question is. Justice Barrett wro
 
 What followed the ruling moved faster than the ruling itself. *Skrmetti* concerned state bans on care for *minors*. But Executive Order 14187, signed in January 2025, directed federally funded institutions to stop the care for patients under nineteen — past the usual age of adulthood. Federal health agencies sent hospitals warning letters. Major children's hospitals paused or ended services, including some in states where the care is fully legal. Minnesota is a refuge state, with laws meant to protect patients and providers. Yet even there, hospitals that depend on federal money felt the pressure.
 
-So the legal map is no longer a simple split between "ban states" and "shield states." Federal funding reaches across that line. *Skrmetti* handed the policy to "the democratic process" — but the democratic process now runs through courts, statehouses, and federal budget offices all at once. The sharpened question is no longer just *what should we do for a child like L.W.?* It is *who now holds the pen — and can anyone overrule them?*
+So the legal map is no longer a simple split between "ban states" and "shield states." Federal funding reaches across that line. *Skrmetti* handed the policy to "the democratic process" — but the democratic process now runs through courts, statehouses, and federal budget offices all at once. The live question is no longer just *what should we do for a child like L.W.?* It is *who now holds the pen — and can anyone overrule them?*
 
 ## Discussion Questions
 

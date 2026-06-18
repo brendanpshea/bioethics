@@ -88,7 +88,7 @@ The debate asked when, if ever, the law should protect such refusals. Karsan's c
 
 ### The integrity argument for conscientious refusal
 
-The foundational defense of conscience clauses, given its sharpest form by the bioethicist Mark Wicclair, holds that being asked to perform an act one believes to be deeply wrong is being asked to damage one's own moral integrity. Moral integrity is itself a basic human good that medicine should respect [@wicclair2000]. A pharmacist who believes emergency contraception ends a human life is not, on this view, merely expressing a preference. She is being asked to act against her core identity.
+The foundational defense of conscience clauses, given its fullest form by the bioethicist Mark Wicclair, holds that being asked to perform an act one believes to be deeply wrong is being asked to damage one's own moral integrity. Moral integrity is itself a basic human good that medicine should respect [@wicclair2000]. A pharmacist who believes emergency contraception ends a human life is not, on this view, merely expressing a preference. She is being asked to act against her core identity.
 
 ::: {.argument}
 **The Integrity Argument for Refusal**
@@ -136,7 +136,7 @@ The conventional compromise was, for two decades, the working consensus of Ameri
 
 Here the question shifts from refusal to its mirror image, provision. The classical defenders of conscientious refusal — Wicclair, Brock, even the dissenters Stahl and Emanuel — were arguing about a different setting. In their setting, the contested care was legal, and the contested clinician was the one declining to provide it. Lisa Harris and her co-authors at the *Hastings Center Report* describe the post-*Dobbs* clinician as living under a "sword of Damocles." The contested care is now criminalized. The contested clinician is the one who provides it [@harris2024damocles]. The integrity argument has not gone away. It has changed direction.
 
-The sharpened version of the inversion comes from Isa Ryan, Ashish Premkumar, and Katie Watson in the *AMA Journal of Ethics* [@ryanPremkumarWatson2022]. They draw a distinction the classical literature mostly elides:
+The strongest version of the inversion comes from Isa Ryan, Ashish Premkumar, and Katie Watson in the *AMA Journal of Ethics* [@ryanPremkumarWatson2022]. They draw a distinction the classical literature mostly elides:
 
 - [Personal morality]{.key-term} — the convictions one holds as a private individual.
 - [Role morality]{.key-term} — the ethical obligations one takes on by accepting a professional role.
@@ -171,7 +171,7 @@ These are not problems Wicclair or Brock anticipated. Their framework was built 
 - Religious health systems.
 - Clinicians whose oaths now conflict with their licenses.
 
-The sharpened open question is no longer whether conscience matters in medicine. It is whose conscience the law should recognize when the conscience of a state, a hospital, and a physician all point in different directions.
+The question that remains is no longer whether conscience matters in medicine. It is whose conscience the law should recognize when the conscience of a state, a hospital, and a physician all point in different directions.
 
 ## Discussion Questions
 

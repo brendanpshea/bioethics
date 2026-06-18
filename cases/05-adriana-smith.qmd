@@ -112,7 +112,7 @@ If this is not an abortion, what is it? The honest answer is that it does not fi
 
 But this claim is disputed. A 2025 review in *The American Journal of Bioethics* by Ariane Lewis and colleagues pushes back hard. They count **at least forty-seven reported cases** of brain death in pregnancy since 1982, and they point to detailed international guidance — the World Brain Death Project even publishes a management checklist for it. On their account, this is "not novel or experimental." It is rare and difficult, but known [@lewis2025smith].
 
-So who is right? The two sides may not fully contradict each other. Caplan could mean that the *four-month length*, and the post-*Dobbs* legal pressure, were unprecedented even if brain death in pregnancy is not. Lewis could be right that the basic practice has decades of cases behind it. Underneath the disagreement sits a sharper question: **what exactly makes a medical act count as "experimental"?** It could be any of three things:
+So who is right? The two sides may not fully contradict each other. Caplan could mean that the *four-month length*, and the post-*Dobbs* legal pressure, were unprecedented even if brain death in pregnancy is not. Lewis could be right that the basic practice has decades of cases behind it. Underneath the disagreement sits a deeper question: **what exactly makes a medical act count as "experimental"?** It could be any of three things:
 
 - That it has never been done before.
 - That it has no settled protocol.

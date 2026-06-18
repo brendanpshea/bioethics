@@ -32,7 +32,7 @@ By the end of Part B, you will be able to:
 - Explain [clinical equipoise]{.key-term} as the moral license that both starts and ends a trial
 - Judge when placebo controls are and are not defensible, including across rich and poor settings
 - Show how commercial funding distorts research, using the Markingson case
-- Explain why so many published findings fail to replicate — and how AI sharpens the threat
+- Explain why so many published findings fail to replicate — and how AI magnifies the threat
 :::
 
 # The Cases That Built the Rules {.section-divider}
@@ -529,7 +529,7 @@ A landmark drug trial is later found to contain manipulated data. Thousands of p
 ::: {.recap}
 Research ethics is the study of how the search for knowledge can wrong people — and how to design against it.
 
-Vulnerability is the spine. It is power and pressure, not personality. That is why consent must be real. It is why equipoise — the standard, if contested, license for most RCTs — both starts and ends a trial. It is why placebo and global trials turn on feasibility and post-trial duties. It is why commercial funding needs structural firewalls, not just disclosure. And it is why a replication crisis sharpened by AI is itself a subject-protection problem.
+Vulnerability is the spine. It is power and pressure, not personality. That is why consent must be real. It is why equipoise — the standard, if contested, license for most RCTs — both starts and ends a trial. It is why placebo and global trials turn on feasibility and post-trial duties. It is why commercial funding needs structural firewalls, not just disclosure. And it is why a replication crisis amplified by AI is itself a subject-protection problem.
 
 Ethical research is not research with a signature. It is research designed so that the people who make knowledge possible — and the future patients who will rely on it — are treated as persons first.
 :::

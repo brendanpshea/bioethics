@@ -74,7 +74,7 @@ And that is what makes the case hard, not easy. The algorithm had done exactly w
 
 ## The Argument the Audit Started
 
-What makes this case central to medical AI ethics is the quality of the disagreement that followed. The people involved did not split into villains and heroes. They split over *where the wrong was* — and each answer pushed the next speaker to a sharper reply. The exchange below runs from 2019 to the present, and each move answers the one before.
+Algorithmic fairness already had a central puzzle before Optum: a model can use no forbidden variable — not race, nor anything close to it — and still reproduce the bias of the world it learned from. The Optum audit turned that abstraction into a measured number, on roughly 200 million patients. What the people who studied it then disagreed about was *where the wrong actually lived*: in the data, the proxy, the way the score was used, or the assumption that a clean fix was available at all.
 
 ### "Accurate and colorblind": the designers' defense
 
@@ -109,7 +109,7 @@ But the reply has a soft spot, and the defenders of algorithms pressed on it at 
 
 ### "Biased algorithms are easier to fix than biased people": the optimists' counter
 
-The sharpest version of that counter came from inside the study itself. Two months after the paper, Sendhil Mullainathan — one of its authors — published an essay whose title carried the whole argument: "Biased Algorithms Are Easier to Fix Than Biased People" [@mullainathan2019]. Yes, the algorithm absorbed the world's bias. But notice what happened next. The bias was *found*, because an algorithm's behavior can be tested on thousands of cases. It was *measured*, down to the percentage point. And it was mostly *repaired*, by changing one label — within months.
+The most forceful version of that counter came from inside the study itself. Two months after the paper, Sendhil Mullainathan — one of its authors — published an essay whose title carried the whole argument: "Biased Algorithms Are Easier to Fix Than Biased People" [@mullainathan2019]. Yes, the algorithm absorbed the world's bias. But notice what happened next. The bias was *found*, because an algorithm's behavior can be tested on thousands of cases. It was *measured*, down to the percentage point. And it was mostly *repaired*, by changing one label — within months.
 
 ::: {.argument}
 **The Fixable Machine Argument**
@@ -151,7 +151,7 @@ The case did not close. It split into three live threads, and they pull in diffe
 
 **And the politics moved.** The governance Benjamin called for advanced, then stalled. Colorado passed the country's most ambitious algorithmic-discrimination law in 2024, covering health care by name — then delayed it twice and stripped out its impact-assessment core before it ever took effect. Federal oversight of clinical AI loosened in 2025 and 2026 in the name of innovation. And the original sore spot remains untouched: no law yet guarantees the next Obermeyer the data access that made the first audit possible. The fix was real. The system that produced the flaw — and the luck the fix required — look much the same.
 
-So the question the case leaves open has sharpened rather than settled. The Optum story had an address for its injustice: one label, one fix, 84 percent. If the same injustice now lives everywhere and nowhere in a model no one can relabel — was the 2019 case the *model* for governing medical AI, or merely the last one easy enough to solve?
+So the question the case leaves open has widened rather than settled. The Optum story had an address for its injustice: one label, one fix, 84 percent. If the same injustice now lives everywhere and nowhere in a model no one can relabel — was the 2019 case the *model* for governing medical AI, or merely the last one easy enough to solve?
 
 ## Discussion Questions
 
