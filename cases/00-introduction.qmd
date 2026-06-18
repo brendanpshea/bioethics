@@ -1,0 +1,140 @@
+---
+title: "Thinking with Cases: An Introduction to Bioethics"
+subtitle: "How to read the case studies in this book"
+author: "Brendan Shea, PhD"
+date: last-modified
+---
+
+## Starting in the Middle
+
+A nurse stands in a doorway holding a small paper cup of pills. Inside the room is a competent, alert patient who has just said, quietly and for the third time, that he does not want them. The medication would almost certainly help him. He understands this. He still says no.
+
+What should the nurse do?
+
+Notice what the question is *not*. It is not a question about chemistry, or about hospital policy, or about what most people would choose. It is a question about what is *right* — and it cannot be answered by knowing more facts alone. Two people could agree on every detail of the patient's condition and still disagree about the answer. That gap, between the facts and the right action, is where bioethics lives.
+
+This book is a collection of such moments. Each chapter tells a true story in which thoughtful people, acting in good faith, reached the edge of what their training could settle and had to decide anyway. The stories are not here to be solved and filed away. They are here to be *thought with*. By the end of each one you should not have "the answer." You should have a sharper, harder, more honest version of the question — and a clearer sense of what you yourself believe and why.
+
+That is a strange promise for a book to make, so this opening chapter explains the tools. It introduces the core ideas of bioethics for a reader coming to the field fresh: what the discipline is, the four principles that organize most of its arguments, the ethical theories that sit behind those principles, and the basic skill of taking an argument apart to see how it works. It then explains how the cases in this book are built, and how they were written. None of this requires a background in medicine or philosophy. It requires only the willingness to sit with a hard question a little longer than feels comfortable.
+
+## What Bioethics Is
+
+[Bioethics]{.key-term} is the study of the ethical questions raised by medicine, health care, and the life sciences. It asks what we owe one another when bodies, minds, and lives are at stake: when to treat and when to stop, who decides, what may be researched and on whom, how scarce help should be shared, and where the limits of medicine's power should fall.
+
+The field is young. It took its modern shape only in the second half of the twentieth century, when three forces collided. Medicine grew suddenly powerful — ventilators, dialysis, organ transplants, intensive care — and could now keep bodies alive in conditions no one had faced before. A series of research scandals came to light, in which doctors had treated patients as material rather than as people. And the old, unquestioned authority of the physician began to give way to a new insistence that patients have a say in what happens to them. Bioethics emerged to think clearly about problems that were genuinely new.
+
+It helps, early on, to mark off what ethics is *not*, because three reflexes tend to short-circuit the conversation.
+
+- **Ethics is not the same as law.** Laws can be unjust, and many things that are legal are still wrong (and a few illegal things may be right). "It's allowed" and "it's permitted here" do not answer the moral question; they change the subject.
+- **Ethics is not the same as religion.** Religious traditions offer some of the deepest moral thinking we have, but a bioethical argument has to be one that people of different faiths, or none, can follow and weigh. The reasons have to be shareable.
+- **Ethics is not the same as personal preference.** "I just feel it's wrong" reports a fact about you, not a reason others can examine. Ethics deals in reasons that can be stated, challenged, and defended.
+
+It also helps to know that ethical questions come in different kinds. Some are **descriptive**: what do people actually believe, and how do they in fact behave? Those are questions for psychology and sociology. Some are **metaethical**: what *is* goodness, and can moral claims even be true? Those are questions for philosophers. This book lives almost entirely in a third kind, **normative** ethics, which asks the practical question the nurse in the doorway is facing: *what should be done here, and why?*
+
+## The Four Principles
+
+If bioethics has a common language, it is the language of four principles. In the 1970s the philosophers Tom Beauchamp and James Childress proposed that most moral disputes in medicine could be framed using four basic commitments that nearly everyone already shares, whatever their religion or politics [@beauchamp2019]. Their book made these four principles the working vocabulary of the field.
+
+- **Autonomy** — respect for a person's right to make decisions about their own life and body. This is the principle behind informed consent, and behind the patient's right to say no.
+- **Beneficence** — the duty to act for the good of others, to help, to promote well-being. It is the oldest impulse in medicine: do good.
+- **Non-maleficence** — the duty to avoid causing harm. *First, do no harm.* It often pulls hardest exactly when beneficence is most tempting.
+- **Justice** — the duty to treat people fairly and to share benefits and burdens equitably. It governs who gets the scarce organ, the ICU bed, the place in the trial.
+
+Beauchamp and Childress argued that these four are part of what they called the **common morality** — the set of basic moral commitments shared across cultures and traditions. You do not have to be persuaded of a grand theory to accept them; you already live by them. Critics have sometimes called this "fourth-grade morality," as if it were too simple to be serious. The reply is that the four principles are simple to *state* and very hard to *apply* — and that their simplicity is a strength, because it gives people who disagree about everything else a place to begin.
+
+The principles do real work precisely because they **conflict**. The nurse in the doorway feels autonomy (the patient's refusal) pulling against beneficence (the good the pills would do). A surgeon weighing a risky operation feels beneficence against non-maleficence. A transplant committee feels one patient's need against justice to all the others. In an easy case the principles agree, and there is no dilemma. In a hard case — the only kind worth a chapter — they point in different directions, and something has to give.
+
+This is why bioethics is not a matter of memorizing rules. There is no fixed ranking that puts autonomy permanently above beneficence, or justice above both. The work is in the application: deciding what each principle *demands* in this particular situation (philosophers call this **specification**) and how much weight each should carry when they collide (**balancing**).
+
+Consider a brief example. An elderly woman with early dementia still wants to live alone, though her doctors think she is no longer safe there. Autonomy says respect her wish; non-maleficence warns of the fall waiting to happen; beneficence wants her cared for. There is no formula that solves this. The careful move is to *specify*: how much capacity does she still have for this particular choice, and what is the real size of the risk? And then to *balance*: a small risk freely chosen may weigh less than the dignity of her own home, while a grave and certain danger may tip the other way. Two thoughtful people can run that process honestly and still land in different places. That disagreement is not a failure of the method. It is the honest shape of a hard problem.
+
+## Four Lenses for a Hard Case
+
+Behind the four principles sit older and more ambitious ideas — the moral theories that have occupied philosophers for centuries. You do not need to master them to use this book. But it helps to know the main ones, because each works like a *lens*: a way of looking at a case that brings certain features into focus and pushes others to the edge. Faced with the same story, the lenses often ask different questions and sometimes reach different answers.
+
+**Consequentialism** judges an action by its results. The most famous version, **utilitarianism**, says the right act is the one that produces the most good — the greatest well-being, the least suffering — counting everyone equally. Jeremy Bentham and John Stuart Mill gave the view its classic form: the question is not who you are or what rule you followed, but how much better or worse the world becomes [@mill1863; @bentham1789]. A modern utilitarian, Peter Singer, has followed the logic to conclusions many find startling, arguing that the suffering of animals counts as fully as our own and that the affluent are obligated to give far more than they do [@singer1975]. Utilitarianism's strength is its clarity and its refusal to play favorites. Its danger is that it can, in principle, justify sacrificing an individual for the greater good — which is exactly what some of the worst cases in this book involve.
+
+**Kantian ethics**, named for Immanuel Kant, judges actions by duty rather than results. Its central command is to treat every person as an *end in themselves*, never merely as a means to someone else's purpose [@kant1785]. Some things may not be done to a person even if doing them would help many others, because persons are not tools. This is the deepest objection to using patients as unwitting research material, and it underwrites the modern insistence on consent. Where the utilitarian asks "what produces the most good?", the Kantian asks "what do we owe this person, regardless of the good?"
+
+**Virtue ethics**, descending from Aristotle, shifts the question from the act to the *agent*. Instead of "what should I do?" it asks "what would a good person — honest, compassionate, courageous, just — do here, and what kind of person do I become by choosing this?" [@aristotle_ne]. It captures something the other theories can miss: that character and habit, not just isolated decisions, are the substance of a moral life.
+
+**The ethics of care**, developed by Carol Gilligan and others, starts from relationships rather than rules [@gilligan1982]. It notices that real moral life is lived among people who are dependent on one another — patient and nurse, parent and child — and that abstract principles can obscure the concrete obligations of those bonds. It is a natural lens for medicine, where so much of the work is relationship.
+
+Put the lenses to work on a single case and the difference shows at once. Suppose a hospital has one ICU bed and two patients who need it. The utilitarian asks which choice saves more life and relieves more suffering overall. The Kantian asks whether either patient is being treated as a mere means — whether each is given the respect owed to a person, not weighed like cargo. The virtue ethicist asks what a just and compassionate clinician would do, and how she should carry the loss of whoever is not chosen. The care ethicist asks about the relationships and dependencies in the room — who is already in this clinician's care, and what that bond demands. None of these questions is foolish, and they do not always agree.
+
+These theories, then, are not rival machines that stamp out answers. They are ways of seeing, and a skilled reader learns to switch among them. Often the most useful question about a case is not "which theory is correct?" but "what does each lens reveal that the others hide?" Each one, in the end, can be read as a different account of *why* the four principles matter.
+
+## How to Read a Moral Argument
+
+The cases in this book are built around arguments, and the single most useful skill for reading them is also the simplest: learning to take an argument apart.
+
+An [argument]{.key-term}, in this sense, is not a quarrel. It is a set of reasons — called **premises** — offered in support of a conclusion. Laid out plainly, an argument looks like this:
+
+1. A competent adult has the right to refuse any medical treatment.
+2. This patient is a competent adult who refuses the treatment.
+3. Therefore, his refusal should be honored.
+
+Setting an argument out in this **standard form** — premises first, conclusion last — is powerful because it makes disagreement *locatable*. Once the steps are visible, you can ask two distinct questions. First: does the conclusion actually follow from the premises, if the premises are true? (This is **validity**, a matter of logic.) Second: are the premises in fact true? (A valid argument with true premises is called **sound**.) An argument can be perfectly logical and still go wrong because one of its premises is false.
+
+This gives the reader a precise tool. When two thoughtful people disagree about a case, they rarely disagree about *everything*. Usually they accept most of the steps and part ways over exactly one — a single premise that one believes and the other denies. Find that premise and you have found the real dispute. In the refusal argument above, almost everyone grants the first and third steps; the whole question turns on the second, on whether the patient is truly *competent* to refuse. That is where the argument should be pressed.
+
+Throughout this book you will see arguments set out in this numbered form, in boxes, with the contested premise named. The point is never to win. It is to see, with as little fog as possible, where reasonable people actually divide — and to make you state which premise *you* would defend.
+
+## How the Rules Were Written
+
+Many of the safeguards we now take for granted — that a patient must consent, that research must be reviewed, that subjects can walk away — are recent, and most were written in response to disaster. The history is worth knowing, because the cases in this book are the latest chapters in a long argument, not the first.
+
+For most of medicine's history, the doctor decided and the patient complied. The physician's duty was beneficence, and consent as we understand it barely existed. The change began, brutally, at Nuremberg. After the Second World War, the trial of Nazi doctors who had performed lethal experiments on prisoners produced the **Nuremberg Code** of 1947, the first clear statement that the *voluntary consent* of the research subject is essential [@nuremberg1947]. The world medical community followed, eventually, with the **Declaration of Helsinki**, the international standard for ethical research that is still revised today [@helsinki2024].
+
+The codes did not end the abuses. In the United States, the **Tuskegee Syphilis Study** ran for forty years, into the 1970s, withholding effective treatment from hundreds of Black men so that researchers could observe the untreated course of the disease — without their informed consent, and after a cure existed. When it came to light, the outrage led to the **Belmont Report** of 1979, which distilled the ethics of human research into three principles that still govern it: **respect for persons**, **beneficence**, and **justice** [@belmont1979]. Belmont, in turn, gave us the Institutional Review Boards that must approve research with human subjects, and the modern apparatus of consent forms, risk assessment, and oversight [@jonsen1998].
+
+Other cases sharpened the same lessons. Henrietta Lacks, a Black woman who died of cancer in 1951, had cells taken without her knowledge that became one of the most important tools in the history of medicine — grown, sold, and studied for decades while her own family knew nothing and shared in none of it. Her story folds together every theme of this history at once: consent, justice, race, and the question of what we owe the people whose bodies make medical progress possible.
+
+The same shift remade the ordinary clinic. The physician's authority gave way to a partnership in which the patient's values, not only the doctor's judgment, direct the care. One useful way to see the change comes from Ezekiel and Linda Emanuel, who described four models of the relationship between doctor and patient [@emanuel1992]. In the **paternalistic** model, the physician decides what is best and acts on it — the old default. In the **informative** model, the doctor supplies facts and the patient alone chooses, a kind of vending-machine medicine. In the **interpretive** model, the doctor helps the patient understand what they truly want. In the **deliberative** model, doctor and patient reason together toward the best choice. The history of modern medical ethics is, in large part, a movement away from the first model — though which of the others should replace it is itself a live question, and several of the cases in this book turn on it.
+
+At the center of that shift is [informed consent]{.key-term} — understood not as a signature on a form but as a *process* of disclosure and choice [@faden1986]. For consent to be genuine, four things must hold: the patient must receive adequate **disclosure** of the relevant facts; must have real **understanding** of them; must choose **voluntarily**, free of coercion; and must have the **capacity** to decide [@appelbaum2007]. Capacity is more subtle than it looks — it is not about whether a patient agrees with the doctor, but about whether they can take in information, weigh it, and express a choice. A patient may have the capacity to refuse a flu shot but not to manage a complex cancer decision; capacity is specific to the choice at hand. Alongside consent stands **confidentiality**, the old promise that what a patient reveals will be protected — a promise now strained by databases, families, and public-health duties.
+
+Return now to the nurse in the doorway. Her dilemma is not an accident of one bad shift. It is the meeting point of two centuries of hard-won change: a tradition of beneficence that tells her to help, and a newer, equally serious commitment to autonomy that tells her the choice is not hers to make. The cases that follow are, again and again, places where these commitments collide.
+
+## Why Reason from Cases?
+
+It would be possible to write an ethics book made only of principles and theories, with cases tucked in as examples. This book does the reverse, and the choice is deliberate.
+
+Reasoning from cases has a long and respectable history. In medieval and early-modern ethics it was called [casuistry]{.key-term} — the practice of working out what is right by comparing the case at hand to clear examples whose rightness or wrongness is not in doubt. Casuistry fell into disrepute when it was abused to rationalize whatever a clever arguer wanted. But in the 1980s the philosophers Albert Jonsen and Stephen Toulmin revived it for bioethics, arguing that committees facing real medical dilemmas reached agreement not by deducing answers from grand theories, but by reasoning carefully from cases [@jonsen1998]. People who disagreed sharply about *why* something was wrong could still agree *that* it was — and could reason outward from there.
+
+This matches how moral understanding actually grows. We rarely learn ethics by memorizing a rule and applying it. We learn by encountering a hard situation, feeling the pull of competing goods, watching how others reason, and refining our judgment against new cases. A principle learned in the abstract is inert until you have used it on something that resists. The cases in this book are that resistance — chosen because each one strains the principles in a different direction, so that working through the whole set builds a flexible, tested judgment rather than a list of memorized verdicts.
+
+## The Anatomy of a Case
+
+Each case in this book follows the same shape, so that once you learn to read one, you can read them all.
+
+Every chapter opens with an **at-a-glance** card — who, what, where, and why it matters — so you know the stakes within fifteen seconds. Then comes **the story**, told as carefully and concretely as the facts allow, with real names, dates, and details, because ethics done in the abstract is ethics done badly. Technical terms are explained where they first appear; you are never expected to arrive already knowing them.
+
+The heart of each chapter is **the argument the case started** — a connected exchange of positions, laid out as a sequence of moves. One side states its case; the strongest objection answers it; a reply answers the objection; and so on, with the key arguments set out in standard form and the contested premise named at each step. The exchange is built to be *fair*: each position is given in its strongest version, in the voice of someone who actually holds it. A case in which one side is obviously right is not worth your time.
+
+Each chapter ends with **discussion questions** and, deliberately, without a verdict. This is the book's one firm rule. The cases are designed to *open* your judgment, not to close it. The final move of each argument leaves a question still live — because that is the truth of these problems, and because the point is to make you a better thinker, not to tell you what to think. You can read these chapters alone, pausing to argue with the page, or in a group, where the disagreement is the whole point.
+
+## A Note on How This Book Was Made
+
+This book is a work of human–artificial intelligence collaboration, and it would be strange — in a book about honesty, consent, and the proper use of powerful tools — not to say so plainly.
+
+The ideas, the structure, the selection of cases, the arguments, and the final judgment about every sentence are mine. Artificial-intelligence tools were used as an aid in drafting and in synthesizing material, much as earlier writers used research assistants and editors. I directed that work, supplied the expertise that shaped it, checked the facts and the sources, and take full responsibility for what remains — including any errors. The technology can assemble and rephrase; it cannot decide what is true or what matters, and I have not asked it to.
+
+I disclose this for two reasons. The first is simple honesty about how the work was produced. The second is that this book argues, repeatedly, that powerful tools in medicine and science demand transparency about how they are used and who remains accountable for the results. It would be a poor argument if the book did not hold itself to the same standard.
+
+## About the Author, and the Aim
+
+I have taught bioethics to students for about sixteen years — most of them nursing and health-science students, along with others meeting these questions for the first time. I also serve on the Institutional Biosafety Committee at Mayo Clinic, where some of the abstractions in this book become concrete decisions about real research, and I have published on a number of the issues the cases raise. I mention this not to claim the last word — bioethics has no last word — but to explain the book's angle. It is written from the place where the seminar meets the bedside and the committee room, by someone who has had to help decide, not only to lecture.
+
+That vantage shapes the choice to teach through cases. Principles and theories matter, and this introduction has laid out the essential ones. But moral understanding is not the memorizing of principles; it is the capacity to use them well when they conflict, under uncertainty, with a real person waiting on the answer. That capacity is built by practice — by sitting inside hard cases, taking each side seriously, and reaching your own defensible judgment. These chapters are that practice.
+
+## Using and Sharing This Book
+
+This book is an **open educational resource**. It is released under a **Creative Commons Attribution–NonCommercial (CC BY-NC) license**, which means you are free to read, share, copy, adapt, and teach from it without charge, for any non-commercial purpose, as long as you credit the source. Teachers may assign it, remix it, and build on it; students may keep it. Knowledge about how to think through these questions should not sit behind a paywall.
+
+The collection is also meant to grow. New cases will be added over time as medicine raises new dilemmas — and medicine always does. Whichever cases you find here, the method is the same, and so is the invitation: read the story, weigh the arguments, find the premise you would defend, and decide what you think. Then hold that conclusion loosely enough to keep thinking. That is what it means to think with cases.
+
+## References
+
+::: {#refs}
+:::
