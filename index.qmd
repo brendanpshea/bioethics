@@ -42,6 +42,8 @@ All materials are freely available for non-commercial educational use under a [C
 | 10B | AI in Medicine | The Fifth Principle: Consent, Accountability, and Black Boxes | [Slides](chapters/10b-fifth-principle-slides.html) | [Notes](chapters/10b-fifth-principle.html) |
 | 11A | Gender, Identity & Disability | Gender-Affirming Care: Deciding Under Uncertainty | [Slides](chapters/11a-gender-affirming-care-slides.html) | [Notes](chapters/11a-gender-affirming-care.html) |
 | 11B | Gender, Identity & Disability | Disability, Identity, and the Limits of Autonomy | [Slides](chapters/11b-disability-identity-slides.html) | [Notes](chapters/11b-disability-identity.html) |
+| 12A | Animal Ethics | Moral Status of Animals and the Ethics of Research | [Slides](chapters/12a-animal-moral-status-slides.html) | [Notes](chapters/12a-animal-moral-status.html) |
+| 12B | Animal Ethics | Industrial Animals, Xenotransplantation, and the Frontier | [Slides](chapters/12b-industrial-xeno-slides.html) | [Notes](chapters/12b-industrial-xeno.html) |
 
 ---
 

@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-acf12a64177840b8d86f2d4f01b2e9fb.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.9.37">
+
+  <meta name="author" content="Brendan Shea, PhD">
+  <meta name="dcterms.date" content="last-modified">
+  <title>Bioethics: An Open Educational Resource – Lecture 12 — Animal Ethics</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/reveal.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-2c91ffb3ef59a94917f8afeb4e0fc034.css">
+  <link rel="stylesheet" href="../styles/custom.css">
+  <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Lecture 12 — Animal Ethics</h1>
+  <p class="subtitle">Part A: Moral Status of Animals and the Ethics of Research</p>
+
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Brendan Shea, PhD 
+</div>
+        <p class="quarto-title-affiliation">
+            An Introduction to Bioethics.
+          </p>
+    </div>
+</div>
+
+</section>
+<section>
+<section id="every-drug-youll-ever-give" class="title-slide slide level1 section-divider center">
+<h1>Every Drug You’ll Ever Give</h1>
+
+</section>
+<section id="a-case-to-sit-with" class="slide level2 scrollable">
+<h2>A Case to Sit With</h2>
+<div class="thought-question">
+<p><strong>You just joined your hospital’s animal-research committee.</strong> Your first protocol asks to test a new painkiller — one that could help your own patients. The plan: first in mice, then, if it works, in a small group of monkeys, who will be euthanized at the end so their nerve tissue can be studied.</p>
+<p>You will administer this drug to humans someday if it passes. Tonight you vote on whether it gets made.</p>
+<ol type="1">
+<li>What would you need to know before voting yes?</li>
+<li>Is there any version of this study you would refuse to approve, no matter the benefit to patients?</li>
+<li>Does it matter that the test animals are <em>monkeys</em> rather than <em>mice</em>? Why or why not?</li>
+</ol>
+</div>
+</section>
+<section id="after-youve-discussed" class="slide level2">
+<h2>After You’ve Discussed</h2>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>Most people who use a medicine without a second thought hesitate when asked to <em>approve</em> the research behind it. That hesitation is not hypocrisy — it is two real duties pulling apart: a duty to the patients who need the drug, and a duty to the animals who pay for it.</p>
+<p>This lecture gives you tools to hold both at once: a way to ask <strong>which animals matter, how much, and what that permits</strong> — instead of choosing a slogan and defending it.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="today" class="slide level2">
+<h2>Today</h2>
+<div class="learning-outcomes">
+<p>By the end of Part A, you will be able to:</p>
+<ul>
+<li>Define <strong>moral status</strong> and <strong>speciesism</strong>, and explain the “argument from marginal cases.”</li>
+<li>Lay out three views — <strong>Kant’s</strong> indirect duties, <strong>Singer’s</strong> utilitarianism, and <strong>Regan’s</strong> rights view — and say what each implies in practice.</li>
+<li>Trace the dispute from <strong>Singer</strong> through <strong>Regan</strong>, <strong>Cohen</strong>, and <strong>Korsgaard</strong> as a connected argument.</li>
+<li>State the <strong>3 Rs</strong> (Russell &amp; Burch, 1959) and describe how an <strong>IACUC</strong> reviews animal research.</li>
+<li>Explain why <strong>primate research</strong> is used and contested, and what the 2015 <strong>NIH chimpanzee decision</strong> changed.</li>
+</ul>
+</div>
+</section></section>
+<section>
+<section id="who-counts" class="title-slide slide level1 section-divider center">
+<h1>Who Counts?</h1>
+
+</section>
+<section id="what-moral-status-means" class="slide level2">
+<h2>What “Moral Status” Means</h2>
+<p>Before we ask how to treat animals, we need a prior idea: <strong>moral status</strong>.</p>
+<ul>
+<li>A being has <span class="key-term">moral status</span> when it matters <em>for its own sake</em> — when we owe duties <strong>to it</strong>, not just duties about it.</li>
+<li>A rock has none: you can do as you like with it. A person has full moral status: you must weigh their interests.</li>
+<li>The whole debate is about <strong>what earns status</strong>, and <strong>how much</strong>. The usual candidates are being alive, being <span class="key-term">sentient</span> (able to feel pain and pleasure), and being rational or self-aware.</li>
+</ul>
+<p>Pick a criterion and you have, without noticing, sorted every living thing into “counts” and “doesn’t.”</p>
+</section>
+<section id="speciesism-the-word-and-the-charge" class="slide level2">
+<h2>Speciesism — the Word and the Charge</h2>
+<p>In 1970 the psychologist Richard Ryder coined <span class="key-term">speciesism</span>; Peter Singer made it famous <span class="citation" data-cites="singer1975">(<a href="#/references" role="doc-biblioref" onclick="">Singer 1975</a>)</span>.</p>
+<div class="columns">
+<div class="column" style="width:52%;">
+<p><strong>The charge.</strong> Giving less weight to a being’s interests <em>just because</em> it belongs to another species is like racism or sexism — a bias for “our own kind” dressed up as a principle.</p>
+<p>A pig’s pain, Singer argues, is as real as a person’s. To discount it only for being a pig’s is the error.</p>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:44%;">
+<p><strong>The reply, in advance.</strong> Defenders answer that species membership <em>does</em> track morally real differences — in rationality, in moral agency, in belonging to a moral community.</p>
+<p>Whether that reply works is the question the rest of the lecture argues about.</p>
+</div></div>
+</section>
+<section id="the-spectrum-of-views" class="slide level2">
+<h2>The Spectrum of Views</h2>
+<div id="a46b5da2" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="12a-animal-moral-status_files/figure-revealjs/cell-2-output-1.png" width="778" height="230"></p>
+<figcaption>Views on animal moral status, arranged by how much weight animal interests carry.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>The same facts about animals support very different conclusions. The disagreement is about the <em>criterion</em>, not the biology.</p>
+</section>
+<section id="the-argument-from-marginal-cases" class="slide level2">
+<h2>The Argument from Marginal Cases</h2>
+<p>The hardest problem for any view that draws the line at <strong>rationality</strong>.</p>
+<ul>
+<li>Suppose moral status requires reason, language, or planning for the future. Many adult animals lack these — so, the line says, they don’t fully count.</li>
+<li>But some humans lack them too: newborns, people with advanced dementia, those with severe cognitive disability. They are the “marginal cases.”</li>
+<li>We rightly give these humans full moral status. So either the criterion is wrong, or we must explain what makes the human cases different <em>without</em> simply saying “because they’re human” — which would be speciesism.</li>
+</ul>
+<p>This argument doesn’t settle the debate. It forces every side to say <em>exactly</em> why its line falls where it does.</p>
+</section></section>
+<section>
+<section id="three-answers" class="title-slide slide level1 section-divider center">
+<h1>Three Answers</h1>
+
+</section>
+<section id="kant-we-owe-animals-nothing-directly" class="slide level2">
+<h2>Kant: We Owe Animals Nothing Directly</h2>
+<p>The oldest Western view says animals have <strong>no</strong> moral status of their own <span class="citation" data-cites="kant_lectures_ethics">(<a href="#/references" role="doc-biblioref" onclick="">Kant 1997</a>)</span>.</p>
+<ul>
+<li>For Immanuel Kant, only rational agents are “ends in themselves.” Animals are not rational, so we have no direct duties <strong>to</strong> them.</li>
+<li>But we do have <span class="key-term">indirect duties</span>: duties <em>about</em> animals that are really duties to humanity. Kant’s example — a man who shoots his old dog because it can no longer work does nothing to the dog, but “damages in himself” the kindness he owes other people.</li>
+<li>The practical upshot: cruelty is wrong because it <strong>corrupts us</strong> and coarsens how we treat each other, not because the animal was wronged.</li>
+</ul>
+<p>This view still shapes law that bans cruelty while permitting nearly any <em>use</em>.</p>
+</section>
+<section id="singer-equal-consideration-of-interests" class="slide level2 scrollable">
+<h2>Singer: Equal Consideration of Interests</h2>
+<p>Singer turns Kant’s criterion on its head. The question, he says, quoting Jeremy Bentham, is not “Can they reason?” but “<strong>Can they suffer?</strong>” <span class="citation" data-cites="singer1975">(<a href="#/references" role="doc-biblioref" onclick="">Singer 1975</a>)</span></p>
+<div class="argument">
+<div class="arg-name">
+<p>The Equal-Consideration Argument</p>
+</div>
+<div class="arg-source">
+<p>After Peter Singer, <em>Animal Liberation</em> (1975)</p>
+</div>
+<ol type="1">
+<li>If a being can suffer, it has an interest in not suffering.</li>
+<li>Equal interests deserve equal moral weight, whoever has them.</li>
+<li>Many animals can suffer as humans can.</li>
+<li>So their suffering counts equally — and discounting it for being an animal’s is speciesism.</li>
+</ol>
+</div>
+<p>Singer is a <strong>utilitarian</strong>: what matters is the total balance of suffering and well-being. The disputed premise is <strong>2</strong> — whether <em>equal</em> interests always deserve <em>equal</em> weight.</p>
+</section>
+<section id="what-follows-from-singer" class="slide level2">
+<h2>What Follows from Singer</h2>
+<p>One premise, sweeping consequences — which is why the view is famous and feared.</p>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><strong>Factory farming</strong> fails immediately: it inflicts enormous suffering for the minor interest of cheaper meat. For Singer this is the clearest case of all.</p>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<p><strong>Research</strong> is harder. Singer does <em>not</em> ban it outright. He asks the brutal question: would you do the same study on a human with similar mental capacities? If not, doing it to the animal needs another justification.</p>
+</div></div>
+<p>Note what utilitarianism allows: if a study truly produced enough benefit, the math <em>could</em> favor it. That possibility is exactly what the next thinker rejects.</p>
+</section>
+<section id="regan-animals-have-rights" class="slide level2 scrollable">
+<h2>Regan: Animals Have Rights</h2>
+<p>Tom Regan thought Singer gave animals too little protection. Utilitarian math can always, in principle, sacrifice the individual for the greater good <span class="citation" data-cites="regan1983">(<a href="#/references" role="doc-biblioref" onclick="">Regan 1983</a>)</span>.</p>
+<div class="argument">
+<div class="arg-name">
+<p>The Rights View</p>
+</div>
+<div class="arg-source">
+<p>After Tom Regan, <em>The Case for Animal Rights</em> (1983)</p>
+</div>
+<ol type="1">
+<li>Many animals are <span class="key-term">subjects-of-a-life</span>: they have beliefs, desires, memory, a sense of the future — a life that goes better or worse <em>for them</em>.</li>
+<li>Any subject-of-a-life has <strong>inherent value</strong>, not just usefulness to others.</li>
+<li>Beings with inherent value have a right not to be harmed merely as a means to others’ ends.</li>
+<li>So using animals in research violates their rights — even if the results help many.</li>
+</ol>
+</div>
+<p>Where Singer weighs and balances, Regan draws a <strong>line</strong>: rights are not for trading. The dispute now moves to premise <strong>2</strong> — can animals really be bearers of rights?</p>
+</section>
+<section id="cohen-the-case-for-animal-research" class="slide level2 scrollable">
+<h2>Cohen: The Case for Animal Research</h2>
+<p>The sharpest reply came from a philosopher writing in a medical journal. Carl Cohen defended both speciesism and research — on purpose <span class="citation" data-cites="cohen1986">(<a href="#/references" role="doc-biblioref" onclick="">Cohen 1986</a>)</span>.</p>
+<div class="objection">
+<div class="arg-name">
+<p>Cohen’s Reply</p>
+</div>
+<div class="arg-source">
+<p>After Carl Cohen, “The Case for the Use of Animals in Biomedical Research” (1986)</p>
+</div>
+<ol type="1">
+<li>Rights arise only among beings who can make moral claims on one another — members of a moral community.</li>
+<li>Animals cannot recognize duties or weigh right and wrong, so they hold no rights.</li>
+<li>We <em>should</em> favor our own species, just as we favor our own children; this is moral, not bias.</li>
+<li>So humane, well-regulated animal research is not only permitted but a moral good, given the human lives it saves.</li>
+</ol>
+</div>
+<p>Cohen bites the bullet on marginal cases: rights belong to humans <em>as a kind</em>, even those who can’t exercise them. Whether that move escapes speciesism is the soft spot critics press.</p>
+</section>
+<section id="korsgaard-a-kantian-turn" class="slide level2">
+<h2>Korsgaard: A Kantian Turn</h2>
+<p>Here is the twist. Christine Korsgaard is a leading Kantian — and she argues Kant got animals <strong>wrong</strong> <span class="citation" data-cites="korsgaard2018">(<a href="#/references" role="doc-biblioref" onclick="">Korsgaard 2018</a>)</span>.</p>
+<ul>
+<li>Kant said we value ourselves as “ends in ourselves” because things matter <em>to us</em>. But things matter to animals too: a creature to whom its own life is good is, in Kant’s own terms, an end in itself.</li>
+<li>So the Kantian framework, followed honestly, yields <strong>direct</strong> duties to animals — not Kant’s mere indirect ones.</li>
+<li>Her phrase for them: our <span class="key-term">fellow creatures</span>. We are not their superiors weighing their usefulness; we share a world with beings whose good is real.</li>
+</ul>
+<p>Korsgaard shows the pro-animal conclusion needn’t rest on utilitarianism or on rights talk — even Kant’s own theory, repaired, gets there.</p>
+</section>
+<section id="four-views-four-verdicts" class="slide level2">
+<h2>Four Views, Four Verdicts</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Eating meat</th>
+<th>Animal research</th>
+<th>Pets</th>
+<th>Wildlife</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Kant / Cohen</strong></td>
+<td>permitted</td>
+<td>permitted, even good</td>
+<td>fine if not cruel</td>
+<td>manage for human use</td>
+</tr>
+<tr class="even">
+<td><strong>Singer</strong></td>
+<td>wrong (factory farm)</td>
+<td>only if benefit clearly outweighs</td>
+<td>fine if welfare met</td>
+<td>reduce suffering overall</td>
+</tr>
+<tr class="odd">
+<td><strong>Regan</strong></td>
+<td>wrong</td>
+<td>wrong, full stop</td>
+<td>guardianship, not ownership</td>
+<td>respect, don’t exploit</td>
+</tr>
+<tr class="even">
+<td><strong>Korsgaard</strong></td>
+<td>deeply troubling</td>
+<td>rarely justified</td>
+<td>a real relationship of duty</td>
+<td>owed direct concern</td>
+</tr>
+</tbody>
+</table>
+<p>Read across a row to see a view’s reach; read down a column to see how much a verdict depends on the theory behind it.</p>
+</section>
+<section id="thought-question" class="slide level2 scrollable">
+<h2>Thought Question</h2>
+<div class="thought-question">
+<p>A wildfire is closing in. In one shelter are <strong>five dogs</strong>; in another, <strong>one human stranger</strong>. You have time to open only one door before the fire arrives.</p>
+<ol type="1">
+<li>What do you do — and which thinker (Kant, Singer, Regan, Korsgaard) best matches your reasoning?</li>
+<li>Singer says equal interests count equally. Does that mean five animal lives can outweigh one human life? If you resist that, <em>why</em>?</li>
+<li>Would your answer change if the one human were someone you loved? Should it?</li>
+</ol>
+</div>
+</section>
+<section id="make-it-contemporary" class="slide level2 scrollable">
+<h2>Make It Contemporary</h2>
+<div class="thought-question">
+<p>The science keeps moving the line. Primatologist Frans de Waal documented chimps that plan, deceive, and grieve; later work found that <strong>octopuses</strong> — invertebrates — show problem-solving and apparent pain responses <span class="citation" data-cites="dewaal2016">(<a href="#/references" role="doc-biblioref" onclick="">Waal 2016</a>)</span>.</p>
+<p>In 2021 the United Kingdom formally recognized <strong>octopuses, crabs, and lobsters as sentient beings</strong> in law, after a major scientific review.</p>
+<ol type="1">
+<li>If sentience is the criterion, where does the new evidence push the line?</li>
+<li>Should the <em>law</em> track the latest cognitive science — or stay simpler and more stable?</li>
+</ol>
+</div>
+</section>
+<section id="after-youve-discussed-1" class="slide level2">
+<h2>After You’ve Discussed</h2>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>A distinction the views above quietly rely on: <strong>moral agents vs.&nbsp;moral patients.</strong></p>
+<p>A <strong>moral agent</strong> can be held responsible — can have duties, deserve blame, make claims. A <strong>moral patient</strong> cannot act morally but can still be <em>wronged</em> (a newborn, a dog). Cohen ties rights to agency; Regan and Korsgaard insist patients matter regardless.</p>
+<p>Seeing the split shows why smart people reach opposite verdicts from the same facts: they disagree about whether being a <em>patient</em> is enough to be owed direct duties.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="mini-recap" class="slide level2">
+<h2>Mini-Recap</h2>
+<div class="recap">
+<p>We started with a vote on a research protocol and stepped back to the prior question: <strong>which beings count, and how much?</strong> Kant says animals count only indirectly; Singer weighs their suffering equally; Regan grants them rights; Cohen ties rights to a moral community we don’t share with them; Korsgaard repairs Kant into a duty to fellow creatures. None is obviously right. Now we take these tools back to the lab, where the abstractions become protocols, cages, and a committee vote.</p>
+</div>
+</section></section>
+<section>
+<section id="from-theory-to-the-lab" class="title-slide slide level1 section-divider center">
+<h1>From Theory to the Lab</h1>
+
+</section>
+<section id="why-animal-research-happens" class="slide level2">
+<h2>Why Animal Research Happens</h2>
+<p>For this audience, the stakes are not abstract — they are on your med cart.</p>
+<ul>
+<li><strong>Insulin</strong> was isolated in dogs (1921); the first patient, a dying 14-year-old, recovered within days. <strong>Polio and COVID-19 vaccines</strong> were tested in monkeys before any human arm was offered them.</li>
+<li>Modern law <em>requires</em> animal testing for safety before most drugs reach human trials — the very trials you learned about in research ethics.</li>
+<li>The honest framing: animal research is woven into nearly every therapy a nurse delivers. The ethical question is not whether it helped us, but <strong>what it costs and whether each use is justified.</strong></li>
+</ul>
+</section>
+<section id="a-founding-scandal-the-silver-spring-monkeys" class="slide level2">
+<h2>A Founding Scandal: The Silver Spring Monkeys</h2>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Silver Spring, Maryland, 1981</strong></p>
+<p>A young activist named Alex Pacheco volunteered in the lab of Dr.&nbsp;Edward Taub, who was studying nerve damage by severing nerves in macaques’ limbs and pushing them to use the numb arms. Pacheco photographed filthy cages and untreated wounds and took the images to police.</p>
+<p>Taub was charged with cruelty (convictions later overturned on a technicality), but the photos launched <strong>PETA</strong> and made animal research a public fight. The monkeys’ fate was litigated all the way to the Supreme Court.</p>
+</div>
+</div>
+</div>
+<p>The case did more than shock — it exposed that, in 1981, almost no enforceable rules governed how lab animals were housed and cared for.</p>
+</section>
+<section id="when-the-cost-is-the-point-harlow" class="slide level2">
+<h2>When the Cost Is the Point: Harlow</h2>
+<p>Some studies harmed animals not as a side effect but as the very thing being measured.</p>
+<ul>
+<li>In the 1950s–60s, Harry Harlow raised infant monkeys in isolation to study attachment. Deprived of mothers, they clung to cloth dummies; many were left permanently, severely damaged.</li>
+<li>The work shaped what we know about maternal bonding and child neglect — knowledge that changed orphanage and hospital practice.</li>
+<li>It is also, to many, a textbook case of suffering no result could justify. Held next to Silver Spring, it frames the unavoidable question: <strong>how much harm may knowledge cost?</strong></li>
+</ul>
+</section>
+<section id="what-the-scandals-changed" class="slide level2">
+<h2>What the Scandals Changed</h2>
+<p>Public outrage turned into law, slowly and incompletely.</p>
+<div class="columns">
+<div class="column" style="width:52%;">
+<p>The 1966 <strong>Animal Welfare Act</strong> set minimal housing rules. The pivotal <strong>1985 amendments</strong>, passed after Silver Spring, required institutions to form review committees, minimize pain, and provide for primates’ “psychological well-being.”</p>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:44%;">
+<p>That committee is the <strong>IACUC</strong> — the body you sat on in our opening case. Two ideas drive modern oversight: a method for <em>reducing</em> harm (the 3 Rs) and a body that <em>enforces</em> it (the IACUC).</p>
+</div></div>
+</section></section>
+<section>
+<section id="reducing-the-harm-the-3-rs" class="title-slide slide level1 section-divider center">
+<h1>Reducing the Harm: The 3 Rs</h1>
+
+</section>
+<section id="the-3-rs-russell-burch-1959" class="slide level2">
+<h2>The 3 Rs (Russell &amp; Burch, 1959)</h2>
+<p>Years before the laws, two British scientists proposed the framework that still governs humane research <span class="citation" data-cites="russell1959">(<a href="#/references" role="doc-biblioref" onclick="">Russell and Burch 1959</a>)</span>. The goal: not to end research, but to shrink its harm at every step.</p>
+<ul>
+<li><strong>Replacement</strong> — use a non-animal method instead, wherever one exists.</li>
+<li><strong>Reduction</strong> — use the fewest animals that still gives a valid answer.</li>
+<li><strong>Refinement</strong> — change methods to minimize pain, distress, and lasting harm.</li>
+</ul>
+<p>Every protocol an IACUC reviews must show the researcher has worked through all three.</p>
+</section>
+<section id="the-3-rs-in-practice" class="slide level2">
+<h2>The 3 Rs in Practice</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>R</th>
+<th>The question it asks</th>
+<th>A concrete move</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Replacement</strong></td>
+<td>Could this be done without animals?</td>
+<td>cell cultures, organoids, computer models, human volunteers</td>
+</tr>
+<tr class="even">
+<td><strong>Reduction</strong></td>
+<td>Are we using too many?</td>
+<td>better statistics; sharing tissue across studies</td>
+</tr>
+<tr class="odd">
+<td><strong>Refinement</strong></td>
+<td>Are we causing avoidable harm?</td>
+<td>anesthesia, pain control, humane endpoints, enrichment</td>
+</tr>
+</tbody>
+</table>
+<p>“Humane endpoint” means ending a study — and the animal’s life — <em>before</em> suffering peaks, rather than waiting for death as the data point.</p>
+</section>
+<section id="how-far-replacement-reaches" class="slide level2">
+<h2>How Far Replacement Reaches</h2>
+<p>The first R is the dream; the limits are real.</p>
+<ul>
+<li><strong>What works now:</strong> much toxicity screening runs on cultured human cells or “organ-on-a-chip” devices; computer models predict some drug effects before any animal is used.</li>
+<li><strong>What doesn’t yet:</strong> a whole living body — an immune response, a developing brain, a beating heart under stress — is hard to simulate. That is precisely where animals are still used.</li>
+<li>In 2022 the U.S. <strong>FDA Modernization Act 2.0</strong> dropped the blanket requirement that new drugs be animal-tested, opening the door to validated alternatives. The science to fully replace them, though, is not here yet.</li>
+</ul>
+</section></section>
+<section>
+<section id="the-gatekeepers" class="title-slide slide level1 section-divider center">
+<h1>The Gatekeepers</h1>
+
+</section>
+<section id="iacuc-the-irb-for-animals" class="slide level2">
+<h2>IACUC: The IRB for Animals</h2>
+<p>You met the <strong>IRB</strong> in research ethics — the board that protects human subjects. Animal research has a mirror body.</p>
+<ul>
+<li>An <span class="key-term">IACUC</span> (Institutional Animal Care and Use Committee) must approve every animal study at a funded institution <em>before</em> it begins.</li>
+<li>By law it includes a <strong>veterinarian</strong>, a <strong>practicing scientist</strong>, a <strong>nonscientist</strong>, and — importantly — a <strong>member from outside the institution</strong>, so the committee isn’t only judging itself.</li>
+<li>It can approve, demand changes, or reject a protocol, and it inspects the animal facilities twice a year. Like an IRB, it is local, ongoing, and has real veto power.</li>
+</ul>
+</section>
+<section id="whats-actually-in-a-protocol" class="slide level2">
+<h2>What’s Actually in a Protocol</h2>
+<div class="context-box">
+<p><strong>Inside an animal-research protocol</strong></p>
+<p>The researcher must justify the <strong>species and exact number</strong> of animals; describe every procedure and any pain involved; and document a <strong>literature search for alternatives</strong> (the first R, in writing). Studies are graded by a <strong>pain/distress category</strong> — from no pain, to pain relieved by drugs, to the most scrutinized: pain <em>left untreated</em> because relief would ruin the data. That last category demands the strongest justification of all.</p>
+</div>
+<p>This is where the 3 Rs stop being slogans: the form forces a researcher to prove, line by line, that the harm is necessary.</p>
+</section>
+<section id="iacuc-vs.-irb-what-carries-over" class="slide level2">
+<h2>IACUC vs.&nbsp;IRB: What Carries Over</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>IRB (humans)</th>
+<th>IACUC (animals)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Protects</td>
+<td>the research subject</td>
+<td>the research animal</td>
+</tr>
+<tr class="even">
+<td>Core consent question</td>
+<td>did the subject <strong>agree</strong>?</td>
+<td>(animals can’t consent)</td>
+</tr>
+<tr class="odd">
+<td>Substitute safeguard</td>
+<td>informed consent, voluntariness</td>
+<td>the <strong>3 Rs</strong>, vet oversight</td>
+</tr>
+<tr class="even">
+<td>Shared engine</td>
+<td>weigh benefits vs.&nbsp;harms; independent review; no self-policing</td>
+<td>same</td>
+</tr>
+</tbody>
+</table>
+<p>The deepest difference is consent. A human can refuse; an animal never can. So the entire moral weight an IRB places on <em>agreement</em> shifts, for animals, onto <strong>someone else minimizing their harm.</strong></p>
+</section></section>
+<section>
+<section id="the-hardest-case-primates" class="title-slide slide level1 section-divider center">
+<h1>The Hardest Case: Primates</h1>
+
+</section>
+<section id="why-primates-are-used" class="slide level2">
+<h2>Why Primates Are Used</h2>
+<p>When the question is the human brain or a human disease, our closest relatives become the most informative — and most contested — subjects.</p>
+<ul>
+<li><strong>Neuroscience:</strong> a monkey’s visual system and cortex resemble ours closely enough to map how vision, movement, and memory work.</li>
+<li><strong>Infectious disease:</strong> macaques were central to testing <strong>HIV</strong> therapies and <strong>COVID-19</strong> vaccines, because their immune systems respond like ours.</li>
+<li>The same closeness that makes primates scientifically valuable is what makes using them hard to stomach.</li>
+</ul>
+</section>
+<section id="why-primates-are-contested" class="slide level2">
+<h2>Why Primates Are Contested</h2>
+<p>The traits that earn moral concern are exactly the ones primates have.</p>
+<div class="columns">
+<div class="column" style="width:52%;">
+<ul>
+<li><strong>Cognition:</strong> tool use, planning, deception, and self-recognition.</li>
+<li><strong>Sociality:</strong> complex bonds; isolation causes lasting psychological harm.</li>
+<li><strong>Longevity:</strong> a macaque can live 30+ years, a chimp over 50 — often the whole life in a lab.</li>
+</ul>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:44%;">
+<p>Recall the spectrum: on <strong>every</strong> criterion that any theory uses — sentience, being a subject-of-a-life, a good of one’s own — primates score high.</p>
+<p>That is why they sit at the sharp end of the debate, and why one species was singled out for special protection.</p>
+</div></div>
+</section>
+<section id="u.s.-research-animals-by-species" class="slide level2">
+<h2>U.S. Research Animals by Species</h2>
+<div id="ddbd02a2" class="cell" data-execution_count="2">
+<div class="cell-output cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="12a-animal-moral-status_files/figure-revealjs/cell-3-output-1.png" width="718" height="317"></p>
+<figcaption>Animals covered by the Animal Welfare Act, U.S., approximate recent yearly totals (USDA APHIS). Mice, rats, fish, and birds — roughly 95% of all research animals — are not counted here.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>The chart hides the biggest fact: the <strong>~95%</strong> that are mice, rats, fish, and birds aren’t even tracked by the Animal Welfare Act. What we count reflects what we worry about.</p>
+</section>
+<section id="the-2015-nih-chimpanzee-decision" class="slide level2">
+<h2>The 2015 NIH Chimpanzee Decision</h2>
+<div class="callout callout-important callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Important</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>The end of invasive chimp research in the U.S.</strong></p>
+<p>In 2011 the <strong>Institute of Medicine</strong> concluded that almost all biomedical research on chimpanzees was <strong>no longer necessary</strong> — alternatives had caught up <span class="citation" data-cites="iom2011_chimp">(<a href="#/references" role="doc-biblioref" onclick="">Institute of Medicine 2011</a>)</span>. In 2015 NIH announced it would <strong>retire its remaining research chimpanzees</strong> to sanctuary, ending federal support for invasive chimp studies <span class="citation" data-cites="nih2015_chimp">(<a href="#/references" role="doc-biblioref" onclick="">National Institutes of Health 2015</a>)</span>.</p>
+<p>Chimps had helped develop the hepatitis B vaccine. The judgment was not that they never helped — but that the benefit no longer <strong>justified the cost</strong>.</p>
+</div>
+</div>
+</div>
+<p>This is the 3 Rs and the moral-status debate meeting in one policy: <em>Replacement</em> succeeded, and a being near the top of the spectrum was, at last, let off the table.</p>
+</section>
+<section id="thought-question-1" class="slide level2 scrollable">
+<h2>Thought Question</h2>
+<div class="thought-question">
+<p>You are back on the IACUC. A respected neuroscientist submits a protocol: implant electrodes in the brains of <strong>four macaques</strong> to study how memory forms. The work could, in a decade, help patients with Alzheimer’s. The monkeys will live in the lab for years and be euthanized at the end.</p>
+<ol type="1">
+<li>Which questions from the <strong>3 Rs</strong> do you ask first?</li>
+<li>What single fact would most change your vote — fewer animals? guaranteed pain control? a stronger medical payoff?</li>
+<li>Cohen says approve it; Regan says never. Whose burden of proof feels heavier to <em>you</em>, and why?</li>
+</ol>
+</div>
+</section>
+<section id="make-it-contemporary-1" class="slide level2 scrollable">
+<h2>Make It Contemporary</h2>
+<div class="thought-question">
+<p>The chimps are retired, but pressure on primate research is rising. During COVID-19, demand for research monkeys outstripped supply, sparking a global shortage and a scramble for sources. Meanwhile, the first gene-edited <strong>pig organs</strong> are being transplanted into humans — a use of animals that sidesteps the lab entirely.</p>
+<ol type="1">
+<li>Does retiring chimps while expanding monkey and pig use reflect a real principle, or just where public sympathy happens to fall?</li>
+<li>Is breeding an animal to harvest its <strong>organs</strong> easier or harder to justify than using one in a <strong>study</strong>?</li>
+</ol>
+</div>
+</section>
+<section id="after-youve-discussed-2" class="slide level2">
+<h2>After You’ve Discussed</h2>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Note</strong></p>
+</div>
+<div class="callout-content">
+<p>A distinction that cuts through most research debates: <strong>necessary vs.&nbsp;avoidable suffering.</strong></p>
+<p>Almost everyone agrees we may not impose <em>avoidable</em> suffering. The fight is over “necessary” — necessary <em>for what</em>, and judged <em>by whom</em>? The chimp decision turned on a finding that the suffering had become avoidable, because alternatives existed.</p>
+<p>So progress in the 3 Rs doesn’t just make research kinder; it quietly <strong>shrinks the set of harms that can still be called necessary</strong> — and thereby raises the bar every new protocol must clear.</p>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="where-this-leaves-us" class="title-slide slide level1 section-divider center">
+<h1>Where This Leaves Us</h1>
+
+</section>
+<section id="wrap-up" class="slide level2">
+<h2>Wrap-Up</h2>
+<div class="recap">
+<p>We began with a vote and a hesitation: we use the fruits of animal research while flinching at approving it. Behind that flinch is a real question — <strong>which beings have moral status, and how much</strong> — that Kant, Singer, Regan, Cohen, and Korsgaard answer in sharply different ways. Those abstractions become concrete in the lab, where the <strong>3 Rs</strong> try to shrink harm and the <strong>IACUC</strong> tries to enforce it. The primate cases, ending with the 2015 chimp retirement, show the system actually moving — as alternatives improve, fewer harms count as “necessary.” Next, we follow these threads to the dinner table and the operating room: industrial farming and the pigs now growing organs for human bodies.</p>
+</div>
+</section>
+<section id="paired-case" class="slide level2">
+<h2>Paired Case</h2>
+<p>The questions you just voted on get personal in the case paired with this lecture — a dying man and the first heart taken from a pig.</p>
+<blockquote>
+<p><strong>Paired case:</strong> <a href="../cases/12-bennett-xenotransplant.qmd">David Bennett and the First Pig-Heart Transplant</a></p>
+</blockquote>
+</section>
+<section id="review-questions" class="slide level2">
+<h2>Review Questions</h2>
+<div class="review-questions">
+<div class="review-item review-recall">
+<p><span class="review-label">Recall</span></p>
+<p>State the three Rs and explain what an IACUC must verify before approving a study. Which R was decisive in the 2015 NIH chimpanzee decision?</p>
+</div>
+<div class="review-item review-apply">
+<p><span class="review-label">Apply</span></p>
+<p>A lab wants to test a cosmetic ingredient for skin irritation using rabbits. Run the proposal through Singer’s and Regan’s views, and through the first R. Where would each say the proposal fails or passes?</p>
+</div>
+<div class="review-item review-debate">
+<p><span class="review-label">Debate</span></p>
+<p>Cohen argues that favoring our own species is moral, not bias — like favoring our own children. Is the analogy sound? Defend your answer, using the argument from marginal cases.</p>
+</div>
+</div>
+</section>
+<section id="key-terms" class="slide level2">
+<h2>Key Terms</h2>
+<ul>
+<li><strong>Moral status</strong> — the property of mattering for one’s own sake, such that we owe duties <em>to</em> a being.</li>
+<li><strong>Sentience</strong> — the capacity to feel pain and pleasure; Singer’s proposed criterion for moral status.</li>
+<li><strong>Speciesism</strong> — discounting a being’s interests merely because of its species.</li>
+<li><strong>Indirect duties</strong> — Kant’s view that duties “about” animals are really duties to humanity.</li>
+<li><strong>Subject-of-a-life</strong> — Regan’s criterion: a being with beliefs, desires, memory, and a future that matters to it.</li>
+<li><strong>Argument from marginal cases</strong> — the challenge that any criterion excluding animals also excludes some humans.</li>
+<li><strong>Moral agent vs.&nbsp;moral patient</strong> — one who can have duties vs.&nbsp;one who can be wronged but cannot act morally.</li>
+<li><strong>The 3 Rs</strong> — Replacement, Reduction, Refinement (Russell &amp; Burch, 1959).</li>
+<li><strong>IACUC</strong> — the committee that reviews and oversees animal research, the animal-side counterpart to the IRB.</li>
+<li><strong>Humane endpoint</strong> — ending a study before an animal’s suffering peaks.</li>
+</ul>
+</section>
+<section id="further-reading" class="slide level2">
+<h2>Further Reading</h2>
+<ul>
+<li>Singer, Peter. <em>Animal Liberation Now</em>. Harper Perennial, 2023 (updated edition of the 1975 classic).</li>
+<li>Korsgaard, Christine. <em>Fellow Creatures: Our Obligations to the Other Animals</em>. Oxford University Press, 2018.</li>
+<li>de Waal, Frans. <em>Are We Smart Enough to Know How Smart Animals Are?</em> Norton, 2016.</li>
+</ul>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-cohen1986" class="csl-entry" role="listitem">
+Cohen, Carl. 1986. <span>“The Case for the Use of Animals in Biomedical Research.”</span> <em>New England Journal of Medicine</em> 315 (14): 865–70. <a href="https://doi.org/10.1056/NEJM198610023151405">https://doi.org/10.1056/NEJM198610023151405</a>.
+</div>
+<div id="ref-iom2011_chimp" class="csl-entry" role="listitem">
+Institute of Medicine. 2011. <em>Chimpanzees in Biomedical and Behavioral Research: Assessing the Necessity</em>. National Academies Press. <a href="https://doi.org/10.17226/13257">https://doi.org/10.17226/13257</a>.
+</div>
+<div id="ref-kant_lectures_ethics" class="csl-entry" role="listitem">
+Kant, Immanuel. 1997. <em>Lectures on Ethics</em>. Cambridge University Press.
+</div>
+<div id="ref-korsgaard2018" class="csl-entry" role="listitem">
+Korsgaard, Christine M. 2018. <em>Fellow Creatures: Our Obligations to the Other Animals</em>. Oxford University Press.
+</div>
+<div id="ref-nih2015_chimp" class="csl-entry" role="listitem">
+National Institutes of Health. 2015. <em><span>NIH</span> to Reduce Significantly the Use of Chimpanzees in Research</em>. NIH Director’s statement. <a href="https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-will-no-longer-support-biomedical-research-chimpanzees">https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-will-no-longer-support-biomedical-research-chimpanzees</a>.
+</div>
+<div id="ref-regan1983" class="csl-entry" role="listitem">
+Regan, Tom. 1983. <em>The Case for Animal Rights</em>. University of California Press.
+</div>
+<div id="ref-russell1959" class="csl-entry" role="listitem">
+Russell, William M. S., and Rex L. Burch. 1959. <em>The Principles of Humane Experimental Technique</em>. Methuen.
+</div>
+<div id="ref-singer1975" class="csl-entry" role="listitem">
+Singer, Peter. 1975. <em>Animal Liberation</em>. HarperCollins.
+</div>
+<div id="ref-dewaal2016" class="csl-entry" role="listitem">
+Waal, Frans de. 2016. <em>Are We Smart Enough to Know How Smart Animals Are?</em> W. W. Norton.
+</div>
+</div>
+
+
+</section></section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+<p>Bioethics OER · CC BY-NC 4.0 · Brendan Shea</p>
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': false,
+'previewLinksAuto': true,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: 'c/t',
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'fast',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1050,
+
+        height: 700,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+      window.document.addEventListener("DOMContentLoaded", function (event) {
+        const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+        tabsets.forEach(function(tabset) {
+          const tabby = new Tabby('#' + tabset.id);
+        });
+        const isCodeAnnotation = (el) => {
+          for (const clz of el.classList) {
+            if (clz.startsWith('code-annotation-')) {                     
+              return true;
+            }
+          }
+          return false;
+        }
+        const onCopySuccess = function(e) {
+          // button target
+          const button = e.trigger;
+          // don't keep focus
+          button.blur();
+          // flash "checked"
+          button.classList.add('code-copy-button-checked');
+          var currentTitle = button.getAttribute("title");
+          button.setAttribute("title", "Copied!");
+          let tooltip;
+          if (window.bootstrap) {
+            button.setAttribute("data-bs-toggle", "tooltip");
+            button.setAttribute("data-bs-placement", "left");
+            button.setAttribute("data-bs-title", "Copied!");
+            tooltip = new bootstrap.Tooltip(button, 
+              { trigger: "manual", 
+                customClass: "code-copy-button-tooltip",
+                offset: [0, -8]});
+            tooltip.show();    
+          }
+          setTimeout(function() {
+            if (tooltip) {
+              tooltip.hide();
+              button.removeAttribute("data-bs-title");
+              button.removeAttribute("data-bs-toggle");
+              button.removeAttribute("data-bs-placement");
+            }
+            button.setAttribute("title", currentTitle);
+            button.classList.remove('code-copy-button-checked');
+          }, 1000);
+          // clear code selection
+          e.clearSelection();
+        }
+        const getTextToCopy = function(trigger) {
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+        }
+        const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+          text: getTextToCopy
+        });
+        clipboard.on('success', onCopySuccess);
+        if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+          const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+            text: getTextToCopy,
+            container: window.document.getElementById('quarto-embedded-source-code-modal')
+          });
+          clipboardModal.on('success', onCopySuccess);
+        }
+          var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var mailtoRegex = new RegExp(/^mailto:/);
+            var filterRegex = new RegExp('/' + window.location.host + '/');
+          var isInternal = (href) => {
+              return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+          }
+          // Inspect non-navigation links and adorn them if external
+         var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+          for (var i=0; i<links.length; i++) {
+            const link = links[i];
+            if (!isInternal(link.href)) {
+              // undo the damage that might have been done by quarto-nav.js in the case of
+              // links that we want to consider external
+              if (link.dataset.originalHref !== undefined) {
+                link.href = link.dataset.originalHref;
+              }
+            }
+          }
+        function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+          const config = {
+            allowHTML: true,
+            maxWidth: 500,
+            delay: 100,
+            arrow: false,
+            appendTo: function(el) {
+                return el.closest('section.slide') || el.parentElement;
+            },
+            interactive: true,
+            interactiveBorder: 10,
+            theme: 'light-border',
+            placement: 'bottom-start',
+          };
+          if (contentFn) {
+            config.content = contentFn;
+          }
+          if (onTriggerFn) {
+            config.onTrigger = onTriggerFn;
+          }
+          if (onUntriggerFn) {
+            config.onUntrigger = onUntriggerFn;
+          }
+            config['offset'] = [0,0];
+            config['maxWidth'] = 700;
+          window.tippy(el, config); 
+        }
+        const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+        for (var i=0; i<noterefs.length; i++) {
+          const ref = noterefs[i];
+          tippyHover(ref, function() {
+            // use id or data attribute instead here
+            let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+            try { href = new URL(href).hash; } catch {}
+            const id = href.replace(/^#\/?/, "");
+            const note = window.document.getElementById(id);
+            if (note) {
+              return note.innerHTML;
+            } else {
+              return "";
+            }
+          });
+        }
+        const findCites = (el) => {
+          const parentEl = el.parentElement;
+          if (parentEl) {
+            const cites = parentEl.dataset.cites;
+            if (cites) {
+              return {
+                el,
+                cites: cites.split(' ')
+              };
+            } else {
+              return findCites(el.parentElement)
+            }
+          } else {
+            return undefined;
+          }
+        };
+        var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+        for (var i=0; i<bibliorefs.length; i++) {
+          const ref = bibliorefs[i];
+          const citeInfo = findCites(ref);
+          if (citeInfo) {
+            tippyHover(citeInfo.el, function() {
+              var popup = window.document.createElement('div');
+              citeInfo.cites.forEach(function(cite) {
+                var citeDiv = window.document.createElement('div');
+                citeDiv.classList.add('hanging-indent');
+                citeDiv.classList.add('csl-entry');
+                var biblioDiv = window.document.getElementById('ref-' + cite);
+                if (biblioDiv) {
+                  citeDiv.innerHTML = biblioDiv.innerHTML;
+                }
+                popup.appendChild(citeDiv);
+              });
+              return popup.innerHTML;
+            });
+          }
+        }
+      });
+      </script>
+    
+
+</body></html>

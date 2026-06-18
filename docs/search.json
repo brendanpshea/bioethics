@@ -7817,7 +7817,7 @@
     "href": "chapters/00-course-outline.html#l12.-animal-ethics",
     "title": "Course Outline & Learning Outcomes",
     "section": "1.11 L12. Animal Ethics",
-    "text": "1.11 L12. Animal Ethics\n\n1.11.1 L12a. Moral Status of Animals and the Ethics of Research\n\nThree major views on animal moral status:\n\nKantian / indirect duties — animals matter only because of how their treatment affects humans.\nSinger’s utilitarianism — equal consideration of equal interests; species is morally irrelevant.\nRegan’s rights view — “subjects-of-a-life” have inherent value.\n\nThe 3 Rs of animal research (Russell & Burch, 1959): replacement, reduction, refinement.\nIACUCs (the IRB-equivalent for animal research) — how they work.\nPrimate research: why it’s used (neuroscience, infectious disease), why it’s contested, current trends (declining NIH-funded chimp research).\n\nVisual elements: - Figure (code-generated): spectrum diagram of moral-status views from Kantian to Regan, with where common positions land. - Table: Singer vs. Regan vs. Kantian view — what each says about eating meat, animal research, pets, wildlife. - Figure (code-generated): bar chart of US animal research use by species (NIH/USDA data). - Case box: The 2015 NIH decision to end chimpanzee research. - Sidebar: “What’s actually in an IACUC protocol?”\n\n\n1.11.2 L12b. Industrial Animals, Xenotransplantation, and Connecting Threads\n\nThe ethics of industrial animal agriculture: welfare concerns, public-health implications (zoonotic risk, antibiotic resistance), environmental dimensions.\nXenotransplantation: recent pig-heart transplant cases (Bennett 2022, Faucette 2023), pig-kidney transplant trials.\nEthical issues unique to xenotransplantation: animal welfare, infection risk to recipients and the public, informed consent under desperation.\nConnecting threads: how arguments from earlier chapters apply here.\n\nFrom abortion (L4): moral status criteria — do they pick out animals too?\nFrom genetics (L6): is creating genetically modified pigs for organs different from creating savior siblings?\nFrom end of life (L7): is the pig’s death in xenotransplantation an instance of killing for benefit — and is it justified differently than human research subject risk?\n\n\nVisual elements: - Figure (code-generated): diagram of how a pig kidney is genetically modified for human transplantation (CRISPR knockouts, transgene insertions — at a high level). - Table: Major xenotransplantation cases since 2022 — recipient, organ, outcome, ethical issues raised. - Figure (code-generated): concept map showing how the moral-status arguments from L4, L6, L7, and L11 each apply (or don’t) to animals. - Case box: The David Bennett pig-heart transplant (2022) — the patient, the team, the outcome, the lessons. - Discussion prompt: “If you accept Marquis’s ‘future like ours’ argument against abortion, what does it say about killing a pig?”",
+    "text": "1.11 L12. Animal Ethics\n\n1.11.1 L12a. Moral Status of Animals and the Ethics of Research\n\nThree major views on animal moral status:\n\nKantian / indirect duties — animals matter only because of how their treatment affects humans.\nSinger’s utilitarianism — equal consideration of equal interests; species is morally irrelevant.\nRegan’s rights view — “subjects-of-a-life” have inherent value.\n\nThe 3 Rs of animal research (Russell & Burch, 1959): replacement, reduction, refinement.\nIACUCs (the IRB-equivalent for animal research) — how they work.\nPrimate research: why it’s used (neuroscience, infectious disease), why it’s contested, current trends (declining NIH-funded chimp research).\n\nVisual elements: - Figure (code-generated): spectrum diagram of moral-status views from Kantian to Regan, with where common positions land. - Table: Singer vs. Regan vs. Kantian view — what each says about eating meat, animal research, pets, wildlife. - Figure (code-generated): bar chart of US animal research use by species (NIH/USDA data). - Case box: The 2015 NIH decision to end chimpanzee research. - Sidebar: “What’s actually in an IACUC protocol?”\n\n\n1.11.2 L12b. Industrial Animals, Xenotransplantation, and the Frontier\nSpine: not all animal use is morally equal — scale, necessity, and benefit are what rank it. Students rank four uses up front, build the tools to evaluate the ranking, and discover the intuitive ordering (“high-tech = worse”) is often backwards. A running “ledger” motif accumulates the ranking; the climax shows the same logic that condemns the cheeseburger licenses the pig heart, while Regan’s rights view refuses to rank at all.\n\nIndustrial animal agriculture — the biggest use:\n\nScale and conditions (CAFOs); the welfare case from Part A, made concrete.\nIt harms humans too: antibiotic resistance (most U.S. antibiotics go to livestock) and zoonotic spillover (avian/swine flu, pandemic risk); environmental dimension in brief.\nThe reframe: anthropocentric public-health reasons and animal-welfare reasons converge — even a human-centered view condemns the antibiotic practice.\n\nDoes the research even work? — the validity debate:\n\nThe translation gap: most drugs that pass animal tests still fail in humans; weak predictive value undercuts the cost-benefit defense of research.\nPolicy turn: FDA Modernization Act 2.0 (2022) and the EU roadmap to phase out animal testing; NIH’s push toward non-animal methods.\nThe balanced reply: organs-on-chips can’t yet model a whole immune system or developing brain — phase-out is a destination, not a current capability.\n\nXenotransplantation — the high-tech, low-number use:\n\nThe organ shortage that drives it; how a pig is gene-edited (CRISPR antigen knockouts, PERV inactivation, human transgenes).\nCases since 2022: Bennett (heart), Faucette (heart), Slayman / Looney (kidneys), decedent studies.\nIssues unique to xeno: welfare of designer pigs in isolation, xenozoonosis risk to a non-consenting public, consent under desperation.\n\nThe counterintuitive ranking (the climax): on the consequentialist math, a McDonald’s habit is worse than a pig-heart transplant — Singer, a critic of factory farming and much research, can consistently accept xenotransplantation. Regan’s rights view does not rank: using the pig as a means is wrong regardless of scale. The ranking is theory-dependent.\nThe frontier — uplifting (cognitive enhancement of animals):\n\nTie to the enhancement debate from genomics.\nThe paradox: raise an animal’s capacities and you raise its moral status — the “better” the research animal, the less we may use it.\nAlready real: human-neuron chimeras (human brain cells in animal brains) create beings of ambiguous status.\n\nConnecting threads (cumulative payoff):\n\nFrom abortion: Marquis’s “future like ours” — if a fetus’s future grounds a right to life, does a pig’s?\nFrom genetics: engineering pigs for organs vs. creating a savior sibling — making a being to be used.\nFrom end of life: is the pig’s death “killing for benefit,” and is it justified differently than risk to a human research subject — or than retrieving organs from the newly dead?\n\n\nVisual elements: - Running motif: the “ledger” table ranking uses of animals by scale × harm × benefit, filled in across the deck. - Figure (code-generated): how a pig organ is gene-edited for human transplant (antigen knockouts, PERV inactivation, human transgenes — high level). - Figure (code-generated): drug-attrition funnel — compounds entering animal tests vs. surviving to human approval. - Table: major xenotransplantation cases since 2022 — recipient, organ, outcome, ethical issue raised. - Figure (code-generated): concept map of moral-status criteria from across the course applied to animals. - Case box: the David Bennett pig-heart transplant (2022) — patient, team, outcome, lessons. - Discussion prompt: “If you accept Marquis’s ‘future like ours’ argument against abortion, what does it say about killing a pig?”",
     "crumbs": [
       "Home",
       "Course Outline"
@@ -7859,7 +7859,7 @@
     "href": "index.html#course-materials",
     "title": "Bioethics: An Open Educational Resource",
     "section": "2 Course Materials",
-    "text": "2 Course Materials\n\n\n\n#\nPart\nTopic\nSlides\nNotes\n\n\n\n\n1A\nPrinciples & Reasoning\nThe Four Principles; Reading a Moral Argument\nSlides\nNotes\n\n\n1B\nPrinciples & Reasoning\nEthical Theories as Lenses\nSlides\nNotes\n\n\n2A\nHistory & Relationship\nFrom Hippocrates to the Belmont Report\nSlides\nNotes\n\n\n2B\nHistory & Relationship\nThe Clinical Relationship: Consent, Autonomy, and Confidentiality\nSlides\nNotes\n\n\n3A\nResearch Ethics\nHow Clinical Research Works (and Why It’s Different from Care)\nSlides\nNotes\n\n\n3B\nResearch Ethics\nFrom Tuskegee to Today: Protecting Research Subjects\nSlides\nNotes\n\n\n4A\nReproductive Ethics\nAbortion: Moral Status & Major Philosophical Arguments\nSlides\nNotes\n\n\n4B\nReproductive Ethics\nAbortion: Law, Cases, and the Four Principles\nSlides\nNotes\n\n\n5A\nReproductive Ethics\nPaternalism and Its Limits\nSlides\nNotes\n\n\n5B\nReproductive Ethics\nMaking Family: Markets, Surrogacy, and Parental Rights\nSlides\nNotes\n\n\n6A\nGenomics & Enhancement\nReading Genomes: Prediction, Privacy, and Dual Use\nSlides\nNotes\n\n\n6B\nGenomics & Enhancement\nEngineering Persons: CRISPR, Enhancement, and Identity\nSlides\nNotes\n\n\n7A\nEnd-of-Life Care\nDeath, Dying, and Advance Planning\nSlides\nNotes\n\n\n7B\nEnd-of-Life Care\nEuthanasia, Assisted Death, and Their Critics\nSlides\nNotes\n\n\n8A\nJustice & Health Care\nTheories of Justice and the Right to Health Care\nSlides\nNotes\n\n\n8B\nJustice & Health Care\nWhy US Health Care Costs So Much — and Delivers So Little\nSlides\nNotes\n\n\n9A\nPublic Health Ethics\nFrom Patient to Population\nSlides\nNotes\n\n\n9B\nPublic Health Ethics\nFalse Beliefs and the Ethics of Correction\nSlides\nNotes\n\n\n10A\nAI in Medicine\nHow Medical AI Works and Where It Goes Wrong\nSlides\nNotes\n\n\n10B\nAI in Medicine\nThe Fifth Principle: Consent, Accountability, and Black Boxes\nSlides\nNotes\n\n\n11A\nGender, Identity & Disability\nGender-Affirming Care: Deciding Under Uncertainty\nSlides\nNotes\n\n\n11B\nGender, Identity & Disability\nDisability, Identity, and the Limits of Autonomy\nSlides\nNotes",
+    "text": "2 Course Materials\n\n\n\n#\nPart\nTopic\nSlides\nNotes\n\n\n\n\n1A\nPrinciples & Reasoning\nThe Four Principles; Reading a Moral Argument\nSlides\nNotes\n\n\n1B\nPrinciples & Reasoning\nEthical Theories as Lenses\nSlides\nNotes\n\n\n2A\nHistory & Relationship\nFrom Hippocrates to the Belmont Report\nSlides\nNotes\n\n\n2B\nHistory & Relationship\nThe Clinical Relationship: Consent, Autonomy, and Confidentiality\nSlides\nNotes\n\n\n3A\nResearch Ethics\nHow Clinical Research Works (and Why It’s Different from Care)\nSlides\nNotes\n\n\n3B\nResearch Ethics\nFrom Tuskegee to Today: Protecting Research Subjects\nSlides\nNotes\n\n\n4A\nReproductive Ethics\nAbortion: Moral Status & Major Philosophical Arguments\nSlides\nNotes\n\n\n4B\nReproductive Ethics\nAbortion: Law, Cases, and the Four Principles\nSlides\nNotes\n\n\n5A\nReproductive Ethics\nPaternalism and Its Limits\nSlides\nNotes\n\n\n5B\nReproductive Ethics\nMaking Family: Markets, Surrogacy, and Parental Rights\nSlides\nNotes\n\n\n6A\nGenomics & Enhancement\nReading Genomes: Prediction, Privacy, and Dual Use\nSlides\nNotes\n\n\n6B\nGenomics & Enhancement\nEngineering Persons: CRISPR, Enhancement, and Identity\nSlides\nNotes\n\n\n7A\nEnd-of-Life Care\nDeath, Dying, and Advance Planning\nSlides\nNotes\n\n\n7B\nEnd-of-Life Care\nEuthanasia, Assisted Death, and Their Critics\nSlides\nNotes\n\n\n8A\nJustice & Health Care\nTheories of Justice and the Right to Health Care\nSlides\nNotes\n\n\n8B\nJustice & Health Care\nWhy US Health Care Costs So Much — and Delivers So Little\nSlides\nNotes\n\n\n9A\nPublic Health Ethics\nFrom Patient to Population\nSlides\nNotes\n\n\n9B\nPublic Health Ethics\nFalse Beliefs and the Ethics of Correction\nSlides\nNotes\n\n\n10A\nAI in Medicine\nHow Medical AI Works and Where It Goes Wrong\nSlides\nNotes\n\n\n10B\nAI in Medicine\nThe Fifth Principle: Consent, Accountability, and Black Boxes\nSlides\nNotes\n\n\n11A\nGender, Identity & Disability\nGender-Affirming Care: Deciding Under Uncertainty\nSlides\nNotes\n\n\n11B\nGender, Identity & Disability\nDisability, Identity, and the Limits of Autonomy\nSlides\nNotes\n\n\n12A\nAnimal Ethics\nMoral Status of Animals and the Ethics of Research\nSlides\nNotes\n\n\n12B\nAnimal Ethics\nIndustrial Animals, Xenotransplantation, and the Frontier\nSlides\nNotes",
     "crumbs": [
       "Home"
     ]
@@ -22427,5 +22427,1097 @@
     "title": "Lecture 11 — Gender, Identity & Disability",
     "section": "The Analogy, Stated Plainly",
     "text": "The Analogy, Stated Plainly\nThe moment you put body integrity dysphoria next to gender dysphoria, someone draws an analogy, and someone else calls it offensive. Better to state it and test it than to trade insinuations.\nThe structure both sides share: a persistent, distressing mismatch between an experienced sense of the body and the body as it is, where the patient seeks to change the body rather than the mind."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html",
+    "href": "chapters/12a-animal-moral-status.html",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "",
+    "text": "You just joined your hospital’s animal-research committee. Your first protocol asks to test a new painkiller — one that could help your own patients. The plan: first in mice, then, if it works, in a small group of monkeys, who will be euthanized at the end so their nerve tissue can be studied.\nYou will administer this drug to humans someday if it passes. Tonight you vote on whether it gets made.\n\nWhat would you need to know before voting yes?\nIs there any version of this study you would refuse to approve, no matter the benefit to patients?\nDoes it matter that the test animals are monkeys rather than mice? Why or why not?\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nMost people who use a medicine without a second thought hesitate when asked to approve the research behind it. That hesitation is not hypocrisy — it is two real duties pulling apart: a duty to the patients who need the drug, and a duty to the animals who pay for it.\nThis lecture gives you tools to hold both at once: a way to ask which animals matter, how much, and what that permits — instead of choosing a slogan and defending it.\n\n\n\n\n\n\nBy the end of Part A, you will be able to:\n\nDefine moral status and speciesism, and explain the “argument from marginal cases.”\nLay out three views — Kant’s indirect duties, Singer’s utilitarianism, and Regan’s rights view — and say what each implies in practice.\nTrace the dispute from Singer through Regan, Cohen, and Korsgaard as a connected argument.\nState the 3 Rs (Russell & Burch, 1959) and describe how an IACUC reviews animal research.\nExplain why primate research is used and contested, and what the 2015 NIH chimpanzee decision changed."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#a-case-to-sit-with",
+    "href": "chapters/12a-animal-moral-status.html#a-case-to-sit-with",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "",
+    "text": "You just joined your hospital’s animal-research committee. Your first protocol asks to test a new painkiller — one that could help your own patients. The plan: first in mice, then, if it works, in a small group of monkeys, who will be euthanized at the end so their nerve tissue can be studied.\nYou will administer this drug to humans someday if it passes. Tonight you vote on whether it gets made.\n\nWhat would you need to know before voting yes?\nIs there any version of this study you would refuse to approve, no matter the benefit to patients?\nDoes it matter that the test animals are monkeys rather than mice? Why or why not?"
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#after-youve-discussed",
+    "href": "chapters/12a-animal-moral-status.html#after-youve-discussed",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "",
+    "text": "Note\n\n\n\nMost people who use a medicine without a second thought hesitate when asked to approve the research behind it. That hesitation is not hypocrisy — it is two real duties pulling apart: a duty to the patients who need the drug, and a duty to the animals who pay for it.\nThis lecture gives you tools to hold both at once: a way to ask which animals matter, how much, and what that permits — instead of choosing a slogan and defending it."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#today",
+    "href": "chapters/12a-animal-moral-status.html#today",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "",
+    "text": "By the end of Part A, you will be able to:\n\nDefine moral status and speciesism, and explain the “argument from marginal cases.”\nLay out three views — Kant’s indirect duties, Singer’s utilitarianism, and Regan’s rights view — and say what each implies in practice.\nTrace the dispute from Singer through Regan, Cohen, and Korsgaard as a connected argument.\nState the 3 Rs (Russell & Burch, 1959) and describe how an IACUC reviews animal research.\nExplain why primate research is used and contested, and what the 2015 NIH chimpanzee decision changed."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#what-moral-status-means",
+    "href": "chapters/12a-animal-moral-status.html#what-moral-status-means",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "2.1 What “Moral Status” Means",
+    "text": "2.1 What “Moral Status” Means\nBefore we ask how to treat animals, we need a prior idea: moral status.\n\nA being has moral status when it matters for its own sake — when we owe duties to it, not just duties about it.\nA rock has none: you can do as you like with it. A person has full moral status: you must weigh their interests.\nThe whole debate is about what earns status, and how much. The usual candidates are being alive, being sentient (able to feel pain and pleasure), and being rational or self-aware.\n\nPick a criterion and you have, without noticing, sorted every living thing into “counts” and “doesn’t.”"
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#speciesism-the-word-and-the-charge",
+    "href": "chapters/12a-animal-moral-status.html#speciesism-the-word-and-the-charge",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "2.2 Speciesism — the Word and the Charge",
+    "text": "2.2 Speciesism — the Word and the Charge\nIn 1970 the psychologist Richard Ryder coined speciesism; Peter Singer made it famous (Singer 1975).\n\n\nThe charge. Giving less weight to a being’s interests just because it belongs to another species is like racism or sexism — a bias for “our own kind” dressed up as a principle.\nA pig’s pain, Singer argues, is as real as a person’s. To discount it only for being a pig’s is the error.\n\n\n\nThe reply, in advance. Defenders answer that species membership does track morally real differences — in rationality, in moral agency, in belonging to a moral community.\nWhether that reply works is the question the rest of the lecture argues about."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#the-spectrum-of-views",
+    "href": "chapters/12a-animal-moral-status.html#the-spectrum-of-views",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "2.3 The Spectrum of Views",
+    "text": "2.3 The Spectrum of Views\n\n\n\n\n\nViews on animal moral status, arranged by how much weight animal interests carry.\n\n\n\n\nThe same facts about animals support very different conclusions. The disagreement is about the criterion, not the biology."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#the-argument-from-marginal-cases",
+    "href": "chapters/12a-animal-moral-status.html#the-argument-from-marginal-cases",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "2.4 The Argument from Marginal Cases",
+    "text": "2.4 The Argument from Marginal Cases\nThe hardest problem for any view that draws the line at rationality.\n\nSuppose moral status requires reason, language, or planning for the future. Many adult animals lack these — so, the line says, they don’t fully count.\nBut some humans lack them too: newborns, people with advanced dementia, those with severe cognitive disability. They are the “marginal cases.”\nWe rightly give these humans full moral status. So either the criterion is wrong, or we must explain what makes the human cases different without simply saying “because they’re human” — which would be speciesism.\n\nThis argument doesn’t settle the debate. It forces every side to say exactly why its line falls where it does."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#kant-we-owe-animals-nothing-directly",
+    "href": "chapters/12a-animal-moral-status.html#kant-we-owe-animals-nothing-directly",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "3.1 Kant: We Owe Animals Nothing Directly",
+    "text": "3.1 Kant: We Owe Animals Nothing Directly\nThe oldest Western view says animals have no moral status of their own (Kant 1997).\n\nFor Immanuel Kant, only rational agents are “ends in themselves.” Animals are not rational, so we have no direct duties to them.\nBut we do have indirect duties: duties about animals that are really duties to humanity. Kant’s example — a man who shoots his old dog because it can no longer work does nothing to the dog, but “damages in himself” the kindness he owes other people.\nThe practical upshot: cruelty is wrong because it corrupts us and coarsens how we treat each other, not because the animal was wronged.\n\nThis view still shapes law that bans cruelty while permitting nearly any use."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#singer-equal-consideration-of-interests",
+    "href": "chapters/12a-animal-moral-status.html#singer-equal-consideration-of-interests",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "3.2 Singer: Equal Consideration of Interests",
+    "text": "3.2 Singer: Equal Consideration of Interests\nSinger turns Kant’s criterion on its head. The question, he says, quoting Jeremy Bentham, is not “Can they reason?” but “Can they suffer?” (Singer 1975)\n\n\nThe Equal-Consideration Argument\n\n\nAfter Peter Singer, Animal Liberation (1975)\n\n\nIf a being can suffer, it has an interest in not suffering.\nEqual interests deserve equal moral weight, whoever has them.\nMany animals can suffer as humans can.\nSo their suffering counts equally — and discounting it for being an animal’s is speciesism.\n\n\nSinger is a utilitarian: what matters is the total balance of suffering and well-being. The disputed premise is 2 — whether equal interests always deserve equal weight."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#what-follows-from-singer",
+    "href": "chapters/12a-animal-moral-status.html#what-follows-from-singer",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "3.3 What Follows from Singer",
+    "text": "3.3 What Follows from Singer\nOne premise, sweeping consequences — which is why the view is famous and feared.\n\n\nFactory farming fails immediately: it inflicts enormous suffering for the minor interest of cheaper meat. For Singer this is the clearest case of all.\n\n\n\nResearch is harder. Singer does not ban it outright. He asks the brutal question: would you do the same study on a human with similar mental capacities? If not, doing it to the animal needs another justification.\n\n\nNote what utilitarianism allows: if a study truly produced enough benefit, the math could favor it. That possibility is exactly what the next thinker rejects."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#regan-animals-have-rights",
+    "href": "chapters/12a-animal-moral-status.html#regan-animals-have-rights",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "3.4 Regan: Animals Have Rights",
+    "text": "3.4 Regan: Animals Have Rights\nTom Regan thought Singer gave animals too little protection. Utilitarian math can always, in principle, sacrifice the individual for the greater good (Regan 1983).\n\n\nThe Rights View\n\n\nAfter Tom Regan, The Case for Animal Rights (1983)\n\n\nMany animals are subjects-of-a-life: they have beliefs, desires, memory, a sense of the future — a life that goes better or worse for them.\nAny subject-of-a-life has inherent value, not just usefulness to others.\nBeings with inherent value have a right not to be harmed merely as a means to others’ ends.\nSo using animals in research violates their rights — even if the results help many.\n\n\nWhere Singer weighs and balances, Regan draws a line: rights are not for trading. The dispute now moves to premise 2 — can animals really be bearers of rights?"
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#cohen-the-case-for-animal-research",
+    "href": "chapters/12a-animal-moral-status.html#cohen-the-case-for-animal-research",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "3.5 Cohen: The Case for Animal Research",
+    "text": "3.5 Cohen: The Case for Animal Research\nThe sharpest reply came from a philosopher writing in a medical journal. Carl Cohen defended both speciesism and research — on purpose (Cohen 1986).\n\n\nCohen’s Reply\n\n\nAfter Carl Cohen, “The Case for the Use of Animals in Biomedical Research” (1986)\n\n\nRights arise only among beings who can make moral claims on one another — members of a moral community.\nAnimals cannot recognize duties or weigh right and wrong, so they hold no rights.\nWe should favor our own species, just as we favor our own children; this is moral, not bias.\nSo humane, well-regulated animal research is not only permitted but a moral good, given the human lives it saves.\n\n\nCohen bites the bullet on marginal cases: rights belong to humans as a kind, even those who can’t exercise them. Whether that move escapes speciesism is the soft spot critics press."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#korsgaard-a-kantian-turn",
+    "href": "chapters/12a-animal-moral-status.html#korsgaard-a-kantian-turn",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "3.6 Korsgaard: A Kantian Turn",
+    "text": "3.6 Korsgaard: A Kantian Turn\nHere is the twist. Christine Korsgaard is a leading Kantian — and she argues Kant got animals wrong (Korsgaard 2018).\n\nKant said we value ourselves as “ends in ourselves” because things matter to us. But things matter to animals too: a creature to whom its own life is good is, in Kant’s own terms, an end in itself.\nSo the Kantian framework, followed honestly, yields direct duties to animals — not Kant’s mere indirect ones.\nHer phrase for them: our fellow creatures. We are not their superiors weighing their usefulness; we share a world with beings whose good is real.\n\nKorsgaard shows the pro-animal conclusion needn’t rest on utilitarianism or on rights talk — even Kant’s own theory, repaired, gets there."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#four-views-four-verdicts",
+    "href": "chapters/12a-animal-moral-status.html#four-views-four-verdicts",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "3.7 Four Views, Four Verdicts",
+    "text": "3.7 Four Views, Four Verdicts\n\n\n\n\n\n\n\n\n\n\n\nEating meat\nAnimal research\nPets\nWildlife\n\n\n\n\nKant / Cohen\npermitted\npermitted, even good\nfine if not cruel\nmanage for human use\n\n\nSinger\nwrong (factory farm)\nonly if benefit clearly outweighs\nfine if welfare met\nreduce suffering overall\n\n\nRegan\nwrong\nwrong, full stop\nguardianship, not ownership\nrespect, don’t exploit\n\n\nKorsgaard\ndeeply troubling\nrarely justified\na real relationship of duty\nowed direct concern\n\n\n\nRead across a row to see a view’s reach; read down a column to see how much a verdict depends on the theory behind it."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#thought-question",
+    "href": "chapters/12a-animal-moral-status.html#thought-question",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "3.8 Thought Question",
+    "text": "3.8 Thought Question\n\nA wildfire is closing in. In one shelter are five dogs; in another, one human stranger. You have time to open only one door before the fire arrives.\n\nWhat do you do — and which thinker (Kant, Singer, Regan, Korsgaard) best matches your reasoning?\nSinger says equal interests count equally. Does that mean five animal lives can outweigh one human life? If you resist that, why?\nWould your answer change if the one human were someone you loved? Should it?"
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#make-it-contemporary",
+    "href": "chapters/12a-animal-moral-status.html#make-it-contemporary",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "3.9 Make It Contemporary",
+    "text": "3.9 Make It Contemporary\n\nThe science keeps moving the line. Primatologist Frans de Waal documented chimps that plan, deceive, and grieve; later work found that octopuses — invertebrates — show problem-solving and apparent pain responses (Waal 2016).\nIn 2021 the United Kingdom formally recognized octopuses, crabs, and lobsters as sentient beings in law, after a major scientific review.\n\nIf sentience is the criterion, where does the new evidence push the line?\nShould the law track the latest cognitive science — or stay simpler and more stable?"
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#after-youve-discussed-1",
+    "href": "chapters/12a-animal-moral-status.html#after-youve-discussed-1",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "3.10 After You’ve Discussed",
+    "text": "3.10 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nA distinction the views above quietly rely on: moral agents vs. moral patients.\nA moral agent can be held responsible — can have duties, deserve blame, make claims. A moral patient cannot act morally but can still be wronged (a newborn, a dog). Cohen ties rights to agency; Regan and Korsgaard insist patients matter regardless.\nSeeing the split shows why smart people reach opposite verdicts from the same facts: they disagree about whether being a patient is enough to be owed direct duties."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#mini-recap",
+    "href": "chapters/12a-animal-moral-status.html#mini-recap",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "3.11 Mini-Recap",
+    "text": "3.11 Mini-Recap\n\nWe started with a vote on a research protocol and stepped back to the prior question: which beings count, and how much? Kant says animals count only indirectly; Singer weighs their suffering equally; Regan grants them rights; Cohen ties rights to a moral community we don’t share with them; Korsgaard repairs Kant into a duty to fellow creatures. None is obviously right. Now we take these tools back to the lab, where the abstractions become protocols, cages, and a committee vote."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#why-animal-research-happens",
+    "href": "chapters/12a-animal-moral-status.html#why-animal-research-happens",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "4.1 Why Animal Research Happens",
+    "text": "4.1 Why Animal Research Happens\nFor this audience, the stakes are not abstract — they are on your med cart.\n\nInsulin was isolated in dogs (1921); the first patient, a dying 14-year-old, recovered within days. Polio and COVID-19 vaccines were tested in monkeys before any human arm was offered them.\nModern law requires animal testing for safety before most drugs reach human trials — the very trials you learned about in research ethics.\nThe honest framing: animal research is woven into nearly every therapy a nurse delivers. The ethical question is not whether it helped us, but what it costs and whether each use is justified."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#a-founding-scandal-the-silver-spring-monkeys",
+    "href": "chapters/12a-animal-moral-status.html#a-founding-scandal-the-silver-spring-monkeys",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "4.2 A Founding Scandal: The Silver Spring Monkeys",
+    "text": "4.2 A Founding Scandal: The Silver Spring Monkeys\n\n\n\n\n\n\nImportant\n\n\n\nSilver Spring, Maryland, 1981\nA young activist named Alex Pacheco volunteered in the lab of Dr. Edward Taub, who was studying nerve damage by severing nerves in macaques’ limbs and pushing them to use the numb arms. Pacheco photographed filthy cages and untreated wounds and took the images to police.\nTaub was charged with cruelty (convictions later overturned on a technicality), but the photos launched PETA and made animal research a public fight. The monkeys’ fate was litigated all the way to the Supreme Court.\n\n\nThe case did more than shock — it exposed that, in 1981, almost no enforceable rules governed how lab animals were housed and cared for."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#when-the-cost-is-the-point-harlow",
+    "href": "chapters/12a-animal-moral-status.html#when-the-cost-is-the-point-harlow",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "4.3 When the Cost Is the Point: Harlow",
+    "text": "4.3 When the Cost Is the Point: Harlow\nSome studies harmed animals not as a side effect but as the very thing being measured.\n\nIn the 1950s–60s, Harry Harlow raised infant monkeys in isolation to study attachment. Deprived of mothers, they clung to cloth dummies; many were left permanently, severely damaged.\nThe work shaped what we know about maternal bonding and child neglect — knowledge that changed orphanage and hospital practice.\nIt is also, to many, a textbook case of suffering no result could justify. Held next to Silver Spring, it frames the unavoidable question: how much harm may knowledge cost?"
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#what-the-scandals-changed",
+    "href": "chapters/12a-animal-moral-status.html#what-the-scandals-changed",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "4.4 What the Scandals Changed",
+    "text": "4.4 What the Scandals Changed\nPublic outrage turned into law, slowly and incompletely.\n\n\nThe 1966 Animal Welfare Act set minimal housing rules. The pivotal 1985 amendments, passed after Silver Spring, required institutions to form review committees, minimize pain, and provide for primates’ “psychological well-being.”\n\n\n\nThat committee is the IACUC — the body you sat on in our opening case. Two ideas drive modern oversight: a method for reducing harm (the 3 Rs) and a body that enforces it (the IACUC)."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#the-3-rs-russell-burch-1959",
+    "href": "chapters/12a-animal-moral-status.html#the-3-rs-russell-burch-1959",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "5.1 The 3 Rs (Russell & Burch, 1959)",
+    "text": "5.1 The 3 Rs (Russell & Burch, 1959)\nYears before the laws, two British scientists proposed the framework that still governs humane research (Russell and Burch 1959). The goal: not to end research, but to shrink its harm at every step.\n\nReplacement — use a non-animal method instead, wherever one exists.\nReduction — use the fewest animals that still gives a valid answer.\nRefinement — change methods to minimize pain, distress, and lasting harm.\n\nEvery protocol an IACUC reviews must show the researcher has worked through all three."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#the-3-rs-in-practice",
+    "href": "chapters/12a-animal-moral-status.html#the-3-rs-in-practice",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "5.2 The 3 Rs in Practice",
+    "text": "5.2 The 3 Rs in Practice\n\n\n\n\n\n\n\n\nR\nThe question it asks\nA concrete move\n\n\n\n\nReplacement\nCould this be done without animals?\ncell cultures, organoids, computer models, human volunteers\n\n\nReduction\nAre we using too many?\nbetter statistics; sharing tissue across studies\n\n\nRefinement\nAre we causing avoidable harm?\nanesthesia, pain control, humane endpoints, enrichment\n\n\n\n“Humane endpoint” means ending a study — and the animal’s life — before suffering peaks, rather than waiting for death as the data point."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#how-far-replacement-reaches",
+    "href": "chapters/12a-animal-moral-status.html#how-far-replacement-reaches",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "5.3 How Far Replacement Reaches",
+    "text": "5.3 How Far Replacement Reaches\nThe first R is the dream; the limits are real.\n\nWhat works now: much toxicity screening runs on cultured human cells or “organ-on-a-chip” devices; computer models predict some drug effects before any animal is used.\nWhat doesn’t yet: a whole living body — an immune response, a developing brain, a beating heart under stress — is hard to simulate. That is precisely where animals are still used.\nIn 2022 the U.S. FDA Modernization Act 2.0 dropped the blanket requirement that new drugs be animal-tested, opening the door to validated alternatives. The science to fully replace them, though, is not here yet."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#iacuc-the-irb-for-animals",
+    "href": "chapters/12a-animal-moral-status.html#iacuc-the-irb-for-animals",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "6.1 IACUC: The IRB for Animals",
+    "text": "6.1 IACUC: The IRB for Animals\nYou met the IRB in research ethics — the board that protects human subjects. Animal research has a mirror body.\n\nAn IACUC (Institutional Animal Care and Use Committee) must approve every animal study at a funded institution before it begins.\nBy law it includes a veterinarian, a practicing scientist, a nonscientist, and — importantly — a member from outside the institution, so the committee isn’t only judging itself.\nIt can approve, demand changes, or reject a protocol, and it inspects the animal facilities twice a year. Like an IRB, it is local, ongoing, and has real veto power."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#whats-actually-in-a-protocol",
+    "href": "chapters/12a-animal-moral-status.html#whats-actually-in-a-protocol",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "6.2 What’s Actually in a Protocol",
+    "text": "6.2 What’s Actually in a Protocol\n\nInside an animal-research protocol\nThe researcher must justify the species and exact number of animals; describe every procedure and any pain involved; and document a literature search for alternatives (the first R, in writing). Studies are graded by a pain/distress category — from no pain, to pain relieved by drugs, to the most scrutinized: pain left untreated because relief would ruin the data. That last category demands the strongest justification of all.\n\nThis is where the 3 Rs stop being slogans: the form forces a researcher to prove, line by line, that the harm is necessary."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#iacuc-vs.-irb-what-carries-over",
+    "href": "chapters/12a-animal-moral-status.html#iacuc-vs.-irb-what-carries-over",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "6.3 IACUC vs. IRB: What Carries Over",
+    "text": "6.3 IACUC vs. IRB: What Carries Over\n\n\n\n\n\n\n\n\n\nIRB (humans)\nIACUC (animals)\n\n\n\n\nProtects\nthe research subject\nthe research animal\n\n\nCore consent question\ndid the subject agree?\n(animals can’t consent)\n\n\nSubstitute safeguard\ninformed consent, voluntariness\nthe 3 Rs, vet oversight\n\n\nShared engine\nweigh benefits vs. harms; independent review; no self-policing\nsame\n\n\n\nThe deepest difference is consent. A human can refuse; an animal never can. So the entire moral weight an IRB places on agreement shifts, for animals, onto someone else minimizing their harm."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#why-primates-are-used",
+    "href": "chapters/12a-animal-moral-status.html#why-primates-are-used",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "7.1 Why Primates Are Used",
+    "text": "7.1 Why Primates Are Used\nWhen the question is the human brain or a human disease, our closest relatives become the most informative — and most contested — subjects.\n\nNeuroscience: a monkey’s visual system and cortex resemble ours closely enough to map how vision, movement, and memory work.\nInfectious disease: macaques were central to testing HIV therapies and COVID-19 vaccines, because their immune systems respond like ours.\nThe same closeness that makes primates scientifically valuable is what makes using them hard to stomach."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#why-primates-are-contested",
+    "href": "chapters/12a-animal-moral-status.html#why-primates-are-contested",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "7.2 Why Primates Are Contested",
+    "text": "7.2 Why Primates Are Contested\nThe traits that earn moral concern are exactly the ones primates have.\n\n\n\nCognition: tool use, planning, deception, and self-recognition.\nSociality: complex bonds; isolation causes lasting psychological harm.\nLongevity: a macaque can live 30+ years, a chimp over 50 — often the whole life in a lab.\n\n\n\n\nRecall the spectrum: on every criterion that any theory uses — sentience, being a subject-of-a-life, a good of one’s own — primates score high.\nThat is why they sit at the sharp end of the debate, and why one species was singled out for special protection."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#u.s.-research-animals-by-species",
+    "href": "chapters/12a-animal-moral-status.html#u.s.-research-animals-by-species",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "7.3 U.S. Research Animals by Species",
+    "text": "7.3 U.S. Research Animals by Species\n\n\n\n\n\nAnimals covered by the Animal Welfare Act, U.S., approximate recent yearly totals (USDA APHIS). Mice, rats, fish, and birds — roughly 95% of all research animals — are not counted here.\n\n\n\n\nThe chart hides the biggest fact: the ~95% that are mice, rats, fish, and birds aren’t even tracked by the Animal Welfare Act. What we count reflects what we worry about."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#the-2015-nih-chimpanzee-decision",
+    "href": "chapters/12a-animal-moral-status.html#the-2015-nih-chimpanzee-decision",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "7.4 The 2015 NIH Chimpanzee Decision",
+    "text": "7.4 The 2015 NIH Chimpanzee Decision\n\n\n\n\n\n\nImportant\n\n\n\nThe end of invasive chimp research in the U.S.\nIn 2011 the Institute of Medicine concluded that almost all biomedical research on chimpanzees was no longer necessary — alternatives had caught up (Institute of Medicine 2011). In 2015 NIH announced it would retire its remaining research chimpanzees to sanctuary, ending federal support for invasive chimp studies (National Institutes of Health 2015).\nChimps had helped develop the hepatitis B vaccine. The judgment was not that they never helped — but that the benefit no longer justified the cost.\n\n\nThis is the 3 Rs and the moral-status debate meeting in one policy: Replacement succeeded, and a being near the top of the spectrum was, at last, let off the table."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#thought-question-1",
+    "href": "chapters/12a-animal-moral-status.html#thought-question-1",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "7.5 Thought Question",
+    "text": "7.5 Thought Question\n\nYou are back on the IACUC. A respected neuroscientist submits a protocol: implant electrodes in the brains of four macaques to study how memory forms. The work could, in a decade, help patients with Alzheimer’s. The monkeys will live in the lab for years and be euthanized at the end.\n\nWhich questions from the 3 Rs do you ask first?\nWhat single fact would most change your vote — fewer animals? guaranteed pain control? a stronger medical payoff?\nCohen says approve it; Regan says never. Whose burden of proof feels heavier to you, and why?"
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#make-it-contemporary-1",
+    "href": "chapters/12a-animal-moral-status.html#make-it-contemporary-1",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "7.6 Make It Contemporary",
+    "text": "7.6 Make It Contemporary\n\nThe chimps are retired, but pressure on primate research is rising. During COVID-19, demand for research monkeys outstripped supply, sparking a global shortage and a scramble for sources. Meanwhile, the first gene-edited pig organs are being transplanted into humans — a use of animals that sidesteps the lab entirely.\n\nDoes retiring chimps while expanding monkey and pig use reflect a real principle, or just where public sympathy happens to fall?\nIs breeding an animal to harvest its organs easier or harder to justify than using one in a study?"
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#after-youve-discussed-2",
+    "href": "chapters/12a-animal-moral-status.html#after-youve-discussed-2",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "7.7 After You’ve Discussed",
+    "text": "7.7 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nA distinction that cuts through most research debates: necessary vs. avoidable suffering.\nAlmost everyone agrees we may not impose avoidable suffering. The fight is over “necessary” — necessary for what, and judged by whom? The chimp decision turned on a finding that the suffering had become avoidable, because alternatives existed.\nSo progress in the 3 Rs doesn’t just make research kinder; it quietly shrinks the set of harms that can still be called necessary — and thereby raises the bar every new protocol must clear."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#wrap-up",
+    "href": "chapters/12a-animal-moral-status.html#wrap-up",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "8.1 Wrap-Up",
+    "text": "8.1 Wrap-Up\n\nWe began with a vote and a hesitation: we use the fruits of animal research while flinching at approving it. Behind that flinch is a real question — which beings have moral status, and how much — that Kant, Singer, Regan, Cohen, and Korsgaard answer in sharply different ways. Those abstractions become concrete in the lab, where the 3 Rs try to shrink harm and the IACUC tries to enforce it. The primate cases, ending with the 2015 chimp retirement, show the system actually moving — as alternatives improve, fewer harms count as “necessary.” Next, we follow these threads to the dinner table and the operating room: industrial farming and the pigs now growing organs for human bodies."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#paired-case",
+    "href": "chapters/12a-animal-moral-status.html#paired-case",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "8.2 Paired Case",
+    "text": "8.2 Paired Case\nThe questions you just voted on get personal in the case paired with this lecture — a dying man and the first heart taken from a pig.\n\nPaired case: David Bennett and the First Pig-Heart Transplant"
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#review-questions",
+    "href": "chapters/12a-animal-moral-status.html#review-questions",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "8.3 Review Questions",
+    "text": "8.3 Review Questions\n\n\nRecall\nState the three Rs and explain what an IACUC must verify before approving a study. Which R was decisive in the 2015 NIH chimpanzee decision?\n\n\nApply\nA lab wants to test a cosmetic ingredient for skin irritation using rabbits. Run the proposal through Singer’s and Regan’s views, and through the first R. Where would each say the proposal fails or passes?\n\n\nDebate\nCohen argues that favoring our own species is moral, not bias — like favoring our own children. Is the analogy sound? Defend your answer, using the argument from marginal cases."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#key-terms",
+    "href": "chapters/12a-animal-moral-status.html#key-terms",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "8.4 Key Terms",
+    "text": "8.4 Key Terms\n\nMoral status — the property of mattering for one’s own sake, such that we owe duties to a being.\nSentience — the capacity to feel pain and pleasure; Singer’s proposed criterion for moral status.\nSpeciesism — discounting a being’s interests merely because of its species.\nIndirect duties — Kant’s view that duties “about” animals are really duties to humanity.\nSubject-of-a-life — Regan’s criterion: a being with beliefs, desires, memory, and a future that matters to it.\nArgument from marginal cases — the challenge that any criterion excluding animals also excludes some humans.\nMoral agent vs. moral patient — one who can have duties vs. one who can be wronged but cannot act morally.\nThe 3 Rs — Replacement, Reduction, Refinement (Russell & Burch, 1959).\nIACUC — the committee that reviews and oversees animal research, the animal-side counterpart to the IRB.\nHumane endpoint — ending a study before an animal’s suffering peaks."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#further-reading",
+    "href": "chapters/12a-animal-moral-status.html#further-reading",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "8.5 Further Reading",
+    "text": "8.5 Further Reading\n\nSinger, Peter. Animal Liberation Now. Harper Perennial, 2023 (updated edition of the 1975 classic).\nKorsgaard, Christine. Fellow Creatures: Our Obligations to the Other Animals. Oxford University Press, 2018.\nde Waal, Frans. Are We Smart Enough to Know How Smart Animals Are? Norton, 2016."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status.html#references",
+    "href": "chapters/12a-animal-moral-status.html#references",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "8.6 References",
+    "text": "8.6 References\n\n\nCohen, Carl. 1986. “The Case for the Use of Animals in Biomedical Research.” New England Journal of Medicine 315 (14): 865–70. https://doi.org/10.1056/NEJM198610023151405.\n\n\nInstitute of Medicine. 2011. Chimpanzees in Biomedical and Behavioral Research: Assessing the Necessity. National Academies Press. https://doi.org/10.17226/13257.\n\n\nKant, Immanuel. 1997. Lectures on Ethics. Cambridge University Press.\n\n\nKorsgaard, Christine M. 2018. Fellow Creatures: Our Obligations to the Other Animals. Oxford University Press.\n\n\nNational Institutes of Health. 2015. NIH to Reduce Significantly the Use of Chimpanzees in Research. NIH Director’s statement. https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-will-no-longer-support-biomedical-research-chimpanzees.\n\n\nRegan, Tom. 1983. The Case for Animal Rights. University of California Press.\n\n\nRussell, William M. S., and Rex L. Burch. 1959. The Principles of Humane Experimental Technique. Methuen.\n\n\nSinger, Peter. 1975. Animal Liberation. HarperCollins.\n\n\nWaal, Frans de. 2016. Are We Smart Enough to Know How Smart Animals Are? W. W. Norton."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#a-case-to-sit-with",
+    "href": "chapters/12a-animal-moral-status-slides.html#a-case-to-sit-with",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "A Case to Sit With",
+    "text": "A Case to Sit With\n\nYou just joined your hospital’s animal-research committee. Your first protocol asks to test a new painkiller — one that could help your own patients. The plan: first in mice, then, if it works, in a small group of monkeys, who will be euthanized at the end so their nerve tissue can be studied.\nYou will administer this drug to humans someday if it passes. Tonight you vote on whether it gets made.\n\nWhat would you need to know before voting yes?\nIs there any version of this study you would refuse to approve, no matter the benefit to patients?\nDoes it matter that the test animals are monkeys rather than mice? Why or why not?"
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#after-youve-discussed",
+    "href": "chapters/12a-animal-moral-status-slides.html#after-youve-discussed",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nMost people who use a medicine without a second thought hesitate when asked to approve the research behind it. That hesitation is not hypocrisy — it is two real duties pulling apart: a duty to the patients who need the drug, and a duty to the animals who pay for it.\nThis lecture gives you tools to hold both at once: a way to ask which animals matter, how much, and what that permits — instead of choosing a slogan and defending it."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#today",
+    "href": "chapters/12a-animal-moral-status-slides.html#today",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Today",
+    "text": "Today\n\nBy the end of Part A, you will be able to:\n\nDefine moral status and speciesism, and explain the “argument from marginal cases.”\nLay out three views — Kant’s indirect duties, Singer’s utilitarianism, and Regan’s rights view — and say what each implies in practice.\nTrace the dispute from Singer through Regan, Cohen, and Korsgaard as a connected argument.\nState the 3 Rs (Russell & Burch, 1959) and describe how an IACUC reviews animal research.\nExplain why primate research is used and contested, and what the 2015 NIH chimpanzee decision changed."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#what-moral-status-means",
+    "href": "chapters/12a-animal-moral-status-slides.html#what-moral-status-means",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "What “Moral Status” Means",
+    "text": "What “Moral Status” Means\nBefore we ask how to treat animals, we need a prior idea: moral status.\n\nA being has moral status when it matters for its own sake — when we owe duties to it, not just duties about it.\nA rock has none: you can do as you like with it. A person has full moral status: you must weigh their interests.\nThe whole debate is about what earns status, and how much. The usual candidates are being alive, being sentient (able to feel pain and pleasure), and being rational or self-aware.\n\nPick a criterion and you have, without noticing, sorted every living thing into “counts” and “doesn’t.”"
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#speciesism-the-word-and-the-charge",
+    "href": "chapters/12a-animal-moral-status-slides.html#speciesism-the-word-and-the-charge",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Speciesism — the Word and the Charge",
+    "text": "Speciesism — the Word and the Charge\nIn 1970 the psychologist Richard Ryder coined speciesism; Peter Singer made it famous (Singer 1975).\n\n\nThe charge. Giving less weight to a being’s interests just because it belongs to another species is like racism or sexism — a bias for “our own kind” dressed up as a principle.\nA pig’s pain, Singer argues, is as real as a person’s. To discount it only for being a pig’s is the error.\n\n\n\nThe reply, in advance. Defenders answer that species membership does track morally real differences — in rationality, in moral agency, in belonging to a moral community.\nWhether that reply works is the question the rest of the lecture argues about."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#the-spectrum-of-views",
+    "href": "chapters/12a-animal-moral-status-slides.html#the-spectrum-of-views",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "The Spectrum of Views",
+    "text": "The Spectrum of Views\n\n\n\n\n\nViews on animal moral status, arranged by how much weight animal interests carry.\n\n\n\n\nThe same facts about animals support very different conclusions. The disagreement is about the criterion, not the biology."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#the-argument-from-marginal-cases",
+    "href": "chapters/12a-animal-moral-status-slides.html#the-argument-from-marginal-cases",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "The Argument from Marginal Cases",
+    "text": "The Argument from Marginal Cases\nThe hardest problem for any view that draws the line at rationality.\n\nSuppose moral status requires reason, language, or planning for the future. Many adult animals lack these — so, the line says, they don’t fully count.\nBut some humans lack them too: newborns, people with advanced dementia, those with severe cognitive disability. They are the “marginal cases.”\nWe rightly give these humans full moral status. So either the criterion is wrong, or we must explain what makes the human cases different without simply saying “because they’re human” — which would be speciesism.\n\nThis argument doesn’t settle the debate. It forces every side to say exactly why its line falls where it does."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#kant-we-owe-animals-nothing-directly",
+    "href": "chapters/12a-animal-moral-status-slides.html#kant-we-owe-animals-nothing-directly",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Kant: We Owe Animals Nothing Directly",
+    "text": "Kant: We Owe Animals Nothing Directly\nThe oldest Western view says animals have no moral status of their own (Kant 1997).\n\nFor Immanuel Kant, only rational agents are “ends in themselves.” Animals are not rational, so we have no direct duties to them.\nBut we do have indirect duties: duties about animals that are really duties to humanity. Kant’s example — a man who shoots his old dog because it can no longer work does nothing to the dog, but “damages in himself” the kindness he owes other people.\nThe practical upshot: cruelty is wrong because it corrupts us and coarsens how we treat each other, not because the animal was wronged.\n\nThis view still shapes law that bans cruelty while permitting nearly any use."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#singer-equal-consideration-of-interests",
+    "href": "chapters/12a-animal-moral-status-slides.html#singer-equal-consideration-of-interests",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Singer: Equal Consideration of Interests",
+    "text": "Singer: Equal Consideration of Interests\nSinger turns Kant’s criterion on its head. The question, he says, quoting Jeremy Bentham, is not “Can they reason?” but “Can they suffer?” (Singer 1975)\n\n\nThe Equal-Consideration Argument\n\n\nAfter Peter Singer, Animal Liberation (1975)\n\n\nIf a being can suffer, it has an interest in not suffering.\nEqual interests deserve equal moral weight, whoever has them.\nMany animals can suffer as humans can.\nSo their suffering counts equally — and discounting it for being an animal’s is speciesism.\n\n\nSinger is a utilitarian: what matters is the total balance of suffering and well-being. The disputed premise is 2 — whether equal interests always deserve equal weight."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#what-follows-from-singer",
+    "href": "chapters/12a-animal-moral-status-slides.html#what-follows-from-singer",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "What Follows from Singer",
+    "text": "What Follows from Singer\nOne premise, sweeping consequences — which is why the view is famous and feared.\n\n\nFactory farming fails immediately: it inflicts enormous suffering for the minor interest of cheaper meat. For Singer this is the clearest case of all.\n\n\n\nResearch is harder. Singer does not ban it outright. He asks the brutal question: would you do the same study on a human with similar mental capacities? If not, doing it to the animal needs another justification.\n\nNote what utilitarianism allows: if a study truly produced enough benefit, the math could favor it. That possibility is exactly what the next thinker rejects."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#regan-animals-have-rights",
+    "href": "chapters/12a-animal-moral-status-slides.html#regan-animals-have-rights",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Regan: Animals Have Rights",
+    "text": "Regan: Animals Have Rights\nTom Regan thought Singer gave animals too little protection. Utilitarian math can always, in principle, sacrifice the individual for the greater good (Regan 1983).\n\n\nThe Rights View\n\n\nAfter Tom Regan, The Case for Animal Rights (1983)\n\n\nMany animals are subjects-of-a-life: they have beliefs, desires, memory, a sense of the future — a life that goes better or worse for them.\nAny subject-of-a-life has inherent value, not just usefulness to others.\nBeings with inherent value have a right not to be harmed merely as a means to others’ ends.\nSo using animals in research violates their rights — even if the results help many.\n\n\nWhere Singer weighs and balances, Regan draws a line: rights are not for trading. The dispute now moves to premise 2 — can animals really be bearers of rights?"
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#cohen-the-case-for-animal-research",
+    "href": "chapters/12a-animal-moral-status-slides.html#cohen-the-case-for-animal-research",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Cohen: The Case for Animal Research",
+    "text": "Cohen: The Case for Animal Research\nThe sharpest reply came from a philosopher writing in a medical journal. Carl Cohen defended both speciesism and research — on purpose (Cohen 1986).\n\n\nCohen’s Reply\n\n\nAfter Carl Cohen, “The Case for the Use of Animals in Biomedical Research” (1986)\n\n\nRights arise only among beings who can make moral claims on one another — members of a moral community.\nAnimals cannot recognize duties or weigh right and wrong, so they hold no rights.\nWe should favor our own species, just as we favor our own children; this is moral, not bias.\nSo humane, well-regulated animal research is not only permitted but a moral good, given the human lives it saves.\n\n\nCohen bites the bullet on marginal cases: rights belong to humans as a kind, even those who can’t exercise them. Whether that move escapes speciesism is the soft spot critics press."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#korsgaard-a-kantian-turn",
+    "href": "chapters/12a-animal-moral-status-slides.html#korsgaard-a-kantian-turn",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Korsgaard: A Kantian Turn",
+    "text": "Korsgaard: A Kantian Turn\nHere is the twist. Christine Korsgaard is a leading Kantian — and she argues Kant got animals wrong (Korsgaard 2018).\n\nKant said we value ourselves as “ends in ourselves” because things matter to us. But things matter to animals too: a creature to whom its own life is good is, in Kant’s own terms, an end in itself.\nSo the Kantian framework, followed honestly, yields direct duties to animals — not Kant’s mere indirect ones.\nHer phrase for them: our fellow creatures. We are not their superiors weighing their usefulness; we share a world with beings whose good is real.\n\nKorsgaard shows the pro-animal conclusion needn’t rest on utilitarianism or on rights talk — even Kant’s own theory, repaired, gets there."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#four-views-four-verdicts",
+    "href": "chapters/12a-animal-moral-status-slides.html#four-views-four-verdicts",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Four Views, Four Verdicts",
+    "text": "Four Views, Four Verdicts\n\n\n\n\n\n\n\n\n\n\n\nEating meat\nAnimal research\nPets\nWildlife\n\n\n\n\nKant / Cohen\npermitted\npermitted, even good\nfine if not cruel\nmanage for human use\n\n\nSinger\nwrong (factory farm)\nonly if benefit clearly outweighs\nfine if welfare met\nreduce suffering overall\n\n\nRegan\nwrong\nwrong, full stop\nguardianship, not ownership\nrespect, don’t exploit\n\n\nKorsgaard\ndeeply troubling\nrarely justified\na real relationship of duty\nowed direct concern\n\n\n\nRead across a row to see a view’s reach; read down a column to see how much a verdict depends on the theory behind it."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#thought-question",
+    "href": "chapters/12a-animal-moral-status-slides.html#thought-question",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Thought Question",
+    "text": "Thought Question\n\nA wildfire is closing in. In one shelter are five dogs; in another, one human stranger. You have time to open only one door before the fire arrives.\n\nWhat do you do — and which thinker (Kant, Singer, Regan, Korsgaard) best matches your reasoning?\nSinger says equal interests count equally. Does that mean five animal lives can outweigh one human life? If you resist that, why?\nWould your answer change if the one human were someone you loved? Should it?"
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#make-it-contemporary",
+    "href": "chapters/12a-animal-moral-status-slides.html#make-it-contemporary",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Make It Contemporary",
+    "text": "Make It Contemporary\n\nThe science keeps moving the line. Primatologist Frans de Waal documented chimps that plan, deceive, and grieve; later work found that octopuses — invertebrates — show problem-solving and apparent pain responses (Waal 2016).\nIn 2021 the United Kingdom formally recognized octopuses, crabs, and lobsters as sentient beings in law, after a major scientific review.\n\nIf sentience is the criterion, where does the new evidence push the line?\nShould the law track the latest cognitive science — or stay simpler and more stable?"
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#after-youve-discussed-1",
+    "href": "chapters/12a-animal-moral-status-slides.html#after-youve-discussed-1",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nA distinction the views above quietly rely on: moral agents vs. moral patients.\nA moral agent can be held responsible — can have duties, deserve blame, make claims. A moral patient cannot act morally but can still be wronged (a newborn, a dog). Cohen ties rights to agency; Regan and Korsgaard insist patients matter regardless.\nSeeing the split shows why smart people reach opposite verdicts from the same facts: they disagree about whether being a patient is enough to be owed direct duties."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#mini-recap",
+    "href": "chapters/12a-animal-moral-status-slides.html#mini-recap",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Mini-Recap",
+    "text": "Mini-Recap\n\nWe started with a vote on a research protocol and stepped back to the prior question: which beings count, and how much? Kant says animals count only indirectly; Singer weighs their suffering equally; Regan grants them rights; Cohen ties rights to a moral community we don’t share with them; Korsgaard repairs Kant into a duty to fellow creatures. None is obviously right. Now we take these tools back to the lab, where the abstractions become protocols, cages, and a committee vote."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#why-animal-research-happens",
+    "href": "chapters/12a-animal-moral-status-slides.html#why-animal-research-happens",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Why Animal Research Happens",
+    "text": "Why Animal Research Happens\nFor this audience, the stakes are not abstract — they are on your med cart.\n\nInsulin was isolated in dogs (1921); the first patient, a dying 14-year-old, recovered within days. Polio and COVID-19 vaccines were tested in monkeys before any human arm was offered them.\nModern law requires animal testing for safety before most drugs reach human trials — the very trials you learned about in research ethics.\nThe honest framing: animal research is woven into nearly every therapy a nurse delivers. The ethical question is not whether it helped us, but what it costs and whether each use is justified."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#a-founding-scandal-the-silver-spring-monkeys",
+    "href": "chapters/12a-animal-moral-status-slides.html#a-founding-scandal-the-silver-spring-monkeys",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "A Founding Scandal: The Silver Spring Monkeys",
+    "text": "A Founding Scandal: The Silver Spring Monkeys\n\n\n\n\n\n\nImportant\n\n\nSilver Spring, Maryland, 1981\nA young activist named Alex Pacheco volunteered in the lab of Dr. Edward Taub, who was studying nerve damage by severing nerves in macaques’ limbs and pushing them to use the numb arms. Pacheco photographed filthy cages and untreated wounds and took the images to police.\nTaub was charged with cruelty (convictions later overturned on a technicality), but the photos launched PETA and made animal research a public fight. The monkeys’ fate was litigated all the way to the Supreme Court.\n\n\n\nThe case did more than shock — it exposed that, in 1981, almost no enforceable rules governed how lab animals were housed and cared for."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#when-the-cost-is-the-point-harlow",
+    "href": "chapters/12a-animal-moral-status-slides.html#when-the-cost-is-the-point-harlow",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "When the Cost Is the Point: Harlow",
+    "text": "When the Cost Is the Point: Harlow\nSome studies harmed animals not as a side effect but as the very thing being measured.\n\nIn the 1950s–60s, Harry Harlow raised infant monkeys in isolation to study attachment. Deprived of mothers, they clung to cloth dummies; many were left permanently, severely damaged.\nThe work shaped what we know about maternal bonding and child neglect — knowledge that changed orphanage and hospital practice.\nIt is also, to many, a textbook case of suffering no result could justify. Held next to Silver Spring, it frames the unavoidable question: how much harm may knowledge cost?"
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#what-the-scandals-changed",
+    "href": "chapters/12a-animal-moral-status-slides.html#what-the-scandals-changed",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "What the Scandals Changed",
+    "text": "What the Scandals Changed\nPublic outrage turned into law, slowly and incompletely.\n\n\nThe 1966 Animal Welfare Act set minimal housing rules. The pivotal 1985 amendments, passed after Silver Spring, required institutions to form review committees, minimize pain, and provide for primates’ “psychological well-being.”\n\n\n\nThat committee is the IACUC — the body you sat on in our opening case. Two ideas drive modern oversight: a method for reducing harm (the 3 Rs) and a body that enforces it (the IACUC)."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#the-3-rs-russell-burch-1959",
+    "href": "chapters/12a-animal-moral-status-slides.html#the-3-rs-russell-burch-1959",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "The 3 Rs (Russell & Burch, 1959)",
+    "text": "The 3 Rs (Russell & Burch, 1959)\nYears before the laws, two British scientists proposed the framework that still governs humane research (Russell and Burch 1959). The goal: not to end research, but to shrink its harm at every step.\n\nReplacement — use a non-animal method instead, wherever one exists.\nReduction — use the fewest animals that still gives a valid answer.\nRefinement — change methods to minimize pain, distress, and lasting harm.\n\nEvery protocol an IACUC reviews must show the researcher has worked through all three."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#the-3-rs-in-practice",
+    "href": "chapters/12a-animal-moral-status-slides.html#the-3-rs-in-practice",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "The 3 Rs in Practice",
+    "text": "The 3 Rs in Practice\n\n\n\n\n\n\n\n\nR\nThe question it asks\nA concrete move\n\n\n\n\nReplacement\nCould this be done without animals?\ncell cultures, organoids, computer models, human volunteers\n\n\nReduction\nAre we using too many?\nbetter statistics; sharing tissue across studies\n\n\nRefinement\nAre we causing avoidable harm?\nanesthesia, pain control, humane endpoints, enrichment\n\n\n\n“Humane endpoint” means ending a study — and the animal’s life — before suffering peaks, rather than waiting for death as the data point."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#how-far-replacement-reaches",
+    "href": "chapters/12a-animal-moral-status-slides.html#how-far-replacement-reaches",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "How Far Replacement Reaches",
+    "text": "How Far Replacement Reaches\nThe first R is the dream; the limits are real.\n\nWhat works now: much toxicity screening runs on cultured human cells or “organ-on-a-chip” devices; computer models predict some drug effects before any animal is used.\nWhat doesn’t yet: a whole living body — an immune response, a developing brain, a beating heart under stress — is hard to simulate. That is precisely where animals are still used.\nIn 2022 the U.S. FDA Modernization Act 2.0 dropped the blanket requirement that new drugs be animal-tested, opening the door to validated alternatives. The science to fully replace them, though, is not here yet."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#iacuc-the-irb-for-animals",
+    "href": "chapters/12a-animal-moral-status-slides.html#iacuc-the-irb-for-animals",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "IACUC: The IRB for Animals",
+    "text": "IACUC: The IRB for Animals\nYou met the IRB in research ethics — the board that protects human subjects. Animal research has a mirror body.\n\nAn IACUC (Institutional Animal Care and Use Committee) must approve every animal study at a funded institution before it begins.\nBy law it includes a veterinarian, a practicing scientist, a nonscientist, and — importantly — a member from outside the institution, so the committee isn’t only judging itself.\nIt can approve, demand changes, or reject a protocol, and it inspects the animal facilities twice a year. Like an IRB, it is local, ongoing, and has real veto power."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#whats-actually-in-a-protocol",
+    "href": "chapters/12a-animal-moral-status-slides.html#whats-actually-in-a-protocol",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "What’s Actually in a Protocol",
+    "text": "What’s Actually in a Protocol\n\nInside an animal-research protocol\nThe researcher must justify the species and exact number of animals; describe every procedure and any pain involved; and document a literature search for alternatives (the first R, in writing). Studies are graded by a pain/distress category — from no pain, to pain relieved by drugs, to the most scrutinized: pain left untreated because relief would ruin the data. That last category demands the strongest justification of all.\n\nThis is where the 3 Rs stop being slogans: the form forces a researcher to prove, line by line, that the harm is necessary."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#iacuc-vs.-irb-what-carries-over",
+    "href": "chapters/12a-animal-moral-status-slides.html#iacuc-vs.-irb-what-carries-over",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "IACUC vs. IRB: What Carries Over",
+    "text": "IACUC vs. IRB: What Carries Over\n\n\n\n\n\n\n\n\n\nIRB (humans)\nIACUC (animals)\n\n\n\n\nProtects\nthe research subject\nthe research animal\n\n\nCore consent question\ndid the subject agree?\n(animals can’t consent)\n\n\nSubstitute safeguard\ninformed consent, voluntariness\nthe 3 Rs, vet oversight\n\n\nShared engine\nweigh benefits vs. harms; independent review; no self-policing\nsame\n\n\n\nThe deepest difference is consent. A human can refuse; an animal never can. So the entire moral weight an IRB places on agreement shifts, for animals, onto someone else minimizing their harm."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#why-primates-are-used",
+    "href": "chapters/12a-animal-moral-status-slides.html#why-primates-are-used",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Why Primates Are Used",
+    "text": "Why Primates Are Used\nWhen the question is the human brain or a human disease, our closest relatives become the most informative — and most contested — subjects.\n\nNeuroscience: a monkey’s visual system and cortex resemble ours closely enough to map how vision, movement, and memory work.\nInfectious disease: macaques were central to testing HIV therapies and COVID-19 vaccines, because their immune systems respond like ours.\nThe same closeness that makes primates scientifically valuable is what makes using them hard to stomach."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#why-primates-are-contested",
+    "href": "chapters/12a-animal-moral-status-slides.html#why-primates-are-contested",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Why Primates Are Contested",
+    "text": "Why Primates Are Contested\nThe traits that earn moral concern are exactly the ones primates have.\n\n\n\nCognition: tool use, planning, deception, and self-recognition.\nSociality: complex bonds; isolation causes lasting psychological harm.\nLongevity: a macaque can live 30+ years, a chimp over 50 — often the whole life in a lab.\n\n\n\n\nRecall the spectrum: on every criterion that any theory uses — sentience, being a subject-of-a-life, a good of one’s own — primates score high.\nThat is why they sit at the sharp end of the debate, and why one species was singled out for special protection."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#u.s.-research-animals-by-species",
+    "href": "chapters/12a-animal-moral-status-slides.html#u.s.-research-animals-by-species",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "U.S. Research Animals by Species",
+    "text": "U.S. Research Animals by Species\n\n\n\n\n\nAnimals covered by the Animal Welfare Act, U.S., approximate recent yearly totals (USDA APHIS). Mice, rats, fish, and birds — roughly 95% of all research animals — are not counted here.\n\n\n\n\nThe chart hides the biggest fact: the ~95% that are mice, rats, fish, and birds aren’t even tracked by the Animal Welfare Act. What we count reflects what we worry about."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#the-2015-nih-chimpanzee-decision",
+    "href": "chapters/12a-animal-moral-status-slides.html#the-2015-nih-chimpanzee-decision",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "The 2015 NIH Chimpanzee Decision",
+    "text": "The 2015 NIH Chimpanzee Decision\n\n\n\n\n\n\nImportant\n\n\nThe end of invasive chimp research in the U.S.\nIn 2011 the Institute of Medicine concluded that almost all biomedical research on chimpanzees was no longer necessary — alternatives had caught up (Institute of Medicine 2011). In 2015 NIH announced it would retire its remaining research chimpanzees to sanctuary, ending federal support for invasive chimp studies (National Institutes of Health 2015).\nChimps had helped develop the hepatitis B vaccine. The judgment was not that they never helped — but that the benefit no longer justified the cost.\n\n\n\nThis is the 3 Rs and the moral-status debate meeting in one policy: Replacement succeeded, and a being near the top of the spectrum was, at last, let off the table."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#thought-question-1",
+    "href": "chapters/12a-animal-moral-status-slides.html#thought-question-1",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Thought Question",
+    "text": "Thought Question\n\nYou are back on the IACUC. A respected neuroscientist submits a protocol: implant electrodes in the brains of four macaques to study how memory forms. The work could, in a decade, help patients with Alzheimer’s. The monkeys will live in the lab for years and be euthanized at the end.\n\nWhich questions from the 3 Rs do you ask first?\nWhat single fact would most change your vote — fewer animals? guaranteed pain control? a stronger medical payoff?\nCohen says approve it; Regan says never. Whose burden of proof feels heavier to you, and why?"
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#make-it-contemporary-1",
+    "href": "chapters/12a-animal-moral-status-slides.html#make-it-contemporary-1",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Make It Contemporary",
+    "text": "Make It Contemporary\n\nThe chimps are retired, but pressure on primate research is rising. During COVID-19, demand for research monkeys outstripped supply, sparking a global shortage and a scramble for sources. Meanwhile, the first gene-edited pig organs are being transplanted into humans — a use of animals that sidesteps the lab entirely.\n\nDoes retiring chimps while expanding monkey and pig use reflect a real principle, or just where public sympathy happens to fall?\nIs breeding an animal to harvest its organs easier or harder to justify than using one in a study?"
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#after-youve-discussed-2",
+    "href": "chapters/12a-animal-moral-status-slides.html#after-youve-discussed-2",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nA distinction that cuts through most research debates: necessary vs. avoidable suffering.\nAlmost everyone agrees we may not impose avoidable suffering. The fight is over “necessary” — necessary for what, and judged by whom? The chimp decision turned on a finding that the suffering had become avoidable, because alternatives existed.\nSo progress in the 3 Rs doesn’t just make research kinder; it quietly shrinks the set of harms that can still be called necessary — and thereby raises the bar every new protocol must clear."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#wrap-up",
+    "href": "chapters/12a-animal-moral-status-slides.html#wrap-up",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Wrap-Up",
+    "text": "Wrap-Up\n\nWe began with a vote and a hesitation: we use the fruits of animal research while flinching at approving it. Behind that flinch is a real question — which beings have moral status, and how much — that Kant, Singer, Regan, Cohen, and Korsgaard answer in sharply different ways. Those abstractions become concrete in the lab, where the 3 Rs try to shrink harm and the IACUC tries to enforce it. The primate cases, ending with the 2015 chimp retirement, show the system actually moving — as alternatives improve, fewer harms count as “necessary.” Next, we follow these threads to the dinner table and the operating room: industrial farming and the pigs now growing organs for human bodies."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#paired-case",
+    "href": "chapters/12a-animal-moral-status-slides.html#paired-case",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Paired Case",
+    "text": "Paired Case\nThe questions you just voted on get personal in the case paired with this lecture — a dying man and the first heart taken from a pig.\n\nPaired case: David Bennett and the First Pig-Heart Transplant"
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#review-questions",
+    "href": "chapters/12a-animal-moral-status-slides.html#review-questions",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Review Questions",
+    "text": "Review Questions\n\n\nRecall\nState the three Rs and explain what an IACUC must verify before approving a study. Which R was decisive in the 2015 NIH chimpanzee decision?\n\n\nApply\nA lab wants to test a cosmetic ingredient for skin irritation using rabbits. Run the proposal through Singer’s and Regan’s views, and through the first R. Where would each say the proposal fails or passes?\n\n\nDebate\nCohen argues that favoring our own species is moral, not bias — like favoring our own children. Is the analogy sound? Defend your answer, using the argument from marginal cases."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#key-terms",
+    "href": "chapters/12a-animal-moral-status-slides.html#key-terms",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Key Terms",
+    "text": "Key Terms\n\nMoral status — the property of mattering for one’s own sake, such that we owe duties to a being.\nSentience — the capacity to feel pain and pleasure; Singer’s proposed criterion for moral status.\nSpeciesism — discounting a being’s interests merely because of its species.\nIndirect duties — Kant’s view that duties “about” animals are really duties to humanity.\nSubject-of-a-life — Regan’s criterion: a being with beliefs, desires, memory, and a future that matters to it.\nArgument from marginal cases — the challenge that any criterion excluding animals also excludes some humans.\nMoral agent vs. moral patient — one who can have duties vs. one who can be wronged but cannot act morally.\nThe 3 Rs — Replacement, Reduction, Refinement (Russell & Burch, 1959).\nIACUC — the committee that reviews and oversees animal research, the animal-side counterpart to the IRB.\nHumane endpoint — ending a study before an animal’s suffering peaks."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#further-reading",
+    "href": "chapters/12a-animal-moral-status-slides.html#further-reading",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Further Reading",
+    "text": "Further Reading\n\nSinger, Peter. Animal Liberation Now. Harper Perennial, 2023 (updated edition of the 1975 classic).\nKorsgaard, Christine. Fellow Creatures: Our Obligations to the Other Animals. Oxford University Press, 2018.\nde Waal, Frans. Are We Smart Enough to Know How Smart Animals Are? Norton, 2016."
+  },
+  {
+    "objectID": "chapters/12a-animal-moral-status-slides.html#references",
+    "href": "chapters/12a-animal-moral-status-slides.html#references",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "References",
+    "text": "References\n\n\nCohen, Carl. 1986. “The Case for the Use of Animals in Biomedical Research.” New England Journal of Medicine 315 (14): 865–70. https://doi.org/10.1056/NEJM198610023151405.\n\n\nInstitute of Medicine. 2011. Chimpanzees in Biomedical and Behavioral Research: Assessing the Necessity. National Academies Press. https://doi.org/10.17226/13257.\n\n\nKant, Immanuel. 1997. Lectures on Ethics. Cambridge University Press.\n\n\nKorsgaard, Christine M. 2018. Fellow Creatures: Our Obligations to the Other Animals. Oxford University Press.\n\n\nNational Institutes of Health. 2015. NIH to Reduce Significantly the Use of Chimpanzees in Research. NIH Director’s statement. https://www.nih.gov/about-nih/who-we-are/nih-director/statements/nih-will-no-longer-support-biomedical-research-chimpanzees.\n\n\nRegan, Tom. 1983. The Case for Animal Rights. University of California Press.\n\n\nRussell, William M. S., and Rex L. Burch. 1959. The Principles of Humane Experimental Technique. Methuen.\n\n\nSinger, Peter. 1975. Animal Liberation. HarperCollins.\n\n\nWaal, Frans de. 2016. Are We Smart Enough to Know How Smart Animals Are? W. W. Norton."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html",
+    "href": "chapters/12b-industrial-xeno.html",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "",
+    "text": "Here are four ways humans use animals. Put them in order, from most defensible to least:\n\nBacon from a factory-farmed pig.\nA rabbit used to test a new mascara for eye irritation.\nA gene-edited pig whose heart is transplanted into a dying patient.\nA lab mouse engineered to be smarter, to make a better research subject.\n\nThen answer:\n\nWhat did you put last, and what rule were you using?\nDid “high-tech” or “unnatural” push anything down your list? Should it?\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nMost people rank the pig-heart transplant as more troubling than the bacon. Hold that intuition up to the light.\nBy the end of today, we’ll have a tool that ranks animal uses by three things — scale, necessity, and benefit — and on that tool, the everyday cheeseburger comes out worse than the high-tech transplant. Whether you accept that result, or reject the tool, is the work of this lecture.\n\n\n\n\n\nIn Part A we asked which beings have moral status and met five answers — Kant, Singer, Regan, Cohen, Korsgaard. We saw that the 3 Rs and the IACUC try to shrink and police the harm of research.\nToday we leave the lab. The same views now have to handle the two largest and most advanced uses of animals: the food system that kills tens of billions, and the gene-edited pigs now keeping humans alive.\n\n\n\n\nBy the end of Part B, you will be able to:\n\nExplain how industrial animal agriculture harms animals and humans — including antibiotic resistance and zoonotic risk.\nState the translation-gap critique of animal research and what the FDA and EU are doing about it.\nDescribe how a pig is gene-edited for transplant and the ethical issues unique to xenotransplantation.\nUse the scale–necessity–benefit ledger to explain why a critic of factory farming can still accept pig-heart transplants — and how Regan resists that ranking.\nConnect animal ethics to moral status, enhancement, and end-of-life arguments from earlier in the course."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#a-case-to-sit-with",
+    "href": "chapters/12b-industrial-xeno.html#a-case-to-sit-with",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "",
+    "text": "Here are four ways humans use animals. Put them in order, from most defensible to least:\n\nBacon from a factory-farmed pig.\nA rabbit used to test a new mascara for eye irritation.\nA gene-edited pig whose heart is transplanted into a dying patient.\nA lab mouse engineered to be smarter, to make a better research subject.\n\nThen answer:\n\nWhat did you put last, and what rule were you using?\nDid “high-tech” or “unnatural” push anything down your list? Should it?"
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#after-youve-discussed",
+    "href": "chapters/12b-industrial-xeno.html#after-youve-discussed",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "",
+    "text": "Note\n\n\n\nMost people rank the pig-heart transplant as more troubling than the bacon. Hold that intuition up to the light.\nBy the end of today, we’ll have a tool that ranks animal uses by three things — scale, necessity, and benefit — and on that tool, the everyday cheeseburger comes out worse than the high-tech transplant. Whether you accept that result, or reject the tool, is the work of this lecture."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#where-we-left-off",
+    "href": "chapters/12b-industrial-xeno.html#where-we-left-off",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "",
+    "text": "In Part A we asked which beings have moral status and met five answers — Kant, Singer, Regan, Cohen, Korsgaard. We saw that the 3 Rs and the IACUC try to shrink and police the harm of research.\nToday we leave the lab. The same views now have to handle the two largest and most advanced uses of animals: the food system that kills tens of billions, and the gene-edited pigs now keeping humans alive."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#today",
+    "href": "chapters/12b-industrial-xeno.html#today",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "",
+    "text": "By the end of Part B, you will be able to:\n\nExplain how industrial animal agriculture harms animals and humans — including antibiotic resistance and zoonotic risk.\nState the translation-gap critique of animal research and what the FDA and EU are doing about it.\nDescribe how a pig is gene-edited for transplant and the ethical issues unique to xenotransplantation.\nUse the scale–necessity–benefit ledger to explain why a critic of factory farming can still accept pig-heart transplants — and how Regan resists that ranking.\nConnect animal ethics to moral status, enhancement, and end-of-life arguments from earlier in the course."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#the-scale-is-the-argument",
+    "href": "chapters/12b-industrial-xeno.html#the-scale-is-the-argument",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "2.1 The Scale Is the Argument",
+    "text": "2.1 The Scale Is the Argument\nWhatever you think of eating meat, start with the number.\n\nHumans raise and kill roughly 80 billion land animals a year — about ten per person on Earth — the overwhelming majority on industrial farms.\nMost live in CAFOs (concentrated animal feeding operations): thousands of animals indoors at high density, bred for fast growth, with little room to move.\nRecall Singer from Part A: this inflicts vast suffering for an interest — taste, cost, convenience — that is, for most of us, minor and replaceable. On his view it is the clearest wrong in the whole field.\n\nThe scale matters morally: a practice repeated 80 billion times needs a justification 80 billion times as strong."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#it-harms-humans-too-antibiotics",
+    "href": "chapters/12b-industrial-xeno.html#it-harms-humans-too-antibiotics",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "2.2 It Harms Humans Too: Antibiotics",
+    "text": "2.2 It Harms Humans Too: Antibiotics\nThe welfare case is not the only case. Factory farming is also a public-health problem — which means even a strictly human-centered ethics has to reckon with it.\n\nThe majority of antibiotics sold in the U.S. go to livestock, not people — often to healthy animals, to speed growth and prevent disease in crowded barns.\nConstant low-dose exposure breeds antibiotic resistance: bacteria that survive the drugs, then spread to humans through food, water, and workers.\nA major 2016 review projected that drug-resistant infections could cause 10 million deaths a year by 2050 if unchecked — outpacing cancer (O’Neill 2016).\n\nThe pig in the barn and the patient whose antibiotics no longer work are linked by the same practice."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#it-harms-humans-too-pandemics",
+    "href": "chapters/12b-industrial-xeno.html#it-harms-humans-too-pandemics",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "2.3 It Harms Humans Too: Pandemics",
+    "text": "2.3 It Harms Humans Too: Pandemics\nThe second human cost is the one we just lived through.\n\n\n\nCrowding genetically similar animals together is ideal for breeding new viruses. Avian and swine influenza strains have jumped from farms to people.\nMost experts count industrial animal agriculture and the wildlife trade among the leading pandemic risks of the century.\n\n\n\n\nThe convergence. Kant and Cohen grant animals no rights — yet their human-centered view still condemns a system that breeds resistant bacteria and pandemic flu.\nWelfare reasons and self-interested human reasons point the same way here. That is rare, and worth noticing."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#thought-question",
+    "href": "chapters/12b-industrial-xeno.html#thought-question",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "2.4 Thought Question",
+    "text": "2.4 Thought Question\n\nA hospital you work at sources its cafeteria meat from conventional industrial farms. A nurses’ group proposes switching to higher-welfare, antibiotic-free suppliers — at higher cost, paid from the same budget that funds patient programs.\n\nIs this an animal-welfare decision, a public-health decision, or both?\nAs a nurse, can you justify the extra cost to a patient whose program might be trimmed to pay for it?\nWould Cohen — who grants animals no rights — have any reason to support the switch?"
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#after-youve-discussed-1",
+    "href": "chapters/12b-industrial-xeno.html#after-youve-discussed-1",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "2.5 After You’ve Discussed",
+    "text": "2.5 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nA distinction the food case forces: direct vs. indirect harm.\nThe factory farm harms the pig directly — that is the welfare wrong. It also harms humans indirectly, through resistant bacteria and new viruses — a second, separate wrong with different victims.\nWhy this matters: the two harms come apart. A reform could ease the public-health harm (ban growth-promoter antibiotics) while leaving the welfare harm untouched — and vice versa. Knowing which harm a policy fixes keeps you from claiming credit for both."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#the-translation-gap",
+    "href": "chapters/12b-industrial-xeno.html#the-translation-gap",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "3.1 The Translation Gap",
+    "text": "3.1 The Translation Gap\nPart A defended research by its benefits. But a benefit you don’t get can’t justify a harm — and animal models often don’t deliver.\n\nAround 9 of every 10 drugs that pass animal safety and efficacy tests still fail in human trials — for lack of effect, or for toxicity the animals never showed.\nSpecies differ in ways that matter: a compound safe in mice can poison people, and a disease “cured” in a mouse routinely does nothing in patients.\nThis is the translation gap: the distance between “it worked in the animal” and “it works in the human.”"
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#why-the-gap-is-an-ethical-argument",
+    "href": "chapters/12b-industrial-xeno.html#why-the-gap-is-an-ethical-argument",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "3.2 Why the Gap Is an Ethical Argument",
+    "text": "3.2 Why the Gap Is an Ethical Argument\nThe translation gap turns a scientific fact into a moral one.\n\nThe Part A defense was a cost-benefit trade: animal suffering is the price of human benefit. But if the data transfer poorly, the benefit shrinks — and the trade gets worse.\nThis doesn’t show research is worthless; it shows the burden of proof is higher than the old “animals first, always” rule assumed.\nCritics push further: in some fields, human-based methods may predict human outcomes better than the animal model they’d replace — making the animal use not just costly but inferior.\n\n\n\n\n\n\nThe drug-development attrition funnel: most compounds that clear animal testing still fail in humans (illustrative proportions)."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#what-the-regulators-are-doing",
+    "href": "chapters/12b-industrial-xeno.html#what-the-regulators-are-doing",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "3.3 What the Regulators Are Doing",
+    "text": "3.3 What the Regulators Are Doing\nFor the first time, law is moving away from mandatory animal testing.\n\nThe U.S. FDA Modernization Act 2.0 (2022) ended the blanket requirement that new drugs be animal-tested, allowing validated non-animal methods — organ-on-a-chip, cell models, computer simulation (United States Congress 2022).\nThe European Union has committed to a roadmap to phase out animal testing for chemical safety, setting milestones toward replacement (European Commission 2025).\nDirection of travel: from “animals unless impossible” toward “non-animal where validated.”"
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#the-honest-reply",
+    "href": "chapters/12b-industrial-xeno.html#the-honest-reply",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "3.4 The Honest Reply",
+    "text": "3.4 The Honest Reply\nBalance matters: the phase-out is a goal, not a finished capability.\n\n\n\nA chip with human cells can model a liver’s response — but not a whole immune system, a developing brain, or a years-long disease.\nFor now, some questions genuinely require a living, whole organism. The replacements are improving fast but are not yet complete.\n\n\n\n\nSo the debate is no longer “research: yes or no?” It is how fast we can replace it, and who bears the risk of moving before the alternatives are proven.\nSinger and Regan both welcome replacement — for different reasons. Less suffering; fewer rights violated."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#why-xenotransplantation",
+    "href": "chapters/12b-industrial-xeno.html#why-xenotransplantation",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "4.1 Why Xenotransplantation",
+    "text": "4.1 Why Xenotransplantation\nThe pressure behind it is a body count of a different kind.\n\nMore than 100,000 Americans wait for an organ; about 17 die each day before one arrives.\nXenotransplantation — transplanting organs from another species — promises an unlimited supply, grown to order.\nThe species of choice is the pig: organs the right size, fast breeding, decades of surgical familiarity. The obstacle was always rejection — the human body destroys pig tissue within minutes."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#how-you-build-a-transplant-pig",
+    "href": "chapters/12b-industrial-xeno.html#how-you-build-a-transplant-pig",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "4.2 How You Build a Transplant Pig",
+    "text": "4.2 How You Build a Transplant Pig\nThe breakthrough was genetic, not surgical. CRISPR lets researchers edit a pig so its organs survive in a human body.\n\n\n\n\n\n\n\nxeno\n\n\n\na\n\nKnock OUT pig genes\n• alpha-gal & other sugars\n  (trigger instant rejection)\n\n\n\nb\n\nInactivate PERVs\n• pig retroviruses in the\n  genome (infection risk)\n\n\n\na-&gt;b\n\n\n\n\n\nc\n\nKnock IN human genes\n• regulate clotting &\n  inflammation\n\n\n\nb-&gt;c\n\n\n\n\n\nd\n\nPig organ tolerated\nby the human body\n\n\n\nc-&gt;d\n\n\n\n\n\n\n\n\n\n\nA transplant pig may carry a dozen or more edits — some removing pig features the body attacks, some adding human ones it accepts."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#the-cases-so-far",
+    "href": "chapters/12b-industrial-xeno.html#the-cases-so-far",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "4.3 The Cases So Far",
+    "text": "4.3 The Cases So Far\nThe era of human xenotransplantation began in 2022 and is moving fast.\n\n\n\n\n\n\n\n\n\nPatient\nYear\nOrgan\nOutcome\n\n\n\n\nDavid Bennett\n2022\npig heart\nlived ~2 months; first in a living human (Griffith et al. 2022)\n\n\nLawrence Faucette\n2023\npig heart\nlived ~6 weeks\n\n\nRick Slayman\n2024\npig kidney\nfirst in a living patient; lived ~2 months\n\n\nTowana Looney\n2024–25\npig kidney\nlongest survival to date\n\n\n\nEach patient was out of options. Each result taught the field something — and each death raised the question of whether the attempt was justified."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#what-makes-xeno-ethically-distinct",
+    "href": "chapters/12b-industrial-xeno.html#what-makes-xeno-ethically-distinct",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "4.4 What Makes Xeno Ethically Distinct",
+    "text": "4.4 What Makes Xeno Ethically Distinct\nThree problems set xenotransplantation apart from an ordinary transplant.\n\nAnimal welfare: the source pigs live their whole lives in sterile isolation, engineered and monitored as living organ factories.\nRisk to the public: a pig virus could cross into the patient and then spread to others — a xenozoonosis. The patient consents; the public can’t, yet shares the risk.\nConsent under desperation: a dying patient offered a first-of-its-kind organ is not a free chooser in the ordinary sense. Is that consent, or a cornered hope?"
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#make-it-contemporary",
+    "href": "chapters/12b-industrial-xeno.html#make-it-contemporary",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "4.5 Make It Contemporary",
+    "text": "4.5 Make It Contemporary\n\nDavid Bennett received his pig heart under an FDA “compassionate use” exception — he was too sick for the transplant waitlist. He lived two months. His son said the family hoped the attempt would “help future patients.”\n\nWas it ethical to offer a brand-new, likely-fatal procedure to a man with no other options — or did desperation make real consent impossible?\nXenozoonosis risk falls on the whole community. Who should get a say in approving these surgeries — only patient and doctor, or the public too?\nIf the first heart transplant patients (1967) also died within weeks, does that make these attempts pioneering, or reckless?"
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#the-ledger",
+    "href": "chapters/12b-industrial-xeno.html#the-ledger",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "5.1 The Ledger",
+    "text": "5.1 The Ledger\nHere is the tool promised at the start. Rank an animal use by three questions.\n\nScale — how many animals? (one pig, or tens of billions?)\nNecessity — is there an easy alternative? (a salad, or nothing?)\nBenefit — how large is the human good? (a flavor, or a life?)\n\nA use scores badly when it is high-scale, unnecessary, and low-benefit — and well when it is low-scale, necessary, and high-benefit."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#filling-it-in",
+    "href": "chapters/12b-industrial-xeno.html#filling-it-in",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "5.2 Filling It In",
+    "text": "5.2 Filling It In\n\n\n\n\n\n\n\n\n\n\nUse\nScale\nNecessity\nBenefit\nVerdict\n\n\n\n\nFactory-farmed bacon\ntens of billions\neasily avoided\ntaste / cost\nworst\n\n\nCosmetic rabbit test\nmillions\navoidable (alternatives exist)\nvanity product\nbad\n\n\nPig-heart transplant\none pig\nno alternative\na human life\nbest\n\n\nSmarter lab mouse\nfew\n—\nresearch gain, but…\n(see frontier)\n\n\n\nRead the top and bottom rows together: the everyday cheeseburger scores worse than the headline-grabbing transplant."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#why-singer-accepts-the-pig-heart",
+    "href": "chapters/12b-industrial-xeno.html#why-singer-accepts-the-pig-heart",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "5.3 Why Singer Accepts the Pig Heart",
+    "text": "5.3 Why Singer Accepts the Pig Heart\nThis is the result that unsettles people — and it is perfectly consistent.\n\nSinger opposes factory farming because it is vast suffering for a trivial, replaceable interest. The same logic, applied to xenotransplantation, points the other way.\nOne pig, humanely raised, to save a human life with no alternative, is exactly the trade a utilitarian can endorse.\nSo an arch-critic of how we treat animals can support pig-heart transplants. The thing that feels “worse” because it is high-tech is, by the numbers, far better.\n\nThe lesson: “creepy” and “wrong” are different properties. Novelty triggers disgust; ethics tracks suffering, necessity, and benefit."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#why-regan-wont-rank-them",
+    "href": "chapters/12b-industrial-xeno.html#why-regan-wont-rank-them",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "5.4 Why Regan Won’t Rank Them",
+    "text": "5.4 Why Regan Won’t Rank Them\nThe rights view from Part A refuses the whole exercise — and that refusal is the strongest objection to the ledger.\n\n\nThe Rights Objection to the Ledger\n\n\nAfter Tom Regan, The Case for Animal Rights\n\n\nA subject-of-a-life has a right not to be used merely as a means to others’ ends.\nThe transplant pig is killed precisely as a means — to harvest its heart.\nRights are not outweighed by good consequences, however large, or by small numbers.\nSo the pig-heart transplant violates the pig’s rights — and “only one pig” is no defense.\n\n\nFor Regan, the ledger commits the original sin of utilitarianism: it prices a life that should be off the market. Where you land depends on the theory you brought from Part A."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#uplifting",
+    "href": "chapters/12b-industrial-xeno.html#uplifting",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "6.1 Uplifting",
+    "text": "6.1 Uplifting\nThe fourth row of the ledger needs its own treatment, because it changes the rules.\n\nUplifting means deliberately raising an animal’s cognitive capacities — by gene editing, drugs, or adding human cells — for example, to build a more capable research subject or a better working animal.\nRecall the enhancement debate from genomics: we asked whether to enhance humans. Here the target is the animal.\nIt sounds like science fiction, but its first pieces already exist in the lab."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#the-paradox",
+    "href": "chapters/12b-industrial-xeno.html#the-paradox",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "6.2 The Paradox",
+    "text": "6.2 The Paradox\nUplifting turns the moral-status question back on us.\n\n\n\nIn Part A, capacities earned moral status — sentience, being a subject-of-a-life, having a good of one’s own.\nSo if we raise an animal’s capacities, we raise its moral status — and our duties to it grow.\nThe better we make a research animal, the less we may be permitted to use it. Success defeats its own purpose.\n\n\n\n\nWe would be manufacturing the very thing that obligates us — creating a creature, then owing it more because of what we made it.\nKorsgaard’s “fellow creatures” sharpens the worry: uplifting could create fellows we never intended to have."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#its-already-real",
+    "href": "chapters/12b-industrial-xeno.html#its-already-real",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "6.3 It’s Already Real",
+    "text": "6.3 It’s Already Real\nThe pieces are not hypothetical.\n\nIn 2022 Stanford researchers transplanted human brain organoids — clusters of human neurons — into rat brains, where they grew, wired in, and influenced the rats’ behavior (Revah et al. 2022).\nSuch chimeras (animals carrying human cells) are made to study human disease — but they create beings of ambiguous status: how much human neural tissue is too much?\nRegulators now draw uneasy lines around how far this may go, especially for human cells in animal brains and reproductive systems."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#thought-question-1",
+    "href": "chapters/12b-industrial-xeno.html#thought-question-1",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "6.4 Thought Question",
+    "text": "6.4 Thought Question\n\nA lab proposes engineering mice with substantially human-like memory and problem-solving, to make Alzheimer’s research more accurate. The mice would be smarter — and, by Part A’s own criteria, would have higher moral status.\n\nDoes making the mouse smarter make it more wrong to experiment on — even though the point was better research?\nIs there a level of enhancement past which the “animal” should get human-like protections? Where, and decided by whom?\nCould it ever be kinder to refuse to uplift — to not create a being whose new capacities only deepen its suffering in a cage?"
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#after-youve-discussed-2",
+    "href": "chapters/12b-industrial-xeno.html#after-youve-discussed-2",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "6.5 After You’ve Discussed",
+    "text": "6.5 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nA new distinction the frontier forces: moral status as discovered vs. created.\nAll of Part A treated status as something we discover — we investigate an animal and find out how much it matters. Uplifting and chimeras make status something we can create: we decide, in the lab, how much a being will matter, and thereby how much we’ll owe it.\nThat is genuinely new in ethics. We are used to asking “what do we owe this creature?” We are not used to choosing, in advance, how much we’ll be obligated — and then building the creature to match."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#the-course-applied-to-animals",
+    "href": "chapters/12b-industrial-xeno.html#the-course-applied-to-animals",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "7.1 The Course, Applied to Animals",
+    "text": "7.1 The Course, Applied to Animals\nThe moral-status question runs under half this course. Each chapter offered a criterion — and each one can be aimed at animals.\n\n\n\n\n\n\n\nthreads\n\n\n\ncenter\n\nDoes it apply\nto animals?\n\n\n\na\n\nAbortion:\n'future like ours'\n(Marquis)\n\n\n\na-&gt;center\n\n\n\n\n\ng\n\nGenetics:\nmaking a being\nto be used\n\n\n\ng-&gt;center\n\n\n\n\n\ne\n\nEnd of life:\nkilling for benefit\n\n\n\ne-&gt;center\n\n\n\n\n\ns\n\nStatus:\nsentience, subject-\nof-a-life\n\n\n\ns-&gt;center\n\n\n\n\n\n\n\n\n\n\nWe’ll walk three of these, because each changes its verdict when the patient is a pig."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#thread-1-the-argument-from-abortion",
+    "href": "chapters/12b-industrial-xeno.html#thread-1-the-argument-from-abortion",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "7.2 Thread 1 — The Argument from Abortion",
+    "text": "7.2 Thread 1 — The Argument from Abortion\n\nDon Marquis argued abortion is wrong because it deprives the fetus of a future like ours — a future of valuable experiences (Marquis 1989). The fetus isn’t conscious yet, but it has that future to lose.\nNow apply it. A healthy pig also has a future of experiences it values — and the transplant ends it.\n\nIf a valuable future makes killing a fetus wrong, why doesn’t a pig’s future make killing the pig wrong?\nCan you keep Marquis’s argument against abortion and eat bacon — without special pleading?\nDoes the pig’s future differ from a human’s in a way that matters, or only in a way that’s convenient?"
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#threads-2-and-3-genetics-and-end-of-life",
+    "href": "chapters/12b-industrial-xeno.html#threads-2-and-3-genetics-and-end-of-life",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "7.3 Threads 2 and 3 — Genetics and End of Life",
+    "text": "7.3 Threads 2 and 3 — Genetics and End of Life\nTwo more callbacks, stated briefly so you can carry them into discussion.\n\n\nFrom genetics. We worried about creating a savior sibling — a child conceived to donate to another. A transplant pig is engineered, born, and killed to be used. Is “made to be used” worse for a person than for a pig — and is creating a life for parts different from taking one?\n\n\n\nFrom end of life. We let humans accept risk or death for others (research subjects, living donors). The pig’s death is killing for benefit, without consent. Is that worse than the risks we let humans choose — or does the pig’s inability to consent change the kind of act it is?"
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#wrap-up",
+    "href": "chapters/12b-industrial-xeno.html#wrap-up",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "8.1 Wrap-Up",
+    "text": "8.1 Wrap-Up\n\nWe ranked four uses of animals and built a tool — scale, necessity, benefit — that reorders our intuitions: the industrial cheeseburger comes out worse than the gene-edited pig heart, and a critic of factory farming like Singer can consistently accept xenotransplantation. Regan’s rights view refuses the ranking entirely, which is why the verdict still depends on the theory you hold. Along the way the food system showed how animal harm and human harm converge — antibiotic resistance, pandemics — and the frontier of uplifting showed we can now create the moral status we then must honor. The threads from abortion, genetics, and end-of-life all reach the same pig, and none of them lets us off easily."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#paired-case",
+    "href": "chapters/12b-industrial-xeno.html#paired-case",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "8.2 Paired Case",
+    "text": "8.2 Paired Case\nThe whole lecture comes down to one operating room and one desperate patient.\n\nPaired case: David Bennett and the First Pig-Heart Transplant"
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#review-questions",
+    "href": "chapters/12b-industrial-xeno.html#review-questions",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "8.3 Review Questions",
+    "text": "8.3 Review Questions\n\n\nRecall\nName the three factors in the scale–necessity–benefit ledger, and use them to explain why factory-farmed bacon ranks worse than a pig-heart transplant.\n\n\nApply\nA company wants to gene-edit chickens to grow faster and resist a barn virus, cutting both cost and antibiotic use. Run it through the ledger and through the direct/indirect-harm distinction. Where does it help, and whom?\n\n\nDebate\nIf we could uplift research animals to get better data, should we — knowing that doing so raises their moral status and our duties to them? Defend a yes or a no."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#key-terms",
+    "href": "chapters/12b-industrial-xeno.html#key-terms",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "8.4 Key Terms",
+    "text": "8.4 Key Terms\n\nCAFO — concentrated animal feeding operation; the high-density industrial farm model.\nAntibiotic resistance — bacteria evolving to survive drugs; driven partly by routine livestock use.\nTranslation gap — the frequent failure of animal results to predict human outcomes.\nXenotransplantation — transplanting organs or tissue from another species into humans.\nXenozoonosis — an infection crossing from the source animal to the human recipient and potentially the public.\nUplifting — deliberately enhancing an animal’s cognitive capacities.\nChimera — an organism containing cells from another species, e.g., human neurons in an animal brain.\nFuture like ours (Marquis) — the view that killing is wrong because it deprives a being of a valuable future.\nScale–necessity–benefit ledger — the framework for ranking animal uses by number harmed, availability of alternatives, and size of the good."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#further-reading",
+    "href": "chapters/12b-industrial-xeno.html#further-reading",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "8.5 Further Reading",
+    "text": "8.5 Further Reading\n\nSinger, Peter. Animal Liberation Now. Harper Perennial, 2023 — the updated case against industrial farming.\nGriffith, Bartley P., et al. “Genetically Modified Porcine-to-Human Cardiac Xenotransplantation.” New England Journal of Medicine, 2022 — the Bennett case, by the surgical team.\nKorsgaard, Christine. Fellow Creatures. Oxford University Press, 2018 — duties to animals, including the created ones."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno.html#references",
+    "href": "chapters/12b-industrial-xeno.html#references",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "8.6 References",
+    "text": "8.6 References\n\n\nEuropean Commission. 2025. Roadmap Towards Phasing Out Animal Testing for Chemical Safety Assessments. European Commission, Directorate-General for Environment. https://environment.ec.europa.eu/.\n\n\nGriffith, Bartley P., Corbin E. Goerlich, Avneesh K. Singh, et al. 2022. “Genetically Modified Porcine-to-Human Cardiac Xenotransplantation.” New England Journal of Medicine 387 (1): 35–44. https://doi.org/10.1056/NEJMoa2201422.\n\n\nMarquis, Don. 1989. “Why Abortion Is Immoral.” The Journal of Philosophy 86 (4): 183–202. https://doi.org/10.2307/2026961.\n\n\nO’Neill, Jim. 2016. Tackling Drug-Resistant Infections Globally: Final Report and Recommendations. Review on Antimicrobial Resistance, Wellcome Trust and HM Government. https://amr-review.org/.\n\n\nRevah, Omer, Felicity Gore, Kevin W. Kelley, et al. 2022. “Maturation and Circuit Integration of Transplanted Human Cortical Organoids.” Nature 610: 319–26. https://doi.org/10.1038/s41586-022-05277-w.\n\n\nUnited States Congress. 2022. FDA Modernization Act 2.0. 117th Congress."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#a-case-to-sit-with",
+    "href": "chapters/12b-industrial-xeno-slides.html#a-case-to-sit-with",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "A Case to Sit With",
+    "text": "A Case to Sit With\n\nHere are four ways humans use animals. Put them in order, from most defensible to least:\n\nBacon from a factory-farmed pig.\nA rabbit used to test a new mascara for eye irritation.\nA gene-edited pig whose heart is transplanted into a dying patient.\nA lab mouse engineered to be smarter, to make a better research subject.\n\nThen answer:\n\nWhat did you put last, and what rule were you using?\nDid “high-tech” or “unnatural” push anything down your list? Should it?"
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#after-youve-discussed",
+    "href": "chapters/12b-industrial-xeno-slides.html#after-youve-discussed",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nMost people rank the pig-heart transplant as more troubling than the bacon. Hold that intuition up to the light.\nBy the end of today, we’ll have a tool that ranks animal uses by three things — scale, necessity, and benefit — and on that tool, the everyday cheeseburger comes out worse than the high-tech transplant. Whether you accept that result, or reject the tool, is the work of this lecture."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#where-we-left-off",
+    "href": "chapters/12b-industrial-xeno-slides.html#where-we-left-off",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Where We Left Off",
+    "text": "Where We Left Off\nIn Part A we asked which beings have moral status and met five answers — Kant, Singer, Regan, Cohen, Korsgaard. We saw that the 3 Rs and the IACUC try to shrink and police the harm of research.\nToday we leave the lab. The same views now have to handle the two largest and most advanced uses of animals: the food system that kills tens of billions, and the gene-edited pigs now keeping humans alive."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#today",
+    "href": "chapters/12b-industrial-xeno-slides.html#today",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Today",
+    "text": "Today\n\nBy the end of Part B, you will be able to:\n\nExplain how industrial animal agriculture harms animals and humans — including antibiotic resistance and zoonotic risk.\nState the translation-gap critique of animal research and what the FDA and EU are doing about it.\nDescribe how a pig is gene-edited for transplant and the ethical issues unique to xenotransplantation.\nUse the scale–necessity–benefit ledger to explain why a critic of factory farming can still accept pig-heart transplants — and how Regan resists that ranking.\nConnect animal ethics to moral status, enhancement, and end-of-life arguments from earlier in the course."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#the-scale-is-the-argument",
+    "href": "chapters/12b-industrial-xeno-slides.html#the-scale-is-the-argument",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "The Scale Is the Argument",
+    "text": "The Scale Is the Argument\nWhatever you think of eating meat, start with the number.\n\nHumans raise and kill roughly 80 billion land animals a year — about ten per person on Earth — the overwhelming majority on industrial farms.\nMost live in CAFOs (concentrated animal feeding operations): thousands of animals indoors at high density, bred for fast growth, with little room to move.\nRecall Singer from Part A: this inflicts vast suffering for an interest — taste, cost, convenience — that is, for most of us, minor and replaceable. On his view it is the clearest wrong in the whole field.\n\nThe scale matters morally: a practice repeated 80 billion times needs a justification 80 billion times as strong."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#it-harms-humans-too-antibiotics",
+    "href": "chapters/12b-industrial-xeno-slides.html#it-harms-humans-too-antibiotics",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "It Harms Humans Too: Antibiotics",
+    "text": "It Harms Humans Too: Antibiotics\nThe welfare case is not the only case. Factory farming is also a public-health problem — which means even a strictly human-centered ethics has to reckon with it.\n\nThe majority of antibiotics sold in the U.S. go to livestock, not people — often to healthy animals, to speed growth and prevent disease in crowded barns.\nConstant low-dose exposure breeds antibiotic resistance: bacteria that survive the drugs, then spread to humans through food, water, and workers.\nA major 2016 review projected that drug-resistant infections could cause 10 million deaths a year by 2050 if unchecked — outpacing cancer (O’Neill 2016).\n\nThe pig in the barn and the patient whose antibiotics no longer work are linked by the same practice."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#it-harms-humans-too-pandemics",
+    "href": "chapters/12b-industrial-xeno-slides.html#it-harms-humans-too-pandemics",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "It Harms Humans Too: Pandemics",
+    "text": "It Harms Humans Too: Pandemics\nThe second human cost is the one we just lived through.\n\n\n\nCrowding genetically similar animals together is ideal for breeding new viruses. Avian and swine influenza strains have jumped from farms to people.\nMost experts count industrial animal agriculture and the wildlife trade among the leading pandemic risks of the century.\n\n\n\n\nThe convergence. Kant and Cohen grant animals no rights — yet their human-centered view still condemns a system that breeds resistant bacteria and pandemic flu.\nWelfare reasons and self-interested human reasons point the same way here. That is rare, and worth noticing."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#thought-question",
+    "href": "chapters/12b-industrial-xeno-slides.html#thought-question",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Thought Question",
+    "text": "Thought Question\n\nA hospital you work at sources its cafeteria meat from conventional industrial farms. A nurses’ group proposes switching to higher-welfare, antibiotic-free suppliers — at higher cost, paid from the same budget that funds patient programs.\n\nIs this an animal-welfare decision, a public-health decision, or both?\nAs a nurse, can you justify the extra cost to a patient whose program might be trimmed to pay for it?\nWould Cohen — who grants animals no rights — have any reason to support the switch?"
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#after-youve-discussed-1",
+    "href": "chapters/12b-industrial-xeno-slides.html#after-youve-discussed-1",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nA distinction the food case forces: direct vs. indirect harm.\nThe factory farm harms the pig directly — that is the welfare wrong. It also harms humans indirectly, through resistant bacteria and new viruses — a second, separate wrong with different victims.\nWhy this matters: the two harms come apart. A reform could ease the public-health harm (ban growth-promoter antibiotics) while leaving the welfare harm untouched — and vice versa. Knowing which harm a policy fixes keeps you from claiming credit for both."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#the-translation-gap",
+    "href": "chapters/12b-industrial-xeno-slides.html#the-translation-gap",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "The Translation Gap",
+    "text": "The Translation Gap\nPart A defended research by its benefits. But a benefit you don’t get can’t justify a harm — and animal models often don’t deliver.\n\nAround 9 of every 10 drugs that pass animal safety and efficacy tests still fail in human trials — for lack of effect, or for toxicity the animals never showed.\nSpecies differ in ways that matter: a compound safe in mice can poison people, and a disease “cured” in a mouse routinely does nothing in patients.\nThis is the translation gap: the distance between “it worked in the animal” and “it works in the human.”"
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#why-the-gap-is-an-ethical-argument",
+    "href": "chapters/12b-industrial-xeno-slides.html#why-the-gap-is-an-ethical-argument",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Why the Gap Is an Ethical Argument",
+    "text": "Why the Gap Is an Ethical Argument\nThe translation gap turns a scientific fact into a moral one.\n\nThe Part A defense was a cost-benefit trade: animal suffering is the price of human benefit. But if the data transfer poorly, the benefit shrinks — and the trade gets worse.\nThis doesn’t show research is worthless; it shows the burden of proof is higher than the old “animals first, always” rule assumed.\nCritics push further: in some fields, human-based methods may predict human outcomes better than the animal model they’d replace — making the animal use not just costly but inferior.\n\n\n\n\n\n\nThe drug-development attrition funnel: most compounds that clear animal testing still fail in humans (illustrative proportions)."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#what-the-regulators-are-doing",
+    "href": "chapters/12b-industrial-xeno-slides.html#what-the-regulators-are-doing",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "What the Regulators Are Doing",
+    "text": "What the Regulators Are Doing\nFor the first time, law is moving away from mandatory animal testing.\n\nThe U.S. FDA Modernization Act 2.0 (2022) ended the blanket requirement that new drugs be animal-tested, allowing validated non-animal methods — organ-on-a-chip, cell models, computer simulation (United States Congress 2022).\nThe European Union has committed to a roadmap to phase out animal testing for chemical safety, setting milestones toward replacement (European Commission 2025).\nDirection of travel: from “animals unless impossible” toward “non-animal where validated.”"
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#the-honest-reply",
+    "href": "chapters/12b-industrial-xeno-slides.html#the-honest-reply",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "The Honest Reply",
+    "text": "The Honest Reply\nBalance matters: the phase-out is a goal, not a finished capability.\n\n\n\nA chip with human cells can model a liver’s response — but not a whole immune system, a developing brain, or a years-long disease.\nFor now, some questions genuinely require a living, whole organism. The replacements are improving fast but are not yet complete.\n\n\n\n\nSo the debate is no longer “research: yes or no?” It is how fast we can replace it, and who bears the risk of moving before the alternatives are proven.\nSinger and Regan both welcome replacement — for different reasons. Less suffering; fewer rights violated."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#why-xenotransplantation",
+    "href": "chapters/12b-industrial-xeno-slides.html#why-xenotransplantation",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Why Xenotransplantation",
+    "text": "Why Xenotransplantation\nThe pressure behind it is a body count of a different kind.\n\nMore than 100,000 Americans wait for an organ; about 17 die each day before one arrives.\nXenotransplantation — transplanting organs from another species — promises an unlimited supply, grown to order.\nThe species of choice is the pig: organs the right size, fast breeding, decades of surgical familiarity. The obstacle was always rejection — the human body destroys pig tissue within minutes."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#how-you-build-a-transplant-pig",
+    "href": "chapters/12b-industrial-xeno-slides.html#how-you-build-a-transplant-pig",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "How You Build a Transplant Pig",
+    "text": "How You Build a Transplant Pig\nThe breakthrough was genetic, not surgical. CRISPR lets researchers edit a pig so its organs survive in a human body.\n\n\n\n\n\n\n\nxeno\n\n\n\na\n\nKnock OUT pig genes\n• alpha-gal & other sugars\n  (trigger instant rejection)\n\n\n\nb\n\nInactivate PERVs\n• pig retroviruses in the\n  genome (infection risk)\n\n\n\na-&gt;b\n\n\n\n\n\nc\n\nKnock IN human genes\n• regulate clotting &\n  inflammation\n\n\n\nb-&gt;c\n\n\n\n\n\nd\n\nPig organ tolerated\nby the human body\n\n\n\nc-&gt;d\n\n\n\n\n\n\n\n\n\n\nA transplant pig may carry a dozen or more edits — some removing pig features the body attacks, some adding human ones it accepts."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#the-cases-so-far",
+    "href": "chapters/12b-industrial-xeno-slides.html#the-cases-so-far",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "The Cases So Far",
+    "text": "The Cases So Far\nThe era of human xenotransplantation began in 2022 and is moving fast.\n\n\n\n\n\n\n\n\n\nPatient\nYear\nOrgan\nOutcome\n\n\n\n\nDavid Bennett\n2022\npig heart\nlived ~2 months; first in a living human (Griffith et al. 2022)\n\n\nLawrence Faucette\n2023\npig heart\nlived ~6 weeks\n\n\nRick Slayman\n2024\npig kidney\nfirst in a living patient; lived ~2 months\n\n\nTowana Looney\n2024–25\npig kidney\nlongest survival to date\n\n\n\nEach patient was out of options. Each result taught the field something — and each death raised the question of whether the attempt was justified."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#what-makes-xeno-ethically-distinct",
+    "href": "chapters/12b-industrial-xeno-slides.html#what-makes-xeno-ethically-distinct",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "What Makes Xeno Ethically Distinct",
+    "text": "What Makes Xeno Ethically Distinct\nThree problems set xenotransplantation apart from an ordinary transplant.\n\nAnimal welfare: the source pigs live their whole lives in sterile isolation, engineered and monitored as living organ factories.\nRisk to the public: a pig virus could cross into the patient and then spread to others — a xenozoonosis. The patient consents; the public can’t, yet shares the risk.\nConsent under desperation: a dying patient offered a first-of-its-kind organ is not a free chooser in the ordinary sense. Is that consent, or a cornered hope?"
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#make-it-contemporary",
+    "href": "chapters/12b-industrial-xeno-slides.html#make-it-contemporary",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Make It Contemporary",
+    "text": "Make It Contemporary\n\nDavid Bennett received his pig heart under an FDA “compassionate use” exception — he was too sick for the transplant waitlist. He lived two months. His son said the family hoped the attempt would “help future patients.”\n\nWas it ethical to offer a brand-new, likely-fatal procedure to a man with no other options — or did desperation make real consent impossible?\nXenozoonosis risk falls on the whole community. Who should get a say in approving these surgeries — only patient and doctor, or the public too?\nIf the first heart transplant patients (1967) also died within weeks, does that make these attempts pioneering, or reckless?"
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#the-ledger",
+    "href": "chapters/12b-industrial-xeno-slides.html#the-ledger",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "The Ledger",
+    "text": "The Ledger\nHere is the tool promised at the start. Rank an animal use by three questions.\n\nScale — how many animals? (one pig, or tens of billions?)\nNecessity — is there an easy alternative? (a salad, or nothing?)\nBenefit — how large is the human good? (a flavor, or a life?)\n\nA use scores badly when it is high-scale, unnecessary, and low-benefit — and well when it is low-scale, necessary, and high-benefit."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#filling-it-in",
+    "href": "chapters/12b-industrial-xeno-slides.html#filling-it-in",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Filling It In",
+    "text": "Filling It In\n\n\n\n\n\n\n\n\n\n\nUse\nScale\nNecessity\nBenefit\nVerdict\n\n\n\n\nFactory-farmed bacon\ntens of billions\neasily avoided\ntaste / cost\nworst\n\n\nCosmetic rabbit test\nmillions\navoidable (alternatives exist)\nvanity product\nbad\n\n\nPig-heart transplant\none pig\nno alternative\na human life\nbest\n\n\nSmarter lab mouse\nfew\n—\nresearch gain, but…\n(see frontier)\n\n\n\nRead the top and bottom rows together: the everyday cheeseburger scores worse than the headline-grabbing transplant."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#why-singer-accepts-the-pig-heart",
+    "href": "chapters/12b-industrial-xeno-slides.html#why-singer-accepts-the-pig-heart",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Why Singer Accepts the Pig Heart",
+    "text": "Why Singer Accepts the Pig Heart\nThis is the result that unsettles people — and it is perfectly consistent.\n\nSinger opposes factory farming because it is vast suffering for a trivial, replaceable interest. The same logic, applied to xenotransplantation, points the other way.\nOne pig, humanely raised, to save a human life with no alternative, is exactly the trade a utilitarian can endorse.\nSo an arch-critic of how we treat animals can support pig-heart transplants. The thing that feels “worse” because it is high-tech is, by the numbers, far better.\n\nThe lesson: “creepy” and “wrong” are different properties. Novelty triggers disgust; ethics tracks suffering, necessity, and benefit."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#why-regan-wont-rank-them",
+    "href": "chapters/12b-industrial-xeno-slides.html#why-regan-wont-rank-them",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Why Regan Won’t Rank Them",
+    "text": "Why Regan Won’t Rank Them\nThe rights view from Part A refuses the whole exercise — and that refusal is the strongest objection to the ledger.\n\n\nThe Rights Objection to the Ledger\n\n\nAfter Tom Regan, The Case for Animal Rights\n\n\nA subject-of-a-life has a right not to be used merely as a means to others’ ends.\nThe transplant pig is killed precisely as a means — to harvest its heart.\nRights are not outweighed by good consequences, however large, or by small numbers.\nSo the pig-heart transplant violates the pig’s rights — and “only one pig” is no defense.\n\n\nFor Regan, the ledger commits the original sin of utilitarianism: it prices a life that should be off the market. Where you land depends on the theory you brought from Part A."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#uplifting",
+    "href": "chapters/12b-industrial-xeno-slides.html#uplifting",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Uplifting",
+    "text": "Uplifting\nThe fourth row of the ledger needs its own treatment, because it changes the rules.\n\nUplifting means deliberately raising an animal’s cognitive capacities — by gene editing, drugs, or adding human cells — for example, to build a more capable research subject or a better working animal.\nRecall the enhancement debate from genomics: we asked whether to enhance humans. Here the target is the animal.\nIt sounds like science fiction, but its first pieces already exist in the lab."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#the-paradox",
+    "href": "chapters/12b-industrial-xeno-slides.html#the-paradox",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "The Paradox",
+    "text": "The Paradox\nUplifting turns the moral-status question back on us.\n\n\n\nIn Part A, capacities earned moral status — sentience, being a subject-of-a-life, having a good of one’s own.\nSo if we raise an animal’s capacities, we raise its moral status — and our duties to it grow.\nThe better we make a research animal, the less we may be permitted to use it. Success defeats its own purpose.\n\n\n\n\nWe would be manufacturing the very thing that obligates us — creating a creature, then owing it more because of what we made it.\nKorsgaard’s “fellow creatures” sharpens the worry: uplifting could create fellows we never intended to have."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#its-already-real",
+    "href": "chapters/12b-industrial-xeno-slides.html#its-already-real",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "It’s Already Real",
+    "text": "It’s Already Real\nThe pieces are not hypothetical.\n\nIn 2022 Stanford researchers transplanted human brain organoids — clusters of human neurons — into rat brains, where they grew, wired in, and influenced the rats’ behavior (Revah et al. 2022).\nSuch chimeras (animals carrying human cells) are made to study human disease — but they create beings of ambiguous status: how much human neural tissue is too much?\nRegulators now draw uneasy lines around how far this may go, especially for human cells in animal brains and reproductive systems."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#thought-question-1",
+    "href": "chapters/12b-industrial-xeno-slides.html#thought-question-1",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Thought Question",
+    "text": "Thought Question\n\nA lab proposes engineering mice with substantially human-like memory and problem-solving, to make Alzheimer’s research more accurate. The mice would be smarter — and, by Part A’s own criteria, would have higher moral status.\n\nDoes making the mouse smarter make it more wrong to experiment on — even though the point was better research?\nIs there a level of enhancement past which the “animal” should get human-like protections? Where, and decided by whom?\nCould it ever be kinder to refuse to uplift — to not create a being whose new capacities only deepen its suffering in a cage?"
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#after-youve-discussed-2",
+    "href": "chapters/12b-industrial-xeno-slides.html#after-youve-discussed-2",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "After You’ve Discussed",
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nA new distinction the frontier forces: moral status as discovered vs. created.\nAll of Part A treated status as something we discover — we investigate an animal and find out how much it matters. Uplifting and chimeras make status something we can create: we decide, in the lab, how much a being will matter, and thereby how much we’ll owe it.\nThat is genuinely new in ethics. We are used to asking “what do we owe this creature?” We are not used to choosing, in advance, how much we’ll be obligated — and then building the creature to match."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#the-course-applied-to-animals",
+    "href": "chapters/12b-industrial-xeno-slides.html#the-course-applied-to-animals",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "The Course, Applied to Animals",
+    "text": "The Course, Applied to Animals\nThe moral-status question runs under half this course. Each chapter offered a criterion — and each one can be aimed at animals.\n\n\n\n\n\n\n\nthreads\n\n\n\ncenter\n\nDoes it apply\nto animals?\n\n\n\na\n\nAbortion:\n'future like ours'\n(Marquis)\n\n\n\na-&gt;center\n\n\n\n\n\ng\n\nGenetics:\nmaking a being\nto be used\n\n\n\ng-&gt;center\n\n\n\n\n\ne\n\nEnd of life:\nkilling for benefit\n\n\n\ne-&gt;center\n\n\n\n\n\ns\n\nStatus:\nsentience, subject-\nof-a-life\n\n\n\ns-&gt;center\n\n\n\n\n\n\n\n\n\n\nWe’ll walk three of these, because each changes its verdict when the patient is a pig."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#thread-1-the-argument-from-abortion",
+    "href": "chapters/12b-industrial-xeno-slides.html#thread-1-the-argument-from-abortion",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Thread 1 — The Argument from Abortion",
+    "text": "Thread 1 — The Argument from Abortion\n\nDon Marquis argued abortion is wrong because it deprives the fetus of a future like ours — a future of valuable experiences (Marquis 1989). The fetus isn’t conscious yet, but it has that future to lose.\nNow apply it. A healthy pig also has a future of experiences it values — and the transplant ends it.\n\nIf a valuable future makes killing a fetus wrong, why doesn’t a pig’s future make killing the pig wrong?\nCan you keep Marquis’s argument against abortion and eat bacon — without special pleading?\nDoes the pig’s future differ from a human’s in a way that matters, or only in a way that’s convenient?"
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#threads-2-and-3-genetics-and-end-of-life",
+    "href": "chapters/12b-industrial-xeno-slides.html#threads-2-and-3-genetics-and-end-of-life",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Threads 2 and 3 — Genetics and End of Life",
+    "text": "Threads 2 and 3 — Genetics and End of Life\nTwo more callbacks, stated briefly so you can carry them into discussion.\n\n\nFrom genetics. We worried about creating a savior sibling — a child conceived to donate to another. A transplant pig is engineered, born, and killed to be used. Is “made to be used” worse for a person than for a pig — and is creating a life for parts different from taking one?\n\n\n\nFrom end of life. We let humans accept risk or death for others (research subjects, living donors). The pig’s death is killing for benefit, without consent. Is that worse than the risks we let humans choose — or does the pig’s inability to consent change the kind of act it is?"
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#wrap-up",
+    "href": "chapters/12b-industrial-xeno-slides.html#wrap-up",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Wrap-Up",
+    "text": "Wrap-Up\n\nWe ranked four uses of animals and built a tool — scale, necessity, benefit — that reorders our intuitions: the industrial cheeseburger comes out worse than the gene-edited pig heart, and a critic of factory farming like Singer can consistently accept xenotransplantation. Regan’s rights view refuses the ranking entirely, which is why the verdict still depends on the theory you hold. Along the way the food system showed how animal harm and human harm converge — antibiotic resistance, pandemics — and the frontier of uplifting showed we can now create the moral status we then must honor. The threads from abortion, genetics, and end-of-life all reach the same pig, and none of them lets us off easily."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#paired-case",
+    "href": "chapters/12b-industrial-xeno-slides.html#paired-case",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Paired Case",
+    "text": "Paired Case\nThe whole lecture comes down to one operating room and one desperate patient.\n\nPaired case: David Bennett and the First Pig-Heart Transplant"
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#review-questions",
+    "href": "chapters/12b-industrial-xeno-slides.html#review-questions",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Review Questions",
+    "text": "Review Questions\n\n\nRecall\nName the three factors in the scale–necessity–benefit ledger, and use them to explain why factory-farmed bacon ranks worse than a pig-heart transplant.\n\n\nApply\nA company wants to gene-edit chickens to grow faster and resist a barn virus, cutting both cost and antibiotic use. Run it through the ledger and through the direct/indirect-harm distinction. Where does it help, and whom?\n\n\nDebate\nIf we could uplift research animals to get better data, should we — knowing that doing so raises their moral status and our duties to them? Defend a yes or a no."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#key-terms",
+    "href": "chapters/12b-industrial-xeno-slides.html#key-terms",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Key Terms",
+    "text": "Key Terms\n\nCAFO — concentrated animal feeding operation; the high-density industrial farm model.\nAntibiotic resistance — bacteria evolving to survive drugs; driven partly by routine livestock use.\nTranslation gap — the frequent failure of animal results to predict human outcomes.\nXenotransplantation — transplanting organs or tissue from another species into humans.\nXenozoonosis — an infection crossing from the source animal to the human recipient and potentially the public.\nUplifting — deliberately enhancing an animal’s cognitive capacities.\nChimera — an organism containing cells from another species, e.g., human neurons in an animal brain.\nFuture like ours (Marquis) — the view that killing is wrong because it deprives a being of a valuable future.\nScale–necessity–benefit ledger — the framework for ranking animal uses by number harmed, availability of alternatives, and size of the good."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#further-reading",
+    "href": "chapters/12b-industrial-xeno-slides.html#further-reading",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "Further Reading",
+    "text": "Further Reading\n\nSinger, Peter. Animal Liberation Now. Harper Perennial, 2023 — the updated case against industrial farming.\nGriffith, Bartley P., et al. “Genetically Modified Porcine-to-Human Cardiac Xenotransplantation.” New England Journal of Medicine, 2022 — the Bennett case, by the surgical team.\nKorsgaard, Christine. Fellow Creatures. Oxford University Press, 2018 — duties to animals, including the created ones."
+  },
+  {
+    "objectID": "chapters/12b-industrial-xeno-slides.html#references",
+    "href": "chapters/12b-industrial-xeno-slides.html#references",
+    "title": "Lecture 12 — Animal Ethics",
+    "section": "References",
+    "text": "References\n\n\nEuropean Commission. 2025. Roadmap Towards Phasing Out Animal Testing for Chemical Safety Assessments. European Commission, Directorate-General for Environment. https://environment.ec.europa.eu/.\n\n\nGriffith, Bartley P., Corbin E. Goerlich, Avneesh K. Singh, et al. 2022. “Genetically Modified Porcine-to-Human Cardiac Xenotransplantation.” New England Journal of Medicine 387 (1): 35–44. https://doi.org/10.1056/NEJMoa2201422.\n\n\nMarquis, Don. 1989. “Why Abortion Is Immoral.” The Journal of Philosophy 86 (4): 183–202. https://doi.org/10.2307/2026961.\n\n\nO’Neill, Jim. 2016. Tackling Drug-Resistant Infections Globally: Final Report and Recommendations. Review on Antimicrobial Resistance, Wellcome Trust and HM Government. https://amr-review.org/.\n\n\nRevah, Omer, Felicity Gore, Kevin W. Kelley, et al. 2022. “Maturation and Circuit Integration of Transplanted Human Cortical Organoids.” Nature 610: 319–26. https://doi.org/10.1038/s41586-022-05277-w.\n\n\nUnited States Congress. 2022. FDA Modernization Act 2.0. 117th Congress."
   }
 ]

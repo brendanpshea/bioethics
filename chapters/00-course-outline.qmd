@@ -542,21 +542,39 @@ The lecture's question: if giving people the facts doesn't fix false medical bel
 - *Case box:* The 2015 NIH decision to end chimpanzee research.
 - *Sidebar:* "What's actually in an IACUC protocol?"
 
-### L12b. Industrial Animals, Xenotransplantation, and Connecting Threads
+### L12b. Industrial Animals, Xenotransplantation, and the Frontier
 
-- The ethics of **industrial animal agriculture**: welfare concerns, public-health implications (zoonotic risk, antibiotic resistance), environmental dimensions.
-- **Xenotransplantation**: recent pig-heart transplant cases (Bennett 2022, Faucette 2023), pig-kidney transplant trials.
-- Ethical issues unique to xenotransplantation: animal welfare, infection risk to recipients and the public, informed consent under desperation.
-- Connecting threads: how arguments from earlier chapters apply here.
-  - From **abortion** (L4): moral status criteria — do they pick out animals too?
-  - From **genetics** (L6): is creating genetically modified pigs for organs different from creating savior siblings?
-  - From **end of life** (L7): is the pig's death in xenotransplantation an instance of killing for benefit — and is it justified differently than human research subject risk?
+**Spine:** not all animal use is morally equal — **scale, necessity, and benefit** are what rank it. Students rank four uses up front, build the tools to evaluate the ranking, and discover the intuitive ordering ("high-tech = worse") is often backwards. A running "ledger" motif accumulates the ranking; the climax shows the same logic that condemns the cheeseburger *licenses* the pig heart, while Regan's rights view refuses to rank at all.
+
+- **Industrial animal agriculture** — the biggest use:
+  - Scale and conditions (CAFOs); the welfare case from Part A, made concrete.
+  - **It harms humans too:** antibiotic resistance (most U.S. antibiotics go to livestock) and zoonotic spillover (avian/swine flu, pandemic risk); environmental dimension in brief.
+  - The reframe: anthropocentric public-health reasons and animal-welfare reasons **converge** — even a human-centered view condemns the antibiotic practice.
+- **Does the research even work?** — the validity debate:
+  - The **translation gap**: most drugs that pass animal tests still fail in humans; weak predictive value **undercuts the cost-benefit defense** of research.
+  - Policy turn: **FDA Modernization Act 2.0** (2022) and the **EU roadmap to phase out animal testing**; NIH's push toward non-animal methods.
+  - The balanced reply: organs-on-chips can't yet model a whole immune system or developing brain — phase-out is a destination, not a current capability.
+- **Xenotransplantation** — the high-tech, low-number use:
+  - The organ shortage that drives it; how a pig is gene-edited (CRISPR antigen knockouts, PERV inactivation, human transgenes).
+  - Cases since 2022: Bennett (heart), Faucette (heart), Slayman / Looney (kidneys), decedent studies.
+  - Issues unique to xeno: welfare of designer pigs in isolation, **xenozoonosis** risk to a non-consenting public, consent under desperation.
+- **The counterintuitive ranking** (the climax): on the consequentialist math, a **McDonald's habit is worse than a pig-heart transplant** — Singer, a critic of factory farming and much research, can consistently *accept* xenotransplantation. Regan's rights view does not rank: using the pig as a means is wrong regardless of scale. The ranking is theory-dependent.
+- **The frontier — uplifting** (cognitive enhancement of animals):
+  - Tie to the enhancement debate from genomics.
+  - The paradox: **raise an animal's capacities and you raise its moral status** — the "better" the research animal, the *less* we may use it.
+  - Already real: human-neuron chimeras (human brain cells in animal brains) create beings of **ambiguous status**.
+- **Connecting threads** (cumulative payoff):
+  - From **abortion**: Marquis's "future like ours" — if a fetus's future grounds a right to life, does a pig's?
+  - From **genetics**: engineering pigs for organs vs. creating a savior sibling — making a being to be used.
+  - From **end of life**: is the pig's death "killing for benefit," and is it justified differently than risk to a human research subject — or than retrieving organs from the newly dead?
 
 **Visual elements:**
-- *Figure (code-generated):* diagram of how a pig kidney is genetically modified for human transplantation (CRISPR knockouts, transgene insertions — at a high level).
-- *Table:* Major xenotransplantation cases since 2022 — recipient, organ, outcome, ethical issues raised.
-- *Figure (code-generated):* concept map showing how the moral-status arguments from L4, L6, L7, and L11 each apply (or don't) to animals.
-- *Case box:* The David Bennett pig-heart transplant (2022) — the patient, the team, the outcome, the lessons.
+- *Running motif:* the "ledger" table ranking uses of animals by scale × harm × benefit, filled in across the deck.
+- *Figure (code-generated):* how a pig organ is gene-edited for human transplant (antigen knockouts, PERV inactivation, human transgenes — high level).
+- *Figure (code-generated):* drug-attrition funnel — compounds entering animal tests vs. surviving to human approval.
+- *Table:* major xenotransplantation cases since 2022 — recipient, organ, outcome, ethical issue raised.
+- *Figure (code-generated):* concept map of moral-status criteria from across the course applied to animals.
+- *Case box:* the David Bennett pig-heart transplant (2022) — patient, team, outcome, lessons.
 - *Discussion prompt:* "If you accept Marquis's 'future like ours' argument against abortion, what does it say about killing a pig?"
 
 ---
