@@ -20,3 +20,8 @@ chapters/quotes.md
 sources/
 
 perusall_quizzes/
+
+# EPUB / Pressbooks build artifacts
+book/_output/
+book/pressbooks_cover.png
+pressbooks-export/

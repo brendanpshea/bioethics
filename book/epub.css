@@ -1,0 +1,201 @@
+/* ============================================================
+   Thinking with Cases — EPUB stylesheet
+   Reproduces the web edition's case-block styling with literal
+   colors and reflow-friendly rules (no absolute positioning,
+   no CSS variables) so it renders well across e-readers.
+   Palette: teal #0e7c86 / dark #095058 / accent red #c0392b /
+   warm #b07d1a / muted #64748b / rule #d8dee4 / soft #f5f8f9
+   ============================================================ */
+
+/* ----- Base typography ----- */
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.6;
+  color: #14213d;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #0e7c86;
+  line-height: 1.25;
+  font-weight: bold;
+  page-break-after: avoid;
+}
+h1 { color: #095058; }
+h2 {
+  border-bottom: 2px solid #e6f1f2;
+  padding-bottom: 0.2em;
+  margin-top: 1.6em;
+}
+
+a { color: #0e7c86; text-decoration: none; }
+
+p { margin: 0.6em 0; }
+
+/* ----- Blockquotes & quote cards ----- */
+blockquote {
+  border-left: 4px solid #c0392b;
+  background: #f5f8f9;
+  padding: 0.5em 1em;
+  margin: 1.2em 0;
+  font-style: normal;
+}
+
+.quote-card {
+  border: 1px solid #d8dee4;
+  border-left: 5px solid #c0392b;
+  border-radius: 8px;
+  background: #f5f8f9;
+  padding: 0.6em 1em;
+  margin: 1.3em 0;
+}
+.quote-card blockquote {
+  border: 0;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+}
+.attribution, .quote-card .attribution {
+  font-size: 0.85em;
+  color: #64748b;
+  font-style: italic;
+  margin-top: 0.3em;
+}
+
+/* ----- Card-style boxes ----- */
+.case-at-a-glance,
+.context-box,
+.argument,
+.objection,
+.recap,
+.learning-outcomes,
+.thought-question {
+  border: 1px solid #d8dee4;
+  border-left: 4px solid #0e7c86;
+  border-radius: 6px;
+  background: #f5f8f9;
+  padding: 0.8em 1em;
+  margin: 1.4em 0;
+  page-break-inside: avoid;
+}
+.case-at-a-glance > :first-child,
+.context-box > :first-child,
+.argument > :first-child,
+.objection > :first-child,
+.recap > :first-child,
+.learning-outcomes > :first-child,
+.thought-question > :first-child { margin-top: 0; }
+.case-at-a-glance > :last-child,
+.context-box > :last-child,
+.argument > :last-child,
+.objection > :last-child,
+.recap > :last-child,
+.learning-outcomes > :last-child,
+.thought-question > :last-child { margin-bottom: 0; }
+
+/* Label chip, rendered as a block (reflow-safe) */
+.case-at-a-glance::before,
+.context-box::before,
+.argument::before,
+.objection::before,
+.recap::before,
+.learning-outcomes::before,
+.thought-question::before {
+  display: block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.68em;
+  font-weight: bold;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  margin-bottom: 0.55em;
+}
+.case-at-a-glance::before  { content: "At a Glance";       color: #c0392b; }
+.context-box::before       { content: "Background";        color: #64748b; }
+.argument::before          { content: "Argument";          color: #095058; }
+.objection::before         { content: "Objection";         color: #c0392b; }
+.recap::before             { content: "Recap";             color: #0e7c86; }
+.learning-outcomes::before { content: "Learning Outcomes"; color: #0e7c86; }
+.thought-question::before  { content: "Discuss";           color: #b07d1a; }
+
+/* Border-left accents per box type */
+.case-at-a-glance  { border-left-color: #c0392b; }
+.context-box       { border-left-color: #64748b; }
+.argument          { border-left-color: #095058; }
+.objection         { border-left-color: #c0392b; }
+.recap             { border-left-color: #0e7c86; }
+.thought-question  { border-left-color: #b07d1a; }
+
+/* Argument / objection: premise list + set-off conclusion */
+.argument ol, .objection ol { margin: 0.3em 0 0; padding-left: 1.4em; }
+.argument ol li, .objection ol li { margin: 0.3em 0; }
+.argument ol li:last-child,
+.objection ol li:last-child {
+  list-style: none;
+  margin-left: -1.4em;
+  margin-top: 0.5em;
+  padding-top: 0.5em;
+  border-top: 1px solid #d8dee4;
+  font-weight: bold;
+}
+.argument ol li:last-child::before,
+.objection ol li:last-child::before { content: "\2234\00a0"; font-weight: bold; }
+
+.arg-name {
+  display: block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #095058;
+}
+.objection .arg-name { color: #c0392b; }
+.arg-source {
+  display: block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.82em;
+  font-style: italic;
+  color: #64748b;
+  margin-bottom: 0.4em;
+}
+
+/* ----- Quarto callouts (used as case boxes) ----- */
+div.callout-note,
+div.callout-important,
+div.callout-warning,
+div.callout-tip,
+div.callout-caution {
+  border: 1px solid #d8dee4;
+  border-left: 4px solid #0e7c86;
+  border-radius: 6px;
+  background: #f5f8f9;
+  padding: 0.7em 1em;
+  margin: 1.4em 0;
+  page-break-inside: avoid;
+}
+div.callout-important { border-left-color: #c0392b; }
+div.callout-warning, div.callout-caution { border-left-color: #b07d1a; }
+.callout-title, .callout-title-container {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  color: #095058;
+  margin-bottom: 0.4em;
+}
+
+/* ----- Inline key term ----- */
+.key-term { color: #095058; font-weight: bold; }
+
+/* ----- Tables ----- */
+table { border-collapse: collapse; margin: 1.2em 0; font-size: 0.95em; }
+th, td { border: 1px solid #d8dee4; padding: 0.4em 0.6em; text-align: left; }
+th { background: #e6f1f2; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+tr:nth-child(even) td { background: #f5f8f9; }
+
+/* ----- Multi-column layouts: stack on e-readers ----- */
+.columns { display: block; }
+.column { display: block; width: auto !important; }
+
+/* ----- Figures ----- */
+figure { margin: 1.2em 0; text-align: center; }
+img { max-width: 100%; }
+figcaption { font-size: 0.85em; color: #64748b; font-style: italic; }
+
+/* ----- References ----- */
+#refs .csl-entry { margin: 0.5em 0; }

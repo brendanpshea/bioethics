@@ -1,0 +1,10 @@
+---
+title: "Works Cited"
+---
+
+# Works Cited {.unnumbered}
+
+The references below collect every source cited across the introduction and the case studies.
+
+::: {#refs}
+:::

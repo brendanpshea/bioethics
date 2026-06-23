@@ -1,0 +1,51 @@
+% ============================================================
+% LaTeX preamble for the PDF edition of "Thinking with Cases".
+% Renders the custom case blocks (.case-at-a-glance, .context-box,
+% .argument, .objection, .recap) as styled tcolorboxes and brands
+% headings in the book's teal palette.
+% ============================================================
+
+\usepackage{xcolor}
+\definecolor{cbteal}{HTML}{0E7C86}
+\definecolor{cbdark}{HTML}{095058}
+\definecolor{cbaccent}{HTML}{C0392B}
+\definecolor{cbwarm}{HTML}{B07D1A}
+\definecolor{cbmuted}{HTML}{64748B}
+\definecolor{cbsoft}{HTML}{F5F8F9}
+
+\usepackage{float}
+\usepackage[most]{tcolorbox}
+
+% One reusable box: {title}{frame color}
+\newtcolorbox{casebox}[2]{%
+  enhanced, breakable,
+  colback=cbsoft, colframe=#2,
+  coltitle=white, colbacktitle=#2,
+  fonttitle=\sffamily\bfseries\small,
+  title={#1},
+  boxrule=0.5pt, arc=2pt,
+  left=8pt, right=8pt, top=6pt, bottom=6pt,
+  before skip=11pt, after skip=11pt,
+}
+
+% Inline first-use key term
+\newcommand{\textkey}[1]{\textbf{\textcolor{cbdark}{#1}}}
+
+% Headings: sans-serif, teal palette (KOMA scrbook)
+\addtokomafont{disposition}{\sffamily}
+\addtokomafont{chapter}{\color{cbdark}}
+\addtokomafont{section}{\color{cbteal}}
+\addtokomafont{subsection}{\color{cbteal}}
+\addtokomafont{subsubsection}{\color{cbdark}}
+
+\usepackage{microtype}
+
+% Where to find the cover image for the custom title page (staged into book/).
+\graphicspath{{./}{../assets/images/}{assets/images/}}
+
+% Let vertical space flex so breakable boxes settle near page boundaries
+% (prevents latexmk rerun oscillation / non-convergent page references).
+\raggedbottom
+
+% Apply link colors once hyperref is loaded.
+\AtBeginDocument{\hypersetup{linkcolor=cbdark, citecolor=cbteal, urlcolor=cbteal}}

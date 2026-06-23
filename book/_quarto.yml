@@ -1,0 +1,63 @@
+project:
+  type: book
+  output-dir: _output
+
+book:
+  title: "Thinking with Cases"
+  subtitle: "An Introduction to Bioethics"
+  author: "Brendan Shea, PhD"
+  date: today
+  cover-image: pressbooks_cover.png
+  chapters:
+    - index.qmd
+    - 00-introduction.qmd
+    - 01-dax-cowart.qmd
+    - 02-tuskegee-guatemala.qmd
+    - 03-alzheimers-fraud.qmd
+    - 04-kate-cox-karsan.qmd
+    - 05-adriana-smith.qmd
+    - 06-he-jiankui.qmd
+    - 07-noelia-castillo.qmd
+    - 08-singapore-healthcare.qmd
+    - 09-wakefield-mmr.qmd
+    - 10-optum-algorithm.qmd
+    - 11-skrmetti.qmd
+    - 12-bennett-xenotransplant.qmd
+    - references.qmd
+
+# Shared assets live one level up, at the repo root (same depth as cases/).
+bibliography: ../refs.bib
+csl: ../chicago-author-date.csl
+link-citations: true
+
+format:
+  epub:
+    toc: true
+    toc-depth: 1
+    number-sections: false
+    css: epub.css
+    epub-cover-image: pressbooks_cover.png
+    epub-metadata: metadata.xml
+
+  pdf:
+    documentclass: scrbook
+    papersize: letter
+    geometry:
+      - top=1in
+      - bottom=1in
+      - left=1.1in
+      - right=1.1in
+    fontsize: 11pt
+    mainfont: "TeX Gyre Pagella"
+    sansfont: "TeX Gyre Heros"
+    linestretch: 1.07
+    colorlinks: true
+    toc: true
+    toc-depth: 1
+    number-sections: false
+    fig-pos: H
+    include-in-header: preamble.tex
+    template-partials:
+      - partials/before-body.tex
+    filters:
+      - latex-boxes.lua
