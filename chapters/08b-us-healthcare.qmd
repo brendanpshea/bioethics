@@ -37,12 +37,18 @@ The United States spends far more on health care than any nation on Earth — an
 
 | | United States | OECD average |
 |---|---|---|
-| **Spending per person (2023)** | **~$14,570** | ~$6,000–7,000 |
+| **Spending per person (2024)** | **~$14,900** | ~$6,000–7,000 |
 | **Share of the whole economy** | **17.6% of GDP** | ~9–11% |
-| **Life expectancy (2023)** | **78.4 years** | **81.1 years** |
-| **Maternal deaths / 100,000** | **~17** | ~10 |
+| **Life expectancy (2024)** | **79.0 years** | **~81.5 years** |
+| **Maternal deaths / 100,000 (2023)** | **~18.6** | ~10 |
 
-We spend roughly **double** — and live nearly **three years less** [@cms_nhe2023; @oecd_hag2025]. This gap is not a small inefficiency — it is the central puzzle of American health policy, and where Part A stops being abstract: a country that treats care as **mostly a market good** has built a system with extraordinary capabilities and extraordinary gaps. Everything in this lecture answers one question: **why?**
+We spend roughly **double** — and live about **two and a half years less** [@cms_nhe2023; @oecd_hag2025].
+
+::: {.context-box}
+**One number moved the right way.** US life expectancy rose to **79.0 years in 2024** — an all-time high, up from 78.4 in 2023 — and COVID-19 dropped out of the ten leading causes of death for the first time since 2019 [@nchs2026_mortality2024]. The single largest contributor was the steep fall in **drug overdose deaths** (see Chapter 5A). The gap with peer nations narrowed, but did not close: the US still spends about twice as much to end up two-plus years behind.
+:::
+
+This gap is not a small inefficiency — it is the central puzzle of American health policy, and where Part A stops being abstract: a country that treats care as **mostly a market good** has built a system with extraordinary capabilities and extraordinary gaps. Everything in this lecture answers one question: **why?**
 
 ## Today
 
@@ -145,7 +151,21 @@ US health coverage in 2023 [@census_coverage2023]:
 | **VA / military** | a few % |
 | **Uninsured** | **~8% (≈26 million)** |
 
-Shares add to more than 100% because many people hold more than one type in a year. About **92.5%** of Americans had some coverage — near a record high, and still leaving 26 million with none.
+Shares add to more than 100% because many people hold more than one type in a year. About **92.5%** of Americans had some coverage — a near-record high, and still leaving 26 million with none.
+
+::: {.context-box}
+**That high-water mark has just receded.** The **enhanced ACA premium tax credits** — the pandemic-era subsidies that drove coverage to its record level — **expired on December 31, 2025**. Congress did not renew them.
+
+The effects landed immediately:
+
+- For the average subsidized enrollee, monthly premiums **more than doubled** — from roughly **$888** to about **$1,904** — according to KFF estimates.
+- The Urban Institute estimates **4.8 million** additional Americans became uninsured in 2026, a **21% jump** in the uninsured population [@crs2026_enhanced_ptc].
+- Roughly **9%** of prior marketplace enrollees dropped coverage outright, with another 17% saying they may not be able to keep paying.
+
+So the "near record high" above describes a peak the country has already come down from. Treat the coverage numbers in this chapter as the **2024–25 high-water mark**, and expect the 2026 figures to be meaningfully worse.
+
+**Write or discuss:** Part A argued about whether health care is a **right** or a **market good**. Notice that nothing about American law or medicine changed here — a *subsidy* lapsed, and millions lost coverage. What does it say about a system that the practical answer to "do you have a right to care?" turns on whether a tax credit is renewed?
+:::
 
 ## The US Runs All Four Models at Once
 
@@ -165,7 +185,7 @@ A single country containing Britain, Canada, Germany, *and* the developing world
 About **half** of Americans get coverage through a job — the single largest piece of the system, and the one most people never chose.
 
 - Your employer buys a group plan and pays much of the premium; you pay the rest from your paycheck.
-- In 2024, the average family plan cost **$25,572 a year** in total premiums — most of it invisible to workers because the employer "pays" it (out of wages they'd otherwise get).
+- In 2025, the average family plan cost **$26,993 a year** in total premiums — up 6% in a single year — with workers contributing about **$6,850** from their paychecks and the employer "paying" the rest (out of wages they'd otherwise get) [@kff2025_ehbs].
 - Lose or change the job, and you can lose the coverage. **Maria's layoff** is the system's built-in fragility.
 
 ## Medicare and Medicaid — the 1965 Pillars
@@ -354,7 +374,7 @@ Part of the outcomes gap is straightforward: people who can't afford care get le
 
 Here honesty matters: a large share of the US disadvantage is **not** something hospitals can fix.
 
-- Americans face higher rates of **obesity**, **firearm deaths**, **vehicle deaths**, and **drug overdoses** (about **107,000** in 2022) than peers.
+- Americans face higher rates of **obesity**, **firearm deaths**, **vehicle deaths**, and **drug overdoses** than peers — though overdoses have fallen sharply, from about **110,000** in 2023 to roughly **70,000** in 2025.
 - Deep **income inequality and poverty** shape health long before anyone reaches a clinic.
 - These are **social and behavioral** drivers. Even a perfect health system would leave much of the gap untouched — which is exactly why the gap is so stubborn.
 

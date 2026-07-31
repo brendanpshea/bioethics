@@ -76,7 +76,7 @@ Every theory will be tested on the same hard case, so the differences between th
 ::: {.context-box}
 **One organ, many candidates.**
 
-Today more than **105,000** people in the US are waiting for an organ transplant. Over **92,000** of them — about **87%** — need a kidney [@optn_data]. Most will wait years; some will die waiting.
+As of late 2025, more than **108,000** people in the US were waiting for an organ transplant. About **94,000** of them — roughly **87%** — need a kidney [@optn_data]. Most will wait years; some will die waiting.
 
 When one donated kidney becomes available and several patients match it, **someone decides who gets it.** That decision is distributive justice in its rawest form — and each theory answers it differently.
 :::

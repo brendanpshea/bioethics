@@ -7,7 +7,7 @@ date: last-modified
 
 ::: {.case-at-a-glance}
 - **What:** Singapore covers everyone, lives longer than almost anyone, and spends about a quarter of what the US spends — through an unusual mix of forced savings, catastrophic insurance, subsidies, and heavy government control.
-- **The numbers:** Singapore spends **~5% of GDP** on health; the US spends **~18%**. Life expectancy is **83.5** years vs. **78.5** in the US. **100%** of Singaporeans have public coverage.
+- **The numbers:** Singapore spends **~5% of GDP** on health; the US spends **~17.6%**. Life expectancy is **83.5** years vs. **79.0** in the US (2024). **100%** of Singaporeans have public coverage.
 - **The shadow:** roughly **a third** of Singapore's population are migrant workers, who are **excluded** from government subsidies. COVID-19 exposed this sharply.
 - **Why it matters:** Singapore is the system US reformers on the **left and right** both point to. This case asks whether the US can learn from it — and whether its success can be separated from the trade-offs that produce it.
 - **Pair with:** Why US Health Care Costs So Much
@@ -17,7 +17,7 @@ date: last-modified
 
 Every American who studies health policy eventually runs into Singapore, and has the same reaction: *how?*
 
-The United States spends close to **18% of its entire economy** on health care — about **$14,570 per person** — and gets middling results. Singapore spends roughly **5% of GDP**, a quarter of the US share. Yet Singaporeans live to **83.5** on average, five years longer than Americans, and **everyone** is covered [@commonwealth_singapore]. On paper, Singapore looks like it solved the puzzle the US can't.
+The United States spends close to **18% of its entire economy** on health care — about **$14,900 per person** (2024) — and gets middling results. Singapore spends roughly **5% of GDP**, a quarter of the US share. Yet Singaporeans live to **83.5** on average, about four and a half years longer than Americans, and **everyone** is covered [@commonwealth_singapore]. On paper, Singapore looks like it solved the puzzle the US can't.
 
 It did not do so by building a British-style national health service, or a Canadian single-payer plan, or a German system of insurance funds. It built something stranger.
 
