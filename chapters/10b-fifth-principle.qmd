@@ -222,7 +222,7 @@ Knowledge and exposure point in opposite directions. That is an accountability a
 
 Where's the regulator in all this? It depends entirely on **which kind of AI** — recall Part A's three machines.
 
-- **Diagnostic AI** is regulated as a *medical device*: 1,250+ authorized, with premarket review and (slowly improving) postmarket surveillance.
+- **Diagnostic AI** is regulated as a *medical device*: **1,500+** authorized as of early 2026 (about three-quarters of them in radiology), with premarket review and (slowly improving) postmarket surveillance. The count climbs every quarter — treat any number you hear as a floor.
 - **Predictive and generative tools** mostly ride the **clinical-decision-support carve-out**: software that "supports" a clinician who can review its basis isn't a device at all.
 - In **January 2026**, the FDA *loosened* that carve-out's guidance in a deliberately generative-AI-friendly direction — the gap between what's deployed and what's reviewed is widening **by design**, on the theory that innovation needs room.
 
@@ -290,7 +290,8 @@ Recall **sycophancy** from Part A: the learned tendency to tell users what they 
 The harms reached courtrooms fast, and the legal theory matters more than the headlines.
 
 - Families of teenagers who died by suicide after months-long chatbot relationships filed **wrongful-death suits** against Character.AI and OpenAI beginning in 2024–25.
-- In **January 2026**, Character.AI and Google **settled** the leading cases, including the first-filed Garcia suit; cases against OpenAI continue [@cnn_characterai_2026].
+- In **January 2026**, Character.AI, its founders, and Google agreed to **settle** the leading cases — including the first-filed Garcia suit — covering actions in Florida, Colorado, New York, and Texas. Terms were not disclosed, and the settlements still required court approval. Cases against OpenAI, including one over the death of a 16-year-old, continue [@cnn_characterai_2026].
+- Settling without disclosed terms means the design-defect theory below was **never tested in court**. The companies paid; no judge ruled on whether engineered attachment is a defect. That question is still open, and the next plaintiff has to start over.
 - The core allegation is not "the bot said a wrong thing." It is **design defect**: that engagement-maximizing systems *engineered the attachment itself* — the isolation, the dependency — and that the harm flowed from the design working as intended.
 
 ## The Illinois Ban
