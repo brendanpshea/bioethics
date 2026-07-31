@@ -385,7 +385,17 @@ Both groups are firmly mainstream. They disagree, in public, about what to do wi
 - About **14 million customers** by 2023, most for ancestry rather than health.
 - A saliva tube; about $100; results in six weeks.
 - Customers can opt their DNA into research; about 80% historically have.
-- Filed for bankruptcy in 2025; the data itself is still a corporate asset under sale.
+- Filed for bankruptcy in 2025 — and the database was **sold as an asset**.
+
+::: {.context-box}
+**The thought experiment ran itself.** For years the standard privacy worry about consumer genomics was hypothetical: *what happens to your DNA if the company goes under?* In 2025 we found out.
+
+23andMe entered Chapter 11, and its genetic database went to auction like any other asset. After competing bids — including one from the pharmaceutical company Regeneron — the winner was **TTAM Research Institute**, a nonprofit founded and led by Anne Wojcicki, 23andMe's own co-founder, for **$305 million**. The sale closed in **July 2025**, and the service continues to operate [@23andme2025_ttam_sale].
+
+The outcome was comparatively benign: a nonprofit with privacy commitments rather than a data broker or an insurer. But notice what the process established regardless of who won. Your genome, once handed to a company, is **property on a balance sheet**. Bankruptcy law, not medical-privacy law, determined who ended up holding 14 million people's DNA — and the customers were creditors' collateral, not parties to the decision. Consent given to one company in 2015 transferred to a different legal entity a decade later.
+
+**Write or discuss:** You consented to research with *Company A*. Company A is liquidated and your data goes to *Entity B*. Is your original consent still valid? What would a consent form have to say up front for the answer to be clearly yes — and would anyone sign it?
+:::
 
 The product is two products in one box: a recreational ancestry report, and a clinical-grade test for a small set of disease variants.
 
@@ -393,7 +403,7 @@ The product is two products in one box: a recreational ancestry report, and a cl
 
 In October 2023, attackers got into 23andMe accounts by reusing passwords leaked from other sites. Because many customers had opted into a feature called "DNA Relatives," each broken account also exposed information about that user's *relatives* — relatives who had never been hacked themselves.
 
-About **6.9 million users** were affected. Lists targeting Ashkenazi Jewish and Chinese-ancestry customers were posted on hacker forums. The company settled in late 2024 for about $30 million.
+About **6.9 million users** were affected. Lists targeting Ashkenazi Jewish and Chinese-ancestry customers were posted on hacker forums. The company agreed in late 2024 to settle for about $30 million — but the bankruptcy intervened, and the settlement had to be resolved through the bankruptcy court, where the fund was ultimately increased to roughly **$47 million** and approved in 2026. Affected customers became one more class of creditors waiting in line.
 
 # Race and Genetics: The NASEM Framework {.section-divider}
 
