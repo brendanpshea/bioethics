@@ -189,7 +189,7 @@ Singer and Regan both welcome replacement — for different reasons. Less suffer
 
 The pressure behind it is a body count of a different kind.
 
-- More than **100,000 Americans** wait for an organ; about **17 die each day** before one arrives.
+- More than **108,000 Americans** were on the transplant waiting list as of late 2025 — about **94,000** of them waiting for a kidney; roughly **17 die each day** before an organ arrives.
 - [Xenotransplantation]{.key-term} — transplanting organs from another species — promises an unlimited supply, grown to order.
 - The species of choice is the **pig**: organs the right size, fast breeding, decades of surgical familiarity. The obstacle was always rejection — the human body destroys pig tissue within minutes.
 
@@ -214,16 +214,29 @@ A transplant pig may carry **a dozen or more edits** — some removing pig featu
 
 ## The Cases So Far
 
-The era of human xenotransplantation began in 2022 and is moving fast.
+The era of human xenotransplantation began in 2022 and is moving fast — fast enough that this table needs checking every term.
 
 | Patient | Year | Organ | Outcome |
 |---|---|---|---|
 | **David Bennett** | 2022 | pig heart | lived ~2 months; first in a living human [@griffith2022_xeno] |
 | **Lawrence Faucette** | 2023 | pig heart | lived ~6 weeks |
 | **Rick Slayman** | 2024 | pig kidney | first in a living patient; lived ~2 months |
-| **Towana Looney** | 2024–25 | pig kidney | longest survival to date |
+| **Towana Looney** | 2024–25 | pig kidney | organ removed after **130 days** |
+| **Tim Andrews** | 2025–26 | pig kidney | **271 days** — longest to date; then received a *human* kidney |
 
 Each patient was out of options. Each result taught the field something — and each death raised the question of whether the attempt was justified.
+
+::: {.context-box}
+**Two things changed the question in 2025–26.**
+
+**1. It stopped being a series of one-offs and became a clinical trial.** In 2025 the FDA cleared the first true xenotransplant trials. Two companies, two strategies: **United Therapeutics** (the EXPAND study, using a **10**-gene-edited pig kidney; first patient transplanted at NYU Langone in November 2025) and **eGenesis** (a **69**-gene-edited pig kidney). Until now, every patient was an individual rescue attempt under compassionate-use rules. A trial means enrollment criteria, controls, and — crucially — patients who are *not* out of options in quite the same way. Recall the Chapter 3 vocabulary: this is the moment xenotransplantation acquires a **clinical equipoise** problem it did not previously have.
+
+**2. Tim Andrews crossed a bridge.** Andrews, a 67-year-old retired engineer from New Hampshire, received a 69-gene-edited pig kidney in January 2025. He lived with it **271 days** — surpassing Looney's 130 — before declining function forced its removal in October 2025 and he returned to dialysis [@cnn2025_andrews_271days]. Then, in **January 2026**, he received a **human** kidney [@cnn2026_xeno_bridge].
+
+That last step reframes the entire enterprise. If a pig organ can keep someone alive and off dialysis long enough to reach a human transplant, then xenotransplantation may not need to be a *permanent replacement* to be worth doing. It could be a **bridge** — the way a ventricular assist device bridges a patient to a heart. A bridge is a far easier ethical case to make than a cure: it needs to work for months, not decades.
+
+**Write or discuss:** Does reframing xeno organs as a *bridge* rather than a *destination* change whether Bennett's 2022 surgery was justified? Does it change what you must tell the next patient in the consent conversation?
+:::
 
 ## What Makes Xeno Ethically Distinct
 

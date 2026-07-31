@@ -123,9 +123,17 @@ The disputed premise is 3: that engagement builds trust rather than laundering f
 
 ### The move that hasn't ended
 
-The argument is no longer academic. It now runs the government. In 2025, **Robert F. Kennedy Jr.**, a long-time vaccine skeptic and a face of the MAHA movement, became US Secretary of Health and Human Services. He reshaped federal vaccine advisory panels and questioned parts of the childhood schedule. Supporters saw a long-overdue challenge to a captured system. Critics saw the fox handed the keys to the henhouse. Both were watching the same appointment.
+The argument is no longer academic. It now runs the government. In 2025, **Robert F. Kennedy Jr.**, a long-time vaccine skeptic and a face of the MAHA movement, became US Secretary of Health and Human Services. Supporters saw a long-overdue challenge to a captured system. Critics saw the fox handed the keys to the henhouse. Both were watching the same appointment.
 
-In the same period, the United States saw its worst measles outbreaks in decades, including the deaths of unvaccinated children. The thing the science had prevented for years returned on a national stage. For the doubters, each outbreak was a tragedy to be explained away. For public health, it was the cost of the argument made real, in a way no study could be.
+What followed was not rhetoric but machinery:
+
+- **June 2025:** Kennedy dismissed every sitting member of the **ACIP** — the federal advisory committee that recommends vaccines — and reconstituted it with his own appointees, several with records of vaccine skepticism.
+- **January 2026:** he directed the CDC to rewrite the **childhood immunization schedule**, cutting routine recommendations from 17 diseases to 11. Flu, rotavirus, hepatitis A, hepatitis B, RSV, and some meningococcal vaccines were moved off the routine schedule and recommended only for "high-risk" groups. Notably, the Secretary can direct this change without an ACIP vote [@crs2026_immunization_schedule].
+- **March 16, 2026:** a federal court in Massachusetts **stayed** the new schedule in a challenge led by the American Academy of Pediatrics, reverting it to the May 2025 version. The legal fight continues.
+
+Meanwhile the disease came back. **2026 has been the worst US measles year since 1991** — more than **2,100 confirmed cases across 41 jurisdictions** by mid-year, with months still to run, and **three deaths** since 2025: two unvaccinated children in Texas and one adult in New Mexico. The United States has held **measles elimination status** since 2000. The Pan American Health Organization is scheduled to review that status in **November 2026** — during our term — and sustained transmission makes losing it a real possibility.
+
+Sit with what that would mean. Elimination was one of the clearest public-health achievements of the twentieth century, and it can be reversed not by a new pathogen but by a change in belief. For the doubters, each outbreak is a tragedy to be explained away. For public health, it is the cost of the argument made real, in a way no study could be.
 
 At the same time, the courts narrowed one tool. In *Murthy v. Missouri* (2024), the Supreme Court took up claims that federal officials had pressured social media platforms to remove "misinformation" [@murthy2024]. The case intensified a worry the Backfire Reply had already raised: when the government leans on speech it calls false, it can confirm the very story that officials are hiding the truth.
 

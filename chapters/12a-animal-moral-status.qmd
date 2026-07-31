@@ -458,7 +458,7 @@ You are back on the IACUC. A respected neuroscientist submits a protocol: implan
 ## Make It Contemporary
 
 ::: {.thought-question}
-The chimps are retired, but pressure on primate research is rising. During COVID-19, demand for research monkeys outstripped supply, sparking a global shortage and a scramble for sources. Meanwhile, the first gene-edited **pig organs** are being transplanted into humans — a use of animals that sidesteps the lab entirely.
+The chimps are retired, but pressure on primate research is rising. During COVID-19, demand for research monkeys outstripped supply, sparking a global shortage and a scramble for sources. Meanwhile, gene-edited **pig organs** have moved past one-off rescues into FDA-cleared clinical trials, with one recipient living 271 days before receiving a human kidney — a use of animals that sidesteps the lab entirely, and now at scale.
 
 1. Does retiring chimps while expanding monkey and pig use reflect a real principle, or just where public sympathy happens to fall?
 2. Is breeding an animal to harvest its **organs** easier or harder to justify than using one in a **study**?

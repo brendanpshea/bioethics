@@ -154,7 +154,7 @@ One study found chest X-ray models partly "diagnosing" pneumonia by detecting **
 
 The most mature kind of medical AI **classifies images**: radiology scans, skin photographs, pathology slides, retinal images.
 
-- The FDA has authorized over **1,250 AI-enabled medical devices**, roughly three-quarters of them in radiology.
+- The FDA has authorized over **1,500 AI-enabled medical devices** (as of early 2026), roughly three-quarters of them in radiology — a figure that has been rising by scores per quarter.
 - The first **autonomous** diagnostic system (no physician reads the image) was cleared in 2018 for diabetic eye disease screening.
 - Headlines say these systems perform "at expert level" — which is true **on test images resembling their training data**. The ink-marking study shows what that qualifier hides.
 

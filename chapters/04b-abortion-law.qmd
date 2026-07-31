@@ -23,7 +23,7 @@ At twenty weeks pregnant, Kate Cox learned her fetus had **trisomy 18** — almo
 
 Texas law banned abortion except to prevent **"substantial impairment of a major bodily function."** Cox sued. A trial court granted permission; the **Texas Supreme Court reversed** within days. She traveled to New Mexico for care.
 
-She was not alone. *Zurawski v. Texas*, filed the same year, gathered twenty-plus women denied care under the same statute — some after their water broke before viability, some after sepsis set in.
+She was not alone. *Zurawski v. Texas*, filed the same year, gathered twenty-plus women denied care under the same statute — some after their water broke before viability, some after sepsis set in. In **May 2024** the Texas Supreme Court ruled against them, holding that the statute's "medical emergency" language was already clear enough and that the problem lay with physicians misreading it, not with the law.
 :::
 ::: {.column width="4%"}
 :::
@@ -354,7 +354,7 @@ You now have both *Roe* and *Dobbs* in standard form. The dispute between them i
 ![](../images/abortion_laws_us_states.svg){width="92%" fig-alt="Map of the United States showing gestational limits for elective abortion by state as of May 2025"}
 
 ::: {.attribution}
-Wikimedia Commons, "Gestational limits for elective abortion in the United States" (May 2025). Updated periodically; verify current status before clinical use.
+Wikimedia Commons, "Gestational limits for elective abortion in the United States" (May 2025). **This map is a snapshot and is already out of date in places** — Missouri in particular (see below). Treat it as a picture of how *varied* the landscape is, not as a current legal reference. For live status, use the Guttmacher Institute or Center for Reproductive Rights trackers.
 :::
 
 ## Five Regulatory Tiers
@@ -363,12 +363,18 @@ Wikimedia Commons, "Gestational limits for elective abortion in the United State
 |---|---|---|
 | **No state restriction beyond federal law** | Up to viability or later (some allow later for health) | Colorado, New Jersey, Minnesota, Oregon |
 | **Viability standard (~24 wk)** | Roughly the pre-*Dobbs* federal floor | California, Illinois, New York, Wisconsin |
-| **Mid gestational limit** | 15–22 weeks | Florida (6 wk), North Carolina (12 wk), Utah (18 wk) |
-| **Six-week ("heartbeat") laws** | ~6 weeks LMP — before many know they're pregnant | Georgia, Iowa, South Carolina, Texas (partial) |
-| **Near-total ban** | Conception, with narrow life/health exceptions | Alabama, Arkansas, Kentucky, Mississippi, Missouri, Texas, ~7 others |
+| **Mid gestational limit** | 12–22 weeks | North Carolina (12 wk), Nebraska (12 wk), Utah (18 wk) |
+| **Six-week ("heartbeat") laws** | ~6 weeks LMP — before many know they're pregnant | Florida, Georgia, Iowa, South Carolina |
+| **Near-total ban** | Conception, with narrow life/health exceptions | Alabama, Arkansas, Kentucky, Mississippi, Texas, ~7 others |
 
 ::: {.attribution}
-Compiled from Guttmacher Institute state-policy tracking [@guttmacher_state_policies_2024].
+Compiled from Guttmacher Institute state-policy tracking [@guttmacher_state_policies_2024]. **Tiers move constantly — verify before relying on any row.**
+:::
+
+::: {.context-box}
+**Missouri: why a tier table is never finished.** Missouri held a near-total ban until **November 2024**, when voters passed a constitutional amendment (Amendment 3) making reproductive freedom a state right — the first time a public vote overturned a near-total ban. What followed was two years of trench warfare: injunctions blocking the ban, the Missouri Supreme Court reinstating it on procedural grounds in **May 2025**, then further rulings restoring access, including a **June 2026** circuit-court decision striking down most remaining restrictions.
+
+The fight is not over. A **new** Amendment 3 — drafted by the legislature to re-ban abortion, with exceptions for life and, up to 12 weeks, rape and incest — goes before Missouri voters on **November 3, 2026**, in the middle of our term [@ballotpedia2026_missouri_amendment3]. Watch it as it happens: you are seeing a state's abortion law contested through courts *and* ballots at the same time.
 :::
 
 ## Medication Abortion and the Comstock Act
@@ -376,7 +382,18 @@ Compiled from Guttmacher Institute state-policy tracking [@guttmacher_state_poli
 - Since 2020, more than **half** of US abortions have been medication abortions (mifepristone + misoprostol).
 - This makes abortion **harder to ban completely** — pills travel through the mail, across state lines, and from overseas pharmacies.
 - The **Comstock Act of 1873** — an obscenity statute still on the books — prohibits mailing items "designed, adapted, or intended for producing abortion." For a century it was treated as a dead letter.
-- Some legal commentators argue *Dobbs* has revived Comstock. If the next administration enforces it, mifepristone could become functionally unavailable nationwide — without any new law being passed.
+- Some legal commentators argue *Dobbs* has revived Comstock. The theory is that mifepristone could become functionally unavailable nationwide — without any new law being passed.
+
+::: {.context-box}
+**Where the pill fight actually stands (as of July 2026).** The federal government has not brought Comstock prosecutions, but the statute is now doing work in *litigation* rather than enforcement.
+
+- **States are suing the FDA.** In *Louisiana v. FDA*, states argue that the FDA's 2016–2023 decisions permitting telehealth prescribing and mail/pharmacy dispensing violated the Administrative Procedure Act **and** the Comstock Act.
+- **May 1, 2026:** a Fifth Circuit panel sided with Louisiana and moved to roll back telehealth and pharmacy dispensing while the appeal proceeded.
+- **May 14, 2026:** the **Supreme Court stayed** that order [@guttmacher2026_scotus_mifepristone]. Mifepristone remains available by telehealth and mail for now. The Court did not rule on the merits — it froze the status quo while the case continues [@kff_louisiana_fda_2026]. In a dissent, Justice Thomas argued the Comstock Act should be enforced as written.
+- **Separately,** the FDA opened a safety review of mifepristone in late 2025. Several other mifepristone cases are paused awaiting its outcome.
+
+**The ethics point:** access to the most common method of abortion in the US currently rests on a *stay* — a temporary order — not a settled rule. Ask what it does to clinical practice when the legality of a standard treatment can change between one semester and the next.
+:::
 
 ## Travel, Shield Laws, and Interstate Conflict
 
@@ -387,9 +404,21 @@ Compiled from Guttmacher Institute state-policy tracking [@guttmacher_state_poli
 ::: {.column width="4%"}
 :::
 ::: {.column width="48%"}
-**Shield laws.** A growing set of states (NY, MA, CA, CO, WA) have passed laws **shielding** their providers from out-of-state subpoenas and prosecutions when they ship pills to or treat patients from ban states. Expect this to be the next major constitutional fight — likely under the **Full Faith and Credit Clause**.
+**Shield laws.** A growing set of states (NY, MA, CA, CO, WA) have passed laws **shielding** their providers from out-of-state subpoenas and prosecutions when they ship pills to or treat patients from ban states. This is no longer a prediction — it is a live fight, likely headed to the Supreme Court under the **Full Faith and Credit Clause**. See Dr. Carpenter, below.
 :::
 ::::
+
+::: {.context-box}
+**One doctor, two states, two legal universes.** Dr. Margaret Carpenter, a New York physician, prescribed abortion medication by telehealth to patients in ban states.
+
+- **Louisiana** indicted her on a felony charge — the first criminal case against a physician for mailing pills across state lines after *Dobbs*.
+- **Texas** obtained a civil default judgment against her of more than **$100,000**.
+- **New York** refused to cooperate. The governor declined Louisiana's extradition demand, and in **October 2025** a New York court rejected Texas's attempt to enforce its judgment [@texastribune2025_shield_law].
+
+Nothing has been resolved. Carpenter is charged in one state, fined in another, and protected in a third — and all three claim to be applying the law correctly. This is precisely the conflict the **Full Faith and Credit Clause** exists to settle, and it has not yet been settled.
+
+**Write or discuss:** If the same act is a felony in Louisiana and lawful in New York, whose law *should* govern — the state where the doctor sits, or the state where the patient sits? What would each answer do to telemedicine generally, beyond abortion?
+:::
 
 ## "Life of the Mother" — What It Really Means at the Bedside
 
@@ -421,7 +450,19 @@ A second post-*Dobbs* legal fault line: when may a clinician **refuse** to parti
 - Federal **Church Amendments** (1973) protect clinicians who refuse to perform abortions on religious or moral grounds.
 - About **45 states** have their own conscience laws — varying enormously in scope.
 - The **ANA Code of Ethics** (Provision 5) recognizes conscientious objection but requires that the nurse not abandon the patient and provide referral.
-- The hard cases are *referral* (in some states, refusing to refer is also protected) and *emergencies* (federal EMTALA may override state conscience laws, but the Supreme Court has not yet resolved the conflict).
+- The hard cases are *referral* (in some states, refusing to refer is also protected) and *emergencies*.
+
+::: {.context-box}
+**EMTALA: the question that got un-asked.** **EMTALA** (1986) requires any hospital taking Medicare to stabilize a patient with an emergency condition. Does that federal duty override a state abortion ban when stabilizing treatment *is* an abortion?
+
+The federal courts came close to answering and then backed away:
+
+- **2024:** in *Moyle v. United States*, the Supreme Court took the Idaho case and then **dismissed it as improvidently granted** — deciding not to decide, and sending it back down.
+- **March 2025:** the federal government **dropped** the Idaho suit entirely.
+- **May 2025:** HHS and CMS **rescinded** the 2022 guidance that had told hospitals EMTALA covered emergency abortion care [@hallrender2025_emtala_rescission].
+
+So the conflict was never resolved on the merits — the case that would have resolved it was withdrawn. What protection remains comes from private suits (Idaho's largest hospital system won an injunction covering only itself) rather than from a national rule. A nurse or physician in a ban state today has *less* federal clarity than in 2023, not more.
+:::
 
 # 5. Abortion Law Around the World {.section-divider}
 

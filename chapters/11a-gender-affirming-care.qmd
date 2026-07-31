@@ -214,8 +214,15 @@ Cass recommended that blockers be available **only within research**, so the NHS
 - Planned for 2025, **delayed** over the consent and randomization objections just described.
 - **February 2026:** the medicines regulator (MHRA) raised safety concerns; the trial was **paused before recruiting anyone**.
 - **March 2026:** NHS England stopped new hormone referrals for 16–17-year-olds, citing the same evidence gap.
+- **Mid-2026:** the MHRA and King's College London agreed a **modified protocol**, and the Health Research Authority gave ethical approval. Recruitment was set to begin **1 August 2026** — held up until then by separate legal proceedings.
+
+Count the timeline: a trial commissioned in 2024 to answer the question had still not enrolled a single patient more than two years later, having been delayed by ethics objections, paused by the regulator, and held up in court. Meanwhile, under-18s in Britain could not get blockers outside research, and 16–17-year-olds lost hormone referrals too.
 
 "More research" — the one thing every side endorses — is itself ethically hard. The gap may persist for years, and patients keep arriving *now*.
+
+::: {.thought-question}
+**Write or discuss:** If the evidence gap can only be closed by a trial, and the trial cannot ethically or practically be run, what should clinicians do in the meantime? Notice that "wait for evidence" is *itself* a decision with consequences for real patients — it is not a neutral holding position.
+:::
 
 ## Two Defaults, One Evidence Base
 
@@ -454,7 +461,15 @@ The ruling concerned state bans on *minors'* care. What followed went further, f
 - CMS sent hospitals demand letters; the federal employee health plan **excluded the care for under-19s** for 2026.
 - Major children's hospitals — including in states where the care is **legal** — paused or ended services under funding pressure.
 
-The legal line is no longer just "ban state vs. shield state." Federal levers reach into Minnesota too.
+::: {.context-box}
+**The order that is blocked and effective at the same time (status: July 2026).** EO 14187 has been **preliminarily enjoined** — courts have restricted its enforcement, and it is not currently enforceable while litigation proceeds. Sixteen Democratic-led state attorneys general sued in federal court in Massachusetts in August 2025, arguing the order violates the Tenth Amendment, exceeds statutory authority, and breaches the Administrative Procedure Act. The court heard the government's motion to dismiss in April 2026 [@morganlewis2026_gac_enforcement].
+
+Here is the part worth sitting with: **hospitals stopped providing the care anyway.** At the motion hearing, the judge pointed to exactly that — providers announcing they had ended care — as evidence of concrete harm. An order that courts have blocked still reshaped practice nationwide, because institutions will not gamble federal funding on the eventual outcome of a lawsuit.
+
+**Write or discuss:** If an unenforceable order changes what care is actually available, where does the *power* really sit — with the courts, or with whoever controls the funding? What does that imply about "the democratic process" *Skrmetti* deferred to?
+:::
+
+The legal line is no longer just "ban state vs. shield state." Federal levers reach into Minnesota too — and, as the injunction shows, they work even when they are legally suspended.
 
 ## Practicing in the Patchwork
 
