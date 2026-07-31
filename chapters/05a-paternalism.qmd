@@ -55,7 +55,7 @@ By the end of Part A, you will be able to:
 
 The US is among the most punitive peer countries on drugs, and has the worst outcomes.
 
-- It imprisons people at **~541 per 100,000** — many times the rate of other wealthy democracies — and has the highest overdose death rate of any rich nation (**~30 per 100,000**).
+- It imprisons people at **~541 per 100,000** — many times the rate of other wealthy democracies — and still has the highest overdose death rate of any rich nation (**~21 per 100,000** in 2025, down from a peak near 33).
 - Its **infant and maternal mortality** are also worse than its peers'.
 - Yet on **tobacco** — taxed and age-limited rather than banned — its results are among the best.
 
@@ -252,13 +252,21 @@ Both poles — unrestricted access and total prohibition — produced serious ha
 
 | Country | Stance | Overdose (per 100k) | Incarceration (per 100k) |
 |---|---|---|---|
-| **United States** | Punitive | ~30 | ~541 |
+| **United States** | Punitive | ~21 | ~541 |
 | **Portugal** | Lenient | ~1 | ~110 |
 | **Netherlands** | Lenient | ~1.5 | ~65 |
 | **Singapore** | Very harsh | low | ~156 |
 | **Japan** | Harsh | <0.5 | ~36 |
 
 The lenient countries and the harsh ones both have far lower overdose mortality than the US. Stringency alone does not predict the outcome: the most punitive country in the table and two of the most lenient sit at opposite ends of the policy spectrum, and the US is worse than all of them. [@commonwealth_overdose2022; @worldprisonbrief2023]
+
+::: {.context-box}
+**A trend worth watching — and worth arguing about.** US overdose deaths have now fallen for **three consecutive years**: roughly **110,000** in 2023, **81,000** in 2024, and **70,000** in 2025 — a drop of well over a third from the peak, and the lowest total since 2019 [@cdc2026_overdose].
+
+Nobody is certain why. Candidate explanations include the wide distribution of **naloxone** (now available over the counter), expanded access to buprenorphine and methadone, changes in the illicit fentanyl supply, and the grim possibility that the population most at risk has already been depleted. Each explanation implies a different policy lesson, and they are not mutually exclusive.
+
+**Write or discuss:** Suppose the decline is mostly due to naloxone — a *harm-reduction* measure that makes drug use safer rather than rarer. Does that vindicate the harm-reduction model over the punitive one? Now suppose it is mostly supply-side changes in the fentanyl market. Does the same data now support a different conclusion? What does this tell you about reading a trend line as evidence for a policy you already favor?
+:::
 
 ## Two Coherent Models
 

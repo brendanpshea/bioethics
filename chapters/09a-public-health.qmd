@@ -296,7 +296,7 @@ Each rung climbs only as far as the harm to others justifies — a worked exampl
 
 | Benchmark | Verdict | Why |
 |---|---|---|
-| Effectiveness | ✅ | US adult smoking fell from ~42% (1965) to under 12% today. |
+| Effectiveness | ✅ | US adult smoking fell from ~42% (1965) to **9.1% (2025)** — below 10% for the first time. |
 | Proportionality | ✅ | Smoke-free laws impose mild burdens against large health gains. |
 | Necessity | ✅ | Voluntary appeals alone had stalled; secondhand smoke harms bystanders. |
 | Least infringement | ✅ | It taxes and zones the behavior, not bans the product. |
