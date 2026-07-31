@@ -157,7 +157,7 @@ Lecanemab (sold as Leqembi) and donanemab (Kisunla) are the successors. The FDA 
 
 - They slow cognitive decline by about half a point on the eighteen-point Clinical Dementia Rating Sum of Boxes scale over eighteen months. Many neurologists openly doubt whether that difference matters in daily life.
 - They cause [amyloid-related imaging abnormalities]{.key-term} (ARIA) — brain swelling or small bleeds visible on MRI — in roughly one in five treated patients, with rare but documented deaths.
-- Annual cost runs to about $26,000 per patient. That figure does not include infusion, monitoring MRI, or clinic fees, all of which Medicare now covers.
+- Annual list price runs to roughly $26,500 per patient. That figure does not include infusion, monitoring MRI, or clinic fees. Medicare Part B now covers the drug for patients meeting its criteria, leaving a 20% coinsurance of about $5,300 a year for anyone without supplemental coverage — a reminder that "covered" and "affordable" are different claims.
 
 If Stegenga is right, the bioethical question is not only "how do we catch the next Lesné?" It is "what should we do when even our non-fraudulent medicine routinely overpromises?" The amyloid program looks, on this view, like a field that absorbed faked data so smoothly because the rest of its evidence base was, even at its best, weaker than its advocates claimed. Aduhelm did not require fraud. It required an honest field willing to count amyloid clearance as good enough.
 

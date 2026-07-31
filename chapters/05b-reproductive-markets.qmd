@@ -381,7 +381,7 @@ The US is now an outlier among comparable jurisdictions in continuing to permit 
 ## The End of Donor Anonymity
 
 ::: {.callout-important}
-23andMe and Ancestry have **roughly 50 million combined users** as of 2024. Any donor with one cousin in either database is, in practice, identifiable — the donor-conceived child uploads a sample, the algorithm flags a third or fourth cousin, the family tree narrows the candidates to one.
+23andMe and Ancestry have **roughly 50 million combined users**. (23andMe went through bankruptcy in 2025 and its database was sold to a nonprofit founded by its co-founder — the databases outlive the companies that build them. See Chapter 6A.) Any donor with one cousin in either database is, in practice, identifiable — the donor-conceived child uploads a sample, the algorithm flags a third or fourth cousin, the family tree narrows the candidates to one.
 
 The policy of donor anonymity in the US now functions as a **promise the technology no longer lets us keep**. Sperm banks that continue to advertise anonymity are advertising a property of the contract, not a property of the world.
 
@@ -579,7 +579,7 @@ The post-*Dobbs* logic has reached IVF. The next case, wherever it arises, will 
 ::: {.column width="48%"}
 **The facts.** A married couple in France contracted with a Florida woman for gestational surrogacy in 2024. In August 2025, a Broward County judge — Marlon Weiss — granted parental rights but volunteered in his opinion that surrogacy may be *unconstitutional* on fetal-personhood grounds.
 
-Within twenty-four hours of the child's birth, Florida Attorney General James Uthmeier moved to intervene in the confidential proceeding, arguing that commercial surrogacy violates the Thirteenth Amendment's prohibition of slavery. The case is pending before Florida's Fourth District Court of Appeal.
+Within twenty-four hours of the child's birth, Florida Attorney General James Uthmeier moved to intervene in the confidential proceeding, arguing that commercial surrogacy violates the Thirteenth Amendment's prohibition of slavery. **As of the start of this term (July 2026), the case is still pending** before Florida's Fourth District Court of Appeal — so we may get a ruling while we are reading this chapter. The child has remained with the fathers throughout.
 :::
 ::: {.column width="4%"}
 :::
@@ -626,7 +626,7 @@ The ethical question in two sentences: was Adam created *as a means* to Molly's 
 ::: {.callout-note}
 **"Three-parent IVF."** A technique that transfers the nucleus of a fertilized egg into a second egg whose mitochondria are healthy. Used to prevent serious mitochondrial diseases that would otherwise be inherited from the egg donor's mitochondria.
 
-Approved in the UK in 2015; in clinical use since 2016. Approximately 50 children have been born with mitochondrial DNA from a third party.
+Approved in the UK in 2015; in clinical use since 2016. Roughly 50 children worldwide have been born with mitochondrial DNA from a third party. In **July 2025** the Newcastle team — the only clinic in the world licensed to do this — published the first systematic results: **eight healthy babies** (four girls, four boys, including a set of twins) born to seven women at high risk of passing on mitochondrial disease, with the disease-causing mutations either undetectable or at levels unlikely to cause illness [@newcastle2025_mitochondrial].
 
 The philosophical question is whether the mitochondrial donor is a *parent* at all. She contributes ~0.1% of the child's DNA, no nuclear material, and (typically) no relationship. The intent test says no; a strict genetic test says yes.
 :::
