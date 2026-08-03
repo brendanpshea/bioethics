@@ -100,6 +100,12 @@ website:
             text: "Part A — Gender-Affirming Care: Deciding Under Uncertainty"
           - href: chapters/11b-disability-identity.qmd
             text: "Part B — Disability, Identity, and the Limits of Autonomy"
+      - section: "12. Animal Ethics"
+        contents:
+          - href: chapters/12a-animal-moral-status.qmd
+            text: "Part A — Moral Status of Animals and the Ethics of Research"
+          - href: chapters/12b-industrial-xeno.qmd
+            text: "Part B — Industrial Animals, Xenotransplantation, and the Frontier"
 
   page-footer:
     left: |
