@@ -25,3 +25,7 @@ perusall_quizzes/
 book/_output/
 book/pressbooks_cover.png
 pressbooks-export/
+
+# Make-up exams (local only, not committed)
+make-up-exam-*.md
+make-up-exam-*.docx

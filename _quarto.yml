@@ -103,9 +103,9 @@ website:
       - section: "12. Animal Ethics"
         contents:
           - href: chapters/12a-animal-moral-status.qmd
-            text: "Part A — The Moral Status of Animals"
+            text: "Part A — Moral Status of Animals and the Ethics of Research"
           - href: chapters/12b-industrial-xeno.qmd
-            text: "Part B — Industrial Animals & Xenotransplantation"
+            text: "Part B — Industrial Animals, Xenotransplantation, and the Frontier"
 
   page-footer:
     left: |
