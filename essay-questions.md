@@ -1,138 +1,266 @@
 # Bioethics — Essay Questions
 
-## How to use this document
+**Read *How to Write a Bioethics Essay* first.** It has the paragraph shape, the sentence frames, the
+experience ladder for ¶5, the grading criteria, and a fully worked example. This document assumes you
+know all of that.
 
-These are practice essay prompts, two to three for each lecture. **Some of these questions — or close variants of them — may appear on your exams.** Working through them now is the best way to study.
+## How these work
 
-### What every answer needs
+There is **one question for each of the twelve case studies**. They are published in advance — you
+are meant to prepare them.
 
-Each essay should run **five full paragraphs (about 500–1000 words)**. You do **not**  need any outside research. Everything you need comes from class. A strong answer does three things:
+In each essay session you will be given **one** case, drawn from the chapters that exam covers:
 
-1. **Explains** the key idea, argument, or case in your own words.
-2. **Applies** it to the specific situation in the prompt.
-3. **Argues** for a clear position and answers the strongest objection to it.
+| Session | Cases you might be given |
+|---|---|
+| **Exam 1** | 1 Dax Cowart · 2 Tuskegee & Guatemala · 3 Lesné & Aβ\*56 · 4 Kate Cox & Karsan |
+| **Exam 2** | 5 Adriana Smith · 6 He Jiankui · 7 Noelia Castillo · 8 Singapore |
+| **Exam 3** | 9 Wakefield & MMR · 10 Optum · 11 *Skrmetti* · 12 David Bennett |
 
-### The five-paragraph argumentative theme
+You will not know which one until the session starts, so prepare all four. **The case text will be on
+your screen** — you are not being tested on recall.
 
-- **Paragraph 1 — Thesis.** Say what the question is and state your position in one   clear sentence. Don't save your view for the end.
-- **Paragraphs 2–3 — Explain and apply.** Lay out the ideas and authors the question names. Then show how they fit the case.
-- **Paragraph 4 — The other side.** State the best objection to your view, fairly.  Then answer it. This is where most points are won or lost.
-- **Paragraph 5 — Conclusion.** Restate your position and what follows from it.
-
-### Explain it like I'm 12
-
-Write so that a smart 12-year-old could follow you. If you use a term like *autonomy*, *equipoise*, or *substituted judgment*, define it in plain words the first time. Short sentences beat long ones. If you can't explain an idea simply, you don't understand it yet — and I'll be able to tell :).
-
----
-
-## Lecture 1 — Principles, Theories & Moral Reasoning
-
-**1.** A trauma patient with full capacity refuses the blood transfusion that would save her life, while her parents beg the team to act. Pick two of the four principles that pull against each other here. Explain what each one asks for, show how they collide, and argue for which principle should win and why.
-
-**2.** Some students say ethics is "just personal opinion." Using class material, explain how an ethical claim differs from a personal preference and from a legal rule. Then pick one moral question from the course and argue whether reasoned debate can make real progress on it, or whether it really is just opinion.
-
-**3.** Pick one moral theory: utilitarian, Kantian, virtue, or care ethics. Explain its core idea in plain words. Then apply it to a single clinical choice from class. Argue whether the theory gives good guidance here, or whether it misses something that matters.
+Every question below follows the same five-paragraph shape. What changes is the case, the named
+arguments, and the cross-chapter connection.
 
 ---
 
-## Lecture 2 — History & the Clinical Relationship
+## 1 — Dax Cowart
+*Paired with: History & the Clinical Relationship (Ch 2) · uses the four principles from Ch 1*
 
-**1.** The Tuskegee study ran for forty years before it stopped. Explain what went wrong in it, then explain how the Belmont Report and informed consent were meant to prevent another Tuskegee. Argue whether rules and review boards are enough to stop abuse, or whether something more is needed.
+Cowart survived, went to law school, and built a career. He also said, for the rest of his life, that
+his refusal should have been honored.
 
-**2.** A patient says, "You're the doctor — just tell me what to do." Explain the difference between the paternalistic model and the deliberative model of the clinical relationship. Apply both to this patient. Argue which model best respects the patient's autonomy without abandoning her.
+**Question: Does the fact that he was later glad to be alive settle whether the team was right to
+override him?**
 
-**3.** A family asks the team not to tell their elderly mother that she has cancer. Explain the value of truth-telling and the value of respecting family and culture. Show how they conflict here. Argue what the team should do and why.
+- **¶3** Use **The Autonomy Argument** and **The Retrospective-Endorsement Objection**. What exactly
+  does the objection say about the relationship between a *right* and an *outcome*?
+- **¶4** The strongest objection is **The Beneficence / Temporary-Incapacity Reply** — that pain that
+  severe undermines the capacity to refuse. State it fairly before you answer it.
 
----
-
-## Lecture 3 — Research Ethics
-
-**1.** Explain clinical equipoise in plain words, and why it both lets a trial start and forces it to stop. Apply it to a trial that is ended early because the new drug looks better. Argue whether stopping early for good results is always the right call.
-
-**2.** In class, vulnerability means pressure and power, not personality. Explain this idea. Then apply it to a plan to test a new vaccine on prison inmates. Argue whether the prisoners should be allowed to join the trial, and under what conditions.
-
-**3.** Explain what p-hacking is and how it produces false findings. Then explain why bad science is not just a quality problem but an ethics problem for research subjects. Argue whether a scientist who p-hacks has wronged the people in the study.
-
----
-
-## Lecture 4 — Abortion
-
-**1.** Thomson's violinist argument and Marquis's "future like ours" argument reach opposite conclusions. Explain what each one claims and what each one grants to the other side. Then argue which argument is stronger, and answer the best objection to the view you choose.
-
-**2.** Explain *stare decisis* and why reliance on a past ruling carries moral weight. Apply this to the Court overturning Roe in Dobbs. Argue whether long reliance on a precedent should make it harder to overturn, even when judges think it was wrong.
-
-**3.** Use the four principles to lay out the strongest pro-choice and pro-life readings of autonomy and non-maleficence. Then argue whether a moderate position — one that allows abortion early but not late — is coherent, or just a political compromise.
+**Cross-chapter:** Chapter 1 gave you four principles. Which two collide hardest here — and does
+naming the collision actually tell you which should win?
 
 ---
 
-## Lecture 5 — Reproductive Ethics
+## 2 — Tuskegee & Guatemala
+*Paired with: Research Ethics (Ch 3)*
 
-**1.** Explain the difference between liberal autonomy and relational autonomy. Bring in Mill's harm principle. Apply all three to a state that prosecutes women for drug use during pregnancy. Argue whether this kind of criminal law is justified or does more harm than good.
+Tuskegee ran for forty years. Doctors and nurses watched it happen. Some knew it was wrong.
 
-**2.** Anderson argues that paying for eggs or surrogacy wrongs both the providers and the children; Robertson defends procreative liberty. Explain both views. Apply them to paying $50,000 for an Ivy League donor's egg. Argue who has the better case.
+**Question: Would today's rules have stopped it?**
 
-**3.** A pregnant patient with full capacity refuses a cesarean her doctors say will save the fetus. Explain what respect for autonomy requires here and why courts have backed away from forcing surgery. Argue whether a court should ever be able to override her refusal.
+- **¶3** Use **The Regulatory-Gap Argument** and **The Conscience Argument**. One says the problem was
+  missing rules; the other says the problem was people who did not refuse. Which better explains
+  forty years?
+- **¶4** The strongest objection is **The Institutional-Design Reply** — that relying on individual
+  conscience is exactly what failed, and design is what fixed it.
 
----
-
-## Lecture 6 — Genomics & Enhancement
-
-**1.** Should parents be able to test a healthy 8-year-old for an adult-onset gene like BRCA or Huntington's? Explain Feinberg's "right to an open future" and apply it to this choice. Argue for your answer, and say whether it changes when the disease has no cure.
-
-**2.** A healthy nursing student takes Adderall to study, even though she has no ADHD diagnosis. Explain why the line between treatment and enhancement keeps collapsing. Apply at least two accounts of that line to her case. Argue whether her use is ethically different from a diagnosed patient's.
-
-**3.** Savulescu says parents have reason to select the best possible child; Sandel warns this reflects a "drive to mastery." Explain both views. Apply them to a safe technique that boosts a child's IQ by ten points. Argue whether parents should use it, and who should have access.
+**Cross-chapter:** Chapter 2 gave you the Belmont principles. Pick the one Tuskegee violated *most*,
+and defend your choice against the obvious rival.
 
 ---
 
-## Lecture 7 — End-of-Life Care
+## 3 — Sylvain Lesné and the Aβ\*56 Affair
+*Paired with: Research Ethics (Ch 3)*
 
-**1.** Rachels argues that killing and letting die are not morally different in themselves. Explain his argument and Foot's reply. Then apply both to Brittany Maynard, who took a prescribed drug to end her life. Argue whether her choice differs morally from refusing a ventilator.
+Images were manipulated. Hundreds of papers cited the work. Billions in funding followed the amyloid
+hypothesis.
 
-**2.** A disability-rights critic warns that legal assisted death puts vulnerable people at risk, while Brock defends it on autonomy grounds. Explain both positions fairly. Argue which concern should carry more weight when a state writes its law, and what your view means for real patients.
+**Question: Who was wronged by this fraud — and is weak-but-honest science a *different* kind of
+problem, or the same kind?**
 
-**3.** Terri Schiavo had no advance directive, and her family was split. Explain the difference between the substituted-judgment standard and the best-interest standard. Apply both to her case. Argue who should decide for a patient who left no clear wishes.
+- **¶3** Use **Schrag's Argument** and **The "Robustness" Reply** — the claim that the field's
+  conclusions did not really rest on the faked images. Name the premise they disagree about.
+- **¶4** Bring in **The Medical Nihilism Argument** or **The Gentle Medicine Argument**. If a field
+  absorbed fraud that smoothly, what does that say about the rest of its evidence?
 
----
-
-## Lecture 8 — Justice & Health Care Allocation
-
-**1.** One donor kidney; several patients who need it. Explain how two of the four theories of justice — utilitarian, Rawlsian, libertarian, or capabilities — would decide who gets it. Argue which theory should guide a real allocation system like UNOS, and why.
-
-**2.** Explain the difference between a positive right and a negative right, and use it to ask whether people have a moral right to health care. Bring in Daniels' fair-opportunity argument. Argue whether the US should treat health care as a right or as a market good.
-
-**3.** The US spends about double what peer nations spend but gets worse results on life expectancy. Explain one major cause of this gap from class. Then argue for one change to the system, and name which theory of justice from Lecture 8a your choice serves.
-
----
-
-## Lecture 9 — Public Health Ethics
-
-**1.** A state requires a vaccine and allows few exemptions. Explain the conflict between individual liberty and collective welfare, and what *Jacobson v. Massachusetts* decided. Use Childress's conditions (like necessity and least infringement) to test the mandate. Argue whether it is justified.
-
-**2.** Under crisis standards of care, who gets the last ventilator changes. Explain how triage shifts when resources run out and what scoring approaches try to do. Argue what a fair way to allocate scarce ventilators would look like, and what your rule risks getting wrong.
+**Cross-chapter:** Chapter 3 taught clinical equipoise. If the evidence base was weaker than
+advertised, were the trials built on it ever in genuine equipoise?
 
 ---
 
-## Lecture 10 — AI in Medicine
+## 4 — Kate Cox and Damla Karsan
+*Paired with: Abortion (Ch 4)*
 
-**1.** The Optum algorithm used cost to predict who needed care and underestimated Black patients' illness. Explain how using a proxy variable created this bias. Argue who is responsible for the harm — the builders, the hospital, or the clinicians who trusted it — and what should change.
+Classical conscience protections were built for the clinician who **refuses**. Karsan wanted to
+**provide**.
 
-**2.** A hospital uses an AI tool that helps make diagnoses, but no one can fully explain how it works. Explain why informed consent might require telling patients AI was involved. Argue whether patients should always be told, or only sometimes, and on what it depends.
+**Question: Should conscientious provision get the same protection as conscientious refusal?**
+
+- **¶3** Use **The Integrity Argument for Refusal** and **The Argument for Conscientious Provision**.
+  Both appeal to professional integrity. Where do they part company?
+- **¶4** The strongest objection is **The Stahl-Emanuel Reply**. State it in its most forceful form —
+  refusal asks to be left out, provision asks the profession to underwrite law-breaking.
+
+**Cross-chapter:** Chapter 2 described models of the clinical relationship. Which model is Karsan
+practicing when she puts her name on the lawsuit?
 
 ---
 
-## Lecture 11 — Gender, Identity & Disability
+## 5 — Adriana Smith
+*Paired with: Autonomy, Paternalism & Reproduction (Ch 5)*
 
-**1.** The Cass Review questioned the evidence behind some adolescent gender-affirming care. Explain the tension between parental authority, a teen's assent, and clinical gatekeeping. Argue where the age line for irreversible care should fall, and who should have the final say.
+Smith was legally dead. Her body was maintained for about four months over her family's objection.
+The Attorney General said the law did not require it. The hospital continued anyway.
 
-**2.** Barnes argues disability is "mere difference"; others call it "bad difference." Explain both views. Apply them to the disability-rights critique of selecting against a disabled fetus. Argue whether choosing to avoid disability sends a harmful message, or is a reasonable choice.
+**Question: What kind of medical act was the hospital performing for those four months?**
 
-**3.** A patient with full capacity asks a surgeon to amputate a healthy limb to match how he sees his own body. Explain what respect for autonomy seems to require and where non-maleficence pushes back. Argue whether the surgeon should ever agree.
+- **¶3** Use **The "Not an Abortion" Argument** and **The Experimentation Argument (Caplan)**. Caplan's
+  claim is that this fit none of medicine's existing categories. Is he right?
+- **¶4** Answer the strongest objection to your ¶1. If you said the hospital acted wrongly, the
+  objection is that a fetus with a real chance of life was at stake and caution was owed.
+
+**Cross-chapter:** Chapter 3 distinguished research from care. If this was neither, what protections
+did Smith and her family lose by falling outside both?
 
 ---
 
-## Lecture 12 — Animal Ethics
+## 6 — He Jiankui and the CRISPR Twins
+*Paired with: Genomics & Enhancement (Ch 6)*
 
-**1.** Explain how Singer's utilitarian view, Regan's rights view, and the Kantian indirect-duties view each judge the moral status of animals. Apply all three to the use of monkeys in medical research. Argue which view is most convincing and what it means for that research.
+Two children were born with edited genomes. The stated goal was HIV resistance.
 
-**2.** Marquis says abortion is wrong because it takes away a "future like ours." Explain his argument. Then apply it to killing a pig — for food, or for its organs in a transplant. Argue whether someone who accepts Marquis on abortion must also oppose killing the pig.
+**Question: Was the deepest wrong here the *risk* he took, or the *consent* he failed to get?**
+
+- **¶3** Use **He Jiankui's Defense** and **The Risk-Benefit Reply**. Be fair to the defense — he did
+  believe he was preventing a real disease.
+- **¶4** Bring in **The Future Person's Consent Reply**. Nobody can consent for a person who does not
+  yet exist. Does that make germline editing uniquely wrong, or is it true of every reproductive
+  decision parents make?
+
+**Cross-chapter:** Chapter 3 listed the elements of valid consent. Which element failed most
+completely with the parents — and would fixing it have made the experiment acceptable?
+
+---
+
+## 7 — Noelia Castillo
+*Paired with: End-of-Life Care (Ch 7)*
+
+This case reverses the usual fight. In Quinlan, Cruzan, and Schiavo, families fought to stop treatment
+while the state insisted on life. Here a competent woman fought for death while her father fought to
+keep her alive.
+
+**Question: When a competent patient and her family want opposite things, how much weight should the
+family's objection carry?**
+
+- **¶3** Use **The Autonomy Argument** and **The Capacity Challenge**. Explain what *capacity* means
+  in this course, and why it is the hinge the whole dispute turns on.
+- **¶4** Bring in **The Vulnerability / Disability Argument** or **The Anti–Double-Standard Reply**,
+  whichever cuts against your ¶1. Remember her father was not a stranger — and he could have been
+  right.
+
+**Cross-chapter:** Chapter 5A separated **soft** paternalism (overriding a *compromised* choice) from
+**hard** paternalism (overriding a *competent* one). Which was her father asking the courts to
+perform?
+
+---
+
+## 8 — Singapore's Health Care System
+*Paired with: Justice & Health Care Allocation (Ch 8)*
+
+Singapore spends about a quarter of what the US spends per person and gets better results on most
+headline measures. It also excludes a large migrant workforce from its subsidies.
+
+**Question: Can the United States learn from Singapore, or is the result inseparable from the
+trade-offs that produce it?**
+
+- **¶3** Use **The Emulation Argument** and **The Whole-System Argument**. The second says you cannot
+  import one piece of a system that only works as a whole. Name the disputed premise.
+- **¶4** Bring in **The Exclusion Argument**. If the outcomes depend partly on who is left out of the
+  count, what happens to the comparison?
+
+**Cross-chapter:** Chapter 8A gave you theories of justice. Pick the one Singapore's design best
+serves, and the one it most clearly violates.
+
+---
+
+## 9 — Andrew Wakefield and the MMR-Autism Myth
+*Paired with: Public Health Ethics (Ch 9)*
+
+The science was settled decades ago. The belief spread anyway — and measles came back.
+
+**Question: When the facts are settled and the fear spreads regardless, what may a free society do
+about it — and what may it never do?**
+
+- **¶3** Use **The Correction Argument** and **The Backfire Reply**. Does telling people they are
+  wrong make things better or worse?
+- **¶4** Bring in **The Earned-Distrust Argument** or **The Engagement Argument**. The hardest version
+  of the other side is that some distrust of medicine was *earned* — and Case 2 is the receipt.
+
+**Cross-chapter:** Chapter 2 and Case 2 are about how trust was broken. Does a history like Tuskegee
+change what public health is *permitted* to do now, or only what is likely to work?
+
+---
+
+## 10 — The Optum Care-Management Algorithm
+*Paired with: AI in Medicine (Ch 10)*
+
+The algorithm used health *cost* as a stand-in for health *need*. Because less was spent on Black
+patients, it judged them healthier than they were.
+
+**Question: Who is responsible for this harm — the builders, the hospitals that bought it, or the
+clinicians who trusted it?**
+
+- **¶3** Use **The Colorblind Accuracy Argument** and **The Warped Proxy Argument**. The algorithm
+  never saw race. Explain how it discriminated anyway.
+- **¶4** Bring in **The Fixable Machine Argument** — the optimistic view that this bias was found and
+  corrected, which is more than we can say for human bias. Then answer it, using **The Vanishing
+  Label Argument** if it helps.
+
+**Cross-chapter:** Chapter 8 was about justice in allocation. Was this a *new* injustice, or an old
+one automated and scaled?
+
+---
+
+## 11 — *United States v. Skrmetti*
+*Paired with: Gender, Identity & Disability (Ch 11)*
+
+The same drug is legal for one purpose and illegal for another. Whether that is a line about
+**purpose** or a line about **sex** decided the case.
+
+**Question: Is SB1 a classification by purpose, or a classification by sex?**
+
+- **¶3** Use **The Sex-Classification Argument** and **The Medical-Purpose Reply**. Both accept the
+  facts about the statute. Name precisely what they disagree about.
+- **¶4** The majority argued that where evidence is contested, *legislatures* rather than courts
+  should decide. Answer that — or, if it is your position, answer the objection that weak evidence is
+  a reason for courts to be *more* protective of an individual, not less.
+
+**Cross-chapter:** Chapter 5A was about paternalism, and Chapter 2 about who decides for a minor.
+Whose autonomy is actually at stake in this case — the teenager's, or the parents'?
+
+---
+
+## 12 — David Bennett and the Pig-Heart Transplant
+*Paired with: Animal Ethics (Ch 12)*
+
+Bennett was dying and out of options. He consented to an organ no human had ever received.
+
+**Question: Was his consent genuinely free — and does it matter?**
+
+- **¶3** Use **The Rule-of-Rescue Argument** and **The Therapeutic-Misconception Reply**. When someone
+  has no alternative, is their agreement a choice or the absence of one?
+- **¶4** Bring in **The Public-Risk Argument**. The infection risk of a cross-species transplant falls
+  on people who were never in the consent conversation. Can any individual consent settle that?
+
+**Cross-chapter:** Chapter 3 separated research from care. Bennett's surgery was a rescue; the field
+has since moved into regulated clinical trials. Does that shift make consent easier to obtain
+honestly, or harder?
+
+---
+
+## A note on preparing these
+
+You cannot prepare by memorising an essay — you will not know which of the four cases you are given,
+and a pre-written answer to the wrong question earns nothing.
+
+You *can* prepare, and the preparation is genuinely useful:
+
+1. For each case in the exam's range, find its named arguments.
+2. For each pair, work out **what premise they actually disagree about**. That single sentence is ¶3.
+3. Decide which side you are on, and write down the best objection to your own view. That is ¶4.
+4. Think about which rung of the ladder you would use, and why it fits your position. That is ¶5.
+
+Four ten-minute plans per exam. That is the whole job.
