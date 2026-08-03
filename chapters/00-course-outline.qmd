@@ -591,13 +591,13 @@ The lecture's question: if giving people the facts doesn't fix false medical bel
 |---|------|----------------|
 | 1 | Dax Cowart — refusing burn treatment | L2 Clinical relationship |
 | 2 | Tuskegee Syphilis Study | L3 Research ethics |
-| 3 | Henrietta Lacks & HeLa cells | L3 Research ethics (bridges to L8) |
+| 3 | Sylvain Lesné & the Aβ\*56 affair — research misconduct and replication | L3 Research ethics |
 | 4 | Kate Cox — post-*Dobbs* medical exception | L4 Abortion |
 | 5 | Adriana Smith — brain death, pregnancy, and the limits of fetal-protection law | L5 Reproductive ethics |
 | 6 | He Jiankui CRISPR twins (2018) | L6 Genomics & enhancement |
-| 7 | Terri Schiavo | L7 End of life |
-| 8 | Organ allocation: Sarah Murnaghan & UNOS | L8 Justice |
-| 9 | COVID-19 ventilator triage (NY / Italy) | L9 Public health |
+| 7 | Noelia Castillo — psychiatric suffering, capacity, and the limits of euthanasia law | L7 End of life |
+| 8 | Singapore's health care system — cost, access, and what the US can (and can't) learn | L8 Justice |
+| 9 | Andrew Wakefield & the MMR-autism myth — misinformation and public trust | L9 Public health |
 | 10 | Optum care-management algorithm | L10 AI in medicine |
 | 11 | *U.S. v. Skrmetti* — gender-affirming care, evidence, and the law | L11 Gender, identity & disability |
 | 12 | David Bennett — first pig-heart xenotransplant | L12 Animal ethics |

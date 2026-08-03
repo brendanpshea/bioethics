@@ -236,7 +236,7 @@ Exams are scheduled to **open Friday evening and close Sunday night** so you can
   - 4b: The law and reproductive rights (Roe → Casey → Dobbs)
   - *Case 4: Kate Cox & post-Dobbs medical exceptions*
 - **Wed 6/10:** Ch 5 — Reproductive Ethics
-  - 5a: Pregnancy, autonomy, and maternal-fetal conflict
+  - 5a: Paternalism and its limits — autonomy, drug policy, pregnancy
   - 5b: Making family — markets, surrogacy, parental rights
   - *Case 5: Adriana Smith*
 - **Fri 6/12:** Ch 6 — Genomics & Enhancement
@@ -249,15 +249,15 @@ Exams are scheduled to **open Friday evening and close Sunday night** so you can
 - **Mon 6/15:** Ch 7 — End of Life
   - 7a: Brain death, PVS, advance directives
   - 7b: Euthanasia, MAID, disability critiques
-  - *Case 7: Terri Schiavo*
+  - *Case 7: Noelia Castillo — psychiatric suffering & capacity*
 - **Wed 6/17:** Ch 8 — Justice & Health Care Allocation
   - 8a: Theories of justice; right to care
-  - 8b: Disparities, implicit bias, rationing
-  - *Case 8: Sarah Murnaghan & UNOS organ allocation*
+  - 8b: Why US health care costs so much — and delivers so little
+  - *Case 8: Singapore's health care system*
 - **Fri 6/19:** Ch 9 — Public Health Ethics
   - 9a: From patient to population
-  - 9b: Pandemics, mandates, and what COVID revealed
-  - *Case 9: COVID-19 ventilator triage (NY / Italy)*
+  - 9b: False beliefs and the ethics of correction
+  - *Case 9: Andrew Wakefield & the MMR-autism myth*
 - **Sat–Sun 6/20–6/21: Exam 2 (Ch 5–8)**
 
 **Week 4 — Frontiers (6/22 – 6/28)**
@@ -268,7 +268,7 @@ Exams are scheduled to **open Friday evening and close Sunday night** so you can
 - **Wed 6/24:** Ch 11 — Gender, Identity & Disability
   - 11a: Gender-affirming care and the evidence debate (Cass Review)
   - 11b: Disability, identity, and the limits of autonomy
-  - *Case 11: Bell v. Tavistock*
+  - *Case 11: United States v. Skrmetti*
 - **Fri 6/26:** Ch 12 — Animal Ethics
   - 12a: Moral status of animals and the ethics of research
   - 12b: Industrial animals, xenotransplantation, connecting threads
