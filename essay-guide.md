@@ -191,12 +191,16 @@ That plan is the essay. Everything after it is turning bullets into sentences.
 
 ## Practicing
 
-The twelve exam questions — one for each case study — are in **Essay Questions**. They are published
-in advance. Prepare by:
+The best preparation is not writing practice essays. It is getting fast at the planning step.
 
-1. Reading the case and finding its named arguments. Every case has them.
-2. Asking, for each pair: *what premise do these two actually disagree about?*
-3. Writing a ten-minute plan like the one above. You do not need to write full essays to practice
-   well — planning is the skill.
+For each case study in the range your exam covers:
 
-You will not know which of the four cases you'll be given until the session starts, so plan all four.
+1. Read the case and find its named arguments. Every case has them.
+2. For each pair, ask: *what premise do these two actually disagree about?* That one sentence is your
+   ¶3.
+3. Decide which side you are on, then write down the strongest objection to your own view. That is
+   your ¶4.
+4. Think about which rung of the ladder you would use, and why it fits your position. That is your ¶5.
+
+Do that as a ten-minute plan, like the one above — bullets, not sentences. You will not know which
+case you'll be given until the session starts, so work through each one in the range.
