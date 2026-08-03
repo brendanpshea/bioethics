@@ -2,8 +2,9 @@
 
 ## What this is
 
-Three times this term you will write one essay in a **separate 75-minute session** using LockDown
-Browser. You will be given **one case study** from the chapters that exam covers, and one question
+Three times this term you will write one essay in a **75-minute session** using LockDown Browser.
+Plan on roughly **60 minutes of actual writing** — the rest of the window is getting set up and
+submitting. You will be given **one case study** from the chapters that exam covers, and one question
 about it.
 
 **The case will be on your screen.** You do not need to memorize dates, names, or details. What you
@@ -23,8 +24,8 @@ Every essay in this course has the **same shape**. Learn it once and you can use
 | **¶4 — The other side** | State the strongest objection fairly. Then answer it. |
 | **¶5 — You** | Connect it to your own life, work, or values. Say what you would do. |
 
-**Length:** 400–800 words. A tight 450 beats a padded 800. You have 75 minutes; spend the first ten
-planning.
+**Length:** 400–600 words. A tight 450 beats a padded 600. Spend the first ten minutes planning
+before you write a sentence.
 
 **Label your paragraphs** if you like — writing `¶1 — My position` as a heading is allowed and
 encouraged. It helps you keep track, and it helps me follow you.
