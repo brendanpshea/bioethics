@@ -168,8 +168,8 @@ Mrs. R asks: *"So what happens now?"* Same clinician, same facts, four models:
 - **[Deliberative]{.key-term}** — "Here's what I'd weigh in your situation, and why. What do you think?"
   - *Risk:* good persuasion can tip into pressure
 
-::: {.notes}
-Read these aloud in four different voices. The point students should feel: the *facts* never changed — only what the clinician did with authority.
+::: {.aside-note}
+Read all four aloud, in four different voices. Notice that the *facts* never change — only what the clinician does with authority.
 :::
 
 ## What the Research Actually Shows
@@ -350,8 +350,8 @@ digraph consent {
 - Until his death in 2019 he held a deliberately uncomfortable position: he was glad to be alive *and* insisted his autonomy had been gravely violated.
 - That paradox — a good outcome reached by a wrong route — is exactly why the case refuses to resolve neatly [@cowart1998].
 
-::: {.notes}
-This is the paired case study. Students don't need the full facts now — only enough to feel the autonomy/beneficence collision before they read it.
+::: {.aside-note}
+This is the chapter's paired case study. You don't need the full facts yet — only enough to feel the autonomy/beneficence collision before you read it properly.
 :::
 
 ## Thought Question

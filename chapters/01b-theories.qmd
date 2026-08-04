@@ -55,8 +55,8 @@ We will use these lenses throughout the course — not to pick a winner, but to 
 
 The four principles are the shared backdrop all three lenses interpret — differently.
 
-::: {.notes}
-Remind students: these will appear in almost every subsequent lecture. Abortion, end of life, justice — each one sees these theories pulling differently.
+::: {.aside-note}
+These four theories reappear in almost every chapter that follows. Abortion, end of life, justice — each one sets them pulling in different directions. Noticing *which* theory is doing the work in an argument is half of reading it well.
 :::
 
 # Utilitarianism {.section-divider}
@@ -206,8 +206,8 @@ A utilitarian protocol would allocate ventilators to maximize lives saved — wh
 - So he holds **abortion** permissible (an early fetus is not yet a person) and defends **voluntary euthanasia**.
 - Most controversially, he argues that for some severely impaired newborns, ending life may be permissible, given the suffering that is likely to characterize these lives.
 
-::: {.notes}
-Why teach the hardest case: Singer matters precisely because he refuses to stop where intuition gets uncomfortable. This slide is the hinge — the next section asks whether "follow the calculation wherever it leads" is the right method at all.
+::: {.aside-note}
+Singer matters precisely because he refuses to stop where intuition gets uncomfortable. This is the hinge of the chapter: the next section asks whether "follow the calculation wherever it leads" is the right method at all.
 :::
 
 # Kantian Ethics {.section-divider}

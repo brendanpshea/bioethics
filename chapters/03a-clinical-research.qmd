@@ -41,8 +41,8 @@ Three starting points matter here:
 - **Hope is not the same as a promise.** Ethical recruitment does not kill hope. It also cannot quietly sell the study as personal treatment.
 :::
 
-::: {.notes}
-The opening move should make students feel how easily research can sound like an ordinary treatment recommendation. The point is not to make them anti-research. It is to make them notice the difference in purpose.
+::: {.aside-note}
+Notice how easily research can sound like an ordinary treatment recommendation. The point is not to make you suspicious of research. It is to make the difference in *purpose* audible when you hear it.
 :::
 
 ## Today

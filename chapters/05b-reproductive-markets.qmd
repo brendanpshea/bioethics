@@ -27,8 +27,8 @@ In 1985, William Stern and Mary Beth Whitehead signed a contract through a New J
 3. If the contract is wrong, is the wrong done to Whitehead, to the child, or to the rest of us?
 :::
 
-::: {.notes}
-These are the actual terms summarized in the New Jersey Supreme Court's opinion. The case is *In re Baby M*, 109 N.J. 396 (1988). We will return to what the court did with the contract later in the lecture.
+::: {.aside-note}
+These are the actual terms, as summarized in the New Jersey Supreme Court's opinion — *In re Baby M*, 109 N.J. 396 (1988). We return to what the court did with the contract later in this chapter.
 :::
 
 ## After You've Discussed
@@ -518,8 +518,8 @@ The opinion does not state that all destruction of frozen embryos constitutes wr
 — Parker, C.J., concurring, *LePage v. Mobile Infirmary Clinic* (2024)
 :::
 
-::: {.notes}
-The concurrence is not the holding. The majority opinion rests on statutory interpretation; Parker's concurrence supplies the religious framing. Students should be able to tell the difference.
+::: {.aside-note}
+A concurrence is not the holding. The majority opinion rests on statutory interpretation; Parker's concurrence supplies the religious framing. Telling those apart matters here — press coverage often quoted the concurrence as though it were the ruling.
 :::
 
 ## The Clinical Reaction
