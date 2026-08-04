@@ -78,6 +78,16 @@ Whether that reply works is the question the rest of the lecture argues about.
 :::
 ::::
 
+## The Being the Charge Is About
+
+![](../images/chimpanzee_sanctuary.jpg){width="70%" fig-alt="A chimpanzee sitting in grass at the Sweetwaters Chimpanzee Sanctuary in Kenya"}
+
+::: {.attribution}
+Valentina Storti, via Wikimedia Commons. CC BY 2.0.
+:::
+
+Chimpanzees use tools, recognize themselves in mirrors, and grieve their dead. Wherever you draw the line, you have to say on which side this one falls.
+
 ## The Spectrum of Views
 
 ```{python}

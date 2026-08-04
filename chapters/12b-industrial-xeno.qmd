@@ -69,6 +69,16 @@ Whatever you think of eating meat, start with the number.
 
 The scale matters morally: a practice repeated 80 billion times needs a justification 80 billion times as strong.
 
+## What That Number Looks Like
+
+![](../images/cafo_aerial.jpg){width="78%" fig-alt="Aerial view of a concentrated animal feeding operation: rows of long metal barns surrounded by bare ground and waste lagoons"}
+
+::: {.attribution}
+Socially Responsible Agricultural Project, via Wikimedia Commons. CC BY 4.0.
+:::
+
+Each of those barns holds thousands of animals that will never go outside. This is what 80 billion a year requires.
+
 ## It Harms Humans Too: Antibiotics
 
 The welfare case is not the only case. Factory farming is also a **public-health** problem — which means even a strictly human-centered ethics has to reckon with it.

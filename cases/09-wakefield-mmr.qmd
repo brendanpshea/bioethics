@@ -25,6 +25,12 @@ Deer found the money, too. Wakefield had been paid more than **£435,000** by la
 
 The damage did not wait for the correction. In Britain, MMR vaccination fell from about 92% to below 80%. In some London boroughs it dropped further. Measles, once nearly gone, came back. In 2013, an outbreak in Swansea, Wales, infected more than 1,200 people and killed a young man. Outbreaks followed across Europe and the United States. Children who could not be vaccinated — newborns, kids with cancer — lost the shield that high vaccination had given them. The fear was abstract. The harm was not.
 
+![The measles rash. Before the vaccine, nearly every American child caught measles; the disease still kills more than 100,000 people a year worldwide.](../images/measles_rash.jpg){#fig-measles width="55%" fig-alt="A young boy lying down, his face and torso covered in the blotchy red rash of measles."}
+
+::: {.attribution}
+US Centers for Disease Control and Prevention. Public domain.
+:::
+
 ::: {.context-box}
 **Herd immunity and R₀**
 

@@ -3,9 +3,41 @@
 Instructor working document. Chapters 1–4 carry 20 of the course's 22 images; Chapters 5–12 —
 roughly 540 slides — have one between them. This is the shortlist for closing that gap.
 
-**Status:** candidates identified, **licenses not yet verified.** The container this was drafted in
-can search the web but cannot open image pages or download files, so every entry below needs a
-click-through before use. Treat this as a research shortcut, not a cleared list.
+**Status:** first pass complete — 9 images verified, downloaded, and wired into slides
+(2026-08-04). Licenses were checked against the Commons API (`LicenseShortName` per file), not
+merely inferred from search results. The remaining entries below are still **unverified
+candidates** and need a click-through before use.
+
+### Cleared and in use
+
+| File | Where | License |
+|---|---|---|
+| `john_snow_map.jpg` | 9A, replaced a broken file | Public domain (Snow, 1854) |
+| `cafo_aerial.jpg` | 12B, "What That Number Looks Like" | CC BY 4.0 (Socially Responsible Agricultural Project) |
+| `chimpanzee_sanctuary.jpg` | 12A, "The Being the Charge Is About" | CC BY 2.0 (Valentina Storti) |
+| `curb_cut.jpg` | 11B, "The Canonical Example" | CC0 (Ezekielf) |
+| `icsi_micrograph.png` | 5B, "ICSI Under the Microscope" | CC0 (Dr Elena Kontogianni) |
+| `supreme_court_building.jpg` | 11A, "Where It Landed" | Public domain (Highsmith / LoC) |
+| `chest_xray.jpg` | 10A, "What the Model Sees" | CC0 (Mikael Haggstrom) |
+| `shotgun_sequencing.jpg` | 6A, "Shotgun Sequencing, Illustrated" | Public domain (NHGRI) |
+| `measles_rash.jpg` | Wakefield case study | Public domain (CDC) |
+
+### Corrections to this plan
+
+- **`john_snow_map.jpg` was not usable.** It was a 2,186-byte Wikimedia HTML error page saved with a
+  `.jpg` extension, so 9A had been shipping a broken figure. Same for `dna_helix.jpg` and
+  `disability_pride_flag.svg`, both unused; all three are now gone. The cause is a failed download
+  written to disk unchecked — `upload.wikimedia.org/.../NNNpx-` thumb URLs can return HTTP 400 with
+  an HTML body. Use `Special:FilePath/<File>?width=N` and check the magic bytes before saving.
+- **9B has no measles content**, so the "measles rash" entry had no slide to land on. The image went
+  to the Wakefield case study instead, which discusses the disease at length.
+- **The 10A chest-X-ray pairing was wrong.** "What the Model Actually Learned" is about skin lesions
+  and marker pen. The X-ray went to the portable-scanner slide, where it is about radiology.
+- **A better CAFO image exists.** The EPA file this plan called the best-verified candidate is only
+  350×250. `Concentrated animal feeding operation, Missouri (1).JPG` is CC BY 4.0 at 6016×4000, and
+  an aerial view suits "the scale is the argument" better than a barn interior.
+- **Skipped:** the NHGRI sequencing-cost chart. It is public domain and clean, but its data stops at
+  2011, which sits badly in a course that just refreshed its statistics.
 
 ---
 

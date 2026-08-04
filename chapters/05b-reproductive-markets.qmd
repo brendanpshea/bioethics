@@ -85,6 +85,16 @@ By 2020, ICSI was used in roughly 70% of US IVF cycles — far beyond the male-f
 :::
 ::::
 
+## ICSI Under the Microscope
+
+![](../images/icsi_micrograph.png){width="76%" fig-alt="Micrograph of intracytoplasmic sperm injection: a holding pipette steadies an egg while a needle injects a single sperm"}
+
+::: {.attribution}
+Dr Elena Kontogianni, via Wikimedia Commons. CC0 1.0.
+:::
+
+The blunt pipette on the left holds the egg still; the needle on the right carries one sperm. The technique that made severe male infertility treatable is the same one now used by default.
+
 ## PGT — What It Tests For
 
 **Preimplantation genetic testing (PGT)** is performed on a few cells biopsied from an embryo before transfer. Three named variants test for different things.

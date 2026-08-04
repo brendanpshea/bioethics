@@ -77,6 +77,16 @@ The [social model]{.key-term}, forged by disabled activists in the 1970s, separa
 - This is the logic behind curb cuts, the Americans with Disabilities Act, ramps, captioning, and screen readers — accommodations that move the "fix" off the body and onto the environment.
 - Its blind spot: some burdens — chronic pain, fatigue, a shortened life — are not waiting behind a missing ramp.
 
+## The Canonical Example
+
+![](../images/curb_cut.jpg){width="72%" fig-alt="A sidewalk ramp sloping down to a curb cut with tactile paving at a street crossing"}
+
+::: {.attribution}
+Ezekielf, via Wikimedia Commons. CC0 1.0.
+:::
+
+Wheelchair users fought for curb cuts. They are now used by anyone pushing a stroller, pulling a suitcase, or nursing a bad knee — which is the practical case for designing to the margin.
+
 ## A Wheelchair and a Flight of Stairs
 
 ```{dot}

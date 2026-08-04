@@ -95,6 +95,16 @@ The HGP was a public, international project led by the NIH and the Department of
 
 Both finished. The shotgun method won the science fight; the public group won the policy fight.
 
+## Shotgun Sequencing, Illustrated
+
+![](../images/shotgun_sequencing.jpg){width="72%" fig-alt="Diagram of whole-genome shotgun sequencing: a genome is broken into random overlapping fragments, each is sequenced, and a computer reassembles them by matching the overlaps"}
+
+::: {.attribution}
+National Human Genome Research Institute. Public domain.
+:::
+
+Break the genome at random, sequence the pieces, and let the computer find the overlaps. The method is fast because nothing has to be mapped first — and fragile for the same reason, since repeated stretches look alike.
+
 ## Collins 1999, Verbatim
 
 ::: {.quote-card}
