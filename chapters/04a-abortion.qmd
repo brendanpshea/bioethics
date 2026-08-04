@@ -27,8 +27,8 @@ You wake up in a hospital bed. In the bed beside you is a famous, unconscious vi
 3. Where, exactly, does this scenario stop resembling a pregnancy?
 :::
 
-::: {.notes}
-This is Judith Jarvis Thomson's 1971 case. Don't formalize it yet — let students react. We'll come back and reconstruct it as an explicit argument later in the lecture.
+::: {.aside-note}
+This is Judith Jarvis Thomson's 1971 case. Don't formalize it yet — react to it first. We come back and reconstruct it as an explicit argument later in the chapter.
 :::
 
 ## After You've Discussed
@@ -137,8 +137,8 @@ The word **"murder"** has already done all the work — it means *wrongful killi
 :::
 ::::
 
-::: {.notes}
-Once students see equivocation and question-begging, they hear them everywhere — these are transferable skills for the rest of the course.
+::: {.aside-note}
+Once you can see equivocation and question-begging, you hear them everywhere. These two are worth the effort: they transfer to every chapter that follows.
 :::
 
 ## Activity 1 — Reconstruct It
@@ -155,8 +155,8 @@ Here is a passage in the style philosophers actually write in. Pull it apart int
 3. Which premise do you find **least secure**, and why?
 :::
 
-::: {.notes}
-This is a paraphrase of Marquis. We'll formalize it carefully in the next section — students should be primed to see it again.
+::: {.aside-note}
+This is a paraphrase of Marquis, not his exact words. We formalize it carefully in the next section — you will see it again.
 :::
 
 # Two Quick Briefers {.section-divider}

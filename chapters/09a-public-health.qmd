@@ -180,8 +180,8 @@ Applied first to her **first** detention — three years, on no precedent at all
 | Least infringement | ❌ | No trial, no warning, indefinite — straight to the harshest option. |
 | Public justification | ❌ | No law authorized it, and other carriers were spared her fate. |
 
-::: {.notes}
-This is the HARD case for the state, and the genuinely troubling one: novel, no due process, indefinite, and she was singled out — a poor Irish immigrant woman. Effectiveness is solid; least-infringement and justification are where it bites. Flag that the *second* detention will flip several of these marks.
+::: {.aside-note}
+This is the hard case for the state, and the genuinely troubling one: novel, no due process, indefinite, and she was singled out — a poor Irish immigrant woman. Effectiveness is solid; *least infringement* and *justification* are where it bites. Watch what happens to these marks at the second detention.
 :::
 
 # The Wins and the Resistance {.section-divider}
@@ -215,8 +215,8 @@ Clean water and sewers are among the **largest life-savers in public health hist
 | Least infringement | ✅ | It restricts pollution and plumbing, not persons. |
 | Public justification | ✅ | The case is open, measurable, and widely shared. |
 
-::: {.notes}
-About as close to an easy case as public health gets — strong on every benchmark, little serious dispute. Use it as the contrast class: most later cases are *not* this clean.
+::: {.aside-note}
+About as close to an easy case as public health gets: strong on every benchmark, with little serious dispute. Treat it as the contrast class — most of the cases that follow are not this clean.
 :::
 
 ## Vaccination: From Scourge to Memory
@@ -245,8 +245,8 @@ Vaccination has drawn organized opposition since the very beginning, and the ear
 | Least infringement | ⚖️ | Real debate: narrow-exemption school rules may reach uptake with less force. |
 | Public justification | ✅ | The evidence is open — though trust must be earned. |
 
-::: {.notes}
-The science is settled; the lasting argument is over coercion — how strong a mandate, which exemptions, in which circumstances. Keep that debate live and open; don't let students hear "justified, case closed."
+::: {.aside-note}
+The science is settled; the lasting argument is over *coercion* — how strong a mandate, which exemptions, in which circumstances. "Justified" here does not mean "case closed."
 :::
 
 ## Two Kinds of Criticism
@@ -278,8 +278,8 @@ Adding tiny amounts of fluoride to public water cuts tooth decay across a whole 
 | Least infringement | ⚖️ | Real objection: there is no easy individual opt-out from the tap. |
 | Public justification | ✅ | Openly debated and voted on in many localities. |
 
-::: {.notes}
-Evidence for benefit is strong, but this stays a live political fight — over consent and opt-out, and over optimal dose — that communities still vote on today.
+::: {.aside-note}
+Evidence for benefit is strong, but this remains a live political fight — over consent and opt-out, and over optimal dose — that communities still vote on today.
 :::
 
 ## Tobacco Control: A Ladder, Not a Ban
@@ -302,8 +302,8 @@ Each rung climbs only as far as the harm to others justifies — a worked exampl
 | Least infringement | ✅ | It taxes and zones the behavior, not bans the product. |
 | Public justification | ✅ | Grounded in openly published, overwhelming evidence. |
 
-::: {.notes}
-The core case is strong, yet the hard questions stay open — how high the tax, what age limit, whether to ban menthol or flavored vapes. The ladder is still being climbed.
+::: {.aside-note}
+The core case is strong, yet the hard questions stay open: how high the tax, what age limit, whether to ban menthol or flavored vapes. The ladder is still being climbed.
 :::
 
 ## 1918: The Year of Masks and Closures
@@ -326,8 +326,8 @@ San Francisco's mask order drew an organized **Anti-Mask League** in early 1919,
 | Least infringement | ⚖️ | Blanket closures are blunt; targeted measures barely existed in 1918. |
 | Public justification | ❌ | Wartime secrecy and mixed messaging undercut trust. |
 
-::: {.notes}
-NPIs clearly helped, but how much, and which ones, is genuinely debated — public health rarely gets a clean experiment. The clearest failures were candor and execution, not the decision to act.
+::: {.aside-note}
+Non-pharmaceutical interventions clearly helped, but how much, and which ones, is genuinely debated — public health rarely gets a clean experiment. The clearest failures in 1918 were candor and execution, not the decision to act.
 :::
 
 ## COVID-19: The Same Playbook, a Different World
@@ -431,8 +431,8 @@ Run Buck v. Bell through the scoreboard. It is not a close call — it **fails a
 
 The benchmarks are not bureaucracy. They are the **guardrails** that separate Jacobson from Buck.
 
-::: {.notes}
-Flatly unjustified — the one case that fails every benchmark. Unlike Mary, who at least passed effectiveness, Buck involved no real threat at all.
+::: {.aside-note}
+Flatly unjustified — the one case on this scoreboard that fails every benchmark. Unlike Mary Mallon, who at least passed effectiveness, *Buck* involved no real threat at all.
 :::
 
 # When May the State Compel? {.section-divider}

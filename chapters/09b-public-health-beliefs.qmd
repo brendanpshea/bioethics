@@ -192,8 +192,8 @@ Here the skeptic has a real point, and we should grant it plainly. You have alre
 
 So if science errs, isn't trusting "the experts" just its own kind of faith?
 
-::: {.notes}
-Recap the replication crisis in one line — students met it earlier. Do not re-teach it. The point here is to *grant* the skeptic's premise honestly before answering it.
+::: {.aside-note}
+You met the replication crisis in Chapter 3. The move here is to *grant* the skeptic's premise honestly before answering it — an argument that refuses to concede anything true is not worth much.
 :::
 
 ## The Bad Inference
@@ -258,8 +258,8 @@ A person who distrusts the medical system is not always in an echo chamber. Some
 
 The defect here is not in the person's reasoning. It is in the **evidence they were given** — by history, and by the sources they had reason to trust.
 
-::: {.notes}
-One-line recap of Tuskegee — told in full earlier. Apply, don't re-narrate.
+::: {.aside-note}
+Tuskegee is told in full in Chapter 2 and its paired case study. Here it is being *applied* rather than retold: the question is what a rational person should conclude from it.
 :::
 
 ## How Distrust Is Learned

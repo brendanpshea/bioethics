@@ -34,8 +34,8 @@ Do you stay in the study? If not, what principle tells you to walk away?
 **Hold onto your answer.** Several of the reasons you gave for walking away were not obvious to physicians at the time. They had to be learned case by case, and eventually written down. Part A traces how that happened.
 :::
 
-::: {.notes}
-Start with moral discomfort before giving students the vocabulary. The point is to make the historical material feel like an answer to a real problem they already feel.
+::: {.aside-note}
+The discomfort comes first and the vocabulary second — deliberately. The history in this chapter is much easier to hold onto if you already feel the problem it was written to answer.
 :::
 
 ## Today
@@ -105,7 +105,7 @@ The Oath gave medicine a conscience and a professional identity — but the pati
 - The patient is the only person not in the conversation about his own life. What is missing from this encounter?
 :::
 
-::: {.notes}
+::: {.aside-note}
 Paternalism was usually defended as expertise plus benevolence, not cruelty. That is exactly why it lasted so long — and why the abuses ahead were so hard to see from the inside.
 :::
 
@@ -145,8 +145,8 @@ The Court did not merely permit Carrie's sterilization — it endorsed the reaso
 |---|---|---|
 | **Eugenics & Carrie Buck (1927)** | Your body is yours; the state cannot breed people | **Nothing yet — the courts called this legal** |
 
-::: {.notes}
-The scoreboard is our running spine. Each disaster leaves a gap; later, a code fills it. Right now the gap is wide open.
+::: {.aside-note}
+The scoreboard is this chapter's running spine. Each disaster leaves a gap; later, a code fills it. Right now the gap is wide open — watch it close.
 :::
 
 ## Thought Question
@@ -287,8 +287,8 @@ In effect, parents who could not care for a severely disabled child at home were
 - He placed his trust in the conscientious, virtuous investigator rather than in paperwork.
 - History drew the opposite lesson: individual character is not enough, and oversight had to become *structural* — the coming IRB.
 
-::: {.notes}
-The tension is the teaching point: Beecher bet on individual virtue; the system that followed bet on structure. A good aside: do we actually need both, and does either work without the other?
+::: {.aside-note}
+The tension is the point. Beecher bet on individual virtue; the system that followed bet on structure. Ask yourself whether we need both — and whether either works without the other. Case 2 gives the question its sharpest test.
 :::
 
 ## The Scoreboard So Far

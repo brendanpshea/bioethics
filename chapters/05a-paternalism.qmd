@@ -27,8 +27,8 @@ A woman in the second hour of an unmedicated labor is in extreme pain. She has h
 3. How long may the team "wait her out" before stalling becomes a way of simply ignoring her?
 :::
 
-::: {.notes}
-Don't formalize yet. The point is that almost everyone overrides here without hesitation — and the lecture is about why that instinct is sometimes right and sometimes a trap.
+::: {.aside-note}
+Don't formalize this yet. Notice instead that almost everyone would override here without hesitation. This chapter is about why that instinct is sometimes right and sometimes a trap.
 :::
 
 ## After You've Discussed
