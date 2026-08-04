@@ -145,12 +145,14 @@ stages = ["Pass animal\ntests", "Enter human\ntrials", "Reach\napproval"]
 vals   = [100, 100, 10]
 widths = [v for v in vals]
 fig, ax = plt.subplots(figsize=(7.4, 2.7))
-colors = ["#7aa6c2", "#c9a227", "#1a8a4a"]
-for i, (s, w, c) in enumerate(zip(stages, widths, colors)):
+# Sequential ramp: attrition is ordered, so one hue light -> dark, not three hues.
+colors = ["#93d1d8", "#3fa8b4", "#0e7c86"]
+texts  = ["#0f172a", "#0f172a", "#ffffff"]
+for i, (s, w, c, tc) in enumerate(zip(stages, widths, colors, texts)):
     left = (100 - w) / 2
-    ax.barh(2 - i, w, left=left, color=c)
+    ax.barh(2 - i, w, left=left, color=c, edgecolor="#0e7c86", linewidth=0.8)
     ax.text(50, 2 - i, f"{s}  ({vals[i]}%)", ha="center", va="center",
-            fontsize=10, color="white", fontweight="bold")
+            fontsize=10, color=tc, fontweight="bold")
 ax.set_xlim(0, 100); ax.set_ylim(-0.5, 2.5)
 ax.axis("off")
 plt.tight_layout()
@@ -201,11 +203,16 @@ The breakthrough was genetic, not surgical. CRISPR lets researchers edit a pig s
 //| fig-width: 9.5
 digraph xeno {
   rankdir=LR;
-  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=11];
-  a [label="Knock OUT pig genes\n• alpha-gal & other sugars\n  (trigger instant rejection)", fillcolor="#fbe3d0"];
-  b [label="Inactivate PERVs\n• pig retroviruses in the\n  genome (infection risk)", fillcolor="#fdf3d8"];
-  c [label="Knock IN human genes\n• regulate clotting &\n  inflammation", fillcolor="#e8f4e8"];
-  d [label="Pig organ tolerated\nby the human body", fillcolor="#dCEefb"];
+  graph [bgcolor="transparent"];
+  node [shape=box, style="rounded,filled", fontname="Inter", fontsize=11,
+        fillcolor="#e6f1f2", color="#0e7c86", fontcolor="#0f172a",
+        penwidth=1.4, margin="0.20,0.13"];
+  edge [color="#0e7c86", arrowhead=vee, penwidth=1.3];
+  a [label="Knock OUT pig genes\n• alpha-gal & other sugars\n  (trigger instant rejection)"];
+  b [label="Inactivate PERVs\n• pig retroviruses in the\n  genome (infection risk)"];
+  c [label="Knock IN human genes\n• regulate clotting &\n  inflammation"];
+  d [label="Pig organ tolerated\nby the human body",
+     fillcolor="#0e7c86", fontcolor="#ffffff", color="#095058"];
   a -> b -> c -> d;
 }
 ```
@@ -214,7 +221,74 @@ A transplant pig may carry **a dozen or more edits** — some removing pig featu
 
 ## The Cases So Far
 
-The era of human xenotransplantation began in 2022 and is moving fast — fast enough that this table needs checking every term.
+The era of human xenotransplantation began in 2022 and is moving fast — fast enough that this chart needs checking every term.
+
+```{python}
+#| label: fig-xeno-survival
+#| fig-align: center
+#| fig-width: 9.5
+#| fig-height: 4.0
+#| echo: false
+#| fig-alt: "Bar chart of days survived with a gene-edited pig organ. Bennett 2022 about 60 days; Faucette 2023 about 42; Slayman 2024 about 60; Looney 2024-25 130 days; Andrews 2025-26 271 days."
+import matplotlib.pyplot as plt
+
+# Update this list each term. Days the transplanted organ functioned.
+rows = [
+    ("David Bennett",     "2022 · heart",     60,  True),   # True = approximate
+    ("Lawrence Faucette", "2023 · heart",     42,  True),
+    ("Rick Slayman",      "2024 · kidney",    60,  True),
+    ("Towana Looney",     "2024–25 · kidney", 130, False),
+    ("Tim Andrews",       "2025–26 · kidney", 271, False),
+]
+
+TEAL, INK, MUTED, RULE = "#0a95a3", "#0f172a", "#64748b", "#e5e7eb"
+plt.rcParams["font.family"] = ["Inter", "DejaVu Sans", "sans-serif"]
+
+fig, ax = plt.subplots(figsize=(9.5, 4.0))
+labels = [f"{name}\n{meta}" for name, meta, _, _ in rows]
+days   = [d for _, _, d, _ in rows]
+ypos   = range(len(rows))
+
+ax.barh(ypos, days, height=0.62, color=TEAL, zorder=3)
+
+for y, (_, _, d, approx) in zip(ypos, rows):
+    ax.text(d + 6, y, f"{'~' if approx else ''}{d}", va="center",
+            fontsize=11, fontweight="600", color=INK, zorder=4)
+
+ax.set_yticks(list(ypos))
+ax.set_yticklabels(labels, fontsize=10, color=INK)
+ax.invert_yaxis()                       # chronological, top to bottom
+ax.set_xlim(0, 310)
+ax.set_xticks([0, 100, 200, 300])
+ax.tick_params(axis="x", colors=MUTED, labelsize=10, length=0)
+ax.tick_params(axis="y", length=0)
+ax.set_xlabel("days the organ functioned", fontsize=10, color=MUTED, labelpad=8)
+
+ax.xaxis.grid(True, color=RULE, linewidth=1, zorder=0)
+ax.set_axisbelow(True)
+for side in ("top", "right", "left"):
+    ax.spines[side].set_visible(False)
+ax.spines["bottom"].set_color(RULE)
+
+ax.set_title("How long each pig organ lasted", fontsize=14, fontweight="700",
+             color=INK, loc="left", pad=14)
+fig.text(0.005, -0.03,
+         "Andrews received a human kidney in January 2026 — the first time a pig organ "
+         "bridged a patient to a human transplant.",
+         fontsize=9, color=MUTED)
+
+plt.tight_layout()
+plt.show()
+```
+
+Each patient was out of options. Each result taught the field something — and each death raised the question of whether the attempt was justified.
+
+::: {.content-visible when-format="revealjs"}
+- **From rescue to trial.** In 2025 the FDA cleared the first real xenotransplant trials. Xeno now has a **clinical equipoise** problem it did not have before.
+- **Andrews crossed a bridge.** 271 days on a pig kidney — then a *human* one.
+:::
+
+:::: {.content-visible when-format="html"}
 
 | Patient | Year | Organ | Outcome |
 |---|---|---|---|
@@ -223,8 +297,6 @@ The era of human xenotransplantation began in 2022 and is moving fast — fast e
 | **Rick Slayman** | 2024 | pig kidney | first in a living patient; lived ~2 months |
 | **Towana Looney** | 2024–25 | pig kidney | organ removed after **130 days** |
 | **Tim Andrews** | 2025–26 | pig kidney | **271 days** — longest to date; then received a *human* kidney |
-
-Each patient was out of options. Each result taught the field something — and each death raised the question of whether the attempt was justified.
 
 ::: {.context-box}
 **Two things changed the question in 2025–26.**
@@ -237,6 +309,7 @@ That last step reframes the entire enterprise. If a pig organ can keep someone a
 
 **Write or discuss:** Does reframing xeno organs as a *bridge* rather than a *destination* change whether Bennett's 2022 surgery was justified? Does it change what you must tell the next patient in the consent conversation?
 :::
+::::
 
 ## What Makes Xeno Ethically Distinct
 
@@ -376,8 +449,13 @@ The moral-status question runs under half this course. Each chapter offered a cr
 //| fig-width: 9.5
 digraph threads {
   rankdir=LR;
-  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=10, fillcolor="#eef3f8"];
-  center [label="Does it apply\nto animals?", shape=ellipse, fillcolor="#dCEefb"];
+  graph [bgcolor="transparent"];
+  node [shape=box, style="rounded,filled", fontname="Inter", fontsize=10,
+        fillcolor="#e6f1f2", color="#0e7c86", fontcolor="#0f172a",
+        penwidth=1.4, margin="0.18,0.11"];
+  edge [color="#94a3b8", arrowhead=vee, penwidth=1.2];
+  center [label="Does it apply\nto animals?", shape=ellipse,
+          fillcolor="#0e7c86", fontcolor="#ffffff", color="#095058"];
   a [label="Abortion:\n'future like ours'\n(Marquis)"];
   g [label="Genetics:\nmaking a being\nto be used"];
   e [label="End of life:\nkilling for benefit"];
