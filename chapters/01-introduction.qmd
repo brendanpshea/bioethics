@@ -40,8 +40,8 @@ You are the nurse at her bedside.
 **The legal frame.** U.S. courts have, in nearly every case involving a competent adult, upheld the patient's right to refuse blood — even when refusal is fatal. The harder cases involve **minors**, **pregnancy**, and **unclear capacity**. We will come back to all three later in the course.
 :::
 
-::: {.notes}
-Let students sit with this. We'll come back to it after we have vocabulary. The whole rest of the lecture is, in a sense, equipping us to answer this question more carefully than "follow your gut."
+::: {.aside-note}
+Don't try to settle this yet. The rest of the lecture is, in a sense, equipping you to answer it more carefully than "follow your gut." Write down your first instinct now, and check at the end of the chapter whether it moved.
 :::
 
 ## Today — Foundations
@@ -76,8 +76,8 @@ You will also be able to:
 - Public health policy and the allocation of scarce resources
 - New biotechnologies — genetics, AI, reproductive technology
 
-::: {.notes}
-"Systematic" matters. Bioethics isn't just having opinions — it's *reasoning* about them in a way others can examine, challenge, and refine.
+::: {.aside-note}
+"Systematic" is the load-bearing word. Bioethics isn't just having opinions — it's *reasoning* about them in a way others can examine, challenge, and refine.
 :::
 
 ## Why a Distinct Field?
@@ -99,8 +99,8 @@ Bioethics is what grew up to answer the question: **how should we govern this?**
 - *Policy:* When ICU beds run out in a pandemic, who gets one?
 :::
 
-::: {.notes}
-Each of these is a recurring exam case. Same field, very different scales — bedside, study, society.
+::: {.aside-note}
+Notice the scales. Same field, three very different sizes of question — one bedside, one study, one society. Keep asking which scale a problem lives on; it often decides which principle carries the most weight.
 :::
 
 # Three Kinds of Ethical Inquiry {.section-divider}
@@ -184,8 +184,8 @@ We will treat religious commitments as **important data** about what patients va
 
 That is a feeling, not yet an argument. Ethical reasoning asks the next question: **why?** What reason, that another reasonable person could weigh, supports the conclusion?
 
-::: {.notes}
-This is the moment to flag that "I feel" / "I believe" are perfectly fine *starting points* — but bioethics asks us to take the next step.
+::: {.aside-note}
+"I feel" and "I believe" are perfectly good *starting points*. Bioethics just asks for the next step: the reason someone who doesn't share your feeling could still weigh.
 :::
 
 ## Thought Question
@@ -271,8 +271,8 @@ In practice, autonomy underwrites:
 :::
 :::
 
-::: {.notes}
-The Jehovah's Witness case from the start of class is, at its core, an autonomy case. Hold that thought.
+::: {.aside-note}
+The transfusion-refusal case that opened this chapter is, at its core, an autonomy case. Hold that thought — you'll meet it again in Chapter 2 and in the Dax Cowart case study.
 :::
 
 ## Autonomy in Practice
@@ -393,8 +393,8 @@ In bioethics, justice shows up in three main forms:
 :::
 :::
 
-::: {.notes}
-We'll spend an entire later lecture on justice. For now, just plant the flag: bioethics is not only about individual encounters.
+::: {.aside-note}
+Justice gets a whole chapter of its own later (Chapter 8). For now just plant the flag: bioethics is not only about the encounter between one clinician and one patient.
 :::
 
 ## Justice in Practice
@@ -635,8 +635,15 @@ Identify the fallacy in each:
 4. "Either we ration care by ability to pay, or the system collapses."
 :::
 
-::: {.notes}
-Answers (in order): appeal to nature, slippery slope, ad hominem, false dichotomy.
+::: {.callout-note collapse="true"}
+## Check your answers
+
+Try all four before you open this.
+
+1. Appeal to nature
+2. Slippery slope
+3. *Ad hominem*
+4. False dichotomy
 :::
 
 ## Wrapping Up Part A

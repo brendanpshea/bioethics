@@ -570,3 +570,6 @@ $code-block-border-color: $rule;
 .reveal .review-debate .review-label {
   color: $accent;
 }
+
+// Reader asides belong to the notes page only — never projected.
+.reveal .aside-note { display: none; }
