@@ -1,207 +1,104 @@
 # How to Write a Bioethics Essay
 
-## What this is
+Twice this term you will write an **argumentative essay** in a 75-minute proctored session. You get one case study and one question about it. The case stays on your screen the whole time, so you are not being tested on recall — you are being tested on whether you can take a position and defend it.
 
-Three times this term you will write one essay in a **75-minute session** using LockDown Browser.
-Plan on roughly **60 minutes of actual writing** — the rest of the window is getting set up and
-submitting. You will be given **one case study** from the chapters that exam covers, and one question
-about it.
-
-**The case will be on your screen.** You do not need to memorize dates, names, or details. What you
-bring is the thinking.
-
-Every essay in this course has the **same shape**. Learn it once and you can use it twelve times.
+Aim for **400–600 words**. A tight 450 beats a padded 600.
 
 ---
 
-## The shape
+## The 75 minutes
 
-| | What this paragraph does |
+| Minutes | What you are doing |
 |---|---|
-| **¶1 — Position** | Say what should have been done, or what the right answer is. One sentence. |
-| **¶2 — The case** | The conflict, in your own words. Include one specific detail from the case. |
-| **¶3 — Class material** | Name the argument the case gives you. Explain the disputed premise in plain words. Take a side. |
-| **¶4 — The other side** | State the strongest objection fairly. Then answer it. |
-| **¶5 — You** | Connect it to your own life, work, or values. Say what you would do. |
+| **0–5** | Set up. Get LockDown Browser running, then read the question twice and the case once. |
+| **5–20** | Plan. Bullets only. Do not write sentences yet. |
+| **20–70** | Write, straight through, from the plan. |
+| **70–75** | Proofread and submit. |
 
-**Length:** 400–600 words. A tight 450 beats a padded 600. Spend the first ten minutes planning
-before you write a sentence.
+Planning is the step people skip, and it is the step that decides the grade. Fifteen minutes of bullets buys you fifty minutes of steady writing. Without it you will spend those fifty minutes stalling, backing up, and rewriting your first paragraph.
 
-**Label your paragraphs** if you like — writing `¶1 — My position` as a heading is allowed and
-encouraged. It helps you keep track, and it helps me follow you.
-
-### Explain it like I'm 12
-
-Write so a smart 12-year-old could follow. If you use a term like *autonomy*, *capacity*, or
-*equipoise*, define it in plain words the first time you use it. Short sentences beat long ones. If
-you can't explain an idea simply, you don't understand it yet — and I'll be able to tell. 🙂
+Keep an eye on the clock. An essay that stops mid-sentence at 75 minutes loses far more than one with a slightly rushed ending.
 
 ---
 
-## Sentence frames
+## Planning
 
-Use these if they help. They are not required, and you will not lose points for writing your own.
+Read the question before you read the case. The question tells you what it wants covered — use its bullets as your outline.
 
-- **¶1:** *"In this case, ______ should have ______, because ______."*
-- **¶2:** *"The conflict in this case is between ______ and ______."*
-- **¶3:** *"The ______ Argument says ______. The premise people disagree about is ______. I think that
-  premise is (true / false) because ______."*
-- **¶4:** *"The strongest objection to my view is ______. This objection is serious because ______.
-  But it fails because ______."*
-- **¶5:** *"This connects to ______. What I would want in that situation is ______."*
+Then look for the **disagreement**. Every case in this course hands you two arguments that clash, and they usually agree about most things. Find the one premise they actually split on. That sentence is the spine of your essay.
 
----
-
-## ¶5: bringing in your own experience
-
-Every question ends by asking you to connect the case to yourself. Use **any one** of the following.
-They are all worth the same credit.
-
-1. Something that happened to you or someone in your family.
-2. Something you have seen at work, in clinical, or in a placement.
-3. Something a friend, a neighbor, or someone in your community went through.
-4. A story you followed closely in the news.
-5. **Put yourself in it.** Imagine the case were about you, or about someone you love. What would you
-   want? Who would you want deciding?
-
-Some of you have worked in health care for twenty years. Some of you finished high school in June.
-**Both can write an excellent ¶5.** This paragraph is graded on how well your connection *fits the
-argument you just made* — not on how dramatic or how professional your experience is. A careful
-"here is what I would want, and why it follows from ¶1" beats a vivid story that doesn't connect to
-anything.
-
-**Two rules:**
-
-- **You never have to share anything private.** Option 5 earns full marks. Several of these cases are
-  close to the bone, and you are the judge of what you want to put in an exam answer.
-- **If you write about a real patient, remove anything that could identify them.** No names, no unit,
-  no dates, nothing that would let a reader work out who it was. That obligation is Chapter 2
-  material — getting it right is part of the assignment.
-
----
-
-## How it's graded
-
-| | |
-|---|---|
-| **¶1 — Position** | Is there a clear, arguable claim in the first sentence? |
-| **¶2 — The case** | Is the conflict stated accurately, with at least one specific detail? |
-| **¶3 — Class material** | Is the argument named and explained correctly, in plain words? Is the disputed premise identified? |
-| **¶4 — The other side** | Is the objection stated *fairly* — strong enough that someone who held it would recognize it? Is it actually answered? |
-| **¶5 — You** | Does the connection follow from the position in ¶1? |
-
-**¶4 is where most points are won and lost.** A weak essay states a cartoon version of the other side
-and knocks it down. A strong essay makes the objection sound genuinely tempting, then explains why it
-still fails.
-
----
-
-## Worked example: the Dax Cowart case
-
-Here is a sample question of exactly the kind you will get, and how to approach it. **There is no
-model essay here on purpose** — a pre-written answer is something to copy, and copying won't help you
-in a proctored room. What follows is how to *plan*.
-
-### The sample question
-
-> **Dax Cowart** was burned over two-thirds of his body in 1973 and blinded. For more than a year he
-> repeatedly demanded that treatment stop. He was overruled. He survived, went to law school, built a
-> career — and said for the rest of his life that his refusal should have been honored.
->
-> **Your question:** Should the medical team have stopped treatment when he asked?
->
-> - **¶1** Yes or no. One sentence.
-> - **¶2** The conflict, with one specific detail from the case.
-> - **¶3** The case gives you **The Autonomy Argument** and **The Beneficence / Temporary-Incapacity
->   Reply**. Explain both. Name the premise they actually disagree about, and take a side.
-> - **¶4** Answer the strongest objection to your ¶1. If you said *yes*, the case hands you **The
->   Relational Counter**. If you said *no*, it hands you **The Retrospective-Endorsement Objection**.
-> - **¶5** Use the ladder above.
->
-> **Cross-chapter connection:** Chapter 1 gave you four principles. Which two collide hardest here,
-> and which should win?
-
-### Planning it in ten minutes
-
-Don't start writing. Jot something like this first — bullets, not sentences:
+Here is what fifteen minutes of planning looks like for the Dax Cowart case:
 
 ```
-¶1  Yes - stop treatment. He was competent.
-¶2  Conflict: his right to refuse  VS  team's duty to save a survivable patient
-    Detail: refused for over a YEAR, same answer every time, could explain why
-¶3  Autonomy Arg: competent adult may refuse anything
-    Beneficence Reply: extreme pain undermines capacity
-    >> DISPUTED PREMISE: was he competent while in that much pain?
-    >> My side: yes. Consistent for a year. Pain =/= confusion.
-¶4  Objection = Relational Counter: "please let me die" is a cry for connection,
-    so honoring it fast = abandonment
-    Why it's serious: it's not cruel, it's caring. And he WAS isolated.
-    My answer: might explain a demand made once, in week one. Not one held
-    for a year by a man who could argue for it.
-¶5  Rung 5. What I'd want: not to be overridden because people were optimistic.
+POSITION: Yes, stop treatment. He was competent.
+
+CONFLICT: his right to refuse  VS  the team's duty to save a survivable patient
+  detail: refused for over a YEAR, same answer every time, could explain why
+
+THE SPLIT: Autonomy Argument - competent adults may refuse anything
+           Beneficence Reply - extreme pain undermines capacity
+  >> they disagree about: was he competent while in that much pain?
+  >> my side: yes. Consistent for a year. Pain =/= confusion.
+
+BEST OBJECTION: Relational Counter - "let me die" is a cry for connection,
+  so honoring it fast = abandonment
+  why it's serious: it's not cruel, it's caring. And he WAS isolated.
+  my answer: explains a demand made once in week one. Not one held for a
+  year by a man who could argue for it.
+
+ME: I would not want to be overruled because people were feeling optimistic.
 ```
 
 That plan is the essay. Everything after it is turning bullets into sentences.
 
-### What each paragraph looks like when it goes right — and wrong
+---
 
-**¶1**
+## Structure
 
-- ✅ *"The team should have stopped treatment, because Cowart was a competent adult refusing
-  treatment on his own body."*
-- ❌ *"This essay will explore the difficult question of autonomy versus beneficence."* — That's an
-  announcement, not a position. Don't save your view for the end.
+Five paragraphs is the natural shape for 500 words, but nothing hangs on the number. What has to happen is this:
 
-**¶2**
+**Open with your position.** First sentence, no throat-clearing. *"The team should have stopped treatment, because Cowart was a competent adult refusing treatment on his own body."* Compare that to *"This essay will explore the difficult question of autonomy versus beneficence"* — an announcement is not a claim, and saving your view for the end costs you.
 
-- ✅ Names the conflict *and* anchors it: "he refused for more than a year, giving the same reason
-  each time."
-- ❌ Retells the whole case from the explosion onward. You are not summarizing; you are showing you
-  know what the fight is about.
+**Set out the conflict** in your own words, anchored by at least one specific detail from the case. You are not summarizing the case. You are showing you know what the fight is about.
 
-**¶3**
+**Make your argument.** Name the arguments the case gives you, say plainly which premise they disagree about, and defend your side of it. Naming the arguments is half the work; identifying the disputed premise is the other half.
 
-- ✅ Finds the *disputed premise*. Both arguments here agree competent adults may refuse. They
-  disagree about whether he was competent. That disagreement is the whole case.
-- ❌ Explains both arguments accurately and then stops. Naming them is half marks; identifying what
-  they actually disagree about is the other half.
+**Answer the strongest objection.** This is where most points are won and lost. A weak essay builds a cartoon version of the other side and knocks it over — *"some people think doctors should always save lives, but this is wrong because autonomy matters."* Nobody holds that view in that form, so you have refuted nothing. A strong essay makes the objection sound genuinely tempting first, then explains why it still fails.
 
-**¶4**
+**Land it on yourself.** Say how the case connects to your own life, work, or values, and what you would want. This has to follow from the position you opened with. A moving story that has nothing to do with your argument earns very little.
 
-- ✅ Makes the objection genuinely tempting before answering it.
-- ❌ *"Some people think doctors should always save lives, but this is wrong because autonomy is
-  important."* — Nobody holds that view in that form. You have knocked down nothing.
+Labeling your paragraphs is allowed and often helps. So is writing in the first person.
 
-**¶5**
-
-- ✅ Follows from ¶1. If your position was "competence is what matters," your ¶5 should be about
-  wanting someone to *check* your competence rather than guess at your future gratitude.
-- ❌ A moving story that has nothing to do with the argument you just made.
-
-### Before you submit — check
-
-- [ ] Is my position in the **first sentence**?
-- [ ] Did I include **one specific detail** from the case?
-- [ ] Did I **name** the argument from the case and say what the disputed premise is?
-- [ ] Would someone who disagrees with me say I stated their view **fairly**?
-- [ ] Does ¶5 connect to ¶1 — or did I change the subject?
-- [ ] Did I define every technical term the first time I used it?
-- [ ] If I wrote about a real patient, is there **anything** left that could identify them?
+**Explain it like I'm 12.** Define terms like *autonomy*, *capacity*, or *equipoise* in plain words the first time you use them. Short sentences beat long ones. If you cannot explain an idea simply, you do not understand it yet, and it shows.
 
 ---
 
-## Practicing
+## Bringing yourself in
 
-The best preparation is not writing practice essays. It is getting fast at the planning step.
+The last paragraph asks you to connect the case to yourself. Any of these works, and they are worth the same credit: something that happened to you or your family; something you have seen at work or in clinical; something someone in your community went through; a story you followed in the news; or simply imagining the case were about you or someone you love.
 
-For each case study in the range your exam covers:
+Some of you have worked in health care for twenty years and some of you finished high school in June. Both can write an excellent final paragraph, because it is graded on how well the connection fits your argument — not on how dramatic your experience is.
 
-1. Read the case and find its named arguments. Every case has them.
-2. For each pair, ask: *what premise do these two actually disagree about?* That one sentence is your
-   ¶3.
-3. Decide which side you are on, then write down the strongest objection to your own view. That is
-   your ¶4.
-4. Think about which rung of the ladder you would use, and why it fits your position. That is your ¶5.
+**You never have to share anything private.** Imagining yourself in the case earns full marks, and several of these cases sit close to the bone. **If you write about a real patient, strip out anything that could identify them** — no names, no unit, no dates. That obligation is Chapter 2 material, and getting it right is part of the assignment.
 
-Do that as a ten-minute plan, like the one above — bullets, not sentences. You will not know which
-case you'll be given until the session starts, so work through each one in the range.
+---
+
+## Preparing
+
+Writing practice essays is not the best use of your time. Getting fast at the planning step is.
+
+For each case in the range your essay covers, spend ten minutes on a plan like the one above: find the named arguments, name the premise they disagree about, pick your side, and write down the strongest objection to your own view. You will not know which case you are getting until the session starts, so work through all of them.
+
+**Essay 1** draws on Cases 1–4. **Essay 2** draws on Cases 5–11.
+
+---
+
+## Before you submit
+
+- Is my position in the first sentence?
+- Did I use a specific detail from the case?
+- Did I say which premise the two arguments actually disagree about?
+- Would someone who disagrees say I stated their view fairly?
+- Does my last paragraph follow from my first sentence?
+- Did I define every technical term the first time I used it?
+- If I wrote about a real patient, is there anything left that could identify them?
