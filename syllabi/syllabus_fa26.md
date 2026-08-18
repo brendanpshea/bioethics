@@ -17,9 +17,7 @@
 | **01** | In person | Tuesdays & Thursdays, 9:30–10:45 AM, **East Hall 128** |
 | **71** | Fully online, asynchronous | No required synchronous meetings |
 
-**Both sections share this syllabus.** The readings, the case studies, the quizzes, the essays, and
-the grade weights are identical. The only differences are *where* you do the work and *how* your
-quizzes and essays are proctored.
+**Both sections share this syllabus.** The readings, the case studies, the exams, the essays, and the grade weights are identical. The only differences are *where* you do the work and *how* your exams and essays are proctored.
 
 **Zoom Link (office hours):** Available on D2L
 
@@ -95,10 +93,9 @@ Methods may include but are not limited to:
 
 ### RCTC Core Outcomes
 
-This course contributes to meeting the following RCTC Core Outcome(s): 
+This course contributes to meeting the following RCTC Core Outcome(s):
 
-**Critical Thinking:** Students will think systematically and explore information thoroughly before accepting or formulating a position or conclusion.
-**Personal and Professional Accountability:** Students will take responsibility as active learners for achieving their educational and personal goals.
+**Critical Thinking:** Students will think systematically and explore information thoroughly before accepting or formulating a position or conclusion. **Personal and Professional Accountability:** Students will take responsibility as active learners for achieving their educational and personal goals.
 
 ## Required and Recommended Course Materials 📚
 
@@ -109,19 +106,17 @@ This course contributes to meeting the following RCTC Core Outcome(s):
 
 **Read this before the drop deadline (Friday, August 28).** Both sections need:
 
-- A **PC, Mac, or Linux laptop or desktop**. Chromebooks and tablets are not supported for quizzes or essays.
+- A **PC, Mac, or Linux laptop or desktop**. Chromebooks and tablets are not supported for exams or essays.
 - A working **webcam and microphone**.
 - A reliable internet connection.
 
-**Online (section 71) students additionally need**, for every quiz and every essay:
+**Online (section 71) students additionally need**, for every exam and every essay:
 
-- A **smartphone with a working camera**, and something to prop it on so it can see you and your
-  workspace from the side.
+- A **smartphone with a working camera**, and something to prop it on so it can see you and your workspace from the side.
 - Enough bandwidth to run **two video streams at once**.
 - A quiet, private, well-lit space where you can work uninterrupted for about 90 minutes.
 
-If you cannot meet these requirements, contact me **during the first week** so we can talk through
-options before the drop deadline passes.
+If you cannot meet these requirements, contact me **during the first week** so we can talk through options before the drop deadline passes.
 
 ## Grading and Course Policies 📊
 
@@ -139,65 +134,47 @@ Your final grade is a weighted average of the following. **These weights are the
 
 | Component | Weight |
 |---|---|
-| **Perusall — readings, case studies, and annotations** | **30%** |
-| **Quizzes** — three, objective | **30%** (10% each) |
-| **Essays** — three, written under proctoring | **40%** (≈13.3% each) |
+| **Perusall** — readings, case studies, and annotations | **30%** |
+| **Exams** — two, objective, proctored | **30%** (15% each) |
+| **Essays** — two, written under proctoring | **30%** (15% each) |
+| **PhilMates** — interactive lessons, autograded in D2L | **10%** |
 
-**Perusall (30%).** Lecture notes, lecture videos, and the twelve case studies are delivered in
-Perusall, where you read and annotate alongside your classmates. This is the backbone of the course
-and it is where you do most of your thinking before class. See *Using Perusall*, below.
+**Perusall (30%).** Lecture notes, lecture videos, and the twelve case studies are delivered in Perusall, where you read and annotate alongside your classmates. This is the backbone of the course and it is where you do most of your thinking before class. See *Using Perusall*, below.
 
-**Quizzes (30%).** Three objective quizzes — multiple choice, matching, short identification. One at
-the end of each block of chapters. These test whether you have the vocabulary and the frameworks:
-what *equipoise* means, what the four principles are, which standard applies when.
+**Exams (30%).** Two objective exams — multiple choice, matching, short identification — each taken under proctoring. **Exam 1 (the midterm)** covers Chapters 1–6; **Exam 2 (the final)** covers Chapters 7–12, along with the core vocabulary from the first half that we keep using all term. These test whether you have the vocabulary and the frameworks: what *equipoise* means, what the four principles are, which standard applies when.
 
-**Essays (40%).** Three essays, each written in a single **75-minute session** in response to **one
-case study**. You will be given one case from that block's four — you will not know which one in
-advance — and the case text will be on your screen while you write. You are not being tested on
-recall. Plan on about 60 minutes of actual writing.
+**Essays (30%).** Two essays, each written in a single **75-minute session** in response to **one case study**. You will be given one case from that block — you will not know which one in advance — and the case text will be on your screen while you write. You are not being tested on recall. Plan on about 60 minutes of actual writing.
 
-**Everything you need to know about the essays is in *How to Write a Bioethics Essay*,** which is
-posted on D2L. Read it early. It contains the paragraph structure, sentence frames, grading
-criteria, and a fully worked example. The essays all use the same five-paragraph shape, so you learn
-it once and use it three times.
+**Everything you need to know about the essays is in *How to Write a Bioethics Essay*,** which is posted on D2L. Read it early. It contains the paragraph structure, sentence frames, grading criteria, and a fully worked example. Both essays use the same five-paragraph shape, so you learn it once and use it twice.
 
-### How Quizzes and Essays Are Proctored 🎥
+**PhilMates (10%).** Short interactive philosophy lessons that run in your browser. They are autograded, and you get **unlimited attempts** — your highest score counts. See *Using PhilMates*, below.
 
-The quizzes and essays are identical for both sections. Only the proctoring differs.
+### How Exams and Essays Are Proctored 🎥
 
-**Section 01 (in person).** Quizzes and essays are taken in class, in East Hall 128, on the dates in
-the course calendar. You will use **Respondus LockDown Browser**. I will be in the room.
+The exams and essays are identical for both sections. Only the proctoring differs.
 
-**Section 71 (online).** Quizzes and essays are taken online through D2L using **Respondus LockDown
-Browser with Respondus Monitor**, with a **two-camera setup**:
+**Section 01 (in person).** Exams and essays are taken in class, in East Hall 128, on the dates in the course calendar. You will use **Respondus LockDown Browser**. I will be in the room.
+
+**Section 71 (online).** Exams and essays are taken online through D2L using **Respondus LockDown Browser with Respondus Monitor**, with a **two-camera setup**:
 
 1. Your **computer's webcam**, facing you, as normal.
 2. Your **phone's camera**, positioned to the side so it shows you, your hands, and your workspace.
 
-You will be walked through the setup before the first quiz. Please do a practice run **well before**
-the first quiz so any problems surface when they don't count.
+You will be walked through the setup before the first essay. Please do a practice run **well before** it so any problems surface when they don't count.
 
-**If something goes wrong.** If there is a technical irregularity during your session — a dropped
-connection, a camera that stops recording, a browser crash — **you may be asked to retake the exam.**
-That is not a penalty; it is how we make sure the attempt is complete and fair.
+**If something goes wrong.** If there is a technical irregularity during your session — a dropped connection, a camera that stops recording, a browser crash — **you may be asked to retake the exam.** That is not a penalty; it is how we make sure the attempt is complete and fair.
 
-If technical problems happen **repeatedly**, or if there is evidence of academic dishonesty, you will
-need to **meet with me** before taking further exams so we can sort out what is going on and agree on
-how you will complete the rest of the course's assessments.
+If technical problems happen **repeatedly**, or if there is evidence of academic dishonesty, you will need to **meet with me** before taking further exams so we can sort out what is going on and agree on how you will complete the rest of the course's assessments.
 
-I recommend installing LockDown Browser and running a short practice quiz **at least a few days
-before the first quiz** so any setup problems surface early.
+I recommend installing LockDown Browser and running the ungraded practice quiz on D2L **at least a few days before the first essay** so any setup problems surface early.
 
 ### Attendance 📅
 
 Students in face-to-face classes should attend class regularly, while online students are expected to participate in class discussions and activities. **If you miss more than one week consecutively or 1/4 of the total class sessions, you may receive a failing grade of FW.** This may endanger your ability to receive financial aid. With this in mind, you are responsible for withdrawing from the class if you decide not to continue. I am willing to make exceptions if circumstances require, but you must let me know about these promptly.
 
-**Section 01 (in person).** You are expected to attend and participate regularly. Attendance is taken
-each meeting. Beyond the FW policy above, **your grade may be reduced if you miss too many classes.**
-Our section meets only twice a week, so a single missed week is a substantial share of the term.
+**Section 01 (in person).** You are expected to attend and participate regularly. Attendance is taken each meeting. Beyond the FW policy above, **your grade may be reduced if you miss too many classes.** Our section meets only twice a week, so a single missed week is a substantial share of the term.
 
-**Section 71 (online).** Your participation is measured through Perusall — regular, on-time reading
-and annotation. Long silences count the same way absences do for section 01.
+**Section 71 (online).** Your participation is measured through Perusall — regular, on-time reading and annotation. Long silences count the same way absences do for section 01.
 
 ### Plagiarism and Academic Integrity ⚖️
 
@@ -205,12 +182,9 @@ Your work should be your own---please don't use your classmates, friends, parent
 
 ### Policy on Generative AI 🤖
 
-I encourage you to use generative AI (ChatGPT, Gemini, CoPilot, Claude, etc.) to help you understand class content when needed (and mastering these tools will be important to almost any career path), and to work on your own projects (I've used it in my own projects, including for this course!). However, the use of generative AI is **ABSOLUTELY FORBIDDEN** when it comes to answering questions on quizzes and essays.
+I encourage you to use generative AI (ChatGPT, Gemini, CoPilot, Claude, etc.) to help you understand class content when needed (and mastering these tools will be important to almost any career path), and to work on your own projects (I've used it in my own projects, including for this course!). However, the use of generative AI is **ABSOLUTELY FORBIDDEN** when it comes to answering questions on the exams and essays.
 
-A note on why the essays are built the way they are: you will not know which case you are getting,
-the case text will be in front of you, and the last paragraph asks for *your* connection to the
-material. A memorized answer will not fit the question you are actually asked. Prepare by
-understanding the arguments, not by pre-writing prose.
+A note on why the essays are built the way they are: you will not know which case you are getting, the case text will be in front of you, and the last paragraph asks for *your* connection to the material. A memorized answer will not fit the question you are actually asked. Prepare by understanding the arguments, not by pre-writing prose.
 
 ## Using Perusall 📝
 
@@ -228,17 +202,31 @@ Your work on Perusall will be graded based mainly on:
 
 Remember, Perusall is a space for constructive and respectful academic discussion. Your engagement here is a vital part of your learning.
 
-**For section 01:** do the reading and annotation *before* the class meeting it is listed under. Our
-class time is for discussion and argument, not for me to re-deliver what you have already read.
+**For section 01:** do the reading and annotation *before* the class meeting it is listed under. Our class time is for discussion and argument, not for me to re-deliver what you have already read.
+
+## Using PhilMates 🎮
+
+**PhilMates** turns one big philosophical idea into a short, playable story. You read a scenario, answer multiple-choice and fill-in-the-blank questions, make choices for the characters, and watch your own stated beliefs shift as the story pushes back on them. Each lesson takes about **15–25 minutes**.
+
+I wrote these lessons for this course. You can browse them at <https://brendanpshea.github.io/philmates/>, but **complete them through the D2L links** — that is the only version that records a grade.
+
+Three things worth knowing:
+
+- **Unlimited attempts.** Your highest score counts. If a lesson goes badly, do it again.
+- **Autograded.** You get your score immediately, along with which questions you missed.
+- **They are the cheapest points in the course.** A lesson you repeat until you get everything right is a lesson you have learned.
+
+Each lesson is tied to a particular chapter — the four principles, utilitarianism, Kantian deontology, virtue ethics, patient autonomy, clinical equipoise, moral status, the harm principle — and one of them walks you through writing the timed essay. **The D2L calendar is authoritative** for what is assigned and when it is due.
 
 ## Policy on Late Work ⏰
 
 **Please read the following *before* emailing me to request an extension on an assignment.**
 
-If you miss a quiz or activity due to a brief sickness, work conflict, class trip, computer malfunction, wedding, auto problem, court date, funeral, sporting event, etc., you do NOT need to email me (though it's okay if you want to give me a heads up). Here are my policies for making up missed or late work:
+If you miss an exam or activity due to a brief sickness, work conflict, class trip, computer malfunction, wedding, auto problem, court date, funeral, sporting event, etc., you do NOT need to email me (though it's okay if you want to give me a heads up). Here are my policies for making up missed or late work:
 
 1. Perusall assignments can be submitted up to two days late for reduced credit. Credit declines "linearly" (basically, if you submit it one minute late, you get 99.9% of the credit; if you submit it 1.5 days late, you'll get almost no credit).
-2. Quizzes and essays cannot be taken late without good reason (and will require my approval). Late attempts may be subject to a late penalty.
+2. PhilMates lessons give you unlimited attempts and are not subject to a late penalty. Don't let that fool you into leaving them all until December — they are how you learn the material the exams test.
+3. Exams and essays cannot be taken late without good reason (and will require my approval). Late attempts may be subject to a late penalty.
 
 **I will make exceptions to these policies if you can demonstrate a genuine need.** Please talk to me if anything comes up that is preventing you from succeeding in class.
 
@@ -282,12 +270,9 @@ Some helpful resources at RCTC (all of which are included with your course tuiti
 
 ## Course Calendar 📅
 
-**All specific due dates are on the D2L Course Calendar, which is authoritative.** This table shows
-the order of topics and the dates of quizzes and essays.
+**All specific due dates are on the D2L Course Calendar, which is authoritative.** This table shows the order of topics and the dates of exams and essays.
 
-Each chapter is delivered in two parts (A and B) and is paired with a case study. **A chapter and its
-case study always live inside a single week.** Online students work through the whole week's material
-at their own pace within that week.
+Each chapter is delivered in two parts (A and B) and is paired with a case study. **A chapter and its case study always live inside a single week.** Online students work through the whole week's material at their own pace within that week.
 
 ### Semester dates
 
@@ -304,8 +289,7 @@ at their own pace within that week.
 | **Thanksgiving — no classes** | **Thursday–Friday, November 26–27** |
 | Semester ends | Friday, December 18 |
 
-Note that **Tuesday, November 24 is a regular class day.** Only Thursday and Friday of that week are
-holidays.
+Note that **Tuesday, November 24 is a regular class day.** Only Thursday and Friday of that week are holidays.
 
 ### Weekly schedule
 
@@ -315,23 +299,31 @@ holidays.
 | **2** | **Sep 1** — Ch 2A: From Hippocrates to Belmont | **Sep 3** — Ch 2B: Consent, Autonomy, Confidentiality · **Case 1: Dax Cowart** |
 | **3** | **Sep 8** — Ch 3A: How Clinical Research Works | **Sep 10** — Ch 3B: Protecting Research Subjects · **Cases 2 & 3: Tuskegee/Guatemala; Lesné** |
 | **4** | **Sep 15** — Ch 4A: Abortion — Moral Status | **Sep 17** — Ch 4B: Abortion — Law & Cases · **Case 4: Kate Cox & Karsan** |
-| **5** | **Sep 22** — 📝 **QUIZ 1** (Ch 1–4) | **Sep 24** — ✍️ **ESSAY 1** (one of Cases 1–4) |
+| **5** | **Sep 22** — Essay workshop: how the essay is built and graded | **Sep 24** — ✍️ **ESSAY 1** (one of Cases 1–4) |
 | **6** | **Sep 29** — Ch 5A: Paternalism & Its Limits | **Oct 1** — Ch 5B: Markets, Surrogacy, Parental Rights · **Case 5: Adriana Smith** |
 | **7** | ~~Oct 6~~ — *Student Success Day, no class* | **Oct 8** — Ch 6A **and** 6B: Reading Genomes; Engineering Persons · **Case 6: He Jiankui** |
-| **8** | **Oct 13** — Ch 7A **and** 7B: Death & Dying; Euthanasia · **Case 7: Noelia Castillo** | ~~Oct 15~~ — *Education MN Conference, no class* |
-| **9** | **Oct 20** — Ch 8A: Theories of Justice | **Oct 22** — Ch 8B: Why US Health Care Costs So Much · **Case 8: Singapore** |
-| **10** | **Oct 27** — 📝 **QUIZ 2** (Ch 5–8) | **Oct 29** — ✍️ **ESSAY 2** (one of Cases 5–8) |
+| **8** | **Oct 13** — 📝 **EXAM 1 — midterm** (Ch 1–6) | ~~Oct 15~~ — *Education MN Conference, no class* |
+| **9** | **Oct 20** — Ch 7A: Death & Dying | **Oct 22** — Ch 7B: Euthanasia & Assisted Dying · **Case 7: Noelia Castillo** |
+| **10** | **Oct 27** — Ch 8A: Theories of Justice | **Oct 29** — Ch 8B: Why US Health Care Costs So Much · **Case 8: Singapore** |
 | **11** | **Nov 3** — Ch 9A: From Patient to Population | **Nov 5** — Ch 9B: False Beliefs & the Ethics of Correction · **Case 9: Wakefield & MMR** |
 | **12** | **Nov 10** — Ch 10A: How Medical AI Works | **Nov 12** — Ch 10B: Consent, Accountability, Black Boxes · **Case 10: Optum** |
 | **13** | **Nov 17** — Ch 11A: Gender-Affirming Care | **Nov 19** — Ch 11B: Disability, Identity, Autonomy · **Case 11: *U.S. v. Skrmetti*** |
-| **14** | **Nov 24** — Review & catch-up | ~~Nov 26~~ — *Thanksgiving, no class* |
+| **14** | **Nov 24** — ✍️ **ESSAY 2** (one of Cases 5–11) | ~~Nov 26~~ — *Thanksgiving, no class* |
 | **15** | **Dec 1** — Ch 12A: The Moral Status of Animals | **Dec 3** — Ch 12B: Industrial Animals & Xenotransplantation · **Case 12: David Bennett** |
-| **16** | **Dec 8** — 📝 **QUIZ 3** (Ch 9–12) | **Dec 10** — Review & wrap-up |
-| **17** | **Dec 15** — ✍️ **ESSAY 3** (one of Cases 9–12) | — |
+| **16** | **Dec 8** — Ch 12 discussion & catch-up | **Dec 10** — Cumulative review for the final |
+| **17** | **Dec 15** — 📝 **EXAM 2 — final** (Ch 7–12) | — |
 
-### Two weeks that are compressed
+### The four graded sessions
 
-Weeks 7 and 8 each lose a meeting to a college holiday, so **section 01 covers both parts of Chapter
-6 on October 8, and both parts of Chapter 7 on October 13.** Those are heavy days. Do the Perusall
-reading ahead of time, or you will be lost. Section 71 students have the full week for each chapter
-as usual.
+| | When | Covers |
+|---|---|---|
+| ✍️ **Essay 1** | Thursday, September 24 | One of Cases 1–4 |
+| 📝 **Exam 1** (midterm) | Tuesday, October 13 | Chapters 1–6 |
+| ✍️ **Essay 2** | Tuesday, November 24 | One of Cases 5–11 |
+| 📝 **Exam 2** (final) | Tuesday, December 15 | Chapters 7–12 |
+
+You will not know *which* case you are getting until the essay session begins, so prepare all of the cases in the block.
+
+### One week that is compressed
+
+Week 7 loses its Tuesday to Student Success Day, so **section 01 covers both parts of Chapter 6 on October 8.** That is a heavy day, and Chapter 6 is on the midterm five days later. Do the Perusall reading ahead of time, or you will be lost. Section 71 students have the full week as usual.
