@@ -272,7 +272,7 @@ Some helpful resources at RCTC (all of which are included with your course tuiti
 
 **All specific due dates are on the D2L Course Calendar, which is authoritative.** This table shows the order of topics and the dates of exams and essays.
 
-Each chapter is delivered in two parts (A and B) and is paired with a case study. **A chapter and its case study always live inside a single week.** Online students work through the whole week's material at their own pace within that week.
+Each chapter is delivered in two parts (A and B) and is paired with a case study. **A chapter and its case study always live inside a single week.** Online students work through the whole week's material at their own pace within that week. **Week 1 is orientation** — Chapter 1 begins in week 2.
 
 ### Semester dates
 
@@ -295,11 +295,11 @@ Note that **Tuesday, November 24 is a regular class day.** Only Thursday and Fri
 
 | Week | Tuesday | Thursday |
 |---|---|---|
-| **1** | **Aug 25** — Welcome & how this course works · Ch 1A: The Four Principles | **Aug 27** — Ch 1B: Ethical Theories as Lenses |
-| **2** | **Sep 1** — Ch 2A: From Hippocrates to Belmont | **Sep 3** — Ch 2B: Consent, Autonomy, Confidentiality · **Case 1: Dax Cowart** |
-| **3** | **Sep 8** — Ch 3A: How Clinical Research Works | **Sep 10** — Ch 3B: Protecting Research Subjects · **Cases 2 & 3: Tuskegee/Guatemala; Lesné** |
-| **4** | **Sep 15** — Ch 4A: Abortion — Moral Status | **Sep 17** — Ch 4B: Abortion — Law & Cases · **Case 4: Kate Cox & Karsan** |
-| **5** | **Sep 22** — Essay workshop: how the essay is built and graded | **Sep 24** — ✍️ **ESSAY 1** (one of Cases 1–4) |
+| **1** | **Aug 25** — Welcome: what bioethics is and how this course works | **Aug 27** — Getting set up: Perusall, PhilMates, and how the essays are written and graded |
+| **2** | **Sep 1** — Ch 1A: The Four Principles | **Sep 3** — Ch 1B: Ethical Theories as Lenses |
+| **3** | **Sep 8** — Ch 2A: From Hippocrates to Belmont | **Sep 10** — Ch 2B: Consent, Autonomy, Confidentiality · **Case 1: Dax Cowart** |
+| **4** | **Sep 15** — Ch 3A: How Clinical Research Works | **Sep 17** — Ch 3B: Protecting Research Subjects · **Cases 2 & 3: Tuskegee/Guatemala; Lesné** |
+| **5** | **Sep 22** — Ch 4A **and** 4B: Abortion — Moral Status; Law & Cases · **Case 4: Kate Cox & Karsan** | **Sep 24** — ✍️ **ESSAY 1** (one of Cases 1–4) |
 | **6** | **Sep 29** — Ch 5A: Paternalism & Its Limits | **Oct 1** — Ch 5B: Markets, Surrogacy, Parental Rights · **Case 5: Adriana Smith** |
 | **7** | ~~Oct 6~~ — *Student Success Day, no class* | **Oct 8** — Ch 6A **and** 6B: Reading Genomes; Engineering Persons · **Case 6: He Jiankui** |
 | **8** | **Oct 13** — 📝 **EXAM 1 — midterm** (Ch 1–6) | ~~Oct 15~~ — *Education MN Conference, no class* |
@@ -313,6 +313,8 @@ Note that **Tuesday, November 24 is a regular class day.** Only Thursday and Fri
 | **16** | **Dec 8** — Ch 12 discussion & catch-up | **Dec 10** — Cumulative review for the final |
 | **17** | **Dec 15** — 📝 **EXAM 2 — final** (Ch 7–12) | — |
 
+**Section 01:** we will probably start talking about the four principles in week 1, before Chapter 1 is formally assigned. That is a warm-up, not a substitute for doing the week 2 reading.
+
 ### The four graded sessions
 
 | | When | Covers |
@@ -324,6 +326,11 @@ Note that **Tuesday, November 24 is a regular class day.** Only Thursday and Fri
 
 You will not know *which* case you are getting until the essay session begins, so prepare all of the cases in the block.
 
-### One week that is compressed
+### Two days that are compressed
 
-Week 7 loses its Tuesday to Student Success Day, so **section 01 covers both parts of Chapter 6 on October 8.** That is a heavy day, and Chapter 6 is on the midterm five days later. Do the Perusall reading ahead of time, or you will be lost. Section 71 students have the full week as usual.
+College holidays cost section 01 three meetings, so two chapters get one meeting instead of two:
+
+- **Chapter 4 on September 22.** Both parts of the abortion chapter, plus Case 4, in one day — and Essay 1 is that Thursday.
+- **Chapter 6 on October 8.** Week 7 loses its Tuesday to Student Success Day, and Chapter 6 is on the midterm five days later.
+
+Those are heavy days. Do the Perusall reading ahead of time, or you will be lost. Section 71 students have the full week for each chapter as usual.
