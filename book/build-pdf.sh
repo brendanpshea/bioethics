@@ -7,7 +7,7 @@ set -euo pipefail
 cd "$(dirname "$0")"
 
 files=(
-  00-introduction 01-dax-cowart 02-tuskegee-guatemala 03-alzheimers-fraud
+  00-introduction 00b-god-committee 01-dax-cowart 02-tuskegee-guatemala 03-alzheimers-fraud
   04-kate-cox-karsan 05-adriana-smith 06-he-jiankui 07-noelia-castillo
   08-singapore-healthcare 09-wakefield-mmr 10-optum-algorithm 11-skrmetti
   12-bennett-xenotransplant

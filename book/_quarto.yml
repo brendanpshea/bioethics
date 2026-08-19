@@ -11,6 +11,7 @@ book:
   chapters:
     - index.qmd
     - 00-introduction.qmd
+    - 00b-god-committee.qmd
     - 01-dax-cowart.qmd
     - 02-tuskegee-guatemala.qmd
     - 03-alzheimers-fraud.qmd

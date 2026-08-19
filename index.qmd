@@ -53,6 +53,7 @@ We offer comprehensive historical and clinical case studies to pair with specifi
 
 | # | Case Study Title | Primary Paired Lecture | Formats |
 |---|---|---|---|
+| 0 | **The Seattle "God Committee":** Rationing Dialysis, Social Worth, and the Birth of Bioethics | [Intro: Thinking with Cases](cases/00-introduction.html) | [HTML](cases/00b-god-committee.html) / [DOCX](cases/00b-god-committee.docx) |
 | 1 | **Dax Cowart:** Refusing Burn Treatment and the Limits of Patient Autonomy | [L2B: Consent & Autonomy](chapters/02b-clinical-relationship.html) | [HTML](cases/01-dax-cowart.html) / [DOCX](cases/01-dax-cowart.docx) |
 | 2 | **Tuskegee & Guatemala:** Deception, Racism, and Vulnerability in Research | [L3B: Protecting Subjects](chapters/03b-protecting-research-subjects.html) | [HTML](cases/02-tuskegee-guatemala.html) / [DOCX](cases/02-tuskegee-guatemala.docx) |
 | 3 | **Sylvain Lesné & the Aβ*56 Affair:** Research Misconduct, Replication, and the Amyloid Hypothesis | [L3B: Protecting Subjects](chapters/03b-protecting-research-subjects.html) | [HTML](cases/03-alzheimers-fraud.html) / [DOCX](cases/03-alzheimers-fraud.docx) |

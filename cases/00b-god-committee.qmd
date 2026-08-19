@@ -1,0 +1,165 @@
+---
+title: "The Seattle 'God Committee': Rationing Dialysis, Social Worth, and the Birth of Bioethics"
+subtitle: "“They Decide Who Lives, Who Dies” — a bioethics case study"
+author: "Brendan Shea, PhD"
+date: last-modified
+---
+
+::: {.case-at-a-glance}
+- **Who:** Seven anonymous Seattle citizens — a lawyer, a minister, a banker, a homemaker, a labor leader, a state official, and a surgeon — and Dr. Belding Scribner (1921–2003), whose invention made their job necessary.
+- **What:** From 1961 until the early 1970s, the committee decided which patients in fatal kidney failure would get one of a handful of dialysis slots — and so who would live. It chose, in part, by judging patients' jobs, families, savings, and character.
+- **Where / When:** The Seattle Artificial Kidney Center, in the basement of Swedish Hospital, Seattle, Washington, 1961–1972.
+- **Why it matters:** This was the first time the American public watched medicine practice [rationing]{.key-term} — dividing a lifesaving resource that cannot stretch to everyone who needs it. The outcry over the committee's "social worth" standard helped create the field of bioethics. The question it raised — may a person's usefulness to *others* count in deciding who is saved? — has never been settled.
+- **Pair with:** Thinking with Cases (the course introduction — this case comes before everything else, just as it did in history).
+:::
+
+## The Case
+
+The machine came before the dilemma. In the occupied Netherlands during the Second World War, a young doctor named Willem Kolff built the first artificial kidney out of sausage casing, a wooden drum, and parts scavenged from a washing machine. It worked. Blood ran out of the patient, through a membrane bath that filtered out the poisons a dead kidney no longer could, and back into the body. By the 1950s, refined versions of Kolff's machine were saving soldiers and civilians whose kidneys had shut down suddenly from injury, infection, or poisoning. The machine bought time until the organs healed.
+
+::: {.context-box}
+**What kidneys do, and what happens when they stop.** Your kidneys filter waste out of your blood, around the clock. When they fail, the waste builds up and, within days or weeks, poisons you — a condition called [uremia]{.key-term}. [Hemodialysis]{.key-term} does the kidneys' job outside the body: blood is pumped through a machine that filters it and returns it. Kidney failure comes in two forms. *Acute* failure can heal; a patient dialyzed for a few weeks may recover fully. *Chronic* failure — today called [end-stage renal disease]{.key-term} — is permanent. Without a working kidney or a machine, it is fatal, usually within weeks.
+:::
+
+![A Kolff-type artificial kidney in operation at a U.S. Army renal center during the Korean War, 1955. The machine could already rescue patients from acute kidney failure — but a patient with *chronic* failure could not survive on it for long, because doctors ran out of blood vessels to connect it to.](../images/kolff_artificial_kidney_1955.jpg){#fig-kolff width="78%" fig-alt="Medical staff in 1950s uniforms attend to a patient lying beside a large rotating-drum dialysis machine in a hospital ward."}
+
+::: {.attribution}
+United States Army, 1955. Public domain; via Wikimedia Commons.
+:::
+
+The catch was in the plumbing. Each dialysis run required cutting into an artery and a vein with glass tubes. When the run ended, those vessels were tied off and lost for good. A patient had only so many usable vessels. After a handful of treatments, there was nowhere left to connect the machine. For acute patients, that was enough. For chronic patients, it was a death sentence with extra steps. The machine could clean their blood this week, and the next. Then their vessels were spent, and they died anyway. Doctors in the 1950s mostly refused to start chronic patients on dialysis at all. Why offer a bridge that ended in midair?
+
+Belding Scribner, a nephrologist at the University of Washington, had watched that ending too many times. He later said the answer came to him in the middle of the night. If the connection to the vessels never had to be removed, it never had to be repeated. He built it with an engineer, Wayne Quinton, and a surgeon, David Dillard. The device was a small U-shaped bypass made of Teflon — a new material that blood would not clot on. One end sat in an artery in the forearm, the other in a vein. Between treatments, blood simply looped through it. At treatment time, the loop was opened and hooked to the machine. It became known as the [Scribner shunt]{.key-term}, and it could stay in place for months.
+
+On March 9, 1960, a thirty-nine-year-old machinist named Clyde Shields became the first person on Earth to begin dialysis for chronic kidney failure with no plan to ever stop. He lived eleven more years — not on borrowed time but on scheduled time, two nights a week, hooked to the machine [@blagg2007].
+
+This was a genuine miracle, and it created a genuine nightmare. The moment the shunt worked, a fatal disease became a treatable one — for as many people as there were machines. There were almost none. In January 1962, Scribner's group opened the Seattle Artificial Kidney Center in the basement of Swedish Hospital with **three beds**. Treatment cost about $15,000 a year — well over $150,000 in today's money — and no insurance covered it. Across the country, thousands of people were dying of chronic kidney failure every year. Nearly every one of them was now, in principle, savable.
+
+Somebody had to pick.
+
+The doctors took the first cut, and kept it strictly medical. Candidates had to be under forty-five, free of other serious disease, and emotionally stable enough to endure the regimen. They also had to live in Washington State, whose taxpayers had funded the research. That screening still left far more dying candidates than beds. The physicians did not want the final choice. Choosing among medically equal patients, they reasoned, was not a medical judgment. Nor did they want the power to make it in secret. So the King County Medical Society appointed a committee of seven volunteer citizens to make it for them. Officially it was the Admissions and Policy Committee. Its members — the lawyer, the minister, the banker, the homemaker, the labor leader, the state official, the surgeon — served unpaid and anonymously. They asked for guidelines. There were none to give. No one in human history had held this particular job before.
+
+So they invented their own standards. Each candidate arrived as a dossier listing the facts the committee had decided mattered. We know the list because the journalist Shana Alexander was allowed to watch the committee deliberate for six months [@alexander1962].
+
+| What the dossier listed | The question it was really asking |
+|-------------------------------|----------------------------------------------|
+| Age and sex | How many years, and whose, are being bought? |
+| Marital status and dependents | How many people fall if this one falls? |
+| Income and net worth | Will the family need public support if he dies — or to pay for care if he lives? |
+| Emotional stability | Can she endure the machine, and stick to the regimen? |
+| Education, occupation | What has this life produced so far? |
+| Past performance and future potential | What will it produce if we save it? |
+| Names of references | What do respectable people say about him? |
+
+: The selection factors in the committee's candidate dossiers, as reported by Alexander [-@alexander1962]. {#tbl-factors}
+
+In practice, the deliberations Alexander recorded turned on exactly what the list implies: whether a man had held a steady job, whether he went to church, how many children depended on him, whether his widow could cope. One member told her: "As human beings ourselves, we rejected the idea instinctively, of classifying other human beings in pigeonholes, but we realized we had to narrow the field somehow." The banker was blunter about the committee's expertise: "I've never had any idea how a kidney works, and I still don't."
+
+Alexander's article ran in *Life* magazine on November 9, 1962, under a title that told the whole story: "They Decide Who Lives, Who Dies." The photograph showed the seven members with their faces in shadow. The reaction was national and fierce. Critics soon had a nickname for the panel: the **God Committee**. In 1965, an NBC documentary filmed the members as faceless silhouettes, deliberating over who would be saved. What shocked people was not that the committee was cruel — by every account its members were conscientious, and haunted by the work. What shocked people was the standard itself: that a hospital was weighing souls, and weighing them by the measures of a middle-class résumé.
+
+But hold the shock for a moment, and the committee's defenders have a question for you. The beds were real, the shortage was real, and *some* method — a coin flip, a waiting list, a quiet word from a well-connected doctor — was going to decide. If a choice must be made, is it really wrong to ask what each rescue would mean for the people around the patient? That is the question the committee started, and it outlived the committee.
+
+## The Argument the Committee Started
+
+The problem of choosing whom to save was not new. Armies had practiced [triage]{.key-term} — sorting casualties by urgency and salvageability — for a century and a half. Sailors in overloaded lifeboats had faced it. In one famous 1842 shipwreck case, an American court said the fair way to choose who goes overboard is to draw lots. What Seattle added was deliberation. This was not a split-second choice in a storm but a standing committee with dossiers, meeting month after month, writing its reasons down. And once the reasons were visible, they could be attacked. The fight that followed was about one specific thing: whether *who a patient is to other people* — worker, breadwinner, parent, churchgoer — may ever count in deciding whose life is saved.
+
+### The committee's defense: a saved life ripples outward
+
+Start with the committee's own logic, which its members felt more than argued, and which philosophers later stated for them. Refusing to choose was not an option on the table. "No method" is itself a method — it hands the choice to luck, to the order patients happened to fall ill, or to backroom influence. Better, the founders reasoned, that the choice be made deliberately, by the community that was paying for the machines, through citizens with nothing to gain. And if the community must choose, why should it be forbidden to notice what everyone at the bedside already sees: that one candidate is raising four children and another is not?
+
+::: {.argument}
+**The Social Worth Argument**
+
+1. When not everyone can be saved, some method of choosing among them is unavoidable — even "no method" hands the choice to chance or favoritism.
+2. Saving a life also saves what that life does for others: children raised, work done, a community served.
+3. If rescues differ in what they give back to others, the community providing the rescue may weigh that difference.
+4. Therefore, scarce lifesaving treatment should go to the patients whose survival will do the most for others.
+:::
+
+Almost no one disputes premise 1, and premise 2 is just a fact about human lives. Everything hangs on premise 3 — the claim that the ripples *may be weighed*. The committee lived by that premise every time it noted a candidate's dependents or church membership. And it is exactly the premise two law professors set out to destroy.
+
+### The reply: "social worth" measures the judges, not the judged
+
+In 1968, David Sanders and Jesse Dukeminier published a scathing review of how the Seattle system had actually worked [@sanders1968]. Their charge was not that the committee had weighed social worth badly. It was that social worth *cannot* be weighed — and that what gets weighed instead, always, is resemblance to the people doing the judging. The committee's standards, they wrote, rewarded the steady, the married, the churchgoing, the conventionally employed: "the Pacific Northwest is no place for a Henry David Thoreau with bad kidneys." A poet, a loner, a rebel — anyone whose value did not come in résumé form — was quietly marked for death by a panel that believed itself objective.
+
+::: {.argument}
+**The Bias Reply**
+
+1. Choosing by social contribution requires a reliable, fair measure of what a life is worth to others.
+2. No such measure exists; in its absence, judges fall back on their own values and reward people like themselves.
+3. A life-and-death choice disguised as objective merit is worse than one made by open chance, because it adds a false judgment to the loss.
+4. Therefore, social worth must be dropped as a criterion.
+:::
+
+The reply's target is precise: it attacks premise 3 of the committee's argument by showing what "weighing the ripples" turns into when actual humans do it. But it has a soft spot. The Bias Reply proves that the committee *mismeasured* worth; it does not quite prove that worth is irrelevant. If the measurement problem could be solved — even roughly, even for extreme cases — would judging contribution then be acceptable? That opening is where the next move went.
+
+### The counter-reply: judge coarsely, then draw lots
+
+The philosopher Nicholas Rescher took that opening in 1969 [@rescher1969]. He accepted much of the bias critique, but insisted that fleeing *all* judgment throws away things that plainly matter. Some factors really are measurable and really are relevant: the likelihood the treatment will succeed, the years of life at stake, the family that depends on the patient. A hospital that ignores them is not being humble, Rescher argued; it is wasting lives to keep its hands clean. His proposal kept explicit criteria — including, cautiously, service to others — but with two concessions to the critics. The criteria must be published and defended, not improvised in a closed room. And they must be used only coarsely, to sort candidates into rough groups. Among finalists who are roughly equal, Rescher concluded, the honest finish is a **lottery**: past that point, any further "judgment" is just bias with a straight face.
+
+::: {.argument}
+**Rescher's Two-Stage Argument**
+
+1. Some selection factors — chance of success, years of life saved, dependents — are relevant and roughly measurable.
+2. Ignoring relevant, measurable factors sacrifices lives for the sake of the choosers' comfort.
+3. But fine-grained rankings of human worth exceed what anyone can fairly measure.
+4. Therefore, use explicit criteria to sort candidates coarsely, then choose among near-equals by lot.
+:::
+
+Rescher's position is a hinge in the debate: the most careful *defense* of judging patients ends by handing the final choice to chance. The obvious next question is why chance should only clean up at the end. The lottery is the fair way to break a tie among near-equals. And the Bias Reply showed that our rankings above the tie are untrustworthy anyway. So why not let chance decide the whole thing?
+
+### The reframing: what choosing does to persons
+
+That is precisely what the theologian Paul Ramsey and the young philosopher James Childress argued at the decade's end [@ramsey1970; @childress1970]. Their move reframed the entire question. The earlier rounds had asked *which selection method produces the best results*. Ramsey and Childress asked instead: *what does the act of selecting do to the people being selected?* When a hospital ranks patients by usefulness, it treats persons the way a farmer treats livestock — as assets whose value lies in what they yield. Childress's alternative was radical in its plainness: once patients are medically suitable, choose by lottery or by first-come, first-served. Random selection, he argued, is not a refusal to decide. It is the only way of deciding that expresses what we claim to believe: that every person's claim to life is equal. And it lets a dying patient trust the hospital, because there is no judge to impress and no résumé to polish.
+
+::: {.argument}
+**The Equal-Worth Argument**
+
+1. Each person's claim to continued life does not rise or fall with their usefulness to others.
+2. Selecting patients by usefulness denies this — it treats persons as instruments and makes the hospital a judge of lives.
+3. Random selection among the medically suitable gives every claim equal weight and requires no judging.
+4. Therefore, scarce lifesaving treatment should be allocated by chance or queue, not by merit.
+:::
+
+Here the dispute comes full circle, because premise 1 is just the denial of the committee's premise 3 — the two arguments meet head-on at a single point. And the Equal-Worth Argument has its own cost, which its defenders accepted openly: a lottery is serenely indifferent between the mother of four and the man with no one waiting at home. Childress's answer was that this indifference *is* equality — that the discomfort we feel is the feeling of giving up a power we never should have had. Not everyone can swallow that. Which is why the argument did not end; it just changed venues.
+
+### The move that hasn't ended: scarcity keeps changing costumes
+
+History seemed, for a while, to close the case — not by answering the question but by buying it off. In November 1971, a dialysis patient named Shep Glazer was hooked to a running machine on the floor of a congressional hearing room, dialyzing in front of the House Ways and Means Committee. A year later, Congress added a few lines to the Social Security Amendments of 1972: virtually every American with end-stage renal disease would be covered by Medicare, regardless of age [@blagg2007]. The God Committee's dilemma was dissolved by money. Kidney failure remains the only disease with its own federal entitlement. The program now covers more than half a million dialysis patients, at a cost on the order of $50 billion a year. America's real answer to "who shall live when not all can live?" turned out to be: *refuse the question; pay for everyone.*
+
+But that answer only works where supply can be bought. Where it cannot, the committee's question comes back — and its old arguments return in new costumes.
+
+It came back in the spring of 2020, when hospitals preparing for COVID-19 ventilator shortages dusted off their [crisis standards of care]{.key-term} — the pre-written rules for rationing when a disaster overwhelms capacity. A team of prominent ethicists, writing in the *New England Journal of Medicine*, recommended that scarce ventilators and vaccines go first to those who could save the most lives. Notably, they added that frontline health workers deserved priority because of their "instrumental value" to everyone else [@emanuel2020fair]. Read that phrase against @tbl-factors: it is a social worth claim, made openly and with published reasons — everything the Seattle committee's improvised version was not, except in its core premise. The Bias Reply returned on schedule, too. Alabama's crisis plan directed that ventilators be withheld from people with "severe or profound mental retardation." After a federal civil-rights complaint, the state withdrew it. Ethicists then proposed guardrails that read like a direct memo to 1962: no categorical exclusions, no quality-of-life judgments, no long-term life-expectancy predictions [@mello2020].
+
+And it never left transplant medicine, where the scarce resource — a human organ — cannot be manufactured at any price. Every transplant candidate today undergoes a [psychosocial evaluation]{.key-term}: an assessment of their support network, housing, adherence to treatment, and substance use. The stated logic is medical — a graft fails without aftercare — but the resemblance to the old dossiers is hard to miss. A national survey of transplant providers found that about one in ten patients evaluated is excluded for inadequate *social support*: no spouse, no family, no one to drive them home [@ladin2019]. The committee's marital-status line did not die. It was rewritten in clinical language and moved into the eligibility workup.
+
+| The 1962 problem | What became of it |
+|---------------------------------|-------------------------------------------------|
+| Machines cost more than patients had | Resolved — by money, not philosophy: the 1972 Medicare entitlement |
+| Too few machines for too many patients | Returns wherever supply can't be bought: ventilators in 2020, organs always |
+| "Social worth" as a criterion | Renamed: "instrumental value" in pandemic triage; "social support" in transplant listing |
+| Anonymous judges, improvised standards | Replaced by published protocols and scores — the fight moved into their wording |
+
+: What was resolved, and what re-emerged. {#tbl-thennow}
+
+So the scorecard is mixed. The specific horrors of 1962 — secret judges, unwritten standards, church attendance as a tiebreaker — are gone. The demand for published, defensible criteria is Rescher's and the law professors' lasting victory. What is not gone is the hinge premise itself. Every triage protocol and every listing committee still has to answer the question the seven Seattle citizens answered with a dossier: when not everyone can be saved, does it matter *who else* each patient is holding up? The next scarce miracle — and medicine always produces a next one — will ask it again.
+
+## Discussion Questions
+
+1. Look at @tbl-factors. If you could keep exactly one factor and had to discard the rest, which would you keep — and how would you defend it to the family of a patient it rejected?
+2. The Social Worth Argument and the Equal-Worth Argument collide at a single point: whether a person's usefulness to others can affect their claim to be saved. Which premise do you actually accept, and what would change your mind?
+3. Rescher says: judge coarsely, then draw lots among near-equals. Is this a stable compromise, or does it inherit the flaws of both judging and chance? Defend your answer.
+4. You are a nurse on a transplant team. A medically suitable candidate lives alone, with no family to help after surgery, and the team is inclined to deny listing for "inadequate social support." Argue for or against the denial — and say how, if at all, it differs from the Seattle committee's marital-status question.
+5. In 2020, ethicists argued that frontline health workers should get scarce ventilators first because of their "instrumental value." Is there a principled difference between this and the God Committee's "social worth" — or is it the same premise with better paperwork? Take a side.
+
+## Further Reading
+
+- Shana Alexander, "They Decide Who Lives, Who Dies," *Life*, November 9, 1962 — the original article, still gripping; freely readable in Google Books' *Life* archive.
+- *Who Shall Live?* (NBC, 1965) — Edwin Newman's documentary, filmed at the Seattle center, with the committee deliberating as faceless silhouettes.
+- Renée C. Fox and Judith P. Swazey, *The Courage to Fail: A Social View of Organ Transplants and Dialysis* (University of Chicago Press, 1974) — two sociologists' close study of the dialysis and transplant world the committee inhabited.
+- Albert R. Jonsen, *The Birth of Bioethics* (Oxford University Press, 1998), chapter 7 — how the Seattle committee helped call a new field into being.
+
+## References
+
+::: {#refs}
+:::
