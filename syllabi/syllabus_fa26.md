@@ -8,7 +8,7 @@
 **Email:** Brendan.Shea@rctc.edu  
 **Phone:** 507-722-1146  
 **Office:** M2403Q  
-**Office Hours:** Mon & Wed 10:00 AM – 12:00 PM (by Zoom). Please email me ahead of time to let me know you are coming.
+**Office Hours:** Tues & Thurs 9:00–9:30 AM and 11:00 AM–12:30 PM (by Zoom). Please email me ahead of time to let me know you are coming.
 
 **Sections:**
 
@@ -16,6 +16,7 @@
 |---|---|---|
 | **01** | In person | Tuesdays & Thursdays, 9:30–10:45 AM, **East Hall 128** |
 | **71** | Fully online, asynchronous | No required synchronous meetings |
+Table: Course sections and meeting formats
 
 **Both sections share this syllabus.** The readings, the case studies, the exams, the essays, and the grade weights are identical. The only differences are *where* you do the work and *how* your exams and essays are proctored.
 
@@ -138,6 +139,7 @@ Your final grade is a weighted average of the following. **These weights are the
 | **Exams** — two, objective, proctored | **30%** (15% each) |
 | **Essays** — two, written under proctoring | **30%** (15% each) |
 | **PhilMates** — interactive lessons, autograded in D2L | **10%** |
+Table: Grade breakdown
 
 **Perusall (30%).** Lecture notes, lecture videos, and the twelve case studies are delivered in Perusall, where you read and annotate alongside your classmates. This is the backbone of the course and it is where you do most of your thinking before class. See *Using Perusall*, below.
 
@@ -276,7 +278,7 @@ Each chapter is delivered in two parts (A and B) and is paired with a case study
 
 ### Semester dates
 
-| | |
+| Event | Date or details |
 |---|---|
 | Classes begin | Monday, August 24 |
 | **Last day to drop** | **Friday, August 28** |
@@ -288,6 +290,7 @@ Each chapter is delivered in two parts (A and B) and is paired with a case study
 | Veterans Day — no classes | Wednesday, November 11 |
 | **Thanksgiving — no classes** | **Thursday–Friday, November 26–27** |
 | Semester ends | Friday, December 18 |
+Table: Semester dates and holidays
 
 Note that **Tuesday, November 24 is a regular class day.** Only Thursday and Friday of that week are holidays.
 
@@ -312,17 +315,19 @@ Note that **Tuesday, November 24 is a regular class day.** Only Thursday and Fri
 | **15** | **Dec 1** — Ch 12A: The Moral Status of Animals | **Dec 3** — Ch 12B: Industrial Animals & Xenotransplantation · **Case 12: David Bennett** |
 | **16** | **Dec 8** — Ch 12 discussion & catch-up | **Dec 10** — Cumulative review for the final |
 | **17** | **Dec 15** — 📝 **EXAM 2 — final** (Ch 7–12) | — |
+Table: Weekly course schedule
 
 **Section 01:** we will probably start talking about the four principles in week 1, before Chapter 1 is formally assigned. That is a warm-up, not a substitute for doing the week 2 reading.
 
 ### The four graded sessions
 
-| | When | Covers |
+| Assessment | When | Covers |
 |---|---|---|
 | ✍️ **Essay 1** | Thursday, September 24 | One of Cases 1–4 |
 | 📝 **Exam 1** (midterm) | Tuesday, October 13 | Chapters 1–6 |
 | ✍️ **Essay 2** | Tuesday, November 24 | One of Cases 5–11 |
 | 📝 **Exam 2** (final) | Tuesday, December 15 | Chapters 7–12 |
+Table: Graded sessions and coverage
 
 You will not know *which* case you are getting until the essay session begins, so prepare all of the cases in the block.
 
