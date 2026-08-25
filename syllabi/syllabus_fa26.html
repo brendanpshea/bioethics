@@ -122,6 +122,22 @@
   main ul, main ol { margin: 0 0 14px; padding-left: 22px; }
   main li { margin-bottom: 4px; }
   main a { color: var(--accent); }
+  a:focus-visible {
+    outline: 3px solid #111827;
+    outline-offset: 3px;
+  }
+  .skip-link {
+    position: absolute;
+    left: 16px;
+    top: -48px;
+    z-index: 10;
+    background: white;
+    color: var(--ink);
+    padding: 8px 12px;
+    border: 2px solid var(--ink);
+    border-radius: 4px;
+  }
+  .skip-link:focus { top: 16px; }
 
   .info-grid {
     display: grid;
@@ -322,9 +338,25 @@
     margin: 16px 0 20px;
   }
   main pre code { background: none; padding: 0; font-size: inherit; }
+  caption {
+    caption-side: top;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      transition-duration: 0.01ms !important;
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+    }
+  }
 </style>
 </head>
 <body>
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
 
 <header class="hero">
   <div class="wrap">
@@ -341,32 +373,35 @@
 
 <div class="wrap">
 
-<nav class="toc">
+<nav class="toc" aria-label="Table of contents">
 <h3>Contents</h3>
 <ul>
 <li><a href="#course-information" id="toc-course-information">Course Information</a></li>
-<li><a href="#course-description-open_book" id="toc-course-description-open_book">Course Description 📖</a></li>
-<li><a href="#course-content-and-learning-outcomes-dart" id="toc-course-content-and-learning-outcomes-dart">Course Content and Learning Outcomes 🎯</a></li>
-<li><a href="#required-and-recommended-course-materials-books" id="toc-required-and-recommended-course-materials-books">Required and Recommended Course Materials 📚</a></li>
-<li><a href="#grading-and-course-policies-bar_chart" id="toc-grading-and-course-policies-bar_chart">Grading and Course Policies 📊</a></li>
-<li><a href="#using-perusall-pencil" id="toc-using-perusall-pencil">Using Perusall 📝</a></li>
-<li><a href="#using-philmates-video_game" id="toc-using-philmates-video_game">Using PhilMates 🎮</a></li>
-<li><a href="#policy-on-late-work-alarm_clock" id="toc-policy-on-late-work-alarm_clock">Policy on Late Work ⏰</a></li>
-<li><a href="#rctc-common-policies-balance_scale" id="toc-rctc-common-policies-balance_scale">RCTC Common Policies ⚖️</a></li>
-<li><a href="#getting-in-touch-with-me-e-mail" id="toc-getting-in-touch-with-me-e-mail">Getting in Touch with Me 📧</a></li>
-<li><a href="#resources-for-student-success-mortar_board" id="toc-resources-for-student-success-mortar_board">Resources for Student Success 🎓</a></li>
-<li><a href="#course-calendar-date" id="toc-course-calendar-date">Course Calendar 📅</a></li>
+<li><a href="#course-description-open_book" id="toc-course-description-open_book">Course Description</a></li>
+<li><a href="#course-content-and-learning-outcomes-dart" id="toc-course-content-and-learning-outcomes-dart">Course Content and Learning Outcomes</a></li>
+<li><a href="#required-and-recommended-course-materials-books" id="toc-required-and-recommended-course-materials-books">Required and Recommended Course Materials</a></li>
+<li><a href="#grading-and-course-policies-bar_chart" id="toc-grading-and-course-policies-bar_chart">Grading and Course Policies</a></li>
+<li><a href="#using-perusall-pencil" id="toc-using-perusall-pencil">Using Perusall</a></li>
+<li><a href="#using-philmates-video_game" id="toc-using-philmates-video_game">Using PhilMates</a></li>
+<li><a href="#policy-on-late-work-alarm_clock" id="toc-policy-on-late-work-alarm_clock">Policy on Late Work</a></li>
+<li><a href="#rctc-common-policies-balance_scale" id="toc-rctc-common-policies-balance_scale">RCTC Common Policies</a></li>
+<li><a href="#getting-in-touch-with-me-e-mail" id="toc-getting-in-touch-with-me-e-mail">Getting in Touch with Me</a></li>
+<li><a href="#resources-for-student-success-mortar_board" id="toc-resources-for-student-success-mortar_board">Resources for Student Success</a></li>
+<li><a href="#course-calendar-date" id="toc-course-calendar-date">Course Calendar</a></li>
 </ul>
 </nav>
 
-<main>
-<section id="course-information" class="level2">
-<h2>Course Information</h2>
+<main id="main-content" aria-label="Fall 2026 syllabus" tabindex="-1">
+<h1 id="bioethics">Bioethics</h1>
+<p><strong>PHIL 1135 | Fall 2026</strong></p>
+<h2 id="course-information">Course Information</h2>
 <p><strong>Instructor:</strong> Brendan Shea, Ph.D.<br />
-<strong>Email:</strong> <a href="mailto:Brendan.Shea@rctc.edu">Brendan.Shea@rctc.edu</a><br />
+<strong>Email:</strong> <a
+href="mailto:Brendan.Shea@rctc.edu">Brendan.Shea@rctc.edu</a><br />
 <strong>Phone:</strong> 507-722-1146<br />
 <strong>Office:</strong> M2403Q<br />
-<strong>Office Hours:</strong> Mon &amp; Wed 10:00 AM – 12:00 PM (by Zoom). Please email me ahead of time to let me know you are coming.</p>
+<strong>Office Hours:</strong> Mon &amp; Wed 10:00 AM – 12:00 PM (by
+Zoom). Please email me ahead of time to let me know you are coming.</p>
 <p><strong>Sections:</strong></p>
 <table>
 <thead>
@@ -380,7 +415,8 @@
 <tr>
 <td><strong>01</strong></td>
 <td>In person</td>
-<td>Tuesdays &amp; Thursdays, 9:30–10:45 AM, <strong>East Hall 128</strong></td>
+<td>Tuesdays &amp; Thursdays, 9:30–10:45 AM, <strong>East Hall
+128</strong></td>
 </tr>
 <tr>
 <td><strong>71</strong></td>
@@ -389,18 +425,27 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Both sections share this syllabus.</strong> The readings, the case studies, the exams, the essays, and the grade weights are identical. The only differences are <em>where</em> you do the work and <em>how</em> your exams and essays are proctored.</p>
+<p><strong>Both sections share this syllabus.</strong> The readings, the
+case studies, the exams, the essays, and the grade weights are
+identical. The only differences are <em>where</em> you do the work and
+<em>how</em> your exams and essays are proctored.</p>
 <p><strong>Zoom Link (office hours):</strong> Available on D2L</p>
 <p><strong>Prerequisites:</strong> None</p>
-</section>
-<section id="course-description-open_book" class="level2">
-<h2>Course Description 📖</h2>
-<p>This course provides background ethical theories, principles and concepts necessary to grasp the ethical issues in life, death, health care, biotechnology and the life sciences. Specific attention will be given to the social context of ethical decisions and there will be an emphasis on critical reasoning and justification, and on reading and responding to philosophical works about medicine and biological research. Special topics that may be discussed include: definitions of life and death, autonomy, paternalism, voluntary informed consent, rights, obligations, clinical trials, confidentiality, abortion and reproductive technologies, cloning, stem cells, end of life issues, transplantation and fair allocation of limited resources.</p>
-</section>
-<section id="course-content-and-learning-outcomes-dart" class="level2">
-<h2>Course Content and Learning Outcomes 🎯</h2>
-<section id="major-content-areas" class="level3">
-<h3>Major Content Areas</h3>
+<h2 id="course-description">Course Description</h2>
+<p>This course provides background ethical theories, principles and
+concepts necessary to grasp the ethical issues in life, death, health
+care, biotechnology and the life sciences. Specific attention will be
+given to the social context of ethical decisions and there will be an
+emphasis on critical reasoning and justification, and on reading and
+responding to philosophical works about medicine and biological
+research. Special topics that may be discussed include: definitions of
+life and death, autonomy, paternalism, voluntary informed consent,
+rights, obligations, clinical trials, confidentiality, abortion and
+reproductive technologies, cloning, stem cells, end of life issues,
+transplantation and fair allocation of limited resources.</p>
+<h2 id="course-content-and-learning-outcomes">Course Content and
+Learning Outcomes</h2>
+<h3 id="major-content-areas">Major Content Areas</h3>
 <p><strong>Background Ethical Theories and Concepts</strong></p>
 <ul>
 <li>Consequentialism/Utilitarianism</li>
@@ -416,7 +461,8 @@
 <li>Rights/Interests</li>
 <li>Distributive Justice</li>
 </ul>
-<p><strong>Areas of Applied Ethics</strong> (may include but are not limited to):</p>
+<p><strong>Areas of Applied Ethics</strong> (may include but are not
+limited to):</p>
 <ul>
 <li>Death and Dying</li>
 <li>Clinical Trials/Human and Animal Experimentation</li>
@@ -424,40 +470,42 @@
 <li>Social Justice and Public Health</li>
 <li>Biotechnology</li>
 </ul>
-</section>
-<section id="learning-outcomes-general" class="level3">
-<h3>Learning Outcomes (General)</h3>
+<h3 id="learning-outcomes-general">Learning Outcomes (General)</h3>
 <p>The student will be able to:</p>
 <ol type="1">
-<li>Identify and explain the major areas of ethical inquiry with regard to life, death, health care, biotechnology and life sciences.</li>
+<li>Identify and explain the major areas of ethical inquiry with regard
+to life, death, health care, biotechnology and life sciences.</li>
 <li>Understand logical forms of justification.</li>
 <li>Analyze moral concepts, principles and theories.</li>
 <li>Explain major bioethical concepts and terminology.</li>
-<li>Identify conclusions and premises of professional, moral arguments.</li>
+<li>Identify conclusions and premises of professional, moral
+arguments.</li>
 <li>Apply ethical theories to concrete situations.</li>
-<li>Formulate her own moral positions and justify them in written arguments.</li>
+<li>Formulate her own moral positions and justify them in written
+arguments.</li>
 <li>Appreciate multiculturalism and other world views.</li>
 </ol>
-</section>
-<section id="learning-outcomes-mntc" class="level3">
-<h3>Learning Outcomes (MNTC)</h3>
+<h3 id="learning-outcomes-mntc">Learning Outcomes (MNTC)</h3>
 <p>Goal 6 - Humanities-the Arts, Literature and Philosophy</p>
 <p>The student will be able to:</p>
 <ol type="1">
-<li>Understand those works as expressions of individual and human values within an historical and social context.</li>
+<li>Understand those works as expressions of individual and human values
+within an historical and social context.</li>
 <li>Respond critically to works in the arts and humanities.</li>
-<li>Articulate an informed personal reaction to works in the arts and humanities.</li>
+<li>Articulate an informed personal reaction to works in the arts and
+humanities.</li>
 </ol>
 <p>Goal 9 - Ethical and Civic Responsibility</p>
 <p>The student will be able to:</p>
 <ol type="1">
 <li>Examine, articulate, and apply their own ethical views.</li>
-<li>Understand and apply core concepts (e.g. politics, rights and obligations, justice, liberty) to specific issues.</li>
-<li>Analyze and reflect on the ethical dimensions of legal, social, and scientific issues.</li>
+<li>Understand and apply core concepts (e.g. politics, rights and
+obligations, justice, liberty) to specific issues.</li>
+<li>Analyze and reflect on the ethical dimensions of legal, social, and
+scientific issues.</li>
 </ol>
-</section>
-<section id="methods-for-evaluation-of-student-learning" class="level3">
-<h3>Methods for Evaluation of Student Learning</h3>
+<h3 id="methods-for-evaluation-of-student-learning">Methods for
+Evaluation of Student Learning</h3>
 <p>Methods may include but are not limited to:</p>
 <ol type="1">
 <li>Papers</li>
@@ -465,40 +513,48 @@
 <li>Journals</li>
 <li>Service-learning projects</li>
 </ol>
-</section>
-<section id="rctc-core-outcomes" class="level3">
-<h3>RCTC Core Outcomes</h3>
-<p>This course contributes to meeting the following RCTC Core Outcome(s):</p>
-<p><strong>Critical Thinking:</strong> Students will think systematically and explore information thoroughly before accepting or formulating a position or conclusion. <strong>Personal and Professional Accountability:</strong> Students will take responsibility as active learners for achieving their educational and personal goals.</p>
-</section>
-</section>
-<section id="required-and-recommended-course-materials-books" class="level2">
-<h2>Required and Recommended Course Materials 📚</h2>
+<h3 id="rctc-core-outcomes">RCTC Core Outcomes</h3>
+<p>This course contributes to meeting the following RCTC Core
+Outcome(s):</p>
+<p><strong>Critical Thinking:</strong> Students will think
+systematically and explore information thoroughly before accepting or
+formulating a position or conclusion. <strong>Personal and Professional
+Accountability:</strong> Students will take responsibility as active
+learners for achieving their educational and personal goals.</p>
+<h2 id="required-and-recommended-course-materials">Required and
+Recommended Course Materials</h2>
 <ul>
-<li>All course materials will be made available free online through D2L and Perusall. There is no textbook to buy.</li>
-<li>This course will require that you have reliable, regular internet access. Most assignments will require you use a PC, Mac, or Linux desktop or laptop (Android, iOS, or Chrome OS may have problems with lockdown browser or Colab).</li>
+<li>All course materials will be made available free online through D2L
+and Perusall. There is no textbook to buy.</li>
+<li>This course will require that you have reliable, regular internet
+access. Most assignments will require you use a PC, Mac, or Linux
+desktop or laptop (Android, iOS, or Chrome OS may have problems with
+lockdown browser or Colab).</li>
 </ul>
-<section id="technology-you-will-need-warning" class="level3">
-<h3>Technology You Will Need ⚠️</h3>
-<p><strong>Read this before the drop deadline (Friday, August 28).</strong> Both sections need:</p>
+<h3 id="technology-you-will-need">Technology You Will Need</h3>
+<p><strong>Read this before the drop deadline (Friday, August
+28).</strong> Both sections need:</p>
 <ul>
-<li>A <strong>PC, Mac, or Linux laptop or desktop</strong>. Chromebooks and tablets are not supported for exams or essays.</li>
+<li>A <strong>PC, Mac, or Linux laptop or desktop</strong>. Chromebooks
+and tablets are not supported for exams or essays.</li>
 <li>A working <strong>webcam and microphone</strong>.</li>
 <li>A reliable internet connection.</li>
 </ul>
-<p><strong>Online (section 71) students additionally need</strong>, for every exam and every essay:</p>
+<p><strong>Online (section 71) students additionally need</strong>, for
+every exam and every essay:</p>
 <ul>
-<li>A <strong>smartphone with a working camera</strong>, and something to prop it on so it can see you and your workspace from the side.</li>
-<li>Enough bandwidth to run <strong>two video streams at once</strong>.</li>
-<li>A quiet, private, well-lit space where you can work uninterrupted for about 90 minutes.</li>
+<li>A <strong>smartphone with a working camera</strong>, and something
+to prop it on so it can see you and your workspace from the side.</li>
+<li>Enough bandwidth to run <strong>two video streams at
+once</strong>.</li>
+<li>A quiet, private, well-lit space where you can work uninterrupted
+for about 90 minutes.</li>
 </ul>
-<p>If you cannot meet these requirements, contact me <strong>during the first week</strong> so we can talk through options before the drop deadline passes.</p>
-</section>
-</section>
-<section id="grading-and-course-policies-bar_chart" class="level2">
-<h2>Grading and Course Policies 📊</h2>
-<section id="grading-scale" class="level3">
-<h3>Grading Scale</h3>
+<p>If you cannot meet these requirements, contact me <strong>during the
+first week</strong> so we can talk through options before the drop
+deadline passes.</p>
+<h2 id="grading-and-course-policies">Grading and Course Policies</h2>
+<h3 id="grading-scale">Grading Scale</h3>
 <ul>
 <li><strong>A:</strong> 90.0 and above</li>
 <li><strong>B:</strong> 80.0-89.9</li>
@@ -506,10 +562,9 @@
 <li><strong>D:</strong> 60.0-69.9</li>
 <li><strong>F:</strong> Below 60.0</li>
 </ul>
-</section>
-<section id="grade-breakdown" class="level3">
-<h3>Grade Breakdown</h3>
-<p>Your final grade is a weighted average of the following. <strong>These weights are the same for both sections.</strong></p>
+<h3 id="grade-breakdown">Grade Breakdown</h3>
+<p>Your final grade is a weighted average of the following.
+<strong>These weights are the same for both sections.</strong></p>
 <table>
 <thead>
 <tr>
@@ -519,7 +574,8 @@
 </thead>
 <tbody>
 <tr>
-<td><strong>Perusall</strong> — readings, case studies, and annotations</td>
+<td><strong>Perusall</strong> — readings, case studies, and
+annotations</td>
 <td><strong>30%</strong></td>
 </tr>
 <tr>
@@ -531,123 +587,302 @@
 <td><strong>30%</strong> (15% each)</td>
 </tr>
 <tr>
-<td><strong>PhilMates</strong> — interactive lessons, autograded in D2L</td>
+<td><strong>PhilMates</strong> — interactive lessons, autograded in
+D2L</td>
 <td><strong>10%</strong></td>
 </tr>
 </tbody>
 </table>
-<p><strong>Perusall (30%).</strong> Lecture notes, lecture videos, and the twelve case studies are delivered in Perusall, where you read and annotate alongside your classmates. This is the backbone of the course and it is where you do most of your thinking before class. See <em>Using Perusall</em>, below.</p>
-<p><strong>Exams (30%).</strong> Two objective exams — multiple choice, matching, short identification — each taken under proctoring. <strong>Exam 1 (the midterm)</strong> covers Chapters 1–6; <strong>Exam 2 (the final)</strong> covers Chapters 7–12, along with the core vocabulary from the first half that we keep using all term. These test whether you have the vocabulary and the frameworks: what <em>equipoise</em> means, what the four principles are, which standard applies when.</p>
-<p><strong>Essays (30%).</strong> Two essays, each written in a single <strong>75-minute session</strong> in response to <strong>one case study</strong>. You will be given one case from that block — you will not know which one in advance — and the case text will be on your screen while you write. You are not being tested on recall. Plan on about 60 minutes of actual writing.</p>
-<p><strong>Everything you need to know about the essays is in <em>How to Write a Bioethics Essay</em>,</strong> which is posted on D2L. Read it early. It contains the paragraph structure, sentence frames, grading criteria, and a fully worked example. Both essays use the same five-paragraph shape, so you learn it once and use it twice.</p>
-<p><strong>PhilMates (10%).</strong> Short interactive philosophy lessons that run in your browser. They are autograded, and you get <strong>unlimited attempts</strong> — your highest score counts. See <em>Using PhilMates</em>, below.</p>
-</section>
-<section id="how-exams-and-essays-are-proctored-movie_camera" class="level3">
-<h3>How Exams and Essays Are Proctored 🎥</h3>
-<p>The exams and essays are identical for both sections. Only the proctoring differs.</p>
-<p><strong>Section 01 (in person).</strong> Exams and essays are taken in class, in East Hall 128, on the dates in the course calendar. You will use <strong>Respondus LockDown Browser</strong>. I will be in the room.</p>
-<p><strong>Section 71 (online).</strong> Exams and essays are taken online through D2L using <strong>Respondus LockDown Browser with Respondus Monitor</strong>, with a <strong>two-camera setup</strong>:</p>
+<p><strong>Perusall (30%).</strong> Lecture notes, lecture videos, and
+the twelve case studies are delivered in Perusall, where you read and
+annotate alongside your classmates. This is the backbone of the course
+and it is where you do most of your thinking before class. See <em>Using
+Perusall</em>, below.</p>
+<p><strong>Exams (30%).</strong> Two objective exams — multiple choice,
+matching, short identification — each taken under proctoring.
+<strong>Exam 1 (the midterm)</strong> covers Chapters 1–6; <strong>Exam
+2 (the final)</strong> covers Chapters 7–12, along with the core
+vocabulary from the first half that we keep using all term. These test
+whether you have the vocabulary and the frameworks: what
+<em>equipoise</em> means, what the four principles are, which standard
+applies when.</p>
+<p><strong>Essays (30%).</strong> Two essays, each written in a single
+<strong>75-minute session</strong> in response to <strong>one case
+study</strong>. You will be given one case from that block — you will
+not know which one in advance — and the case text will be on your screen
+while you write. You are not being tested on recall. Plan on about 60
+minutes of actual writing.</p>
+<p><strong>Everything you need to know about the essays is in <em>How to
+Write a Bioethics Essay</em>,</strong> which is posted on D2L. Read it
+early. It contains the paragraph structure, sentence frames, grading
+criteria, and a fully worked example. Both essays use the same
+five-paragraph shape, so you learn it once and use it twice.</p>
+<p><strong>PhilMates (10%).</strong> Short interactive philosophy
+lessons that run in your browser. They are autograded, and you get
+<strong>unlimited attempts</strong> — your highest score counts. See
+<em>Using PhilMates</em>, below.</p>
+<h3 id="how-exams-and-essays-are-proctored">How Exams and Essays Are
+Proctored</h3>
+<p>The exams and essays are identical for both sections. Only the
+proctoring differs.</p>
+<p><strong>Section 01 (in person).</strong> Exams and essays are taken
+in class, in East Hall 128, on the dates in the course calendar. You
+will use <strong>Respondus LockDown Browser</strong>. I will be in the
+room.</p>
+<p><strong>Section 71 (online).</strong> Exams and essays are taken
+online through D2L using <strong>Respondus LockDown Browser with
+Respondus Monitor</strong>, with a <strong>two-camera
+setup</strong>:</p>
 <ol type="1">
 <li>Your <strong>computer's webcam</strong>, facing you, as normal.</li>
-<li>Your <strong>phone's camera</strong>, positioned to the side so it shows you, your hands, and your workspace.</li>
+<li>Your <strong>phone's camera</strong>, positioned to the side so it
+shows you, your hands, and your workspace.</li>
 </ol>
-<p>You will be walked through the setup before the first essay. Please do a practice run <strong>well before</strong> it so any problems surface when they don't count.</p>
-<p><strong>If something goes wrong.</strong> If there is a technical irregularity during your session — a dropped connection, a camera that stops recording, a browser crash — <strong>you may be asked to retake the exam.</strong> That is not a penalty; it is how we make sure the attempt is complete and fair.</p>
-<p>If technical problems happen <strong>repeatedly</strong>, or if there is evidence of academic dishonesty, you will need to <strong>meet with me</strong> before taking further exams so we can sort out what is going on and agree on how you will complete the rest of the course's assessments.</p>
-<p>I recommend installing LockDown Browser and running the ungraded practice quiz on D2L <strong>at least a few days before the first essay</strong> so any setup problems surface early.</p>
-</section>
-<section id="attendance-date" class="level3">
-<h3>Attendance 📅</h3>
-<p>Students in face-to-face classes should attend class regularly, while online students are expected to participate in class discussions and activities. <strong>If you miss more than one week consecutively or 1/4 of the total class sessions, you may receive a failing grade of FW.</strong> This may endanger your ability to receive financial aid. With this in mind, you are responsible for withdrawing from the class if you decide not to continue. I am willing to make exceptions if circumstances require, but you must let me know about these promptly.</p>
-<p><strong>Section 01 (in person).</strong> You are expected to attend and participate regularly. Attendance is taken each meeting. Beyond the FW policy above, <strong>your grade may be reduced if you miss too many classes.</strong> Our section meets only twice a week, so a single missed week is a substantial share of the term.</p>
-<p><strong>Section 71 (online).</strong> Your participation is measured through Perusall — regular, on-time reading and annotation. Long silences count the same way absences do for section 01.</p>
-</section>
-<section id="plagiarism-and-academic-integrity-balance_scale" class="level3">
-<h3>Plagiarism and Academic Integrity ⚖️</h3>
-<p>Your work should be your own---please don't use your classmates, friends, parents, internet sites, etc., to help you write your papers or answer test questions. And when you do use outside sources, make sure to give appropriate citation and acknowledgment for any words, ideas, or arguments. If the preponderance of the evidence suggests cheating has occurred (that is, if the evidence indicates that this is <em>more likely than not</em>), you will receive a failing grade on the assignment. A second violation will lead to a failing grade for the course. Please also see the RCTC statement on academic integrity later in the syllabus.</p>
-</section>
-<section id="policy-on-generative-ai-robot" class="level3">
-<h3>Policy on Generative AI 🤖</h3>
-<p>I encourage you to use generative AI (ChatGPT, Gemini, CoPilot, Claude, etc.) to help you understand class content when needed (and mastering these tools will be important to almost any career path), and to work on your own projects (I've used it in my own projects, including for this course!). However, the use of generative AI is <strong>ABSOLUTELY FORBIDDEN</strong> when it comes to answering questions on the exams and essays.</p>
-<p>A note on why the essays are built the way they are: you will not know which case you are getting, the case text will be in front of you, and the last paragraph asks for <em>your</em> connection to the material. A memorized answer will not fit the question you are actually asked. Prepare by understanding the arguments, not by pre-writing prose.</p>
-</section>
-</section>
-<section id="using-perusall-pencil" class="level2">
-<h2>Using Perusall 📝</h2>
-<p>Perusall is a digital platform for collaborative learning that allows you to annotate readings and engage with your classmates. We're using it because it encourages active reading, critical thinking, and class participation.</p>
-<p>You'll access Perusall through links provided in our D2L-Brightspace course. Once you click on these links, you'll be directed to the readings assigned for our class.</p>
-<p>For each reading, you'll need to post annotations. These can be questions, comments, replies to comments of others, or reflections. Make sure your annotations are thoughtful and constructive.</p>
+<p>You will be walked through the setup before the first essay. Please
+do a practice run <strong>well before</strong> it so any problems
+surface when they don't count.</p>
+<p><strong>If something goes wrong.</strong> If there is a technical
+irregularity during your session — a dropped connection, a camera that
+stops recording, a browser crash — <strong>you may be asked to retake
+the exam.</strong> That is not a penalty; it is how we make sure the
+attempt is complete and fair.</p>
+<p>If technical problems happen <strong>repeatedly</strong>, or if there
+is evidence of academic dishonesty, you will need to <strong>meet with
+me</strong> before taking further exams so we can sort out what is going
+on and agree on how you will complete the rest of the course's
+assessments.</p>
+<p>I recommend installing LockDown Browser and running the ungraded
+practice quiz on D2L <strong>at least a few days before the first
+essay</strong> so any setup problems surface early.</p>
+<h3 id="attendance">Attendance</h3>
+<p>Students in face-to-face classes should attend class regularly, while
+online students are expected to participate in class discussions and
+activities. <strong>If you miss more than one week consecutively or 1/4
+of the total class sessions, you may receive a failing grade of
+FW.</strong> This may endanger your ability to receive financial aid.
+With this in mind, you are responsible for withdrawing from the class if
+you decide not to continue. I am willing to make exceptions if
+circumstances require, but you must let me know about these
+promptly.</p>
+<p><strong>Section 01 (in person).</strong> You are expected to attend
+and participate regularly. Attendance is taken each meeting. Beyond the
+FW policy above, <strong>your grade may be reduced if you miss too many
+classes.</strong> Our section meets only twice a week, so a single
+missed week is a substantial share of the term.</p>
+<p><strong>Section 71 (online).</strong> Your participation is measured
+through Perusall — regular, on-time reading and annotation. Long
+silences count the same way absences do for section 01.</p>
+<h3 id="plagiarism-and-academic-integrity">Plagiarism and Academic
+Integrity</h3>
+<p>Your work should be your own---please don't use your classmates,
+friends, parents, internet sites, etc., to help you write your papers or
+answer test questions. And when you do use outside sources, make sure to
+give appropriate citation and acknowledgment for any words, ideas, or
+arguments. If the preponderance of the evidence suggests cheating has
+occurred (that is, if the evidence indicates that this is <em>more
+likely than not</em>), you will receive a failing grade on the
+assignment. A second violation will lead to a failing grade for the
+course. Please also see the RCTC statement on academic integrity later
+in the syllabus.</p>
+<h3 id="policy-on-generative-ai">Policy on Generative AI</h3>
+<p>I encourage you to use generative AI (ChatGPT, Gemini, CoPilot,
+Claude, etc.) to help you understand class content when needed (and
+mastering these tools will be important to almost any career path), and
+to work on your own projects (I've used it in my own projects, including
+for this course!). However, the use of generative AI is
+<strong>ABSOLUTELY FORBIDDEN</strong> when it comes to answering
+questions on the exams and essays.</p>
+<p>A note on why the essays are built the way they are: you will not
+know which case you are getting, the case text will be in front of you,
+and the last paragraph asks for <em>your</em> connection to the
+material. A memorized answer will not fit the question you are actually
+asked. Prepare by understanding the arguments, not by pre-writing
+prose.</p>
+<h2 id="using-perusall">Using Perusall</h2>
+<p>Perusall is a digital platform for collaborative learning that allows
+you to annotate readings and engage with your classmates. We're using it
+because it encourages active reading, critical thinking, and class
+participation.</p>
+<p>You'll access Perusall through links provided in our D2L-Brightspace
+course. Once you click on these links, you'll be directed to the
+readings assigned for our class.</p>
+<p>For each reading, you'll need to post annotations. These can be
+questions, comments, replies to comments of others, or reflections. Make
+sure your annotations are thoughtful and constructive.</p>
 <p>Your work on Perusall will be graded based mainly on:</p>
 <ul>
-<li><strong>Quality of Annotations:</strong> Insightful, relevant comments and questions</li>
-<li><strong>Active Time:</strong> The time you spend reading and annotating</li>
-<li><strong>Interaction:</strong> How you engage with your classmates' annotations</li>
+<li><strong>Quality of Annotations:</strong> Insightful, relevant
+comments and questions</li>
+<li><strong>Active Time:</strong> The time you spend reading and
+annotating</li>
+<li><strong>Interaction:</strong> How you engage with your classmates'
+annotations</li>
 </ul>
-<p>Remember, Perusall is a space for constructive and respectful academic discussion. Your engagement here is a vital part of your learning.</p>
-<p><strong>For section 01:</strong> do the reading and annotation <em>before</em> the class meeting it is listed under. Our class time is for discussion and argument, not for me to re-deliver what you have already read.</p>
-</section>
-<section id="using-philmates-video_game" class="level2">
-<h2>Using PhilMates 🎮</h2>
-<p><strong>PhilMates</strong> turns one big philosophical idea into a short, playable story. You read a scenario, answer multiple-choice and fill-in-the-blank questions, make choices for the characters, and watch your own stated beliefs shift as the story pushes back on them. Each lesson takes about <strong>15–25 minutes</strong>.</p>
-<p>I wrote these lessons for this course. You can browse them at <a href="https://brendanpshea.github.io/philmates/">https://brendanpshea.github.io/philmates/</a>, but <strong>complete them through the D2L links</strong> — that is the only version that records a grade.</p>
+<p>Remember, Perusall is a space for constructive and respectful
+academic discussion. Your engagement here is a vital part of your
+learning.</p>
+<p><strong>For section 01:</strong> do the reading and annotation
+<em>before</em> the class meeting it is listed under. Our class time is
+for discussion and argument, not for me to re-deliver what you have
+already read.</p>
+<h2 id="using-philmates">Using PhilMates</h2>
+<p><strong>PhilMates</strong> turns one big philosophical idea into a
+short, playable story. You read a scenario, answer multiple-choice and
+fill-in-the-blank questions, make choices for the characters, and watch
+your own stated beliefs shift as the story pushes back on them. Each
+lesson takes about <strong>15–25 minutes</strong>.</p>
+<p>I wrote these lessons for this course. You can browse them at <a
+href="https://brendanpshea.github.io/philmates/">https://brendanpshea.github.io/philmates/</a>,
+but <strong>complete them through the D2L links</strong> — that is the
+only version that records a grade.</p>
 <p>Three things worth knowing:</p>
 <ul>
-<li><strong>Unlimited attempts.</strong> Your highest score counts. If a lesson goes badly, do it again.</li>
-<li><strong>Autograded.</strong> You get your score immediately, along with which questions you missed.</li>
-<li><strong>They are the cheapest points in the course.</strong> A lesson you repeat until you get everything right is a lesson you have learned.</li>
+<li><strong>Unlimited attempts.</strong> Your highest score counts. If a
+lesson goes badly, do it again.</li>
+<li><strong>Autograded.</strong> You get your score immediately, along
+with which questions you missed.</li>
+<li><strong>They are the cheapest points in the course.</strong> A
+lesson you repeat until you get everything right is a lesson you have
+learned.</li>
 </ul>
-<p>Each lesson is tied to a particular chapter — the four principles, utilitarianism, Kantian deontology, virtue ethics, patient autonomy, clinical equipoise, moral status, the harm principle — and one of them walks you through writing the timed essay. <strong>The D2L calendar is authoritative</strong> for what is assigned and when it is due.</p>
-</section>
-<section id="policy-on-late-work-alarm_clock" class="level2">
-<h2>Policy on Late Work ⏰</h2>
-<p><strong>Please read the following <em>before</em> emailing me to request an extension on an assignment.</strong></p>
-<p>If you miss an exam or activity due to a brief sickness, work conflict, class trip, computer malfunction, wedding, auto problem, court date, funeral, sporting event, etc., you do NOT need to email me (though it's okay if you want to give me a heads up). Here are my policies for making up missed or late work:</p>
+<p>Each lesson is tied to a particular chapter — the four principles,
+utilitarianism, Kantian deontology, virtue ethics, patient autonomy,
+clinical equipoise, moral status, the harm principle — and one of them
+walks you through writing the timed essay. <strong>The D2L calendar is
+authoritative</strong> for what is assigned and when it is due.</p>
+<h2 id="policy-on-late-work">Policy on Late Work</h2>
+<p><strong>Please read the following <em>before</em> emailing me to
+request an extension on an assignment.</strong></p>
+<p>If you miss an exam or activity due to a brief sickness, work
+conflict, class trip, computer malfunction, wedding, auto problem, court
+date, funeral, sporting event, etc., you do NOT need to email me (though
+it's okay if you want to give me a heads up). Here are my policies for
+making up missed or late work:</p>
 <ol type="1">
-<li>Perusall assignments can be submitted up to two days late for reduced credit. Credit declines "linearly" (basically, if you submit it one minute late, you get 99.9% of the credit; if you submit it 1.5 days late, you'll get almost no credit).</li>
-<li>PhilMates lessons give you unlimited attempts and are not subject to a late penalty. Don't let that fool you into leaving them all until December — they are how you learn the material the exams test.</li>
-<li>Exams and essays cannot be taken late without good reason (and will require my approval). Late attempts may be subject to a late penalty.</li>
+<li>Perusall assignments can be submitted up to two days late for
+reduced credit. Credit declines "linearly" (basically, if you submit it
+one minute late, you get 99.9% of the credit; if you submit it 1.5 days
+late, you'll get almost no credit).</li>
+<li>PhilMates lessons give you unlimited attempts and are not subject to
+a late penalty. Don't let that fool you into leaving them all until
+December — they are how you learn the material the exams test.</li>
+<li>Exams and essays cannot be taken late without good reason (and will
+require my approval). Late attempts may be subject to a late
+penalty.</li>
 </ol>
-<p><strong>I will make exceptions to these policies if you can demonstrate a genuine need.</strong> Please talk to me if anything comes up that is preventing you from succeeding in class.</p>
-</section>
-<section id="rctc-common-policies-balance_scale" class="level2">
-<h2>RCTC Common Policies ⚖️</h2>
-<p>This course will be taught in accordance with the following policies, which apply to ALL RCTC courses. If you have any questions about these, please let me know!</p>
-<section id="academic-integrity-statement" class="level3">
-<h3>Academic Integrity Statement</h3>
-<p>The primary academic mission of Rochester Community and Technical College (RCTC) is to provide quality learning opportunities for students. Acts of academic dishonesty undermine the educational process and the learning experience for the student and our college community. It is the responsibility of the student to complete their academic requirements with integrity and not engage in acts of cheating, plagiarism, or collusion. The College expects that students are submitting work and materials that reflects their individual learning and efforts within their course, program, and college academic requirements.</p>
-<p>It is expected that RCTC students will understand and adhere to the concept of academic integrity and to the standards of conduct outlined within this <a href="https://www.rctc.edu/policies/education/academic-integrity/">policy.</a> Students who are found to have engaged in an act of academic dishonesty may face academic sanctions through the Academic Integrity Procedure and non-academic misconduct sanctions through the Code of Student Conduct.</p>
-</section>
-<section id="americans-with-disabilities-act" class="level3">
-<h3>Americans with Disabilities Act</h3>
-<p>Rochester Community and Technical College is committed to ensuring its programs, services and activities are accessible to individuals with disabilities, through its compliance with state and federal laws, and <a href="http://www.minnstate.edu/board/policy/1b04.html">System Policy</a>. Appropriate accommodations are provided to those qualified students with disabilities. If you believe you qualify for an academic accommodation, please contact the Director of Disability Support Services, Travis Kromminga at 507-280-2968 or through the Minnesota relay TTY 1-800-627-3529. The office can also be reached via e-mail at <a href="mailto:travis.kromminga@rctc.edu"><span>travis.kromminga@rctc.edu</span>.</a></p>
-</section>
-<section id="military-friendly-statement" class="level3">
-<h3>Military Friendly Statement</h3>
-<p>Rochester Community and Technical College (RCTC) is a military friendly campus, pledging to do all we can to help military veterans transition into college to complete their educational goals. RCTC is proud to serve and honor our veterans and military service members and their families. Through the Veterans Resource Center, RCTC offers student veterans an on‐campus point of contact with other veterans, and program information to assist them in making a successful transition into college. For assistance, students are encouraged to contact the Veterans Assistant Coordinator, Mark Larsen, at 507‐779-9375 or e‐mail at <a href="mailto:mark.larsen@state.mn.us"><span>mark.larsen@state.mn.us</span>,</a> or Othelmo da Silva, RCTC's VA certifying official at 507-285-7566 or email at <a href="mailto:VeteranServices@rctc.edu"><span>VeteranServices@rctc.edu</span>.</a></p>
-</section>
-<section id="title-ix-statement" class="level3">
-<h3>Title IX Statement</h3>
-<p>Title IX of the Education Amendments of 1972 states: "No person in the United States shall, on the basis of sex, be excluded from participation in, be denied the benefits of, or be subjected to discrimination under any education program or activity receiving federal financial assistance." Today, Title IX ensures that sex-based discrimination, including that related to pregnancy/parenting, sexual orientation, and gender identity, is responded to promptly and effectively with a fair, transparent, and reliable process.</p>
-<p>Anyone who believes there has been an act of discrimination, harassment, or violence on the basis of sex against any person or group in a college-sponsored program or activity may file a complaint through the <a href="https://cm.maxient.com/reportingform.php?RochesterCTC&amp;layout_id=1">reporting form</a> to the Title IX Coordinator, Dr. Teresa Brown. The coordinator may also be reached via email at <a href="mailto:titleix@rctc.edu">titleix@rctc.edu</a> or phone at 507-285-7217.</p>
-<p>Pregnant and parenting students may reach out to the Title IX Coordinator to learn of their rights and available support. They may use the contact information above or submit a request via <a href="https://cm.maxient.com/reportingform.php?RochesterCTC&amp;layout_id=15">this form</a>.</p>
-</section>
-</section>
-<section id="getting-in-touch-with-me-e-mail" class="level2">
-<h2>Getting in Touch with Me 📧</h2>
-<p>The best way to get ahold of me is by email, which I will aim to respond to within ONE working day (for simple questions) or TWO working days (for more complex ones). I don't generally check email on the weekends or holidays. If you don't hear from me by then, please try emailing me again. To help me provide you with quick, effective feedback, here's a general template for what I expect in an email.</p>
-</section>
-<section id="resources-for-student-success-mortar_board" class="level2">
-<h2>Resources for Student Success 🎓</h2>
-<p>Some helpful resources at RCTC (all of which are included with your course tuition) include the following:</p>
-<p><strong>Student Support Services/TRIO (SS 159)</strong> provides academic support for first-generation and low-income college students, as well as those with documented disabilities.</p>
-<p><strong>Drop-in Math/CS Tutoring (GL 235)</strong> is available free of charge to <em>all</em> RCTC students. Please take advantage of it!</p>
-</section>
-<section id="course-calendar-date" class="level2">
-<h2>Course Calendar 📅</h2>
-<p><strong>All specific due dates are on the D2L Course Calendar, which is authoritative.</strong> This table shows the order of topics and the dates of exams and essays.</p>
-<p>Each chapter is delivered in two parts (A and B) and is paired with a case study. <strong>A chapter and its case study always live inside a single week.</strong> Online students work through the whole week's material at their own pace within that week. <strong>Week 1 is orientation</strong> — Chapter 1 begins in week 2.</p>
-<section id="semester-dates" class="level3">
-<h3>Semester dates</h3>
+<p><strong>I will make exceptions to these policies if you can
+demonstrate a genuine need.</strong> Please talk to me if anything comes
+up that is preventing you from succeeding in class.</p>
+<h2 id="rctc-common-policies">RCTC Common Policies</h2>
+<p>This course will be taught in accordance with the following policies,
+which apply to ALL RCTC courses. If you have any questions about these,
+please let me know!</p>
+<h3 id="academic-integrity-statement">Academic Integrity Statement</h3>
+<p>The primary academic mission of Rochester Community and Technical
+College (RCTC) is to provide quality learning opportunities for
+students. Acts of academic dishonesty undermine the educational process
+and the learning experience for the student and our college community.
+It is the responsibility of the student to complete their academic
+requirements with integrity and not engage in acts of cheating,
+plagiarism, or collusion. The College expects that students are
+submitting work and materials that reflect their individual learning and
+efforts within their course, program, and college academic
+requirements.</p>
+<p>It is expected that RCTC students will understand and adhere to the
+concept of academic integrity and to the standards of conduct outline
+within this <a
+href="https://www.rctc.edu/policies/education/academic-integrity/">policy</a>
+(Policy 3.6.2 Academic Integrity). Students who are found to have
+engaged in an act of academic dishonesty may face academic sanctions
+through the Academic Integrity Procedure and non-academic misconduct
+sanctions through the Code of Student Conduct.</p>
+<h3 id="americans-with-disabilities-act">Americans with Disabilities
+Act</h3>
+<p>Rochester Community and Technical College (RCTC) is committed to
+ensuring its programs, services, and activities are accessible to
+individuals with disabilities, through its compliance with state laws,
+federal laws, and <a
+href="https://www.minnstate.edu/board/policy/1b04.html">System
+Policy</a>. Appropriate accommodations are provided to those qualified
+students with disabilities. If you believe you qualify for academic
+accommodation, please contact the Director of Disability Support
+Services-Title II Coordinator, Travis Kromminga, at 507-280-2968 or
+through the Minnesota relay TTY 1-800-627-3529. The office can also be
+reached via email at <a
+href="mailto:travis.kromminga@rctc.edu"><span>travis.kromminga@rctc.edu</span></a>.</p>
+<h3 id="military-friendly-statement">Military Friendly Statement</h3>
+<p>Rochester Community and Technical College (RCTC) is a military
+friendly campus, pledging to do all we can to help military veterans
+transition into college to complete their educational goals. RCTC is
+proud to serve and honor our veterans and military service members and
+their families. Through the Veterans Resource Center, RCTC offers
+students veterans an on -campus point of contact with other veterans,
+and program information to assist them in making a successful transition
+into college. For assistance, students are encouraged to contact the
+Veterans Assistant Coordinator, Mark Larsen, at 507-779-9375 or email at
+<a
+href="mailto:mark.larsen@state.mn.us"><span>mark.larsen@state.mn.us</span></a>,
+or Othelmo da Silva, RCTC’s VA certifying official at 507-285-7566 or
+email <a
+href="mailto:othelmo.dasilva@rctc.edu"><span>othelmo.dasilva@rctc.edu</span></a>.</p>
+<h3 id="title-ix-statement">Title IX Statement</h3>
+<p>Title IX of the Education Amendments of 1972 states: "No person in
+the United States shall, on the basis of sex, be excluded from
+participation in, be denied the benefits of, or be subjected to
+discrimination under any education program or activity receiving federal
+financial assistance." Today, Title IX ensures that sex-based
+discrimination, including that related to pregnancy/parenting, sexual
+orientation, and gender identity, is responded to promptly and
+effectively with a fair, transparent, and reliable process.</p>
+<p>Anyone who believes there has been an act of discrimination,
+harassment, or violence on the basis of sex against any person or group
+in a college-sponsored program or activity may file a complaint through
+the <a
+href="https://cm.maxient.com/reportingform.php?RochesterCTC&amp;layout_id=1">reporting
+form</a> to the Title IX Coordinator, Dr. Teresa Brown. The coordinator
+may also be reached via email at <a
+href="mailto:titleix@rctc.edu">titleix@rctc.edu</a> or phone at
+507-285-7217.</p>
+<p>Pregnant and parenting students may reach out to the Title IX
+Coordinator, Dr. Teresa Brown, to learn about their rights and available
+supports under <a
+href="https://www.minnstate.edu/board/procedure/1b01p3.html">Minnesota
+State Board Procedure 1B.1.3</a> Access and Modifications for Pregnant
+and Parenting Students. Students may use the contact information above
+or submit a request via <a
+href="https://cm.maxient.com/reportingform.php?RochesterCTC&amp;layout_id=15">this
+form</a>. Pregnant and parenting students may also contact Anfa Diiriye,
+the Parenting Student Navigator at <a
+href="mailto:anfa.diiriye@rctc.edu"><span>anfa.diiriye@rctc.edu</span></a>
+to learn about college and community resources that support parents and
+families.</p>
+<h2 id="getting-in-touch-with-me">Getting in Touch with Me</h2>
+<p>The best way to get ahold of me is by email, which I will aim to
+respond to within ONE working day (for simple questions) or TWO working
+days (for more complex ones). I don't generally check email on the
+weekends or holidays. If you don't hear from me by then, please try
+emailing me again. To help me provide you with quick, effective
+feedback, here's a general template for what I expect in an email.</p>
+<h2 id="resources-for-student-success">Resources for Student
+Success</h2>
+<p>Some helpful resources at RCTC (all of which are included with your
+course tuition) include the following:</p>
+<p><strong>Student Support Services/TRIO (SS 159)</strong> provides
+academic support for first-generation and low-income college students,
+as well as those with documented disabilities.</p>
+<p><strong>Drop-in Math/CS Tutoring (GL 235)</strong> is available free
+of charge to <em>all</em> RCTC students. Please take advantage of
+it!</p>
+<h2 id="course-calendar">Course Calendar</h2>
+<p><strong>All specific due dates are on the D2L Course Calendar, which
+is authoritative.</strong> This table shows the order of topics and the
+dates of exams and essays.</p>
+<p>Each chapter is delivered in two parts (A and B) and is paired with a
+case study. <strong>A chapter and its case study always live inside a
+single week.</strong> Online students work through the whole week's
+material at their own pace within that week. <strong>Week 1 is
+orientation</strong> — Chapter 1 begins in week 2.</p>
+<h3 id="semester-dates">Semester dates</h3>
 <table>
 <tbody>
 <tr>
@@ -692,10 +927,9 @@
 </tr>
 </tbody>
 </table>
-<p>Note that <strong>Tuesday, November 24 is a regular class day.</strong> Only Thursday and Friday of that week are holidays.</p>
-</section>
-<section id="weekly-schedule" class="level3">
-<h3>Weekly schedule</h3>
+<p>Note that <strong>Tuesday, November 24 is a regular class
+day.</strong> Only Thursday and Friday of that week are holidays.</p>
+<h3 id="weekly-schedule">Weekly schedule</h3>
 <table>
 <thead>
 <tr>
@@ -707,8 +941,10 @@
 <tbody>
 <tr>
 <td><strong>1</strong></td>
-<td><strong>Aug 25</strong> — Welcome: what bioethics is and how this course works</td>
-<td><strong>Aug 27</strong> — Getting set up: Perusall, PhilMates, and how the essays are written and graded</td>
+<td><strong>Aug 25</strong> — Welcome: what bioethics is and how this
+course works</td>
+<td><strong>Aug 27</strong> — Getting set up: Perusall, PhilMates, and
+how the essays are written and graded</td>
 </tr>
 <tr>
 <td><strong>2</strong></td>
@@ -718,67 +954,82 @@
 <tr>
 <td><strong>3</strong></td>
 <td><strong>Sep 8</strong> — Ch 2A: From Hippocrates to Belmont</td>
-<td><strong>Sep 10</strong> — Ch 2B: Consent, Autonomy, Confidentiality · <strong>Case 1: Dax Cowart</strong></td>
+<td><strong>Sep 10</strong> — Ch 2B: Consent, Autonomy, Confidentiality
+· <strong>Case 1: Dax Cowart</strong></td>
 </tr>
 <tr>
 <td><strong>4</strong></td>
 <td><strong>Sep 15</strong> — Ch 3A: How Clinical Research Works</td>
-<td><strong>Sep 17</strong> — Ch 3B: Protecting Research Subjects · <strong>Cases 2 &amp; 3: Tuskegee/Guatemala; Lesné</strong></td>
+<td><strong>Sep 17</strong> — Ch 3B: Protecting Research Subjects ·
+<strong>Cases 2 &amp; 3: Tuskegee/Guatemala; Lesné</strong></td>
 </tr>
 <tr>
 <td><strong>5</strong></td>
-<td><strong>Sep 22</strong> — Ch 4A <strong>and</strong> 4B: Abortion — Moral Status; Law &amp; Cases · <strong>Case 4: Kate Cox &amp; Karsan</strong></td>
-<td><strong>Sep 24</strong> — ✍️ <strong>ESSAY 1</strong> (one of Cases 1–4)</td>
+<td><strong>Sep 22</strong> — Ch 4A <strong>and</strong> 4B: Abortion —
+Moral Status; Law &amp; Cases · <strong>Case 4: Kate Cox &amp;
+Karsan</strong></td>
+<td><strong>Sep 24</strong> — ✍️ <strong>ESSAY 1</strong> (one of Cases
+1–4)</td>
 </tr>
 <tr>
 <td><strong>6</strong></td>
 <td><strong>Sep 29</strong> — Ch 5A: Paternalism &amp; Its Limits</td>
-<td><strong>Oct 1</strong> — Ch 5B: Markets, Surrogacy, Parental Rights · <strong>Case 5: Adriana Smith</strong></td>
+<td><strong>Oct 1</strong> — Ch 5B: Markets, Surrogacy, Parental Rights
+· <strong>Case 5: Adriana Smith</strong></td>
 </tr>
 <tr>
 <td><strong>7</strong></td>
 <td><del>Oct 6</del> — <em>Student Success Day, no class</em></td>
-<td><strong>Oct 8</strong> — Ch 6A <strong>and</strong> 6B: Reading Genomes; Engineering Persons · <strong>Case 6: He Jiankui</strong></td>
+<td><strong>Oct 8</strong> — Ch 6A <strong>and</strong> 6B: Reading
+Genomes; Engineering Persons · <strong>Case 6: He Jiankui</strong></td>
 </tr>
 <tr>
 <td><strong>8</strong></td>
-<td><strong>Oct 13</strong> — 📝 <strong>EXAM 1 — midterm</strong> (Ch 1–6)</td>
+<td><strong>Oct 13</strong> — 📝 <strong>EXAM 1 — midterm</strong> (Ch
+1–6)</td>
 <td><del>Oct 15</del> — <em>Education MN Conference, no class</em></td>
 </tr>
 <tr>
 <td><strong>9</strong></td>
 <td><strong>Oct 20</strong> — Ch 7A: Death &amp; Dying</td>
-<td><strong>Oct 22</strong> — Ch 7B: Euthanasia &amp; Assisted Dying · <strong>Case 7: Noelia Castillo</strong></td>
+<td><strong>Oct 22</strong> — Ch 7B: Euthanasia &amp; Assisted Dying ·
+<strong>Case 7: Noelia Castillo</strong></td>
 </tr>
 <tr>
 <td><strong>10</strong></td>
 <td><strong>Oct 27</strong> — Ch 8A: Theories of Justice</td>
-<td><strong>Oct 29</strong> — Ch 8B: Why US Health Care Costs So Much · <strong>Case 8: Singapore</strong></td>
+<td><strong>Oct 29</strong> — Ch 8B: Why US Health Care Costs So Much ·
+<strong>Case 8: Singapore</strong></td>
 </tr>
 <tr>
 <td><strong>11</strong></td>
 <td><strong>Nov 3</strong> — Ch 9A: From Patient to Population</td>
-<td><strong>Nov 5</strong> — Ch 9B: False Beliefs &amp; the Ethics of Correction · <strong>Case 9: Wakefield &amp; MMR</strong></td>
+<td><strong>Nov 5</strong> — Ch 9B: False Beliefs &amp; the Ethics of
+Correction · <strong>Case 9: Wakefield &amp; MMR</strong></td>
 </tr>
 <tr>
 <td><strong>12</strong></td>
 <td><strong>Nov 10</strong> — Ch 10A: How Medical AI Works</td>
-<td><strong>Nov 12</strong> — Ch 10B: Consent, Accountability, Black Boxes · <strong>Case 10: Optum</strong></td>
+<td><strong>Nov 12</strong> — Ch 10B: Consent, Accountability, Black
+Boxes · <strong>Case 10: Optum</strong></td>
 </tr>
 <tr>
 <td><strong>13</strong></td>
 <td><strong>Nov 17</strong> — Ch 11A: Gender-Affirming Care</td>
-<td><strong>Nov 19</strong> — Ch 11B: Disability, Identity, Autonomy · <strong>Case 11: <em>U.S. v. Skrmetti</em></strong></td>
+<td><strong>Nov 19</strong> — Ch 11B: Disability, Identity, Autonomy ·
+<strong>Case 11: <em>U.S. v. Skrmetti</em></strong></td>
 </tr>
 <tr>
 <td><strong>14</strong></td>
-<td><strong>Nov 24</strong> — ✍️ <strong>ESSAY 2</strong> (one of Cases 5–11)</td>
+<td><strong>Nov 24</strong> — ✍️ <strong>ESSAY 2</strong> (one of Cases
+5–11)</td>
 <td><del>Nov 26</del> — <em>Thanksgiving, no class</em></td>
 </tr>
 <tr>
 <td><strong>15</strong></td>
 <td><strong>Dec 1</strong> — Ch 12A: The Moral Status of Animals</td>
-<td><strong>Dec 3</strong> — Ch 12B: Industrial Animals &amp; Xenotransplantation · <strong>Case 12: David Bennett</strong></td>
+<td><strong>Dec 3</strong> — Ch 12B: Industrial Animals &amp;
+Xenotransplantation · <strong>Case 12: David Bennett</strong></td>
 </tr>
 <tr>
 <td><strong>16</strong></td>
@@ -787,15 +1038,16 @@
 </tr>
 <tr>
 <td><strong>17</strong></td>
-<td><strong>Dec 15</strong> — 📝 <strong>EXAM 2 — final</strong> (Ch 7–12)</td>
+<td><strong>Dec 15</strong> — 📝 <strong>EXAM 2 — final</strong> (Ch
+7–12)</td>
 <td>—</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Section 01:</strong> we will probably start talking about the four principles in week 1, before Chapter 1 is formally assigned. That is a warm-up, not a substitute for doing the week 2 reading.</p>
-</section>
-<section id="the-four-graded-sessions" class="level3">
-<h3>The four graded sessions</h3>
+<p><strong>Section 01:</strong> we will probably start talking about the
+four principles in week 1, before Chapter 1 is formally assigned. That
+is a warm-up, not a substitute for doing the week 2 reading.</p>
+<h3 id="the-four-graded-sessions">The four graded sessions</h3>
 <table>
 <thead>
 <tr>
@@ -827,18 +1079,22 @@
 </tr>
 </tbody>
 </table>
-<p>You will not know <em>which</em> case you are getting until the essay session begins, so prepare all of the cases in the block.</p>
-</section>
-<section id="two-days-that-are-compressed" class="level3">
-<h3>Two days that are compressed</h3>
-<p>College holidays cost section 01 three meetings, so two chapters get one meeting instead of two:</p>
+<p>You will not know <em>which</em> case you are getting until the essay
+session begins, so prepare all of the cases in the block.</p>
+<h3 id="two-days-that-are-compressed">Two days that are compressed</h3>
+<p>College holidays cost section 01 three meetings, so two chapters get
+one meeting instead of two:</p>
 <ul>
-<li><strong>Chapter 4 on September 22.</strong> Both parts of the abortion chapter, plus Case 4, in one day — and Essay 1 is that Thursday.</li>
-<li><strong>Chapter 6 on October 8.</strong> Week 7 loses its Tuesday to Student Success Day, and Chapter 6 is on the midterm five days later.</li>
+<li><strong>Chapter 4 on September 22.</strong> Both parts of the
+abortion chapter, plus Case 4, in one day — and Essay 1 is that
+Thursday.</li>
+<li><strong>Chapter 6 on October 8.</strong> Week 7 loses its Tuesday to
+Student Success Day, and Chapter 6 is on the midterm five days
+later.</li>
 </ul>
-<p>Those are heavy days. Do the Perusall reading ahead of time, or you will be lost. Section 71 students have the full week for each chapter as usual.</p>
-</section>
-</section>
+<p>Those are heavy days. Do the Perusall reading ahead of time, or you
+will be lost. Section 71 students have the full week for each chapter as
+usual.</p>
 </main>
 
 </div>

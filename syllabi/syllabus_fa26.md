@@ -1,4 +1,4 @@
-# Bioethics 💻
+# Bioethics
 
 **PHIL 1135 | Fall 2026**
 
@@ -23,11 +23,11 @@
 
 **Prerequisites:** None
 
-## Course Description 📖
+## Course Description
 
 This course provides background ethical theories, principles and concepts necessary to grasp the ethical issues in life, death, health care, biotechnology and the life sciences. Specific attention will be given to the social context of ethical decisions and there will be an emphasis on critical reasoning and justification, and on reading and responding to philosophical works about medicine and biological research. Special topics that may be discussed include: definitions of life and death, autonomy, paternalism, voluntary informed consent, rights, obligations, clinical trials, confidentiality, abortion and reproductive technologies, cloning, stem cells, end of life issues, transplantation and fair allocation of limited resources.
 
-## Course Content and Learning Outcomes 🎯
+## Course Content and Learning Outcomes
 
 ### Major Content Areas
 
@@ -97,12 +97,12 @@ This course contributes to meeting the following RCTC Core Outcome(s):
 
 **Critical Thinking:** Students will think systematically and explore information thoroughly before accepting or formulating a position or conclusion. **Personal and Professional Accountability:** Students will take responsibility as active learners for achieving their educational and personal goals.
 
-## Required and Recommended Course Materials 📚
+## Required and Recommended Course Materials
 
 - All course materials will be made available free online through D2L and Perusall. There is no textbook to buy.
 - This course will require that you have reliable, regular internet access. Most assignments will require you use a PC, Mac, or Linux desktop or laptop (Android, iOS, or Chrome OS may have problems with lockdown browser or Colab).
 
-### Technology You Will Need ⚠️
+### Technology You Will Need
 
 **Read this before the drop deadline (Friday, August 28).** Both sections need:
 
@@ -118,7 +118,7 @@ This course contributes to meeting the following RCTC Core Outcome(s):
 
 If you cannot meet these requirements, contact me **during the first week** so we can talk through options before the drop deadline passes.
 
-## Grading and Course Policies 📊
+## Grading and Course Policies
 
 ### Grading Scale
 
@@ -149,7 +149,7 @@ Your final grade is a weighted average of the following. **These weights are the
 
 **PhilMates (10%).** Short interactive philosophy lessons that run in your browser. They are autograded, and you get **unlimited attempts** — your highest score counts. See *Using PhilMates*, below.
 
-### How Exams and Essays Are Proctored 🎥
+### How Exams and Essays Are Proctored
 
 The exams and essays are identical for both sections. Only the proctoring differs.
 
@@ -168,7 +168,7 @@ If technical problems happen **repeatedly**, or if there is evidence of academic
 
 I recommend installing LockDown Browser and running the ungraded practice quiz on D2L **at least a few days before the first essay** so any setup problems surface early.
 
-### Attendance 📅
+### Attendance
 
 Students in face-to-face classes should attend class regularly, while online students are expected to participate in class discussions and activities. **If you miss more than one week consecutively or 1/4 of the total class sessions, you may receive a failing grade of FW.** This may endanger your ability to receive financial aid. With this in mind, you are responsible for withdrawing from the class if you decide not to continue. I am willing to make exceptions if circumstances require, but you must let me know about these promptly.
 
@@ -176,17 +176,17 @@ Students in face-to-face classes should attend class regularly, while online stu
 
 **Section 71 (online).** Your participation is measured through Perusall — regular, on-time reading and annotation. Long silences count the same way absences do for section 01.
 
-### Plagiarism and Academic Integrity ⚖️
+### Plagiarism and Academic Integrity
 
 Your work should be your own---please don't use your classmates, friends, parents, internet sites, etc., to help you write your papers or answer test questions. And when you do use outside sources, make sure to give appropriate citation and acknowledgment for any words, ideas, or arguments. If the preponderance of the evidence suggests cheating has occurred (that is, if the evidence indicates that this is *more likely than not*), you will receive a failing grade on the assignment. A second violation will lead to a failing grade for the course. Please also see the RCTC statement on academic integrity later in the syllabus.
 
-### Policy on Generative AI 🤖
+### Policy on Generative AI
 
 I encourage you to use generative AI (ChatGPT, Gemini, CoPilot, Claude, etc.) to help you understand class content when needed (and mastering these tools will be important to almost any career path), and to work on your own projects (I've used it in my own projects, including for this course!). However, the use of generative AI is **ABSOLUTELY FORBIDDEN** when it comes to answering questions on the exams and essays.
 
 A note on why the essays are built the way they are: you will not know which case you are getting, the case text will be in front of you, and the last paragraph asks for *your* connection to the material. A memorized answer will not fit the question you are actually asked. Prepare by understanding the arguments, not by pre-writing prose.
 
-## Using Perusall 📝
+## Using Perusall
 
 Perusall is a digital platform for collaborative learning that allows you to annotate readings and engage with your classmates. We're using it because it encourages active reading, critical thinking, and class participation.
 
@@ -204,7 +204,7 @@ Remember, Perusall is a space for constructive and respectful academic discussio
 
 **For section 01:** do the reading and annotation *before* the class meeting it is listed under. Our class time is for discussion and argument, not for me to re-deliver what you have already read.
 
-## Using PhilMates 🎮
+## Using PhilMates
 
 **PhilMates** turns one big philosophical idea into a short, playable story. You read a scenario, answer multiple-choice and fill-in-the-blank questions, make choices for the characters, and watch your own stated beliefs shift as the story pushes back on them. Each lesson takes about **15–25 minutes**.
 
@@ -218,7 +218,7 @@ Three things worth knowing:
 
 Each lesson is tied to a particular chapter — the four principles, utilitarianism, Kantian deontology, virtue ethics, patient autonomy, clinical equipoise, moral status, the harm principle — and one of them walks you through writing the timed essay. **The D2L calendar is authoritative** for what is assigned and when it is due.
 
-## Policy on Late Work ⏰
+## Policy on Late Work
 
 **Please read the following *before* emailing me to request an extension on an assignment.**
 
@@ -230,23 +230,23 @@ If you miss an exam or activity due to a brief sickness, work conflict, class tr
 
 **I will make exceptions to these policies if you can demonstrate a genuine need.** Please talk to me if anything comes up that is preventing you from succeeding in class.
 
-## RCTC Common Policies ⚖️
+## RCTC Common Policies
 
 This course will be taught in accordance with the following policies, which apply to ALL RCTC courses. If you have any questions about these, please let me know!
 
 ### Academic Integrity Statement
 
-The primary academic mission of Rochester Community and Technical College (RCTC) is to provide quality learning opportunities for students. Acts of academic dishonesty undermine the educational process and the learning experience for the student and our college community. It is the responsibility of the student to complete their academic requirements with integrity and not engage in acts of cheating, plagiarism, or collusion. The College expects that students are submitting work and materials that reflects their individual learning and efforts within their course, program, and college academic requirements.
+The primary academic mission of Rochester Community and Technical College (RCTC) is to provide quality learning opportunities for students. Acts of academic dishonesty undermine the educational process and the learning experience for the student and our college community. It is the responsibility of the student to complete their academic requirements with integrity and not engage in acts of cheating, plagiarism, or collusion. The College expects that students are submitting work and materials that reflect their individual learning and efforts within their course, program, and college academic requirements.
 
-It is expected that RCTC students will understand and adhere to the concept of academic integrity and to the standards of conduct outlined within this [policy.](https://www.rctc.edu/policies/education/academic-integrity/) Students who are found to have engaged in an act of academic dishonesty may face academic sanctions through the Academic Integrity Procedure and non-academic misconduct sanctions through the Code of Student Conduct.
+It is expected that RCTC students will understand and adhere to the concept of academic integrity and to the standards of conduct outline within this [policy](https://www.rctc.edu/policies/education/academic-integrity/) (Policy 3.6.2 Academic Integrity). Students who are found to have engaged in an act of academic dishonesty may face academic sanctions through the Academic Integrity Procedure and non-academic misconduct sanctions through the Code of Student Conduct.
 
 ### Americans with Disabilities Act
 
-Rochester Community and Technical College is committed to ensuring its programs, services and activities are accessible to individuals with disabilities, through its compliance with state and federal laws, and [System Policy](http://www.minnstate.edu/board/policy/1b04.html). Appropriate accommodations are provided to those qualified students with disabilities. If you believe you qualify for an academic accommodation, please contact the Director of Disability Support Services, Travis Kromminga at 507-280-2968 or through the Minnesota relay TTY 1-800-627-3529. The office can also be reached via e-mail at [travis.kromminga@rctc.edu.](mailto:travis.kromminga@rctc.edu)
+Rochester Community and Technical College (RCTC) is committed to ensuring its programs, services, and activities are accessible to individuals with disabilities, through its compliance with state laws, federal laws, and [System Policy](https://www.minnstate.edu/board/policy/1b04.html). Appropriate accommodations are provided to those qualified students with disabilities. If you believe you qualify for academic accommodation, please contact the Director of Disability Support Services-Title II Coordinator, Travis Kromminga, at 507-280-2968 or through the Minnesota relay TTY 1-800-627-3529. The office can also be reached via email at [travis.kromminga@rctc.edu](mailto:travis.kromminga@rctc.edu).
 
 ### Military Friendly Statement
 
-Rochester Community and Technical College (RCTC) is a military friendly campus, pledging to do all we can to help military veterans transition into college to complete their educational goals. RCTC is proud to serve and honor our veterans and military service members and their families. Through the Veterans Resource Center, RCTC offers student veterans an on‐campus point of contact with other veterans, and program information to assist them in making a successful transition into college. For assistance, students are encouraged to contact the Veterans Assistant Coordinator, Mark Larsen, at 507‐779-9375 or e‐mail at [mark.larsen@state.mn.us,](mailto:mark.larsen@state.mn.us) or Othelmo da Silva, RCTC's VA certifying official at 507-285-7566 or email at [VeteranServices@rctc.edu.](mailto:VeteranServices@rctc.edu)
+Rochester Community and Technical College (RCTC) is a military friendly campus, pledging to do all we can to help military veterans transition into college to complete their educational goals. RCTC is proud to serve and honor our veterans and military service members and their families. Through the Veterans Resource Center, RCTC offers students veterans an on -campus point of contact with other veterans, and program information to assist them in making a successful transition into college. For assistance, students are encouraged to contact the Veterans Assistant Coordinator, Mark Larsen, at 507-779-9375 or email at [mark.larsen@state.mn.us](mailto:mark.larsen@state.mn.us), or Othelmo da Silva, RCTC’s VA certifying official at 507-285-7566 or email [othelmo.dasilva@rctc.edu](mailto:othelmo.dasilva@rctc.edu).
 
 ### Title IX Statement
 
@@ -254,13 +254,13 @@ Title IX of the Education Amendments of 1972 states: "No person in the United St
 
 Anyone who believes there has been an act of discrimination, harassment, or violence on the basis of sex against any person or group in a college-sponsored program or activity may file a complaint through the [reporting form](https://cm.maxient.com/reportingform.php?RochesterCTC&layout_id=1) to the Title IX Coordinator, Dr. Teresa Brown. The coordinator may also be reached via email at <titleix@rctc.edu> or phone at 507-285-7217.
 
-Pregnant and parenting students may reach out to the Title IX Coordinator to learn of their rights and available support. They may use the contact information above or submit a request via [this form](https://cm.maxient.com/reportingform.php?RochesterCTC&layout_id=15).
+Pregnant and parenting students may reach out to the Title IX Coordinator, Dr. Teresa Brown, to learn about their rights and available supports under [Minnesota State Board Procedure 1B.1.3](https://www.minnstate.edu/board/procedure/1b01p3.html) Access and Modifications for Pregnant and Parenting Students. Students may use the contact information above or submit a request via [this form](https://cm.maxient.com/reportingform.php?RochesterCTC&layout_id=15). Pregnant and parenting students may also contact Anfa Diiriye, the Parenting Student Navigator at [anfa.diiriye@rctc.edu](mailto:anfa.diiriye@rctc.edu) to learn about college and community resources that support parents and families.
 
-## Getting in Touch with Me 📧
+## Getting in Touch with Me
 
 The best way to get ahold of me is by email, which I will aim to respond to within ONE working day (for simple questions) or TWO working days (for more complex ones). I don't generally check email on the weekends or holidays. If you don't hear from me by then, please try emailing me again. To help me provide you with quick, effective feedback, here's a general template for what I expect in an email.
 
-## Resources for Student Success 🎓
+## Resources for Student Success
 
 Some helpful resources at RCTC (all of which are included with your course tuition) include the following:
 
@@ -268,7 +268,7 @@ Some helpful resources at RCTC (all of which are included with your course tuiti
 
 **Drop-in Math/CS Tutoring (GL 235)** is available free of charge to *all* RCTC students. Please take advantage of it!
 
-## Course Calendar 📅
+## Course Calendar
 
 **All specific due dates are on the D2L Course Calendar, which is authoritative.** This table shows the order of topics and the dates of exams and essays.
 
