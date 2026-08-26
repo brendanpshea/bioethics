@@ -122,6 +122,22 @@
   main ul, main ol { margin: 0 0 14px; padding-left: 22px; }
   main li { margin-bottom: 4px; }
   main a { color: var(--accent); }
+  a:focus-visible {
+    outline: 3px solid #111827;
+    outline-offset: 3px;
+  }
+  .skip-link {
+    position: absolute;
+    left: 16px;
+    top: -48px;
+    z-index: 10;
+    background: white;
+    color: var(--ink);
+    padding: 8px 12px;
+    border: 2px solid var(--ink);
+    border-radius: 4px;
+  }
+  .skip-link:focus { top: 16px; }
 
   .info-grid {
     display: grid;
@@ -290,9 +306,25 @@
     nav.toc { display: none; }
     header.hero h1 { font-size: 32px; }
   }
+  caption {
+    caption-side: top;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      transition-duration: 0.01ms !important;
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+    }
+  }
 </style>
 </head>
 <body>
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
 
 <header class="hero">
   <div class="wrap">
@@ -309,7 +341,7 @@
 
 <div class="wrap">
 
-<nav class="toc">
+<nav class="toc" aria-label="Table of contents">
   <h3>Contents</h3>
   <a href="#info">Course Info</a>
   <a href="#format">Summer Format</a>
@@ -328,7 +360,7 @@
   <a href="#contact">Getting in Touch</a>
 </nav>
 
-<main>
+<main id="main-content" aria-label="Summer 2026 syllabus" tabindex="-1">
 
 <section id="info">
 <h2>Course Information</h2>
@@ -370,29 +402,32 @@
 </section>
 
 <section id="format">
-<h2>A Note on the Accelerated Summer Format ⏩</h2>
+<h2>A Note on the Accelerated Summer Format</h2>
 <div class="callout warn">
 This is a <strong>5-week summer course covering the same content as a 16-week semester course</strong>. A typical semester course expects roughly <strong>6–9 hours per week</strong>; in this format that becomes roughly <strong>18–27 hours per week</strong>. Please plan accordingly before the term begins, and reach out early if your schedule starts to slip.
 </div>
 </section>
 
 <section id="description">
-<h2>Course Description 📖</h2>
+<h2>Course Description</h2>
 <p>This course provides the background ethical theories, principles, and concepts necessary to grasp the ethical issues in life, death, health care, biotechnology, and the life sciences. Specific attention is given to the social context of ethical decisions, with emphasis on critical reasoning and justification, and on reading and responding to philosophical works about medicine and biological research.</p>
 <p>Special topics may include: definitions of life and death, autonomy, paternalism, voluntary informed consent, rights and obligations, clinical trials, confidentiality, abortion and reproductive technologies, cloning, stem cells, end-of-life issues, transplantation, and fair allocation of limited resources.</p>
 </section>
 
 <section id="outcomes">
-<h2>Course Content and Learning Outcomes 🎯</h2>
+<h2>Course Content and Learning Outcomes</h2>
 
 <h3>Major Content Areas</h3>
 <table>
-  <tr><th>Background Ethical Theories</th><th>Critical Concepts</th><th>Areas of Applied Ethics</th></tr>
+  <caption>Major content areas</caption>
+  <thead><tr><th scope="col">Background Ethical Theories</th><th scope="col">Critical Concepts</th><th scope="col">Areas of Applied Ethics</th></tr></thead>
+  <tbody>
   <tr>
     <td>Consequentialism / Utilitarianism<br>Deontology / Kantian Ethics<br>Feminist / Care Ethics<br>Principles-Based Ethics<br>Casuistry</td>
     <td>Autonomy / Competence<br>Voluntary Informed Consent<br>Rights / Interests<br>Distributive Justice</td>
     <td>Death and Dying<br>Clinical Trials &amp; Experimentation<br>Abortion &amp; Reproductive Tech<br>Social Justice &amp; Public Health<br>Biotechnology</td>
   </tr>
+  </tbody>
 </table>
 
 <h3>General Learning Outcomes</h3>
@@ -430,7 +465,7 @@ This is a <strong>5-week summer course covering the same content as a 16-week se
 </section>
 
 <section id="materials">
-<h2>Required and Recommended Course Materials 📚</h2>
+<h2>Required and Recommended Course Materials</h2>
 <ul>
   <li>All course materials will be made available free online through D2L.</li>
   <li>This course requires reliable, regular internet access. Most assignments will require a PC, Mac, or Linux desktop or laptop. (Android, iOS, and Chrome OS devices may have problems with LockDown Browser or Google Colab.)</li>
@@ -438,7 +473,7 @@ This is a <strong>5-week summer course covering the same content as a 16-week se
 </section>
 
 <section id="grading">
-<h2>Grading 📊</h2>
+<h2>Grading</h2>
 
 <h3>Grading Scale</h3>
 <div class="scale">
@@ -469,7 +504,7 @@ This is a <strong>5-week summer course covering the same content as a 16-week se
 </section>
 
 <section id="exams">
-<h2>Exams &amp; LockDown Browser 🔒</h2>
+<h2>Exams &amp; LockDown Browser</h2>
 <p>Exams are delivered through D2L and require <strong>Respondus LockDown Browser with Respondus Monitor</strong>. To take an exam you will need:</p>
 <ul>
   <li>A <strong>PC, Mac, or Linux laptop or desktop</strong> (Chromebooks, tablets, and phones are not supported).</li>
@@ -482,7 +517,7 @@ This is a <strong>5-week summer course covering the same content as a 16-week se
 </section>
 
 <section id="perusall">
-<h2>Using Perusall 📝</h2>
+<h2>Using Perusall</h2>
 <p>Perusall is a digital platform for collaborative learning that lets you annotate readings and engage with your classmates. We're using it because it encourages active reading, critical thinking, and class participation.</p>
 <p>You'll access Perusall through links in our D2L course. Once you click a link, you'll be directed to that day's reading. For each reading, you'll post annotations — these can be questions, comments, replies, or reflections. Make them thoughtful and constructive.</p>
 <p>Your Perusall work is graded mainly on:</p>
@@ -495,9 +530,9 @@ This is a <strong>5-week summer course covering the same content as a 16-week se
 </section>
 
 <section id="policies">
-<h2>Course Policies ⚖️</h2>
+<h2>Course Policies</h2>
 
-<h3>Attendance 📅</h3>
+<h3>Attendance</h3>
 <p>Online students are expected to participate in class discussions and activities. <strong>If you miss more than one week consecutively or 1/4 of total class sessions, you may receive a failing grade of FW.</strong> This may endanger your ability to receive financial aid. You are responsible for withdrawing from the class if you decide not to continue. I am willing to make exceptions if circumstances require, but you must let me know promptly.</p>
 
 <h3>Plagiarism and Academic Integrity</h3>
@@ -505,14 +540,14 @@ This is a <strong>5-week summer course covering the same content as a 16-week se
 </section>
 
 <section id="ai">
-<h2>Policy on Generative AI 🤖</h2>
+<h2>Policy on Generative AI</h2>
 <div class="callout">
 I encourage you to use generative AI (ChatGPT, Gemini, CoPilot, Claude, etc.) to help you understand class content when needed — mastering these tools will be important to almost any career path — and to work on your own projects (I've used it on my own projects, including for this course!). However, the use of generative AI is <strong>ABSOLUTELY FORBIDDEN</strong> when answering questions on exams.
 </div>
 </section>
 
 <section id="late">
-<h2>Late Work ⏰</h2>
+<h2>Late Work</h2>
 <p><em>Please read the following before emailing me to request an extension.</em></p>
 <p>If you miss a quiz or activity due to a brief sickness, work conflict, class trip, computer malfunction, wedding, auto problem, court date, funeral, sporting event, etc., you do NOT need to email me (though it's okay if you want to give me a heads up). My policies for missed or late work:</p>
 <ol>
@@ -523,7 +558,7 @@ I encourage you to use generative AI (ChatGPT, Gemini, CoPilot, Claude, etc.) to
 </section>
 
 <section id="calendar">
-<h2>Course Calendar 📅</h2>
+<h2>Course Calendar</h2>
 <p>This calendar shows the order in which things will be covered. <strong>All specific due dates are on the D2L Course Calendar, which is authoritative.</strong> Each chapter is delivered in two parts (a/b); work through both parts as a single unit along with the paired case study.</p>
 <p>Exams are scheduled to <strong>open Friday evening and close Sunday night</strong> so you can choose when to sit them across the weekend.</p>
 
@@ -647,7 +682,7 @@ I encourage you to use generative AI (ChatGPT, Gemini, CoPilot, Claude, etc.) to
 </section>
 
 <section id="rctc">
-<h2>RCTC Common Policies ⚖️</h2>
+<h2>RCTC Common Policies</h2>
 <p>This course is taught in accordance with the following RCTC-wide policies. If you have questions about any of them, please let me know.</p>
 
 <h3>Academic Integrity Statement</h3>
@@ -667,7 +702,7 @@ I encourage you to use generative AI (ChatGPT, Gemini, CoPilot, Claude, etc.) to
 </section>
 
 <section id="resources">
-<h2>Resources for Student Success 🎓</h2>
+<h2>Resources for Student Success</h2>
 <p>Some helpful resources at RCTC (all included with your course tuition):</p>
 <ul>
   <li><strong>Student Support Services / TRIO (SS 159)</strong> — academic support for first-generation and low-income college students, as well as those with documented disabilities.</li>
@@ -676,7 +711,7 @@ I encourage you to use generative AI (ChatGPT, Gemini, CoPilot, Claude, etc.) to
 </section>
 
 <section id="contact">
-<h2>Getting in Touch with Me 📧</h2>
+<h2>Getting in Touch with Me</h2>
 <p>The best way to reach me is by email. I aim to respond within <strong>one working day</strong> (simple questions) or <strong>two working days</strong> (more complex ones). I don't generally check email on weekends or holidays. If you don't hear from me by then, please email me again.</p>
 </section>
 

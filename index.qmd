@@ -20,6 +20,7 @@ All materials are freely available for non-commercial educational use under a [C
 
 | # | Part | Topic | Slides | Notes |
 |---|------|-------|--------|-------|
+| 0 | Orientation | Who Shall Live When Not All Can Live? (week 0) | [Slides](chapters/00b-god-committee-slides.html) | [Notes](chapters/00b-god-committee.html) |
 | 1A | Principles & Reasoning | The Four Principles; Reading a Moral Argument | [Slides](chapters/01-introduction-slides.html) | [Notes](chapters/01-introduction.html) |
 | 1B | Principles & Reasoning | Ethical Theories as Lenses | [Slides](chapters/01b-theories-slides.html) | [Notes](chapters/01b-theories.html) |
 | 2A | History & Relationship | From Hippocrates to the Belmont Report | [Slides](chapters/02a-history-slides.html) | [Notes](chapters/02a-history.html) |

@@ -34,6 +34,8 @@ website:
         text: "Home"
       - href: chapters/00-course-outline.qmd
         text: "Course Outline"
+      - href: chapters/00b-god-committee.qmd
+        text: "Week 0 — Who Shall Live?"
       - section: "1. Principles & Reasoning"
         contents:
           - href: chapters/01-introduction.qmd

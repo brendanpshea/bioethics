@@ -1,4 +1,4 @@
-# Bioethics 💻
+# Bioethics
 
 **PHIL 1135 | Summer 2026**
 
@@ -16,16 +16,16 @@
 
 **Prerequisites:** None
 
-### A Note on the Accelerated Summer Format ⏩
+### A Note on the Accelerated Summer Format
 
 This is a **5-week summer course covering the same content as a 16-week semester course**. A typical semester course expects roughly 6–9 hours of work per week; in this format that becomes roughly **18–27 hours of work per week**. Please plan accordingly before the term begins, and reach out early if your schedule starts to slip.
 
 
-## Course Description 📖
+## Course Description
 
 This course provides background ethical theories, principles and concepts necessary to grasp the ethical issues in life, death, health care, biotechnology and the life sciences. Specific attention will be given to the social context of ethical decisions and there will be an emphasis on critical reasoning and justification, and on reading and responding to philosophical works about medicine and biological research. Special topics that may be discussed include: definitions of life and death, autonomy, paternalism, voluntary informed consent, rights, obligations, clinical trials, confidentiality, abortion and reproductive technologies, cloning, stem cells, end of life issues, transplantation and fair allocation of limited resources.
 
-## Course Content and Learning Outcomes 🎯
+## Course Content and Learning Outcomes
 
 ### Major Content Areas
 
@@ -99,12 +99,12 @@ This course contributes to meeting the following RCTC Core Outcome(s):
 **Critical Thinking:** Students will think systematically and explore information thoroughly before accepting or formulating a position or conclusion.
 **Personal and Professional Accountability:** Students will take responsibility as active learners for achieving their educational and personal goals.
 
-## Required and Recommended Course Materials 📚
+## Required and Recommended Course Materials
 
 - All course materials will be made available free online through D2L.
 - This course will require that you have reliable, regular internet access. Most assignments will require you use a PC, Mac, or Linux desktop or laptop (Android, iOS, or Chrome OS may have problems with lockdown browser or Colab).
 
-## Grading and Course Policies 📊
+## Grading and Course Policies
 
 ### Grading Scale
 
@@ -132,19 +132,19 @@ Exams are delivered through D2L and require **Respondus LockDown Browser with Re
 
 You'll be prompted to install LockDown Browser the first time you launch a quiz from D2L. I recommend installing it and running a short practice quiz **at least a few days before Exam 1** so any setup problems surface early.
 
-### Attendance 📅
+### Attendance
 
 Students in face-to-face classes should attend class regularly, while online students are expected to participate in class discussions and activities. **If you miss more than one week consecutively or 1/4 of the total class sessions, you may receive a failing grade of FW.** This may endanger your ability to receive financial aid. With this in mind, you are responsible for withdrawing from the class if you decide not to continue. I am willing to make exceptions if circumstances require, but you must let me know about these promptly.
 
-### Plagiarism and Academic Integrity ⚖️
+### Plagiarism and Academic Integrity
 
 Your work should be your own---please don't use your classmates, friends, parents, internet sites, etc., to help you write your papers or answer test questions. And when you do use outside sources, make sure to give appropriate citation and acknowledgment for any words, ideas, or arguments. If the preponderance of the evidence suggests cheating has occurred (that is, if the evidence indicates that this is *more likely than not*), you will receive a failing grade on the assignment. A second violation will lead to a failing grade for the course. Please also see the RCTC statement on academic integrity later in the syllabus.
 
-### Policy on Generative AI 🤖
+### Policy on Generative AI
 
 I encourage you to use generative AI (ChatGPT, Gemini, CoPilot, Claude, etc.) to help you understand class content when needed (and mastering these tools will be important to almost any career path), and to work on your own projects (I've used it in my own projects, including for this course!). However, the use of generative AI is **ABSOLUTELY FORBIDDEN** when it comes to answering questions on exams.
 
-## Using Perusall 📝
+## Using Perusall
 
 Perusall is a digital platform for collaborative learning that allows you to annotate readings and engage with your classmates. We're using it because it encourages active reading, critical thinking, and class participation.
 
@@ -160,7 +160,7 @@ Your work on Perusall will be graded based mainly on:
 
 Remember, Perusall is a space for constructive and respectful academic discussion. Your engagement here is a vital part of your learning.
 
-## Policy on Late Work ⏰
+## Policy on Late Work
 
 **Please read the following *before* emailing me to request an extension on an assignment.**
 
@@ -171,7 +171,7 @@ If you miss a quiz or activity due to a brief sickness, work conflict, class tri
 
 **I will make exceptions to these policies if you can demonstrate a genuine need.** Please talk to me if anything comes up that is preventing you from succeeding in class.
 
-## RCTC Common Policies ⚖️
+## RCTC Common Policies
 
 This course will be taught in accordance with the following policies, which apply to ALL RCTC courses. If you have any questions about these, please let me know!
 
@@ -197,12 +197,12 @@ Anyone who believes there has been an act of discrimination, harassment, or viol
 
 Pregnant and parenting students may reach out to the Title IX Coordinator to learn of their rights and available support. They may use the contact information above or submit a request via [this form](https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fcm.maxient.com%2Freportingform.php%3FRochesterCTC%26layout_id%3D15&data=05%7C02%7CMichelle.Pyfferoen%40rctc.edu%7Cf4b564feb0da44f2e0bb08ddcb218d48%7C5011c7c60ab446ab9ef4fae74a921a7f%7C0%7C0%7C638890067147174283%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=CAZhZFnV4EpCzZC%2FHut7imbrEkgNCbDJ7cF%2FJP0D0%2BQ%3D&reserved=0).
 
-## Getting in Touch with Me 📧
+## Getting in Touch with Me
 
 The best way to get ahold of me is by email, which I will aim to respond to within ONE working day (for simple questions) or TWO working days (for more complex ones). I don't generally check email on the weekends or holidays. If you don't hear from me by then, please try emailing me again. To help me provide you with quick, effective feedback, here's a general template for what I expect in an email.
 
 
-## Resources for Student Success 🎓
+## Resources for Student Success
 
 Some helpful resources at RCTC (all of which are included with your course tuition) include the following:
 
@@ -211,7 +211,7 @@ Some helpful resources at RCTC (all of which are included with your course tuiti
 **Drop-in Math/CS Tutoring (GL 235)** is available free of charge to *all* RCTC students. Please take advantage of it!
 
 
-## Course Calendar 📅
+## Course Calendar
 
 This calendar shows the order in which things will be covered. **All specific due dates are on the D2L Course Calendar, which is authoritative.** Each chapter is delivered in two parts (a/b); online students should work through both parts as a single unit, along with the paired case study.
 
