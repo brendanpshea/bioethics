@@ -18,7 +18,7 @@ format:
 ## Before We Start
 
 ::: {.thought-question}
-Take **ninety seconds**. Don't talk to anyone yet.
+Before anything else — **ninety seconds**, on your own.
 
 A hospital has one machine that will keep you alive. Sixty other people need it too. A committee of strangers will decide who gets it.
 
@@ -141,19 +141,19 @@ They asked for guidelines. There were none to give.
 ## Round One — Your Task
 
 ::: {.thought-question}
-In groups of four, you have **eight minutes**. Three of these six get a bed.
+Three of these six get a bed.
 
-1. Choose your three.
-2. State the **rule** you used — a sentence someone else could apply to a different six patients.
-3. Could you defend that rule out loud to the families of the other three?
+1. Which three, and why those three?
+2. What is the **rule** behind your choice — a sentence someone else could apply to a different six patients?
+3. Could that rule be defended out loud to the families of the other three?
 
-You may not ask for more information. This is everything the doctors gave you.
+No further information is available. This is everything the doctors had.
 :::
 
-## Round One — What Rules Appeared?
+## Five Rules on the Table
 
 ::: {.callout-note}
-Most groups land somewhere in here. Each rule is defensible, and each one quietly assumes something.
+Each of these is defensible. Each one quietly assumes something.
 
 | The rule | What it assumes matters |
 |---|---|
@@ -204,22 +204,22 @@ The real committee decided it needed to know more. Its candidate files contained
 ## Round Two — Your Task
 
 ::: {.thought-question}
-Same groups. Same six people. **Five minutes.**
+Same six people, with the files open.
 
-1. Does this information change your three? Say honestly whether it did.
-2. If it changed your answer — which single fact did the work?
+1. Does this information change the three? Be honest about whether it does.
+2. If it changes the answer, which single fact did the work?
 3. Should the committee have asked for these files at all?
 :::
 
-## Round Two — Report Out
+## Before We Go On
 
 ::: {.callout-note}
-Two questions for the whole room before we go on.
+Two questions worth answering out loud.
 
-- **How many groups changed at least one name?** In most rooms, most do.
-- **Did anyone refuse the envelope** — decide the extra information should not be used, once it was already in front of them?
+- **Did any name change?** If so, the file did work that the medical facts could not.
+- **Could the envelope be refused** — could you decide the extra information should not be used, once it is already in front of you?
 
-Notice what just happened to you. You did not ask for these facts. You now cannot un-know them.
+Nobody asked for these facts. They cannot now be un-known.
 :::
 
 ## What the Committee Actually Did
@@ -267,11 +267,11 @@ Judge its *criteria*: it rewarded people who resembled its own members.
 A scrupulous process can still deliver an indefensible rule. "We followed a fair procedure" is never, on its own, an answer — and that holds every time this course meets a committee, a protocol, or an algorithm.
 :::
 
-# What You Just Invented {.section-divider}
+# The Words Behind the Rules {.section-divider}
 
-## You Already Used Four Words
+## Four Words That Keep Coming Back
 
-Reading back your own rules from the last half hour:
+The rules on the table have names. Four run through nearly every argument in this course:
 
 :::: {.columns}
 
@@ -293,7 +293,7 @@ Reading back your own rules from the last half hour:
 
 ::::
 
-Nobody taught you these today. You reached for them because you already had them. Next week we give them names, sharp edges, and the places where they contradict one another.
+None of these requires a philosophy course. They are the vocabulary people already argue in. Next week we give them sharp edges, and find where they contradict one another.
 
 ## Two Words for Two Different Problems
 
@@ -344,7 +344,7 @@ Was that a solution or an evasion? And what happens to patients whose disease ne
 
 One of them is an **ICU nurse** who, if she recovers, goes back to treating patients like the other one.
 
-Hands up: does that fact belong in the decision?
+Does that fact belong in the decision?
 :::
 
 ## What the Ethicists Recommended
@@ -388,7 +388,7 @@ The Equal-Worth Argument
 ::::
 
 ::: {.thought-question}
-Two minutes with the person beside you. These two agree about almost everything. Find the **one** premise where they part.
+These two agree about almost everything. Find the **one** premise where they part.
 :::
 
 ## After You've Discussed
@@ -431,7 +431,7 @@ You are on the transplant team. A medically suitable patient lives alone and has
 | **0–3** | Read it again. Pick your side. |
 | **3–8** | **Bullets only.** No sentences yet. |
 | **8–18** | Write it out — 150–200 words. |
-| **18–20** | Trade with the person beside you. |
+| **18–20** | Read it back. Cut one sentence that is not working. |
 :::
 
 ::: {.column width="54%"}
@@ -445,14 +445,14 @@ Four moves, in this order:
 
 ::::
 
-## Why We Did It This Way
+## What This Was Practice For
 
 ::: {.recap}
 Twice this term you will write an argumentative essay in seventy-five minutes, with a case study open on the screen. The part that decides the grade is not the writing — it is the planning, and specifically moves 2 and 3 above.
 
-You just did all four in twenty minutes, on a question nobody has settled.
+Those four moves are the whole of the planning step, run here on a question nobody has settled.
 
-Read the full case study before our next meeting. Then we start on the four words you already invented today.
+Read the full case study before our next meeting. Then we start on the four words above.
 :::
 
 ## Key Terms
