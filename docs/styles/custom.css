@@ -317,6 +317,56 @@ figure figcaption {
   margin-top: 0.35em;
 }
 
+
+/* ===== Four-principles grid ("The Four Together") =====
+   Four equal cards, 2x2. Deliberately ungrouped: the principles do not
+   sort cleanly by scope (beneficence reaches past the patient too).
+   Use as: ::: {.principle-grid} containing .pg-card items. */
+.principle-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.6rem;
+  margin: 1em 0;
+}
+
+.pg-card {
+  border-radius: 8px;
+  border-left: 5px solid;
+  padding: 0.6rem 0.85rem;
+  line-height: 1.4;
+}
+.pg-card .pg-name {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  margin-bottom: 0.15em;
+}
+.pg-card .pg-gloss {
+  display: block;
+  font-size: 0.9em;
+  color: var(--ink);
+}
+.pg-card .pg-q {
+  display: block;
+  margin-top: 0.35em;
+  font-size: 0.9em;
+  font-style: italic;
+  color: var(--muted);
+}
+
+.pg-autonomy    { background: #e6f1f2; border-left-color: #0e7c86; }
+.pg-beneficence { background: #fce9d6; border-left-color: #b07d1a; }
+.pg-nonmal      { background: #fad7d2; border-left-color: #c0392b; }
+.pg-justice     { background: #dfe6ee; border-left-color: #334155; }
+.pg-autonomy    .pg-name { color: #0e7c86; }
+.pg-beneficence .pg-name { color: #8a5f12; }
+.pg-nonmal      .pg-name { color: #9d2f23; }
+.pg-justice     .pg-name { color: #334155; }
+
+@media (max-width: 700px) {
+  .principle-grid { grid-template-columns: 1fr; }
+}
+
 /* ===== Closing review questions ===== */
 .review-questions {
   display: grid;

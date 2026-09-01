@@ -571,5 +571,22 @@ $code-block-border-color: $rule;
   color: $accent;
 }
 
+// ===== Four-principles grid ("The Four Together") =====
+// Base layout and colors live in styles/custom.css (loaded for both
+// formats); this only resizes the cards for a 1050x700 slide.
+.reveal .principle-grid {
+  gap: 0.45rem;
+  margin: 0.55em 0;
+}
+
+.reveal .pg-card {
+  padding: 0.5rem 0.7rem;
+  line-height: 1.32;
+}
+
+.reveal .pg-card .pg-name { font-size: 0.74em; }
+.reveal .pg-card .pg-gloss { font-size: 0.62em; }
+.reveal .pg-card .pg-q { font-size: 0.62em; margin-top: 0.3em; }
+
 // Reader asides belong to the notes page only — never projected.
 .reveal .aside-note { display: none; }

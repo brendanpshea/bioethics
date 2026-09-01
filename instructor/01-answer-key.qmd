@@ -1,0 +1,133 @@
+---
+title: "Answer Key & Debrief Notes"
+subtitle: "Lecture 1 · Part A — The Four Principles and How to Read an Argument"
+author: "Brendan Shea, PhD"
+format:
+  html:
+    toc: true
+---
+
+::: {.callout-important}
+**Instructor copy. Not part of the student book.** Files in `instructor/` sit outside the
+`chapters/*.qmd` render glob in `_quarto.yml`, so nothing here is built into `docs/` or
+published. Render it on its own if you want a printable copy:
+
+```
+quarto render instructor/01-answer-key.qmd
+```
+:::
+
+## Why these answers live here
+
+Students keep the rendered book open during lecture, so any answer printed in the chapter
+— even inside a collapsed callout — is a spoiler with one extra click. The chapter now
+asks the questions; this file holds what used to be printed underneath them.
+
+## Spot the Fallacy
+
+The four stems, with the naming answer and the follow-up the slide now asks for
+("say what has actually gone wrong").
+
+| # | Stem | Fallacy | What has actually gone wrong |
+|---|---|---|---|
+| 1 | "Gene editing is wrong — it's playing God." | Appeal to nature | "Natural" is doing no argumentative work. Every intervention in medicine is unnatural in the same sense; the premise cannot distinguish gene editing from insulin. |
+| 2 | "If we let doctors help patients die, we'll end up euthanizing the disabled." | Slippery slope | The slide is asserted, not shown. A good version would have to give the actual mechanism — which safeguard fails, and why — and point at jurisdictions where it happened. |
+| 3 | "You can't trust her opinion on vaccines — she's not even a real scientist." | *Ad hominem* | Credentials bear on how much to *defer* to a claim, not on whether it is true. The evidence she cites is unexamined. |
+| 4 | "Either we ration care by ability to pay, or the system collapses." | False dichotomy | Every actual health system rations by some mix of need, queue, triage, and price. The premise hides the whole design space. |
+
+**Worth saying aloud.** A fallacious argument can have a true conclusion. #2's conclusion
+might even turn out right — the defect is that *this argument* gives no reason to believe it.
+Students routinely hear "that's a fallacy" as "that's false," and it is worth breaking early.
+
+**Common student moves.** #1 and #4 land easily. #2 gets over-diagnosed — some students
+call every prediction a slippery slope, so it helps to show a *non*-fallacious slope
+argument (one with a stated mechanism). #3 is often confused with a legitimate appeal to
+expertise; the distinction is deference vs. dismissal.
+
+## Trauma-bay transfusion refusal
+
+The mapping that used to be printed in the chapter's debrief:
+
+- Usually framed as **beneficence** and **non-maleficence** pulling *toward* transfusion,
+  **autonomy** pulling *against*.
+- The twist — now the only part left in the chapter — is that respecting her refusal may
+  itself be the most *beneficent* act, and transfusing her against a standing written
+  refusal is itself a *harm*. Which principle "wins" depends on whose account of her good
+  you plug in.
+
+**The case is deliberately not the easy version.** She is drifting, not alert, so students
+cannot resolve it by reciting "competent adults may refuse." The live question is whether a
+refusal written in advance still speaks for a person who cannot presently confirm it —
+precedent autonomy — and that is a question the four principles do not answer.
+
+**Where students usually go, and what to do with it.**
+
+- *"Just wait until she wakes up."* She may not, and the bleeding will not wait. Worth
+  naming: the urgency is what makes the capacity question unavoidable rather than
+  postponable.
+- *"She's not competent, so the parents decide."* Two errors bundled together. Incapacity
+  does not void a prior directive, and in most states parents are not the default surrogate
+  for an adult. Ask who her surrogate actually is — nobody in the room has established that.
+- *"The card is old / she may have changed her mind."* The strongest objection, and worth
+  granting. Then ask the reversal: would they accept that reasoning about a signed organ
+  donation card, or a DNR?
+
+**If discussion stalls,** the productive question is the fourth bullet on the Thought
+Question slide: *what single fact, if changed, would change your answer?* Common answers —
+she is 16; she is 30 weeks pregnant; the card is undated; she is fully alert and repeating
+the refusal out loud — each preview a later chapter.
+
+**Escalations you can add live,** in rough order of difficulty:
+
+1. The card is dated eleven years ago.
+2. Her parents add that she has not attended a meeting since college.
+3. She becomes briefly lucid, says "no blood," and drifts again.
+4. She is 22 weeks pregnant.
+
+Each changes a different variable — currency of the document, the sincerity of the belief,
+contemporaneous capacity, third-party interests — and it is worth naming which one moved.
+
+## Your Turn — Legal, Ethical, Neither
+
+No answer key by design. What to listen for:
+
+- **Legal but wrong** — students reliably produce good ones (lying to a partner, most
+  workplace cruelty, historically: slavery, segregation, Tuskegee in 1932).
+- **Illegal but not wrong** — harder, and the interesting half. Jaywalking, speeding to a
+  hospital, and older sodomy or interracial-marriage statutes all work. If a student offers
+  a case they feel strongly about, that is the one to slow down on.
+- The third prompt is the payoff: law tracks *coordination*, *enforceability*, and
+  *political compromise* as much as it tracks morality. Naming that is the learning outcome;
+  the examples are just the vehicle.
+
+## Your Turn — Name the Collision
+
+Watch for the two failure modes:
+
+- **Not actually a conflict.** Many first offers are conflicts between a principle and
+  someone's convenience, budget, or fear of liability. Push back: which *second principle*
+  is on the other side?
+- **Autonomy vs. everything.** Autonomy is the principle students have vocabulary for, so it
+  shows up on both sides of most examples. Justice is the one that rarely gets named
+  unprompted — if nobody offers a justice collision, supply one.
+
+The follow-up ("was that the right call?") matters more than the naming. It is the first
+time in the course students are asked to *defend* a balancing judgment rather than report it.
+
+## Your Turn — Bring Your Own (fallacy)
+
+Deliberately un-keyable. Two things to reward:
+
+- Arguments the student is **sympathetic** to. It is easy to find fallacies in views you
+  already reject; the skill is finding them in your own side.
+- The second prompt — *what would have to be true for it to work?* — which turns fallacy
+  spotting from a gotcha into repair. Most bad health arguments are repairable, and saying
+  what the missing premise would have to be is the actual analytical move.
+
+## Specification exercise
+
+"Write one concrete rule a specific unit could post on the wall." Good answers name a
+**trigger**, an **actor**, and an **action** — e.g. *"Before any procedure requiring sedation,
+the nurse confirms the patient can state, in their own words, what is being done and one
+risk."* Weak answers just restate the principle in different words ("always respect patient
+choices"). The gap between those two is what specification means.

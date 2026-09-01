@@ -15,29 +15,35 @@ format:
 
 # A Case to Open With {.section-divider}
 
-## A Quiet Tuesday on the Floor
+## A Card in Her Wallet
 
 ::: {.columns}
 ::: {.column width="60%"}
 ::: {.thought-question}
-A 34-year-old woman is in the trauma bay after a high-speed crash. Alert, oriented, full capacity. CT shows a grade IV splenic laceration; her hemoglobin has fallen from 13 to 7 in the last hour. The surgeon wants her in the OR, with pre-emptive transfusion. Tucked in her wallet is a signed, dated card declaring her a Jehovah's Witness and refusing all blood products. Her parents have just arrived and are pleading with the team to "do whatever it takes."
+A 34-year-old woman is brought in after a high-speed crash. She was awake and talking at the scene. Now she is pale and drifting — she opens her eyes when you say her name, but cannot follow a question. A scan shows her spleen is badly torn and bleeding internally; she has lost close to half her blood in the last hour.
 
-You are the nurse at her bedside.
+The surgeon wants to operate now, with donated blood on the way in. In her wallet is a card, signed and dated: she is a Jehovah's Witness and refuses all blood products. Her parents say she is not thinking clearly and would never have wanted to die like this. You are the nurse at her bedside.
 
-- What questions would you want answered before doing anything?
-- Who exactly is asking you to do what?
-- What do you think the right move is — and why?
+- What would you want to know before doing anything?
+- Who is asking you to do what?
+- What is the right move here — and why?
 :::
 :::
 ::: {.column width="40%"}
-![](../assets/images/clinical_dilemma.png){width="100%" fig-alt="Silhouetted nurse at a desk in a quiet hospital at night"}
+![](../assets/images/clinical_dilemma.png){width="100%" fig-alt="Silhouetted nurse standing at a bedside in a dimly lit hospital room"}
 :::
+:::
+
+::: {.aside-note}
+In chart shorthand: a grade IV splenic laceration, hemoglobin down from 13 to 7 in an hour. Translated — a deep tear in the spleen, and a blood count that has fallen by nearly half in the time you have been on shift.
 :::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-**The legal frame.** U.S. courts have, in nearly every case involving a competent adult, upheld the patient's right to refuse blood — even when refusal is fatal. The harder cases involve **minors**, **pregnancy**, and **unclear capacity**. We will come back to all three later in the course.
+**Two questions are tangled together here.** *May* a person refuse a transfusion? That one is close to settled: U.S. courts have almost always upheld a competent adult's refusal, even a fatal one. *Is this her refusal?* That is not settled at all. In an emergency a team may treat without consent, on the presumption that people want to be saved — and a card like hers exists precisely to rebut that presumption in advance.
+
+Capacity is also not something a person simply has or lacks. It is specific to one decision at one moment, and it can drain away with a blood pressure and return after surgery. **Minors** and **pregnancy** are the other two places the law gets hard; we return to all three later in the course.
 :::
 
 ::: {.aside-note}
@@ -148,7 +154,7 @@ Bioethics **uses** descriptive facts (you cannot weigh a harm you have not measu
 
 ## Why the Distinctions Matter
 
-Students often collapse these. They are not the same — and confusing them is one of the most common mistakes in bioethical reasoning.
+It is easy to confuse ethical, legal, religious, and preference claims. They often point the same direction, and in ordinary speech we slide between them without noticing. They are importantly different, and telling them apart is one of the first skills bioethics asks for.
 
 | Type of claim | Source of authority | Question it answers |
 |---|---|---|
@@ -186,6 +192,16 @@ That is a feeling, not yet an argument. Ethical reasoning asks the next question
 
 ::: {.aside-note}
 "I feel" and "I believe" are perfectly good *starting points*. Bioethics just asks for the next step: the reason someone who doesn't share your feeling could still weigh.
+:::
+
+## Your Turn — Legal, Ethical, Neither
+
+::: {.thought-question}
+Come up with your own examples, not ones from these slides.
+
+- Name something that is **legal** but you think is wrong.
+- Name something that is **illegal** but not wrong.
+- What is the law tracking in your examples, if not ethics?
 :::
 
 ## Thought Question
@@ -272,7 +288,7 @@ In practice, autonomy underwrites:
 :::
 
 ::: {.aside-note}
-The transfusion-refusal case that opened this chapter is, at its core, an autonomy case. Hold that thought — you'll meet it again in Chapter 2 and in the Dax Cowart case study.
+The transfusion-refusal case that opened this chapter is, at its core, an autonomy case — and a hard one, because the person whose autonomy is at stake cannot speak for herself right now. Hold that thought — you'll meet it again in Chapter 2 and in the Dax Cowart case study.
 :::
 
 ## Autonomy in Practice
@@ -304,6 +320,8 @@ This sounds obvious until you ask: **whose** account of the patient's good?
 - The clinician's professional judgment?
 - The patient's own values?
 - The family's hopes?
+
+Then ask **how many** people's good. Read narrowly, beneficence covers this patient; read broadly — as utilitarians do — it covers welfare in the aggregate, which is where public health and cost-effectiveness arguments get their force.
 
 Beneficence and autonomy can pull in opposite directions.
 :::
@@ -417,19 +435,35 @@ Justice asks us to look up from the individual patient and notice the pattern.
 
 ## The Four Together
 
-```{mermaid}
-flowchart LR
-  A[Autonomy<br/>respect choices] --- B[Beneficence<br/>do good]
-  B --- N[Non-maleficence<br/>do no harm]
-  N --- J[Justice<br/>treat fairly]
-  J --- A
-  style A fill:#cfe9ec,stroke:#0e7c86,stroke-width:2px
-  style B fill:#fce9d6,stroke:#b07d1a,stroke-width:2px
-  style N fill:#fad7d2,stroke:#c0392b,stroke-width:2px
-  style J fill:#dfe6ee,stroke:#0f172a,stroke-width:2px
-```
+::: {.principle-grid}
 
-A *framework*, not an algorithm. The principles tell you what to weigh — not, by themselves, how to weigh it.
+::: {.pg-card .pg-autonomy}
+[Autonomy]{.pg-name}
+[Respect her choices about her own body and care.]{.pg-gloss}
+[*Whose call is this?*]{.pg-q}
+:::
+
+::: {.pg-card .pg-beneficence}
+[Beneficence]{.pg-name}
+[Promote welfare — hers, and sometimes other people's too.]{.pg-gloss}
+[*Who does this help?*]{.pg-q}
+:::
+
+::: {.pg-card .pg-nonmal}
+[Non-Maleficence]{.pg-name}
+[Do not impose harm without proportionate benefit.]{.pg-gloss}
+[*Who could this hurt?*]{.pg-q}
+:::
+
+::: {.pg-card .pg-justice}
+[Justice]{.pg-name}
+[Distribute benefits, burdens, and access fairly.]{.pg-gloss}
+[*Who else has a claim?*]{.pg-q}
+:::
+
+:::
+
+A *framework*, not an algorithm: the four tell you what to weigh, not how much each weighs. Every one of them is also a question about *who*, and none of the four settles on its own how far its own concern reaches.
 
 ## Principles Are *Prima Facie*, Not Absolute
 
@@ -466,6 +500,8 @@ Disciplined balancing. Before letting principle **X** override principle **Y**, 
 
 - **Balancing** decides *this case*; **specification** builds *standing rules* so we do not re-argue every case from zero
 
+**Your turn.** Take "respect autonomy" and specify it once more: write one concrete rule a specific unit could actually post on the wall.
+
 ## Why Do Careful People Still Disagree?
 
 Most — though not all — people accept the common morality. So deep disagreement in bioethics is usually **not** good vs. evil. It has four main sources:
@@ -491,22 +527,48 @@ Naming the source is the first move: a factual dispute is resolved very differen
 
 ## When Principles Conflict
 
-Most interesting bioethics cases are conflicts *between* principles, not conflicts between good and evil.
+Most interesting bioethics cases are conflicts *between* principles, not conflicts between good and evil. Four collisions you will meet all semester:
 
-- [Autonomy]{.pill .pill-autonomy} vs. [Beneficence]{.pill .pill-beneficence} — the Jehovah's Witness refusing transfusion
-- [Beneficence]{.pill .pill-beneficence} vs. [Non-Maleficence]{.pill .pill-nonmal} — risky surgery with a small chance of cure
-- [Autonomy]{.pill .pill-autonomy} vs. [Justice]{.pill .pill-justice} — vaccine refusal during a pandemic
-- [Beneficence]{.pill .pill-beneficence} vs. [Justice]{.pill .pill-justice} — spending heroic resources on one patient when others wait
+```{dot}
+//| fig-width: 7.5
+//| fig-height: 3.1
+graph tensions {
+  layout=neato;
+  bgcolor="transparent";
+  splines=true;
+  node [shape=box, style="rounded,filled", fontname="Inter", fontsize=13, penwidth=1.6, margin="0.20,0.11"];
+  edge [color="#94a3b8", fontname="Inter", fontsize=10, fontcolor="#475569", penwidth=1.5];
+
+  A [label="Autonomy",        pos="-2.0,0.85!",  fillcolor="#e6f1f2", color="#0e7c86", fontcolor="#0e7c86"];
+  B [label="Beneficence",     pos="2.0,0.85!",   fillcolor="#fce9d6", color="#b07d1a", fontcolor="#8a5f12"];
+  N [label="Non-maleficence", pos="2.0,-0.85!",  fillcolor="#fad7d2", color="#c0392b", fontcolor="#9d2f23"];
+  J [label="Justice",         pos="-2.0,-0.85!", fillcolor="#dfe6ee", color="#334155", fontcolor="#334155"];
+
+  A -- B [label="  she refuses a transfusion  "];
+  B -- N [label="  risky surgery  "];
+  A -- J [label="  vaccine refusal  "];
+  B -- J [label="  one patient, or many?  "];
+}
+```
 
 The four principles do not resolve these tensions. They make them **visible** so we can argue about them carefully.
+
+## Your Turn — Name the Collision
+
+::: {.thought-question}
+Think of a situation from clinical, work, family, or the news in which two of these four principles pulled against each other.
+
+- Which two were they? Name them.
+- Which one won — and was that the right call?
+:::
 
 ## Thought Question
 
 ::: {.thought-question}
-Return to our trauma-bay patient — full capacity, signed refusal, parents at the door. Now you have vocabulary for what was hard.
+Return to our trauma-bay patient — a signed refusal, a patient who cannot confirm it, parents at the door. Now you have vocabulary for what was hard.
 
 - Which principles point *toward* transfusing her? Which point *away*?
-- Which counts as the "harm" — letting her die, or doing something to her body she has explicitly refused?
+- Which counts as the "harm" — letting her die, or doing to her body the thing she put in writing that she refused?
 - Which principle would you weight most heavily, and why?
 - What single fact, if changed, would change your answer?
 :::
@@ -514,11 +576,9 @@ Return to our trauma-bay patient — full capacity, signed refusal, parents at t
 ## After You've Discussed
 
 ::: {.callout-note}
-**How the principles typically map.**
+**Harm is not a fixed quantity. It depends on whose life it is.** The *same act* changes category depending on whose account of her good you use. Transfusing her rescues a body and overrides a person. Honoring the card respects a person and loses a body. Both descriptions are accurate, and that is the difficulty— not a trick of wording.
 
-- The case is often framed as [Beneficence]{.pill .pill-beneficence} and [Non-Maleficence]{.pill .pill-nonmal} pulling **toward** transfusion, [Autonomy]{.pill .pill-autonomy} pulling **against**.
-- But notice the twist: respecting her refusal may itself be the most *beneficent* act, and transfusing a competent patient against her will is itself a form of *harm*.
-- The principles do not decide the case. They give us shared language to *argue* about it.
+This is why the principles do not settle cases. They give us shared language for arguing about which description of the act is the one that matters here.
 :::
 
 # Reading a Moral Argument {.section-divider}
@@ -562,6 +622,7 @@ Sounds airtight — until you notice what's *missing.* That argument quietly ass
 
 - "Saving lives" *always* outweighs the patient's other wishes.
 - The patient's refusal can be set aside because it's "irrational."
+- A refusal she cannot repeat right now is not really a refusal.
 - A nurse's professional duty is identical to "extending biological life."
 
 Each of those is contestable. **Surfacing hidden assumptions** is half the work of bioethics.
@@ -627,7 +688,7 @@ The next two slides cover the six you will see most often.
 ## Practice — Spot the Fallacy
 
 ::: {.thought-question}
-Identify the fallacy in each:
+Name the fallacy in each, then say what has actually gone wrong in the reasoning.
 
 1. "Gene editing is wrong — it's playing God."
 2. "If we let doctors help patients die, we'll end up euthanizing the disabled."
@@ -635,15 +696,17 @@ Identify the fallacy in each:
 4. "Either we ration care by ability to pay, or the system collapses."
 :::
 
-::: {.callout-note collapse="true"}
-## Check your answers
+::: {.aside-note}
+Naming the fallacy is the easy half. The half that matters is saying *why* the premises fail to support the conclusion — and remembering that a bad argument can still have a true conclusion.
+:::
 
-Try all four before you open this.
+## Your Turn — Bring Your Own
 
-1. Appeal to nature
-2. Slippery slope
-3. *Ad hominem*
-4. False dichotomy
+::: {.thought-question}
+Think of one argument about health you have actually heard — from family, a provider, a patient, or social media.
+
+- What is wrong with it?
+- What would have to be true for it to work?
 :::
 
 ## Wrapping Up Part A

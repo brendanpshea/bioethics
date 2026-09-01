@@ -11499,7 +11499,7 @@
     "href": "chapters/01-introduction-slides.html#after-youve-discussed",
     "title": "Principles, Theories & Moral Reasoning",
     "section": "After You’ve Discussed",
-    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nThe legal frame. U.S. courts have, in nearly every case involving a competent adult, upheld the patient’s right to refuse blood — even when refusal is fatal. The harder cases involve minors, pregnancy, and unclear capacity. We will come back to all three later in the course.\n\n\n\n\nDon’t try to settle this yet. The rest of the lecture is, in a sense, equipping you to answer it more carefully than “follow your gut.” Write down your first instinct now, and check at the end of the chapter whether it moved."
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nTwo questions are tangled together here. May a person refuse a transfusion? That one is close to settled: U.S. courts have almost always upheld a competent adult’s refusal, even a fatal one. Is this her refusal? That is not settled at all. In an emergency a team may treat without consent, on the presumption that people want to be saved — and a card like hers exists precisely to rebut that presumption in advance.\nCapacity is also not something a person simply has or lacks. It is specific to one decision at one moment, and it can drain away with a blood pressure and return after surgery. Minors and pregnancy are the other two places the law gets hard; we return to all three later in the course.\n\n\n\n\nDon’t try to settle this yet. The rest of the lecture is, in a sense, equipping you to answer it more carefully than “follow your gut.” Write down your first instinct now, and check at the end of the chapter whether it moved."
   },
   {
     "objectID": "chapters/01-introduction-slides.html#today-foundations",
@@ -11562,7 +11562,7 @@
     "href": "chapters/01-introduction-slides.html#why-the-distinctions-matter",
     "title": "Principles, Theories & Moral Reasoning",
     "section": "Why the Distinctions Matter",
-    "text": "Why the Distinctions Matter\nStudents often collapse these. They are not the same — and confusing them is one of the most common mistakes in bioethical reasoning.\n\n\n\n\n\n\n\n\nType of claim\nSource of authority\nQuestion it answers\n\n\n\n\nEthical\nReasons we can examine and share\nWhat ought we to do?\n\n\nLegal\nStatutes, courts, regulators\nWhat may or must we do under law?\n\n\nReligious\nSacred texts, traditions, communities\nWhat does this faith require?\n\n\nPreference\nPersonal taste\nWhat do I happen to want?"
+    "text": "Why the Distinctions Matter\nIt is easy to confuse ethical, legal, religious, and preference claims. They often point the same direction, and in ordinary speech we slide between them without noticing. They are importantly different, and telling them apart is one of the first skills bioethics asks for.\n\n\n\n\n\n\n\n\nType of claim\nSource of authority\nQuestion it answers\n\n\n\n\nEthical\nReasons we can examine and share\nWhat ought we to do?\n\n\nLegal\nStatutes, courts, regulators\nWhat may or must we do under law?\n\n\nReligious\nSacred texts, traditions, communities\nWhat does this faith require?\n\n\nPreference\nPersonal taste\nWhat do I happen to want?"
   },
   {
     "objectID": "chapters/01-introduction-slides.html#ethics-vs.-law",
@@ -11632,7 +11632,7 @@
     "href": "chapters/01-introduction-slides.html#autonomy",
     "title": "Principles, Theories & Moral Reasoning",
     "section": "1. Autonomy",
-    "text": "1. Autonomy\n\n\nAutonomy — self-rule. Respect the patient’s right to make informed decisions about her own body and care.\nIn practice, autonomy underwrites:\n\nInformed consent\nThe right to refuse treatment (even life-saving treatment)\nTruth-telling and honest disclosure\nConfidentiality\n\n\n\n\n\nThe transfusion-refusal case that opened this chapter is, at its core, an autonomy case. Hold that thought — you’ll meet it again in Chapter 2 and in the Dax Cowart case study."
+    "text": "1. Autonomy\n\n\nAutonomy — self-rule. Respect the patient’s right to make informed decisions about her own body and care.\nIn practice, autonomy underwrites:\n\nInformed consent\nThe right to refuse treatment (even life-saving treatment)\nTruth-telling and honest disclosure\nConfidentiality\n\n\n\n\n\nThe transfusion-refusal case that opened this chapter is, at its core, an autonomy case — and a hard one, because the person whose autonomy is at stake cannot speak for herself right now. Hold that thought — you’ll meet it again in Chapter 2 and in the Dax Cowart case study."
   },
   {
     "objectID": "chapters/01-introduction-slides.html#autonomy-in-practice",
@@ -11646,7 +11646,7 @@
     "href": "chapters/01-introduction-slides.html#beneficence",
     "title": "Principles, Theories & Moral Reasoning",
     "section": "2. Beneficence",
-    "text": "2. Beneficence\n\n\nBeneficence — do good. Act in the patient’s best interest; promote welfare.\nThis sounds obvious until you ask: whose account of the patient’s good?\n\nThe clinician’s professional judgment?\nThe patient’s own values?\nThe family’s hopes?\n\nBeneficence and autonomy can pull in opposite directions."
+    "text": "2. Beneficence\n\n\nBeneficence — do good. Act in the patient’s best interest; promote welfare.\nThis sounds obvious until you ask: whose account of the patient’s good?\n\nThe clinician’s professional judgment?\nThe patient’s own values?\nThe family’s hopes?\n\nThen ask how many people’s good. Read narrowly, beneficence covers this patient; read broadly — as utilitarians do — it covers welfare in the aggregate, which is where public health and cost-effectiveness arguments get their force.\nBeneficence and autonomy can pull in opposite directions."
   },
   {
     "objectID": "chapters/01-introduction-slides.html#beneficence-in-practice",
@@ -11688,7 +11688,7 @@
     "href": "chapters/01-introduction-slides.html#the-four-together",
     "title": "Principles, Theories & Moral Reasoning",
     "section": "The Four Together",
-    "text": "The Four Together\n\n\n\n\n\nflowchart LR\n  A[Autonomy&lt;br/&gt;respect choices] --- B[Beneficence&lt;br/&gt;do good]\n  B --- N[Non-maleficence&lt;br/&gt;do no harm]\n  N --- J[Justice&lt;br/&gt;treat fairly]\n  J --- A\n  style A fill:#cfe9ec,stroke:#0e7c86,stroke-width:2px\n  style B fill:#fce9d6,stroke:#b07d1a,stroke-width:2px\n  style N fill:#fad7d2,stroke:#c0392b,stroke-width:2px\n  style J fill:#dfe6ee,stroke:#0f172a,stroke-width:2px\n\n\n\n\n\n\nA framework, not an algorithm. The principles tell you what to weigh — not, by themselves, how to weigh it."
+    "text": "The Four Together\n\n\nAutonomy Respect her choices about her own body and care. Whose call is this?\n\n\nBeneficence Promote welfare — hers, and sometimes other people’s too. Who does this help?\n\n\nNon-Maleficence Do not impose harm without proportionate benefit. Who could this hurt?\n\n\nJustice Distribute benefits, burdens, and access fairly. Who else has a claim?\n\n\nA framework, not an algorithm: the four tell you what to weigh, not how much each weighs. Every one of them is also a question about who, and none of the four settles on its own how far its own concern reaches."
   },
   {
     "objectID": "chapters/01-introduction-slides.html#principles-are-prima-facie-not-absolute",
@@ -11709,7 +11709,7 @@
     "href": "chapters/01-introduction-slides.html#specification-from-general-norm-to-working-rule",
     "title": "Principles, Theories & Moral Reasoning",
     "section": "Specification: From General Norm to Working Rule",
-    "text": "Specification: From General Norm to Working Rule\nSpecification — narrowing a broad principle into concrete, action-guiding rules for particular contexts.\n\n\n\n\n\n\n\nSpecified through…\n“Respect autonomy” becomes…\n\n\n\n\nLaw\nThe right to refuse treatment; informed-consent statutes\n\n\nInstitutional policy\nThe hospital’s consent form and capacity workflow\n\n\nProfessional codes\nNursing confidentiality and scope-of-practice duties\n\n\nClinical protocol\nWhen a second clinician must confirm capacity\n\n\n\n\nBalancing decides this case; specification builds standing rules so we do not re-argue every case from zero"
+    "text": "Specification: From General Norm to Working Rule\nSpecification — narrowing a broad principle into concrete, action-guiding rules for particular contexts.\n\n\n\n\n\n\n\nSpecified through…\n“Respect autonomy” becomes…\n\n\n\n\nLaw\nThe right to refuse treatment; informed-consent statutes\n\n\nInstitutional policy\nThe hospital’s consent form and capacity workflow\n\n\nProfessional codes\nNursing confidentiality and scope-of-practice duties\n\n\nClinical protocol\nWhen a second clinician must confirm capacity\n\n\n\n\nBalancing decides this case; specification builds standing rules so we do not re-argue every case from zero\n\nYour turn. Take “respect autonomy” and specify it once more: write one concrete rule a specific unit could actually post on the wall."
   },
   {
     "objectID": "chapters/01-introduction-slides.html#why-do-careful-people-still-disagree",
@@ -11730,21 +11730,21 @@
     "href": "chapters/01-introduction-slides.html#when-principles-conflict",
     "title": "Principles, Theories & Moral Reasoning",
     "section": "When Principles Conflict",
-    "text": "When Principles Conflict\nMost interesting bioethics cases are conflicts between principles, not conflicts between good and evil.\n\nAutonomy vs. Beneficence — the Jehovah’s Witness refusing transfusion\nBeneficence vs. Non-Maleficence — risky surgery with a small chance of cure\nAutonomy vs. Justice — vaccine refusal during a pandemic\nBeneficence vs. Justice — spending heroic resources on one patient when others wait\n\nThe four principles do not resolve these tensions. They make them visible so we can argue about them carefully."
+    "text": "When Principles Conflict\nMost interesting bioethics cases are conflicts between principles, not conflicts between good and evil. Four collisions you will meet all semester:\n\n\n\n\n\n\n\ntensions\n\n\nA\n\nAutonomy\n\n\n\nB\n\nBeneficence\n\n\n\nA--B\n\n  she refuses a transfusion  \n\n\n\nJ\n\nJustice\n\n\n\nA--J\n\n  vaccine refusal  \n\n\n\nN\n\nNon-maleficence\n\n\n\nB--N\n\n  risky surgery  \n\n\n\nB--J\n\n  one patient, or many?  \n\n\n\n\n\n\n\n\nThe four principles do not resolve these tensions. They make them visible so we can argue about them carefully."
   },
   {
     "objectID": "chapters/01-introduction-slides.html#thought-question-1",
     "href": "chapters/01-introduction-slides.html#thought-question-1",
     "title": "Principles, Theories & Moral Reasoning",
     "section": "Thought Question",
-    "text": "Thought Question\n\nReturn to our trauma-bay patient — full capacity, signed refusal, parents at the door. Now you have vocabulary for what was hard.\n\nWhich principles point toward transfusing her? Which point away?\nWhich counts as the “harm” — letting her die, or doing something to her body she has explicitly refused?\nWhich principle would you weight most heavily, and why?\nWhat single fact, if changed, would change your answer?"
+    "text": "Thought Question\n\nReturn to our trauma-bay patient — a signed refusal, a patient who cannot confirm it, parents at the door. Now you have vocabulary for what was hard.\n\nWhich principles point toward transfusing her? Which point away?\nWhich counts as the “harm” — letting her die, or doing to her body the thing she put in writing that she refused?\nWhich principle would you weight most heavily, and why?\nWhat single fact, if changed, would change your answer?"
   },
   {
     "objectID": "chapters/01-introduction-slides.html#after-youve-discussed-2",
     "href": "chapters/01-introduction-slides.html#after-youve-discussed-2",
     "title": "Principles, Theories & Moral Reasoning",
     "section": "After You’ve Discussed",
-    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nHow the principles typically map.\n\nThe case is often framed as Beneficence and Non-Maleficence pulling toward transfusion, Autonomy pulling against.\nBut notice the twist: respecting her refusal may itself be the most beneficent act, and transfusing a competent patient against her will is itself a form of harm.\nThe principles do not decide the case. They give us shared language to argue about it."
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nHarm is not a fixed quantity. It depends on whose life it is. The same act changes category depending on whose account of her good you use. Transfusing her rescues a body and overrides a person. Honoring the card respects a person and loses a body. Both descriptions are accurate, and that is the difficulty— not a trick of wording.\nThis is why the principles do not settle cases. They give us shared language for arguing about which description of the act is the one that matters here."
   },
   {
     "objectID": "chapters/01-introduction-slides.html#what-is-an-argument",
@@ -11765,7 +11765,7 @@
     "href": "chapters/01-introduction-slides.html#hidden-assumptions",
     "title": "Principles, Theories & Moral Reasoning",
     "section": "Hidden Assumptions",
-    "text": "Hidden Assumptions\nSounds airtight — until you notice what’s missing. That argument quietly assumes:\n\n“Saving lives” always outweighs the patient’s other wishes.\nThe patient’s refusal can be set aside because it’s “irrational.”\nA nurse’s professional duty is identical to “extending biological life.”\n\nEach of those is contestable. Surfacing hidden assumptions is half the work of bioethics."
+    "text": "Hidden Assumptions\nSounds airtight — until you notice what’s missing. That argument quietly assumes:\n\n“Saving lives” always outweighs the patient’s other wishes.\nThe patient’s refusal can be set aside because it’s “irrational.”\nA refusal she cannot repeat right now is not really a refusal.\nA nurse’s professional duty is identical to “extending biological life.”\n\nEach of those is contestable. Surfacing hidden assumptions is half the work of bioethics."
   },
   {
     "objectID": "chapters/01-introduction-slides.html#what-is-a-fallacy",
@@ -11793,7 +11793,7 @@
     "href": "chapters/01-introduction-slides.html#practice-spot-the-fallacy",
     "title": "Principles, Theories & Moral Reasoning",
     "section": "Practice — Spot the Fallacy",
-    "text": "Practice — Spot the Fallacy\n\nIdentify the fallacy in each:\n\n“Gene editing is wrong — it’s playing God.”\n“If we let doctors help patients die, we’ll end up euthanizing the disabled.”\n“You can’t trust her opinion on vaccines — she’s not even a real scientist.”\n“Either we ration care by ability to pay, or the system collapses.”\n\n\n\n\n\n\n\n\nCheck your answers\n\n\nTry all four before you open this.\n\nAppeal to nature\nSlippery slope\nAd hominem\nFalse dichotomy"
+    "text": "Practice — Spot the Fallacy\n\nName the fallacy in each, then say what has actually gone wrong in the reasoning.\n\n“Gene editing is wrong — it’s playing God.”\n“If we let doctors help patients die, we’ll end up euthanizing the disabled.”\n“You can’t trust her opinion on vaccines — she’s not even a real scientist.”\n“Either we ration care by ability to pay, or the system collapses.”\n\n\n\nNaming the fallacy is the easy half. The half that matters is saying why the premises fail to support the conclusion — and remembering that a bad argument can still have a true conclusion."
   },
   {
     "objectID": "chapters/01-introduction-slides.html#wrapping-up-part-a",
@@ -11828,7 +11828,7 @@
     "href": "chapters/01-introduction.html",
     "title": "Principles, Theories & Moral Reasoning",
     "section": "",
-    "text": "A 34-year-old woman is in the trauma bay after a high-speed crash. Alert, oriented, full capacity. CT shows a grade IV splenic laceration; her hemoglobin has fallen from 13 to 7 in the last hour. The surgeon wants her in the OR, with pre-emptive transfusion. Tucked in her wallet is a signed, dated card declaring her a Jehovah’s Witness and refusing all blood products. Her parents have just arrived and are pleading with the team to “do whatever it takes.”\nYou are the nurse at her bedside.\n\nWhat questions would you want answered before doing anything?\nWho exactly is asking you to do what?\nWhat do you think the right move is — and why?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe legal frame. U.S. courts have, in nearly every case involving a competent adult, upheld the patient’s right to refuse blood — even when refusal is fatal. The harder cases involve minors, pregnancy, and unclear capacity. We will come back to all three later in the course.\n\n\n\nDon’t try to settle this yet. The rest of the lecture is, in a sense, equipping you to answer it more carefully than “follow your gut.” Write down your first instinct now, and check at the end of the chapter whether it moved.\n\n\n\n\n\nBy the end of Part A, you will be able to:\n\nDefine bioethics and explain why it emerged as a distinct field\nPlace bioethics on the map of ethics: descriptive, metaethical, and normative (theoretical vs. practical)\nDistinguish ethical claims from legal, religious, and personal-preference claims\n\n\n\n\n\n\nYou will also be able to:\n\nExplain the four principles as an explication of common morality\nBalance and specify principles — and say when one may override another\nDiagnose the source of a moral conflict, and tell a moral conflict from a moral dilemma\nIdentify premises, conclusions, hidden assumptions, and common fallacies",
+    "text": "A 34-year-old woman is brought in after a high-speed crash. She was awake and talking at the scene. Now she is pale and drifting — she opens her eyes when you say her name, but cannot follow a question. A scan shows her spleen is badly torn and bleeding internally; she has lost close to half her blood in the last hour.\nThe surgeon wants to operate now, with donated blood on the way in. In her wallet is a card, signed and dated: she is a Jehovah’s Witness and refuses all blood products. Her parents say she is not thinking clearly and would never have wanted to die like this. You are the nurse at her bedside.\n\nWhat would you want to know before doing anything?\nWho is asking you to do what?\nWhat is the right move here — and why?\n\n\n\n\n\n\n\nIn chart shorthand: a grade IV splenic laceration, hemoglobin down from 13 to 7 in an hour. Translated — a deep tear in the spleen, and a blood count that has fallen by nearly half in the time you have been on shift.\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nTwo questions are tangled together here. May a person refuse a transfusion? That one is close to settled: U.S. courts have almost always upheld a competent adult’s refusal, even a fatal one. Is this her refusal? That is not settled at all. In an emergency a team may treat without consent, on the presumption that people want to be saved — and a card like hers exists precisely to rebut that presumption in advance.\nCapacity is also not something a person simply has or lacks. It is specific to one decision at one moment, and it can drain away with a blood pressure and return after surgery. Minors and pregnancy are the other two places the law gets hard; we return to all three later in the course.\n\n\n\nDon’t try to settle this yet. The rest of the lecture is, in a sense, equipping you to answer it more carefully than “follow your gut.” Write down your first instinct now, and check at the end of the chapter whether it moved.\n\n\n\n\n\nBy the end of Part A, you will be able to:\n\nDefine bioethics and explain why it emerged as a distinct field\nPlace bioethics on the map of ethics: descriptive, metaethical, and normative (theoretical vs. practical)\nDistinguish ethical claims from legal, religious, and personal-preference claims\n\n\n\n\n\n\nYou will also be able to:\n\nExplain the four principles as an explication of common morality\nBalance and specify principles — and say when one may override another\nDiagnose the source of a moral conflict, and tell a moral conflict from a moral dilemma\nIdentify premises, conclusions, hidden assumptions, and common fallacies",
     "crumbs": [
       "Home",
       "1. Principles & Reasoning",
@@ -11852,7 +11852,7 @@
     "href": "chapters/01-introduction.html#after-youve-discussed",
     "title": "Principles, Theories & Moral Reasoning",
     "section": "",
-    "text": "Note\n\n\n\nThe legal frame. U.S. courts have, in nearly every case involving a competent adult, upheld the patient’s right to refuse blood — even when refusal is fatal. The harder cases involve minors, pregnancy, and unclear capacity. We will come back to all three later in the course.\n\n\n\nDon’t try to settle this yet. The rest of the lecture is, in a sense, equipping you to answer it more carefully than “follow your gut.” Write down your first instinct now, and check at the end of the chapter whether it moved.",
+    "text": "Note\n\n\n\nTwo questions are tangled together here. May a person refuse a transfusion? That one is close to settled: U.S. courts have almost always upheld a competent adult’s refusal, even a fatal one. Is this her refusal? That is not settled at all. In an emergency a team may treat without consent, on the presumption that people want to be saved — and a card like hers exists precisely to rebut that presumption in advance.\nCapacity is also not something a person simply has or lacks. It is specific to one decision at one moment, and it can drain away with a blood pressure and return after surgery. Minors and pregnancy are the other two places the law gets hard; we return to all three later in the course.\n\n\n\nDon’t try to settle this yet. The rest of the lecture is, in a sense, equipping you to answer it more carefully than “follow your gut.” Write down your first instinct now, and check at the end of the chapter whether it moved.",
     "crumbs": [
       "Home",
       "1. Principles & Reasoning",
@@ -11960,7 +11960,7 @@
     "href": "chapters/01-introduction.html#why-the-distinctions-matter",
     "title": "Principles, Theories & Moral Reasoning",
     "section": "4.1 Why the Distinctions Matter",
-    "text": "4.1 Why the Distinctions Matter\nStudents often collapse these. They are not the same — and confusing them is one of the most common mistakes in bioethical reasoning.\n\n\n\n\n\n\n\n\nType of claim\nSource of authority\nQuestion it answers\n\n\n\n\nEthical\nReasons we can examine and share\nWhat ought we to do?\n\n\nLegal\nStatutes, courts, regulators\nWhat may or must we do under law?\n\n\nReligious\nSacred texts, traditions, communities\nWhat does this faith require?\n\n\nPreference\nPersonal taste\nWhat do I happen to want?",
+    "text": "4.1 Why the Distinctions Matter\nIt is easy to confuse ethical, legal, religious, and preference claims. They often point the same direction, and in ordinary speech we slide between them without noticing. They are importantly different, and telling them apart is one of the first skills bioethics asks for.\n\n\n\n\n\n\n\n\nType of claim\nSource of authority\nQuestion it answers\n\n\n\n\nEthical\nReasons we can examine and share\nWhat ought we to do?\n\n\nLegal\nStatutes, courts, regulators\nWhat may or must we do under law?\n\n\nReligious\nSacred texts, traditions, communities\nWhat does this faith require?\n\n\nPreference\nPersonal taste\nWhat do I happen to want?",
     "crumbs": [
       "Home",
       "1. Principles & Reasoning",
@@ -12007,8 +12007,8 @@
     "objectID": "chapters/01-introduction.html#thought-question",
     "href": "chapters/01-introduction.html#thought-question",
     "title": "Principles, Theories & Moral Reasoning",
-    "section": "4.5 Thought Question",
-    "text": "4.5 Thought Question\n\nA nurse on the L&D floor is asked to assist with a second-trimester abortion for a patient whose fetus has a lethal anomaly. The procedure is legal; her own physician is performing it. The nurse declines on religious grounds and asks to be reassigned. Her hospital has a conscience clause — a policy permitting clinicians to opt out of specific procedures — and she has invoked it formally.\n\nIs what she is doing legal? Ethical? Religiously required? A personal preference?\nCould the answers come apart? In what scenario?\nNow imagine the same refusal at 3 a.m. at a small rural hospital with no other nurse on shift. Anything change?",
+    "section": "4.6 Thought Question",
+    "text": "4.6 Thought Question\n\nA nurse on the L&D floor is asked to assist with a second-trimester abortion for a patient whose fetus has a lethal anomaly. The procedure is legal; her own physician is performing it. The nurse declines on religious grounds and asks to be reassigned. Her hospital has a conscience clause — a policy permitting clinicians to opt out of specific procedures — and she has invoked it formally.\n\nIs what she is doing legal? Ethical? Religiously required? A personal preference?\nCould the answers come apart? In what scenario?\nNow imagine the same refusal at 3 a.m. at a small rural hospital with no other nurse on shift. Anything change?",
     "crumbs": [
       "Home",
       "1. Principles & Reasoning",
@@ -12019,8 +12019,8 @@
     "objectID": "chapters/01-introduction.html#after-youve-discussed-1",
     "href": "chapters/01-introduction.html#after-youve-discussed-1",
     "title": "Principles, Theories & Moral Reasoning",
-    "section": "4.6 After You’ve Discussed",
-    "text": "4.6 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nWhere the duty actually lands. Most U.S. conscience-clause laws place the duty to still care for the patient on the institution, not on the individual clinician. That shifts the question from “can she refuse?” to “what does the institution owe the patient when she does?”",
+    "section": "4.7 After You’ve Discussed",
+    "text": "4.7 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nWhere the duty actually lands. Most U.S. conscience-clause laws place the duty to still care for the patient on the institution, not on the individual clinician. That shifts the question from “can she refuse?” to “what does the institution owe the patient when she does?”",
     "crumbs": [
       "Home",
       "1. Principles & Reasoning",
@@ -12080,7 +12080,7 @@
     "href": "chapters/01-introduction.html#autonomy",
     "title": "Principles, Theories & Moral Reasoning",
     "section": "5.5 1. Autonomy",
-    "text": "5.5 1. Autonomy\n\n\nAutonomy — self-rule. Respect the patient’s right to make informed decisions about her own body and care.\nIn practice, autonomy underwrites:\n\nInformed consent\nThe right to refuse treatment (even life-saving treatment)\nTruth-telling and honest disclosure\nConfidentiality\n\n\n\n\n\n\nThe transfusion-refusal case that opened this chapter is, at its core, an autonomy case. Hold that thought — you’ll meet it again in Chapter 2 and in the Dax Cowart case study.",
+    "text": "5.5 1. Autonomy\n\n\nAutonomy — self-rule. Respect the patient’s right to make informed decisions about her own body and care.\nIn practice, autonomy underwrites:\n\nInformed consent\nThe right to refuse treatment (even life-saving treatment)\nTruth-telling and honest disclosure\nConfidentiality\n\n\n\n\n\n\nThe transfusion-refusal case that opened this chapter is, at its core, an autonomy case — and a hard one, because the person whose autonomy is at stake cannot speak for herself right now. Hold that thought — you’ll meet it again in Chapter 2 and in the Dax Cowart case study.",
     "crumbs": [
       "Home",
       "1. Principles & Reasoning",
@@ -12104,7 +12104,7 @@
     "href": "chapters/01-introduction.html#beneficence",
     "title": "Principles, Theories & Moral Reasoning",
     "section": "5.7 2. Beneficence",
-    "text": "5.7 2. Beneficence\n\n\nBeneficence — do good. Act in the patient’s best interest; promote welfare.\nThis sounds obvious until you ask: whose account of the patient’s good?\n\nThe clinician’s professional judgment?\nThe patient’s own values?\nThe family’s hopes?\n\nBeneficence and autonomy can pull in opposite directions.",
+    "text": "5.7 2. Beneficence\n\n\nBeneficence — do good. Act in the patient’s best interest; promote welfare.\nThis sounds obvious until you ask: whose account of the patient’s good?\n\nThe clinician’s professional judgment?\nThe patient’s own values?\nThe family’s hopes?\n\nThen ask how many people’s good. Read narrowly, beneficence covers this patient; read broadly — as utilitarians do — it covers welfare in the aggregate, which is where public health and cost-effectiveness arguments get their force.\nBeneficence and autonomy can pull in opposite directions.",
     "crumbs": [
       "Home",
       "1. Principles & Reasoning",
@@ -12176,7 +12176,7 @@
     "href": "chapters/01-introduction.html#the-four-together",
     "title": "Principles, Theories & Moral Reasoning",
     "section": "5.13 The Four Together",
-    "text": "5.13 The Four Together\n\n\n\n\n\nflowchart LR\n  A[Autonomy&lt;br/&gt;respect choices] --- B[Beneficence&lt;br/&gt;do good]\n  B --- N[Non-maleficence&lt;br/&gt;do no harm]\n  N --- J[Justice&lt;br/&gt;treat fairly]\n  J --- A\n  style A fill:#cfe9ec,stroke:#0e7c86,stroke-width:2px\n  style B fill:#fce9d6,stroke:#b07d1a,stroke-width:2px\n  style N fill:#fad7d2,stroke:#c0392b,stroke-width:2px\n  style J fill:#dfe6ee,stroke:#0f172a,stroke-width:2px\n\n\n\n\n\n\nA framework, not an algorithm. The principles tell you what to weigh — not, by themselves, how to weigh it.",
+    "text": "5.13 The Four Together\n\n\nAutonomy Respect her choices about her own body and care. Whose call is this?\n\n\nBeneficence Promote welfare — hers, and sometimes other people’s too. Who does this help?\n\n\nNon-Maleficence Do not impose harm without proportionate benefit. Who could this hurt?\n\n\nJustice Distribute benefits, burdens, and access fairly. Who else has a claim?\n\n\nA framework, not an algorithm: the four tell you what to weigh, not how much each weighs. Every one of them is also a question about who, and none of the four settles on its own how far its own concern reaches.",
     "crumbs": [
       "Home",
       "1. Principles & Reasoning",
@@ -12212,7 +12212,7 @@
     "href": "chapters/01-introduction.html#specification-from-general-norm-to-working-rule",
     "title": "Principles, Theories & Moral Reasoning",
     "section": "5.16 Specification: From General Norm to Working Rule",
-    "text": "5.16 Specification: From General Norm to Working Rule\nSpecification — narrowing a broad principle into concrete, action-guiding rules for particular contexts.\n\n\n\n\n\n\n\nSpecified through…\n“Respect autonomy” becomes…\n\n\n\n\nLaw\nThe right to refuse treatment; informed-consent statutes\n\n\nInstitutional policy\nThe hospital’s consent form and capacity workflow\n\n\nProfessional codes\nNursing confidentiality and scope-of-practice duties\n\n\nClinical protocol\nWhen a second clinician must confirm capacity\n\n\n\n\nBalancing decides this case; specification builds standing rules so we do not re-argue every case from zero",
+    "text": "5.16 Specification: From General Norm to Working Rule\nSpecification — narrowing a broad principle into concrete, action-guiding rules for particular contexts.\n\n\n\n\n\n\n\nSpecified through…\n“Respect autonomy” becomes…\n\n\n\n\nLaw\nThe right to refuse treatment; informed-consent statutes\n\n\nInstitutional policy\nThe hospital’s consent form and capacity workflow\n\n\nProfessional codes\nNursing confidentiality and scope-of-practice duties\n\n\nClinical protocol\nWhen a second clinician must confirm capacity\n\n\n\n\nBalancing decides this case; specification builds standing rules so we do not re-argue every case from zero\n\nYour turn. Take “respect autonomy” and specify it once more: write one concrete rule a specific unit could actually post on the wall.",
     "crumbs": [
       "Home",
       "1. Principles & Reasoning",
@@ -12248,7 +12248,7 @@
     "href": "chapters/01-introduction.html#when-principles-conflict",
     "title": "Principles, Theories & Moral Reasoning",
     "section": "5.19 When Principles Conflict",
-    "text": "5.19 When Principles Conflict\nMost interesting bioethics cases are conflicts between principles, not conflicts between good and evil.\n\nAutonomy vs. Beneficence — the Jehovah’s Witness refusing transfusion\nBeneficence vs. Non-Maleficence — risky surgery with a small chance of cure\nAutonomy vs. Justice — vaccine refusal during a pandemic\nBeneficence vs. Justice — spending heroic resources on one patient when others wait\n\nThe four principles do not resolve these tensions. They make them visible so we can argue about them carefully.",
+    "text": "5.19 When Principles Conflict\nMost interesting bioethics cases are conflicts between principles, not conflicts between good and evil. Four collisions you will meet all semester:\n\n\n\n\n\n\n\ntensions\n\n\nA\n\nAutonomy\n\n\n\nB\n\nBeneficence\n\n\n\nA--B\n\n  she refuses a transfusion  \n\n\n\nJ\n\nJustice\n\n\n\nA--J\n\n  vaccine refusal  \n\n\n\nN\n\nNon-maleficence\n\n\n\nB--N\n\n  risky surgery  \n\n\n\nB--J\n\n  one patient, or many?  \n\n\n\n\n\n\n\n\nThe four principles do not resolve these tensions. They make them visible so we can argue about them carefully.",
     "crumbs": [
       "Home",
       "1. Principles & Reasoning",
@@ -12259,8 +12259,8 @@
     "objectID": "chapters/01-introduction.html#thought-question-1",
     "href": "chapters/01-introduction.html#thought-question-1",
     "title": "Principles, Theories & Moral Reasoning",
-    "section": "5.20 Thought Question",
-    "text": "5.20 Thought Question\n\nReturn to our trauma-bay patient — full capacity, signed refusal, parents at the door. Now you have vocabulary for what was hard.\n\nWhich principles point toward transfusing her? Which point away?\nWhich counts as the “harm” — letting her die, or doing something to her body she has explicitly refused?\nWhich principle would you weight most heavily, and why?\nWhat single fact, if changed, would change your answer?",
+    "section": "5.21 Thought Question",
+    "text": "5.21 Thought Question\n\nReturn to our trauma-bay patient — a signed refusal, a patient who cannot confirm it, parents at the door. Now you have vocabulary for what was hard.\n\nWhich principles point toward transfusing her? Which point away?\nWhich counts as the “harm” — letting her die, or doing to her body the thing she put in writing that she refused?\nWhich principle would you weight most heavily, and why?\nWhat single fact, if changed, would change your answer?",
     "crumbs": [
       "Home",
       "1. Principles & Reasoning",
@@ -12271,8 +12271,8 @@
     "objectID": "chapters/01-introduction.html#after-youve-discussed-2",
     "href": "chapters/01-introduction.html#after-youve-discussed-2",
     "title": "Principles, Theories & Moral Reasoning",
-    "section": "5.21 After You’ve Discussed",
-    "text": "5.21 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nHow the principles typically map.\n\nThe case is often framed as Beneficence and Non-Maleficence pulling toward transfusion, Autonomy pulling against.\nBut notice the twist: respecting her refusal may itself be the most beneficent act, and transfusing a competent patient against her will is itself a form of harm.\nThe principles do not decide the case. They give us shared language to argue about it.",
+    "section": "5.22 After You’ve Discussed",
+    "text": "5.22 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nHarm is not a fixed quantity. It depends on whose life it is. The same act changes category depending on whose account of her good you use. Transfusing her rescues a body and overrides a person. Honoring the card respects a person and loses a body. Both descriptions are accurate, and that is the difficulty— not a trick of wording.\nThis is why the principles do not settle cases. They give us shared language for arguing about which description of the act is the one that matters here.",
     "crumbs": [
       "Home",
       "1. Principles & Reasoning",
@@ -12308,7 +12308,7 @@
     "href": "chapters/01-introduction.html#hidden-assumptions",
     "title": "Principles, Theories & Moral Reasoning",
     "section": "6.3 Hidden Assumptions",
-    "text": "6.3 Hidden Assumptions\nSounds airtight — until you notice what’s missing. That argument quietly assumes:\n\n“Saving lives” always outweighs the patient’s other wishes.\nThe patient’s refusal can be set aside because it’s “irrational.”\nA nurse’s professional duty is identical to “extending biological life.”\n\nEach of those is contestable. Surfacing hidden assumptions is half the work of bioethics.",
+    "text": "6.3 Hidden Assumptions\nSounds airtight — until you notice what’s missing. That argument quietly assumes:\n\n“Saving lives” always outweighs the patient’s other wishes.\nThe patient’s refusal can be set aside because it’s “irrational.”\nA refusal she cannot repeat right now is not really a refusal.\nA nurse’s professional duty is identical to “extending biological life.”\n\nEach of those is contestable. Surfacing hidden assumptions is half the work of bioethics.",
     "crumbs": [
       "Home",
       "1. Principles & Reasoning",
@@ -12356,7 +12356,7 @@
     "href": "chapters/01-introduction.html#practice-spot-the-fallacy",
     "title": "Principles, Theories & Moral Reasoning",
     "section": "6.7 Practice — Spot the Fallacy",
-    "text": "6.7 Practice — Spot the Fallacy\n\nIdentify the fallacy in each:\n\n“Gene editing is wrong — it’s playing God.”\n“If we let doctors help patients die, we’ll end up euthanizing the disabled.”\n“You can’t trust her opinion on vaccines — she’s not even a real scientist.”\n“Either we ration care by ability to pay, or the system collapses.”\n\n\n\n\n\n\n\n\nNoteCheck your answers\n\n\n\n\n\nTry all four before you open this.\n\nAppeal to nature\nSlippery slope\nAd hominem\nFalse dichotomy",
+    "text": "6.7 Practice — Spot the Fallacy\n\nName the fallacy in each, then say what has actually gone wrong in the reasoning.\n\n“Gene editing is wrong — it’s playing God.”\n“If we let doctors help patients die, we’ll end up euthanizing the disabled.”\n“You can’t trust her opinion on vaccines — she’s not even a real scientist.”\n“Either we ration care by ability to pay, or the system collapses.”\n\n\n\nNaming the fallacy is the easy half. The half that matters is saying why the premises fail to support the conclusion — and remembering that a bad argument can still have a true conclusion.",
     "crumbs": [
       "Home",
       "1. Principles & Reasoning",
@@ -12367,8 +12367,8 @@
     "objectID": "chapters/01-introduction.html#wrapping-up-part-a",
     "href": "chapters/01-introduction.html#wrapping-up-part-a",
     "title": "Principles, Theories & Moral Reasoning",
-    "section": "6.8 Wrapping Up Part A",
-    "text": "6.8 Wrapping Up Part A\n\nBioethics is the systematic study of moral questions in medicine, research, and policy. It is mostly applied normative ethics — distinct from descriptive and metaethical inquiry, and not the same as law, religion, or personal preference. The four principles — autonomy, beneficence, non-maleficence, justice — are an explication of the common morality we already share, made usable through balancing and specification, and they give us a shared vocabulary for the conflicts we’ll see all semester. And every claim in this course will be evaluated as an argument: premises, conclusion, hidden assumptions, possible fallacies.\nIn Part B, we ask the next question: where do these principles come from? We meet the major ethical theories — utilitarian, Kantian, virtue, and care — that ground and sometimes contest the four principles.\n All uncredited slide illustrations and scenario visualizations were generated using Gemini.",
+    "section": "6.9 Wrapping Up Part A",
+    "text": "6.9 Wrapping Up Part A\n\nBioethics is the systematic study of moral questions in medicine, research, and policy. It is mostly applied normative ethics — distinct from descriptive and metaethical inquiry, and not the same as law, religion, or personal preference. The four principles — autonomy, beneficence, non-maleficence, justice — are an explication of the common morality we already share, made usable through balancing and specification, and they give us a shared vocabulary for the conflicts we’ll see all semester. And every claim in this course will be evaluated as an argument: premises, conclusion, hidden assumptions, possible fallacies.\nIn Part B, we ask the next question: where do these principles come from? We meet the major ethical theories — utilitarian, Kantian, virtue, and care — that ground and sometimes contest the four principles.\n All uncredited slide illustrations and scenario visualizations were generated using Gemini.",
     "crumbs": [
       "Home",
       "1. Principles & Reasoning",
@@ -12379,8 +12379,8 @@
     "objectID": "chapters/01-introduction.html#review-questions",
     "href": "chapters/01-introduction.html#review-questions",
     "title": "Principles, Theories & Moral Reasoning",
-    "section": "6.9 Review Questions",
-    "text": "6.9 Review Questions\nWrite a brief answer to each, or use them as discussion prompts.\n\n\nRecall\nWhat is the difference between descriptive ethics, normative ethics, and metaethics, and why is bioethics usually classified as applied normative ethics?\n\n\nApply\nMay a doctor refuse — on personal grounds — to even discuss medical aid in dying with a patient who asks about it? Which two of the four principles are most in tension in this case?\n\n\nDebate\nIn a pluralistic hospital, should policy be justified only with publicly shareable reasons that people across worldviews can assess, or is it legitimate to defend policy openly with religious reasons that not everyone accepts?",
+    "section": "6.10 Review Questions",
+    "text": "6.10 Review Questions\nWrite a brief answer to each, or use them as discussion prompts.\n\n\nRecall\nWhat is the difference between descriptive ethics, normative ethics, and metaethics, and why is bioethics usually classified as applied normative ethics?\n\n\nApply\nMay a doctor refuse — on personal grounds — to even discuss medical aid in dying with a patient who asks about it? Which two of the four principles are most in tension in this case?\n\n\nDebate\nIn a pluralistic hospital, should policy be justified only with publicly shareable reasons that people across worldviews can assess, or is it legitimate to defend policy openly with religious reasons that not everyone accepts?",
     "crumbs": [
       "Home",
       "1. Principles & Reasoning",
@@ -12391,8 +12391,8 @@
     "objectID": "chapters/01-introduction.html#key-terms",
     "href": "chapters/01-introduction.html#key-terms",
     "title": "Principles, Theories & Moral Reasoning",
-    "section": "6.10 Key Terms",
-    "text": "6.10 Key Terms\n\nBioethics — the field that studies ethical questions raised by biomedicine, health care, and the life sciences.\nDescriptive ethics — the empirical study of what people actually believe and do about morality.\nNormative ethics — the study of what people morally ought to do; bioethics is applied normative ethics.\nMetaethics — the study of the nature, meaning, and justification of moral claims themselves.\nCommon morality — the core set of moral norms shared by all morally serious persons across cultures.\nFour principles — Beauchamp and Childress’s framework: autonomy, beneficence, non-maleficence, justice.\nAutonomy — the patient’s right to make informed, voluntary decisions about their own care.\nBeneficence — the duty to act for the patient’s benefit.\nNon-maleficence — the duty not to inflict harm (primum non nocere).\nJustice — fair distribution of benefits, burdens, and access to care.\nPrima facie — binding unless outweighed by another duty in the particular case.\nBalancing — weighing competing prima facie duties when they conflict.\nSpecification — narrowing an abstract principle into a more concrete action-guiding rule.\nMoral conflict — a situation where principles pull in different directions but a defensible choice is possible.\nMoral dilemma — a conflict in which every available option violates a real moral duty.\nMoral residue — the lingering moral cost of having had to set aside a duty one still recognized.",
+    "section": "6.11 Key Terms",
+    "text": "6.11 Key Terms\n\nBioethics — the field that studies ethical questions raised by biomedicine, health care, and the life sciences.\nDescriptive ethics — the empirical study of what people actually believe and do about morality.\nNormative ethics — the study of what people morally ought to do; bioethics is applied normative ethics.\nMetaethics — the study of the nature, meaning, and justification of moral claims themselves.\nCommon morality — the core set of moral norms shared by all morally serious persons across cultures.\nFour principles — Beauchamp and Childress’s framework: autonomy, beneficence, non-maleficence, justice.\nAutonomy — the patient’s right to make informed, voluntary decisions about their own care.\nBeneficence — the duty to act for the patient’s benefit.\nNon-maleficence — the duty not to inflict harm (primum non nocere).\nJustice — fair distribution of benefits, burdens, and access to care.\nPrima facie — binding unless outweighed by another duty in the particular case.\nBalancing — weighing competing prima facie duties when they conflict.\nSpecification — narrowing an abstract principle into a more concrete action-guiding rule.\nMoral conflict — a situation where principles pull in different directions but a defensible choice is possible.\nMoral dilemma — a conflict in which every available option violates a real moral duty.\nMoral residue — the lingering moral cost of having had to set aside a duty one still recognized.",
     "crumbs": [
       "Home",
       "1. Principles & Reasoning",
@@ -12403,8 +12403,8 @@
     "objectID": "chapters/01-introduction.html#references",
     "href": "chapters/01-introduction.html#references",
     "title": "Principles, Theories & Moral Reasoning",
-    "section": "6.11 References",
-    "text": "6.11 References\n\n\nBeauchamp, Tom L., and James F. Childress. 2019. Principles of Biomedical Ethics. 8th ed. Oxford University Press.\n\n\nJonsen, Albert R. 1998. The Birth of Bioethics. Oxford University Press.\n\n\nNational Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. 1979. The Belmont Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research. U.S. Department of Health, Education, and Welfare. https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html.",
+    "section": "6.12 References",
+    "text": "6.12 References\n\n\nBeauchamp, Tom L., and James F. Childress. 2019. Principles of Biomedical Ethics. 8th ed. Oxford University Press.\n\n\nJonsen, Albert R. 1998. The Birth of Bioethics. Oxford University Press.\n\n\nNational Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. 1979. The Belmont Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research. U.S. Department of Health, Education, and Welfare. https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html.",
     "crumbs": [
       "Home",
       "1. Principles & Reasoning",
@@ -22456,5 +22456,81 @@
     "title": "Who Shall Live When Not All Can Live?",
     "section": "What This Was Practice For",
     "text": "What This Was Practice For\n\nTwice this term you will write an argumentative essay in seventy-five minutes, with a case study open on the screen. The part that decides the grade is not the writing — it is the planning, and specifically moves 2 and 3 above.\nThose four moves are the whole of the planning step, run here on a question nobody has settled.\nRead the full case study before our next meeting. Then we start on the four words above."
+  },
+  {
+    "objectID": "chapters/01-introduction.html#a-card-in-her-wallet",
+    "href": "chapters/01-introduction.html#a-card-in-her-wallet",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "",
+    "text": "A 34-year-old woman is brought in after a high-speed crash. She was awake and talking at the scene. Now she is pale and drifting — she opens her eyes when you say her name, but cannot follow a question. A scan shows her spleen is badly torn and bleeding internally; she has lost close to half her blood in the last hour.\nThe surgeon wants to operate now, with donated blood on the way in. In her wallet is a card, signed and dated: she is a Jehovah’s Witness and refuses all blood products. Her parents say she is not thinking clearly and would never have wanted to die like this. You are the nurse at her bedside.\n\nWhat would you want to know before doing anything?\nWho is asking you to do what?\nWhat is the right move here — and why?\n\n\n\n\n\n\n\nIn chart shorthand: a grade IV splenic laceration, hemoglobin down from 13 to 7 in an hour. Translated — a deep tear in the spleen, and a blood count that has fallen by nearly half in the time you have been on shift.",
+    "crumbs": [
+      "Home",
+      "1. Principles & Reasoning",
+      "Part A — The Four Principles"
+    ]
+  },
+  {
+    "objectID": "chapters/01-introduction.html#your-turn-legal-ethical-neither",
+    "href": "chapters/01-introduction.html#your-turn-legal-ethical-neither",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "4.5 Your Turn — Legal, Ethical, Neither",
+    "text": "4.5 Your Turn — Legal, Ethical, Neither\n\nCome up with your own examples, not ones from these slides.\n\nName something that is legal but you think is wrong.\nName something that is illegal but not wrong.\nWhat is the law tracking in your examples, if not ethics?",
+    "crumbs": [
+      "Home",
+      "1. Principles & Reasoning",
+      "Part A — The Four Principles"
+    ]
+  },
+  {
+    "objectID": "chapters/01-introduction.html#your-turn-name-the-collision",
+    "href": "chapters/01-introduction.html#your-turn-name-the-collision",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "5.20 Your Turn — Name the Collision",
+    "text": "5.20 Your Turn — Name the Collision\n\nThink of a situation from clinical, work, family, or the news in which two of these four principles pulled against each other.\n\nWhich two were they? Name them.\nWhich one won — and was that the right call?",
+    "crumbs": [
+      "Home",
+      "1. Principles & Reasoning",
+      "Part A — The Four Principles"
+    ]
+  },
+  {
+    "objectID": "chapters/01-introduction.html#your-turn-bring-your-own",
+    "href": "chapters/01-introduction.html#your-turn-bring-your-own",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "6.8 Your Turn — Bring Your Own",
+    "text": "6.8 Your Turn — Bring Your Own\n\nThink of one argument about health you have actually heard — from family, a provider, a patient, or social media.\n\nWhat is wrong with it?\nWhat would have to be true for it to work?",
+    "crumbs": [
+      "Home",
+      "1. Principles & Reasoning",
+      "Part A — The Four Principles"
+    ]
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#a-card-in-her-wallet",
+    "href": "chapters/01-introduction-slides.html#a-card-in-her-wallet",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "A Card in Her Wallet",
+    "text": "A Card in Her Wallet\n\n\n\nA 34-year-old woman is brought in after a high-speed crash. She was awake and talking at the scene. Now she is pale and drifting — she opens her eyes when you say her name, but cannot follow a question. A scan shows her spleen is badly torn and bleeding internally; she has lost close to half her blood in the last hour.\nThe surgeon wants to operate now, with donated blood on the way in. In her wallet is a card, signed and dated: she is a Jehovah’s Witness and refuses all blood products. Her parents say she is not thinking clearly and would never have wanted to die like this. You are the nurse at her bedside.\n\nWhat would you want to know before doing anything?\nWho is asking you to do what?\nWhat is the right move here — and why?\n\n\n\n\n\n\nIn chart shorthand: a grade IV splenic laceration, hemoglobin down from 13 to 7 in an hour. Translated — a deep tear in the spleen, and a blood count that has fallen by nearly half in the time you have been on shift."
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#your-turn-legal-ethical-neither",
+    "href": "chapters/01-introduction-slides.html#your-turn-legal-ethical-neither",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Your Turn — Legal, Ethical, Neither",
+    "text": "Your Turn — Legal, Ethical, Neither\n\nCome up with your own examples, not ones from these slides.\n\nName something that is legal but you think is wrong.\nName something that is illegal but not wrong.\nWhat is the law tracking in your examples, if not ethics?"
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#your-turn-name-the-collision",
+    "href": "chapters/01-introduction-slides.html#your-turn-name-the-collision",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Your Turn — Name the Collision",
+    "text": "Your Turn — Name the Collision\n\nThink of a situation from clinical, work, family, or the news in which two of these four principles pulled against each other.\n\nWhich two were they? Name them.\nWhich one won — and was that the right call?"
+  },
+  {
+    "objectID": "chapters/01-introduction-slides.html#your-turn-bring-your-own",
+    "href": "chapters/01-introduction-slides.html#your-turn-bring-your-own",
+    "title": "Principles, Theories & Moral Reasoning",
+    "section": "Your Turn — Bring Your Own",
+    "text": "Your Turn — Bring Your Own\n\nThink of one argument about health you have actually heard — from family, a provider, a patient, or social media.\n\nWhat is wrong with it?\nWhat would have to be true for it to work?"
   }
 ]
