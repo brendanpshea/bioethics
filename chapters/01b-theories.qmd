@@ -16,11 +16,11 @@ format:
 ## Before We Start
 
 ::: {.thought-question}
-In 1348 plague moved up the Italian peninsula city by city. Florence and Milan each had months of warning, and each already acted on the belief that the disease travelled with the sick, their goods, and travellers from infected towns.
+Plague reached Sicily in the autumn of 1347 and the Italian mainland that winter, then moved north city by city. Florence and Milan both knew it was coming, and both already believed it travelled with the sick, their belongings, and travellers from infected towns.
 
-**Florence** issued regulations and could not enforce them. It buried perhaps half its people.
+**Florence** did not act until the plague was already inside its walls, and could not enforce what it then ordered. It buried half its people, and possibly far more.
 
-**Milan** sealed its gates early, and when plague appeared in a house, chroniclers report the house was walled up with everyone still inside — the sick and the healthy together. Milan came through comparatively lightly.
+**Milan** sealed its gates early. When plague appeared in three houses, the ruling archbishop had them walled up with the occupants still inside, the healthy along with the sick and the dead. Milan came through comparatively lightly.
 
 - You advise one of these cities before the plague arrives. Which policy do you adopt?
 - You live in Milan and wake with a fever. Do you tell anyone?
@@ -28,7 +28,7 @@ In 1348 plague moved up the Italian peninsula city by city. Florence and Milan e
 :::
 
 ::: {.aside-note}
-Florence was not passive: it barred goods and travellers from Genoa and Pisa in January 1348 and seated a sanitation commission that spring. The difference from Milan was enforcement, not the existence of rules. Neither city knew about *Yersinia pestis*, fleas, or rats; both acted on the older idea that disease travelled with the sick and their belongings. How much of Milan's lower toll came from its policy, and how much from its inland position and thinner sea trade, is still argued, and medieval population figures for Milan are weak.
+**Sources and caveats.** The walling-up is Barbara Tuchman's account, which credits Archbishop Giovanni Visconti; she draws no causal conclusion from it, writing only that "whether or not owing to his promptitude, Milan escaped lightly in the roll of the dead" [@tuchman1978]. Milan's escape was noticed at the time: the Florentine chronicler Matteo Villani recorded that the pestilence took the whole peninsula "with the exception of Milan and some Alpine districts of northern Lombardy" [@gasquet1893]. How much of that was policy, and how much Milan's inland position and thinner sea trade, is unsettled. Florence was not idle, but it was late: its measures came in April 1348, after its first cases in March, and included a 500-lire fine on arrivals from Genoa and Pisa, a ban on selling the clothing of the sick, street clearing, and a magistracy with emergency powers [@henderson1992]. Estimates of Florentine mortality range from about half to four-fifths; the city's population is usually put near 110,000 before the plague and about 50,000 by 1351. Benedictow is the standard survey of the mortality evidence [@benedictow2021].
 :::
 
 ## Three Kinds of Reason
