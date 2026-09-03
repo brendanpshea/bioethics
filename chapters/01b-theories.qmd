@@ -13,6 +13,28 @@ format:
     output-file: 01b-theories-slides.html
 ---
 
+## Before We Start
+
+::: {.thought-question}
+**Ninety seconds, on your own.** You will not have to share it.
+
+You take your mother to a follow-up appointment. Afterward, in the hallway, the doctor tells you privately that the cancer has spread and she likely has months.
+
+Your mother has said for years, about everything: *"If it's bad news, I don't want to know."* In the car she asks you, "What did she say?"
+
+**Don't write what you would say. Write one sentence giving the reason your answer comes down to.**
+:::
+
+## Three Kinds of Reason
+
+Look at your sentence. Most reasons people give are built out of one of three things:
+
+- **How it turns out.** Who gets hurt, who gets helped, and how much.
+- **What you owe.** She asked you directly, and it is her life.
+- **Who you would be.** A good daughter is honest. A good daughter is also kind.
+
+Most sentences have more than one of these in them, and they do not always point the same way.
+
 ## Bridge from Part A
 
 In Part A we asked: *what* are the four principles, and how do you read a moral argument?  Part B asks:
@@ -63,22 +85,11 @@ These four theories reappear in almost every chapter that follows. Abortion, end
 
 *The right action produces the greatest good for the greatest number.*
 
-## Mill and Bentham
+## Mill States the Principle
 
 :::: {.columns}
 
-::: {.column width="48%"}
-![John Stuart Mill](../images/mill.jpg){width="72%" fig-alt="Photograph of John Stuart Mill"}
-:::
-
-::: {.column width="48%"}
-![Jeremy Bentham](../images/bentham.jpg){width="72%" fig-alt="Portrait of Jeremy Bentham"}
-:::
-
-::::
-
-## Mill States the Principle
-
+::: {.column width="74%"}
 ::: {.quote-card}
 > "The creed which accepts as the foundation of morals, Utility, or the Greatest Happiness Principle, holds that actions are right in proportion as they tend to promote happiness, wrong as they tend to produce the reverse of happiness. By happiness is intended pleasure, and the absence of pain; by unhappiness, pain, and the privation of pleasure."
 
@@ -86,9 +97,19 @@ These four theories reappear in almost every chapter that follows. Abortion, end
 J. S. Mill, *Utilitarianism* (1863) [@mill1863]
 :::
 :::
+:::
+
+::: {.column width="24%"}
+![John Stuart Mill](../images/mill.jpg){width="100%" fig-alt="Photograph of John Stuart Mill"}
+:::
+
+::::
 
 ## The Greatest Happiness Principle
 
+:::: {.columns}
+
+::: {.column width="72%"}
 Utilitarianism judges actions entirely by their **consequences**:
 
 - What matters is **welfare** — happiness, well-being, the absence of suffering
@@ -96,6 +117,13 @@ Utilitarianism judges actions entirely by their **consequences**:
 - The morally required action is the one that **maximizes** total welfare
 
 Bentham called this the **hedonic calculus** — weigh the pleasures and pains produced, add them up, choose the highest score [@bentham1789].
+:::
+
+::: {.column width="26%"}
+![Jeremy Bentham](../images/bentham.jpg){width="100%" fig-alt="Portrait of Jeremy Bentham"}
+:::
+
+::::
 
 ## Utilitarianism and the Four Principles
 
@@ -110,6 +138,8 @@ Bentham called this the **hedonic calculus** — weigh the pleasures and pains p
 ::: {.callout-note}
 **The tension.** A strict utilitarian could justify deceiving a patient if the deception produces better outcomes. Most clinicians resist this — which is why other theories matter.
 :::
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## Utilitarianism: Weighing Harms and Benefits
 
@@ -150,6 +180,8 @@ digraph util {
   {rank=same; EA; EB}
 }
 ```
+
+::::
 
 ## Thought Question
 
@@ -419,6 +451,8 @@ Virtue ethics asks: what would a *person of good character* do in this situation
 
 [Justice]{.pill .pill-justice} — fairness requires the virtue of impartiality even toward patients you find difficult.
 
+:::: {.content-hidden when-format="revealjs"}
+
 ## Virtue Ethics: The Cycle of Character Development
 
 ```{dot}
@@ -451,21 +485,17 @@ digraph virtue {
 }
 ```
 
-## Care as a Virtue
-
-- Care ethics treats responsiveness to others as a cultivated disposition, not a rule to apply.
-- It grew from Carol Gilligan's claim that mainstream theory missed a whole moral "voice" [@gilligan1982].
-- Virginia Held built it into a full account in which **relationship and dependency** are morally basic [@held2006].
-- The good clinician's *care* is itself a trait — attentiveness, responsiveness, responsibility — like an Aristotelian virtue.
-- Its risk mirrors its strength: relationships can be unequal or controlling, so care still needs justice.
+::::
 
 ## Gilligan and the Ethics of Care
 
 ::: {.columns}
 
-::: {.column width="55%"}
-- Gilligan [@gilligan1982]: dominant moral theories prioritize **abstract rules** for strangers.
-- Care ethics centers **relationships, dependency, and responsibility**.
+::: {.column width="57%"}
+- Care ethics treats responsiveness — attentiveness, responsibility — as a cultivated **trait**, like an Aristotelian virtue, not a rule to apply.
+- **Gilligan** [@gilligan1982]: the dominant theories prioritize **abstract rules** for strangers, and so missed a whole moral "voice."
+- **Held** [@held2006] built that into a full account in which **relationship and dependency** are morally basic.
+- Its risk mirrors its strength: relationships can be unequal or controlling, so care still needs **justice**.
 
 ::: {.quote-card}
 > "[T]he moral problem arises from conflicting responsibilities rather than from competing rights."
@@ -474,12 +504,13 @@ digraph virtue {
 :::
 :::
 
-::: {.column width="42%"}
-![Carol Gilligan](../images/gilligan.jpg){width="65%" fig-alt="Photograph of Carol Gilligan"}
+::: {.column width="40%"}
+![Carol Gilligan](../images/gilligan.jpg){width="80%" fig-alt="Photograph of Carol Gilligan"}
 :::
 
 :::
 
+:::: {.content-hidden when-format="revealjs"}
 
 ## Care Ethics: The Web of Relationships
 
@@ -521,6 +552,8 @@ digraph care {
   C  -> H;
 }
 ```
+
+::::
 
 ## Confucian Virtue Ethics
 
@@ -564,6 +597,8 @@ digraph care {
 - The same logic shapes Catholic health systems on end-of-life and reproductive care.
 - It draws a line utilitarianism rejects and Kant/Kamm rebuild differently — *intending* harm vs. *allowing* it; applied later to palliative sedation in end-of-life care.
 
+:::: {.content-hidden when-format="revealjs"}
+
 ## Four Strands of Character Ethics
 
 | Strand | Central idea | Key figure(s) | Bioethics payoff |
@@ -572,6 +607,8 @@ digraph care {
 | **Care** | Morality begins in relationship | Gilligan, Held | The bedside relationship is not a checklist |
 | **Confucian** | The self is role- and family-constituted | Confucius; Fan | Family-centered decisions; relational autonomy |
 | **Natural law** | Reason discerns basic human goods | Aquinas | Double effect; sanctity-of-life arguments |
+
+::::
 
 ## Thought Question
 
@@ -594,6 +631,8 @@ A 78-year-old woman with mild cognitive impairment makes decisions that worry he
 # Putting It Together {.section-divider}
 
 Four lenses. One case. Different things come into view.
+
+Take out the sentence you wrote at the start of class. Which of the three reasons was it built from, and which of the other two would you now add?
 
 ## The Theories as Lenses
 
