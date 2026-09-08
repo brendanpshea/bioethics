@@ -114,19 +114,19 @@ Paternalism was usually defended as expertise plus benevolence, not cruelty. Tha
 
 ## The Idea Called Eugenics
 
-- [Eugenics]{.key-term} was the belief that society could be improved by controlling who is allowed to reproduce — encouraging the "fit" and preventing the "unfit."
-- It was not fringe pseudoscience: it was taught at major universities, funded by foundations, and run from Charles Davenport's Eugenics Record Office at Cold Spring Harbor (1910).
-- Roughly 32 U.S. states passed sterilization laws, and an estimated 60,000+ Americans were sterilized without meaningful consent.
-- Its targets were the people with the least power: disabled people, the poor, immigrants, and Black and Indigenous Americans.
-- Nazi Germany's 1933 sterilization law was modeled in part on these American statutes — especially California's.
+- [Eugenics]{.key-term} was the belief that society could be improved by controlling who reproduces: encouraging the "fit," preventing the "unfit."
+- Not fringe pseudoscience. It was taught at major universities, funded by foundations, and run from the **Eugenics Record Office** at Cold Spring Harbor (1910).
+- Some 32 states passed sterilization laws; more than 60,000 Americans were sterilized without meaningful consent.
+- Its targets had the least power: disabled people, the poor, immigrants, and Black and Indigenous Americans.
+- Nazi Germany's 1933 sterilization law drew on these American statutes, especially California's.
 
 ## Carrie Buck, Age 17
 
-- In Virginia in 1924, Carrie Buck was a poor 17-year-old who had been placed with a foster family.
+- In Virginia in 1924, **Carrie Buck** was a poor 17-year-old placed with a foster family.
 - She became pregnant after being raped by a relative of that family.
 - To hide the family's shame, she was labeled "feebleminded" and committed to a state institution.
-- Her infant daughter, Vivian, was judged "defective" by a social worker who observed the baby for only a few minutes.
-- In fact Carrie was of ordinary intelligence, and Vivian later made her school's honor roll before dying young.
+- Her infant daughter Vivian was judged "defective" by a social worker who watched the baby for a few minutes.
+- Carrie was in fact of ordinary intelligence, and Vivian later made her school's honor roll before dying young.
 
 ## "Three Generations of Imbeciles"
 
@@ -159,25 +159,25 @@ You are the physician at the Virginia institution in 1927. The court order to st
 ::: {.callout-note}
 - **"Legal" did not mean "right."** *Buck v. Bell* has never been formally overturned — law can lag ethics by decades.
 - **Consent does not erase coercion.** A "yes" from a confined, dependent person may not be free. Ask *who is asking* and *what saying no would cost*.
-- **"For the good of society" is the move to watch.** Trading one person's body for a population-level gain treats her as a means — exactly the reasoning the later codes were written to block.
+- **"For the good of society" is the move to watch.** Trading one person's body for a population-level gain treats her as a means, the reasoning later codes were written to block.
 :::
 
 # Atrocity and the First Rule {.section-divider}
 
 ## Medicine Inside the Camps
 
-- In Nazi concentration camps, physicians used prisoners as experimental material; the prisoners had no possibility of refusing.
-- The experiments included immersion in ice water, low-pressure (high-altitude) chambers, forced seawater ingestion, deliberate wound infection, and mass sterilization.
-- These were run by credentialed doctors and presented as legitimate military and scientific research.
-- Many subjects were permanently injured; many were killed, sometimes by the experiment itself.
-- "Scientific progress" was offered as the justification — which is precisely why progress alone can never be one.
+- In Nazi concentration camps, physicians used prisoners as experimental material. Refusal was not possible.
+- The experiments included immersion in ice water, low-pressure chambers, forced seawater ingestion, deliberate wound infection, and mass sterilization.
+- They were run by credentialed doctors and presented as legitimate military and scientific research.
+- Many subjects were permanently injured. Many were killed, sometimes by the experiment itself.
+- "Scientific progress" was the justification offered, which is why progress alone can never be one.
 
 ## The Doctors' Trial (1946–1947)
 
 :::: {.columns}
 
 ::: {.column width="56%"}
-At Nuremberg, a U.S. military tribunal tried 23 defendants — 20 of them physicians — in *United States v. Karl Brandt et al.* The charges were war crimes and crimes against humanity. Sixteen were convicted and seven were sentenced to death, including Karl Brandt, Hitler's escort physician. The judges had outrage but no agreed international standard of research ethics to point to — so, with expert medical advisers, they wrote one.
+At Nuremberg, a U.S. military tribunal tried 23 defendants — 20 of them physicians — in *United States v. Karl Brandt et al.* The charges were war crimes and crimes against humanity. Sixteen were convicted and seven sentenced to death, including **Karl Brandt**, Hitler's escort physician. The judges had outrage but no agreed international standard to point to, so with expert medical advisers they wrote one.
 :::
 
 ::: {.column width="44%"}
@@ -202,11 +202,11 @@ The Nuremberg Code, Principle 1 (1947) [@nuremberg1947]
 
 ## The Code's Nine Other Rules
 
-- The Code has ten points; voluntary consent is only the first.
-- The research must promise real social value that cannot be obtained another way, and must rest on prior animal study and sound science.
-- Physical and mental risks must be minimized and must never be disproportionate to the expected benefit.
-- The subject may withdraw at any time, and the investigator must halt the study if continuing it becomes dangerous.
-- Its great weakness: the Code had little legal force, and most American physicians read it as a verdict on Nazis, not as rules for ordinary medicine.
+- The Code has ten points. Voluntary consent is only the first.
+- Research must promise real social value, unobtainable another way, resting on prior animal study and sound science.
+- Risks must be minimized, and never disproportionate to the expected benefit.
+- The subject may withdraw at any time; the investigator must halt a study that becomes dangerous.
+- Its weakness: the Code had little legal force, and American physicians read it as a verdict on Nazis, not rules for themselves.
 
 ## The Rules So Far
 
@@ -220,9 +220,9 @@ The Nuremberg Code, Principle 1 (1947) [@nuremberg1947]
 ## Why One Code Was Not Enough
 
 - Nuremberg came from judges, about Nazis, so U.S. doctors filed it under "not us."
-- To make research ethics medicine's *own* responsibility, the World Medical Association issued the [Declaration of Helsinki]{.key-term} in 1964 [@world1964].
-- Helsinki has been revised many times; the 1975 Tokyo revision was the first to require review by an independent committee — the seed of the modern IRB.
-- But a code on paper changes nothing if no one outside the laboratory ever checks the work.
+- To make research ethics medicine's *own* responsibility, the **World Medical Association** issued the [Declaration of Helsinki]{.key-term} in 1964 [@world1964].
+- Its 1975 Tokyo revision first required review by an independent committee, the seed of the modern IRB.
+- A code on paper changes nothing if no one outside the lab ever checks the work.
 - Two American cases proved that respectable, well-funded medicine could fail just as badly.
 
 ## Willowbrook
@@ -230,7 +230,7 @@ The Nuremberg Code, Principle 1 (1947) [@nuremberg1947]
 :::: {.columns}
 
 ::: {.column width="56%"}
-Willowbrook State School on Staten Island was a severely overcrowded institution for children with intellectual disabilities, and hepatitis spread constantly through its wards. Beginning in 1956, a research team deliberately infected newly admitted children with the hepatitis virus to study its natural course and test gamma globulin as a preventive. The defense offered was that the children would almost certainly have been infected at Willowbrook anyway.
+**Willowbrook State School** on Staten Island was a severely overcrowded institution for children with intellectual disabilities, and hepatitis spread constantly through its wards. Beginning in 1956, a research team deliberately infected newly admitted children with hepatitis to study its course and test gamma globulin as a preventive. The defense offered was that the children would have been infected there anyway.
 :::
 
 ::: {.column width="44%"}
@@ -257,7 +257,7 @@ In effect, parents who could not care for a severely disabled child at home were
 - In a 1966 *New England Journal of Medicine* article he laid out 22 unethical studies, all already published in reputable journals [@beecher1966].
 - They included penicillin withheld from servicemen, live cancer cells injected into patients at the **Jewish Chronic Disease Hospital** (1963), and Willowbrook.
 - His boldest claim: the consent form is not the real safeguard. A signature can be collected from a frightened patient who understands nothing.
-- He trusted the conscientious investigator. History drew the opposite lesson, that character is not enough and oversight had to become structural.
+- He trusted the conscientious investigator. History drew the opposite lesson: character is not enough, and oversight had to become structural.
 
 ::: {.aside-note}
 The tension is the point. Beecher bet on individual virtue; the system that followed bet on structure. Ask yourself whether we need both — and whether either works without the other. Case 2 gives the question its sharpest test.
@@ -303,7 +303,7 @@ And the "they'd get it anyway" defense fails: a background risk does not license
 :::: {.columns}
 
 ::: {.column width="58%"}
-The U.S. Public Health Service began the study in 1932 in Macon County, Alabama. It enrolled 600 Black men — 399 with latent syphilis and 201 uninfected controls — and was designed to observe untreated syphilis all the way to autopsy. The men were poor sharecroppers with almost no access to medical care, which is exactly why they were chosen. A trusted Black public-health nurse, Eunice Rivers, served as the constant liaison who kept them enrolled for decades.
+The **U.S. Public Health Service** began the study in 1932 in Macon County, Alabama. It enrolled 600 Black men — 399 with latent syphilis, 201 uninfected controls — to observe untreated syphilis all the way to autopsy. The men were poor sharecroppers with almost no access to medical care, which is exactly why they were chosen. **Eunice Rivers**, a trusted Black public-health nurse, was the liaison who kept them enrolled for decades.
 :::
 
 ::: {.column width="42%"}
@@ -356,9 +356,9 @@ digraph tuskegee {
 
 - The subjects were poor, Black, and politically powerless, and racism made their suffering easy for officials to discount.
 - The study was bureaucratically routine, renewed and re-funded for forty years without anyone with power asking whether it should continue.
-- **Peter Buxtun**, an interviewer for the **U.S. Public Health Service**, filed formal ethical objections in 1966 and pressed them again in 1968.
+- **Peter Buxtun**, a Public Health Service interviewer, filed formal ethical objections in 1966 and pressed them again in 1968.
 - The **CDC**, the federal agency that by then ran the study, convened a panel in 1969 that reviewed it and decided it should continue.
-- Only in 1972, after years of being rebuffed, did Buxtun give the documents to journalist **Jean Heller**, whose Associated Press story finally ended the study.
+- Only in 1972 did Buxtun give the documents to journalist **Jean Heller**, whose Associated Press story ended the study.
 
 ## Thought Question
 
@@ -376,27 +376,27 @@ You can argue for more than one answer, but which wrong seems most central?
 ## After You've Discussed
 
 ::: {.callout-note}
-- **Map each wrong to a principle.** Deception → respect for persons; withheld penicillin → beneficence; choosing poor Black men → justice. The **40 years of silence** maps to none of them cleanly — codes do not legislate moral courage.
-- **Justice runs both ways.** Tuskegee was wrongful *inclusion under exploitation*. Modern ethics also worries about wrongful *exclusion* — fair selection means neither dumping risk on the vulnerable nor denying them benefit.
+- **Map each wrong to a principle.** Deception → respect for persons; withheld penicillin → beneficence; choosing poor Black men → justice. The forty years of silence maps to none of them: codes do not legislate moral courage.
+- **Justice runs both ways.** Tuskegee was wrongful *inclusion*. Modern ethics also worries about wrongful *exclusion*: fair selection means neither dumping risk on the vulnerable nor denying them benefit.
 :::
 
 # Belmont and the Rise of Bioethics {.section-divider}
 
 ## From Scandal to a Field, and a Statute
 
-- **Van Rensselaer Potter** coined "[bioethics]{.key-term}" in 1970, calling it a "bridge to the future" between scientific knowledge and human values [@potter1970].
+- **Van Rensselaer Potter** coined "[bioethics]{.key-term}" in 1970: a "bridge to the future" between scientific knowledge and human values [@potter1970].
 - New institutions gave the field a home: the **Hastings Center** (1969) and Georgetown's **Kennedy Institute of Ethics** (1971).
 - Medicine now faced public, not merely professional, moral questions, and needed a shared public language.
 - Tuskegee's exposure in 1972 created political pressure Congress could not ignore.
-- The **National Research Act** (1974) created a national commission, required IRB review of federally funded research for the first time, and charged the commission with naming the principles to govern it.
+- The **National Research Act** (1974) created a national commission, required IRB review of federally funded research, and told the commission to name the governing principles.
 
 ## The Belmont Report (1979)
 
-- The Belmont Report was written by that Commission and drafted at a 1976 retreat at the Smithsonian's Belmont Conference Center [@belmont1979].
-- It is deliberately brief — a *framework*, not a checklist and not a criminal code.
+- The **Belmont Report** was written by that commission, drafted at a 1976 retreat at the Smithsonian's Belmont Conference Center [@belmont1979].
+- It is deliberately brief: a *framework*, not a checklist and not a criminal code.
 - It names three principles: **respect for persons, beneficence, and justice**.
-- Its decisive move is pairing each principle with a concrete protection rather than leaving it abstract.
-- Those pairings became the backbone of all U.S. human-research regulation (the "Common Rule").
+- Its decisive move is pairing each principle with a concrete protection.
+- Those pairings became the backbone of U.S. human-research regulation (the "Common Rule").
 
 ## Belmont's Three Principles
 
@@ -445,10 +445,10 @@ digraph timeline {
 
 ## Two Kinds of Oversight
 
-- An [IRB]{.key-term} (Institutional Review Board) reviews proposed human-subjects research *before* it begins, asking whether risks are minimized and justified, subjects are selected fairly, and consent is adequate.
-- A clinical ethics committee works *during* care, advising on active bedside conflicts — capacity, surrogates, end-of-life decisions, and team disagreement.
-- Both are deliberately multidisciplinary, because the lesson of this lecture is that one person's conscience is an unreliable safeguard.
-- Hospital ethics committees spread after the 1976 Karen Ann Quinlan case; the 1962 Seattle "God committee," which rationed dialysis, was an earlier and troubling forerunner.
+- An [IRB]{.key-term} (Institutional Review Board) reviews research *before* it begins: are risks minimized, subjects fairly selected, consent adequate?
+- A clinical ethics committee works *during* care, advising on bedside conflicts: capacity, surrogates, end-of-life decisions, team disagreement.
+- Both are deliberately multidisciplinary. One person's conscience is an unreliable safeguard.
+- Hospital ethics committees spread after the 1976 **Karen Ann Quinlan** case. The 1962 Seattle **"God committee,"** which rationed dialysis, was a troubling forerunner.
 - The common thread is structural review: not "trust the good doctor" but "make the reasoning answerable to others."
 
 ## How an IRB Thinks
