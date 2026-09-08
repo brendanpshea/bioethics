@@ -31,11 +31,9 @@ Do you stay in the study? If not, what principle tells you to walk away?
 ## After You've Discussed
 
 ::: {.callout-note}
-**Hold onto your answer.** Several of the reasons you gave for walking away were not obvious to physicians at the time. They had to be learned case by case, and eventually written down. Part A traces how that happened.
-:::
+**The study was never secret.** Between 1936 and 1973 the researchers published thirteen reports on it in medical journals, the first in 1936 and roughly one every four to six years after that. The men were sometimes described in print as volunteers. No one in the medical community objected in print.
 
-::: {.aside-note}
-The discomfort comes first and the vocabulary second — deliberately. The history in this chapter is much easier to hold onto if you already feel the problem it was written to answer.
+So the question is not only whether you would refuse. It is whether you would have noticed anything to refuse.
 :::
 
 ## Today
@@ -52,12 +50,16 @@ By the end of Part A, you will be able to:
 
 # The Old Deal: Doctor Knows Best {.section-divider}
 
-## The Deal in One Sentence
+## The Default for 2,400 Years
 
 :::: {.columns}
 
 ::: {.column width="58%"}
-For most of Western medical history the arrangement was simple: the doctor decided, the patient trusted, and no one else asked questions. It traces back to the Hippocratic tradition of the 5th century BCE, which framed medicine as a moral calling with real duties — to help the sick, to avoid harm, and to keep confidences. What it did *not* include was any idea that the patient should be informed or asked. The name for caring *for* someone by deciding *for* them is [paternalism]{.key-term}, and it was the default for roughly 2,400 years.
+- For most of Western medical history the doctor decided, the patient trusted, and no one else asked questions.
+- The **Hippocratic tradition** (5th century BCE) gave medicine real duties: help the sick, avoid harm, keep confidences.
+- Consent, disclosure, and patient choice appear nowhere in the **Hippocratic Oath**. The patient in it is silent.
+- What it never included was any idea that the patient should be informed, or asked.
+- [Paternalism]{.key-term} is caring *for* someone by deciding *for* them, and it was the default for roughly 2,400 years.
 :::
 
 ::: {.column width="42%"}
@@ -70,27 +72,26 @@ Hippocrates of Kos. Public domain. [@hippocraticoath_nlm]
 
 ::::
 
-## The Oath: Myth vs. Fact
-
-| What people think it says | What it actually says |
-|---|---|
-| "First, do no harm" | That phrase is from *Epidemics*, not the Oath; the Oath says to help and not injure |
-| It centers the patient's rights | It is sworn to Apollo and Asclepius and binds the physician to a *guild* of teachers and students |
-| Doctors may do whatever heals | It **forbids** giving a deadly drug, providing an abortive remedy, and performing surgery ("cutting for stone") |
-| It established informed consent | Consent, disclosure, and patient choice appear **nowhere** in it |
-
-The Oath gave medicine a conscience and a professional identity — but the patient in it is silent.
-
 ## What Paternalism Got Right — and Wrong
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-**It was not simply arrogance.** Clinicians genuinely did know more, emergencies genuinely did demand fast judgment, and frightened patients often *wanted* a confident recommendation rather than a menu of options. Medicine cannot function without expert judgment, and a purely hands-off clinician would also fail the patient.
+**What it got right**
+
+- Clinicians genuinely did know more.
+- Emergencies genuinely do demand fast judgment.
+- Frightened patients often *want* a confident recommendation, not a menu of options.
+- Medicine cannot function without expert judgment.
 :::
 
 ::: {.column width="50%"}
-**But the model had no brakes.** Expertise slid easily into domination, and good intentions could quietly mask coercion. The patient became an object that medicine acted *upon* rather than a person it reasoned *with* — and when the profession policed only itself, it tended to protect its own reputation first.
+**Where it failed**
+
+- Expertise slid easily into domination.
+- Good intentions could quietly mask coercion.
+- The patient became an object medicine acted *upon*, not a person it reasoned *with*.
+- A profession that policed only itself protected its own reputation first.
 :::
 
 ::::
@@ -137,17 +138,7 @@ Justice Oliver Wendell Holmes Jr., *Buck v. Bell* (1927), 8–1 decision [@buck1
 :::
 :::
 
-The Court did not merely permit Carrie's sterilization — it endorsed the reasoning. *Buck v. Bell* has never been formally overturned. Here, the law did not fail to stop the harm; the law **ordered** it.
-
-## The Scoreboard So Far
-
-| Scandal | What was missing | The rule we got |
-|---|---|---|
-| **Eugenics & Carrie Buck (1927)** | Your body is yours; the state cannot breed people | **Nothing yet — the courts called this legal** |
-
-::: {.aside-note}
-The scoreboard is this chapter's running spine. Each disaster leaves a gap; later, a code fills it. Right now the gap is wide open — watch it close.
-:::
+The Court did not merely permit Carrie's sterilization — it endorsed the reasoning. *Buck v. Bell* has never been formally overturned. Here, the law did not fail to stop the harm; the law **ordered** it, and no protective rule followed for decades.
 
 ## Thought Question
 
@@ -160,24 +151,12 @@ You are the physician at the Virginia institution in 1927. The court order to st
 1. Do you perform the operation? If you refuse, what are you appealing to — the law says *you* are the one in the wrong.
 2. Would it change anything if Carrie herself said yes? Could she give real consent in this situation?
 3. The state's reasoning is "fewer 'unfit' children means a better society." What is wrong with that argument even when it is sincere?
-:::
-
-## Make It Contemporary
-
-::: {.thought-question}
-This is not safely in the past:
-
-- 2006–2010: about 150 women in California prisons were sterilized, many under pressure and without proper approval.
-- 2017: a Tennessee judge offered reduced jail time to inmates who agreed to a vasectomy or a long-acting contraceptive.
-
-Same question: where is the line between an *offer*, *pressure*, and *coercion* — and who is too constrained to truly say yes?
+4. Not safely in the past: 150 women sterilized in California prisons (2006—2010), and a Tennessee judge offering reduced jail time for a vasectomy (2017). Where is the line between an offer, pressure, and coercion?
 :::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-Three things to draw out:
-
 - **"Legal" did not mean "right."** *Buck v. Bell* has never been formally overturned — law can lag ethics by decades.
 - **Consent does not erase coercion.** A "yes" from a confined, dependent person may not be free. Ask *who is asking* and *what saying no would cost*.
 - **"For the good of society" is the move to watch.** Trading one person's body for a population-level gain treats her as a means — exactly the reasoning the later codes were written to block.
@@ -229,7 +208,7 @@ The Nuremberg Code, Principle 1 (1947) [@nuremberg1947]
 - The subject may withdraw at any time, and the investigator must halt the study if continuing it becomes dangerous.
 - Its great weakness: the Code had little legal force, and most American physicians read it as a verdict on Nazis, not as rules for ordinary medicine.
 
-## The Scoreboard So Far
+## The Rules So Far
 
 | Scandal | What was missing | The rule we got |
 |---|---|---|
@@ -274,24 +253,17 @@ In effect, parents who could not care for a severely disabled child at home were
 
 ## Beecher's Warning (1966)
 
-- Henry Beecher was a Harvard anesthesiologist and a respected insider, not an activist critic.
-- In a 1966 *New England Journal of Medicine* article he laid out 22 unethical studies — drawn from a larger file of roughly 50 — all already published in reputable journals [@beecher1966].
-- His examples included penicillin withheld from servicemen to study rheumatic fever, live cancer cells injected into debilitated patients at the Jewish Chronic Disease Hospital (1963), and the Willowbrook hepatitis studies.
-- None of this was done by villains: the work was funded, peer-reviewed, presented at conferences, and professionally rewarded.
-- His unsettling point was that unethical research in America looked completely ordinary.
-
-## What Beecher Actually Argued
-
-- Beecher's boldest claim was that the consent form is *not* the real safeguard — consent can be a signature collected on a frightened patient who understands nothing.
-- He argued the journals were complicit, since publishing the studies rewarded and normalized them.
-- He placed his trust in the conscientious, virtuous investigator rather than in paperwork.
-- History drew the opposite lesson: individual character is not enough, and oversight had to become *structural* — the coming IRB.
+- **Henry Beecher** was a Harvard anesthesiologist and a respected insider, not an activist critic.
+- In a 1966 *New England Journal of Medicine* article he laid out 22 unethical studies, all already published in reputable journals [@beecher1966].
+- They included penicillin withheld from servicemen, live cancer cells injected into patients at the **Jewish Chronic Disease Hospital** (1963), and Willowbrook.
+- His boldest claim: the consent form is not the real safeguard. A signature can be collected from a frightened patient who understands nothing.
+- He trusted the conscientious investigator. History drew the opposite lesson, that character is not enough and oversight had to become structural.
 
 ::: {.aside-note}
 The tension is the point. Beecher bet on individual virtue; the system that followed bet on structure. Ask yourself whether we need both — and whether either works without the other. Case 2 gives the question its sharpest test.
 :::
 
-## The Scoreboard So Far
+## The Rules So Far
 
 | Scandal | What was missing | The rule we got |
 |---|---|---|
@@ -312,24 +284,13 @@ Your child has a severe intellectual disability and you cannot care for him at h
 3. Suppose instead the research ward simply had better staffing and nicer conditions. Is *that* offer fine, or still a problem?
 :::
 
-## Make It Contemporary
-
-::: {.thought-question}
-The same shape recurs today:
-
-- A patient enrolls in a drug trial because it is the only way to afford a medication they need.
-- A Phase I study offers $5,000 to healthy volunteers; the people who sign up are mostly those who most need the money.
-
-No one lied; everyone signed. Is the trial still *taking advantage* of these people?
-:::
-
 ## After You've Discussed
 
 ::: {.callout-note}
 Three different failures hide in this one case — keep them apart:
 
 - **Coercion** — a *threat* ("no bed unless you enroll"). The choice is not free.
-- **Undue inducement** — an *offer* so strong it clouds judgment ($5,000; the better ward).
+- **Undue inducement** — an *offer* so strong it clouds judgment: a $5,000 payment for a Phase I study, or simply the better-staffed ward.
 - **Exploitation** — taking unfair advantage of someone's bad situation, *even with* honest consent and no deception.
 
 And the "they'd get it anyway" defense fails: a background risk does not license *deliberately* imposing harm [@jonsen1998].
@@ -391,21 +352,13 @@ digraph tuskegee {
 }
 ```
 
-## Why It Lasted
+## Why Nobody Stopped It
 
 - The subjects were poor, Black, and politically powerless, and racism made their suffering easy for officials to discount.
-- The study was bureaucratically routine — renewed and re-funded for forty years without anyone with power asking whether it should continue.
-- Professional deference meant the doubts that were raised internally went nowhere.
-- There was no external body with the authority to stop it, and the internal warnings that did come were dismissed for years.
-- The damage to public trust — especially in Black communities — was profound, and self-policing was finished: the 1974 National Research Act and the Belmont Report followed directly.
-
-## The Whistleblower Nobody Wanted to Hear
-
-- Peter Buxtun, a Public Health Service venereal-disease interviewer, learned of the study soon after joining in 1965.
-- He filed formal ethical objections with the CDC in 1966, and pressed them again in 1968.
-- Rather than stop the study, a CDC blue-ribbon panel reviewed it in 1969 and decided it should *continue*.
-- Buxtun was junior and powerless, and the institution simply outlasted his complaints for years.
-- Only in 1972, after being rebuffed repeatedly, did he give the documents to journalist Jean Heller, whose Associated Press story finally forced the study to end.
+- The study was bureaucratically routine, renewed and re-funded for forty years without anyone with power asking whether it should continue.
+- **Peter Buxtun**, an interviewer for the **U.S. Public Health Service**, filed formal ethical objections in 1966 and pressed them again in 1968.
+- The **CDC**, the federal agency that by then ran the study, convened a panel in 1969 that reviewed it and decided it should continue.
+- Only in 1972, after years of being rebuffed, did Buxtun give the documents to journalist **Jean Heller**, whose Associated Press story finally ended the study.
 
 ## Thought Question
 
@@ -420,41 +373,22 @@ What was the deepest wrong in Tuskegee?
 You can argue for more than one answer, but which wrong seems most central?
 :::
 
-## Make It Contemporary
-
-::: {.thought-question}
-- In 1997 the U.S. government formally apologized for Tuskegee — 25 years after it ended.
-- The justice worry has partly *flipped*: women and minority groups have often been **left out** of trials, so treatments are less well tested on them.
-
-Is excluding a group from research a justice failure of the same family as Tuskegee, or a different kind of wrong?
-:::
-
 ## After You've Discussed
 
 ::: {.callout-note}
-Two payoffs worth the time:
-
 - **Map each wrong to a principle.** Deception → respect for persons; withheld penicillin → beneficence; choosing poor Black men → justice. The **40 years of silence** maps to none of them cleanly — codes do not legislate moral courage.
 - **Justice runs both ways.** Tuskegee was wrongful *inclusion under exploitation*. Modern ethics also worries about wrongful *exclusion* — fair selection means neither dumping risk on the vulnerable nor denying them benefit.
 :::
 
 # Belmont and the Rise of Bioethics {.section-divider}
 
-## The Birth of "Bioethics"
+## From Scandal to a Field, and a Statute
 
-- Van Rensselaer Potter coined "[bioethics]{.key-term}" in 1970, calling it a "bridge to the future" between scientific knowledge and human values [@potter1970].
-- The field grew quickly because medicine now faced public, not merely professional, moral questions.
-- New institutions gave it a home: the Hastings Center (1969) and Georgetown's Kennedy Institute of Ethics (1971).
-- High-profile cases — Tuskegee, and soon Karen Ann Quinlan — gave the field urgency and an audience.
-- Medicine needed a shared *public* moral language, not just internal etiquette among physicians.
-
-## From Scandal to Statute: The 1974 Act
-
-- The exposure of Tuskegee in 1972 created political pressure Congress could not ignore.
-- The National Research Act (1974) created the National Commission for the Protection of Human Subjects.
-- It required IRB review for federally funded human research for the first time.
-- It also charged the Commission with naming the ethical principles that *should* govern all such research.
-- The goal was a durable framework, not merely punishment for past abuse.
+- **Van Rensselaer Potter** coined "[bioethics]{.key-term}" in 1970, calling it a "bridge to the future" between scientific knowledge and human values [@potter1970].
+- New institutions gave the field a home: the **Hastings Center** (1969) and Georgetown's **Kennedy Institute of Ethics** (1971).
+- Medicine now faced public, not merely professional, moral questions, and needed a shared public language.
+- Tuskegee's exposure in 1972 created political pressure Congress could not ignore.
+- The **National Research Act** (1974) created a national commission, required IRB review of federally funded research for the first time, and charged the commission with naming the principles to govern it.
 
 ## The Belmont Report (1979)
 
@@ -557,14 +491,6 @@ digraph irb {
 }
 ```
 
-## Why This Still Matters at the Bedside
-
-- The reforms that began in research ethics reshaped ordinary clinical ethics too.
-- Patients came to be seen as agents who decide, not passive recipients who are managed.
-- Consent, the right to refuse, truth-telling, and confidentiality moved from the margins to the center of care.
-- The governing question changed from "What should the doctor do?" to "How should clinicians decide *with* patients?"
-- That question is exactly where Part B begins.
-
 ## The Rulebook You Just Built
 
 | Scandal | What was missing | What it became |
@@ -579,7 +505,7 @@ digraph irb {
 ## Wrapping Up Part A
 
 ::: {.recap}
-Medical ethics moved from professional paternalism toward explicit respect for persons because abuse made the older model impossible to defend. Nuremberg named consent. Willowbrook and Beecher showed abuse can look respectable. Tuskegee exposed racism, deception, and 40 years of institutional failure. Belmont turned these lessons into a framework that still governs research and echoes through bedside care.
+Medical ethics moved from professional paternalism toward explicit respect for persons because abuse made the older model impossible to defend. Nuremberg named consent. Willowbrook and Beecher showed abuse can look respectable. Tuskegee exposed racism, deception, and 40 years of institutional failure. Belmont turned these lessons into a framework that still governs research and echoes through bedside care. The same shift reshaped ordinary clinical ethics: the governing question moved from "What should the doctor do?" to "How should clinicians decide *with* patients?" That is where Part B begins.
 :::
 
 ## Review Questions
