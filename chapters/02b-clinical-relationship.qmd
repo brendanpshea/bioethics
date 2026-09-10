@@ -13,6 +13,26 @@ format:
     output-file: 02b-clinical-relationship-slides.html
 ---
 
+## Before We Start
+
+::: {.thought-question}
+Mrs. R is 61, in for fatigue and weight loss. The colonoscopy found colon cancer — serious, but treatable. She is frightened, and her daughter Dana does most of the talking. Mrs. R asks: *"So what happens now?"*
+
+Four residents tell you how they would answer her:
+
+1. "I'd lay out all three options with the survival numbers and let her pick."
+2. "I'd tell her what I'd weigh in her shoes, and why, then ask what she thinks."
+3. "I'd tell her the right move is surgery and get her scheduled. She's frightened; she needs a plan."
+4. "I'd ask what matters most to her — more time, or fewer side effects — before we talk options."
+
+- You are the attending. Which resident do you back, and what do you say to the other three?
+- Is any of them simply wrong, or does it depend on the patient?
+:::
+
+::: {.aside-note}
+Read the four aloud, in four different voices. The *facts* never change across them; only what the clinician does with authority changes.
+:::
+
 # Where We Left Off {.section-divider}
 
 ## The New Question
@@ -35,14 +55,7 @@ By the end of Part B, you will be able to:
 - Work through a truth-telling conflict involving family and culture
 :::
 
-# Meet Mrs. R {.section-divider}
-
-## Meet Mrs. R
-
-- **Mrs. R** is 61. She came in for fatigue and weight loss.
-- The colonoscopy found colon cancer — serious, but treatable.
-- She is frightened. Her daughter, **Dana**, drives her to every appointment and does most of the talking.
-- We will follow Mrs. R through the whole class. Every idea today will land on her.
+# Why This Relationship Is Hard {.section-divider}
 
 ## What's Missing From This Picture?
 
@@ -117,32 +130,12 @@ digraph asym {
 
 **Ezekiel and Linda Emanuel** mapped the clinician–patient relationship into four models in a 1992 *JAMA* paper that is still the standard reference [@emanuel1992]:
 
-| Model | Main clinician role | Main risk |
-|---|---|---|
-| **Paternalistic** | Decide what is best | Patient becomes passive |
-| **Informative** | Provide facts and options | Clinician becomes a vending machine |
-| **Interpretive** | Help clarify the patient's values | Clinician may over-read the patient |
-| **Deliberative** | Recommend and reason about values | Persuasion can slide into pressure |
-
-## The Same News, Four Ways (1)
-
-Mrs. R asks: *"So what happens now?"* Same clinician, same facts, four models:
-
-- **[Paternalistic]{.key-term}** — "The right move is surgery. We'll get you scheduled."
-  - *Risk:* Mrs. R becomes a passenger in her own care
-- **[Informative]{.key-term}** — "Here are three options with their survival numbers. Which do you want?"
-  - *Risk:* the facts get dumped; she's left to interpret them alone
-
-## The Same News, Four Ways (2)
-
-- **[Interpretive]{.key-term}** — "Before we choose: what matters most to you — more time, or fewer side effects?"
-  - *Risk:* the clinician may over-read what she "really" wants
-- **[Deliberative]{.key-term}** — "Here's what I'd weigh in your situation, and why. What do you think?"
-  - *Risk:* good persuasion can tip into pressure
-
-::: {.aside-note}
-Read all four aloud, in four different voices. The *facts* never change across them; only what the clinician does with authority changes.
-:::
+| Model | Which resident | Main clinician role | Main risk |
+|---|---|---|---|
+| **Paternalistic** | 3 | Decide what is best | Patient becomes passive |
+| **Informative** | 1 | Provide facts and options | Clinician becomes a vending machine |
+| **Interpretive** | 4 | Help clarify the patient's values | Clinician may over-read the patient |
+| **Deliberative** | 2 | Recommend and reason about values | Persuasion can slide into pressure |
 
 ## What the Research Actually Shows
 
