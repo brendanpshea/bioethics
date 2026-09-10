@@ -18,9 +18,9 @@ format:
 ## The New Question
 
 - Part A showed why unchecked professional authority became impossible to defend after Nuremberg, Willowbrook, and Tuskegee.
-- But the cure cannot simply be "the doctor never decides": clinicians still hold real expertise, real duties, and real time pressure.
-- Patients, too, usually come to medicine wanting guidance, not just a list of facts to sort alone.
-- So the question for Part B is constructive, not just critical: what should *replace* "doctor knows best"?
+- The cure cannot be "the doctor never decides." Clinicians still hold real expertise, real duties, and real time pressure.
+- Patients usually come to medicine wanting guidance, not a list of facts to sort alone.
+- So Part B's question is constructive: what should *replace* "doctor knows best"?
 - The answer this lecture builds is **shared, transparent, autonomy-respecting care** — and the tools that make it real.
 
 ## Today
@@ -39,9 +39,9 @@ By the end of Part B, you will be able to:
 
 ## Meet Mrs. R
 
-- Mrs. R is 61. She came in for fatigue and weight loss.
+- **Mrs. R** is 61. She came in for fatigue and weight loss.
 - The colonoscopy found colon cancer — serious, but treatable.
-- She is frightened. Her daughter, Dana, drives her to every appointment and does most of the talking.
+- She is frightened. Her daughter, **Dana**, drives her to every appointment and does most of the talking.
 - We will follow Mrs. R through the whole class. Every idea today will land on her.
 
 ## What's Missing From This Picture?
@@ -57,7 +57,7 @@ Sir Luke Fildes, *The Doctor* (1891), via Wikimedia Commons, public domain.
 :::
 
 ::: {.column width="50%"}
-Fildes's *The Doctor* became the most reproduced image of medicine in the English-speaking world, and for a century it was how the profession liked to see itself. The physician watches, interprets, and quietly decides; the parents wait helplessly in the shadows. It is genuinely moving — and that is the trap. The one person with no voice in the picture is the patient, and the entire modern apparatus of consent exists to put that voice back.
+**Luke Fildes**'s *The Doctor* became the most reproduced image of medicine in the English-speaking world, and for a century it was how the profession liked to see itself. The physician watches, interprets, and quietly decides; the parents wait in the shadows. The one person with no voice in the picture is the patient, and the entire modern apparatus of consent exists to put that voice back.
 :::
 
 ::::
@@ -92,7 +92,7 @@ digraph asym {
 }
 ```
 
-The relationship is hard because the patient is sick, frightened, and often in pain, while the information is unequal from the very first minute. What is at stake is rarely just a technical fact — it is what kind of life is worth living, which is the patient's question, not the clinician's. Ethical care does not pretend this asymmetry away; it manages it openly.
+The patient is sick, frightened, and often in pain, and the information is unequal from the first minute. What is at stake is rarely a technical fact. It is what kind of life is worth living, which is the patient's question, not the clinician's. Ethical care does not pretend this asymmetry away; it manages it openly.
 
 ## The Core Tension
 
@@ -100,13 +100,15 @@ The relationship is hard because the patient is sick, frightened, and often in p
 [Autonomy]{.pill .pill-autonomy} versus [Beneficence]{.pill .pill-beneficence}
 :::
 
-[Autonomy]{.key-term} is the patient's right to make informed choices about her own body; [beneficence]{.key-term} is the clinician's duty to act for her welfare. Most of the time these run together — good information and a good recommendation are *both* in the patient's interest. The hard cases arrive when they pull apart: when what the clinician judges best is exactly what the patient does not want. A competent patient who refuses a recommended surgery has not created a misunderstanding to be fixed; she has created a genuine conflict of values. Almost everything in this lecture is a tool for handling that conflict honestly rather than hiding it.
+[Autonomy]{.key-term} is the patient's right to make informed choices about her own body. [Beneficence]{.key-term} is the clinician's duty to act for her welfare. Most of the time they run together: good information and a good recommendation are *both* in her interest.
+
+The hard cases arrive when they pull apart, and what the clinician judges best is exactly what the patient does not want. A competent patient refusing a recommended surgery has not created a misunderstanding to be fixed. She has created a genuine conflict of values.
 
 # Four Ways to Be in the Room {.section-divider}
 
 ## Four Models at a Glance
 
-Ezekiel and Linda Emanuel mapped the clinician–patient relationship into four models in a 1992 *JAMA* paper that is still the standard reference [@emanuel1992]:
+**Ezekiel and Linda Emanuel** mapped the clinician–patient relationship into four models in a 1992 *JAMA* paper that is still the standard reference [@emanuel1992]:
 
 | Model | Main clinician role | Main risk |
 |---|---|---|
@@ -114,43 +116,6 @@ Ezekiel and Linda Emanuel mapped the clinician–patient relationship into four 
 | **Informative** | Provide facts and options | Clinician becomes a vending machine |
 | **Interpretive** | Help clarify the patient's values | Clinician may over-read the patient |
 | **Deliberative** | Recommend and reason about values | Persuasion can slide into pressure |
-
-## One Map of the Models
-
-```{dot}
-//| fig-width: 10.2
-//| fig-height: 3.0
-//| fig-cap: "The Emanuel models differ mainly in what the clinician does with professional authority once a patient's values are more or less clear."
-digraph models {
-  rankdir=LR;
-  bgcolor="transparent";
-  graph [nodesep=0.5, ranksep=0.7];
-  node [fontname="Inter", fontsize=10, margin="0.15,0.10"];
-  edge [color="#64748b", fontname="Inter", fontsize=9, arrowsize=0.7];
-
-  A [label="How should a clinician\nuse authority?", shape=box, style="rounded,filled",
-    fillcolor="#e6f1f2", color="#0e7c86"];
-  B [label="Patient values\nalready clear?", shape=diamond, style=filled,
-    fillcolor="#f8fafc", color="#94a3b8"];
-  C [label="If yes, what should\nthe clinician do?", shape=diamond, style=filled,
-    fillcolor="#f8fafc", color="#94a3b8"];
-  P [label="Paternalistic\nclinician chooses\nthe end", shape=box, style="rounded,filled",
-    fillcolor="#fad7d2", color="#c0392b", fontcolor="#9d2f23"];
-  I [label="Informative\nprovide facts", shape=box, style="rounded,filled",
-    fillcolor="#dfe6ee", color="#475569"];
-  R [label="Interpretive\nclarify the\npatient's values", shape=box, style="rounded,filled",
-    fillcolor="#fce9d6", color="#b07d1a"];
-  D [label="Deliberative\nrecommend and\ngive reasons", shape=box, style="rounded,filled",
-    fillcolor="#cfe9ec", color="#0e7c86", fontcolor="#0e7c86", penwidth=2];
-
-  A -> B;
-  B -> P [label="no", color="#c0392b", fontcolor="#c0392b"];
-  B -> C [label="yes"];
-  C -> I [label="facts only"];
-  C -> R [label="clarify values"];
-  C -> D [label="recommend values"];
-}
-```
 
 ## The Same News, Four Ways (1)
 
@@ -169,15 +134,15 @@ Mrs. R asks: *"So what happens now?"* Same clinician, same facts, four models:
   - *Risk:* good persuasion can tip into pressure
 
 ::: {.aside-note}
-Read all four aloud, in four different voices. Notice that the *facts* never change — only what the clinician does with authority.
+Read all four aloud, in four different voices. The *facts* never change across them; only what the clinician does with authority changes.
 :::
 
 ## What the Research Actually Shows
 
-- The dominant model today is **shared decision-making**: the clinician supplies expertise about options and risks, the patient supplies expertise about her own values, and they decide together.
-- Structured **decision aids** (booklets, videos, option grids) measurably improve patients' knowledge and produce choices that better match their values.
-- But patients differ sharply: most want *full information*, yet how much *decision control* they want ranges from "you decide, doctor" to "I decide, period."
-- That variation is the empirical case for the slide before — there is no single correct model.
+- The dominant model today is **shared decision-making**: the clinician brings expertise about options and risks, the patient brings expertise about her own values.
+- Structured **decision aids** (booklets, videos, option grids) measurably improve knowledge and produce choices that better match patients' values.
+- Patients differ sharply. Most want *full information*, but the *decision control* they want ranges from "you decide, doctor" to "I decide, period."
+- That variation is the empirical case against a single correct model.
 - The professional skill is to *ask* how much steering this patient wants, and to revisit it as illness and confidence change.
 
 ## Which Model Fits?
@@ -191,16 +156,8 @@ Match a model to each case — and say *why*:
 - A patient who asks you, "What would you do if it were your mom?"
 
 And: should Mrs. R get the *same* model at every visit?
-:::
 
-## Make It Contemporary
-
-::: {.thought-question}
-Mrs. R arrives at the next visit having read everything online. She is convinced she needs a specific drug she saw in an ad, and an AI chatbot agreed with her.
-
-- Does the "informative" model still work when a patient can't judge their own information?
-- Is telling her the source is wrong *paternalistic*, or just honest?
-- What does respecting her autonomy actually require here?
+Now Mrs. R arrives having read everything online, convinced by an ad and an AI chatbot that she needs one specific drug. Does the informative model still work when a patient cannot judge her own information?
 :::
 
 ## After You've Discussed
@@ -216,9 +173,9 @@ Mrs. R arrives at the next visit having read everything online. She is convinced
 
 - [Informed consent]{.key-term} is how the abstract principle "respect for persons" becomes a concrete clinical act [@faden1986].
 - A signed form can *document* that a conversation happened; it can never *substitute* for the conversation.
-- A competent refusal is just as valid an exercise of consent as a yes — consent is the right to decide, not the duty to agree.
-- Outside genuine emergencies, valid consent must come *before* the intervention, not be backfilled afterward.
-- The legal doctrine is roughly a century old, and it began not with a form but with a single sentence from a judge.
+- A competent refusal is as valid an exercise of consent as a yes. Consent is the right to decide, not the duty to agree.
+- Outside emergencies, valid consent must come *before* the intervention, not be backfilled after.
+- The legal doctrine is roughly a century old, and it began with a single sentence from a judge.
 
 ## Where Consent Law Begins
 
@@ -230,7 +187,7 @@ Justice Benjamin Cardozo, *Schloendorff v. Society of New York Hospital* (1914) 
 :::
 :::
 
-The term "informed consent" itself was not coined until *Salgo* (1957). The modern standard for *how much* to disclose was set in *Canterbury v. Spence* (1972).
+The term "informed consent" was not coined until ***Salgo*** (1957). The modern standard for *how much* to disclose was set in ***Canterbury v. Spence*** (1972).
 
 ## How Much Must You Disclose?
 
@@ -255,30 +212,30 @@ Most U.S. jurisdictions now use some version of the *Canterbury* "reasonable pat
 
 - **Disclosure** — you explain the cancer, the surgery, the major risks, the alternatives, and what happens if she does *nothing*.
 - **Understanding** — you ask her to say it back: *"What did you hear?"* She says, "You're removing part of my colon, and I might need a bag for a while."
-- That is real understanding; signing while nodding is not. Studies of recall after consent discussions are sobering — patients routinely forget or misunderstand much of what they were told.
-- "Teach-back" — having the patient restate the plan in her own words — is the single most reliable, low-tech check that disclosure actually landed.
+- That is real understanding. Signing while nodding is not: patients routinely forget or misunderstand much of what they were told.
+- **Teach-back**, having the patient restate the plan in her own words, is the most reliable low-tech check that disclosure landed.
 - Use plain language, an interpreter when indicated, and slow down when fear or pain has narrowed her attention.
 
 ## Voluntariness, with Mrs. R
 
-- Dana answers every question before her mother can, and gradually the appointment becomes a conversation between you and the daughter.
+- Dana answers every question before her mother can, and the appointment becomes a conversation between you and the daughter.
 - Asked directly what *she* wants, Mrs. R says quietly, "Whatever my daughter thinks is best."
-- That sentence is the whole problem in miniature: it may be authentic deference, or it may be pressure wearing the face of family love.
-- Voluntariness is not destroyed by *influence* — families always influence — but it is destroyed by *control*.
-- A neatly signed form can still document a choice that was never really the patient's, which is why you sometimes have to see the patient alone.
+- That may be authentic deference, or it may be pressure wearing the face of family love.
+- **Influence** does not destroy voluntariness; families always influence. **Control** does.
+- A signed form can still document a choice that was never the patient's, which is why you sometimes see the patient alone.
 
 ## Capacity Is Not What People Think
 
 - [Capacity]{.key-term} is **decision-specific and time-specific**: a patient can lack it for a complex surgery at 3 a.m. and have it for a simple choice the next morning.
-- It is **not** the same as intelligence, a psychiatric diagnosis, or agreeing with the clinician — a person can be floridly eccentric and still have capacity.
-- It runs on a **sliding scale**: the graver and more irreversible the consequences, the higher the bar you should require before accepting the decision.
-- This is why a low-stakes refusal is honored almost automatically while a life-or-death refusal triggers a careful reassessment — appropriately, not as a trick.
-- Capacity is a clinical judgment about *this decision*, not a global verdict on the person.
+- It is **not** intelligence, a psychiatric diagnosis, or agreeing with the clinician. A person can be floridly eccentric and still have capacity.
+- It runs on a **sliding scale**: the graver and more irreversible the consequences, the higher the bar before accepting the decision.
+- So a low-stakes refusal is honored almost automatically, while a life-or-death refusal triggers careful reassessment.
+- Capacity is a judgment about *this decision*, not a verdict on the person.
 
 ## A Practical Capacity Check
 
 ::: {.context-box}
-The standard clinical test (Appelbaum & Grisso's four abilities) asks whether the patient can [@appelbaum2007]:
+The standard clinical test, **Appelbaum and Grisso's** four abilities, asks whether the patient can [@appelbaum2007]:
 
 - **communicate** a stable choice
 - **understand** the relevant information
@@ -336,19 +293,10 @@ digraph consent {
 
 ## Refusal Is the Real Test
 
-- Easy cases are consent cases: the patient wants what is offered, and everyone relaxes.
-- The hard cases are *refusals*, where a competent person says no to something that would clearly help.
-- An **informed refusal** demands the same four elements as an informed consent — disclosure, understanding, voluntariness, capacity.
-- The landmark refusals are concrete: Jehovah's Witness patients declining life-saving transfusion, and *Bouvia v. Superior Court* (1986), where a woman with cerebral palsy won the right to refuse force-feeding [@bouvia1986].
-- The course's hardest refusal case, and your paired case study, is Dax Cowart.
-
-## Dax Cowart
-
-- In 1973 a propane explosion killed Dax Cowart's father and left Dax, then 25, severely burned and blinded.
-- Throughout roughly fourteen months of agonizing treatment he repeatedly and lucidly demanded that it stop; clinicians treated him anyway.
-- He went on to earn a law degree, marry, and become a patient-rights advocate; his case is preserved in the films *Please Let Me Die* (1974) and *Dax's Case* (1985).
-- Until his death in 2019 he held a deliberately uncomfortable position: he was glad to be alive *and* insisted his autonomy had been gravely violated.
-- That paradox — a good outcome reached by a wrong route — is exactly why the case refuses to resolve neatly [@cowart1998].
+- Easy cases are consent cases. The hard cases are *refusals*, where a competent person says no to something that would clearly help.
+- An **informed refusal** demands the same four elements as an informed consent.
+- The landmarks: Jehovah's Witness patients refusing transfusion, and *Bouvia v. Superior Court* (1986), where a woman with cerebral palsy won the right to refuse force-feeding [@bouvia1986].
+- **Dax Cowart**, burned and blinded at 25 in a 1973 explosion, lucidly demanded through fourteen months of treatment that it stop. He was treated anyway. Until his death in 2019 he insisted he was glad to be alive *and* gravely wronged [@cowart1998].
 
 ::: {.aside-note}
 This is the chapter's paired case study. You don't need the full facts yet — only enough to feel the autonomy/beneficence collision before you read it properly.
@@ -362,15 +310,7 @@ A competent adult refuses a blood transfusion that would almost certainly save t
 1. Is honoring the refusal *respect* — or *abandonment*?
 2. What is the clinician still obligated to keep doing after the refusal?
 3. Mrs. R, in tears, says "I can't even think about this right now." Is that a refusal, indecision, or lost capacity — and how would you tell?
-:::
-
-## Make It Contemporary
-
-::: {.thought-question}
-Change one fact: the refusal isn't religious. The patient read online that transfusions are dangerous and won't budge.
-
-- Same legal right. Does the *reason* change what you owe them?
-- Does correcting the misinformation respect her autonomy — or undermine it?
+4. Change one fact: the refusal is not religious. She read online that transfusions are dangerous. Does the *reason* change what you owe her?
 :::
 
 ## After You've Discussed
@@ -384,29 +324,19 @@ Change one fact: the refusal isn't religious. The patient read online that trans
 
 ## Why Confidentiality Matters
 
-- Confidentiality is one of medicine's oldest promises — it is in the Hippocratic Oath, long before it was in any statute.
-- Its value is partly **instrumental**: patients only disclose stigmatized, decision-critical facts (drug use, sexual history, suicidal thoughts) if they trust the information will be held.
+- Confidentiality is one of medicine's oldest promises, in the Hippocratic Oath long before any statute.
+- Its value is partly **instrumental**: patients disclose stigmatized facts (drug use, sexual history, suicidal thoughts) only if they trust the information will be held.
 - Its value is also **intrinsic**: control over who knows your medical story is part of being treated as a person, not a case.
-- The evidence is concrete — when adolescents doubt confidentiality, they measurably withhold information and forgo care.
-- So [confidentiality]{.key-term} is ethical before it is legal, and breaking it quietly damages care even when no one finds out.
+- When adolescents doubt confidentiality, they measurably withhold information and forgo care.
+- So [confidentiality]{.key-term} is ethical before it is legal, and breaking it damages care even when no one finds out.
 
 ## HIPAA Is Not a Gag Order
 
-- [HIPAA]{.key-term} is the U.S. federal health-privacy rule, and it is one of the most misunderstood laws in medicine [@hipaa_hhs].
-- It explicitly *permits* sharing for treatment, payment, and operations, and to avert a serious and imminent threat — it is not a vow of silence.
-- It runs on a **"minimum necessary"** principle: access and share only what the task in front of you actually requires.
-- Misreading it has real costs: families are stonewalled and care coordination suffers because staff wrongly believe HIPAA forbids all disclosure.
-- Concretely, if Mrs. R's sister calls for an update, you generally cannot even confirm she is a patient without Mrs. R's authorization — and *that* is the rule working as intended.
-
-## HHS on the Privacy Rule
-
-::: {.quote-card}
-> "A major goal of the Privacy Rule is to assure that individuals' health information is properly protected while allowing the flow of health information needed to provide and promote high quality health care and to protect the public's health and well being. The Rule strikes a balance that permits important uses of information, while protecting the privacy of people who seek care and healing."
-
-::: {.attribution}
-U.S. Department of Health and Human Services, *Summary of the HIPAA Privacy Rule* [@hipaa_hhs]
-:::
-:::
+- [HIPAA]{.key-term} is the U.S. federal health-privacy rule, and one of the most misunderstood laws in medicine [@hipaa_hhs].
+- It *permits* sharing for treatment, payment, and operations, and to avert a serious and imminent threat. It is not a vow of silence.
+- It runs on a **"minimum necessary"** principle: access and share only what the task in front of you requires.
+- Misreading it has real costs. Families get stonewalled and care coordination suffers because staff believe it forbids all disclosure.
+- If Mrs. R's sister calls for an update, you generally cannot confirm she is a patient without Mrs. R's authorization. *That* is the rule working.
 
 ## May Disclose vs. Must Disclose
 
@@ -434,48 +364,21 @@ U.S. Department of Health and Human Services, *Summary of the HIPAA Privacy Rule
 
 ::::
 
-## Confidentiality: Default and Exceptions
-
-```{dot}
-//| fig-width: 9.6
-//| fig-height: 2.8
-//| fig-cap: "Confidentiality starts from privacy, not disclosure. The legal and ethical question is which exceptions are strong enough to override that default."
-digraph conf {
-  rankdir=LR;
-  bgcolor="transparent";
-  graph [nodesep=0.45, ranksep=0.65];
-  node [fontname="Inter", fontsize=10, style="rounded,filled", shape=box,
-        margin="0.15,0.10", color="#94a3b8", fillcolor="#f8fafc"];
-  edge [color="#64748b", fontname="Inter", fontsize=9, arrowsize=0.7];
-
-  A [label="Protected health\ninformation", fillcolor="#dfe6ee", color="#475569"];
-  B [label="Default:\nkeep private", fillcolor="#e6f1f2", color="#0e7c86", penwidth=2];
-  C [label="Patient authorizes\nsharing", fillcolor="#fce9d6", color="#b07d1a"];
-  D [label="Law requires\nreporting", fillcolor="#fad7d2", color="#c0392b"];
-  E [label="Serious threat\nmay justify warning", fillcolor="#fce9d6", color="#b07d1a"];
-
-  A -> B;
-  B -> C [label="exception"];
-  B -> D [label="exception"];
-  B -> E [label="exception"];
-}
-```
-
 ## The Chart Is Now a Letter to the Patient
 
-- Since 2021, the 21st Century Cures Act's information-blocking rule gives patients near-immediate electronic access to their notes and most results.
-- "Open notes" is now the default: the patient will very likely read exactly what you wrote, often before you discuss it.
-- The upside is real — transparency improves trust, recall, and error-catching, and patients report feeling more in control.
-- The hard cases are also real: how to document a suspected abuse, a stigmatizing differential, or "patient appears to be a poor historian," knowing the patient will see it.
-- The emerging norm is to write the chart *as if* it were addressed to the patient, because now it effectively is.
+- Since 2021, the **21st Century Cures Act**'s information-blocking rule gives patients near-immediate access to their notes and most results.
+- **Open notes** is now the default. The patient will likely read exactly what you wrote, often before you discuss it.
+- Transparency improves trust, recall, and error-catching, and patients report feeling more in control.
+- The hard cases are real: documenting a suspected abuse, a stigmatizing differential, or "poor historian," knowing she will read it.
+- The emerging norm is to write the chart *as if* addressed to the patient, because now it effectively is.
 
 ## Tarasoff: Two Rulings, One Lesson
 
-- Prosenjit Poddar, a UC Berkeley student, told campus psychologist Lawrence Moore he intended to kill Tatiana Tarasoff after she rejected him.
-- Moore alerted campus police, who briefly detained Poddar and released him; no one warned Tatiana or her family, and Poddar killed her in 1969.
-- The California Supreme Court ruled **twice**: *Tarasoff I* (1974) created a duty to **warn**, and *Tarasoff II* (1976) broadened it to a duty to **protect** [@tarasoff1976].
-- The famous dissent argued the rule would chill therapy and deter the very patients who most need help from speaking freely.
-- That tradeoff was never settled — it was handed to fifty state legislatures, which is why the duty looks different depending on where you practice.
+- **Prosenjit Poddar**, a UC Berkeley student, told campus psychologist **Lawrence Moore** he intended to kill **Tatiana Tarasoff** after she rejected him.
+- Moore alerted campus police, who detained Poddar and released him. No one warned Tatiana, and Poddar killed her in 1969.
+- The California Supreme Court ruled **twice**: *Tarasoff I* (1974) created a duty to **warn**, *Tarasoff II* (1976) a duty to **protect** [@tarasoff1976].
+- The dissent argued the rule would chill therapy and deter the patients who most need help from speaking freely.
+- That tradeoff was never settled. It went to fifty state legislatures, which is why the duty differs by where you practice.
 
 ## Tarasoff I vs. Tarasoff II
 
@@ -508,11 +411,11 @@ You're genuinely worried about her. You open her chart "just to see if she's oka
 
 ## Snooping Is Not Hypothetical
 
-- Every chart access is logged; modern systems run automated audits that flag a record opened by someone not on the care team.
-- After staff repeatedly accessed celebrities' records, UCLA's health system fired employees, faced a federal settlement, and one worker was criminally convicted.
-- "I only looked, I didn't tell anyone" is not a defense — the unauthorized *access* is itself the violation.
-- For a clinician, the realistic consequences stack: termination, loss of licensure, HIPAA penalties, and in some cases prosecution.
-- The trigger is almost always personal curiosity about someone the snooper knows or recognizes — exactly the roommate scenario.
+- Every chart access is logged, and automated audits flag a record opened by someone not on the care team.
+- After staff repeatedly accessed celebrities' records, **UCLA**'s health system fired employees, faced a federal settlement, and saw one worker criminally convicted.
+- "I only looked, I didn't tell anyone" is not a defense. The unauthorized **access** is itself the violation.
+- The consequences stack: termination, loss of licensure, HIPAA penalties, sometimes prosecution.
+- The trigger is almost always curiosity about someone the snooper knows, which is exactly the roommate scenario.
 
 ## Thought Question
 
@@ -522,15 +425,7 @@ Start with the roommate's chart, then turn the privacy default on its head:
 1. You looked "just to check she's okay." What exactly is the wrong, if no one ever finds out?
 2. Does it change if she *were* your patient? If she'd *want* you to know? If you tell no one?
 3. Now a patient tells you: *"Sometimes I think about killing my ex — I know where she works."* What would you need to know before warning anyone?
-:::
-
-## Make It Contemporary
-
-::: {.thought-question}
-- Hospitals run automated access audits; every year nurses are fired for snooping on relatives, exes, and celebrities
-- A patient posts a specific threat on Instagram, not in your office
-
-Does "do I need this to care for this patient?" still draw the line in the digital version — both for the snooping and for the threat?
+4. What if the threat is posted on Instagram rather than said in your office? Does that change what you owe the person named?
 :::
 
 ## After You've Discussed
@@ -563,7 +458,7 @@ digraph truth {
 }
 ```
 
-In 1961 Oken found that roughly nine in ten physicians withheld a cancer diagnosis to "protect" the patient; by 1979 Novack found the norm had almost exactly reversed [@oken1961; @novack1979]. The lesson is humbling: what felt like obvious kindness was a *convention*, not a moral fact — and conventions about disclosure still vary widely across cultures.
+In 1961 **Oken** found that roughly nine in ten physicians withheld a cancer diagnosis to "protect" the patient. By 1979 **Novack** found the norm almost exactly reversed [@oken1961; @novack1979]. What felt like obvious kindness was a *convention*, not a moral fact, and conventions about disclosure still vary widely across cultures.
 
 ## Back to Mrs. R: "Please Don't Tell Her"
 
@@ -581,15 +476,7 @@ The team wants to respect the family's culture. The team also wants to respect M
 1. Whose decision is this — Mrs. R's, Dana's, or the team's?
 2. What is the *first* thing you should find out, and who do you ask?
 3. What if you ask Mrs. R and she says, "I don't want the details — talk to Dana"?
-:::
-
-## Make It Contemporary
-
-::: {.thought-question}
-A genetic test shows Mrs. R carries a mutation her adult siblings may also carry.
-
-- She does not want them told. They may be making medical decisions without information that could protect them.
-- Does her privacy outweigh their need to know? Is this the *same* problem as the family request, or a different one?
+4. Now a genetic test shows Mrs. R carries a mutation her adult siblings may also carry, and she does not want them told. Same problem, or a different one?
 :::
 
 ## After You've Discussed
@@ -600,13 +487,6 @@ A genetic test shows Mrs. R carries a mutation her adult siblings may also carry
 :::
 
 # Pulling It Together {.section-divider}
-
-## Mrs. R, Start to Finish
-
-- You met her as a frightened patient with a daughter who spoke for her
-- You chose a model *with* her, not *for* her
-- You made consent a conversation — and took her tears seriously without calling them incapacity
-- You kept her information private by default — and asked *her*, not Dana, how she wanted the truth handled
 
 ## Common Mistakes to Avoid
 
@@ -619,7 +499,7 @@ A genetic test shows Mrs. R carries a mutation her adult siblings may also carry
 ## Wrapping Up Part B
 
 ::: {.recap}
-Part A explained why modern medicine rejects unchecked paternalism. Part B asked what replaces it: guided, transparent, autonomy-respecting care. Following Mrs. R, we saw the four clinician–patient models, the four elements of valid consent and the case law (Schloendorff → Canterbury) behind them, the difference between an unwise choice and an incapacitated one, and confidentiality and truth-telling as defaults with disciplined, evolving exceptions — from Tarasoff to open notes.
+Part A explained why modern medicine rejects unchecked paternalism. Part B asked what replaces it: guided, transparent, autonomy-respecting care. Following Mrs. R, we saw the four clinician–patient models, the four elements of valid consent and the case law (Schloendorff → Canterbury) behind them, the difference between an unwise choice and an incapacitated one, and confidentiality and truth-telling as defaults with disciplined, evolving exceptions — from Tarasoff to open notes. Through all of it you chose a model *with* Mrs. R rather than *for* her, and asked her, not Dana, how she wanted the truth handled.
 :::
 
 ## Review Questions
