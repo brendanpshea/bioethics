@@ -57,7 +57,10 @@ Sir Luke Fildes, *The Doctor* (1891), via Wikimedia Commons, public domain.
 :::
 
 ::: {.column width="50%"}
-**Luke Fildes**'s *The Doctor* became the most reproduced image of medicine in the English-speaking world, and for a century it was how the profession liked to see itself. The physician watches, interprets, and quietly decides; the parents wait in the shadows. The one person with no voice in the picture is the patient, and the entire modern apparatus of consent exists to put that voice back.
+- **Luke Fildes**'s *The Doctor* (1891) was the most reproduced image of medicine in the English-speaking world, and for a century it was how the profession saw itself.
+- The physician watches, interprets, and quietly decides. The parents wait in the shadows.
+- The one person with no voice in the picture is the patient.
+- The modern apparatus of consent exists to put that voice back.
 :::
 
 ::::
@@ -92,7 +95,9 @@ digraph asym {
 }
 ```
 
-The patient is sick, frightened, and often in pain, and the information is unequal from the first minute. What is at stake is rarely a technical fact. It is what kind of life is worth living, which is the patient's question, not the clinician's. Ethical care does not pretend this asymmetry away; it manages it openly.
+- The patient is sick, frightened, and often in pain, and the information is unequal from the first minute.
+- What is at stake is rarely a technical fact. It is what kind of life is worth living, which is the patient's question.
+- Ethical care does not pretend the asymmetry away. It manages it openly.
 
 ## The Core Tension
 
@@ -100,9 +105,11 @@ The patient is sick, frightened, and often in pain, and the information is unequ
 [Autonomy]{.pill .pill-autonomy} versus [Beneficence]{.pill .pill-beneficence}
 :::
 
-[Autonomy]{.key-term} is the patient's right to make informed choices about her own body. [Beneficence]{.key-term} is the clinician's duty to act for her welfare. Most of the time they run together: good information and a good recommendation are *both* in her interest.
-
-The hard cases arrive when they pull apart, and what the clinician judges best is exactly what the patient does not want. A competent patient refusing a recommended surgery has not created a misunderstanding to be fixed. She has created a genuine conflict of values.
+- [Autonomy]{.key-term} is the patient's right to make informed choices about her own body.
+- [Beneficence]{.key-term} is the clinician's duty to act for her welfare.
+- Most of the time they run together: good information and a good recommendation are both in her interest.
+- They pull apart when what the clinician judges best is what the patient does not want.
+- A competent patient's refusal is a **conflict of values**, not a misunderstanding to clear up.
 
 # Four Ways to Be in the Room {.section-divider}
 
@@ -389,7 +396,7 @@ A competent adult refuses a blood transfusion that would almost certainly save t
 | **Trigger** | A serious threat to an identifiable person | Same — but the response is broader and clinically judged |
 | **Today** | Some states still use a narrow "warn" rule | Many adopted "protect"; some make it permissive, a few reject it entirely |
 
-The exam point: there is no single national Tarasoff rule — only a default ethical question (serious, specific danger to an identifiable person) answered differently by each state.
+There is no single national Tarasoff rule. There is a default ethical question — serious, specific danger to an identifiable person — that each state answers differently.
 
 ## In the Court's Words
 
@@ -458,7 +465,9 @@ digraph truth {
 }
 ```
 
-In 1961 **Oken** found that roughly nine in ten physicians withheld a cancer diagnosis to "protect" the patient. By 1979 **Novack** found the norm almost exactly reversed [@oken1961; @novack1979]. What felt like obvious kindness was a *convention*, not a moral fact, and conventions about disclosure still vary widely across cultures.
+- The reversal took a single professional generation [@oken1961; @novack1979].
+- What felt like obvious kindness was a **convention**, not a moral fact.
+- Conventions about disclosure still vary across cultures, so you ask this patient rather than assume.
 
 ## Back to Mrs. R: "Please Don't Tell Her"
 
