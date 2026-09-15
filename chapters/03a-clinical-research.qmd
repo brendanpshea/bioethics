@@ -15,34 +15,39 @@ format:
 
 # A Case to Open With {.section-divider}
 
-## A Trial Offer at the Worst Time
+## Two Wards, One Hospital
 
+:::: {.columns}
+
+::: {.column width="64%"}
 ::: {.thought-question}
-You have metastatic cancer. Your oncologist says:
+Vienna, 1847. You run the maternity hospital's First Clinic. Women who deliver there die of "childbed fever" at about one in ten. In the Second Clinic it is under one in twenty-five. Same hospital, same kinds of patients.
 
-- "The standard drug has stopped working."
-- "There is a study you could join. I need to be clear: it is a randomized trial."
-- "One group gets the current standard treatment. The other gets the new drug."
-- "I do not get to choose your group, and neither do you."
-- "I hope it helps you. But the study is designed to answer a question, not to tailor a plan just for you."
+- The First Clinic is staffed by physicians and medical students; the Second by midwives.
+- Women beg to be admitted to the Second. Some give birth in the street rather than enter the First.
+- Women who deliver in the street and are admitted afterward almost never get the fever.
+- A colleague has just died after cutting his finger at an autopsy. His illness looked exactly like childbed fever.
 
-1. Does this sound like care, research, or both?
-2. What would you still want to know before saying yes?
-3. If your doctor is the one recruiting you, what is most likely to confuse you?
+How would you figure out what is going on? What would you change — and how would you know it worked?
 :::
+:::
+
+::: {.column width="36%"}
+![](../images/semmelweis.jpg){width="90%" fig-alt="Copperplate engraving of Ignaz Semmelweis, 1860"}
+
+::: {.attribution}
+Ignaz Semmelweis, engraving by Jenő Doby, 1860. Public domain (Wikimedia Commons).
+:::
+:::
+
+::::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-Three starting points matter here:
+**What Semmelweis did, and what he lacked.** In May 1847 **Ignaz Semmelweis** made doctors and students wash in chlorinated lime before examining patients. The First Clinic's death rate fell from 18% in April to 2% by June [@semmelweis1861]. He had a control group he never designed, the Second Clinic, and an intervention he did design. He had no randomization, no blinding, and a before-and-after comparison that time alone could have produced. The profession did not accept his result, and he died in an asylum in 1865.
 
-- **Research can happen inside ordinary care without becoming ordinary care.** Same clinic, different goal.
-- **Randomization is the clue.** Once assignment is by chance, the clinician is no longer choosing only on what seems best for *this* patient.
-- **Hope is not the same as a promise.** Ethical recruitment does not kill hope. It also cannot quietly sell the study as personal treatment.
-:::
-
-::: {.aside-note}
-Notice how easily research can sound like an ordinary treatment recommendation. The point is not to make you suspicious of research. It is to make the difference in *purpose* audible when you hear it.
+The tools in the rest of this lecture are what it would have taken to be believed. The 1954 polio trial used every one of them.
 :::
 
 ## Today
@@ -51,7 +56,7 @@ Notice how easily research can sound like an ordinary treatment recommendation. 
 By the end of Part A, you will be able to:
 
 - Tell clinical care apart from clinical research, and say why the difference changes consent and oversight
-- Explain randomization, control, placebo, and blinding by walking through the 1954 polio trial
+- Explain randomization, control, placebo, and blinding by walking from Semmelweis to the 1954 polio trial
 - Tell a clinical endpoint from a surrogate, and judge whether a result could be chance
 - Summarize what trial phases I–IV are for
 - Explain the therapeutic misconception and why it matters at the bedside
@@ -132,11 +137,11 @@ By the end of Part A, you will be able to:
 
 ## When Is It OK to Randomize a Sick Person?
 
-- The honest answer needs a concept: [clinical equipoise]{.key-term}
-- It means the expert community is *genuinely unsure* which arm is better
-- If we already knew, randomizing would be wrong — we'd be sending some patients to the worse option on purpose
+- The answer needs a concept: [clinical equipoise]{.key-term}, meaning the expert community is *genuinely unsure* which arm is better
+- If we already knew, randomizing would be wrong: we would be sending some patients to the worse option on purpose
 - Equipoise is the moral license for a trial
-- This is why "I'd just give everyone the new drug" misses the point: we do not yet know it is better
+- "I'd just give everyone the new drug" assumes we already know it is better. We do not.
+- The first randomized trial, the **MRC streptomycin trial** of 1948, had a second reason too: the drug was scarce, so a coin flip was the *fair* way to decide who got it [@mrc1948]
 
 ## One Map of a Parallel-Group Trial
 
@@ -177,15 +182,28 @@ digraph rct {
 
 ## A Real Trial: Polio, 1954
 
-- In 1952 the United States recorded about 58,000 polio cases, most of them children. It was the most feared childhood disease in the country.
-- Jonas Salk's killed-virus injected vaccine looked promising. But "promising" vaccines had failed before. Some had even harmed children.
-- So the country ran the largest medical experiment in history. About 1.8 million schoolchildren — the "Polio Pioneers" — took part. The March of Dimes organized it. Thomas Francis Jr. led the science.
-- The trial's job was not to *deliver* a cure. It was to *prove* whether there was one.
-- Every part from the last few slides — randomize, control, blind, compare — was used on these children. The design choices decided whether anyone could believe the result [@francis1955].
+:::: {.columns}
+
+::: {.column width="62%"}
+- In 1952 the United States recorded about 58,000 polio cases, most of them children.
+- **Jonas Salk**'s killed-virus vaccine looked promising. Promising vaccines had failed before, and some had harmed children.
+- So the country ran the largest medical experiment in history: 1.8 million schoolchildren, the "Polio Pioneers," run by the **March of Dimes** under **Thomas Francis Jr.**
+- Its job was not to *deliver* a cure but to *prove* one. Randomize, control, blind, compare: the design decided whether anyone could believe the result [@francis1955].
+:::
+
+::: {.column width="38%"}
+![](../images/iron_lung_cdc.jpg){width="100%" fig-alt="An opened iron lung of the type polio patients depended on in the 1950s"}
+
+::: {.attribution}
+Iron lung, 1950s. CDC Public Health Image Library, #6536. Public domain.
+:::
+:::
+
+::::
 
 ## Two Designs, One Trial
 
-The 1954 trial actually ran **two designs at once** — and that is the lesson:
+The 1954 trial ran **two designs at once**:
 
 | | Placebo-controlled areas | Observed-control areas |
 |---|---|---|
@@ -198,11 +216,10 @@ Same disease, same year, same vaccine. The **design**, not the vaccine, is what 
 
 ## What the Control Group Gets
 
-- Sometimes the control group gets current standard care
-- Sometimes it gets standard care plus a placebo
-- Sometimes, if no proven treatment exists, it may get placebo or no active treatment [@nci_trials2024; @helsinki2024]
-- Control does not mean "ignored"
-- Everyone in the study is still watched under a protocol
+- Sometimes the control group gets current standard care, sometimes standard care plus a placebo
+- If no proven treatment exists, it may get placebo or no active treatment [@nci_trials2024; @helsinki2024]
+- Control does not mean "ignored": everyone in the study is still watched under a protocol
+- The idea is old. In 1747 **James Lind** gave twelve scurvy-stricken sailors six different treatments, two each; only the pair given citrus recovered [@lind1753]
 
 ## Placebo Does Not Always Mean "Nothing"
 
@@ -219,7 +236,7 @@ Same disease, same year, same vaccine. The **design**, not the vaccine, is what 
 - [Blinding]{.key-term} means some people in the trial do not know which arm a participant is in
 - Single-blind usually means the participant does not know
 - Double-blind usually means the participant *and* the treating team do not know
-- The point is to reduce expectation effects and biased judgment
+- Its job is to reduce expectation effects and biased judgment
 - "Double-blind" is about cleaner evidence, not secrecy for its own sake
 
 ## Why Blinding Mattered in 1954
@@ -227,23 +244,22 @@ Same disease, same year, same vaccine. The **design**, not the vaccine, is what 
 ::: {.context-box}
 Diagnosing mild polio is partly a judgment call. A borderline weak limb can be read either way. In the 1954 trial's observed-control areas, the examining doctors knew which children had been vaccinated. A doctor who *hoped* the vaccine worked could, without any dishonesty, lean toward "not polio" in a vaccinated child.
 
-That is exactly why the placebo-controlled areas were **double-blind**. No one at the bedside knew. Hope could not tip the count.
+So the placebo-controlled areas were **double-blind**. No one at the bedside knew, and hope could not tip the count.
 :::
 
 ## Who Watches the Trial While It Runs?
 
 - A trial is not left alone until it ends
 - An independent [data safety monitoring board]{.key-term} (DSMB) reads the data as it comes in
-- It can **stop a trial early for harm** — one arm is clearly hurting people
+- It can **stop a trial early for harm**. The **CAST** trial's board did exactly that in April 1989, when the drugs under test were killing patients [@cast1989]
 - It can also **stop early for benefit** — one arm is so clearly better that continuing the other is no longer fair
 - Equipoise has a deadline. Once the evidence is in, the trial must end
 
 ## The Same Machinery, Today
 
-- The 2020 COVID-19 vaccine trials used the 1954 logic at modern scale. Tens of thousands of volunteers. Randomized. Double-blind. Placebo-controlled.
-- The primary endpoint was a **clinical** one — lab-confirmed symptomatic COVID-19. Not just an antibody level in the blood.
+- The 2020 COVID-19 vaccine trials used the 1954 logic at modern scale: tens of thousands of volunteers, randomized, double-blind, placebo-controlled.
+- The primary endpoint was **clinical**, lab-confirmed symptomatic COVID-19, not an antibody level in the blood.
 - An independent monitoring board read the data at planned checkpoints.
-- When the effect was large and the safety data was good enough, the FDA granted Emergency Use Authorization. Full approval came later, after more follow-up.
 - Seventy years apart, the polio and COVID trials are the same instrument. Both used it carefully because the stakes were enormous.
 
 # Reading a Trial's Result {.section-divider}
@@ -253,16 +269,16 @@ That is exactly why the placebo-controlled areas were **double-blind**. No one a
 - A **clinical endpoint** is something a patient can feel or would obviously care about: living longer, avoiding a stroke, walking without pain.
 - A **surrogate endpoint** is a stand-in. It is measured because it is faster or cheaper — a lab number, a scan finding, a blood pressure reading.
 - Surrogates speed research up. But a treatment can move the surrogate and still not help patients. It can even harm them.
-- The classic warning is the CAST trial. Drugs that "fixed" an abnormal heart rhythm on the monitor actually *increased* deaths.
+- The classic warning is **CAST**. Drugs that "fixed" an abnormal heart rhythm on the monitor *increased* deaths [@cast1989].
 - So the first question to ask of any trial is: did patients actually do better, or did a number just move?
 
 ## Could It Just Be Chance?
 
-- Any two groups of people differ a little by luck, even if the treatment does nothing.
-- Statistics ask one question: how likely is a difference *this big* if the treatment really had no effect?
+- Any two groups differ a little by luck. Statistics ask how likely a difference *this big* is if the treatment did nothing.
 - "Statistically significant" roughly means "probably not just luck." It does **not** mean large, important, or certain.
-- Small trials are easily fooled by chance. That is why large samples and **independent replication** matter so much.
-- A single significant result is a lead worth following. It is not a verdict to act on alone.
+- Small trials are easily fooled by chance, which is why large samples and **independent replication** matter.
+- Slice a trial into enough subgroups and some "fail" by luck. **ISIS-2** proved aspirin saves lives, then reported it "failed" for Geminis and Libras, on purpose [@isis1988].
+- A single significant result is a lead worth following, not a verdict to act on alone.
 
 ## Honest Trials Can Still Mislead
 
@@ -270,15 +286,15 @@ That is exactly why the placebo-controlled areas were **double-blind**. No one a
 - **Who got into the trial** limits who the answer applies to. Narrow eligibility rules can leave out the very patients you treat.
 - People who **drop out** are usually different from those who finish. So looking only at the "completers" quietly flatters the treatment.
 - **Intention-to-treat** analysis is the standard guard against that. It counts everyone in the group they were randomized to, even if they quit.
-- The disciplined question is always: who is missing from this result, and which way would that bias it?
+- Always ask who is missing from this result, and which way that would bias it.
 
 ## When a Letter Becomes "Evidence"
 
-- In 1980, a five-sentence *letter to the editor* reported that, among **hospitalized** patients given opioids, addiction was rare [@porter1980].
+- In 1980, a five-sentence *letter to the editor* by **Porter and Jick** reported that, among **hospitalized** patients given opioids, addiction was rare [@porter1980].
 - It was not a trial. No randomization. No control. No long-term or outpatient follow-up.
 - Over the next two decades it was cited hundreds of times — as if it had proven that long-term outpatient opioids rarely cause addiction.
-- The lesson is exact. The *type* of study and *who was in it* cap what any result can support.
-- How that misreading was promoted is a research-integrity story we return to later. Here the point is simple: a letter is not an RCT.
+- The *type* of study and *who was in it* cap what any result can support. A letter is not an RCT.
+- How that misreading was promoted is a research-integrity story we return to in Part B.
 
 ## Thought Question
 
@@ -292,24 +308,12 @@ A new drug's Phase III trial is reported as "positive."
 1. Name the three weaknesses you can already see.
 2. What would you want to know before telling a patient this drug "works"?
 3. Is "the FDA might approve it" the same as "it helps patients"?
-:::
-
-## Make It Contemporary
-
-::: {.thought-question}
-Regulators sometimes grant **accelerated approval** based on a surrogate endpoint. A confirming trial is promised later.
-
-- Patients with no other option get the drug years sooner.
-- Some confirming trials later show no real benefit. A few are never finished.
-
-Is faster access worth weaker evidence? Who should decide? And what should happen if the confirming trial fails?
+4. Regulators sometimes grant **accelerated approval** on a surrogate endpoint, with a confirming trial promised later. Some confirming trials never finish. Is faster access worth weaker evidence?
 :::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-Three distinctions to carry forward:
-
 - **Statistically significant ≠ clinically meaningful.** A real but tiny effect on a surrogate can be true and still not worth having.
 - **Regulatory approval ≠ proven patient benefit.** Approval is a decision under uncertainty, not a guarantee.
 - **The standing questions are always the same:** what was measured, in whom, and who is missing from the result?
@@ -326,44 +330,24 @@ Three distinctions to carry forward:
 | **III** | Is it better than the current standard? | Large, often randomized |
 | **IV** | What happens after approval in the real world? | Very large, longer-term |
 
-## One Simple Phase Map
+## The Same Four Phases: COVID-19 Vaccines
 
-```{dot}
-//| fig-width: 8.6
-//| fig-height: 4.2
-//| fig-cap: "A plain-language phase map. The main ethical point is that 'clinical trial' covers activities with very different goals, risks, and likely benefits."
-digraph phases {
-  rankdir=TB;
-  bgcolor="transparent";
-  graph [nodesep=0.25, ranksep=0.42];
-  node [fontname="Inter", fontsize=10, shape=box, style="rounded,filled",
-        margin="0.18,0.12", color="#94a3b8", fillcolor="#f8fafc"];
-  edge [color="#64748b", arrowsize=0.7];
+| Phase | When | Scale | What it answered |
+|---|---|---|---|
+| **I** | March 2020; first dose March 16 | About 45 people | Dose and safety |
+| **II** | Spring to summer 2020 | Hundreds | Immune response; which dose to carry forward |
+| **III** | July to November 2020 | About 30,000 (Moderna); about 44,000 (Pfizer) | Roughly 95% efficacy against placebo. Emergency authorization, December 2020 |
+| **IV** | 2021 onward | Tens of millions | **Myocarditis** in young men, detected through safety reporting in spring 2021. Full approval August 2021 (Pfizer) and January 2022 (Moderna) |
 
-  A [label="Phase I\nsmall group\nsafety and dose", width=3.8, fillcolor="#fad7d2", color="#c0392b"];
-  B [label="Phase II\nmore participants\nearly evidence of effect", width=3.2, fillcolor="#fce9d6", color="#b07d1a"];
-  C [label="Phase III\nlarge comparison\nagainst standard care", width=2.8, fillcolor="#e6f1f2", color="#0e7c86"];
-  D [label="Phase IV\nafter approval\nlong-term follow-up", width=2.4, fillcolor="#dfe6ee", color="#475569"];
-
-  A -> B -> C -> D;
-}
-```
+The Phase IV row is the point of Phase IV: a rare harm too uncommon for a 30,000-person trial to see, caught once the vaccine reached tens of millions.
 
 ## What Each Phase Is Really Asking
 
-- **Phase I** is small. Often 15–30 people in cancer. It asks what dose is tolerable and what harms appear. Direct benefit is not the point. That is what makes it ethically hard [@nci_trials2024].
-- **Phase II** enrolls more people. It asks whether the treatment *seems* to work. Safety is still watched closely. Many promising drugs fail right here.
-- **Phase III** is the large, usually randomized comparison against the best existing option. This is where placebo and control debates bite hardest. Its result becomes the new standard.
-- **Phase IV** runs after approval. It catches rare harms and real-world performance that tightly controlled trials miss.
-- "Clinical trial" is therefore not one thing. The same words cover wildly different risks, hopes, and likely benefits.
-
-## Why Phases Matter Ethically
-
-- Students often hear "clinical trial" and imagine one thing
-- But Phase I and Phase IV do not ask the same question or offer the same likely benefits
-- Consent should match the phase, not rely on a generic script
-- Risks, hopes, and expectations shift from phase to phase
-- So the ethical explanation has to be specific
+- **Phase I** is small, often 15–30 people in cancer. It asks what dose is tolerable and what harms appear. Direct benefit is not the point, which is what makes it ethically hard [@nci_trials2024].
+- **Phase II** enrolls more people and asks whether the treatment *seems* to work. Many promising drugs fail here.
+- **Phase III** is the large, usually randomized comparison against the best existing option. Its result becomes the new standard.
+- **Phase IV** runs after approval and catches rare harms that controlled trials miss.
+- "Clinical trial" is not one thing. Consent should match the phase, not follow a generic script.
 
 # The Participant's Problem {.section-divider}
 
@@ -422,24 +406,12 @@ You are a research nurse enrolling patients in a first-in-human cancer trial.
 1. What is the most important misunderstanding to correct?
 2. How blunt should you be about the low chance of direct benefit?
 3. If the patient says, "I know the odds are low, but I want to try anyway," has the misconception been fixed?
-:::
-
-## Make It Contemporary
-
-::: {.thought-question}
-The same structure appears outside cancer too:
-
-- A family enrolls a child in a gene-therapy study because no approved treatment exists.
-- A healthy adult joins a Phase I trial mainly because the payment covers two months of rent.
-
-Both may be voluntary. But are both *equally* informed and equally free?
+4. Down the hall, a healthy adult joins a Phase I trial mainly because the payment covers two months of rent. Voluntary, yes. Equally informed, and equally free?
 :::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-Three payoffs to insist on:
-
 - **Hope is allowed.** The goal is not to turn participants cynical. It is to keep hope from masquerading as evidence.
 - **Misunderstanding is not the same as irrationality.** A person may fully understand that a study is not personal care and still choose it.
 - **The hardest part is relational.** When a trusted clinician recruits for a study, the burden to separate care from research falls more heavily on the professional, not less [@helsinki2024].
@@ -447,13 +419,18 @@ Three payoffs to insist on:
 
 # Wrapping Up Part A {.section-divider}
 
-## The Main Distinction
+## Six Trials, Six Tools
 
-- Trials are ethically hard because they borrow the setting of care but not its single-minded goal
-- Randomization, blinding, control groups, and phases are scientific tools
-- The same tools let you *read* a result: what was measured, could it be chance, who is missing
-- Those tools are exactly why research needs its own ethics
-- Part B turns from the structure of trials to the rulebook meant to protect the people inside them
+| Year | Trial | The tool it gave us |
+|---|---|---|
+| 1747 | **Lind**, scurvy | A controlled comparison: twelve sailors, six treatments |
+| 1847 | **Semmelweis**, handwashing | An intervention with a natural control, but no randomization, and no one believed it |
+| 1948 | **MRC streptomycin** | Randomization. The drug was scarce, so chance was the fair way to allocate it |
+| 1954 | **Salk polio field trial** | Placebo and blinding at scale: 1.8 million children |
+| 1988 | **ISIS-2** | A warning about subgroups: aspirin "failed" for Geminis and Libras |
+| 1989 | **CAST** | A warning about surrogates: fixing the rhythm raised deaths |
+
+Everything after 1847 is a tool Semmelweis did not have.
 
 ## Wrapping Up Part A
 

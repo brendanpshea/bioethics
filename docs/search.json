@@ -13385,14 +13385,14 @@
     "href": "chapters/03a-clinical-research-slides.html#after-youve-discussed",
     "title": "Lecture 3 — Research Ethics",
     "section": "After You’ve Discussed",
-    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nThree starting points matter here:\n\nResearch can happen inside ordinary care without becoming ordinary care. Same clinic, different goal.\nRandomization is the clue. Once assignment is by chance, the clinician is no longer choosing only on what seems best for this patient.\nHope is not the same as a promise. Ethical recruitment does not kill hope. It also cannot quietly sell the study as personal treatment.\n\n\n\n\n\nNotice how easily research can sound like an ordinary treatment recommendation. The point is not to make you suspicious of research. It is to make the difference in purpose audible when you hear it."
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nWhat Semmelweis did, and what he lacked. In May 1847 Ignaz Semmelweis made doctors and students wash in chlorinated lime before examining patients. The First Clinic’s death rate fell from 18% in April to 2% by June (Semmelweis 1861). He had a control group he never designed, the Second Clinic, and an intervention he did design. He had no randomization, no blinding, and a before-and-after comparison that time alone could have produced. The profession did not accept his result, and he died in an asylum in 1865.\nThe tools in the rest of this lecture are what it would have taken to be believed. The 1954 polio trial used every one of them."
   },
   {
     "objectID": "chapters/03a-clinical-research-slides.html#today",
     "href": "chapters/03a-clinical-research-slides.html#today",
     "title": "Lecture 3 — Research Ethics",
     "section": "Today",
-    "text": "Today\n\nBy the end of Part A, you will be able to:\n\nTell clinical care apart from clinical research, and say why the difference changes consent and oversight\nExplain randomization, control, placebo, and blinding by walking through the 1954 polio trial\nTell a clinical endpoint from a surrogate, and judge whether a result could be chance\nSummarize what trial phases I–IV are for\nExplain the therapeutic misconception and why it matters at the bedside\nUse the opioid-evidence story to say what a given study can and cannot support"
+    "text": "Today\n\nBy the end of Part A, you will be able to:\n\nTell clinical care apart from clinical research, and say why the difference changes consent and oversight\nExplain randomization, control, placebo, and blinding by walking from Semmelweis to the 1954 polio trial\nTell a clinical endpoint from a surrogate, and judge whether a result could be chance\nSummarize what trial phases I–IV are for\nExplain the therapeutic misconception and why it matters at the bedside\nUse the opioid-evidence story to say what a given study can and cannot support"
   },
   {
     "objectID": "chapters/03a-clinical-research-slides.html#one-crucial-difference",
@@ -13441,7 +13441,7 @@
     "href": "chapters/03a-clinical-research-slides.html#when-is-it-ok-to-randomize-a-sick-person",
     "title": "Lecture 3 — Research Ethics",
     "section": "When Is It OK to Randomize a Sick Person?",
-    "text": "When Is It OK to Randomize a Sick Person?\n\nThe honest answer needs a concept: clinical equipoise\nIt means the expert community is genuinely unsure which arm is better\nIf we already knew, randomizing would be wrong — we’d be sending some patients to the worse option on purpose\nEquipoise is the moral license for a trial\nThis is why “I’d just give everyone the new drug” misses the point: we do not yet know it is better"
+    "text": "When Is It OK to Randomize a Sick Person?\n\nThe answer needs a concept: clinical equipoise, meaning the expert community is genuinely unsure which arm is better\nIf we already knew, randomizing would be wrong: we would be sending some patients to the worse option on purpose\nEquipoise is the moral license for a trial\n“I’d just give everyone the new drug” assumes we already know it is better. We do not.\nThe first randomized trial, the MRC streptomycin trial of 1948, had a second reason too: the drug was scarce, so a coin flip was the fair way to decide who got it (Medical Research Council 1948)"
   },
   {
     "objectID": "chapters/03a-clinical-research-slides.html#one-map-of-a-parallel-group-trial",
@@ -13455,21 +13455,21 @@
     "href": "chapters/03a-clinical-research-slides.html#a-real-trial-polio-1954",
     "title": "Lecture 3 — Research Ethics",
     "section": "A Real Trial: Polio, 1954",
-    "text": "A Real Trial: Polio, 1954\n\nIn 1952 the United States recorded about 58,000 polio cases, most of them children. It was the most feared childhood disease in the country.\nJonas Salk’s killed-virus injected vaccine looked promising. But “promising” vaccines had failed before. Some had even harmed children.\nSo the country ran the largest medical experiment in history. About 1.8 million schoolchildren — the “Polio Pioneers” — took part. The March of Dimes organized it. Thomas Francis Jr. led the science.\nThe trial’s job was not to deliver a cure. It was to prove whether there was one.\nEvery part from the last few slides — randomize, control, blind, compare — was used on these children. The design choices decided whether anyone could believe the result (Francis et al. 1955)."
+    "text": "A Real Trial: Polio, 1954\n\n\n\nIn 1952 the United States recorded about 58,000 polio cases, most of them children.\nJonas Salk’s killed-virus vaccine looked promising. Promising vaccines had failed before, and some had harmed children.\nSo the country ran the largest medical experiment in history: 1.8 million schoolchildren, the “Polio Pioneers,” run by the March of Dimes under Thomas Francis Jr.\nIts job was not to deliver a cure but to prove one. Randomize, control, blind, compare: the design decided whether anyone could believe the result (Francis et al. 1955).\n\n\n\n\nIron lung, 1950s. CDC Public Health Image Library, #6536. Public domain."
   },
   {
     "objectID": "chapters/03a-clinical-research-slides.html#two-designs-one-trial",
     "href": "chapters/03a-clinical-research-slides.html#two-designs-one-trial",
     "title": "Lecture 3 — Research Ethics",
     "section": "Two Designs, One Trial",
-    "text": "Two Designs, One Trial\nThe 1954 trial actually ran two designs at once — and that is the lesson:\n\n\n\n\n\n\n\n\n\nPlacebo-controlled areas\nObserved-control areas\n\n\n\n\nWho got vaccine\nGrades 1–3 randomized to vaccine or saline\nOnly 2nd-grade volunteers vaccinated\n\n\nThe controls\nRandomized peers given a saline shot\nGrades 1 and 3, simply observed\n\n\nBlinding\nDouble-blind — no one knew who got what\nNot blinded\n\n\nHow trustworthy\nHigh — groups comparable, judgment unbiased\nWeaker — volunteers differ; diagnosis can be swayed\n\n\n\nSame disease, same year, same vaccine. The design, not the vaccine, is what made one half of the trial believable."
+    "text": "Two Designs, One Trial\nThe 1954 trial ran two designs at once:\n\n\n\n\n\n\n\n\n\nPlacebo-controlled areas\nObserved-control areas\n\n\n\n\nWho got vaccine\nGrades 1–3 randomized to vaccine or saline\nOnly 2nd-grade volunteers vaccinated\n\n\nThe controls\nRandomized peers given a saline shot\nGrades 1 and 3, simply observed\n\n\nBlinding\nDouble-blind — no one knew who got what\nNot blinded\n\n\nHow trustworthy\nHigh — groups comparable, judgment unbiased\nWeaker — volunteers differ; diagnosis can be swayed\n\n\n\nSame disease, same year, same vaccine. The design, not the vaccine, is what made one half of the trial believable."
   },
   {
     "objectID": "chapters/03a-clinical-research-slides.html#what-the-control-group-gets",
     "href": "chapters/03a-clinical-research-slides.html#what-the-control-group-gets",
     "title": "Lecture 3 — Research Ethics",
     "section": "What the Control Group Gets",
-    "text": "What the Control Group Gets\n\nSometimes the control group gets current standard care\nSometimes it gets standard care plus a placebo\nSometimes, if no proven treatment exists, it may get placebo or no active treatment (National Cancer Institute 2024; World Medical Association 2024)\nControl does not mean “ignored”\nEveryone in the study is still watched under a protocol"
+    "text": "What the Control Group Gets\n\nSometimes the control group gets current standard care, sometimes standard care plus a placebo\nIf no proven treatment exists, it may get placebo or no active treatment (National Cancer Institute 2024; World Medical Association 2024)\nControl does not mean “ignored”: everyone in the study is still watched under a protocol\nThe idea is old. In 1747 James Lind gave twelve scurvy-stricken sailors six different treatments, two each; only the pair given citrus recovered (Lind 1753)"
   },
   {
     "objectID": "chapters/03a-clinical-research-slides.html#placebo-does-not-always-mean-nothing",
@@ -13483,63 +13483,63 @@
     "href": "chapters/03a-clinical-research-slides.html#what-blinding-actually-does",
     "title": "Lecture 3 — Research Ethics",
     "section": "What Blinding Actually Does",
-    "text": "What Blinding Actually Does\n\nBlinding means some people in the trial do not know which arm a participant is in\nSingle-blind usually means the participant does not know\nDouble-blind usually means the participant and the treating team do not know\nThe point is to reduce expectation effects and biased judgment\n“Double-blind” is about cleaner evidence, not secrecy for its own sake"
+    "text": "What Blinding Actually Does\n\nBlinding means some people in the trial do not know which arm a participant is in\nSingle-blind usually means the participant does not know\nDouble-blind usually means the participant and the treating team do not know\nIts job is to reduce expectation effects and biased judgment\n“Double-blind” is about cleaner evidence, not secrecy for its own sake"
   },
   {
     "objectID": "chapters/03a-clinical-research-slides.html#why-blinding-mattered-in-1954",
     "href": "chapters/03a-clinical-research-slides.html#why-blinding-mattered-in-1954",
     "title": "Lecture 3 — Research Ethics",
     "section": "Why Blinding Mattered in 1954",
-    "text": "Why Blinding Mattered in 1954\n\nDiagnosing mild polio is partly a judgment call. A borderline weak limb can be read either way. In the 1954 trial’s observed-control areas, the examining doctors knew which children had been vaccinated. A doctor who hoped the vaccine worked could, without any dishonesty, lean toward “not polio” in a vaccinated child.\nThat is exactly why the placebo-controlled areas were double-blind. No one at the bedside knew. Hope could not tip the count."
+    "text": "Why Blinding Mattered in 1954\n\nDiagnosing mild polio is partly a judgment call. A borderline weak limb can be read either way. In the 1954 trial’s observed-control areas, the examining doctors knew which children had been vaccinated. A doctor who hoped the vaccine worked could, without any dishonesty, lean toward “not polio” in a vaccinated child.\nSo the placebo-controlled areas were double-blind. No one at the bedside knew, and hope could not tip the count."
   },
   {
     "objectID": "chapters/03a-clinical-research-slides.html#who-watches-the-trial-while-it-runs",
     "href": "chapters/03a-clinical-research-slides.html#who-watches-the-trial-while-it-runs",
     "title": "Lecture 3 — Research Ethics",
     "section": "Who Watches the Trial While It Runs?",
-    "text": "Who Watches the Trial While It Runs?\n\nA trial is not left alone until it ends\nAn independent data safety monitoring board (DSMB) reads the data as it comes in\nIt can stop a trial early for harm — one arm is clearly hurting people\nIt can also stop early for benefit — one arm is so clearly better that continuing the other is no longer fair\nEquipoise has a deadline. Once the evidence is in, the trial must end"
+    "text": "Who Watches the Trial While It Runs?\n\nA trial is not left alone until it ends\nAn independent data safety monitoring board (DSMB) reads the data as it comes in\nIt can stop a trial early for harm. The CAST trial’s board did exactly that in April 1989, when the drugs under test were killing patients (Cardiac Arrhythmia Suppression Trial (CAST) Investigators 1989)\nIt can also stop early for benefit — one arm is so clearly better that continuing the other is no longer fair\nEquipoise has a deadline. Once the evidence is in, the trial must end"
   },
   {
     "objectID": "chapters/03a-clinical-research-slides.html#the-same-machinery-today",
     "href": "chapters/03a-clinical-research-slides.html#the-same-machinery-today",
     "title": "Lecture 3 — Research Ethics",
     "section": "The Same Machinery, Today",
-    "text": "The Same Machinery, Today\n\nThe 2020 COVID-19 vaccine trials used the 1954 logic at modern scale. Tens of thousands of volunteers. Randomized. Double-blind. Placebo-controlled.\nThe primary endpoint was a clinical one — lab-confirmed symptomatic COVID-19. Not just an antibody level in the blood.\nAn independent monitoring board read the data at planned checkpoints.\nWhen the effect was large and the safety data was good enough, the FDA granted Emergency Use Authorization. Full approval came later, after more follow-up.\nSeventy years apart, the polio and COVID trials are the same instrument. Both used it carefully because the stakes were enormous."
+    "text": "The Same Machinery, Today\n\nThe 2020 COVID-19 vaccine trials used the 1954 logic at modern scale: tens of thousands of volunteers, randomized, double-blind, placebo-controlled.\nThe primary endpoint was clinical, lab-confirmed symptomatic COVID-19, not an antibody level in the blood.\nAn independent monitoring board read the data at planned checkpoints.\nSeventy years apart, the polio and COVID trials are the same instrument. Both used it carefully because the stakes were enormous."
   },
   {
     "objectID": "chapters/03a-clinical-research-slides.html#what-are-we-even-measuring-endpoints",
     "href": "chapters/03a-clinical-research-slides.html#what-are-we-even-measuring-endpoints",
     "title": "Lecture 3 — Research Ethics",
     "section": "What Are We Even Measuring? Endpoints",
-    "text": "What Are We Even Measuring? Endpoints\n\nA clinical endpoint is something a patient can feel or would obviously care about: living longer, avoiding a stroke, walking without pain.\nA surrogate endpoint is a stand-in. It is measured because it is faster or cheaper — a lab number, a scan finding, a blood pressure reading.\nSurrogates speed research up. But a treatment can move the surrogate and still not help patients. It can even harm them.\nThe classic warning is the CAST trial. Drugs that “fixed” an abnormal heart rhythm on the monitor actually increased deaths.\nSo the first question to ask of any trial is: did patients actually do better, or did a number just move?"
+    "text": "What Are We Even Measuring? Endpoints\n\nA clinical endpoint is something a patient can feel or would obviously care about: living longer, avoiding a stroke, walking without pain.\nA surrogate endpoint is a stand-in. It is measured because it is faster or cheaper — a lab number, a scan finding, a blood pressure reading.\nSurrogates speed research up. But a treatment can move the surrogate and still not help patients. It can even harm them.\nThe classic warning is CAST. Drugs that “fixed” an abnormal heart rhythm on the monitor increased deaths (Cardiac Arrhythmia Suppression Trial (CAST) Investigators 1989).\nSo the first question to ask of any trial is: did patients actually do better, or did a number just move?"
   },
   {
     "objectID": "chapters/03a-clinical-research-slides.html#could-it-just-be-chance",
     "href": "chapters/03a-clinical-research-slides.html#could-it-just-be-chance",
     "title": "Lecture 3 — Research Ethics",
     "section": "Could It Just Be Chance?",
-    "text": "Could It Just Be Chance?\n\nAny two groups of people differ a little by luck, even if the treatment does nothing.\nStatistics ask one question: how likely is a difference this big if the treatment really had no effect?\n“Statistically significant” roughly means “probably not just luck.” It does not mean large, important, or certain.\nSmall trials are easily fooled by chance. That is why large samples and independent replication matter so much.\nA single significant result is a lead worth following. It is not a verdict to act on alone."
+    "text": "Could It Just Be Chance?\n\nAny two groups differ a little by luck. Statistics ask how likely a difference this big is if the treatment did nothing.\n“Statistically significant” roughly means “probably not just luck.” It does not mean large, important, or certain.\nSmall trials are easily fooled by chance, which is why large samples and independent replication matter.\nSlice a trial into enough subgroups and some “fail” by luck. ISIS-2 proved aspirin saves lives, then reported it “failed” for Geminis and Libras, on purpose (ISIS-2 (Second International Study of Infarct Survival) Collaborative Group 1988).\nA single significant result is a lead worth following, not a verdict to act on alone."
   },
   {
     "objectID": "chapters/03a-clinical-research-slides.html#honest-trials-can-still-mislead",
     "href": "chapters/03a-clinical-research-slides.html#honest-trials-can-still-mislead",
     "title": "Lecture 3 — Research Ethics",
     "section": "Honest Trials Can Still Mislead",
-    "text": "Honest Trials Can Still Mislead\n\nA result can mislead even when no one lied or faked anything.\nWho got into the trial limits who the answer applies to. Narrow eligibility rules can leave out the very patients you treat.\nPeople who drop out are usually different from those who finish. So looking only at the “completers” quietly flatters the treatment.\nIntention-to-treat analysis is the standard guard against that. It counts everyone in the group they were randomized to, even if they quit.\nThe disciplined question is always: who is missing from this result, and which way would that bias it?"
+    "text": "Honest Trials Can Still Mislead\n\nA result can mislead even when no one lied or faked anything.\nWho got into the trial limits who the answer applies to. Narrow eligibility rules can leave out the very patients you treat.\nPeople who drop out are usually different from those who finish. So looking only at the “completers” quietly flatters the treatment.\nIntention-to-treat analysis is the standard guard against that. It counts everyone in the group they were randomized to, even if they quit.\nAlways ask who is missing from this result, and which way that would bias it."
   },
   {
     "objectID": "chapters/03a-clinical-research-slides.html#when-a-letter-becomes-evidence",
     "href": "chapters/03a-clinical-research-slides.html#when-a-letter-becomes-evidence",
     "title": "Lecture 3 — Research Ethics",
     "section": "When a Letter Becomes “Evidence”",
-    "text": "When a Letter Becomes “Evidence”\n\nIn 1980, a five-sentence letter to the editor reported that, among hospitalized patients given opioids, addiction was rare (Porter and Jick 1980).\nIt was not a trial. No randomization. No control. No long-term or outpatient follow-up.\nOver the next two decades it was cited hundreds of times — as if it had proven that long-term outpatient opioids rarely cause addiction.\nThe lesson is exact. The type of study and who was in it cap what any result can support.\nHow that misreading was promoted is a research-integrity story we return to later. Here the point is simple: a letter is not an RCT."
+    "text": "When a Letter Becomes “Evidence”\n\nIn 1980, a five-sentence letter to the editor by Porter and Jick reported that, among hospitalized patients given opioids, addiction was rare (Porter and Jick 1980).\nIt was not a trial. No randomization. No control. No long-term or outpatient follow-up.\nOver the next two decades it was cited hundreds of times — as if it had proven that long-term outpatient opioids rarely cause addiction.\nThe type of study and who was in it cap what any result can support. A letter is not an RCT.\nHow that misreading was promoted is a research-integrity story we return to in Part B."
   },
   {
     "objectID": "chapters/03a-clinical-research-slides.html#thought-question",
     "href": "chapters/03a-clinical-research-slides.html#thought-question",
     "title": "Lecture 3 — Research Ethics",
     "section": "Thought Question",
-    "text": "Thought Question\n\nA new drug’s Phase III trial is reported as “positive.”\n\nIt significantly improved a surrogate marker on a scan.\nThe trial was small. About 25% of participants dropped out.\nThe analysis included only those who completed.\n\n\nName the three weaknesses you can already see.\nWhat would you want to know before telling a patient this drug “works”?\nIs “the FDA might approve it” the same as “it helps patients”?"
+    "text": "Thought Question\n\nA new drug’s Phase III trial is reported as “positive.”\n\nIt significantly improved a surrogate marker on a scan.\nThe trial was small. About 25% of participants dropped out.\nThe analysis included only those who completed.\n\n\nName the three weaknesses you can already see.\nWhat would you want to know before telling a patient this drug “works”?\nIs “the FDA might approve it” the same as “it helps patients”?\nRegulators sometimes grant accelerated approval on a surrogate endpoint, with a confirming trial promised later. Some confirming trials never finish. Is faster access worth weaker evidence?"
   },
   {
     "objectID": "chapters/03a-clinical-research-slides.html#make-it-contemporary",
@@ -13553,7 +13553,7 @@
     "href": "chapters/03a-clinical-research-slides.html#after-youve-discussed-1",
     "title": "Lecture 3 — Research Ethics",
     "section": "After You’ve Discussed",
-    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nThree distinctions to carry forward:\n\nStatistically significant ≠ clinically meaningful. A real but tiny effect on a surrogate can be true and still not worth having.\nRegulatory approval ≠ proven patient benefit. Approval is a decision under uncertainty, not a guarantee.\nThe standing questions are always the same: what was measured, in whom, and who is missing from the result?"
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nStatistically significant ≠ clinically meaningful. A real but tiny effect on a surrogate can be true and still not worth having.\nRegulatory approval ≠ proven patient benefit. Approval is a decision under uncertainty, not a guarantee.\nThe standing questions are always the same: what was measured, in whom, and who is missing from the result?"
   },
   {
     "objectID": "chapters/03a-clinical-research-slides.html#four-phases-four-questions",
@@ -13574,7 +13574,7 @@
     "href": "chapters/03a-clinical-research-slides.html#what-each-phase-is-really-asking",
     "title": "Lecture 3 — Research Ethics",
     "section": "What Each Phase Is Really Asking",
-    "text": "What Each Phase Is Really Asking\n\nPhase I is small. Often 15–30 people in cancer. It asks what dose is tolerable and what harms appear. Direct benefit is not the point. That is what makes it ethically hard (National Cancer Institute 2024).\nPhase II enrolls more people. It asks whether the treatment seems to work. Safety is still watched closely. Many promising drugs fail right here.\nPhase III is the large, usually randomized comparison against the best existing option. This is where placebo and control debates bite hardest. Its result becomes the new standard.\nPhase IV runs after approval. It catches rare harms and real-world performance that tightly controlled trials miss.\n“Clinical trial” is therefore not one thing. The same words cover wildly different risks, hopes, and likely benefits."
+    "text": "What Each Phase Is Really Asking\n\nPhase I is small, often 15–30 people in cancer. It asks what dose is tolerable and what harms appear. Direct benefit is not the point, which is what makes it ethically hard (National Cancer Institute 2024).\nPhase II enrolls more people and asks whether the treatment seems to work. Many promising drugs fail here.\nPhase III is the large, usually randomized comparison against the best existing option. Its result becomes the new standard.\nPhase IV runs after approval and catches rare harms that controlled trials miss.\n“Clinical trial” is not one thing. Consent should match the phase, not follow a generic script."
   },
   {
     "objectID": "chapters/03a-clinical-research-slides.html#why-phases-matter-ethically",
@@ -13623,7 +13623,7 @@
     "href": "chapters/03a-clinical-research-slides.html#thought-question-1",
     "title": "Lecture 3 — Research Ethics",
     "section": "Thought Question",
-    "text": "Thought Question\n\nYou are a research nurse enrolling patients in a first-in-human cancer trial.\n\nA patient says, “If you are offering this, you must think it gives me the best chance.”\nThe oncologist who is also the principal investigator is standing beside you.\n\n\nWhat is the most important misunderstanding to correct?\nHow blunt should you be about the low chance of direct benefit?\nIf the patient says, “I know the odds are low, but I want to try anyway,” has the misconception been fixed?"
+    "text": "Thought Question\n\nYou are a research nurse enrolling patients in a first-in-human cancer trial.\n\nA patient says, “If you are offering this, you must think it gives me the best chance.”\nThe oncologist who is also the principal investigator is standing beside you.\n\n\nWhat is the most important misunderstanding to correct?\nHow blunt should you be about the low chance of direct benefit?\nIf the patient says, “I know the odds are low, but I want to try anyway,” has the misconception been fixed?\nDown the hall, a healthy adult joins a Phase I trial mainly because the payment covers two months of rent. Voluntary, yes. Equally informed, and equally free?"
   },
   {
     "objectID": "chapters/03a-clinical-research-slides.html#make-it-contemporary-1",
@@ -13637,7 +13637,7 @@
     "href": "chapters/03a-clinical-research-slides.html#after-youve-discussed-2",
     "title": "Lecture 3 — Research Ethics",
     "section": "After You’ve Discussed",
-    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nThree payoffs to insist on:\n\nHope is allowed. The goal is not to turn participants cynical. It is to keep hope from masquerading as evidence.\nMisunderstanding is not the same as irrationality. A person may fully understand that a study is not personal care and still choose it.\nThe hardest part is relational. When a trusted clinician recruits for a study, the burden to separate care from research falls more heavily on the professional, not less (World Medical Association 2024)."
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nHope is allowed. The goal is not to turn participants cynical. It is to keep hope from masquerading as evidence.\nMisunderstanding is not the same as irrationality. A person may fully understand that a study is not personal care and still choose it.\nThe hardest part is relational. When a trusted clinician recruits for a study, the burden to separate care from research falls more heavily on the professional, not less (World Medical Association 2024)."
   },
   {
     "objectID": "chapters/03a-clinical-research-slides.html#the-main-distinction",
@@ -13672,14 +13672,14 @@
     "href": "chapters/03a-clinical-research-slides.html#references",
     "title": "Lecture 3 — Research Ethics",
     "section": "References",
-    "text": "References\n\n\nAppelbaum, Paul S., Loren H. Roth, and Charles Lidz. 1982. “The Therapeutic Misconception: Informed Consent in Psychiatric Research.” International Journal of Law and Psychiatry 5 (3-4): 319–29. https://doi.org/10.1016/0160-2527(82)90026-7.\n\n\nEmanuel, Ezekiel J., David Wendler, and Christine Grady. 2000. “What Makes Clinical Research Ethical?” JAMA 283 (20): 2701–11. https://doi.org/10.1001/jama.283.20.2701.\n\n\nFrancis, Thomas et al. 1955. “An Evaluation of the 1954 Poliomyelitis Vaccine Trials: Summary Report.” American Journal of Public Health 45 (5): 1–63.\n\n\nNational Cancer Institute. 2024. How Do Clinical Trials Work? National Cancer Institute. https://www.cancer.gov/research/participate/clinical-trials/how-trials-work.\n\n\nPorter, Jane, and Hershel Jick. 1980. “Addiction Rare in Patients Treated with Narcotics.” New England Journal of Medicine 302 (2): 123. https://doi.org/10.1056/NEJM198001103020221.\n\n\nUS Department of Health and Human Services. 2018. Federal Policy for the Protection of Human Subjects (“the Common Rule”). Code of Federal Regulations, Title 45, Part 46. https://www.hhs.gov/ohrp/regulations-and-policy/regulations/common-rule/index.html.\n\n\nWorld Medical Association. 2024. WMA Declaration of Helsinki – Ethical Principles for Medical Research Involving Human Participants. Adopted by the 75th WMA General Assembly, Helsinki, Finland. https://www.wma.net/policies-post/wma-declaration-of-helsinki/."
+    "text": "References\n\n\nAppelbaum, Paul S., Loren H. Roth, and Charles Lidz. 1982. “The Therapeutic Misconception: Informed Consent in Psychiatric Research.” International Journal of Law and Psychiatry 5 (3-4): 319–29. https://doi.org/10.1016/0160-2527(82)90026-7.\n\n\nCardiac Arrhythmia Suppression Trial (CAST) Investigators. 1989. “Preliminary Report: Effect of Encainide and Flecainide on Mortality in a Randomized Trial of Arrhythmia Suppression After Myocardial Infarction.” New England Journal of Medicine 321 (6): 406–12. https://doi.org/10.1056/NEJM198908103210629.\n\n\nEmanuel, Ezekiel J., David Wendler, and Christine Grady. 2000. “What Makes Clinical Research Ethical?” JAMA 283 (20): 2701–11. https://doi.org/10.1001/jama.283.20.2701.\n\n\nFrancis, Thomas et al. 1955. “An Evaluation of the 1954 Poliomyelitis Vaccine Trials: Summary Report.” American Journal of Public Health 45 (5): 1–63.\n\n\nISIS-2 (Second International Study of Infarct Survival) Collaborative Group. 1988. “Randomised Trial of Intravenous Streptokinase, Oral Aspirin, Both, or Neither Among 17,187 Cases of Suspected Acute Myocardial Infarction: ISIS-2.” The Lancet 2 (8607): 349–60.\n\n\nLind, James. 1753. A Treatise of the Scurvy. Sands, Murray; Cochran.\n\n\nMedical Research Council. 1948. “Streptomycin Treatment of Pulmonary Tuberculosis.” British Medical Journal 2 (4582): 769–82.\n\n\nNational Cancer Institute. 2024. How Do Clinical Trials Work? National Cancer Institute. https://www.cancer.gov/research/participate/clinical-trials/how-trials-work.\n\n\nPorter, Jane, and Hershel Jick. 1980. “Addiction Rare in Patients Treated with Narcotics.” New England Journal of Medicine 302 (2): 123. https://doi.org/10.1056/NEJM198001103020221.\n\n\nSemmelweis, Ignaz. 1861. Die Aetiologie, Der Begriff Und Die Prophylaxis Des Kindbettfiebers. C. A. Hartleben.\n\n\nUS Department of Health and Human Services. 2018. Federal Policy for the Protection of Human Subjects (“the Common Rule”). Code of Federal Regulations, Title 45, Part 46. https://www.hhs.gov/ohrp/regulations-and-policy/regulations/common-rule/index.html.\n\n\nWorld Medical Association. 2024. WMA Declaration of Helsinki – Ethical Principles for Medical Research Involving Human Participants. Adopted by the 75th WMA General Assembly, Helsinki, Finland. https://www.wma.net/policies-post/wma-declaration-of-helsinki/."
   },
   {
     "objectID": "chapters/03a-clinical-research.html",
     "href": "chapters/03a-clinical-research.html",
     "title": "Lecture 3 — Research Ethics",
     "section": "",
-    "text": "You have metastatic cancer. Your oncologist says:\n\n“The standard drug has stopped working.”\n“There is a study you could join. I need to be clear: it is a randomized trial.”\n“One group gets the current standard treatment. The other gets the new drug.”\n“I do not get to choose your group, and neither do you.”\n“I hope it helps you. But the study is designed to answer a question, not to tailor a plan just for you.”\n\n\nDoes this sound like care, research, or both?\nWhat would you still want to know before saying yes?\nIf your doctor is the one recruiting you, what is most likely to confuse you?\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nThree starting points matter here:\n\nResearch can happen inside ordinary care without becoming ordinary care. Same clinic, different goal.\nRandomization is the clue. Once assignment is by chance, the clinician is no longer choosing only on what seems best for this patient.\nHope is not the same as a promise. Ethical recruitment does not kill hope. It also cannot quietly sell the study as personal treatment.\n\n\n\n\nNotice how easily research can sound like an ordinary treatment recommendation. The point is not to make you suspicious of research. It is to make the difference in purpose audible when you hear it.\n\n\n\n\n\nBy the end of Part A, you will be able to:\n\nTell clinical care apart from clinical research, and say why the difference changes consent and oversight\nExplain randomization, control, placebo, and blinding by walking through the 1954 polio trial\nTell a clinical endpoint from a surrogate, and judge whether a result could be chance\nSummarize what trial phases I–IV are for\nExplain the therapeutic misconception and why it matters at the bedside\nUse the opioid-evidence story to say what a given study can and cannot support",
+    "text": "Vienna, 1847. You run the maternity hospital’s First Clinic. Women who deliver there die of “childbed fever” at about one in ten. In the Second Clinic it is under one in twenty-five. Same hospital, same kinds of patients.\n\nThe First Clinic is staffed by physicians and medical students; the Second by midwives.\nWomen beg to be admitted to the Second. Some give birth in the street rather than enter the First.\nWomen who deliver in the street and are admitted afterward almost never get the fever.\nA colleague has just died after cutting his finger at an autopsy. His illness looked exactly like childbed fever.\n\nHow would you figure out what is going on? What would you change — and how would you know it worked?\n\n\n\n\nIgnaz Semmelweis, engraving by Jenő Doby, 1860. Public domain (Wikimedia Commons).\n\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nWhat Semmelweis did, and what he lacked. In May 1847 Ignaz Semmelweis made doctors and students wash in chlorinated lime before examining patients. The First Clinic’s death rate fell from 18% in April to 2% by June (Semmelweis 1861). He had a control group he never designed, the Second Clinic, and an intervention he did design. He had no randomization, no blinding, and a before-and-after comparison that time alone could have produced. The profession did not accept his result, and he died in an asylum in 1865.\nThe tools in the rest of this lecture are what it would have taken to be believed. The 1954 polio trial used every one of them.\n\n\n\n\n\n\nBy the end of Part A, you will be able to:\n\nTell clinical care apart from clinical research, and say why the difference changes consent and oversight\nExplain randomization, control, placebo, and blinding by walking from Semmelweis to the 1954 polio trial\nTell a clinical endpoint from a surrogate, and judge whether a result could be chance\nSummarize what trial phases I–IV are for\nExplain the therapeutic misconception and why it matters at the bedside\nUse the opioid-evidence story to say what a given study can and cannot support",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -13703,7 +13703,7 @@
     "href": "chapters/03a-clinical-research.html#after-youve-discussed",
     "title": "Lecture 3 — Research Ethics",
     "section": "",
-    "text": "Note\n\n\n\nThree starting points matter here:\n\nResearch can happen inside ordinary care without becoming ordinary care. Same clinic, different goal.\nRandomization is the clue. Once assignment is by chance, the clinician is no longer choosing only on what seems best for this patient.\nHope is not the same as a promise. Ethical recruitment does not kill hope. It also cannot quietly sell the study as personal treatment.\n\n\n\n\nNotice how easily research can sound like an ordinary treatment recommendation. The point is not to make you suspicious of research. It is to make the difference in purpose audible when you hear it.",
+    "text": "Note\n\n\n\nWhat Semmelweis did, and what he lacked. In May 1847 Ignaz Semmelweis made doctors and students wash in chlorinated lime before examining patients. The First Clinic’s death rate fell from 18% in April to 2% by June (Semmelweis 1861). He had a control group he never designed, the Second Clinic, and an intervention he did design. He had no randomization, no blinding, and a before-and-after comparison that time alone could have produced. The profession did not accept his result, and he died in an asylum in 1865.\nThe tools in the rest of this lecture are what it would have taken to be believed. The 1954 polio trial used every one of them.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -13715,7 +13715,7 @@
     "href": "chapters/03a-clinical-research.html#today",
     "title": "Lecture 3 — Research Ethics",
     "section": "",
-    "text": "By the end of Part A, you will be able to:\n\nTell clinical care apart from clinical research, and say why the difference changes consent and oversight\nExplain randomization, control, placebo, and blinding by walking through the 1954 polio trial\nTell a clinical endpoint from a surrogate, and judge whether a result could be chance\nSummarize what trial phases I–IV are for\nExplain the therapeutic misconception and why it matters at the bedside\nUse the opioid-evidence story to say what a given study can and cannot support",
+    "text": "By the end of Part A, you will be able to:\n\nTell clinical care apart from clinical research, and say why the difference changes consent and oversight\nExplain randomization, control, placebo, and blinding by walking from Semmelweis to the 1954 polio trial\nTell a clinical endpoint from a surrogate, and judge whether a result could be chance\nSummarize what trial phases I–IV are for\nExplain the therapeutic misconception and why it matters at the bedside\nUse the opioid-evidence story to say what a given study can and cannot support",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -13799,7 +13799,7 @@
     "href": "chapters/03a-clinical-research.html#when-is-it-ok-to-randomize-a-sick-person",
     "title": "Lecture 3 — Research Ethics",
     "section": "3.2 When Is It OK to Randomize a Sick Person?",
-    "text": "3.2 When Is It OK to Randomize a Sick Person?\n\nThe honest answer needs a concept: clinical equipoise\nIt means the expert community is genuinely unsure which arm is better\nIf we already knew, randomizing would be wrong — we’d be sending some patients to the worse option on purpose\nEquipoise is the moral license for a trial\nThis is why “I’d just give everyone the new drug” misses the point: we do not yet know it is better",
+    "text": "3.2 When Is It OK to Randomize a Sick Person?\n\nThe answer needs a concept: clinical equipoise, meaning the expert community is genuinely unsure which arm is better\nIf we already knew, randomizing would be wrong: we would be sending some patients to the worse option on purpose\nEquipoise is the moral license for a trial\n“I’d just give everyone the new drug” assumes we already know it is better. We do not.\nThe first randomized trial, the MRC streptomycin trial of 1948, had a second reason too: the drug was scarce, so a coin flip was the fair way to decide who got it (Medical Research Council 1948)",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -13823,7 +13823,7 @@
     "href": "chapters/03a-clinical-research.html#a-real-trial-polio-1954",
     "title": "Lecture 3 — Research Ethics",
     "section": "3.4 A Real Trial: Polio, 1954",
-    "text": "3.4 A Real Trial: Polio, 1954\n\nIn 1952 the United States recorded about 58,000 polio cases, most of them children. It was the most feared childhood disease in the country.\nJonas Salk’s killed-virus injected vaccine looked promising. But “promising” vaccines had failed before. Some had even harmed children.\nSo the country ran the largest medical experiment in history. About 1.8 million schoolchildren — the “Polio Pioneers” — took part. The March of Dimes organized it. Thomas Francis Jr. led the science.\nThe trial’s job was not to deliver a cure. It was to prove whether there was one.\nEvery part from the last few slides — randomize, control, blind, compare — was used on these children. The design choices decided whether anyone could believe the result (Francis et al. 1955).",
+    "text": "3.4 A Real Trial: Polio, 1954\n\n\n\nIn 1952 the United States recorded about 58,000 polio cases, most of them children.\nJonas Salk’s killed-virus vaccine looked promising. Promising vaccines had failed before, and some had harmed children.\nSo the country ran the largest medical experiment in history: 1.8 million schoolchildren, the “Polio Pioneers,” run by the March of Dimes under Thomas Francis Jr.\nIts job was not to deliver a cure but to prove one. Randomize, control, blind, compare: the design decided whether anyone could believe the result (Francis et al. 1955).\n\n\n\n\nIron lung, 1950s. CDC Public Health Image Library, #6536. Public domain.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -13835,7 +13835,7 @@
     "href": "chapters/03a-clinical-research.html#two-designs-one-trial",
     "title": "Lecture 3 — Research Ethics",
     "section": "3.5 Two Designs, One Trial",
-    "text": "3.5 Two Designs, One Trial\nThe 1954 trial actually ran two designs at once — and that is the lesson:\n\n\n\n\n\n\n\n\n\nPlacebo-controlled areas\nObserved-control areas\n\n\n\n\nWho got vaccine\nGrades 1–3 randomized to vaccine or saline\nOnly 2nd-grade volunteers vaccinated\n\n\nThe controls\nRandomized peers given a saline shot\nGrades 1 and 3, simply observed\n\n\nBlinding\nDouble-blind — no one knew who got what\nNot blinded\n\n\nHow trustworthy\nHigh — groups comparable, judgment unbiased\nWeaker — volunteers differ; diagnosis can be swayed\n\n\n\nSame disease, same year, same vaccine. The design, not the vaccine, is what made one half of the trial believable.",
+    "text": "3.5 Two Designs, One Trial\nThe 1954 trial ran two designs at once:\n\n\n\n\n\n\n\n\n\nPlacebo-controlled areas\nObserved-control areas\n\n\n\n\nWho got vaccine\nGrades 1–3 randomized to vaccine or saline\nOnly 2nd-grade volunteers vaccinated\n\n\nThe controls\nRandomized peers given a saline shot\nGrades 1 and 3, simply observed\n\n\nBlinding\nDouble-blind — no one knew who got what\nNot blinded\n\n\nHow trustworthy\nHigh — groups comparable, judgment unbiased\nWeaker — volunteers differ; diagnosis can be swayed\n\n\n\nSame disease, same year, same vaccine. The design, not the vaccine, is what made one half of the trial believable.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -13847,7 +13847,7 @@
     "href": "chapters/03a-clinical-research.html#what-the-control-group-gets",
     "title": "Lecture 3 — Research Ethics",
     "section": "3.6 What the Control Group Gets",
-    "text": "3.6 What the Control Group Gets\n\nSometimes the control group gets current standard care\nSometimes it gets standard care plus a placebo\nSometimes, if no proven treatment exists, it may get placebo or no active treatment (National Cancer Institute 2024; World Medical Association 2024)\nControl does not mean “ignored”\nEveryone in the study is still watched under a protocol",
+    "text": "3.6 What the Control Group Gets\n\nSometimes the control group gets current standard care, sometimes standard care plus a placebo\nIf no proven treatment exists, it may get placebo or no active treatment (National Cancer Institute 2024; World Medical Association 2024)\nControl does not mean “ignored”: everyone in the study is still watched under a protocol\nThe idea is old. In 1747 James Lind gave twelve scurvy-stricken sailors six different treatments, two each; only the pair given citrus recovered (Lind 1753)",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -13871,7 +13871,7 @@
     "href": "chapters/03a-clinical-research.html#what-blinding-actually-does",
     "title": "Lecture 3 — Research Ethics",
     "section": "3.8 What Blinding Actually Does",
-    "text": "3.8 What Blinding Actually Does\n\nBlinding means some people in the trial do not know which arm a participant is in\nSingle-blind usually means the participant does not know\nDouble-blind usually means the participant and the treating team do not know\nThe point is to reduce expectation effects and biased judgment\n“Double-blind” is about cleaner evidence, not secrecy for its own sake",
+    "text": "3.8 What Blinding Actually Does\n\nBlinding means some people in the trial do not know which arm a participant is in\nSingle-blind usually means the participant does not know\nDouble-blind usually means the participant and the treating team do not know\nIts job is to reduce expectation effects and biased judgment\n“Double-blind” is about cleaner evidence, not secrecy for its own sake",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -13883,7 +13883,7 @@
     "href": "chapters/03a-clinical-research.html#why-blinding-mattered-in-1954",
     "title": "Lecture 3 — Research Ethics",
     "section": "3.9 Why Blinding Mattered in 1954",
-    "text": "3.9 Why Blinding Mattered in 1954\n\nDiagnosing mild polio is partly a judgment call. A borderline weak limb can be read either way. In the 1954 trial’s observed-control areas, the examining doctors knew which children had been vaccinated. A doctor who hoped the vaccine worked could, without any dishonesty, lean toward “not polio” in a vaccinated child.\nThat is exactly why the placebo-controlled areas were double-blind. No one at the bedside knew. Hope could not tip the count.",
+    "text": "3.9 Why Blinding Mattered in 1954\n\nDiagnosing mild polio is partly a judgment call. A borderline weak limb can be read either way. In the 1954 trial’s observed-control areas, the examining doctors knew which children had been vaccinated. A doctor who hoped the vaccine worked could, without any dishonesty, lean toward “not polio” in a vaccinated child.\nSo the placebo-controlled areas were double-blind. No one at the bedside knew, and hope could not tip the count.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -13895,7 +13895,7 @@
     "href": "chapters/03a-clinical-research.html#who-watches-the-trial-while-it-runs",
     "title": "Lecture 3 — Research Ethics",
     "section": "3.10 Who Watches the Trial While It Runs?",
-    "text": "3.10 Who Watches the Trial While It Runs?\n\nA trial is not left alone until it ends\nAn independent data safety monitoring board (DSMB) reads the data as it comes in\nIt can stop a trial early for harm — one arm is clearly hurting people\nIt can also stop early for benefit — one arm is so clearly better that continuing the other is no longer fair\nEquipoise has a deadline. Once the evidence is in, the trial must end",
+    "text": "3.10 Who Watches the Trial While It Runs?\n\nA trial is not left alone until it ends\nAn independent data safety monitoring board (DSMB) reads the data as it comes in\nIt can stop a trial early for harm. The CAST trial’s board did exactly that in April 1989, when the drugs under test were killing patients (Cardiac Arrhythmia Suppression Trial (CAST) Investigators 1989)\nIt can also stop early for benefit — one arm is so clearly better that continuing the other is no longer fair\nEquipoise has a deadline. Once the evidence is in, the trial must end",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -13907,7 +13907,7 @@
     "href": "chapters/03a-clinical-research.html#the-same-machinery-today",
     "title": "Lecture 3 — Research Ethics",
     "section": "3.11 The Same Machinery, Today",
-    "text": "3.11 The Same Machinery, Today\n\nThe 2020 COVID-19 vaccine trials used the 1954 logic at modern scale. Tens of thousands of volunteers. Randomized. Double-blind. Placebo-controlled.\nThe primary endpoint was a clinical one — lab-confirmed symptomatic COVID-19. Not just an antibody level in the blood.\nAn independent monitoring board read the data at planned checkpoints.\nWhen the effect was large and the safety data was good enough, the FDA granted Emergency Use Authorization. Full approval came later, after more follow-up.\nSeventy years apart, the polio and COVID trials are the same instrument. Both used it carefully because the stakes were enormous.",
+    "text": "3.11 The Same Machinery, Today\n\nThe 2020 COVID-19 vaccine trials used the 1954 logic at modern scale: tens of thousands of volunteers, randomized, double-blind, placebo-controlled.\nThe primary endpoint was clinical, lab-confirmed symptomatic COVID-19, not an antibody level in the blood.\nAn independent monitoring board read the data at planned checkpoints.\nSeventy years apart, the polio and COVID trials are the same instrument. Both used it carefully because the stakes were enormous.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -13919,7 +13919,7 @@
     "href": "chapters/03a-clinical-research.html#what-are-we-even-measuring-endpoints",
     "title": "Lecture 3 — Research Ethics",
     "section": "4.1 What Are We Even Measuring? Endpoints",
-    "text": "4.1 What Are We Even Measuring? Endpoints\n\nA clinical endpoint is something a patient can feel or would obviously care about: living longer, avoiding a stroke, walking without pain.\nA surrogate endpoint is a stand-in. It is measured because it is faster or cheaper — a lab number, a scan finding, a blood pressure reading.\nSurrogates speed research up. But a treatment can move the surrogate and still not help patients. It can even harm them.\nThe classic warning is the CAST trial. Drugs that “fixed” an abnormal heart rhythm on the monitor actually increased deaths.\nSo the first question to ask of any trial is: did patients actually do better, or did a number just move?",
+    "text": "4.1 What Are We Even Measuring? Endpoints\n\nA clinical endpoint is something a patient can feel or would obviously care about: living longer, avoiding a stroke, walking without pain.\nA surrogate endpoint is a stand-in. It is measured because it is faster or cheaper — a lab number, a scan finding, a blood pressure reading.\nSurrogates speed research up. But a treatment can move the surrogate and still not help patients. It can even harm them.\nThe classic warning is CAST. Drugs that “fixed” an abnormal heart rhythm on the monitor increased deaths (Cardiac Arrhythmia Suppression Trial (CAST) Investigators 1989).\nSo the first question to ask of any trial is: did patients actually do better, or did a number just move?",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -13931,7 +13931,7 @@
     "href": "chapters/03a-clinical-research.html#could-it-just-be-chance",
     "title": "Lecture 3 — Research Ethics",
     "section": "4.2 Could It Just Be Chance?",
-    "text": "4.2 Could It Just Be Chance?\n\nAny two groups of people differ a little by luck, even if the treatment does nothing.\nStatistics ask one question: how likely is a difference this big if the treatment really had no effect?\n“Statistically significant” roughly means “probably not just luck.” It does not mean large, important, or certain.\nSmall trials are easily fooled by chance. That is why large samples and independent replication matter so much.\nA single significant result is a lead worth following. It is not a verdict to act on alone.",
+    "text": "4.2 Could It Just Be Chance?\n\nAny two groups differ a little by luck. Statistics ask how likely a difference this big is if the treatment did nothing.\n“Statistically significant” roughly means “probably not just luck.” It does not mean large, important, or certain.\nSmall trials are easily fooled by chance, which is why large samples and independent replication matter.\nSlice a trial into enough subgroups and some “fail” by luck. ISIS-2 proved aspirin saves lives, then reported it “failed” for Geminis and Libras, on purpose (ISIS-2 (Second International Study of Infarct Survival) Collaborative Group 1988).\nA single significant result is a lead worth following, not a verdict to act on alone.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -13943,7 +13943,7 @@
     "href": "chapters/03a-clinical-research.html#honest-trials-can-still-mislead",
     "title": "Lecture 3 — Research Ethics",
     "section": "4.3 Honest Trials Can Still Mislead",
-    "text": "4.3 Honest Trials Can Still Mislead\n\nA result can mislead even when no one lied or faked anything.\nWho got into the trial limits who the answer applies to. Narrow eligibility rules can leave out the very patients you treat.\nPeople who drop out are usually different from those who finish. So looking only at the “completers” quietly flatters the treatment.\nIntention-to-treat analysis is the standard guard against that. It counts everyone in the group they were randomized to, even if they quit.\nThe disciplined question is always: who is missing from this result, and which way would that bias it?",
+    "text": "4.3 Honest Trials Can Still Mislead\n\nA result can mislead even when no one lied or faked anything.\nWho got into the trial limits who the answer applies to. Narrow eligibility rules can leave out the very patients you treat.\nPeople who drop out are usually different from those who finish. So looking only at the “completers” quietly flatters the treatment.\nIntention-to-treat analysis is the standard guard against that. It counts everyone in the group they were randomized to, even if they quit.\nAlways ask who is missing from this result, and which way that would bias it.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -13955,7 +13955,7 @@
     "href": "chapters/03a-clinical-research.html#when-a-letter-becomes-evidence",
     "title": "Lecture 3 — Research Ethics",
     "section": "4.4 When a Letter Becomes “Evidence”",
-    "text": "4.4 When a Letter Becomes “Evidence”\n\nIn 1980, a five-sentence letter to the editor reported that, among hospitalized patients given opioids, addiction was rare (Porter and Jick 1980).\nIt was not a trial. No randomization. No control. No long-term or outpatient follow-up.\nOver the next two decades it was cited hundreds of times — as if it had proven that long-term outpatient opioids rarely cause addiction.\nThe lesson is exact. The type of study and who was in it cap what any result can support.\nHow that misreading was promoted is a research-integrity story we return to later. Here the point is simple: a letter is not an RCT.",
+    "text": "4.4 When a Letter Becomes “Evidence”\n\nIn 1980, a five-sentence letter to the editor by Porter and Jick reported that, among hospitalized patients given opioids, addiction was rare (Porter and Jick 1980).\nIt was not a trial. No randomization. No control. No long-term or outpatient follow-up.\nOver the next two decades it was cited hundreds of times — as if it had proven that long-term outpatient opioids rarely cause addiction.\nThe type of study and who was in it cap what any result can support. A letter is not an RCT.\nHow that misreading was promoted is a research-integrity story we return to in Part B.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -13967,7 +13967,7 @@
     "href": "chapters/03a-clinical-research.html#thought-question",
     "title": "Lecture 3 — Research Ethics",
     "section": "4.5 Thought Question",
-    "text": "4.5 Thought Question\n\nA new drug’s Phase III trial is reported as “positive.”\n\nIt significantly improved a surrogate marker on a scan.\nThe trial was small. About 25% of participants dropped out.\nThe analysis included only those who completed.\n\n\nName the three weaknesses you can already see.\nWhat would you want to know before telling a patient this drug “works”?\nIs “the FDA might approve it” the same as “it helps patients”?",
+    "text": "4.5 Thought Question\n\nA new drug’s Phase III trial is reported as “positive.”\n\nIt significantly improved a surrogate marker on a scan.\nThe trial was small. About 25% of participants dropped out.\nThe analysis included only those who completed.\n\n\nName the three weaknesses you can already see.\nWhat would you want to know before telling a patient this drug “works”?\nIs “the FDA might approve it” the same as “it helps patients”?\nRegulators sometimes grant accelerated approval on a surrogate endpoint, with a confirming trial promised later. Some confirming trials never finish. Is faster access worth weaker evidence?",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -13990,8 +13990,8 @@
     "objectID": "chapters/03a-clinical-research.html#after-youve-discussed-1",
     "href": "chapters/03a-clinical-research.html#after-youve-discussed-1",
     "title": "Lecture 3 — Research Ethics",
-    "section": "4.7 After You’ve Discussed",
-    "text": "4.7 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nThree distinctions to carry forward:\n\nStatistically significant ≠ clinically meaningful. A real but tiny effect on a surrogate can be true and still not worth having.\nRegulatory approval ≠ proven patient benefit. Approval is a decision under uncertainty, not a guarantee.\nThe standing questions are always the same: what was measured, in whom, and who is missing from the result?",
+    "section": "4.6 After You’ve Discussed",
+    "text": "4.6 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\n\nStatistically significant ≠ clinically meaningful. A real but tiny effect on a surrogate can be true and still not worth having.\nRegulatory approval ≠ proven patient benefit. Approval is a decision under uncertainty, not a guarantee.\nThe standing questions are always the same: what was measured, in whom, and who is missing from the result?",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -14027,7 +14027,7 @@
     "href": "chapters/03a-clinical-research.html#what-each-phase-is-really-asking",
     "title": "Lecture 3 — Research Ethics",
     "section": "5.3 What Each Phase Is Really Asking",
-    "text": "5.3 What Each Phase Is Really Asking\n\nPhase I is small. Often 15–30 people in cancer. It asks what dose is tolerable and what harms appear. Direct benefit is not the point. That is what makes it ethically hard (National Cancer Institute 2024).\nPhase II enrolls more people. It asks whether the treatment seems to work. Safety is still watched closely. Many promising drugs fail right here.\nPhase III is the large, usually randomized comparison against the best existing option. This is where placebo and control debates bite hardest. Its result becomes the new standard.\nPhase IV runs after approval. It catches rare harms and real-world performance that tightly controlled trials miss.\n“Clinical trial” is therefore not one thing. The same words cover wildly different risks, hopes, and likely benefits.",
+    "text": "5.3 What Each Phase Is Really Asking\n\nPhase I is small, often 15–30 people in cancer. It asks what dose is tolerable and what harms appear. Direct benefit is not the point, which is what makes it ethically hard (National Cancer Institute 2024).\nPhase II enrolls more people and asks whether the treatment seems to work. Many promising drugs fail here.\nPhase III is the large, usually randomized comparison against the best existing option. Its result becomes the new standard.\nPhase IV runs after approval and catches rare harms that controlled trials miss.\n“Clinical trial” is not one thing. Consent should match the phase, not follow a generic script.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -14111,7 +14111,7 @@
     "href": "chapters/03a-clinical-research.html#thought-question-1",
     "title": "Lecture 3 — Research Ethics",
     "section": "6.6 Thought Question",
-    "text": "6.6 Thought Question\n\nYou are a research nurse enrolling patients in a first-in-human cancer trial.\n\nA patient says, “If you are offering this, you must think it gives me the best chance.”\nThe oncologist who is also the principal investigator is standing beside you.\n\n\nWhat is the most important misunderstanding to correct?\nHow blunt should you be about the low chance of direct benefit?\nIf the patient says, “I know the odds are low, but I want to try anyway,” has the misconception been fixed?",
+    "text": "6.6 Thought Question\n\nYou are a research nurse enrolling patients in a first-in-human cancer trial.\n\nA patient says, “If you are offering this, you must think it gives me the best chance.”\nThe oncologist who is also the principal investigator is standing beside you.\n\n\nWhat is the most important misunderstanding to correct?\nHow blunt should you be about the low chance of direct benefit?\nIf the patient says, “I know the odds are low, but I want to try anyway,” has the misconception been fixed?\nDown the hall, a healthy adult joins a Phase I trial mainly because the payment covers two months of rent. Voluntary, yes. Equally informed, and equally free?",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -14134,8 +14134,8 @@
     "objectID": "chapters/03a-clinical-research.html#after-youve-discussed-2",
     "href": "chapters/03a-clinical-research.html#after-youve-discussed-2",
     "title": "Lecture 3 — Research Ethics",
-    "section": "6.8 After You’ve Discussed",
-    "text": "6.8 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nThree payoffs to insist on:\n\nHope is allowed. The goal is not to turn participants cynical. It is to keep hope from masquerading as evidence.\nMisunderstanding is not the same as irrationality. A person may fully understand that a study is not personal care and still choose it.\nThe hardest part is relational. When a trusted clinician recruits for a study, the burden to separate care from research falls more heavily on the professional, not less (World Medical Association 2024).",
+    "section": "6.7 After You’ve Discussed",
+    "text": "6.7 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\n\nHope is allowed. The goal is not to turn participants cynical. It is to keep hope from masquerading as evidence.\nMisunderstanding is not the same as irrationality. A person may fully understand that a study is not personal care and still choose it.\nThe hardest part is relational. When a trusted clinician recruits for a study, the burden to separate care from research falls more heavily on the professional, not less (World Medical Association 2024).",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -14195,7 +14195,7 @@
     "href": "chapters/03a-clinical-research.html#references",
     "title": "Lecture 3 — Research Ethics",
     "section": "7.5 References",
-    "text": "7.5 References\n\n\nAppelbaum, Paul S., Loren H. Roth, and Charles Lidz. 1982. “The Therapeutic Misconception: Informed Consent in Psychiatric Research.” International Journal of Law and Psychiatry 5 (3-4): 319–29. https://doi.org/10.1016/0160-2527(82)90026-7.\n\n\nEmanuel, Ezekiel J., David Wendler, and Christine Grady. 2000. “What Makes Clinical Research Ethical?” JAMA 283 (20): 2701–11. https://doi.org/10.1001/jama.283.20.2701.\n\n\nFrancis, Thomas et al. 1955. “An Evaluation of the 1954 Poliomyelitis Vaccine Trials: Summary Report.” American Journal of Public Health 45 (5): 1–63.\n\n\nNational Cancer Institute. 2024. How Do Clinical Trials Work? National Cancer Institute. https://www.cancer.gov/research/participate/clinical-trials/how-trials-work.\n\n\nPorter, Jane, and Hershel Jick. 1980. “Addiction Rare in Patients Treated with Narcotics.” New England Journal of Medicine 302 (2): 123. https://doi.org/10.1056/NEJM198001103020221.\n\n\nUS Department of Health and Human Services. 2018. Federal Policy for the Protection of Human Subjects (“the Common Rule”). Code of Federal Regulations, Title 45, Part 46. https://www.hhs.gov/ohrp/regulations-and-policy/regulations/common-rule/index.html.\n\n\nWorld Medical Association. 2024. WMA Declaration of Helsinki – Ethical Principles for Medical Research Involving Human Participants. Adopted by the 75th WMA General Assembly, Helsinki, Finland. https://www.wma.net/policies-post/wma-declaration-of-helsinki/.",
+    "text": "7.5 References\n\n\nAppelbaum, Paul S., Loren H. Roth, and Charles Lidz. 1982. “The Therapeutic Misconception: Informed Consent in Psychiatric Research.” International Journal of Law and Psychiatry 5 (3-4): 319–29. https://doi.org/10.1016/0160-2527(82)90026-7.\n\n\nCardiac Arrhythmia Suppression Trial (CAST) Investigators. 1989. “Preliminary Report: Effect of Encainide and Flecainide on Mortality in a Randomized Trial of Arrhythmia Suppression After Myocardial Infarction.” New England Journal of Medicine 321 (6): 406–12. https://doi.org/10.1056/NEJM198908103210629.\n\n\nEmanuel, Ezekiel J., David Wendler, and Christine Grady. 2000. “What Makes Clinical Research Ethical?” JAMA 283 (20): 2701–11. https://doi.org/10.1001/jama.283.20.2701.\n\n\nFrancis, Thomas et al. 1955. “An Evaluation of the 1954 Poliomyelitis Vaccine Trials: Summary Report.” American Journal of Public Health 45 (5): 1–63.\n\n\nISIS-2 (Second International Study of Infarct Survival) Collaborative Group. 1988. “Randomised Trial of Intravenous Streptokinase, Oral Aspirin, Both, or Neither Among 17,187 Cases of Suspected Acute Myocardial Infarction: ISIS-2.” The Lancet 2 (8607): 349–60.\n\n\nLind, James. 1753. A Treatise of the Scurvy. Sands, Murray; Cochran.\n\n\nMedical Research Council. 1948. “Streptomycin Treatment of Pulmonary Tuberculosis.” British Medical Journal 2 (4582): 769–82.\n\n\nNational Cancer Institute. 2024. How Do Clinical Trials Work? National Cancer Institute. https://www.cancer.gov/research/participate/clinical-trials/how-trials-work.\n\n\nPorter, Jane, and Hershel Jick. 1980. “Addiction Rare in Patients Treated with Narcotics.” New England Journal of Medicine 302 (2): 123. https://doi.org/10.1056/NEJM198001103020221.\n\n\nSemmelweis, Ignaz. 1861. Die Aetiologie, Der Begriff Und Die Prophylaxis Des Kindbettfiebers. C. A. Hartleben.\n\n\nUS Department of Health and Human Services. 2018. Federal Policy for the Protection of Human Subjects (“the Common Rule”). Code of Federal Regulations, Title 45, Part 46. https://www.hhs.gov/ohrp/regulations-and-policy/regulations/common-rule/index.html.\n\n\nWorld Medical Association. 2024. WMA Declaration of Helsinki – Ethical Principles for Medical Research Involving Human Participants. Adopted by the 75th WMA General Assembly, Helsinki, Finland. https://www.wma.net/policies-post/wma-declaration-of-helsinki/.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -22684,5 +22684,62 @@
     "title": "Lecture 2 — History & the Clinical Relationship",
     "section": "Before We Start",
     "text": "Before We Start\n\nMrs. R is 61, in for fatigue and weight loss. The colonoscopy found colon cancer — serious, but treatable. She is frightened, and her daughter Dana does most of the talking. Mrs. R asks: “So what happens now?”\nFour residents tell you how they would answer her:\n\n“I’d lay out all three options with the survival numbers and let her pick.”\n“I’d tell her what I’d weigh in her shoes, and why, then ask what she thinks.”\n“I’d tell her the right move is surgery and get her scheduled. She’s frightened; she needs a plan.”\n“I’d ask what matters most to her — more time, or fewer side effects — before we talk options.”\n\n\nYou are the attending. Which resident do you back, and what do you say to the other three?\nIs any of them simply wrong, or does it depend on the patient?\n\n\n\nRead the four aloud, in four different voices. The facts never change across them; only what the clinician does with authority changes."
+  },
+  {
+    "objectID": "chapters/03a-clinical-research.html#two-wards-one-hospital",
+    "href": "chapters/03a-clinical-research.html#two-wards-one-hospital",
+    "title": "Lecture 3 — Research Ethics",
+    "section": "",
+    "text": "Vienna, 1847. You run the maternity hospital’s First Clinic. Women who deliver there die of “childbed fever” at about one in ten. In the Second Clinic it is under one in twenty-five. Same hospital, same kinds of patients.\n\nThe First Clinic is staffed by physicians and medical students; the Second by midwives.\nWomen beg to be admitted to the Second. Some give birth in the street rather than enter the First.\nWomen who deliver in the street and are admitted afterward almost never get the fever.\nA colleague has just died after cutting his finger at an autopsy. His illness looked exactly like childbed fever.\n\nHow would you figure out what is going on? What would you change — and how would you know it worked?\n\n\n\n\nIgnaz Semmelweis, engraving by Jenő Doby, 1860. Public domain (Wikimedia Commons).",
+    "crumbs": [
+      "Home",
+      "3. Research Ethics",
+      "Part A — How Clinical Research Works"
+    ]
+  },
+  {
+    "objectID": "chapters/03a-clinical-research.html#the-same-four-phases-covid-19-vaccines",
+    "href": "chapters/03a-clinical-research.html#the-same-four-phases-covid-19-vaccines",
+    "title": "Lecture 3 — Research Ethics",
+    "section": "5.2 The Same Four Phases: COVID-19 Vaccines",
+    "text": "5.2 The Same Four Phases: COVID-19 Vaccines\n\n\n\n\n\n\n\n\n\nPhase\nWhen\nScale\nWhat it answered\n\n\n\n\nI\nMarch 2020; first dose March 16\nAbout 45 people\nDose and safety\n\n\nII\nSpring to summer 2020\nHundreds\nImmune response; which dose to carry forward\n\n\nIII\nJuly to November 2020\nAbout 30,000 (Moderna); about 44,000 (Pfizer)\nRoughly 95% efficacy against placebo. Emergency authorization, December 2020\n\n\nIV\n2021 onward\nTens of millions\nMyocarditis in young men, detected through safety reporting in spring 2021. Full approval August 2021 (Pfizer) and January 2022 (Moderna)\n\n\n\nThe Phase IV row is the point of Phase IV: a rare harm too uncommon for a 30,000-person trial to see, caught once the vaccine reached tens of millions.",
+    "crumbs": [
+      "Home",
+      "3. Research Ethics",
+      "Part A — How Clinical Research Works"
+    ]
+  },
+  {
+    "objectID": "chapters/03a-clinical-research.html#six-trials-six-tools",
+    "href": "chapters/03a-clinical-research.html#six-trials-six-tools",
+    "title": "Lecture 3 — Research Ethics",
+    "section": "7.1 Six Trials, Six Tools",
+    "text": "7.1 Six Trials, Six Tools\n\n\n\n\n\n\n\n\nYear\nTrial\nThe tool it gave us\n\n\n\n\n1747\nLind, scurvy\nA controlled comparison: twelve sailors, six treatments\n\n\n1847\nSemmelweis, handwashing\nAn intervention with a natural control, but no randomization, and no one believed it\n\n\n1948\nMRC streptomycin\nRandomization. The drug was scarce, so chance was the fair way to allocate it\n\n\n1954\nSalk polio field trial\nPlacebo and blinding at scale: 1.8 million children\n\n\n1988\nISIS-2\nA warning about subgroups: aspirin “failed” for Geminis and Libras\n\n\n1989\nCAST\nA warning about surrogates: fixing the rhythm raised deaths\n\n\n\nEverything after 1847 is a tool Semmelweis did not have.",
+    "crumbs": [
+      "Home",
+      "3. Research Ethics",
+      "Part A — How Clinical Research Works"
+    ]
+  },
+  {
+    "objectID": "chapters/03a-clinical-research-slides.html#two-wards-one-hospital",
+    "href": "chapters/03a-clinical-research-slides.html#two-wards-one-hospital",
+    "title": "Lecture 3 — Research Ethics",
+    "section": "Two Wards, One Hospital",
+    "text": "Two Wards, One Hospital\n\n\n\nVienna, 1847. You run the maternity hospital’s First Clinic. Women who deliver there die of “childbed fever” at about one in ten. In the Second Clinic it is under one in twenty-five. Same hospital, same kinds of patients.\n\nThe First Clinic is staffed by physicians and medical students; the Second by midwives.\nWomen beg to be admitted to the Second. Some give birth in the street rather than enter the First.\nWomen who deliver in the street and are admitted afterward almost never get the fever.\nA colleague has just died after cutting his finger at an autopsy. His illness looked exactly like childbed fever.\n\nHow would you figure out what is going on? What would you change — and how would you know it worked?\n\n\n\n\nIgnaz Semmelweis, engraving by Jenő Doby, 1860. Public domain (Wikimedia Commons)."
+  },
+  {
+    "objectID": "chapters/03a-clinical-research-slides.html#the-same-four-phases-covid-19-vaccines",
+    "href": "chapters/03a-clinical-research-slides.html#the-same-four-phases-covid-19-vaccines",
+    "title": "Lecture 3 — Research Ethics",
+    "section": "The Same Four Phases: COVID-19 Vaccines",
+    "text": "The Same Four Phases: COVID-19 Vaccines\n\n\n\n\n\n\n\n\n\nPhase\nWhen\nScale\nWhat it answered\n\n\n\n\nI\nMarch 2020; first dose March 16\nAbout 45 people\nDose and safety\n\n\nII\nSpring to summer 2020\nHundreds\nImmune response; which dose to carry forward\n\n\nIII\nJuly to November 2020\nAbout 30,000 (Moderna); about 44,000 (Pfizer)\nRoughly 95% efficacy against placebo. Emergency authorization, December 2020\n\n\nIV\n2021 onward\nTens of millions\nMyocarditis in young men, detected through safety reporting in spring 2021. Full approval August 2021 (Pfizer) and January 2022 (Moderna)\n\n\n\nThe Phase IV row is the point of Phase IV: a rare harm too uncommon for a 30,000-person trial to see, caught once the vaccine reached tens of millions."
+  },
+  {
+    "objectID": "chapters/03a-clinical-research-slides.html#six-trials-six-tools",
+    "href": "chapters/03a-clinical-research-slides.html#six-trials-six-tools",
+    "title": "Lecture 3 — Research Ethics",
+    "section": "Six Trials, Six Tools",
+    "text": "Six Trials, Six Tools\n\n\n\n\n\n\n\n\nYear\nTrial\nThe tool it gave us\n\n\n\n\n1747\nLind, scurvy\nA controlled comparison: twelve sailors, six treatments\n\n\n1847\nSemmelweis, handwashing\nAn intervention with a natural control, but no randomization, and no one believed it\n\n\n1948\nMRC streptomycin\nRandomization. The drug was scarce, so chance was the fair way to allocate it\n\n\n1954\nSalk polio field trial\nPlacebo and blinding at scale: 1.8 million children\n\n\n1988\nISIS-2\nA warning about subgroups: aspirin “failed” for Geminis and Libras\n\n\n1989\nCAST\nA warning about surrogates: fixing the rhythm raised deaths\n\n\n\nEverything after 1847 is a tool Semmelweis did not have."
   }
 ]
