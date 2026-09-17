@@ -7828,7 +7828,7 @@
     "href": "chapters/03b-protecting-research-subjects.html",
     "title": "Lecture 3 — Research Ethics",
     "section": "",
-    "text": "Part A explained how trials work and how to read their results\nThe rules that protect participants were written after real abuses\nPart B asks a harder question: when does reviewed, legal, well-funded research still wrong people?\nOne idea organizes the whole lecture: vulnerability — who can be pressured, and who pays when knowledge is the goal\n\n\n\n\n\nBy the end of Part B, you will be able to:\n\nDefine vulnerability as a matter of power and pressure, not personality, using a working list of types\nApply the Belmont principles as concrete IRB review questions\nExplain clinical equipoise as the moral license that both starts and ends a trial\nJudge when placebo controls are and are not defensible, including across rich and poor settings\nShow how commercial funding distorts research, using the Markingson case\nExplain why so many published findings fail to replicate — and how AI magnifies the threat",
+    "text": "You sit on a research review board. This protocol lands on your desk:\n\nA 12-month placebo-controlled trial of a new Alzheimer’s drug. Participants: residents of one memory-care facility. Consent: signed by adult children as surrogates. Site chosen because “follow-up is easy — they don’t move.”\n\n\nWould you approve it? What bothers you, if anything?\nWhat single change would you require first?\nIs “easy follow-up” ever a fair reason to pick a population?",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -7839,8 +7839,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#the-new-question",
     "href": "chapters/03b-protecting-research-subjects.html#the-new-question",
     "title": "Lecture 3 — Research Ethics",
-    "section": "",
-    "text": "Part A explained how trials work and how to read their results\nThe rules that protect participants were written after real abuses\nPart B asks a harder question: when does reviewed, legal, well-funded research still wrong people?\nOne idea organizes the whole lecture: vulnerability — who can be pressured, and who pays when knowledge is the goal",
+    "section": "1.1 The New Question",
+    "text": "1.1 The New Question\n\nPart A explained how trials work and how to read their results\nThe rules that protect participants were written after real abuses\nPart B asks a harder question: when does reviewed, legal, well-funded research still wrong people?\nOne idea organizes the whole lecture: vulnerability — who can be pressured, and who pays when knowledge is the goal",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -7851,8 +7851,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#today",
     "href": "chapters/03b-protecting-research-subjects.html#today",
     "title": "Lecture 3 — Research Ethics",
-    "section": "",
-    "text": "By the end of Part B, you will be able to:\n\nDefine vulnerability as a matter of power and pressure, not personality, using a working list of types\nApply the Belmont principles as concrete IRB review questions\nExplain clinical equipoise as the moral license that both starts and ends a trial\nJudge when placebo controls are and are not defensible, including across rich and poor settings\nShow how commercial funding distorts research, using the Markingson case\nExplain why so many published findings fail to replicate — and how AI magnifies the threat",
+    "section": "1.2 Today",
+    "text": "1.2 Today\n\nBy the end of Part B, you will be able to:\n\nDefine vulnerability as a matter of power and pressure, not personality, using a working list of types\nApply the Belmont principles as concrete IRB review questions\nExplain clinical equipoise as the moral license that both starts and ends a trial\nJudge when placebo controls are and are not defensible, including across rich and poor settings\nShow how commercial funding distorts research, using the Markingson case\nExplain why so many published findings fail to replicate — and how AI magnifies the threat",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -7863,8 +7863,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#three-abuses-three-protections",
     "href": "chapters/03b-protecting-research-subjects.html#three-abuses-three-protections",
     "title": "Lecture 3 — Research Ethics",
-    "section": "2.1 Three Abuses, Three Protections",
-    "text": "2.1 Three Abuses, Three Protections\nModern research protections were built one scandal at a time.\n\n\n\n\n\n\n\n\nCase\nThe wrong\nWhat it forced into place\n\n\n\n\nNazi experiments\nNo real consent; extreme harm\nVoluntary consent; Nuremberg (Nuremberg Military Tribunals 1947)\n\n\nWillowbrook\nDependent children; coercive setting\nVulnerable-population protection; independent review (Jonsen 1998)\n\n\nTuskegee\nDeception; withheld treatment; racist selection\nBelmont: respect, beneficence, justice (Brandt 1978; National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research 1979)\n\n\n\nEach row is a failure on the left and the safeguard it forced on the right.",
+    "section": "1.3 Three Abuses, Three Protections",
+    "text": "1.3 Three Abuses, Three Protections\nModern research protections were built one scandal at a time.\n\n\n\n\n\n\n\n\nCase\nThe wrong\nWhat it forced into place\n\n\n\n\nNazi experiments\nNo real consent; extreme harm\nVoluntary consent; Nuremberg (Nuremberg Military Tribunals 1947)\n\n\nWillowbrook\nDependent children; coercive setting\nVulnerable-population protection; independent review (Jonsen 1998)\n\n\nTuskegee\nDeception; withheld treatment; racist selection\nBelmont: respect, beneficence, justice (Brandt 1978; National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research 1979)",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -7875,8 +7875,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#thought-question",
     "href": "chapters/03b-protecting-research-subjects.html#thought-question",
     "title": "Lecture 3 — Research Ethics",
-    "section": "2.2 Thought Question",
-    "text": "2.2 Thought Question\n\nWhat was the deepest wrong shared by these cases?\n\nPeople were used as means to an end\nPeople could not refuse freely\nPowerful institutions targeted the vulnerable\nResearchers treated knowledge as more important than persons\n\n\nWhich answer seems most central to you, and why?\nAre these really different wrongs, or different names for one wrong?\nToday the abuse rarely looks like camps or segregated wards. It may look like a confusing consent form, or recruiting the people least able to say no. What warning signs would still make you uneasy in a study that is legal, reviewed, and well funded?",
+    "section": "2.3 Thought Question",
+    "text": "2.3 Thought Question\n\nYou are on an IRB reviewing a vaccine study.\n\nDisease rates are high in prisons.\nResearchers want to recruit incarcerated people because follow-up will be easy.\nThey plan a modest payment and better clinic access for participants.\n\n\nWhich types of vulnerability are in play here at once?\nIs this fair inclusion, opportunistic targeting, or both?\nWould excluding prisoners entirely also create a justice problem?",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -7887,8 +7887,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#after-youve-discussed",
     "href": "chapters/03b-protecting-research-subjects.html#after-youve-discussed",
     "title": "Lecture 3 — Research Ethics",
-    "section": "2.3 After You’ve Discussed",
-    "text": "2.3 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nThree distinctions are worth keeping sharp:\n\nConsent failures, harm failures, and justice failures are not the same thing. Tuskegee had all three.\nThese cases are not only about cruelty. They are also about institutions finding reassuring language for doing the wrong thing.\nModern oversight exists because good intentions are not enough. The point is to distrust self-justification before the damage is done.",
+    "section": "2.4 After You’ve Discussed",
+    "text": "2.4 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\n\nName the pressures, then design against them. This study mixes juridic (incarceration), allocational (payment, clinic access), and infrastructural (will the vaccine reach them afterward?) vulnerability.\nInclusion and protection can conflict. Banning prison research protects against coercion. It can also deny prisoners the benefits of studies aimed at their own disease.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -7899,8 +7899,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#vulnerability-is-pressure-not-personality",
     "href": "chapters/03b-protecting-research-subjects.html#vulnerability-is-pressure-not-personality",
     "title": "Lecture 3 — Research Ethics",
-    "section": "3.1 Vulnerability Is Pressure, Not Personality",
-    "text": "3.1 Vulnerability Is Pressure, Not Personality\n\nEvery case above shares one feature. The people studied could not freely say no.\nVulnerability is not a kind of person. It is a kind of situation.\nThe questions that matter: who depends on whom? Who can walk away? What would refusing cost?\nJustice cuts both ways. Wrongful exploitation of the vulnerable and wrongful exclusion from research are both failures.",
+    "section": "2.1 Vulnerability Is Pressure, Not Personality",
+    "text": "2.1 Vulnerability Is Pressure, Not Personality\n\nEvery case above shares one feature. The people studied could not freely say no.\nVulnerability is not a kind of person. It is a kind of situation.\nThe questions that matter: who depends on whom? Who can walk away? What would refusing cost?\nJustice cuts both ways. Wrongful exploitation of the vulnerable and wrongful exclusion from research are both failures.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -7911,8 +7911,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#a-working-list-of-vulnerabilities",
     "href": "chapters/03b-protecting-research-subjects.html#a-working-list-of-vulnerabilities",
     "title": "Lecture 3 — Research Ethics",
-    "section": "3.2 A Working List of Vulnerabilities",
-    "text": "3.2 A Working List of Vulnerabilities\nKipnis’s types name what kind of pressure a participant is under. That is more useful than a list of “vulnerable groups.”\n\n\n\n\n\n\n\n\nType\nThe pressure\nExample\n\n\n\n\nCognitive\nCannot fully understand or weigh the choice\nDementia; acute psychosis\n\n\nJuridic\nUnder the authority of someone who wants enrollment\nPrisoners; committed patients\n\n\nDeferential\nSocially unable to refuse a trusted figure\nPatient recruited by own physician\n\n\nMedical\nDesperate; no good alternative\nTerminal illness, “nothing left to try”\n\n\nAllocational\nPoor; the study is a path to care or money\nPayment covers rent; trial is the only clinic\n\n\nInfrastructural\nThe setting cannot deliver on promises\nWeak health system; no drug supply after the trial",
+    "section": "2.2 A Working List of Vulnerabilities",
+    "text": "2.2 A Working List of Vulnerabilities\nKenneth Kipnis’s types name what kind of pressure a participant is under (Kipnis 2001).\n\n\n\n\n\n\n\n\nType\nThe pressure\nExample\n\n\n\n\nCognitive\nCannot fully understand or weigh the choice\nDementia; acute psychosis\n\n\nJuridic\nUnder the authority of someone who wants enrollment\nPrisoners; committed patients\n\n\nDeferential\nSocially unable to refuse a trusted figure\nPatient recruited by own physician\n\n\nMedical\nDesperate; no good alternative\nTerminal illness, “nothing left to try”\n\n\nAllocational\nPoor; the study is a path to care or money\nPayment covers rent; trial is the only clinic\n\n\nInfrastructural\nThe setting cannot deliver on promises\nWeak health system; no drug supply after the trial\n\n\n\nA wealthy patient recruited by her own oncologist is deferentially and medically vulnerable, though she is on no protected list.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -7935,8 +7935,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#thought-question-1",
     "href": "chapters/03b-protecting-research-subjects.html#thought-question-1",
     "title": "Lecture 3 — Research Ethics",
-    "section": "3.4 Thought Question",
-    "text": "3.4 Thought Question\n\nYou are on an IRB reviewing a vaccine study.\n\nDisease rates are high in prisons.\nResearchers want to recruit incarcerated people because follow-up will be easy.\nThey plan a modest payment and better clinic access for participants.\n\n\nWhich types of vulnerability are in play here at once?\nIs this fair inclusion, opportunistic targeting, or both?\nWould excluding prisoners entirely also create a justice problem?",
+    "section": "5.5 Thought Question",
+    "text": "5.5 Thought Question\n\nYou are on an ethics committee in 1997 reviewing a short-course AZT trial in Uganda.\n\nIn the sponsor country, the long-course regimen already works.\nIn the host country, that regimen is too expensive and complex for everyday use.\nThe study compares a shorter regimen to placebo.\n\n\nIs there real equipoise here — and equipoise about what?\nDoes local unavailability change what researchers ethically owe participants?\nWhat is owed after the study — do participants keep what worked?",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -7947,8 +7947,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#after-youve-discussed-1",
     "href": "chapters/03b-protecting-research-subjects.html#after-youve-discussed-1",
     "title": "Lecture 3 — Research Ethics",
-    "section": "3.5 After You’ve Discussed",
-    "text": "3.5 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\n\nName the pressures, then design against them. This study mixes juridic (incarceration), allocational (payment, clinic access), and infrastructural (will the vaccine reach them afterward?) vulnerability.\nInclusion and protection can conflict. Banning prison research protects against coercion. It can also deny prisoners the benefits of studies aimed at their own disease.",
+    "section": "5.6 After You’ve Discussed",
+    "text": "5.6 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nThis is allocational and infrastructural vulnerability by design.\n\n“Local standard” describes the world; it does not settle what is owed. A study can be feasible, even locally standard, and still exploitative — poverty is not a discount on human protections.\nPost-trial access is part of the ethics, not cleanup. Proving a regimen works and then taking it away uses the host community (Emanuel et al. 2004; World Medical Association 2024).",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -7959,8 +7959,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#belmont-in-one-slide",
     "href": "chapters/03b-protecting-research-subjects.html#belmont-in-one-slide",
     "title": "Lecture 3 — Research Ethics",
-    "section": "4.1 Belmont in One Slide",
-    "text": "4.1 Belmont in One Slide\n\nThe Belmont Report (1979) named three principles (National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research 1979)\nRespect for persons → real consent; extra care where vulnerability is highest\nBeneficence → minimize harm; justify risk against benefit\nJustice → who bears the burdens, who gets the benefits\nEach becomes a concrete question an IRB must ask of every study",
+    "section": "3.1 Belmont in One Slide",
+    "text": "3.1 Belmont in One Slide\n\n\n\nThe Belmont Report (1979) named three principles (National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research 1979)\nRespect for persons → real consent; extra care where vulnerability is highest\nBeneficence → minimize harm; justify risk against benefit\nJustice → who bears the burdens, who gets the benefits\nEach becomes a concrete question an IRB must ask of every study\n\n\n\n\nThe Belmont Report, 1979. U.S. Department of Health, Education, and Welfare. Public domain.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8007,8 +8007,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#the-clock-runs-out",
     "href": "chapters/03b-protecting-research-subjects.html#the-clock-runs-out",
     "title": "Lecture 3 — Research Ethics",
-    "section": "5.2 The Clock Runs Out",
-    "text": "5.2 The Clock Runs Out\n\nEquipoise is not permanent. Evidence builds up while the trial runs.\nAn independent monitoring board can stop a trial early for three reasons:\n\n\n\n\n\n\n\n\n\nTrigger\nWhat it means\nWhy stopping is required\n\n\n\n\nHarm\nOne arm is clearly hurting people\nContinuing knowingly harms participants\n\n\nBenefit\nOne arm is clearly better\nKeeping the other arm is no longer fair\n\n\nFutility\nThe question cannot be answered\nMore risk buys no knowledge\n\n\n\n\nWhen the uncertainty resolves, the moral license expires. The trial must end.",
+    "section": "4.1 The Clock Runs Out",
+    "text": "4.1 The Clock Runs Out\n\nPart A’s license to randomize was clinical equipoise: the expert community’s honest “we do not yet know,” a standard Benjamin Freedman named in 1987 (Freedman 1987)\nEquipoise is not permanent. Evidence builds up while the trial runs.\nAn independent monitoring board can stop a trial early for three reasons:\n\n\n\n\n\n\n\n\n\nTrigger\nWhat it means\nWhy stopping is required\n\n\n\n\nHarm\nOne arm is clearly hurting people\nContinuing knowingly harms participants\n\n\nBenefit\nOne arm is clearly better\nKeeping the other arm is no longer fair\n\n\nFutility\nThe question cannot be answered\nMore risk buys no knowledge\n\n\n\n\nWhen the uncertainty resolves, the moral license expires. The trial must end.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8019,8 +8019,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#stopping-early-is-not-free",
     "href": "chapters/03b-protecting-research-subjects.html#stopping-early-is-not-free",
     "title": "Lecture 3 — Research Ethics",
-    "section": "5.3 Stopping Early Is Not Free",
-    "text": "5.3 Stopping Early Is Not Free\n\nA counterintuitive fact. Trials stopped early for benefit tend to overstate how well the treatment works.\nRandom luck swings hardest in small samples. A trial that stops the moment results look great may have stopped on a lucky high point. This is why monitoring boards use strict statistical rules, not “it looks good enough.” Stopping early is both an ethical and a scientific judgment.",
+    "section": "4.2 Stopping Early Is Not Free",
+    "text": "4.2 Stopping Early Is Not Free\n\nA counterintuitive fact. Trials stopped early for benefit tend to overstate how well the treatment works.\nRandom luck swings hardest in small samples. A trial that stops the moment results look great may have stopped on a lucky high point. This is why monitoring boards use strict statistical rules, not “it looks good enough.” Stopping early is both an ethical and a scientific judgment: it protects participants and leaves the public with weaker evidence.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8043,8 +8043,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#where-equipoise-runs-out",
     "href": "chapters/03b-protecting-research-subjects.html#where-equipoise-runs-out",
     "title": "Lecture 3 — Research Ethics",
-    "section": "5.5 Where Equipoise Runs Out",
-    "text": "5.5 Where Equipoise Runs Out\nEquipoise is a powerful idea, but it is not the answer to every research-ethics question.\n\nPhase I trials don’t have arms to compare. A first-in-human dose-finding study exposes participants to risk for very little personal benefit. There is no equipoise to invoke. The framework is risk-benefit plus informed consent.\nMiller and Brody’s critique. Equipoise treats the trial investigator as if she were the participant’s doctor, with a duty not to give a worse option. But research aims at knowledge for future patients, not care for this one. On their view, equipoise quietly imports the therapeutic misconception into the rulebook.\nStopping early cuts both ways. When a monitoring board stops a trial for benefit, equipoise says it must — uncertainty has resolved. But the public gets weaker evidence: smaller samples, missed long-term harms, possibly overstated effects. Subject welfare and public knowledge can pull apart.\n\nThe takeaway is not that equipoise is wrong. It is that equipoise is the right frame for the middle of research ethics — comparative trials of real treatments — and the wrong frame for the edges.",
+    "section": "4.3 Where Equipoise Runs Out",
+    "text": "4.3 Where Equipoise Runs Out\nEquipoise does not answer every research-ethics question.\n\nPhase I trials have no arms to compare. A first-in-human dose-finding study exposes participants to risk for little personal benefit. The framework there is risk-benefit plus informed consent.\nMiller and Brody’s critique. Equipoise treats the investigator as the participant’s doctor, with a duty not to give a worse option. But research aims at knowledge for future patients. On their view, equipoise imports the therapeutic misconception into the rulebook (Miller and Brody 2003).\nEquipoise fits the middle of research ethics, comparative trials of real treatments, and fits the edges poorly.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8055,8 +8055,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#helsinkis-placebo-rule",
     "href": "chapters/03b-protecting-research-subjects.html#helsinkis-placebo-rule",
     "title": "Lecture 3 — Research Ethics",
-    "section": "6.1 Helsinki’s Placebo Rule",
-    "text": "6.1 Helsinki’s Placebo Rule\n\nThe Declaration of Helsinki says new treatments should usually be tested against the best proven option (World Medical Association 2024)\nPlacebo is acceptable if no proven treatment exists, or for strong scientific reasons\nBut not if participants risk serious or permanent harm by going without proven treatment (World Medical Association 2024)\nThat last condition is the one people fight about. And it is an equipoise fight.",
+    "section": "5.1 Helsinki’s Placebo Rule",
+    "text": "5.1 Helsinki’s Placebo Rule\n\nThe Declaration of Helsinki says new treatments should usually be tested against the best proven option (World Medical Association 2024)\nPlacebo is acceptable if no proven treatment exists, or for strong scientific reasons, but not if participants risk serious or permanent harm by going without proven treatment\nMost fights about that last condition are fights about whether equipoise exists\n“A proven treatment already exists” means there is no real uncertainty, so a placebo arm sends people to a known-worse option\n“The proven treatment cannot be delivered here” means uncertainty about feasible options remains",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8067,8 +8067,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#the-azt-trials-in-five-lines",
     "href": "chapters/03b-protecting-research-subjects.html#the-azt-trials-in-five-lines",
     "title": "Lecture 3 — Research Ethics",
-    "section": "6.2 The AZT Trials in Five Lines",
-    "text": "6.2 The AZT Trials in Five Lines\n\nIn 1994, a long-course AZT regimen reduced mother-to-baby HIV transmission\nThat regimen was expensive and hard to deliver in many low-resource settings\nLater trials tested shorter, cheaper regimens, often against placebo\nCritics: this withheld a known effective treatment (Lurie and Wolfe 1997)\nDefenders: the real question was what feasible strategy could work where the long regimen was not available (Varmus and Satcher 1997)",
+    "section": "5.2 The AZT Trials in Five Lines",
+    "text": "5.2 The AZT Trials in Five Lines\n\n\n\nIn 1994, a long-course AZT regimen reduced mother-to-baby HIV transmission\nThat regimen was expensive and hard to deliver in many low-resource settings\nLater trials tested shorter, cheaper regimens, often against placebo\nCritics: this withheld a known effective treatment (Lurie and Wolfe 1997)\nDefenders: the real question was what feasible strategy could work where the long regimen was not available (Varmus and Satcher 1997)\n\n\n\n\nHIV-1 budding from a lymphocyte. CDC Public Health Image Library, #10000 (C. Goldsmith). Public domain.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8079,8 +8079,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#two-famous-positions",
     "href": "chapters/03b-protecting-research-subjects.html#two-famous-positions",
     "title": "Lecture 3 — Research Ethics",
-    "section": "6.3 Two Famous Positions",
-    "text": "6.3 Two Famous Positions\n\n\nLurie and Wolfe (Lurie and Wolfe 1997)\n\nA proven regimen already existed\nPlacebo meant withholding known benefit\nPoverty must not lower the ethical standard\nPoorer countries should not get weaker protections\n\n\nVarmus and Satcher (Varmus and Satcher 1997)\n\nThe long regimen was not realistically deliverable\nA shorter regimen might still save lives at scale\nThe relevant comparison had to include feasibility\nBlocking the trial preserves principle but blocks benefit",
+    "section": "5.3 Two Famous Positions",
+    "text": "5.3 Two Famous Positions\n\n\nLurie and Wolfe (Lurie and Wolfe 1997)\n\nA proven regimen already existed\nPlacebo meant withholding known benefit\nPoverty must not lower the ethical standard\nPoorer countries should not get weaker protections\n\n\nVarmus and Satcher (Varmus and Satcher 1997)\n\nThe long regimen was not realistically deliverable\nA shorter regimen might still save lives at scale\nThe relevant comparison had to include feasibility\nBlocking the trial preserves principle but blocks benefit",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8091,8 +8091,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#a-placebo-decision-tree",
     "href": "chapters/03b-protecting-research-subjects.html#a-placebo-decision-tree",
     "title": "Lecture 3 — Research Ethics",
-    "section": "6.4 A Placebo Decision Tree",
-    "text": "6.4 A Placebo Decision Tree\n\n\n\n\n\n\n\nplacebo\n\n\nA\n\nDoes a best proven\nintervention exist?\n\n\n\nB\n\nPlacebo may be\neasier to justify\n\n\n\nA-&gt;B\n\n\nno\n\n\n\nC\n\nWould withholding it risk\nserious or permanent harm?\n\n\n\nA-&gt;C\n\n\nyes\n\n\n\nD\n\nPlacebo is a major\nethical red flag\n\n\n\nC-&gt;D\n\n\nyes\n\n\n\nE\n\nIs placebo genuinely\nneeded for the science?\n\n\n\nC-&gt;E\n\n\nno\n\n\n\nF\n\nUse active-control\ndesign instead\n\n\n\nE-&gt;F\n\n\nno\n\n\n\nG\n\nApprove only with\nstrong reasons and protections\n\n\n\nE-&gt;G\n\n\nyes\n\n\n\n\n A simple placebo decision tree. Each diamond is really a question about whether genuine equipoise exists. Real IRB review is more detailed.",
+    "section": "5.4 A Placebo Decision Tree",
+    "text": "5.4 A Placebo Decision Tree\n\n\n\n\n\n\n\nplacebo\n\n\nA\n\nDoes a best proven\nintervention exist?\n\n\n\nB\n\nPlacebo may be\neasier to justify\n\n\n\nA-&gt;B\n\n\nno\n\n\n\nC\n\nWould withholding it risk\nserious or permanent harm?\n\n\n\nA-&gt;C\n\n\nyes\n\n\n\nD\n\nPlacebo is a major\nethical red flag\n\n\n\nC-&gt;D\n\n\nyes\n\n\n\nE\n\nIs placebo genuinely\nneeded for the science?\n\n\n\nC-&gt;E\n\n\nno\n\n\n\nF\n\nUse active-control\ndesign instead\n\n\n\nE-&gt;F\n\n\nno\n\n\n\nG\n\nApprove only with\nstrong reasons and protections\n\n\n\nE-&gt;G\n\n\nyes\n\n\n\n\n A simple placebo decision tree. Each diamond is really a question about whether genuine equipoise exists. Real IRB review is more detailed.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8103,8 +8103,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#thought-question-2",
     "href": "chapters/03b-protecting-research-subjects.html#thought-question-2",
     "title": "Lecture 3 — Research Ethics",
-    "section": "6.5 Thought Question",
-    "text": "6.5 Thought Question\n\nYou are on an ethics committee in 1997 reviewing a short-course AZT trial in Uganda.\n\nIn the sponsor country, the long-course regimen already works.\nIn the host country, that regimen is too expensive and complex for everyday use.\nThe study compares a shorter regimen to placebo.\n\n\nIs there real equipoise here — and equipoise about what?\nDoes local unavailability change what researchers ethically owe participants?\nWhat is owed after the study — do participants keep what worked?",
+    "section": "6.3 Thought Question",
+    "text": "6.3 Thought Question\n\nYou give a blood sample for a routine test. A leftover vial is stored. Years later it is used — with your name removed — in genetic research and a profitable diagnostic. You were never asked. A broad intake form said “samples may be used for research.”\n\nWas that consent meaningful?\nDo you have a claim to a say — or a share — in what was discovered?\nIs “deidentified” enough, when the sample is DNA that can re-identify you and your relatives?",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8115,8 +8115,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#after-youve-discussed-2",
     "href": "chapters/03b-protecting-research-subjects.html#after-youve-discussed-2",
     "title": "Lecture 3 — Research Ethics",
-    "section": "6.6 After You’ve Discussed",
-    "text": "6.6 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nThis is allocational and infrastructural vulnerability by design.\n\n“Local standard” describes the world; it does not settle what is owed. A study can be feasible, even locally standard, and still exploitative — poverty is not a discount on human protections.\nPost-trial access is part of the ethics, not cleanup. Proving a regimen works and then taking it away uses the host community (Emanuel et al. 2004; World Medical Association 2024).",
+    "section": "6.4 After You’ve Discussed",
+    "text": "6.4 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\n\nConsent for this study is not consent for all future research. Tissue and data banks rely on broad consent. Useful, but ethically thinner than specific consent.\nBenefit-sharing is part of justice. If people make a discovery possible, who profits is an ethical question, not an afterthought.\n“Deidentified” weakens but does not erase the stake. Genomic data can re-identify, and can implicate relatives who never agreed.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8127,8 +8127,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#henrietta-lacks",
     "href": "chapters/03b-protecting-research-subjects.html#henrietta-lacks",
     "title": "Lecture 3 — Research Ethics",
-    "section": "7.1 Henrietta Lacks",
-    "text": "7.1 Henrietta Lacks\n\nIn 1951, Henrietta Lacks, a Black woman, was treated for cervical cancer\nWithout her knowledge, cells from her tumor were taken and grown\nThey became HeLa — the first immortal human cell line, used in countless studies and products\nShe was never asked. Her family was not told for decades. They shared in none of the benefit.\nNo drug, no placebo, no “arm” — and still a major research-ethics failure. The vulnerability here was never being asked at all.",
+    "section": "6.1 Henrietta Lacks",
+    "text": "6.1 Henrietta Lacks\n\n\n\nIn 1951 Henrietta Lacks, a Black woman, was treated for cervical cancer at Johns Hopkins\nWithout her knowledge, cells from her tumor were taken and grown\nThey became HeLa, the first immortal human cell line, used in countless studies and products\nShe was never asked. Her family was not told for decades, and shared in none of the benefit.\nNo drug, no placebo, no “arm,” and still a major research-ethics failure. The vulnerability here was never being asked at all.\n\n\n\n\nHeLa cells, fluorescence micrograph. National Institutes of Health. Public domain.\n\n\n\n\nThe image is of her cells, not of her. That is a choice, given what this slide is about.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8139,8 +8139,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#what-the-rules-now-require",
     "href": "chapters/03b-protecting-research-subjects.html#what-the-rules-now-require",
     "title": "Lecture 3 — Research Ethics",
-    "section": "7.2 What the Rules Now Require",
-    "text": "7.2 What the Rules Now Require\n\nUS human-subjects research follows the Common Rule, rewritten in 2018 (US Department of Health and Human Services 2018)\nConsent forms must open with a short “key information” summary in plain language\nBroad consent: a person can agree once to future, unspecified research on stored samples and data\nMost multi-site studies now use a single IRB instead of one per site\nBroad consent is more honest than silence. It is also ethically thinner than asking each time.",
+    "section": "6.2 What the Rules Now Require",
+    "text": "6.2 What the Rules Now Require\n\nUS human-subjects research follows the Common Rule, rewritten in 2018 (US Department of Health and Human Services 2018)\nConsent forms must open with a short “key information” summary in plain language\nBroad consent: a person can agree once to future, unspecified research on stored samples and data\nMost multi-site studies now use a single IRB instead of one per site\nBroad consent is more honest than silence. It is also ethically thinner than asking each time.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8151,8 +8151,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#thought-question-3",
     "href": "chapters/03b-protecting-research-subjects.html#thought-question-3",
     "title": "Lecture 3 — Research Ethics",
-    "section": "7.3 Thought Question",
-    "text": "7.3 Thought Question\n\nYou give a blood sample for a routine test. A leftover vial is stored. Years later it is used — with your name removed — in genetic research and a profitable diagnostic. You were never asked. A broad intake form said “samples may be used for research.”\n\nWas that consent meaningful?\nDo you have a claim to a say — or a share — in what was discovered?\nIs “deidentified” enough, when the sample is DNA that can re-identify you and your relatives?",
+    "section": "7.5 Thought Question",
+    "text": "7.5 Thought Question\n\nA patient newly diagnosed with a serious illness is offered a trial by the physician she trusts most — her own specialist. The specialist receives per-patient payments from the sponsor for each person enrolled.\n\nWhich vulnerability types is she under, before any form is signed?\nIs disclosure of the payment enough to fix the problem? Why or why not?\nWhat single structural change would most reduce the conflict?",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8163,8 +8163,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#after-youve-discussed-3",
     "href": "chapters/03b-protecting-research-subjects.html#after-youve-discussed-3",
     "title": "Lecture 3 — Research Ethics",
-    "section": "7.4 After You’ve Discussed",
-    "text": "7.4 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\n\nConsent for this study is not consent for all future research. Tissue and data banks rely on broad consent. Useful, but ethically thinner than specific consent.\nBenefit-sharing is part of justice. If people make a discovery possible, who profits is an ethical question, not an afterthought.\n“Deidentified” weakens but does not erase the stake. Genomic data can re-identify, and can implicate relatives who never agreed.",
+    "section": "7.6 After You’ve Discussed",
+    "text": "7.6 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\n\nConflict of interest is structural, not just moral. Honest people in a bad structure still produce biased enrollment.\nDisclosure is the floor, not the fix. Telling someone about a conflict does not neutralize it. Separating the roles does.\nThe treating clinician is the highest-pressure recruiter, which is why independent recruitment and review exist.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8175,8 +8175,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#the-structural-conflict",
     "href": "chapters/03b-protecting-research-subjects.html#the-structural-conflict",
     "title": "Lecture 3 — Research Ethics",
-    "section": "8.1 The Structural Conflict",
-    "text": "8.1 The Structural Conflict\n\nMost clinical trials are now funded by the companies that profit if the drug succeeds\nIndustry funding is not wrong by itself. But it builds in a conflict of interest.\nWatch three roles: who funds, who recruits, and who reviews\nThe danger peaks when the same people, paid by the sponsor, also treat and enroll the patient\nThis is deferential and medical vulnerability meeting a financial incentive",
+    "section": "7.1 The Structural Conflict",
+    "text": "7.1 The Structural Conflict\n\nMost clinical trials are now funded by the companies that profit if the drug succeeds\nIndustry funding is not wrong by itself. But it builds in a conflict of interest.\nWatch three roles: who funds, who recruits, and who reviews\nThe danger peaks when the same people, paid by the sponsor, also treat and enroll the patient\nThis is deferential and medical vulnerability meeting a financial incentive",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8187,8 +8187,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#the-markingson-case",
     "href": "chapters/03b-protecting-research-subjects.html#the-markingson-case",
     "title": "Lecture 3 — Research Ethics",
-    "section": "8.2 The Markingson Case",
-    "text": "8.2 The Markingson Case\n\nDan Markingson, University of Minnesota, 2003–2004. A young man with acute psychosis was placed under an involuntary commitment order. His treating psychiatrist enrolled him in the industry-funded CAFÉ antipsychotic trial. He was facing commitment to a state hospital if he did not cooperate with his treatment team. His mother repeatedly warned that he was getting worse. He died by suicide during the study.",
+    "section": "7.2 The Markingson Case",
+    "text": "7.2 The Markingson Case\n\nDan Markingson, University of Minnesota, 2003–2004. A young man with acute psychosis was placed under an involuntary commitment order. His treating psychiatrist enrolled him in the industry-funded CAFÉ antipsychotic trial. He was facing commitment to a state hospital if he did not cooperate with his treatment team. His mother repeatedly warned that he was getting worse. He died by suicide during the study.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8199,8 +8199,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#what-the-2015-review-found",
     "href": "chapters/03b-protecting-research-subjects.html#what-the-2015-review-found",
     "title": "Lecture 3 — Research Ethics",
-    "section": "8.3 What the 2015 Review Found",
-    "text": "8.3 What the 2015 Review Found\n\nMarkingson was, in the state auditor’s words, “extraordinarily vulnerable” — committed, psychotic, with no real freedom to refuse (Office of the Legislative Auditor, State of Minnesota 2015)\nInvestigators and the IRB chair had financial ties to the sponsor. That gave them a reason to enroll and keep subjects (Office of the Legislative Auditor, State of Minnesota 2015)\nThe University’s review of his death was shallow. It did not look at medical records or seek outside information.\nBioethicist Carl Elliott spent years pressing for accountability. The university pushed back (Elliott 2010).\nEvery vulnerability type from earlier is here at once: cognitive, juridic, deferential, medical",
+    "section": "7.3 What the 2015 Review Found",
+    "text": "7.3 What the 2015 Review Found\n\nMarkingson was, in the state auditor’s words, “extraordinarily vulnerable” — committed, psychotic, with no real freedom to refuse (Office of the Legislative Auditor, State of Minnesota 2015)\nInvestigators and the IRB chair had financial ties to the sponsor. That gave them a reason to enroll and keep subjects (Office of the Legislative Auditor, State of Minnesota 2015)\nThe University’s review of his death was shallow. It did not look at medical records or seek outside information.\nBioethicist Carl Elliott spent years pressing for accountability. The university pushed back (Elliott 2010).\nEvery vulnerability type from earlier is here at once: cognitive, juridic, deferential, medical",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8211,8 +8211,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#disclosure-is-not-a-firewall",
     "href": "chapters/03b-protecting-research-subjects.html#disclosure-is-not-a-firewall",
     "title": "Lecture 3 — Research Ethics",
-    "section": "8.4 Disclosure Is Not a Firewall",
-    "text": "8.4 Disclosure Is Not a Firewall\nA well-designed system does not rely on good intentions. It builds structure.\n\n\n\n\n\n\n\nWeak safeguard\nStronger safeguard\n\n\n\n\nInvestigator discloses COI on a form\nRecruitment done by someone with no stake in enrollment\n\n\nSponsor analyzes its own data\nIndependent monitoring board and statisticians\n\n\nTreating doctor also enrolls the patient\nSeparation of the care role from the research role\n\n\nInstitution investigates itself\nOutside, empowered review when harm occurs",
+    "section": "7.4 Disclosure Is Not a Firewall",
+    "text": "7.4 Disclosure Is Not a Firewall\nA well-designed system does not rely on good intentions. It builds structure.\n\n\n\n\n\n\n\nWeak safeguard\nStronger safeguard\n\n\n\n\nInvestigator discloses COI on a form\nRecruitment done by someone with no stake in enrollment\n\n\nSponsor analyzes its own data\nIndependent monitoring board and statisticians\n\n\nTreating doctor also enrolls the patient\nSeparation of the care role from the research role\n\n\nInstitution investigates itself\nOutside, empowered review when harm occurs",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8223,8 +8223,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#thought-question-4",
     "href": "chapters/03b-protecting-research-subjects.html#thought-question-4",
     "title": "Lecture 3 — Research Ethics",
-    "section": "8.5 Thought Question",
-    "text": "8.5 Thought Question\n\nA patient newly diagnosed with a serious illness is offered a trial by the physician she trusts most — her own specialist. The specialist receives per-patient payments from the sponsor for each person enrolled.\n\nWhich vulnerability types is she under, before any form is signed?\nIs disclosure of the payment enough to fix the problem? Why or why not?\nWhat single structural change would most reduce the conflict?",
+    "section": "8.7 Thought Question",
+    "text": "8.7 Thought Question\n\nA landmark drug trial is later found to contain manipulated data. Thousands of patients were treated based on it. (Recall the opioid story from Part A: a single misread letter, heavily promoted, helped launch a crisis.)\n\nWho was wronged — the study’s participants, future patients, or both?\nIs faking data a worse research-ethics violation than a consent failure, or just a different one?\nWhy does the system usually catch this slowly — and what would catch it sooner?",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8235,8 +8235,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#after-youve-discussed-4",
     "href": "chapters/03b-protecting-research-subjects.html#after-youve-discussed-4",
     "title": "Lecture 3 — Research Ethics",
-    "section": "8.6 After You’ve Discussed",
-    "text": "8.6 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\n\nConflict of interest is structural, not just moral. Honest people in a bad structure still produce biased enrollment.\nDisclosure is the floor, not the fix. Telling someone about a conflict does not neutralize it. Separating the roles does.\nThe treating clinician is the highest-pressure recruiter. That is exactly why independent recruitment and review exist.",
+    "section": "8.8 After You’ve Discussed",
+    "text": "8.8 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\n\nIntegrity is a subject-protection issue too. A false result is not just an academic error. It is the knee surgery, the hormone pill, the amyloid infusion that thousands of real people endured for nothing.\nThe safeguards are thin by design — science runs on trust and occasional replication — so the fixes are structural: preregistration, data sharing, independent replication, faster retractions.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8247,8 +8247,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#protecting-participants-is-not-enough",
     "href": "chapters/03b-protecting-research-subjects.html#protecting-participants-is-not-enough",
     "title": "Lecture 3 — Research Ethics",
-    "section": "9.1 Protecting Participants Is Not Enough",
-    "text": "9.1 Protecting Participants Is Not Enough\n\nA clean consent process does not guarantee trustworthy knowledge\nThe US Office of Research Integrity names three core wrongs:\n\nFabrication — making up data\nFalsification — manipulating data, images, or results\nPlagiarism — passing off others’ work as your own\n\nA faked study can change treatment for millions before anyone notices. The wronged party is now the future patient.",
+    "section": "8.1 Protecting Participants Is Not Enough",
+    "text": "8.1 Protecting Participants Is Not Enough\n\nA clean consent process does not guarantee trustworthy knowledge\nThe US Office of Research Integrity names three core wrongs:\n\nFabrication — making up data\nFalsification — manipulating data, images, or results\nPlagiarism — passing off others’ work as your own\n\nA faked study can change treatment for millions before anyone notices. The wronged party is now the future patient.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8259,8 +8259,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#why-so-many-findings-are-false",
     "href": "chapters/03b-protecting-research-subjects.html#why-so-many-findings-are-false",
     "title": "Lecture 3 — Research Ethics",
-    "section": "9.2 Why So Many Findings Are False",
-    "text": "9.2 Why So Many Findings Are False\nA landmark paper said most published findings can be wrong (Ioannidis 2005). Four reasons:\n\nLow base rate — most hypotheses tested are false to start with\nSmall studies — easily swung by chance\nResearcher flexibility — many small choices, each nudging toward “significant”\nPublication bias — positive results get printed. Null results vanish.",
+    "section": "8.2 Why So Many Findings Are False",
+    "text": "8.2 Why So Many Findings Are False\nA landmark paper by John Ioannidis argued that most published findings can be wrong (Ioannidis 2005). Four reasons:\n\nLow base rate — most hypotheses tested are false to start with\nSmall studies — easily swung by chance\nResearcher flexibility — p-hacking (trying analyses until one crosses the line) and HARKing (hypothesizing after the results are known). Neither requires lying (Simmons et al. 2011). Part A’s ISIS-2 showed the mechanism: test enough subgroups and aspirin “fails” for Geminis.\nPublication bias — positive results get printed. Null results vanish.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8283,8 +8283,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#it-is-systemic-not-rare",
     "href": "chapters/03b-protecting-research-subjects.html#it-is-systemic-not-rare",
     "title": "Lecture 3 — Research Ethics",
-    "section": "9.4 It Is Systemic, Not Rare",
-    "text": "9.4 It Is Systemic, Not Rare\n\nPsychology: a large replication project reproduced only about 39% of published findings (Open Science Collaboration 2015)\nPreclinical cancer: one team could confirm just 6 of 53 landmark studies (Begley and Ellis 2012)\nThese are not fringe journals. They are the literature clinicians rely on.\n“Published” and “peer-reviewed” are a floor, not a guarantee",
+    "section": "8.3 It Is Systemic, Not Rare",
+    "text": "8.3 It Is Systemic, Not Rare\n\nPsychology: a large replication project reproduced only about 39% of published findings (Open Science Collaboration 2015). The casualties included power posing, ego depletion, and social priming: TED talks, textbooks, and bestsellers.\nPreclinical cancer: one team could confirm just 6 of 53 landmark studies (Begley and Ellis 2012)\nThese are not fringe journals. They are the literature clinicians rely on.\n“Published” and “peer-reviewed” are a floor, not a guarantee\n\n\nPower posing: a “confident” stance was said to change hormones and risk-taking; large replications found no reliable effect. Ego depletion: willpower as a fuel that runs out; a 23-lab preregistered test found the effect near zero. Social priming: reading “elderly” words was said to make people walk slower; it did not replicate.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8319,8 +8319,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#medicine-treatments-patients-received-that-didnt-work",
     "href": "chapters/03b-protecting-research-subjects.html#medicine-treatments-patients-received-that-didnt-work",
     "title": "Lecture 3 — Research Ethics",
-    "section": "9.7 Medicine: Treatments Patients Received That Didn’t Work",
-    "text": "9.7 Medicine: Treatments Patients Received That Didn’t Work\nOne review found about 40% of established practices tested over a decade were later contradicted (Prasad et al. 2013).\n\n\n\n\n\n\n\n\nTreatment\nWhat patients went through\nWhat rigorous trials showed\n\n\n\n\nKnee arthroscopy for arthritis\nReal surgery, anesthesia, recovery\nNo better than sham surgery (Moseley et al. 2002)\n\n\nHormone therapy “for the heart”\nYears of daily medication\nRaised heart disease, stroke, breast cancer (Writing Group for the Women’s Health Initiative Investigators 2002)\n\n\nVertebroplasty (spinal fracture)\nCement injected into the spine\nNo better than a sham procedure\n\n\nStents for stable chest pain\nAn invasive cardiac procedure\nNo better than medication for symptoms\n\n\n\nEach was standard, paid for, and sincerely recommended. Bad evidence is not abstract — it is surgery and side effects that did nothing.",
+    "section": "8.5 Medicine: Treatments Patients Received That Didn’t Work",
+    "text": "8.5 Medicine: Treatments Patients Received That Didn’t Work\nA review led by Vinay Prasad found that about 40% of established practices tested over a decade were later contradicted (Prasad et al. 2013).\n\n\n\n\n\n\n\n\nTreatment\nWhat patients went through\nWhat rigorous trials showed\n\n\n\n\nKnee arthroscopy for arthritis\nReal surgery, anesthesia, recovery\nNo better than sham surgery (Moseley et al. 2002)\n\n\nHormone therapy “for the heart”\nYears of daily medication\nRaised heart disease, stroke, breast cancer (Writing Group for the Women’s Health Initiative Investigators 2002)\n\n\nVertebroplasty (spinal fracture)\nCement injected into the spine\nNo better than a sham procedure (Kallmes et al. 2009)\n\n\nStents for stable chest pain\nAn invasive cardiac procedure\nNo better than a placebo procedure at improving exercise time (Al-Lamee et al. 2018)\n\n\n\nEach was standard, paid for, and sincerely recommended.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8331,8 +8331,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#the-ai-turn",
     "href": "chapters/03b-protecting-research-subjects.html#the-ai-turn",
     "title": "Lecture 3 — Research Ethics",
-    "section": "9.8 The AI Turn",
-    "text": "9.8 The AI Turn\n\nSurgisphere, 2020: The Lancet and NEJM pulled COVID papers built on a huge hospital database. No one could audit it. It likely never existed. Faked big data, accepted because it looked official.\nAI now makes this cheaper. Faked images. Synthetic “data.” Fluent paper-mill manuscripts at scale.\nIt also makes p-hacking faster — an automated search across thousands of model variants\nCounter-tools exist (image forensics, statistical screening). But detection lags creation.\nFor a clinician: source and replication matter more than polish. A confident, well-written result is not a true one.",
+    "section": "8.6 The AI Turn",
+    "text": "8.6 The AI Turn\n\nSurgisphere, 2020: The Lancet and NEJM pulled COVID papers built on a huge hospital database. No one could audit it. It likely never existed. Faked big data, accepted because it looked official.\nAI now makes this cheaper. Faked images. Synthetic “data.” Fluent paper-mill manuscripts at scale.\nIt also makes p-hacking faster — an automated search across thousands of model variants\nCounter-tools exist (image forensics, statistical screening). But detection lags creation.\nFor a clinician: source and replication matter more than polish. A confident, well-written result is not a true one.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8379,8 +8379,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#wrapping-up-part-b-1",
     "href": "chapters/03b-protecting-research-subjects.html#wrapping-up-part-b-1",
     "title": "Lecture 3 — Research Ethics",
-    "section": "10.2 Wrapping Up Part B",
-    "text": "10.2 Wrapping Up Part B\n\nResearch ethics is the study of how the search for knowledge can wrong people — and how to design against it.\nVulnerability is the spine. It is power and pressure, not personality. That is why consent must be real. It is why equipoise — the standard, if contested, license for most RCTs — both starts and ends a trial. It is why placebo and global trials turn on feasibility and post-trial duties. It is why commercial funding needs structural firewalls, not just disclosure. And it is why a replication crisis amplified by AI is itself a subject-protection problem.\nEthical research is not research with a signature. It is research designed so that the people who make knowledge possible — and the future patients who will rely on it — are treated as persons first.",
+    "section": "9.1 Wrapping Up Part B",
+    "text": "9.1 Wrapping Up Part B\n\nResearch ethics is the study of how the search for knowledge can wrong people — and how to design against it.\nVulnerability is the spine. It is power and pressure, not personality. That is why consent must be real. It is why equipoise — the standard, if contested, license for most RCTs — both starts and ends a trial. It is why placebo and global trials turn on feasibility and post-trial duties. It is why commercial funding needs structural firewalls, not just disclosure. And it is why a replication crisis amplified by AI is itself a subject-protection problem.\nEthical research is not research with a signature. It is research designed so that the people who make knowledge possible — and the future patients who will rely on it — are treated as persons first.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8391,8 +8391,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#review-questions",
     "href": "chapters/03b-protecting-research-subjects.html#review-questions",
     "title": "Lecture 3 — Research Ethics",
-    "section": "10.3 Review Questions",
-    "text": "10.3 Review Questions\nWrite a brief answer to each, or use them as discussion prompts.\n\n\nRecall\nWhat does Belmont’s Justice principle ask an IRB to check when it picks who gets studied? Then give one example each of cognitive and allocational vulnerability.\n\n\nApply\nA biotech company wants to collect DNA from children in foster care to study rare brain conditions. State caseworkers — not the children’s parents — will sign the consent. Name two things an IRB should worry about before approving this study.\n\n\nDebate\nA drug that works is standard care in rich countries but unavailable in a poor country. Is it acceptable to run a placebo-controlled trial of a new drug there, given that the standard drug is out of reach anyway? Defend your answer.",
+    "section": "9.2 Review Questions",
+    "text": "9.2 Review Questions\nWrite a brief answer to each, or use them as discussion prompts.\n\n\nRecall\nWhat does Belmont’s Justice principle ask an IRB to check when it picks who gets studied? Then give one example each of cognitive and allocational vulnerability.\n\n\nApply\nA biotech company wants to collect DNA from children in foster care to study rare brain conditions. State caseworkers — not the children’s parents — will sign the consent. Name two things an IRB should worry about before approving this study.\n\n\nDebate\nA drug that works is standard care in rich countries but unavailable in a poor country. Is it acceptable to run a placebo-controlled trial of a new drug there, given that the standard drug is out of reach anyway? Defend your answer.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8403,8 +8403,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#key-terms",
     "href": "chapters/03b-protecting-research-subjects.html#key-terms",
     "title": "Lecture 3 — Research Ethics",
-    "section": "10.4 Key Terms",
-    "text": "10.4 Key Terms\n\nBelmont Report (1979) — names the three principles for human-subjects research: respect for persons, beneficence, and justice.\nRespect for persons — the Belmont principle requiring informed consent and extra protections for those with limited autonomy.\nBeneficence (in research) — minimize risks, maximize benefits, keep a favorable risk-benefit ratio.\nJustice (Belmont) — fair distribution of the benefits and burdens of research. Operationalized as Fair Subject Selection.\nFair Subject Selection — recruiting populations because they bear on the scientific question. Not because they are convenient or powerless.\nVulnerability — features of a subject or group that limit their ability to protect their own interests in a study.\nCognitive vulnerability (Kipnis) — limits on capacity to understand or evaluate the study (e.g., children, intellectual disability).\nAllocational vulnerability (Kipnis) — being in a position where study participation is hard to refuse because resources, services, or status depend on it.\nClinical equipoise — real uncertainty in the expert community about whether one trial arm is better than the other. The standard license for randomizing in comparative trials; contested at the edges (Phase I, early stopping, the Miller-Brody critique).\nDeclaration of Helsinki — the WMA’s evolving statement of physicians’ duties in research, including consent and post-trial obligations.\nCommon Rule — the US federal regulation (45 CFR 46) governing federally funded human-subjects research. The framework IRBs apply.\nIRB (Institutional Review Board) — the local committee that reviews protocols against these principles before research may proceed.",
+    "section": "9.3 Key Terms",
+    "text": "9.3 Key Terms\n\nBelmont Report (1979) — names the three principles for human-subjects research: respect for persons, beneficence, and justice.\nRespect for persons — the Belmont principle requiring informed consent and extra protections for those with limited autonomy.\nBeneficence (in research) — minimize risks, maximize benefits, keep a favorable risk-benefit ratio.\nJustice (Belmont) — fair distribution of the benefits and burdens of research. Operationalized as Fair Subject Selection.\nFair Subject Selection — recruiting populations because they bear on the scientific question. Not because they are convenient or powerless.\nVulnerability — features of a subject or group that limit their ability to protect their own interests in a study.\nCognitive vulnerability (Kipnis) — limits on capacity to understand or evaluate the study (e.g., children, intellectual disability).\nAllocational vulnerability (Kipnis) — being in a position where study participation is hard to refuse because resources, services, or status depend on it.\nClinical equipoise — real uncertainty in the expert community about whether one trial arm is better than the other. The standard license for randomizing in comparative trials; contested at the edges (Phase I, early stopping, the Miller-Brody critique).\nDeclaration of Helsinki — the WMA’s evolving statement of physicians’ duties in research, including consent and post-trial obligations.\nCommon Rule — the US federal regulation (45 CFR 46) governing federally funded human-subjects research. The framework IRBs apply.\nIRB (Institutional Review Board) — the local committee that reviews protocols against these principles before research may proceed.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8415,8 +8415,8 @@
     "objectID": "chapters/03b-protecting-research-subjects.html#references",
     "href": "chapters/03b-protecting-research-subjects.html#references",
     "title": "Lecture 3 — Research Ethics",
-    "section": "10.5 References",
-    "text": "10.5 References\n\n\nBegley, C. Glenn, and Lee M. Ellis. 2012. “Raise Standards for Preclinical Cancer Research.” Nature 483 (7391): 531–33. https://doi.org/10.1038/483531a.\n\n\nBrandt, Allan M. 1978. “Racism and Research: The Case of the Tuskegee Syphilis Study.” Hastings Center Report 8 (6): 21–29. https://doi.org/10.2307/3561468.\n\n\nElliott, Carl. 2010. The Deadly Corruption of Clinical Trials. Mother Jones, September/October 2010. https://www.motherjones.com/environment/2010/09/dan-markingson-drug-trial-astrazeneca/.\n\n\nEmanuel, Ezekiel J., David Wendler, Jack Killen, and Christine Grady. 2004. “What Makes Clinical Research in Developing Countries Ethical? The Benchmarks of Ethical Research.” The Journal of Infectious Diseases 189 (5): 930–37. https://doi.org/10.1086/381709.\n\n\nFreedman, Benjamin. 1987. “Equipoise and the Ethics of Clinical Research.” New England Journal of Medicine 317 (3): 141–45. https://doi.org/10.1056/NEJM198707163170304.\n\n\nIoannidis, John P. A. 2005. “Why Most Published Research Findings Are False.” PLoS Medicine 2 (8): e124. https://doi.org/10.1371/journal.pmed.0020124.\n\n\nJonsen, Albert R. 1998. The Birth of Bioethics. Oxford University Press.\n\n\nLurie, Peter, and Sidney M. Wolfe. 1997. “Unethical Trials of Interventions to Reduce Perinatal Transmission of the Human Immunodeficiency Virus in Developing Countries.” New England Journal of Medicine 337 (12): 853–56. https://doi.org/10.1056/NEJM199709183371212.\n\n\nMoseley, J. Bruce, Kimberly O’Malley, Nancy J. Petersen, et al. 2002. “A Controlled Trial of Arthroscopic Surgery for Osteoarthritis of the Knee.” New England Journal of Medicine 347 (2): 81–88. https://doi.org/10.1056/NEJMoa013259.\n\n\nNational Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. 1979. The Belmont Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research. U.S. Department of Health, Education, and Welfare. https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html.\n\n\nNuremberg Military Tribunals. 1947. The Nuremberg Code. Trials of War Criminals before the Nuremberg Military Tribunals under Control Council Law No. 10.\n\n\nOffice of the Legislative Auditor, State of Minnesota. 2015. A Clinical Drug Study at the University of Minnesota Department of Psychiatry: The Dan Markingson Case. Special Review, March 19, 2015. https://www.auditor.leg.state.mn.us/sreview/markingson.pdf.\n\n\nOpen Science Collaboration. 2015. “Estimating the Reproducibility of Psychological Science.” Science 349 (6251): aac4716. https://doi.org/10.1126/science.aac4716.\n\n\nPiller, Charles. 2022. “Blots on a Field?” Science 377 (6604): 358–63. https://doi.org/10.1126/science.add9993.\n\n\nPrasad, Vinay, Andrae Vandross, Caitlin Toomey, et al. 2013. “A Decade of Reversal: An Analysis of 146 Contradicted Medical Practices.” Mayo Clinic Proceedings 88 (8): 790–98. https://doi.org/10.1016/j.mayocp.2013.05.012.\n\n\nSimmons, Joseph P., Leif D. Nelson, and Uri Simonsohn. 2011. “False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant.” Psychological Science 22 (11): 1359–66. https://doi.org/10.1177/0956797611417632.\n\n\nUS Department of Health and Human Services. 2018. Federal Policy for the Protection of Human Subjects (“the Common Rule”). Code of Federal Regulations, Title 45, Part 46. https://www.hhs.gov/ohrp/regulations-and-policy/regulations/common-rule/index.html.\n\n\nVarmus, Harold, and David Satcher. 1997. “Ethical Complexities of Conducting Research in Developing Countries.” New England Journal of Medicine 337 (14): 1003–5. https://doi.org/10.1056/NEJM199710023371411.\n\n\nWorld Medical Association. 2024. WMA Declaration of Helsinki – Ethical Principles for Medical Research Involving Human Participants. Adopted by the 75th WMA General Assembly, Helsinki, Finland. https://www.wma.net/policies-post/wma-declaration-of-helsinki/.\n\n\nWriting Group for the Women’s Health Initiative Investigators. 2002. “Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women: Principal Results from the Women’s Health Initiative Randomized Controlled Trial.” JAMA 288 (3): 321–33. https://doi.org/10.1001/jama.288.3.321.",
+    "section": "9.4 References",
+    "text": "9.4 References\n\n\nAl-Lamee, Rasha, David Thompson, Hakim-Moulay Dehbi, et al. 2018. “Percutaneous Coronary Intervention in Stable Angina (ORBITA): A Double-Blind, Randomised Controlled Trial.” The Lancet 391 (10115): 31–40.\n\n\nBegley, C. Glenn, and Lee M. Ellis. 2012. “Raise Standards for Preclinical Cancer Research.” Nature 483 (7391): 531–33. https://doi.org/10.1038/483531a.\n\n\nBrandt, Allan M. 1978. “Racism and Research: The Case of the Tuskegee Syphilis Study.” Hastings Center Report 8 (6): 21–29. https://doi.org/10.2307/3561468.\n\n\nElliott, Carl. 2010. The Deadly Corruption of Clinical Trials. Mother Jones, September/October 2010. https://www.motherjones.com/environment/2010/09/dan-markingson-drug-trial-astrazeneca/.\n\n\nEmanuel, Ezekiel J., David Wendler, Jack Killen, and Christine Grady. 2004. “What Makes Clinical Research in Developing Countries Ethical? The Benchmarks of Ethical Research.” The Journal of Infectious Diseases 189 (5): 930–37. https://doi.org/10.1086/381709.\n\n\nFreedman, Benjamin. 1987. “Equipoise and the Ethics of Clinical Research.” New England Journal of Medicine 317 (3): 141–45. https://doi.org/10.1056/NEJM198707163170304.\n\n\nIoannidis, John P. A. 2005. “Why Most Published Research Findings Are False.” PLoS Medicine 2 (8): e124. https://doi.org/10.1371/journal.pmed.0020124.\n\n\nJonsen, Albert R. 1998. The Birth of Bioethics. Oxford University Press.\n\n\nKallmes, David F., Bryan A. Comstock, Patrick J. Heagerty, et al. 2009. “A Randomized Trial of Vertebroplasty for Osteoporotic Spinal Fractures.” New England Journal of Medicine 361 (6): 569–79. https://doi.org/10.1056/NEJMoa0900563.\n\n\nKipnis, Kenneth. 2001. “Vulnerability in Research Subjects: A Bioethical Taxonomy.” In Ethical and Policy Issues in Research Involving Human Participants, Volume II. National Bioethics Advisory Commission.\n\n\nLurie, Peter, and Sidney M. Wolfe. 1997. “Unethical Trials of Interventions to Reduce Perinatal Transmission of the Human Immunodeficiency Virus in Developing Countries.” New England Journal of Medicine 337 (12): 853–56. https://doi.org/10.1056/NEJM199709183371212.\n\n\nMiller, Franklin G., and Howard Brody. 2003. “A Critique of Clinical Equipoise: Therapeutic Misconception in the Ethics of Clinical Trials.” Hastings Center Report 33 (3): 19–28.\n\n\nMoseley, J. Bruce, Kimberly O’Malley, Nancy J. Petersen, et al. 2002. “A Controlled Trial of Arthroscopic Surgery for Osteoarthritis of the Knee.” New England Journal of Medicine 347 (2): 81–88. https://doi.org/10.1056/NEJMoa013259.\n\n\nNational Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. 1979. The Belmont Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research. U.S. Department of Health, Education, and Welfare. https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html.\n\n\nNuremberg Military Tribunals. 1947. The Nuremberg Code. Trials of War Criminals before the Nuremberg Military Tribunals under Control Council Law No. 10.\n\n\nOffice of the Legislative Auditor, State of Minnesota. 2015. A Clinical Drug Study at the University of Minnesota Department of Psychiatry: The Dan Markingson Case. Special Review, March 19, 2015. https://www.auditor.leg.state.mn.us/sreview/markingson.pdf.\n\n\nOpen Science Collaboration. 2015. “Estimating the Reproducibility of Psychological Science.” Science 349 (6251): aac4716. https://doi.org/10.1126/science.aac4716.\n\n\nPiller, Charles. 2022. “Blots on a Field?” Science 377 (6604): 358–63. https://doi.org/10.1126/science.add9993.\n\n\nPrasad, Vinay, Andrae Vandross, Caitlin Toomey, et al. 2013. “A Decade of Reversal: An Analysis of 146 Contradicted Medical Practices.” Mayo Clinic Proceedings 88 (8): 790–98. https://doi.org/10.1016/j.mayocp.2013.05.012.\n\n\nSimmons, Joseph P., Leif D. Nelson, and Uri Simonsohn. 2011. “False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant.” Psychological Science 22 (11): 1359–66. https://doi.org/10.1177/0956797611417632.\n\n\nUS Department of Health and Human Services. 2018. Federal Policy for the Protection of Human Subjects (“the Common Rule”). Code of Federal Regulations, Title 45, Part 46. https://www.hhs.gov/ohrp/regulations-and-policy/regulations/common-rule/index.html.\n\n\nVarmus, Harold, and David Satcher. 1997. “Ethical Complexities of Conducting Research in Developing Countries.” New England Journal of Medicine 337 (14): 1003–5. https://doi.org/10.1056/NEJM199710023371411.\n\n\nWorld Medical Association. 2024. WMA Declaration of Helsinki – Ethical Principles for Medical Research Involving Human Participants. Adopted by the 75th WMA General Assembly, Helsinki, Finland. https://www.wma.net/policies-post/wma-declaration-of-helsinki/.\n\n\nWriting Group for the Women’s Health Initiative Investigators. 2002. “Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women: Principal Results from the Women’s Health Initiative Randomized Controlled Trial.” JAMA 288 (3): 321–33. https://doi.org/10.1001/jama.288.3.321.",
     "crumbs": [
       "Home",
       "3. Research Ethics",
@@ -8442,21 +8442,21 @@
     "href": "chapters/03b-protecting-research-subjects-slides.html#three-abuses-three-protections",
     "title": "Lecture 3 — Research Ethics",
     "section": "Three Abuses, Three Protections",
-    "text": "Three Abuses, Three Protections\nModern research protections were built one scandal at a time.\n\n\n\n\n\n\n\n\nCase\nThe wrong\nWhat it forced into place\n\n\n\n\nNazi experiments\nNo real consent; extreme harm\nVoluntary consent; Nuremberg (Nuremberg Military Tribunals 1947)\n\n\nWillowbrook\nDependent children; coercive setting\nVulnerable-population protection; independent review (Jonsen 1998)\n\n\nTuskegee\nDeception; withheld treatment; racist selection\nBelmont: respect, beneficence, justice (Brandt 1978; National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research 1979)\n\n\n\nEach row is a failure on the left and the safeguard it forced on the right."
+    "text": "Three Abuses, Three Protections\nModern research protections were built one scandal at a time.\n\n\n\n\n\n\n\n\nCase\nThe wrong\nWhat it forced into place\n\n\n\n\nNazi experiments\nNo real consent; extreme harm\nVoluntary consent; Nuremberg (Nuremberg Military Tribunals 1947)\n\n\nWillowbrook\nDependent children; coercive setting\nVulnerable-population protection; independent review (Jonsen 1998)\n\n\nTuskegee\nDeception; withheld treatment; racist selection\nBelmont: respect, beneficence, justice (Brandt 1978; National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research 1979)"
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#thought-question",
     "href": "chapters/03b-protecting-research-subjects-slides.html#thought-question",
     "title": "Lecture 3 — Research Ethics",
     "section": "Thought Question",
-    "text": "Thought Question\n\nWhat was the deepest wrong shared by these cases?\n\nPeople were used as means to an end\nPeople could not refuse freely\nPowerful institutions targeted the vulnerable\nResearchers treated knowledge as more important than persons\n\n\nWhich answer seems most central to you, and why?\nAre these really different wrongs, or different names for one wrong?\nToday the abuse rarely looks like camps or segregated wards. It may look like a confusing consent form, or recruiting the people least able to say no. What warning signs would still make you uneasy in a study that is legal, reviewed, and well funded?"
+    "text": "Thought Question\n\nYou are on an IRB reviewing a vaccine study.\n\nDisease rates are high in prisons.\nResearchers want to recruit incarcerated people because follow-up will be easy.\nThey plan a modest payment and better clinic access for participants.\n\n\nWhich types of vulnerability are in play here at once?\nIs this fair inclusion, opportunistic targeting, or both?\nWould excluding prisoners entirely also create a justice problem?"
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#after-youve-discussed",
     "href": "chapters/03b-protecting-research-subjects-slides.html#after-youve-discussed",
     "title": "Lecture 3 — Research Ethics",
     "section": "After You’ve Discussed",
-    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nThree distinctions are worth keeping sharp:\n\nConsent failures, harm failures, and justice failures are not the same thing. Tuskegee had all three.\nThese cases are not only about cruelty. They are also about institutions finding reassuring language for doing the wrong thing.\nModern oversight exists because good intentions are not enough. The point is to distrust self-justification before the damage is done."
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nName the pressures, then design against them. This study mixes juridic (incarceration), allocational (payment, clinic access), and infrastructural (will the vaccine reach them afterward?) vulnerability.\nInclusion and protection can conflict. Banning prison research protects against coercion. It can also deny prisoners the benefits of studies aimed at their own disease."
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#vulnerability-is-pressure-not-personality",
@@ -8470,7 +8470,7 @@
     "href": "chapters/03b-protecting-research-subjects-slides.html#a-working-list-of-vulnerabilities",
     "title": "Lecture 3 — Research Ethics",
     "section": "A Working List of Vulnerabilities",
-    "text": "A Working List of Vulnerabilities\nKipnis’s types name what kind of pressure a participant is under. That is more useful than a list of “vulnerable groups.”\n\n\n\n\n\n\n\n\nType\nThe pressure\nExample\n\n\n\n\nCognitive\nCannot fully understand or weigh the choice\nDementia; acute psychosis\n\n\nJuridic\nUnder the authority of someone who wants enrollment\nPrisoners; committed patients\n\n\nDeferential\nSocially unable to refuse a trusted figure\nPatient recruited by own physician\n\n\nMedical\nDesperate; no good alternative\nTerminal illness, “nothing left to try”\n\n\nAllocational\nPoor; the study is a path to care or money\nPayment covers rent; trial is the only clinic\n\n\nInfrastructural\nThe setting cannot deliver on promises\nWeak health system; no drug supply after the trial"
+    "text": "A Working List of Vulnerabilities\nKenneth Kipnis’s types name what kind of pressure a participant is under (Kipnis 2001).\n\n\n\n\n\n\n\n\nType\nThe pressure\nExample\n\n\n\n\nCognitive\nCannot fully understand or weigh the choice\nDementia; acute psychosis\n\n\nJuridic\nUnder the authority of someone who wants enrollment\nPrisoners; committed patients\n\n\nDeferential\nSocially unable to refuse a trusted figure\nPatient recruited by own physician\n\n\nMedical\nDesperate; no good alternative\nTerminal illness, “nothing left to try”\n\n\nAllocational\nPoor; the study is a path to care or money\nPayment covers rent; trial is the only clinic\n\n\nInfrastructural\nThe setting cannot deliver on promises\nWeak health system; no drug supply after the trial\n\n\n\nA wealthy patient recruited by her own oncologist is deferentially and medically vulnerable, though she is on no protected list."
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#why-this-frame-matters",
@@ -8484,21 +8484,21 @@
     "href": "chapters/03b-protecting-research-subjects-slides.html#thought-question-1",
     "title": "Lecture 3 — Research Ethics",
     "section": "Thought Question",
-    "text": "Thought Question\n\nYou are on an IRB reviewing a vaccine study.\n\nDisease rates are high in prisons.\nResearchers want to recruit incarcerated people because follow-up will be easy.\nThey plan a modest payment and better clinic access for participants.\n\n\nWhich types of vulnerability are in play here at once?\nIs this fair inclusion, opportunistic targeting, or both?\nWould excluding prisoners entirely also create a justice problem?"
+    "text": "Thought Question\n\nYou are on an ethics committee in 1997 reviewing a short-course AZT trial in Uganda.\n\nIn the sponsor country, the long-course regimen already works.\nIn the host country, that regimen is too expensive and complex for everyday use.\nThe study compares a shorter regimen to placebo.\n\n\nIs there real equipoise here — and equipoise about what?\nDoes local unavailability change what researchers ethically owe participants?\nWhat is owed after the study — do participants keep what worked?"
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#after-youve-discussed-1",
     "href": "chapters/03b-protecting-research-subjects-slides.html#after-youve-discussed-1",
     "title": "Lecture 3 — Research Ethics",
     "section": "After You’ve Discussed",
-    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nName the pressures, then design against them. This study mixes juridic (incarceration), allocational (payment, clinic access), and infrastructural (will the vaccine reach them afterward?) vulnerability.\nInclusion and protection can conflict. Banning prison research protects against coercion. It can also deny prisoners the benefits of studies aimed at their own disease."
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nThis is allocational and infrastructural vulnerability by design.\n\n“Local standard” describes the world; it does not settle what is owed. A study can be feasible, even locally standard, and still exploitative — poverty is not a discount on human protections.\nPost-trial access is part of the ethics, not cleanup. Proving a regimen works and then taking it away uses the host community (Emanuel et al. 2004; World Medical Association 2024)."
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#belmont-in-one-slide",
     "href": "chapters/03b-protecting-research-subjects-slides.html#belmont-in-one-slide",
     "title": "Lecture 3 — Research Ethics",
     "section": "Belmont in One Slide",
-    "text": "Belmont in One Slide\n\nThe Belmont Report (1979) named three principles (National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research 1979)\nRespect for persons → real consent; extra care where vulnerability is highest\nBeneficence → minimize harm; justify risk against benefit\nJustice → who bears the burdens, who gets the benefits\nEach becomes a concrete question an IRB must ask of every study"
+    "text": "Belmont in One Slide\n\n\n\nThe Belmont Report (1979) named three principles (National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research 1979)\nRespect for persons → real consent; extra care where vulnerability is highest\nBeneficence → minimize harm; justify risk against benefit\nJustice → who bears the burdens, who gets the benefits\nEach becomes a concrete question an IRB must ask of every study\n\n\n\n\nThe Belmont Report, 1979. U.S. Department of Health, Education, and Welfare. Public domain."
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#one-map-from-principle-to-protection",
@@ -8526,14 +8526,14 @@
     "href": "chapters/03b-protecting-research-subjects-slides.html#the-clock-runs-out",
     "title": "Lecture 3 — Research Ethics",
     "section": "The Clock Runs Out",
-    "text": "The Clock Runs Out\n\nEquipoise is not permanent. Evidence builds up while the trial runs.\nAn independent monitoring board can stop a trial early for three reasons:\n\n\n\n\n\n\n\n\n\nTrigger\nWhat it means\nWhy stopping is required\n\n\n\n\nHarm\nOne arm is clearly hurting people\nContinuing knowingly harms participants\n\n\nBenefit\nOne arm is clearly better\nKeeping the other arm is no longer fair\n\n\nFutility\nThe question cannot be answered\nMore risk buys no knowledge\n\n\n\n\nWhen the uncertainty resolves, the moral license expires. The trial must end."
+    "text": "The Clock Runs Out\n\nPart A’s license to randomize was clinical equipoise: the expert community’s honest “we do not yet know,” a standard Benjamin Freedman named in 1987 (Freedman 1987)\nEquipoise is not permanent. Evidence builds up while the trial runs.\nAn independent monitoring board can stop a trial early for three reasons:\n\n\n\n\n\n\n\n\n\nTrigger\nWhat it means\nWhy stopping is required\n\n\n\n\nHarm\nOne arm is clearly hurting people\nContinuing knowingly harms participants\n\n\nBenefit\nOne arm is clearly better\nKeeping the other arm is no longer fair\n\n\nFutility\nThe question cannot be answered\nMore risk buys no knowledge\n\n\n\n\nWhen the uncertainty resolves, the moral license expires. The trial must end."
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#stopping-early-is-not-free",
     "href": "chapters/03b-protecting-research-subjects-slides.html#stopping-early-is-not-free",
     "title": "Lecture 3 — Research Ethics",
     "section": "Stopping Early Is Not Free",
-    "text": "Stopping Early Is Not Free\n\nA counterintuitive fact. Trials stopped early for benefit tend to overstate how well the treatment works.\nRandom luck swings hardest in small samples. A trial that stops the moment results look great may have stopped on a lucky high point. This is why monitoring boards use strict statistical rules, not “it looks good enough.” Stopping early is both an ethical and a scientific judgment."
+    "text": "Stopping Early Is Not Free\n\nA counterintuitive fact. Trials stopped early for benefit tend to overstate how well the treatment works.\nRandom luck swings hardest in small samples. A trial that stops the moment results look great may have stopped on a lucky high point. This is why monitoring boards use strict statistical rules, not “it looks good enough.” Stopping early is both an ethical and a scientific judgment: it protects participants and leaves the public with weaker evidence."
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#placebo-disputes-are-equipoise-disputes",
@@ -8547,21 +8547,21 @@
     "href": "chapters/03b-protecting-research-subjects-slides.html#where-equipoise-runs-out",
     "title": "Lecture 3 — Research Ethics",
     "section": "Where Equipoise Runs Out",
-    "text": "Where Equipoise Runs Out\nEquipoise is a powerful idea, but it is not the answer to every research-ethics question.\n\nPhase I trials don’t have arms to compare. A first-in-human dose-finding study exposes participants to risk for very little personal benefit. There is no equipoise to invoke. The framework is risk-benefit plus informed consent.\nMiller and Brody’s critique. Equipoise treats the trial investigator as if she were the participant’s doctor, with a duty not to give a worse option. But research aims at knowledge for future patients, not care for this one. On their view, equipoise quietly imports the therapeutic misconception into the rulebook.\nStopping early cuts both ways. When a monitoring board stops a trial for benefit, equipoise says it must — uncertainty has resolved. But the public gets weaker evidence: smaller samples, missed long-term harms, possibly overstated effects. Subject welfare and public knowledge can pull apart.\n\nThe takeaway is not that equipoise is wrong. It is that equipoise is the right frame for the middle of research ethics — comparative trials of real treatments — and the wrong frame for the edges."
+    "text": "Where Equipoise Runs Out\nEquipoise does not answer every research-ethics question.\n\nPhase I trials have no arms to compare. A first-in-human dose-finding study exposes participants to risk for little personal benefit. The framework there is risk-benefit plus informed consent.\nMiller and Brody’s critique. Equipoise treats the investigator as the participant’s doctor, with a duty not to give a worse option. But research aims at knowledge for future patients. On their view, equipoise imports the therapeutic misconception into the rulebook (Miller and Brody 2003).\nEquipoise fits the middle of research ethics, comparative trials of real treatments, and fits the edges poorly."
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#helsinkis-placebo-rule",
     "href": "chapters/03b-protecting-research-subjects-slides.html#helsinkis-placebo-rule",
     "title": "Lecture 3 — Research Ethics",
     "section": "Helsinki’s Placebo Rule",
-    "text": "Helsinki’s Placebo Rule\n\nThe Declaration of Helsinki says new treatments should usually be tested against the best proven option (World Medical Association 2024)\nPlacebo is acceptable if no proven treatment exists, or for strong scientific reasons\nBut not if participants risk serious or permanent harm by going without proven treatment (World Medical Association 2024)\nThat last condition is the one people fight about. And it is an equipoise fight."
+    "text": "Helsinki’s Placebo Rule\n\nThe Declaration of Helsinki says new treatments should usually be tested against the best proven option (World Medical Association 2024)\nPlacebo is acceptable if no proven treatment exists, or for strong scientific reasons, but not if participants risk serious or permanent harm by going without proven treatment\nMost fights about that last condition are fights about whether equipoise exists\n“A proven treatment already exists” means there is no real uncertainty, so a placebo arm sends people to a known-worse option\n“The proven treatment cannot be delivered here” means uncertainty about feasible options remains"
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#the-azt-trials-in-five-lines",
     "href": "chapters/03b-protecting-research-subjects-slides.html#the-azt-trials-in-five-lines",
     "title": "Lecture 3 — Research Ethics",
     "section": "The AZT Trials in Five Lines",
-    "text": "The AZT Trials in Five Lines\n\nIn 1994, a long-course AZT regimen reduced mother-to-baby HIV transmission\nThat regimen was expensive and hard to deliver in many low-resource settings\nLater trials tested shorter, cheaper regimens, often against placebo\nCritics: this withheld a known effective treatment (Lurie and Wolfe 1997)\nDefenders: the real question was what feasible strategy could work where the long regimen was not available (Varmus and Satcher 1997)"
+    "text": "The AZT Trials in Five Lines\n\n\n\nIn 1994, a long-course AZT regimen reduced mother-to-baby HIV transmission\nThat regimen was expensive and hard to deliver in many low-resource settings\nLater trials tested shorter, cheaper regimens, often against placebo\nCritics: this withheld a known effective treatment (Lurie and Wolfe 1997)\nDefenders: the real question was what feasible strategy could work where the long regimen was not available (Varmus and Satcher 1997)\n\n\n\n\nHIV-1 budding from a lymphocyte. CDC Public Health Image Library, #10000 (C. Goldsmith). Public domain."
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#two-famous-positions",
@@ -8582,21 +8582,21 @@
     "href": "chapters/03b-protecting-research-subjects-slides.html#thought-question-2",
     "title": "Lecture 3 — Research Ethics",
     "section": "Thought Question",
-    "text": "Thought Question\n\nYou are on an ethics committee in 1997 reviewing a short-course AZT trial in Uganda.\n\nIn the sponsor country, the long-course regimen already works.\nIn the host country, that regimen is too expensive and complex for everyday use.\nThe study compares a shorter regimen to placebo.\n\n\nIs there real equipoise here — and equipoise about what?\nDoes local unavailability change what researchers ethically owe participants?\nWhat is owed after the study — do participants keep what worked?"
+    "text": "Thought Question\n\nYou give a blood sample for a routine test. A leftover vial is stored. Years later it is used — with your name removed — in genetic research and a profitable diagnostic. You were never asked. A broad intake form said “samples may be used for research.”\n\nWas that consent meaningful?\nDo you have a claim to a say — or a share — in what was discovered?\nIs “deidentified” enough, when the sample is DNA that can re-identify you and your relatives?"
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#after-youve-discussed-2",
     "href": "chapters/03b-protecting-research-subjects-slides.html#after-youve-discussed-2",
     "title": "Lecture 3 — Research Ethics",
     "section": "After You’ve Discussed",
-    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nThis is allocational and infrastructural vulnerability by design.\n\n“Local standard” describes the world; it does not settle what is owed. A study can be feasible, even locally standard, and still exploitative — poverty is not a discount on human protections.\nPost-trial access is part of the ethics, not cleanup. Proving a regimen works and then taking it away uses the host community (Emanuel et al. 2004; World Medical Association 2024)."
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nConsent for this study is not consent for all future research. Tissue and data banks rely on broad consent. Useful, but ethically thinner than specific consent.\nBenefit-sharing is part of justice. If people make a discovery possible, who profits is an ethical question, not an afterthought.\n“Deidentified” weakens but does not erase the stake. Genomic data can re-identify, and can implicate relatives who never agreed."
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#henrietta-lacks",
     "href": "chapters/03b-protecting-research-subjects-slides.html#henrietta-lacks",
     "title": "Lecture 3 — Research Ethics",
     "section": "Henrietta Lacks",
-    "text": "Henrietta Lacks\n\nIn 1951, Henrietta Lacks, a Black woman, was treated for cervical cancer\nWithout her knowledge, cells from her tumor were taken and grown\nThey became HeLa — the first immortal human cell line, used in countless studies and products\nShe was never asked. Her family was not told for decades. They shared in none of the benefit.\nNo drug, no placebo, no “arm” — and still a major research-ethics failure. The vulnerability here was never being asked at all."
+    "text": "Henrietta Lacks\n\n\n\nIn 1951 Henrietta Lacks, a Black woman, was treated for cervical cancer at Johns Hopkins\nWithout her knowledge, cells from her tumor were taken and grown\nThey became HeLa, the first immortal human cell line, used in countless studies and products\nShe was never asked. Her family was not told for decades, and shared in none of the benefit.\nNo drug, no placebo, no “arm,” and still a major research-ethics failure. The vulnerability here was never being asked at all.\n\n\n\n\nHeLa cells, fluorescence micrograph. National Institutes of Health. Public domain.\n\n\n\nThe image is of her cells, not of her. That is a choice, given what this slide is about."
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#what-the-rules-now-require",
@@ -8610,14 +8610,14 @@
     "href": "chapters/03b-protecting-research-subjects-slides.html#thought-question-3",
     "title": "Lecture 3 — Research Ethics",
     "section": "Thought Question",
-    "text": "Thought Question\n\nYou give a blood sample for a routine test. A leftover vial is stored. Years later it is used — with your name removed — in genetic research and a profitable diagnostic. You were never asked. A broad intake form said “samples may be used for research.”\n\nWas that consent meaningful?\nDo you have a claim to a say — or a share — in what was discovered?\nIs “deidentified” enough, when the sample is DNA that can re-identify you and your relatives?"
+    "text": "Thought Question\n\nA patient newly diagnosed with a serious illness is offered a trial by the physician she trusts most — her own specialist. The specialist receives per-patient payments from the sponsor for each person enrolled.\n\nWhich vulnerability types is she under, before any form is signed?\nIs disclosure of the payment enough to fix the problem? Why or why not?\nWhat single structural change would most reduce the conflict?"
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#after-youve-discussed-3",
     "href": "chapters/03b-protecting-research-subjects-slides.html#after-youve-discussed-3",
     "title": "Lecture 3 — Research Ethics",
     "section": "After You’ve Discussed",
-    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nConsent for this study is not consent for all future research. Tissue and data banks rely on broad consent. Useful, but ethically thinner than specific consent.\nBenefit-sharing is part of justice. If people make a discovery possible, who profits is an ethical question, not an afterthought.\n“Deidentified” weakens but does not erase the stake. Genomic data can re-identify, and can implicate relatives who never agreed."
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nConflict of interest is structural, not just moral. Honest people in a bad structure still produce biased enrollment.\nDisclosure is the floor, not the fix. Telling someone about a conflict does not neutralize it. Separating the roles does.\nThe treating clinician is the highest-pressure recruiter, which is why independent recruitment and review exist."
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#the-structural-conflict",
@@ -8652,14 +8652,14 @@
     "href": "chapters/03b-protecting-research-subjects-slides.html#thought-question-4",
     "title": "Lecture 3 — Research Ethics",
     "section": "Thought Question",
-    "text": "Thought Question\n\nA patient newly diagnosed with a serious illness is offered a trial by the physician she trusts most — her own specialist. The specialist receives per-patient payments from the sponsor for each person enrolled.\n\nWhich vulnerability types is she under, before any form is signed?\nIs disclosure of the payment enough to fix the problem? Why or why not?\nWhat single structural change would most reduce the conflict?"
+    "text": "Thought Question\n\nA landmark drug trial is later found to contain manipulated data. Thousands of patients were treated based on it. (Recall the opioid story from Part A: a single misread letter, heavily promoted, helped launch a crisis.)\n\nWho was wronged — the study’s participants, future patients, or both?\nIs faking data a worse research-ethics violation than a consent failure, or just a different one?\nWhy does the system usually catch this slowly — and what would catch it sooner?"
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#after-youve-discussed-4",
     "href": "chapters/03b-protecting-research-subjects-slides.html#after-youve-discussed-4",
     "title": "Lecture 3 — Research Ethics",
     "section": "After You’ve Discussed",
-    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nConflict of interest is structural, not just moral. Honest people in a bad structure still produce biased enrollment.\nDisclosure is the floor, not the fix. Telling someone about a conflict does not neutralize it. Separating the roles does.\nThe treating clinician is the highest-pressure recruiter. That is exactly why independent recruitment and review exist."
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nIntegrity is a subject-protection issue too. A false result is not just an academic error. It is the knee surgery, the hormone pill, the amyloid infusion that thousands of real people endured for nothing.\nThe safeguards are thin by design — science runs on trust and occasional replication — so the fixes are structural: preregistration, data sharing, independent replication, faster retractions."
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#protecting-participants-is-not-enough",
@@ -8673,7 +8673,7 @@
     "href": "chapters/03b-protecting-research-subjects-slides.html#why-so-many-findings-are-false",
     "title": "Lecture 3 — Research Ethics",
     "section": "Why So Many Findings Are False",
-    "text": "Why So Many Findings Are False\nA landmark paper said most published findings can be wrong (Ioannidis 2005). Four reasons:\n\nLow base rate — most hypotheses tested are false to start with\nSmall studies — easily swung by chance\nResearcher flexibility — many small choices, each nudging toward “significant”\nPublication bias — positive results get printed. Null results vanish."
+    "text": "Why So Many Findings Are False\nA landmark paper by John Ioannidis argued that most published findings can be wrong (Ioannidis 2005). Four reasons:\n\nLow base rate — most hypotheses tested are false to start with\nSmall studies — easily swung by chance\nResearcher flexibility — p-hacking (trying analyses until one crosses the line) and HARKing (hypothesizing after the results are known). Neither requires lying (Simmons et al. 2011). Part A’s ISIS-2 showed the mechanism: test enough subgroups and aspirin “fails” for Geminis.\nPublication bias — positive results get printed. Null results vanish."
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#how-flexibility-becomes-a-false-result",
@@ -8687,7 +8687,7 @@
     "href": "chapters/03b-protecting-research-subjects-slides.html#it-is-systemic-not-rare",
     "title": "Lecture 3 — Research Ethics",
     "section": "It Is Systemic, Not Rare",
-    "text": "It Is Systemic, Not Rare\n\nPsychology: a large replication project reproduced only about 39% of published findings (Open Science Collaboration 2015)\nPreclinical cancer: one team could confirm just 6 of 53 landmark studies (Begley and Ellis 2012)\nThese are not fringe journals. They are the literature clinicians rely on.\n“Published” and “peer-reviewed” are a floor, not a guarantee"
+    "text": "It Is Systemic, Not Rare\n\nPsychology: a large replication project reproduced only about 39% of published findings (Open Science Collaboration 2015). The casualties included power posing, ego depletion, and social priming: TED talks, textbooks, and bestsellers.\nPreclinical cancer: one team could confirm just 6 of 53 landmark studies (Begley and Ellis 2012)\nThese are not fringe journals. They are the literature clinicians rely on.\n“Published” and “peer-reviewed” are a floor, not a guarantee\n\n\nPower posing: a “confident” stance was said to change hormones and risk-taking; large replications found no reliable effect. Ego depletion: willpower as a fuel that runs out; a 23-lab preregistered test found the effect near zero. Social priming: reading “elderly” words was said to make people walk slower; it did not replicate."
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#the-alzheimers-case-in-full",
@@ -8708,7 +8708,7 @@
     "href": "chapters/03b-protecting-research-subjects-slides.html#medicine-treatments-patients-received-that-didnt-work",
     "title": "Lecture 3 — Research Ethics",
     "section": "Medicine: Treatments Patients Received That Didn’t Work",
-    "text": "Medicine: Treatments Patients Received That Didn’t Work\nOne review found about 40% of established practices tested over a decade were later contradicted (Prasad et al. 2013).\n\n\n\n\n\n\n\n\nTreatment\nWhat patients went through\nWhat rigorous trials showed\n\n\n\n\nKnee arthroscopy for arthritis\nReal surgery, anesthesia, recovery\nNo better than sham surgery (Moseley et al. 2002)\n\n\nHormone therapy “for the heart”\nYears of daily medication\nRaised heart disease, stroke, breast cancer (Writing Group for the Women’s Health Initiative Investigators 2002)\n\n\nVertebroplasty (spinal fracture)\nCement injected into the spine\nNo better than a sham procedure\n\n\nStents for stable chest pain\nAn invasive cardiac procedure\nNo better than medication for symptoms\n\n\n\nEach was standard, paid for, and sincerely recommended. Bad evidence is not abstract — it is surgery and side effects that did nothing."
+    "text": "Medicine: Treatments Patients Received That Didn’t Work\nA review led by Vinay Prasad found that about 40% of established practices tested over a decade were later contradicted (Prasad et al. 2013).\n\n\n\n\n\n\n\n\nTreatment\nWhat patients went through\nWhat rigorous trials showed\n\n\n\n\nKnee arthroscopy for arthritis\nReal surgery, anesthesia, recovery\nNo better than sham surgery (Moseley et al. 2002)\n\n\nHormone therapy “for the heart”\nYears of daily medication\nRaised heart disease, stroke, breast cancer (Writing Group for the Women’s Health Initiative Investigators 2002)\n\n\nVertebroplasty (spinal fracture)\nCement injected into the spine\nNo better than a sham procedure (Kallmes et al. 2009)\n\n\nStents for stable chest pain\nAn invasive cardiac procedure\nNo better than a placebo procedure at improving exercise time (Al-Lamee et al. 2018)\n\n\n\nEach was standard, paid for, and sincerely recommended."
   },
   {
     "objectID": "chapters/03b-protecting-research-subjects-slides.html#the-ai-turn",
@@ -8764,7 +8764,7 @@
     "href": "chapters/03b-protecting-research-subjects-slides.html#references",
     "title": "Lecture 3 — Research Ethics",
     "section": "References",
-    "text": "References\n\n\nBegley, C. Glenn, and Lee M. Ellis. 2012. “Raise Standards for Preclinical Cancer Research.” Nature 483 (7391): 531–33. https://doi.org/10.1038/483531a.\n\n\nBrandt, Allan M. 1978. “Racism and Research: The Case of the Tuskegee Syphilis Study.” Hastings Center Report 8 (6): 21–29. https://doi.org/10.2307/3561468.\n\n\nElliott, Carl. 2010. The Deadly Corruption of Clinical Trials. Mother Jones, September/October 2010. https://www.motherjones.com/environment/2010/09/dan-markingson-drug-trial-astrazeneca/.\n\n\nEmanuel, Ezekiel J., David Wendler, Jack Killen, and Christine Grady. 2004. “What Makes Clinical Research in Developing Countries Ethical? The Benchmarks of Ethical Research.” The Journal of Infectious Diseases 189 (5): 930–37. https://doi.org/10.1086/381709.\n\n\nFreedman, Benjamin. 1987. “Equipoise and the Ethics of Clinical Research.” New England Journal of Medicine 317 (3): 141–45. https://doi.org/10.1056/NEJM198707163170304.\n\n\nIoannidis, John P. A. 2005. “Why Most Published Research Findings Are False.” PLoS Medicine 2 (8): e124. https://doi.org/10.1371/journal.pmed.0020124.\n\n\nJonsen, Albert R. 1998. The Birth of Bioethics. Oxford University Press.\n\n\nLurie, Peter, and Sidney M. Wolfe. 1997. “Unethical Trials of Interventions to Reduce Perinatal Transmission of the Human Immunodeficiency Virus in Developing Countries.” New England Journal of Medicine 337 (12): 853–56. https://doi.org/10.1056/NEJM199709183371212.\n\n\nMoseley, J. Bruce, Kimberly O’Malley, Nancy J. Petersen, et al. 2002. “A Controlled Trial of Arthroscopic Surgery for Osteoarthritis of the Knee.” New England Journal of Medicine 347 (2): 81–88. https://doi.org/10.1056/NEJMoa013259.\n\n\nNational Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. 1979. The Belmont Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research. U.S. Department of Health, Education, and Welfare. https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html.\n\n\nNuremberg Military Tribunals. 1947. The Nuremberg Code. Trials of War Criminals before the Nuremberg Military Tribunals under Control Council Law No. 10.\n\n\nOffice of the Legislative Auditor, State of Minnesota. 2015. A Clinical Drug Study at the University of Minnesota Department of Psychiatry: The Dan Markingson Case. Special Review, March 19, 2015. https://www.auditor.leg.state.mn.us/sreview/markingson.pdf.\n\n\nOpen Science Collaboration. 2015. “Estimating the Reproducibility of Psychological Science.” Science 349 (6251): aac4716. https://doi.org/10.1126/science.aac4716.\n\n\nPiller, Charles. 2022. “Blots on a Field?” Science 377 (6604): 358–63. https://doi.org/10.1126/science.add9993.\n\n\nPrasad, Vinay, Andrae Vandross, Caitlin Toomey, et al. 2013. “A Decade of Reversal: An Analysis of 146 Contradicted Medical Practices.” Mayo Clinic Proceedings 88 (8): 790–98. https://doi.org/10.1016/j.mayocp.2013.05.012.\n\n\nSimmons, Joseph P., Leif D. Nelson, and Uri Simonsohn. 2011. “False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant.” Psychological Science 22 (11): 1359–66. https://doi.org/10.1177/0956797611417632.\n\n\nUS Department of Health and Human Services. 2018. Federal Policy for the Protection of Human Subjects (“the Common Rule”). Code of Federal Regulations, Title 45, Part 46. https://www.hhs.gov/ohrp/regulations-and-policy/regulations/common-rule/index.html.\n\n\nVarmus, Harold, and David Satcher. 1997. “Ethical Complexities of Conducting Research in Developing Countries.” New England Journal of Medicine 337 (14): 1003–5. https://doi.org/10.1056/NEJM199710023371411.\n\n\nWorld Medical Association. 2024. WMA Declaration of Helsinki – Ethical Principles for Medical Research Involving Human Participants. Adopted by the 75th WMA General Assembly, Helsinki, Finland. https://www.wma.net/policies-post/wma-declaration-of-helsinki/.\n\n\nWriting Group for the Women’s Health Initiative Investigators. 2002. “Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women: Principal Results from the Women’s Health Initiative Randomized Controlled Trial.” JAMA 288 (3): 321–33. https://doi.org/10.1001/jama.288.3.321."
+    "text": "References\n\n\nAl-Lamee, Rasha, David Thompson, Hakim-Moulay Dehbi, et al. 2018. “Percutaneous Coronary Intervention in Stable Angina (ORBITA): A Double-Blind, Randomised Controlled Trial.” The Lancet 391 (10115): 31–40.\n\n\nBegley, C. Glenn, and Lee M. Ellis. 2012. “Raise Standards for Preclinical Cancer Research.” Nature 483 (7391): 531–33. https://doi.org/10.1038/483531a.\n\n\nBrandt, Allan M. 1978. “Racism and Research: The Case of the Tuskegee Syphilis Study.” Hastings Center Report 8 (6): 21–29. https://doi.org/10.2307/3561468.\n\n\nElliott, Carl. 2010. The Deadly Corruption of Clinical Trials. Mother Jones, September/October 2010. https://www.motherjones.com/environment/2010/09/dan-markingson-drug-trial-astrazeneca/.\n\n\nEmanuel, Ezekiel J., David Wendler, Jack Killen, and Christine Grady. 2004. “What Makes Clinical Research in Developing Countries Ethical? The Benchmarks of Ethical Research.” The Journal of Infectious Diseases 189 (5): 930–37. https://doi.org/10.1086/381709.\n\n\nFreedman, Benjamin. 1987. “Equipoise and the Ethics of Clinical Research.” New England Journal of Medicine 317 (3): 141–45. https://doi.org/10.1056/NEJM198707163170304.\n\n\nIoannidis, John P. A. 2005. “Why Most Published Research Findings Are False.” PLoS Medicine 2 (8): e124. https://doi.org/10.1371/journal.pmed.0020124.\n\n\nJonsen, Albert R. 1998. The Birth of Bioethics. Oxford University Press.\n\n\nKallmes, David F., Bryan A. Comstock, Patrick J. Heagerty, et al. 2009. “A Randomized Trial of Vertebroplasty for Osteoporotic Spinal Fractures.” New England Journal of Medicine 361 (6): 569–79. https://doi.org/10.1056/NEJMoa0900563.\n\n\nKipnis, Kenneth. 2001. “Vulnerability in Research Subjects: A Bioethical Taxonomy.” In Ethical and Policy Issues in Research Involving Human Participants, Volume II. National Bioethics Advisory Commission.\n\n\nLurie, Peter, and Sidney M. Wolfe. 1997. “Unethical Trials of Interventions to Reduce Perinatal Transmission of the Human Immunodeficiency Virus in Developing Countries.” New England Journal of Medicine 337 (12): 853–56. https://doi.org/10.1056/NEJM199709183371212.\n\n\nMiller, Franklin G., and Howard Brody. 2003. “A Critique of Clinical Equipoise: Therapeutic Misconception in the Ethics of Clinical Trials.” Hastings Center Report 33 (3): 19–28.\n\n\nMoseley, J. Bruce, Kimberly O’Malley, Nancy J. Petersen, et al. 2002. “A Controlled Trial of Arthroscopic Surgery for Osteoarthritis of the Knee.” New England Journal of Medicine 347 (2): 81–88. https://doi.org/10.1056/NEJMoa013259.\n\n\nNational Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. 1979. The Belmont Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research. U.S. Department of Health, Education, and Welfare. https://www.hhs.gov/ohrp/regulations-and-policy/belmont-report/index.html.\n\n\nNuremberg Military Tribunals. 1947. The Nuremberg Code. Trials of War Criminals before the Nuremberg Military Tribunals under Control Council Law No. 10.\n\n\nOffice of the Legislative Auditor, State of Minnesota. 2015. A Clinical Drug Study at the University of Minnesota Department of Psychiatry: The Dan Markingson Case. Special Review, March 19, 2015. https://www.auditor.leg.state.mn.us/sreview/markingson.pdf.\n\n\nOpen Science Collaboration. 2015. “Estimating the Reproducibility of Psychological Science.” Science 349 (6251): aac4716. https://doi.org/10.1126/science.aac4716.\n\n\nPiller, Charles. 2022. “Blots on a Field?” Science 377 (6604): 358–63. https://doi.org/10.1126/science.add9993.\n\n\nPrasad, Vinay, Andrae Vandross, Caitlin Toomey, et al. 2013. “A Decade of Reversal: An Analysis of 146 Contradicted Medical Practices.” Mayo Clinic Proceedings 88 (8): 790–98. https://doi.org/10.1016/j.mayocp.2013.05.012.\n\n\nSimmons, Joseph P., Leif D. Nelson, and Uri Simonsohn. 2011. “False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant.” Psychological Science 22 (11): 1359–66. https://doi.org/10.1177/0956797611417632.\n\n\nUS Department of Health and Human Services. 2018. Federal Policy for the Protection of Human Subjects (“the Common Rule”). Code of Federal Regulations, Title 45, Part 46. https://www.hhs.gov/ohrp/regulations-and-policy/regulations/common-rule/index.html.\n\n\nVarmus, Harold, and David Satcher. 1997. “Ethical Complexities of Conducting Research in Developing Countries.” New England Journal of Medicine 337 (14): 1003–5. https://doi.org/10.1056/NEJM199710023371411.\n\n\nWorld Medical Association. 2024. WMA Declaration of Helsinki – Ethical Principles for Medical Research Involving Human Participants. Adopted by the 75th WMA General Assembly, Helsinki, Finland. https://www.wma.net/policies-post/wma-declaration-of-helsinki/.\n\n\nWriting Group for the Women’s Health Initiative Investigators. 2002. “Risks and Benefits of Estrogen Plus Progestin in Healthy Postmenopausal Women: Principal Results from the Women’s Health Initiative Randomized Controlled Trial.” JAMA 288 (3): 321–33. https://doi.org/10.1001/jama.288.3.321."
   },
   {
     "objectID": "chapters/02b-clinical-relationship.html",
@@ -22741,5 +22741,62 @@
     "title": "Lecture 3 — Research Ethics",
     "section": "Six Trials, Six Tools",
     "text": "Six Trials, Six Tools\n\n\n\n\n\n\n\n\nYear\nTrial\nThe tool it gave us\n\n\n\n\n1747\nLind, scurvy\nA controlled comparison: twelve sailors, six treatments\n\n\n1847\nSemmelweis, handwashing\nAn intervention with a natural control, but no randomization, and no one believed it\n\n\n1948\nMRC streptomycin\nRandomization. The drug was scarce, so chance was the fair way to allocate it\n\n\n1954\nSalk polio field trial\nPlacebo and blinding at scale: 1.8 million children\n\n\n1988\nISIS-2\nA warning about subgroups: aspirin “failed” for Geminis and Libras\n\n\n1989\nCAST\nA warning about surrogates: fixing the rhythm raised deaths\n\n\n\nEverything after 1847 is a tool Semmelweis did not have."
+  },
+  {
+    "objectID": "chapters/03b-protecting-research-subjects.html#before-we-start",
+    "href": "chapters/03b-protecting-research-subjects.html#before-we-start",
+    "title": "Lecture 3 — Research Ethics",
+    "section": "",
+    "text": "You sit on a research review board. This protocol lands on your desk:\n\nA 12-month placebo-controlled trial of a new Alzheimer’s drug. Participants: residents of one memory-care facility. Consent: signed by adult children as surrogates. Site chosen because “follow-up is easy — they don’t move.”\n\n\nWould you approve it? What bothers you, if anything?\nWhat single change would you require first?\nIs “easy follow-up” ever a fair reason to pick a population?",
+    "crumbs": [
+      "Home",
+      "3. Research Ethics",
+      "Part B — Protecting Research Subjects"
+    ]
+  },
+  {
+    "objectID": "chapters/03b-protecting-research-subjects.html#back-to-the-memory-care-protocol",
+    "href": "chapters/03b-protecting-research-subjects.html#back-to-the-memory-care-protocol",
+    "title": "Lecture 3 — Research Ethics",
+    "section": "3.2 Back to the Memory-Care Protocol",
+    "text": "3.2 Back to the Memory-Care Protocol\n\nReturn to the Alzheimer’s trial from the start of class: one memory-care facility, consent signed by adult children, a site chosen because “they don’t move.”\n\nWhich vulnerability types apply?\nScore it on each Belmont principle. Where is it weakest?\nHas your answer about approving it changed?",
+    "crumbs": [
+      "Home",
+      "3. Research Ethics",
+      "Part B — Protecting Research Subjects"
+    ]
+  },
+  {
+    "objectID": "chapters/03b-protecting-research-subjects.html#the-alzheimers-case",
+    "href": "chapters/03b-protecting-research-subjects.html#the-alzheimers-case",
+    "title": "Lecture 3 — Research Ethics",
+    "section": "8.4 The Alzheimer’s Case",
+    "text": "8.4 The Alzheimer’s Case\n\n\n\nIn 2006, a Nature paper named a specific amyloid protein, **Aβ*56, as a cause of memory loss. It became one of the most-cited Alzheimer’s papers of its era and helped lock in the “amyloid hypothesis” that steered roughly 16 years** of funding and drug development.\nIn 2022, a six-month Science investigation found that key images in that paper, and in many related ones, appear to have been manipulated (Piller 2022).\n\n\n\n\nBeta-amyloid plaque formation. National Institute on Aging, NIH. Public domain.\n\n\n\n\nThrough those years amyloid-targeting drugs failed trial after trial, and participants received infusions with real risks: brain swelling and microbleeds\nA possibly faked result may have redirected a field while patients volunteered for drugs built on it",
+    "crumbs": [
+      "Home",
+      "3. Research Ethics",
+      "Part B — Protecting Research Subjects"
+    ]
+  },
+  {
+    "objectID": "chapters/03b-protecting-research-subjects-slides.html#before-we-start",
+    "href": "chapters/03b-protecting-research-subjects-slides.html#before-we-start",
+    "title": "Lecture 3 — Research Ethics",
+    "section": "Before We Start",
+    "text": "Before We Start\n\nYou sit on a research review board. This protocol lands on your desk:\n\nA 12-month placebo-controlled trial of a new Alzheimer’s drug. Participants: residents of one memory-care facility. Consent: signed by adult children as surrogates. Site chosen because “follow-up is easy — they don’t move.”\n\n\nWould you approve it? What bothers you, if anything?\nWhat single change would you require first?\nIs “easy follow-up” ever a fair reason to pick a population?"
+  },
+  {
+    "objectID": "chapters/03b-protecting-research-subjects-slides.html#back-to-the-memory-care-protocol",
+    "href": "chapters/03b-protecting-research-subjects-slides.html#back-to-the-memory-care-protocol",
+    "title": "Lecture 3 — Research Ethics",
+    "section": "Back to the Memory-Care Protocol",
+    "text": "Back to the Memory-Care Protocol\n\nReturn to the Alzheimer’s trial from the start of class: one memory-care facility, consent signed by adult children, a site chosen because “they don’t move.”\n\nWhich vulnerability types apply?\nScore it on each Belmont principle. Where is it weakest?\nHas your answer about approving it changed?"
+  },
+  {
+    "objectID": "chapters/03b-protecting-research-subjects-slides.html#the-alzheimers-case",
+    "href": "chapters/03b-protecting-research-subjects-slides.html#the-alzheimers-case",
+    "title": "Lecture 3 — Research Ethics",
+    "section": "The Alzheimer’s Case",
+    "text": "The Alzheimer’s Case\n\n\n\nIn 2006, a Nature paper named a specific amyloid protein, **Aβ*56, as a cause of memory loss. It became one of the most-cited Alzheimer’s papers of its era and helped lock in the “amyloid hypothesis” that steered roughly 16 years** of funding and drug development.\nIn 2022, a six-month Science investigation found that key images in that paper, and in many related ones, appear to have been manipulated (Piller 2022).\n\n\n\n\nBeta-amyloid plaque formation. National Institute on Aging, NIH. Public domain.\n\n\n\nThrough those years amyloid-targeting drugs failed trial after trial, and participants received infusions with real risks: brain swelling and microbleeds\nA possibly faked result may have redirected a field while patients volunteered for drugs built on it"
   }
 ]
