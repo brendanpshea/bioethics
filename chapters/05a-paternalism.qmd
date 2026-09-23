@@ -13,12 +13,10 @@ format:
     output-file: 05a-paternalism-slides.html
 ---
 
-# A Demand You'd Override {.section-divider}
-
 ## A Demand in the Delivery Room
 
 ::: {.thought-question}
-A woman in the second hour of an unmedicated labor is in extreme pain. She has had a dose of IV opioid that leaves her drowsy and slurring. Between contractions she grabs the rail, says she is "done with all of this," pulls at the fetal monitor, and demands to sign herself out and go home. Her partner is frightened. The nurse believes she would not say this an hour from now.
+A woman in the second hour of labor is in extreme pain. She has had a dose of IV opioid that leaves her drowsy and slurring. Between contractions she grabs the rail, says she is "done with all of this," pulls at the fetal monitor, and demands to sign herself out and go home. Her partner is frightened. The nurse believes she would not say this an hour from now.
 
 **Write or discuss:**
 
@@ -28,7 +26,7 @@ A woman in the second hour of an unmedicated labor is in extreme pain. She has h
 :::
 
 ::: {.aside-note}
-Don't formalize this yet. Notice instead that almost everyone would override here without hesitation. This chapter is about why that instinct is sometimes right and sometimes a trap.
+Almost everyone would override here without hesitation. This chapter is about when that instinct is right and when it is a trap.
 :::
 
 ## After You've Discussed
@@ -43,13 +41,14 @@ Don't formalize this yet. Notice instead that almost everyone would override her
 ::: {.learning-outcomes}
 By the end of Part A, you will be able to:
 
-- Define [paternalism]{.key-term} and state **Mill's harm principle** and its exceptions.
+- Define [paternalism]{.key-term} and state **Mill's harm principle**.
 - Distinguish **soft** from **hard** paternalism by whether the overridden choice is *compromised* or *competent*.
-- Build the justification for a hard paternalism we accept — prescription-only opioids.
-- Explain why drug policy is hard, drawing on both unrestricted opiates and prohibition.
-- Place policies aimed at pregnant women on a soft-to-hard spectrum, and state what *Ferguson v. City of Charleston* held.
-- Explain why **partial autonomy** — adolescents especially — is the hardest case.
+- Say where a state's incentive becomes pressure, and where pressure becomes coercion.
+- Place policies aimed at pregnant women on a soft-to-hard ladder, and state what *Ferguson v. City of Charleston* held.
+- Explain **deterrence-of-care**, and why punitive prenatal policy produces worse outcomes.
 :::
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## A Puzzle to Hold
 
@@ -63,15 +62,20 @@ The US is among the most punitive peer countries on drugs, and has the worst out
 Stringency alone does not explain this. Singapore and Japan are *harsher* than the US on drugs and have far fewer overdose deaths. The framework below is built to address the puzzle. [@commonwealth_overdose2022]
 :::
 
+::::
+
 # The Millian Framework {.section-divider}
 
 ## Paternalism, Defined
 
-[Paternalism]{.key-term} is interfering with a person's liberty, **without their consent**, and doing so **only because** you judge it to be for their own good. The metaphor is exact: a parent overriding a child for the child's sake. [@dworkin_sep_paternalism]
+[Paternalism]{.key-term} is interfering with a person's liberty, **without their consent**, **only because** you judge it to be for their own good [@dworkin_sep_paternalism].
 
-That third clause — *only because* it is for their good — is what makes paternalism distinctive. A seatbelt law that protected only the wearer is paternalism. A law against drunk driving is not: it protects *other* people on the road. Keep the two apart, because Mill treats them completely differently.
+- The "only because" is what makes it paternalism.
+- A seatbelt law that protected only the wearer is paternalism.
+- A drunk-driving law is not: it protects *other people* on the road.
+- Mill treats those two cases completely differently.
 
-::: {.context-box}
+::: {.aside-note}
 **Why the "only because" matters.** Many real laws have mixed motives. A cigarette tax protects the smoker (paternalism) *and* raises revenue *and* reduces secondhand smoke (not paternalism). When we ask whether a policy is "justified paternalism," we are asking about the part of its justification that appeals to the chooser's *own* good.
 :::
 
@@ -85,7 +89,10 @@ That third clause — *only because* it is for their good — is what makes pate
 
 [@mill1863]
 
-Read strictly, this is a near-total ban on paternalism: the state may stop you from harming *others*, never from harming only *yourself*. The cases that follow test where this line holds.
+- Read strictly, this bans paternalism: the state may stop you from harming *others*, never only *yourself*.
+- Mill's own exceptions: **children**, and the man about to cross a bridge he doesn't know is broken. You may stop him until he knows.
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## Mill's Own Exceptions
 
@@ -108,6 +115,8 @@ The case for leaving people alone rests on three assumptions — that the person
 :::
 ::::
 
+::::
+
 ## Soft vs. Hard — The Real Dividing Line
 
 The line is **not** how forceful the intervention is. It is *what kind of choice you are overriding.*
@@ -120,6 +129,8 @@ The line is **not** how forceful the intervention is. It is *what kind of choice
 | **The bridge** | stopping the man until he knows the bridge is out | stopping him *after* he knows, because you think living is better |
 
 Whether a given choice is *compromised enough* to count as soft is the judgment the hard cases turn on. [@feinberg1986_harm_to_self]
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## Is It Soft? Three Worked Calls
 
@@ -139,6 +150,8 @@ Whether a given choice is *compromised enough* to count as soft is the judgment 
 :::
 ::::
 
+::::
+
 ## The Three-Question Test
 
 Before overriding anyone "for their own good," ask:
@@ -149,34 +162,34 @@ Before overriding anyone "for their own good," ask:
 
 If the honest answers are *yes, yes, and chooser alone*, Mill says: **leave the person be.** A "no" on question 1 or 2 opens the door to *soft* paternalism. A "no" on question 3 takes the case out of paternalism entirely. The genuinely hard cases are the ones where every answer is *yes* and we still want to step in.
 
-# Hard Paternalism, Defended {.section-divider}
+## Where Is the Line?
+
+::: {.thought-question}
+A ladder of ways a state can push birth rates:
+
+- **A**: free contraception and parental leave
+- **B**: a $10,000 tax credit per child
+- **C**: a $100,000 tax credit per child
+- **D**: priority housing for families with three children
+- **E**: tax *penalties* on childless adults over 30
+- **F**: a ban on contraception (Romania, 1966)
+- **G**: forced sterilization (China; the US, 1907–1979)
+
+1. Where does **incentive** become **pressure**, and **pressure** become **coercion**?
+2. Run step **C** and step **E** through the three-question test. What changes between them?
+:::
 
 ## A Hard Case We Already Accept
 
-Here is a piece of hard paternalism almost everyone lives with comfortably: **you cannot buy morphine, oxycodone, or fentanyl without a prescription.**
+You cannot buy morphine, oxycodone, or fentanyl without a prescription, even as a competent, fully informed adult. By Mill's strict line that is forbidden hard paternalism. Nearly every country keeps it anyway.
 
-A competent, fully-informed adult who has read every warning still may not walk into a pharmacy and buy opioids at will. That is not a "harm to others" rule and not a soft-paternalism case — the buyer is, by stipulation, competent and informed. It is the state substituting its judgment for a sovereign adult's. By Mill's strict line, it should be forbidden. Yet we keep it, in nearly every country on earth. **Why?**
+- **Addiction changes the chooser.** The first dose is a competent choice; dependence degrades every dose after.
+- **Information is lopsided.** Few patients can judge dose, interactions, and overdose risk.
+- **The harm is fast and irreversible.** Mill's case for liberty leans on learning from mistakes, and an overdose cannot be learned from.
 
-## Why Prescription Gating Survives Mill
+Each defense works by showing the choice is *less free than it looks*. Much defensible hard paternalism takes that form.
 
-::: {.columns}
-::: {.column width="48%"}
-**The case for the gate:**
-
-- **Addiction changes the chooser.** The first dose is a competent choice; opioid dependence then degrades the voluntariness of every dose after. The policy protects the *future* self from the present one.
-- **Information asymmetry is severe.** Few patients can actually judge dose, interaction, and overdose risk. The prescriber supplies the competence the buyer lacks.
-:::
-::: {.column width="4%"}
-:::
-::: {.column width="48%"}
-**More of the case:**
-
-- **The harm is fast and irreversible.** A wrong choice about overdose isn't one you get to revise. Mill's defense of liberty leans on learning from mistakes; some mistakes here are unrepeatable.
-- **A choosing-self / later-self gap.** The person who wants the drug now and the person who will live with dependence are, in the ways that matter to Mill, not choosing on equal terms.
-:::
-::::
-
-Each argument defends the gate by treating the choice as *less voluntary and less informed than it first appears* — reframing apparently hard paternalism as closer to soft. Much defensible hard paternalism takes this form.
+:::: {.content-hidden when-format="revealjs"}
 
 ## Make It Contemporary
 
@@ -198,6 +211,10 @@ Each dresses hard paternalism in a *clinical pathway*. "You may have it — thro
 And the opioid example warns of the cost: tighten the legal gate too hard, and you can push people toward something worse.
 :::
 ::::
+
+::::
+
+:::: {.content-hidden when-format="revealjs"}
 
 # Why Drug Policy Is Hard {.section-divider}
 
@@ -321,17 +338,20 @@ An enforcement policy can drive the very people it claims to protect *away* from
 The Axis-2 lesson lands on the clinician. The distinctive feature of US prenatal drug policy is less its severity than its structure: it routes enforcement through the clinical encounter — test, report, refer to police — placing the clinician within the enforcement chain. A state can target supply without doing so. The clinician's question is therefore not "strict or lenient" but whether the clinical encounter should serve an enforcement function at all.
 :::
 
+::::
+
 # Pregnancy as a Paternalism Problem {.section-divider}
 
 ## When the Second Party Enters
 
-Mill's third question — *does the harm fall on the chooser alone?* — assumes a single body. Pregnancy is the standard case where it does not: a choice the law would otherwise treat as self-regarding can affect a fetus the woman may intend to carry to term.
-
-This creates a specific pressure — to reclassify her self-regarding choices as *other-regarding*, moving them out of the zone Mill protects. Background circumstances often narrow her real options as well (poverty, addiction, an abusive partner, no childcare); this does not license overriding her, but it belongs in the judgment. Whether the reclassification is warranted — and which intervention it would license — is what the spectrum below lets us test.
+- Mill's third question, *does the harm fall on the chooser alone?*, assumes a single body. Pregnancy is the standard case where it does not.
+- That creates pressure to reclassify a pregnant woman's self-regarding choices as *other-regarding*, moving them outside the zone Mill protects.
+- Poverty, addiction, an abusive partner, or no childcare often narrow her real options. That does not license overriding her, but it belongs in the judgment.
+- The paired case, **Adriana Smith**, is the limiting case: declared brain-dead at nine weeks pregnant in Georgia in 2025, her body was kept on machines for four months over her family's objection.
 
 ## A Spectrum of Interventions
 
-The aim — protecting the future child — is pursued with tools from mild to coercive. Read the rows as a ladder.
+The aim, protecting the future child, is pursued with tools from mild to coercive.
 
 | Intervention | Example | Type |
 |---|---|---|
@@ -340,17 +360,17 @@ The aim — protecting the future child — is pursued with tools from mild to c
 | **Mandatory reporting** | Newborn toxicology → child-protective referral and a Plan of Safe Care | Mixed — services or surveillance, by state |
 | **Criminal prosecution** | Prenatal drug use charged as child abuse or homicide | Hard — a charge pregnancy alone creates |
 
-Climbing from soft to hard, two things move together: the overridden choice becomes more competent and voluntary, so Mill's presumption against interference *strengthens*, and the intervention's empirical record *worsens*. The cases that follow examine the top rungs.
+Climbing the ladder, the overridden choice gets *more* competent, so Mill's case against interfering gets stronger, and the empirical record gets *worse*.
 
 ## The Question, Stated Sharply
 
 > **May the state charge a pregnant woman, on the basis of her pregnancy, with a graver crime than the same act would carry in anyone else?**
 
-The drug cases below involve illegal substances — so the conduct is *already* an offense. The novelty is what pregnancy adds. Outside pregnancy, methamphetamine use is, at most, simple possession; in these cases it is charged as **child abuse, chemical endangerment, or homicide**. The drug schedule is not doing the work — a *fetal-harm theory* is, and that theory is not limited to illegal drugs (the same machinery already reaches alcohol, prescribed medication, and — the second-most-common basis in the data — *refusing recommended care*). The question takes no position on the moral status of the fetus; it asks about the enforcement practice and whom it reaches.
+- The conduct in the drug cases is *already* an offense. Outside pregnancy, methamphetamine use is at most simple possession; here it is charged as **child abuse, chemical endangerment, or homicide**.
+- A *fetal-harm theory* is doing the work, and it is not limited to illegal drugs. It already reaches alcohol, prescribed medication, and refusing recommended care.
+- The question takes no position on the moral status of the fetus. It asks about an enforcement practice and whom it reaches.
 
 ## Ferguson v. City of Charleston (2001)
-
-*The top rung's mechanism: how the state reaches the hard end — covert testing routed to police.*
 
 ::: {.columns}
 ::: {.column width="48%"}
@@ -373,8 +393,6 @@ Ten of the eleven women arrested were Black. The eleventh was a white woman whos
 
 ## Tennessee's Fetal-Assault Law — and the Data
 
-*The top rung's result: what criminal prosecution actually produced.*
-
 ::: {.columns}
 ::: {.column width="48%"}
 **2014.** Tennessee made it a misdemeanor to take a narcotic during pregnancy "if her child is born addicted to or harmed by" it.
@@ -388,11 +406,11 @@ Ten of the eleven women arrested were Black. The eleventh was a white woman whos
 ::: {.column width="48%"}
 **What the national data show.** Faherty et al. (2019), studying 4.5 million births, found states with *punitive* policies (criminal charges, civil commitment, or reporting as abuse) had a **27% higher** rate of newborn drug withdrawal — the very outcome the laws were sold as preventing.
 
-This is the deterrence-of-care pattern from earlier — the clearest causal line from punitive policy to a worse outcome. (The wider US maternal-mortality gap is driven mainly by access, race, and postpartum coverage, not by criminalization.)
+This is **deterrence-of-care**: a policy that drives the people it claims to protect away from the care meant to help them.
 :::
 ::::
 
-::: {.context-box}
+::: {.aside-note}
 **Neonatal abstinence syndrome (NAS)** — newborn opioid withdrawal — is the set of symptoms (tremors, feeding trouble, sometimes seizures) a baby shows after in-utero opioid exposure. It is treatable, and most babies do well with good care. It is also the diagnosis punitive reporting laws claim to reduce — and don't.
 :::
 
@@ -400,30 +418,27 @@ This is the deterrence-of-care pattern from earlier — the clearest causal line
 
 ## The Scale, and a Name
 
-*The top rung in human terms: who the hard end actually reaches.*
+:::: {.columns}
 
-::: {.columns}
 ::: {.column width="58%"}
-Paltrow and Flavin counted **1,396 arrests and forced interventions on pregnant women** in the US between 1973 and 2005 — the landmark count. Of those: 71% were low-income, 59% were women of color. The most common charge was drug-related; the second was *refusing care*. The pace has risen since *Dobbs*.
-
-In 2021, a Comanche County jury found **Brittney Poolaw**, 21, guilty of first-degree manslaughter for a pregnancy loss at about seventeen weeks. The medical examiner found no cause; trace methamphetamine was in fetal tissue; the state's own toxicologist said the levels weren't clearly the cause. About one in five pregnancies is lost on its own at that stage. She was sentenced to four years; the conviction was affirmed in 2023.
+- **Paltrow and Flavin** counted **1,396** arrests and forced interventions on pregnant women in the US from 1973 to 2005: 71% low-income, 59% women of color. The most common charge involved drugs; the second, *refusing care*.
+- In 2021 an Oklahoma jury convicted **Brittney Poolaw**, 21, of first-degree manslaughter for a pregnancy loss at about seventeen weeks. The medical examiner found no cause, and the state's own toxicologist said the trace methamphetamine was not clearly the cause. About one in five pregnancies is lost on its own at that stage. She was sentenced to four years.
 :::
+
 ::: {.column width="4%"}
 :::
+
 ::: {.column width="38%"}
-**Read the number carefully.**
+**Read the number carefully.** 1,396 is not the count of pregnant women who used drugs. It is the count who were *charged, jailed, or forced into a procedure*.
 
-1,396 is not the count of pregnant women who used drugs. It is the count who were *charged, jailed, or forced into a procedure* by the state.
-
-Dorothy Roberts's *Killing the Black Body* (1997) is the classic account of why these patterns track race and class.
+**Dorothy Roberts**'s *Killing the Black Body* (1997) explains why these patterns track race and class.
 :::
+
 ::::
 
 [@paltrow_flavin2013; @roberts1997]
 
 ## Where the Profession Draws the Line
-
-*The professional verdict on the top rung — and its convergence with the data.*
 
 ::: {.columns}
 ::: {.column width="48%"}
@@ -456,7 +471,10 @@ A 32-week-pregnant patient arrives in early labor. Her urine is positive for met
 1. Which rows of the pressure-spectrum are in play here, and which would you actually use?
 2. The attending asks whether to call CPS now or after delivery. What is the right answer, and why?
 3. Does your answer change if the drug is alcohol? Fentanyl? Cannabis that is legal in this state? Be honest about why.
+4. Since *Dobbs*, prosecutions for pregnancy outcomes have risen from about fifty a year to at least **412** in two years, nearly all for substance use [@pregnancyjustice2025_twoyears]. Does that change what you do at this bedside?
 :::
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## Make It Contemporary
 
@@ -478,6 +496,10 @@ Each move treats the fetus as a *legal subject whose interests limit* what the p
 The medical position has not changed. The legal world it operates in has shifted sharply.
 :::
 ::::
+
+::::
+
+:::: {.content-hidden when-format="revealjs"}
 
 # Partial Autonomy — The Hardest Case {.section-divider}
 
@@ -520,17 +542,16 @@ A 15-year-old with a serious but treatable cancer has a strong chance of cure *w
 3. Where would respecting his refusal be honoring his autonomy, and where would it be abandoning him?
 :::
 
-# Wrap {.section-divider}
+::::
 
-## The Scoreboard
+## The Cases, Sorted
 
-| Case | Choice being overridden | Soft or hard? | The honest verdict |
+| Case | Choice being overridden | Soft or hard? | Verdict |
 |---|---|---|---|
-| Sedated laboring patient | Demand made under transient incapacity | **Soft** | Override (briefly) — restoring her real choice |
-| Age limits | An adolescent's not-yet-whole capacity | **Soft** | Justified, at a rough line |
-| Cigarette taxes | Each addicted cigarette | **Soft-ish** (contested) | Defensible as countering addiction |
-| Prescription-only opioids | A competent adult's purchase | **Hard** | Defensible — by arguing the choice is less free than it looks |
-| Criminalizing prenatal drug use | A pregnant woman's conduct | **Hard** | Backfires — deterrence-of-care, worse outcomes |
+| Sedated laboring patient | A demand made under transient incapacity | **Soft** | Override briefly, to restore her real choice |
+| Prescription-only opioids | A competent adult's purchase | **Hard** | Defensible, by showing the choice is less free than it looks |
+| Reporting newborn drug exposure | A mother's privacy | **Mixed** | Depends on whether the state runs it as services or surveillance |
+| Criminalizing prenatal drug use | A pregnant woman's conduct | **Hard** | Backfires: deterrence-of-care, worse outcomes |
 
 ## The One Idea
 
@@ -591,10 +612,10 @@ Pick one: prescription-only opioids, the 21 drinking age, or criminal charges fo
 - [Deterrence-of-care]{.key-term}
 - [Neonatal abstinence syndrome]{.key-term}
 - [Plan of Safe Care (CAPTA)]{.key-term}
-- [Partial autonomy]{.key-term}
-- [Mature-minor doctrine]{.key-term}
 :::
 ::::
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## Further Reading
 
@@ -604,11 +625,7 @@ Pick one: prescription-only opioids, the 21 drinking age, or criminal charges fo
 - Lynn Paltrow and Jeanne Flavin, "Arrests of and Forced Interventions on Pregnant Women, 1973–2005," *JHPPL* (2013).
 - ACOG Committee Opinion 664 — read it.
 
-## What We're Doing in Part B
-
-Part A asked when the state and the clinic may override a person *for her own good*.
-
-Part B turns from limits *on* choice to the *markets* that choice now runs through — the buying and selling of eggs, sperm, and pregnancy itself, the contracts that move parental rights from one body to another, and the fallout from the Alabama Supreme Court's 2024 ruling that frozen embryos are children. Same questions of autonomy and vulnerability, very different terrain.
+::::
 
 ## References
 

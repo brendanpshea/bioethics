@@ -13,7 +13,27 @@ format:
     output-file: 04b-abortion-law-slides.html
 ---
 
-# When the Law Meets the Bedside {.section-divider}
+## On Call in Lubbock
+
+::: {.thought-question}
+You are the doctor on call in Lubbock, Texas. A 26-year-old patient arrives at **20 weeks** after her water has broken. She has a fever of 101.8°F, and test results are still pending. The fetus cannot survive at this stage. Continuing the pregnancy is likely to lead to serious infection, including sepsis. Right now her vital signs are stable, and there is still fetal cardiac activity.
+
+Texas law allows abortion only for "a life-threatening physical condition" that creates "a serious risk of substantial impairment of a major bodily function."
+
+1. What would you want to do for her, clinically, and why?
+2. Does the wording of the law clearly allow it?
+3. If the team waits until she is much sicker, has the law already harmed her, even if she survives?
+:::
+
+## After You've Discussed
+
+::: {.callout-note}
+**The exception is clear on paper and unclear at the bedside.** Previable rupture of membranes, sepsis from an incomplete miscarriage, an ectopic pregnancy at risk of rupture: at what point is the threat serious enough? The statute is read by prosecutors, not physicians. Act too early and a clinician risks a felony carrying up to 99 years; wait too long and the patient's life is at risk.
+
+In *Zurawski v. Texas*, more than twenty women denied care under this statute sued. In **May 2024** the Texas Supreme Court ruled against them, holding that the "medical emergency" language was already clear and that physicians were misreading it. The paired case study follows **Kate Cox**, who was refused the same exception in December 2023.
+:::
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## Kate Cox, 31, Texas, December 2023
 
@@ -38,50 +58,28 @@ She was not alone. *Zurawski v. Texas*, filed the same year, gathered twenty-plu
 :::
 ::::
 
-## Where We Left Off
-
-Part A asked **what makes the moral status of the fetus disputable** and laid out four arguments — Marquis, Warren, Thomson, Hursthouse — in standard form. Today we turn the question outward: **what should the *law* do** about something so contested? We trace how Western legal systems have answered it from antiquity to *Dobbs*, learn how US legal argument actually works, look at the post-*Dobbs* state-by-state landscape, and finally compare the US to the rest of the world — including places where the state has used law to push birth rates either *down* (China) or *up* (Romania).
+::::
 
 ## Today
 
 ::: {.learning-outcomes}
 By the end of Part B, you will be able to:
 
-- Trace how abortion law has varied historically — from common-law "quickening" through 19th-century criminalization to the present
-- Explain in plain English how US legal argument works: precedent, *stare decisis*, the structure of a Supreme Court opinion
-- Reconstruct the *Roe*, *Casey*, and *Dobbs* majorities as arguments in standard form and identify the load-bearing premise of each
-- Read a current US state-law map and describe what care is actually available in your state right now
-- Compare four global regulatory models (Western Europe, Latin America, post-*Dobbs* US, restrictive states) and place the US in that landscape
-- Evaluate state policies that try to *change* birth rates — China's One-Child Policy, Romania's Decree 770, Hungary's incentives — using the four principles
+- Trace how abortion law has varied historically, from common-law "quickening" through 19th-century criminalization
+- Explain precedent and *stare decisis* in plain English
+- Reconstruct the *Roe* and *Dobbs* majorities in standard form and identify the load-bearing premise of each
+- Describe the post-*Dobbs* landscape: state tiers, medication abortion, and conflicts between states
+- Place the US within four global regulatory models
 :::
 
-# 1. A Brief History {.section-divider}
+# A Brief History {.section-divider}
 
-## Antiquity: Before "Personhood" Was a Category
+## Before the 19th Century
 
-- In ancient Greece and Rome, abortion and **infant exposure** were widely practiced, lightly regulated, and not understood through any concept resembling fetal personhood.
-- The original **Hippocratic Oath** (~5th c. BCE) prohibits giving "a destructive pessary" — but other Hippocratic texts describe abortifacient techniques in clinical detail. Ancient medicine was internally divided.
-- Aristotle held that the **soul entered the fetus** at 40 days (male) or 90 days (female), a view that shaped European thought for two millennia. Early abortion was qualitatively different from late.
-- Roman law treated the fetus as **part of the mother (*pars viscerum matris*)** — abortion was an offense against the father's authority, not a homicide.
-
-## English Common Law and "Quickening" {.shrink}
-
-::: {.columns}
-::: {.column width="58%"}
-For roughly **seven hundred years**, English common law — inherited by colonial America — treated abortion as a crime only after [quickening]{.key-term}: the moment the pregnant woman first felt fetal movement, typically 16–20 weeks.
-
-- Before quickening, abortion was **not a common-law crime**. Women openly purchased "obstructions of the menses" remedies.
-- After quickening, it was a *misdemeanor* — punishable, but far short of murder.
-- The line was *epistemic*, not metaphysical: quickening was the first reliable evidence the pregnancy was real and ongoing.
-:::
-::: {.column width="4%"}
-:::
-::: {.column width="38%"}
-::: {.callout-note}
-**Why this matters.** The original *Roe v. Wade* opinion (1973) leaned heavily on this history to argue that the recent American consensus *against* abortion was, in fact, a 19th-century departure from a much older common-law tradition.
-:::
-:::
-::::
+- In ancient Greece and Rome, abortion and **infant exposure** were widely practiced, lightly regulated, and not understood through anything like fetal personhood. Roman law treated the fetus as part of the mother.
+- **Aristotle** held that the soul entered the fetus at 40 days (male) or 90 days (female), a view that shaped European thought for two millennia.
+- For roughly seven hundred years, English common law, inherited by colonial America, made abortion a crime only after [quickening]{.key-term}, the first felt fetal movement at about 16–20 weeks. Even then it was a misdemeanor, not murder.
+- The line was *evidential*, not metaphysical: quickening was the first reliable sign the pregnancy was real. *Roe* later leaned on this history.
 
 ## The 19th-Century Criminalization Campaign
 
@@ -100,10 +98,12 @@ Criminalization did not end abortion; it moved it underground.
 - **The Jane Collective (Chicago, 1969–1973):** a clandestine, mostly non-medical network that performed an estimated **11,000 abortions** before *Roe*.
 - By the early 1970s, **fourteen states** had reformed their laws; four (Alaska, Hawaii, New York, Washington) had legalized abortion on request before *Roe*.
 
-## Activity 1 — A Different Country's History
+:::: {.content-hidden when-format="revealjs"}
+
+## Activity — A Different Country's History
 
 ::: {.thought-question}
-Abortion law in **Central Europe and Germany** followed a strikingly different arc.:
+Abortion law in **Central Europe and Germany** followed a strikingly different arc:
 
 - **Weimar Germany (1920s):** broad legalization for medical reasons — among the most liberal in the world at the time.
 - **Nazi Germany (1933–1945):** abortion banned, with the death penalty for some cases — but **forced** on women deemed "racially undesirable."
@@ -118,8 +118,11 @@ Abortion law in **Central Europe and Germany** followed a strikingly different a
 1. The same act — terminating a pregnancy — has been called *a right*, *a duty*, *a felony*, and *a regrettable choice* by **the same country** within a single century. What does that tell you about the relationship between abortion and political ideology?
 2. Both Nazi Germany (forcing abortion on some, banning it for others) and Romania (banning it on everyone — we'll see this later) used reproductive law as a tool of **demographic engineering**. What makes that misuse possible?
 
+::::
 
-# 2. How US Legal Argument Works {.section-divider}
+:::: {.content-hidden when-format="revealjs"}
+
+# How US Legal Argument Works {.section-divider}
 
 ## Three Sources of Law
 
@@ -204,7 +207,7 @@ The good news: legal argument follows the same standard-form structure we learne
 
 This means the move from Part A still works: locate the premise the disagreement really turns on, and you have an argument worth having.
 
-## Activity 2 — *Miranda* in Standard Form
+## Activity — *Miranda* in Standard Form
 
 ::: {.thought-question}
 Here is the core of the *Miranda* ruling in everyday language. Reconstruct it as an argument with **three premises and a conclusion**.
@@ -218,7 +221,17 @@ Here is the core of the *Miranda* ruling in everyday language. Reconstruct it as
 3. Notice the structure. We will use the same one for *Roe* and *Dobbs*.
 :::
 
-# 3. The Constitutional Arc: *Roe* → *Casey* → *Dobbs* {.section-divider}
+::::
+
+# The Constitutional Arc: *Roe* → *Casey* → *Dobbs* {.section-divider}
+
+## How to Read a Ruling
+
+- A [precedent]{.key-term} is a prior decision that later courts treat as binding. It is what makes law predictable.
+- [*Stare decisis*]{.key-term} ("stand by things decided") says to follow precedent even when you disagree. It is a presumption, not an absolute.
+- Courts overturn precedent for four standard reasons: the rule is **unworkable**; society has **not relied** on it; it **fits badly** with related law; or its **factual assumptions** have failed.
+- The **majority opinion** binds. A **concurrence** agrees but adds reasoning; a **dissent** has no force now, though dissents sometimes become later majorities.
+- A ruling is an argument whose premises are claims about text, history, and precedent, so the tool from Part A still works.
 
 ## *Roe v. Wade* (1973) — What It Actually Held
 
@@ -252,6 +265,8 @@ Blackmun, J., for a 7–2 Court [@roe_v_wade_1973]
 4. Therefore, before those points, the state may not prohibit abortion.
 :::
 
+:::: {.content-hidden when-format="revealjs"}
+
 ## *Roe*, in Justice Blackmun's Words
 
 ::: {.quote-card}
@@ -261,6 +276,8 @@ Blackmun, J., for a 7–2 Court [@roe_v_wade_1973]
 *Roe v. Wade*, 410 U.S. 113, 153 (1973). Majority opinion, Blackmun, J. [@roe_v_wade_1973]
 :::
 :::
+
+::::
 
 ## *Planned Parenthood v. Casey* (1992)
 
@@ -277,6 +294,8 @@ Blackmun, J., for a 7–2 Court [@roe_v_wade_1973]
 :::
 ::::
 
+:::: {.content-hidden when-format="revealjs"}
+
 ## *Casey*, in the Joint Opinion's Words
 
 ::: {.quote-card}
@@ -288,6 +307,8 @@ Blackmun, J., for a 7–2 Court [@roe_v_wade_1973]
 :::
 
 This is the famous "mystery passage" — one of the most cited and most mocked sentences in modern constitutional law. Critics call it philosophically empty; supporters call it the most honest articulation of what liberty actually means in a pluralistic society.
+
+::::
 
 ## *Dobbs v. Jackson Women's Health* (2022)
 
@@ -315,6 +336,8 @@ Alito, J., for a 5-justice majority [@dobbs_2022]
 5. Therefore, *Roe* and *Casey* are overruled; the Constitution does not protect a right to abortion; the question returns to the states.
 :::
 
+:::: {.content-hidden when-format="revealjs"}
+
 ## *Dobbs*, in Justice Alito's Words
 
 ::: {.quote-card}
@@ -324,6 +347,10 @@ Alito, J., for a 5-justice majority [@dobbs_2022]
 *Dobbs v. Jackson Women's Health Organization*, 597 U.S. ___ (2022). Majority opinion, Alito, J. [@dobbs_2022]
 :::
 :::
+
+::::
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## The *Dobbs* Dissent, in Their Words
 
@@ -335,7 +362,9 @@ Alito, J., for a 5-justice majority [@dobbs_2022]
 :::
 :::
 
-## Activity 3 — Circle the Weakest Premise
+::::
+
+## Activity — Circle the Weakest Premise
 
 ::: {.thought-question}
 You now have both *Roe* and *Dobbs* in standard form. The dispute between them is not really about whether abortion is *moral* — it is about what the *Constitution* requires.
@@ -344,17 +373,17 @@ You now have both *Roe* and *Dobbs* in standard form. The dispute between them i
 
 1. In the **Roe** argument, which premise (P1, P2, P3) carries the most weight, and which would a critic most likely target?
 2. In the **Dobbs** argument, the same question. (Hint: look hard at P1 — is "deeply rooted in history and tradition" really the right test?)
-3. Notice that both arguments could be **valid** while disagreeing fundamentally. The fight is over which premises are *true*. What does that tell you about how to evaluate the next Supreme Court decision you read?
+3. Both arguments could be **valid** while disagreeing fundamentally. If the fight is over which premises are *true*, how should you evaluate the next Supreme Court decision you read?
 :::
 
-# 4. The Post-*Dobbs* US Landscape {.section-divider}
+# The Post-*Dobbs* US Landscape {.section-divider}
 
 ## Where Things Stand — A US Map
 
 ![](../images/abortion_laws_us_states.svg){width="92%" fig-alt="Map of the United States showing gestational limits for elective abortion by state as of May 2025"}
 
 ::: {.attribution}
-Wikimedia Commons, "Gestational limits for elective abortion in the United States" (May 2025). **This map is a snapshot and is already out of date in places** — Missouri in particular (see below). Treat it as a picture of how *varied* the landscape is, not as a current legal reference. For live status, use the Guttmacher Institute or Center for Reproductive Rights trackers.
+Wikimedia Commons, "Gestational limits for elective abortion in the United States" (May 2025). **This map is a snapshot and is already out of date in places**, Missouri in particular. Treat it as a picture of how *varied* the landscape is, not as a current legal reference. For live status, use the Guttmacher Institute or Center for Reproductive Rights trackers.
 :::
 
 ## Five Regulatory Tiers
@@ -371,7 +400,7 @@ Wikimedia Commons, "Gestational limits for elective abortion in the United State
 Compiled from Guttmacher Institute state-policy tracking [@guttmacher_state_policies_2024]. **Tiers move constantly — verify before relying on any row.**
 :::
 
-::: {.context-box}
+::: {.aside-note}
 **Missouri: why a tier table is never finished.** Missouri held a near-total ban until **November 2024**, when voters passed a constitutional amendment (Amendment 3) making reproductive freedom a state right — the first time a public vote overturned a near-total ban. What followed was two years of trench warfare: injunctions blocking the ban, the Missouri Supreme Court reinstating it on procedural grounds in **May 2025**, then further rulings restoring access, including a **June 2026** circuit-court decision striking down most remaining restrictions.
 
 The fight is not over. A **new** Amendment 3 — drafted by the legislature to re-ban abortion, with exceptions for life and, up to 12 weeks, rape and incest — goes before Missouri voters on **November 3, 2026**, in the middle of our term [@ballotpedia2026_missouri_amendment3]. Watch it as it happens: you are seeing a state's abortion law contested through courts *and* ballots at the same time.
@@ -380,11 +409,11 @@ The fight is not over. A **new** Amendment 3 — drafted by the legislature to r
 ## Medication Abortion and the Comstock Act
 
 - Since 2020, more than **half** of US abortions have been medication abortions (mifepristone + misoprostol).
-- This makes abortion **harder to ban completely** — pills travel through the mail, across state lines, and from overseas pharmacies.
-- The **Comstock Act of 1873** — an obscenity statute still on the books — prohibits mailing items "designed, adapted, or intended for producing abortion." For a century it was treated as a dead letter.
-- Some legal commentators argue *Dobbs* has revived Comstock. The theory is that mifepristone could become functionally unavailable nationwide — without any new law being passed.
+- Pills travel by mail, across state lines, and from overseas, which makes abortion **harder to ban completely**.
+- The **Comstock Act** of 1873, an obscenity statute still on the books, prohibits mailing items "intended for producing abortion." For a century it was treated as a dead letter.
+- Access to mifepristone by telehealth and mail now rests on a **Supreme Court stay**, a temporary order, not a settled rule.
 
-::: {.context-box}
+::: {.aside-note}
 **Where the pill fight actually stands (as of July 2026).** The federal government has not brought Comstock prosecutions, but the statute is now doing work in *litigation* rather than enforcement.
 
 - **States are suing the FDA.** In *Louisiana v. FDA*, states argue that the FDA's 2016–2023 decisions permitting telehealth prescribing and mail/pharmacy dispensing violated the Administrative Procedure Act **and** the Comstock Act.
@@ -392,23 +421,25 @@ The fight is not over. A **new** Amendment 3 — drafted by the legislature to r
 - **May 14, 2026:** the **Supreme Court stayed** that order [@guttmacher2026_scotus_mifepristone]. Mifepristone remains available by telehealth and mail for now. The Court did not rule on the merits — it froze the status quo while the case continues [@kff_louisiana_fda_2026]. In a dissent, Justice Thomas argued the Comstock Act should be enforced as written.
 - **Separately,** the FDA opened a safety review of mifepristone in late 2025. Several other mifepristone cases are paused awaiting its outcome.
 
-**The ethics point:** access to the most common method of abortion in the US currently rests on a *stay* — a temporary order — not a settled rule. Ask what it does to clinical practice when the legality of a standard treatment can change between one semester and the next.
+Access to the most common method of abortion in the US currently rests on a *stay*, a temporary order, not a settled rule. What does it do to clinical practice when the legality of a standard treatment can change between one semester and the next?
 :::
 
 ## Travel, Shield Laws, and Interstate Conflict
 
 ::: {.columns}
 ::: {.column width="48%"}
-**Travel for care.** After *Dobbs*, abortion travel surged. Illinois clinics report patients from twenty states. Kansas became a regional destination. Estimates suggest **150,000–200,000** Americans travel for abortion care each year.
+**Travel for care.** After *Dobbs*, abortion travel surged: an estimated **150,000–200,000** Americans now travel for abortion care each year.
 :::
 ::: {.column width="4%"}
 :::
 ::: {.column width="48%"}
-**Shield laws.** A growing set of states (NY, MA, CA, CO, WA) have passed laws **shielding** their providers from out-of-state subpoenas and prosecutions when they ship pills to or treat patients from ban states. This is no longer a prediction — it is a live fight, likely headed to the Supreme Court under the **Full Faith and Credit Clause**. See Dr. Carpenter, below.
+**Shield laws.** A growing set of states (NY, MA, CA, CO, WA) have passed laws **shielding** their providers from out-of-state subpoenas and prosecutions when they ship pills to or treat patients from ban states. This is no longer a prediction — it is a live fight, likely headed to the Supreme Court under the **Full Faith and Credit Clause**.
 :::
 ::::
 
-::: {.context-box}
+**Dr. Margaret Carpenter**, a New York physician who mailed pills to patients in ban states, has been indicted in Louisiana, fined more than $100,000 in Texas, and protected by New York. All three claim to be applying the law correctly.
+
+::: {.aside-note}
 **One doctor, two states, two legal universes.** Dr. Margaret Carpenter, a New York physician, prescribed abortion medication by telehealth to patients in ban states.
 
 - **Louisiana** indicted her on a felony charge — the first criminal case against a physician for mailing pills across state lines after *Dobbs*.
@@ -420,28 +451,7 @@ Nothing has been resolved. Carpenter is charged in one state, fined in another, 
 **Write or discuss:** If the same act is a felony in Louisiana and lawful in New York, whose law *should* govern — the state where the doctor sits, or the state where the patient sits? What would each answer do to telemedicine generally, beyond abortion?
 :::
 
-## "Life of the Mother" — What It Really Means at the Bedside
-
-Most state bans include an exception for risks to the **life** of the mother. The phrase looks clear. It is not.
-
-- **Sepsis from incomplete miscarriage**, **previable PPROM** (premature rupture of membranes), **ectopic pregnancy at risk of rupture**, **severe preeclampsia at 22 weeks** — at what point is the threat to maternal life "imminent enough" for the exception to apply?
-- The **statute** is read by **prosecutors**, not physicians. A clinician who acts too early risks felony charges; one who waits too long risks the patient's life.
-- This can create ethial dilemmas for physicians, nurses, and other clinical staff
-
-## Activity 4 — On Call in Lubbock {.shrink}
-
-::: {.thought-question}
-Imagine you are the doctor on call in Lubbock, Texas. A 26-year-old patient who has been pregnant twice and has one prior birth arrives at **20 weeks** after her water has broken. She has a fever of 101.8°F, and test results are still pending. The fetus cannot survive yet at this stage of pregnancy. Continuing the pregnancy is likely to lead to serious infection, including chorioamnionitis and sepsis — but at this moment her vital signs are stable, and there is still fetal cardiac activity.
-
-Texas law allows abortion only when there is "a life-threatening physical condition aggravated by, caused by, or arising from a pregnancy" that creates a "serious risk of substantial impairment of a major bodily function."
-
-**Write or discuss:**
-
-1. From a clinical point of view, what would you want to do for the patient, and why?
-2. Based on the wording of the law, do you think it clearly allows that care? Why or why not?
-3. If the team waits until she becomes much sicker — for example, until her fever rises or her blood pressure drops — has the law already harmed her, even if she survives?
-4. What kinds of changes would help most: clearer laws, better legal protection for clinicians using their judgment, hospital guidance, or something else?
-:::
+:::: {.content-hidden when-format="revealjs"}
 
 ## Conscience Clauses
 
@@ -464,7 +474,9 @@ The federal courts came close to answering and then backed away:
 So the conflict was never resolved on the merits — the case that would have resolved it was withdrawn. What protection remains comes from private suits (Idaho's largest hospital system won an injunction covering only itself) rather than from a national rule. A nurse or physician in a ban state today has *less* federal clarity than in 2023, not more.
 :::
 
-# 5. Abortion Law Around the World {.section-divider}
+::::
+
+# Abortion Law Around the World {.section-divider}
 
 ## A World Map
 
@@ -489,6 +501,8 @@ The Center for Reproductive Rights groups countries into four tiers by legal gro
 Estimates from Center for Reproductive Rights, 2024 [@crr_world_abortion_laws; @cfr_abortion_law].
 :::
 
+:::: {.content-hidden when-format="revealjs"}
+
 ## The Western European Consensus {.shrink}
 
 Despite enormous cultural variation, most of Western Europe has converged on a **strikingly similar settlement**:
@@ -502,6 +516,10 @@ Despite enormous cultural variation, most of Western Europe has converged on a *
 **The puzzle.** Western Europe's settlement is *more restrictive* than *Casey*'s viability standard (~24 wk) but *less restrictive* than most US ban states. Both sides of the US debate routinely point to Europe to support their position — usually selectively.
 :::
 
+::::
+
+:::: {.content-hidden when-format="revealjs"}
+
 ## Latin America's "Green Wave"
 
 For most of the 20th century, Latin America had some of the world's most restrictive abortion laws. That has changed remarkably fast.
@@ -511,6 +529,9 @@ For most of the 20th century, Latin America had some of the world's most restric
 - **Colombia (2022):** Constitutional Court legalized abortion on request to 24 weeks — among the most permissive standards anywhere
 - **Chile (2017, 2024 attempt):** narrowly legalized for three grounds; broader liberalization stalled
 
+::::
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## Two European Tipping Points {.shrink}
 
@@ -529,7 +550,9 @@ Poland was already among Europe's most restrictive. In 2020 its constitutional t
 :::
 ::::
 
-## Activity 5 — Why Does the World Converge Around 12–15 Weeks?
+::::
+
+## Activity — Why Does the World Converge Around 12–15 Weeks?
 
 ::: {.thought-question}
 A striking pattern: nearly every liberal democracy that has settled the question — Germany, France, Italy, Belgium, Spain, the Netherlands, Argentina, Ireland — has landed on a first-trimester (or slightly later) **on-request window**, with stricter standards beyond it.
@@ -541,7 +564,9 @@ A striking pattern: nearly every liberal democracy that has settled the question
 3. Is convergence here evidence that this is the *right* answer, or only that it is a politically *stable* one?
 :::
 
-# 6. When the State Wants More Babies — or Fewer {.section-divider}
+:::: {.content-hidden when-format="revealjs"}
+
+# When the State Wants More Babies — or Fewer {.section-divider}
 
 ## Coercive Anti-Natalism: China's One-Child Policy (1979–2015) {.shrink}
 
@@ -564,7 +589,7 @@ By 2015 China's birth rate had fallen below replacement, and the country was agi
 - Birth rates have continued to fall
 
 ::: {.callout-note}
-**The lesson.** Coercive anti-natalism produced a demographic catastrophe that coercive pro-natalism is now unable to reverse. Once people experience reproductive autonomy, governments may find they cannot order it away.
+Coercive anti-natalism produced a demographic crisis that coercive pro-natalism has so far been unable to reverse.
 :::
 
 ## Coercive Pro-Natalism: Romania's Decree 770 (1966–1989)
@@ -595,7 +620,7 @@ These have resulted in modest stabilization at best. No incentive package has re
 :::
 ::::
 
-## Activity 6 — Where Is the Line?
+## Activity — Where Is the Line?
 
 ::: {.thought-question}
 A spectrum of state involvement in reproduction:
@@ -616,7 +641,9 @@ A spectrum of state involvement in reproduction:
 3. Is the relevant question *whether* the state has a legitimate demographic interest, or *which means* it may use to pursue one?
 :::
 
-# 7. Pulling It Together {.section-divider}
+::::
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## The Four Principles, Applied to Law
 
@@ -627,10 +654,12 @@ A spectrum of state involvement in reproduction:
 | **Non-maleficence** | Avoid the foreseeable harms of restrictive regimes — maternal deaths, denied miscarriage care, clinician moral injury | Avoid the foreseeable harms of liberal regimes that some claim (coarsening of moral attitudes, late-term cases) |
 | **Justice** | Equal access — burdens of restrictive laws fall most heavily on the poor and on rural patients | Distributive concerns also push toward considering future generations and demographic balance |
 
+::::
+
 ## Mini-Recap
 
 ::: {.recap}
-Law has answered the abortion question in radically different ways across time and place: the common law treated early abortion as no crime; 19th-century America criminalized it everywhere; *Roe* and *Casey* read a privacy-and-liberty right into the Fourteenth Amendment; *Dobbs* returned the question to state legislatures; Latin America has liberalized while the US restricted; and some states have used coercive laws to engineer demographics in both directions, with disastrous results. The argumentative tool from Part A travels — every Supreme Court opinion, every state statute, every UN resolution can be put into standard form and tested at its load-bearing premise.
+Law has answered the abortion question in radically different ways across time and place: the common law treated early abortion as no crime; 19th-century America criminalized it everywhere; *Roe* and *Casey* read a privacy-and-liberty right into the Fourteenth Amendment; *Dobbs* returned the question to state legislatures; Latin America has liberalized while the US restricted. The argumentative tool from Part A travels: every Supreme Court opinion and every state statute can be put into standard form and tested at its load-bearing premise.
 :::
 
 
@@ -647,13 +676,13 @@ Pick two of the standard reasons a court gives for overturning one of its own pa
 ::: {.review-item .review-apply}
 [Apply]{.review-label}
 
-A state bans abortion except when the patient's "life is in imminent danger." A patient at 19 weeks has a serious infection that is not yet life-threatening but is expected to become so. What does the word *imminent* force the medical team to wait for? Suggest one change to the statute that would fix the problem.
+A pharmacist in a ban state hesitates to fill methotrexate for a patient's diagnosed ectopic pregnancy, worried the drug counts as an abortifacient. What should the clinician do, and what does the hesitation show about how bans reach care beyond abortion?
 :::
 
 ::: {.review-item .review-debate}
 [Debate]{.review-label}
 
-China forced people to have fewer children; Romania forced people to have more. Both caused severe harms. Is the lesson that *all* coercive reproductive policy is wrong, or only that these particular policies went wrong? Defend your view.
+Should a ban's medical exception list specific conditions, or leave the judgment to the treating physician? Defend one approach.
 :::
 
 :::
@@ -671,6 +700,8 @@ China forced people to have fewer children; Romania forced people to have more. 
 - **Shield law** — a state law protecting in-state providers from out-of-state legal action.
 - **Comstock Act** — 1873 federal anti-obscenity statute that, on a literal reading, prohibits mailing abortion-related items.
 
+:::: {.content-hidden when-format="revealjs"}
+
 ## Further Reading
 
 - Greenhouse, Linda, and Reva B. Siegel. *Before Roe v. Wade: Voices That Shaped the Abortion Debate Before the Supreme Court's Ruling.* Kaplan, 2010.
@@ -681,6 +712,7 @@ China forced people to have fewer children; Romania forced people to have more. 
 - Center for Reproductive Rights, *The World's Abortion Laws* (live map). [@crr_world_abortion_laws]
 - Council on Foreign Relations, *Abortion Law: Global Comparisons*. [@cfr_abortion_law]
 
+::::
 
 ## References
 

@@ -13,8 +13,6 @@ format:
     output-file: 04a-abortion-slides.html
 ---
 
-# A Stranger in the Next Bed {.section-divider}
-
 ## You Wake Up Connected
 
 ::: {.thought-question}
@@ -28,17 +26,14 @@ You wake up in a hospital bed. In the bed beside you is a famous, unconscious vi
 :::
 
 ::: {.aside-note}
-This is Judith Jarvis Thomson's 1971 case. Don't formalize it yet — react to it first. We come back and reconstruct it as an explicit argument later in the chapter.
+This is Judith Jarvis Thomson's 1971 case. We reconstruct it as an explicit argument later in the chapter.
 :::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-Three things to hold onto from that scene:
-
 - **A right to life is not automatically a right to *use someone else's body*.** These are two different rights, and people slide between them.
-- **There's a moral difference between "killing" and "letting die."** Where you draw that line will decide many other cases in this course.
-- **Today's job is to learn a tool, not to settle the question.** By the end you will be able to point at the specific sentence in any abortion argument that you think is wrong. That sentence is where the real disagreement lives.
+- **There is a moral difference between "killing" and "letting die."** Where you draw that line will decide many other cases in this course.
 :::
 
 ## Today
@@ -46,7 +41,7 @@ Three things to hold onto from that scene:
 ::: {.learning-outcomes}
 By the end of Part A, you will be able to:
 
-- Rewrite an everyday argument in standard form (numbered premises → conclusion) and distinguish *validity* from *soundness*
+- Tell *validity* from *soundness*, and spot the equivocation on "human" that runs through abortion arguments
 - State Don Marquis's future-like-ours argument and the strongest objection to it
 - Apply Mary Anne Warren's five marks of personhood to borderline cases (zygote, newborn, adult with advanced dementia, dolphin, AI)
 - Reconstruct Judith Jarvis Thomson's violinist case as a formal argument and locate at least two disanalogies critics press against it
@@ -54,44 +49,15 @@ By the end of Part A, you will be able to:
 - Identify, for any abortion argument, the *load-bearing premise* — the one premise the disagreement actually turns on
 :::
 
-# A Tool: Standard Form {.section-divider}
+## Standard Form, Recapped
 
-## What Standard Form Looks Like
+Earlier in the course we treated an argument as premises plus a conclusion. Today we write them in **standard form**: numbered premises, then the conclusion.
 
-In philosophy, we make arguments visible by stacking the **premises** in a numbered list and setting the **conclusion** below a line. A toy example, far from abortion:
+- An argument is **valid** when the conclusion *follows*: if the premises were true, the conclusion would have to be.
+- It is **sound** when it is valid *and* every premise is actually true.
+- Most serious abortion arguments are valid. The fight is over whether one premise is true, so the skill is finding that premise.
 
-::: {.argument}
-::: {.arg-name}
-A Simple Argument
-:::
-
-1. All registered nurses in Minnesota are licensed by the Board of Nursing.
-2. Jamie is a registered nurse working in Rochester, Minnesota.
-3. Therefore, Jamie is licensed by the Board of Nursing.
-:::
-
-Once an argument is in this shape, disagreement becomes precise: you no longer reject "the whole thing," you reject **a specific premise**, or you reject the **inference** from premises to conclusion.
-
-## Validity vs. Soundness
-
-::: {.columns}
-::: {.column width="48%"}
-### Valid
-An argument is **valid** when the conclusion *follows* from the premises — *if* the premises were all true, the conclusion would have to be true.
-
-Validity is about the *shape* of the argument, not the truth of any individual sentence.
-:::
-::: {.column width="4%"}
-:::
-::: {.column width="48%"}
-### Sound
-An argument is **sound** when it is valid **and** all its premises are actually true.
-
-Most real bioethics arguments are valid; the fight is almost always over whether one of the premises is actually true. That is what to look for.
-:::
-::::
-
-## Two Traps to Watch For — The Equivocation Trap
+## The Equivocation Trap
 
 The word **"human"** has two very different senses, and arguments about abortion routinely slide between them without anyone noticing.
 
@@ -109,6 +75,8 @@ The word **"human"** has two very different senses, and arguments about abortion
 ::: {.context-box}
 **The trap.** "The fetus is human" is true in the biological sense — but the conclusion "it is wrong to kill the fetus" only follows if "human" means *the moral sense*. Sliding between the two senses inside a single argument is the fallacy of **equivocation**, and it is the single most common error in abortion debates on both sides.
 :::
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## Two Traps to Watch For — Begging the Question
 
@@ -141,7 +109,11 @@ The word **"murder"** has already done all the work — it means *wrongful killi
 Once you can see equivocation and question-begging, you hear them everywhere. These two are worth the effort: they transfer to every chapter that follows.
 :::
 
-## Activity 1 — Reconstruct It
+::::
+
+:::: {.content-hidden when-format="revealjs"}
+
+## Activity — Reconstruct It
 
 ::: {.thought-question}
 Here is a passage in the style philosophers actually write in. Pull it apart into standard form on paper or in a text box.
@@ -159,7 +131,7 @@ Here is a passage in the style philosophers actually write in. Pull it apart int
 This is a paraphrase of Marquis, not his exact words. We formalize it carefully in the next section — you will see it again.
 :::
 
-# Two Quick Briefers {.section-divider}
+::::
 
 ## A Short Biological Primer
 
@@ -180,6 +152,8 @@ This is a paraphrase of Marquis, not his exact words. We formalize it carefully 
 Adapted from clinically standard developmental timelines.
 :::
 
+:::: {.content-hidden when-format="revealjs"}
+
 ## Trimester at a Glance — What Patients Are Actually Experiencing
 
 | Trimester | Weeks (LMP) | What is developing | What care typically looks like |
@@ -191,6 +165,8 @@ Adapted from clinically standard developmental timelines.
 ::: {.context-box}
 **Why this matters for nursing.** Patients use clinical week counts, not fertilization counts. A "six-week pregnancy" is a roughly four-week-old embryo, smaller than a grain of rice. Some recent state laws are written to take effect at clinical week 6 — before many people realize they are pregnant.
 :::
+
+::::
 
 ## How Abortion Is Actually Performed
 
@@ -218,22 +194,15 @@ Adapted from clinically standard developmental timelines.
 
 ## Who Actually Has Abortions
 
-::: {.columns}
-::: {.column width="55%"}
 - About **1 in 4** US women will have an abortion by age 45.
-- **~60%** of those obtaining abortions are already mothers.
-- The **modal patient** is in her 20s, low-income, and identifies as a Christian.
+- About **60%** of those obtaining abortions are already mothers.
+- The typical patient is in her 20s, low-income, and identifies as Christian.
 - The most-cited reasons are **economic instability**, **timing**, and **responsibilities to existing children**.
-- Roughly **80%** of US abortions occur in the first trimester; **<1%** occur after 21 weeks, almost always for severe fetal anomaly or maternal life.
+- About **80%** of US abortions occur in the first trimester; **under 1%** occur after 21 weeks, almost always for severe fetal anomaly or maternal life.
+
+::: {.aside-note}
+Public images of abortion often imagine a single, young, childless patient making a quick decision. The data describe a different population: women already raising children, deciding from inside the constraints of an existing family.
 :::
-::: {.column width="4%"}
-:::
-::: {.column width="41%"}
-::: {.callout-note}
-**Why these numbers matter.** Public images of abortion often imagine a single, young, childless patient making a quick decision. The data describe a different population: women already raising children, deciding from inside the constraints of an existing family.
-:::
-:::
-::::
 
 ::: {.attribution}
 Figures from Guttmacher Institute and CDC Abortion Surveillance, 2020–2023.
@@ -241,36 +210,16 @@ Figures from Guttmacher Institute and CDC Abortion Surveillance, 2020–2023.
 
 ## What Makes Something Matter Morally?
 
-To have [moral status]{.key-term} is to count, in your own right, in moral reasoning — to be the kind of thing it can be wrong to *harm*, not just the kind of thing it can be wrong to *damage*. 
+To have [moral status]{.key-term} is to count, in your own right, in moral reasoning. Each candidate criterion gives a *different* verdict on the early fetus.
 
-::: {.columns}
-::: {.column width="48%"}
-**Biological humanity.** Being a living member of the species *Homo sapiens*. A zygote qualifies; a chimpanzee does not.
-
-**Sentience.** Being able to feel — pleasure, pain, fear. Early fetuses do not; late-term fetuses and most animals do.
-:::
-::: {.column width="4%"}
-:::
-::: {.column width="48%"}
-**Personhood.** Having the psychological features (consciousness, reasoning, self-awareness) that make someone a *who*, not just a *what*.
-
-**Potentiality.** Being the kind of thing that, left to develop, *will become* one of the above.
-:::
-::::
-
-## Why the Criterion You Pick Decides Almost Everything
-
-Each candidate criterion delivers a *different* verdict on the early fetus. 
-| Criterion | Does the early fetus qualify? | Which argument it lines up with |
-|---|:---:|---|
-| **Biological humanity** | **Yes** — *Homo sapiens* from fertilization | The conservative right-to-life argument |
-| **Sentience** | **No** — no functional pain pathways until ~24 wk | Most pro-choice arguments, esp. early abortion |
-| **Personhood** (psychological) | **No** — no consciousness, reasoning, or self-awareness | Warren's argument |
-| **Potentiality** (a future like ours) | **Yes** — will develop into a full person if not killed | Marquis's argument |
+| Criterion | What it means | Early fetus? | Lines up with |
+|---|---|:---:|---|
+| **Biological humanity** | A living member of *Homo sapiens* | **Yes** | The conservative right-to-life argument |
+| **Potentiality** | Will become a person if not killed | **Yes** | Marquis |
+| **Sentience** | Able to feel pleasure and pain | **No**, until ~24 weeks | Most pro-choice arguments |
+| **Personhood** | Consciousness, reasoning, self-awareness | **No** | Warren |
 
 # Four Arguments {.section-divider}
-
-The rest of the lecture is built around four classic arguments. 
 
 ## Argument 1 — The Future-Like-Ours Argument
 
@@ -311,6 +260,8 @@ Marquis's principle — *killing is wrong when it deprives a being of a valuable
 :::
 ::::
 
+:::: {.content-hidden when-format="revealjs"}
+
 ## Marquis: Unpacking "a Future Like Ours"
 
 Marquis's argument is unusual: it does **not** depend on the fetus being a "person" right now, or on having a soul, or on a heartbeat. It depends only on the fetus *having a valuable future*.
@@ -321,6 +272,8 @@ That move has two consequences worth noticing:
 - It does **not** automatically cover a permanently comatose patient, or a fertilized egg in a clinic freezer that no one will implant — because those entities arguably have no future to be deprived *of*.
 
 The premise doing the heavy lifting is **P3** — that the fetus's future is "of the same general kind" as yours. That is where critics push.
+
+::::
 
 ## Objection to Marquis
 
@@ -338,7 +291,9 @@ A common reply in the secondary literature [@harman_sep_abortion, §2.2]
 4. Therefore, even granting Marquis's general principle, it does not yet show that early abortion deprives *anyone* of a future.
 :::
 
-## Activity 2a — Whose Future Counts?
+:::: {.content-hidden when-format="revealjs"}
+
+## Activity — Whose Future Counts?
 
 ::: {.thought-question}
 Marquis's argument stands or falls on **who counts as having "a future like ours."**
@@ -350,6 +305,8 @@ Marquis's argument stands or falls on **who counts as having "a future like ours
 3. A 6-week embryo conceived through IVF that the couple has decided not to implant.
 4. A frozen embryo that will be donated for stem-cell research with no chance of implantation.
 :::
+
+::::
 
 ## Argument 2 — The Personhood Argument
 
@@ -369,6 +326,8 @@ Mary Anne Warren, "On the Moral and Legal Status of Abortion" (1973)
 
 [@warren1973]
 
+:::: {.content-hidden when-format="revealjs"}
+
 ## Warren, in Her Own Words
 
 ::: {.quote-card}
@@ -378,6 +337,10 @@ Mary Anne Warren, "On the Moral and Legal Status of Abortion" (1973)
 Mary Anne Warren, "On the Moral and Legal Status of Abortion" (1973), §III.
 :::
 :::
+
+::::
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## Warren: The Five Criteria
 
@@ -392,6 +355,8 @@ Warren argues that a fetus might have *some* moral value, but is not yet a perso
 | **Self-awareness** | Has a concept of itself as a continuing subject |
 
 Critics argue that newborn infants also fail most of these tests, yet killing them is plainly murder. 
+
+::::
 
 ## Objection to Warren
 
@@ -410,10 +375,10 @@ A standard reply, pressed in many forms since Warren's paper
 :::
 
 ::: {.context-box}
-**Warren's own response** (in a 1982 postscript) is that infanticide is wrong because *others* now want and can care for the infant — which moves the moral weight off the infant's own properties and onto social facts. Many readers find this reply unsatisfying.
+**Warren's reply** (1982): infanticide is wrong because *others* want and can care for the infant. That moves the moral weight off the infant and onto social facts.
 :::
 
-## Activity 2b — Personhood Scoreboard
+## Activity — Personhood Scoreboard
 
 ::: {.thought-question}
 Score each entity on each of Warren's five criteria using **0** (none), **½** (some), or **1** (clearly present). Then write a one-sentence verdict: is this entity a person, on Warren's account?
@@ -432,8 +397,6 @@ Score each entity on each of Warren's five criteria using **0** (none), **½** (
 
 ## Argument 3 — The Bodily Autonomy Argument
 
-You met this case at the very start of class. Now we will formalize it.
-
 ::: {.argument}
 ::: {.arg-name}
 Thomson: A Right to Life Is Not a Right to Use Another's Body
@@ -450,6 +413,8 @@ Judith Jarvis Thomson, "A Defense of Abortion" (1971)
 
 [@thomson1971]
 
+:::: {.content-hidden when-format="revealjs"}
+
 ## Thomson, in Her Own Words
 
 ::: {.quote-card}
@@ -460,6 +425,10 @@ Judith Jarvis Thomson, "A Defense of Abortion" (1971), §§1, 4.
 :::
 :::
 
+::::
+
+:::: {.content-hidden when-format="revealjs"}
+
 ## Thomson: The Move That Shocked Everyone
 
 The brilliance of Thomson's argument is the phrase **"even granting"** in premise 1. Nearly every prior debate had assumed that *if* the fetus is a person, abortion is obviously wrong. Thomson said: fine, grant it — and abortion is *still* sometimes permissible.
@@ -469,6 +438,8 @@ This reframes the entire debate. The question is no longer *only* "Is the fetus 
 ::: {.context-box}
 **A right to life is narrower than people assume.** Thomson points out that you cannot, for instance, demand that Henry Fonda fly across the country to put his cool hand on your fevered brow — even if it is the only thing that will save your life. Your right to life does not give you a right to *whatever* you need to keep living.
 :::
+
+::::
 
 ## Objection to Thomson
 
@@ -486,7 +457,9 @@ A standard reply [@harman_sep_abortion, §1.2]
 4. So Thomson's argument, even if sound in the rape case, does not generalize to most actual abortions.
 :::
 
-## Activity 3 — Disanalogy Hunt
+:::: {.content-hidden when-format="revealjs"}
+
+## Activity — Disanalogy Hunt
 
 ::: {.thought-question}
 An analogy is only as strong as its weakest joint. Thomson's case is built on a structural likeness between *being plugged into the violinist* and *being pregnant*.
@@ -498,6 +471,8 @@ An analogy is only as strong as its weakest joint. Thomson's case is built on a 
 3. Does the difference, in your judgment, *defeat* Thomson's argument, or only *limit* the range of pregnancies it covers?
 :::
 
+::::
+
 ## Argument 4 — The Virtue-Ethics Argument
 
 ::: {.argument}
@@ -508,7 +483,7 @@ Hursthouse: The Question Is About Character, Not Status
 Rosalind Hursthouse, "Virtue Theory and Abortion" (1991)
 :::
 
-1. An action is morally right if and only if it is what a fully **virtuous** person — one with and exercising the virtues such as honesty, courage, justice, and practical wisdom — would characteristically do in those circumstances.
+1. An action is right if and only if it is what a fully **virtuous** person (honest, courageous, just, practically wise) would characteristically do in the circumstances.
 2. Whether having an abortion is what a virtuous person would do depends on the agent's motives, circumstances, and what the choice *expresses* about her character.
 3. Some abortions plainly express *vices* — callousness, vanity, irresponsibility, refusal to face the seriousness of what is happening.
 4. Other abortions plainly express *virtues* — clear-eyed acknowledgment of a serious matter, care for existing children or dependents, honesty about one's own limits.
@@ -516,6 +491,8 @@ Rosalind Hursthouse, "Virtue Theory and Abortion" (1991)
 :::
 
 [@hursthouse1991]
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## Hursthouse, in Her Own Words
 
@@ -527,6 +504,10 @@ Rosalind Hursthouse, "Virtue Theory and Abortion" (1991), §III.
 :::
 :::
 
+::::
+
+:::: {.content-hidden when-format="revealjs"}
+
 ## Hursthouse: What a Virtuous Person Notices
 
 Hursthouse's move is to **change the subject** of the question. Marquis, Warren, and Thomson all ask: *what kind of thing is the fetus, and what follows?* Hursthouse asks: *what kind of person decides this way, in these circumstances?*
@@ -534,6 +515,8 @@ Hursthouse's move is to **change the subject** of the question. Marquis, Warren,
 ::: {.context-box}
 **Two things she insists on.** First, even if abortion is sometimes permissible, the loss of a potential human life is a *grave* matter — to treat it as trivial is itself a moral failing. Second, character is judged not just on the act but on the *motivations and attitudes* around it: the same outward act, done flippantly or done with sorrow, is not morally the same.
 :::
+
+::::
 
 ## Objection to Hursthouse
 
@@ -552,10 +535,10 @@ A standard line of criticism of virtue ethics generally
 :::
 
 ::: {.context-box}
-**Hursthouse's own reply** is that no theory escapes this problem — utilitarians have to predict consequences they cannot really know; Kantians have to interpret maxims. Ethics is just tough!
+**Hursthouse's reply:** no theory escapes this. Utilitarians must predict consequences they cannot know; Kantians must interpret maxims.
 :::
 
-## Activity 4 — A Different Question
+## Activity — A Different Question
 
 ::: {.thought-question}
 Hursthouse refuses to settle abortion at the level of the fetus's status. Instead, she asks what the *decision* expresses about a person.
@@ -571,11 +554,9 @@ Hursthouse refuses to settle abortion at the level of the fetus's status. Instea
 3. Is anything important *missed* by Hursthouse's focus on character?
 :::
 
-# The Landscape So Far {.section-divider}
-
 ## The Landscape So Far
 
-Four arguments, side by side. Notice that the disagreement almost always lives at one specific premise — and once you see which one, it becomes something you can reason about.
+Four arguments, side by side, each with the premise its disagreement turns on.
 
 | Argument | Verdict | Load-bearing premise | What you'd have to deny |
 |---|---|---|---|
@@ -584,7 +565,7 @@ Four arguments, side by side. Notice that the disagreement almost always lives a
 | **Thomson** (autonomy) | Abortion is permissible even if the fetus is a person | P3: refusing body-use is not killing | That there's a meaningful difference between killing and refusing aid |
 | **Hursthouse** (virtue) | "It depends" — on motives and circumstances | P1: rightness *is* what the virtuous person would do | That morality reduces to character and not to rules or rights |
 
-## Activity 5 — Circle the Weakest Premise
+## Activity — Circle the Weakest Premise
 
 ::: {.thought-question}
 For **each** of the four arguments above, name the **single premise** you find weakest and explain in **one sentence** why.
@@ -596,15 +577,7 @@ For **each** of the four arguments above, name the **single premise** you find w
 3. *Thomson:* The premise I would push back on is __________ because __________.
 4. *Hursthouse:* The premise I would push back on is __________ because __________.
 
-Then: notice the pattern. Do your four "weakest" premises share something in common? That common thing is your *deepest* moral commitment in this debate.
-:::
-
-## Where the Real Disagreement Lives
-
-::: {.callout-note}
-Notice what just happened. We did not ask you to decide whether abortion is right or wrong. We asked you to point at the **sentence** in each argument you find weakest. That sentence is where the actual disagreement between thoughtful people sits.
-
-This is a transferable move. In end-of-life debates, in research-ethics debates, in resource-allocation debates — the same trick will work. Find the argument. Put it in standard form. Locate the load-bearing premise. *Then* you have a disagreement worth having.
+Then: do your four "weakest" premises share something? If they do, that shared thing is your deepest commitment in this debate.
 :::
 
 ## Mini-Recap
@@ -650,6 +623,8 @@ Some critics charge that Thomson's violinist case proves too much: if it justifi
 - **Bodily autonomy (Thomson)** — the right to determine what may be done with and to one's body, even when another's life depends on it.
 - **Virtue ethics (Hursthouse)** — the view that right action is what a fully virtuous person would characteristically do.
 
+:::: {.content-hidden when-format="revealjs"}
+
 ## Further Reading
 
 Accessible follow-ups beyond the works cited.
@@ -660,6 +635,8 @@ Accessible follow-ups beyond the works cited.
 - Little, Margaret Olivia. "Abortion, Intimacy, and the Duty to Gestate." *Ethical Theory and Moral Practice* 2 (1999): 295–312.
 - Harman, Elizabeth. "The Ethics of Abortion." *Stanford Encyclopedia of Philosophy* (2025). [@harman_sep_abortion]
 - Gordon, John-Stewart. "Abortion." *Internet Encyclopedia of Philosophy*. [@gordon_iep_abortion]
+
+::::
 
 ## References
 
