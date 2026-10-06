@@ -13,8 +13,6 @@ format:
     output-file: 06a-genomics-reading-slides.html
 ---
 
-# A Newborn on the Postpartum Floor {.section-divider}
-
 ## Would You Sign?
 
 ::: {.thought-question}
@@ -28,14 +26,12 @@ You are a parent on the postpartum floor, twelve hours after a healthy delivery.
 :::
 
 ::: {.aside-note}
-Resist the urge to settle this. What the question is really surfacing is the *time-shape* of genetic information: a decision made today binds a person for life.
+The question underneath is the *time-shape* of genetic information: a decision made today binds a person for life.
 :::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-The thought experiment turns on a distinction we will return to all lecture.
-
 - **Actionable now** — a finding the family can act on in childhood (a treatable metabolic condition).
 - **Actionable later** — a finding that matters in adulthood, when the child can decide for herself whether to know (BRCA1, late-onset Alzheimer's risk).
 - **Informative but not actionable** — a finding that names a risk no one can act on yet (some Huntington's variants in a healthy infant).
@@ -46,16 +42,17 @@ The thought experiment turns on a distinction we will return to all lecture.
 ::: {.learning-outcomes}
 By the end of Part A, you will be able to:
 
-- Tell the basic story of the **Human Genome Project** — the 1990–2003 arc, the public-Celera race, and the gap between what was promised in 1999 and what actually arrived.
-- Define [geneticization]{.key-term} and use it to name a pattern that runs through prenatal testing, ancestry kits, and forensic genealogy.
-- Explain why a "reference genome" built mostly from one or two people is not a neutral starting point, and what an **ancestry bias** in genetic prediction looks like in practice.
-- State the **NASEM 2023** headline rule on race and genetic variation, and apply it to a real research scenario.
-- Describe what **GINA** (2008) covers and what it does not, and name two state-level fixes for the gap.
+- Tell the story of the **Human Genome Project** and the gap between what was promised in 1999 and what arrived.
+- Define [geneticization]{.key-term} and spot it in prenatal testing, ancestry kits, and forensic genealogy.
+- Explain **ancestry bias** in polygenic risk scores.
+- Apply Feinberg's **open future** to genetic testing of children.
+- State the **NASEM 2023** rule on race and genetic variation.
+- Describe what **GINA** (2008) covers and what it does not.
 :::
 
 # The Human Genome Project: Promise and Aftermath {.section-divider}
 
-## A Thirteen-Year Arc
+## Thirteen Years, Two Teams
 
 ```{dot}
 //| fig-height: 2.6
@@ -68,7 +65,11 @@ digraph HGP {
 }
 ```
 
-The HGP was a public, international project led by the NIH and the Department of Energy. The UK's Wellcome Trust Sanger Centre was the largest non-US partner. The project began in 1990 and was meant to finish by 2005. In 1998, a private company — Celera Genomics, run by **Craig Venter** — said it would finish first using a faster method. The race ended in a tie at a White House press conference in June 2000.
+- The **Human Genome Project** was a public, international effort led by the NIH and the Department of Energy, begun in 1990.
+- In 1998 a private company, **Celera Genomics**, run by **Craig Venter**, said it would finish first with a faster "shotgun" method.
+- The race ended in a declared tie at the White House in June 2000. The public group kept the data free; Celera dropped its plan to sell access.
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## The Public-Celera Race
 
@@ -95,6 +96,10 @@ The HGP was a public, international project led by the NIH and the Department of
 
 Both finished. The shotgun method won the science fight; the public group won the policy fight.
 
+::::
+
+:::: {.content-hidden when-format="revealjs"}
+
 ## Shotgun Sequencing, Illustrated
 
 ![](../images/shotgun_sequencing.jpg){width="72%" fig-alt="Diagram of whole-genome shotgun sequencing: a genome is broken into random overlapping fragments, each is sequenced, and a computer reassembles them by matching the overlaps"}
@@ -104,6 +109,10 @@ National Human Genome Research Institute. Public domain.
 :::
 
 Break the genome at random, sequence the pieces, and let the computer find the overlaps. The method is fast because nothing has to be mapped first — and fragile for the same reason, since repeated stretches look alike.
+
+::::
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## Collins 1999, Verbatim
 
@@ -115,6 +124,8 @@ Break the genome at random, sequence the pieces, and let the computer find the o
 
 [@collins1999_hgp]
 
+::::
+
 ## Promised vs. Delivered
 
 | Collins predicted by 2010 | What 2026 actually has |
@@ -125,7 +136,9 @@ Break the genome at random, sequence the pieces, and let the computer find the o
 | Genetic privacy laws "fully in place" | GINA 2008 covers health insurance and employment only |
 | Public catching up with the science | Ancestry-kit marketing still routinely overpromises |
 
-The gap is not a failure of the project. It is the lecture's first lesson about how genetic claims travel.
+**Francis Collins**, the project's director, made these predictions in 1999 [@collins1999_hgp].
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## "Missing Heritability"
 
@@ -137,7 +150,11 @@ A **genome-wide association study** (GWAS) lines up the DNA of people who have a
 Twin and family studies had predicted that most variation in these traits was heritable, and that GWAS would find a few moderately strong variants. What it found instead were thousands of variants of *tiny* effect — which still leave most of the predicted heritability unexplained. That gap is the **missing heritability** problem. It is part of why "cheek-swab risk prediction" did not arrive on the 1999 schedule.
 :::
 
+::::
+
 # Geneticization {.section-divider}
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## Lippman Names the Tendency
 
@@ -149,22 +166,13 @@ Twin and family studies had predicted that most variation in these traits was he
 
 [@lippman1991; @gannett_sep_hgp]
 
+::::
+
 ## Three Related Pulls
 
-::: {.columns}
-::: {.column width="48%"}
-**Geneticization** — the *tendency* to cast human differences, risks, and identities as mostly genetic. A cultural and rhetorical pattern, not a scientific claim.
-
-**Genetic reductionism** — the working assumption that the right level to *explain* a trait is the gene. Sometimes useful; often overshoots.
-:::
-::: {.column width="4%"}
-:::
-::: {.column width="48%"}
-**Genetic determinism** — the stronger claim that genes *fix* outcomes — that DNA is destiny. Almost no working geneticist believes this in its strong form. It lives mostly in popular framings and marketing copy.
-
-The three travel together. Catch one and you usually catch the others.
-:::
-::::
+- [Geneticization]{.key-term}, **Abby Lippman**'s 1991 term: the *tendency* to cast human differences, risks, and identities as mostly genetic, and to reach for genetic fixes [@lippman1991].
+- **Genetic reductionism**: the working assumption that the gene is the right level at which to *explain* a trait. Sometimes useful; often overshoots.
+- **Genetic determinism**: the stronger claim that genes *fix* outcomes. Almost no working geneticist believes it; it lives mostly in marketing copy.
 
 ## Gene × Environment — the Working Picture
 
@@ -181,11 +189,9 @@ digraph GxE {
 }
 ```
 
-The textbook case is **phenylketonuria (PKU)**. It causes severe intellectual disability — but only if the diet contains a substance called phenylalanine. Find the gene at birth, change the diet, and the disability never appears. Same DNA, different outcome.
-
-Most diseases the HGP was meant to crack — diabetes, heart disease, depression — sit closer to the PKU end than the popular framing suggests. Genes matter. So does what you live next to, eat, and can afford.
-
-# The Vocabulary You Need {.section-divider}
+- The textbook case is **phenylketonuria (PKU)**. It causes severe intellectual disability, but only if the diet contains phenylalanine.
+- Find the gene at birth, change the diet, and the disability never appears. Same DNA, different outcome.
+- Diabetes, heart disease, and depression sit closer to the PKU end than popular framing suggests.
 
 ## Four Words
 
@@ -197,6 +203,8 @@ Most diseases the HGP was meant to crack — diabetes, heart disease, depression
 | **Variant** | Any place where one person's DNA differs from a reference sequence. Most variants do nothing visible. A few do a lot. |
 
 The older word **mutation** is still used, but *variant* has largely replaced it. "Mutation" carries an unhelpful hint that the difference is always bad.
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## Germline vs. Somatic
 
@@ -221,56 +229,44 @@ The older word **mutation** is still used, but *variant* has largely replaced it
 
 This distinction does most of the moral work in Part B. Editing one patient's bone marrow is not the same as editing every cell in every descendant.
 
+::::
+
 # Whose Genome Is the Reference? {.section-divider}
 
-## The Reference Is a Composite
+## A Reference Built from Two Men
 
-When a clinical lab says a patient has "a variant," it means the patient's DNA differs in one spot from **the human reference genome**. The reference is a published sequence anyone can look up. Everyone else's DNA gets compared against it.
-
-The reference is a *composite*. It is stitched together from cell lines that came from several anonymous donors. It is not the genome of any one person.
-
-That choice matters, because most of the reference is from very few of those donors. [@gannett_sep_hgp]
-
-## The Buffalo Man and Craig Venter
-
-::: {.callout-important}
-**Where the reference actually comes from**
-
-The public HGP reference is roughly **74% from one anonymous male donor.** He was known internally as "RP11" because his cells became the most-used cell line at Roswell Park Cancer Institute in Buffalo, New York. He was paid $50, signed an anonymous consent form, and never knew he was the main donor.
-
-The Celera reference is roughly **71% from Craig Venter himself.** Venter quietly put his own DNA into the donor pool and confirmed it in public in 2002.
-
-For about twenty years, the standard against which billions of human genomes have been compared was therefore mostly two men.
-:::
-
-[@gannett_sep_hgp]
+- When a lab says a patient has "a variant," it means her DNA differs from **the human reference genome**, a published sequence everyone is compared against.
+- The public reference is roughly **74% from one anonymous man** in Buffalo, New York, known as "RP11." He was paid $50 and never knew he was the main donor.
+- Celera's reference is roughly **71% Craig Venter himself**, who quietly added his own DNA to the donor pool.
+- For about twenty years, the standard for billions of human genomes was mostly two men [@gannett_sep_hgp].
 
 ## Why It Matters: Ancestry Bias
 
-GWAS finds variants by comparing thousands of cases to thousands of controls. If those controls are mostly of one ancestry, the variants the study *finds* are the ones that matter in that group. The predictions built from them work best in that group too.
+:::: {.columns}
 
-::: {.columns}
 ::: {.column width="48%"}
-**Where GWAS participants come from (cumulative, mid-2010s):**
+A **genome-wide association study (GWAS)** compares the DNA of thousands of people with a trait to thousands without. Who took part, cumulatively, by the mid-2010s:
 
 - ~80% European ancestry
 - ~10% Asian ancestry
 - ~3% African ancestry
 - ~1% Hispanic / Latin American
-- Remainder: everyone else
 :::
+
 ::: {.column width="4%"}
 :::
+
 ::: {.column width="48%"}
-**What that means in the clinic:**
-
-A **polygenic risk score** for coronary disease trained on this data is about 4–5× more accurate in people of European ancestry than in people of African ancestry.
-
-The score is not biased because the math is bad. It is biased because the *training data* was.
+- A **polygenic risk score** for coronary disease built on this data is about 4–5× more accurate in people of European ancestry than in people of African ancestry.
+- The math is not biased. The *training data* was.
+- The fix is a **pangenome**: many reference genomes instead of one. The first draft, in 2023, had 47.
 :::
+
 ::::
 
 [@popejoy_fullerton_2016]
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## Toward a Pangenome
 
@@ -278,7 +274,9 @@ The fix is not to "patch the reference." It is to replace one reference with *ma
 
 The first draft human pangenome was published in 2023. Its 47 starting genomes are still only a fraction of human variation. The shift — from one reference to many — closes the bias gap at the root rather than patching it downstream.
 
-# Prenatal Testing {.section-divider}
+::::
+
+# What Gets Tested, and When {.section-divider}
 
 ## Three Kinds of Genetic Testing
 
@@ -290,7 +288,7 @@ The first draft human pangenome was published in 2023. Its 47 starting genomes a
 
 The same lab test can be used for any of the three. What changes is *who is asking, on whose behalf, and what they will do with the answer*.
 
-## NIPT — How It Works
+## NIPT
 
 ```{dot}
 //| fig-height: 2.6
@@ -303,9 +301,11 @@ digraph NIPT {
 }
 ```
 
-**Non-invasive prenatal testing** (NIPT) reads bits of fetal DNA that float in the mother's blood. It is available from about ten weeks of pregnancy. NIPT is *screening*, not diagnosis. A positive result raises the chance the fetus has Down syndrome but does not confirm it.
+- **Non-invasive prenatal testing (NIPT)** reads fetal DNA floating in the mother's blood, from about ten weeks.
+- It is *screening*, not diagnosis. A confirming test, usually amniocentesis, is needed before any permanent decision.
+- After a confirmed Down syndrome diagnosis, the US termination rate is above 60%; in Denmark and Iceland it is close to 95%. NIPT made that question routine.
 
-A confirming test — usually amniocentesis at 15–18 weeks — is needed before any permanent decision.
+:::: {.content-hidden when-format="revealjs"}
 
 ## NIPT, Down Syndrome, and the >90% Question
 
@@ -319,7 +319,9 @@ The disability scholar **Adrienne Asch** argued that aborting a fetus diagnosed 
 This lecture does not settle the argument. The disability-rights treatment belongs to a later lecture. The point here is that NIPT is the technology that made the question scale — from rare diagnosis to a routine offer.
 :::
 
-# Predictive Testing and the Open Future {.section-divider}
+::::
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## BRCA in Adults
 
@@ -328,6 +330,8 @@ The genes **BRCA1** and **BRCA2** are tumor-suppressor genes. Certain variants i
 What a positive result changes for an adult woman is concrete: more frequent screening, the option of preventive surgery in her thirties or forties, sometimes drug therapy. The decision is hers, with a genetic counselor.
 
 The adult case is largely a settled use of informed consent. The child case is not.
+
+::::
 
 ## Testing Healthy Children for Adult-Onset Conditions
 
@@ -365,7 +369,7 @@ The first uses were about things like religion and schooling. Applied to genetic
 The same adult, twenty years later, can walk into a clinic and ask.
 :::
 
-# Newborn Genomic Sequencing — A Live Debate {.section-divider}
+:::: {.content-hidden when-format="revealjs"}
 
 ## BabySeq and GUARDIAN
 
@@ -376,6 +380,8 @@ Two long-running US studies are quietly normalizing the choice we opened with.
 
 Neither study has reported major harm. Both report that families want the results — even for adult-onset conditions the researchers were nervous about returning.
 
+::::
+
 ## ACMG vs. AAP — Two Positions
 
 | | **American College of Medical Genetics** | **American Academy of Pediatrics** |
@@ -385,20 +391,19 @@ Neither study has reported major harm. Both report that families want the result
 | **Why** | Information delayed is treatments missed | Information returned is futures narrowed |
 | **Direction of pressure** | Expand the panel | Hold the line |
 
-Both groups are firmly mainstream. They disagree, in public, about what to do with the next four million newborns.
+Two mainstream bodies disagree, in public, about the question this lecture opened with.
 
-# Direct-to-Consumer Testing {.section-divider}
+# Consumer Genomics {.section-divider}
 
-## 23andMe by the Numbers
+## 23andMe
 
-- Founded 2006; cleared by the FDA as a home health test in 2017.
-- About **14 million customers** by 2023, most for ancestry rather than health.
-- A saliva tube; about $100; results in six weeks.
-- Customers can opt their DNA into research; about 80% historically have.
-- Filed for bankruptcy in 2025 — and the database was **sold as an asset**.
+- Founded 2006; cleared by the FDA as a home health test in 2017. About **14 million customers** by 2023, most for ancestry rather than health.
+- **2023:** attackers reused leaked passwords to break into accounts. Through the "DNA Relatives" feature, each broken account exposed *relatives* who were never hacked. About 6.9 million users were affected.
+- **2025:** the company filed for bankruptcy, and its genetic database was **sold as an asset** for $305 million to a nonprofit led by its own co-founder [@23andme2025_ttam_sale].
+- Bankruptcy law, not medical-privacy law, decided who would hold 14 million people's DNA.
 
-::: {.context-box}
-**The thought experiment ran itself.** For years the standard privacy worry about consumer genomics was hypothetical: *what happens to your DNA if the company goes under?* In 2025 we found out.
+::: {.aside-note}
+**What happens to your DNA if the company goes under?** For years the standard privacy worry about consumer genomics was hypothetical: *what happens to your DNA if the company goes under?* In 2025 we found out.
 
 23andMe entered Chapter 11, and its genetic database went to auction like any other asset. After competing bids — including one from the pharmaceutical company Regeneron — the winner was **TTAM Research Institute**, a nonprofit founded and led by Anne Wojcicki, 23andMe's own co-founder, for **$305 million**. The sale closed in **July 2025**, and the service continues to operate [@23andme2025_ttam_sale].
 
@@ -407,7 +412,7 @@ The outcome was comparatively benign: a nonprofit with privacy commitments rathe
 **Write or discuss:** You consented to research with *Company A*. Company A is liquidated and your data goes to *Entity B*. Is your original consent still valid? What would a consent form have to say up front for the answer to be clearly yes — and would anyone sign it?
 :::
 
-The product is two products in one box: a recreational ancestry report, and a clinical-grade test for a small set of disease variants.
+:::: {.content-hidden when-format="revealjs"}
 
 ## The 2023 Breach
 
@@ -415,7 +420,9 @@ In October 2023, attackers got into 23andMe accounts by reusing passwords leaked
 
 About **6.9 million users** were affected. Lists targeting Ashkenazi Jewish and Chinese-ancestry customers were posted on hacker forums. The company agreed in late 2024 to settle for about $30 million — but the bankruptcy intervened, and the settlement had to be resolved through the bankruptcy court, where the fund was ultimately increased to roughly **$47 million** and approved in 2026. Affected customers became one more class of creditors waiting in line.
 
-# Race and Genetics: The NASEM Framework {.section-divider}
+::::
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## Why This Comes Up Here
 
@@ -426,6 +433,8 @@ Race is not the topic of this lecture. The technology puts it on the table all t
 
 The field has argued about race and genetics since the HGP itself. The latest professional consensus is short and specific.
 
+::::
+
 ## NASEM 2023 — The Headline Rule
 
 ::: {.callout-important}
@@ -434,7 +443,11 @@ The field has argued about race and genetics since the HGP itself. The latest pr
 — National Academies of Sciences, Engineering, and Medicine, *Using Population Descriptors in Genetics and Genomics Research* (2023), Summary, Rec. 1.
 :::
 
-The reasoning, in one line: race is a social-political category. It shifts by country and by era. Human genetic variation is continuous, not discrete. Mapping the first onto the second produces errors that go in predictable directions. The same report retires *Caucasian* from genetic research — a term coined in 1795 by Blumenbach to rank a skull he found beautiful, carrying no genetic information then or now. [@nasem_2023_population_descriptors]
+- Race is a social-political category that shifts by country and era. Human genetic variation is continuous, not discrete.
+- An ancestry kit's "23% Italian" has a precision the science does not support.
+- The report also retires *Caucasian*, a term coined in 1795 by **Blumenbach** to rank a skull he found beautiful [@nasem_2023_population_descriptors].
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## Population Descriptors at a Glance
 
@@ -448,7 +461,9 @@ The reasoning, in one line: race is a social-political category. It shifts by co
 
 Adapted from NASEM 2023, Table S-1.
 
-# Forensic Genetic Genealogy {.section-divider}
+::::
+
+# Forensics and Discrimination {.section-divider}
 
 ## GEDmatch and the Golden State Killer
 
@@ -461,6 +476,10 @@ The profile matched several of DeAngelo's distant cousins. None of them had any 
 
 He pleaded guilty in 2020.
 :::
+
+With a few million users in a database, some third or fourth cousin of almost any American is in it. Staying out yourself does not keep you out of the searches it enables.
+
+:::: {.content-hidden when-format="revealjs"}
 
 ## How Long-Range Familial Search Works
 
@@ -479,6 +498,10 @@ The method works because of one fact about DNA. A third cousin shares about 0.8%
 
 Your choice to stay out of the database does not, by itself, keep you out of searches it enables.
 
+::::
+
+:::: {.content-hidden when-format="revealjs"}
+
 ## The Law Catches Up
 
 | Year | Action |
@@ -490,6 +513,8 @@ Your choice to stay out of the database does not, by itself, keep you out of sea
 | **2023–** | Other state legislatures consider similar bills; most US states still have no law |
 
 The federal courts have not yet ruled on whether a Fourth Amendment "search" happens when investigators query a database your cousin uploaded.
+
+::::
 
 ## Thought Question — Whose Consent?
 
@@ -503,33 +528,21 @@ Your second cousin — someone you have met twice in your life — uploads her s
 3. Does it change if the crime is a serial murder vs. a thirty-year-old simple assault?
 :::
 
-# GINA and the Gap {.section-divider}
+## GINA (2008) and Its Gaps
 
-## GINA 2008 — The Federal Floor
+The **Genetic Information Nondiscrimination Act** is the federal floor against genetic discrimination. It covers two things only.
 
-The **Genetic Information Nondiscrimination Act**, signed in May 2008, was the first US federal law aimed at genetic discrimination. It does two things, and only two.
-
-- **Health insurance**: insurers may not use a person's genetic information to set eligibility, premiums, or coverage. They may not request or require it.
-- **Employment**: employers with 15 or more workers may not use genetic information in hiring, firing, or promotion.
-
-That is the federal floor. Everyone in the US is covered by it. The areas it does *not* reach are large.
-
-## The Four-Cell Gap
-
-| Insurance line | Covered by GINA? |
+| | Covered by GINA? |
 |---|---|
-| **Health insurance** | Yes — cannot use genetic information |
-| **Life insurance** | **No** — may request it and price on it |
-| **Disability insurance** | **No** |
-| **Long-term-care insurance** | **No** |
+| **Health insurance** | Yes |
+| **Employers with 15 or more workers** | Yes |
+| **Life, disability, and long-term-care insurance** | **No**: insurers may ask for genetic results and price on them |
+| **Smaller employers** | No |
+| **US military** | **No** |
 
-| Employer category | Covered by GINA? |
-|---|---|
-| **Civilian employer, ≥15 employees** | Yes |
-| **Civilian employer, <15 employees** | No |
-| **US military** | **No** — service members may be reassigned or separated on genetic findings |
+In 2020 **Florida** became the first state to extend protection to life, disability, and long-term-care insurance.
 
-Anyone who tells a patient "you are protected against genetic discrimination" is, strictly, telling them about half the truth.
+:::: {.content-hidden when-format="revealjs"}
 
 ## Florida 2020 and the State-Level Patchwork
 
@@ -537,9 +550,9 @@ In 2020, **Florida** became the first US state to extend protection to *life, di
 
 Federal law has not moved since 2008. For now, the action is in state legislatures and in the actuarial departments of life insurers. Both know that a whole-genome reading for under a thousand dollars is on the near horizon for every American applicant.
 
-# Wrap {.section-divider}
+::::
 
-## Scoreboard — Geneticization Across the Lecture
+## Geneticization, Five Times Over
 
 | Where it shows up | What gets read as genetic | What gets read out |
 |---|---|---|
@@ -548,8 +561,6 @@ Federal law has not moved since 2008. For now, the action is in state legislatur
 | **Polygenic risk scores** | Disease risk as a number | The training-data ancestry that set how accurate the number is |
 | **Race in research** | Genetic variation as racial-group difference | The environment and history that track race in the US |
 | **Forensic genealogy** | A suspect's identity from distant-cousin matches | The non-suspect relatives whose DNA was searched without consent |
-
-The same pull, again and again. Name it once; spot it everywhere.
 
 ## Review Questions
 
@@ -598,6 +609,8 @@ Should police need a warrant before searching genealogy databases for a suspect'
 :::
 ::::
 
+:::: {.content-hidden when-format="revealjs"}
+
 ## Further Reading
 
 - James Tabery, *Tyranny of the Gene: Personalized Medicine and Its Threat to Public Health* (Knopf, 2023).
@@ -605,11 +618,7 @@ Should police need a warrant before searching genealogy databases for a suspect'
 - National Academies of Sciences, Engineering, and Medicine, *Using Population Descriptors in Genetics and Genomics Research* (2023) — read the summary at minimum.
 - Alice Popejoy and Stephanie Fullerton, "Genomics is Failing on Diversity," *Nature* 538 (2016).
 
-## What We're Doing in Part B
-
-Part A asked what genetic tests can *read*, what they cannot, and which decisions get easier or harder once they have read.
-
-Part B asks what happens when the technology starts to *write* — CRISPR-Cas9 in the clinic, the He Jiankui twins, the non-identity problem, and the live US market for polygenic embryo selection. Same spine — geneticization — applied to a sharper edge.
+::::
 
 ## References
 
