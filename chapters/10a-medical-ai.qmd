@@ -28,42 +28,58 @@ Your aunt has a mole she doesn't like the look of. Instead of waiting three mont
 
 ## What the Model Actually Learned
 
-Researchers testing a top-performing skin-cancer model found something strange: it could be fooled by **a marker pen**.
+:::: {.columns}
+::: {.column width="54%"}
+A top-performing skin-cancer model could be fooled by **a marker pen** [@winkler2019].
 
-- Dermatologists often circle or mark a lesion with violet surgical ink *before* photographing it — and they mark the ones they already suspect.
-- When Winkler and colleagues added those routine ink markings to images of **harmless moles**, the model's melanoma scores jumped: its specificity collapsed from about **84% to 46%** [@winkler2019]. Other teams caught models keying on the **rulers** placed next to suspicious lesions.
-- The model had never been looking only at moles. It had learned that *ink and rulers predict cancer* — because worried clinicians bring out the ink and the rulers.
-
-## After You've Discussed
-
-::: {.callout-note}
-The model wasn't broken. It did exactly what it was built to do: find whatever patterns in the photos predicted the label "malignant." Ink markings really do predict that label — in the training photos. They just have nothing to do with your aunt's skin.
-
-That gap is the whole lecture. Every disaster we will study today comes down to one question, asked of one system at a time: **what was the model actually trained to do — and is that the same thing we are using it for?**
+- Dermatologists often circle a suspicious mole in violet ink *before* photographing it.
+- Add ink marks to photos of **harmless moles**, and the model calls far more of them cancer.
+- It had learned that *ink predicts cancer*. Other models learned **rulers**.
 :::
+::: {.column width="46%"}
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "Harmless moles the model correctly called harmless (specificity), photographed without and with ink marks (Winkler et al. 2019)."
+import matplotlib.pyplot as plt
+
+labels = ["No ink", "Ink marks\nadded"]
+vals = [84.1, 45.8]
+
+fig, ax = plt.subplots(figsize=(4.4, 3.4))
+bars = ax.bar(labels, vals, color=["#0e7c86", "#c0392b"], width=0.55)
+for b, v in zip(bars, vals):
+    ax.text(b.get_x() + b.get_width() / 2, v + 2, f"{v}%", ha="center",
+            fontsize=13, fontweight="bold", color="#0f172a")
+ax.set_ylim(0, 100)
+ax.set_yticks([])
+ax.tick_params(axis="x", labelsize=11)
+ax.spines[["top", "right", "left"]].set_visible(False)
+fig.tight_layout()
+plt.show()
+```
+:::
+::::
 
 ## Today
+
+::: {.callout-important}
+The model wasn't broken. It did exactly what it was built to do: find whatever in the photos predicted "malignant." One question runs through this whole lecture: **what was the model actually trained to do, and is that what we are using it for?**
+:::
 
 ::: {.learning-outcomes}
 By the end of Part A, you will be able to:
 
-- Explain **supervised machine learning** in plain terms — training data, features, labels, prediction — and why the *label* controls what gets learned.
-- Distinguish the three kinds of medical AI — **diagnostic, predictive, and generative** — and name each one's signature failure mode.
-- Tell what happened, with names and numbers, in the **Obermeyer cost-algorithm study** and the **two acts of the Epic Sepsis Model** story.
-- Explain why a chatbot's answer can be **fluent and wrong at the same time**, and why that combination is dangerous in health care.
+- Explain **supervised machine learning** in plain terms, and why the *label* controls what gets learned.
+- Name the three kinds of medical AI (**diagnostic, predictive, generative**) and the signature way each one fails.
+- Tell what went wrong, with numbers, in the **Obermeyer cost algorithm** and the **Epic Sepsis Model**, and how outsiders caught it.
 :::
 
-# How a Machine Learns {.section-divider}
-
-## Not Magic, Not a Mind
-
-For decades, programmers tried to build medical software the obvious way: interview experts and write down their rules. Those "expert systems" mostly failed — medicine has too many exceptions to its exceptions.
-
-[Machine learning]{.key-term} flips the approach. Instead of being *given* rules, the system is given **examples** — thousands or millions of them — and adjusts itself until its outputs match the answers. A calculator follows rules a human wrote. A machine-learning model **writes its own rules from the data**, and nobody, including its makers, can fully list what they are.
+# How a Machine Learns, and Where It Slips {.section-divider}
 
 ## Training Data, Features, Labels
 
-Three terms carry the whole subject. In [supervised learning]{.key-term}, the system learns from examples that come with the answers attached.
+Old medical software followed rules that experts wrote down. [Machine learning]{.key-term} instead learns from **examples** and writes its own rules, which nobody can fully list. In [supervised learning]{.key-term}, each example comes with the answer attached.
 
 | Term | What it means | In the skin app |
 |---|---|---|
@@ -71,136 +87,94 @@ Three terms carry the whole subject. In [supervised learning]{.key-term}, the sy
 | **Features** | the measurable inputs in each example | the pixels of each photo |
 | **Label** | the "right answer" attached to each example | "biopsy: malignant" or "benign" |
 
-Once trained, the model takes the features of a **new** case — your aunt's mole — and predicts its label.
-
-## The Label Is the Boss
-
-During training, the model adjusts millions of internal settings with a single goal: **predict the label**. That goal sounds harmless, but it has a sharp edge.
-
-- The model learns *whatever pattern* in the features predicts the label — it has no idea which patterns are medicine and which are habit.
-- Ink markings predict the label "malignant." So the model learns ink.
-- Nobody chose that. Nobody banned it either, because nobody knew it was happening.
-
-The model is a ruthless shortcut-finder. The shortcuts are invisible until someone goes looking.
-
-## Where Medical Training Data Comes From
-
-::: {.context-box}
-**Nobody collected this data to teach machines medicine**
-
-Medical AI is mostly trained on data that already existed for other reasons: **electronic health records** (written for documentation and billing), **insurance claims** (written to get paid), and **imaging archives** (filed for clinical use). Each carries the fingerprints of its original purpose — what got coded, who got tested, which patients showed up at all. A model trained on this data learns the medicine *and* the fingerprints, with no way to tell them apart.
-:::
+**The label is the boss.** The model learns *whatever* predicts the label. Ink predicts "malignant," so it learns ink.
 
 ## From Training to the Bedside
 
 ```{dot}
-//| fig-width: 9.5
+//| fig-width: 10
+//| fig-height: 2.1
 digraph pipeline {
-  rankdir=LR;
-  node [shape=box, style="rounded,filled", fillcolor="#eef3fa", fontname="Helvetica"];
+  graph [bgcolor="transparent", nodesep=0.35, ranksep=0.25, newrank=true];
+  node [shape=box, style="rounded,filled", fillcolor="#e6f1f2", color="#0e7c86", fontname="Helvetica", fontsize=17, height=0.6];
+  edge [arrowhead=vee, color="#6b7280", penwidth=1.6];
   collect [label="Collect data"];
   label_ [label="Attach labels"];
   train [label="Train model"];
   validate [label="Validate"];
   deploy [label="Deploy in clinic"];
-  collect -> label_ -> train -> validate -> deploy;
-
-  node [shape=plaintext, fillcolor=none, fontcolor="#a33", fontsize=11];
-  f1 [label="Failure 1:\nunrepresentative data"];
-  f2 [label="Failure 2:\nthe label is a proxy"];
-  f3 [label="Failure 3:\nthe world changes"];
-  f1 -> collect [style=dashed, color="#a33", arrowhead=none];
-  f2 -> label_ [style=dashed, color="#a33", arrowhead=none];
-  f3 -> deploy [style=dashed, color="#a33", arrowhead=none];
+  {rank=same; collect -> label_ -> train -> validate -> deploy;}
+  node [shape=plaintext, style="", fontcolor="#c0392b", fontsize=16, height=0.4];
+  f1 [label="Door 1: who's\nmissing from the data?"];
+  f2 [label="Door 2: is the\nlabel a proxy?"];
+  x1 [label=""]; x2 [label=""];
+  f3 [label="Door 3: has the\nworld changed?"];
+  {rank=same; f1; f2; x1; x2; f3;}
+  edge [style=dashed, color="#c0392b", arrowhead=none];
+  collect -> f1; label_ -> f2; deploy -> f3;
+  train -> x1 [style=invis]; validate -> x2 [style=invis];
 }
 ```
 
-Every major failure of medical AI on record traces back to one of these three marked points.
+- Medical AI learns mostly from data collected for other reasons (billing records, insurance claims, imaging archives), so it learns those habits along with the medicine.
+- No engineer writes "if patient is Black, score lower." Bias walks in through these **three doors**, and every major failure on record traces back to one of them.
 
-## The Question to Carry
-
-We will score every system today on the same small card — our version of a running scoreboard.
-
-| | The skin-check app |
-|---|---|
-| **Trained to do** | predict which *photos* got the label "malignant" |
-| **Used to do** | tell your aunt whether her *mole* is cancer |
-| **The gap** | the photographer's worry — ink, rulers, framing — rides along with the disease |
-
-When the trained task and the clinical task match, the model can be genuinely excellent. When they quietly diverge, accurate models start producing harmful care.
-
-## Why a Stanford Model Stumbles in Rural Minnesota
+## Door 1: The Missing Patients
 
 :::: {.columns}
+::: {.column width="48%"}
+A 2022 review counted the photos in **21 public skin-cancer datasets**. Only 2.1% recorded skin type, and just **11 images** showed the two darkest skin types [@wen2022].
+
+Melanoma is already caught later in Black patients, whose five-year survival is about **25 points lower** (70% vs. 95%) [@acs2026]. A tool that fails here widens the gap, and the harm is locked in **at data collection**.
+:::
 ::: {.column width="52%"}
-[Distribution shift]{.key-term} is the first failure point: the model meets a world that no longer resembles its training data.
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "Images in 21 public skin-cancer datasets (Wen et al. 2022). The darkest skin types are too few to see at this scale."
+import matplotlib.pyplot as plt
 
-- Different **scanners and cameras** produce systematically different images.
-- Different **populations** carry different ages, skin tones, and disease rates.
-- Different **workflows** order different tests at different times.
-:::
-::: {.column width="44%"}
-::: {.callout-important}
-**The portable X-ray tell**
+labels = ["All images", "Skin type\nrecorded", "Darkest skin\n(types V–VI)"]
+vals = [106950, 2236, 11]
 
-One study found chest X-ray models partly "diagnosing" pneumonia by detecting **which hospital and machine** took the film — portable scanners are used on sicker patients, and the model learned the scanner, not just the lungs. The model didn't get worse when it traveled. The world stopped matching its textbook.
-:::
+fig, ax = plt.subplots(figsize=(4.8, 3.2))
+ax.barh(labels[::-1], vals[::-1], color=["#c0392b", "#94a3b8", "#0e7c86"], height=0.55)
+for i, v in enumerate(vals[::-1]):
+    ax.text(v + 2000, i, f"{v:,}", va="center", fontsize=11.5,
+            fontweight="bold", color="#0f172a")
+ax.set_xlim(0, 135000)
+ax.set_xticks([])
+ax.tick_params(axis="y", labelsize=12)
+ax.spines[["top", "right", "bottom"]].set_visible(False)
+fig.tight_layout()
+plt.show()
+```
 :::
 ::::
 
-## What the Model Sees
+## Door 3: The World Moves On
 
-![](../images/chest_xray.jpg){width="44%" fig-alt="A normal posteroanterior chest radiograph showing the lungs, heart, and ribcage"}
+:::: {.columns}
+::: {.column width="60%"}
+A trained model is **frozen**: a snapshot of its training data, asked to govern the present.
+
+- [Distribution shift]{.key-term}: a new hospital means new scanners, patients, and workflows. Chest X-ray models partly "diagnosed" pneumonia by spotting **which machine took the film**, since portable scanners are used on sicker patients.
+- [Deployment drift]{.key-term}: the world changes and the model doesn't. Models trained on 2019 patients broke when COVID arrived.
+:::
+::: {.column width="40%"}
+![](../images/chest_xray.jpg){width="85%" fig-alt="A normal posteroanterior chest radiograph showing the lungs, heart, and ribcage"}
 
 ::: {.attribution}
 Mikael Haggstrom, via Wikimedia Commons. CC0 1.0.
 :::
+:::
+::::
 
-You read this film for the lungs. The model reads every pixel — including the ones that encode which machine took it, and therefore how sick the patient already was.
-
-# Three Kinds of Medical AI {.section-divider}
-
-## Diagnostic AI: The Machine That Looks
-
-The most mature kind of medical AI **classifies images**: radiology scans, skin photographs, pathology slides, retinal images.
-
-- The FDA has authorized over **1,500 AI-enabled medical devices** (as of early 2026), roughly three-quarters of them in radiology — a figure that has been rising by scores per quarter.
-- The first **autonomous** diagnostic system (no physician reads the image) was cleared in 2018 for diabetic eye disease screening.
-- Headlines say these systems perform "at expert level" — which is true **on test images resembling their training data**. The ink-marking study shows what that qualifier hides.
-
-## Predictive AI: The Machine That Warns
-
-The second kind doesn't look at images — it watches **the chart**. Risk-scoring models run silently inside the electronic health record, recalculating as new vitals and labs arrive.
-
-- Common targets: **sepsis**, clinical **deterioration**, 30-day **readmission**, falls.
-- You will not choose to use these systems; they come bundled with the EHR, and they page *you*. Every nurse on a med-surg floor works under a deterioration score.
-- Their signature failures are different from diagnostic AI's: **proxy labels** (what exactly counts as "sepsis" in the training data?) and **alert burden** — both starring in our second case study.
-
-## Generative AI: The Machine That Talks
-
-::: {.context-box}
-**What a large language model is**
-
-A [large language model]{.key-term} (LLM) — the technology behind ChatGPT and its rivals — is trained on enormous amounts of text to do one thing: **predict the next word**. Do that well enough, at large enough scale, and the model can draft essays, summarize charts, and hold a fluent conversation. But its output is always a *plausible continuation of the text so far* — not a fact retrieved from a database, and not a claim it checked against the world.
+::: {.aside-note}
+Door 2, the proxy label, gets its own section below: it is the door the cost algorithm walked through.
 :::
 
-Patients ask LLMs about symptoms and medications every day. Hospitals now use them to draft visit notes and patient messages. This is the kind of AI your patients — and you — already touch.
-
-## Why Fluent and Wrong Go Together
-
-A radiology model that fails gives a wrong score. A language model that fails gives you **a confident, articulate, well-organized wrong answer** — because producing convincing text is the one thing it was trained to do.
-
-- [Hallucination]{.key-term} is the industry's term for generated content that is fluent, specific, and false: an invented drug interaction, a fabricated study, a wrong dose stated warmly.
-- It is not a bug awaiting a patch. The model that writes a beautiful, accurate discharge summary and the model that invents a citation are **the same model, doing the same thing** — continuing text plausibly.
-- Most of the time, the most plausible continuation is true. "Most of the time" is a frightening phrase in a medication question.
-
-## Sycophancy: The Agreeable Machine
-
-LLMs are fine-tuned on **human feedback** — people rate which answers they like. People, it turns out, like being agreed with.
-
-- The result is [sycophancy]{.key-term}: a learned tendency to tell the user what they seem to want to hear.
-- Researchers have shown that chatbots will **abandon a correct medical answer** when the user simply pushes back ("are you sure? I read that it's fine").
-- A patient fishing for reassurance can usually catch some. Your aunt doesn't want to hear "see a dermatologist." The model can feel that.
+# Three Kinds of Medical AI {.section-divider}
 
 ## Three Machines, Three Signature Failures
 
@@ -209,138 +183,143 @@ LLMs are fine-tuned on **human feedback** — people rate which answers they lik
 | What it does | classifies images | scores risk from the chart | produces text |
 | Example | melanoma from photos | sepsis early warning | answering a patient's drug question |
 | Trained to do | match labeled images | predict a recorded outcome | continue text plausibly |
-| Signature failure | **distribution shift** | **proxy labels, alert burden** | **hallucination, sycophancy** |
-| Checked how? | test images, reader studies | accuracy stats (AUC, PPV) | …this is an open problem |
+| Signature failure | **distribution shift** | **proxy labels, alert fatigue** | **hallucination, sycophancy** |
 
-One question diagnoses all three columns: *what was it trained to do, and is that what we're using it for?*
+The FDA has authorized over **1,500 AI-enabled devices** (early 2026), mostly diagnostic and mostly in radiology. Predictive scores come bundled with the health record, and they page *you*. Generative AI is the kind your patients already use.
+
+## How a Chatbot Writes
+
+:::: {.columns}
+::: {.column width="50%"}
+A [large language model]{.key-term} (LLM), the technology behind ChatGPT and its rivals, is trained on enormous amounts of text to do one thing: **predict the next word**.
+
+Do that well enough and it can draft notes and hold a fluent conversation. But each answer is a *plausible continuation* of the text so far. It is not a fact looked up in a database, and not a claim checked against the world.
+:::
+::: {.column width="50%"}
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "Illustration, not real model output: the model scores possible next words and picks a likely one."
+import matplotlib.pyplot as plt
+
+words = ["bromide", "citrate", "bicarbonate", "phosphate", "something else"]
+probs = [0.34, 0.22, 0.18, 0.11, 0.15]
+colors = ["#c0392b"] + ["#94a3b8"] * 4
+
+fig, ax = plt.subplots(figsize=(4.8, 3.3))
+ax.barh(words[::-1], probs[::-1], color=colors[::-1])
+for i, p in enumerate(probs[::-1]):
+    ax.text(p + 0.01, i, f"{p:.0%}", va="center", fontsize=10, color="#334155")
+ax.set_title("\"Instead of sodium chloride, use sodium ___\"",
+             fontsize=11, loc="left", color="#0f172a")
+ax.set_xlim(0, 0.45)
+ax.set_xticks([])
+ax.tick_params(axis="y", labelsize=10.5)
+ax.spines[["top", "right", "bottom"]].set_visible(False)
+fig.tight_layout()
+plt.show()
+```
+:::
+::::
+
+## Fluent and Wrong, Agreeable and Wrong
+
+:::: {.columns}
+::: {.column width="48%"}
+**Hallucination**
+
+A failed language model gives **a confident, well-organized wrong answer**, because convincing text is what it was trained to produce.
+
+[Hallucination]{.key-term} is content that is fluent, specific, and false: an invented drug interaction, a fabricated study. It is not a bug awaiting a patch: the same process writes the accurate summary and the invented citation.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**Sycophancy**
+
+LLMs are fine-tuned on **human ratings** of their answers, and people like being agreed with.
+
+The result is [sycophancy]{.key-term}: a learned tendency to tell users what they want to hear. Chatbots have been shown **abandoning a correct medical answer** when the user simply pushes back: "Are you sure? I read that it's fine."
+:::
+::::
 
 ## Thought Question
 
 ::: {.thought-question}
-You are charting at 2 a.m. A patient newly started on an **anticoagulant** shows you her tablet: she asked a chatbot whether the drug is safe with her **turmeric supplements**, and it gave a confident, detailed, friendly answer — with mechanisms and percentages.
+You are charting at 2 a.m. A patient newly started on an **anticoagulant** shows you her tablet: she asked a chatbot whether the drug is safe with her **turmeric supplements**, and it gave a confident, detailed, friendly answer, with mechanisms and percentages.
 
 1. What, concretely, would you do before letting that answer stand?
-2. Does it matter that the answer *sounds* exactly like a pharmacist? What is the sound of expertise actually evidence for, here?
+2. Does it matter that the answer *sounds* exactly like a pharmacist? What is the sound of expertise actually evidence for here?
 3. She trusts the chatbot more than the pharmacy's printout because "it answered *my* question about *my* situation." Is she making a mistake? Name it precisely.
 :::
 
 ## Make It Contemporary
 
 ::: {.thought-question}
-In 2025, *Annals of Internal Medicine: Clinical Cases* reported a 60-year-old man who asked a chatbot how to cut **chloride** from his diet. He came away with **sodium bromide** as a substitute for table salt — a chemical swap that is sensible in a chemistry lab and poisonous at the dinner table. After about three months he arrived at an emergency department psychotic, convinced his neighbor was poisoning him. The diagnosis was **bromism** — a toxidrome so old it mostly vanished with 1970s sedatives [@eichenberger2025].
+In 2025, doctors reported a 60-year-old man who asked a chatbot how to cut **chloride** from his diet. He came away with **sodium bromide** as a substitute for table salt: a sensible swap in a chemistry lab, and poisonous at the dinner table. Three months later he arrived at an emergency department psychotic, convinced his neighbor was poisoning him. The diagnosis was **bromism**, a poisoning so old it had mostly vanished with 1970s sedatives [@eichenberger2025].
 
-The answer he got was fluent, specific, and responsive to exactly the question he asked. Where in our three-word vocabulary — data, features, **labels** — did this disaster live?
+The answer he got was fluent, specific, and responsive to exactly the question he asked. What was the model trained to do, and what was he using it for?
 :::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-The scenario turns on **verification asymmetry**. A true generated answer and a hallucinated one are *indistinguishable on the screen* — same fluency, same confidence, same formatting. Only checking against the world tells them apart, and the checking takes expertise the asker usually lacks (that's why they asked).
+The scenario turns on **verification asymmetry**. A true generated answer and a hallucinated one look *identical on the screen*: same fluency, same confidence, same formatting. Only checking against the world tells them apart, and checking takes expertise the asker usually lacks (that's why they asked).
 
-Human expertise carries external credentials — a license, a pharmacist behind a counter, malpractice exposure. Generated text carries only its own voice. The bromism patient's error wasn't trusting a wrong answer; it was treating *fluency* as if it were a credential.
+Human expertise carries outside credentials: a license, a pharmacist behind a counter, liability for mistakes. Generated text carries only its own voice. The bromism patient's error wasn't trusting a wrong answer. It was treating *fluency* as if it were a credential.
 :::
-
-# How Bias Gets In {.section-divider}
-
-## Bias Isn't (Usually) Malice
-
-No engineer writes `if patient is Black: score lower`. Algorithmic bias almost always walks in through one of three doors — the three failure points on our pipeline diagram.
-
-- **Unrepresentative training data** — the model never properly saw patients like this one.
-- **Proxy labels** — the label stands in for what we want, and the stand-in is warped.
-- **Deployment drift** — the world changes; the frozen model doesn't.
-
-The data does it wordlessly. That is what makes it hard to see — and easy to deny.
-
-## The Missing Patients
-
-:::: {.columns}
-::: {.column width="52%"}
-Audits of the public datasets behind skin-cancer AI found that images of **dark skin are a small fraction** of the total — and models trained on them perform measurably worse on darker skin.
-
-The injustice compounds: melanoma is *already* caught later in Black patients, with five-year survival roughly **twenty points lower** than for white patients. A tool that underperforms exactly where mortality is worst doesn't just miss an opportunity — it widens the gap it could have closed.
-:::
-::: {.column width="44%"}
-::: {.callout-important}
-**Justice, before deployment day one**
-
-This failure needs no biased user and no flawed deployment. It is locked in **at data collection**, years before any patient meets the tool. When we ask who is responsible for an algorithm's harm, remember how early the harm can start.
-:::
-:::
-::::
-
-## The Proxy Problem
-
-Often the thing you actually care about — *how sick is this patient?* — **is not a field in any database**. So designers train on a stand-in they can measure.
-
-- Sickness becomes **dollars spent**. Diagnosis becomes **billing codes**. Clinical concern becomes **tests ordered**.
-- A [proxy variable]{.key-term} is exactly that stand-in — and the model becomes superb at predicting the proxy, *including everything unjust baked into it*.
-- If less was historically spent on some patients' care, a cost-trained model reads those patients as healthier. No one has to intend this. The arithmetic does it.
-
-## Drift: The World Moves On
-
-A trained model is **frozen** — a photograph of the world as it looked in its training data, asked to govern the present.
-
-- COVID-19 made this vivid: models trained on 2019 patients met 2020, and their assumptions about fevers, admissions, and baseline risk quietly broke.
-- Slower drift is constant: new drugs, new documentation habits, new patient mixes, a new lab vendor with slightly different reference ranges.
-- [Deployment drift]{.key-term} means a model's validation report has an expiration date — usually unprinted.
 
 # The Algorithm That Read Bills as Bodies {.section-divider}
 
-## A Tool Built to Help
+## Door 2: The Proxy Problem
 
-This case begins with a genuinely good idea, and it matters that you see that. **Care-management programs** give the sickest patients extra support — care coordinators, home visits, help managing five prescriptions at once. They work, and slots are scarce.
+**Care-management programs** give the sickest patients extra help, and slots are scarce. Health systems bought an algorithm to rank patients by future need: one of a class of tools applied to about **200 million Americans a year**.
 
-An insurer with millions of members cannot hand-pick who needs help most. So health systems bought an algorithm to rank patients by future health need — one of a class of tools applied to roughly **200 million Americans a year**. Nothing about the goal was sinister; a single design choice undid it.
-
-## The Fatal Design Choice
-
-The designers needed a label meaning "how sick will this patient be next year?" — and no such field exists. They chose next year's **health-care costs**.
-
-- Cost is measurable, objective, and sits right there in the claims data.
-- And on average, sicker patients do cost more — the proxy isn't crazy.
-- But cost doesn't measure sickness. It measures sickness *times access, times trust, times whether anyone took your symptoms seriously enough to order the test*.
-
-The model was now being trained to answer a different question than the one everyone thought it answered.
-
-## What Obermeyer Found
-
-In 2019, Ziad Obermeyer and colleagues got rare access to one large hospital's data — the algorithm's scores *plus* the patients' actual health [@obermeyer2019].
-
-- At the **same risk score**, Black patients were substantially sicker than white patients — carrying about **26% more chronic conditions**.
-- The algorithm was deciding who got extra care. Fixing the bias would have raised the share of Black patients flagged for help from **17.7% to 46.5%**.
-- The mechanism was exactly the proxy: historically, **less money had been spent** on equally sick Black patients. So the model read them as healthier.
-
-## Trained vs. Used: The Cost Algorithm
+But "how sick is this patient?" is not a field in any database. So the designers trained on a [proxy variable]{.key-term}: next year's **costs**.
 
 | | The care-management algorithm |
 |---|---|
 | **Trained to do** | predict who will *cost the most* next year |
 | **Used to do** | find who is *sickest* and route scarce help to them |
-| **The gap** | every dollar of unequal access, distrust, and undertreatment in the historical spending record |
+| **The gap** | cost measures sickness *times* access, trust, and whether anyone took your symptoms seriously |
 
-The skin app's gap was a photographer's habit. This gap was **the medical history of American inequality**, compressed into a label.
+## What Obermeyer Found
 
-## Why No One Saw It
+:::: {.columns}
+::: {.column width="52%"}
+In 2019, Ziad Obermeyer's team compared the scores with patients' actual health [@obermeyer2019].
 
-Here is the uncomfortable part: the algorithm was **accurate**. At its trained task — predicting cost — it performed well for Black and white patients alike. Every internal quality check passed.
+- At the **same score**, Black patients were sicker. Less had been spent on equally sick Black patients, so the model read them as healthier.
+- Every internal check passed, because the checks measured **cost**. Race was not even an input.
+- A label closer to actual health removed about **84%** of the bias.
+:::
+::: {.column width="48%"}
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "Share of patients flagged for extra help who were Black (Obermeyer et al. 2019)."
+import matplotlib.pyplot as plt
 
-- The checks were calibrated against **cost** — the very proxy carrying the bias. The yardstick and the flaw were the same object.
-- Race wasn't even an input; the developers had excluded it deliberately, believing that made the tool fair.
-- It took outsiders with **independent data** — researchers who could compare scores against actual health, not predicted spending — to see it.
+labels = ["Algorithm\nas built", "With the bias\nremoved"]
+vals = [17.7, 46.5]
 
-You cannot audit your way out of a proxy problem with the proxy.
-
-## What Happened After
-
-The study landed in *Science* in October 2019, and the response was fast.
-
-- New York's financial-services and health regulators opened an **investigation** within weeks, warning insurers statewide.
-- The researchers worked *with* the manufacturer rather than just naming and shaming — retraining on a label closer to actual health knocked out roughly **84% of the measured bias**. The fix was that available, once someone looked.
-> **Paired case:** [The Optum Algorithm: Racial Bias, Proxy Variables, and Justice in Medical AI](../cases/10-optum-algorithm.qmd)
+fig, ax = plt.subplots(figsize=(4.4, 3.4))
+bars = ax.bar(labels, vals, color=["#c0392b", "#0e7c86"], width=0.55)
+for b, v in zip(bars, vals):
+    ax.text(b.get_x() + b.get_width() / 2, v + 1.2, f"{v}%", ha="center",
+            fontsize=13, fontweight="bold", color="#0f172a")
+ax.set_ylim(0, 55)
+ax.set_yticks([])
+ax.tick_params(axis="x", labelsize=11)
+ax.spines[["top", "right", "left"]].set_visible(False)
+fig.tight_layout()
+plt.show()
+```
+:::
+::::
 
 ::: {.aside-note}
-Obermeyer's team never names the product in the paper; press coverage identified it as Optum's Impact Pro. Don't cite the paper for the company name. Note too the constructive ending — this is the field's best example of a bias being found, measured, and substantially repaired.
+Obermeyer's team never names the product in the paper; press coverage identified it as Optum's Impact Pro. Don't cite the paper for the company name. Note too the constructive ending: this is the field's best example of a bias being found, measured, and substantially repaired.
 :::
 
 ## Thought Question
@@ -348,80 +327,83 @@ Obermeyer's team never names the product in the paper; press coverage identified
 ::: {.thought-question}
 You are the nursing representative on your hospital's **purchasing committee**. A vendor is pitching a readmission-risk tool: "**92% accurate**, used by 200 hospitals." The training data, the features, and the label are all trade secrets.
 
-1. Write the three questions you would put to the vendor before signing. (Steal freely from this lecture.)
+1. Write the three questions you would put to the vendor before signing.
 2. The CMO says: "200 hospitals can't be wrong, and we don't ask drug companies for their formulas." What's the flaw in each half of that sentence?
-3. If the vendor answers none of your questions, is "no purchase" really an option — knowing the status quo is overworked clinicians eyeballing risk?
+3. If the vendor answers none of your questions, is "no purchase" really an option, knowing the status quo is overworked clinicians eyeballing risk?
 :::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-The committee scenario turns on a distinction we haven't named: **internal versus external validation**. Internal validation is the vendor grading its own homework — its model, its data, its chosen yardstick. External validation is an independent test, on *your* patients, against an outcome *you* care about.
+The committee scenario turns on a distinction we haven't named: **internal versus external validation**. Internal validation is the vendor grading its own homework: its model, its data, its chosen yardstick. [External validation]{.key-term} is an independent test, on *your* patients, against an outcome *you* care about.
 
-"92% accurate" is an internal number until proven otherwise. The Obermeyer study was external validation in action — and the Epic Sepsis Model is what happens when a tool used on millions of patients goes years without any.
+"92% accurate" is an internal number until proven otherwise. It is the same lesson as the replication crisis in research: a claim is not a finding until someone else checks it. The Obermeyer study was external validation in action, and the next case is what happens when a tool used on millions of patients goes years without any.
 :::
 
 # The Epic Sepsis Model, in Two Acts {.section-divider}
 
-## The Stakes: Why Predict Sepsis at All
-
-::: {.context-box}
-**Sepsis, in one breath**
-
-[Sepsis]{.key-term} is the body's immune response to infection spiraling into organ damage. About **1.7 million American adults** develop it each year and roughly **350,000 die**. It is treatable — but the window is brutal: every hour of delayed antibiotics measurably raises mortality, and early sepsis can look like a dozen milder things. A reliable early-warning system would save thousands of lives. This is a *worthy* target.
-:::
-
-Epic, whose electronic health record holds the charts of most hospitalized Americans, shipped a sepsis prediction model **bundled into the EHR**. Hundreds of hospitals switched it on.
-
 ## Act I: The Outside Test
 
-For years, the only performance numbers were **Epic's own**. In 2021, Andrew Wong and colleagues at Michigan Medicine ran the first large independent test: 27,697 patients, 38,455 hospitalizations [@wong2021].
+:::: {.columns}
+::: {.column width="47%"}
+[Sepsis]{.key-term} kills about **350,000** American adults a year. Epic built a sepsis warning into its health record, and hundreds of hospitals switched it on, with only **Epic's own** numbers to go on.
 
-- Claimed discrimination: AUC 0.76–0.83. Measured: **0.63** — closer to a coin flip than to the brochure.
-- At the standard alert threshold, the model **missed two-thirds** of sepsis cases (sensitivity 33%)…
-- …while firing alerts on **18% of all hospitalized patients**, with only **12%** of alerts pointing at a patient who actually developed sepsis.
+In 2021, Andrew Wong's team ran the first large outside test, on 38,455 hospitalizations [@wong2021]. Epic claimed an accuracy score (AUC, where 0.5 is a coin flip) of 0.76–0.83. The test found **0.63**.
+:::
+::: {.column width="53%"}
+```{python}
+#| echo: false
+#| fig-align: center
+import matplotlib.pyplot as plt
+from matplotlib.patches import Rectangle
 
-The hospitals had deployed first and validated never.
+def waffle(ax, n_hit, hit_color, miss_color, title, hit_label, miss_label):
+    for k in range(100):
+        r, c = divmod(k, 10)
+        color = hit_color if k < n_hit else miss_color
+        ax.add_patch(Rectangle((c, 9 - r), 0.86, 0.86, color=color))
+    ax.set_xlim(0, 10); ax.set_ylim(-2.5, 10.2)
+    ax.set_aspect("equal"); ax.axis("off")
+    ax.set_title(title, fontsize=14, color="#0f172a", loc="left")
+    ax.text(0, -0.9, hit_label, fontsize=13.5, color=hit_color, fontweight="bold")
+    ax.text(0, -2.1, miss_label, fontsize=13.5, color="#475569")
+
+fig, (a1, a2) = plt.subplots(1, 2, figsize=(5.6, 3.7))
+waffle(a1, 33, "#0e7c86", "#f2b8b0", "Of 100 sepsis cases…",
+       "33 got an alert", "67 were missed")
+waffle(a2, 12, "#0e7c86", "#cbd5e1", "Of 100 alerts…",
+       "12 were sepsis", "88 were false alarms")
+fig.tight_layout()
+plt.show()
+```
+:::
+::::
 
 ## Trained vs. Used: The Sepsis Alarm
 
-| | The Epic Sepsis Model (v1) |
+| | The Epic Sepsis Model (version 1) |
 |---|---|
-| **Trained to do** | predict which patients would receive a sepsis **billing code**, using chart signals that often appear only *after* clinicians already suspect sepsis |
+| **Trained to do** | predict which patients would get a sepsis **billing code**, using chart signals that often appear only *after* clinicians already suspect sepsis |
 | **Used to do** | warn the team **before** anyone suspects |
-| **The gap** | the model was best at "predicting" what the team already knew — and weakest exactly when a warning would have mattered |
+| **The gap** | it was best at "predicting" what the team already knew, and weakest exactly when a warning would have mattered |
 
 A fire alarm that excels at detecting fire trucks.
 
-## External Validation Is Replication
-
-When we studied research ethics, you learned why so many published findings collapse on the second look: results need **independent replication** before they deserve trust. The same logic, relocated:
-
-- A vendor's internal performance numbers are a **claim**, not a finding.
-- External validation — someone else's patients, someone else's count — is medical AI's replication.
-- The scandal of Act I isn't only that the model underperformed. It's that a tool running on hundreds of hospitals' patients went **years without anyone outside the company checking** — something we would never tolerate for a new drug.
-
-## Act II: The Rebuilt Model
-
-Epic retired version 1 and rebuilt the model on a better foundation — including training on data **before clinical recognition**, attacking the circularity directly. In 2026, Wong's group published the independent verdict on the sequel: nine hospitals, prospective, predictions every 15 minutes [@wong2026].
-
-- Discrimination was now genuinely good: **AUC 0.82–0.92**. The headline flaw was fixed.
-- And yet: **low positive predictive value** — most alerts still pointed at patients who never developed sepsis.
-- And the model's performance and alert volume **varied widely from hospital to hospital** — the same software, different realities.
-
-## When Passing the Test Isn't Passing
+## Act II: Accurate but Unusable
 
 :::: {.columns}
 ::: {.column width="52%"}
-Act II's lesson is subtler and more important than Act I's: a model can **ace its statistics and still fail the night shift**.
+Epic rebuilt the model, training on data from **before** clinicians suspected sepsis. In 2026, Wong's group tested the sequel at nine hospitals [@wong2026].
 
-When most alerts are false, clinicians learn — rationally — to click through them. The alert becomes noise with a timestamp. And the one true warning dies in the pile, which is precisely the patient the system existed to save.
+- Discrimination was now genuinely good: **AUC 0.82–0.92**.
+- But most alerts *still* pointed at patients who never developed sepsis.
+- Performance and alert volume **varied widely** from hospital to hospital: same software, different realities.
 :::
-::: {.column width="44%"}
+::: {.column width="48%"}
 ::: {.callout-important}
 **Alert fatigue is an ethics problem**
 
-[Alert fatigue]{.key-term} quietly reassigns blame. When alert #41 turns out to be the real one, the chart shows a warning *given* and a nurse who *dismissed it*. The system's noise becomes the human's negligence. Ask who designed the threshold — and who absorbs the risk of it.
+When most alerts are false, clinicians learn, rationally, to click through them. [Alert fatigue]{.key-term} then quietly reassigns blame: when alert #41 is the real one, the chart shows a warning *given* and a nurse who *dismissed it*. Ask who set the threshold, and who absorbs its risk.
 :::
 :::
 ::::
@@ -435,78 +417,55 @@ When most alerts are false, clinicians learn — rationally — to click through
 | **Epic v1** | predict sepsis *billing codes* | warn before suspicion | best at the already-known |
 | **Epic v2** | predict sepsis, properly | help the night shift | accurate ≠ usable: the alert flood |
 
-Four systems, four owners, four different fixes — **one recurring gap**. This is not a story about one bad model. It is a pattern you can now spot unaided.
+Four systems, four different fixes, **one recurring gap**. This is not a story about one bad model. It is a pattern you can now spot unaided.
 
 # The Hype Cycle {.section-divider}
 
 ## "Stop Training Radiologists"
 
+:::: {.columns}
+::: {.column width="68%"}
 ::: {.quote-card}
 > "I think if you work as a radiologist, you are like the coyote that's already over the edge of the cliff but hasn't yet looked down. … People should stop training radiologists now. It's just completely obvious that within five years deep learning is going to do better than radiologists. … It might be ten years, but we've got plenty of radiologists already."
 
 ::: {.attribution}
-Geoffrey Hinton — pioneer of deep learning and later Nobel laureate — remarks at the *Machine Learning and the Market for Intelligence* conference, Toronto, 2016
+Geoffrey Hinton, pioneer of deep learning and later Nobel laureate, at the *Machine Learning and the Market for Intelligence* conference, Toronto, 2016
 :::
 :::
-
-## A Decade Later
-
-It is 2026 — five years past Hinton's deadline, at the edge of his "might be ten." The coyote looked down.
-
-- The United States has a radiologist **shortage**, with imaging volumes growing faster than the workforce; radiology residencies fill as competitively as ever.
-- AI is genuinely everywhere in the reading room — as a **second reader**, a triage tool flagging urgent scans, a measurement assistant. Authorized devices number in the hundreds.
-- What failed wasn't the technology. It was the **verb**: AI turned out to *assist* the people it was supposed to *replace*.
-
-The prediction failed in the most instructive way possible: the capability largely arrived, and the replacement didn't.
-
-## You've Seen This Movie
-
-:::: {.columns}
-::: {.column width="48%"}
-**The genome, 1999**
-
-When we studied genomics, you met Francis Collins' prediction: by 2010, cheek-swab risk prediction and individualized prescribing would be routine. The science was real. The timeline and the simplicity were not.
 :::
-::: {.column width="4%"}
-:::
-::: {.column width="48%"}
-**The radiologist, 2016**
+::: {.column width="32%"}
+![](../images/geoffrey_hinton.jpg){width="100%" fig-alt="Geoffrey Hinton, gray-haired, in a light checked shirt and headset microphone, speaking on stage."}
 
-Same shape: a real breakthrough, a compressed timeline, and the hard parts skipped — validation, deployment, drift, liability, and tired humans at 3 a.m.
+::: {.attribution}
+Geoffrey Hinton in 2023. Ramsey Cardy/Collision via Sportsfile. CC BY 2.0.
+:::
 :::
 ::::
 
-The recurring formula: **genuine capability + skipped deployment problems = confident, wrong prediction.** Learn the shape and you can grade the next decade's promises yourself.
+## A Decade Later
 
-## Make It Contemporary
+:::: {.columns}
+::: {.column width="56%"}
+It is 2026. The U.S. has a radiologist **shortage**, and AI is everywhere in the reading room as a **second reader**. What failed was the **verb**: AI *assists* the people it was supposed to *replace*.
 
-::: {.thought-question}
-Three claims you can read in this morning's health-care press:
-
-1. **Ambient AI scribes** — software that listens to the visit and drafts the note — are already in most large health systems, with studies reporting less documentation burnout.
-2. The FDA began clearing **foundation-model devices** in 2025; the agency's device list now tags products built on large language models.
-3. Vendors promise AI will "give clinicians their evenings back" and fix the burnout crisis.
-
-For each claim: is this a *capability* claim or a *deployment* claim? What would you need to see — whose validation, on whose patients, measuring what — before you believed it? Which one is a Hinton?
+The lesson is the gap between **capability** (what a model does on a benchmark) and **deployment** (what survives real workflows, liability, and tired humans at 3 a.m.). Every case today was a deployment failure wrapped around a real capability.
 :::
+::: {.column width="44%"}
+![](../images/radiologist_reading_room_usaf.jpg){width="100%" fig-alt="Seen from behind in a darkened reading room, a radiologist studies CT scans displayed across three monitors."}
 
-## After You've Discussed
-
-::: {.callout-note}
-The grading key is the distinction between **capability and deployment**. Capability is what a model can do on a benchmark, in a paper, at a demo. Deployment is what survives contact with real workflows, real incentives, real liability, and real exhaustion.
-
-Every case today — the ink markings, the cost proxy, the alert flood — was a deployment failure wrapped around a genuine capability. Deployment is where the ethics lives. And deployment questions — *should the patient be told? who answers when it's wrong?* — are exactly where Part B begins.
+::: {.attribution}
+A radiologist reads CT scans. U.S. Air Force photo by Senior Airman Julianne Showalter, 2008. Public domain.
 :::
-
-# Where This Leaves Us {.section-divider}
+:::
+::::
 
 ## Mini-Recap
 
 ::: {.recap}
-One question organized everything: **what was the model actually trained to do, and is that what we're using it for?** Supervised learning makes the *label* the boss, so the model learns proxies, shortcuts, and history along with the medicine. The three kinds of medical AI fail in signature ways — diagnostic models meet **distribution shift**, predictive models inherit **proxy labels** and drown floors in **alerts**, and generative models produce answers that are **fluent and wrong at once**. The cost algorithm and the Epic Sepsis Model showed the gap at national scale — and showed that the fixes (ask what the label was, demand external validation) are real.
-
-But every fix we found required someone who could **explain the system** — and increasingly, no one fully can. What does consent mean when the recommendation comes from a black box? Who answers when it's wrong? That is Part B.
+One question organized everything: **what was the model trained to do, and is that what we're using it for?** The label is the boss, so models learn proxies, shortcuts, and history along with the medicine. Diagnostic models meet **distribution shift**, predictive models inherit **proxy labels** and drown floors in **alerts**, and generative models are **fluent and wrong at once**. The fixes we found (ask what the label was, demand external validation) all needed someone who could **explain the system**. What happens when no one fully can is the next question.
 :::
+
+> **Paired case:** [The Optum Algorithm: Racial Bias, Proxy Variables, and Justice in Medical AI](../cases/10-optum-algorithm.qmd)
 
 ## Review Questions
 
@@ -515,35 +474,42 @@ But every fix we found required someone who could **explain the system** — and
 ::: {.review-item .review-recall}
 [Recall]{.review-label}
 
-Name the three kinds of medical AI and each one's signature failure mode. Then explain, using the skin-app case, why "the label is the boss" — what did that model's label actually contain besides disease?
+Name the three kinds of medical AI and each one's signature failure. Then explain, using the skin-app case, why "the label is the boss": what did that model's label actually contain besides disease?
 :::
 
 ::: {.review-item .review-apply}
 [Apply]{.review-label}
 
-A vendor offers your nursing home a **fall-risk model** trained at two large urban academic hospitals, using "documented fall in the chart" as its label. Using the pipeline's three failure points, predict two specific ways this model could go wrong in your facility — and say what you'd demand before deployment.
+A vendor offers your nursing home a **fall-risk model** trained at two large urban academic hospitals, using "documented fall in the chart" as its label. Using the pipeline's three doors, predict two specific ways this model could go wrong in your facility, and say what you'd demand before deployment.
 :::
 
 ::: {.review-item .review-debate}
 [Debate]{.review-label}
 
-Should hospitals be prohibited from deploying clinical AI that has never passed **independent external validation** — even though no such rule applies to many other hospital tools, and waiting may cost lives a working model could have saved? Defend your answer with one case from this lecture.
+Should hospitals be prohibited from deploying clinical AI that has never passed **independent external validation**, even though waiting may cost lives a working model could have saved? Defend your answer with one case from this lecture.
 :::
 
 :::
 
 ## Key Terms
 
+:::: {.columns}
+::: {.column width="48%"}
 - **Supervised learning** — training a model on examples that come with the answers (labels) attached.
 - **Features / labels** — the measurable inputs of each example / the "right answer" the model learns to predict.
 - **Proxy variable** — a measurable stand-in (cost, billing codes) for the thing you actually want (sickness).
-- **Distribution shift** — deployment in a world that no longer resembles the training data.
-- **Deployment drift** — performance decay as the world changes under a frozen model.
+- **Distribution shift / drift** — the model meets a world, or a moment, unlike its training data.
 - **Hallucination** — generated content that is fluent, specific, and false.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
 - **Sycophancy** — a model's learned tendency to agree with the user, even against a correct answer.
 - **External validation** — independent testing on new patients, by someone other than the maker.
 - **Positive predictive value (PPV)** — of all alerts fired, the fraction that were right.
 - **Alert fatigue** — the rational habit of ignoring alarms that are usually false, which buries the true one.
+:::
+::::
 
 ## Further Reading
 

@@ -52,7 +52,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-ad2cb4a06ea0ff0df1221c608413dfc0.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-126b6eb21d17633dfd3130f84bed7b82.css">
   <link rel="stylesheet" href="../styles/custom.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -174,30 +174,135 @@ Brendan Shea, PhD
 <h1>The Machine in the Room</h1>
 
 </section>
-<section id="where-we-left-off" class="slide level2">
-<h2>Where We Left Off</h2>
-<p>In Part A, one question diagnosed every failure: <em>what was the model actually trained to do, and is that what we’re using it for?</em> The cost algorithm, the sepsis alarm, the skin app — each was caught and partly fixed.</p>
-<p>But every fix had the same hidden requirement: <strong>someone who could explain the system</strong>. Someone had to see that the label was cost, that the alert fired after suspicion, that the model was reading rulers. Part B asks what happens to consent, blame, and trust when — increasingly — nobody fully can.</p>
-</section>
 <section id="a-case-to-sit-with" class="slide level2 scrollable">
 <h2>A Case to Sit With</h2>
 <div class="thought-question">
-<p>This time, <em>you</em> are the patient. Halfway through your annual physical, you realize your physician hasn’t typed a single note — she’s just talking with you, which is honestly nice. You ask about it.</p>
-<p>“Oh — the AI listens to our visit and writes the note now,” she says. “It gives me two hours of my evening back. Don’t worry, I review everything it writes.”</p>
+<p>This time, <em>you</em> are the patient. Halfway through your annual physical, you realize your physician hasn’t typed a single note. She’s just talking with you, which is honestly nice. You ask about it.</p>
+<p>“Oh, the AI listens to our visit and writes the note now,” she says. “It gives me two hours of my evening back. Don’t worry, I review everything it writes.”</p>
 <ol type="1">
 <li>Should you have been told <em>before</em> the visit started? Asked?</li>
-<li>What would you actually want to know — and is there anything you said in that room you’d have phrased differently, knowing something was transcribing?</li>
+<li>What would you want to know? Is there anything you said that you’d have phrased differently, knowing something was transcribing?</li>
 <li>She reviews everything it writes. Does that settle it?</li>
 </ol>
 </div>
 </section>
 <section id="what-the-scribe-actually-heard" class="slide level2">
 <h2>What the Scribe Actually Heard</h2>
-<p><strong>Ambient AI scribes</strong> are the most widely deployed generative AI in American medicine — most large health systems now use them. Here is the part the waiting-room poster doesn’t say.</p>
+<p><strong>Ambient AI scribes</strong> are the most widely used generative AI in American medicine; most large health systems now use them.</p>
+<div class="cell" data-fig-width="10" data-fig-height="2" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class=""><p></p>
+<div>
+<svg width="960" height="192" viewbox="0.00 0.00 693.80 116.40" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 112.4)">
+<title>scribe</title>
+<!-- room -->
+<g id="node1" class="node">
+<title>room</title>
+<path fill="#e6f1f2" stroke="#0e7c86" d="M86.52,-108.6C86.52,-108.6 12.16,-108.6 12.16,-108.6 6.16,-108.6 0.16,-102.6 0.16,-96.6 0.16,-96.6 0.16,-73.8 0.16,-73.8 0.16,-67.8 6.16,-61.8 12.16,-61.8 12.16,-61.8 86.52,-61.8 86.52,-61.8 92.52,-61.8 98.52,-67.8 98.52,-73.8 98.52,-73.8 98.52,-96.6 98.52,-96.6 98.52,-102.6 92.52,-108.6 86.52,-108.6"></path>
+<text text-anchor="middle" x="49.34" y="-90" font-family="Helvetica,sans-Serif" font-size="16.00">Exam-room</text>
+<text text-anchor="middle" x="49.34" y="-70.8" font-family="Helvetica,sans-Serif" font-size="16.00">audio</text>
+</g>
+<!-- cloud -->
+<g id="node2" class="node">
+<title>cloud</title>
+<path fill="#e6f1f2" stroke="#0e7c86" d="M189.49,-108.6C189.49,-108.6 135.19,-108.6 135.19,-108.6 129.19,-108.6 123.19,-102.6 123.19,-96.6 123.19,-96.6 123.19,-73.8 123.19,-73.8 123.19,-67.8 129.19,-61.8 135.19,-61.8 135.19,-61.8 189.49,-61.8 189.49,-61.8 195.49,-61.8 201.49,-67.8 201.49,-73.8 201.49,-73.8 201.49,-96.6 201.49,-96.6 201.49,-102.6 195.49,-108.6 189.49,-108.6"></path>
+<text text-anchor="middle" x="162.34" y="-90" font-family="Helvetica,sans-Serif" font-size="16.00">Vendor's</text>
+<text text-anchor="middle" x="162.34" y="-70.8" font-family="Helvetica,sans-Serif" font-size="16.00">servers</text>
+</g>
+<!-- room&#45;&gt;cloud -->
+<g id="edge1" class="edge">
+<title>room-&gt;cloud</title>
+<path fill="none" stroke="#6b7280" stroke-width="1.6" d="M98.78,-85.2C103.47,-85.2 108.16,-85.2 112.84,-85.2"></path>
+<polygon fill="#6b7280" stroke="#6b7280" stroke-width="1.6" points="123.11,-85.2 113.11,-89.7 118.11,-85.5 113.11,-85.5 113.11,-85.2 113.11,-84.9 118.11,-84.9 113.11,-80.7 123.11,-85.2 123.11,-85.2"></polygon>
+</g>
+<!-- x1 -->
+<g id="node6" class="node">
+<title>x1</title>
+</g>
+<!-- room&#45;&gt;x1 -->
+<!-- llm -->
+<g id="node3" class="node">
+<title>llm</title>
+<path fill="#e6f1f2" stroke="#0e7c86" d="M356.05,-108.6C356.05,-108.6 244.63,-108.6 244.63,-108.6 238.63,-108.6 232.63,-102.6 232.63,-96.6 232.63,-96.6 232.63,-73.8 232.63,-73.8 232.63,-67.8 238.63,-61.8 244.63,-61.8 244.63,-61.8 356.05,-61.8 356.05,-61.8 362.05,-61.8 368.05,-67.8 368.05,-73.8 368.05,-73.8 368.05,-96.6 368.05,-96.6 368.05,-102.6 362.05,-108.6 356.05,-108.6"></path>
+<text text-anchor="middle" x="300.34" y="-90" font-family="Helvetica,sans-Serif" font-size="16.00">Language model</text>
+<text text-anchor="middle" x="300.34" y="-70.8" font-family="Helvetica,sans-Serif" font-size="16.00">drafts the note</text>
+</g>
+<!-- cloud&#45;&gt;llm -->
+<g id="edge2" class="edge">
+<title>cloud-&gt;llm</title>
+<path fill="none" stroke="#6b7280" stroke-width="1.6" d="M201.69,-85.2C208.6,-85.2 215.5,-85.2 222.4,-85.2"></path>
+<polygon fill="#6b7280" stroke="#6b7280" stroke-width="1.6" points="232.52,-85.2 222.52,-89.7 227.52,-85.5 222.52,-85.5 222.52,-85.2 222.52,-84.9 227.52,-84.9 222.52,-80.7 232.52,-85.2 232.52,-85.2"></polygon>
+</g>
+<!-- p -->
+<g id="node7" class="node">
+<title>p</title>
+<text text-anchor="middle" x="162.34" y="-26.5" font-family="Helvetica,sans-Serif" font-size="15.00" fill="#c0392b">Your words leave</text>
+<text text-anchor="middle" x="162.34" y="-8.5" font-family="Helvetica,sans-Serif" font-size="15.00" fill="#c0392b">the building</text>
+</g>
+<!-- cloud&#45;&gt;p -->
+<g id="edge5" class="edge">
+<title>cloud-&gt;p</title>
+<path fill="none" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="5,2" d="M162.34,-61.76C162.34,-56.03 162.34,-49.88 162.34,-44.22"></path>
+</g>
+<!-- review -->
+<g id="node4" class="node">
+<title>review</title>
+<path fill="#e6f1f2" stroke="#0e7c86" d="M530.75,-108.6C530.75,-108.6 401.93,-108.6 401.93,-108.6 395.93,-108.6 389.93,-102.6 389.93,-96.6 389.93,-96.6 389.93,-73.8 389.93,-73.8 389.93,-67.8 395.93,-61.8 401.93,-61.8 401.93,-61.8 530.75,-61.8 530.75,-61.8 536.75,-61.8 542.75,-67.8 542.75,-73.8 542.75,-73.8 542.75,-96.6 542.75,-96.6 542.75,-102.6 536.75,-108.6 530.75,-108.6"></path>
+<text text-anchor="middle" x="466.34" y="-90" font-family="Helvetica,sans-Serif" font-size="16.00">Clinician reviews</text>
+<text text-anchor="middle" x="466.34" y="-70.8" font-family="Helvetica,sans-Serif" font-size="16.00">(or skims at 6 p.m.)</text>
+</g>
+<!-- llm&#45;&gt;review -->
+<g id="edge3" class="edge">
+<title>llm-&gt;review</title>
+<path fill="none" stroke="#6b7280" stroke-width="1.6" d="M368.1,-85.2C371.91,-85.2 375.71,-85.2 379.52,-85.2"></path>
+<polygon fill="#6b7280" stroke="#6b7280" stroke-width="1.6" points="389.59,-85.2 379.59,-89.7 384.59,-85.5 379.59,-85.5 379.59,-85.2 379.59,-84.9 384.59,-84.9 379.59,-80.7 389.59,-85.2 389.59,-85.2"></polygon>
+</g>
+<!-- h -->
+<g id="node8" class="node">
+<title>h</title>
+<text text-anchor="middle" x="310.34" y="-26.5" font-family="Helvetica,sans-Serif" font-size="15.00" fill="#c0392b">Invented details</text>
+<text text-anchor="middle" x="310.34" y="-8.5" font-family="Helvetica,sans-Serif" font-size="15.00" fill="#c0392b">can enter here</text>
+</g>
+<!-- llm&#45;&gt;h -->
+<g id="edge6" class="edge">
+<title>llm-&gt;h</title>
+<path fill="none" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="5,2" d="M304.01,-61.76C304.94,-56.03 305.95,-49.88 306.87,-44.22"></path>
+</g>
+<!-- chart -->
+<g id="node5" class="node">
+<title>chart</title>
+<path fill="#fce9d6" stroke="#b07d1a" d="M673.77,-108.6C673.77,-108.6 576.91,-108.6 576.91,-108.6 570.91,-108.6 564.91,-102.6 564.91,-96.6 564.91,-96.6 564.91,-73.8 564.91,-73.8 564.91,-67.8 570.91,-61.8 576.91,-61.8 576.91,-61.8 673.77,-61.8 673.77,-61.8 679.77,-61.8 685.77,-67.8 685.77,-73.8 685.77,-73.8 685.77,-96.6 685.77,-96.6 685.77,-102.6 679.77,-108.6 673.77,-108.6"></path>
+<text text-anchor="middle" x="625.34" y="-90" font-family="Helvetica,sans-Serif" font-size="16.00">Permanent</text>
+<text text-anchor="middle" x="625.34" y="-70.8" font-family="Helvetica,sans-Serif" font-size="16.00">medical record</text>
+</g>
+<!-- review&#45;&gt;chart -->
+<g id="edge4" class="edge">
+<title>review-&gt;chart</title>
+<path fill="none" stroke="#6b7280" stroke-width="1.6" d="M543.04,-85.2C546.92,-85.2 550.79,-85.2 554.66,-85.2"></path>
+<polygon fill="#6b7280" stroke="#6b7280" stroke-width="1.6" points="564.9,-85.2 554.9,-89.7 559.9,-85.5 554.9,-85.5 554.9,-85.2 554.9,-84.9 559.9,-84.9 554.9,-80.7 564.9,-85.2 564.9,-85.2"></polygon>
+</g>
+<!-- x2 -->
+<g id="node9" class="node">
+<title>x2</title>
+</g>
+<!-- review&#45;&gt;x2 -->
+<!-- x3 -->
+<g id="node10" class="node">
+<title>x3</title>
+</g>
+<!-- chart&#45;&gt;x3 -->
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 <ul>
-<li>Your visit’s audio travels to a <strong>vendor’s servers</strong>, is transcribed and summarized by a language model, and returns as a draft note your clinician edits — or, at the end of a long day, skims.</li>
-<li>Investigations have documented scribe systems <strong>inventing plausible content</strong>: transcription tools inserting whole fabricated sentences, drafts recording “patient denies chest pain” for a question never asked. Part A’s hallucination problem, now writing <em>your chart</em>.</li>
-<li>The chart is forever. The draft’s errors, signed, become medical fact.</li>
+<li>Investigations have documented scribe tools <strong>inventing plausible content</strong>: transcription systems inserting whole fabricated sentences, and drafts recording “patient denies chest pain” for a question never asked.</li>
+<li>The chart is forever. A draft’s errors, once signed, become medical fact.</li>
 </ul>
 </section>
 <section id="after-youve-discussed" class="slide level2">
@@ -211,8 +316,8 @@ Brendan Shea, PhD
 <p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
-<p>Whatever you answered, you probably reached for ideas like <em>they should have told me</em>, <em>someone should check it</em>, and <em>if it’s wrong, that’s on somebody</em>. Disclosure, oversight, blame — every one of those quietly assumes that <strong>someone can explain what the system did</strong>.</p>
-<p>The four principles you’ve used all semester make the same assumption. Today we meet the philosophers who noticed that — and concluded the four principles need a fifth.</p>
+<p>Whatever you answered, you probably reached for ideas like <em>they should have told me</em>, <em>someone should check it</em>, and <em>if it’s wrong, that’s on somebody</em>. Disclosure, oversight, blame: each quietly assumes that <strong>someone can explain what the system did</strong>.</p>
+<p>In Part A, every fix (the cost label, the sepsis alarm, the rulers in the photos) needed someone who could see inside the system. The four principles you’ve used all semester make the same assumption. Today we meet the philosophers who noticed, and concluded the four need a fifth.</p>
 </div>
 </div>
 </div>
@@ -222,129 +327,62 @@ Brendan Shea, PhD
 <div class="learning-outcomes">
 <p>By the end of Part B, you will be able to:</p>
 <ul>
-<li>State <strong>Floridi’s five principles</strong> for AI ethics and explain what <strong>explicability</strong> adds to the four you already know.</li>
-<li>Run AI disclosure through the <strong>four elements of informed consent</strong>, and distinguish disclosure of <em>use</em>, <em>role</em>, and <em>performance</em>.</li>
-<li>Map who is plausibly <strong>liable</strong> when AI contributes to harm — clinician, hospital, vendor, regulator — and what each framing incentivizes.</li>
-<li>Reconstruct the <strong>chatbot-therapy debate</strong>, including the documented harms, the 2026 settlement, and the Illinois ban — and run <strong>Mill’s test</strong> on that ban.</li>
-<li>Apply the <strong>defer-or-override</strong> question to a concrete alert, using automation bias, algorithm aversion, and the deskilling evidence.</li>
+<li>State <strong>explicability</strong>, the fifth principle, and its two halves: <em>how does it work?</em> and <em>who answers for it?</em></li>
+<li>Apply informed consent to AI, distinguishing disclosure of <strong>use</strong>, <strong>role</strong>, and <strong>performance</strong>.</li>
+<li>Explain who answers when AI harms a patient, using the <strong>problem of many hands</strong> and the <strong>moral crumple zone</strong>.</li>
+<li>Run <strong>Mill’s test</strong> on the Illinois ban on AI therapy, and decide when a clinician should <strong>defer to or override</strong> an AI.</li>
 </ul>
 </div>
-</section></section>
-<section>
-<section id="the-fifth-principle" class="title-slide slide level1 section-divider center">
-<h1>The Fifth Principle</h1>
-
 </section>
-<section id="the-four-restated-for-machines" class="slide level2">
-<h2>The Four, Restated for Machines</h2>
-<p>Laid side by side, the rival AI principle lists kept converging on a template a bioethics student already knows <span class="citation" data-cites="floridi2018">(<a href="#/references" role="doc-biblioref" onclick="">Floridi et al. 2018</a>)</span>:</p>
-<table class="caption-top">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Principle</th>
-<th>The AI reading</th>
-<th>Part A exhibit</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Beneficence</strong></td>
-<td>AI should genuinely benefit people and the planet</td>
-<td>the case <em>for</em> a working sepsis alarm</td>
-</tr>
-<tr class="even">
-<td><strong>Non-maleficence</strong></td>
-<td>don’t harm: safety, privacy, misuse</td>
-<td>the bromism case</td>
-</tr>
-<tr class="odd">
-<td><strong>Autonomy</strong></td>
-<td>humans keep the power to decide whether to decide</td>
-<td>your aunt and the skin app</td>
-</tr>
-<tr class="even">
-<td><strong>Justice</strong></td>
-<td>fair distribution of benefits and harms</td>
-<td>the cost algorithm</td>
-</tr>
-</tbody>
-</table>
-<p>Floridi’s group found the four cover everything AI ethics needs… <strong>except one thing no medical technology had forced before.</strong></p>
-</section>
-<section id="two-halves-of-explicability" class="slide level2">
-<h2>Two Halves of Explicability</h2>
-<div class="quote-card">
-<blockquote>
-<p>“…incorporating both the epistemological sense of ‘intelligibility’ (as an answer to the question ‘how does it work?’) and in the ethical sense of ‘accountability’ (as an answer to the question ‘who is responsible for the way it works?’).”</p>
-</blockquote>
-<div class="attribution">
-<p>Floridi et al., defining the new fifth principle, <strong>explicability</strong> — “AI4People: An Ethical Framework for a Good AI Society” (2018) <span class="citation" data-cites="floridi2018">(<a href="#/references" role="doc-biblioref" onclick="">Floridi et al. 2018</a>)</span></p>
+<section id="the-fifth-principle" class="slide level2">
+<h2>The Fifth Principle</h2>
+<p>Luciano Floridi’s group compared dozens of lists of AI principles. They kept landing on the four you know, plus <strong>one new one</strong> <span class="citation" data-cites="floridi2018">(<a href="#/references" role="doc-biblioref" onclick="">Floridi et al. 2018</a>)</span>.</p>
+<div id="66c9d6fe" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="10b-fifth-principle_files/figure-revealjs/cell-2-output-1.png" class="quarto-figure quarto-figure-center" width="912" height="230"></p>
+</figure>
 </div>
 </div>
-<p>Two questions, two halves of today’s lecture: <strong>how does it work?</strong> (consent) and <strong>who answers for it?</strong> (liability).</p>
-</section>
-<section id="why-a-fifth-principle-at-all" class="slide level2">
-<h2>Why a Fifth Principle at All?</h2>
-<p>The argument is that the four principles <strong>presuppose</strong> explanation — they stop working without it.</p>
-<ul>
-<li>You can’t <strong>consent</strong> to what can’t be conveyed to you (autonomy).</li>
-<li>You can’t <strong>assign blame</strong> for what can’t be reconstructed (non-maleficence needs an address).</li>
-<li>You can’t <strong>audit fairness</strong> in what can’t be inspected (justice — recall how the cost algorithm was caught: someone <em>looked inside</em>).</li>
-</ul>
-<p>Explicability adds no new value of its own. It is the <strong>enabling principle</strong> — the one that keeps the other four usable when the decision-maker is a black box.</p>
+</div>
+<p>The other four <strong>stand on it</strong>. You can’t <em>consent</em> to what can’t be explained, <em>assign blame</em> for what can’t be traced, or <em>audit fairness</em> in what can’t be inspected.</p>
 </section>
 <section id="why-the-box-is-black" class="slide level2">
 <h2>Why the Box Is Black</h2>
+<div class="columns">
+<div class="column" style="width:52%;">
 <div class="context-box">
 <p><strong>“Even the makers can’t explain it”?</strong></p>
-<p>A modern model is millions — sometimes billions — of numerical weights tuned during training. It does not contain a chain of reasons anyone can read out; its makers can describe <em>how it was trained</em> and <em>how often it’s right</em>, but usually not <em>why it said this, here, today</em>. A research field called <strong>explainable AI</strong> builds after-the-fact explanations — but these are approximations of the model’s behavior, not its actual reasons, and they can be wrong about it.</p>
+<p>A modern model is millions or billions of numbers tuned during training. It contains no chain of reasons anyone can read out. Its makers can say <em>how it was trained</em> and <em>how often it’s right</em>, but usually not <em>why it said this, here, today</em>.</p>
 </div>
-<p>Keep the bar honest, though: your clinician can’t explain <em>her</em> pattern recognition either. The difference we’ll keep probing is that she can be <strong>questioned, trained, and held to account</strong> — she is an answerable black box.</p>
+</div><div class="column" style="width:48%;">
+<p>Keep the bar honest. Your clinician can’t fully explain <em>her</em> pattern recognition either. The difference is that she can be <strong>questioned, trained, and held to account</strong>: she is an answerable black box.</p>
+<p>And medicine has long used treatments that work for unknown reasons. Lithium steadied mood for decades before anyone knew why. What made that acceptable was a <strong>track record</strong> on patients like you.</p>
+</div></div>
 </section></section>
 <section>
-<section id="intelligibility-consent-with-ai-in-the-loop" class="title-slide slide level1 section-divider center">
-<h1>Intelligibility: Consent with AI in the Loop</h1>
+<section id="consent-with-ai-in-the-loop" class="title-slide slide level1 section-divider center">
+<h1>Consent with AI in the Loop</h1>
 
-</section>
-<section id="the-four-elements-meet-the-machine" class="slide level2">
-<h2>The Four Elements Meet the Machine</h2>
-<p>You learned the anatomy of valid consent early in this course: <strong>disclosure, understanding, voluntariness, capacity</strong>. AI doesn’t threaten all four equally.</p>
-<ul>
-<li><strong>Capacity</strong> and <strong>voluntariness</strong> are mostly untouched — the patient is the same patient.</li>
-<li><strong>Disclosure</strong> is strained because AI arrives <em>ambiently</em> — bundled into the EHR, the workflow, the dictation system — and nobody assigned anyone the job of mentioning it.</li>
-<li><strong>Understanding</strong> is strained the deepest: what, exactly, <em>could</em> the patient be brought to understand about a black box?</li>
-</ul>
 </section>
 <section id="must-the-patient-be-told" class="slide level2">
 <h2>Must the Patient Be Told?</h2>
 <div class="columns">
 <div class="column" style="width:48%;">
 <p><strong>The case against routine disclosure</strong></p>
-<p>We don’t disclose the resident who pre-read the scan, the lab analyzer’s algorithm, or which UpToDate article the doctor skimmed. Care is full of undisclosed instruments. Disclosing <em>everything</em> buries the patient in noise — and disclosure of everything is disclosure of nothing.</p>
+<p>We don’t disclose the resident who pre-read the scan or the lab analyzer’s software. Care is full of undisclosed instruments, and disclosing <em>everything</em> is disclosing nothing.</p>
 </div><div class="column" style="width:4%;">
 
 </div><div class="column" style="width:48%;">
 <p><strong>The case for it</strong></p>
-<p>Surveys consistently find patients <em>want</em> to know — and trust collapses retroactively when they find out by accident. An instrument doesn’t draft conclusions; this one does. And unlike the resident, the AI’s involvement is invisible unless someone chooses to say it.</p>
+<p>Surveys find patients <em>want</em> to know, and trust collapses when they find out by accident. An instrument doesn’t draft conclusions; this one does. And the AI’s role is invisible unless someone chooses to say it.</p>
 </div></div>
+<p>The legal standard for consent offers a middle path: disclose what a <strong>reasonable patient would find material</strong> to their decision. That moves the question from <em>whether AI was used</em> to <strong>what role it played</strong>: a flag the doctor weighed, or the real decision-maker?</p>
 </section>
-<section id="told-what-exactly" class="slide level2">
-<h2>Told <em>What</em>, Exactly?</h2>
-<p>Suppose we disclose. The next problem is the regress.</p>
-<ul>
-<li>“An algorithm was involved in your care” is <strong>true of everything</strong> and informative about nothing.</li>
-<li>The full technical truth — architectures, training sets, validation statistics — is <strong>impossible to convey</strong> and wouldn’t help.</li>
-<li>The working legal standard for consent offers the middle: disclose what a <strong>reasonable patient would find material</strong> to their decision.</li>
-</ul>
-<p>Materiality moves the question from <em>whether AI was used</em> to <strong>what role it played</strong> — a flag the doctor weighed, or the de facto decision-maker? That distinction will carry the rest of the section.</p>
-</section>
-<section id="the-scribe-run-through-the-elements" class="slide level2">
-<h2>The Scribe, Run Through the Elements</h2>
+<section id="the-scribe-run-through-consent" class="slide level2">
+<h2>The Scribe, Run Through Consent</h2>
+<p>You learned the four elements of valid consent early in this course. AI bends some far more than others.</p>
 <table class="caption-top">
 <colgroup>
 <col style="width: 50%">
@@ -363,35 +401,26 @@ Brendan Shea, PhD
 </tr>
 <tr class="even">
 <td><strong>Understanding</strong></td>
-<td>of <em>what</em> — that audio leaves the building? that drafts can fabricate? the error rate (which nobody has measured at your clinic)?</td>
+<td>of <em>what</em>? that audio leaves the building? that drafts can fabricate? the error rate (which nobody has measured at your clinic)?</td>
 </tr>
 <tr class="odd">
 <td><strong>Voluntariness</strong></td>
-<td>you can opt out — by being the difficult patient who makes the doctor type for an hour</td>
+<td>you can opt out, by being the difficult patient who makes the doctor type for an hour</td>
 </tr>
 <tr class="even">
 <td><strong>Capacity</strong></td>
-<td>untouched — the one element AI leaves alone</td>
+<td>untouched: the one element AI leaves alone</td>
 </tr>
 </tbody>
 </table>
-<p>A low-stakes technology, and every element bends. Now raise the stakes.</p>
-</section>
-<section id="understanding-without-explanation" class="slide level2">
-<h2>Understanding Without Explanation</h2>
-<p>The hardest version of the question: can consent be <strong>valid</strong> when <em>no one</em> — not the patient, not the physician, not the vendor — can explain why the model recommended this?</p>
-<ul>
-<li><strong>One answer: no.</strong> Autonomy means deciding for reasons; a recommendation without conveyable reasons can be <em>accepted</em>, but not <em>consented to</em>.</li>
-<li><strong>The other: yes.</strong> Medicine has long run on validated-but-unexplained treatments — lithium stabilized mood for decades before anyone knew why. What matters is the <strong>track record</strong>, not the mechanism: <em>we don’t know how it works, but we know it works — on patients like you.</em></li>
-</ul>
-<p>The dispute doesn’t resolve — but the second answer quietly requires that the track record <em>exist</em>: external validation again, wearing consent’s clothes.</p>
+<p>A low-stakes technology, and three of four elements bend. Now raise the stakes.</p>
 </section>
 <section id="thought-question" class="slide level2 scrollable">
 <h2>Thought Question</h2>
 <div class="thought-question">
-<p>A 58-year-old patient learns her mammogram will be read “by the radiologist, with AI assistance.” She asks for “a human only — no computer involved.” The AI second-reader demonstrably catches cancers human readers miss, and it’s now your department’s standard workflow.</p>
+<p>A 58-year-old patient learns her mammogram will be read “by the radiologist, with AI assistance.” She asks for “a human only, no computer involved.” The AI second reader demonstrably catches cancers human readers miss, and it’s now your department’s standard workflow.</p>
 <ol type="1">
-<li>Does she have the right to refuse the AI? Is that like refusing a treatment — or like demanding the lab hand-count her blood cells?</li>
+<li>Does she have the right to refuse the AI? Is that like refusing a treatment, or like demanding the lab hand-count her blood cells?</li>
 <li>Did she even have the right to be <em>told</em>? (Your hospital’s current answer, most likely: it was in the intake paperwork.)</li>
 <li>Does your answer change if the AI reads <em>first</em>, and the human only reviews what it flags?</li>
 </ol>
@@ -408,20 +437,25 @@ Brendan Shea, PhD
 <p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
-<p>Most disclosure debates blur three different duties. <strong>Disclosure of use</strong>: “AI was involved.” <strong>Disclosure of role</strong>: “AI flagged this; your doctor made the call” — versus “your doctor reviews what AI decides.” <strong>Disclosure of performance</strong>: “it misses about X% of cases like yours.”</p>
-<p>The mammogram case is hard precisely because the patient is really asking about <em>role</em>, not just <em>use</em>. And almost no one, anywhere, is currently offered <em>performance</em> — even though it’s the one a reasonable patient would most want.</p>
+<p>Most disclosure debates blur three different duties:</p>
+<ul>
+<li><strong>Disclosure of use</strong>: “AI was involved.”</li>
+<li><strong>Disclosure of role</strong>: “AI flagged this; your doctor made the call,” versus “your doctor reviews what the AI decides.”</li>
+<li><strong>Disclosure of performance</strong>: “it misses about X% of cancers like yours.”</li>
+</ul>
+<p>The mammogram patient is really asking about <em>role</em>, not just <em>use</em>. And almost no one is currently offered <em>performance</em>, even though it’s the one a reasonable patient would most want.</p>
 </div>
 </div>
 </div>
 </section></section>
 <section>
-<section id="accountability-when-the-ai-is-wrong" class="title-slide slide level1 section-divider center">
-<h1>Accountability: When the AI Is Wrong</h1>
+<section id="when-the-ai-is-wrong-who-answers" class="title-slide slide level1 section-divider center">
+<h1>When the AI Is Wrong, Who Answers?</h1>
 
 </section>
-<section id="when-its-wrong-who-answers" class="slide level2">
-<h2>When It’s Wrong, Who Answers?</h2>
-<p>Explicability’s second half — <strong>who answers when it’s wrong?</strong> Responsibility scatters across four parties, each pointing at the next: the <strong>problem of many hands</strong>.</p>
+<section id="the-problem-of-many-hands" class="slide level2">
+<h2>The Problem of Many Hands</h2>
+<p>When AI contributes to harm, blame scatters across four parties, each pointing at the next: the <span class="key-term">problem of many hands</span>.</p>
 <table class="caption-top">
 <colgroup>
 <col style="width: 33%">
@@ -431,7 +465,7 @@ Brendan Shea, PhD
 <thead>
 <tr class="header">
 <th>Who</th>
-<th>Legal theory</th>
+<th>The legal hook</th>
 <th>The problem with stopping here</th>
 </tr>
 </thead>
@@ -439,70 +473,64 @@ Brendan Shea, PhD
 <tr class="odd">
 <td><strong>Clinician</strong></td>
 <td>malpractice</td>
-<td>punishes the person with the <em>least</em> knowledge of the model’s flaws</td>
+<td>blames the person who knows <em>least</em> about the model</td>
 </tr>
 <tr class="even">
 <td><strong>Hospital</strong></td>
-<td>corporate negligence</td>
+<td>negligence</td>
 <td>hides behind “the doctor decided”</td>
 </tr>
 <tr class="odd">
 <td><strong>Vendor</strong></td>
 <td>product liability</td>
-<td>almost untested in court; contracts and trade secrets shield it</td>
+<td>rarely tested in court; shielded by contracts</td>
 </tr>
 <tr class="even">
 <td><strong>Regulator</strong></td>
-<td>cleared it for market</td>
-<td>can’t be sued; a clearance isn’t a guarantee, though juries hear one</td>
+<td>cleared it for sale</td>
+<td>can’t be sued; clearance isn’t a guarantee</td>
 </tr>
 </tbody>
 </table>
-<p>The right column matters most: each framing <strong>trains someone to behave differently</strong> — and right now most of it lands on the clinician.</p>
+<p>Right now, most of the weight lands on the <strong>clinician</strong>.</p>
 </section>
-<section id="the-standard-of-care-trap" class="slide level2">
-<h2>The Standard-of-Care Trap</h2>
-<p>The clinician’s bind, stated precisely:</p>
+<section id="the-clinicians-bind-the-vendors-shield" class="slide level2">
+<h2>The Clinician’s Bind, the Vendor’s Shield</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><strong>The clinician’s bind</strong></p>
 <ul>
-<li><strong>Follow the AI</strong> and it’s wrong → “you outsourced your judgment to software.”</li>
-<li><strong>Override the AI</strong> and you’re wrong → “the warning was on your screen, doctor, and you dismissed it.”</li>
-<li>As AI use becomes customary, the <strong>standard of care itself</strong> absorbs the machine — and the legally safest position becomes <em>using AI exactly the way everyone else does</em>.</li>
+<li><strong>Follow the AI</strong> and it’s wrong: “You outsourced your judgment to software.”</li>
+<li><strong>Override it</strong> and you’re wrong: “The warning was on your screen, and you dismissed it.”</li>
+<li>As AI becomes customary, the <span class="key-term">standard of care</span> absorbs it, and the legally safest move becomes <em>using AI exactly as everyone else does</em>.</li>
 </ul>
-<p>That last point should bother you: herd behavior wearing the costume of prudence. The standard of care was supposed to encode judgment, not insulation.</p>
-</section>
-<section id="why-vendors-stay-dry" class="slide level2">
-<h2>Why Vendors Stay Dry</h2>
-<p>The vendor — the party with the <em>most</em> knowledge of the model’s failure modes — has so far carried the <em>least</em> legal exposure. The shield has three layers.</p>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<p><strong>The vendor’s shield</strong></p>
 <ul>
-<li>The <strong>“decision support” disclaimer</strong>: the software merely <em>advises</em>; a licensed professional <em>decides</em>. The clinician’s license becomes the vendor’s liability sponge.</li>
-<li><strong>Contract terms</strong>: hospitals sign indemnification clauses and accept “as-is” performance language that patients never see.</li>
-<li><strong>Trade secrecy</strong>: the very opacity that creates the risk also frustrates the lawsuit — you can’t depose a weight matrix.</li>
+<li>A <strong>“decision support” label</strong>: the software only <em>advises</em>; a licensed professional <em>decides</em>.</li>
+<li><strong>Contracts</strong> in which hospitals accept “as-is” performance that patients never see.</li>
+<li><strong>Trade secrecy</strong>: the opacity that creates the risk also blocks the lawsuit.</li>
 </ul>
-<p>Knowledge and exposure point in opposite directions. That is an accountability architecture, and somebody chose it.</p>
-</section>
-<section id="the-regulatory-map" class="slide level2">
-<h2>The Regulatory Map</h2>
-<p>Where’s the regulator in all this? It depends entirely on <strong>which kind of AI</strong> — recall Part A’s three machines.</p>
-<ul>
-<li><strong>Diagnostic AI</strong> is regulated as a <em>medical device</em>: <strong>1,500+</strong> authorized as of early 2026 (about three-quarters of them in radiology), with premarket review and (slowly improving) postmarket surveillance. The count climbs every quarter — treat any number you hear as a floor.</li>
-<li><strong>Predictive and generative tools</strong> mostly ride the <strong>clinical-decision-support carve-out</strong>: software that “supports” a clinician who can review its basis isn’t a device at all.</li>
-<li>In <strong>January 2026</strong>, the FDA <em>loosened</em> that carve-out’s guidance in a deliberately generative-AI-friendly direction — the gap between what’s deployed and what’s reviewed is widening <strong>by design</strong>, on the theory that innovation needs room.</li>
-</ul>
-<p>One detail worth knowing: Woebot — the most carefully validated therapy chatbot — shut down its consumer app in mid-2025, citing the <em>cost of seeking FDA authorization</em> its less cautious competitors never attempted. Regulation that binds only the conscientious has a name problem.</p>
+<p>The party that knows the most about the model’s failures carries the least legal exposure.</p>
+</div></div>
 </section>
 <section id="thought-question-1" class="slide level2 scrollable">
 <h2>Thought Question</h2>
 <div class="thought-question">
-<p>The AI says your patient has a <strong>90% chance of sepsis</strong>. The resident examines her and sees no clinical signs — and has watched this same alert cry wolf all month.</p>
+<p>The AI says your patient has a <strong>90% chance of sepsis</strong>. The resident examines her and sees no clinical signs, and has watched this same alert cry wolf all month.</p>
 <ol type="1">
-<li>What should happen <em>in the next ten minutes</em>? (Not “in policy” — at this bedside.)</li>
-<li>If the resident overrides the alert and the patient crashes, who failed — resident, hospital, vendor, or threshold? Assign percentages if you dare.</li>
+<li>What should happen <em>in the next ten minutes</em>, at this bedside?</li>
+<li>If the resident overrides the alert and the patient crashes, who failed: resident, hospital, vendor, or threshold? Assign percentages if you dare.</li>
 <li>Now swap it: the resident <em>follows</em> the alert, and the patient is harmed by aggressive unnecessary treatment. Did your percentages move? Why?</li>
 </ol>
 </div>
 </section>
 <section id="after-youve-discussed-2" class="slide level2">
 <h2>After You’ve Discussed</h2>
+<div class="columns">
+<div class="column" style="width:58%;">
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -512,11 +540,17 @@ Brendan Shea, PhD
 <p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
-<p>The anthropologist Madeleine Elish studied automation disasters — autopilots, early self-driving cars — and noticed a pattern she named the <strong>moral crumple zone</strong>: as control shifts to the machine, <em>blame</em> stays with the nearest human, who absorbs the moral impact the way a car’s crumple zone absorbs the physical one <span class="citation" data-cites="elish2019">(<a href="#/references" role="doc-biblioref" onclick="">Elish 2019</a>)</span>.</p>
-<p>The nurse who stood down a real alert after forty false ones is a moral crumple zone. So, arguably, is the physician “reviewing” sixty scribe drafts at 6 p.m. The question to ask of every human-in-the-loop design from now on: <strong>is the human there to catch errors — or to catch liability?</strong></p>
+<p>The anthropologist Madeleine Elish studied automation accidents and named a pattern: the <span class="key-term">moral crumple zone</span>. As control shifts to the machine, <em>blame</em> stays with the nearest human, who absorbs the impact the way a car’s crumple zone absorbs a crash <span class="citation" data-cites="elish2019">(<a href="#/references" role="doc-biblioref" onclick="">Elish 2019</a>)</span>.</p>
+<p>The nurse who stood down a real alert after forty false ones is a moral crumple zone. So is the physician “reviewing” sixty scribe drafts at 6 p.m. Ask of every human-in-the-loop design: <strong>is the human there to catch errors, or to catch liability?</strong></p>
 </div>
 </div>
 </div>
+</div><div class="column" style="width:42%;">
+<p><img data-src="../images/nhtsa_crash_test_aveo.jpg" style="width:100.0%" alt="A silver sedan after a frontal crash test: the hood and front end are crushed, but the passenger compartment is intact and a crash-test dummy sits upright in the driver's seat."></p>
+<div class="attribution">
+<p>A crumple zone does its job: the front end absorbs the crash. NHTSA crash test, 2008. Public domain.</p>
+</div>
+</div></div>
 </section></section>
 <section>
 <section id="the-chatbot-therapist" class="title-slide slide level1 section-divider center">
@@ -525,58 +559,33 @@ Brendan Shea, PhD
 </section>
 <section id="the-3-a.m.-problem" class="slide level2">
 <h2>The 3 a.m. Problem</h2>
-<p>Before the harms, the honest case <em>for</em> — because any critique that skips it is critiquing an imaginary world.</p>
-<ul>
-<li>Roughly <strong>a third of Americans</strong> live in federally designated mental-health professional shortage areas; therapy runs <strong>$100–200 a session</strong>; waits stretch months.</li>
-<li>The chatbot is <strong>free, anonymous, infinitely patient, and awake at 3 a.m.</strong> — which is when the crisis is.</li>
-<li>People report real comfort, and for some, it’s the first time they’ve told <em>anyone</em>.</li>
-</ul>
-<p>The alternative to the chatbot, for millions, is not a therapist. It is <strong>nobody</strong>. Any honest accounting of the harms has to keep that fact on the table.</p>
-</section>
-<section id="two-very-different-machines" class="slide level2">
-<h2>Two Very Different Machines</h2>
 <div class="columns">
-<div class="column" style="width:48%;">
-<p><strong>Purpose-built therapy apps</strong></p>
-<p>Scripted around evidence-based methods (usually CBT), narrow by design, guardrailed, some clinically trialed. <strong>Woebot</strong> was the standard-bearer — pre-written responses, no improvisation, 1.5 million users.</p>
-</div><div class="column" style="width:4%;">
-
+<div class="column" style="width:52%;">
+<p>First, the honest case <em>for</em>.</p>
+<ul>
+<li>About <strong>155 million Americans</strong>, nearly half, live in mental-health shortage areas <span class="citation" data-cites="hrsa2026">(<a href="#/references" role="doc-biblioref" onclick="">HRSA 2026</a>)</span>. Therapy costs $100–200 a session, and waits run for months.</li>
+<li>The chatbot is <strong>free, anonymous, and awake at 3 a.m.</strong>, which is when the crisis is.</li>
+<li>For millions, the alternative is not a therapist. It is <strong>nobody</strong>.</li>
+</ul>
 </div><div class="column" style="width:48%;">
-<p><strong>General companion chatbots</strong></p>
-<p>LLM-based, engagement-optimized, role-playing, unguarded by design — built to keep you talking, not to discharge you. This is where the documented harms cluster.</p>
+<p><img data-src="../images/hrsa_mental_health_hpsa_map_2026.jpg" style="width:100.0%" alt="Map of the United States shaded by mental-health professional shortage area score, with nearly every county shaded blue as a shortage area and only scattered gray areas not designated."></p>
+<div class="attribution">
+<p>Mental-health professional shortage areas (blue; darker means more severe). HRSA, November 2026. Public domain.</p>
+</div>
 </div></div>
-<p>The public debate constantly blurs these. And the market just resolved the blur the wrong way: Woebot <strong>shut down its consumer app in June 2025</strong>, citing FDA-authorization costs — while the unguarded companions, which never sought authorization, kept growing.</p>
 </section>
 <section id="the-documented-harms" class="slide level2">
 <h2>The Documented Harms</h2>
-<p>Recall <strong>sycophancy</strong> from Part A: the learned tendency to tell users what they want to hear. In a confidant, it’s a flaw. In a <em>therapist</em>, it is disqualifying — therapy’s whole job is the productive <em>no</em>.</p>
+<p>Recall <strong>sycophancy</strong>: telling users what they want to hear. In a therapist it is disqualifying, because therapy’s job is often the productive <em>no</em>.</p>
 <ul>
-<li>In safety testing reported in 2025, a companion-style bot advised a fictional recovering methamphetamine user that he should take <strong>“a small hit of meth to get through this week.”</strong> That sentence helped move a state legislature, and we’ll meet the statute shortly.</li>
-<li>Testers have documented bots <strong>affirming delusions</strong> and deepening isolation — engagement optimization and therapeutic challenge pull in opposite directions, and engagement is what gets measured.</li>
-<li>The machine that cannot disappoint you cannot treat you.</li>
+<li>The harms cluster in <strong>companion chatbots</strong> built to keep you talking, not in scripted therapy apps.</li>
+<li>In 2025 safety testing, a companion bot told a fictional recovering meth user to take <strong>“a small hit of meth to get through this week.”</strong></li>
+<li>Families of teenagers who died by suicide after months-long chatbot relationships sued. In <strong>January 2026</strong>, Character.AI and Google agreed to settle the leading cases <span class="citation" data-cites="cnn_characterai_2026">(<a href="#/references" role="doc-biblioref" onclick="">CNN Business 2026</a>)</span>. The claim was <strong>design defect</strong>: the product <em>engineered the attachment itself</em>.</li>
 </ul>
 </section>
-<section id="the-litigation" class="slide level2">
-<h2>The Litigation</h2>
-<p>The harms reached courtrooms fast, and the legal theory matters more than the headlines.</p>
-<ul>
-<li>Families of teenagers who died by suicide after months-long chatbot relationships filed <strong>wrongful-death suits</strong> against Character.AI and OpenAI beginning in 2024–25.</li>
-<li>In <strong>January 2026</strong>, Character.AI, its founders, and Google agreed to <strong>settle</strong> the leading cases — including the first-filed Garcia suit — covering actions in Florida, Colorado, New York, and Texas. Terms were not disclosed, and the settlements still required court approval. Cases against OpenAI, including one over the death of a 16-year-old, continue <span class="citation" data-cites="cnn_characterai_2026">(<a href="#/references" role="doc-biblioref" onclick="">CNN Business 2026</a>)</span>.</li>
-<li>Settling without disclosed terms means the design-defect theory below was <strong>never tested in court</strong>. The companies paid; no judge ruled on whether engineered attachment is a defect. That question is still open, and the next plaintiff has to start over.</li>
-<li>The core allegation is not “the bot said a wrong thing.” It is <strong>design defect</strong>: that engagement-maximizing systems <em>engineered the attachment itself</em> — the isolation, the dependency — and that the harm flowed from the design working as intended.</li>
-</ul>
-</section>
-<section id="the-illinois-ban" class="slide level2">
-<h2>The Illinois Ban</h2>
-<div class="context-box">
-<p><strong>The Wellness and Oversight for Psychological Resources Act (Illinois, August 2025)</strong></p>
-<p>The first state law to <strong>prohibit AI from providing therapy</strong>. AI systems may not deliver therapy or “therapeutic decision-making,” or advertise themselves as therapists; administrative and supplementary uses under a licensed professional’s oversight remain legal. Civil penalties run to <strong>$10,000 per violation</strong> <span class="citation" data-cites="illinois_wopr_2025">(<a href="#/references" role="doc-biblioref" onclick="">Illinois General Assembly 2025</a>)</span>. The legislature acted with near-unanimity, citing the documented bad-advice cases — including the “small hit of meth.”</p>
-<p>Contrast the lighter touch elsewhere: <strong>Utah</strong> and <strong>Nevada</strong> regulate — mandatory AI disclosure, bans on selling user data — without prohibiting.</p>
-</div>
-</section>
-<section id="run-the-mill-test" class="slide level2">
-<h2>Run the Mill Test</h2>
-<p>A state has forbidden <em>competent adults</em> something many of them want. You own a tool for exactly this — the three questions from our paternalism lecture.</p>
+<section id="the-illinois-ban-run-through-mill" class="slide level2">
+<h2>The Illinois Ban, Run Through Mill</h2>
+<p>In 2025, Illinois became the first state to <strong>ban AI therapy</strong>, with fines up to $10,000 per violation <span class="citation" data-cites="illinois_wopr_2025">(<a href="#/references" role="doc-biblioref" onclick="">Illinois General Assembly 2025</a>)</span>. Run the three questions from our paternalism lecture:</p>
 <table class="caption-top">
 <colgroup>
 <col style="width: 50%">
@@ -591,28 +600,28 @@ Brendan Shea, PhD
 <tbody>
 <tr class="odd">
 <td>Is the chooser <strong>competent</strong>?</td>
-<td>The adult user — mostly yes. (Minors are the easy case; Illinois didn’t stop at minors.)</td>
+<td>The adult user: mostly yes. (Minors are the easy case; Illinois didn’t stop there.)</td>
 </tr>
 <tr class="even">
 <td>Is the choice <strong>voluntary and informed</strong>?</td>
-<td>The live cell: does a sycophantic system that <em>engineers attachment</em> corrupt the very choice to keep using it?</td>
+<td>The live question: does a product that <em>engineers attachment</em> corrupt the choice to keep using it?</td>
 </tr>
 <tr class="odd">
 <td>Does it harm <strong>only the chooser</strong>?</td>
-<td>Mostly yes — which, for Mill, makes the ban <em>hard</em> paternalism, presumptively forbidden.</td>
+<td>Mostly yes, which for Mill makes the ban <em>hard</em> paternalism.</td>
 </tr>
 </tbody>
 </table>
-<p>The ban’s whole defense lives in the middle row: if the product <strong>manufactures the consent</strong> it then points to, the choice was never fully voluntary — and the paternalism is soft, not hard. Decide what you think; the legislature already did.</p>
+<p>The ban’s defense lives in the middle row: if the product <strong>manufactures the consent</strong> it points to, the paternalism is soft, not hard.</p>
 </section>
 <section id="thought-question-2" class="slide level2 scrollable">
 <h2>Thought Question</h2>
 <div class="thought-question">
-<p>Your longtime patient — isolated, chronically depressed — tells you her companion chatbot is “the only one who really listens.” She’s stopped returning her sister’s calls. She is an adult, she is stable, and by every metric in her chart she is <em>better</em> than last year.</p>
+<p>Your longtime patient, isolated and chronically depressed, tells you her companion chatbot is “the only one who really listens.” She’s stopped returning her sister’s calls. She is an adult, she is stable, and by every metric in her chart she is <em>better</em> than last year.</p>
 <ol type="1">
 <li>What do you actually say, in the room, in the next sixty seconds?</li>
 <li>Is “it’s working” the end of the analysis? What is it working <em>at</em>?</li>
-<li>What would have to change for you to escalate — and what would “escalating” even mean here?</li>
+<li>What would have to change for you to escalate, and what would “escalating” even mean here?</li>
 </ol>
 </div>
 </section>
@@ -627,33 +636,19 @@ Brendan Shea, PhD
 <p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
-<p>A distinction this whole section has been circling: <strong>tool harms versus relationship harms</strong>. A wrong drug answer is a <em>tool</em> harm — accuracy fixes it, and disclaimers warn about it. Engineered attachment is a <em>relationship</em> harm — and making the bot more accurate, more fluent, and more empathetic makes it <strong>worse</strong>, not better.</p>
-<p>Now look back at the regulation. Disclaimers, disclosure rules, fact-checking standards — nearly all of it aims at tool harms. The design-defect lawsuits and the Illinois ban are the first legal instruments aimed at the second kind. That’s why this section’s cases felt different from the sepsis alarm: they are.</p>
+<p>A distinction this section has been circling: <strong>tool harms versus relationship harms</strong>. A wrong drug answer is a <em>tool</em> harm: accuracy fixes it, and disclaimers warn about it. Engineered attachment is a <em>relationship</em> harm, and making the bot more accurate, more fluent, and more empathetic makes it <strong>worse</strong>, not better.</p>
+<p>Nearly all AI regulation (disclaimers, disclosure rules, accuracy standards) aims at tool harms. The design-defect lawsuits and the Illinois ban are the first legal tools aimed at the second kind.</p>
 </div>
 </div>
 </div>
-</section></section>
-<section>
-<section id="what-the-machine-knows-about-you" class="title-slide slide level1 section-divider center">
-<h1>What the Machine Knows About You</h1>
-
 </section>
-<section id="why-your-chatbot-confession-isnt-protected" class="slide level2">
-<h2>Why Your Chatbot Confession Isn’t Protected</h2>
-<p><strong>HIPAA does not protect health information. It protects health information <em>held by certain entities</em></strong> — providers, insurers, and their contractors. A consumer chatbot is none of those.</p>
+<section id="your-chatbot-confession-isnt-protected" class="slide level2">
+<h2>Your Chatbot Confession Isn’t Protected</h2>
+<p><strong>HIPAA does not protect health information. It protects health information <em>held by certain entities</em></strong>: providers, insurers, and their contractors. A consumer chatbot is none of those.</p>
 <ul>
-<li>What you type into it has, legally, roughly the protection of a social-media post: the company’s own privacy policy, <strong>changeable at will</strong>.</li>
-<li>The conversations people have with companion bots — suicidality, addiction, abuse — are <em>exactly</em> the disclosures HIPAA was built to guard.</li>
-<li>And chat logs are <strong>discoverable</strong>: the most intimate “therapy” sessions of the decade sit on subpoenaable servers.</li>
-</ul>
-</section>
-<section id="inside-the-wall-still-not-private" class="slide level2">
-<h2>Inside the Wall — Still Not Private</h2>
-<p>When AI <em>is</em> inside HIPAA’s wall — a scribe vendor signs a <strong>business associate agreement</strong> — the protection is real but narrower than patients assume.</p>
-<ul>
-<li>The BAA routinely permits use for <strong>“product improvement”</strong>: your visit may train the next model. And <strong>de-identified</strong> data can leave the wall entirely — de-identification has known limits, as you saw with genomics.</li>
-<li>Models also <strong>memorize</strong>, reproducing distinctive training examples nearly verbatim. So: <strong>whose charts taught the model?</strong> Did they agree? Training data is the tissue of this decade, and the Common Rule wasn’t written for it.</li>
-<li>Honest summary: <em>protected, yes; private the way you imagine, no</em> — and <strong>the less medical the setting feels, the less protected the disclosure.</strong></li>
+<li>What you type into it is protected only by the company’s own privacy policy, which it can change at will. And chat logs can be <strong>subpoenaed</strong>.</li>
+<li>The conversations people have with companion bots (suicidality, addiction, abuse) are <em>exactly</em> the disclosures HIPAA was built to guard.</li>
+<li>Even <em>inside</em> the wall, a scribe vendor’s contract may allow your visit to train the next model. <strong>The less medical the setting feels, the less protected the disclosure.</strong></li>
 </ul>
 </section></section>
 <section>
@@ -666,102 +661,72 @@ Brendan Shea, PhD
 <div class="columns">
 <div class="column" style="width:48%;">
 <p><strong>Automation bias</strong></p>
-<p>The documented tendency to let the machine’s answer <em>displace</em> your own — to stop searching once the system has spoken. The resident who stands down a working hunch because the risk score is low is its clinical face.</p>
+<p>Letting the machine’s answer <em>replace</em> your own: you stop looking once the system has spoken. The resident who drops a working hunch because the risk score is low is its clinical face.</p>
 </div><div class="column" style="width:4%;">
 
 </div><div class="column" style="width:48%;">
 <p><strong>Algorithm aversion</strong></p>
-<p>The mirror failure: abandoning a <em>good</em> tool after one visible error — while forgiving human colleagues the identical mistake. The unit that quietly stops using a validated alarm after a bad month is its clinical face.</p>
+<p>The mirror failure: abandoning a <em>good</em> tool after one visible error, while forgiving human colleagues the same mistake. The unit that quietly ignores a validated alarm after one bad month is its clinical face.</p>
 </div></div>
-<p>Both are <strong>calibration failures</strong>, and both have hurt patients. The professional skill of the next decade isn’t trusting AI or distrusting it — it’s <em>knowing which error you’re currently making</em>.</p>
+<p>Both are failures of <strong>calibration</strong>, and both have hurt patients. The professional skill of the next decade isn’t trusting AI or distrusting it. It’s <em>knowing which error you’re making right now</em>.</p>
 </section>
 <section id="the-deskilling-worry-now-with-data" class="slide level2">
 <h2>The Deskilling Worry, Now With Data</h2>
-<p>The worry used to be speculative. In 2025 it acquired a number.</p>
+<div class="columns">
+<div class="column" style="width:52%;">
+<p>In 2025, four Polish colonoscopy centers checked how well doctors found precancerous growths <strong>without</strong> AI, after months of working with it <span class="citation" data-cites="budzyn2025">(<a href="#/references" role="doc-biblioref" onclick=""><span class="nocase">Budzyń et al.</span> 2025</a>)</span>.</p>
 <ul>
-<li>Polish endoscopy centers in a colonoscopy AI trial checked what happened to clinicians’ <strong>unassisted</strong> performance after months of AI-assisted work: adenoma detection <em>without</em> the AI fell from <strong>28.4% to 22.4%</strong> — a 20% relative drop, in 19 experienced specialists <span class="citation" data-cites="budzyn2025">(<a href="#/references" role="doc-biblioref" onclick=""><span class="nocase">Budzyń et al.</span> 2025</a>)</span>.</li>
-<li>The skill didn’t pause while the machine helped. It <strong>decayed</strong> — the first real-world evidence of automation deskilling tied to patient outcomes in medicine.</li>
-<li>For a nursing audience the question is personal: which of your assessment skills are you still <em>practicing</em>, once a score practices them for you? And who is checking?</li>
+<li>Their detection rate fell from <strong>28.4% to 22.4%</strong>. The skill didn’t pause while the machine helped. It <strong>decayed</strong>.</li>
+<li>For nurses: which assessment skills are you still <em>practicing</em> once a score practices them for you?</li>
 </ul>
+</div><div class="column" style="width:48%;">
+<div id="8bfb41b2" class="cell" data-execution_count="2">
+<div class="cell-output cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="10b-fifth-principle_files/figure-revealjs/cell-3-output-1.png" width="413" height="314"></p>
+<figcaption>Adenoma detection rate in colonoscopies done without AI, before and after the centers adopted it (Budzyń et al.&nbsp;2025).</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div></div>
 </section>
 <section id="when-to-defer-when-to-override" class="slide level2">
 <h2>When to Defer, When to Override</h2>
-<p>No formula survives contact with a real bedside, but a defensible frame exists. Ask two questions:</p>
-<ul>
-<li><strong>Was the model validated on patients like this one?</strong> If yes, and your disagreement is a hunch you can’t articulate — that hunch may <em>be</em> automation-era folklore. The evidence usually beats the vibe.</li>
-<li><strong>Do you hold information the model cannot see?</strong> The model reads the chart; <em>you can see the patient</em> — the gray color, the new confusion, the thing not yet in any field. That is exactly when overriding is your job, not your risk.</li>
-</ul>
-<p>Either way, the duty explicability adds: <strong>be able to say afterward which question you answered, and how</strong> — to the family, to the board, and if it comes to it, to the court. Defensible isn’t the same as right. It’s the part you control.</p>
-</section>
-<section id="score-it-yourself" class="slide level2">
-<h2>Score It Yourself</h2>
-<p>All semester you scored cases against four principles. Add the fifth, and score today’s five cases together as a class — ✅ holds, ⚖️ contested, ❌ fails. Expect to disagree about the middle columns; that <em>is</em> the work.</p>
+<p>Two questions give a defensible starting point, though no formula survives every bedside.</p>
 <table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
+</colgroup>
 <thead>
 <tr class="header">
 <th></th>
-<th>Benef.</th>
-<th>Non-mal.</th>
-<th>Autonomy</th>
-<th>Justice</th>
-<th><strong>Explicability</strong></th>
+<th><strong>You see nothing the model can’t</strong></th>
+<th><strong>You see something it can’t</strong> (the gray color, the new confusion)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Unannounced scribe</strong></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><strong>Validated on patients like this one</strong></td>
+<td>Lean toward the model: an unexplained hunch may be folklore.</td>
+<td>Override, and say what you saw. That is your job, not your risk.</td>
 </tr>
 <tr class="even">
-<td><strong>Mammogram refusal</strong></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>Ignored sepsis alert</strong></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="even">
-<td><strong>Chatbot therapist</strong></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td><strong>The privacy gap</strong></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td><strong>Not validated here</strong></td>
+<td>Treat the score as a weak signal; get another human’s eyes.</td>
+<td>Override, and report the gap.</td>
 </tr>
 </tbody>
 </table>
-<p>Once the grid is full, look down the columns. Where do the first four land — case by case, sometimes one way, sometimes another? And is there a column that behaves differently from the rest? Decide what that tells you about Floridi’s claim.</p>
-</section></section>
-<section>
-<section id="where-this-leaves-us" class="title-slide slide level1 section-divider center">
-<h1>Where This Leaves Us</h1>
-
+<p>Either way, explicability adds a duty: <strong>be able to say afterward which question you answered, and how</strong>, to the family, to the board, and if it comes to it, to a court.</p>
 </section>
 <section id="wrap-up" class="slide level2">
 <h2>Wrap-Up</h2>
 <div class="recap">
-<p>The course’s four principles survived their hardest test — a technology that decides without explaining — but they needed a fifth to do it: <strong>explicability</strong>, intelligibility plus accountability. Intelligibility reshaped consent: the question stopped being <em>was AI used?</em> and became <em>what role did it play, and what would a reasonable patient need to know?</em> Accountability reshaped blame: the problem of many hands, the vendor’s shield, and the moral crumple zone showed that “who answers for the machine” is currently decided by default, not by design. The chatbot cases put both halves under maximum stakes — and the clinician’s job quietly changed along the way, from <em>deciding</em> to <strong>deciding when to defer, and being able to say why</strong>.</p>
-<p>The technology in this lecture will be obsolete before you retire. The five questions you now know how to ask of it won’t be.</p>
+<p>The four principles survived a technology that decides without explaining, but needed a fifth to do it: <strong>explicability</strong>, intelligibility plus accountability. Intelligibility reshaped consent: the question became <em>what role did AI play, and what would a reasonable patient need to know?</em> Accountability reshaped blame: the <strong>problem of many hands</strong> and the <strong>moral crumple zone</strong> show that “who answers for the machine” is currently decided by default, not by design. And the clinician’s job changed from <em>deciding</em> to <strong>deciding when to defer, and being able to say why</strong>.</p>
 </div>
 </section>
 <section id="review-questions" class="slide level2">
@@ -769,38 +734,44 @@ Brendan Shea, PhD
 <div class="review-questions">
 <div class="review-item review-recall">
 <p><span class="review-label">Recall</span></p>
-<p>State Floridi’s five principles and explain the two halves of explicability — intelligibility and accountability — including the question each one answers. Then explain why Floridi’s group called explicability an <em>enabling</em> principle rather than a fifth value.</p>
+<p>State the fifth principle and its two halves, intelligibility and accountability, including the question each one answers. Why does Floridi’s group call explicability an <em>enabling</em> principle rather than a new value?</p>
 </div>
 <div class="review-item review-apply">
 <p><span class="review-label">Apply</span></p>
-<p>An emergency department deploys an AI triage tool that assigns waiting patients a priority score. A patient with atypical symptoms is scored low, waits four hours, and suffers a preventable cardiac arrest. Using the liability map, identify the strongest claim against each of the four parties — and say which framing would most improve <em>future</em> patient safety.</p>
+<p>An emergency department deploys an AI triage tool that assigns waiting patients a priority score. A patient with atypical symptoms is scored low, waits four hours, and suffers a preventable cardiac arrest. Identify the strongest claim against each of the four parties, and say which framing would most improve <em>future</em> patient safety.</p>
 </div>
 <div class="review-item review-debate">
 <p><span class="review-label">Debate</span></p>
-<p>Should clinicians be legally required to disclose any AI involvement in a patient’s care? Use the use/role/performance distinction to say precisely what your rule would require — and defend it against the strongest objection from the other side.</p>
+<p>Should clinicians be legally required to disclose any AI involvement in a patient’s care? Use the use/role/performance distinction to say precisely what your rule would require, and defend it against the strongest objection.</p>
 </div>
 </div>
 </section>
-<section id="key-terms" class="slide level2">
+<section id="key-terms" class="slide level2 dense">
 <h2>Key Terms</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
 <ul>
-<li><strong>Explicability</strong> — Floridi’s fifth principle: AI must be intelligible and accountable; the enabling condition for the other four.</li>
-<li><strong>Intelligibility / accountability</strong> — explicability’s two halves: “how does it work?” / “who answers for how it works?”</li>
-<li><strong>Black box</strong> — a system whose outputs cannot be traced to human-readable reasons, even by its makers.</li>
+<li><strong>Explicability</strong> — the fifth principle: AI must be intelligible and accountable.</li>
+<li><strong>Black box</strong> — a system whose outputs can’t be traced to readable reasons, even by its makers.</li>
 <li><strong>Materiality standard</strong> — disclose what a reasonable patient would find relevant to their decision.</li>
-<li><strong>Problem of many hands</strong> — responsibility scattered across so many contributors that no one is answerable.</li>
-<li><strong>Standard of care</strong> — the legal yardstick for malpractice; absorbs AI as its use becomes customary.</li>
-<li><strong>Moral crumple zone</strong> — Elish’s term for the human kept in the loop partly to absorb blame when the system fails.</li>
+<li><strong>Use / role / performance</strong> — that AI was involved, what it did, and how often it errs.</li>
+<li><strong>Problem of many hands</strong> — responsibility scattered so widely that no one is answerable.</li>
+</ul>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<ul>
+<li><strong>Moral crumple zone</strong> — the human kept in the loop partly to absorb blame (Elish).</li>
+<li><strong>Tool vs.&nbsp;relationship harm</strong> — harm from a wrong answer vs.&nbsp;harm from an engineered attachment.</li>
 <li><strong>Automation bias / algorithm aversion</strong> — over-trusting the machine / abandoning a good machine after one visible error.</li>
 <li><strong>Deskilling</strong> — the decay of unpracticed clinical skills under automation.</li>
-<li><strong>Covered entity / business associate agreement</strong> — who HIPAA actually binds / the contract that extends it to vendors.</li>
-<li><strong>Memorization</strong> — a model’s capacity to reproduce distinctive training examples nearly verbatim.</li>
 </ul>
+</div></div>
 </section>
 <section id="further-reading" class="slide level2">
 <h2>Further Reading</h2>
 <ul>
-<li>Floridi, Luciano, et al.&nbsp;“AI4People — An Ethical Framework for a Good AI Society.” <em>Minds and Machines</em>, 2018. (The fifth-principle paper itself — short and readable.)</li>
+<li>Floridi, Luciano, et al.&nbsp;“AI4People — An Ethical Framework for a Good AI Society.” <em>Minds and Machines</em>, 2018. (The fifth-principle paper itself: short and readable.)</li>
 <li>Elish, Madeleine Clare. “Moral Crumple Zones: Cautionary Tales in Human-Robot Interaction.” <em>Engaging Science, Technology, and Society</em>, 2019.</li>
 <li>Hao, Karen. <em>Empire of AI.</em> Penguin Press, 2025. (Where the training data and the labor behind these systems actually come from.)</li>
 </ul>
@@ -809,7 +780,7 @@ Brendan Shea, PhD
 <h2>References</h2>
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-budzyn2025" class="csl-entry" role="listitem">
-<span class="nocase">Budzyń, Krzysztof, Marcin Romańczyk, et al.</span> 2025. <span>“Endoscopist Deskilling Risk After Exposure to Artificial Intelligence in Colonoscopy: A Multicentre, Observational Study.”</span> <em>The Lancet Gastroenterology &amp; Hepatology</em> 10. <a href="https://doi.org/10.1016/S2468-1253(25)00133-5">https://doi.org/10.1016/S2468-1253(25)00133-5</a>.
+<span class="nocase">Budzyń, Krzysztof, Marcin Romańczyk, et al.</span> 2025. <span>“Endoscopist Deskilling Risk After Exposure to Artificial Intelligence in Colonoscopy: A Multicentre, Observational Study.”</span> <em>The Lancet Gastroenterology &amp; Hepatology</em> 10 (10): 896–903. <a href="https://doi.org/10.1016/S2468-1253(25)00133-5">https://doi.org/10.1016/S2468-1253(25)00133-5</a>.
 </div>
 <div id="ref-cnn_characterai_2026" class="csl-entry" role="listitem">
 CNN Business. 2026. <em>Character.<span>AI</span> and <span>Google</span> Agree to Settle Lawsuits over Teen Mental Health Harms and Suicides</em>. CNN Business, January 7, 2026. <a href="https://www.cnn.com/2026/01/07/business/character-ai-google-settle-teen-suicide-lawsuit">https://www.cnn.com/2026/01/07/business/character-ai-google-settle-teen-suicide-lawsuit</a>.
@@ -819,6 +790,9 @@ Elish, Madeleine Clare. 2019. <span>“Moral Crumple Zones: Cautionary Tales in 
 </div>
 <div id="ref-floridi2018" class="csl-entry" role="listitem">
 Floridi, Luciano, Josh Cowls, Monica Beltrametti, et al. 2018. <span>“<span>AI4People</span>—an Ethical Framework for a Good <span>AI</span> Society: Opportunities, Risks, Principles, and Recommendations.”</span> <em>Minds and Machines</em> 28 (4): 689–707. <a href="https://doi.org/10.1007/s11023-018-9482-5">https://doi.org/10.1007/s11023-018-9482-5</a>.
+</div>
+<div id="ref-hrsa2026" class="csl-entry" role="listitem">
+HRSA. 2026. <em>Designated Health Professional Shortage Areas Statistics: Fourth Quarter of Fiscal Year 2026, Designated <span>HPSA</span> Quarterly Summary (as of September 30, 2026)</em>. <a href="https://data.hrsa.gov/Default/GenerateHPSAQuarterlyReport">https://data.hrsa.gov/Default/GenerateHPSAQuarterlyReport</a>.
 </div>
 <div id="ref-illinois_wopr_2025" class="csl-entry" role="listitem">
 Illinois General Assembly. 2025. <em>Wellness and Oversight for Psychological Resources Act</em>. <a href="https://idfpr.illinois.gov/news/2025/gov-pritzker-signs-state-leg-prohibiting-ai-therapy-in-il.html">https://idfpr.illinois.gov/news/2025/gov-pritzker-signs-state-leg-prohibiting-ai-therapy-in-il.html</a>.

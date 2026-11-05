@@ -456,7 +456,9 @@ $code-block-border-color: $rule;
 .reveal .columns ul,
 .reveal .columns ol {
   line-height: 1.25;
-  margin: 0.3em 0;
+  // Keep the left indent: with zero margin the markers sit outside the
+  // slide's clipped box and vanish in a left-hand column.
+  margin: 0.3em 0 0.3em 1em;
 }
 .reveal .columns li { margin-bottom: 0.25em; }
 .reveal .columns p { margin-bottom: 0.4em; }

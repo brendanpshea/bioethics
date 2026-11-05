@@ -52,7 +52,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-ad2cb4a06ea0ff0df1221c608413dfc0.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-126b6eb21d17633dfd3130f84bed7b82.css">
   <link rel="stylesheet" href="../styles/custom.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -187,55 +187,59 @@ Brendan Shea, PhD
 </section>
 <section id="what-the-model-actually-learned" class="slide level2">
 <h2>What the Model Actually Learned</h2>
-<p>Researchers testing a top-performing skin-cancer model found something strange: it could be fooled by <strong>a marker pen</strong>.</p>
+<div class="columns">
+<div class="column" style="width:54%;">
+<p>A top-performing skin-cancer model could be fooled by <strong>a marker pen</strong> <span class="citation" data-cites="winkler2019">(<a href="#/references" role="doc-biblioref" onclick="">Winkler et al. 2019</a>)</span>.</p>
 <ul>
-<li>Dermatologists often circle or mark a lesion with violet surgical ink <em>before</em> photographing it — and they mark the ones they already suspect.</li>
-<li>When Winkler and colleagues added those routine ink markings to images of <strong>harmless moles</strong>, the model’s melanoma scores jumped: its specificity collapsed from about <strong>84% to 46%</strong> <span class="citation" data-cites="winkler2019">(<a href="#/references" role="doc-biblioref" onclick="">Winkler et al. 2019</a>)</span>. Other teams caught models keying on the <strong>rulers</strong> placed next to suspicious lesions.</li>
-<li>The model had never been looking only at moles. It had learned that <em>ink and rulers predict cancer</em> — because worried clinicians bring out the ink and the rulers.</li>
+<li>Dermatologists often circle a suspicious mole in violet ink <em>before</em> photographing it.</li>
+<li>Add ink marks to photos of <strong>harmless moles</strong>, and the model calls far more of them cancer.</li>
+<li>It had learned that <em>ink predicts cancer</em>. Other models learned <strong>rulers</strong>.</li>
 </ul>
+</div><div class="column" style="width:46%;">
+<div id="018818ce" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="10a-medical-ai_files/figure-revealjs/cell-2-output-1.png" width="413" height="315"></p>
+<figcaption>Harmless moles the model correctly called harmless (specificity), photographed without and with ink marks (Winkler et al.&nbsp;2019).</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div></div>
 </section>
-<section id="after-youve-discussed" class="slide level2">
-<h2>After You’ve Discussed</h2>
-<div class="callout callout-note callout-titled callout-style-default">
+<section id="today" class="slide level2">
+<h2>Today</h2>
+<div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<p><strong>Note</strong></p>
+<p><strong>Important</strong></p>
 </div>
 <div class="callout-content">
-<p>The model wasn’t broken. It did exactly what it was built to do: find whatever patterns in the photos predicted the label “malignant.” Ink markings really do predict that label — in the training photos. They just have nothing to do with your aunt’s skin.</p>
-<p>That gap is the whole lecture. Every disaster we will study today comes down to one question, asked of one system at a time: <strong>what was the model actually trained to do — and is that the same thing we are using it for?</strong></p>
+<p>The model wasn’t broken. It did exactly what it was built to do: find whatever in the photos predicted “malignant.” One question runs through this whole lecture: <strong>what was the model actually trained to do, and is that what we are using it for?</strong></p>
 </div>
 </div>
 </div>
-</section>
-<section id="today" class="slide level2">
-<h2>Today</h2>
 <div class="learning-outcomes">
 <p>By the end of Part A, you will be able to:</p>
 <ul>
-<li>Explain <strong>supervised machine learning</strong> in plain terms — training data, features, labels, prediction — and why the <em>label</em> controls what gets learned.</li>
-<li>Distinguish the three kinds of medical AI — <strong>diagnostic, predictive, and generative</strong> — and name each one’s signature failure mode.</li>
-<li>Tell what happened, with names and numbers, in the <strong>Obermeyer cost-algorithm study</strong> and the <strong>two acts of the Epic Sepsis Model</strong> story.</li>
-<li>Explain why a chatbot’s answer can be <strong>fluent and wrong at the same time</strong>, and why that combination is dangerous in health care.</li>
+<li>Explain <strong>supervised machine learning</strong> in plain terms, and why the <em>label</em> controls what gets learned.</li>
+<li>Name the three kinds of medical AI (<strong>diagnostic, predictive, generative</strong>) and the signature way each one fails.</li>
+<li>Tell what went wrong, with numbers, in the <strong>Obermeyer cost algorithm</strong> and the <strong>Epic Sepsis Model</strong>, and how outsiders caught it.</li>
 </ul>
 </div>
 </section></section>
 <section>
-<section id="how-a-machine-learns" class="title-slide slide level1 section-divider center">
-<h1>How a Machine Learns</h1>
+<section id="how-a-machine-learns-and-where-it-slips" class="title-slide slide level1 section-divider center">
+<h1>How a Machine Learns, and Where It Slips</h1>
 
-</section>
-<section id="not-magic-not-a-mind" class="slide level2">
-<h2>Not Magic, Not a Mind</h2>
-<p>For decades, programmers tried to build medical software the obvious way: interview experts and write down their rules. Those “expert systems” mostly failed — medicine has too many exceptions to its exceptions.</p>
-<p><span class="key-term">Machine learning</span> flips the approach. Instead of being <em>given</em> rules, the system is given <strong>examples</strong> — thousands or millions of them — and adjusts itself until its outputs match the answers. A calculator follows rules a human wrote. A machine-learning model <strong>writes its own rules from the data</strong>, and nobody, including its makers, can fully list what they are.</p>
 </section>
 <section id="training-data-features-labels" class="slide level2">
 <h2>Training Data, Features, Labels</h2>
-<p>Three terms carry the whole subject. In <span class="key-term">supervised learning</span>, the system learns from examples that come with the answers attached.</p>
+<p>Old medical software followed rules that experts wrote down. <span class="key-term">Machine learning</span> instead learns from <strong>examples</strong> and writes its own rules, which nobody can fully list. In <span class="key-term">supervised learning</span>, each example comes with the answer attached.</p>
 <table class="caption-top">
 <colgroup>
 <col style="width: 33%">
@@ -267,125 +271,114 @@ Brendan Shea, PhD
 </tr>
 </tbody>
 </table>
-<p>Once trained, the model takes the features of a <strong>new</strong> case — your aunt’s mole — and predicts its label.</p>
-</section>
-<section id="the-label-is-the-boss" class="slide level2">
-<h2>The Label Is the Boss</h2>
-<p>During training, the model adjusts millions of internal settings with a single goal: <strong>predict the label</strong>. That goal sounds harmless, but it has a sharp edge.</p>
-<ul>
-<li>The model learns <em>whatever pattern</em> in the features predicts the label — it has no idea which patterns are medicine and which are habit.</li>
-<li>Ink markings predict the label “malignant.” So the model learns ink.</li>
-<li>Nobody chose that. Nobody banned it either, because nobody knew it was happening.</li>
-</ul>
-<p>The model is a ruthless shortcut-finder. The shortcuts are invisible until someone goes looking.</p>
-</section>
-<section id="where-medical-training-data-comes-from" class="slide level2">
-<h2>Where Medical Training Data Comes From</h2>
-<div class="context-box">
-<p><strong>Nobody collected this data to teach machines medicine</strong></p>
-<p>Medical AI is mostly trained on data that already existed for other reasons: <strong>electronic health records</strong> (written for documentation and billing), <strong>insurance claims</strong> (written to get paid), and <strong>imaging archives</strong> (filed for clinical use). Each carries the fingerprints of its original purpose — what got coded, who got tested, which patients showed up at all. A model trained on this data learns the medicine <em>and</em> the fingerprints, with no way to tell them apart.</p>
-</div>
+<p><strong>The label is the boss.</strong> The model learns <em>whatever</em> predicts the label. Ink predicts “malignant,” so it learns ink.</p>
 </section>
 <section id="from-training-to-the-bedside" class="slide level2">
 <h2>From Training to the Bedside</h2>
-<div class="cell" data-fig-width="9.5" data-layout-align="default">
+<div class="cell" data-fig-width="10" data-fig-height="2.1" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class=""><p></p>
 <div>
-<svg width="912" height="480" viewbox="0.00 0.00 818.85 125.00" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
-<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 121)">
+<svg width="960" height="202" viewbox="0.00 0.00 700.62 115.40" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 111.4)">
 <title>pipeline</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-121 814.85,-121 814.85,4 -4,4"></polygon>
 <!-- collect -->
 <g id="node1" class="node">
 <title>collect</title>
-<path fill="#eef3fa" stroke="black" d="M245.2,-36C245.2,-36 179.33,-36 179.33,-36 173.33,-36 167.33,-30 167.33,-24 167.33,-24 167.33,-12 167.33,-12 167.33,-6 173.33,0 179.33,0 179.33,0 245.2,0 245.2,0 251.2,0 257.2,-6 257.2,-12 257.2,-12 257.2,-24 257.2,-24 257.2,-30 251.2,-36 245.2,-36"></path>
-<text text-anchor="middle" x="212.27" y="-13.8" font-family="Helvetica,sans-Serif" font-size="14.00">Collect data</text>
+<path fill="#e6f1f2" stroke="#0e7c86" d="M147.7,-107.4C147.7,-107.4 66.15,-107.4 66.15,-107.4 60.15,-107.4 54.15,-101.4 54.15,-95.4 54.15,-95.4 54.15,-76.4 54.15,-76.4 54.15,-70.4 60.15,-64.4 66.15,-64.4 66.15,-64.4 147.7,-64.4 147.7,-64.4 153.7,-64.4 159.7,-70.4 159.7,-76.4 159.7,-76.4 159.7,-95.4 159.7,-95.4 159.7,-101.4 153.7,-107.4 147.7,-107.4"></path>
+<text text-anchor="middle" x="106.93" y="-80.8" font-family="Helvetica,sans-Serif" font-size="17.00">Collect data</text>
 </g>
 <!-- label_ -->
 <g id="node2" class="node">
 <title>label_</title>
-<path fill="#eef3fa" stroke="black" d="M386.36,-63C386.36,-63 314.04,-63 314.04,-63 308.04,-63 302.04,-57 302.04,-51 302.04,-51 302.04,-39 302.04,-39 302.04,-33 308.04,-27 314.04,-27 314.04,-27 386.36,-27 386.36,-27 392.36,-27 398.36,-33 398.36,-39 398.36,-39 398.36,-51 398.36,-51 398.36,-57 392.36,-63 386.36,-63"></path>
-<text text-anchor="middle" x="350.2" y="-40.8" font-family="Helvetica,sans-Serif" font-size="14.00">Attach labels</text>
+<path fill="#e6f1f2" stroke="#0e7c86" d="M292.76,-107.4C292.76,-107.4 203.09,-107.4 203.09,-107.4 197.09,-107.4 191.09,-101.4 191.09,-95.4 191.09,-95.4 191.09,-76.4 191.09,-76.4 191.09,-70.4 197.09,-64.4 203.09,-64.4 203.09,-64.4 292.76,-64.4 292.76,-64.4 298.76,-64.4 304.76,-70.4 304.76,-76.4 304.76,-76.4 304.76,-95.4 304.76,-95.4 304.76,-101.4 298.76,-107.4 292.76,-107.4"></path>
+<text text-anchor="middle" x="247.93" y="-80.8" font-family="Helvetica,sans-Serif" font-size="17.00">Attach labels</text>
 </g>
 <!-- collect&#45;&gt;label_ -->
 <g id="edge1" class="edge">
 <title>collect-&gt;label_</title>
-<path fill="none" stroke="black" d="M257.4,-26.77C268.43,-28.96 280.43,-31.34 291.99,-33.64"></path>
-<polygon fill="black" stroke="black" points="291.52,-37.11 302.01,-35.63 292.88,-30.25 291.52,-37.11"></polygon>
-</g>
-<!-- train -->
-<g id="node3" class="node">
-<title>train</title>
-<path fill="#eef3fa" stroke="black" d="M512.16,-63C512.16,-63 446.32,-63 446.32,-63 440.32,-63 434.32,-57 434.32,-51 434.32,-51 434.32,-39 434.32,-39 434.32,-33 440.32,-27 446.32,-27 446.32,-27 512.16,-27 512.16,-27 518.16,-27 524.16,-33 524.16,-39 524.16,-39 524.16,-51 524.16,-51 524.16,-57 518.16,-63 512.16,-63"></path>
-<text text-anchor="middle" x="479.24" y="-40.8" font-family="Helvetica,sans-Serif" font-size="14.00">Train model</text>
-</g>
-<!-- label_&#45;&gt;train -->
-<g id="edge2" class="edge">
-<title>label_-&gt;train</title>
-<path fill="none" stroke="black" d="M398.51,-45C406.83,-45 415.56,-45 424.05,-45"></path>
-<polygon fill="black" stroke="black" points="424.26,-48.5 434.26,-45 424.26,-41.5 424.26,-48.5"></polygon>
-</g>
-<!-- validate -->
-<g id="node4" class="node">
-<title>validate</title>
-<path fill="#eef3fa" stroke="black" d="M633.93,-63C633.93,-63 591.74,-63 591.74,-63 585.74,-63 579.74,-57 579.74,-51 579.74,-51 579.74,-39 579.74,-39 579.74,-33 585.74,-27 591.74,-27 591.74,-27 633.93,-27 633.93,-27 639.93,-27 645.93,-33 645.93,-39 645.93,-39 645.93,-51 645.93,-51 645.93,-57 639.93,-63 633.93,-63"></path>
-<text text-anchor="middle" x="612.84" y="-40.8" font-family="Helvetica,sans-Serif" font-size="14.00">Validate</text>
-</g>
-<!-- train&#45;&gt;validate -->
-<g id="edge3" class="edge">
-<title>train-&gt;validate</title>
-<path fill="none" stroke="black" d="M524.43,-45C538.97,-45 555.09,-45 569.49,-45"></path>
-<polygon fill="black" stroke="black" points="569.63,-48.5 579.63,-45 569.63,-41.5 569.63,-48.5"></polygon>
-</g>
-<!-- deploy -->
-<g id="node5" class="node">
-<title>deploy</title>
-<path fill="#eef3fa" stroke="black" d="M799.04,-90C799.04,-90 713.29,-90 713.29,-90 707.29,-90 701.29,-84 701.29,-78 701.29,-78 701.29,-66 701.29,-66 701.29,-60 707.29,-54 713.29,-54 713.29,-54 799.04,-54 799.04,-54 805.04,-54 811.04,-60 811.04,-66 811.04,-66 811.04,-78 811.04,-78 811.04,-84 805.04,-90 799.04,-90"></path>
-<text text-anchor="middle" x="756.16" y="-67.8" font-family="Helvetica,sans-Serif" font-size="14.00">Deploy in clinic</text>
-</g>
-<!-- validate&#45;&gt;deploy -->
-<g id="edge4" class="edge">
-<title>validate-&gt;deploy</title>
-<path fill="none" stroke="black" d="M646.26,-51.19C659.63,-53.75 675.61,-56.8 691.16,-59.77"></path>
-<polygon fill="black" stroke="black" points="690.81,-63.27 701.29,-61.71 692.12,-56.39 690.81,-63.27"></polygon>
+<path fill="none" stroke="#6b7280" stroke-width="1.6" d="M159.8,-85.9C166.82,-85.9 173.83,-85.9 180.85,-85.9"></path>
+<polygon fill="#6b7280" stroke="#6b7280" stroke-width="1.6" points="191.13,-85.9 181.13,-90.4 186.13,-86.2 181.13,-86.2 181.13,-85.9 181.13,-85.6 186.13,-85.6 181.13,-81.4 191.13,-85.9 191.13,-85.9"></polygon>
 </g>
 <!-- f1 -->
 <g id="node6" class="node">
 <title>f1</title>
-<path fill="transparent" stroke="transparent" d="M110.61,-36C110.61,-36 11.8,-36 11.8,-36 5.8,-36 -0.2,-30 -0.2,-24 -0.2,-24 -0.2,-12 -0.2,-12 -0.2,-6 5.8,0 11.8,0 11.8,0 110.61,0 110.61,0 116.61,0 122.61,-6 122.61,-12 122.61,-12 122.61,-24 122.61,-24 122.61,-30 116.61,-36 110.61,-36"></path>
-<text text-anchor="middle" x="61.2" y="-21.3" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">Failure 1:</text>
-<text text-anchor="middle" x="61.2" y="-8.1" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">unrepresentative data</text>
+<text text-anchor="middle" x="88.93" y="-28" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#c0392b">Door 1: who's</text>
+<text text-anchor="middle" x="88.93" y="-8.8" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#c0392b">missing from the data?</text>
 </g>
-<!-- f1&#45;&gt;collect -->
+<!-- collect&#45;&gt;f1 -->
 <g id="edge5" class="edge">
-<title>f1-&gt;collect</title>
-<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M122.83,-18C137.66,-18 153.26,-18 167.15,-18"></path>
+<title>collect-&gt;f1</title>
+<path fill="none" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="5,2" d="M100.83,-64.35C99.16,-58.71 97.34,-52.56 95.63,-46.81"></path>
+</g>
+<!-- train -->
+<g id="node3" class="node">
+<title>train</title>
+<path fill="#e6f1f2" stroke="#0e7c86" d="M423.68,-107.4C423.68,-107.4 342.17,-107.4 342.17,-107.4 336.17,-107.4 330.17,-101.4 330.17,-95.4 330.17,-95.4 330.17,-76.4 330.17,-76.4 330.17,-70.4 336.17,-64.4 342.17,-64.4 342.17,-64.4 423.68,-64.4 423.68,-64.4 429.68,-64.4 435.68,-70.4 435.68,-76.4 435.68,-76.4 435.68,-95.4 435.68,-95.4 435.68,-101.4 429.68,-107.4 423.68,-107.4"></path>
+<text text-anchor="middle" x="382.93" y="-80.8" font-family="Helvetica,sans-Serif" font-size="17.00">Train model</text>
+</g>
+<!-- label_&#45;&gt;train -->
+<g id="edge2" class="edge">
+<title>label_-&gt;train</title>
+<path fill="none" stroke="#6b7280" stroke-width="1.6" d="M304.62,-85.9C309.64,-85.9 314.67,-85.9 319.69,-85.9"></path>
+<polygon fill="#6b7280" stroke="#6b7280" stroke-width="1.6" points="330,-85.9 320.01,-90.4 325,-86.2 320,-86.2 320,-85.9 320,-85.6 325,-85.6 320,-81.4 330,-85.9 330,-85.9"></polygon>
 </g>
 <!-- f2 -->
 <g id="node7" class="node">
 <title>f2</title>
-<path fill="transparent" stroke="transparent" d="M253.98,-90C253.98,-90 170.55,-90 170.55,-90 164.55,-90 158.55,-84 158.55,-78 158.55,-78 158.55,-66 158.55,-66 158.55,-60 164.55,-54 170.55,-54 170.55,-54 253.98,-54 253.98,-54 259.98,-54 265.98,-60 265.98,-66 265.98,-66 265.98,-78 265.98,-78 265.98,-84 259.98,-90 253.98,-90"></path>
-<text text-anchor="middle" x="212.27" y="-75.3" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">Failure 2:</text>
-<text text-anchor="middle" x="212.27" y="-62.1" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">the label is a proxy</text>
+<text text-anchor="middle" x="260.93" y="-28" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#c0392b">Door 2: is the</text>
+<text text-anchor="middle" x="260.93" y="-8.8" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#c0392b">label a proxy?</text>
 </g>
-<!-- f2&#45;&gt;label_ -->
+<!-- label_&#45;&gt;f2 -->
 <g id="edge6" class="edge">
-<title>f2-&gt;label_</title>
-<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M266.21,-61.48C277.99,-59.14 290.4,-56.68 301.94,-54.39"></path>
+<title>label_-&gt;f2</title>
+<path fill="none" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="5,2" d="M252.33,-64.35C253.54,-58.71 254.85,-52.56 256.08,-46.81"></path>
 </g>
-<!-- f3 -->
+<!-- validate -->
+<g id="node4" class="node">
+<title>validate</title>
+<path fill="#e6f1f2" stroke="#0e7c86" d="M526.86,-107.4C526.86,-107.4 472.99,-107.4 472.99,-107.4 466.99,-107.4 460.99,-101.4 460.99,-95.4 460.99,-95.4 460.99,-76.4 460.99,-76.4 460.99,-70.4 466.99,-64.4 472.99,-64.4 472.99,-64.4 526.86,-64.4 526.86,-64.4 532.86,-64.4 538.86,-70.4 538.86,-76.4 538.86,-76.4 538.86,-95.4 538.86,-95.4 538.86,-101.4 532.86,-107.4 526.86,-107.4"></path>
+<text text-anchor="middle" x="499.93" y="-80.8" font-family="Helvetica,sans-Serif" font-size="17.00">Validate</text>
+</g>
+<!-- train&#45;&gt;validate -->
+<g id="edge3" class="edge">
+<title>train-&gt;validate</title>
+<path fill="none" stroke="#6b7280" stroke-width="1.6" d="M435.94,-85.9C440.89,-85.9 445.83,-85.9 450.78,-85.9"></path>
+<polygon fill="#6b7280" stroke="#6b7280" stroke-width="1.6" points="460.94,-85.9 450.94,-90.4 455.94,-86.2 450.94,-86.2 450.94,-85.9 450.94,-85.6 455.94,-85.6 450.94,-81.4 460.94,-85.9 460.94,-85.9"></polygon>
+</g>
+<!-- x1 -->
 <g id="node8" class="node">
-<title>f3</title>
-<path fill="transparent" stroke="transparent" d="M653.62,-117C653.62,-117 572.06,-117 572.06,-117 566.06,-117 560.06,-111 560.06,-105 560.06,-105 560.06,-93 560.06,-93 560.06,-87 566.06,-81 572.06,-81 572.06,-81 653.62,-81 653.62,-81 659.62,-81 665.62,-87 665.62,-93 665.62,-93 665.62,-105 665.62,-105 665.62,-111 659.62,-117 653.62,-117"></path>
-<text text-anchor="middle" x="612.84" y="-102.3" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">Failure 3:</text>
-<text text-anchor="middle" x="612.84" y="-89.1" font-family="Helvetica,sans-Serif" font-size="11.00" fill="#000000">the world changes</text>
+<title>x1</title>
 </g>
-<!-- f3&#45;&gt;deploy -->
+<!-- train&#45;&gt;x1 -->
+<!-- deploy -->
+<g id="node5" class="node">
+<title>deploy</title>
+<path fill="#e6f1f2" stroke="#0e7c86" d="M680.81,-107.4C680.81,-107.4 575.04,-107.4 575.04,-107.4 569.04,-107.4 563.04,-101.4 563.04,-95.4 563.04,-95.4 563.04,-76.4 563.04,-76.4 563.04,-70.4 569.04,-64.4 575.04,-64.4 575.04,-64.4 680.81,-64.4 680.81,-64.4 686.81,-64.4 692.81,-70.4 692.81,-76.4 692.81,-76.4 692.81,-95.4 692.81,-95.4 692.81,-101.4 686.81,-107.4 680.81,-107.4"></path>
+<text text-anchor="middle" x="627.93" y="-80.8" font-family="Helvetica,sans-Serif" font-size="17.00">Deploy in clinic</text>
+</g>
+<!-- validate&#45;&gt;deploy -->
+<g id="edge4" class="edge">
+<title>validate-&gt;deploy</title>
+<path fill="none" stroke="#6b7280" stroke-width="1.6" d="M538.93,-85.9C543.55,-85.9 548.17,-85.9 552.79,-85.9"></path>
+<polygon fill="#6b7280" stroke="#6b7280" stroke-width="1.6" points="562.91,-85.9 552.91,-90.4 557.91,-86.2 552.91,-86.2 552.91,-85.9 552.91,-85.6 557.91,-85.6 552.91,-81.4 562.91,-85.9 562.91,-85.9"></polygon>
+</g>
+<!-- x2 -->
+<g id="node9" class="node">
+<title>x2</title>
+</g>
+<!-- validate&#45;&gt;x2 -->
+<!-- f3 -->
+<g id="node10" class="node">
+<title>f3</title>
+<text text-anchor="middle" x="627.93" y="-28" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#c0392b">Door 3: has the</text>
+<text text-anchor="middle" x="627.93" y="-8.8" font-family="Helvetica,sans-Serif" font-size="16.00" fill="#c0392b">world changed?</text>
+</g>
+<!-- deploy&#45;&gt;f3 -->
 <g id="edge7" class="edge">
-<title>f3-&gt;deploy</title>
-<path fill="none" stroke="#000000" stroke-dasharray="5,2" d="M665.66,-89.1C677.32,-86.87 689.72,-84.5 701.45,-82.26"></path>
+<title>deploy-&gt;f3</title>
+<path fill="none" stroke="#c0392b" stroke-width="1.6" stroke-dasharray="5,2" d="M627.93,-64.35C627.93,-58.71 627.93,-52.56 627.93,-46.81"></path>
 </g>
 </g>
 </svg>
@@ -394,122 +387,53 @@ Brendan Shea, PhD
 </div>
 </div>
 </div>
-<p>Every major failure of medical AI on record traces back to one of these three marked points.</p>
-</section>
-<section id="the-question-to-carry" class="slide level2">
-<h2>The Question to Carry</h2>
-<p>We will score every system today on the same small card — our version of a running scoreboard.</p>
-<table class="caption-top">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th></th>
-<th>The skin-check app</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Trained to do</strong></td>
-<td>predict which <em>photos</em> got the label “malignant”</td>
-</tr>
-<tr class="even">
-<td><strong>Used to do</strong></td>
-<td>tell your aunt whether her <em>mole</em> is cancer</td>
-</tr>
-<tr class="odd">
-<td><strong>The gap</strong></td>
-<td>the photographer’s worry — ink, rulers, framing — rides along with the disease</td>
-</tr>
-</tbody>
-</table>
-<p>When the trained task and the clinical task match, the model can be genuinely excellent. When they quietly diverge, accurate models start producing harmful care.</p>
-</section>
-<section id="why-a-stanford-model-stumbles-in-rural-minnesota" class="slide level2">
-<h2>Why a Stanford Model Stumbles in Rural Minnesota</h2>
-<div class="columns">
-<div class="column" style="width:52%;">
-<p><span class="key-term">Distribution shift</span> is the first failure point: the model meets a world that no longer resembles its training data.</p>
 <ul>
-<li>Different <strong>scanners and cameras</strong> produce systematically different images.</li>
-<li>Different <strong>populations</strong> carry different ages, skin tones, and disease rates.</li>
-<li>Different <strong>workflows</strong> order different tests at different times.</li>
+<li>Medical AI learns mostly from data collected for other reasons (billing records, insurance claims, imaging archives), so it learns those habits along with the medicine.</li>
+<li>No engineer writes “if patient is Black, score lower.” Bias walks in through these <strong>three doors</strong>, and every major failure on record traces back to one of them.</li>
 </ul>
-</div><div class="column" style="width:44%;">
-<div class="callout callout-important callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Important</strong></p>
-</div>
-<div class="callout-content">
-<p><strong>The portable X-ray tell</strong></p>
-<p>One study found chest X-ray models partly “diagnosing” pneumonia by detecting <strong>which hospital and machine</strong> took the film — portable scanners are used on sicker patients, and the model learned the scanner, not just the lungs. The model didn’t get worse when it traveled. The world stopped matching its textbook.</p>
+</section>
+<section id="door-1-the-missing-patients" class="slide level2">
+<h2>Door 1: The Missing Patients</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p>A 2022 review counted the photos in <strong>21 public skin-cancer datasets</strong>. Only 2.1% recorded skin type, and just <strong>11 images</strong> showed the two darkest skin types <span class="citation" data-cites="wen2022">(<a href="#/references" role="doc-biblioref" onclick="">Wen et al. 2022</a>)</span>.</p>
+<p>Melanoma is already caught later in Black patients, whose five-year survival is about <strong>25 points lower</strong> (70% vs.&nbsp;95%) <span class="citation" data-cites="acs2026">(<a href="#/references" role="doc-biblioref" onclick="">American Cancer Society 2026</a>)</span>. A tool that fails here widens the gap, and the harm is locked in <strong>at data collection</strong>.</p>
+</div><div class="column" style="width:52%;">
+<div id="e054d715" class="cell" data-execution_count="2">
+<div class="cell-output cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="10a-medical-ai_files/figure-revealjs/cell-3-output-1.png" width="457" height="298"></p>
+<figcaption>Images in 21 public skin-cancer datasets (Wen et al.&nbsp;2022). The darkest skin types are too few to see at this scale.</figcaption>
+</figure>
 </div>
 </div>
 </div>
 </div></div>
 </section>
-<section id="what-the-model-sees" class="slide level2">
-<h2>What the Model Sees</h2>
-
-<img data-src="../images/chest_xray.jpg" style="width:44.0%" alt="A normal posteroanterior chest radiograph showing the lungs, heart, and ribcage" class="r-stretch"><div class="attribution">
+<section id="door-3-the-world-moves-on" class="slide level2">
+<h2>Door 3: The World Moves On</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p>A trained model is <strong>frozen</strong>: a snapshot of its training data, asked to govern the present.</p>
+<ul>
+<li><span class="key-term">Distribution shift</span>: a new hospital means new scanners, patients, and workflows. Chest X-ray models partly “diagnosed” pneumonia by spotting <strong>which machine took the film</strong>, since portable scanners are used on sicker patients.</li>
+<li><span class="key-term">Deployment drift</span>: the world changes and the model doesn’t. Models trained on 2019 patients broke when COVID arrived.</li>
+</ul>
+</div><div class="column" style="width:40%;">
+<p><img data-src="../images/chest_xray.jpg" style="width:85.0%" alt="A normal posteroanterior chest radiograph showing the lungs, heart, and ribcage"></p>
+<div class="attribution">
 <p>Mikael Haggstrom, via Wikimedia Commons. CC0 1.0.</p>
 </div>
-<p>You read this film for the lungs. The model reads every pixel — including the ones that encode which machine took it, and therefore how sick the patient already was.</p>
+</div></div>
+<div class="aside-note">
+<p>Door 2, the proxy label, gets its own section below: it is the door the cost algorithm walked through.</p>
+</div>
 </section></section>
 <section>
 <section id="three-kinds-of-medical-ai" class="title-slide slide level1 section-divider center">
 <h1>Three Kinds of Medical AI</h1>
 
-</section>
-<section id="diagnostic-ai-the-machine-that-looks" class="slide level2">
-<h2>Diagnostic AI: The Machine That Looks</h2>
-<p>The most mature kind of medical AI <strong>classifies images</strong>: radiology scans, skin photographs, pathology slides, retinal images.</p>
-<ul>
-<li>The FDA has authorized over <strong>1,500 AI-enabled medical devices</strong> (as of early 2026), roughly three-quarters of them in radiology — a figure that has been rising by scores per quarter.</li>
-<li>The first <strong>autonomous</strong> diagnostic system (no physician reads the image) was cleared in 2018 for diabetic eye disease screening.</li>
-<li>Headlines say these systems perform “at expert level” — which is true <strong>on test images resembling their training data</strong>. The ink-marking study shows what that qualifier hides.</li>
-</ul>
-</section>
-<section id="predictive-ai-the-machine-that-warns" class="slide level2">
-<h2>Predictive AI: The Machine That Warns</h2>
-<p>The second kind doesn’t look at images — it watches <strong>the chart</strong>. Risk-scoring models run silently inside the electronic health record, recalculating as new vitals and labs arrive.</p>
-<ul>
-<li>Common targets: <strong>sepsis</strong>, clinical <strong>deterioration</strong>, 30-day <strong>readmission</strong>, falls.</li>
-<li>You will not choose to use these systems; they come bundled with the EHR, and they page <em>you</em>. Every nurse on a med-surg floor works under a deterioration score.</li>
-<li>Their signature failures are different from diagnostic AI’s: <strong>proxy labels</strong> (what exactly counts as “sepsis” in the training data?) and <strong>alert burden</strong> — both starring in our second case study.</li>
-</ul>
-</section>
-<section id="generative-ai-the-machine-that-talks" class="slide level2">
-<h2>Generative AI: The Machine That Talks</h2>
-<div class="context-box">
-<p><strong>What a large language model is</strong></p>
-<p>A <span class="key-term">large language model</span> (LLM) — the technology behind ChatGPT and its rivals — is trained on enormous amounts of text to do one thing: <strong>predict the next word</strong>. Do that well enough, at large enough scale, and the model can draft essays, summarize charts, and hold a fluent conversation. But its output is always a <em>plausible continuation of the text so far</em> — not a fact retrieved from a database, and not a claim it checked against the world.</p>
-</div>
-<p>Patients ask LLMs about symptoms and medications every day. Hospitals now use them to draft visit notes and patient messages. This is the kind of AI your patients — and you — already touch.</p>
-</section>
-<section id="why-fluent-and-wrong-go-together" class="slide level2">
-<h2>Why Fluent and Wrong Go Together</h2>
-<p>A radiology model that fails gives a wrong score. A language model that fails gives you <strong>a confident, articulate, well-organized wrong answer</strong> — because producing convincing text is the one thing it was trained to do.</p>
-<ul>
-<li><span class="key-term">Hallucination</span> is the industry’s term for generated content that is fluent, specific, and false: an invented drug interaction, a fabricated study, a wrong dose stated warmly.</li>
-<li>It is not a bug awaiting a patch. The model that writes a beautiful, accurate discharge summary and the model that invents a citation are <strong>the same model, doing the same thing</strong> — continuing text plausibly.</li>
-<li>Most of the time, the most plausible continuation is true. “Most of the time” is a frightening phrase in a medication question.</li>
-</ul>
-</section>
-<section id="sycophancy-the-agreeable-machine" class="slide level2">
-<h2>Sycophancy: The Agreeable Machine</h2>
-<p>LLMs are fine-tuned on <strong>human feedback</strong> — people rate which answers they like. People, it turns out, like being agreed with.</p>
-<ul>
-<li>The result is <span class="key-term">sycophancy</span>: a learned tendency to tell the user what they seem to want to hear.</li>
-<li>Researchers have shown that chatbots will <strong>abandon a correct medical answer</strong> when the user simply pushes back (“are you sure? I read that it’s fine”).</li>
-<li>A patient fishing for reassurance can usually catch some. Your aunt doesn’t want to hear “see a dermatologist.” The model can feel that.</li>
-</ul>
 </section>
 <section id="three-machines-three-signature-failures" class="slide level2">
 <h2>Three Machines, Three Signature Failures</h2>
@@ -550,26 +474,54 @@ Brendan Shea, PhD
 <tr class="even">
 <td>Signature failure</td>
 <td><strong>distribution shift</strong></td>
-<td><strong>proxy labels, alert burden</strong></td>
+<td><strong>proxy labels, alert fatigue</strong></td>
 <td><strong>hallucination, sycophancy</strong></td>
-</tr>
-<tr class="odd">
-<td>Checked how?</td>
-<td>test images, reader studies</td>
-<td>accuracy stats (AUC, PPV)</td>
-<td>…this is an open problem</td>
 </tr>
 </tbody>
 </table>
-<p>One question diagnoses all three columns: <em>what was it trained to do, and is that what we’re using it for?</em></p>
+<p>The FDA has authorized over <strong>1,500 AI-enabled devices</strong> (early 2026), mostly diagnostic and mostly in radiology. Predictive scores come bundled with the health record, and they page <em>you</em>. Generative AI is the kind your patients already use.</p>
+</section>
+<section id="how-a-chatbot-writes" class="slide level2">
+<h2>How a Chatbot Writes</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>A <span class="key-term">large language model</span> (LLM), the technology behind ChatGPT and its rivals, is trained on enormous amounts of text to do one thing: <strong>predict the next word</strong>.</p>
+<p>Do that well enough and it can draft notes and hold a fluent conversation. But each answer is a <em>plausible continuation</em> of the text so far. It is not a fact looked up in a database, and not a claim checked against the world.</p>
+</div><div class="column" style="width:50%;">
+<div id="ff540280" class="cell" data-execution_count="3">
+<div class="cell-output cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="10a-medical-ai_files/figure-revealjs/cell-4-output-1.png" width="464" height="306"></p>
+<figcaption>Illustration, not real model output: the model scores possible next words and picks a likely one.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div></div>
+</section>
+<section id="fluent-and-wrong-agreeable-and-wrong" class="slide level2">
+<h2>Fluent and Wrong, Agreeable and Wrong</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><strong>Hallucination</strong></p>
+<p>A failed language model gives <strong>a confident, well-organized wrong answer</strong>, because convincing text is what it was trained to produce.</p>
+<p><span class="key-term">Hallucination</span> is content that is fluent, specific, and false: an invented drug interaction, a fabricated study. It is not a bug awaiting a patch: the same process writes the accurate summary and the invented citation.</p>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<p><strong>Sycophancy</strong></p>
+<p>LLMs are fine-tuned on <strong>human ratings</strong> of their answers, and people like being agreed with.</p>
+<p>The result is <span class="key-term">sycophancy</span>: a learned tendency to tell users what they want to hear. Chatbots have been shown <strong>abandoning a correct medical answer</strong> when the user simply pushes back: “Are you sure? I read that it’s fine.”</p>
+</div></div>
 </section>
 <section id="thought-question" class="slide level2 scrollable">
 <h2>Thought Question</h2>
 <div class="thought-question">
-<p>You are charting at 2 a.m. A patient newly started on an <strong>anticoagulant</strong> shows you her tablet: she asked a chatbot whether the drug is safe with her <strong>turmeric supplements</strong>, and it gave a confident, detailed, friendly answer — with mechanisms and percentages.</p>
+<p>You are charting at 2 a.m. A patient newly started on an <strong>anticoagulant</strong> shows you her tablet: she asked a chatbot whether the drug is safe with her <strong>turmeric supplements</strong>, and it gave a confident, detailed, friendly answer, with mechanisms and percentages.</p>
 <ol type="1">
 <li>What, concretely, would you do before letting that answer stand?</li>
-<li>Does it matter that the answer <em>sounds</em> exactly like a pharmacist? What is the sound of expertise actually evidence for, here?</li>
+<li>Does it matter that the answer <em>sounds</em> exactly like a pharmacist? What is the sound of expertise actually evidence for here?</li>
 <li>She trusts the chatbot more than the pharmacy’s printout because “it answered <em>my</em> question about <em>my</em> situation.” Is she making a mistake? Name it precisely.</li>
 </ol>
 </div>
@@ -577,11 +529,11 @@ Brendan Shea, PhD
 <section id="make-it-contemporary" class="slide level2">
 <h2>Make It Contemporary</h2>
 <div class="thought-question">
-<p>In 2025, <em>Annals of Internal Medicine: Clinical Cases</em> reported a 60-year-old man who asked a chatbot how to cut <strong>chloride</strong> from his diet. He came away with <strong>sodium bromide</strong> as a substitute for table salt — a chemical swap that is sensible in a chemistry lab and poisonous at the dinner table. After about three months he arrived at an emergency department psychotic, convinced his neighbor was poisoning him. The diagnosis was <strong>bromism</strong> — a toxidrome so old it mostly vanished with 1970s sedatives <span class="citation" data-cites="eichenberger2025">(<a href="#/references" role="doc-biblioref" onclick="">Eichenberger et al. 2025</a>)</span>.</p>
-<p>The answer he got was fluent, specific, and responsive to exactly the question he asked. Where in our three-word vocabulary — data, features, <strong>labels</strong> — did this disaster live?</p>
+<p>In 2025, doctors reported a 60-year-old man who asked a chatbot how to cut <strong>chloride</strong> from his diet. He came away with <strong>sodium bromide</strong> as a substitute for table salt: a sensible swap in a chemistry lab, and poisonous at the dinner table. Three months later he arrived at an emergency department psychotic, convinced his neighbor was poisoning him. The diagnosis was <strong>bromism</strong>, a poisoning so old it had mostly vanished with 1970s sedatives <span class="citation" data-cites="eichenberger2025">(<a href="#/references" role="doc-biblioref" onclick="">Eichenberger et al. 2025</a>)</span>.</p>
+<p>The answer he got was fluent, specific, and responsive to exactly the question he asked. What was the model trained to do, and what was he using it for?</p>
 </div>
 </section>
-<section id="after-youve-discussed-1" class="slide level2">
+<section id="after-youve-discussed" class="slide level2">
 <h2>After You’ve Discussed</h2>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
@@ -592,99 +544,21 @@ Brendan Shea, PhD
 <p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
-<p>The scenario turns on <strong>verification asymmetry</strong>. A true generated answer and a hallucinated one are <em>indistinguishable on the screen</em> — same fluency, same confidence, same formatting. Only checking against the world tells them apart, and the checking takes expertise the asker usually lacks (that’s why they asked).</p>
-<p>Human expertise carries external credentials — a license, a pharmacist behind a counter, malpractice exposure. Generated text carries only its own voice. The bromism patient’s error wasn’t trusting a wrong answer; it was treating <em>fluency</em> as if it were a credential.</p>
+<p>The scenario turns on <strong>verification asymmetry</strong>. A true generated answer and a hallucinated one look <em>identical on the screen</em>: same fluency, same confidence, same formatting. Only checking against the world tells them apart, and checking takes expertise the asker usually lacks (that’s why they asked).</p>
+<p>Human expertise carries outside credentials: a license, a pharmacist behind a counter, liability for mistakes. Generated text carries only its own voice. The bromism patient’s error wasn’t trusting a wrong answer. It was treating <em>fluency</em> as if it were a credential.</p>
 </div>
 </div>
 </div>
-</section></section>
-<section>
-<section id="how-bias-gets-in" class="title-slide slide level1 section-divider center">
-<h1>How Bias Gets In</h1>
-
-</section>
-<section id="bias-isnt-usually-malice" class="slide level2">
-<h2>Bias Isn’t (Usually) Malice</h2>
-<p>No engineer writes <code>if patient is Black: score lower</code>. Algorithmic bias almost always walks in through one of three doors — the three failure points on our pipeline diagram.</p>
-<ul>
-<li><strong>Unrepresentative training data</strong> — the model never properly saw patients like this one.</li>
-<li><strong>Proxy labels</strong> — the label stands in for what we want, and the stand-in is warped.</li>
-<li><strong>Deployment drift</strong> — the world changes; the frozen model doesn’t.</li>
-</ul>
-<p>The data does it wordlessly. That is what makes it hard to see — and easy to deny.</p>
-</section>
-<section id="the-missing-patients" class="slide level2">
-<h2>The Missing Patients</h2>
-<div class="columns">
-<div class="column" style="width:52%;">
-<p>Audits of the public datasets behind skin-cancer AI found that images of <strong>dark skin are a small fraction</strong> of the total — and models trained on them perform measurably worse on darker skin.</p>
-<p>The injustice compounds: melanoma is <em>already</em> caught later in Black patients, with five-year survival roughly <strong>twenty points lower</strong> than for white patients. A tool that underperforms exactly where mortality is worst doesn’t just miss an opportunity — it widens the gap it could have closed.</p>
-</div><div class="column" style="width:44%;">
-<div class="callout callout-important callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Important</strong></p>
-</div>
-<div class="callout-content">
-<p><strong>Justice, before deployment day one</strong></p>
-<p>This failure needs no biased user and no flawed deployment. It is locked in <strong>at data collection</strong>, years before any patient meets the tool. When we ask who is responsible for an algorithm’s harm, remember how early the harm can start.</p>
-</div>
-</div>
-</div>
-</div></div>
-</section>
-<section id="the-proxy-problem" class="slide level2">
-<h2>The Proxy Problem</h2>
-<p>Often the thing you actually care about — <em>how sick is this patient?</em> — <strong>is not a field in any database</strong>. So designers train on a stand-in they can measure.</p>
-<ul>
-<li>Sickness becomes <strong>dollars spent</strong>. Diagnosis becomes <strong>billing codes</strong>. Clinical concern becomes <strong>tests ordered</strong>.</li>
-<li>A <span class="key-term">proxy variable</span> is exactly that stand-in — and the model becomes superb at predicting the proxy, <em>including everything unjust baked into it</em>.</li>
-<li>If less was historically spent on some patients’ care, a cost-trained model reads those patients as healthier. No one has to intend this. The arithmetic does it.</li>
-</ul>
-</section>
-<section id="drift-the-world-moves-on" class="slide level2">
-<h2>Drift: The World Moves On</h2>
-<p>A trained model is <strong>frozen</strong> — a photograph of the world as it looked in its training data, asked to govern the present.</p>
-<ul>
-<li>COVID-19 made this vivid: models trained on 2019 patients met 2020, and their assumptions about fevers, admissions, and baseline risk quietly broke.</li>
-<li>Slower drift is constant: new drugs, new documentation habits, new patient mixes, a new lab vendor with slightly different reference ranges.</li>
-<li><span class="key-term">Deployment drift</span> means a model’s validation report has an expiration date — usually unprinted.</li>
-</ul>
 </section></section>
 <section>
 <section id="the-algorithm-that-read-bills-as-bodies" class="title-slide slide level1 section-divider center">
 <h1>The Algorithm That Read Bills as Bodies</h1>
 
 </section>
-<section id="a-tool-built-to-help" class="slide level2">
-<h2>A Tool Built to Help</h2>
-<p>This case begins with a genuinely good idea, and it matters that you see that. <strong>Care-management programs</strong> give the sickest patients extra support — care coordinators, home visits, help managing five prescriptions at once. They work, and slots are scarce.</p>
-<p>An insurer with millions of members cannot hand-pick who needs help most. So health systems bought an algorithm to rank patients by future health need — one of a class of tools applied to roughly <strong>200 million Americans a year</strong>. Nothing about the goal was sinister; a single design choice undid it.</p>
-</section>
-<section id="the-fatal-design-choice" class="slide level2">
-<h2>The Fatal Design Choice</h2>
-<p>The designers needed a label meaning “how sick will this patient be next year?” — and no such field exists. They chose next year’s <strong>health-care costs</strong>.</p>
-<ul>
-<li>Cost is measurable, objective, and sits right there in the claims data.</li>
-<li>And on average, sicker patients do cost more — the proxy isn’t crazy.</li>
-<li>But cost doesn’t measure sickness. It measures sickness <em>times access, times trust, times whether anyone took your symptoms seriously enough to order the test</em>.</li>
-</ul>
-<p>The model was now being trained to answer a different question than the one everyone thought it answered.</p>
-</section>
-<section id="what-obermeyer-found" class="slide level2">
-<h2>What Obermeyer Found</h2>
-<p>In 2019, Ziad Obermeyer and colleagues got rare access to one large hospital’s data — the algorithm’s scores <em>plus</em> the patients’ actual health <span class="citation" data-cites="obermeyer2019">(<a href="#/references" role="doc-biblioref" onclick="">Obermeyer et al. 2019</a>)</span>.</p>
-<ul>
-<li>At the <strong>same risk score</strong>, Black patients were substantially sicker than white patients — carrying about <strong>26% more chronic conditions</strong>.</li>
-<li>The algorithm was deciding who got extra care. Fixing the bias would have raised the share of Black patients flagged for help from <strong>17.7% to 46.5%</strong>.</li>
-<li>The mechanism was exactly the proxy: historically, <strong>less money had been spent</strong> on equally sick Black patients. So the model read them as healthier.</li>
-</ul>
-</section>
-<section id="trained-vs.-used-the-cost-algorithm" class="slide level2">
-<h2>Trained vs.&nbsp;Used: The Cost Algorithm</h2>
+<section id="door-2-the-proxy-problem" class="slide level2">
+<h2>Door 2: The Proxy Problem</h2>
+<p><strong>Care-management programs</strong> give the sickest patients extra help, and slots are scarce. Health systems bought an algorithm to rank patients by future need: one of a class of tools applied to about <strong>200 million Americans a year</strong>.</p>
+<p>But “how sick is this patient?” is not a field in any database. So the designers trained on a <span class="key-term">proxy variable</span>: next year’s <strong>costs</strong>.</p>
 <table class="caption-top">
 <colgroup>
 <col style="width: 50%">
@@ -707,31 +581,35 @@ Brendan Shea, PhD
 </tr>
 <tr class="odd">
 <td><strong>The gap</strong></td>
-<td>every dollar of unequal access, distrust, and undertreatment in the historical spending record</td>
+<td>cost measures sickness <em>times</em> access, trust, and whether anyone took your symptoms seriously</td>
 </tr>
 </tbody>
 </table>
-<p>The skin app’s gap was a photographer’s habit. This gap was <strong>the medical history of American inequality</strong>, compressed into a label.</p>
 </section>
-<section id="why-no-one-saw-it" class="slide level2">
-<h2>Why No One Saw It</h2>
-<p>Here is the uncomfortable part: the algorithm was <strong>accurate</strong>. At its trained task — predicting cost — it performed well for Black and white patients alike. Every internal quality check passed.</p>
+<section id="what-obermeyer-found" class="slide level2">
+<h2>What Obermeyer Found</h2>
+<div class="columns">
+<div class="column" style="width:52%;">
+<p>In 2019, Ziad Obermeyer’s team compared the scores with patients’ actual health <span class="citation" data-cites="obermeyer2019">(<a href="#/references" role="doc-biblioref" onclick="">Obermeyer et al. 2019</a>)</span>.</p>
 <ul>
-<li>The checks were calibrated against <strong>cost</strong> — the very proxy carrying the bias. The yardstick and the flaw were the same object.</li>
-<li>Race wasn’t even an input; the developers had excluded it deliberately, believing that made the tool fair.</li>
-<li>It took outsiders with <strong>independent data</strong> — researchers who could compare scores against actual health, not predicted spending — to see it.</li>
+<li>At the <strong>same score</strong>, Black patients were sicker. Less had been spent on equally sick Black patients, so the model read them as healthier.</li>
+<li>Every internal check passed, because the checks measured <strong>cost</strong>. Race was not even an input.</li>
+<li>A label closer to actual health removed about <strong>84%</strong> of the bias.</li>
 </ul>
-<p>You cannot audit your way out of a proxy problem with the proxy.</p>
-</section>
-<section id="what-happened-after" class="slide level2">
-<h2>What Happened After</h2>
-<p>The study landed in <em>Science</em> in October 2019, and the response was fast.</p>
-<ul>
-<li>New York’s financial-services and health regulators opened an <strong>investigation</strong> within weeks, warning insurers statewide.</li>
-<li>The researchers worked <em>with</em> the manufacturer rather than just naming and shaming — retraining on a label closer to actual health knocked out roughly <strong>84% of the measured bias</strong>. The fix was that available, once someone looked. &gt; <strong>Paired case:</strong> <a href="../cases/10-optum-algorithm.html">The Optum Algorithm: Racial Bias, Proxy Variables, and Justice in Medical AI</a></li>
-</ul>
+</div><div class="column" style="width:48%;">
+<div id="09672f7d" class="cell" data-execution_count="4">
+<div class="cell-output cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="10a-medical-ai_files/figure-revealjs/cell-5-output-1.png" width="413" height="315"></p>
+<figcaption>Share of patients flagged for extra help who were Black (Obermeyer et al.&nbsp;2019).</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div></div>
 <div class="aside-note">
-<p>Obermeyer’s team never names the product in the paper; press coverage identified it as Optum’s Impact Pro. Don’t cite the paper for the company name. Note too the constructive ending — this is the field’s best example of a bias being found, measured, and substantially repaired.</p>
+<p>Obermeyer’s team never names the product in the paper; press coverage identified it as Optum’s Impact Pro. Don’t cite the paper for the company name. Note too the constructive ending: this is the field’s best example of a bias being found, measured, and substantially repaired.</p>
 </div>
 </section>
 <section id="thought-question-1" class="slide level2 scrollable">
@@ -739,13 +617,13 @@ Brendan Shea, PhD
 <div class="thought-question">
 <p>You are the nursing representative on your hospital’s <strong>purchasing committee</strong>. A vendor is pitching a readmission-risk tool: “<strong>92% accurate</strong>, used by 200 hospitals.” The training data, the features, and the label are all trade secrets.</p>
 <ol type="1">
-<li>Write the three questions you would put to the vendor before signing. (Steal freely from this lecture.)</li>
+<li>Write the three questions you would put to the vendor before signing.</li>
 <li>The CMO says: “200 hospitals can’t be wrong, and we don’t ask drug companies for their formulas.” What’s the flaw in each half of that sentence?</li>
-<li>If the vendor answers none of your questions, is “no purchase” really an option — knowing the status quo is overworked clinicians eyeballing risk?</li>
+<li>If the vendor answers none of your questions, is “no purchase” really an option, knowing the status quo is overworked clinicians eyeballing risk?</li>
 </ol>
 </div>
 </section>
-<section id="after-youve-discussed-2" class="slide level2">
+<section id="after-youve-discussed-1" class="slide level2">
 <h2>After You’ve Discussed</h2>
 <div class="callout callout-note callout-titled callout-style-default">
 <div class="callout-body">
@@ -756,8 +634,8 @@ Brendan Shea, PhD
 <p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
-<p>The committee scenario turns on a distinction we haven’t named: <strong>internal versus external validation</strong>. Internal validation is the vendor grading its own homework — its model, its data, its chosen yardstick. External validation is an independent test, on <em>your</em> patients, against an outcome <em>you</em> care about.</p>
-<p>“92% accurate” is an internal number until proven otherwise. The Obermeyer study was external validation in action — and the Epic Sepsis Model is what happens when a tool used on millions of patients goes years without any.</p>
+<p>The committee scenario turns on a distinction we haven’t named: <strong>internal versus external validation</strong>. Internal validation is the vendor grading its own homework: its model, its data, its chosen yardstick. <span class="key-term">External validation</span> is an independent test, on <em>your</em> patients, against an outcome <em>you</em> care about.</p>
+<p>“92% accurate” is an internal number until proven otherwise. It is the same lesson as the replication crisis in research: a claim is not a finding until someone else checks it. The Obermeyer study was external validation in action, and the next case is what happens when a tool used on millions of patients goes years without any.</p>
 </div>
 </div>
 </div>
@@ -767,23 +645,23 @@ Brendan Shea, PhD
 <h1>The Epic Sepsis Model, in Two Acts</h1>
 
 </section>
-<section id="the-stakes-why-predict-sepsis-at-all" class="slide level2">
-<h2>The Stakes: Why Predict Sepsis at All</h2>
-<div class="context-box">
-<p><strong>Sepsis, in one breath</strong></p>
-<p><span class="key-term">Sepsis</span> is the body’s immune response to infection spiraling into organ damage. About <strong>1.7 million American adults</strong> develop it each year and roughly <strong>350,000 die</strong>. It is treatable — but the window is brutal: every hour of delayed antibiotics measurably raises mortality, and early sepsis can look like a dozen milder things. A reliable early-warning system would save thousands of lives. This is a <em>worthy</em> target.</p>
-</div>
-<p>Epic, whose electronic health record holds the charts of most hospitalized Americans, shipped a sepsis prediction model <strong>bundled into the EHR</strong>. Hundreds of hospitals switched it on.</p>
-</section>
 <section id="act-i-the-outside-test" class="slide level2">
 <h2>Act I: The Outside Test</h2>
-<p>For years, the only performance numbers were <strong>Epic’s own</strong>. In 2021, Andrew Wong and colleagues at Michigan Medicine ran the first large independent test: 27,697 patients, 38,455 hospitalizations <span class="citation" data-cites="wong2021">(<a href="#/references" role="doc-biblioref" onclick="">Wong et al. 2021</a>)</span>.</p>
-<ul>
-<li>Claimed discrimination: AUC 0.76–0.83. Measured: <strong>0.63</strong> — closer to a coin flip than to the brochure.</li>
-<li>At the standard alert threshold, the model <strong>missed two-thirds</strong> of sepsis cases (sensitivity 33%)…</li>
-<li>…while firing alerts on <strong>18% of all hospitalized patients</strong>, with only <strong>12%</strong> of alerts pointing at a patient who actually developed sepsis.</li>
-</ul>
-<p>The hospitals had deployed first and validated never.</p>
+<div class="columns">
+<div class="column" style="width:47%;">
+<p><span class="key-term">Sepsis</span> kills about <strong>350,000</strong> American adults a year. Epic built a sepsis warning into its health record, and hundreds of hospitals switched it on, with only <strong>Epic’s own</strong> numbers to go on.</p>
+<p>In 2021, Andrew Wong’s team ran the first large outside test, on 38,455 hospitalizations <span class="citation" data-cites="wong2021">(<a href="#/references" role="doc-biblioref" onclick="">Wong et al. 2021</a>)</span>. Epic claimed an accuracy score (AUC, where 0.5 is a coin flip) of 0.76–0.83. The test found <strong>0.63</strong>.</p>
+</div><div class="column" style="width:53%;">
+<div id="2370712f" class="cell" data-execution_count="5">
+<div class="cell-output cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="10a-medical-ai_files/figure-revealjs/cell-6-output-1.png" class="quarto-figure quarto-figure-center" width="528" height="356"></p>
+</figure>
+</div>
+</div>
+</div>
+</div></div>
 </section>
 <section id="trained-vs.-used-the-sepsis-alarm" class="slide level2">
 <h2>Trained vs.&nbsp;Used: The Sepsis Alarm</h2>
@@ -795,13 +673,13 @@ Brendan Shea, PhD
 <thead>
 <tr class="header">
 <th></th>
-<th>The Epic Sepsis Model (v1)</th>
+<th>The Epic Sepsis Model (version 1)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><strong>Trained to do</strong></td>
-<td>predict which patients would receive a sepsis <strong>billing code</strong>, using chart signals that often appear only <em>after</em> clinicians already suspect sepsis</td>
+<td>predict which patients would get a sepsis <strong>billing code</strong>, using chart signals that often appear only <em>after</em> clinicians already suspect sepsis</td>
 </tr>
 <tr class="even">
 <td><strong>Used to do</strong></td>
@@ -809,37 +687,23 @@ Brendan Shea, PhD
 </tr>
 <tr class="odd">
 <td><strong>The gap</strong></td>
-<td>the model was best at “predicting” what the team already knew — and weakest exactly when a warning would have mattered</td>
+<td>it was best at “predicting” what the team already knew, and weakest exactly when a warning would have mattered</td>
 </tr>
 </tbody>
 </table>
 <p>A fire alarm that excels at detecting fire trucks.</p>
 </section>
-<section id="external-validation-is-replication" class="slide level2">
-<h2>External Validation Is Replication</h2>
-<p>When we studied research ethics, you learned why so many published findings collapse on the second look: results need <strong>independent replication</strong> before they deserve trust. The same logic, relocated:</p>
-<ul>
-<li>A vendor’s internal performance numbers are a <strong>claim</strong>, not a finding.</li>
-<li>External validation — someone else’s patients, someone else’s count — is medical AI’s replication.</li>
-<li>The scandal of Act I isn’t only that the model underperformed. It’s that a tool running on hundreds of hospitals’ patients went <strong>years without anyone outside the company checking</strong> — something we would never tolerate for a new drug.</li>
-</ul>
-</section>
-<section id="act-ii-the-rebuilt-model" class="slide level2">
-<h2>Act II: The Rebuilt Model</h2>
-<p>Epic retired version 1 and rebuilt the model on a better foundation — including training on data <strong>before clinical recognition</strong>, attacking the circularity directly. In 2026, Wong’s group published the independent verdict on the sequel: nine hospitals, prospective, predictions every 15 minutes <span class="citation" data-cites="wong2026">(<a href="#/references" role="doc-biblioref" onclick=""><span class="nocase">Wong et al.</span> 2026</a>)</span>.</p>
-<ul>
-<li>Discrimination was now genuinely good: <strong>AUC 0.82–0.92</strong>. The headline flaw was fixed.</li>
-<li>And yet: <strong>low positive predictive value</strong> — most alerts still pointed at patients who never developed sepsis.</li>
-<li>And the model’s performance and alert volume <strong>varied widely from hospital to hospital</strong> — the same software, different realities.</li>
-</ul>
-</section>
-<section id="when-passing-the-test-isnt-passing" class="slide level2">
-<h2>When Passing the Test Isn’t Passing</h2>
+<section id="act-ii-accurate-but-unusable" class="slide level2">
+<h2>Act II: Accurate but Unusable</h2>
 <div class="columns">
 <div class="column" style="width:52%;">
-<p>Act II’s lesson is subtler and more important than Act I’s: a model can <strong>ace its statistics and still fail the night shift</strong>.</p>
-<p>When most alerts are false, clinicians learn — rationally — to click through them. The alert becomes noise with a timestamp. And the one true warning dies in the pile, which is precisely the patient the system existed to save.</p>
-</div><div class="column" style="width:44%;">
+<p>Epic rebuilt the model, training on data from <strong>before</strong> clinicians suspected sepsis. In 2026, Wong’s group tested the sequel at nine hospitals <span class="citation" data-cites="wong2026">(<a href="#/references" role="doc-biblioref" onclick=""><span class="nocase">Wong et al.</span> 2026</a>)</span>.</p>
+<ul>
+<li>Discrimination was now genuinely good: <strong>AUC 0.82–0.92</strong>.</li>
+<li>But most alerts <em>still</em> pointed at patients who never developed sepsis.</li>
+<li>Performance and alert volume <strong>varied widely</strong> from hospital to hospital: same software, different realities.</li>
+</ul>
+</div><div class="column" style="width:48%;">
 <div class="callout callout-important callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -850,7 +714,7 @@ Brendan Shea, PhD
 </div>
 <div class="callout-content">
 <p><strong>Alert fatigue is an ethics problem</strong></p>
-<p><span class="key-term">Alert fatigue</span> quietly reassigns blame. When alert #41 turns out to be the real one, the chart shows a warning <em>given</em> and a nurse who <em>dismissed it</em>. The system’s noise becomes the human’s negligence. Ask who designed the threshold — and who absorbs the risk of it.</p>
+<p>When most alerts are false, clinicians learn, rationally, to click through them. <span class="key-term">Alert fatigue</span> then quietly reassigns blame: when alert #41 is the real one, the chart shows a warning <em>given</em> and a nurse who <em>dismissed it</em>. Ask who set the threshold, and who absorbs its risk.</p>
 </div>
 </div>
 </div>
@@ -900,7 +764,7 @@ Brendan Shea, PhD
 </tr>
 </tbody>
 </table>
-<p>Four systems, four owners, four different fixes — <strong>one recurring gap</strong>. This is not a story about one bad model. It is a pattern you can now spot unaided.</p>
+<p>Four systems, four different fixes, <strong>one recurring gap</strong>. This is not a story about one bad model. It is a pattern you can now spot unaided.</p>
 </section></section>
 <section>
 <section id="the-hype-cycle" class="title-slide slide level1 section-divider center">
@@ -909,111 +773,83 @@ Brendan Shea, PhD
 </section>
 <section id="stop-training-radiologists" class="slide level2">
 <h2>“Stop Training Radiologists”</h2>
+<div class="columns">
+<div class="column" style="width:68%;">
 <div class="quote-card">
 <blockquote>
 <p>“I think if you work as a radiologist, you are like the coyote that’s already over the edge of the cliff but hasn’t yet looked down. … People should stop training radiologists now. It’s just completely obvious that within five years deep learning is going to do better than radiologists. … It might be ten years, but we’ve got plenty of radiologists already.”</p>
 </blockquote>
 <div class="attribution">
-<p>Geoffrey Hinton — pioneer of deep learning and later Nobel laureate — remarks at the <em>Machine Learning and the Market for Intelligence</em> conference, Toronto, 2016</p>
+<p>Geoffrey Hinton, pioneer of deep learning and later Nobel laureate, at the <em>Machine Learning and the Market for Intelligence</em> conference, Toronto, 2016</p>
 </div>
 </div>
+</div><div class="column" style="width:32%;">
+<p><img data-src="../images/geoffrey_hinton.jpg" style="width:100.0%" alt="Geoffrey Hinton, gray-haired, in a light checked shirt and headset microphone, speaking on stage."></p>
+<div class="attribution">
+<p>Geoffrey Hinton in 2023. Ramsey Cardy/Collision via Sportsfile. CC BY 2.0.</p>
+</div>
+</div></div>
 </section>
 <section id="a-decade-later" class="slide level2">
 <h2>A Decade Later</h2>
-<p>It is 2026 — five years past Hinton’s deadline, at the edge of his “might be ten.” The coyote looked down.</p>
-<ul>
-<li>The United States has a radiologist <strong>shortage</strong>, with imaging volumes growing faster than the workforce; radiology residencies fill as competitively as ever.</li>
-<li>AI is genuinely everywhere in the reading room — as a <strong>second reader</strong>, a triage tool flagging urgent scans, a measurement assistant. Authorized devices number in the hundreds.</li>
-<li>What failed wasn’t the technology. It was the <strong>verb</strong>: AI turned out to <em>assist</em> the people it was supposed to <em>replace</em>.</li>
-</ul>
-<p>The prediction failed in the most instructive way possible: the capability largely arrived, and the replacement didn’t.</p>
-</section>
-<section id="youve-seen-this-movie" class="slide level2">
-<h2>You’ve Seen This Movie</h2>
 <div class="columns">
-<div class="column" style="width:48%;">
-<p><strong>The genome, 1999</strong></p>
-<p>When we studied genomics, you met Francis Collins’ prediction: by 2010, cheek-swab risk prediction and individualized prescribing would be routine. The science was real. The timeline and the simplicity were not.</p>
-</div><div class="column" style="width:4%;">
-
-</div><div class="column" style="width:48%;">
-<p><strong>The radiologist, 2016</strong></p>
-<p>Same shape: a real breakthrough, a compressed timeline, and the hard parts skipped — validation, deployment, drift, liability, and tired humans at 3 a.m.</p>
+<div class="column" style="width:56%;">
+<p>It is 2026. The U.S. has a radiologist <strong>shortage</strong>, and AI is everywhere in the reading room as a <strong>second reader</strong>. What failed was the <strong>verb</strong>: AI <em>assists</em> the people it was supposed to <em>replace</em>.</p>
+<p>The lesson is the gap between <strong>capability</strong> (what a model does on a benchmark) and <strong>deployment</strong> (what survives real workflows, liability, and tired humans at 3 a.m.). Every case today was a deployment failure wrapped around a real capability.</p>
+</div><div class="column" style="width:44%;">
+<p><img data-src="../images/radiologist_reading_room_usaf.jpg" style="width:100.0%" alt="Seen from behind in a darkened reading room, a radiologist studies CT scans displayed across three monitors."></p>
+<div class="attribution">
+<p>A radiologist reads CT scans. U.S. Air Force photo by Senior Airman Julianne Showalter, 2008. Public domain.</p>
+</div>
 </div></div>
-<p>The recurring formula: <strong>genuine capability + skipped deployment problems = confident, wrong prediction.</strong> Learn the shape and you can grade the next decade’s promises yourself.</p>
-</section>
-<section id="make-it-contemporary-1" class="slide level2 scrollable">
-<h2>Make It Contemporary</h2>
-<div class="thought-question">
-<p>Three claims you can read in this morning’s health-care press:</p>
-<ol type="1">
-<li><strong>Ambient AI scribes</strong> — software that listens to the visit and drafts the note — are already in most large health systems, with studies reporting less documentation burnout.</li>
-<li>The FDA began clearing <strong>foundation-model devices</strong> in 2025; the agency’s device list now tags products built on large language models.</li>
-<li>Vendors promise AI will “give clinicians their evenings back” and fix the burnout crisis.</li>
-</ol>
-<p>For each claim: is this a <em>capability</em> claim or a <em>deployment</em> claim? What would you need to see — whose validation, on whose patients, measuring what — before you believed it? Which one is a Hinton?</p>
-</div>
-</section>
-<section id="after-youve-discussed-3" class="slide level2">
-<h2>After You’ve Discussed</h2>
-<div class="callout callout-note callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Note</strong></p>
-</div>
-<div class="callout-content">
-<p>The grading key is the distinction between <strong>capability and deployment</strong>. Capability is what a model can do on a benchmark, in a paper, at a demo. Deployment is what survives contact with real workflows, real incentives, real liability, and real exhaustion.</p>
-<p>Every case today — the ink markings, the cost proxy, the alert flood — was a deployment failure wrapped around a genuine capability. Deployment is where the ethics lives. And deployment questions — <em>should the patient be told? who answers when it’s wrong?</em> — are exactly where Part B begins.</p>
-</div>
-</div>
-</div>
-</section></section>
-<section>
-<section id="where-this-leaves-us" class="title-slide slide level1 section-divider center">
-<h1>Where This Leaves Us</h1>
-
 </section>
 <section id="mini-recap" class="slide level2">
 <h2>Mini-Recap</h2>
 <div class="recap">
-<p>One question organized everything: <strong>what was the model actually trained to do, and is that what we’re using it for?</strong> Supervised learning makes the <em>label</em> the boss, so the model learns proxies, shortcuts, and history along with the medicine. The three kinds of medical AI fail in signature ways — diagnostic models meet <strong>distribution shift</strong>, predictive models inherit <strong>proxy labels</strong> and drown floors in <strong>alerts</strong>, and generative models produce answers that are <strong>fluent and wrong at once</strong>. The cost algorithm and the Epic Sepsis Model showed the gap at national scale — and showed that the fixes (ask what the label was, demand external validation) are real.</p>
-<p>But every fix we found required someone who could <strong>explain the system</strong> — and increasingly, no one fully can. What does consent mean when the recommendation comes from a black box? Who answers when it’s wrong? That is Part B.</p>
+<p>One question organized everything: <strong>what was the model trained to do, and is that what we’re using it for?</strong> The label is the boss, so models learn proxies, shortcuts, and history along with the medicine. Diagnostic models meet <strong>distribution shift</strong>, predictive models inherit <strong>proxy labels</strong> and drown floors in <strong>alerts</strong>, and generative models are <strong>fluent and wrong at once</strong>. The fixes we found (ask what the label was, demand external validation) all needed someone who could <strong>explain the system</strong>. What happens when no one fully can is the next question.</p>
 </div>
+<blockquote>
+<p><strong>Paired case:</strong> <a href="../cases/10-optum-algorithm.html">The Optum Algorithm: Racial Bias, Proxy Variables, and Justice in Medical AI</a></p>
+</blockquote>
 </section>
 <section id="review-questions" class="slide level2">
 <h2>Review Questions</h2>
 <div class="review-questions">
 <div class="review-item review-recall">
 <p><span class="review-label">Recall</span></p>
-<p>Name the three kinds of medical AI and each one’s signature failure mode. Then explain, using the skin-app case, why “the label is the boss” — what did that model’s label actually contain besides disease?</p>
+<p>Name the three kinds of medical AI and each one’s signature failure. Then explain, using the skin-app case, why “the label is the boss”: what did that model’s label actually contain besides disease?</p>
 </div>
 <div class="review-item review-apply">
 <p><span class="review-label">Apply</span></p>
-<p>A vendor offers your nursing home a <strong>fall-risk model</strong> trained at two large urban academic hospitals, using “documented fall in the chart” as its label. Using the pipeline’s three failure points, predict two specific ways this model could go wrong in your facility — and say what you’d demand before deployment.</p>
+<p>A vendor offers your nursing home a <strong>fall-risk model</strong> trained at two large urban academic hospitals, using “documented fall in the chart” as its label. Using the pipeline’s three doors, predict two specific ways this model could go wrong in your facility, and say what you’d demand before deployment.</p>
 </div>
 <div class="review-item review-debate">
 <p><span class="review-label">Debate</span></p>
-<p>Should hospitals be prohibited from deploying clinical AI that has never passed <strong>independent external validation</strong> — even though no such rule applies to many other hospital tools, and waiting may cost lives a working model could have saved? Defend your answer with one case from this lecture.</p>
+<p>Should hospitals be prohibited from deploying clinical AI that has never passed <strong>independent external validation</strong>, even though waiting may cost lives a working model could have saved? Defend your answer with one case from this lecture.</p>
 </div>
 </div>
 </section>
 <section id="key-terms" class="slide level2">
 <h2>Key Terms</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
 <ul>
 <li><strong>Supervised learning</strong> — training a model on examples that come with the answers (labels) attached.</li>
 <li><strong>Features / labels</strong> — the measurable inputs of each example / the “right answer” the model learns to predict.</li>
 <li><strong>Proxy variable</strong> — a measurable stand-in (cost, billing codes) for the thing you actually want (sickness).</li>
-<li><strong>Distribution shift</strong> — deployment in a world that no longer resembles the training data.</li>
-<li><strong>Deployment drift</strong> — performance decay as the world changes under a frozen model.</li>
+<li><strong>Distribution shift / drift</strong> — the model meets a world, or a moment, unlike its training data.</li>
 <li><strong>Hallucination</strong> — generated content that is fluent, specific, and false.</li>
+</ul>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<ul>
 <li><strong>Sycophancy</strong> — a model’s learned tendency to agree with the user, even against a correct answer.</li>
 <li><strong>External validation</strong> — independent testing on new patients, by someone other than the maker.</li>
 <li><strong>Positive predictive value (PPV)</strong> — of all alerts fired, the fraction that were right.</li>
 <li><strong>Alert fatigue</strong> — the rational habit of ignoring alarms that are usually false, which buries the true one.</li>
 </ul>
+</div></div>
 </section>
 <section id="further-reading" class="slide level2">
 <h2>Further Reading</h2>
@@ -1026,11 +862,17 @@ Brendan Shea, PhD
 <section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-acs2026" class="csl-entry" role="listitem">
+American Cancer Society. 2026. <em>Cancer Facts &amp; Figures 2026</em>. Atlanta: American Cancer Society. <a href="https://www.cancer.org/content/dam/cancer-org/research/cancer-facts-and-statistics/annual-cancer-facts-and-figures/2026/2026-cancer-facts-and-figures.pdf">https://www.cancer.org/content/dam/cancer-org/research/cancer-facts-and-statistics/annual-cancer-facts-and-figures/2026/2026-cancer-facts-and-figures.pdf</a>.
+</div>
 <div id="ref-eichenberger2025" class="csl-entry" role="listitem">
 Eichenberger, Audrey, Stephen Thielke, and Adam Van Buskirk. 2025. <span>“A Case of Bromism Influenced by Use of Artificial Intelligence.”</span> <em>Annals of Internal Medicine: Clinical Cases</em> 4 (8). <a href="https://doi.org/10.7326/aimcc.2024.1260">https://doi.org/10.7326/aimcc.2024.1260</a>.
 </div>
 <div id="ref-obermeyer2019" class="csl-entry" role="listitem">
 Obermeyer, Ziad, Brian Powers, Christine Vogeli, and Sendhil Mullainathan. 2019. <span>“Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations.”</span> <em>Science</em> 366 (6464): 447–53. <a href="https://doi.org/10.1126/science.aax2342">https://doi.org/10.1126/science.aax2342</a>.
+</div>
+<div id="ref-wen2022" class="csl-entry" role="listitem">
+Wen, David, Saad M. Khan, Antonio Ji Xu, et al. 2022. <span>“Characteristics of Publicly Available Skin Cancer Image Datasets: A Systematic Review.”</span> <em>The Lancet Digital Health</em> 4 (1): e64–74. <a href="https://doi.org/10.1016/S2589-7500(21)00252-1">https://doi.org/10.1016/S2589-7500(21)00252-1</a>.
 </div>
 <div id="ref-winkler2019" class="csl-entry" role="listitem">
 Winkler, Julia K., Christine Fink, Ferdinand Toberer, et al. 2019. <span>“Association Between Surgical Skin Markings in Dermoscopic Images and Diagnostic Performance of a Deep Learning Convolutional Neural Network for Melanoma Recognition.”</span> <em>JAMA Dermatology</em> 155 (10): 1135–41. <a href="https://doi.org/10.1001/jamadermatol.2019.1735">https://doi.org/10.1001/jamadermatol.2019.1735</a>.

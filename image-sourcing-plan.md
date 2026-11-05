@@ -21,6 +21,13 @@ candidates** and need a click-through before use.
 | `chest_xray.jpg` | 10A, "What the Model Sees" | CC0 (Mikael Haggstrom) |
 | `shotgun_sequencing.jpg` | 6A, "Shotgun Sequencing, Illustrated" | Public domain (NHGRI) |
 | `measles_rash.jpg` | Wakefield case study | Public domain (CDC) |
+| `vaccination_visit_cdc.jpg` | 9B, "A Case to Sit With" | Public domain (CDC PHIL #9346, James Gathany) |
+| `philip_morris_doctors_ad_1943.jpg` | 9B, "Doubt Is Our Product" | Public domain (PD-US-no-notice; Commons) |
+| `thabo_mbeki.jpg` | 9B, "Make It Contemporary" | CC BY 3.0 BR (Ricardo Stuckert/PR, Agência Brasil) |
+| `radiologist_reading_room_usaf.jpg` | 10A, "A Decade Later" | Public domain (U.S. Air Force, DVIDS 78078) |
+| `geoffrey_hinton.jpg` | 10A, "Stop Training Radiologists" | CC BY 2.0 (Ramsey Cardy/Collision via Sportsfile) |
+| `nhtsa_crash_test_aveo.jpg` | 10B, moral crumple zone debrief | Public domain (NHTSA test 6295) |
+| `hrsa_mental_health_hpsa_map_2026.jpg` | 10B, "The 3 a.m. Problem" | Public domain (HRSA map gallery, Nov 5, 2026; logo banner cropped) |
 
 ### Corrections to this plan
 
