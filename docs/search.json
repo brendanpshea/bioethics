@@ -2010,8 +2010,8 @@
     "objectID": "chapters/10b-fifth-principle.html#thought-question-1",
     "href": "chapters/10b-fifth-principle.html#thought-question-1",
     "title": "Lecture 10 — AI in Medicine",
-    "section": "3.3 Thought Question",
-    "text": "3.3 Thought Question\n\nThe AI says your patient has a 90% chance of sepsis. The resident examines her and sees no clinical signs, and has watched this same alert cry wolf all month.\n\nWhat should happen in the next ten minutes, at this bedside?\nIf the resident overrides the alert and the patient crashes, who failed: resident, hospital, vendor, or threshold? Assign percentages if you dare.\nNow swap it: the resident follows the alert, and the patient is harmed by aggressive unnecessary treatment. Did your percentages move? Why?",
+    "section": "3.4 Thought Question",
+    "text": "3.4 Thought Question\n\nYou are the nurse in that conversation.\n\nWhat should happen in the next ten minutes, at this bedside?\nIf the resident overrides the alert and the patient crashes, who failed: resident, hospital, vendor, or threshold? Assign percentages if you dare.\nNow swap it: the resident follows the alert, and the patient is harmed by aggressive unnecessary treatment. Did your percentages move? Why?",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -2022,8 +2022,8 @@
     "objectID": "chapters/10b-fifth-principle.html#after-youve-discussed-2",
     "href": "chapters/10b-fifth-principle.html#after-youve-discussed-2",
     "title": "Lecture 10 — AI in Medicine",
-    "section": "3.4 After You’ve Discussed",
-    "text": "3.4 After You’ve Discussed\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe anthropologist Madeleine Elish studied automation accidents and named a pattern: the moral crumple zone. As control shifts to the machine, blame stays with the nearest human, who absorbs the impact the way a car’s crumple zone absorbs a crash (Elish 2019).\nThe nurse who stood down a real alert after forty false ones is a moral crumple zone. So is the physician “reviewing” sixty scribe drafts at 6 p.m. Ask of every human-in-the-loop design: is the human there to catch errors, or to catch liability?\n\n\n\n\n\nA crumple zone does its job: the front end absorbs the crash. NHTSA crash test, 2008. Public domain.",
+    "section": "3.5 After You’ve Discussed",
+    "text": "3.5 After You’ve Discussed\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe anthropologist Madeleine Elish studied automation accidents and named a pattern: the moral crumple zone. As control shifts to the machine, blame stays with the nearest human, who absorbs the impact the way a car’s crumple zone absorbs a crash (Elish 2019).\nThe nurse who stood down a real alert after forty false ones is a moral crumple zone. So is the physician “reviewing” sixty scribe drafts at 6 p.m. Ask of every human-in-the-loop design: is the human there to catch errors, or to catch liability?\n\n\n\n\n\nA crumple zone does its job: the front end absorbs the crash. NHTSA crash test, 2008. Public domain.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -2403,7 +2403,7 @@
     "href": "chapters/10b-fifth-principle-slides.html#thought-question-1",
     "title": "Lecture 10 — AI in Medicine",
     "section": "Thought Question",
-    "text": "Thought Question\n\nThe AI says your patient has a 90% chance of sepsis. The resident examines her and sees no clinical signs, and has watched this same alert cry wolf all month.\n\nWhat should happen in the next ten minutes, at this bedside?\nIf the resident overrides the alert and the patient crashes, who failed: resident, hospital, vendor, or threshold? Assign percentages if you dare.\nNow swap it: the resident follows the alert, and the patient is harmed by aggressive unnecessary treatment. Did your percentages move? Why?"
+    "text": "Thought Question\n\nYou are the nurse in that conversation.\n\nWhat should happen in the next ten minutes, at this bedside?\nIf the resident overrides the alert and the patient crashes, who failed: resident, hospital, vendor, or threshold? Assign percentages if you dare.\nNow swap it: the resident follows the alert, and the patient is harmed by aggressive unnecessary treatment. Did your percentages move? Why?"
   },
   {
     "objectID": "chapters/10b-fifth-principle-slides.html#after-youve-discussed-2",
@@ -24259,5 +24259,24 @@
       "11. Gender, Identity & Disability",
       "Part B — Disability, Identity, and the Limits of Autonomy"
     ]
+  },
+  {
+    "objectID": "chapters/10b-fifth-principle.html#a.m.-bed-12",
+    "href": "chapters/10b-fifth-principle.html#a.m.-bed-12",
+    "title": "Lecture 10 — AI in Medicine",
+    "section": "3.3 2 a.m., Bed 12",
+    "text": "3.3 2 a.m., Bed 12\n\n\n\nYou, the night nurse\n\n\n\nBed 12 just fired a sepsis alert. The model says ninety percent.\n\n\nI examined her twenty minutes ago. No fever, pressure’s fine, and she’s chatting with her daughter.\n\n\nThat’s the highest score I’ve seen on her.\n\n\nThat alarm has cried wolf all month. I’m not starting antibiotics because of a number.\n\n\n\n\nResident",
+    "crumbs": [
+      "Home",
+      "10. AI in Medicine",
+      "Part B — The Fifth Principle: Consent, Accountability, and Black Boxes"
+    ]
+  },
+  {
+    "objectID": "chapters/10b-fifth-principle-slides.html#a.m.-bed-12",
+    "href": "chapters/10b-fifth-principle-slides.html#a.m.-bed-12",
+    "title": "Lecture 10 — AI in Medicine",
+    "section": "2 a.m., Bed 12",
+    "text": "2 a.m., Bed 12\n\n\n\nYou, the night nurse\n\n\n\nBed 12 just fired a sepsis alert. The model says ninety percent.\n\n\nI examined her twenty minutes ago. No fever, pressure’s fine, and she’s chatting with her daughter.\n\n\nThat’s the highest score I’ve seen on her.\n\n\nThat alarm has cried wolf all month. I’m not starting antibiotics because of a number.\n\n\n\n\nResident"
   }
 ]

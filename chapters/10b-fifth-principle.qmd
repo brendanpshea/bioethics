@@ -251,10 +251,39 @@ Where's the regulator in all this? It depends on **which kind of AI**.
 
 ::::
 
+## 2 a.m., Bed 12
+
+::::: {.dialogue}
+:::: {.speaker}
+![](../images/characters/figures/nurse-02.png){fig-alt="A nurse in navy scrubs holding a tablet"}
+
+[You, the night nurse]{.who}
+::::
+:::: {.bubbles}
+::: {.bubble .left}
+Bed 12 just fired a sepsis alert. The model says ninety percent.
+:::
+::: {.bubble .right}
+I examined her twenty minutes ago. No fever, pressure's fine, and she's chatting with her daughter.
+:::
+::: {.bubble .left}
+That's the highest score I've seen on her.
+:::
+::: {.bubble .right}
+That alarm has cried wolf all month. I'm not starting antibiotics because of a number.
+:::
+::::
+:::: {.speaker .flip}
+![](../images/characters/figures/staff-04.png){fig-alt="A resident in a white coat holding a coffee cup"}
+
+[Resident]{.who}
+::::
+:::::
+
 ## Thought Question
 
 ::: {.thought-question}
-The AI says your patient has a **90% chance of sepsis**. The resident examines her and sees no clinical signs, and has watched this same alert cry wolf all month.
+You are the nurse in that conversation.
 
 1. What should happen *in the next ten minutes*, at this bedside?
 2. If the resident overrides the alert and the patient crashes, who failed: resident, hospital, vendor, or threshold? Assign percentages if you dare.
