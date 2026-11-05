@@ -29,3 +29,6 @@ pressbooks-export/
 # Make-up exams (local only, not committed)
 make-up-exam-*.md
 make-up-exam-*.docx
+
+# Character sheets (source images, kept local; figures/ holds the cut-outs)
+images/characters/sheets/

@@ -103,6 +103,31 @@ Each major theme gets a discussion **unit**, aiming for ~10 minutes:
 - A **running spine** (a scoreboard table that accumulates; a single patient followed across the lecture) gives the deck momentum and is worth building deliberately.
 - Reusing the *same* motif slide repeatedly is intentional repetition, not monotony — it is exempt from the layout-rotation rule.
 
+## Dialogue Slides (occasional)
+
+A short cartoon conversation can stage a case: patient and clinician, or two clinicians. Use the cast in `images/characters/figures/` (see `images/characters/cast.md` and `cast.png`). Keep it to three or four short exchanges, and use it to *pose* the problem, not to model the answer the discussion should reach.
+
+::::: {.dialogue}
+:::: {.speaker}
+![](../images/characters/figures/nurse-02.png){fig-alt="A nurse in navy scrubs holding a tablet"}
+
+[Night nurse]{.who}
+::::
+:::: {.bubbles}
+::: {.bubble .left}
+Bed 12 just fired a sepsis alert. Ninety percent.
+:::
+::: {.bubble .right}
+I saw her an hour ago and she looked fine. That alarm has cried wolf all month.
+:::
+::::
+:::: {.speaker .flip}
+![](../images/characters/figures/staff-04.png){fig-alt="A resident in a white coat holding a coffee cup"}
+
+[Resident]{.who}
+::::
+:::::
+
 # Part A — [Subtitle] {.section-divider}
 
 ## Opening: A Case to Sit With

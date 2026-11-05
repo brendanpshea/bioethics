@@ -595,3 +595,16 @@ $code-block-border-color: $rule;
 
 // Reader asides belong to the notes page only — never projected.
 .reveal .aside-note { display: none; }
+
+// ===== Dialogue slides =====
+// Base layout lives in styles/custom.css; this sizes it for a 1050x700 slide.
+.reveal .dialogue {
+  grid-template-columns: 23% 1fr 23%;
+  column-gap: 0.4em;
+  min-height: 500px;
+  margin: 0;
+}
+.reveal .dialogue .speaker img { max-height: 380px; }
+.reveal .dialogue .who { font-size: 0.55em; }
+.reveal .dialogue .bubbles { padding-bottom: 2.2em; }
+.reveal .dialogue .bubble { font-size: 0.74em; line-height: 1.3; }

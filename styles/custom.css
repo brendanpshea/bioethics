@@ -451,3 +451,72 @@ figure figcaption {
   color: var(--primary);
   margin-bottom: 0.25em;
 }
+
+/* ===== Dialogue (cartoon conversation) =====
+   Two figures from images/characters/figures/ facing each other, with
+   speech bubbles stacked between them. Markup (see the lecture template):
+     ::::: {.dialogue}
+     :::: {.speaker}          figure + [Name]{.who}
+     :::: {.bubbles}          ::: {.bubble .left} / ::: {.bubble .right}
+     :::: {.speaker .flip}    the right-hand figure, mirrored to face left
+   Figures show at their native pixel size, so the cast keeps one scale
+   (a child stays shorter than an adult). Slide sizing is in slides.scss. */
+.dialogue {
+  display: grid;
+  grid-template-columns: 22% 1fr 22%;
+  align-items: end;
+  column-gap: 0.5em;
+  margin: 1em 0;
+}
+.dialogue .speaker { text-align: center; }
+.dialogue .speaker p { margin: 0; }
+.dialogue .speaker img {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 260px;
+  margin: 0;
+}
+.dialogue .speaker.flip img { transform: scaleX(-1); }
+.dialogue .who {
+  display: block;
+  margin-top: 0.3em;
+  font-family: "Inter", system-ui, sans-serif;
+  font-size: 0.72em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.dialogue .bubbles {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.55em;
+  padding-bottom: 1.8em;
+}
+.dialogue .bubble {
+  position: relative;
+  max-width: 86%;
+  padding: 0.5em 0.85em;
+  border-radius: 18px;
+  border: 2px solid;
+  line-height: 1.35;
+}
+.dialogue .bubble p { margin: 0; }
+.dialogue .bubble.left  { align-self: flex-start; background: var(--primary-tint); border-color: var(--primary); }
+.dialogue .bubble.right { align-self: flex-end;   background: #fdf3e1;            border-color: var(--warm); }
+/* the tail: a small rotated square tucked under the bubble's edge */
+.dialogue .bubble::after {
+  content: "";
+  position: absolute;
+  bottom: 12px;
+  width: 14px;
+  height: 14px;
+  background: inherit;
+  border: inherit;
+  border-width: 0 0 2px 2px;
+}
+.dialogue .bubble.left::after  { left: -9px;  transform: rotate(45deg); }
+.dialogue .bubble.right::after { right: -9px; transform: rotate(-135deg); }
