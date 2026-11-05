@@ -28,6 +28,8 @@ candidates** and need a click-through before use.
 | `geoffrey_hinton.jpg` | 10A, "Stop Training Radiologists" | CC BY 2.0 (Ramsey Cardy/Collision via Sportsfile) |
 | `nhtsa_crash_test_aveo.jpg` | 10B, moral crumple zone debrief | Public domain (NHTSA test 6295) |
 | `hrsa_mental_health_hpsa_map_2026.jpg` | 10B, "The 3 a.m. Problem" | Public domain (HRSA map gallery, Nov 5, 2026; logo banner cropped) |
+| `asl_workshop_usaf.jpg` | 11B, Deaf-couple thought question | Public domain (U.S. Air Force, Brandon Esau, 2018) |
+| `disabled_and_here_notes.jpg` | 11B, "How You Talk Is Part of the Care" | CC BY 4.0 (Chona Kasinger for Disabled And Here) |
 
 ### Corrections to this plan
 

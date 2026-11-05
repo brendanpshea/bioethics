@@ -460,6 +460,9 @@ $code-block-border-color: $rule;
   // slide's clipped box and vanish in a left-hand column.
   margin: 0.3em 0 0.3em 1em;
 }
+// Argument and objection cards set their own list indent.
+.reveal .columns .argument ol,
+.reveal .columns .objection ol { margin-left: 0; }
 .reveal .columns li { margin-bottom: 0.25em; }
 .reveal .columns p { margin-bottom: 0.4em; }
 .reveal .columns p + ul,

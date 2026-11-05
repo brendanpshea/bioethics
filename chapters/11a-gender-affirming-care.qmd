@@ -18,44 +18,35 @@ format:
 ## A Case to Sit With
 
 ::: {.thought-question}
-**Riley is 15.** Assigned female at birth, Riley has identified as a boy for three years — socially transitioned at school, new name, consistent and insistent. His dysphoria has worsened since puberty began: failing grades, withdrawal, one ER visit for self-harm last spring. After eighteen months of assessment, the gender clinic has recommended puberty-suppressing medication. Riley's mother supports it. His father is opposed — not hostile, but afraid: "He's fifteen. How can anyone know?"
+**Riley is 15.** Assigned female at birth, Riley has identified as a boy for three years: socially transitioned at school, new name, consistent and insistent. His dysphoria has worsened since puberty began: failing grades, withdrawal, one ER visit for self-harm last spring. After eighteen months of assessment, the gender clinic has recommended puberty-suppressing medication. Riley's mother supports it. His father is opposed, not hostile but afraid: "He's fifteen. How can anyone know?"
 
 You are the clinic nurse, and both parents ask what you think.
 
-1. What facts would you most want before answering — and which of them are actually knowable?
+1. What facts would you most want before answering, and which of them are actually knowable?
 2. Whose judgment should carry the most weight here: Riley's, the parents', the clinicians', or the state's? What earns that weight?
 :::
-
-## What the Argument Is Actually About
-
-**Everyone in Riley's room wants him to flourish.** His father is not a bigot; his mother is not reckless; the clinicians are not ideologues. They disagree about something narrower and harder — *what to do when you cannot be sure.*
-
-Two ground rules for this unit, because the topic is politically radioactive and your future patients deserve better than slogans:
-
-- Every position gets its **strongest** version, voiced by the serious people who actually hold it.
-- The lecture hands you **tools** — evidence concepts, named arguments, legal facts. The conclusions stay yours.
 
 ## After You've Discussed
 
 ::: {.callout-note}
-Whatever you said in Room 4, you probably appealed to evidence — and so does every party to this dispute. **The evidence on pediatric gender medicine is genuinely low-certainty, and low-certainty evidence does not automatically favor either side.**
+**Everyone in Room 4 wants Riley to flourish.** His father is not a bigot, his mother is not reckless, and the clinicians are not ideologues. They disagree about something narrower and harder: *what to do when you cannot be sure.*
 
-"Don't give irreversible treatment without strong proof it helps" and "don't withhold possibly life-saving treatment without strong proof it harms" are *both* appeals to caution — pointed in opposite directions. The real dispute is over **defaults**: what we do while we don't know.
+The evidence on gender medicine for minors is genuinely **low-certainty**, and low-certainty evidence does not automatically favor either side. "Don't give irreversible treatment without strong proof it helps" and "don't withhold possibly life-saving treatment without strong proof it harms" are *both* appeals to caution, pointed in opposite directions.
 :::
+
+Ground rules for this topic: every position gets its **strongest** version, from the serious people who hold it. The lecture hands you tools; the conclusions stay yours.
 
 ## Today
 
 ::: {.learning-outcomes}
 By the end of Part A, you will be able to:
 
-- Define sex, gender identity, and **gender dysphoria** (DSM-5-TR) precisely, and describe what gender-affirming care for minors actually involves, step by step.
-- State what the **systematic reviews** found — and explain why "low-certainty evidence" licenses neither side's default automatically.
-- Trace the philosophical chain from **Giordano** through **Ashley**, **Gorin**, and **Priest**, and explain how both sides claim **Feinberg's open future**.
-- Summarize the **Cass Review**, its critics, and its aftermath — including the BMA evaluation and the paused PATHWAYS trial.
-- State what ***U.S. v. Skrmetti*** (2025) held, what it did not decide, and what the post-ruling landscape means for practicing in Minnesota.
+- Define **sex**, **gender identity**, and **gender dysphoria**, and describe what care for minors actually involves, step by step.
+- State what the **systematic reviews** found, and explain why low-certainty evidence licenses neither side's default.
+- Explain how the philosophers, the medical authorities, and the courts divide, and what ***U.S. v. Skrmetti*** (2025) decided.
 :::
 
-# The Vocabulary, Carefully {.section-divider}
+# What Care Involves {.section-divider}
 
 ## Three Words That Do Different Jobs
 
@@ -63,459 +54,446 @@ Sloppy vocabulary wrecks this conversation faster than any other in the course, 
 
 | Term | What it names |
 |---|---|
-| **Sex** | the biological package — chromosomes, gonads, anatomy — recorded at birth |
+| **Sex** | the biological package (chromosomes, gonads, anatomy) recorded at birth |
 | **Gender identity** | a person's internal, persistent sense of being male, female, or neither |
-| **Gender dysphoria** | a *clinical diagnosis*: distress from the mismatch between the two — not the mismatch itself |
+| [Gender dysphoria]{.key-term} | a *clinical diagnosis*: marked distress from the mismatch between the two, lasting at least six months |
 
-The third row carries the weight. Being transgender is not a disorder in the DSM. **Distress** is what medicine treats — and whether medication, psychotherapy, or social change best treats it is the substance of the entire dispute.
+Being transgender is not a disorder in the DSM. **Distress** is what medicine treats, and how best to treat it is the whole dispute. The diagnosis describes the present; it is not a prediction.
 
-## What the Diagnosis Requires
-
-::: {.context-box}
-**Gender dysphoria in DSM-5-TR (adolescents and adults)**
-
-A marked incongruence between experienced gender and assigned sex, lasting **at least six months**, shown by at least two listed indicators (such as a strong desire to be rid of one's sex characteristics, or a strong conviction of having the feelings of the other gender) — **plus clinically significant distress or impairment**. The duration requirement and the distress requirement both matter: a passing identification doesn't qualify, and neither does identification without suffering.
-:::
-
-The diagnosis is *not* a lab value, an imaging finding, or a prediction. It describes a present state — and whether a present state can justify a future-altering treatment is exactly where the philosophers dig in.
-
-## Who Are We Talking About?
-
-The population is small, young, and growing in visibility.
-
-- About **1.4 percent of U.S. 13-to-17-year-olds** — roughly 300,000 teens — identify as transgender, about double the adult rate (Williams Institute, 2022).
-- Only a fraction of those seek medical care, and a smaller fraction receives medication; **genital surgery on minors is vanishingly rare**, despite its prominence in political rhetoric.
-- For the clinic, the operative fact: whatever the right policy is, it will be applied to **adolescents in distress**, by clinicians who must act before the research settles.
-
-## The Referral Surge — and Its Two Readings
-
-One empirical fact drives much of the controversy. Referrals to the UK's national youth gender clinic rose from about **250 a year in 2011–12 to more than 5,000 in 2021–22** — a twentyfold increase — with the case mix shifting from mostly birth-registered males to mostly birth-registered females, often with mental-health comorbidities.
+## The Referral Surge, and Its Two Readings
 
 :::: {.columns}
-::: {.column width="48%"}
-**Reading one: visibility.** Stigma fell, language existed, services existed — so people long suffering invisibly finally came forward. The same pattern followed left-handedness when schools stopped punishing it.
+::: {.column width="50%"}
+England's youth gender service went from **210 referrals** in 2011/12 to **over 2,700** a year by 2018/19, now mostly birth-registered **females** in their early teens [@cass2024].
+
+- **Visibility:** stigma fell, so people suffering in silence came forward.
+- **A new population:** today's patients differ so much from those first studied that old evidence may not transfer.
+
+Nobody has shown which reading is right.
 :::
-::: {.column width="4%"}
-:::
-::: {.column width="48%"}
-**Reading two: a novel cohort.** The new population differs so much from the studied one that old evidence may not transfer — and some argue social dynamics play a role ("rapid-onset" hypotheses, which remain **contested and unvalidated**).
+::: {.column width="50%"}
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "Referrals to England's youth gender service (GIDS) by financial year. The dip in 2020/21 reflects COVID; the hatched 2021/22 bar counts GIDS alone, after a second referral route opened."
+import matplotlib.pyplot as plt
+
+years = ["10/11", "11/12", "12/13", "13/14", "14/15", "15/16", "16/17",
+         "17/18", "18/19", "19/20", "20/21", "21/22"]
+refs = [138, 210, 311, 471, 691, 1409, 1981, 2563, 2743, 2748, 2383, 3585]
+
+fig, ax = plt.subplots(figsize=(5.2, 3.6))
+bars = ax.bar(years, refs, color="#0e7c86", width=0.7)
+bars[-1].set_facecolor("white"); bars[-1].set_edgecolor("#0e7c86"); bars[-1].set_hatch("///")
+for i in (1, 8):
+    ax.text(i, refs[i] + 60, f"{refs[i]:,}", ha="center", fontsize=10.5,
+            fontweight="bold", color="#0f172a")
+ax.set_ylabel("Referrals per year")
+ax.tick_params(axis="x", labelsize=8.5, rotation=45)
+ax.set_ylim(0, 4000)
+ax.spines[["top", "right"]].set_visible(False)
+fig.tight_layout()
+plt.show()
+```
 :::
 ::::
 
-The honest position: nobody has demonstrated which reading is right — and each implies a different default.
-
-# What Care Involves {.section-divider}
-
-## Where the Protocol Came From
-
-The treatment model under debate has an address: Amsterdam. In the 1990s, Dutch clinicians developed what became the **Dutch protocol** — the idea that carefully screened adolescents could have puberty *paused*, buying time to mature before any permanent step.
-
-- The original cohort was small and tightly selected: childhood-onset dysphoria, psychologically stable, family support required.
-- Early outcome studies (2011–2014) reported improved functioning, and the model spread worldwide.
-- The core of today's dispute is whether those results **transfer**: today's referral population looks very different from the original Amsterdam cohort — older onset, more comorbidity, different sex ratio.
-
 ## The Pathway, by Age and Reversibility
 
-```{dot}
-//| fig-width: 10
-digraph pathway {
-  rankdir=LR;
-  node [shape=box, style="rounded,filled", fontname="Helvetica", fontsize=12];
-  a [label="Social transition\n(name, pronouns, clothes)\nany age — reversible", fillcolor="#e8f4e8"];
-  b [label="Puberty blockers\n(GnRH agonists)\nearly puberty — contested\nreversibility", fillcolor="#fdf3d8"];
-  c [label="Cross-sex hormones\n(~16 in most protocols)\npartly irreversible", fillcolor="#fbe3d0"];
-  d [label="Surgery\n(adults; chest surgery rare\nin older minors; genital\nsurgery not done on minors)", fillcolor="#f6d5d5"];
-  a -> b -> c -> d;
-}
+```{python}
+#| echo: false
+#| fig-align: center
+import matplotlib.pyplot as plt
+from matplotlib.patches import FancyBboxPatch
+
+steps = [
+    ("Social transition", "name, pronouns, clothes\nany age: reversible", "#dcefdc", "#2e7d32"),
+    ("Puberty blockers", "early puberty\nreversibility contested", "#fdf3d8", "#b07d1a"),
+    ("Hormones", "about 16 and up\npartly irreversible", "#fce3cf", "#c2410c"),
+    ("Surgery", "almost all adults; no\ngenital surgery on minors", "#f6d5d5", "#c0392b"),
+]
+n = len(steps)
+w, gap = 2.3, 0.5
+fig, ax = plt.subplots(figsize=(10, 2.0))
+for i, (title, body, fill, edge) in enumerate(steps):
+    x = i * (w + gap)
+    ax.add_patch(FancyBboxPatch((x, 0), w, 1, boxstyle="round,pad=0.02,rounding_size=0.08",
+                                fc=fill, ec=edge, lw=1.8))
+    ax.text(x + w / 2, 0.72, title, ha="center", va="center", fontsize=16,
+            fontweight="bold", color="#0f172a")
+    ax.text(x + w / 2, 0.33, body, ha="center", va="center", fontsize=13.5,
+            color="#334155", linespacing=1.25)
+    if i < n - 1:
+        ax.annotate("", xy=(x + w + gap - 0.03, 0.5), xytext=(x + w + 0.03, 0.5),
+                    arrowprops=dict(arrowstyle="-|>", color="#6b7280", lw=1.6))
+ax.set_xlim(-0.05, n * w + (n - 1) * gap + 0.05); ax.set_ylim(-0.05, 1.05)
+ax.axis("off")
+fig.tight_layout(pad=0.2)
+plt.show()
 ```
 
-Each arrow is a **decision point**, not a conveyor belt — and whether it functions as one or the other is itself a contested empirical question.
+- Each arrow is a **decision point**, not a conveyor belt, and whether it works like one is itself a contested question.
+- Public debate routinely blurs a 9-year-old's pronouns, a 15-year-old's hormones, and surgery: three decisions with different reversibility, evidence, and ethics. Getting the facts right is an ethical duty.
 
 ## What Puberty Blockers Are
 
+:::: {.columns}
+::: {.column width="52%"}
 ::: {.context-box}
-**GnRH agonists, in plain language**
+**Puberty blockers (GnRH agonists), in plain language**
 
-Puberty blockers pause the hormonal cascade of puberty. They were developed for **precocious puberty** — a seven-year-old entering puberty — and used for decades: stop the drug, puberty proceeds. In gender care the pause begins at *normal* puberty and lasts years. Physical effects largely reverse, but open questions remain about **bone density** and **brain development** during the pause.
+They pause the hormones of puberty. They were developed for **precocious puberty** (a seven-year-old entering puberty) and used for decades: stop the drug, and puberty proceeds. Open questions remain about **bone density** and **brain development** during a years-long pause.
 :::
+:::
+::: {.column width="48%"}
+The model came from Amsterdam in the 1990s, the **Dutch protocol**: carefully screened adolescents could have puberty *paused*, buying time before any permanent step.
 
-A deeper question is whether the *decision* is reversible — reversible chemistry is not the same as a reversible trajectory, and that is where the evidence fight begins.
+The original group was small and tightly selected: childhood-onset dysphoria, stable, supportive families. The core dispute is whether those results **transfer** to today's very different patients.
+:::
+::::
 
-## Hormones and Surgery: The Facts
-
-Past blockers, the interventions become progressively harder to undo.
-
-- **Cross-sex hormones** (testosterone or estrogen), typically from about 16: some effects reverse, others — voice deepening, fertility — do not.
-- **Surgery:** genital surgery is **not performed on minors**; chest surgery is rare, done on older minors in some U.S. centers.
-
-Getting these facts right is an ethical duty. Public debate routinely conflates a 9-year-old's pronouns, a 15-year-old's hormones, and surgery — three decisions with different reversibility, evidence, and ethics.
+Reversible chemistry is not the same as a reversible *path*, and that is where the evidence fight begins.
 
 # The Evidence {.section-divider}
 
 ## What the Systematic Reviews Found
 
-When the University of York ran systematic reviews for the Cass process — the same machinery you met in research ethics — the results were consistent with reviews from Sweden and Finland.
+The University of York ran systematic reviews for England's Cass Review, the same machinery you met in research ethics. Their results matched earlier reviews in Sweden and Finland [@cass2024].
 
-- For **puberty blockers**: no consistent, reliable evidence of mental-health benefit; the studies are small, uncontrolled, and short.
-- For **hormones**: some evidence of benefit, graded **low or very low certainty** under GRADE.
-- Hilary Cass's summary phrase — this is "an area of **remarkably weak evidence**" — became the most quoted line in the debate [@cass2024].
+- **Puberty blockers:** no consistent, reliable evidence of mental-health benefit. The studies are small, uncontrolled, and short.
+- **Hormones:** some evidence of benefit, graded **low or very low certainty**.
+- Hilary Cass's summary: an area of "**remarkably weak evidence**."
 
-Weak evidence is a fact about *our knowledge*, not about the treatment — by itself, it establishes neither that these interventions work nor that they don't.
-
-## "Low Certainty" Does Not Mean "No Effect"
-
-One line of GRADE review, because both sides abuse this point.
-
-- **Low certainty** means: the true effect may differ substantially from what studies suggest. It does *not* mean the treatment doesn't work — and it does *not* mean it does.
-- Much of pediatrics runs on low-certainty evidence; randomized trials in children are chronically scarce. Critics of restriction ask: *why single out this treatment?*
-- The standard answer: because these interventions are **partly irreversible** and the patients are **minors** — the cases where, on any view, the bar should sit higher.
-
-Both the challenge and the answer are *reasonable* — which is why the dispute persists among serious people on both sides.
-
-## The Continuation-Rate Puzzle
-
-Here is the single best example of evidence both sides claim. In Dutch and UK cohorts, **well over 90 percent** of adolescents who start puberty blockers proceed to cross-sex hormones.
-
-:::: {.columns}
-::: {.column width="48%"}
-**Reading one: excellent screening.** The assessments work — nearly everyone selected for blockers was correctly identified as needing transition. The number is a *success* statistic.
+::: {.callout-important}
+**Low certainty does not mean "no effect."** It means the true effect may differ substantially from what studies suggest, in either direction. Much of pediatrics runs on low-certainty evidence. The usual reason to set a higher bar here: these treatments are **partly irreversible** and the patients are **minors**.
 :::
-::: {.column width="4%"}
-:::
-::: {.column width="48%"}
-**Reading two: an on-ramp, not a pause.** If virtually no one steps off, the "time to think" framing fails — the blocker phase functions as the first dose of transition, and consent to it is consent to more.
-:::
-::::
 
-Same number. Opposite lessons. You cannot resolve this from the statistic alone — you need the unmeasured counterfactual, which is exactly what's missing.
+## Two Numbers Both Sides Claim
 
-## Detransition and Regret: What's Known
+| The number | Read as success | Read as a warning |
+|---|---|---|
+| **87–98%** of teens who start blockers go on to hormones [@brik2020; @carmichael2021] | screening works: those selected really needed transition | the "pause" is an on-ramp; consent to blockers is consent to more |
+| **About 1%** regret, a figure often cited from older studies of *adults* | regret is rare | those adults were screened under stricter rules, many were lost to follow-up, and today's teens may differ |
 
-The mirror-image statistic gets the mirror-image fight.
+Same numbers, opposite lessons. What would settle it is the missing comparison: what would have happened *without* treatment.
 
-- Studies of **adults** who underwent transition historically report **low regret rates** — often cited around 1 percent — and detransition appears uncommon in older cohorts.
-- Critics answer that those cohorts were screened under far stricter protocols, that follow-up loss is severe (people who leave care leave the data), and that today's adolescent cohort may not behave like yesterday's adults.
-- Detransitioners themselves are claimed by both sides — as proof the system fails, or as a small group whose existence no more indicts this care than surgical regret indicts surgery.
+## The Trial That Couldn't Start
 
-The honest summary: regret exists, appears uncommon in studied groups, and is **unmeasured in precisely the population now under debate**.
+"Just run a randomized trial" is the obvious answer. Recall research ethics: **blinding is impossible** (patients know whether puberty stopped), **equipoise is disputed in both directions**, and whoever picks the outcome measure half-decides the result.
 
-## Why the Definitive Trial Is Hard
+```{python}
+#| echo: false
+#| fig-align: center
+import matplotlib.pyplot as plt
+from matplotlib.patches import FancyBboxPatch
 
-"Just run the randomized trial" is the obvious answer. Recall equipoise and the machinery of consent from research ethics — they explain why it keeps not happening.
+steps = [
+    ("2024", "Cass: blockers\nin research only", "#e6f1f2", "#0e7c86"),
+    ("2025", "trial planned,\nthen delayed", "#e6f1f2", "#0e7c86"),
+    ("Feb 2026", "on hold, no one\nenrolled yet", "#e6f1f2", "#0e7c86"),
+    ("Jun 2026", "new protocol\napproved", "#e6f1f2", "#0e7c86"),
+    ("Jul 2026", "court rejects\na challenge", "#e6f1f2", "#0e7c86"),
+    ("Nov 2026", "first doses\nexpected", "#fdf3d8", "#b07d1a"),
+]
+n = len(steps)
+w, gap = 1.5, 0.32
+fig, ax = plt.subplots(figsize=(10, 1.6))
+for i, (title, body, fill, edge) in enumerate(steps):
+    x = i * (w + gap)
+    ax.add_patch(FancyBboxPatch((x, 0), w, 1, boxstyle="round,pad=0.02,rounding_size=0.08",
+                                fc=fill, ec=edge, lw=1.8))
+    ax.text(x + w / 2, 0.72, title, ha="center", va="center", fontsize=13.5,
+            fontweight="bold", color="#0f172a")
+    ax.text(x + w / 2, 0.33, body, ha="center", va="center", fontsize=11.5,
+            color="#334155", linespacing=1.25)
+    if i < n - 1:
+        ax.annotate("", xy=(x + w + gap - 0.03, 0.5), xytext=(x + w + 0.03, 0.5),
+                    arrowprops=dict(arrowstyle="-|>", color="#6b7280", lw=1.6))
+ax.set_xlim(-0.05, n * w + (n - 1) * gap + 0.05); ax.set_ylim(-0.05, 1.05)
+ax.axis("off")
+fig.tight_layout(pad=0.2)
+plt.show()
+```
 
-- **Blinding is impossible:** patients know whether their puberty stopped.
-- **Equipoise is contested in both directions:** one side thinks randomizing distressed teens to placebo is unethical; the other thinks the *treatment* arm is. The trial's moral license is exactly what's in dispute.
-- **Outcomes are contested:** reduced dysphoria? mental health? satisfaction at 25? Whoever picks the endpoint half-decides the result.
-
-## PATHWAYS: The Trial That Couldn't Start
-
-Cass recommended that blockers be available **only within research**, so the NHS commissioned the **PATHWAYS** trial — and Britain ended up running the experiment of trying to run the experiment.
-
-- Planned for 2025, **delayed** over the consent and randomization objections just described.
-- **February 2026:** the medicines regulator (MHRA) raised safety concerns; the trial was **paused before recruiting anyone**.
-- **March 2026:** NHS England stopped new hormone referrals for 16–17-year-olds, citing the same evidence gap.
-- **Mid-2026:** the MHRA and King's College London agreed a **modified protocol**, and the Health Research Authority gave ethical approval. Recruitment was set to begin **1 August 2026** — held up until then by separate legal proceedings.
-
-Count the timeline: a trial commissioned in 2024 to answer the question had still not enrolled a single patient more than two years later, having been delayed by ethics objections, paused by the regulator, and held up in court. Meanwhile, under-18s in Britain could not get blockers outside research, and 16–17-year-olds lost hormone referrals too.
-
-"More research" — the one thing every side endorses — is itself ethically hard. The gap may persist for years, and patients keep arriving *now*.
-
-::: {.thought-question}
-**Write or discuss:** If the evidence gap can only be closed by a trial, and the trial cannot ethically or practically be run, what should clinicians do in the meantime? Notice that "wait for evidence" is *itself* a decision with consequences for real patients — it is not a neutral holding position.
-:::
+"More research," which every side endorses, is itself ethically hard. And "wait for evidence" is also a decision.
 
 ## Two Defaults, One Evidence Base
 
-The disagreement reduces to a choice between two default rules for acting under uncertainty.
+The disagreement reduces to a choice between two rules for acting under uncertainty.
 
 | | **The precaution default** | **The access default** |
 |---|---|---|
 | The rule | no irreversible treatment for minors without strong evidence of benefit | no withholding treatment from suffering patients without strong evidence of harm |
-| Treats which error as worse? | treating someone who would have desisted | denying someone who needed it |
-| Risks being wrong about | the teen for whom treatment was the right call | the teen for whom it wasn't |
+| Treats which error as worse? | treating someone who would have changed course | denying someone who needed it |
 | Burden of proof sits on | the treatment | the restriction |
 
-Both defaults are **caution**, and the evidence is silent on exactly the question they answer. Choosing between them is an ethical act — one every authority, court, and philosopher in this debate has made, explicitly or not.
+Both defaults are **caution**, and the evidence is silent on exactly the question they answer. Choosing between them is an ethical act, one every authority, court, and philosopher in this debate has made.
 
 # The Philosophers {.section-divider}
 
-## Giordano: The Founding Case for Treating
-
-The bioethics of puberty suppression predates the culture war. In 2008, Simona Giordano of Manchester published the founding defense [@giordano2008].
-
-- Severe dysphoria is real, present suffering — and unwanted puberty also inflicts **irreversible changes on a non-consenting patient**.
-- Blockers are therefore the *cautious* option: they buy time while preventing the harm waiting locks in.
-- Her conclusion: if suspension may improve or save the child's life, it is **deferring** that is unethical.
-
-Giordano claims *precaution* for the treatment side: doing nothing is also doing something.
-
-## Ashley: Against Gatekeeping Itself
-
-A decade later, Florence Ashley pushed the pro-treatment position past Giordano: the problem isn't just *whether* to treat, but the **assessment apparatus** itself [@ashley2019].
-
-- Diagnostic gatekeeping treats trans identity as pathology to be verified, not experience to be supported — and the waiting *is* the harm.
-- Their alternative: affirmation as default; youth don't need to *prove* their gender to deserve care.
-- Where Giordano defended blockers as time to think, Ashley asks whether *mandatory* time to think respects the patient at all.
-
-The reply: a default of affirmation assumes the very thing in question — that the adolescent's present identity predicts the adult's.
-
-## Gorin: The Skeptic's Reply
-
-The strongest academic skepticism is not a politician's. Moti Gorin, in the *Hastings Center Report*, asks a deceptively simple question: **what is this care actually aiming at?** [@gorin2024]
-
-- If the aim is treating *distress*, the evidence it durably relieves distress is weak.
-- If the aim is *aligning body with identity*, medicine is treating an adolescent's present self-conception as authoritative about a future self — which it does nowhere else.
-- The diagnosis **cannot bear the weight**: nothing in DSM-5-TR predicts persistence, and persistence is what irreversible treatment requires.
-
-His conclusion is not a ban — it is that the affirmative *default* is unjustified until the evidence improves.
-
-## Priest: Over the Parents' Objection
-
-Maura Priest makes the move that scrambles every political alignment: adolescents should access puberty blockers **even when their parents refuse** [@priest2019].
-
-- When parents "mean well but cause harm," the state already limits parental authority — vaccination, education, medical neglect.
-- Blockers are the *low-stakes* move under uncertainty (on her reading), so respecting the adolescent costs little; refusing may cost much.
-- The position discomfits both camps — **parental-rights** conservatives and progressives who cheer Priest yet recoil when *bans* override parents.
-
-Riley's father is the obstacle in Room 4. Priest forces the question of whether that should matter.
-
-## Feinberg, Claimed by Both Sides
-
-You know Feinberg's **right to an open future** from genomics and enhancement: children have rights-in-trust that adults must not foreclose [@feinberg1980_open_future]. In this debate, **both sides wield it.**
+## The Case for Treating
 
 :::: {.columns}
 ::: {.column width="48%"}
-**Blockers preserve the open future** (Giordano, Ashley). Unwanted puberty forecloses options *irreversibly* — the deepened voice, the changed body. Pausing it holds every door open until the patient can choose as an adult.
+**Simona Giordano (2008)** wrote the founding defense [@giordano2008].
+
+- Unwanted puberty *also* makes irreversible changes, to a patient who did not consent.
+- So blockers are the **cautious** option: they buy time while preventing harm.
+- If a pause may save the child's life, it is *deferring* that is unethical.
 :::
 ::: {.column width="4%"}
 :::
 ::: {.column width="48%"}
-**The pathway forecloses the open future** (Gorin; Cass's framing). If blockers function as an on-ramp — recall the 90-plus percent — then the "pause" quietly closes the door marked *reconciling with one's birth sex*, before the patient can know what an adult self would want.
+**Florence Ashley (2019)** went further and questioned the **gatekeeping** itself [@ashley2019].
+
+- Long assessment treats trans identity as something to verify, and the waiting *is* the harm.
+- Their alternative: support as the default; youth shouldn't have to *prove* their gender.
+- The reply: that default assumes a teen's present identity predicts the adult's.
 :::
 ::::
 
-One principle, opposite conclusions — and which application is right depends on the *empirical* question (pause or on-ramp?) that the evidence cannot yet answer. The philosophy and the epistemology are the same problem.
+## The Skeptic, and the Scrambler
+
+:::: {.columns}
+::: {.column width="48%"}
+**Moti Gorin (2024)** asks: *what is this care aiming at?* [@gorin2024]
+
+- If it aims to relieve **distress**, the evidence that it lastingly does so is weak.
+- If it aims to align body with **identity**, it treats a teen's present self-view as authoritative about a future self, which medicine does nowhere else.
+- His conclusion is not a ban. It is that the affirming *default* is unjustified until the evidence improves.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**Maura Priest (2019)** scrambles the politics: teens should get blockers **even over their parents' objection** [@priest2019].
+
+- The state already limits parents who "mean well but cause harm": vaccination, schooling, medical neglect.
+- Her view unsettles both camps: parental-rights conservatives, and progressives who object when *bans* override parents.
+- In Room 4, Riley's father is the obstacle. Should that matter?
+:::
+::::
+
+::: {.aside-note}
+Gorin was also one of nine named contributors to the final (November 2025) version of the HHS report in the next section. Knowing who wrote a review is part of weighing it.
+:::
+
+## Feinberg, Claimed by Both Sides
+
+You know Joel Feinberg's **right to an open future** from genomics: children have rights held in trust that adults must not close off [@feinberg1980_open_future]. In this debate, **both sides use it.**
+
+:::: {.columns}
+::: {.column width="48%"}
+::: {.context-box}
+**Blockers keep the future open**
+
+Unwanted puberty closes options *permanently*: the deeper voice, the changed body. A pause holds every door open until the patient can choose as an adult.
+:::
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+::: {.context-box}
+**The pathway closes it**
+
+If blockers work as an on-ramp (recall that continuation rate), the "pause" quietly closes the door to reconciling with one's birth sex before the patient can know what an adult self would want.
+:::
+:::
+::::
+
+Which reading is right depends on the factual question (pause or on-ramp?) that the evidence can't yet answer.
 
 ## Thought Question
 
 ::: {.thought-question}
 Return to Room 4 and seat the four philosophers around Riley's bed.
 
-1. What does each — Giordano, Ashley, Gorin, Priest — say should happen next for Riley, and **which single factual question**, if answered, would most change their advice?
-2. Riley's father asks you directly: "If we wait two years, what do we lose? If we proceed now, what do we lose?" Answer him honestly, using the open-future framing — both versions of it.
-3. Which of the four principles — autonomy, beneficence, non-maleficence, justice — is doing the most work in *your* answer?
+1. What would each (Giordano, Ashley, Gorin, Priest) say should happen next for Riley, and **which single factual question**, if answered, would most change their advice?
+2. Riley's father asks you directly: "If we wait two years, what do we lose? If we proceed now, what do we lose?" Answer him honestly, using both versions of the open future.
+3. Which of the four principles is doing the most work in *your* answer?
 :::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-Pediatric ethics names what the fight over Riley's maturity is about: **risk-relative capacity**. The capacity a decision requires scales with its stakes — a 15-year-old can consent to a flu shot alone, but refusing chemotherapy triggers a very different process.
+Pediatric ethics has a name for the fight over Riley's maturity: **risk-relative capacity**. The capacity a decision requires scales with its stakes. A 15-year-old can consent to a flu shot, but refusing chemotherapy triggers a very different process.
 
-Both sides accept this and still disagree, because they disagree about *which choice is the high-stakes one*: starting blockers, or enduring unwanted puberty. Risk-relative capacity doesn't settle Riley's case — it names what the disagreement is.
+Both sides accept this and still disagree, because they disagree about *which choice is the high-stakes one*: starting blockers, or going through unwanted puberty. Risk-relative capacity doesn't settle Riley's case. It names what the disagreement is.
 :::
 
 # The Authorities Disagree {.section-divider}
 
 ## The Map of Dueling Authorities
 
-This is the hardest current case of **dueling authorities** — where, as public health ethics taught, the move is to examine *process*, not to pick the conclusion you like.
-
 | Authority | Position | Standard invoked |
 |---|---|---|
-| **AAP** & **Endocrine Society** | affirming model, blockers/hormones with assessment | clinical consensus + observational studies |
-| **WPATH SOC8** (2022) | supports access; removed most minimum ages | consensus of specialty field |
-| **Cass Review** (UK, 2024) | extreme caution; blockers research-only | GRADE systematic reviews |
-| **Sweden, Finland** (2020–22) | psychosocial support first-line; meds exceptional | national evidence reviews |
-| **HHS report** (US, 2025) [@hhs2025_gender] | psychotherapy-first; questions affirming model | umbrella review — authors undisclosed |
+| **AAP** & **Endocrine Society** (U.S.) | affirming model; blockers and hormones after assessment | clinical consensus + observational studies |
+| **WPATH SOC8** (2022) | supports access; removed most minimum ages | consensus of the specialty field |
+| **Finland** (2020), **Sweden** (2022) | psychosocial support first; medication exceptional | national evidence reviews |
+| **Cass Review** (England, 2024) | extreme caution; blockers only within research | systematic reviews |
+| **HHS report** (U.S., 2025) | psychotherapy first; questions the affirming model | evidence review; contributors named only in the final version |
 
-Every row claims the mantle of evidence. The rows contradict.
+Every row claims the evidence; the rows contradict. Note that the European turn began **before** Cass, in countries with no American-style culture war.
 
-## The Cass Review: What It Was
+## The Cass Review and Its Critics
 
-The most consequential document in the table is the British one.
+:::: {.columns}
+::: {.column width="48%"}
+**The Review (2024)**
 
-- A four-year independent review for NHS England, led by **Hilary Cass**, a senior pediatrician — commissioned after the referral surge overwhelmed the Tavistock clinic.
-- Its engine was the **University of York systematic reviews** — GRADE applied to every major question in the field.
-- Conclusions: the evidence is "remarkably weak"; assessment should come first; blockers should be available **only within research** [@cass2024].
-- The Tavistock youth clinic **closed** (March 2024), and by December the blocker restriction was made indefinite.
+- A four-year independent review for the NHS, led by pediatrician **Hilary Cass**.
+- Conclusions: assessment first; blockers **only within research**, a restriction later made indefinite [@cass2024].
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**The critique, and a test of process**
 
-## The Critique and the Replies
-
-The Review met serious criticism — and the exchange is a model of how to argue about evidence rather than motives.
-
-- **The Yale critique** (McNamara, Alstott, and colleagues, 2024): the Review applied evidentiary standards stricter than pediatrics applies elsewhere, misread some studies, and drew policy conclusions stronger than its own reviews license [@mcnamara2024].
-- **The replies**: the double standard runs the other way — irreversible interventions in minors are *exactly* where higher bars belong; and the York reviews' findings match Sweden's and Finland's independent reviews, which no one accuses of British politics.
-- Note the shape: this is the **precaution-vs-access table again**, now wearing institutional clothes. The same evidence, the same two defaults.
-
-## The BMA Arc
-
-Then came the test of process.
-
-- **2024:** the British Medical Association, pressured by angry members, votes to **"critically evaluate"** the Review — the only UK medical body to do so.
-- **May 2026:** its evaluation finds the Review's **methodology sound**, while faulting the *government's implementation* (delayed services, the stalled trial).
-
-An institution checked work it was primed to reject and conceded its rigor — self-correction from inside, slow and grudging and real.
-
-## It Didn't Start with Cass
-
-One fact disarms the "this is just Anglo-American politics" reading from either side.
-
-- **Finland, 2020**: the national health authority (COHERE) made psychosocial support the first-line treatment, restricting medication to exceptional cases — *four years before Cass*.
-- **Sweden, 2022**: the National Board of Health and Welfare concluded the risks of blockers for minors currently outweigh benefits outside exceptional and research settings.
-- Both are countries with long-established gender services, universal health care, and no American-style culture war. Whatever explains the European turn, it is not Tennessee.
-
-This doesn't make the restrictive view right. It makes "only bigots doubt the evidence" — and equally "only ideologues support this care" — unavailable as arguments.
+- A Yale-led team: the Review held this care to a stricter standard than the rest of pediatrics [@mcnamara2024].
+- The reply: irreversible treatment in minors is *exactly* where a higher bar belongs.
+- The **BMA**'s 2026 evaluation upheld the evidence reviews, but found some claims only partly supported, and later restrictions beyond Cass's advice [@bma2026].
+:::
+::::
 
 ## Thought Question
 
 ::: {.thought-question}
-Back in Room 4, Riley's father has done his reading. He puts the **HHS 2025 report** on the table: "The government reviewed everything. It says therapy first." Riley's mother puts the **Endocrine Society guideline** next to it: "The actual specialists disagree."
+Back in Room 4, Riley's father has done his reading. He puts the **HHS 2025 report** on the table [@hhs2025_gender]: "The government reviewed everything. It says therapy first." Riley's mother puts the **Endocrine Society guideline** next to it: "The actual specialists disagree."
 
-Both documents are real. Both claim the evidence. You are the nurse, and they are looking at you.
+Both documents are real. Both claim the evidence. They are looking at you.
 
-1. What can you honestly say about *why* expert bodies disagree, without dismissing either document as "just politics"?
-2. What features of each document would you examine to weigh it — who wrote it, by what method, reviewed how?
+1. What can you honestly say about *why* expert bodies disagree, without dismissing either as "just politics"?
+2. What would you examine to weigh each document: who wrote it, by what method, reviewed how?
 3. Is there anything you can offer this family that doesn't depend on resolving the expert dispute?
-:::
-
-## Make It Contemporary
-
-::: {.thought-question}
-In a single year, mid-2025 to mid-2026: the **HHS report** appeared with undisclosed authors, condemned by the AAP — which then commissioned its own systematic review. The **BMA** validated Cass's methodology after its members revolted. The **PATHWAYS trial** was paused before enrolling anyone. **NHS England** halted new hormone referrals for 16–17-year-olds.
-
-The authorities are revising in public, in real time, in both directions.
-
-So: how should a clinician practice *this year* — and what do you tell Riley's family the field knows, when the field is mid-argument?
 :::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-The distinction that organizes expert disputes: **burden of proof versus standard of proof.** *Burden* asks: who must demonstrate their case — the treatment or the restriction? *Standard* asks: how much evidence counts as enough? The AAP and Cass disagree about both, but their deepest split is the burden: the affirming model places it on withholding care; the European reviews place it on providing it.
+The distinction that organizes expert disputes: **burden of proof versus standard of proof.** *Burden* asks who must prove their case: the treatment, or the restriction? *Standard* asks how much evidence counts as enough.
 
-Most "the evidence says" claims in this debate are actually burden-and-standard claims in disguise — value judgments wearing lab coats.
+The U.S. medical societies and the European reviews disagree about both, but their deepest split is the burden. Most "the evidence says" claims in this debate are burden-and-standard claims in disguise: value judgments wearing lab coats.
 :::
 
 # The Law {.section-divider}
 
-## From Clinic to Courtroom: The Map
+## From Clinic to Courtroom
 
-While the medical authorities argued, legislatures acted — in both directions.
+```{python}
+#| echo: false
+#| fig-align: center
+import matplotlib.pyplot as plt
+from matplotlib.patches import FancyBboxPatch, Patch
 
-- **27 states** have banned gender-affirming medical care for minors; most bans have survived constitutional challenge.
-- A set of states moved the other way: **shield laws** protecting patients who travel for care and the clinicians who provide it.
-- **Minnesota is a refuge state** — a 2023 law and executive order protect patients, families, and providers here from out-of-state enforcement. Most of you will practice inside this map's bluest square, treating families from its reddest.
+GRID = {
+ "AK":(0,0),"ME":(11,0),"WI":(6,1),"VT":(10,1),"NH":(11,1),
+ "WA":(1,2),"ID":(2,2),"MT":(3,2),"ND":(4,2),"MN":(5,2),"IL":(6,2),"MI":(7,2),"NY":(9,2),"MA":(10,2),
+ "OR":(1,3),"NV":(2,3),"WY":(3,3),"SD":(4,3),"IA":(5,3),"IN":(6,3),"OH":(7,3),"PA":(8,3),"NJ":(9,3),"CT":(10,3),"RI":(11,3),
+ "CA":(1,4),"UT":(2,4),"CO":(3,4),"NE":(4,4),"MO":(5,4),"KY":(6,4),"WV":(7,4),"VA":(8,4),"MD":(9,4),"DE":(10,4),
+ "AZ":(2,5),"NM":(3,5),"KS":(4,5),"AR":(5,5),"TN":(6,5),"NC":(7,5),"SC":(8,5),"DC":(9,5),
+ "OK":(4,6),"LA":(5,6),"MS":(6,6),"AL":(7,6),"GA":(8,6),"HI":(0,7),"TX":(4,7),"FL":(9,7),
+}
+BAN = set("AL AR FL GA ID IN IA KY LA MS MO NE NH NC ND OH OK SC SD TN TX UT WV WY".split())
+BLOCKED = {"MT", "KS"}
+SURGERY_ONLY = {"AZ"}
+SHIELD = set("CA CO CT DC HI IL ME MD MA MN NJ NM NY OR RI VT WA".split())
+style = {"ban": ("#c0392b", "white"), "blocked": ("#f2b8b0", "#7f1d1d"),
+         "surgery": ("#f0c27b", "#5b3a06"), "shield": ("#0e7c86", "white"),
+         "neither": ("#e2e8f0", "#334155")}
 
-The map is not trivia. It is your future patients' geography: the family that drove eight hours, the records that must not cross certain state lines, the teen whose care ends if the family moves.
+fig, ax = plt.subplots(figsize=(10, 3.6))
+for st, (c, r) in GRID.items():
+    kind = ("ban" if st in BAN else "blocked" if st in BLOCKED else
+            "surgery" if st in SURGERY_ONLY else "shield" if st in SHIELD else "neither")
+    fc, tc = style[kind]
+    ax.add_patch(FancyBboxPatch((c + 0.06, -r + 0.06), 0.88, 0.88,
+                 boxstyle="round,pad=0,rounding_size=0.12", fc=fc,
+                 ec="#0f172a" if st == "MN" else "white", lw=2.6 if st == "MN" else 1))
+    ax.text(c + 0.5, -r + 0.5, st, ha="center", va="center", fontsize=11,
+            color=tc, fontweight="bold")
+ax.legend(handles=[Patch(color=style[k][0], label=l) for k, l in [
+    ("ban", "bans this care for minors"), ("blocked", "ban blocked in court"),
+    ("surgery", "bans surgery only"), ("shield", "shield law"), ("neither", "neither")]],
+    loc="center left", bbox_to_anchor=(0.74, 0.5), frameon=False, fontsize=13,
+    title="As of Nov. 4, 2026 (MAP)", title_fontsize=11, alignment="left")
+ax.set_xlim(0, 16.5); ax.set_ylim(-7.1, 1.05)
+ax.set_aspect("equal"); ax.axis("off")
+fig.tight_layout()
+plt.show()
+```
 
-## Where It Landed
+**27 states** ban this care for minors (courts have blocked two of those bans). **16 states and D.C.**, including **Minnesota** (outlined), have shield laws.
 
-![](../images/supreme_court_building.jpg){width="70%" fig-alt="The west facade of the United States Supreme Court building, with its marble columns and pediment"}
+## *Skrmetti*: Who Decides?
 
-::: {.attribution}
-Carol M. Highsmith Archive, Library of Congress. Public domain.
-:::
+In June 2025 the Supreme Court upheld Tennessee's ban, **6–3**. The law sorts by **age and medical purpose**, not sex, the majority said, so only the most deferential review applied.
 
-The evidence dispute you have just worked through did not stay in the clinics. It arrived here, where the question changed from *what does the research show* to *who gets to decide*.
-
-## *U.S. v. Skrmetti*: The Case
-
-The collision reached the Supreme Court through Tennessee.
-
-- **The law:** Tennessee's SB1 (2023) prohibits puberty blockers, hormones, and surgery for minors **when provided for gender transition** — the same drugs remain legal for other diagnoses, like precocious puberty.
-- **The challengers:** three transgender adolescents and their parents (the lead family pseudonymous as "L.W."), a physician, and — initially — the United States itself, which switched sides when the administration changed in 2025.
-- **The question:** does a law restricting this care for minors classify by *sex*, triggering heightened constitutional scrutiny — the toolkit you learned in the abortion-law unit?
-
-## The Holding
-
-On June 18, 2025, the Court ruled **6–3** for Tennessee [@skrmetti2025].
-
-- Chief Justice Roberts, for the majority: SB1 classifies by **age** (minors) and **medical purpose** (transition treatment), not by sex — a minor of either sex can receive blockers for precocious puberty, and neither sex may receive them for transition.
-- No sex classification means no heightened scrutiny — only **rational basis**, the most deferential test. Tennessee's cited concerns, including the evidence debates you've just studied, easily cleared it. The majority cited the Cass Review.
-- The dissenters answered that the law's whole operation depends on the patient's sex — a treatment permitted to one sex is denied to the other — and that rational-basis review abandoned the children the Constitution most needs to protect.
-
-## Two Voices from the Court
-
+:::: {.columns}
+::: {.column width="48%"}
 ::: {.quote-card}
 > "We leave questions regarding its policy to the people, their elected representatives, and the democratic process."
 
 ::: {.attribution}
-Chief Justice John Roberts, majority opinion, *United States v. Skrmetti* (2025) [@skrmetti2025]
+Chief Justice John Roberts, for the majority [@skrmetti2025]
 :::
 :::
-
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
 ::: {.quote-card}
-> "By retreating from meaningful judicial review exactly where it matters most, the Court abandons transgender children and their families to political whims. In sadness, I dissent."
+> "By retreating from meaningful judicial review exactly where it matters most, the Court abandons transgender children and their families to political whims."
 
 ::: {.attribution}
-Justice Sonia Sotomayor, dissenting, *United States v. Skrmetti* (2025) [@skrmetti2025]
+Justice Sonia Sotomayor, dissenting
 :::
 :::
-
-## What *Skrmetti* Did Not Decide
-
-Reading a case for its limits is legal literacy — and this one's limits matter enormously.
-
-- It did **not** hold that bans are wise, or that the treatments are harmful — rational basis asks only whether legislatures *may* act amid uncertainty, not whether they *should*.
-- It did **not** decide the **parental-rights** question — whether the Constitution protects a parent's right to obtain this care — which was not before the Court.
-- It did **not** address **adults**, and it did not bless every state ban: laws built differently could fare differently.
-- It deliberately left open whether transgender status itself ever triggers heightened scrutiny.
-
-The Court resolved one question narrowly — and in doing so, handed the whole dispute to the democratic process, where it now lives.
-
-## After *Skrmetti*: The Squeeze
-
-The ruling concerned state bans on *minors'* care. What followed went further, fast.
-
-- **Executive Order 14187** (January 2025) directed federally funded institutions to end care for patients **under 19** — past the age of majority.
-- CMS sent hospitals demand letters; the federal employee health plan **excluded the care for under-19s** for 2026.
-- Major children's hospitals — including in states where the care is **legal** — paused or ended services under funding pressure.
-
-::: {.context-box}
-**The order that is blocked and effective at the same time (status: July 2026).** EO 14187 has been **preliminarily enjoined** — courts have restricted its enforcement, and it is not currently enforceable while litigation proceeds. Sixteen Democratic-led state attorneys general sued in federal court in Massachusetts in August 2025, arguing the order violates the Tenth Amendment, exceeds statutory authority, and breaches the Administrative Procedure Act. The court heard the government's motion to dismiss in April 2026 [@morganlewis2026_gac_enforcement].
-
-Here is the part worth sitting with: **hospitals stopped providing the care anyway.** At the motion hearing, the judge pointed to exactly that — providers announcing they had ended care — as evidence of concrete harm. An order that courts have blocked still reshaped practice nationwide, because institutions will not gamble federal funding on the eventual outcome of a lawsuit.
-
-**Write or discuss:** If an unenforceable order changes what care is actually available, where does the *power* really sit — with the courts, or with whoever controls the funding? What does that imply about "the democratic process" *Skrmetti* deferred to?
 :::
+::::
 
-The legal line is no longer just "ban state vs. shield state." Federal levers reach into Minnesota too — and, as the injunction shows, they work even when they are legally suspended.
+The Court decided **who decides**, not whether the bans are wise.
 
 ## Practicing in the Patchwork
 
-What does all this ask of a nurse in Rochester or Minneapolis?
+:::: {.columns}
+::: {.column width="56%"}
+- **Federal pressure reaches refuge states.** A 2025 executive order told federally funded hospitals to stop this care for patients under 19. Courts have blocked its funding cutoffs, including in Minnesota, while appeals continue.
+- **Hospitals stopped anyway.** Some children's hospitals ended this care even where it is legal, because they would not gamble their federal funding on a lawsuit's outcome.
+- **Records matter.** Where a family came from, and what goes in writing, can carry legal weight across state lines.
+:::
+::: {.column width="44%"}
+![](../images/supreme_court_building.jpg){width="100%" fig-alt="The west facade of the United States Supreme Court building, with its marble columns and pediment"}
 
-- **Know your ground:** Minnesota's refuge law protects care legal here — but federal funding conditions bind your *employer*, which is why even shield-state hospitals have retrenched.
-- **Records and confidentiality** acquire legal weight: where a family came from, and what goes in writing, can matter across state lines.
-- **Families arrive scared and informed in opposite directions** — Room 4 again, with a road atlas. The skills are the course's: four-principles analysis, honest uncertainty, defensible process.
+::: {.attribution}
+Carol M. Highsmith Archive, Library of Congress. Public domain.
+:::
+:::
+::::
 
 ## Thought Question
 
 ::: {.thought-question}
-Every framework — clinical, philosophical, legal — eventually hits the same wall: **somebody must draw an age line for partly irreversible treatment, under uncertainty, and somebody must be the one to draw it.**
+Every framework, clinical, philosophical, and legal, hits the same wall: **someone must draw an age line for partly irreversible treatment, under uncertainty.**
 
-1. Where would you put the line for puberty blockers — and is your line for cross-sex hormones different? Why?
-2. Who should hold the pen: the family, the clinical team, a national guideline body, or the legislature? What does each option get wrong?
-3. Tennessee's line was 18, drawn by legislators; the Dutch protocol's was ~12/16, drawn by clinicians. Defend one — or propose a third process and say who can veto whom.
+1. Where would you put the line for puberty blockers? Is your line for hormones different? Why?
+2. Who should hold the pen: the family, the clinical team, a national guideline body, or the legislature? What does each get wrong?
+3. Tennessee's line was 18, drawn by legislators; the Dutch protocol's was about 12 and 16, drawn by clinicians. Defend one, or propose a third process and say who can veto whom.
 :::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-A final distinction: **legal permission versus professional obligation.** Law tells you what *may* be done where you stand; it never tells you what good care *requires* — and after *Skrmetti*, the two diverge state by state. A clinician in Memphis may need to give care she legally cannot; one in Minneapolis may legally give care she doubts. Conscience runs both ways.
+A final distinction: **legal permission versus professional obligation.** Law tells you what *may* be done where you stand; it never tells you what good care *requires*. After *Skrmetti* the two diverge state by state. A clinician in Memphis may believe care is needed that she legally cannot give; one in Minneapolis may legally give care she doubts. Conscience runs both ways.
 
-Medicine has lived in this gap before — the post-*Dobbs* exception cases. The skill is the same: know the law exactly, know your judgment honestly, and never confuse the two.
+Medicine has lived in this gap before, in the post-*Dobbs* exception cases. The skill is the same: know the law exactly, know your judgment honestly, and never confuse the two.
 :::
-
-# Where This Leaves Us {.section-divider}
 
 ## Mini-Recap
 
 ::: {.recap}
-One question ran throughout: **what should medicine, families, and the state do when evidence is low-certainty and the stakes are high in both directions?** The reviews genuinely found weak evidence — and weak evidence licenses *neither* default. That is why Giordano, Ashley, Gorin, and Priest can share the data and split on the ethics, and why Feinberg's open future lands on both sides of the same bed. The authorities split as the philosophers did; *Skrmetti* then handed the dispute to legislatures, leaving clinicians inside a patchwork the Constitution no longer smooths.
-
-Next: when is a body's difference something to *fix* at all — and who decides? Disability ethics has argued that for fifty years, and it has tools this debate needs.
+One question ran throughout: **what should medicine, families, and the state do when evidence is low-certainty and the stakes are high in both directions?** The reviews found weak evidence, and weak evidence licenses *neither* default. That is why the philosophers can share the data and split on the ethics, and why Feinberg's open future lands on both sides of the same bed. The authorities split the same way. *Skrmetti* then handed the dispute to legislatures, leaving clinicians in a state-by-state patchwork.
 :::
+
+> **Paired case:** [*U.S. v. Skrmetti*](../cases/11-skrmetti.qmd): the arguments on both sides, and what happened after the ruling.
 
 ## Review Questions
 
@@ -524,40 +502,46 @@ Next: when is a body's difference something to *fix* at all — and who decides?
 ::: {.review-item .review-recall}
 [Recall]{.review-label}
 
-State what the York systematic reviews concluded about puberty blockers and hormones, and explain — using the precaution and access defaults — why both sides of the debate claim that finding supports them.
+State what the York systematic reviews concluded about puberty blockers and hormones, and explain, using the precaution and access defaults, why both sides claim that finding supports them.
 :::
 
 ::: {.review-item .review-apply}
 [Apply]{.review-label}
 
-Pediatric melatonin for sleep, off-label stimulant doses, and many NICU interventions also rest on low-certainty evidence. Pick one, run it through the two-defaults table, and identify what (if anything) makes the gender-care case relevantly different.
+Pediatric melatonin for sleep, off-label stimulant doses, and many NICU treatments also rest on low-certainty evidence. Pick one, run it through the two-defaults table, and identify what, if anything, makes the gender-care case relevantly different.
 :::
 
 ::: {.review-item .review-debate}
 [Debate]{.review-label}
 
-Cass recommended puberty blockers be available *only within research trials* — and then the trial itself stalled on ethics and safety review. Is "research-only access" a principled middle path or a ban in disguise? Defend your answer using equipoise.
+Cass recommended puberty blockers be available *only within research trials*, and then the trial itself stalled. Is "research-only access" a principled middle path or a ban in disguise? Defend your answer using equipoise.
 :::
 
 :::
 
-## Key Terms
+## Key Terms {.dense}
 
-- **Gender dysphoria** — DSM-5-TR diagnosis: marked, persistent incongruence between experienced gender and assigned sex, *plus* clinically significant distress.
-- **Dutch protocol** — the original staged model: screened adolescents, blockers in early puberty, hormones at ~16.
-- **GnRH agonists (puberty blockers)** — drugs pausing puberty; long used for precocious puberty; contested in gender care.
-- **GRADE / low-certainty evidence** — the true effect may differ substantially from estimates; not the same as "no effect."
-- **Continuation rate** — the >90% of blocker patients proceeding to hormones; read as screening success or as an on-ramp.
-- **Precaution default vs. access default** — opposite rules for acting under uncertainty; both are forms of caution.
-- **Risk-relative capacity** — the capacity a minor's decision requires scales with the decision's stakes.
-- **Burden vs. standard of proof** — who must prove their case, and how much evidence counts as enough.
-- **Rational basis review** — the most deferential constitutional test; what *Skrmetti* applied.
-- **Shield / refuge law** — state law protecting cross-border patients and their clinicians; Minnesota has one.
+:::: {.columns}
+::: {.column width="48%"}
+- **Gender dysphoria** — DSM-5-TR diagnosis: marked, lasting distress from a mismatch between gender identity and birth sex.
+- **Puberty blockers (GnRH agonists)** — drugs that pause puberty; long used for precocious puberty.
+- **Low-certainty evidence** — the true effect may differ substantially from estimates; not the same as "no effect."
+- **Continuation rate** — the share of blocker patients who go on to hormones.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+- **Precaution vs. access default** — opposite rules for acting under uncertainty; both are forms of caution.
+- **Risk-relative capacity** — the capacity a minor's decision requires scales with its stakes.
+- **Burden vs. standard of proof** — who must prove their case, and how much evidence is enough.
+- **Shield / refuge law** — state law protecting patients who travel for care, and their clinicians.
+:::
+::::
 
 ## Further Reading
 
-- Cass, Hilary. *The Cass Review: Final Report.* NHS England, 2024. (Read the foreword and recommendations yourself — most partisans clearly haven't.)
-- Gorin, Moti. "What Is the Aim of Pediatric 'Gender-Affirming' Care?" *Hastings Center Report*, 2024 — with the replies to it in the same journal.
+- Cass, Hilary. *The Cass Review: Final Report.* NHS England, 2024. (Read the foreword and recommendations yourself; most partisans clearly haven't.)
+- Gorin, Moti. "What Is the Aim of Pediatric 'Gender-Affirming' Care?" *Hastings Center Report*, 2024, with the replies to it in the same journal.
 - Giordano, Simona. *Children with Gender Identity Disorder: A Clinical, Ethical, and Legal Analysis.* Routledge, 2012. (The fullest version of the founding pro-treatment case.)
 
 ## References
