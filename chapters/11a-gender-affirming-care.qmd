@@ -400,7 +400,7 @@ style = {"ban": ("#c0392b", "white"), "blocked": ("#f2b8b0", "#7f1d1d"),
          "surgery": ("#f0c27b", "#5b3a06"), "shield": ("#0e7c86", "white"),
          "neither": ("#e2e8f0", "#334155")}
 
-fig, ax = plt.subplots(figsize=(10, 3.6))
+fig, ax = plt.subplots(figsize=(10, 3.3))
 for st, (c, r) in GRID.items():
     kind = ("ban" if st in BAN else "blocked" if st in BLOCKED else
             "surgery" if st in SURGERY_ONLY else "shield" if st in SHIELD else "neither")
@@ -421,7 +421,7 @@ fig.tight_layout()
 plt.show()
 ```
 
-**27 states** ban this care for minors (courts have blocked two of those bans). **16 states and D.C.**, including **Minnesota** (outlined), have shield laws.
+**27 states** restrict this care for minors: 26 ban it (courts have blocked two of those bans) and Arizona bans surgery only. **16 states and D.C.**, including **Minnesota** (outlined), have shield laws [@map2026_bans; @map2026_shield].
 
 ## *Skrmetti*: Who Decides?
 

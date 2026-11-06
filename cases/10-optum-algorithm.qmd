@@ -74,7 +74,7 @@ And that is what makes the case hard, not easy. The algorithm had done exactly w
 
 ## The Argument the Audit Started
 
-Algorithmic fairness already had a central puzzle before Optum: a model can use no forbidden variable — not race, nor anything close to it — and still reproduce the bias of the world it learned from. The Optum audit turned that abstraction into a measured number, on roughly 200 million patients. What the people who studied it then disagreed about was *where the wrong actually lived*: in the data, the proxy, the way the score was used, or the assumption that a clean fix was available at all.
+Algorithmic fairness already had a central puzzle before Optum: a model can use no forbidden variable — not race, nor anything close to it — and still reproduce the bias of the world it learned from. The Optum audit turned that abstraction into a measured number, for a class of tools applied to roughly 200 million patients a year. What the people who studied it then disagreed about was *where the wrong actually lived*: in the data, the proxy, the way the score was used, or the assumption that a clean fix was available at all.
 
 ### "Accurate and colorblind": the designers' defense
 

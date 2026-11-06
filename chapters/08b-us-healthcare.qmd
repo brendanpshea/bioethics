@@ -487,7 +487,7 @@ There is no value-free choice. To pick a model is to pick which of Part A's prin
 ## Wrap-Up
 
 ::: {.recap}
-We started with a paradox: the US spends about **double** any peer nation, near **$14,570 per person**, and gets **shorter lives** in return. We saw why — a **patchwork** that runs all **four models** of health care at once (Beveridge for veterans, NHI for the old, Bismarck for workers, out-of-pocket for the uninsured), built by a wartime accident, with prices no one can see and an outcomes gap driven as much by guns, cars, food, and poverty as by the clinic. We named what the US does best (the world's finest specialty and cancer care) and where it fails (access, cost, and a nursing workforce in crisis).
+We started with a paradox: the US spends about **double** any peer nation, about **$14,900 per person**, and gets **shorter lives** in return. We saw why — a **patchwork** that runs all **four models** of health care at once (Beveridge for veterans, NHI for the old, Bismarck for workers, out-of-pocket for the uninsured), built by a wartime accident, with prices no one can see and an outcomes gap driven as much by guns, cars, food, and poverty as by the clinic. We named what the US does best (the world's finest specialty and cancer care) and where it fails (access, cost, and a nursing workforce in crisis).
 
 None of this settles the argument — it *equips* it. Other countries chose **one** model on purpose; the US can too. Which one depends on which of Part A's values we put first: the most total health, the protection of the worst-off, the freedom to choose, or the capabilities every person needs. The model is yours to argue for.
 :::
@@ -530,7 +530,7 @@ Should the US adopt a single-payer system, a public option, or market reforms? D
 
 ## Paired Case
 
-Work through the paired case study on **Singapore's health care system** — a country that covers everyone and lives longest while spending a quarter of what the US spends. It asks what the US can, and can't, learn from a "fifth model," and why Singapore's success is harder to copy than it looks.
+Work through the paired case study on **Singapore's health care system** — a country that covers everyone, has one of the world's highest life expectancies, and spends a fraction of what the US spends. It asks what the US can, and can't, learn from a "fifth model," and why Singapore's success is harder to copy than it looks.
 
 ## Further Reading
 

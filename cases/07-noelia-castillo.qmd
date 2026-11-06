@@ -9,7 +9,7 @@ date: last-modified
 - **Who:** Noelia Castillo Ramos (2000–2026), a young woman from Barcelona, Catalonia, Spain.
 - **What:** After a 2022 suicide attempt left her paraplegic and in constant pain, she asked to die under Spain's euthanasia law. Her request was approved, then tied up for 601 days by her father's legal appeals before she died at age 25.
 - **Where / When:** Catalonia, Spain, 2024–2026, under the 2021 Organic Law Regulating Euthanasia.
-- **Why it matters:** Castillo's case forces the hardest question in end-of-life ethics: can a person whose suffering is bound up with **mental illness** make a genuinely autonomous, irreversible choice to die — and who gets to decide whether she can? It also reverses the usual family fight: here a [competent]{.key-term} patient fought *for* death while her family fought to keep her alive.
+- **Why it matters:** Castillo's case forces the hardest question in end-of-life ethics: can a person whose suffering is bound up with **mental illness** make a genuinely autonomous, irreversible choice to die — and who gets to decide whether she can? It also reverses the usual family fight: here a [competent]{.key-term} patient fought *for* death while her father fought to keep her alive.
 - **Pair with:** Euthanasia, Assisted Death, and Their Critics
 :::
 
@@ -50,7 +50,7 @@ That last fact is the knot at the center of the case. On paper, her euthanasia w
 
 ## The Argument Castillo Started
 
-For decades, assisted-death laws drew their hardest line around a single assumption: that the suffering being relieved was *physical* and the patient's judgment was intact. Castillo's case removes both supports at once. Her suffering was psychiatric, and the very condition that made her eligible — long-standing depression — is one that can distort the will it torments. The dispute is whether a request to die can count as free when the illness invoked to justify it may be the thing producing the request.
+For decades, assisted-death laws drew their hardest line around a single assumption: that the suffering being relieved was *physical* and the patient's judgment was intact. Castillo's case strains both supports at once. Her request was approved for physical pain, but her suffering was bound up with psychiatric illness — and borderline personality disorder, which can drive suicidal feelings, is the kind of condition that can distort the will it torments. The dispute is whether a request to die can count as free when a mental illness in the background may be the thing producing the request.
 
 ### The argument from autonomy
 
