@@ -25,10 +25,7 @@ Here are four ways humans use animals. Put them in order, from **most defensible
 3. A **gene-edited pig** whose heart is transplanted into a dying patient.
 4. A **lab mouse** engineered to be smarter, to make a better research subject.
 
-Then answer:
-
-- What did you put **last**, and what rule were you using?
-- Did "high-tech" or "unnatural" push anything *down* your list? Should it?
+What did you put **last**, and what rule were you using? Did "high-tech" or "unnatural" push anything *down* your list? Should it?
 :::
 
 ## After You've Discussed
@@ -36,85 +33,138 @@ Then answer:
 ::: {.callout-note}
 Most people rank the pig-heart transplant as more troubling than the bacon. Hold that intuition up to the light.
 
-By the end of today, we'll have a tool that ranks animal uses by three things — **scale, necessity, and benefit** — and on that tool, the everyday cheeseburger comes out *worse* than the high-tech transplant. Whether you accept that result, or reject the tool, is the work of this lecture.
+By the end of today we'll have a tool that ranks animal uses by **scale, necessity, and benefit**, and on that tool the everyday cheeseburger comes out *worse* than the high-tech transplant. Whether you accept that result, or reject the tool, is the work of this lecture.
 :::
 
-## Where We Left Off
-
-In Part A we asked **which beings have moral status** and met five answers — Kant, Singer, Regan, Cohen, Korsgaard. We saw that the **3 Rs** and the **IACUC** try to shrink and police the harm of research.
-
-Today we leave the lab. The same views now have to handle the two largest and most advanced uses of animals: the food system that kills tens of billions, and the gene-edited pigs now keeping humans alive.
-
 ## Today
+
+In Part A we asked **which beings have moral status**, and met Kant, Korsgaard, Singer, Regan, and Cohen. Today the same views face the two largest and most advanced uses of animals.
 
 ::: {.learning-outcomes}
 By the end of Part B, you will be able to:
 
-- Explain how industrial animal agriculture harms **animals and humans** — including antibiotic resistance and zoonotic risk.
-- State the **translation-gap** critique of animal research and what the FDA and EU are doing about it.
-- Describe how a pig is **gene-edited** for transplant and the ethical issues unique to xenotransplantation.
-- Use the **scale–necessity–benefit** ledger to explain why a critic of factory farming can still accept pig-heart transplants — and how Regan resists that ranking.
-- Connect animal ethics to **moral status, enhancement, and end-of-life** arguments from earlier in the course.
+- Explain how industrial animal agriculture harms **animals and humans**, including antibiotic resistance and pandemic risk.
+- Describe how pigs are **gene-edited** for transplant, and what makes **xenotransplantation** ethically distinct.
+- Use the **scale–necessity–benefit** ledger, explain how Regan resists it, and connect animal ethics to arguments from earlier in the course.
 :::
 
 # The Biggest Use: The Food System {.section-divider}
 
 ## The Scale Is the Argument
 
-Whatever you think of eating meat, start with the number.
+:::: {.columns}
+::: {.column width="44%"}
+Humans slaughter nearly **88 billion** land animals a year for meat: about ten for every person on Earth. Nine in ten are **chickens** [@owid_2024].
 
-- Humans raise and kill roughly **80 billion land animals a year** — about ten per person on Earth — the overwhelming majority on industrial farms.
-- Most live in [CAFOs]{.key-term} (concentrated animal feeding operations): thousands of animals indoors at high density, bred for fast growth, with little room to move.
-- Recall Singer from Part A: this inflicts vast suffering for an interest — taste, cost, convenience — that is, for most of us, **minor and replaceable.** On his view it is the clearest wrong in the whole field.
+Recall Singer: this is vast suffering for an interest (taste, cost, convenience) that is, for most of us, **minor and replaceable.** A practice repeated billions of times needs a justification billions of times as strong.
+:::
+::: {.column width="56%"}
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "Land animals slaughtered for meat worldwide, 2024, in billions (FAOSTAT via Our World in Data)."
+import matplotlib.pyplot as plt
 
-The scale matters morally: a practice repeated 80 billion times needs a justification 80 billion times as strong.
+animals = ["Chickens", "Ducks", "Pigs", "All others"]
+billions = [78.5, 4.2, 1.5, 3.6]
+colors = ["#c0392b", "#94a3b8", "#94a3b8", "#cbd5e1"]
+
+fig, ax = plt.subplots(figsize=(5.4, 3.4))
+bars = ax.barh(animals[::-1], billions[::-1], color=colors[::-1], height=0.6)
+for b, v in zip(bars, billions[::-1]):
+    ax.text(b.get_width() + 1.2, b.get_y() + b.get_height() / 2, f"{v}",
+            va="center", fontsize=15, fontweight="bold", color="#0f172a")
+ax.set_xlim(0, 95)
+ax.set_xticks([])
+ax.tick_params(axis="y", labelsize=14)
+ax.spines[["top", "right", "bottom"]].set_visible(False)
+fig.tight_layout()
+plt.show()
+```
+:::
+::::
 
 ## What That Number Looks Like
 
-![](../images/cafo_aerial.jpg){width="78%" fig-alt="Aerial view of a concentrated animal feeding operation: rows of long metal barns surrounded by bare ground and waste lagoons"}
+:::: {.columns}
+::: {.column width="50%"}
+![](../images/cafo_aerial.jpg){width="100%" fig-alt="Aerial view of a concentrated animal feeding operation: rows of long metal barns surrounded by bare ground and waste lagoons"}
 
 ::: {.attribution}
 Socially Responsible Agricultural Project, via Wikimedia Commons. CC BY 4.0.
 :::
+:::
+::: {.column width="50%"}
+![](../images/hog_barn_usda.jpg){width="100%" fig-alt="Interior of a long hog barn with a central aisle between metal-railed pens crowded with pigs on slatted floors."}
 
-Each of those barns holds thousands of animals that will never go outside. This is what 80 billion a year requires.
+::: {.attribution}
+Inside a hog barn, Lyons, Georgia. Jeff Vanuga, USDA NRCS. Public domain.
+:::
+:::
+::::
+
+Most live in [CAFOs]{.key-term} (concentrated animal feeding operations): crowded indoor barns they never leave.
 
 ## It Harms Humans Too: Antibiotics
 
-The welfare case is not the only case. Factory farming is also a **public-health** problem — which means even a strictly human-centered ethics has to reckon with it.
+:::: {.columns}
+::: {.column width="50%"}
+- About **two-thirds** of medically important antibiotics sold in the U.S. go to food animals [@patel2020_stewardship], and sales rose 16% in 2024 [@fda_amr_2024].
+- Routine use breeds [antibiotic resistance]{.key-term}: bacteria that survive the drugs reach people through food, water, and farm workers.
+- Resistant infections already contribute to about **4.7 million deaths** a year; one forecast projects **8.2 million** by 2050 [@gram2024].
+:::
+::: {.column width="50%"}
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "Medically important antibiotics sold for U.S. food animals, millions of kg."
+import matplotlib.pyplot as plt
 
-- The majority of antibiotics sold in the U.S. go to **livestock**, not people — often to healthy animals, to speed growth and prevent disease in crowded barns.
-- Constant low-dose exposure breeds [antibiotic resistance]{.key-term}: bacteria that survive the drugs, then spread to humans through food, water, and workers.
-- A major 2016 review projected that drug-resistant infections could cause **10 million deaths a year by 2050** if unchecked — outpacing cancer [@oneill2016_amr].
+years = ["2015 (peak)", "2023", "2024"]
+kg = [9.70, 6.13, 7.10]
 
-The pig in the barn and the patient whose antibiotics no longer work are linked by the same practice.
+fig, ax = plt.subplots(figsize=(4.6, 3.5))
+bars = ax.bar(years, kg, color=["#94a3b8", "#94a3b8", "#c0392b"], width=0.55)
+for b, v in zip(bars, kg):
+    ax.text(b.get_x() + b.get_width() / 2, v + 0.2, f"{v:.1f}", ha="center",
+            fontsize=13, fontweight="bold", color="#0f172a")
+ax.annotate("+16% in\none year", xy=(2, 7.1), xytext=(1.45, 9.0), fontsize=10.5,
+            color="#c0392b", ha="center",
+            arrowprops=dict(arrowstyle="->", color="#c0392b", lw=1.2))
+ax.set_ylim(0, 11)
+ax.set_yticks([])
+ax.tick_params(axis="x", labelsize=11)
+ax.spines[["top", "right", "left"]].set_visible(False)
+fig.tight_layout()
+plt.show()
+```
+:::
+::::
 
 ## It Harms Humans Too: Pandemics
-
-The second human cost is the one we just lived through.
 
 :::: {.columns}
 ::: {.column width="52%"}
 - Crowding genetically similar animals together is ideal for breeding new viruses. **Avian** and **swine influenza** strains have jumped from farms to people.
-- Most experts count industrial animal agriculture and the wildlife trade among the leading **pandemic risks** of the century.
+- Many experts count industrial animal agriculture and the wildlife trade among the century's leading **pandemic risks**.
 :::
 ::: {.column width="4%"}
 :::
 ::: {.column width="44%"}
-**The convergence.** Kant and Cohen grant animals no rights — yet their human-centered view still **condemns** a system that breeds resistant bacteria and pandemic flu.
-
-Welfare reasons and self-interested human reasons point the *same* way here. That is rare, and worth noticing.
+::: {.callout-note}
+**A rare convergence.** Kant and Cohen grant animals no rights, yet their human-centered view still **condemns** a system that breeds resistant bacteria and pandemic flu. Welfare reasons and self-interested reasons point the *same* way.
+:::
 :::
 ::::
 
 ## Thought Question
 
 ::: {.thought-question}
-A hospital you work at sources its cafeteria meat from conventional industrial farms. A nurses' group proposes switching to higher-welfare, antibiotic-free suppliers — at higher cost, paid from the same budget that funds patient programs.
+Your hospital sources its cafeteria meat from conventional industrial farms. A nurses' group proposes switching to higher-welfare, antibiotic-free suppliers, at higher cost, paid from the same budget that funds patient programs.
 
 1. Is this an animal-welfare decision, a public-health decision, or both?
 2. As a nurse, can you justify the extra cost to a patient whose program might be trimmed to pay for it?
-3. Would Cohen — who grants animals no rights — have any reason to support the switch?
+3. Would Cohen, who grants animals no rights, have any reason to support the switch?
 :::
 
 ## After You've Discussed
@@ -122,400 +172,233 @@ A hospital you work at sources its cafeteria meat from conventional industrial f
 ::: {.callout-note}
 A distinction the food case forces: **direct vs. indirect harm.**
 
-The factory farm harms the pig **directly** — that is the welfare wrong. It also harms *humans* **indirectly**, through resistant bacteria and new viruses — a second, separate wrong with different victims.
+The factory farm harms the pig **directly**: that is the welfare wrong. It also harms *humans* **indirectly**, through resistant bacteria and new viruses: a second wrong with different victims.
 
-Why this matters: the two harms come apart. A reform could ease the public-health harm (ban growth-promoter antibiotics) while leaving the welfare harm untouched — and vice versa. Knowing *which* harm a policy fixes keeps you from claiming credit for both.
+The two can come apart. A reform could ease the public-health harm (ban routine antibiotic use) while leaving the welfare harm untouched, and vice versa. Knowing *which* harm a policy fixes keeps you from claiming credit for both.
 :::
-
-# Does the Research Even Work? {.section-divider}
-
-## The Translation Gap
-
-Part A defended research by its benefits. But a benefit you don't get can't justify a harm — and animal models often don't deliver.
-
-- Around **9 of every 10 drugs** that pass animal safety and efficacy tests still **fail in human trials** — for lack of effect, or for toxicity the animals never showed.
-- Species differ in ways that matter: a compound safe in mice can poison people, and a disease "cured" in a mouse routinely does nothing in patients.
-- This is the [translation gap]{.key-term}: the distance between "it worked in the animal" and "it works in the human."
-
-## Why the Gap Is an Ethical Argument
-
-The translation gap turns a scientific fact into a moral one.
-
-- The Part A defense was a **cost-benefit** trade: animal suffering is the price of human benefit. But if the data transfer poorly, the benefit shrinks — and the trade gets worse.
-- This doesn't show research is *worthless*; it shows the burden of proof is higher than the old "animals first, always" rule assumed.
-- Critics push further: in some fields, **human-based methods may predict human outcomes better** than the animal model they'd replace — making the animal use not just costly but inferior.
-
-```{python}
-#| echo: false
-#| fig-align: center
-#| fig-cap: "The drug-development attrition funnel: most compounds that clear animal testing still fail in humans (illustrative proportions)."
-import matplotlib.pyplot as plt
-
-stages = ["Pass animal\ntests", "Enter human\ntrials", "Reach\napproval"]
-vals   = [100, 100, 10]
-widths = [v for v in vals]
-fig, ax = plt.subplots(figsize=(7.4, 2.7))
-# Sequential ramp: attrition is ordered, so one hue light -> dark, not three hues.
-colors = ["#93d1d8", "#3fa8b4", "#0e7c86"]
-texts  = ["#0f172a", "#0f172a", "#ffffff"]
-for i, (s, w, c, tc) in enumerate(zip(stages, widths, colors, texts)):
-    left = (100 - w) / 2
-    ax.barh(2 - i, w, left=left, color=c, edgecolor="#0e7c86", linewidth=0.8)
-    ax.text(50, 2 - i, f"{s}  ({vals[i]}%)", ha="center", va="center",
-            fontsize=10, color=tc, fontweight="bold")
-ax.set_xlim(0, 100); ax.set_ylim(-0.5, 2.5)
-ax.axis("off")
-plt.tight_layout()
-plt.show()
-```
-
-## What the Regulators Are Doing
-
-For the first time, law is moving away from mandatory animal testing.
-
-- The U.S. **FDA Modernization Act 2.0 (2022)** ended the blanket requirement that new drugs be animal-tested, allowing validated **non-animal methods** — organ-on-a-chip, cell models, computer simulation [@fda_modernization2022].
-- The **European Union** has committed to a **roadmap to phase out animal testing** for chemical safety, setting milestones toward replacement [@ec2025_roadmap].
-- Direction of travel: from "animals unless impossible" toward "non-animal where validated."
-
-## The Honest Reply
-
-Balance matters: the phase-out is a goal, not a finished capability.
-
-:::: {.columns}
-::: {.column width="52%"}
-- A chip with human cells can model a liver's response — but **not** a whole immune system, a developing brain, or a years-long disease.
-- For now, some questions genuinely require a living, whole organism. The replacements are improving fast but are **not yet complete**.
-:::
-::: {.column width="4%"}
-:::
-::: {.column width="44%"}
-So the debate is no longer "research: yes or no?" It is **how fast** we can replace it, and **who bears the risk** of moving before the alternatives are proven.
-
-Singer and Regan both welcome replacement — for different reasons. Less suffering; fewer rights violated.
-:::
-::::
 
 # The High-Tech, Low-Number Use {.section-divider}
 
 ## Why Xenotransplantation
 
-The pressure behind it is a body count of a different kind.
-
-- More than **108,000 Americans** were on the transplant waiting list as of late 2025 — about **94,000** of them waiting for a kidney; roughly **17 die each day** before an organ arrives.
-- [Xenotransplantation]{.key-term} — transplanting organs from another species — promises an unlimited supply, grown to order.
-- The species of choice is the **pig**: organs the right size, fast breeding, decades of surgical familiarity. The obstacle was always rejection — the human body destroys pig tissue within minutes.
+- More than **100,000** Americans are on the transplant waiting list, most of them (86%) for a kidney, and about **13 die each day** waiting.
+- [Xenotransplantation]{.key-term}, transplanting organs from another species, promises an unlimited supply, grown to order.
+- The species of choice is the **pig**: organs the right size, fast breeding, decades of surgical familiarity. The obstacle was always rejection: the human body destroys ordinary pig tissue within minutes.
 
 ## How You Build a Transplant Pig
 
 The breakthrough was genetic, not surgical. CRISPR lets researchers edit a pig so its organs survive in a human body.
 
-```{dot}
-//| fig-width: 9.5
-digraph xeno {
-  rankdir=LR;
-  graph [bgcolor="transparent"];
-  node [shape=box, style="rounded,filled", fontname="Inter", fontsize=11,
-        fillcolor="#e6f1f2", color="#0e7c86", fontcolor="#0f172a",
-        penwidth=1.4, margin="0.20,0.13"];
-  edge [color="#0e7c86", arrowhead=vee, penwidth=1.3];
-  a [label="Knock OUT pig genes\n• alpha-gal & other sugars\n  (trigger instant rejection)"];
-  b [label="Inactivate PERVs\n• pig retroviruses in the\n  genome (infection risk)"];
-  c [label="Knock IN human genes\n• regulate clotting &\n  inflammation"];
-  d [label="Pig organ tolerated\nby the human body",
-     fillcolor="#0e7c86", fontcolor="#ffffff", color="#095058"];
-  a -> b -> c -> d;
-}
-```
-
-A transplant pig may carry **a dozen or more edits** — some removing pig features the body attacks, some adding human ones it accepts.
-
-## The Cases So Far
-
-The era of human xenotransplantation began in 2022 and is moving fast — fast enough that this chart needs checking every term.
-
 ```{python}
-#| label: fig-xeno-survival
-#| fig-align: center
-#| fig-width: 9.5
-#| fig-height: 4.0
 #| echo: false
-#| fig-alt: "Bar chart of days survived with a gene-edited pig organ. Bennett 2022 about 60 days; Faucette 2023 about 42; Slayman 2024 about 60; Looney 2024-25 130 days; Andrews 2025-26 271 days."
+#| fig-align: center
 import matplotlib.pyplot as plt
+from matplotlib.patches import FancyBboxPatch
 
-# Update this list each term. Days the transplanted organ functioned.
-rows = [
-    ("David Bennett",     "2022 · heart",     60,  True),   # True = approximate
-    ("Lawrence Faucette", "2023 · heart",     42,  True),
-    ("Rick Slayman",      "2024 · kidney",    60,  True),
-    ("Towana Looney",     "2024–25 · kidney", 130, False),
-    ("Tim Andrews",       "2025–26 · kidney", 271, False),
+steps = [
+    ("Knock OUT\npig genes", "sugars that trigger\ninstant rejection", "#e6f1f2", "#0e7c86"),
+    ("Inactivate\npig viruses", "hidden in the\npig genome", "#e6f1f2", "#0e7c86"),
+    ("Knock IN\nhuman genes", "to calm clotting\nand inflammation", "#e6f1f2", "#0e7c86"),
+    ("A tolerated\norgan", "the body accepts it,\nfor a time", "#0e7c86", "#095058"),
 ]
-
-TEAL, INK, MUTED, RULE = "#0a95a3", "#0f172a", "#64748b", "#e5e7eb"
-plt.rcParams["font.family"] = ["Inter", "DejaVu Sans", "sans-serif"]
-
-fig, ax = plt.subplots(figsize=(9.5, 4.0))
-labels = [f"{name}\n{meta}" for name, meta, _, _ in rows]
-days   = [d for _, _, d, _ in rows]
-ypos   = range(len(rows))
-
-ax.barh(ypos, days, height=0.62, color=TEAL, zorder=3)
-
-for y, (_, _, d, approx) in zip(ypos, rows):
-    ax.text(d + 6, y, f"{'~' if approx else ''}{d}", va="center",
-            fontsize=11, fontweight="600", color=INK, zorder=4)
-
-ax.set_yticks(list(ypos))
-ax.set_yticklabels(labels, fontsize=10, color=INK)
-ax.invert_yaxis()                       # chronological, top to bottom
-ax.set_xlim(0, 310)
-ax.set_xticks([0, 100, 200, 300])
-ax.tick_params(axis="x", colors=MUTED, labelsize=10, length=0)
-ax.tick_params(axis="y", length=0)
-ax.set_xlabel("days the organ functioned", fontsize=10, color=MUTED, labelpad=8)
-
-ax.xaxis.grid(True, color=RULE, linewidth=1, zorder=0)
-ax.set_axisbelow(True)
-for side in ("top", "right", "left"):
-    ax.spines[side].set_visible(False)
-ax.spines["bottom"].set_color(RULE)
-
-ax.set_title("How long each pig organ lasted", fontsize=14, fontweight="700",
-             color=INK, loc="left", pad=14)
-fig.text(0.005, -0.03,
-         "Andrews received a human kidney in January 2026 — the first time a pig organ "
-         "bridged a patient to a human transplant.",
-         fontsize=9, color=MUTED)
-
-plt.tight_layout()
+w, gap = 2.3, 0.5
+fig, ax = plt.subplots(figsize=(10, 2.3))
+for i, (title, body, fill, edge) in enumerate(steps):
+    x = i * (w + gap)
+    last = i == len(steps) - 1
+    ax.add_patch(FancyBboxPatch((x, 0), w, 1, boxstyle="round,pad=0.02,rounding_size=0.08",
+                                fc=fill, ec=edge, lw=1.8))
+    ax.text(x + w / 2, 0.7, title, ha="center", va="center", fontsize=14.5,
+            fontweight="bold", color="white" if last else "#0f172a", linespacing=1.1)
+    ax.text(x + w / 2, 0.26, body, ha="center", va="center", fontsize=12,
+            color="white" if last else "#334155", linespacing=1.25)
+    if not last:
+        ax.annotate("", xy=(x + w + gap - 0.03, 0.5), xytext=(x + w + 0.03, 0.5),
+                    arrowprops=dict(arrowstyle="-|>", color="#6b7280", lw=1.6))
+ax.set_xlim(-0.05, len(steps) * w + (len(steps) - 1) * gap + 0.05); ax.set_ylim(-0.05, 1.05)
+ax.axis("off")
+fig.tight_layout(pad=0.2)
 plt.show()
 ```
 
-Each patient was out of options. Each result taught the field something — and each death raised the question of whether the attempt was justified.
+A transplant pig may carry **a dozen or more edits**, some removing pig features the body attacks, some adding human ones it accepts.
 
-::: {.content-visible when-format="revealjs"}
-- **From rescue to trial.** In 2025 the FDA cleared the first real xenotransplant trials. Xeno now has a **clinical equipoise** problem it did not have before.
-- **Andrews crossed a bridge.** 271 days on a pig kidney — then a *human* one.
-:::
+## The Cases So Far
 
-:::: {.content-visible when-format="html"}
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-alt: "Bar chart of days a gene-edited pig organ functioned in living patients: Bennett 2022 heart about 60; Faucette 2023 heart about 40; Slayman 2024 kidney 52; Pisano 2024 kidney 47; Looney 2024-25 kidney 130; Andrews 2025 kidney 271; an unnamed Mass General patient, kidney transplanted November 2025, still working at 290 days in September 2026."
+import matplotlib.pyplot as plt
 
-| Patient | Year | Organ | Outcome |
-|---|---|---|---|
-| **David Bennett** | 2022 | pig heart | lived ~2 months; first in a living human [@griffith2022_xeno] |
-| **Lawrence Faucette** | 2023 | pig heart | lived ~6 weeks |
-| **Rick Slayman** | 2024 | pig kidney | first in a living patient; lived ~2 months |
-| **Towana Looney** | 2024–25 | pig kidney | organ removed after **130 days** |
-| **Tim Andrews** | 2025–26 | pig kidney | **271 days** — longest to date; then received a *human* kidney |
+rows = [  # name, year and organ, days, ongoing
+    ("David Bennett", "2022 · heart", 60, False),
+    ("Lawrence Faucette", "2023 · heart", 40, False),
+    ("Rick Slayman", "2024 · kidney", 52, False),
+    ("Lisa Pisano", "2024 · kidney", 47, False),
+    ("Towana Looney", "2024–25 · kidney", 130, False),
+    ("Tim Andrews", "2025 · kidney", 271, False),
+    ("Unnamed patient", "2025–26 · kidney", 290, True),
+]
+fig, ax = plt.subplots(figsize=(9.4, 3.4))
+for y, (name, meta, d, ongoing) in enumerate(rows):
+    ax.barh(y, d, height=0.62, color="#0e7c86" if not ongoing else "white",
+            edgecolor="#0e7c86", hatch="///" if ongoing else None, lw=1.4, zorder=3)
+    label = f"{d}+ and counting (Sept 2026)" if ongoing else (f"~{d}" if name in ("David Bennett", "Lawrence Faucette") else f"{d}")
+    ax.text(d + 5, y, label, va="center", fontsize=10.5, fontweight="bold", color="#0f172a")
+ax.set_yticks(range(len(rows)), [f"{n}\n{m}" for n, m, _, _ in rows], fontsize=9.5)
+ax.invert_yaxis()
+ax.set_xlim(0, 430)
+ax.set_xlabel("days the pig organ functioned", fontsize=10, color="#64748b")
+ax.xaxis.grid(True, color="#e5e7eb", zorder=0)
+ax.spines[["top", "right", "left"]].set_visible(False)
+fig.tight_layout()
+plt.show()
+```
 
-::: {.context-box}
-**Two things changed the question in 2025–26.**
-
-**1. It stopped being a series of one-offs and became a clinical trial.** In 2025 the FDA cleared the first true xenotransplant trials. Two companies, two strategies: **United Therapeutics** (the EXPAND study, using a **10**-gene-edited pig kidney; first patient transplanted at NYU Langone in November 2025) and **eGenesis** (a **69**-gene-edited pig kidney). Until now, every patient was an individual rescue attempt under compassionate-use rules. A trial means enrollment criteria, controls, and — crucially — patients who are *not* out of options in quite the same way. Recall the Chapter 3 vocabulary: this is the moment xenotransplantation acquires a **clinical equipoise** problem it did not previously have.
-
-**2. Tim Andrews crossed a bridge.** Andrews, a 67-year-old retired engineer from New Hampshire, received a 69-gene-edited pig kidney in January 2025. He lived with it **271 days** — surpassing Looney's 130 — before declining function forced its removal in October 2025 and he returned to dialysis [@cnn2025_andrews_271days]. Then, in **January 2026**, he received a **human** kidney [@cnn2026_xeno_bridge].
-
-That last step reframes the entire enterprise. If a pig organ can keep someone alive and off dialysis long enough to reach a human transplant, then xenotransplantation may not need to be a *permanent replacement* to be worth doing. It could be a **bridge** — the way a ventricular assist device bridges a patient to a heart. A bridge is a far easier ethical case to make than a cure: it needs to work for months, not decades.
-
-**Write or discuss:** Does reframing xeno organs as a *bridge* rather than a *destination* change whether Bennett's 2022 surgery was justified? Does it change what you must tell the next patient in the consent conversation?
-:::
-::::
+In 2025 the FDA cleared the first formal **trials**: an equipoise problem, not just a rescue. And two patients, including Tim Andrews, used a pig kidney as a **bridge** to a human one [@egenesis2026_update].
 
 ## What Makes Xeno Ethically Distinct
 
-Three problems set xenotransplantation apart from an ordinary transplant.
-
-- **Animal welfare:** the source pigs live their whole lives in sterile isolation, engineered and monitored as living organ factories.
-- **Risk to the public:** a pig virus could cross into the patient and then **spread to others** — a [xenozoonosis]{.key-term}. The patient consents; the **public can't**, yet shares the risk.
+- **Animal welfare:** source pigs live their whole lives in sterile isolation, engineered and monitored as living organ factories.
+- **Risk to the public:** a pig virus could cross into the patient and then **spread to others**, a [xenozoonosis]{.key-term}. The patient consents; the **public can't**, yet shares the risk.
 - **Consent under desperation:** a dying patient offered a first-of-its-kind organ is not a free chooser in the ordinary sense. Is that consent, or a cornered hope?
 
-## Make It Contemporary
-
-::: {.thought-question}
-David Bennett received his pig heart under an FDA "compassionate use" exception — he was too sick for the transplant waitlist. He lived two months. His son said the family hoped the attempt would "help future patients."
-
-1. Was it ethical to offer a brand-new, likely-fatal procedure to a man with no other options — or did desperation make real consent impossible?
-2. Xenozoonosis risk falls on the whole community. Who should get a say in approving these surgeries — only patient and doctor, or the public too?
-3. If the first heart transplant patients (1967) also died within weeks, does that make these attempts pioneering, or reckless?
-:::
+The paired case follows one patient through all three.
 
 # The Ranking That Surprises People {.section-divider}
 
 ## The Ledger
 
-Here is the tool promised at the start. Rank an animal use by three questions.
-
-- **Scale** — how many animals? (one pig, or tens of billions?)
-- **Necessity** — is there an easy alternative? (a salad, or nothing?)
-- **Benefit** — how large is the human good? (a flavor, or a life?)
-
-A use scores **badly** when it is high-scale, unnecessary, and low-benefit — and **well** when it is low-scale, necessary, and high-benefit.
-
-## Filling It In
+Rank a use by **scale** (how many animals?), **necessity** (is there an alternative?), and **benefit** (how big is the good?).
 
 | Use | Scale | Necessity | Benefit | Verdict |
 |---|---|---|---|---|
-| **Factory-farmed bacon** | tens of billions | easily avoided | taste / cost | **worst** |
-| **Cosmetic rabbit test** | millions | avoidable (alternatives exist) | vanity product | bad |
+| **Factory-farmed bacon** | billions | easily avoided | taste, cost | **worst** |
+| **Cosmetic rabbit test** | many | avoidable | a beauty product | bad |
 | **Pig-heart transplant** | one pig | no alternative | a human life | **best** |
-| **Smarter lab mouse** | few | — | research gain, *but…* | (see frontier) |
+| **Smarter lab mouse** | few | — | research gain, *but…* | (see the frontier) |
 
-Read the top and bottom rows together: the **everyday cheeseburger** scores worse than the **headline-grabbing transplant.**
+The **everyday cheeseburger** scores worse than the **headline-grabbing transplant.**
 
 ## Why Singer Accepts the Pig Heart
 
-This is the result that unsettles people — and it is perfectly consistent.
+This is the result that unsettles people, and it is perfectly consistent.
 
 - Singer opposes factory farming *because* it is vast suffering for a trivial, replaceable interest. The same logic, applied to xenotransplantation, points the other way.
 - **One** pig, humanely raised, to save a human life with no alternative, is exactly the trade a utilitarian can endorse.
-- So an arch-critic of how we treat animals can **support** pig-heart transplants. The thing that feels "worse" because it is high-tech is, by the numbers, far better.
+- So an arch-critic of how we treat animals can **support** pig-heart transplants.
 
 The lesson: **"creepy" and "wrong" are different properties.** Novelty triggers disgust; ethics tracks suffering, necessity, and benefit.
 
 ## Why Regan Won't Rank Them
-
-The rights view from Part A refuses the whole exercise — and that refusal is the strongest objection to the ledger.
 
 ::: {.argument}
 ::: {.arg-name}
 The Rights Objection to the Ledger
 :::
 ::: {.arg-source}
-After Tom Regan, *The Case for Animal Rights*
+After Tom Regan, *The Case for Animal Rights* (1983) [@regan1983]
 :::
 
 1. A subject-of-a-life has a right not to be used merely as a means to others' ends.
-2. The transplant pig is killed precisely *as a means* — to harvest its heart.
+2. The transplant pig is killed precisely *as a means*: to harvest its heart.
 3. Rights are not outweighed by good consequences, however large, or by small numbers.
-4. So the pig-heart transplant violates the pig's rights — and "only one pig" is no defense.
+4. So the pig-heart transplant violates the pig's rights, and "only one pig" is no defense.
 :::
 
-For Regan, the ledger commits the original sin of utilitarianism: it prices a life that should be **off the market.** Where you land depends on the theory you brought from Part A.
+The rights view refuses the whole exercise. For Regan, the ledger prices a life that should be **off the market**.
 
 # The Frontier: Smarter Animals {.section-divider}
 
-## Uplifting
-
-The fourth row of the ledger needs its own treatment, because it changes the rules.
-
-- [Uplifting]{.key-term} means deliberately raising an animal's cognitive capacities — by gene editing, drugs, or adding human cells — for example, to build a more capable research subject or a better working animal.
-- Recall the enhancement debate from genomics: we asked whether to enhance *humans*. Here the target is the animal.
-- It sounds like science fiction, but its first pieces already exist in the lab.
-
-## The Paradox
-
-Uplifting turns the moral-status question back on us.
+## Uplifting, and Its Paradox
 
 :::: {.columns}
 ::: {.column width="52%"}
-- In Part A, **capacities earned moral status** — sentience, being a subject-of-a-life, having a good of one's own.
-- So if we *raise* an animal's capacities, we **raise its moral status** — and our duties to it grow.
-- The better we make a research animal, the **less** we may be permitted to use it. Success defeats its own purpose.
+[Uplifting]{.key-term} means deliberately raising an animal's cognitive capacities (by gene editing, drugs, or adding human cells), for example to build a more capable research subject.
+
+Recall the enhancement debate from genomics: there the target was *humans*. Here it is the animal.
 :::
 ::: {.column width="4%"}
 :::
 ::: {.column width="44%"}
-We would be **manufacturing the very thing that obligates us** — creating a creature, then owing it more *because* of what we made it.
-
-Korsgaard's "fellow creatures" compounds the worry: uplifting could create fellows we never intended to have.
+::: {.callout-important}
+**The paradox.** In Part A, capacities *earned* moral status. So if we raise an animal's capacities, we **raise its moral status**, and our duties to it grow. The better we make a research animal, the **less** we may be permitted to use it.
+:::
 :::
 ::::
 
 ## It's Already Real
 
-The pieces are not hypothetical.
-
-- In 2022 Stanford researchers transplanted **human brain organoids** — clusters of human neurons — into rat brains, where they grew, wired in, and influenced the rats' behavior [@revah2022_chimera].
-- Such [chimeras]{.key-term} (animals carrying human cells) are made to study human disease — but they create beings of **ambiguous status:** how much human neural tissue is too much?
+- In 2022, Stanford researchers transplanted **human brain organoids** (clusters of human neurons) into rat brains, where they grew, wired in, and influenced the rats' behavior [@revah2022_chimera].
+- Such [chimeras]{.key-term} (animals carrying human cells) are made to study human disease, but they create beings of **uncertain status**: how much human neural tissue is too much?
 - Regulators now draw uneasy lines around how far this may go, especially for human cells in animal **brains** and reproductive systems.
 
 ## Thought Question
 
+:::: {.columns}
+::: {.column width="64%"}
 ::: {.thought-question}
-A lab proposes engineering mice with substantially **human-like memory and problem-solving**, to make Alzheimer's research more accurate. The mice would be smarter — and, by Part A's own criteria, would have **higher moral status.**
+A lab proposes engineering mice with substantially **human-like memory and problem-solving**, to make Alzheimer's research more accurate. The mice would be smarter, and by Part A's own criteria, would have **higher moral status.**
 
-1. Does making the mouse smarter make it *more* wrong to experiment on — even though the point was better research?
+1. Does making the mouse smarter make it *more* wrong to experiment on, even though the point was better research?
 2. Is there a level of enhancement past which the "animal" should get human-like protections? Where, and decided by whom?
-3. Could it ever be **kinder** to refuse to uplift — to not create a being whose new capacities only deepen its suffering in a cage?
+3. Could it ever be **kinder** to refuse to uplift: not to create a being whose new capacities only deepen its suffering in a cage?
 :::
+:::
+::: {.column width="36%"}
+![](../images/lab_mice_nhgri.jpg){width="100%" fig-alt="Two laboratory mice, one brown and one black, resting on a researcher's gloved palm."}
+
+::: {.attribution}
+A gene-knockout mouse beside an ordinary one. Maggie Bartlett, NHGRI. Public domain.
+:::
+:::
+::::
 
 ## After You've Discussed
 
 ::: {.callout-note}
 A new distinction the frontier forces: **moral status as discovered vs. created.**
 
-All of Part A treated status as something we *discover* — we investigate an animal and find out how much it matters. Uplifting and chimeras make status something we can **create**: we decide, in the lab, how much a being will matter, and thereby how much we'll owe it.
+All of Part A treated status as something we *discover*: we investigate an animal and find out how much it matters. Uplifting and chimeras make status something we can **create**: we decide, in the lab, how much a being will matter, and so how much we'll owe it.
 
-That is genuinely new in ethics. We are used to asking "what do we owe this creature?" We are not used to choosing, in advance, **how much we'll be obligated** — and then building the creature to match.
+That is new in ethics. We are used to asking "what do we owe this creature?" We are not used to choosing, in advance, **how much we'll be obligated**, and then building the creature to match.
 :::
 
 # Connecting Threads {.section-divider}
 
 ## The Course, Applied to Animals
 
-The moral-status question runs under half this course. Each chapter offered a criterion — and each one can be aimed at animals.
+Many of this course's arguments were about who counts and why. Each one can be aimed at the transplant pig.
 
-```{dot}
-//| fig-width: 9.5
-digraph threads {
-  rankdir=LR;
-  graph [bgcolor="transparent"];
-  node [shape=box, style="rounded,filled", fontname="Inter", fontsize=10,
-        fillcolor="#e6f1f2", color="#0e7c86", fontcolor="#0f172a",
-        penwidth=1.4, margin="0.18,0.11"];
-  edge [color="#94a3b8", arrowhead=vee, penwidth=1.2];
-  center [label="Does it apply\nto animals?", shape=ellipse,
-          fillcolor="#0e7c86", fontcolor="#ffffff", color="#095058"];
-  a [label="Abortion:\n'future like ours'\n(Marquis)"];
-  g [label="Genetics:\nmaking a being\nto be used"];
-  e [label="End of life:\nkilling for benefit"];
-  s [label="Status:\nsentience, subject-\nof-a-life"];
-  a -> center; g -> center; e -> center; s -> center;
-}
-```
+| Earlier in the course | The argument | Aimed at the pig |
+|---|---|---|
+| **Abortion** | killing is wrong because it takes a "future like ours" (Marquis) | the pig has a future of experiences too |
+| **Genetics** | a savior sibling is a child *made to be used* | the transplant pig is made, born, and killed to be used |
+| **End of life** | humans may accept risk or death for others, *by choice* | the pig is killed for benefit, and never chooses |
+| **Moral status** | sentience; being a subject-of-a-life | pigs plainly qualify on both |
 
-We'll walk three of these, because each *changes its verdict* when the patient is a pig.
+Each argument changes its verdict, or reveals special pleading, when the patient is a pig.
 
-## Thread 1 — The Argument from Abortion
+## Marquis and the Pig
 
 ::: {.thought-question}
-Don Marquis argued abortion is wrong because it deprives the fetus of a [future like ours]{.key-term} — a future of valuable experiences [@marquis1989]. The fetus isn't conscious yet, but it has that future to lose.
+Don Marquis argued abortion is wrong because it deprives the fetus of a [future like ours]{.key-term}: a future of valuable experiences [@marquis1989]. The fetus isn't conscious yet, but it has that future to lose.
 
-Now apply it. A healthy pig also has a future of experiences it values — and the transplant ends it.
+A healthy pig also has a future of experiences, and the transplant ends it.
 
 1. If a valuable future makes killing a fetus wrong, why doesn't a pig's future make killing the pig wrong?
-2. Can you keep Marquis's argument against abortion **and** eat bacon — without special pleading?
+2. Can you keep Marquis's argument against abortion **and** eat bacon, without special pleading?
 3. Does the pig's future differ from a human's in a way that *matters*, or only in a way that's *convenient*?
 :::
-
-## Threads 2 and 3 — Genetics and End of Life
-
-Two more callbacks, stated briefly so you can carry them into discussion.
-
-:::: {.columns}
-::: {.column width="48%"}
-**From genetics.** We worried about creating a **savior sibling** — a child conceived to donate to another. A transplant pig is engineered, born, and killed to be used. Is "made to be used" worse for a person than for a pig — and is *creating* a life for parts different from *taking* one?
-:::
-::: {.column width="4%"}
-:::
-::: {.column width="48%"}
-**From end of life.** We let humans accept risk or death for others (research subjects, living donors). The pig's death is **killing for benefit**, without consent. Is that worse than the risks we let humans choose — or does the pig's inability to consent change the kind of act it is?
-:::
-::::
-
-# Where This Leaves Us {.section-divider}
 
 ## Wrap-Up
 
 ::: {.recap}
-We ranked four uses of animals and built a tool — **scale, necessity, benefit** — that reorders our intuitions: the industrial cheeseburger comes out worse than the gene-edited pig heart, and a critic of factory farming like Singer can consistently accept xenotransplantation. Regan's rights view refuses the ranking entirely, which is why the verdict still depends on the theory you hold. Along the way the food system showed how animal harm and **human** harm converge — antibiotic resistance, pandemics — and the frontier of **uplifting** showed we can now *create* the moral status we then must honor. The threads from abortion, genetics, and end-of-life all reach the same pig, and none of them lets us off easily.
+We ranked four uses of animals and built a tool (**scale, necessity, benefit**) that reorders our intuitions: the industrial cheeseburger comes out worse than the gene-edited pig heart, and a critic of factory farming like Singer can consistently accept xenotransplantation. Regan's rights view refuses the ranking, so the verdict still depends on the theory you hold. The food system showed animal and **human** harms converging; the frontier of **uplifting** showed we can now *create* the moral status we must then honor.
 :::
 
-## Paired Case
-
-The whole lecture comes down to one operating room and one desperate patient.
-
-> **Paired case:** [David Bennett and the First Pig-Heart Transplant](../cases/12-bennett-xenotransplant.qmd)
+> **Paired case:** [David Bennett and the First Pig-Heart Transplant](../cases/12-bennett-xenotransplant.qmd): one desperate patient, one designed animal, and a public that never consented.
 
 ## Review Questions
 
@@ -536,28 +419,36 @@ A company wants to gene-edit chickens to grow faster and resist a barn virus, cu
 ::: {.review-item .review-debate}
 [Debate]{.review-label}
 
-If we could uplift research animals to get better data, should we — knowing that doing so raises their moral status and our duties to them? Defend a yes or a no.
+Is it ethically justified to genetically modify and raise pigs so their organs can be transplanted into people? Defend a yes or a no, and answer the strongest objection from the other side (Singer's ledger or Regan's rights view).
 :::
 
 :::
 
-## Key Terms
+## Key Terms {.dense}
 
-- **CAFO** — concentrated animal feeding operation; the high-density industrial farm model.
+:::: {.columns}
+::: {.column width="48%"}
+- **CAFO** — concentrated animal feeding operation; the high-density industrial farm.
 - **Antibiotic resistance** — bacteria evolving to survive drugs; driven partly by routine livestock use.
-- **Translation gap** — the frequent failure of animal results to predict human outcomes.
+- **Direct vs. indirect harm** — harm to the animal itself vs. harm to humans through the same practice.
 - **Xenotransplantation** — transplanting organs or tissue from another species into humans.
-- **Xenozoonosis** — an infection crossing from the source animal to the human recipient and potentially the public.
+- **Xenozoonosis** — an infection crossing from the source animal to the recipient, and possibly the public.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+- **Scale–necessity–benefit ledger** — ranking animal uses by number harmed, alternatives, and size of the good.
 - **Uplifting** — deliberately enhancing an animal's cognitive capacities.
-- **Chimera** — an organism containing cells from another species, e.g., human neurons in an animal brain.
-- **Future like ours (Marquis)** — the view that killing is wrong because it deprives a being of a valuable future.
-- **Scale–necessity–benefit ledger** — the framework for ranking animal uses by number harmed, availability of alternatives, and size of the good.
+- **Chimera** — an organism containing cells from another species.
+- **Future like ours** — Marquis: killing is wrong because it deprives a being of a valuable future.
+:::
+::::
 
 ## Further Reading
 
-- Singer, Peter. *Animal Liberation Now*. Harper Perennial, 2023 — the updated case against industrial farming.
-- Griffith, Bartley P., et al. "Genetically Modified Porcine-to-Human Cardiac Xenotransplantation." *New England Journal of Medicine*, 2022 — the Bennett case, by the surgical team.
-- Korsgaard, Christine. *Fellow Creatures*. Oxford University Press, 2018 — duties to animals, including the created ones.
+- Singer, Peter. *Animal Liberation Now*. Harper Perennial, 2023: the updated case against industrial farming.
+- Griffith, Bartley P., et al. "Genetically Modified Porcine-to-Human Cardiac Xenotransplantation." *New England Journal of Medicine*, 2022: the Bennett case, by the surgical team.
+- Korsgaard, Christine. *Fellow Creatures*. Oxford University Press, 2018: duties to animals, including the created ones.
 
 ## References
 

@@ -30,6 +30,11 @@ candidates** and need a click-through before use.
 | `hrsa_mental_health_hpsa_map_2026.jpg` | 10B, "The 3 a.m. Problem" | Public domain (HRSA map gallery, Nov 5, 2026; logo banner cropped) |
 | `asl_workshop_usaf.jpg` | 11B, Deaf-couple thought question | Public domain (U.S. Air Force, Brandon Esau, 2018) |
 | `disabled_and_here_notes.jpg` | 11B, "How You Talk Is Part of the Care" | CC BY 4.0 (Chona Kasinger for Disabled And Here) |
+| `banting_best_1921.jpg` | 12A, "Why Animal Research Happens" | Public domain (Library and Archives Canada, C-001350) |
+| `lung_on_chip_wyss.jpg` | 12A, "Replacing Animals" | CC BY 2.0 (Wyss Institute, via NIH-NCATS) |
+| `nih_lab_monkey_1966.jpg` | 12A, "Why Primates Are Used, and Contested" | Public domain (NIH, via National Library of Medicine) |
+| `hog_barn_usda.jpg` | 12B, "What That Number Looks Like" | Public domain (Jeff Vanuga, USDA NRCS) |
+| `lab_mice_nhgri.jpg` | 12B, uplifting thought question | Public domain (Maggie Bartlett, NHGRI) |
 
 ### Corrections to this plan
 
