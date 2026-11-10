@@ -287,9 +287,8 @@ A Deaf couple comes to your fertility clinic. Both are fluent in ASL and deeply 
 
 You are on the clinic's ethics committee.
 
-1. Is selecting *for* Deafness morally different from selecting *against* it? Or are they the same act in two directions?
-2. Does the future child's inability to consent change who should decide?
-3. Could you write a policy that lets parents select *out* but not *in*, without assuming the answer to today's whole debate?
+1. Is there something about you or your family (a language, a faith, a culture, a trait) that outsiders might count as a disadvantage, but that you would want your child to share?
+2. The committee has to vote. Do you allow it? Is selecting *for* Deafness morally different from selecting *against* it, or the same act in two directions?
 :::
 :::
 ::: {.column width="36%"}
@@ -348,15 +347,14 @@ You sit on a hospital ethics board. A colleague argues: "Body integrity dysphori
 
 Another colleague answers: "Same shape, different substance. The analogy is a rhetorical trap."
 
-1. State the strongest version of the analogy in one sentence.
-2. State the strongest **disanalogy** in one sentence.
-3. Does the argument turn on logic, or on evidence? Where exactly?
+1. Think of a time someone told you "that's just like…" about two things you felt were different. What made the comparison fair, or unfair?
+2. Which colleague do you side with? What is the best point the other one has?
 :::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-The distinction that removes most of the heat: **structural analogy vs. evidential analogy.**
+Whichever colleague you sided with, one distinction removes much of the heat: **structural analogy vs. evidential analogy.**
 
 Two conditions can share a *structure* (distress, a request to alter the body, relief) while differing entirely in their *evidence*: how large the outcome studies are, how reversible the intervention is, how the diagnosis behaves over time. An argument that rides the structural likeness all the way to "treat them identically" has skipped the evidential question, which is the one doing the real work.
 

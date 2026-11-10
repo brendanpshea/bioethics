@@ -162,9 +162,8 @@ plt.show()
 ::: {.thought-question}
 Your hospital sources its cafeteria meat from conventional industrial farms. A nurses' group proposes switching to higher-welfare, antibiotic-free suppliers, at higher cost, paid from the same budget that funds patient programs.
 
-1. Is this an animal-welfare decision, a public-health decision, or both?
-2. As a nurse, can you justify the extra cost to a patient whose program might be trimmed to pay for it?
-3. Would Cohen, who grants animals no rights, have any reason to support the switch?
+1. Have you ever paid more, or gone without, for something you thought was right: cage-free eggs, fair-trade coffee, a boycott? Should an institution make that choice for everyone who eats there?
+2. Do you vote for the switch? What do you say to the patient whose program might be trimmed to pay for it?
 :::
 
 ## After You've Discussed
@@ -388,8 +387,7 @@ Don Marquis argued abortion is wrong because it deprives the fetus of a [future 
 A healthy pig also has a future of experiences, and the transplant ends it.
 
 1. If a valuable future makes killing a fetus wrong, why doesn't a pig's future make killing the pig wrong?
-2. Can you keep Marquis's argument against abortion **and** eat bacon, without special pleading?
-3. Does the pig's future differ from a human's in a way that *matters*, or only in a way that's *convenient*?
+2. Something has to give: Marquis's argument, the bacon, or the claim that the two futures are alike. Which one do you give up, and what does it cost you?
 :::
 
 ## Wrap-Up

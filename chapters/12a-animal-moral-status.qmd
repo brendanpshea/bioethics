@@ -22,9 +22,8 @@ format:
 
 You will give this drug to patients someday if it passes. Tonight you vote on whether it gets made.
 
-1. What would you need to know before voting yes?
-2. Is there any version of this study you would refuse to approve, no matter the benefit to patients?
-3. Does it matter that the test animals are *monkeys* rather than *mice*? Why or why not?
+1. How do you vote tonight: yes, no, or not yet? What is the one thing that would flip your vote?
+2. Does it matter that the animals are *monkeys* rather than *mice*? Think of an animal you have known well: a pet, a farm animal, a working animal. Does knowing it change your vote? Should it?
 :::
 
 ## After You've Discussed
@@ -189,7 +188,7 @@ The science keeps moving the line. Primatologist Frans de Waal documented chimps
 
 In 2022, after a government-commissioned scientific review, the United Kingdom's Animal Welfare (Sentience) Act recognized **octopuses, crabs, and lobsters** as sentient.
 
-1. If sentience is the criterion, where does the new evidence push the line?
+1. Have you ever changed what you eat, buy, or do because of something you learned about an animal? What did it take? If not, what would it take?
 2. Should the *law* track the latest cognitive science, or stay simpler and more stable?
 :::
 
@@ -410,9 +409,8 @@ Valentina Storti, via Wikimedia Commons. CC BY 2.0.
 ::: {.thought-question}
 You are back on the IACUC. A respected neuroscientist submits a protocol: implant electrodes in the brains of **four macaques** to study how memory forms. The work could, in a decade, help patients with Alzheimer's. The monkeys will live in the lab for years and be euthanized at the end.
 
-1. Which questions from the **3 Rs** do you ask first?
-2. What single fact would most change your vote: fewer animals? guaranteed pain control? a stronger medical payoff?
-3. Cohen says approve it; Regan says never. Whose burden of proof feels heavier to *you*, and why?
+1. How do you vote? What single fact would most change it: fewer animals? guaranteed pain control? a stronger medical payoff?
+2. Cohen says approve it; Regan says never. Whose burden of proof feels heavier to *you*, and why?
 :::
 
 ## After You've Discussed

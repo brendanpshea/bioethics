@@ -22,7 +22,7 @@ format:
 
 You are the clinic nurse, and both parents ask what you think.
 
-1. What facts would you most want before answering, and which of them are actually knowable?
+1. Think of a big decision made by you, or for you, around age 15. Looking back, who should have had the final say?
 2. Whose judgment should carry the most weight here: Riley's, the parents', the clinicians', or the state's? What earns that weight?
 :::
 
@@ -307,9 +307,8 @@ Which reading is right depends on the factual question (pause or on-ramp?) that 
 ::: {.thought-question}
 Return to Room 4 and seat the four philosophers around Riley's bed.
 
-1. What would each (Giordano, Ashley, Gorin, Priest) say should happen next for Riley, and **which single factual question**, if answered, would most change their advice?
-2. Riley's father asks you directly: "If we wait two years, what do we lose? If we proceed now, what do we lose?" Answer him honestly, using both versions of the open future.
-3. Which of the four principles is doing the most work in *your* answer?
+1. Riley's father asks you directly: "If we wait two years, what do we lose? If we proceed now, what do we lose?" Answer him honestly, using both versions of the open future.
+2. Which of the four (Giordano, Ashley, Gorin, Priest) comes closest to what you would say? Where do you part company with them?
 :::
 
 ## After You've Discussed
@@ -361,9 +360,8 @@ Back in Room 4, Riley's father has done his reading. He puts the **HHS 2025 repo
 
 Both documents are real. Both claim the evidence. They are looking at you.
 
-1. What can you honestly say about *why* expert bodies disagree, without dismissing either as "just politics"?
-2. What would you examine to weigh each document: who wrote it, by what method, reviewed how?
-3. Is there anything you can offer this family that doesn't depend on resolving the expert dispute?
+1. Think of a time experts you trusted disagreed: two doctors, two teachers, two sources. How did you decide whom to believe? Would that method work here?
+2. What can you honestly say to these two parents? Is there anything you can offer them that doesn't depend on settling the expert dispute?
 :::
 
 ## After You've Discussed

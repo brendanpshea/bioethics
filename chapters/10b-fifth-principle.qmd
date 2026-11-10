@@ -22,9 +22,8 @@ This time, *you* are the patient. Halfway through your annual physical, you real
 
 "Oh, the AI listens to our visit and writes the note now," she says. "It gives me two hours of my evening back. Don't worry, I review everything it writes."
 
-1. Should you have been told *before* the visit started? Asked?
-2. What would you want to know? Is there anything you said that you'd have phrased differently, knowing something was transcribing?
-3. She reviews everything it writes. Does that settle it?
+1. Have you ever found out afterward that something was recording, tracking, or scoring you: a "recorded for quality" call, a doorbell camera, an app? Did it bother you? Why, or why not?
+2. Should she have told you before the visit started? Asked you? Is there anything you said that you'd have phrased differently, knowing something was transcribing?
 :::
 
 ## What the Scribe Actually Heard
@@ -184,9 +183,8 @@ A low-stakes technology, and three of four elements bend. Now raise the stakes.
 ::: {.thought-question}
 A 58-year-old patient learns her mammogram will be read "by the radiologist, with AI assistance." She asks for "a human only, no computer involved." The AI second reader demonstrably catches cancers human readers miss, and it's now your department's standard workflow.
 
-1. Does she have the right to refuse the AI? Is that like refusing a treatment, or like demanding the lab hand-count her blood cells?
-2. Did she even have the right to be *told*? (Your hospital's current answer, most likely: it was in the intake paperwork.)
-3. Does your answer change if the AI reads *first*, and the human only reviews what it flags?
+1. Should the department honor her request? Is it like refusing a treatment, or like demanding the lab hand-count her blood cells? Does your answer change if the AI reads *first*, and the human only reviews what it flags?
+2. When AI is involved in *your* care, what would you want to be told? Would "it was in the intake paperwork" count as telling you?
 :::
 
 ## After You've Discussed
@@ -285,9 +283,8 @@ That alarm has cried wolf all month. I'm not starting antibiotics because of a n
 ::: {.thought-question}
 You are the nurse in that conversation.
 
-1. What should happen *in the next ten minutes*, at this bedside?
-2. If the resident overrides the alert and the patient crashes, who failed: resident, hospital, vendor, or threshold? Assign percentages if you dare.
-3. Now swap it: the resident *follows* the alert, and the patient is harmed by aggressive unnecessary treatment. Did your percentages move? Why?
+1. Suppose the resident overrides the alert and the patient crashes. Who failed: resident, hospital, vendor, or threshold? Assign percentages. Now swap it: the resident *follows* the alert, and the patient is harmed by aggressive, unnecessary treatment. Did your percentages move?
+2. Have you ever taken the blame for a system you didn't design: at work, at school, on the unit? What would have been fair?
 :::
 
 ## After You've Discussed
@@ -355,9 +352,8 @@ The ban's defense lives in the middle row: if the product **manufactures the con
 ::: {.thought-question}
 Your longtime patient, isolated and chronically depressed, tells you her companion chatbot is "the only one who really listens." She's stopped returning her sister's calls. She is an adult, she is stable, and by every metric in her chart she is *better* than last year.
 
-1. What do you actually say, in the room, in the next sixty seconds?
-2. Is "it's working" the end of the analysis? What is it working *at*?
-3. What would have to change for you to escalate, and what would "escalating" even mean here?
+1. What do you actually say, in the room, in the next sixty seconds? What would have to change before you did more than talk?
+2. Is there an app, a feed, or a game in your own life that is good for you by one measure and bad for you by another? How do you tell which measure to believe?
 :::
 
 ## After You've Discussed

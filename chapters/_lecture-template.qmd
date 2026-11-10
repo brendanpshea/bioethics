@@ -70,9 +70,21 @@ Collapse repetitive parallel runs (three near-identical principle slides → one
 
 Each major theme gets a discussion **unit**, aiming for ~10 minutes:
 
-1. **`## Thought Question`** — a concrete scenario with **2–3 stacked sub-questions** (put the student in a role).
+1. **`## Thought Question`** — a concrete scenario with **one or two questions** (put the student in a role). Add a third only as a twist that could change someone's answer.
 2. **`## Make It Contemporary`** — a **documented present-day analogue** (real law, case, study, or practice).
 3. **`## After You've Discussed`** — a `.callout-note` debrief that introduces a **new distinction the body never stated** (e.g., coercion vs. undue inducement vs. exploitation). It must *advance* the analysis, never merely restate the lecture.
+
+### Writing questions that start a discussion
+
+The test for every question: **could two thoughtful students give opposite answers and both be defensible?** If not, it is a comprehension check, and it belongs in the Review Questions.
+
+- **Ask for experience.** Each unit needs at least one question students can answer from their own lives, before any course vocabulary: "Has an algorithm ever made a call about you that you couldn't see inside?" Offer several ways in (work, family, school, the unit) so nobody has to disclose something private to take part.
+- **Ask for a commitment.** Make them vote, rank, pick a number, or set a threshold, then ask what would change their mind. Come back to an opening vote at the end of the lecture.
+- **Grant the other side its best point.** If the patient, parent, or skeptic in the scenario is partly right, say so in the stem. Then ask what follows.
+- **Ask what they would say or do, in the room.** Practice questions ("What do you say to her in the next sixty seconds?") have many good answers. Analysis questions usually have one.
+- **Do not hide an answer in the question.** Avoid "What's the flaw in…", "Name the mistake precisely", "Does that settle it?", "Is X really the same as Y?", and "Which thinker would say…". All of them tell students you are holding the answer.
+- **Do not ask them to recall the lecture.** "Which of the 3 Rs applies?" is a review question.
+- **The debrief is a lens, not the answer key.** Open it with "one way to see this" or "however you voted", never with what the scenario "turns on". Say what the distinction leaves unsettled. If students learn that the next slide reveals the answer, they will wait for it.
 
 ## Quotes
 
@@ -188,7 +200,7 @@ Source. Public domain. [@key]
 ## Thought Question
 
 ::: {.thought-question}
-A concrete scenario in which the student has a role, with 2–3 stacked sub-questions, no obvious right answer.
+A concrete scenario in which the student has a role, with one or two questions: one that asks for their own experience, and one that asks them to commit to a position two students could defensibly split on.
 :::
 
 ## Make It Contemporary
@@ -200,7 +212,7 @@ A documented present-day analogue (real law/case/study) that re-poses the same t
 ## After You've Discussed
 
 ::: {.callout-note}
-A debrief that introduces a **new distinction** — never a restatement of the slides above.
+A debrief that introduces a **new distinction** — never a restatement of the slides above, and never the "right answer" to the question. Offer it as a lens, and say what it leaves open.
 :::
 
 ## Mini-Recap
