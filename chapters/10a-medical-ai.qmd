@@ -22,8 +22,12 @@ Your aunt has a mole she doesn't like the look of. Instead of waiting three mont
 
 "The company says it was trained on over a million photos of moles," she says. "That's more moles than any dermatologist will see in a lifetime. Why shouldn't I trust it?"
 
-1. What would you want to know about those million photos before you answer her?
-2. Is "more data than any human has seen" the same thing as "better judgment than any human has"? Why or why not?
+1. Have you, or someone in your family, ever used an app or a chatbot for a health question instead of seeing someone? What happened?
+2. Your aunt's real choice is the app today or a dermatologist in three months. What do you actually say to her?
+:::
+
+::: {.aside-note}
+Take a show of hands before discussing: trust the app, don't trust it, or it depends. The last slide returns to the vote.
 :::
 
 ## What the Model Actually Learned
@@ -248,9 +252,10 @@ The result is [sycophancy]{.key-term}: a learned tendency to tell users what the
 ::: {.thought-question}
 You are charting at 2 a.m. A patient newly started on an **anticoagulant** shows you her tablet: she asked a chatbot whether the drug is safe with her **turmeric supplements**, and it gave a confident, detailed, friendly answer, with mechanisms and percentages.
 
-1. What, concretely, would you do before letting that answer stand?
-2. Does it matter that the answer *sounds* exactly like a pharmacist? What is the sound of expertise actually evidence for here?
-3. She trusts the chatbot more than the pharmacy's printout because "it answered *my* question about *my* situation." Is she making a mistake? Name it precisely.
+She trusts it more than the pharmacy's printout, she says, because "it answered *my* question about *my* situation." She is right that the printout didn't.
+
+1. What did the chatbot give her that we didn't? Whose job was it to give it to her?
+2. How do you get her to double-check the answer without teaching her to stop showing you what she looks up?
 :::
 
 ## Make It Contemporary
@@ -258,15 +263,18 @@ You are charting at 2 a.m. A patient newly started on an **anticoagulant** shows
 ::: {.thought-question}
 In 2025, doctors reported a 60-year-old man who asked a chatbot how to cut **chloride** from his diet. He came away with **sodium bromide** as a substitute for table salt: a sensible swap in a chemistry lab, and poisonous at the dinner table. Three months later he arrived at an emergency department psychotic, convinced his neighbor was poisoning him. The diagnosis was **bromism**, a poisoning so old it had mostly vanished with 1970s sedatives [@eichenberger2025].
 
-The answer he got was fluent, specific, and responsive to exactly the question he asked. What was the model trained to do, and what was he using it for?
+The answer he got was fluent, specific, and responsive to exactly the question he asked.
+
+1. Who, if anyone, is responsible for what happened to him: the man, the company, or no one? Does your answer change if he had no doctor he could afford to ask?
+2. Should chatbots refuse to answer medical questions? Who would that protect, and who would it leave with nothing?
 :::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-The scenario turns on **verification asymmetry**. A true generated answer and a hallucinated one look *identical on the screen*: same fluency, same confidence, same formatting. Only checking against the world tells them apart, and checking takes expertise the asker usually lacks (that's why they asked).
+One lens on both cases is **verification asymmetry**. A true generated answer and a hallucinated one look *identical on the screen*: same fluency, same confidence, same formatting. Only checking against the world tells them apart, and checking takes expertise the asker usually lacks (that's why they asked).
 
-Human expertise carries outside credentials: a license, a pharmacist behind a counter, liability for mistakes. Generated text carries only its own voice. The bromism patient's error wasn't trusting a wrong answer. It was treating *fluency* as if it were a credential.
+Human expertise carries outside credentials: a license, a pharmacist behind a counter, liability for mistakes. Generated text carries only its own voice, so *fluency* ends up doing the work of a credential. That doesn't settle who was responsible, or whether refusing to answer is the fix. It does explain why "just double-check it" is harder advice to follow than it sounds.
 :::
 
 # The Algorithm That Read Bills as Bodies {.section-divider}
@@ -327,15 +335,14 @@ Obermeyer's team never names the product in the paper; press coverage identified
 ::: {.thought-question}
 You are the nursing representative on your hospital's **purchasing committee**. A vendor is pitching a readmission-risk tool: "**92% accurate**, used by 200 hospitals." The training data, the features, and the label are all trade secrets.
 
-1. Write the three questions you would put to the vendor before signing.
-2. The CMO says: "200 hospitals can't be wrong, and we don't ask drug companies for their formulas." What's the flaw in each half of that sentence?
-3. If the vendor answers none of your questions, is "no purchase" really an option, knowing the status quo is overworked clinicians eyeballing risk?
+1. Has an algorithm ever made a call about *you* that you couldn't see inside: an AI-writing detector, a résumé screener, a credit score? Did it get you right? Could you find out why it said what it said?
+2. The vendor won't budge, and the alternative is what you have now: overworked clinicians eyeballing risk. Do you vote to buy? What would change your vote?
 :::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-The committee scenario turns on a distinction we haven't named: **internal versus external validation**. Internal validation is the vendor grading its own homework: its model, its data, its chosen yardstick. [External validation]{.key-term} is an independent test, on *your* patients, against an outcome *you* care about.
+However you voted, one distinction helps, and we haven't named it yet: **internal versus external validation**. Internal validation is the vendor grading its own homework: its model, its data, its chosen yardstick. [External validation]{.key-term} is an independent test, on *your* patients, against an outcome *you* care about.
 
 "92% accurate" is an internal number until proven otherwise. It is the same lesson as the replication crisis in research: a claim is not a finding until someone else checks it. The Obermeyer study was external validation in action, and the next case is what happens when a tool used on millions of patients goes years without any.
 :::
@@ -408,6 +415,15 @@ When most alerts are false, clinicians learn, rationally, to click through them.
 :::
 ::::
 
+## You Set the Threshold
+
+::: {.thought-question}
+Every alarm has a dial. Turn the sepsis alert **down** and the floor gets fewer false alarms, but more real cases slip past. Turn it **up** and you catch more sepsis, and bury the night shift in pages.
+
+1. What alarm in your own life have you learned to ignore: a car alarm, a smoke detector, a phone notification, a monitor on the unit? What would it take for you to start listening to it again?
+2. The dial is yours. Where do you set it? And who should get to decide: the vendor, the hospital, or the nurses who get paged?
+:::
+
 ## The Full Scoreboard
 
 | | Trained to do | Used to do | The gap |
@@ -458,6 +474,15 @@ A radiologist reads CT scans. U.S. Air Force photo by Senior Airman Julianne Sho
 :::
 :::
 ::::
+
+## Your Turn to Predict
+
+::: {.thought-question}
+Hinton was wrong about radiologists. Now make your own call, about your own work.
+
+1. Which part of nursing would you gladly hand to an AI? Which part would you refuse to hand over, even if it did the job better than you?
+2. Back to your aunt and her mole. Vote again: trust the app, don't, or it depends. Did anyone change their answer? What changed it?
+:::
 
 ## Mini-Recap
 

@@ -19257,7 +19257,7 @@
     "href": "chapters/10a-medical-ai-slides.html#a-case-to-sit-with",
     "title": "Lecture 10 — AI in Medicine",
     "section": "A Case to Sit With",
-    "text": "A Case to Sit With\n\nYour aunt has a mole she doesn’t like the look of. Instead of waiting three months for a dermatology appointment, she photographs it with a free “AI skin check” app, which rates it low risk. She knows you’re in nursing school, so she calls you.\n“The company says it was trained on over a million photos of moles,” she says. “That’s more moles than any dermatologist will see in a lifetime. Why shouldn’t I trust it?”\n\nWhat would you want to know about those million photos before you answer her?\nIs “more data than any human has seen” the same thing as “better judgment than any human has”? Why or why not?"
+    "text": "A Case to Sit With\n\nYour aunt has a mole she doesn’t like the look of. Instead of waiting three months for a dermatology appointment, she photographs it with a free “AI skin check” app, which rates it low risk. She knows you’re in nursing school, so she calls you.\n“The company says it was trained on over a million photos of moles,” she says. “That’s more moles than any dermatologist will see in a lifetime. Why shouldn’t I trust it?”\n\nHave you, or someone in your family, ever used an app or a chatbot for a health question instead of seeing someone? What happened?\nYour aunt’s real choice is the app today or a dermatologist in three months. What do you actually say to her?\n\n\n\nTake a show of hands before discussing: trust the app, don’t trust it, or it depends. The last slide returns to the vote."
   },
   {
     "objectID": "chapters/10a-medical-ai-slides.html#what-the-model-actually-learned",
@@ -19271,7 +19271,7 @@
     "href": "chapters/10a-medical-ai-slides.html#after-youve-discussed",
     "title": "Lecture 10 — AI in Medicine",
     "section": "After You’ve Discussed",
-    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nThe scenario turns on verification asymmetry. A true generated answer and a hallucinated one look identical on the screen: same fluency, same confidence, same formatting. Only checking against the world tells them apart, and checking takes expertise the asker usually lacks (that’s why they asked).\nHuman expertise carries outside credentials: a license, a pharmacist behind a counter, liability for mistakes. Generated text carries only its own voice. The bromism patient’s error wasn’t trusting a wrong answer. It was treating fluency as if it were a credential."
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nOne lens on both cases is verification asymmetry. A true generated answer and a hallucinated one look identical on the screen: same fluency, same confidence, same formatting. Only checking against the world tells them apart, and checking takes expertise the asker usually lacks (that’s why they asked).\nHuman expertise carries outside credentials: a license, a pharmacist behind a counter, liability for mistakes. Generated text carries only its own voice, so fluency ends up doing the work of a credential. That doesn’t settle who was responsible, or whether refusing to answer is the fix. It does explain why “just double-check it” is harder advice to follow than it sounds."
   },
   {
     "objectID": "chapters/10a-medical-ai-slides.html#today",
@@ -19383,21 +19383,21 @@
     "href": "chapters/10a-medical-ai-slides.html#thought-question",
     "title": "Lecture 10 — AI in Medicine",
     "section": "Thought Question",
-    "text": "Thought Question\n\nYou are charting at 2 a.m. A patient newly started on an anticoagulant shows you her tablet: she asked a chatbot whether the drug is safe with her turmeric supplements, and it gave a confident, detailed, friendly answer, with mechanisms and percentages.\n\nWhat, concretely, would you do before letting that answer stand?\nDoes it matter that the answer sounds exactly like a pharmacist? What is the sound of expertise actually evidence for here?\nShe trusts the chatbot more than the pharmacy’s printout because “it answered my question about my situation.” Is she making a mistake? Name it precisely."
+    "text": "Thought Question\n\nYou are charting at 2 a.m. A patient newly started on an anticoagulant shows you her tablet: she asked a chatbot whether the drug is safe with her turmeric supplements, and it gave a confident, detailed, friendly answer, with mechanisms and percentages.\nShe trusts it more than the pharmacy’s printout, she says, because “it answered my question about my situation.” She is right that the printout didn’t.\n\nWhat did the chatbot give her that we didn’t? Whose job was it to give it to her?\nHow do you get her to double-check the answer without teaching her to stop showing you what she looks up?"
   },
   {
     "objectID": "chapters/10a-medical-ai-slides.html#make-it-contemporary",
     "href": "chapters/10a-medical-ai-slides.html#make-it-contemporary",
     "title": "Lecture 10 — AI in Medicine",
     "section": "Make It Contemporary",
-    "text": "Make It Contemporary\n\nIn 2025, doctors reported a 60-year-old man who asked a chatbot how to cut chloride from his diet. He came away with sodium bromide as a substitute for table salt: a sensible swap in a chemistry lab, and poisonous at the dinner table. Three months later he arrived at an emergency department psychotic, convinced his neighbor was poisoning him. The diagnosis was bromism, a poisoning so old it had mostly vanished with 1970s sedatives (Eichenberger et al. 2025).\nThe answer he got was fluent, specific, and responsive to exactly the question he asked. What was the model trained to do, and what was he using it for?"
+    "text": "Make It Contemporary\n\nIn 2025, doctors reported a 60-year-old man who asked a chatbot how to cut chloride from his diet. He came away with sodium bromide as a substitute for table salt: a sensible swap in a chemistry lab, and poisonous at the dinner table. Three months later he arrived at an emergency department psychotic, convinced his neighbor was poisoning him. The diagnosis was bromism, a poisoning so old it had mostly vanished with 1970s sedatives (Eichenberger et al. 2025).\nThe answer he got was fluent, specific, and responsive to exactly the question he asked.\n\nWho, if anyone, is responsible for what happened to him: the man, the company, or no one? Does your answer change if he had no doctor he could afford to ask?\nShould chatbots refuse to answer medical questions? Who would that protect, and who would it leave with nothing?"
   },
   {
     "objectID": "chapters/10a-medical-ai-slides.html#after-youve-discussed-1",
     "href": "chapters/10a-medical-ai-slides.html#after-youve-discussed-1",
     "title": "Lecture 10 — AI in Medicine",
     "section": "After You’ve Discussed",
-    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nThe committee scenario turns on a distinction we haven’t named: internal versus external validation. Internal validation is the vendor grading its own homework: its model, its data, its chosen yardstick. External validation is an independent test, on your patients, against an outcome you care about.\n“92% accurate” is an internal number until proven otherwise. It is the same lesson as the replication crisis in research: a claim is not a finding until someone else checks it. The Obermeyer study was external validation in action, and the next case is what happens when a tool used on millions of patients goes years without any."
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nHowever you voted, one distinction helps, and we haven’t named it yet: internal versus external validation. Internal validation is the vendor grading its own homework: its model, its data, its chosen yardstick. External validation is an independent test, on your patients, against an outcome you care about.\n“92% accurate” is an internal number until proven otherwise. It is the same lesson as the replication crisis in research: a claim is not a finding until someone else checks it. The Obermeyer study was external validation in action, and the next case is what happens when a tool used on millions of patients goes years without any."
   },
   {
     "objectID": "chapters/10a-medical-ai-slides.html#bias-isnt-usually-malice",
@@ -19474,7 +19474,7 @@
     "href": "chapters/10a-medical-ai-slides.html#thought-question-1",
     "title": "Lecture 10 — AI in Medicine",
     "section": "Thought Question",
-    "text": "Thought Question\n\nYou are the nursing representative on your hospital’s purchasing committee. A vendor is pitching a readmission-risk tool: “92% accurate, used by 200 hospitals.” The training data, the features, and the label are all trade secrets.\n\nWrite the three questions you would put to the vendor before signing.\nThe CMO says: “200 hospitals can’t be wrong, and we don’t ask drug companies for their formulas.” What’s the flaw in each half of that sentence?\nIf the vendor answers none of your questions, is “no purchase” really an option, knowing the status quo is overworked clinicians eyeballing risk?"
+    "text": "Thought Question\n\nYou are the nursing representative on your hospital’s purchasing committee. A vendor is pitching a readmission-risk tool: “92% accurate, used by 200 hospitals.” The training data, the features, and the label are all trade secrets.\n\nHas an algorithm ever made a call about you that you couldn’t see inside: an AI-writing detector, a résumé screener, a credit score? Did it get you right? Could you find out why it said what it said?\nThe vendor won’t budge, and the alternative is what you have now: overworked clinicians eyeballing risk. Do you vote to buy? What would change your vote?"
   },
   {
     "objectID": "chapters/10a-medical-ai-slides.html#after-youve-discussed-2",
@@ -19607,7 +19607,7 @@
     "href": "chapters/10a-medical-ai.html",
     "title": "Lecture 10 — AI in Medicine",
     "section": "",
-    "text": "Your aunt has a mole she doesn’t like the look of. Instead of waiting three months for a dermatology appointment, she photographs it with a free “AI skin check” app, which rates it low risk. She knows you’re in nursing school, so she calls you.\n“The company says it was trained on over a million photos of moles,” she says. “That’s more moles than any dermatologist will see in a lifetime. Why shouldn’t I trust it?”\n\nWhat would you want to know about those million photos before you answer her?\nIs “more data than any human has seen” the same thing as “better judgment than any human has”? Why or why not?\n\n\n\n\n\n\n\nA top-performing skin-cancer model could be fooled by a marker pen (Winkler et al. 2019).\n\nDermatologists often circle a suspicious mole in violet ink before photographing it.\nAdd ink marks to photos of harmless moles, and the model calls far more of them cancer.\nIt had learned that ink predicts cancer. Other models learned rulers.\n\n\n\n\n\n\n\nHarmless moles the model correctly called harmless (specificity), photographed without and with ink marks (Winkler et al. 2019).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nThe model wasn’t broken. It did exactly what it was built to do: find whatever in the photos predicted “malignant.” One question runs through this whole lecture: what was the model actually trained to do, and is that what we are using it for?\n\n\n\nBy the end of Part A, you will be able to:\n\nExplain supervised machine learning in plain terms, and why the label controls what gets learned.\nName the three kinds of medical AI (diagnostic, predictive, generative) and the signature way each one fails.\nTell what went wrong, with numbers, in the Obermeyer cost algorithm and the Epic Sepsis Model, and how outsiders caught it.",
+    "text": "Your aunt has a mole she doesn’t like the look of. Instead of waiting three months for a dermatology appointment, she photographs it with a free “AI skin check” app, which rates it low risk. She knows you’re in nursing school, so she calls you.\n“The company says it was trained on over a million photos of moles,” she says. “That’s more moles than any dermatologist will see in a lifetime. Why shouldn’t I trust it?”\n\nHave you, or someone in your family, ever used an app or a chatbot for a health question instead of seeing someone? What happened?\nYour aunt’s real choice is the app today or a dermatologist in three months. What do you actually say to her?\n\n\n\nTake a show of hands before discussing: trust the app, don’t trust it, or it depends. The last slide returns to the vote.\n\n\n\n\n\n\nA top-performing skin-cancer model could be fooled by a marker pen (Winkler et al. 2019).\n\nDermatologists often circle a suspicious mole in violet ink before photographing it.\nAdd ink marks to photos of harmless moles, and the model calls far more of them cancer.\nIt had learned that ink predicts cancer. Other models learned rulers.\n\n\n\n\n\n\n\nHarmless moles the model correctly called harmless (specificity), photographed without and with ink marks (Winkler et al. 2019).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nImportant\n\n\n\nThe model wasn’t broken. It did exactly what it was built to do: find whatever in the photos predicted “malignant.” One question runs through this whole lecture: what was the model actually trained to do, and is that what we are using it for?\n\n\n\nBy the end of Part A, you will be able to:\n\nExplain supervised machine learning in plain terms, and why the label controls what gets learned.\nName the three kinds of medical AI (diagnostic, predictive, generative) and the signature way each one fails.\nTell what went wrong, with numbers, in the Obermeyer cost algorithm and the Epic Sepsis Model, and how outsiders caught it.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -19619,7 +19619,7 @@
     "href": "chapters/10a-medical-ai.html#a-case-to-sit-with",
     "title": "Lecture 10 — AI in Medicine",
     "section": "",
-    "text": "Your aunt has a mole she doesn’t like the look of. Instead of waiting three months for a dermatology appointment, she photographs it with a free “AI skin check” app, which rates it low risk. She knows you’re in nursing school, so she calls you.\n“The company says it was trained on over a million photos of moles,” she says. “That’s more moles than any dermatologist will see in a lifetime. Why shouldn’t I trust it?”\n\nWhat would you want to know about those million photos before you answer her?\nIs “more data than any human has seen” the same thing as “better judgment than any human has”? Why or why not?",
+    "text": "Your aunt has a mole she doesn’t like the look of. Instead of waiting three months for a dermatology appointment, she photographs it with a free “AI skin check” app, which rates it low risk. She knows you’re in nursing school, so she calls you.\n“The company says it was trained on over a million photos of moles,” she says. “That’s more moles than any dermatologist will see in a lifetime. Why shouldn’t I trust it?”\n\nHave you, or someone in your family, ever used an app or a chatbot for a health question instead of seeing someone? What happened?\nYour aunt’s real choice is the app today or a dermatologist in three months. What do you actually say to her?\n\n\n\nTake a show of hands before discussing: trust the app, don’t trust it, or it depends. The last slide returns to the vote.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -19643,7 +19643,7 @@
     "href": "chapters/10a-medical-ai.html#after-youve-discussed",
     "title": "Lecture 10 — AI in Medicine",
     "section": "3.6 After You’ve Discussed",
-    "text": "3.6 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nThe scenario turns on verification asymmetry. A true generated answer and a hallucinated one look identical on the screen: same fluency, same confidence, same formatting. Only checking against the world tells them apart, and checking takes expertise the asker usually lacks (that’s why they asked).\nHuman expertise carries outside credentials: a license, a pharmacist behind a counter, liability for mistakes. Generated text carries only its own voice. The bromism patient’s error wasn’t trusting a wrong answer. It was treating fluency as if it were a credential.",
+    "text": "3.6 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nOne lens on both cases is verification asymmetry. A true generated answer and a hallucinated one look identical on the screen: same fluency, same confidence, same formatting. Only checking against the world tells them apart, and checking takes expertise the asker usually lacks (that’s why they asked).\nHuman expertise carries outside credentials: a license, a pharmacist behind a counter, liability for mistakes. Generated text carries only its own voice, so fluency ends up doing the work of a credential. That doesn’t settle who was responsible, or whether refusing to answer is the fix. It does explain why “just double-check it” is harder advice to follow than it sounds.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -19835,7 +19835,7 @@
     "href": "chapters/10a-medical-ai.html#thought-question",
     "title": "Lecture 10 — AI in Medicine",
     "section": "3.4 Thought Question",
-    "text": "3.4 Thought Question\n\nYou are charting at 2 a.m. A patient newly started on an anticoagulant shows you her tablet: she asked a chatbot whether the drug is safe with her turmeric supplements, and it gave a confident, detailed, friendly answer, with mechanisms and percentages.\n\nWhat, concretely, would you do before letting that answer stand?\nDoes it matter that the answer sounds exactly like a pharmacist? What is the sound of expertise actually evidence for here?\nShe trusts the chatbot more than the pharmacy’s printout because “it answered my question about my situation.” Is she making a mistake? Name it precisely.",
+    "text": "3.4 Thought Question\n\nYou are charting at 2 a.m. A patient newly started on an anticoagulant shows you her tablet: she asked a chatbot whether the drug is safe with her turmeric supplements, and it gave a confident, detailed, friendly answer, with mechanisms and percentages.\nShe trusts it more than the pharmacy’s printout, she says, because “it answered my question about my situation.” She is right that the printout didn’t.\n\nWhat did the chatbot give her that we didn’t? Whose job was it to give it to her?\nHow do you get her to double-check the answer without teaching her to stop showing you what she looks up?",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -19847,7 +19847,7 @@
     "href": "chapters/10a-medical-ai.html#make-it-contemporary",
     "title": "Lecture 10 — AI in Medicine",
     "section": "3.5 Make It Contemporary",
-    "text": "3.5 Make It Contemporary\n\nIn 2025, doctors reported a 60-year-old man who asked a chatbot how to cut chloride from his diet. He came away with sodium bromide as a substitute for table salt: a sensible swap in a chemistry lab, and poisonous at the dinner table. Three months later he arrived at an emergency department psychotic, convinced his neighbor was poisoning him. The diagnosis was bromism, a poisoning so old it had mostly vanished with 1970s sedatives (Eichenberger et al. 2025).\nThe answer he got was fluent, specific, and responsive to exactly the question he asked. What was the model trained to do, and what was he using it for?",
+    "text": "3.5 Make It Contemporary\n\nIn 2025, doctors reported a 60-year-old man who asked a chatbot how to cut chloride from his diet. He came away with sodium bromide as a substitute for table salt: a sensible swap in a chemistry lab, and poisonous at the dinner table. Three months later he arrived at an emergency department psychotic, convinced his neighbor was poisoning him. The diagnosis was bromism, a poisoning so old it had mostly vanished with 1970s sedatives (Eichenberger et al. 2025).\nThe answer he got was fluent, specific, and responsive to exactly the question he asked.\n\nWho, if anyone, is responsible for what happened to him: the man, the company, or no one? Does your answer change if he had no doctor he could afford to ask?\nShould chatbots refuse to answer medical questions? Who would that protect, and who would it leave with nothing?",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -19859,7 +19859,7 @@
     "href": "chapters/10a-medical-ai.html#after-youve-discussed-1",
     "title": "Lecture 10 — AI in Medicine",
     "section": "4.4 After You’ve Discussed",
-    "text": "4.4 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nThe committee scenario turns on a distinction we haven’t named: internal versus external validation. Internal validation is the vendor grading its own homework: its model, its data, its chosen yardstick. External validation is an independent test, on your patients, against an outcome you care about.\n“92% accurate” is an internal number until proven otherwise. It is the same lesson as the replication crisis in research: a claim is not a finding until someone else checks it. The Obermeyer study was external validation in action, and the next case is what happens when a tool used on millions of patients goes years without any.",
+    "text": "4.4 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nHowever you voted, one distinction helps, and we haven’t named it yet: internal versus external validation. Internal validation is the vendor grading its own homework: its model, its data, its chosen yardstick. External validation is an independent test, on your patients, against an outcome you care about.\n“92% accurate” is an internal number until proven otherwise. It is the same lesson as the replication crisis in research: a claim is not a finding until someone else checks it. The Obermeyer study was external validation in action, and the next case is what happens when a tool used on millions of patients goes years without any.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -19991,7 +19991,7 @@
     "href": "chapters/10a-medical-ai.html#thought-question-1",
     "title": "Lecture 10 — AI in Medicine",
     "section": "4.3 Thought Question",
-    "text": "4.3 Thought Question\n\nYou are the nursing representative on your hospital’s purchasing committee. A vendor is pitching a readmission-risk tool: “92% accurate, used by 200 hospitals.” The training data, the features, and the label are all trade secrets.\n\nWrite the three questions you would put to the vendor before signing.\nThe CMO says: “200 hospitals can’t be wrong, and we don’t ask drug companies for their formulas.” What’s the flaw in each half of that sentence?\nIf the vendor answers none of your questions, is “no purchase” really an option, knowing the status quo is overworked clinicians eyeballing risk?",
+    "text": "4.3 Thought Question\n\nYou are the nursing representative on your hospital’s purchasing committee. A vendor is pitching a readmission-risk tool: “92% accurate, used by 200 hospitals.” The training data, the features, and the label are all trade secrets.\n\nHas an algorithm ever made a call about you that you couldn’t see inside: an AI-writing detector, a résumé screener, a credit score? Did it get you right? Could you find out why it said what it said?\nThe vendor won’t budge, and the alternative is what you have now: overworked clinicians eyeballing risk. Do you vote to buy? What would change your vote?",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -20086,8 +20086,8 @@
     "objectID": "chapters/10a-medical-ai.html#the-full-scoreboard",
     "href": "chapters/10a-medical-ai.html#the-full-scoreboard",
     "title": "Lecture 10 — AI in Medicine",
-    "section": "5.4 The Full Scoreboard",
-    "text": "5.4 The Full Scoreboard\n\n\n\n\n\n\n\n\n\n\nTrained to do\nUsed to do\nThe gap\n\n\n\n\nSkin app\npredict labels on photos\njudge your aunt’s mole\nthe photographer’s worry rides along\n\n\nCost algorithm\npredict spending\nfind the sickest\ninequality baked into the bills\n\n\nEpic v1\npredict sepsis billing codes\nwarn before suspicion\nbest at the already-known\n\n\nEpic v2\npredict sepsis, properly\nhelp the night shift\naccurate ≠ usable: the alert flood\n\n\n\nFour systems, four different fixes, one recurring gap. This is not a story about one bad model. It is a pattern you can now spot unaided.",
+    "section": "5.5 The Full Scoreboard",
+    "text": "5.5 The Full Scoreboard\n\n\n\n\n\n\n\n\n\n\nTrained to do\nUsed to do\nThe gap\n\n\n\n\nSkin app\npredict labels on photos\njudge your aunt’s mole\nthe photographer’s worry rides along\n\n\nCost algorithm\npredict spending\nfind the sickest\ninequality baked into the bills\n\n\nEpic v1\npredict sepsis billing codes\nwarn before suspicion\nbest at the already-known\n\n\nEpic v2\npredict sepsis, properly\nhelp the night shift\naccurate ≠ usable: the alert flood\n\n\n\nFour systems, four different fixes, one recurring gap. This is not a story about one bad model. It is a pattern you can now spot unaided.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -20158,8 +20158,8 @@
     "objectID": "chapters/10a-medical-ai.html#mini-recap",
     "href": "chapters/10a-medical-ai.html#mini-recap",
     "title": "Lecture 10 — AI in Medicine",
-    "section": "6.3 Mini-Recap",
-    "text": "6.3 Mini-Recap\n\nOne question organized everything: what was the model trained to do, and is that what we’re using it for? The label is the boss, so models learn proxies, shortcuts, and history along with the medicine. Diagnostic models meet distribution shift, predictive models inherit proxy labels and drown floors in alerts, and generative models are fluent and wrong at once. The fixes we found (ask what the label was, demand external validation) all needed someone who could explain the system. What happens when no one fully can is the next question.\n\n\nPaired case: The Optum Algorithm: Racial Bias, Proxy Variables, and Justice in Medical AI",
+    "section": "6.4 Mini-Recap",
+    "text": "6.4 Mini-Recap\n\nOne question organized everything: what was the model trained to do, and is that what we’re using it for? The label is the boss, so models learn proxies, shortcuts, and history along with the medicine. Diagnostic models meet distribution shift, predictive models inherit proxy labels and drown floors in alerts, and generative models are fluent and wrong at once. The fixes we found (ask what the label was, demand external validation) all needed someone who could explain the system. What happens when no one fully can is the next question.\n\n\nPaired case: The Optum Algorithm: Racial Bias, Proxy Variables, and Justice in Medical AI",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -20170,8 +20170,8 @@
     "objectID": "chapters/10a-medical-ai.html#review-questions",
     "href": "chapters/10a-medical-ai.html#review-questions",
     "title": "Lecture 10 — AI in Medicine",
-    "section": "6.4 Review Questions",
-    "text": "6.4 Review Questions\n\n\nRecall\nName the three kinds of medical AI and each one’s signature failure. Then explain, using the skin-app case, why “the label is the boss”: what did that model’s label actually contain besides disease?\n\n\nApply\nA vendor offers your nursing home a fall-risk model trained at two large urban academic hospitals, using “documented fall in the chart” as its label. Using the pipeline’s three doors, predict two specific ways this model could go wrong in your facility, and say what you’d demand before deployment.\n\n\nDebate\nShould hospitals be prohibited from deploying clinical AI that has never passed independent external validation, even though waiting may cost lives a working model could have saved? Defend your answer with one case from this lecture.",
+    "section": "6.5 Review Questions",
+    "text": "6.5 Review Questions\n\n\nRecall\nName the three kinds of medical AI and each one’s signature failure. Then explain, using the skin-app case, why “the label is the boss”: what did that model’s label actually contain besides disease?\n\n\nApply\nA vendor offers your nursing home a fall-risk model trained at two large urban academic hospitals, using “documented fall in the chart” as its label. Using the pipeline’s three doors, predict two specific ways this model could go wrong in your facility, and say what you’d demand before deployment.\n\n\nDebate\nShould hospitals be prohibited from deploying clinical AI that has never passed independent external validation, even though waiting may cost lives a working model could have saved? Defend your answer with one case from this lecture.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -20182,8 +20182,8 @@
     "objectID": "chapters/10a-medical-ai.html#key-terms",
     "href": "chapters/10a-medical-ai.html#key-terms",
     "title": "Lecture 10 — AI in Medicine",
-    "section": "6.5 Key Terms",
-    "text": "6.5 Key Terms\n\n\n\nSupervised learning — training a model on examples that come with the answers (labels) attached.\nFeatures / labels — the measurable inputs of each example / the “right answer” the model learns to predict.\nProxy variable — a measurable stand-in (cost, billing codes) for the thing you actually want (sickness).\nDistribution shift / drift — the model meets a world, or a moment, unlike its training data.\nHallucination — generated content that is fluent, specific, and false.\n\n\n\n\n\nSycophancy — a model’s learned tendency to agree with the user, even against a correct answer.\nExternal validation — independent testing on new patients, by someone other than the maker.\nPositive predictive value (PPV) — of all alerts fired, the fraction that were right.\nAlert fatigue — the rational habit of ignoring alarms that are usually false, which buries the true one.",
+    "section": "6.6 Key Terms",
+    "text": "6.6 Key Terms\n\n\n\nSupervised learning — training a model on examples that come with the answers (labels) attached.\nFeatures / labels — the measurable inputs of each example / the “right answer” the model learns to predict.\nProxy variable — a measurable stand-in (cost, billing codes) for the thing you actually want (sickness).\nDistribution shift / drift — the model meets a world, or a moment, unlike its training data.\nHallucination — generated content that is fluent, specific, and false.\n\n\n\n\n\nSycophancy — a model’s learned tendency to agree with the user, even against a correct answer.\nExternal validation — independent testing on new patients, by someone other than the maker.\nPositive predictive value (PPV) — of all alerts fired, the fraction that were right.\nAlert fatigue — the rational habit of ignoring alarms that are usually false, which buries the true one.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -20194,8 +20194,8 @@
     "objectID": "chapters/10a-medical-ai.html#further-reading",
     "href": "chapters/10a-medical-ai.html#further-reading",
     "title": "Lecture 10 — AI in Medicine",
-    "section": "6.6 Further Reading",
-    "text": "6.6 Further Reading\n\nTopol, Eric. Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again. Basic Books, 2019. (The optimistic case, by a cardiologist who takes the failures seriously.)\nMukherjee, Siddhartha. “A.I. Versus M.D.” The New Yorker, April 3, 2017.\nO’Neil, Cathy. Weapons of Math Destruction. Crown, 2016. (Proxy variables and opaque scoring, well beyond medicine.)",
+    "section": "6.7 Further Reading",
+    "text": "6.7 Further Reading\n\nTopol, Eric. Deep Medicine: How Artificial Intelligence Can Make Healthcare Human Again. Basic Books, 2019. (The optimistic case, by a cardiologist who takes the failures seriously.)\nMukherjee, Siddhartha. “A.I. Versus M.D.” The New Yorker, April 3, 2017.\nO’Neil, Cathy. Weapons of Math Destruction. Crown, 2016. (Proxy variables and opaque scoring, well beyond medicine.)",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -20206,8 +20206,8 @@
     "objectID": "chapters/10a-medical-ai.html#references",
     "href": "chapters/10a-medical-ai.html#references",
     "title": "Lecture 10 — AI in Medicine",
-    "section": "6.7 References",
-    "text": "6.7 References\n\n\nAmerican Cancer Society. 2026. Cancer Facts & Figures 2026. Atlanta: American Cancer Society. https://www.cancer.org/content/dam/cancer-org/research/cancer-facts-and-statistics/annual-cancer-facts-and-figures/2026/2026-cancer-facts-and-figures.pdf.\n\n\nEichenberger, Audrey, Stephen Thielke, and Adam Van Buskirk. 2025. “A Case of Bromism Influenced by Use of Artificial Intelligence.” Annals of Internal Medicine: Clinical Cases 4 (8). https://doi.org/10.7326/aimcc.2024.1260.\n\n\nObermeyer, Ziad, Brian Powers, Christine Vogeli, and Sendhil Mullainathan. 2019. “Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations.” Science 366 (6464): 447–53. https://doi.org/10.1126/science.aax2342.\n\n\nWen, David, Saad M. Khan, Antonio Ji Xu, et al. 2022. “Characteristics of Publicly Available Skin Cancer Image Datasets: A Systematic Review.” The Lancet Digital Health 4 (1): e64–74. https://doi.org/10.1016/S2589-7500(21)00252-1.\n\n\nWinkler, Julia K., Christine Fink, Ferdinand Toberer, et al. 2019. “Association Between Surgical Skin Markings in Dermoscopic Images and Diagnostic Performance of a Deep Learning Convolutional Neural Network for Melanoma Recognition.” JAMA Dermatology 155 (10): 1135–41. https://doi.org/10.1001/jamadermatol.2019.1735.\n\n\nWong, Andrew, Danielle Currey, Megan Schwinne, et al. 2026. “Multicenter Prospective Validation of an Updated Proprietary Sepsis Prediction Model.” JAMA Network Open 9 (2): e260181. https://doi.org/10.1001/jamanetworkopen.2026.0181.\n\n\nWong, Andrew, Erkin Otles, John P. Donnelly, et al. 2021. “External Validation of a Widely Implemented Proprietary Sepsis Prediction Model in Hospitalized Patients.” JAMA Internal Medicine 181 (8): 1065–70. https://doi.org/10.1001/jamainternmed.2021.2626.",
+    "section": "6.8 References",
+    "text": "6.8 References\n\n\nAmerican Cancer Society. 2026. Cancer Facts & Figures 2026. Atlanta: American Cancer Society. https://www.cancer.org/content/dam/cancer-org/research/cancer-facts-and-statistics/annual-cancer-facts-and-figures/2026/2026-cancer-facts-and-figures.pdf.\n\n\nEichenberger, Audrey, Stephen Thielke, and Adam Van Buskirk. 2025. “A Case of Bromism Influenced by Use of Artificial Intelligence.” Annals of Internal Medicine: Clinical Cases 4 (8). https://doi.org/10.7326/aimcc.2024.1260.\n\n\nObermeyer, Ziad, Brian Powers, Christine Vogeli, and Sendhil Mullainathan. 2019. “Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations.” Science 366 (6464): 447–53. https://doi.org/10.1126/science.aax2342.\n\n\nWen, David, Saad M. Khan, Antonio Ji Xu, et al. 2022. “Characteristics of Publicly Available Skin Cancer Image Datasets: A Systematic Review.” The Lancet Digital Health 4 (1): e64–74. https://doi.org/10.1016/S2589-7500(21)00252-1.\n\n\nWinkler, Julia K., Christine Fink, Ferdinand Toberer, et al. 2019. “Association Between Surgical Skin Markings in Dermoscopic Images and Diagnostic Performance of a Deep Learning Convolutional Neural Network for Melanoma Recognition.” JAMA Dermatology 155 (10): 1135–41. https://doi.org/10.1001/jamadermatol.2019.1735.\n\n\nWong, Andrew, Danielle Currey, Megan Schwinne, et al. 2026. “Multicenter Prospective Validation of an Updated Proprietary Sepsis Prediction Model.” JAMA Network Open 9 (2): e260181. https://doi.org/10.1001/jamanetworkopen.2026.0181.\n\n\nWong, Andrew, Erkin Otles, John P. Donnelly, et al. 2021. “External Validation of a Widely Implemented Proprietary Sepsis Prediction Model in Hospitalized Patients.” JAMA Internal Medicine 181 (8): 1065–70. https://doi.org/10.1001/jamainternmed.2021.2626.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -24487,5 +24487,43 @@
       "12. Animal Ethics",
       "Part B — Industrial Animals, Xenotransplantation, and the Frontier"
     ]
+  },
+  {
+    "objectID": "chapters/10a-medical-ai.html#you-set-the-threshold",
+    "href": "chapters/10a-medical-ai.html#you-set-the-threshold",
+    "title": "Lecture 10 — AI in Medicine",
+    "section": "5.4 You Set the Threshold",
+    "text": "5.4 You Set the Threshold\n\nEvery alarm has a dial. Turn the sepsis alert down and the floor gets fewer false alarms, but more real cases slip past. Turn it up and you catch more sepsis, and bury the night shift in pages.\n\nWhat alarm in your own life have you learned to ignore: a car alarm, a smoke detector, a phone notification, a monitor on the unit? What would it take for you to start listening to it again?\nThe dial is yours. Where do you set it? And who should get to decide: the vendor, the hospital, or the nurses who get paged?",
+    "crumbs": [
+      "Home",
+      "10. AI in Medicine",
+      "Part A — How Medical AI Works and Where It Goes Wrong"
+    ]
+  },
+  {
+    "objectID": "chapters/10a-medical-ai.html#your-turn-to-predict",
+    "href": "chapters/10a-medical-ai.html#your-turn-to-predict",
+    "title": "Lecture 10 — AI in Medicine",
+    "section": "6.3 Your Turn to Predict",
+    "text": "6.3 Your Turn to Predict\n\nHinton was wrong about radiologists. Now make your own call, about your own work.\n\nWhich part of nursing would you gladly hand to an AI? Which part would you refuse to hand over, even if it did the job better than you?\nBack to your aunt and her mole. Vote again: trust the app, don’t, or it depends. Did anyone change their answer? What changed it?",
+    "crumbs": [
+      "Home",
+      "10. AI in Medicine",
+      "Part A — How Medical AI Works and Where It Goes Wrong"
+    ]
+  },
+  {
+    "objectID": "chapters/10a-medical-ai-slides.html#you-set-the-threshold",
+    "href": "chapters/10a-medical-ai-slides.html#you-set-the-threshold",
+    "title": "Lecture 10 — AI in Medicine",
+    "section": "You Set the Threshold",
+    "text": "You Set the Threshold\n\nEvery alarm has a dial. Turn the sepsis alert down and the floor gets fewer false alarms, but more real cases slip past. Turn it up and you catch more sepsis, and bury the night shift in pages.\n\nWhat alarm in your own life have you learned to ignore: a car alarm, a smoke detector, a phone notification, a monitor on the unit? What would it take for you to start listening to it again?\nThe dial is yours. Where do you set it? And who should get to decide: the vendor, the hospital, or the nurses who get paged?"
+  },
+  {
+    "objectID": "chapters/10a-medical-ai-slides.html#your-turn-to-predict",
+    "href": "chapters/10a-medical-ai-slides.html#your-turn-to-predict",
+    "title": "Lecture 10 — AI in Medicine",
+    "section": "Your Turn to Predict",
+    "text": "Your Turn to Predict\n\nHinton was wrong about radiologists. Now make your own call, about your own work.\n\nWhich part of nursing would you gladly hand to an AI? Which part would you refuse to hand over, even if it did the job better than you?\nBack to your aunt and her mole. Vote again: trust the app, don’t, or it depends. Did anyone change their answer? What changed it?"
   }
 ]

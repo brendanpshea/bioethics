@@ -52,7 +52,7 @@
     div.csl-indent {
       margin-left: 2em;
     }  </style>
-  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-126b6eb21d17633dfd3130f84bed7b82.css">
+  <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-d672ef0c31ae8391f5322f8bc00dff51.css">
   <link rel="stylesheet" href="../styles/custom.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -180,9 +180,12 @@ Brendan Shea, PhD
 <p>Your aunt has a mole she doesn’t like the look of. Instead of waiting three months for a dermatology appointment, she photographs it with a free <strong>“AI skin check” app</strong>, which rates it <em>low risk</em>. She knows you’re in nursing school, so she calls you.</p>
 <p>“The company says it was trained on over a million photos of moles,” she says. “That’s more moles than any dermatologist will see in a lifetime. Why shouldn’t I trust it?”</p>
 <ol type="1">
-<li>What would you want to know about those million photos before you answer her?</li>
-<li>Is “more data than any human has seen” the same thing as “better judgment than any human has”? Why or why not?</li>
+<li>Have you, or someone in your family, ever used an app or a chatbot for a health question instead of seeing someone? What happened?</li>
+<li>Your aunt’s real choice is the app today or a dermatologist in three months. What do you actually say to her?</li>
 </ol>
+</div>
+<div class="aside-note">
+<p>Take a show of hands before discussing: trust the app, don’t trust it, or it depends. The last slide returns to the vote.</p>
 </div>
 </section>
 <section id="what-the-model-actually-learned" class="slide level2">
@@ -196,7 +199,7 @@ Brendan Shea, PhD
 <li>It had learned that <em>ink predicts cancer</em>. Other models learned <strong>rulers</strong>.</li>
 </ul>
 </div><div class="column" style="width:46%;">
-<div id="018818ce" class="cell" data-execution_count="1">
+<div id="3f7799ba" class="cell" data-execution_count="1">
 <div class="cell-output cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -399,7 +402,7 @@ Brendan Shea, PhD
 <p>A 2022 review counted the photos in <strong>21 public skin-cancer datasets</strong>. Only 2.1% recorded skin type, and just <strong>11 images</strong> showed the two darkest skin types <span class="citation" data-cites="wen2022">(<a href="#/references" role="doc-biblioref" onclick="">Wen et al. 2022</a>)</span>.</p>
 <p>Melanoma is already caught later in Black patients, whose five-year survival is about <strong>25 points lower</strong> (70% vs.&nbsp;95%) <span class="citation" data-cites="acs2026">(<a href="#/references" role="doc-biblioref" onclick="">American Cancer Society 2026</a>)</span>. A tool that fails here widens the gap, and the harm is locked in <strong>at data collection</strong>.</p>
 </div><div class="column" style="width:52%;">
-<div id="e054d715" class="cell" data-execution_count="2">
+<div id="fc298b13" class="cell" data-execution_count="2">
 <div class="cell-output cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -488,7 +491,7 @@ Brendan Shea, PhD
 <p>A <span class="key-term">large language model</span> (LLM), the technology behind ChatGPT and its rivals, is trained on enormous amounts of text to do one thing: <strong>predict the next word</strong>.</p>
 <p>Do that well enough and it can draft notes and hold a fluent conversation. But each answer is a <em>plausible continuation</em> of the text so far. It is not a fact looked up in a database, and not a claim checked against the world.</p>
 </div><div class="column" style="width:50%;">
-<div id="ff540280" class="cell" data-execution_count="3">
+<div id="972616db" class="cell" data-execution_count="3">
 <div class="cell-output cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -519,18 +522,22 @@ Brendan Shea, PhD
 <h2>Thought Question</h2>
 <div class="thought-question">
 <p>You are charting at 2 a.m. A patient newly started on an <strong>anticoagulant</strong> shows you her tablet: she asked a chatbot whether the drug is safe with her <strong>turmeric supplements</strong>, and it gave a confident, detailed, friendly answer, with mechanisms and percentages.</p>
+<p>She trusts it more than the pharmacy’s printout, she says, because “it answered <em>my</em> question about <em>my</em> situation.” She is right that the printout didn’t.</p>
 <ol type="1">
-<li>What, concretely, would you do before letting that answer stand?</li>
-<li>Does it matter that the answer <em>sounds</em> exactly like a pharmacist? What is the sound of expertise actually evidence for here?</li>
-<li>She trusts the chatbot more than the pharmacy’s printout because “it answered <em>my</em> question about <em>my</em> situation.” Is she making a mistake? Name it precisely.</li>
+<li>What did the chatbot give her that we didn’t? Whose job was it to give it to her?</li>
+<li>How do you get her to double-check the answer without teaching her to stop showing you what she looks up?</li>
 </ol>
 </div>
 </section>
-<section id="make-it-contemporary" class="slide level2">
+<section id="make-it-contemporary" class="slide level2 scrollable">
 <h2>Make It Contemporary</h2>
 <div class="thought-question">
 <p>In 2025, doctors reported a 60-year-old man who asked a chatbot how to cut <strong>chloride</strong> from his diet. He came away with <strong>sodium bromide</strong> as a substitute for table salt: a sensible swap in a chemistry lab, and poisonous at the dinner table. Three months later he arrived at an emergency department psychotic, convinced his neighbor was poisoning him. The diagnosis was <strong>bromism</strong>, a poisoning so old it had mostly vanished with 1970s sedatives <span class="citation" data-cites="eichenberger2025">(<a href="#/references" role="doc-biblioref" onclick="">Eichenberger et al. 2025</a>)</span>.</p>
-<p>The answer he got was fluent, specific, and responsive to exactly the question he asked. What was the model trained to do, and what was he using it for?</p>
+<p>The answer he got was fluent, specific, and responsive to exactly the question he asked.</p>
+<ol type="1">
+<li>Who, if anyone, is responsible for what happened to him: the man, the company, or no one? Does your answer change if he had no doctor he could afford to ask?</li>
+<li>Should chatbots refuse to answer medical questions? Who would that protect, and who would it leave with nothing?</li>
+</ol>
 </div>
 </section>
 <section id="after-youve-discussed" class="slide level2">
@@ -544,8 +551,8 @@ Brendan Shea, PhD
 <p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
-<p>The scenario turns on <strong>verification asymmetry</strong>. A true generated answer and a hallucinated one look <em>identical on the screen</em>: same fluency, same confidence, same formatting. Only checking against the world tells them apart, and checking takes expertise the asker usually lacks (that’s why they asked).</p>
-<p>Human expertise carries outside credentials: a license, a pharmacist behind a counter, liability for mistakes. Generated text carries only its own voice. The bromism patient’s error wasn’t trusting a wrong answer. It was treating <em>fluency</em> as if it were a credential.</p>
+<p>One lens on both cases is <strong>verification asymmetry</strong>. A true generated answer and a hallucinated one look <em>identical on the screen</em>: same fluency, same confidence, same formatting. Only checking against the world tells them apart, and checking takes expertise the asker usually lacks (that’s why they asked).</p>
+<p>Human expertise carries outside credentials: a license, a pharmacist behind a counter, liability for mistakes. Generated text carries only its own voice, so <em>fluency</em> ends up doing the work of a credential. That doesn’t settle who was responsible, or whether refusing to answer is the fix. It does explain why “just double-check it” is harder advice to follow than it sounds.</p>
 </div>
 </div>
 </div>
@@ -597,7 +604,7 @@ Brendan Shea, PhD
 <li>A label closer to actual health removed about <strong>84%</strong> of the bias.</li>
 </ul>
 </div><div class="column" style="width:48%;">
-<div id="09672f7d" class="cell" data-execution_count="4">
+<div id="052e1033" class="cell" data-execution_count="4">
 <div class="cell-output cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -617,9 +624,8 @@ Brendan Shea, PhD
 <div class="thought-question">
 <p>You are the nursing representative on your hospital’s <strong>purchasing committee</strong>. A vendor is pitching a readmission-risk tool: “<strong>92% accurate</strong>, used by 200 hospitals.” The training data, the features, and the label are all trade secrets.</p>
 <ol type="1">
-<li>Write the three questions you would put to the vendor before signing.</li>
-<li>The CMO says: “200 hospitals can’t be wrong, and we don’t ask drug companies for their formulas.” What’s the flaw in each half of that sentence?</li>
-<li>If the vendor answers none of your questions, is “no purchase” really an option, knowing the status quo is overworked clinicians eyeballing risk?</li>
+<li>Has an algorithm ever made a call about <em>you</em> that you couldn’t see inside: an AI-writing detector, a résumé screener, a credit score? Did it get you right? Could you find out why it said what it said?</li>
+<li>The vendor won’t budge, and the alternative is what you have now: overworked clinicians eyeballing risk. Do you vote to buy? What would change your vote?</li>
 </ol>
 </div>
 </section>
@@ -634,7 +640,7 @@ Brendan Shea, PhD
 <p><strong>Note</strong></p>
 </div>
 <div class="callout-content">
-<p>The committee scenario turns on a distinction we haven’t named: <strong>internal versus external validation</strong>. Internal validation is the vendor grading its own homework: its model, its data, its chosen yardstick. <span class="key-term">External validation</span> is an independent test, on <em>your</em> patients, against an outcome <em>you</em> care about.</p>
+<p>However you voted, one distinction helps, and we haven’t named it yet: <strong>internal versus external validation</strong>. Internal validation is the vendor grading its own homework: its model, its data, its chosen yardstick. <span class="key-term">External validation</span> is an independent test, on <em>your</em> patients, against an outcome <em>you</em> care about.</p>
 <p>“92% accurate” is an internal number until proven otherwise. It is the same lesson as the replication crisis in research: a claim is not a finding until someone else checks it. The Obermeyer study was external validation in action, and the next case is what happens when a tool used on millions of patients goes years without any.</p>
 </div>
 </div>
@@ -652,7 +658,7 @@ Brendan Shea, PhD
 <p><span class="key-term">Sepsis</span> kills about <strong>350,000</strong> American adults a year. Epic built a sepsis warning into its health record, and hundreds of hospitals switched it on, with only <strong>Epic’s own</strong> numbers to go on.</p>
 <p>In 2021, Andrew Wong’s team ran the first large outside test, on 38,455 hospitalizations <span class="citation" data-cites="wong2021">(<a href="#/references" role="doc-biblioref" onclick="">Wong et al. 2021</a>)</span>. Epic claimed an accuracy score (AUC, where 0.5 is a coin flip) of 0.76–0.83. The test found <strong>0.63</strong>.</p>
 </div><div class="column" style="width:53%;">
-<div id="2370712f" class="cell" data-execution_count="5">
+<div id="859d9fd2" class="cell" data-execution_count="5">
 <div class="cell-output cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -719,6 +725,16 @@ Brendan Shea, PhD
 </div>
 </div>
 </div></div>
+</section>
+<section id="you-set-the-threshold" class="slide level2 scrollable">
+<h2>You Set the Threshold</h2>
+<div class="thought-question">
+<p>Every alarm has a dial. Turn the sepsis alert <strong>down</strong> and the floor gets fewer false alarms, but more real cases slip past. Turn it <strong>up</strong> and you catch more sepsis, and bury the night shift in pages.</p>
+<ol type="1">
+<li>What alarm in your own life have you learned to ignore: a car alarm, a smoke detector, a phone notification, a monitor on the unit? What would it take for you to start listening to it again?</li>
+<li>The dial is yours. Where do you set it? And who should get to decide: the vendor, the hospital, or the nurses who get paged?</li>
+</ol>
+</div>
 </section>
 <section id="the-full-scoreboard" class="slide level2">
 <h2>The Full Scoreboard</h2>
@@ -802,6 +818,16 @@ Brendan Shea, PhD
 <p>A radiologist reads CT scans. U.S. Air Force photo by Senior Airman Julianne Showalter, 2008. Public domain.</p>
 </div>
 </div></div>
+</section>
+<section id="your-turn-to-predict" class="slide level2 scrollable">
+<h2>Your Turn to Predict</h2>
+<div class="thought-question">
+<p>Hinton was wrong about radiologists. Now make your own call, about your own work.</p>
+<ol type="1">
+<li>Which part of nursing would you gladly hand to an AI? Which part would you refuse to hand over, even if it did the job better than you?</li>
+<li>Back to your aunt and her mole. Vote again: trust the app, don’t, or it depends. Did anyone change their answer? What changed it?</li>
+</ol>
+</div>
 </section>
 <section id="mini-recap" class="slide level2">
 <h2>Mini-Recap</h2>
