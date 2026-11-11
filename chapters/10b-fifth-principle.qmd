@@ -58,29 +58,21 @@ digraph scribe {
 - Investigations have documented scribe tools **inventing plausible content**: transcription systems inserting whole fabricated sentences, and drafts recording "patient denies chest pain" for a question never asked.
 - The chart is forever. A draft's errors, once signed, become medical fact.
 
-## After You've Discussed
-
-::: {.callout-note}
-Whatever you answered, you probably reached for three ideas: *they should have told me*, *someone should check it*, and *if it's wrong, that's on somebody*. Each one assumes that **someone can explain what the system did**.
-
-The four principles you've used all semester make the same assumption. Some philosophers concluded that the four need a fifth.
-:::
-
-::: {.content-hidden when-format="revealjs"}
-The same assumption ran through Part A. Every fix there (the cost label, the sepsis alarm, the rulers in the photos) needed someone who could see inside the system.
-:::
-
 ## Today
 
-Two questions run through all of Part B: **how does it work, and who answers for it?**
+*They should have told me. Someone should check it. If it's wrong, that's on somebody.* Each reaction assumes that **someone can explain what the system did**. So Part B asks two questions: **how does it work, and who answers for it?**
+
+::: {.content-hidden when-format="revealjs"}
+The same assumption ran through Part A. Every fix there (the cost label, the sepsis alarm, the rulers in the photos) needed someone who could see inside the system. The four principles you've used all semester assume it too, and some philosophers concluded that the four need a fifth.
+:::
 
 ::: {.learning-outcomes}
 By the end of Part B, you will be able to:
 
 - State **explicability**, the fifth principle, and its two halves.
-- Apply informed consent to AI: disclosure of **use**, **role**, and **performance**.
-- Explain who answers when AI harms a patient: the **problem of many hands** and the **moral crumple zone**.
-- Run **Mill's test** on the Illinois ban on AI therapy, and decide when to **defer to or override** an AI.
+- Apply consent to AI: disclosure of **use**, **role**, and **performance**.
+- Explain the **problem of many hands** and the **moral crumple zone**.
+- Run **Mill's test** on the Illinois AI-therapy ban, and decide when to **defer to or override** an AI.
 :::
 
 ## The Fifth Principle
@@ -193,17 +185,15 @@ Now raise the stakes. A patient learns her mammogram will be read "by the radiol
 2. When AI is involved in *your* care, what would you want to be told? Would a line in the intake paperwork count?
 :::
 
-## After You've Discussed
+## Three Things a Patient Could Be Told
 
-::: {.callout-note}
-However you answered, it helps to separate three duties that disclosure debates blur:
+| Disclosure of… | What the patient hears |
+|---|---|
+| **Use** | "AI was involved." |
+| **Role** | "AI flagged this; your doctor made the call." Or: "Your doctor reviews what the AI decides." |
+| **Performance** | "It misses about X% of cancers like yours." |
 
-- **Use**: "AI was involved."
-- **Role**: "AI flagged this; your doctor made the call," versus "your doctor reviews what the AI decides."
-- **Performance**: "it misses about X% of cancers like yours."
-
-The mammogram patient is asking about *role*. Almost no one is offered *performance*, the one a reasonable patient would most want. Neither point settles whether she gets her human-only read.
-:::
+The mammogram patient is asking about *role*. Almost no one is offered *performance*, the one a reasonable patient would most want.
 
 # When the AI Is Wrong, Who Answers? {.section-divider}
 
@@ -366,13 +356,26 @@ Your longtime patient, isolated and depressed, says her companion chatbot is "th
 2. Is there an app, a feed, or a game in your own life that is good for you by one measure and bad by another? Which measure do you believe?
 :::
 
-## After You've Discussed
+## Tool Harms and Relationship Harms
 
-::: {.callout-note}
-One lens: **tool harms versus relationship harms**. A wrong drug answer is a *tool* harm, and accuracy fixes it. Engineered attachment is a *relationship* harm, and a more fluent, more empathetic bot makes it **worse**.
+:::: {.columns}
+::: {.column width="48%"}
+**Tool harm**
 
-Nearly all AI regulation (disclaimers, disclosure rules, accuracy standards) aims at tool harms. The design-defect lawsuits and the Illinois ban are the first aimed at the second kind. Whether *your* patient is being harmed is still yours to judge.
+- A wrong answer, such as an invented drug interaction.
+- **Accuracy fixes it.**
+- Disclaimers, disclosure rules, and accuracy standards all aim here.
 :::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**Relationship harm**
+
+- An attachment the product was built to create.
+- A more fluent, more empathetic bot makes it **worse**.
+- The design-defect lawsuits and the Illinois ban are the first legal tools aimed here.
+:::
+::::
 
 ## Your Chatbot Confession Isn't Protected
 

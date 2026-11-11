@@ -75,11 +75,11 @@ Each lecture part has **3 to 4 question slides**, about 10 minutes each. More th
 
 1. **`## Thought Question`** — a concrete scenario with **one or two questions** (put the student in a role). Keep the scenario **under about 50 words**: the slide stays up for the whole discussion, and the questions are what students need to see.
 2. **`## Make It Contemporary`** (optional) — a **documented present-day analogue** (real law, case, study, or practice). It counts as a question slide.
-3. **`## After You've Discussed`** (optional) — a `.callout-note` debrief that introduces a **new distinction the body never stated** (e.g., coercion vs. undue inducement vs. exploitation). It must *advance* the analysis, never merely restate the lecture. It counts as a content slide.
+3. **A follow-up content slide** (optional) — when the discussion sets up a **new distinction the body never stated** (e.g., coercion vs. undue inducement vs. exploitation), teach it on an ordinary content slide: its own title, a table, columns, or bullets, inside the word budget. **Do not write an "After You've Discussed" paragraph callout.** A paragraph has to be read aloud, so it gets skipped in class. Commentary that is not worth a content slide goes in an HTML-only block.
 
 A question can do one of three jobs. Mix them; do not use one job for every unit.
 
-- **Hook**, before the content. Students commit to an answer, and the section that follows responds to it. A hook needs no debrief slide. The opening case is always a hook.
+- **Hook**, before the content. Students commit to an answer, and the section that follows responds to it. A hook needs no follow-up slide. The opening case is always a hook.
 - **Transition**, between two sections.
 - **Application or review**, after the content.
 
@@ -95,7 +95,7 @@ The test for every question: **could two thoughtful students give opposite answe
 - **Ask what they would say or do, in the room.** Practice questions ("What do you say to her in the next sixty seconds?") have many good answers. Analysis questions usually have one.
 - **Do not hide an answer in the question.** Avoid "What's the flaw in…", "Name the mistake precisely", "Does that settle it?", "Is X really the same as Y?", and "Which thinker would say…". All of them tell students you are holding the answer.
 - **Do not ask them to recall the lecture.** "Which of the 3 Rs applies?" is a review question.
-- **The debrief is a lens, not the answer key.** Open it with "one way to see this" or "however you voted", never with what the scenario "turns on". Say what the distinction leaves unsettled. If students learn that the next slide reveals the answer, they will wait for it.
+- **The slide after a question is not the answer key.** It teaches a distinction that helps with the question; it never says what the scenario "turns on" or which answer was right. If students learn that the next slide reveals the answer, they will wait for it.
 
 ## Quotes
 
@@ -155,7 +155,7 @@ I saw her an hour ago and she looked fine. That alarm has cried wolf all month.
 
 ## Opening: A Case to Sit With
 
-Open with a concrete scenario that frames the lecture's central tension — usually a `.thought-question` (the hook, not the lesson), followed by a short `.callout-note` "After You've Discussed". Make students feel the problem before they get vocabulary.
+Open with a concrete scenario that frames the lecture's central tension — usually a `.thought-question` (the hook, not the lesson). Make students feel the problem before they get vocabulary.
 
 ## What We're Doing Today
 
@@ -220,11 +220,9 @@ A concrete scenario (under about 50 words) in which the student has a role, with
 A documented present-day analogue (real law/case/study) that re-poses the same tension.
 :::
 
-## After You've Discussed
+## [Name of the New Distinction]
 
-::: {.callout-note}
-A debrief that introduces a **new distinction** — never a restatement of the slides above, and never the "right answer" to the question. Offer it as a lens, and say what it leaves open.
-:::
+An ordinary content slide (table, columns, or bullets) that teaches a **new distinction** the discussion set up — never a restatement of the slides above, never the "right answer" to the question, and never a paragraph to read aloud.
 
 ## Mini-Recap
 
