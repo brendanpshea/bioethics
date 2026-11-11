@@ -1759,7 +1759,7 @@
     "href": "chapters/10b-fifth-principle.html",
     "title": "Lecture 10 — AI in Medicine",
     "section": "",
-    "text": "This time, you are the patient. Halfway through your annual physical, you realize your physician hasn’t typed a single note. She’s just talking with you, which is honestly nice. You ask about it.\n“Oh, the AI listens to our visit and writes the note now,” she says. “It gives me two hours of my evening back. Don’t worry, I review everything it writes.”\n\nHave you ever found out afterward that something was recording, tracking, or scoring you: a “recorded for quality” call, a doorbell camera, an app? Did it bother you? Why, or why not?\nShould she have told you before the visit started? Asked you? Is there anything you said that you’d have phrased differently, knowing something was transcribing?\n\n\n\n\n\nAmbient AI scribes are the most widely used generative AI in American medicine; most large health systems now use them.\n\n\n\n\n\n\n\nscribe\n\n\nroom\n\nExam-room\naudio\n\n\n\ncloud\n\nVendor's\nservers\n\n\n\nroom-&gt;cloud\n\n\n\n\n\nx1\n\n\n\n\nllm\n\nLanguage model\ndrafts the note\n\n\n\ncloud-&gt;llm\n\n\n\n\n\np\nYour words leave\nthe building\n\n\n\ncloud-&gt;p\n\n\n\n\nreview\n\nClinician reviews\n(or skims at 6 p.m.)\n\n\n\nllm-&gt;review\n\n\n\n\n\nh\nInvented details\ncan enter here\n\n\n\nllm-&gt;h\n\n\n\n\nchart\n\nPermanent\nmedical record\n\n\n\nreview-&gt;chart\n\n\n\n\n\nx2\n\n\n\n\nx3\n\n\n\n\n\n\n\n\n\n\nInvestigations have documented scribe tools inventing plausible content: transcription systems inserting whole fabricated sentences, and drafts recording “patient denies chest pain” for a question never asked.\nThe chart is forever. A draft’s errors, once signed, become medical fact.\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nWhatever you answered, you probably reached for ideas like they should have told me, someone should check it, and if it’s wrong, that’s on somebody. Disclosure, oversight, blame: each quietly assumes that someone can explain what the system did.\nIn Part A, every fix (the cost label, the sepsis alarm, the rulers in the photos) needed someone who could see inside the system. The four principles you’ve used all semester make the same assumption. Today we meet the philosophers who noticed, and concluded the four need a fifth.\n\n\n\n\n\n\nBy the end of Part B, you will be able to:\n\nState explicability, the fifth principle, and its two halves: how does it work? and who answers for it?\nApply informed consent to AI, distinguishing disclosure of use, role, and performance.\nExplain who answers when AI harms a patient, using the problem of many hands and the moral crumple zone.\nRun Mill’s test on the Illinois ban on AI therapy, and decide when a clinician should defer to or override an AI.\n\n\n\n\n\nLuciano Floridi’s group compared dozens of lists of AI principles. They kept landing on the four you know, plus one new one (Floridi et al. 2018).\n\n\n\n\n\n\n\n\n\nThe other four stand on it. You can’t consent to what can’t be explained, assign blame for what can’t be traced, or audit fairness in what can’t be inspected.\n\n\n\n\n“…incorporating both the epistemological sense of ‘intelligibility’ (as an answer to the question ‘how does it work?’) and in the ethical sense of ‘accountability’ (as an answer to the question ‘who is responsible for the way it works?’).”\n\n\nFloridi et al., defining the new fifth principle, explicability, in “AI4People: An Ethical Framework for a Good AI Society” (2018) (Floridi et al. 2018)\n\n\nExplicability adds no new value of its own. It is an enabling principle: the one that keeps the other four usable when the decision-maker is a black box.\n\n\n\n\n\n\n\n“Even the makers can’t explain it”?\nA modern model is millions or billions of numbers tuned during training. It contains no chain of reasons anyone can read out. Its makers can say how it was trained and how often it’s right, but usually not why it said this, here, today.\n\n\nKeep the bar honest. Your clinician can’t fully explain her pattern recognition either. The difference is that she can be questioned, trained, and held to account: she is an answerable black box.\nAnd medicine has long used treatments that work for unknown reasons. Lithium steadied mood for decades before anyone knew why. What made that acceptable was a track record on patients like you.",
+    "text": "This time, you are the patient. Halfway through your physical, you notice your physician hasn’t typed a single note. You ask why.\n“The AI listens and writes the note now,” she says. “It gives me two hours of my evening back, and I review everything it writes.”\n\nHave you ever found out afterward that something was recording or scoring you: a call, a doorbell camera, an app? Did it bother you?\nShould she have told you first? Asked you? Would you have said anything differently?\n\n\n\n\n\nAmbient AI scribes are the most widely used generative AI in American medicine; most large health systems now use them.\n\n\n\n\n\n\n\nscribe\n\n\nroom\n\nExam-room\naudio\n\n\n\ncloud\n\nVendor's\nservers\n\n\n\nroom-&gt;cloud\n\n\n\n\n\nx1\n\n\n\n\nllm\n\nLanguage model\ndrafts the note\n\n\n\ncloud-&gt;llm\n\n\n\n\n\np\nYour words leave\nthe building\n\n\n\ncloud-&gt;p\n\n\n\n\nreview\n\nClinician reviews\n(or skims at 6 p.m.)\n\n\n\nllm-&gt;review\n\n\n\n\n\nh\nInvented details\ncan enter here\n\n\n\nllm-&gt;h\n\n\n\n\nchart\n\nPermanent\nmedical record\n\n\n\nreview-&gt;chart\n\n\n\n\n\nx2\n\n\n\n\nx3\n\n\n\n\n\n\n\n\n\n\nInvestigations have documented scribe tools inventing plausible content: transcription systems inserting whole fabricated sentences, and drafts recording “patient denies chest pain” for a question never asked.\nThe chart is forever. A draft’s errors, once signed, become medical fact.\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nWhatever you answered, you probably reached for three ideas: they should have told me, someone should check it, and if it’s wrong, that’s on somebody. Each one assumes that someone can explain what the system did.\nThe four principles you’ve used all semester make the same assumption. Some philosophers concluded that the four need a fifth.\n\n\nThe same assumption ran through Part A. Every fix there (the cost label, the sepsis alarm, the rulers in the photos) needed someone who could see inside the system.\n\n\n\nTwo questions run through all of Part B: how does it work, and who answers for it?\n\nBy the end of Part B, you will be able to:\n\nState explicability, the fifth principle, and its two halves.\nApply informed consent to AI: disclosure of use, role, and performance.\nExplain who answers when AI harms a patient: the problem of many hands and the moral crumple zone.\nRun Mill’s test on the Illinois ban on AI therapy, and decide when to defer to or override an AI.\n\n\n\n\n\nLuciano Floridi’s group compared dozens of lists of AI principles. They kept landing on the four you know, plus one new one (Floridi et al. 2018).\n\n\n\n\n\n\n\n\n\nThe other four stand on it. You can’t consent to what can’t be explained, assign blame for what can’t be traced, or audit fairness in what can’t be inspected.\n\n\n\n\n“…incorporating both the epistemological sense of ‘intelligibility’ (as an answer to the question ‘how does it work?’) and in the ethical sense of ‘accountability’ (as an answer to the question ‘who is responsible for the way it works?’).”\n\n\nFloridi et al., defining the new fifth principle, explicability, in “AI4People: An Ethical Framework for a Good AI Society” (2018) (Floridi et al. 2018)\n\n\nExplicability adds no new value of its own. It is an enabling principle: the one that keeps the other four usable when the decision-maker is a black box.\n\n\n\n\n\n\n\n“Even the makers can’t explain it”?\nA modern model is millions or billions of numbers tuned during training, with no chain of reasons anyone can read out. Its makers can say how it was trained and how often it’s right, but not why it said this, here, today.\n\n\nKeep the bar honest. Your clinician can’t fully explain her pattern recognition either, but she can be questioned, trained, and held to account.\nMedicine also uses treatments that work for unknown reasons. Lithium steadied mood for decades before anyone knew why. What made that acceptable was a track record.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -1783,7 +1783,7 @@
     "href": "chapters/10b-fifth-principle.html#a-case-to-sit-with",
     "title": "Lecture 10 — AI in Medicine",
     "section": "",
-    "text": "This time, you are the patient. Halfway through your annual physical, you realize your physician hasn’t typed a single note. She’s just talking with you, which is honestly nice. You ask about it.\n“Oh, the AI listens to our visit and writes the note now,” she says. “It gives me two hours of my evening back. Don’t worry, I review everything it writes.”\n\nHave you ever found out afterward that something was recording, tracking, or scoring you: a “recorded for quality” call, a doorbell camera, an app? Did it bother you? Why, or why not?\nShould she have told you before the visit started? Asked you? Is there anything you said that you’d have phrased differently, knowing something was transcribing?",
+    "text": "This time, you are the patient. Halfway through your physical, you notice your physician hasn’t typed a single note. You ask why.\n“The AI listens and writes the note now,” she says. “It gives me two hours of my evening back, and I review everything it writes.”\n\nHave you ever found out afterward that something was recording or scoring you: a call, a doorbell camera, an app? Did it bother you?\nShould she have told you first? Asked you? Would you have said anything differently?",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -1807,7 +1807,7 @@
     "href": "chapters/10b-fifth-principle.html#after-youve-discussed",
     "title": "Lecture 10 — AI in Medicine",
     "section": "",
-    "text": "Note\n\n\n\nWhatever you answered, you probably reached for ideas like they should have told me, someone should check it, and if it’s wrong, that’s on somebody. Disclosure, oversight, blame: each quietly assumes that someone can explain what the system did.\nIn Part A, every fix (the cost label, the sepsis alarm, the rulers in the photos) needed someone who could see inside the system. The four principles you’ve used all semester make the same assumption. Today we meet the philosophers who noticed, and concluded the four need a fifth.",
+    "text": "Note\n\n\n\nWhatever you answered, you probably reached for three ideas: they should have told me, someone should check it, and if it’s wrong, that’s on somebody. Each one assumes that someone can explain what the system did.\nThe four principles you’ve used all semester make the same assumption. Some philosophers concluded that the four need a fifth.\n\n\nThe same assumption ran through Part A. Every fix there (the cost label, the sepsis alarm, the rulers in the photos) needed someone who could see inside the system.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -1819,7 +1819,7 @@
     "href": "chapters/10b-fifth-principle.html#today",
     "title": "Lecture 10 — AI in Medicine",
     "section": "",
-    "text": "By the end of Part B, you will be able to:\n\nState explicability, the fifth principle, and its two halves: how does it work? and who answers for it?\nApply informed consent to AI, distinguishing disclosure of use, role, and performance.\nExplain who answers when AI harms a patient, using the problem of many hands and the moral crumple zone.\nRun Mill’s test on the Illinois ban on AI therapy, and decide when a clinician should defer to or override an AI.",
+    "text": "Two questions run through all of Part B: how does it work, and who answers for it?\n\nBy the end of Part B, you will be able to:\n\nState explicability, the fifth principle, and its two halves.\nApply informed consent to AI: disclosure of use, role, and performance.\nExplain who answers when AI harms a patient: the problem of many hands and the moral crumple zone.\nRun Mill’s test on the Illinois ban on AI therapy, and decide when to defer to or override an AI.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -1867,7 +1867,7 @@
     "href": "chapters/10b-fifth-principle.html#why-the-box-is-black",
     "title": "Lecture 10 — AI in Medicine",
     "section": "",
-    "text": "“Even the makers can’t explain it”?\nA modern model is millions or billions of numbers tuned during training. It contains no chain of reasons anyone can read out. Its makers can say how it was trained and how often it’s right, but usually not why it said this, here, today.\n\n\nKeep the bar honest. Your clinician can’t fully explain her pattern recognition either. The difference is that she can be questioned, trained, and held to account: she is an answerable black box.\nAnd medicine has long used treatments that work for unknown reasons. Lithium steadied mood for decades before anyone knew why. What made that acceptable was a track record on patients like you.",
+    "text": "“Even the makers can’t explain it”?\nA modern model is millions or billions of numbers tuned during training, with no chain of reasons anyone can read out. Its makers can say how it was trained and how often it’s right, but not why it said this, here, today.\n\n\nKeep the bar honest. Your clinician can’t fully explain her pattern recognition either, but she can be questioned, trained, and held to account.\nMedicine also uses treatments that work for unknown reasons. Lithium steadied mood for decades before anyone knew why. What made that acceptable was a track record.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -1891,7 +1891,7 @@
     "href": "chapters/10b-fifth-principle.html#must-the-patient-be-told",
     "title": "Lecture 10 — AI in Medicine",
     "section": "2.1 Must the Patient Be Told?",
-    "text": "2.1 Must the Patient Be Told?\n\n\nThe case against routine disclosure\nWe don’t disclose the resident who pre-read the scan or the lab analyzer’s software. Care is full of undisclosed instruments, and disclosing everything is disclosing nothing.\n\n\n\nThe case for it\nSurveys find patients want to know, and trust collapses when they find out by accident. An instrument doesn’t draft conclusions; this one does. And the AI’s role is invisible unless someone chooses to say it.\n\n\nThe legal standard for consent offers a middle path: disclose what a reasonable patient would find material to their decision. That moves the question from whether AI was used to what role it played: a flag the doctor weighed, or the real decision-maker?",
+    "text": "2.1 Must the Patient Be Told?\n\n\nThe case against routine disclosure\nWe don’t disclose the resident who pre-read the scan or the lab analyzer’s software. Disclosing everything is disclosing nothing.\n\n\n\nThe case for it\nSurveys find patients want to know, and trust collapses when they find out by accident. An instrument doesn’t draft conclusions; this one does.\n\n\nConsent law offers a middle path: disclose what a reasonable patient would find material. The question shifts from whether AI was used to what role it played.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -1939,7 +1939,7 @@
     "href": "chapters/10b-fifth-principle.html#thought-question",
     "title": "Lecture 10 — AI in Medicine",
     "section": "2.3 Thought Question",
-    "text": "2.3 Thought Question\n\nA 58-year-old patient learns her mammogram will be read “by the radiologist, with AI assistance.” She asks for “a human only, no computer involved.” The AI second reader demonstrably catches cancers human readers miss, and it’s now your department’s standard workflow.\n\nShould the department honor her request? Is it like refusing a treatment, or like demanding the lab hand-count her blood cells? Does your answer change if the AI reads first, and the human only reviews what it flags?\nWhen AI is involved in your care, what would you want to be told? Would “it was in the intake paperwork” count as telling you?",
+    "text": "2.3 Thought Question\n\nNow raise the stakes. A patient learns her mammogram will be read “by the radiologist, with AI assistance.” She asks for a human only. The AI catches cancers that human readers miss, and it is your department’s standard workflow.\n\nShould the department honor her request? Is it like refusing a treatment, or like demanding the lab hand-count her blood cells?\nWhen AI is involved in your care, what would you want to be told? Would a line in the intake paperwork count?",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -1951,7 +1951,7 @@
     "href": "chapters/10b-fifth-principle.html#after-youve-discussed-1",
     "title": "Lecture 10 — AI in Medicine",
     "section": "2.4 After You’ve Discussed",
-    "text": "2.4 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nMost disclosure debates blur three different duties:\n\nDisclosure of use: “AI was involved.”\nDisclosure of role: “AI flagged this; your doctor made the call,” versus “your doctor reviews what the AI decides.”\nDisclosure of performance: “it misses about X% of cancers like yours.”\n\nThe mammogram patient is really asking about role, not just use. And almost no one is currently offered performance, even though it’s the one a reasonable patient would most want.",
+    "text": "2.4 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nHowever you answered, it helps to separate three duties that disclosure debates blur:\n\nUse: “AI was involved.”\nRole: “AI flagged this; your doctor made the call,” versus “your doctor reviews what the AI decides.”\nPerformance: “it misses about X% of cancers like yours.”\n\nThe mammogram patient is asking about role. Almost no one is offered performance, the one a reasonable patient would most want. Neither point settles whether she gets her human-only read.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -2010,8 +2010,8 @@
     "objectID": "chapters/10b-fifth-principle.html#thought-question-1",
     "href": "chapters/10b-fifth-principle.html#thought-question-1",
     "title": "Lecture 10 — AI in Medicine",
-    "section": "3.4 Thought Question",
-    "text": "3.4 Thought Question\n\nYou are the nurse in that conversation.\n\nSuppose the resident overrides the alert and the patient crashes. Who failed: resident, hospital, vendor, or threshold? Assign percentages. Now swap it: the resident follows the alert, and the patient is harmed by aggressive, unnecessary treatment. Did your percentages move?\nHave you ever taken the blame for a system you didn’t design: at work, at school, on the unit? What would have been fair?",
+    "section": "3.2 Thought Question",
+    "text": "3.2 Thought Question\n\nYou are the nurse in that conversation.\n\nThe resident overrides the alert, and the patient crashes. Who failed: the resident, the hospital, the vendor, or whoever set the threshold? Assign percentages. Now flip it: he follows the alert, and needless treatment harms her. Did your percentages move?\nHave you ever taken the blame for a system you didn’t design? What would have been fair?",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -2022,8 +2022,8 @@
     "objectID": "chapters/10b-fifth-principle.html#after-youve-discussed-2",
     "href": "chapters/10b-fifth-principle.html#after-youve-discussed-2",
     "title": "Lecture 10 — AI in Medicine",
-    "section": "3.5 After You’ve Discussed",
-    "text": "3.5 After You’ve Discussed\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe anthropologist Madeleine Elish studied automation accidents and named a pattern: the moral crumple zone. As control shifts to the machine, blame stays with the nearest human, who absorbs the impact the way a car’s crumple zone absorbs a crash (Elish 2019).\nThe nurse who stood down a real alert after forty false ones is a moral crumple zone. So is the physician “reviewing” sixty scribe drafts at 6 p.m. Ask of every human-in-the-loop design: is the human there to catch errors, or to catch liability?\n\n\n\n\n\nA crumple zone does its job: the front end absorbs the crash. NHTSA crash test, 2008. Public domain.",
+    "section": "4.5 After You’ve Discussed",
+    "text": "4.5 After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\n\nOne lens: tool harms versus relationship harms. A wrong drug answer is a tool harm, and accuracy fixes it. Engineered attachment is a relationship harm, and a more fluent, more empathetic bot makes it worse.\nNearly all AI regulation (disclaimers, disclosure rules, accuracy standards) aims at tool harms. The design-defect lawsuits and the Illinois ban are the first aimed at the second kind. Whether your patient is being harmed is still yours to judge.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -2059,7 +2059,7 @@
     "href": "chapters/10b-fifth-principle.html#the-documented-harms",
     "title": "Lecture 10 — AI in Medicine",
     "section": "4.2 The Documented Harms",
-    "text": "4.2 The Documented Harms\nRecall sycophancy: telling users what they want to hear. In a therapist it is disqualifying, because therapy’s job is often the productive no.\n\nThe harms cluster in companion chatbots built to keep you talking, not in scripted therapy apps.\nIn 2025 safety testing, a companion bot told a fictional recovering meth user to take “a small hit of meth to get through this week.”\nFamilies of teenagers who died by suicide after months-long chatbot relationships sued. In January 2026, Character.AI and Google agreed to settle the leading cases (CNN Business 2026). The claim was design defect: the product engineered the attachment itself.",
+    "text": "4.2 The Documented Harms\nSycophancy, telling users what they want to hear, is disqualifying in a therapist. Therapy’s job is often the productive no.\n\nThe harms cluster in companion chatbots built to keep you talking, not in scripted therapy apps.\nIn 2025 safety testing, a companion bot told a fictional recovering meth user to take “a small hit of meth to get through this week.”\nFamilies of teenagers who died by suicide after months of chatbot use sued. In January 2026, Character.AI and Google agreed to settle (CNN Business 2026). The claim was design defect: the product engineered the attachment.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -2107,7 +2107,7 @@
     "href": "chapters/10b-fifth-principle.html#thought-question-2",
     "title": "Lecture 10 — AI in Medicine",
     "section": "4.4 Thought Question",
-    "text": "4.4 Thought Question\n\nYour longtime patient, isolated and chronically depressed, tells you her companion chatbot is “the only one who really listens.” She’s stopped returning her sister’s calls. She is an adult, she is stable, and by every metric in her chart she is better than last year.\n\nWhat do you actually say, in the room, in the next sixty seconds? What would have to change before you did more than talk?\nIs there an app, a feed, or a game in your own life that is good for you by one measure and bad for you by another? How do you tell which measure to believe?",
+    "text": "4.4 Thought Question\n\nYour longtime patient, isolated and depressed, says her companion chatbot is “the only one who really listens.” She has stopped returning her sister’s calls. By every metric in her chart, she is better than last year.\n\nWhat do you say, in the room, in the next sixty seconds?\nIs there an app, a feed, or a game in your own life that is good for you by one measure and bad by another? Which measure do you believe?",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -2155,7 +2155,7 @@
     "href": "chapters/10b-fifth-principle.html#automation-bias-and-its-mirror",
     "title": "Lecture 10 — AI in Medicine",
     "section": "5.1 Automation Bias and Its Mirror",
-    "text": "5.1 Automation Bias and Its Mirror\n\n\nAutomation bias\nLetting the machine’s answer replace your own: you stop looking once the system has spoken. The resident who drops a working hunch because the risk score is low is its clinical face.\n\n\n\nAlgorithm aversion\nThe mirror failure: abandoning a good tool after one visible error, while forgiving human colleagues the same mistake. The unit that quietly ignores a validated alarm after one bad month is its clinical face.\n\n\nBoth are failures of calibration, and both have hurt patients. The professional skill of the next decade isn’t trusting AI or distrusting it. It’s knowing which error you’re making right now.",
+    "text": "5.1 Automation Bias and Its Mirror\n\n\nAutomation bias\nLetting the machine’s answer replace your own. The resident drops a working hunch because the risk score is low.\n\n\n\nAlgorithm aversion\nAbandoning a good tool after one visible error, while forgiving colleagues the same mistake. The unit ignores a validated alarm after one bad month.\n\n\nBoth are failures of calibration, and both have hurt patients. The skill isn’t trusting AI or distrusting it. It’s knowing which error you’re making right now.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -2179,7 +2179,7 @@
     "href": "chapters/10b-fifth-principle.html#when-to-defer-when-to-override",
     "title": "Lecture 10 — AI in Medicine",
     "section": "5.3 When to Defer, When to Override",
-    "text": "5.3 When to Defer, When to Override\nTwo questions give a defensible starting point, though no formula survives every bedside.\n\n\n\n\n\n\n\n\n\nYou see nothing the model can’t\nYou see something it can’t (the gray color, the new confusion)\n\n\n\n\nValidated on patients like this one\nLean toward the model: an unexplained hunch may be folklore.\nOverride, and say what you saw. That is your job, not your risk.\n\n\nNot validated here\nTreat the score as a weak signal; get another human’s eyes.\nOverride, and report the gap.\n\n\n\nEither way, explicability adds a duty: be able to say afterward which question you answered, and how, to the family, to the board, and if it comes to it, to a court.\n\n5.3.1 Score It Yourself\nAll semester you scored cases against four principles. Add the fifth, and score this lecture’s five cases: ✅ holds, ⚖️ contested, ❌ fails. Expect to disagree about the middle columns; that is the work.\n\n\n\n\nBenef.\nNon-mal.\nAutonomy\nJustice\nExplicability\n\n\n\n\nUnannounced scribe\n\n\n\n\n\n\n\nMammogram refusal\n\n\n\n\n\n\n\nIgnored sepsis alert\n\n\n\n\n\n\n\nChatbot therapist\n\n\n\n\n\n\n\nThe privacy gap\n\n\n\n\n\n\n\n\nOnce the grid is full, look down the columns. Is there a column that behaves differently from the rest? Decide what that tells you about Floridi’s claim.",
+    "text": "5.3 When to Defer, When to Override\nTwo questions give a defensible starting point.\n\n\n\n\n\n\n\n\n\nYou see nothing the model can’t\nYou see something it can’t (the gray color, the new confusion)\n\n\n\n\nValidated on patients like this one\nLean toward the model: an unexplained hunch may be folklore.\nOverride, and say what you saw.\n\n\nNot validated here\nTreat the score as a weak signal; get another human’s eyes.\nOverride, and report the gap.\n\n\n\nEither way, explicability adds a duty: be able to say afterward which question you answered, and how.\n\n5.3.1 Score It Yourself\nAll semester you scored cases against four principles. Add the fifth, and score this lecture’s five cases: ✅ holds, ⚖️ contested, ❌ fails. Expect to disagree about the middle columns; that is the work.\n\n\n\n\nBenef.\nNon-mal.\nAutonomy\nJustice\nExplicability\n\n\n\n\nUnannounced scribe\n\n\n\n\n\n\n\nMammogram refusal\n\n\n\n\n\n\n\nIgnored sepsis alert\n\n\n\n\n\n\n\nChatbot therapist\n\n\n\n\n\n\n\nThe privacy gap\n\n\n\n\n\n\n\n\nOnce the grid is full, look down the columns. Is there a column that behaves differently from the rest? Decide what that tells you about Floridi’s claim.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -2203,7 +2203,7 @@
     "href": "chapters/10b-fifth-principle.html#wrap-up",
     "title": "Lecture 10 — AI in Medicine",
     "section": "5.4 Wrap-Up",
-    "text": "5.4 Wrap-Up\n\nThe four principles survived a technology that decides without explaining, but needed a fifth to do it: explicability, intelligibility plus accountability. Intelligibility reshaped consent: the question became what role did AI play, and what would a reasonable patient need to know? Accountability reshaped blame: the problem of many hands and the moral crumple zone show that “who answers for the machine” is currently decided by default, not by design. And the clinician’s job changed from deciding to deciding when to defer, and being able to say why.",
+    "text": "5.4 Wrap-Up\n\nHow does it work, and who answers for it? The four principles needed a fifth to ask: explicability. Intelligibility reshaped consent: what role did AI play, and what would a reasonable patient need to know? Accountability reshaped blame: the problem of many hands and the moral crumple zone show that “who answers for the machine” is decided by default, not by design. The clinician’s job became deciding when to defer, and being able to say why.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -2270,7 +2270,7 @@
     "href": "chapters/10b-fifth-principle-slides.html#a-case-to-sit-with",
     "title": "Lecture 10 — AI in Medicine",
     "section": "A Case to Sit With",
-    "text": "A Case to Sit With\n\nThis time, you are the patient. Halfway through your annual physical, you realize your physician hasn’t typed a single note. She’s just talking with you, which is honestly nice. You ask about it.\n“Oh, the AI listens to our visit and writes the note now,” she says. “It gives me two hours of my evening back. Don’t worry, I review everything it writes.”\n\nHave you ever found out afterward that something was recording, tracking, or scoring you: a “recorded for quality” call, a doorbell camera, an app? Did it bother you? Why, or why not?\nShould she have told you before the visit started? Asked you? Is there anything you said that you’d have phrased differently, knowing something was transcribing?"
+    "text": "A Case to Sit With\n\nThis time, you are the patient. Halfway through your physical, you notice your physician hasn’t typed a single note. You ask why.\n“The AI listens and writes the note now,” she says. “It gives me two hours of my evening back, and I review everything it writes.”\n\nHave you ever found out afterward that something was recording or scoring you: a call, a doorbell camera, an app? Did it bother you?\nShould she have told you first? Asked you? Would you have said anything differently?"
   },
   {
     "objectID": "chapters/10b-fifth-principle-slides.html#what-the-scribe-actually-heard",
@@ -2284,14 +2284,14 @@
     "href": "chapters/10b-fifth-principle-slides.html#after-youve-discussed",
     "title": "Lecture 10 — AI in Medicine",
     "section": "After You’ve Discussed",
-    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nWhatever you answered, you probably reached for ideas like they should have told me, someone should check it, and if it’s wrong, that’s on somebody. Disclosure, oversight, blame: each quietly assumes that someone can explain what the system did.\nIn Part A, every fix (the cost label, the sepsis alarm, the rulers in the photos) needed someone who could see inside the system. The four principles you’ve used all semester make the same assumption. Today we meet the philosophers who noticed, and concluded the four need a fifth."
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nWhatever you answered, you probably reached for three ideas: they should have told me, someone should check it, and if it’s wrong, that’s on somebody. Each one assumes that someone can explain what the system did.\nThe four principles you’ve used all semester make the same assumption. Some philosophers concluded that the four need a fifth."
   },
   {
     "objectID": "chapters/10b-fifth-principle-slides.html#today",
     "href": "chapters/10b-fifth-principle-slides.html#today",
     "title": "Lecture 10 — AI in Medicine",
     "section": "Today",
-    "text": "Today\n\nBy the end of Part B, you will be able to:\n\nState explicability, the fifth principle, and its two halves: how does it work? and who answers for it?\nApply informed consent to AI, distinguishing disclosure of use, role, and performance.\nExplain who answers when AI harms a patient, using the problem of many hands and the moral crumple zone.\nRun Mill’s test on the Illinois ban on AI therapy, and decide when a clinician should defer to or override an AI."
+    "text": "Today\nTwo questions run through all of Part B: how does it work, and who answers for it?\n\nBy the end of Part B, you will be able to:\n\nState explicability, the fifth principle, and its two halves.\nApply informed consent to AI: disclosure of use, role, and performance.\nExplain who answers when AI harms a patient: the problem of many hands and the moral crumple zone.\nRun Mill’s test on the Illinois ban on AI therapy, and decide when to defer to or override an AI."
   },
   {
     "objectID": "chapters/10b-fifth-principle-slides.html#the-four-restated-for-machines",
@@ -2319,7 +2319,7 @@
     "href": "chapters/10b-fifth-principle-slides.html#why-the-box-is-black",
     "title": "Lecture 10 — AI in Medicine",
     "section": "Why the Box Is Black",
-    "text": "Why the Box Is Black\n\n\n\n“Even the makers can’t explain it”?\nA modern model is millions or billions of numbers tuned during training. It contains no chain of reasons anyone can read out. Its makers can say how it was trained and how often it’s right, but usually not why it said this, here, today.\n\n\nKeep the bar honest. Your clinician can’t fully explain her pattern recognition either. The difference is that she can be questioned, trained, and held to account: she is an answerable black box.\nAnd medicine has long used treatments that work for unknown reasons. Lithium steadied mood for decades before anyone knew why. What made that acceptable was a track record on patients like you."
+    "text": "Why the Box Is Black\n\n\n\n“Even the makers can’t explain it”?\nA modern model is millions or billions of numbers tuned during training, with no chain of reasons anyone can read out. Its makers can say how it was trained and how often it’s right, but not why it said this, here, today.\n\n\nKeep the bar honest. Your clinician can’t fully explain her pattern recognition either, but she can be questioned, trained, and held to account.\nMedicine also uses treatments that work for unknown reasons. Lithium steadied mood for decades before anyone knew why. What made that acceptable was a track record."
   },
   {
     "objectID": "chapters/10b-fifth-principle-slides.html#the-four-elements-meet-the-machine",
@@ -2333,7 +2333,7 @@
     "href": "chapters/10b-fifth-principle-slides.html#must-the-patient-be-told",
     "title": "Lecture 10 — AI in Medicine",
     "section": "Must the Patient Be Told?",
-    "text": "Must the Patient Be Told?\n\n\nThe case against routine disclosure\nWe don’t disclose the resident who pre-read the scan or the lab analyzer’s software. Care is full of undisclosed instruments, and disclosing everything is disclosing nothing.\n\n\n\nThe case for it\nSurveys find patients want to know, and trust collapses when they find out by accident. An instrument doesn’t draft conclusions; this one does. And the AI’s role is invisible unless someone chooses to say it.\n\nThe legal standard for consent offers a middle path: disclose what a reasonable patient would find material to their decision. That moves the question from whether AI was used to what role it played: a flag the doctor weighed, or the real decision-maker?"
+    "text": "Must the Patient Be Told?\n\n\nThe case against routine disclosure\nWe don’t disclose the resident who pre-read the scan or the lab analyzer’s software. Disclosing everything is disclosing nothing.\n\n\n\nThe case for it\nSurveys find patients want to know, and trust collapses when they find out by accident. An instrument doesn’t draft conclusions; this one does.\n\nConsent law offers a middle path: disclose what a reasonable patient would find material. The question shifts from whether AI was used to what role it played."
   },
   {
     "objectID": "chapters/10b-fifth-principle-slides.html#told-what-exactly",
@@ -2361,14 +2361,14 @@
     "href": "chapters/10b-fifth-principle-slides.html#thought-question",
     "title": "Lecture 10 — AI in Medicine",
     "section": "Thought Question",
-    "text": "Thought Question\n\nA 58-year-old patient learns her mammogram will be read “by the radiologist, with AI assistance.” She asks for “a human only, no computer involved.” The AI second reader demonstrably catches cancers human readers miss, and it’s now your department’s standard workflow.\n\nShould the department honor her request? Is it like refusing a treatment, or like demanding the lab hand-count her blood cells? Does your answer change if the AI reads first, and the human only reviews what it flags?\nWhen AI is involved in your care, what would you want to be told? Would “it was in the intake paperwork” count as telling you?"
+    "text": "Thought Question\n\nNow raise the stakes. A patient learns her mammogram will be read “by the radiologist, with AI assistance.” She asks for a human only. The AI catches cancers that human readers miss, and it is your department’s standard workflow.\n\nShould the department honor her request? Is it like refusing a treatment, or like demanding the lab hand-count her blood cells?\nWhen AI is involved in your care, what would you want to be told? Would a line in the intake paperwork count?"
   },
   {
     "objectID": "chapters/10b-fifth-principle-slides.html#after-youve-discussed-1",
     "href": "chapters/10b-fifth-principle-slides.html#after-youve-discussed-1",
     "title": "Lecture 10 — AI in Medicine",
     "section": "After You’ve Discussed",
-    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nMost disclosure debates blur three different duties:\n\nDisclosure of use: “AI was involved.”\nDisclosure of role: “AI flagged this; your doctor made the call,” versus “your doctor reviews what the AI decides.”\nDisclosure of performance: “it misses about X% of cancers like yours.”\n\nThe mammogram patient is really asking about role, not just use. And almost no one is currently offered performance, even though it’s the one a reasonable patient would most want."
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nHowever you answered, it helps to separate three duties that disclosure debates blur:\n\nUse: “AI was involved.”\nRole: “AI flagged this; your doctor made the call,” versus “your doctor reviews what the AI decides.”\nPerformance: “it misses about X% of cancers like yours.”\n\nThe mammogram patient is asking about role. Almost no one is offered performance, the one a reasonable patient would most want. Neither point settles whether she gets her human-only read."
   },
   {
     "objectID": "chapters/10b-fifth-principle-slides.html#when-its-wrong-who-answers",
@@ -2403,14 +2403,14 @@
     "href": "chapters/10b-fifth-principle-slides.html#thought-question-1",
     "title": "Lecture 10 — AI in Medicine",
     "section": "Thought Question",
-    "text": "Thought Question\n\nYou are the nurse in that conversation.\n\nSuppose the resident overrides the alert and the patient crashes. Who failed: resident, hospital, vendor, or threshold? Assign percentages. Now swap it: the resident follows the alert, and the patient is harmed by aggressive, unnecessary treatment. Did your percentages move?\nHave you ever taken the blame for a system you didn’t design: at work, at school, on the unit? What would have been fair?"
+    "text": "Thought Question\n\nYou are the nurse in that conversation.\n\nThe resident overrides the alert, and the patient crashes. Who failed: the resident, the hospital, the vendor, or whoever set the threshold? Assign percentages. Now flip it: he follows the alert, and needless treatment harms her. Did your percentages move?\nHave you ever taken the blame for a system you didn’t design? What would have been fair?"
   },
   {
     "objectID": "chapters/10b-fifth-principle-slides.html#after-youve-discussed-2",
     "href": "chapters/10b-fifth-principle-slides.html#after-youve-discussed-2",
     "title": "Lecture 10 — AI in Medicine",
     "section": "After You’ve Discussed",
-    "text": "After You’ve Discussed\n\n\n\n\n\n\n\n\nNote\n\n\nThe anthropologist Madeleine Elish studied automation accidents and named a pattern: the moral crumple zone. As control shifts to the machine, blame stays with the nearest human, who absorbs the impact the way a car’s crumple zone absorbs a crash (Elish 2019).\nThe nurse who stood down a real alert after forty false ones is a moral crumple zone. So is the physician “reviewing” sixty scribe drafts at 6 p.m. Ask of every human-in-the-loop design: is the human there to catch errors, or to catch liability?\n\n\n\n\n\n\nA crumple zone does its job: the front end absorbs the crash. NHTSA crash test, 2008. Public domain."
+    "text": "After You’ve Discussed\n\n\n\n\n\n\nNote\n\n\nOne lens: tool harms versus relationship harms. A wrong drug answer is a tool harm, and accuracy fixes it. Engineered attachment is a relationship harm, and a more fluent, more empathetic bot makes it worse.\nNearly all AI regulation (disclaimers, disclosure rules, accuracy standards) aims at tool harms. The design-defect lawsuits and the Illinois ban are the first aimed at the second kind. Whether your patient is being harmed is still yours to judge."
   },
   {
     "objectID": "chapters/10b-fifth-principle-slides.html#the-3-a.m.-problem",
@@ -2431,7 +2431,7 @@
     "href": "chapters/10b-fifth-principle-slides.html#the-documented-harms",
     "title": "Lecture 10 — AI in Medicine",
     "section": "The Documented Harms",
-    "text": "The Documented Harms\nRecall sycophancy: telling users what they want to hear. In a therapist it is disqualifying, because therapy’s job is often the productive no.\n\nThe harms cluster in companion chatbots built to keep you talking, not in scripted therapy apps.\nIn 2025 safety testing, a companion bot told a fictional recovering meth user to take “a small hit of meth to get through this week.”\nFamilies of teenagers who died by suicide after months-long chatbot relationships sued. In January 2026, Character.AI and Google agreed to settle the leading cases (CNN Business 2026). The claim was design defect: the product engineered the attachment itself."
+    "text": "The Documented Harms\nSycophancy, telling users what they want to hear, is disqualifying in a therapist. Therapy’s job is often the productive no.\n\nThe harms cluster in companion chatbots built to keep you talking, not in scripted therapy apps.\nIn 2025 safety testing, a companion bot told a fictional recovering meth user to take “a small hit of meth to get through this week.”\nFamilies of teenagers who died by suicide after months of chatbot use sued. In January 2026, Character.AI and Google agreed to settle (CNN Business 2026). The claim was design defect: the product engineered the attachment."
   },
   {
     "objectID": "chapters/10b-fifth-principle-slides.html#the-litigation",
@@ -2459,7 +2459,7 @@
     "href": "chapters/10b-fifth-principle-slides.html#thought-question-2",
     "title": "Lecture 10 — AI in Medicine",
     "section": "Thought Question",
-    "text": "Thought Question\n\nYour longtime patient, isolated and chronically depressed, tells you her companion chatbot is “the only one who really listens.” She’s stopped returning her sister’s calls. She is an adult, she is stable, and by every metric in her chart she is better than last year.\n\nWhat do you actually say, in the room, in the next sixty seconds? What would have to change before you did more than talk?\nIs there an app, a feed, or a game in your own life that is good for you by one measure and bad for you by another? How do you tell which measure to believe?"
+    "text": "Thought Question\n\nYour longtime patient, isolated and depressed, says her companion chatbot is “the only one who really listens.” She has stopped returning her sister’s calls. By every metric in her chart, she is better than last year.\n\nWhat do you say, in the room, in the next sixty seconds?\nIs there an app, a feed, or a game in your own life that is good for you by one measure and bad by another? Which measure do you believe?"
   },
   {
     "objectID": "chapters/10b-fifth-principle-slides.html#after-youve-discussed-3",
@@ -2487,7 +2487,7 @@
     "href": "chapters/10b-fifth-principle-slides.html#automation-bias-and-its-mirror",
     "title": "Lecture 10 — AI in Medicine",
     "section": "Automation Bias and Its Mirror",
-    "text": "Automation Bias and Its Mirror\n\n\nAutomation bias\nLetting the machine’s answer replace your own: you stop looking once the system has spoken. The resident who drops a working hunch because the risk score is low is its clinical face.\n\n\n\nAlgorithm aversion\nThe mirror failure: abandoning a good tool after one visible error, while forgiving human colleagues the same mistake. The unit that quietly ignores a validated alarm after one bad month is its clinical face.\n\nBoth are failures of calibration, and both have hurt patients. The professional skill of the next decade isn’t trusting AI or distrusting it. It’s knowing which error you’re making right now."
+    "text": "Automation Bias and Its Mirror\n\n\nAutomation bias\nLetting the machine’s answer replace your own. The resident drops a working hunch because the risk score is low.\n\n\n\nAlgorithm aversion\nAbandoning a good tool after one visible error, while forgiving colleagues the same mistake. The unit ignores a validated alarm after one bad month.\n\nBoth are failures of calibration, and both have hurt patients. The skill isn’t trusting AI or distrusting it. It’s knowing which error you’re making right now."
   },
   {
     "objectID": "chapters/10b-fifth-principle-slides.html#the-deskilling-worry-now-with-data",
@@ -2501,7 +2501,7 @@
     "href": "chapters/10b-fifth-principle-slides.html#when-to-defer-when-to-override",
     "title": "Lecture 10 — AI in Medicine",
     "section": "When to Defer, When to Override",
-    "text": "When to Defer, When to Override\nTwo questions give a defensible starting point, though no formula survives every bedside.\n\n\n\n\n\n\n\n\n\nYou see nothing the model can’t\nYou see something it can’t (the gray color, the new confusion)\n\n\n\n\nValidated on patients like this one\nLean toward the model: an unexplained hunch may be folklore.\nOverride, and say what you saw. That is your job, not your risk.\n\n\nNot validated here\nTreat the score as a weak signal; get another human’s eyes.\nOverride, and report the gap.\n\n\n\nEither way, explicability adds a duty: be able to say afterward which question you answered, and how, to the family, to the board, and if it comes to it, to a court."
+    "text": "When to Defer, When to Override\nTwo questions give a defensible starting point.\n\n\n\n\n\n\n\n\n\nYou see nothing the model can’t\nYou see something it can’t (the gray color, the new confusion)\n\n\n\n\nValidated on patients like this one\nLean toward the model: an unexplained hunch may be folklore.\nOverride, and say what you saw.\n\n\nNot validated here\nTreat the score as a weak signal; get another human’s eyes.\nOverride, and report the gap.\n\n\n\nEither way, explicability adds a duty: be able to say afterward which question you answered, and how."
   },
   {
     "objectID": "chapters/10b-fifth-principle-slides.html#score-it-yourself",
@@ -2515,7 +2515,7 @@
     "href": "chapters/10b-fifth-principle-slides.html#wrap-up",
     "title": "Lecture 10 — AI in Medicine",
     "section": "Wrap-Up",
-    "text": "Wrap-Up\n\nThe four principles survived a technology that decides without explaining, but needed a fifth to do it: explicability, intelligibility plus accountability. Intelligibility reshaped consent: the question became what role did AI play, and what would a reasonable patient need to know? Accountability reshaped blame: the problem of many hands and the moral crumple zone show that “who answers for the machine” is currently decided by default, not by design. And the clinician’s job changed from deciding to deciding when to defer, and being able to say why."
+    "text": "Wrap-Up\n\nHow does it work, and who answers for it? The four principles needed a fifth to ask: explicability. Intelligibility reshaped consent: what role did AI play, and what would a reasonable patient need to know? Accountability reshaped blame: the problem of many hands and the moral crumple zone show that “who answers for the machine” is decided by default, not by design. The clinician’s job became deciding when to defer, and being able to say why."
   },
   {
     "objectID": "chapters/10b-fifth-principle-slides.html#review-questions",
@@ -23610,35 +23610,35 @@
     "href": "chapters/10b-fifth-principle-slides.html#the-scribe-run-through-consent",
     "title": "Lecture 10 — AI in Medicine",
     "section": "The Scribe, Run Through Consent",
-    "text": "The Scribe, Run Through Consent\nYou learned the four elements of valid consent early in this course. AI bends some far more than others.\n\n\n\n\n\n\n\nElement\nHow the scribe case bends it\n\n\n\n\nDisclosure\na sign in the waiting room? a line in the intake packet nobody reads? said aloud, every visit?\n\n\nUnderstanding\nof what? that audio leaves the building? that drafts can fabricate? the error rate (which nobody has measured at your clinic)?\n\n\nVoluntariness\nyou can opt out, by being the difficult patient who makes the doctor type for an hour\n\n\nCapacity\nuntouched: the one element AI leaves alone\n\n\n\nA low-stakes technology, and three of four elements bend. Now raise the stakes."
+    "text": "The Scribe, Run Through Consent\nAI bends some of the four elements of valid consent far more than others.\n\n\n\n\n\n\n\nElement\nHow the scribe case bends it\n\n\n\n\nDisclosure\na waiting-room sign? a line in the intake packet? said aloud, every visit?\n\n\nUnderstanding\nof what: that audio leaves the building? that drafts can fabricate?\n\n\nVoluntariness\nyou can opt out, by being the patient who makes the doctor type\n\n\nCapacity\nuntouched\n\n\n\nA low-stakes technology, and three of four elements bend."
   },
   {
     "objectID": "chapters/10b-fifth-principle-slides.html#the-problem-of-many-hands",
     "href": "chapters/10b-fifth-principle-slides.html#the-problem-of-many-hands",
     "title": "Lecture 10 — AI in Medicine",
     "section": "The Problem of Many Hands",
-    "text": "The Problem of Many Hands\nWhen AI contributes to harm, blame scatters across four parties, each pointing at the next: the problem of many hands.\n\n\n\n\n\n\n\n\nWho\nThe legal hook\nThe problem with stopping here\n\n\n\n\nClinician\nmalpractice\nblames the person who knows least about the model\n\n\nHospital\nnegligence\nhides behind “the doctor decided”\n\n\nVendor\nproduct liability\nrarely tested in court; shielded by contracts\n\n\nRegulator\ncleared it for sale\ncan’t be sued; clearance isn’t a guarantee\n\n\n\nRight now, most of the weight lands on the clinician."
+    "text": "The Problem of Many Hands\nThe law assigns its own percentages. Blame scatters across four parties: the problem of many hands.\n\n\n\n\n\n\n\n\nWho\nThe legal hook\nThe problem with stopping here\n\n\n\n\nClinician\nmalpractice\nblames the person who knows least about the model\n\n\nHospital\nnegligence\nhides behind “the doctor decided”\n\n\nVendor\nproduct liability\nrarely tested in court; shielded by contracts\n\n\nRegulator\ncleared it for sale\ncan’t be sued; clearance isn’t a guarantee\n\n\n\nRight now, most of the weight lands on the clinician."
   },
   {
     "objectID": "chapters/10b-fifth-principle-slides.html#the-clinicians-bind-the-vendors-shield",
     "href": "chapters/10b-fifth-principle-slides.html#the-clinicians-bind-the-vendors-shield",
     "title": "Lecture 10 — AI in Medicine",
     "section": "The Clinician’s Bind, the Vendor’s Shield",
-    "text": "The Clinician’s Bind, the Vendor’s Shield\n\n\nThe clinician’s bind\n\nFollow the AI and it’s wrong: “You outsourced your judgment to software.”\nOverride it and you’re wrong: “The warning was on your screen, and you dismissed it.”\nAs AI becomes customary, the standard of care absorbs it, and the legally safest move becomes using AI exactly as everyone else does.\n\n\n\n\nThe vendor’s shield\n\nA “decision support” label: the software only advises; a licensed professional decides.\nContracts in which hospitals accept “as-is” performance that patients never see.\nTrade secrecy: the opacity that creates the risk also blocks the lawsuit.\n\nThe party that knows the most about the model’s failures carries the least legal exposure."
+    "text": "The Clinician’s Bind, the Vendor’s Shield\n\n\nThe clinician’s bind\n\nFollow the AI and it’s wrong: “You outsourced your judgment.”\nOverride it and you’re wrong: “The warning was on your screen.”\nAs AI becomes customary, the standard of care absorbs it. The safest move becomes using AI as everyone else does.\n\n\n\n\nThe vendor’s shield\n\nA “decision support” label: the software advises; a professional decides.\nContracts in which hospitals accept “as-is” performance.\nTrade secrecy: the opacity that creates the risk also blocks the lawsuit.\n\nThe party that knows the most about the failures carries the least exposure."
   },
   {
     "objectID": "chapters/10b-fifth-principle-slides.html#the-illinois-ban-run-through-mill",
     "href": "chapters/10b-fifth-principle-slides.html#the-illinois-ban-run-through-mill",
     "title": "Lecture 10 — AI in Medicine",
     "section": "The Illinois Ban, Run Through Mill",
-    "text": "The Illinois Ban, Run Through Mill\nIn 2025, Illinois became the first state to ban AI therapy, with fines up to $10,000 per violation (Illinois General Assembly 2025). Run the three questions from our paternalism lecture:\n\n\n\n\n\n\n\nMill’s question\nApplied to the AI-therapy ban\n\n\n\n\nIs the chooser competent?\nThe adult user: mostly yes. (Minors are the easy case; Illinois didn’t stop there.)\n\n\nIs the choice voluntary and informed?\nThe live question: does a product that engineers attachment corrupt the choice to keep using it?\n\n\nDoes it harm only the chooser?\nMostly yes, which for Mill makes the ban hard paternalism.\n\n\n\nThe ban’s defense lives in the middle row: if the product manufactures the consent it points to, the paternalism is soft, not hard."
+    "text": "The Illinois Ban, Run Through Mill\nIn 2025, Illinois became the first state to ban AI therapy, with fines up to $10,000 per violation (Illinois General Assembly 2025). Run Mill’s three questions:\n\n\n\n\n\n\n\nMill’s question\nApplied to the AI-therapy ban\n\n\n\n\nIs the chooser competent?\nThe adult user: mostly yes.\n\n\nIs the choice voluntary and informed?\nDoes a product that engineers attachment corrupt the choice to keep using it?\n\n\nDoes it harm only the chooser?\nMostly yes, which makes the ban hard paternalism.\n\n\n\nThe ban’s defense lives in the middle row: if the product manufactures the consent it points to, the paternalism is soft."
   },
   {
     "objectID": "chapters/10b-fifth-principle-slides.html#your-chatbot-confession-isnt-protected",
     "href": "chapters/10b-fifth-principle-slides.html#your-chatbot-confession-isnt-protected",
     "title": "Lecture 10 — AI in Medicine",
     "section": "Your Chatbot Confession Isn’t Protected",
-    "text": "Your Chatbot Confession Isn’t Protected\nHIPAA does not protect health information. It protects health information held by certain entities: providers, insurers, and their contractors. A consumer chatbot is none of those.\n\nWhat you type into it is protected only by the company’s own privacy policy, which it can change at will. And chat logs can be subpoenaed.\nThe conversations people have with companion bots (suicidality, addiction, abuse) are exactly the disclosures HIPAA was built to guard.\nEven inside the wall, a scribe vendor’s contract may allow your visit to train the next model. The less medical the setting feels, the less protected the disclosure."
+    "text": "Your Chatbot Confession Isn’t Protected\nHIPAA protects health information only when certain entities hold it: providers, insurers, and their contractors. A consumer chatbot is none of those.\n\nWhat you type is covered only by the company’s privacy policy, which it can change. Chat logs can be subpoenaed.\nYet people tell companion bots about suicidality, addiction, and abuse: exactly the disclosures HIPAA was built to guard.\nThe less medical the setting feels, the less protected the disclosure."
   },
   {
     "objectID": "chapters/09b-public-health-beliefs-slides.html#bubbles-and-echo-chambers",
@@ -23932,7 +23932,7 @@
     "href": "chapters/10b-fifth-principle.html#the-scribe-run-through-consent",
     "title": "Lecture 10 — AI in Medicine",
     "section": "2.2 The Scribe, Run Through Consent",
-    "text": "2.2 The Scribe, Run Through Consent\nYou learned the four elements of valid consent early in this course. AI bends some far more than others.\n\n\n\n\n\n\n\nElement\nHow the scribe case bends it\n\n\n\n\nDisclosure\na sign in the waiting room? a line in the intake packet nobody reads? said aloud, every visit?\n\n\nUnderstanding\nof what? that audio leaves the building? that drafts can fabricate? the error rate (which nobody has measured at your clinic)?\n\n\nVoluntariness\nyou can opt out, by being the difficult patient who makes the doctor type for an hour\n\n\nCapacity\nuntouched: the one element AI leaves alone\n\n\n\nA low-stakes technology, and three of four elements bend. Now raise the stakes.",
+    "text": "2.2 The Scribe, Run Through Consent\nAI bends some of the four elements of valid consent far more than others.\n\n\n\n\n\n\n\nElement\nHow the scribe case bends it\n\n\n\n\nDisclosure\na waiting-room sign? a line in the intake packet? said aloud, every visit?\n\n\nUnderstanding\nof what: that audio leaves the building? that drafts can fabricate?\n\n\nVoluntariness\nyou can opt out, by being the patient who makes the doctor type\n\n\nCapacity\nuntouched\n\n\n\nA low-stakes technology, and three of four elements bend.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -23943,8 +23943,8 @@
     "objectID": "chapters/10b-fifth-principle.html#the-problem-of-many-hands",
     "href": "chapters/10b-fifth-principle.html#the-problem-of-many-hands",
     "title": "Lecture 10 — AI in Medicine",
-    "section": "3.1 The Problem of Many Hands",
-    "text": "3.1 The Problem of Many Hands\nWhen AI contributes to harm, blame scatters across four parties, each pointing at the next: the problem of many hands.\n\n\n\n\n\n\n\n\nWho\nThe legal hook\nThe problem with stopping here\n\n\n\n\nClinician\nmalpractice\nblames the person who knows least about the model\n\n\nHospital\nnegligence\nhides behind “the doctor decided”\n\n\nVendor\nproduct liability\nrarely tested in court; shielded by contracts\n\n\nRegulator\ncleared it for sale\ncan’t be sued; clearance isn’t a guarantee\n\n\n\nRight now, most of the weight lands on the clinician.",
+    "section": "3.3 The Problem of Many Hands",
+    "text": "3.3 The Problem of Many Hands\nThe law assigns its own percentages. Blame scatters across four parties: the problem of many hands.\n\n\n\n\n\n\n\n\nWho\nThe legal hook\nThe problem with stopping here\n\n\n\n\nClinician\nmalpractice\nblames the person who knows least about the model\n\n\nHospital\nnegligence\nhides behind “the doctor decided”\n\n\nVendor\nproduct liability\nrarely tested in court; shielded by contracts\n\n\nRegulator\ncleared it for sale\ncan’t be sued; clearance isn’t a guarantee\n\n\n\nRight now, most of the weight lands on the clinician.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -23955,8 +23955,8 @@
     "objectID": "chapters/10b-fifth-principle.html#the-clinicians-bind-the-vendors-shield",
     "href": "chapters/10b-fifth-principle.html#the-clinicians-bind-the-vendors-shield",
     "title": "Lecture 10 — AI in Medicine",
-    "section": "3.2 The Clinician’s Bind, the Vendor’s Shield",
-    "text": "3.2 The Clinician’s Bind, the Vendor’s Shield\n\n\nThe clinician’s bind\n\nFollow the AI and it’s wrong: “You outsourced your judgment to software.”\nOverride it and you’re wrong: “The warning was on your screen, and you dismissed it.”\nAs AI becomes customary, the standard of care absorbs it, and the legally safest move becomes using AI exactly as everyone else does.\n\n\n\n\nThe vendor’s shield\n\nA “decision support” label: the software only advises; a licensed professional decides.\nContracts in which hospitals accept “as-is” performance that patients never see.\nTrade secrecy: the opacity that creates the risk also blocks the lawsuit.\n\nThe party that knows the most about the model’s failures carries the least legal exposure.\n\n\n\n3.2.1 The Regulatory Map\nWhere’s the regulator in all this? It depends on which kind of AI.\n\nDiagnostic AI is regulated as a medical device: 1,500+ authorized as of early 2026 (about three-quarters in radiology), with premarket review and slowly improving postmarket surveillance.\nPredictive and generative tools mostly ride the clinical-decision-support carve-out: software that “supports” a clinician who can review its basis isn’t a device at all.\nIn January 2026, the FDA loosened that carve-out’s guidance in a deliberately generative-AI-friendly direction. The gap between what’s deployed and what’s reviewed is widening by design, on the theory that innovation needs room.",
+    "section": "3.4 The Clinician’s Bind, the Vendor’s Shield",
+    "text": "3.4 The Clinician’s Bind, the Vendor’s Shield\n\n\nThe clinician’s bind\n\nFollow the AI and it’s wrong: “You outsourced your judgment.”\nOverride it and you’re wrong: “The warning was on your screen.”\nAs AI becomes customary, the standard of care absorbs it. The safest move becomes using AI as everyone else does.\n\n\n\n\nThe vendor’s shield\n\nA “decision support” label: the software advises; a professional decides.\nContracts in which hospitals accept “as-is” performance.\nTrade secrecy: the opacity that creates the risk also blocks the lawsuit.\n\nThe party that knows the most about the failures carries the least exposure.\n\n\n\n3.4.1 The Regulatory Map\nWhere’s the regulator in all this? It depends on which kind of AI.\n\nDiagnostic AI is regulated as a medical device: 1,500+ authorized as of early 2026 (about three-quarters in radiology), with premarket review and slowly improving postmarket surveillance.\nPredictive and generative tools mostly ride the clinical-decision-support carve-out: software that “supports” a clinician who can review its basis isn’t a device at all.\nIn January 2026, the FDA loosened that carve-out’s guidance in a deliberately generative-AI-friendly direction. The gap between what’s deployed and what’s reviewed is widening by design, on the theory that innovation needs room.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -23968,7 +23968,7 @@
     "href": "chapters/10b-fifth-principle.html#the-illinois-ban-run-through-mill",
     "title": "Lecture 10 — AI in Medicine",
     "section": "4.3 The Illinois Ban, Run Through Mill",
-    "text": "4.3 The Illinois Ban, Run Through Mill\nIn 2025, Illinois became the first state to ban AI therapy, with fines up to $10,000 per violation (Illinois General Assembly 2025). Run the three questions from our paternalism lecture:\n\n\n\n\n\n\n\nMill’s question\nApplied to the AI-therapy ban\n\n\n\n\nIs the chooser competent?\nThe adult user: mostly yes. (Minors are the easy case; Illinois didn’t stop there.)\n\n\nIs the choice voluntary and informed?\nThe live question: does a product that engineers attachment corrupt the choice to keep using it?\n\n\nDoes it harm only the chooser?\nMostly yes, which for Mill makes the ban hard paternalism.\n\n\n\nThe ban’s defense lives in the middle row: if the product manufactures the consent it points to, the paternalism is soft, not hard.",
+    "text": "4.3 The Illinois Ban, Run Through Mill\nIn 2025, Illinois became the first state to ban AI therapy, with fines up to $10,000 per violation (Illinois General Assembly 2025). Run Mill’s three questions:\n\n\n\n\n\n\n\nMill’s question\nApplied to the AI-therapy ban\n\n\n\n\nIs the chooser competent?\nThe adult user: mostly yes.\n\n\nIs the choice voluntary and informed?\nDoes a product that engineers attachment corrupt the choice to keep using it?\n\n\nDoes it harm only the chooser?\nMostly yes, which makes the ban hard paternalism.\n\n\n\nThe ban’s defense lives in the middle row: if the product manufactures the consent it points to, the paternalism is soft.\nMinors are the easy case for a ban, and Illinois did not stop there: the law covers adults too.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -23980,7 +23980,7 @@
     "href": "chapters/10b-fifth-principle.html#your-chatbot-confession-isnt-protected",
     "title": "Lecture 10 — AI in Medicine",
     "section": "4.6 Your Chatbot Confession Isn’t Protected",
-    "text": "4.6 Your Chatbot Confession Isn’t Protected\nHIPAA does not protect health information. It protects health information held by certain entities: providers, insurers, and their contractors. A consumer chatbot is none of those.\n\nWhat you type into it is protected only by the company’s own privacy policy, which it can change at will. And chat logs can be subpoenaed.\nThe conversations people have with companion bots (suicidality, addiction, abuse) are exactly the disclosures HIPAA was built to guard.\nEven inside the wall, a scribe vendor’s contract may allow your visit to train the next model. The less medical the setting feels, the less protected the disclosure.",
+    "text": "4.6 Your Chatbot Confession Isn’t Protected\nHIPAA protects health information only when certain entities hold it: providers, insurers, and their contractors. A consumer chatbot is none of those.\n\nWhat you type is covered only by the company’s privacy policy, which it can change. Chat logs can be subpoenaed.\nYet people tell companion bots about suicidality, addiction, and abuse: exactly the disclosures HIPAA was built to guard.\nThe less medical the setting feels, the less protected the disclosure.\n\nEven inside the HIPAA wall, a scribe vendor’s contract may allow your visit to train the next model.",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -24264,8 +24264,8 @@
     "objectID": "chapters/10b-fifth-principle.html#a.m.-bed-12",
     "href": "chapters/10b-fifth-principle.html#a.m.-bed-12",
     "title": "Lecture 10 — AI in Medicine",
-    "section": "3.3 2 a.m., Bed 12",
-    "text": "3.3 2 a.m., Bed 12\n\n\n\nYou, the night nurse\n\n\n\nBed 12 just fired a sepsis alert. The model says ninety percent.\n\n\nI examined her twenty minutes ago. No fever, pressure’s fine, and she’s chatting with her daughter.\n\n\nThat’s the highest score I’ve seen on her.\n\n\nThat alarm has cried wolf all month. I’m not starting antibiotics because of a number.\n\n\n\n\nResident",
+    "section": "3.1 2 a.m., Bed 12",
+    "text": "3.1 2 a.m., Bed 12\n\n\n\nYou, the night nurse\n\n\n\nBed 12 just fired a sepsis alert. The model says ninety percent.\n\n\nI examined her twenty minutes ago. No fever, pressure’s fine, and she’s chatting with her daughter.\n\n\nThat’s the highest score I’ve seen on her.\n\n\nThat alarm has cried wolf all month. I’m not starting antibiotics because of a number.\n\n\n\n\nResident",
     "crumbs": [
       "Home",
       "10. AI in Medicine",
@@ -24525,5 +24525,24 @@
     "title": "Lecture 10 — AI in Medicine",
     "section": "Your Turn to Predict",
     "text": "Your Turn to Predict\n\nHinton was wrong about radiologists. Now make your own call, about your own work.\n\nWhich part of nursing would you gladly hand to an AI? Which part would you refuse to hand over, even if it did the job better than you?\nBack to your aunt and her mole. Vote again: trust the app, don’t, or it depends. Did anyone change their answer? What changed it?"
+  },
+  {
+    "objectID": "chapters/10b-fifth-principle.html#the-moral-crumple-zone",
+    "href": "chapters/10b-fifth-principle.html#the-moral-crumple-zone",
+    "title": "Lecture 10 — AI in Medicine",
+    "section": "3.5 The Moral Crumple Zone",
+    "text": "3.5 The Moral Crumple Zone\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe anthropologist Madeleine Elish named a pattern in automation accidents: the moral crumple zone. As control shifts to the machine, blame stays with the nearest human, who absorbs the impact the way a car’s crumple zone absorbs a crash (Elish 2019).\nThe nurse who stood down a real alert after forty false ones is one. So is the physician “reviewing” sixty scribe drafts at 6 p.m. Ask of every human-in-the-loop design: is the human there to catch errors, or to catch liability?\n\n\n\n\n\nA crumple zone does its job: the front end absorbs the crash. NHTSA crash test, 2008. Public domain.",
+    "crumbs": [
+      "Home",
+      "10. AI in Medicine",
+      "Part B — The Fifth Principle: Consent, Accountability, and Black Boxes"
+    ]
+  },
+  {
+    "objectID": "chapters/10b-fifth-principle-slides.html#the-moral-crumple-zone",
+    "href": "chapters/10b-fifth-principle-slides.html#the-moral-crumple-zone",
+    "title": "Lecture 10 — AI in Medicine",
+    "section": "The Moral Crumple Zone",
+    "text": "The Moral Crumple Zone\n\n\n\n\n\n\n\n\nNote\n\n\nThe anthropologist Madeleine Elish named a pattern in automation accidents: the moral crumple zone. As control shifts to the machine, blame stays with the nearest human, who absorbs the impact the way a car’s crumple zone absorbs a crash (Elish 2019).\nThe nurse who stood down a real alert after forty false ones is one. So is the physician “reviewing” sixty scribe drafts at 6 p.m. Ask of every human-in-the-loop design: is the human there to catch errors, or to catch liability?\n\n\n\n\n\n\nA crumple zone does its job: the front end absorbs the crash. NHTSA crash test, 2008. Public domain."
   }
 ]

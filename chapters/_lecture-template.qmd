@@ -36,13 +36,16 @@ format:
 
 Every Reveal.js slide must fit **one 1050×700 screen** with no scrolling. Prefer splitting or grid-based structuring over cramming.
 - **Single-Column Lists:** Limit to 3-4 bullets maximum if they are full sentences. Never use 6 detailed single-column bullets, as they will cause a vertical overflow on standard viewports.
-- **Content Budget:** A typical content slide carries about five sentences' worth of material. Prefer full sentences to fragments so that students can study from the slide alone.
+- **Content Budget:** A content slide carries **50 to 70 words, and never more than about 90**. That is deliberately more than a standard slide, so that students do not have to take heavy notes, but nobody should have to read a paragraph off the screen. Use full sentences, at most two in a row, and usually three one-sentence bullets.
+- **What stays on the slide:** what a student would otherwise write down: names, dates, numbers, definitions, and the one-sentence claim. Cut the second example, the aside, and the connective prose.
+- **Where the rest goes:** asynchronous students get a video plus the HTML notes, so transitions and extra detail belong in an HTML-only block: `::: {.content-hidden when-format="revealjs"}`. Do not write the same passage twice, once for each format.
+- **Deck Budget:** each lecture part has **20 to 30 content slides** (fewer when they are dense) and **3 to 4 question slides**.
 - **Multi-Column Splits:** Use two-column grids (`::: {.columns}`) to split longer lists, compare concepts, or place a `.callout` next to text. This doubles the usable screen width and keeps heights low.
 
 ## Study-Worthiness
 
 - Each content slide must teach on its own: real **names, dates, numbers, mechanisms, and outcomes**, not gestures.
-- Cut navigational filler ("the next slides will trace…", "as mentioned earlier"). It wastes the ~5-sentence budget.
+- Cut navigational filler ("the next slides will trace…", "as mentioned earlier"). It wastes the word budget; a transition belongs in an HTML-only block.
 - If a slide is only a slogan, it is not done.
 
 ## Layout Variety & Slide Design
@@ -62,17 +65,25 @@ Monotony is a defect. **Never run more than two plain bullet-list slides in a ro
 | Quote-card | Primary-source quotation (see Quotes) |
 | `.context-box` | A mini-case or a concept a 12th grader needs |
 | Timeline / flow `{dot}` | Sequences and decision procedures |
-| Recurring "scoreboard" table | An intentional running motif — repetition here is *good* |
+| Summary "scoreboard" table | Truly parallel cases, gathered once (see Recurring Devices) |
 
 Collapse repetitive parallel runs (three near-identical principle slides → one rich table or one beautiful comparison grid). Consolidating and *then* enriching beats leaving thin, parallel slides.
 
-## Discussion Units (the 3-slide pattern)
+## Discussion Units
 
-Each major theme gets a discussion **unit**, aiming for ~10 minutes:
+Each lecture part has **3 to 4 question slides**, about 10 minutes each. More than that crowds out the content. A unit is built from these pieces; only the first is required:
 
-1. **`## Thought Question`** — a concrete scenario with **one or two questions** (put the student in a role). Add a third only as a twist that could change someone's answer.
-2. **`## Make It Contemporary`** — a **documented present-day analogue** (real law, case, study, or practice).
-3. **`## After You've Discussed`** — a `.callout-note` debrief that introduces a **new distinction the body never stated** (e.g., coercion vs. undue inducement vs. exploitation). It must *advance* the analysis, never merely restate the lecture.
+1. **`## Thought Question`** — a concrete scenario with **one or two questions** (put the student in a role). Keep the scenario **under about 50 words**: the slide stays up for the whole discussion, and the questions are what students need to see.
+2. **`## Make It Contemporary`** (optional) — a **documented present-day analogue** (real law, case, study, or practice). It counts as a question slide.
+3. **`## After You've Discussed`** (optional) — a `.callout-note` debrief that introduces a **new distinction the body never stated** (e.g., coercion vs. undue inducement vs. exploitation). It must *advance* the analysis, never merely restate the lecture. It counts as a content slide.
+
+A question can do one of three jobs. Mix them; do not use one job for every unit.
+
+- **Hook**, before the content. Students commit to an answer, and the section that follows responds to it. A hook needs no debrief slide. The opening case is always a hook.
+- **Transition**, between two sections.
+- **Application or review**, after the content.
+
+**No delivery directions on the slide.** The same deck is taught face to face and asynchronously, so never write "discuss with a neighbour" or "show of hands". Word a commitment so that it works for someone reading alone: "Pick one before you read on."
 
 ### Writing questions that start a discussion
 
@@ -112,8 +123,8 @@ The test for every question: **could two thoughtful students give opposite answe
 
 ## Recurring Devices (encouraged)
 
-- A **running spine** (a scoreboard table that accumulates; a single patient followed across the lecture) gives the deck momentum and is worth building deliberately.
-- Reusing the *same* motif slide repeatedly is intentional repetition, not monotony — it is exempt from the layout-rotation rule.
+- Every lecture part has a **spine**: one central question, stated on the "Today" slide and answered in the recap. A single patient followed across the lecture can carry it.
+- **Do not overuse a table motif.** A summary scoreboard that gathers truly parallel cases is worth one slide, near the end. Repeating the same table shape for each case in turn is monotony; say it in a sentence instead.
 
 ## Dialogue Slides (occasional)
 
@@ -200,7 +211,7 @@ Source. Public domain. [@key]
 ## Thought Question
 
 ::: {.thought-question}
-A concrete scenario in which the student has a role, with one or two questions: one that asks for their own experience, and one that asks them to commit to a position two students could defensibly split on.
+A concrete scenario (under about 50 words) in which the student has a role, with one or two questions: one that asks for their own experience, and one that asks them to commit to a position two students could defensibly split on.
 :::
 
 ## Make It Contemporary

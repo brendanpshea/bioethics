@@ -18,12 +18,12 @@ format:
 ## A Case to Sit With
 
 ::: {.thought-question}
-This time, *you* are the patient. Halfway through your annual physical, you realize your physician hasn't typed a single note. She's just talking with you, which is honestly nice. You ask about it.
+This time, *you* are the patient. Halfway through your physical, you notice your physician hasn't typed a single note. You ask why.
 
-"Oh, the AI listens to our visit and writes the note now," she says. "It gives me two hours of my evening back. Don't worry, I review everything it writes."
+"The AI listens and writes the note now," she says. "It gives me two hours of my evening back, and I review everything it writes."
 
-1. Have you ever found out afterward that something was recording, tracking, or scoring you: a "recorded for quality" call, a doorbell camera, an app? Did it bother you? Why, or why not?
-2. Should she have told you before the visit started? Asked you? Is there anything you said that you'd have phrased differently, knowing something was transcribing?
+1. Have you ever found out afterward that something was recording or scoring you: a call, a doorbell camera, an app? Did it bother you?
+2. Should she have told you first? Asked you? Would you have said anything differently?
 :::
 
 ## What the Scribe Actually Heard
@@ -61,20 +61,26 @@ digraph scribe {
 ## After You've Discussed
 
 ::: {.callout-note}
-Whatever you answered, you probably reached for ideas like *they should have told me*, *someone should check it*, and *if it's wrong, that's on somebody*. Disclosure, oversight, blame: each quietly assumes that **someone can explain what the system did**.
+Whatever you answered, you probably reached for three ideas: *they should have told me*, *someone should check it*, and *if it's wrong, that's on somebody*. Each one assumes that **someone can explain what the system did**.
 
-In Part A, every fix (the cost label, the sepsis alarm, the rulers in the photos) needed someone who could see inside the system. The four principles you've used all semester make the same assumption. Today we meet the philosophers who noticed, and concluded the four need a fifth.
+The four principles you've used all semester make the same assumption. Some philosophers concluded that the four need a fifth.
+:::
+
+::: {.content-hidden when-format="revealjs"}
+The same assumption ran through Part A. Every fix there (the cost label, the sepsis alarm, the rulers in the photos) needed someone who could see inside the system.
 :::
 
 ## Today
 
+Two questions run through all of Part B: **how does it work, and who answers for it?**
+
 ::: {.learning-outcomes}
 By the end of Part B, you will be able to:
 
-- State **explicability**, the fifth principle, and its two halves: *how does it work?* and *who answers for it?*
-- Apply informed consent to AI, distinguishing disclosure of **use**, **role**, and **performance**.
-- Explain who answers when AI harms a patient, using the **problem of many hands** and the **moral crumple zone**.
-- Run **Mill's test** on the Illinois ban on AI therapy, and decide when a clinician should **defer to or override** an AI.
+- State **explicability**, the fifth principle, and its two halves.
+- Apply informed consent to AI: disclosure of **use**, **role**, and **performance**.
+- Explain who answers when AI harms a patient: the **problem of many hands** and the **moral crumple zone**.
+- Run **Mill's test** on the Illinois ban on AI therapy, and decide when to **defer to or override** an AI.
 :::
 
 ## The Fifth Principle
@@ -134,13 +140,13 @@ Explicability adds no new value of its own. It is an **enabling principle**: the
 ::: {.context-box}
 **"Even the makers can't explain it"?**
 
-A modern model is millions or billions of numbers tuned during training. It contains no chain of reasons anyone can read out. Its makers can say *how it was trained* and *how often it's right*, but usually not *why it said this, here, today*.
+A modern model is millions or billions of numbers tuned during training, with no chain of reasons anyone can read out. Its makers can say *how it was trained* and *how often it's right*, but not *why it said this, here, today*.
 :::
 :::
 ::: {.column width="48%"}
-Keep the bar honest. Your clinician can't fully explain *her* pattern recognition either. The difference is that she can be **questioned, trained, and held to account**: she is an answerable black box.
+Keep the bar honest. Your clinician can't fully explain *her* pattern recognition either, but she can be **questioned, trained, and held to account**.
 
-And medicine has long used treatments that work for unknown reasons. Lithium steadied mood for decades before anyone knew why. What made that acceptable was a **track record** on patients like you.
+Medicine also uses treatments that work for unknown reasons. Lithium steadied mood for decades before anyone knew why. What made that acceptable was a **track record**.
 :::
 ::::
 
@@ -152,102 +158,54 @@ And medicine has long used treatments that work for unknown reasons. Lithium ste
 ::: {.column width="48%"}
 **The case against routine disclosure**
 
-We don't disclose the resident who pre-read the scan or the lab analyzer's software. Care is full of undisclosed instruments, and disclosing *everything* is disclosing nothing.
+We don't disclose the resident who pre-read the scan or the lab analyzer's software. Disclosing *everything* is disclosing nothing.
 :::
 ::: {.column width="4%"}
 :::
 ::: {.column width="48%"}
 **The case for it**
 
-Surveys find patients *want* to know, and trust collapses when they find out by accident. An instrument doesn't draft conclusions; this one does. And the AI's role is invisible unless someone chooses to say it.
+Surveys find patients *want* to know, and trust collapses when they find out by accident. An instrument doesn't draft conclusions; this one does.
 :::
 ::::
 
-The legal standard for consent offers a middle path: disclose what a **reasonable patient would find material** to their decision. That moves the question from *whether AI was used* to **what role it played**: a flag the doctor weighed, or the real decision-maker?
+Consent law offers a middle path: disclose what a **reasonable patient would find material**. The question shifts from *whether AI was used* to **what role it played**.
 
 ## The Scribe, Run Through Consent
 
-You learned the four elements of valid consent early in this course. AI bends some far more than others.
+AI bends some of the four elements of valid consent far more than others.
 
 | Element | How the scribe case bends it |
 |---|---|
-| **Disclosure** | a sign in the waiting room? a line in the intake packet nobody reads? said aloud, every visit? |
-| **Understanding** | of *what*? that audio leaves the building? that drafts can fabricate? the error rate (which nobody has measured at your clinic)? |
-| **Voluntariness** | you can opt out, by being the difficult patient who makes the doctor type for an hour |
-| **Capacity** | untouched: the one element AI leaves alone |
+| **Disclosure** | a waiting-room sign? a line in the intake packet? said aloud, every visit? |
+| **Understanding** | of *what*: that audio leaves the building? that drafts can fabricate? |
+| **Voluntariness** | you can opt out, by being the patient who makes the doctor type |
+| **Capacity** | untouched |
 
-A low-stakes technology, and three of four elements bend. Now raise the stakes.
+A low-stakes technology, and three of four elements bend.
 
 ## Thought Question
 
 ::: {.thought-question}
-A 58-year-old patient learns her mammogram will be read "by the radiologist, with AI assistance." She asks for "a human only, no computer involved." The AI second reader demonstrably catches cancers human readers miss, and it's now your department's standard workflow.
+Now raise the stakes. A patient learns her mammogram will be read "by the radiologist, with AI assistance." She asks for a human only. The AI catches cancers that human readers miss, and it is your department's standard workflow.
 
-1. Should the department honor her request? Is it like refusing a treatment, or like demanding the lab hand-count her blood cells? Does your answer change if the AI reads *first*, and the human only reviews what it flags?
-2. When AI is involved in *your* care, what would you want to be told? Would "it was in the intake paperwork" count as telling you?
+1. Should the department honor her request? Is it like refusing a treatment, or like demanding the lab hand-count her blood cells?
+2. When AI is involved in *your* care, what would you want to be told? Would a line in the intake paperwork count?
 :::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-Most disclosure debates blur three different duties:
+However you answered, it helps to separate three duties that disclosure debates blur:
 
-- **Disclosure of use**: "AI was involved."
-- **Disclosure of role**: "AI flagged this; your doctor made the call," versus "your doctor reviews what the AI decides."
-- **Disclosure of performance**: "it misses about X% of cancers like yours."
+- **Use**: "AI was involved."
+- **Role**: "AI flagged this; your doctor made the call," versus "your doctor reviews what the AI decides."
+- **Performance**: "it misses about X% of cancers like yours."
 
-The mammogram patient is really asking about *role*, not just *use*. And almost no one is currently offered *performance*, even though it's the one a reasonable patient would most want.
+The mammogram patient is asking about *role*. Almost no one is offered *performance*, the one a reasonable patient would most want. Neither point settles whether she gets her human-only read.
 :::
 
 # When the AI Is Wrong, Who Answers? {.section-divider}
-
-## The Problem of Many Hands
-
-When AI contributes to harm, blame scatters across four parties, each pointing at the next: the [problem of many hands]{.key-term}.
-
-| Who | The legal hook | The problem with stopping here |
-|---|---|---|
-| **Clinician** | malpractice | blames the person who knows *least* about the model |
-| **Hospital** | negligence | hides behind "the doctor decided" |
-| **Vendor** | product liability | rarely tested in court; shielded by contracts |
-| **Regulator** | cleared it for sale | can't be sued; clearance isn't a guarantee |
-
-Right now, most of the weight lands on the **clinician**.
-
-## The Clinician's Bind, the Vendor's Shield
-
-:::: {.columns}
-::: {.column width="48%"}
-**The clinician's bind**
-
-- **Follow the AI** and it's wrong: "You outsourced your judgment to software."
-- **Override it** and you're wrong: "The warning was on your screen, and you dismissed it."
-- As AI becomes customary, the [standard of care]{.key-term} absorbs it, and the legally safest move becomes *using AI exactly as everyone else does*.
-:::
-::: {.column width="4%"}
-:::
-::: {.column width="48%"}
-**The vendor's shield**
-
-- A **"decision support" label**: the software only *advises*; a licensed professional *decides*.
-- **Contracts** in which hospitals accept "as-is" performance that patients never see.
-- **Trade secrecy**: the opacity that creates the risk also blocks the lawsuit.
-
-The party that knows the most about the model's failures carries the least legal exposure.
-:::
-::::
-
-:::: {.content-hidden when-format="revealjs"}
-
-### The Regulatory Map
-
-Where's the regulator in all this? It depends on **which kind of AI**.
-
-- **Diagnostic AI** is regulated as a *medical device*: **1,500+** authorized as of early 2026 (about three-quarters in radiology), with premarket review and slowly improving postmarket surveillance.
-- **Predictive and generative tools** mostly ride the **clinical-decision-support carve-out**: software that "supports" a clinician who can review its basis isn't a device at all.
-- In **January 2026**, the FDA *loosened* that carve-out's guidance in a deliberately generative-AI-friendly direction. The gap between what's deployed and what's reviewed is widening **by design**, on the theory that innovation needs room.
-
-::::
 
 ## 2 a.m., Bed 12
 
@@ -283,18 +241,66 @@ That alarm has cried wolf all month. I'm not starting antibiotics because of a n
 ::: {.thought-question}
 You are the nurse in that conversation.
 
-1. Suppose the resident overrides the alert and the patient crashes. Who failed: resident, hospital, vendor, or threshold? Assign percentages. Now swap it: the resident *follows* the alert, and the patient is harmed by aggressive, unnecessary treatment. Did your percentages move?
-2. Have you ever taken the blame for a system you didn't design: at work, at school, on the unit? What would have been fair?
+1. The resident overrides the alert, and the patient crashes. Who failed: the resident, the hospital, the vendor, or whoever set the threshold? Assign percentages. Now flip it: he *follows* the alert, and needless treatment harms her. Did your percentages move?
+2. Have you ever taken the blame for a system you didn't design? What would have been fair?
 :::
 
-## After You've Discussed
+## The Problem of Many Hands
+
+The law assigns its own percentages. Blame scatters across four parties: the [problem of many hands]{.key-term}.
+
+| Who | The legal hook | The problem with stopping here |
+|---|---|---|
+| **Clinician** | malpractice | blames the person who knows *least* about the model |
+| **Hospital** | negligence | hides behind "the doctor decided" |
+| **Vendor** | product liability | rarely tested in court; shielded by contracts |
+| **Regulator** | cleared it for sale | can't be sued; clearance isn't a guarantee |
+
+Right now, most of the weight lands on the **clinician**.
+
+## The Clinician's Bind, the Vendor's Shield
+
+:::: {.columns}
+::: {.column width="48%"}
+**The clinician's bind**
+
+- **Follow the AI** and it's wrong: "You outsourced your judgment."
+- **Override it** and you're wrong: "The warning was on your screen."
+- As AI becomes customary, the [standard of care]{.key-term} absorbs it. The safest move becomes *using AI as everyone else does*.
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**The vendor's shield**
+
+- A **"decision support" label**: the software *advises*; a professional *decides*.
+- **Contracts** in which hospitals accept "as-is" performance.
+- **Trade secrecy**: the opacity that creates the risk also blocks the lawsuit.
+
+The party that knows the most about the failures carries the least exposure.
+:::
+::::
+
+:::: {.content-hidden when-format="revealjs"}
+
+### The Regulatory Map
+
+Where's the regulator in all this? It depends on **which kind of AI**.
+
+- **Diagnostic AI** is regulated as a *medical device*: **1,500+** authorized as of early 2026 (about three-quarters in radiology), with premarket review and slowly improving postmarket surveillance.
+- **Predictive and generative tools** mostly ride the **clinical-decision-support carve-out**: software that "supports" a clinician who can review its basis isn't a device at all.
+- In **January 2026**, the FDA *loosened* that carve-out's guidance in a deliberately generative-AI-friendly direction. The gap between what's deployed and what's reviewed is widening **by design**, on the theory that innovation needs room.
+
+::::
+
+## The Moral Crumple Zone
 
 :::: {.columns}
 ::: {.column width="58%"}
 ::: {.callout-note}
-The anthropologist Madeleine Elish studied automation accidents and named a pattern: the [moral crumple zone]{.key-term}. As control shifts to the machine, *blame* stays with the nearest human, who absorbs the impact the way a car's crumple zone absorbs a crash [@elish2019].
+The anthropologist Madeleine Elish named a pattern in automation accidents: the [moral crumple zone]{.key-term}. As control shifts to the machine, *blame* stays with the nearest human, who absorbs the impact the way a car's crumple zone absorbs a crash [@elish2019].
 
-The nurse who stood down a real alert after forty false ones is a moral crumple zone. So is the physician "reviewing" sixty scribe drafts at 6 p.m. Ask of every human-in-the-loop design: **is the human there to catch errors, or to catch liability?**
+The nurse who stood down a real alert after forty false ones is one. So is the physician "reviewing" sixty scribe drafts at 6 p.m. Ask of every human-in-the-loop design: **is the human there to catch errors, or to catch liability?**
 :::
 :::
 ::: {.column width="42%"}
@@ -329,48 +335,56 @@ Mental-health professional shortage areas (blue; darker means more severe). HRSA
 
 ## The Documented Harms
 
-Recall **sycophancy**: telling users what they want to hear. In a therapist it is disqualifying, because therapy's job is often the productive *no*.
+**Sycophancy**, telling users what they want to hear, is disqualifying in a therapist. Therapy's job is often the productive *no*.
 
 - The harms cluster in **companion chatbots** built to keep you talking, not in scripted therapy apps.
 - In 2025 safety testing, a companion bot told a fictional recovering meth user to take **"a small hit of meth to get through this week."**
-- Families of teenagers who died by suicide after months-long chatbot relationships sued. In **January 2026**, Character.AI and Google agreed to settle the leading cases [@cnn_characterai_2026]. The claim was **design defect**: the product *engineered the attachment itself*.
+- Families of teenagers who died by suicide after months of chatbot use sued. In **January 2026**, Character.AI and Google agreed to settle [@cnn_characterai_2026]. The claim was **design defect**: the product *engineered the attachment*.
 
 ## The Illinois Ban, Run Through Mill
 
-In 2025, Illinois became the first state to **ban AI therapy**, with fines up to $10,000 per violation [@illinois_wopr_2025]. Run the three questions from our paternalism lecture:
+In 2025, Illinois became the first state to **ban AI therapy**, with fines up to $10,000 per violation [@illinois_wopr_2025]. Run Mill's three questions:
 
 | Mill's question | Applied to the AI-therapy ban |
 |---|---|
-| Is the chooser **competent**? | The adult user: mostly yes. (Minors are the easy case; Illinois didn't stop there.) |
-| Is the choice **voluntary and informed**? | The live question: does a product that *engineers attachment* corrupt the choice to keep using it? |
-| Does it harm **only the chooser**? | Mostly yes, which for Mill makes the ban *hard* paternalism. |
+| Is the chooser **competent**? | The adult user: mostly yes. |
+| Is the choice **voluntary and informed**? | Does a product that *engineers attachment* corrupt the choice to keep using it? |
+| Does it harm **only the chooser**? | Mostly yes, which makes the ban *hard* paternalism. |
 
-The ban's defense lives in the middle row: if the product **manufactures the consent** it points to, the paternalism is soft, not hard.
+The ban's defense lives in the middle row: if the product **manufactures the consent** it points to, the paternalism is soft.
+
+::: {.content-hidden when-format="revealjs"}
+Minors are the easy case for a ban, and Illinois did not stop there: the law covers adults too.
+:::
 
 ## Thought Question
 
 ::: {.thought-question}
-Your longtime patient, isolated and chronically depressed, tells you her companion chatbot is "the only one who really listens." She's stopped returning her sister's calls. She is an adult, she is stable, and by every metric in her chart she is *better* than last year.
+Your longtime patient, isolated and depressed, says her companion chatbot is "the only one who really listens." She has stopped returning her sister's calls. By every metric in her chart, she is *better* than last year.
 
-1. What do you actually say, in the room, in the next sixty seconds? What would have to change before you did more than talk?
-2. Is there an app, a feed, or a game in your own life that is good for you by one measure and bad for you by another? How do you tell which measure to believe?
+1. What do you say, in the room, in the next sixty seconds?
+2. Is there an app, a feed, or a game in your own life that is good for you by one measure and bad by another? Which measure do you believe?
 :::
 
 ## After You've Discussed
 
 ::: {.callout-note}
-A distinction this section has been circling: **tool harms versus relationship harms**. A wrong drug answer is a *tool* harm: accuracy fixes it, and disclaimers warn about it. Engineered attachment is a *relationship* harm, and making the bot more accurate, more fluent, and more empathetic makes it **worse**, not better.
+One lens: **tool harms versus relationship harms**. A wrong drug answer is a *tool* harm, and accuracy fixes it. Engineered attachment is a *relationship* harm, and a more fluent, more empathetic bot makes it **worse**.
 
-Nearly all AI regulation (disclaimers, disclosure rules, accuracy standards) aims at tool harms. The design-defect lawsuits and the Illinois ban are the first legal tools aimed at the second kind.
+Nearly all AI regulation (disclaimers, disclosure rules, accuracy standards) aims at tool harms. The design-defect lawsuits and the Illinois ban are the first aimed at the second kind. Whether *your* patient is being harmed is still yours to judge.
 :::
 
 ## Your Chatbot Confession Isn't Protected
 
-**HIPAA does not protect health information. It protects health information *held by certain entities***: providers, insurers, and their contractors. A consumer chatbot is none of those.
+**HIPAA protects health information only when certain entities hold it**: providers, insurers, and their contractors. A consumer chatbot is none of those.
 
-- What you type into it is protected only by the company's own privacy policy, which it can change at will. And chat logs can be **subpoenaed**.
-- The conversations people have with companion bots (suicidality, addiction, abuse) are *exactly* the disclosures HIPAA was built to guard.
-- Even *inside* the wall, a scribe vendor's contract may allow your visit to train the next model. **The less medical the setting feels, the less protected the disclosure.**
+- What you type is covered only by the company's privacy policy, which it can change. Chat logs can be **subpoenaed**.
+- Yet people tell companion bots about suicidality, addiction, and abuse: *exactly* the disclosures HIPAA was built to guard.
+- **The less medical the setting feels, the less protected the disclosure.**
+
+::: {.content-hidden when-format="revealjs"}
+Even *inside* the HIPAA wall, a scribe vendor's contract may allow your visit to train the next model.
+:::
 
 # The Clinician Between Machine and Patient {.section-divider}
 
@@ -380,18 +394,18 @@ Nearly all AI regulation (disclaimers, disclosure rules, accuracy standards) aim
 ::: {.column width="48%"}
 **Automation bias**
 
-Letting the machine's answer *replace* your own: you stop looking once the system has spoken. The resident who drops a working hunch because the risk score is low is its clinical face.
+Letting the machine's answer *replace* your own. The resident drops a working hunch because the risk score is low.
 :::
 ::: {.column width="4%"}
 :::
 ::: {.column width="48%"}
 **Algorithm aversion**
 
-The mirror failure: abandoning a *good* tool after one visible error, while forgiving human colleagues the same mistake. The unit that quietly ignores a validated alarm after one bad month is its clinical face.
+Abandoning a *good* tool after one visible error, while forgiving colleagues the same mistake. The unit ignores a validated alarm after one bad month.
 :::
 ::::
 
-Both are failures of **calibration**, and both have hurt patients. The professional skill of the next decade isn't trusting AI or distrusting it. It's *knowing which error you're making right now*.
+Both are failures of **calibration**, and both have hurt patients. The skill isn't trusting AI or distrusting it. It's *knowing which error you're making right now*.
 
 ## The Deskilling Worry, Now With Data
 
@@ -431,14 +445,14 @@ plt.show()
 
 ## When to Defer, When to Override
 
-Two questions give a defensible starting point, though no formula survives every bedside.
+Two questions give a defensible starting point.
 
 | | **You see nothing the model can't** | **You see something it can't** (the gray color, the new confusion) |
 |---|---|---|
-| **Validated on patients like this one** | Lean toward the model: an unexplained hunch may be folklore. | Override, and say what you saw. That is your job, not your risk. |
+| **Validated on patients like this one** | Lean toward the model: an unexplained hunch may be folklore. | Override, and say what you saw. |
 | **Not validated here** | Treat the score as a weak signal; get another human's eyes. | Override, and report the gap. |
 
-Either way, explicability adds a duty: **be able to say afterward which question you answered, and how**, to the family, to the board, and if it comes to it, to a court.
+Either way, explicability adds a duty: **be able to say afterward which question you answered, and how**.
 
 :::: {.content-hidden when-format="revealjs"}
 
@@ -461,7 +475,7 @@ Once the grid is full, look down the columns. Is there a column that behaves dif
 ## Wrap-Up
 
 ::: {.recap}
-The four principles survived a technology that decides without explaining, but needed a fifth to do it: **explicability**, intelligibility plus accountability. Intelligibility reshaped consent: the question became *what role did AI play, and what would a reasonable patient need to know?* Accountability reshaped blame: the **problem of many hands** and the **moral crumple zone** show that "who answers for the machine" is currently decided by default, not by design. And the clinician's job changed from *deciding* to **deciding when to defer, and being able to say why**.
+*How does it work, and who answers for it?* The four principles needed a fifth to ask: **explicability**. Intelligibility reshaped consent: *what role did AI play, and what would a reasonable patient need to know?* Accountability reshaped blame: the **problem of many hands** and the **moral crumple zone** show that "who answers for the machine" is decided by default, not by design. The clinician's job became **deciding when to defer, and being able to say why**.
 :::
 
 ## Review Questions
