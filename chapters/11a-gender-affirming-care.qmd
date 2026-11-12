@@ -13,44 +13,69 @@ format:
     output-file: 11a-gender-affirming-care-slides.html
 ---
 
+```{python}
+#| include: false
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib.patches import FancyBboxPatch, FancyArrowPatch, Rectangle
+
+TEAL, RED, SLATE, INK = "#0e7c86", "#c0392b", "#334155", "#0f172a"
+TEAL_T, GREY_T, WARM_T, WARM = "#e6f1f2", "#eef2f6", "#fdf3e1", "#b07d1a"
+
+def box(ax, x, y, w, h, fc, ec, lw=1.6):
+    ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.02,rounding_size=0.15",
+                                fc=fc, ec=ec, lw=lw))
+
+def arrow(ax, a, b, color="#6b7280", rad=0.0, lw=1.8, style="-|>"):
+    ax.add_patch(FancyArrowPatch(a, b, arrowstyle=style, mutation_scale=16, color=color,
+                                 lw=lw, connectionstyle=f"arc3,rad={rad}"))
+```
+
 # A Decision in Room 4 {.section-divider}
 
 ## A Case to Sit With
 
+:::: {.columns}
+::: {.column width="15%"}
+![](../images/characters/figures/family-03.png){width="100%" fig-alt="Riley, a teenager in a green hoodie"}
+:::
+::: {.column width="85%"}
 ::: {.thought-question}
-**Riley is 15.** Assigned female at birth, Riley has identified as a boy for three years: socially transitioned at school, new name, consistent and insistent. His dysphoria has worsened since puberty began: failing grades, withdrawal, one ER visit for self-harm last spring. After eighteen months of assessment, the gender clinic has recommended puberty-suppressing medication. Riley's mother supports it. His father is opposed, not hostile but afraid: "He's fifteen. How can anyone know?"
+**Riley is 15.** Assigned female at birth, he has identified as a boy for three years. His dysphoria has worsened since puberty began, with one ER visit for self-harm. The gender clinic recommends puberty blockers. His mother agrees. His father is afraid: "He's fifteen. How can anyone know?"
 
 You are the clinic nurse, and both parents ask what you think.
 
 1. Think of a big decision made by you, or for you, around age 15. Looking back, who should have had the final say?
 2. Whose judgment should carry the most weight here: Riley's, the parents', the clinicians', or the state's? What earns that weight?
 :::
+:::
+::::
 
-## After You've Discussed
+::: {.content-hidden when-format="revealjs"}
+More of the case: Riley has socially transitioned at school, with a new name, and has been consistent and insistent. Since puberty began his grades have failed and he has withdrawn. The clinic's recommendation came after eighteen months of assessment. His father is opposed, not hostile but afraid.
 
-::: {.callout-note}
-**Everyone in Room 4 wants Riley to flourish.** His father is not a bigot, his mother is not reckless, and the clinicians are not ideologues. They disagree about something narrower and harder: *what to do when you cannot be sure.*
+His father is not a bigot, his mother is not reckless, and the clinicians are not ideologues. They disagree about something narrower and harder: *what to do when you cannot be sure.*
 
 The evidence on gender medicine for minors is genuinely **low-certainty**, and low-certainty evidence does not automatically favor either side. "Don't give irreversible treatment without strong proof it helps" and "don't withhold possibly life-saving treatment without strong proof it harms" are *both* appeals to caution, pointed in opposite directions.
 :::
 
-Ground rules for this topic: every position gets its **strongest** version, from the serious people who hold it. The lecture hands you tools; the conclusions stay yours.
-
 ## Today
+
+**Everyone in Room 4 wants Riley to flourish.** They disagree about one question: **what should medicine, families, and the state do when the evidence is low-certainty and the stakes are high in both directions?**
 
 ::: {.learning-outcomes}
 By the end of Part A, you will be able to:
 
-- Define **sex**, **gender identity**, and **gender dysphoria**, and describe what care for minors actually involves, step by step.
-- State what the **systematic reviews** found, and explain why low-certainty evidence licenses neither side's default.
-- Explain how the philosophers, the medical authorities, and the courts divide, and what ***U.S. v. Skrmetti*** (2025) decided.
+- Define **sex**, **gender identity**, and **gender dysphoria**, and describe the care pathway step by step.
+- State what the **systematic reviews** found, and why low-certainty evidence licenses neither side's default.
+- Explain how the philosophers, the authorities, and the courts divide, and what ***U.S. v. Skrmetti*** (2025) decided.
 :::
+
+Every position gets its **strongest** version. The conclusions stay yours.
 
 # What Care Involves {.section-divider}
 
 ## Three Words That Do Different Jobs
-
-Sloppy vocabulary wrecks this conversation faster than any other in the course, so we fix terms first.
 
 | Term | What it names |
 |---|---|
@@ -58,7 +83,11 @@ Sloppy vocabulary wrecks this conversation faster than any other in the course, 
 | **Gender identity** | a person's internal, persistent sense of being male, female, or neither |
 | [Gender dysphoria]{.key-term} | a *clinical diagnosis*: marked distress from the mismatch between the two, lasting at least six months |
 
-Being transgender is not a disorder in the DSM. **Distress** is what medicine treats, and how best to treat it is the whole dispute. The diagnosis describes the present; it is not a prediction.
+Being transgender is not a disorder in the DSM. **Distress** is what medicine treats, and how best to treat it is the whole dispute.
+
+::: {.content-hidden when-format="revealjs"}
+Sloppy vocabulary wrecks this conversation faster than any other in the course, so we fix terms first. Note too that the diagnosis describes the present; it is not a prediction.
+:::
 
 ## The Referral Surge, and Its Two Readings
 
@@ -119,9 +148,9 @@ for i, (title, body, fill, edge) in enumerate(steps):
     x = i * (w + gap)
     ax.add_patch(FancyBboxPatch((x, 0), w, 1, boxstyle="round,pad=0.02,rounding_size=0.08",
                                 fc=fill, ec=edge, lw=1.8))
-    ax.text(x + w / 2, 0.72, title, ha="center", va="center", fontsize=16,
+    ax.text(x + w / 2, 0.72, title, ha="center", va="center", fontsize=14,
             fontweight="bold", color="#0f172a")
-    ax.text(x + w / 2, 0.33, body, ha="center", va="center", fontsize=13.5,
+    ax.text(x + w / 2, 0.33, body, ha="center", va="center", fontsize=11,
             color="#334155", linespacing=1.25)
     if i < n - 1:
         ax.annotate("", xy=(x + w + gap - 0.03, 0.5), xytext=(x + w + 0.03, 0.5),
@@ -132,40 +161,78 @@ fig.tight_layout(pad=0.2)
 plt.show()
 ```
 
-- Each arrow is a **decision point**, not a conveyor belt, and whether it works like one is itself a contested question.
-- Public debate routinely blurs a 9-year-old's pronouns, a 15-year-old's hormones, and surgery: three decisions with different reversibility, evidence, and ethics. Getting the facts right is an ethical duty.
+- Each arrow is a **decision point**, not a conveyor belt. Whether it works like one is itself contested.
+- Public debate blurs a 9-year-old's pronouns, a 15-year-old's hormones, and surgery: three decisions with different reversibility, evidence, and ethics.
+
+::: {.content-hidden when-format="revealjs"}
+Getting these facts right is an ethical duty.
+:::
 
 ## What Puberty Blockers Are
 
 :::: {.columns}
-::: {.column width="52%"}
-::: {.context-box}
-**Puberty blockers (GnRH agonists), in plain language**
-
-They pause the hormones of puberty. They were developed for **precocious puberty** (a seven-year-old entering puberty) and used for decades: stop the drug, and puberty proceeds. Open questions remain about **bone density** and **brain development** during a years-long pause.
+::: {.column width="46%"}
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "An illustration, not data. Open questions remain about bone density and brain development during the pause."
+#| fig-alt: "A schematic of puberty hormones over time. Without blockers the level rises. On blockers it is held low, with open questions about bone density and brain development during the pause. Stop the drug, and puberty proceeds."
+fig, ax = plt.subplots(figsize=(4.7, 3.9))
+t = np.linspace(0, 10, 300)
+without = 0.1 + 0.8 / (1 + np.exp(-(t - 4.5) * 1.4))
+ax.axvspan(3.5, 7, color=TEAL_T, zorder=0)
+ax.plot(t, without, color="#94a3b8", lw=2.2, ls=":", label="Without blockers")
+pre = t <= 3.5
+ax.plot(t[pre], without[pre], color=TEAL, lw=3.2, label="With blockers")
+tp = np.linspace(3.5, 7, 80)
+y0 = without[pre][-1]
+ax.plot(tp, 0.14 + (y0 - 0.14) * np.exp(-(tp - 3.5) * 5), color=TEAL, lw=3.2)
+ta = np.linspace(7, 10, 80)
+ax.plot(ta, 0.14 + 0.76 / (1 + np.exp(-(ta - 8.6) * 1.6)), color=TEAL, lw=3.2, ls="--",
+        label="Stop the drug, and puberty proceeds")
+ax.text(5.25, 1.02, "On blockers", ha="center", va="center", fontsize=12, fontweight="bold", color=TEAL)
+ax.set_xlim(0, 10); ax.set_ylim(0, 1.1)
+ax.set_xticks([]); ax.set_yticks([])
+ax.set_xlabel("Time  \u2192", fontsize=11.5, color=INK)
+ax.set_ylabel("Puberty hormones", fontsize=11.5, color=INK)
+ax.spines[["top", "right"]].set_visible(False)
+ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.12), frameon=False, fontsize=10.5,
+          handlelength=2.6)
+fig.tight_layout()
+plt.show()
+```
 :::
+::: {.column width="4%"}
 :::
-::: {.column width="48%"}
-The model came from Amsterdam in the 1990s, the **Dutch protocol**: carefully screened adolescents could have puberty *paused*, buying time before any permanent step.
-
-The original group was small and tightly selected: childhood-onset dysphoria, stable, supportive families. The core dispute is whether those results **transfer** to today's very different patients.
+::: {.column width="50%"}
+- **Puberty blockers** (GnRH agonists) pause the hormones of puberty. They were developed for **precocious puberty** and used for decades.
+- The **Dutch protocol** (Amsterdam, 1990s) offered that pause to carefully screened adolescents, buying time before any permanent step.
+- The core dispute: do results from that small, tightly selected group **transfer** to today's very different patients?
 :::
 ::::
 
-Reversible chemistry is not the same as a reversible *path*, and that is where the evidence fight begins.
+Reversible chemistry is not the same as a reversible *path*.
+
+::: {.content-hidden when-format="revealjs"}
+Precocious puberty means, for example, a seven-year-old entering puberty: stop the drug, and puberty proceeds. The original Dutch group had childhood-onset dysphoria and stable, supportive families. Open questions remain about **bone density** and **brain development** during a years-long pause, and that is where the evidence fight begins.
+:::
 
 # The Evidence {.section-divider}
 
 ## What the Systematic Reviews Found
 
-The University of York ran systematic reviews for England's Cass Review, the same machinery you met in research ethics. Their results matched earlier reviews in Sweden and Finland [@cass2024].
+The University of York ran systematic reviews for England's Cass Review. Their results matched earlier reviews in Sweden and Finland [@cass2024].
 
 - **Puberty blockers:** no consistent, reliable evidence of mental-health benefit. The studies are small, uncontrolled, and short.
 - **Hormones:** some evidence of benefit, graded **low or very low certainty**.
 - Hilary Cass's summary: an area of "**remarkably weak evidence**."
 
 ::: {.callout-important}
-**Low certainty does not mean "no effect."** It means the true effect may differ substantially from what studies suggest, in either direction. Much of pediatrics runs on low-certainty evidence. The usual reason to set a higher bar here: these treatments are **partly irreversible** and the patients are **minors**.
+**Low certainty does not mean "no effect."** The true effect may differ substantially from what studies suggest, in either direction.
+:::
+
+::: {.content-hidden when-format="revealjs"}
+These reviews use the same machinery you met in research ethics. Much of pediatrics runs on low-certainty evidence. The usual reason to set a higher bar here: these treatments are **partly irreversible** and the patients are **minors**.
 :::
 
 ## Two Numbers Both Sides Claim
@@ -179,7 +246,7 @@ Same numbers, opposite lessons. What would settle it is the missing comparison: 
 
 ## The Trial That Couldn't Start
 
-"Just run a randomized trial" is the obvious answer. Recall research ethics: **blinding is impossible** (patients know whether puberty stopped), **equipoise is disputed in both directions**, and whoever picks the outcome measure half-decides the result.
+Why not just run a randomized trial? **Blinding is impossible** (patients know whether puberty stopped), **equipoise is disputed in both directions**, and whoever picks the outcome measure half-decides the result.
 
 ```{python}
 #| echo: false
@@ -219,15 +286,17 @@ plt.show()
 
 ## Two Defaults, One Evidence Base
 
-The disagreement reduces to a choice between two rules for acting under uncertainty.
-
 | | **The precaution default** | **The access default** |
 |---|---|---|
 | The rule | no irreversible treatment for minors without strong evidence of benefit | no withholding treatment from suffering patients without strong evidence of harm |
 | Treats which error as worse? | treating someone who would have changed course | denying someone who needed it |
 | Burden of proof sits on | the treatment | the restriction |
 
-Both defaults are **caution**, and the evidence is silent on exactly the question they answer. Choosing between them is an ethical act, one every authority, court, and philosopher in this debate has made.
+Both defaults are **caution**, and the evidence is silent on exactly the question they answer. Choosing between them is an ethical act.
+
+::: {.content-hidden when-format="revealjs"}
+The disagreement reduces to a choice between these two rules for acting under uncertainty. Every authority, court, and philosopher in this debate has made that choice.
+:::
 
 # The Philosophers {.section-divider}
 
@@ -260,7 +329,7 @@ Both defaults are **caution**, and the evidence is silent on exactly the questio
 
 - If it aims to relieve **distress**, the evidence that it lastingly does so is weak.
 - If it aims to align body with **identity**, it treats a teen's present self-view as authoritative about a future self, which medicine does nowhere else.
-- His conclusion is not a ban. It is that the affirming *default* is unjustified until the evidence improves.
+- His conclusion is not a ban: the affirming *default* is unjustified until the evidence improves.
 :::
 ::: {.column width="4%"}
 :::
@@ -269,57 +338,109 @@ Both defaults are **caution**, and the evidence is silent on exactly the questio
 
 - The state already limits parents who "mean well but cause harm": vaccination, schooling, medical neglect.
 - Her view unsettles both camps: parental-rights conservatives, and progressives who object when *bans* override parents.
-- In Room 4, Riley's father is the obstacle. Should that matter?
 :::
 ::::
 
+::: {.content-hidden when-format="revealjs"}
 ::: {.aside-note}
 Gorin was also one of nine named contributors to the final (November 2025) version of the HHS report in the next section. Knowing who wrote a review is part of weighing it.
 :::
 
+Notice where Priest's view lands in Room 4: there, Riley's father is the obstacle. Should that matter?
+:::
+
 ## Feinberg, Claimed by Both Sides
 
-You know Joel Feinberg's **right to an open future** from genomics: children have rights held in trust that adults must not close off [@feinberg1980_open_future]. In this debate, **both sides use it.**
+Joel Feinberg's **right to an open future**: children have rights held in trust that adults must not close off [@feinberg1980_open_future]. **Both sides use it.**
 
-:::: {.columns}
-::: {.column width="48%"}
-::: {.context-box}
-**Blockers keep the future open**
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-alt: "One question, which choice closes the future, with two matched answers. Blockers keep the future open: unwanted puberty closes options permanently, the deeper voice, the changed body. The pathway closes it: if blockers work as an on-ramp, the pause closes the door to reconciling with one's birth sex."
+fig, ax = plt.subplots(figsize=(9.6, 3.1))
+box(ax, 3.6, 3.95, 4.8, 0.9, GREY_T, "#94a3b8")
+ax.text(6, 4.4, "Which choice closes the future?", ha="center", va="center", fontsize=13.5,
+        fontweight="bold", color=INK)
+cards = [(0.2, "\u201cBlockers keep the future open\u201d",
+          "Unwanted puberty closes options\npermanently: the deeper voice,\nthe changed body."),
+         (6.3, "\u201cThe pathway closes it\u201d",
+          "If blockers work as an on-ramp, the\npause closes the door to reconciling\nwith one's birth sex.")]
+for x, title, body in cards:
+    box(ax, x, 0.15, 5.5, 2.85, TEAL_T, TEAL)
+    ax.text(x + 2.75, 2.45, title, ha="center", va="center", fontsize=13.5, fontweight="bold", color=INK)
+    ax.text(x + 2.75, 1.2, body, ha="center", va="center", fontsize=12, color=INK, linespacing=1.3)
+    arrow(ax, (6, 3.9), (x + 2.75, 3.1))
+ax.set_xlim(0, 12); ax.set_ylim(0, 5); ax.axis("off")
+fig.tight_layout()
+plt.show()
+```
 
-Unwanted puberty closes options *permanently*: the deeper voice, the changed body. A pause holds every door open until the patient can choose as an adult.
-:::
-:::
-::: {.column width="4%"}
-:::
-::: {.column width="48%"}
-::: {.context-box}
-**The pathway closes it**
+Which reading is right depends on a factual question the evidence can't yet answer: pause, or on-ramp?
 
-If blockers work as an on-ramp (recall that continuation rate), the "pause" quietly closes the door to reconciling with one's birth sex before the patient can know what an adult self would want.
+::: {.content-hidden when-format="revealjs"}
+You know this right from genomics. On the first reading, a pause holds every door open until the patient can choose as an adult. On the second, recall the continuation rate: the "pause" quietly closes a door before the patient can know what an adult self would want.
 :::
-:::
-::::
-
-Which reading is right depends on the factual question (pause or on-ramp?) that the evidence can't yet answer.
 
 ## Thought Question
 
 ::: {.thought-question}
-Return to Room 4 and seat the four philosophers around Riley's bed.
+Seat the four philosophers around Riley's bed.
 
 1. Riley's father asks you directly: "If we wait two years, what do we lose? If we proceed now, what do we lose?" Answer him honestly, using both versions of the open future.
 2. Which of the four (Giordano, Ashley, Gorin, Priest) comes closest to what you would say? Where do you part company with them?
 :::
 
-## After You've Discussed
+## Risk-Relative Capacity
 
-::: {.callout-note}
-Pediatric ethics has a name for the fight over Riley's maturity: **risk-relative capacity**. The capacity a decision requires scales with its stakes. A 15-year-old can consent to a flu shot, but refusing chemotherapy triggers a very different process.
+:::: {.columns}
+::: {.column width="46%"}
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "An illustration, not data."
+#| fig-alt: "A rising line: the capacity a decision requires grows with its stakes. Consenting to a flu shot sits low on the line and refusing chemotherapy sits high. Off the line is the disputed question: starting blockers, or going through unwanted puberty, which is the high-stakes choice?"
+fig, ax = plt.subplots(figsize=(4.7, 3.5))
+ax.plot([0.05, 0.95], [0.1, 0.9], color=TEAL, lw=3.2)
+ax.plot([0.15], [0.19], "o", color=TEAL, markersize=10)
+ax.text(0.2, 0.15, "Consenting to\na flu shot", ha="left", va="top", fontsize=10.5, color=INK)
+ax.plot([0.85], [0.81], "o", color=TEAL, markersize=10)
+ax.text(0.79, 0.9, "Refusing\nchemotherapy", ha="right", va="center", fontsize=10.5, color=INK)
+ax.text(0.98, 0.4, "Starting blockers?\nGoing through\nunwanted puberty?", ha="right", va="center",
+        fontsize=10.5, color=INK)
+ax.text(0.98, 0.17, "Which is the\nhigh-stakes choice?", ha="right", va="center",
+        fontsize=10.5, color=SLATE, fontweight="bold")
+ax.set_xlim(0, 1); ax.set_ylim(0, 1)
+ax.set_xticks([]); ax.set_yticks([])
+ax.set_xlabel("Stakes of the decision  \u2192", fontsize=11.5, color=INK)
+ax.set_ylabel("Capacity required", fontsize=11.5, color=INK)
+ax.spines[["top", "right"]].set_visible(False)
+fig.tight_layout()
+plt.show()
+```
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="50%"}
+- **Risk-relative capacity:** the capacity a decision requires scales with its stakes.
+- A 15-year-old can consent to a flu shot. Refusing chemotherapy triggers a very different process.
+- Both sides accept this. They disagree about *which choice is the high-stakes one*: starting blockers, or going through unwanted puberty.
+:::
+::::
 
-Both sides accept this and still disagree, because they disagree about *which choice is the high-stakes one*: starting blockers, or going through unwanted puberty. Risk-relative capacity doesn't settle Riley's case. It names what the disagreement is.
+::: {.content-hidden when-format="revealjs"}
+This is pediatric ethics' name for the fight over Riley's maturity. Risk-relative capacity doesn't settle Riley's case. It names what the disagreement is.
 :::
 
 # The Authorities Disagree {.section-divider}
+
+## Thought Question
+
+::: {.thought-question}
+Riley's father puts the **HHS 2025 report** on the table [@hhs2025_gender]: "The government reviewed everything. It says therapy first." His mother sets the **Endocrine Society guideline** beside it: "The actual specialists disagree." Both documents are real. Both claim the evidence.
+
+1. Think of a time experts you trusted disagreed: two doctors, two teachers, two sources. How did you decide whom to believe? Would that method work here?
+2. What can you honestly say to these two parents? Is there anything you can offer them that doesn't depend on settling the expert dispute?
+:::
 
 ## The Map of Dueling Authorities
 
@@ -353,23 +474,31 @@ Every row claims the evidence; the rows contradict. Note that the European turn 
 :::
 ::::
 
-## Thought Question
+## Burden of Proof, Standard of Proof
 
-::: {.thought-question}
-Back in Room 4, Riley's father has done his reading. He puts the **HHS 2025 report** on the table [@hhs2025_gender]: "The government reviewed everything. It says therapy first." Riley's mother puts the **Endocrine Society guideline** next to it: "The actual specialists disagree."
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-alt: "Two separate questions, each a line between two ends. Burden of proof: who must prove their case, the treatment or the restriction? Standard of proof: how much evidence is enough, less or more?"
+fig, ax = plt.subplots(figsize=(9.6, 2.5))
+rows = [(3.0, "Burden of proof:", "who must prove their case?", "The treatment", "The restriction"),
+        (1.0, "Standard of proof:", "how much evidence is enough?", "Less", "More")]
+for y, head, q, left, right in rows:
+    ax.text(0.3, y + 0.62, head, ha="left", va="center", fontsize=14, fontweight="bold", color=TEAL)
+    ax.text(3.15, y + 0.62, q, ha="left", va="center", fontsize=13, color=INK)
+    arrow(ax, (0.3, y), (11.7, y), color=SLATE, lw=2.4, style="<|-|>")
+    ax.text(0.3, y - 0.45, left, ha="left", va="center", fontsize=12.5, color=INK)
+    ax.text(11.7, y - 0.45, right, ha="right", va="center", fontsize=12.5, color=INK)
+ax.set_xlim(0, 12); ax.set_ylim(0.2, 4.0); ax.axis("off")
+fig.tight_layout()
+plt.show()
+```
 
-Both documents are real. Both claim the evidence. They are looking at you.
+- The U.S. medical societies and the European reviews disagree about both. Their deepest split is the **burden**.
+- Most "the evidence says" claims in this debate are burden-and-standard claims in disguise.
 
-1. Think of a time experts you trusted disagreed: two doctors, two teachers, two sources. How did you decide whom to believe? Would that method work here?
-2. What can you honestly say to these two parents? Is there anything you can offer them that doesn't depend on settling the expert dispute?
-:::
-
-## After You've Discussed
-
-::: {.callout-note}
-The distinction that organizes expert disputes: **burden of proof versus standard of proof.** *Burden* asks who must prove their case: the treatment, or the restriction? *Standard* asks how much evidence counts as enough.
-
-The U.S. medical societies and the European reviews disagree about both, but their deepest split is the burden. Most "the evidence says" claims in this debate are burden-and-standard claims in disguise: value judgments wearing lab coats.
+::: {.content-hidden when-format="revealjs"}
+Put another way, they are value judgments wearing lab coats.
 :::
 
 # The Law {.section-divider}
@@ -455,7 +584,7 @@ The Court decided **who decides**, not whether the bans are wise.
 :::: {.columns}
 ::: {.column width="56%"}
 - **Federal pressure reaches refuge states.** A 2025 executive order told federally funded hospitals to stop this care for patients under 19. Courts have blocked its funding cutoffs, including in Minnesota, while appeals continue.
-- **Hospitals stopped anyway.** Some children's hospitals ended this care even where it is legal, because they would not gamble their federal funding on a lawsuit's outcome.
+- **Hospitals stopped anyway.** Some children's hospitals ended this care even where it is legal, rather than gamble their federal funding on a lawsuit.
 - **Records matter.** Where a family came from, and what goes in writing, can carry legal weight across state lines.
 :::
 ::: {.column width="44%"}
@@ -470,19 +599,52 @@ Carol M. Highsmith Archive, Library of Congress. Public domain.
 ## Thought Question
 
 ::: {.thought-question}
-Every framework, clinical, philosophical, and legal, hits the same wall: **someone must draw an age line for partly irreversible treatment, under uncertainty.**
+**Someone must draw an age line for partly irreversible treatment, under uncertainty.** Tennessee's legislators drew it at 18. The Dutch protocol's clinicians drew it at about 12 and 16.
 
 1. Where would you put the line for puberty blockers? Is your line for hormones different? Why?
 2. Who should hold the pen: the family, the clinical team, a national guideline body, or the legislature? What does each get wrong?
-3. Tennessee's line was 18, drawn by legislators; the Dutch protocol's was about 12 and 16, drawn by clinicians. Defend one, or propose a third process and say who can veto whom.
 :::
 
-## After You've Discussed
+## What the Law Permits, What Care Requires
 
-::: {.callout-note}
-A final distinction: **legal permission versus professional obligation.** Law tells you what *may* be done where you stand; it never tells you what good care *requires*. After *Skrmetti* the two diverge state by state. A clinician in Memphis may believe care is needed that she legally cannot give; one in Minneapolis may legally give care she doubts. Conscience runs both ways.
+:::: {.columns}
+::: {.column width="52%"}
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-alt: "A two-by-two grid of what the law says against what a clinician judges. Where the law permits care she thinks is needed, or forbids care she doubts, law and judgment agree. A clinician in Minneapolis may legally give care she doubts. A clinician in Memphis may believe care is needed that she cannot legally give."
+fig, ax = plt.subplots(figsize=(5.3, 3.7))
+ax.text(4.0, 7.45, "She judges the care\nis needed", ha="center", va="center", fontsize=12.5, fontweight="bold", color=INK)
+ax.text(8.0, 7.45, "She doubts\nthe care", ha="center", va="center", fontsize=12.5, fontweight="bold", color=INK)
+ax.text(0.95, 5.15, "Law\npermits", ha="center", va="center", fontsize=12.5, fontweight="bold", color=INK)
+ax.text(0.95, 2.05, "Law\nforbids", ha="center", va="center", fontsize=12.5, fontweight="bold", color=INK)
+cells = [(2.1, 3.75, GREY_T, "#94a3b8", None, "Law and judgment\nagree"),
+         (6.1, 3.75, WARM_T, WARM, "Minneapolis", "may legally give\ncare she doubts"),
+         (2.1, 0.65, WARM_T, WARM, "Memphis", "believes care is\nneeded that she\ncannot legally give"),
+         (6.1, 0.65, GREY_T, "#94a3b8", None, "Law and judgment\nagree")]
+for x, y, fc, ec, place, body in cells:
+    box(ax, x, y, 3.8, 2.8, fc, ec)
+    if place:
+        ax.text(x + 1.9, y + 2.25, place, ha="center", va="center", fontsize=13, fontweight="bold", color=INK)
+        ax.text(x + 1.9, y + 1.1, body, ha="center", va="center", fontsize=12, color=INK, linespacing=1.25)
+    else:
+        ax.text(x + 1.9, y + 1.4, body, ha="center", va="center", fontsize=12, color=SLATE, linespacing=1.25)
+ax.set_xlim(0, 10.1); ax.set_ylim(0.4, 8.1); ax.axis("off")
+fig.tight_layout()
+plt.show()
+```
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="44%"}
+- Law tells you what *may* be done where you stand. It never tells you what good care *requires*.
+- After *Skrmetti* the two diverge state by state. **Conscience runs both ways.**
+- Know the law exactly, know your judgment honestly, and never confuse the two.
+:::
+::::
 
-Medicine has lived in this gap before, in the post-*Dobbs* exception cases. The skill is the same: know the law exactly, know your judgment honestly, and never confuse the two.
+::: {.content-hidden when-format="revealjs"}
+Medicine has lived in this gap before, in the post-*Dobbs* exception cases. The skill is the same.
 :::
 
 ## Mini-Recap

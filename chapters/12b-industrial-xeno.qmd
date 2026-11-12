@@ -13,6 +13,25 @@ format:
     output-file: 12b-industrial-xeno-slides.html
 ---
 
+```{python}
+#| include: false
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib.patches import FancyBboxPatch, FancyArrowPatch, Rectangle, Polygon
+
+TEAL, RED, SLATE, INK = "#0e7c86", "#c0392b", "#334155", "#0f172a"
+TEAL_T, RED_T, GREY_T = "#e6f1f2", "#fad7d2", "#eef2f6"
+WARM, WARM_T, GREY = "#b07d1a", "#fce9d6", "#94a3b8"
+
+def box(ax, x, y, w, h, fc, ec, lw=1.6):
+    ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.02,rounding_size=0.15",
+                                fc=fc, ec=ec, lw=lw))
+
+def arrow(ax, a, b, color="#6b7280", rad=0.0, lw=1.8):
+    ax.add_patch(FancyArrowPatch(a, b, arrowstyle="-|>", mutation_scale=16, color=color,
+                                 lw=lw, connectionstyle=f"arc3,rad={rad}"))
+```
+
 # Rank These Four {.section-divider}
 
 ## A Case to Sit With
@@ -28,24 +47,20 @@ Here are four ways humans use animals. Put them in order, from **most defensible
 What did you put **last**, and what rule were you using? Did "high-tech" or "unnatural" push anything *down* your list? Should it?
 :::
 
-## After You've Discussed
-
-::: {.callout-note}
-Most people rank the pig-heart transplant as more troubling than the bacon. Hold that intuition up to the light.
-
-By the end of today we'll have a tool that ranks animal uses by **scale, necessity, and benefit**, and on that tool the everyday cheeseburger comes out *worse* than the high-tech transplant. Whether you accept that result, or reject the tool, is the work of this lecture.
-:::
-
 ## Today
 
-In Part A we asked **which beings have moral status**, and met Kant, Korsgaard, Singer, Regan, and Cohen. Today the same views face the two largest and most advanced uses of animals.
+Most people rank the pig-heart transplant as more troubling than the bacon. Today's question: **what makes one use of animals more defensible than another?** Our tool will rank uses by **scale, necessity, and benefit**, and on it the everyday cheeseburger comes out *worse* than the high-tech transplant.
+
+::: {.content-hidden when-format="revealjs"}
+In Part A we asked **which beings have moral status**, and met Kant, Korsgaard, Singer, Regan, and Cohen. Today the same views face the two largest and most advanced uses of animals. Whether you accept the tool's result, or reject the tool, is the work of this lecture.
+:::
 
 ::: {.learning-outcomes}
 By the end of Part B, you will be able to:
 
-- Explain how industrial animal agriculture harms **animals and humans**, including antibiotic resistance and pandemic risk.
+- Explain how industrial animal agriculture harms **animals and humans**: antibiotic resistance and pandemic risk.
 - Describe how pigs are **gene-edited** for transplant, and what makes **xenotransplantation** ethically distinct.
-- Use the **scale–necessity–benefit** ledger, explain how Regan resists it, and connect animal ethics to arguments from earlier in the course.
+- Use the **scale–necessity–benefit** ledger, explain how Regan resists it, and connect it to earlier arguments in the course.
 :::
 
 # The Biggest Use: The Food System {.section-divider}
@@ -56,7 +71,7 @@ By the end of Part B, you will be able to:
 ::: {.column width="44%"}
 Humans slaughter nearly **88 billion** land animals a year for meat: about ten for every person on Earth. Nine in ten are **chickens** [@owid_2024].
 
-Recall Singer: this is vast suffering for an interest (taste, cost, convenience) that is, for most of us, **minor and replaceable.** A practice repeated billions of times needs a justification billions of times as strong.
+Recall Singer: this is vast suffering for an interest (taste, cost, convenience) that is **minor and replaceable.** A practice repeated billions of times needs a justification billions of times as strong.
 :::
 ::: {.column width="56%"}
 ```{python}
@@ -144,45 +159,111 @@ plt.show()
 ## It Harms Humans Too: Pandemics
 
 :::: {.columns}
-::: {.column width="52%"}
+::: {.column width="50%"}
 - Crowding genetically similar animals together is ideal for breeding new viruses. **Avian** and **swine influenza** strains have jumped from farms to people.
 - Many experts count industrial animal agriculture and the wildlife trade among the century's leading **pandemic risks**.
+- **A rare convergence.** Kant and Cohen grant animals no rights, yet their human-centered view still **condemns** this system.
 :::
-::: {.column width="4%"}
-:::
-::: {.column width="44%"}
-::: {.callout-note}
-**A rare convergence.** Kant and Cohen grant animals no rights, yet their human-centered view still **condemns** a system that breeds resistant bacteria and pandemic flu. Welfare reasons and self-interested reasons point the *same* way.
-:::
+::: {.column width="50%"}
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-alt: "Two boxes with arrows meeting at one verdict. Welfare reasons: the animals suffer. Self-interested reasons, as in Kant and Cohen: resistant bacteria and pandemic flu. Both point to the same verdict: the system is condemned."
+fig, ax = plt.subplots(figsize=(4.8, 3.6))
+box(ax, 0.2, 4.6, 4.4, 3.2, TEAL_T, TEAL)
+ax.text(2.4, 6.85, "Welfare\nreasons", ha="center", va="center", fontsize=13.5, fontweight="bold", color=INK)
+ax.text(2.4, 5.35, "the animals\nsuffer", ha="center", va="center", fontsize=12, color=INK)
+box(ax, 5.4, 4.6, 4.4, 3.2, WARM_T, WARM)
+ax.text(7.6, 6.85, "Self-interested\nreasons", ha="center", va="center", fontsize=13.5, fontweight="bold", color=INK)
+ax.text(7.6, 5.35, "resistant bacteria,\npandemic flu", ha="center", va="center", fontsize=12, color=INK)
+arrow(ax, (2.4, 4.5), (4.0, 2.55))
+arrow(ax, (7.6, 4.5), (6.0, 2.55))
+box(ax, 1.6, 0.5, 6.8, 1.95, GREY_T, SLATE, lw=2.2)
+ax.text(5.0, 1.48, "The same verdict:\nthe system is condemned", ha="center", va="center",
+        fontsize=13, fontweight="bold", color=INK)
+ax.set_xlim(0, 10); ax.set_ylim(0.2, 8.0); ax.axis("off")
+fig.tight_layout()
+plt.show()
+```
 :::
 ::::
+
+::: {.content-hidden when-format="revealjs"}
+Welfare reasons and self-interested reasons point the *same* way: a system that breeds resistant bacteria and pandemic flu is condemned even on a view that grants animals no rights.
+:::
 
 ## Thought Question
 
 ::: {.thought-question}
-Your hospital sources its cafeteria meat from conventional industrial farms. A nurses' group proposes switching to higher-welfare, antibiotic-free suppliers, at higher cost, paid from the same budget that funds patient programs.
+Your hospital buys its cafeteria meat from industrial farms. A nurses' group proposes switching to higher-welfare, antibiotic-free suppliers. It costs more, and the money comes from the budget that funds patient programs.
 
 1. Have you ever paid more, or gone without, for something you thought was right: cage-free eggs, fair-trade coffee, a boycott? Should an institution make that choice for everyone who eats there?
 2. Do you vote for the switch? What do you say to the patient whose program might be trimmed to pay for it?
 :::
 
-## After You've Discussed
+## Direct and Indirect Harm
 
-::: {.callout-note}
-A distinction the food case forces: **direct vs. indirect harm.**
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-alt: "The factory farm causes two harms. Direct harm falls on the animal: the welfare wrong. Indirect harm falls on humans, through resistant bacteria and new viruses."
+fig, ax = plt.subplots(figsize=(9.6, 3.0))
+box(ax, 0.2, 1.25, 3.2, 1.5, GREY_T, SLATE, lw=2.0)
+ax.text(1.8, 2.0, "The factory farm", ha="center", va="center", fontsize=14.5, fontweight="bold", color=INK)
+box(ax, 6.6, 2.25, 5.2, 1.55, TEAL_T, TEAL)
+ax.text(9.2, 3.3, "The animal", ha="center", va="center", fontsize=14.5, fontweight="bold", color=INK)
+ax.text(9.2, 2.7, "the welfare wrong", ha="center", va="center", fontsize=12.5, color=INK)
+box(ax, 6.6, 0.2, 5.2, 1.55, WARM_T, WARM)
+ax.text(9.2, 1.25, "Humans", ha="center", va="center", fontsize=14.5, fontweight="bold", color=INK)
+ax.text(9.2, 0.65, "resistant bacteria, new viruses", ha="center", va="center", fontsize=12.5, color=INK)
+arrow(ax, (3.5, 2.3), (6.5, 3.0))
+arrow(ax, (3.5, 1.7), (6.5, 1.0))
+ax.text(4.9, 3.05, "direct harm", ha="center", va="center", fontsize=13, fontweight="bold", color=TEAL)
+ax.text(4.9, 0.95, "indirect harm", ha="center", va="center", fontsize=13, fontweight="bold", color=WARM)
+ax.set_xlim(0, 12); ax.set_ylim(0, 4); ax.axis("off")
+fig.tight_layout()
+plt.show()
+```
 
-The factory farm harms the pig **directly**: that is the welfare wrong. It also harms *humans* **indirectly**, through resistant bacteria and new viruses: a second wrong with different victims.
+The two can come apart. Banning routine antibiotic use eases the public-health harm and leaves the welfare harm untouched. Knowing *which* harm a policy fixes keeps you from claiming credit for both.
 
-The two can come apart. A reform could ease the public-health harm (ban routine antibiotic use) while leaving the welfare harm untouched, and vice versa. Knowing *which* harm a policy fixes keeps you from claiming credit for both.
+::: {.content-hidden when-format="revealjs"}
+The reverse is possible too: a reform could ease the welfare harm and leave the public-health harm in place. The two wrongs have different victims.
 :::
 
 # The High-Tech, Low-Number Use {.section-divider}
 
 ## Why Xenotransplantation
 
-- More than **100,000** Americans are on the transplant waiting list, most of them (86%) for a kidney, and about **13 die each day** waiting.
+:::: {.columns}
+::: {.column width="56%"}
+- More than **100,000** Americans are on the transplant waiting list, and about **13 die each day** waiting.
 - [Xenotransplantation]{.key-term}, transplanting organs from another species, promises an unlimited supply, grown to order.
-- The species of choice is the **pig**: organs the right size, fast breeding, decades of surgical familiarity. The obstacle was always rejection: the human body destroys ordinary pig tissue within minutes.
+- The species of choice is the **pig**: organs the right size, and fast breeding. The obstacle was rejection: the human body destroys ordinary pig tissue within minutes.
+:::
+::: {.column width="44%"}
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-alt: "A grid of 100 squares for every 100 people on the U.S. transplant waiting list: 86 are waiting for a kidney, and 14 for another organ."
+fig, ax = plt.subplots(figsize=(4.2, 3.9))
+for k in range(100):
+    r, c = divmod(k, 10)
+    ax.add_patch(Rectangle((c, 9 - r), 0.86, 0.86, color=TEAL if k < 86 else "#cbd5e1"))
+ax.set_title("Of every 100 people on the list…", fontsize=13.5, color=INK, loc="left")
+ax.text(0, -0.9, "86 wait for a kidney", fontsize=13.5, color=TEAL, fontweight="bold")
+ax.text(0, -2.1, "14 wait for another organ", fontsize=13.5, color="#475569")
+ax.set_xlim(0, 10); ax.set_ylim(-2.5, 10.2)
+ax.set_aspect("equal"); ax.axis("off")
+fig.tight_layout()
+plt.show()
+```
+:::
+::::
+
+::: {.content-hidden when-format="revealjs"}
+Most people on the list (86%) are waiting for a kidney. Pigs also bring decades of surgical familiarity.
+:::
 
 ## How You Build a Transplant Pig
 
@@ -259,11 +340,33 @@ In 2025 the FDA cleared the first formal **trials**: an equipoise problem, not j
 
 ## What Makes Xeno Ethically Distinct
 
-- **Animal welfare:** source pigs live their whole lives in sterile isolation, engineered and monitored as living organ factories.
-- **Risk to the public:** a pig virus could cross into the patient and then **spread to others**, a [xenozoonosis]{.key-term}. The patient consents; the **public can't**, yet shares the risk.
-- **Consent under desperation:** a dying patient offered a first-of-its-kind organ is not a free chooser in the ordinary sense. Is that consent, or a cornered hope?
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-alt: "Three parties in a row. The source pig, under animal welfare: a whole life in sterile isolation. The patient, under consent under desperation: consents, but is dying. The public, under risk to the public: shares the infection risk and cannot consent. An organ passes from pig to patient, and a pig virus could pass from patient to public."
+fig, ax = plt.subplots(figsize=(9.6, 3.3))
+cols = [(0.1, "Animal welfare", "The source pig", "a whole life in\nsterile isolation", TEAL_T, TEAL),
+        (4.3, "Consent under desperation", "The patient", "consents, but is dying:\nchoice, or cornered hope?", GREY_T, SLATE),
+        (8.5, "Risk to the public", "The public", "shares the infection risk,\nand can't consent", WARM_T, WARM)]
+for x, tag, who, body, fc, ec in cols:
+    ax.text(x + 1.7, 3.05, tag, ha="center", va="center", fontsize=14, fontweight="bold", color=ec)
+    box(ax, x, 0.2, 3.4, 2.4, fc, ec)
+    ax.text(x + 1.7, 2.05, who, ha="center", va="center", fontsize=16, fontweight="bold", color=INK)
+    ax.text(x + 1.7, 1.0, body, ha="center", va="center", fontsize=13.5, color=INK)
+arrow(ax, (3.6, 1.4), (4.25, 1.4))
+arrow(ax, (7.8, 1.4), (8.45, 1.4))
+ax.text(3.92, 1.85, "organ", ha="center", va="center", fontsize=10.5, color=SLATE)
+ax.text(8.12, 1.85, "virus?", ha="center", va="center", fontsize=10.5, color=SLATE)
+ax.set_xlim(0, 12); ax.set_ylim(0, 3.4); ax.axis("off")
+fig.tight_layout()
+plt.show()
+```
 
-The paired case follows one patient through all three.
+A pig virus that crosses into the patient and then **spreads to others** is a [xenozoonosis]{.key-term}. The paired case follows one patient through all three problems.
+
+::: {.content-hidden when-format="revealjs"}
+Source pigs are engineered and monitored as living organ factories. And a dying patient offered a first-of-its-kind organ is not a free chooser in the ordinary sense: is that consent, or a cornered hope?
+:::
 
 # The Ranking That Surprises People {.section-divider}
 
@@ -282,13 +385,48 @@ The **everyday cheeseburger** scores worse than the **headline-grabbing transpla
 
 ## Why Singer Accepts the Pig Heart
 
-This is the result that unsettles people, and it is perfectly consistent.
-
-- Singer opposes factory farming *because* it is vast suffering for a trivial, replaceable interest. The same logic, applied to xenotransplantation, points the other way.
+:::: {.columns}
+::: {.column width="52%"}
+- Singer opposes factory farming *because* it is vast suffering for a trivial, replaceable interest.
 - **One** pig, humanely raised, to save a human life with no alternative, is exactly the trade a utilitarian can endorse.
 - So an arch-critic of how we treat animals can **support** pig-heart transplants.
+:::
+::: {.column width="48%"}
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "How Singer weighs the two. An illustration, not data."
+#| fig-alt: "Two balances. Factory farming: vast suffering outweighs taste and cost. Pig-heart transplant: a human life outweighs one pig."
+def seesaw(ax, y0, title, left, right, heavy):
+    dy = 0.6 if heavy == "left" else -0.6
+    yl, yr = y0 - dy, y0 + dy
+    ax.plot([1.6, 8.4], [yl, yr], color=SLATE, lw=4, solid_capstyle="round")
+    ax.add_patch(Polygon([(5, y0), (4.45, y0 - 0.9), (5.55, y0 - 0.9)], closed=True, fc=SLATE, ec=SLATE))
+    for xc, yb, (label, fc), big in [(1.6, yl, left, heavy == "left"), (8.4, yr, right, heavy == "right")]:
+        s = 2.3 if big else 1.1
+        ax.add_patch(Rectangle((xc - s / 2, yb + 0.08), s, s, fc=fc, ec="white", lw=1.5))
+        if big:
+            ax.text(xc, yb + 0.08 + s / 2, label, ha="center", va="center", fontsize=12,
+                    fontweight="bold", color="white")
+        else:
+            ax.text(xc, yb + s + 0.55, label, ha="center", va="center", fontsize=12, color=INK)
+    ax.text(5, y0 + 2.55, title, ha="center", va="center", fontsize=13.5, fontweight="bold", color=INK)
 
-The lesson: **"creepy" and "wrong" are different properties.** Novelty triggers disgust; ethics tracks suffering, necessity, and benefit.
+fig, ax = plt.subplots(figsize=(4.8, 3.9))
+seesaw(ax, 7.0, "Factory farming", ("vast\nsuffering", RED), ("taste, cost", GREY), "left")
+seesaw(ax, 1.9, "Pig-heart transplant", ("one pig", GREY), ("a human\nlife", TEAL), "right")
+ax.set_xlim(0, 10); ax.set_ylim(0.8, 10.0); ax.axis("off")
+fig.tight_layout()
+plt.show()
+```
+:::
+::::
+
+**"Creepy" and "wrong" are different properties.** Novelty triggers disgust; ethics tracks suffering, necessity, and benefit.
+
+::: {.content-hidden when-format="revealjs"}
+This is the result that unsettles people, and it is perfectly consistent: the same logic that condemns the factory farm, applied to xenotransplantation, points the other way.
+:::
 
 ## Why Regan Won't Rank Them
 
@@ -310,39 +448,15 @@ The rights view refuses the whole exercise. For Regan, the ledger prices a life 
 
 # The Frontier: Smarter Animals {.section-divider}
 
-## Uplifting, and Its Paradox
-
-:::: {.columns}
-::: {.column width="52%"}
-[Uplifting]{.key-term} means deliberately raising an animal's cognitive capacities (by gene editing, drugs, or adding human cells), for example to build a more capable research subject.
-
-Recall the enhancement debate from genomics: there the target was *humans*. Here it is the animal.
-:::
-::: {.column width="4%"}
-:::
-::: {.column width="44%"}
-::: {.callout-important}
-**The paradox.** In Part A, capacities *earned* moral status. So if we raise an animal's capacities, we **raise its moral status**, and our duties to it grow. The better we make a research animal, the **less** we may be permitted to use it.
-:::
-:::
-::::
-
-## It's Already Real
-
-- In 2022, Stanford researchers transplanted **human brain organoids** (clusters of human neurons) into rat brains, where they grew, wired in, and influenced the rats' behavior [@revah2022_chimera].
-- Such [chimeras]{.key-term} (animals carrying human cells) are made to study human disease, but they create beings of **uncertain status**: how much human neural tissue is too much?
-- Regulators now draw uneasy lines around how far this may go, especially for human cells in animal **brains** and reproductive systems.
-
 ## Thought Question
 
 :::: {.columns}
 ::: {.column width="64%"}
 ::: {.thought-question}
-A lab proposes engineering mice with substantially **human-like memory and problem-solving**, to make Alzheimer's research more accurate. The mice would be smarter, and by Part A's own criteria, would have **higher moral status.**
+A lab proposes engineering mice with substantially **human-like memory and problem-solving**, to make Alzheimer's research more accurate.
 
 1. Does making the mouse smarter make it *more* wrong to experiment on, even though the point was better research?
-2. Is there a level of enhancement past which the "animal" should get human-like protections? Where, and decided by whom?
-3. Could it ever be **kinder** to refuse to uplift: not to create a being whose new capacities only deepen its suffering in a cage?
+2. Could it ever be **kinder** to refuse: not to create a being whose new capacities only deepen its suffering in a cage?
 :::
 :::
 ::: {.column width="36%"}
@@ -354,21 +468,82 @@ A gene-knockout mouse beside an ordinary one. Maggie Bartlett, NHGRI. Public dom
 :::
 ::::
 
-## After You've Discussed
+## Uplifting, and Its Paradox
 
-::: {.callout-note}
-A new distinction the frontier forces: **moral status as discovered vs. created.**
+:::: {.columns}
+::: {.column width="52%"}
+[Uplifting]{.key-term} means deliberately raising an animal's cognitive capacities (by gene editing, drugs, or adding human cells), for example to build a more capable research subject.
 
-All of Part A treated status as something we *discover*: we investigate an animal and find out how much it matters. Uplifting and chimeras make status something we can **create**: we decide, in the lab, how much a being will matter, and so how much we'll owe it.
-
-That is new in ethics. We are used to asking "what do we owe this creature?" We are not used to choosing, in advance, **how much we'll be obligated**, and then building the creature to match.
+::: {.callout-important}
+**The paradox.** In Part A, capacities *earned* moral status. Raise an animal's capacities and we **raise its moral status**. The better we make a research animal, the **less** we may be permitted to use it.
 :::
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="44%"}
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "An illustration, not data."
+#| fig-alt: "Two lines plotted against the capacities we add to an animal. Its moral status rises. What we may do to it falls."
+fig, ax = plt.subplots(figsize=(4.6, 3.4))
+x = np.linspace(0, 1, 50)
+ax.plot(x, 0.2 + 0.62 * x, color=TEAL, lw=3.5)
+ax.plot(x, 0.82 - 0.62 * x, color=WARM, lw=3.5)
+ax.text(0.98, 0.9, "Its moral status", color=TEAL, fontsize=13, fontweight="bold", ha="right")
+ax.text(0.98, 0.07, "What we may do to it", color=WARM, fontsize=13, fontweight="bold", ha="right")
+ax.set_xlim(0, 1); ax.set_ylim(0, 1)
+ax.set_xticks([]); ax.set_yticks([])
+ax.set_xlabel("The capacities we add  →", fontsize=11.5, color=INK)
+ax.spines[["top", "right"]].set_visible(False)
+fig.tight_layout()
+plt.show()
+```
+:::
+::::
+
+::: {.content-hidden when-format="revealjs"}
+Recall the enhancement debate from genomics: there the target was *humans*. Here it is the animal.
+:::
+
+## It's Already Real
+
+- In 2022, Stanford researchers transplanted **human brain organoids** (clusters of human neurons) into rat brains, where they grew, wired in, and influenced the rats' behavior [@revah2022_chimera].
+- Such [chimeras]{.key-term} (animals carrying human cells) are made to study human disease, but they create beings of **uncertain status**: how much human neural tissue is too much?
+- Regulators now draw uneasy lines, especially around human cells in animal **brains** and reproductive systems.
+
+## Moral Status: Discovered or Created?
+
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-alt: "Two rows. Discovered, as in all of Part A: an animal exists, we investigate it, and we find out how much it matters. Created, as with uplifting and chimeras: we decide how much it will matter, we build the animal to match, and we owe it what we chose."
+fig, ax = plt.subplots(figsize=(9.6, 3.2))
+rows = [(2.6, "Discovered", "all of Part A", TEAL_T, TEAL,
+         ["An animal\nexists", "We investigate\nit", "We find out how\nmuch it matters"]),
+        (0.3, "Created", "uplifting, chimeras", WARM_T, WARM,
+         ["We decide how much\nit will matter", "We build the\nanimal to match", "We owe it what\nwe chose"])]
+for y, name, sub, fc, ec, steps in rows:
+    ax.text(0.1, y + 1.0, name, fontsize=15, fontweight="bold", color=ec, va="center")
+    ax.text(0.1, y + 0.45, sub, fontsize=11.5, color=SLATE, va="center")
+    for i, t in enumerate(steps):
+        x = 2.75 + i * 3.1
+        box(ax, x, y, 2.75, 1.5, fc, ec)
+        ax.text(x + 1.375, y + 0.75, t, ha="center", va="center", fontsize=13.5, color=INK)
+        if i < 2:
+            arrow(ax, (x + 2.8, y + 0.75), (x + 3.05, y + 0.75))
+ax.set_xlim(0, 12); ax.set_ylim(0.1, 4.3); ax.axis("off")
+fig.tight_layout()
+plt.show()
+```
+
+We are used to asking "what do we owe this creature?" We are not used to choosing, in advance, **how much we'll be obligated**, and then building the creature to match.
 
 # Connecting Threads {.section-divider}
 
 ## The Course, Applied to Animals
 
-Many of this course's arguments were about who counts and why. Each one can be aimed at the transplant pig.
+Each earlier argument about who counts, and why, can be aimed at the transplant pig.
 
 | Earlier in the course | The argument | Aimed at the pig |
 |---|---|---|
@@ -393,7 +568,7 @@ A healthy pig also has a future of experiences, and the transplant ends it.
 ## Wrap-Up
 
 ::: {.recap}
-We ranked four uses of animals and built a tool (**scale, necessity, benefit**) that reorders our intuitions: the industrial cheeseburger comes out worse than the gene-edited pig heart, and a critic of factory farming like Singer can consistently accept xenotransplantation. Regan's rights view refuses the ranking, so the verdict still depends on the theory you hold. The food system showed animal and **human** harms converging; the frontier of **uplifting** showed we can now *create* the moral status we must then honor.
+*What makes one use of animals more defensible than another?* Our tool (**scale, necessity, benefit**) reorders intuitions: the industrial cheeseburger comes out worse than the gene-edited pig heart, and a critic of factory farming like Singer can consistently accept xenotransplantation. Regan's rights view refuses the ranking, so the verdict still depends on the theory you hold. The food system showed animal and **human** harms converging; **uplifting** showed we can now *create* the moral status we must then honor.
 :::
 
 > **Paired case:** [David Bennett and the First Pig-Heart Transplant](../cases/12-bennett-xenotransplant.qmd): one desperate patient, one designed animal, and a public that never consented.
