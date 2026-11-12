@@ -13,6 +13,25 @@ format:
     output-file: 10b-fifth-principle-slides.html
 ---
 
+```{python}
+#| include: false
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib.patches import FancyBboxPatch, FancyArrowPatch, Rectangle
+from matplotlib.colors import LinearSegmentedColormap
+
+TEAL, RED, SLATE, INK = "#0e7c86", "#c0392b", "#334155", "#0f172a"
+TEAL_T, RED_T, GREY_T = "#e6f1f2", "#fad7d2", "#eef2f6"
+
+def box(ax, x, y, w, h, fc, ec, lw=1.6):
+    ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.02,rounding_size=0.15",
+                                fc=fc, ec=ec, lw=lw))
+
+def arrow(ax, a, b, color="#6b7280", rad=0.0, lw=1.8):
+    ax.add_patch(FancyArrowPatch(a, b, arrowstyle="-|>", mutation_scale=16, color=color,
+                                 lw=lw, connectionstyle=f"arc3,rad={rad}"))
+```
+
 # The Machine in the Room {.section-divider}
 
 ## A Case to Sit With
@@ -127,15 +146,35 @@ Explicability adds no new value of its own. It is an **enabling principle**: the
 
 ## Why the Box Is Black
 
-:::: {.columns}
-::: {.column width="52%"}
-::: {.context-box}
-**"Even the makers can't explain it"?**
+A modern model is billions of numbers tuned during training, with no chain of reasons anyone can read out.
 
-A modern model is millions or billions of numbers tuned during training, with no chain of reasons anyone can read out. Its makers can say *how it was trained* and *how often it's right*, but not *why it said this, here, today*.
+:::: {.columns}
+::: {.column width="50%"}
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-alt: "Chart notes, lab values and vital signs flow into a black box labelled billions of tuned numbers, which outputs a sepsis risk of 90 percent. Its makers can say how it was trained and how often it is right. No one can say why it said this, here, today."
+fig, ax = plt.subplots(figsize=(4.8, 3.7))
+for y, t in [(6.5, "Chart notes"), (5.2, "Lab values"), (3.9, "Vital signs")]:
+    box(ax, 0.1, y, 2.7, 0.95, TEAL_T, TEAL)
+    ax.text(1.45, y + 0.475, t, ha="center", va="center", fontsize=12.5, color=INK)
+    arrow(ax, (2.9, y + 0.475), (3.75, 5.7))
+box(ax, 3.8, 3.9, 2.9, 3.55, "#111827", "#111827")
+ax.text(5.25, 5.68, "Billions of\ntuned\nnumbers", ha="center", va="center", fontsize=14,
+        color="white", fontweight="bold")
+arrow(ax, (6.8, 5.7), (7.45, 5.7))
+box(ax, 7.5, 4.9, 2.4, 1.6, RED_T, RED)
+ax.text(8.7, 5.7, "Sepsis risk\n90%", ha="center", va="center", fontsize=12, color=INK, fontweight="bold")
+ax.text(0.1, 2.7, "\u2713  Its makers can say", fontsize=14, color=TEAL, fontweight="bold", va="center")
+ax.text(0.75, 1.95, "how it was trained, how often it's right", fontsize=13, color=INK, va="center")
+ax.text(0.1, 1.0, "\u2717  No one can say", fontsize=14, color=RED, fontweight="bold", va="center")
+ax.text(0.75, 0.25, "why it said this, here, today", fontsize=13, color=INK, va="center")
+ax.set_xlim(0, 10); ax.set_ylim(-0.2, 7.7); ax.axis("off")
+fig.tight_layout()
+plt.show()
+```
 :::
-:::
-::: {.column width="48%"}
+::: {.column width="50%"}
 Keep the bar honest. Your clinician can't fully explain *her* pattern recognition either, but she can be **questioned, trained, and held to account**.
 
 Medicine also uses treatments that work for unknown reasons. Lithium steadied mood for decades before anyone knew why. What made that acceptable was a **track record**.
@@ -147,17 +186,23 @@ Medicine also uses treatments that work for unknown reasons. Lithium steadied mo
 ## Must the Patient Be Told?
 
 :::: {.columns}
-::: {.column width="48%"}
+::: {.column width="14%"}
+![](../images/characters/figures/staff-01.png){width="100%" fig-alt="A physician in a white coat holding a tablet"}
+:::
+::: {.column width="35%"}
 **The case against routine disclosure**
 
 We don't disclose the resident who pre-read the scan or the lab analyzer's software. Disclosing *everything* is disclosing nothing.
 :::
-::: {.column width="4%"}
+::: {.column width="2%"}
 :::
-::: {.column width="48%"}
+::: {.column width="35%"}
 **The case for it**
 
 Surveys find patients *want* to know, and trust collapses when they find out by accident. An instrument doesn't draft conclusions; this one does.
+:::
+::: {.column width="14%"}
+![](../images/characters/figures/patient-05.png){width="100%" style="transform: scaleX(-1);" fig-alt="A patient in a sweater holding a folder of printouts"}
 :::
 ::::
 
@@ -187,13 +232,37 @@ Now raise the stakes. A patient learns her mammogram will be read "by the radiol
 
 ## Three Things a Patient Could Be Told
 
-| Disclosure of… | What the patient hears |
-|---|---|
-| **Use** | "AI was involved." |
-| **Role** | "AI flagged this; your doctor made the call." Or: "Your doctor reviews what the AI decides." |
-| **Performance** | "It misses about X% of cancers like yours." |
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-alt: "Three rising steps. Use: AI was involved. Role: AI flagged this, your doctor made the call; this is what the mammogram patient is asking. Performance: it misses about X percent of cancers like yours; this is what almost no one is offered."
+fig, ax = plt.subplots(figsize=(9.6, 3.5))
+steps = [("Use", "\u201cAI was involved.\u201d", 1.6, "#cfe6e8", INK),
+         ("Role", "\u201cAI flagged this; your\ndoctor made the call.\u201d", 2.7, "#7fbcc2", INK),
+         ("Performance", "\u201cIt misses about X% of\ncancers like yours.\u201d", 3.8, TEAL, "white")]
+for i, (name, quote, h, fc, tc) in enumerate(steps):
+    x = 0.15 + i * 3.95
+    ax.add_patch(Rectangle((x, 0), 3.8, h, fc=fc, ec="white", lw=2))
+    ax.text(x + 1.9, h - 0.42, name, ha="center", va="center", fontsize=15, fontweight="bold", color=tc)
+    ax.text(x + 1.9, h - 1.12, quote, ha="center", va="center", fontsize=11.5, color=tc)
+xm = 0.15 + 3.95 + 1.9
+ax.text(xm, 3.5, "What the mammogram\npatient is asking", ha="center", va="center",
+        fontsize=12, color=SLATE, fontweight="bold")
+arrow(ax, (xm, 3.1), (xm, 2.75), color=SLATE)
+xp = 0.15 + 7.9 + 1.9
+ax.text(xp, 4.6, "What almost no one is offered", ha="center", va="center",
+        fontsize=12, color=RED, fontweight="bold")
+arrow(ax, (xp, 4.36), (xp, 3.87), color=RED)
+ax.set_xlim(0, 12.1); ax.set_ylim(0, 4.9); ax.axis("off")
+fig.tight_layout()
+plt.show()
+```
 
-The mammogram patient is asking about *role*. Almost no one is offered *performance*, the one a reasonable patient would most want.
+*Performance* is the one a reasonable patient would most want, and the one almost no one is offered.
+
+::: {.content-hidden when-format="revealjs"}
+Role can also run the other way: "Your doctor reviews what the AI decides."
+:::
 
 # When the AI Is Wrong, Who Answers? {.section-divider}
 
@@ -239,14 +308,38 @@ You are the nurse in that conversation.
 
 The law assigns its own percentages. Blame scatters across four parties: the [problem of many hands]{.key-term}.
 
-| Who | The legal hook | The problem with stopping here |
-|---|---|---|
-| **Clinician** | malpractice | blames the person who knows *least* about the model |
-| **Hospital** | negligence | hides behind "the doctor decided" |
-| **Vendor** | product liability | rarely tested in court; shielded by contracts |
-| **Regulator** | cleared it for sale | can't be sued; clearance isn't a guarantee |
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-alt: "Four parties in a ring around a harmed patient, each pointing to the next. Clinician: malpractice, knows the least about the model, and most of the weight lands here. Hospital: negligence, the doctor decided. Vendor: product liability, shielded by contracts. Regulator: cleared it for sale, cannot be sued."
+fig, ax = plt.subplots(figsize=(9.6, 4.3))
+W, H = 3.5, 1.45
+nodes = {"Clinician": (0.15, 2.28, "malpractice", "knows the least about the model"),
+         "Hospital": (4.25, 4.5, "negligence", "\u201cthe doctor decided\u201d"),
+         "Vendor": (8.35, 2.28, "product liability", "shielded by contracts"),
+         "Regulator": (4.25, 0.05, "cleared it for sale", "can't be sued")}
+for name, (x, y, hook, catch) in nodes.items():
+    hot = name == "Clinician"
+    box(ax, x, y, W, H, RED_T if hot else TEAL_T, RED if hot else TEAL, lw=2.4 if hot else 1.6)
+    ax.text(x + W / 2, y + H - 0.33, name, ha="center", va="center", fontsize=14, fontweight="bold", color=INK)
+    ax.text(x + W / 2, y + H / 2 - 0.05, hook, ha="center", va="center", fontsize=12, color=INK)
+    ax.text(x + W / 2, y + 0.3, catch, ha="center", va="center", fontsize=11, color=SLATE, style="italic")
+box(ax, 5.0, 2.55, 2.0, 0.9, GREY_T, "#94a3b8")
+ax.text(6.0, 3.0, "Patient harmed", ha="center", va="center", fontsize=11.5, color=INK)
+arrow(ax, (1.9, 3.8), (4.2, 5.2), rad=-0.25)
+arrow(ax, (7.8, 5.2), (10.1, 3.8), rad=-0.25)
+arrow(ax, (10.1, 2.2), (7.8, 0.8), rad=-0.25)
+arrow(ax, (4.2, 0.8), (1.9, 2.2), rad=-0.25)
+ax.text(0.15, 5.4, "Most of the weight\nlands here", fontsize=12, color=RED, fontweight="bold", va="center")
+arrow(ax, (0.9, 4.95), (0.9, 3.8), color=RED)
+ax.set_xlim(0, 12); ax.set_ylim(-0.05, 6.05); ax.axis("off")
+fig.tight_layout()
+plt.show()
+```
 
-Right now, most of the weight lands on the **clinician**.
+::: {.content-hidden when-format="revealjs"}
+The vendor's liability has rarely been tested in court, and a regulator's clearance is not a guarantee.
+:::
 
 ## The Clinician's Bind, the Vendor's Shield
 
@@ -254,9 +347,25 @@ Right now, most of the weight lands on the **clinician**.
 ::: {.column width="48%"}
 **The clinician's bind**
 
-- **Follow the AI** and it's wrong: "You outsourced your judgment."
-- **Override it** and you're wrong: "The warning was on your screen."
-- As AI becomes customary, the [standard of care]{.key-term} absorbs it. The safest move becomes *using AI as everyone else does*.
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-alt: "A fork. The AI fires an alert. If you follow it and the AI is wrong: you outsourced your judgment. If you override it and you are wrong: the warning was on your screen."
+fig, ax = plt.subplots(figsize=(4.8, 3.2))
+box(ax, 2.4, 7.5, 5.2, 1.2, TEAL_T, TEAL)
+ax.text(5, 8.1, "The AI fires an alert", ha="center", va="center", fontsize=13.5, fontweight="bold", color=INK)
+for x, mid, q in [(0.1, "You follow it,\nand the AI is wrong", "\u201cYou outsourced\nyour judgment.\u201d"),
+                  (5.2, "You override it,\nand you are wrong", "\u201cThe warning was\non your screen.\u201d")]:
+    box(ax, x, 4.6, 4.7, 1.7, GREY_T, "#94a3b8")
+    ax.text(x + 2.35, 5.45, mid, ha="center", va="center", fontsize=12.5, color=INK)
+    box(ax, x, 1.5, 4.7, 1.8, RED_T, RED)
+    ax.text(x + 2.35, 2.4, q, ha="center", va="center", fontsize=13, color=RED, fontweight="bold")
+    arrow(ax, (5, 7.45), (x + 2.35, 6.4))
+    arrow(ax, (x + 2.35, 4.55), (x + 2.35, 3.4), color=RED)
+ax.set_xlim(0, 10); ax.set_ylim(1.3, 8.9); ax.axis("off")
+fig.tight_layout()
+plt.show()
+```
 :::
 ::: {.column width="4%"}
 :::
@@ -270,6 +379,10 @@ Right now, most of the weight lands on the **clinician**.
 The party that knows the most about the failures carries the least exposure.
 :::
 ::::
+
+::: {.content-hidden when-format="revealjs"}
+As AI becomes customary, the [standard of care]{.key-term} absorbs it. The legally safest move becomes *using AI as everyone else does*.
+:::
 
 :::: {.content-hidden when-format="revealjs"}
 
@@ -325,11 +438,25 @@ Mental-health professional shortage areas (blue; darker means more severe). HRSA
 
 ## The Documented Harms
 
+:::: {.columns}
+::: {.column width="40%"}
+::: {style="background: #fdf3e1; border: 2px solid #b07d1a; border-radius: 18px; padding: 0.7em 0.9em; font-size: 1.15em; font-weight: 600; line-height: 1.3;"}
+"a small hit of meth to get through this week"
+:::
+
+::: {.attribution}
+What a companion chatbot told a fictional recovering meth user to take, in 2025 safety testing.
+:::
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="56%"}
 **Sycophancy**, telling users what they want to hear, is disqualifying in a therapist. Therapy's job is often the productive *no*.
 
 - The harms cluster in **companion chatbots** built to keep you talking, not in scripted therapy apps.
-- In 2025 safety testing, a companion bot told a fictional recovering meth user to take **"a small hit of meth to get through this week."**
 - Families of teenagers who died by suicide after months of chatbot use sued. In **January 2026**, Character.AI and Google agreed to settle [@cnn_characterai_2026]. The claim was **design defect**: the product *engineered the attachment*.
+:::
+::::
 
 ## The Illinois Ban, Run Through Mill
 
@@ -359,56 +486,104 @@ Your longtime patient, isolated and depressed, says her companion chatbot is "th
 ## Tool Harms and Relationship Harms
 
 :::: {.columns}
-::: {.column width="48%"}
-**Tool harm**
-
-- A wrong answer, such as an invented drug interaction.
-- **Accuracy fixes it.**
-- Disclaimers, disclosure rules, and accuracy standards all aim here.
+::: {.column width="46%"}
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-cap: "An illustration, not data."
+#| fig-alt: "Two lines against a bot that grows more accurate, fluent and empathetic. Tool harm falls. Relationship harm rises."
+fig, ax = plt.subplots(figsize=(4.7, 3.4))
+x = np.linspace(0, 1, 50)
+ax.plot(x, 0.82 - 0.62 * x, color=TEAL, lw=3.5)
+ax.plot(x, 0.2 + 0.62 * x, color=RED, lw=3.5)
+ax.text(0.02, 0.9, "Tool harm", color=TEAL, fontsize=13, fontweight="bold")
+ax.text(0.98, 0.9, "Relationship harm", color=RED, fontsize=13, fontweight="bold", ha="right")
+ax.set_xlim(0, 1); ax.set_ylim(0, 1)
+ax.set_xticks([]); ax.set_yticks([])
+ax.set_xlabel("A more accurate, fluent, empathetic bot  \u2192", fontsize=11.5, color=INK)
+ax.set_ylabel("Harm", fontsize=11.5, color=INK)
+ax.spines[["top", "right"]].set_visible(False)
+fig.tight_layout()
+plt.show()
+```
 :::
 ::: {.column width="4%"}
 :::
-::: {.column width="48%"}
-**Relationship harm**
+::: {.column width="50%"}
+**Tool harm**: a wrong answer, such as an invented drug interaction. **Accuracy fixes it**, and disclaimers, disclosure rules, and accuracy standards all aim here.
 
-- An attachment the product was built to create.
-- A more fluent, more empathetic bot makes it **worse**.
-- The design-defect lawsuits and the Illinois ban are the first legal tools aimed here.
+**Relationship harm**: an attachment the product was built to create. A better bot makes it **worse**. The design-defect lawsuits and the Illinois ban are the first legal tools aimed here.
 :::
 ::::
 
 ## Your Chatbot Confession Isn't Protected
 
-**HIPAA protects health information only when certain entities hold it**: providers, insurers, and their contractors. A consumer chatbot is none of those.
+**HIPAA protects health information only when certain entities hold it.**
 
-- What you type is covered only by the company's privacy policy, which it can change. Chat logs can be **subpoenaed**.
-- Yet people tell companion bots about suicidality, addiction, and abuse: *exactly* the disclosures HIPAA was built to guard.
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-alt: "A wall. Inside HIPAA: providers, insurers and their contractors, where federal privacy law applies. Outside: the consumer chatbot, covered only by the company's privacy policy, with chat logs that can be subpoenaed."
+fig, ax = plt.subplots(figsize=(9.6, 2.9))
+ax.add_patch(Rectangle((0.1, 0.1), 6.3, 3.8, fc=TEAL_T, ec=TEAL, lw=1.6))
+ax.text(0.4, 3.4, "Inside HIPAA", fontsize=15, fontweight="bold", color=TEAL, va="center")
+for i, t in enumerate(["Providers", "Insurers", "Their\ncontractors"]):
+    box(ax, 0.4 + i * 2.0, 1.45, 1.8, 1.2, "white", TEAL)
+    ax.text(1.3 + i * 2.0, 2.05, t, ha="center", va="center", fontsize=12, color=INK)
+ax.text(0.4, 0.7, "Federal privacy law applies.", fontsize=12, color=INK, va="center")
+ax.plot([6.75, 6.75], [0, 4], color=SLATE, lw=9, solid_capstyle="butt")
+ax.add_patch(Rectangle((7.1, 0.1), 4.8, 3.8, fc=RED_T, ec=RED, lw=1.6))
+ax.text(7.4, 3.4, "Outside", fontsize=15, fontweight="bold", color=RED, va="center")
+box(ax, 7.4, 1.75, 2.9, 0.95, "white", RED)
+ax.text(8.85, 2.225, "Consumer chatbot", ha="center", va="center", fontsize=12, color=INK)
+ax.text(7.4, 1.15, "Only the company's privacy policy", fontsize=11.5, color=INK, va="center")
+ax.text(7.4, 0.55, "Chat logs can be subpoenaed", fontsize=11.5, color=INK, va="center")
+ax.set_xlim(0, 12); ax.set_ylim(0, 4); ax.axis("off")
+fig.tight_layout()
+plt.show()
+```
+
+- People tell companion bots about suicidality, addiction, and abuse: *exactly* the disclosures HIPAA was built to guard.
 - **The less medical the setting feels, the less protected the disclosure.**
 
 ::: {.content-hidden when-format="revealjs"}
-Even *inside* the HIPAA wall, a scribe vendor's contract may allow your visit to train the next model.
+A chatbot company can change its privacy policy at will. And even *inside* the HIPAA wall, a scribe vendor's contract may allow your visit to train the next model.
 :::
 
 # The Clinician Between Machine and Patient {.section-divider}
 
 ## Automation Bias and Its Mirror
 
+```{python}
+#| echo: false
+#| fig-align: center
+#| fig-alt: "A spectrum. At one end, algorithm aversion: trusting the tool too little. At the other, automation bias: trusting the tool too much. Calibrated sits in the middle."
+fig, ax = plt.subplots(figsize=(9.6, 1.9))
+cmap = LinearSegmentedColormap.from_list("cal", [RED, "#f2b8b0", TEAL, "#f2b8b0", RED])
+ax.imshow(np.linspace(0, 1, 400).reshape(1, -1), extent=(0.5, 11.5, 1.05, 1.5), cmap=cmap, aspect="auto")
+ax.plot([6], [0.88], marker="^", markersize=13, color=TEAL)
+ax.text(6, 0.38, "Calibrated", ha="center", va="center", fontsize=14, fontweight="bold", color=TEAL)
+ax.text(0.5, 2.05, "Algorithm aversion", ha="left", va="center", fontsize=14, fontweight="bold", color=RED)
+ax.text(11.5, 2.05, "Automation bias", ha="right", va="center", fontsize=14, fontweight="bold", color=RED)
+ax.text(0.5, 0.6, "trusting the tool too little", ha="left", va="center", fontsize=12, color=INK)
+ax.text(11.5, 0.6, "trusting the tool too much", ha="right", va="center", fontsize=12, color=INK)
+ax.set_xlim(0, 12); ax.set_ylim(0, 2.4); ax.axis("off")
+fig.tight_layout()
+plt.show()
+```
+
 :::: {.columns}
 ::: {.column width="48%"}
-**Automation bias**
-
-Letting the machine's answer *replace* your own. The resident drops a working hunch because the risk score is low.
+Abandoning a *good* tool after one visible error, while forgiving colleagues the same mistake. The unit ignores a validated alarm after one bad month.
 :::
 ::: {.column width="4%"}
 :::
 ::: {.column width="48%"}
-**Algorithm aversion**
-
-Abandoning a *good* tool after one visible error, while forgiving colleagues the same mistake. The unit ignores a validated alarm after one bad month.
+Letting the machine's answer *replace* your own. The resident drops a working hunch because the risk score is low.
 :::
 ::::
 
-Both are failures of **calibration**, and both have hurt patients. The skill isn't trusting AI or distrusting it. It's *knowing which error you're making right now*.
+Both are failures of **calibration**. The skill is *knowing which error you're making right now*.
 
 ## The Deskilling Worry, Now With Data
 
